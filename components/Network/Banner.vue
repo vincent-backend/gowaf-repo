@@ -1,0 +1,271 @@
+<script lang="ts" setup>
+const curTab = ref(0);
+</script>
+
+<template>
+  <div class="banner-container">
+    <div class="page-container banner">
+      <div class="tabs">
+        <a href="#" v-for="tab, index in $tm('network.overview.tabs')" :class="{ current: index === curTab }"
+          @click.prevent="curTab = index">
+          {{ tab }}
+        </a>
+      </div>
+      <div class="content">
+        <div class="title-0">
+          {{ $t('network.overview.title0') }}
+        </div>
+        <div class="title-1">
+          {{ $t('network.overview.title1') }}
+        </div>
+        <div class="title-2">
+          {{ $t('network.overview.title2') }}
+        </div>
+      </div>
+      <div class="dots">
+        <div class="dot dot-blue"></div>
+        <div class="dot dot-cyanogen"></div>
+        <div class="dot dot-orange"></div>
+        <div class="dot dot-green"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-pink"></div>
+      </div>
+      <div class="legend-container">
+        <div class="legend-item">
+          <div class="icon icon-blue"></div>
+          <div class="text">
+            Europe
+            <span class="count">(35)</span>
+          </div>
+        </div>
+
+        <div class="legend-item">
+          <div class="icon icon-cyanogen"></div>
+          <div class="text">
+            Europe
+            <span class="count">(35)</span>
+          </div>
+        </div>
+
+        <div class="legend-item">
+          <div class="icon icon-orange"></div>
+          <div class="text">
+            Europe
+            <span class="count">(35)</span>
+          </div>
+        </div>
+
+        <div class="legend-item">
+          <div class="icon icon-green"></div>
+          <div class="text">
+            Europe
+            <span class="count">(35)</span>
+          </div>
+        </div>
+
+        <div class="legend-item">
+          <div class="icon icon-yellow"></div>
+          <div class="text">
+            Europe
+            <span class="count">(35)</span>
+          </div>
+        </div>
+
+        <div class="legend-item">
+          <div class="icon icon-pink"></div>
+          <div class="text">
+            Middle East & Africa
+            <span class="count">(35)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="less" scoped>
+.banner-container {
+  height: 840px;
+  min-width: 1200px;
+  background: url(/public/images/network/Network_Overview_map.png) no-repeat center;
+  background-size: 1920px 840px;
+
+  .banner {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+
+    >.tabs {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+      a {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        border: 1px solid #FFFFFF;
+        padding: 9px 16px;
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000000;
+        line-height: 22px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+
+        &.current {
+          background: #000;
+          border-color: #000;
+          color: #FFF;
+        }
+      }
+    }
+
+    >.content {
+      margin-top: 40px;
+
+      .title-0 {
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 30px;
+        color: #000000;
+        line-height: 40px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+
+      .title-1 {
+        margin-top: 8px;
+
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 50px;
+        color: #000000;
+        line-height: 70px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+
+      .title-2 {
+        margin-top: 20px;
+
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4E4E4E;
+        line-height: 24px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+
+    >.dots {
+      position: absolute;
+      left: 187px;
+      top: 277px;
+
+      .dot {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+
+        &.dot-blue {
+          background: url(/public/images/network/Network_Overview_banner_map_Europe.png) no-repeat;
+        }
+
+        &.dot-cyanogen {
+          background: url(/public/images/network/Network_Overview_banner_map_LATAM.png) no-repeat;
+        }
+
+        &.dot-orange {
+          background: url(/public/images/network/Network_Overview_banner_map_Oceania.png) no-repeat;
+        }
+
+        &.dot-green {
+          background: url(/public/images/network/Network_Overview_banner_map_Asia.png) no-repeat;
+        }
+
+        &.dot-yellow {
+          background: url(/public/images/network/Network_Overview_banner_map_North.png) no-repeat;
+        }
+
+        &.dot-pink {
+          background: url(/public/images/network/Network_Overview_banner_map_Middle.png) no-repeat;
+        }
+      }
+    }
+
+    >.legend-container {
+      position: absolute;
+      left: 0;
+      bottom: 20px;
+
+      box-sizing: border-box;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0px 14px 20px 0px #C9D8DA;
+      border-radius: 14px;
+      backdrop-filter: blur(5px);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+
+        .icon {
+          width: 14px;
+          height: 14px;
+
+          &.icon-blue {
+            background: url(/public/images/network/Network_Overview_banner_node_Europe.png);
+          }
+
+          &.icon-cyanogen {
+            background: url(/public/images/network/Network_Overview_banner_node_LATAM.png);
+          }
+
+          &.icon-orange {
+            background: url(/public/images/network/Network_Overview_banner_node_Oceania.png);
+          }
+
+          &.icon-green {
+            background: url(/public/images/network/Network_Overview_banner_node_Asia.png);
+          }
+
+          &.icon-yellow {
+            background: url(/public/images/network/Network_Overview_banner_node_North.png);
+          }
+
+          &.icon-pink {
+            background: url(/public/images/network/Network_Overview_banner_node_Middle.png);
+          }
+        }
+
+        .text {
+          margin-left: 12px;
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 16px;
+          color: #4E4E4E;
+          line-height: 24px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+
+          .count {
+            color: #4E4E4E;
+            opacity: .5;
+          }
+        }
+      }
+    }
+  }
+}
+</style>

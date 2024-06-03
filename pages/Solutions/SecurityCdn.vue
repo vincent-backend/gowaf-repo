@@ -1,0 +1,34 @@
+<template>
+  <Header />
+
+  <CommonHeader1 :pre-title="$t('solutions.securityCdn.header.preTitle')"
+    :title="$t('solutions.securityCdn.header.title')" :content="$t('solutions.securityCdn.header.content')"
+    :btn="$t('solutions.securityCdn.header.btn')" href="#" :hint="$t('solutions.securityCdn.header.hint')"
+    pic="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_banner_graph_1@2x.png" pic-width="460px"
+    pic-height="404px" />
+
+  <SolutionsFeatureList2 :title="$t('solutions.securityCdn.features2.title')"
+    :sub-title="$t('solutions.securityCdn.features2.subTitle')" :items="$tm('solutions.securityCdn.features2.items')" />
+
+  <CommonSuperCharge :title="$t('solutions.securityCdn.goFaster.title')"
+    :sub-title="$t('solutions.securityCdn.goFaster.subTitle')" :tabs="$tm('solutions.securityCdn.goFaster.tabs')" />
+
+  <SolutionsAd1 :title="$t('solutions.securityCdn.ad1.title')" :sub-title="$t('solutions.securityCdn.ad1.subTitle')"
+    :btn="$t('solutions.securityCdn.ad1.btn')" href="#"
+    pic="/images/solutions/security-cdn/Network_DDoS_banner_graph_2@2x.png" pic-width="238px" pic-height="242px" />
+
+  <CommonList1 :title1="$t('solutions.securityCdn.list1.title')" :title2="$t('solutions.securityCdn.list1.subTitle')"
+    :items="$tm('solutions.securityCdn.list1.items')" />
+
+  <SolutionsChart1 :title="$t('solutions.securityCdn.chart1.title')"
+    :sub-title="$t('solutions.securityCdn.chart1.subTitle')" pic="/images/solutions/security-cdn/network-edge@2x.png"
+    pic-height="580px" />
+
+  <NetworkJoin1 :title="$t('solutions.securityCdn.join1.title')"
+    :person-name="$t('solutions.securityCdn.join1.person.name')"
+    :person-title="$t('solutions.securityCdn.join1.person.title')"
+    :person-content="$t('solutions.securityCdn.join1.person.content')"
+    person-avatar="/images/solutions/security-cdn/Network_Overview_evaluate_character@2x.png" />
+
+  <Footer />
+</template>

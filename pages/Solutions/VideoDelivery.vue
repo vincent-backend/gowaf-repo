@@ -1,0 +1,80 @@
+<template>
+  <Header />
+
+  <CommonHeader1 :pre-title="$t('solutions.videoDelivery.header.preTitle')"
+    :title="$t('solutions.videoDelivery.header.title')" :content="$t('solutions.videoDelivery.header.content')"
+    :btn="$t('solutions.videoDelivery.header.btn')" href="#" :hint="$t('solutions.videoDelivery.header.hint')"
+    pic="/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_1.png" pic-width="362px"
+    pic-height="338px" :show-foot="false" />
+
+  <CommonNumbers style="margin-top: 60px;" :items="$tm('solutions.videoDelivery.numbers')" />
+
+  <CommonSuperCharge :title="$t('solutions.videoDelivery.superCharge.title')"
+    :sub-title="$t('solutions.videoDelivery.superCharge.subTitle')"
+    :tabs="$tm('solutions.videoDelivery.superCharge.tabs')" />
+
+  <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
+    :btn="$t('solutions.videoDelivery.ad1.btn')" href="#"
+    pic="/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2.png" pic-width="300px"
+    pic-height="264px" />
+
+  <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
+    :items="$tm('solutions.videoDelivery.list2')" />
+
+
+  <div class="map-container">
+    <div class="title">{{ $t('solutions.videoDelivery.map.title') }}</div>
+    <div class="sub-title">{{ $t('solutions.videoDelivery.map.subTitle') }}</div>
+    <NetworkBanner class="map-container" />
+  </div>
+
+  <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.videoDelivery.numbers2')" />
+
+  <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" />
+
+  <PricingCalculate1 />
+  <SolutionsSupportPlan />
+
+  <NetworkJoin1 :title="$t('solutions.videoDelivery.join1.title')"
+    :person-name="$t('solutions.videoDelivery.join1.person.name')"
+    :person-title="$t('solutions.videoDelivery.join1.person.title')"
+    :person-content="$t('solutions.videoDelivery.join1.person.content')"
+    person-avatar="/images/solutions/video-delivery/Network_Overview_evaluate_character.png" />
+
+  <Footer />
+</template>
+
+<style lang="less" scoped>
+.map-container {
+  margin-top: 120px;
+
+  >.title {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+  }
+
+  >.sub-title {
+    margin: 20px auto 0;
+
+    width: 912px;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4E4E4E;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+  }
+
+  .map-container {
+    margin-top: 40px;
+  }
+}
+</style>

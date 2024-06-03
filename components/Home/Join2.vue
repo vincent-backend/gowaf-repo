@@ -1,0 +1,219 @@
+<template>
+  <div class="join2-container">
+    <div class="page-container join2">
+      <div class="title">
+        {{ $t('home.join2.title') }}
+      </div>
+      <div class="sub-title">
+        <span class="s-1">{{ $t('home.join2.subTitle1') }}</span>
+        <span class="s-2"></span>
+        <span class="s-3">{{ $t('home.join2.subTitle3') }}</span>
+        <span class="s-4">{{ $t('home.join2.subTitle4') }}</span>
+        <a href="#" class="s-5">{{ $t('home.join2.subTitle5') }}</a>
+        <span class="s-6">{{ $t('home.join2.subTitle6') }}</span>
+      </div>
+      <div class="list">
+        <div class="item" v-for="item in $tm('home.join2.list')">
+          <div class="person">
+            <div class="left">
+              <div class="avatar" :style="{
+          backgroundImage: `url(/images/home/${item.avatar}.png)`,
+        }"></div>
+            </div>
+            <div class="right">
+              <div class="name">
+                {{ item.name }}
+              </div>
+              <div class="date">
+                {{ item.date }}
+              </div>
+            </div>
+          </div>
+          <div class="rank">
+            <div class="rank-item"></div>
+            <div class="rank-item"></div>
+            <div class="rank-item"></div>
+            <div class="rank-item"></div>
+            <div class="rank-item"></div>
+          </div>
+          <div class="title">
+            {{ item.title }}
+          </div>
+          <div class="content">
+            {{ item.content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="less" scoped>
+.join2-container {
+  margin-top: 150px;
+
+  .join2 {
+    >.title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 30px;
+      color: #000000;
+      line-height: 42px;
+      text-align: center;
+    }
+
+    >.sub-title {
+      margin-top: 20px;
+
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4E4E4E;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .s-1 {}
+
+      .s-2 {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url(/public/images/home/home_title_star.png) no-repeat;
+        margin: 0 10px;
+      }
+
+      .s-3 {
+        color: #FA9B3B;
+        margin-right: 10px;
+      }
+
+      .s-4 {}
+
+      .s-5 {
+        color: #0EBF6A;
+        text-decoration: underline;
+        margin: 0 10px;
+      }
+
+      .s-6 {}
+    }
+
+    >.list {
+      margin-top: 60px;
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      >.item {
+        box-sizing: border-box;
+        width: 386px;
+        height: 410px;
+        padding: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px 0px #F1F1F1;
+        border-radius: 14px;
+        border: 1px solid #E6E6E6;
+        display: flex;
+        flex-direction: column;
+
+        .person {
+          display: flex;
+
+          .left {
+            .avatar {
+              width: 60px;
+              height: 60px;
+            }
+          }
+
+          .right {
+            margin-left: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .name {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 500;
+              font-size: 20px;
+              color: #000000;
+              line-height: 28px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+
+            .date {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 400;
+              font-size: 16px;
+              color: #4E4E4E;
+              line-height: 24px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+          }
+        }
+
+        .rank {
+          margin-top: 20px;
+          display: flex;
+          justify-content: flex-start;
+          gap: 8px;
+
+          .rank-item {
+            width: 28px;
+            height: 28px;
+            border-radius: 4px;
+            background: rgba(255, 252, 235, 0.7);
+            box-shadow: inset 0px 1px 0px 0px #FFFFFF;
+            border-radius: 4px;
+            backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &::before {
+              content: '';
+              width: 16px;
+              height: 16px;
+              background: url(/public/images/home/home_title_star.png) no-repeat;
+              background-size: 100%;
+            }
+          }
+        }
+
+        .title {
+          margin-top: 20px;
+
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 24px;
+          color: #000000;
+          line-height: 33px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+
+        .content {
+          margin-top: 10px;
+
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 16px;
+          color: #4E4E4E;
+          line-height: 24px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}
+</style>

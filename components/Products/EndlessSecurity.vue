@@ -1,0 +1,124 @@
+<template>
+  <div class="endless-security-container">
+    <div class="endless-security page-container">
+      <div class="title">{{ $t('products.stream.multiDRM.endlessSecurity.title') }}</div>
+      <div class="sub-title">{{ $t('products.stream.multiDRM.endlessSecurity.subTitle') }}</div>
+      <div class="content">
+        <CommonMultiLine class="tag tag-1" :text="$t('products.stream.multiDRM.endlessSecurity.content.sourceVideo')" />
+        <CommonMultiLine class="tag tag-2" :text="$t('products.stream.multiDRM.endlessSecurity.content.drmService')" />
+        <CommonMultiLine class="tag tag-3" :text="$t('products.stream.multiDRM.endlessSecurity.content.generateKey')" />
+        <CommonMultiLine class="tag tag-4" :text="$t('products.stream.multiDRM.endlessSecurity.content.contentKey')" />
+        <CommonMultiLine class="tag tag-5" :text="$t('products.stream.multiDRM.endlessSecurity.content.transcode')" />
+        <CommonMultiLine class="tag tag-6"
+          :text="$t('products.stream.multiDRM.endlessSecurity.content.packageEncryption')" />
+        <CommonMultiLine class="tag tag-7" :text="$t('products.stream.multiDRM.endlessSecurity.content.storage')" />
+        <CommonMultiLine class="tag tag-8" :text="$t('products.stream.multiDRM.endlessSecurity.content.watermark')" />
+        <CommonMultiLine class="tag tag-9" :text="$t('products.stream.multiDRM.endlessSecurity.content.cdn')" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="less" scoped>
+.endless-security-container {
+  margin-top: 120px;
+
+  .endless-security {
+    >.title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 30px;
+      color: #000000;
+      line-height: 42px;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+    }
+
+    >.sub-title {
+      margin-top: 18px;
+
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4E4E4E;
+      line-height: 24px;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+    }
+
+    >.content {
+      margin-top: 60px;
+
+      height: 1041px;
+      background: url(/public/images/products/stream/multi-drm/stream_mulitdrm_3_img@2x.png) center;
+      background-size: 1508px 1041px;
+      position: relative;
+
+      .tag {
+        position: absolute;
+
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4E4E4E;
+        line-height: 20px;
+        text-align: center;
+        font-style: normal;
+        text-transform: none;
+
+        width: 600px;
+        margin-left: -300px;
+
+        &.tag-1 {
+          top: 300px;
+          left: 600px;
+        }
+
+        &.tag-2 {
+          top: 580px;
+          left: 600px;
+        }
+
+        &.tag-3 {
+          top: 700px;
+          left: 490px;
+        }
+
+        &.tag-4 {
+          top: 700px;
+          left: 710px;
+        }
+
+        &.tag-5 {
+          top: 850px;
+          left: 310px;
+        }
+
+        &.tag-6 {
+          top: 850px;
+          left: 600px;
+        }
+
+        &.tag-7 {
+          top: 850px;
+          left: 880px;
+        }
+
+        &.tag-8 {
+          top: 1040px;
+          left: 320px;
+        }
+
+        &.tag-9 {
+          top: 1040px;
+          left: 880px;
+        }
+      }
+    }
+
+    >.content {}
+  }
+}
+</style>
