@@ -28,22 +28,14 @@ const props = defineProps({
 
       line-height: 64px;
 
-
-
       background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .number-content {
-
-
       font-size: 16px;
       color: #4E4E4E;
-
-
-
-
     }
   }
 
@@ -66,5 +58,27 @@ const props = defineProps({
     left: 976px;
     top: 36px;
   }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .numbers {
+
+    .number {
+
+      .number-title {}
+
+      .number-content {}
+    }
+
+    .n-0 {}
+
+    .n-1 {}
+
+    .n-2 {}
+
+    .n-3 {}
+  }
+
 }
 </style>

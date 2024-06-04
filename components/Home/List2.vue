@@ -41,27 +41,16 @@
 
   .list2 {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
-
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
-
-
-
     }
 
     >.features {
@@ -85,7 +74,6 @@
           .icon {
             width: 44px;
             height: 44px;
-
           }
         }
 
@@ -96,11 +84,7 @@
 
             font-weight: 500;
             font-size: 20px;
-
             line-height: 28px;
-
-
-
             display: flex;
             align-items: center;
 
@@ -112,16 +96,11 @@
               display: flex;
               align-items: center;
               justify-content: center;
-
               font-family: PingFang-SC, PingFang-SC;
               font-weight: bold;
               font-size: 12px;
               color: #FFFFFF;
               line-height: 17px;
-
-
-
-
               margin-left: 10px;
             }
           }
@@ -129,14 +108,48 @@
           >.content {
             margin-top: 10px;
 
-
-
             font-size: 16px;
-
             line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
 
+// For mobile devices
+@media (max-width: 767px) {
+  .list2-container {
+    padding-top: 6.25rem;
 
+    .list2 {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
 
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+      }
+
+      >.features {
+
+        >.feature {
+
+          >.left {
+            .icon {}
+          }
+
+          >.right {
+
+            >.title {
+              .coming-soon {}
+            }
+
+            >.content {}
           }
         }
       }
