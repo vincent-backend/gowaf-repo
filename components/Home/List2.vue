@@ -17,11 +17,14 @@
             <div class="icon" :style="{
           backgroundImage: `url(/images/home/${item.icon}.png)`,
         }"></div>
+            <span class="coming-soon xs-only" v-if="item.comingSoon">
+              Coming Soon
+            </span>
           </div>
           <div class="right">
             <div class="title">
               {{ item.title }}
-              <span class="coming-soon" v-if="item.comingSoon">
+              <span class="coming-soon lg-only" v-if="item.comingSoon">
                 Coming Soon
               </span>
             </div>
@@ -91,8 +94,7 @@
             .coming-soon {
               width: 100px;
               height: 24px;
-              background: url(/public/images/home/home_card_tag_bg.png) no-repeat;
-              background-size: 100%;
+              background-image: url(/public/images/home/home_card_tag_bg.png);
               display: flex;
               align-items: center;
               justify-content: center;
@@ -136,20 +138,54 @@
       }
 
       >.features {
+        margin-top: 3.56rem;
 
         >.feature {
+          width: 50%;
+          flex-direction: column;
+          padding: 2.63rem 2.13rem 4.81rem 1.25rem;
 
           >.left {
-            .icon {}
+            display: flex;
+            align-items: center;
+
+            .icon {
+              width: 4.13rem;
+              height: 4.13rem;
+            }
+
+            .coming-soon {
+              margin-left: 1.88rem;
+
+              width: 9.38rem;
+              height: 1.88rem;
+              background-image: url(/public/images/home/home_card_tag_bg@2x.png);
+
+              font-size: 1.25rem;
+              line-height: 1.75rem;
+              color: #FFFFFF;
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
           }
 
           >.right {
+            margin-left: 0;
+            margin-top: 1.63rem;
 
             >.title {
-              .coming-soon {}
+              font-size: 2.13rem;
+              line-height: 3rem;
             }
 
-            >.content {}
+            >.content {
+              margin-top: 0.25rem;
+
+              font-size: 1.5rem;
+              line-height: 2.19rem;
+            }
           }
         }
       }
