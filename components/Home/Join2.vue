@@ -54,10 +54,8 @@
 
   .join2 {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
@@ -65,11 +63,8 @@
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       display: flex;
       align-items: center;
       justify-content: center;
@@ -136,25 +131,14 @@
             justify-content: center;
 
             .name {
-
               font-weight: 500;
               font-size: 20px;
-
               line-height: 28px;
-
-
-
             }
 
             .date {
-
-
               font-size: 16px;
               color: #4E4E4E;
-
-
-
-
             }
           }
         }
@@ -190,27 +174,65 @@
         .title {
           margin-top: 20px;
 
-
           font-weight: 500;
           font-size: 24px;
-
           line-height: 33px;
-
-
-
         }
 
         .content {
           margin-top: 10px;
 
-
-
           font-size: 16px;
           color: #4E4E4E;
+        }
+      }
+    }
+  }
+}
 
+// For mobile devices
+@media (max-width: 767px) {
+  .join2-container {
+    .join2 {
+      >.title {}
 
+      >.sub-title {
+        .s-1 {}
 
+        .s-2 {}
 
+        .s-3 {}
+
+        .s-4 {}
+
+        .s-5 {}
+
+        .s-6 {}
+      }
+
+      >.list {
+        >.item {
+          .person {
+            .left {
+              .avatar {}
+            }
+
+            .right {
+              .name {}
+
+              .date {}
+            }
+          }
+
+          .rank {
+            .rank-item {
+              &::before {}
+            }
+          }
+
+          .title {}
+
+          .content {}
         }
       }
     }
