@@ -25,9 +25,7 @@ const props = defineProps({
       font-family: Mont, Mont;
       font-weight: 600;
       font-size: 48px;
-
       line-height: 64px;
-
       background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -63,21 +61,39 @@ const props = defineProps({
 // For mobile devices
 @media (max-width: 767px) {
   .numbers {
+    height: 20.81rem;
 
     .number {
+      .number-title {
+        font-size: 3.13rem;
+        line-height: 4.13rem;
+      }
 
-      .number-title {}
-
-      .number-content {}
+      .number-content {
+        font-size: 1.5rem;
+        line-height: 2.06rem;
+      }
     }
 
-    .n-0 {}
+    .n-0 {
+      left: 0;
+      top: 0;
+    }
 
-    .n-1 {}
+    .n-1 {
+      left: 21.56rem;
+      top: 2.25rem;
+    }
 
-    .n-2 {}
+    .n-2 {
+      left: 0;
+      top: 12.19rem;
+    }
 
-    .n-3 {}
+    .n-3 {
+      left: 21.56rem;
+      top: 14.63rem;
+    }
   }
 
 }
