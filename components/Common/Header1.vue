@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { isMobile } from '~/utils/isMobile';
+
 const props = defineProps({
   preTitle: String,
   title: String,
@@ -6,14 +8,24 @@ const props = defineProps({
   btn: String,
   href: String,
   hint: String,
-  pic: String,
-  picWidth: String,
-  picHeight: String,
+  pic: Object,
+  /*
+  pic: {
+    src: string,
+    w: string,
+    h: string,
+    mw: string,
+    mh: string,
+  },
+  */
   showFoot: {
     type: Boolean,
     default: true,
   },
 });
+
+const picW = isMobile ? props.pic!.mw : props.pic!.w;
+const picH = isMobile ? props.pic!.mh : props.pic!.h;
 </script>
 
 <template>
@@ -25,14 +37,14 @@ const props = defineProps({
         <div class="pre-title" v-if="props.preTitle">{{ props.preTitle }}</div>
         <h2 class="title" v-if="props.title">{{ props.title }}</h2>
         <div class="content" v-if="props.content">{{ props.content }}</div>
-        <a :href="props.href" class="trail-btn" style="margin-top: 40px;" v-if="props.btn">{{ props.btn }}</a>
+        <a :href="props.href" class="trail-btn" v-if="props.btn">{{ props.btn }}</a>
         <div class="hint" v-if="props.hint">{{ props.hint }}</div>
       </div>
       <div class="right">
         <div class="pic" v-if="props.pic" :style="{
-    backgroundImage: `url(${props.pic})`,
-    width: props.picWidth,
-    height: props.picHeight,
+    backgroundImage: `url(${props.pic.src})`,
+    width: picW,
+    height: picH,
   }"></div>
       </div>
     </div>
@@ -105,18 +117,16 @@ const props = defineProps({
         color: #4E4E4E;
       }
 
+      .trail-btn {
+        margin-top: 40px;
+      }
+
       .hint {
         margin-top: 10px;
-
-
 
         font-size: 12px;
         color: #4E4E4E;
         opacity: .5;
-
-
-
-
       }
     }
 
@@ -162,8 +172,6 @@ const props = defineProps({
       }
 
       .sub-title {
-
-
         color: #4E4E4E;
       }
     }
@@ -217,6 +225,7 @@ const props = defineProps({
 
     .home-banner {
       flex-direction: column;
+      box-sizing: border-box;
       padding: 3.75rem 1.87rem 0;
 
       >.left {
@@ -230,7 +239,7 @@ const props = defineProps({
         .title {
           margin-top: 0.63rem;
 
-          width: auto;
+          width: 34.75rem;
           font-size: 3.5rem;
           line-height: 5rem;
         }
@@ -238,14 +247,89 @@ const props = defineProps({
         .content {
           margin-top: 1.5rem;
 
-          width: auto;
-
+          width: 39.5rem;
         }
 
-        .hint {}
+        .trail-btn {
+          margin-top: 3.13rem;
+        }
+
+        .hint {
+          margin-top: 1.87rem;
+          font-size: 1.38rem;
+        }
       }
 
-      >.right {}
+      >.right {
+        margin-top: 5rem;
+
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .bottom {
+      margin: 5rem auto 0;
+
+      width: 43.13rem;
+      height: 26.88rem;
+      background: rgba(255, 255, 255, 0.7);
+      box-shadow: 0rem -0.12rem 0rem 0rem #FFFFFF;
+      border-radius: 1.5rem 1.5rem 0rem 0rem;
+      backdrop-filter: blur(5px);
+      position: static;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 1.94rem 3.13rem 0;
+
+      .left {
+        padding: 0;
+
+        .title {
+          display: block;
+          font-size: 2.25rem;
+          font-weight: 500;
+          line-height: 1rem;
+
+          span {
+            line-height: 1rem;
+          }
+
+          .num {
+            font-size: 2.25rem;
+
+            margin: 0.5rem
+          }
+        }
+
+        .sub-title {
+          margin-top: 2rem;
+          font-size: 1.5rem;
+        }
+      }
+
+      .right {
+        margin-top: 0rem;
+
+        padding: 0;
+
+        .title {
+          font-size: 1.63rem;
+        }
+
+        .rate {
+          margin-top: 0.5rem;
+
+          .rate-item {
+            width: 2.63rem;
+            height: 2.63rem;
+          }
+        }
+
+        .sub-title {
+          margin-top: 0.3rem;
+        }
+      }
     }
   }
 }
