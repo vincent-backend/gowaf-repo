@@ -1,21 +1,21 @@
 <script lang="ts" setup>
-const items = [
-  'home_logo_1',
-  'home_logo_2',
-  'home_logo_3',
-  'home_logo_4',
-  'home_logo_5',
-  'home_logo_6',
-  'home_logo_7',
-  'home_logo_8',
-  'home_logo_9',
-  'home_logo_10',
-  'home_logo_11',
-  'home_logo_12',
-  'home_logo_13',
-  'home_logo_14',
-  'home_logo_15',
-  'home_logo_16',
+const imgs = [
+  '/images/home/home_logo_1@2x.png',
+  '/images/home/home_logo_2@2x.png',
+  '/images/home/home_logo_3@2x.png',
+  '/images/home/home_logo_4@2x.png',
+  '/images/home/home_logo_5@2x.png',
+  '/images/home/home_logo_6@2x.png',
+  '/images/home/home_logo_7@2x.png',
+  '/images/home/home_logo_8@2x.png',
+  '/images/home/home_logo_9@2x.png',
+  '/images/home/home_logo_10@2x.png',
+  '/images/home/home_logo_11@2x.png',
+  '/images/home/home_logo_12@2x.png',
+  '/images/home/home_logo_13@2x.png',
+  '/images/home/home_logo_14@2x.png',
+  '/images/home/home_logo_15@2x.png',
+  '/images/home/home_logo_16@2x.png',
 ];
 </script>
 
@@ -26,8 +26,8 @@ const items = [
         {{ $t('home.list1.title') }}
       </div>
       <div class="list">
-        <div class="list-item" v-for="name in items">
-          <img :src="`/images/home/${name}@2x.png`" />
+        <div class="list-item" v-for="img in imgs">
+          <img :src="img" />
         </div>
       </div>
     </div>

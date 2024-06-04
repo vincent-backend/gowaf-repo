@@ -226,7 +226,7 @@ const picH = isMobile ? props.pic!.mh : props.pic!.h;
     .home-banner {
       flex-direction: column;
       box-sizing: border-box;
-      padding: 3.75rem 1.87rem 0;
+      padding-top: 3.75rem;
 
       >.left {
         margin-top: 0;
