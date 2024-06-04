@@ -64,28 +64,16 @@
     padding-top: 100px;
 
     .title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
-
-
-
     }
 
     .sub-title {
       margin-top: 10px;
 
-
-
-
       color: #4E4E4E;
       opacity: .5;
-
-
-
-
     }
 
     .pic {
@@ -107,28 +95,17 @@
     >.left {
       >.title {
         width: 331px;
-
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
-
-
-
       }
 
       >.content {
         margin-top: 20px;
 
         width: 490px;
-
-
         font-size: 16px;
         color: #4E4E4E;
-
-
-
-
       }
 
       >.list {
@@ -151,12 +128,7 @@
             margin-left: 8px;
 
             font-weight: 500;
-
-
             line-height: 20px;
-
-
-
           }
         }
       }
@@ -191,30 +163,65 @@
             gap: 10px;
 
             .title {
-
               font-weight: 500;
               font-size: 20px;
-
               line-height: 28px;
-
-
-
             }
 
             .content {
-
-
               font-size: 16px;
               color: #4E4E4E;
-
-
-
-
             }
           }
         }
       }
     }
   }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .join-1-container {
+    .join-1 {
+      .title {}
+
+      .sub-title {}
+
+      .pic {}
+    }
+
+    .info-1 {
+      >.left {
+        >.title {}
+
+        >.content {}
+
+        >.list {
+          >.item {
+            .icon {}
+
+            .text {}
+          }
+        }
+      }
+
+      >.right {
+        .list {
+          .item {
+            .left {
+              .icon {}
+            }
+
+            .right {
+              .title {}
+
+              .content {}
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 </style>
