@@ -10,11 +10,13 @@ const curTab = defineModel('curTab', {
 </script>
 
 <template>
-  <div class="tabs">
-    <a v-for="tab, index in props.tabs" href="#" class="tab" :class="{ current: index === curTab }"
-      @click.prevent="$emit('update:curTab', index)">
-      {{ tab.tab }}
-    </a>
+  <div class="tabs-container">
+    <div class="tabs">
+      <a v-for="tab, index in props.tabs" href="#" class="tab" :class="{ current: index === curTab }"
+        @click.prevent="$emit('update:curTab', index)">
+        {{ tab.tab }}
+      </a>
+    </div>
   </div>
 </template>
 
@@ -43,6 +45,26 @@ const curTab = defineModel('curTab', {
     &.current {
       background: #000000;
       color: #FFF;
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .tabs {
+    margin-top: 2.5rem;
+
+    flex-wrap: wrap;
+    gap: 0.63rem;
+
+    .tab {
+      padding: 0.81rem 1.25rem;
+      font-size: 1.5rem;
+      line-height: 2.06rem;
+
+      word-break: keep-all;
+
+      &.current {}
     }
   }
 }
