@@ -18,7 +18,7 @@ const curTab = ref(0);
       <div class="sub-title">
         {{ props.subTitle }}
       </div>
-      <Line top="40px" />
+      <Line top="40px" m-top="2.5rem" />
 
       <CommonTabs :tabs="props.tabs" v-model:cur-tab="curTab" />
       <template v-for="tab, index in tabs">
@@ -54,10 +54,8 @@ const curTab = ref(0);
 
   .super-charge {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
@@ -65,11 +63,8 @@ const curTab = ref(0);
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
     }
 
@@ -97,15 +92,9 @@ const curTab = ref(0);
         justify-content: center;
 
         .title {
-
           font-weight: 500;
           font-size: 20px;
-
           line-height: 28px;
-
-
-
-
           display: flex;
           align-items: center;
 
@@ -118,15 +107,11 @@ const curTab = ref(0);
             display: flex;
             align-items: center;
             justify-content: center;
-
             font-family: PingFang-SC, PingFang-SC;
             font-weight: bold;
             font-size: 18px;
             color: #FFFFFF;
             line-height: 25px;
-
-
-
           }
         }
 
@@ -139,14 +124,47 @@ const curTab = ref(0);
           gap: 10px;
 
           p {
-
-
             font-size: 16px;
             color: #4E4E4E;
+          }
+        }
+      }
+    }
+  }
+}
 
+// For mobile devices
+@media (max-width: 767px) {
+  .super-charge-container {
+    margin-top: 6.25rem;
 
+    .super-charge {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
 
+      >.sub-title {
+        margin-top: 1rem;
 
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+      }
+
+      >.tabs-content {
+        margin-top: 4.25rem;
+
+        .left {
+          .icon {}
+        }
+
+        .right {
+          .title {
+            .title-tip {}
+          }
+
+          .content {
+            p {}
           }
         }
       }

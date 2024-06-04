@@ -193,13 +193,30 @@
 // For mobile devices
 @media (max-width: 767px) {
   .join2-container {
+    margin-top: 6.25rem;
+
     .join2 {
-      >.title {}
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
 
       >.sub-title {
+        margin-top: 1rem;
+
+        display: block;
+
         .s-1 {}
 
-        .s-2 {}
+        .s-2 {
+          display: inline-block;
+          width: 1.88rem;
+          height: 1.88rem;
+          margin: 0.5rem;
+          position: relative;
+          top: 0.7rem;
+        }
 
         .s-3 {}
 
@@ -211,28 +228,62 @@
       }
 
       >.list {
+        margin-top: 3.13rem;
+        gap: 1.25rem;
+
         >.item {
+          width: 100%;
+          height: auto;
+          padding: 1.88rem;
+
           .person {
             .left {
-              .avatar {}
+              .avatar {
+                width: 5.63rem;
+                height: 5.63rem;
+              }
             }
 
             .right {
-              .name {}
+              margin-left: 1.25rem;
 
-              .date {}
+              .name {
+                font-size: 1.88rem;
+                line-height: 2.63rem;
+              }
+
+              .date {
+                font-size: 1.38rem;
+                line-height: 1.88rem;
+              }
             }
           }
 
           .rank {
+            margin-top: 2rem;
+            gap: 0.75rem;
+
             .rank-item {
+              width: 2.63rem;
+              height: 2.63rem;
+
               &::before {}
             }
           }
 
-          .title {}
+          .title {
+            margin-top: 1.25rem;
 
-          .content {}
+            font-size: 2.25rem;
+            line-height: 3.13rem;
+          }
+
+          .content {
+            margin-top: 0.63rem;
+
+            font-size: 1.63rem;
+            line-height: 2.38rem;
+          }
         }
       }
     }
