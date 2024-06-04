@@ -66,14 +66,14 @@ const props = defineProps({
     >.title {
       width: 600px;
 
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
     }
 
     >.sub-title {
@@ -81,14 +81,14 @@ const props = defineProps({
       display: flex;
       align-items: center;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
+
 
       .s0 {}
 
@@ -145,11 +145,11 @@ const props = defineProps({
         font-family: PingFang-SC, PingFang-SC;
         font-weight: bold;
         font-size: 24px;
-        color: #000000;
+
         line-height: 34px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
         display: flex;
         align-items: center;
 
@@ -163,27 +163,27 @@ const props = defineProps({
       }
 
       .title {
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
 
       .content {
         margin-top: 30px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
     }
 
@@ -225,11 +225,11 @@ const props = defineProps({
             font-family: Mont, Mont;
             font-weight: 600;
             font-size: 30px;
-            color: #000000;
+
             line-height: 40px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
             background: linear-gradient(66.90432699443122deg, #F9C22F 0%, #FA6E4A 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;

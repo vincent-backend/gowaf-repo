@@ -61,27 +61,27 @@
       margin-top: 60px;
 
       >.title {
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
-        color: #000000;
+
         line-height: 42px;
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
       }
 
       >.sub-title {
         margin-top: 18px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
-        color: #000000;
+
         line-height: 22px;
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
       }
 
       >.section-1 {
@@ -89,53 +89,53 @@
 
         >.left {
           >.title1 {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 24px;
-            color: #000000;
+
             line-height: 33px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.content1 {
             margin-top: 18px;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
+
+
             font-size: 16px;
-            color: #000000;
+
             line-height: 22px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.title2 {
             margin-top: 30px;
 
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 24px;
-            color: #000000;
+
             line-height: 33px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.content2 {
             margin-top: 18px;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
+
+
             font-size: 16px;
-            color: #000000;
+
             line-height: 22px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.list {
@@ -149,34 +149,33 @@
               >.icon {
                 width: 10px;
                 height: 10px;
-                background-color: #000000;
-                border-radius: 50%;
+                background- border-radius: 50%;
               }
 
               >.label {
                 margin-left: 10px;
 
-                font-family: PingFangSC, PingFang SC;
+
                 font-weight: 500;
                 font-size: 16px;
-                color: #000000;
+
                 line-height: 22px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
 
               >.text {
                 margin-left: 20px;
 
-                font-family: PingFangSC, PingFang SC;
-                font-weight: 400;
+
+
                 font-size: 16px;
-                color: #000000;
+
                 line-height: 22px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
             }
           }

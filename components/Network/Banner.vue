@@ -106,14 +106,14 @@ const curTab = ref(0);
         border-radius: 20px;
         border: 1px solid #FFFFFF;
         padding: 9px 16px;
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 600;
         font-size: 16px;
-        color: #000000;
+
         line-height: 22px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
 
         &.current {
           background: #000;
@@ -130,11 +130,11 @@ const curTab = ref(0);
         font-family: Mont, Mont;
         font-weight: bold;
         font-size: 30px;
-        color: #000000;
+
         line-height: 40px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       .title-1 {
@@ -143,24 +143,24 @@ const curTab = ref(0);
         font-family: Mont, Mont;
         font-weight: bold;
         font-size: 50px;
-        color: #000000;
+
         line-height: 70px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       .title-2 {
         margin-top: 20px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
+
+
+
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
     }
 
@@ -250,14 +250,14 @@ const curTab = ref(0);
 
         .text {
           margin-left: 12px;
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
+
+
           font-size: 16px;
           color: #4E4E4E;
-          line-height: 24px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
+
 
           .count {
             color: #4E4E4E;

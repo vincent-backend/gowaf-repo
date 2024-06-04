@@ -41,14 +41,14 @@ const checked = ref(false);
   .text {
     margin-left: 10px;
 
-    font-family: PingFangSC, PingFang SC;
-    font-weight: 400;
-    font-size: 14px;
+
+
+
     color: #4E4E4E;
     line-height: 20px;
-    text-align: left;
-    font-style: normal;
-    text-transform: none;
+
+
+
   }
 }
 </style>

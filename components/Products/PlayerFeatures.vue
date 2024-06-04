@@ -49,27 +49,27 @@ const curTab = ref(0);
       z-index: 2;
 
       >.title {
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
-        color: #000000;
+
         line-height: 42px;
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
       }
 
       >.sub-title {
         margin-top: 18px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #4E4E4E;
-        line-height: 24px;
+
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
       }
 
       >.content {
@@ -82,14 +82,14 @@ const curTab = ref(0);
         >.hint {
           margin-top: 40px;
 
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
+
+
           font-size: 16px;
           color: #4E4E4E;
-          line-height: 24px;
+
           text-align: center;
-          font-style: normal;
-          text-transform: none;
+
+
         }
       }
     }

@@ -67,13 +67,13 @@
       .header {
         .row {
           .cell {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 600;
             font-size: 18px;
-            color: #000000;
+
             line-height: 25px;
-            font-style: normal;
-            text-transform: none;
+
+
           }
         }
       }
@@ -81,14 +81,14 @@
       .body {
         .row {
           .cell {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
-            font-size: 14px;
-            color: #000000;
+
+
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
 
             .icon-true,
             .icon-false {
@@ -110,14 +110,14 @@
       .footer {
         .row {
           .cell {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
-            color: #000000;
+
+
+
+
             line-height: 20px;
             text-align: center;
-            font-style: normal;
-            text-transform: none;
+
+
           }
         }
       }
@@ -126,14 +126,14 @@
     >.hint {
       margin-top: 40px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.btn-container {

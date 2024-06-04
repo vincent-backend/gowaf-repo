@@ -102,16 +102,18 @@ body {
   min-height: 100vh;
 }
 
-.is-xs body {
-  -webkit-overflow-scrolling: touch;
-  font-size: 0.4rem;
-  /* 30/75 rem */
+body {
+  font-size: 18px;
   line-height: 1.5;
 }
 
-.is-lg body {
-  font-size: 18px;
-  line-height: 1.5;
+/* For mobile devices */
+@media (max-width: 767px) {
+  body {
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.4rem; /* 30/75 rem */
+    line-height: 1.5;
+  }
 }
 
 input,
@@ -174,21 +176,46 @@ table {
   color: #c0c4cc;
 }
 
+/* Base font size for desktop */
+html {
+  font-family: PingFangSC, PingFang SC;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  line-height: 24px;
+}
 
-
-/* classes */
-.is-lg .page-container {
+.page-container {
   width: 1200px;
   margin: 0 auto;
   /* overflow:auto; */
 }
 
-.is-xs .page-container {
-  /* width:rem; */
-  width: 9.2rem;
-  /* rem(750-30*2) */
-  margin: 0 auto;
-  /* overflow:auto; */
+/* Utility classes for display */
+.lg-only,
+.xs-only {
+  display: inherit;
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  html {
+    font-size: 1.75rem;
+    line-height: 2.81rem;
+  }
+
+  .page-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lg-only {
+    display: none !important;
+  }
+  .xs-only {
+    display: inherit !important;
+  }
 }
 
 /* background */

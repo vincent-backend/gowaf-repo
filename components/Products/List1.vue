@@ -36,28 +36,28 @@
     width: 1100px;
 
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.sub-title {
       margin: 18px auto 0;
       width: 630px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.list {
@@ -91,14 +91,14 @@
             align-items: center;
             justify-content: center;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #FFFFFF;
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
 
@@ -108,27 +108,27 @@
           >.title {
             padding-top: 10px;
 
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 16px;
-            color: #000000;
+
             line-height: 22px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.content {
             margin-top: 14px;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #4E4E4E;
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.indicator-container {
@@ -152,11 +152,11 @@
                   font-family: Mont, Mont;
                   font-weight: 600;
                   font-size: 30px;
-                  color: #000000;
+
                   line-height: 40px;
-                  text-align: left;
-                  font-style: normal;
-                  text-transform: none;
+
+
+
                   background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
@@ -166,14 +166,14 @@
               >.label {
                 margin-top: 10px;
 
-                font-family: PingFangSC, PingFang SC;
-                font-weight: 400;
+
+
                 font-size: 12px;
                 color: #4E4E4E;
                 line-height: 17px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
             }
           }

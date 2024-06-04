@@ -37,27 +37,27 @@
 
   .connect-directly {
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.sub-title {
       margin-top: 20px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.content {
@@ -78,27 +78,27 @@
         margin-left: 160px;
 
         >.title {
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 16px;
-          color: #000000;
+
           line-height: 22px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
 
         >.content {
           margin-top: 20px;
 
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
-          font-size: 14px;
+
+
+
           color: #4E4E4E;
           line-height: 20px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
 
         >.item-container {
@@ -124,11 +124,11 @@
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 30px;
-                color: #000000;
+
                 line-height: 40px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
                 background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -138,14 +138,14 @@
             .label {
               margin-top: 4px;
 
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
-              font-size: 14px;
+
+
+
               color: #4E4E4E;
               line-height: 20px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
           }
         }

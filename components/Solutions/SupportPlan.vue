@@ -40,27 +40,27 @@
 
   .support-plan {
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.sub-title {
       margin-top: 20px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.main {
@@ -98,27 +98,27 @@
           width: 600px;
 
           >.title {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 24px;
-            color: #000000;
+
             line-height: 33px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.sub-title {
             margin-top: 20px;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
+
+
             font-size: 16px;
             color: #4E4E4E;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
+
           }
 
           >.list {
@@ -142,27 +142,27 @@
                 flex: 1;
 
                 .title {
-                  font-family: PingFangSC, PingFang SC;
+
                   font-weight: 500;
                   font-size: 16px;
-                  color: #000000;
+
                   line-height: 22px;
-                  text-align: left;
-                  font-style: normal;
-                  text-transform: none;
+
+
+
                 }
 
                 .content {
                   margin-top: 6px;
 
-                  font-family: PingFangSC, PingFang SC;
-                  font-weight: 400;
-                  font-size: 14px;
+
+
+
                   color: #4E4E4E;
                   line-height: 20px;
-                  text-align: left;
-                  font-style: normal;
-                  text-transform: none;
+
+
+
                 }
               }
             }

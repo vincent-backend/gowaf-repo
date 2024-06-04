@@ -54,27 +54,27 @@ const curTab = ref(0);
 
   .calculator-1 {
     >.title1 {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.title2 {
       margin-top: 20px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.content {
@@ -119,14 +119,14 @@ const curTab = ref(0);
               justify-content: center;
 
               .title {
-                font-family: PingFangSC, PingFang SC;
+
                 font-weight: 500;
                 font-size: 16px;
                 color: #4E4E4E;
                 line-height: 22px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
 
               .value {
@@ -135,11 +135,11 @@ const curTab = ref(0);
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 20px;
-                color: #000000;
+
                 line-height: 26px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
             }
 
@@ -175,14 +175,14 @@ const curTab = ref(0);
               align-items: center;
 
               .title {
-                font-family: PingFangSC, PingFang SC;
+
                 font-weight: 500;
                 font-size: 16px;
                 color: #FFFFFF;
                 line-height: 22px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
 
               .icon {
@@ -201,9 +201,9 @@ const curTab = ref(0);
                 font-size: 20px;
                 color: #FFFFFF;
                 line-height: 26px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
             }
           }

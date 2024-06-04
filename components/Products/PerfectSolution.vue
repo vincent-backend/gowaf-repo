@@ -33,28 +33,28 @@
     >.left {
       >.title {
         width: 249px;
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
-        color: #000000;
+
         line-height: 42px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       >.content {
         margin-top: 18px;
 
         width: 569px;
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
 
       >.list {
@@ -76,28 +76,28 @@
             margin-left: 26px;
 
             >.title {
-              font-family: PingFangSC, PingFang SC;
+
               font-weight: 500;
               font-size: 16px;
-              color: #000000;
+
               line-height: 22px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             >.content {
               margin-top: 6px;
 
               width: 395px;
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
-              font-size: 14px;
+
+
+
               color: #4E4E4E;
               line-height: 20px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
           }
         }

@@ -83,28 +83,28 @@
 
     >.left {
       >.title {
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
-        color: #000000;
+
         line-height: 42px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       >.sub-title {
         margin-top: 20px;
 
         width: 320px;
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
 
       >.pic {
@@ -138,21 +138,21 @@
           font-family: Mont, Mont;
           font-weight: 600;
           font-size: 16px;
-          color: #000000;
+
         }
       }
 
       .hint {
         margin-top: 6px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
+
+
+
         color: #4E4E4E;
         line-height: 20px;
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
 
         .hint1 {}
 

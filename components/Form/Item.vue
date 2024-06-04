@@ -18,14 +18,14 @@ const props = defineProps({
 <style lang="less" scoped>
 .form-item {
   .label-title {
-    font-family: PingFangSC, PingFang SC;
+
     font-weight: 500;
-    font-size: 14px;
-    color: #000000;
+
+
     line-height: 20px;
-    text-align: left;
-    font-style: normal;
-    text-transform: none;
+
+
+
   }
 
   .control-container {

@@ -13,7 +13,7 @@ const alertVisible = ref(route.path === '/');
       <div class="left">
         <a href="/" class="logo"></a>
       </div>
-      <div class="right">
+      <div class="right lg-only">
         <HeaderMenu />
         <div class="buttons-container">
           <a href="#" class="button button-login">
@@ -26,6 +26,9 @@ const alertVisible = ref(route.path === '/');
             EN
           </a>
         </div>
+      </div>
+      <div class="right xs-only">
+        <a href="#" class="menu-icon"></a>
       </div>
     </div>
   </div>
@@ -97,13 +100,13 @@ const alertVisible = ref(route.path === '/');
             align-items: center;
             justify-content: center;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #46CF3A;
             line-height: 18px;
-            text-align: left;
-            font-style: normal;
+
+
           }
 
           &.button-get-started {
@@ -115,13 +118,13 @@ const alertVisible = ref(route.path === '/');
             align-items: center;
             justify-content: center;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #FFFFFF;
             line-height: 18px;
-            text-align: left;
-            font-style: normal;
+
+
           }
 
           &.button-lang {
@@ -133,13 +136,13 @@ const alertVisible = ref(route.path === '/');
             align-items: center;
             justify-content: center;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
-            color: #000000;
+
+
+
+
             line-height: 18px;
-            text-align: left;
-            font-style: normal;
+
+
           }
         }
       }
@@ -167,13 +170,13 @@ const alertVisible = ref(route.path === '/');
       align-items: center;
 
       .text {
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #FFFFFF;
         line-height: 18px;
-        text-align: left;
-        font-style: normal;
+
+
       }
 
       .rocket {
@@ -191,10 +194,10 @@ const alertVisible = ref(route.path === '/');
         height: 30px;
         background: #FFFFFF;
         border-radius: 15px;
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
-        color: #000000;
+
+
+
+
         line-height: 18px;
 
         display: flex;
@@ -213,6 +216,40 @@ const alertVisible = ref(route.path === '/');
         background: url(/public/images/home/top_popup_ic_close_w_nor.png);
       }
     }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .header-placeholder {
+    height: 5.5rem;
+  }
+
+  .header-container {
+    height: 5.5rem;
+
+    .header {
+      .left {
+        .logo {
+          width: 10.5rem;
+          height: 3rem;
+          margin-left: 1.87rem;
+        }
+      }
+
+      .right {
+        .menu-icon {
+          width: 5.5rem;
+          height: 5.5rem;
+          margin-right: 0.31rem;
+          background-image: url(/public/mobile-images/home/home_menu@2x.png);
+        }
+      }
+    }
+  }
+
+  .header-alert-container {
+    display: none;
   }
 }
 </style>

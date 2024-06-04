@@ -54,10 +54,10 @@ const curTab = ref(0);
 
   .super-charge {
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
     }
@@ -65,11 +65,11 @@ const curTab = ref(0);
     >.sub-title {
       margin-top: 20px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
     }
 
@@ -97,14 +97,14 @@ const curTab = ref(0);
         justify-content: center;
 
         .title {
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 20px;
-          color: #000000;
+
           line-height: 28px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
 
           display: flex;
           align-items: center;
@@ -124,9 +124,9 @@ const curTab = ref(0);
             font-size: 18px;
             color: #FFFFFF;
             line-height: 25px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
 
@@ -139,14 +139,14 @@ const curTab = ref(0);
           gap: 10px;
 
           p {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
+
+
             font-size: 16px;
             color: #4E4E4E;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
+
           }
         }
       }

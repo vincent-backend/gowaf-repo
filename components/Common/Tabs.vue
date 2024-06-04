@@ -29,10 +29,10 @@ const curTab = defineModel('curTab', {
   .tab {
     background: #FFFFFF;
     border-radius: 20px;
-    font-family: PingFangSC, PingFang SC;
+
     font-weight: 500;
     font-size: 16px;
-    color: #000000;
+
     line-height: 22px;
     padding: 9px 16px;
 

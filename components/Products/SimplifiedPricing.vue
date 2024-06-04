@@ -31,27 +31,27 @@
 
   .simplified-pricing {
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
     }
 
     >.sub-title {
       margin-top: 18px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.content {
@@ -83,14 +83,14 @@
           align-items: center;
           justify-content: center;
 
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 22px;
           color: #FFFFFF;
           line-height: 30px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
 
         >.items {
@@ -111,24 +111,24 @@
               font-family: Mont, Mont;
               font-weight: 600;
               font-size: 30px;
-              color: #000000;
+
               line-height: 40px;
               text-align: center;
-              font-style: normal;
-              text-transform: none;
+
+
             }
 
             >.sub-title {
               margin-top: 10px;
 
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
+
+
               font-size: 16px;
               color: #4E4E4E;
-              line-height: 24px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
+
             }
           }
         }
@@ -144,14 +144,14 @@
             display: flex;
             align-items: center;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #4E4E4E;
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
 
             .icon {
               width: 18px;

@@ -75,14 +75,14 @@ const hovered = ref(-1);
 
     >.left {
       >.title {
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
-        color: #000000;
+
         line-height: 42px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       >.content {
@@ -90,14 +90,14 @@ const hovered = ref(-1);
 
         width: 520px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
+
+
+
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
 
       >.list {
@@ -121,14 +121,14 @@ const hovered = ref(-1);
           .title {
             margin-left: 8px;
 
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 16px;
-            color: #000000;
+
             line-height: 22px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
       }
@@ -151,11 +151,11 @@ const hovered = ref(-1);
               font-family: Mont, Mont;
               font-weight: 600;
               font-size: 48px;
-              color: #000000;
+
               line-height: 64px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             .icon {
@@ -166,14 +166,14 @@ const hovered = ref(-1);
           }
 
           .title {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
+
+
             font-size: 16px;
             color: #4E4E4E;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
+
           }
         }
 
@@ -241,28 +241,28 @@ const hovered = ref(-1);
               margin-left: 12px;
 
               flex: 1;
-              font-family: PingFangSC, PingFang SC;
+
               font-weight: 500;
               font-size: 16px;
-              color: #000000;
+
               line-height: 22px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
           }
 
           .content {
             margin-top: 6px;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #4E4E4E;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
+
           }
 
           &.active {

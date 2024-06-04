@@ -63,14 +63,14 @@ const props = defineProps({
     align-items: center;
     justify-content: center;
 
-    font-family: PingFangSC, PingFang SC;
+
     font-weight: 500;
     font-size: 22px;
     color: #FFFFFF;
     line-height: 30px;
-    text-align: left;
-    font-style: normal;
-    text-transform: none;
+
+
+
   }
 
   >.content {
@@ -95,14 +95,14 @@ const props = defineProps({
           flex: 1;
 
           .title {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 24px;
-            color: #000000;
+
             line-height: 33px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
             display: flex;
             align-items: center;
 
@@ -119,35 +119,35 @@ const props = defineProps({
               font-size: 18px;
               color: #FFFFFF;
               line-height: 25px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
           }
 
           .sub-title {
             margin-top: 10px;
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #4E4E4E;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
+
           }
 
           .content {
             margin-top: 20px;
 
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
             font-size: 16px;
-            color: #000000;
+
             line-height: 22px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
 
@@ -176,11 +176,11 @@ const props = defineProps({
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 30px;
-                color: #000000;
+
                 line-height: 40px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
                 background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -189,14 +189,14 @@ const props = defineProps({
               .hint {
                 margin-top: 10px;
 
-                font-family: PingFangSC, PingFang SC;
-                font-weight: 400;
+
+
                 font-size: 16px;
                 color: #4E4E4E;
-                line-height: 24px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
+
               }
             }
           }
@@ -214,14 +214,14 @@ const props = defineProps({
           display: flex;
           align-items: center;
 
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
-          font-size: 14px;
-          color: #000000;
+
+
           line-height: 20px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
 
           &::before {
             content: '';

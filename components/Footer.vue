@@ -114,27 +114,27 @@
 
     .left {
       .title {
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
         color: #FFFFFF;
         line-height: 42px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       .content {
         margin-top: 10px;
 
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #FFFFFF;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
     }
 
@@ -156,24 +156,24 @@
           font-family: Mont, Mont;
           font-weight: 600;
           font-size: 16px;
-          color: #000000;
+
           line-height: 21px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
       }
 
       .btn-hint {
         margin-top: 13px;
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 12px;
         color: #FFFFFF;
         line-height: 17px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
         opacity: .7;
       }
     }
@@ -203,14 +203,14 @@
           gap: 30px;
 
           .link {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #4E4E4E;
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
 
@@ -223,28 +223,28 @@
           .shortcuts {
             dt {
               margin-bottom: 14px;
-              font-family: PingFangSC, PingFang SC;
+
               font-weight: 500;
-              font-size: 14px;
-              color: #000000;
+
+
               line-height: 20px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             dd {
               margin-top: 10px;
 
               a {
-                font-family: PingFangSC, PingFang SC;
-                font-weight: 400;
-                font-size: 14px;
+
+
+
                 color: #4E4E4E;
                 line-height: 20px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
               }
             }
           }
@@ -257,28 +257,28 @@
           gap: 30px;
 
           a {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 14px;
+
+
+
             color: #4E4E4E;
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
 
         .copyright {
           margin-top: 10px;
 
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
-          font-size: 14px;
+
+
+
           color: #4E4E4E;
           line-height: 20px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
       }
 
@@ -287,28 +287,28 @@
 
         .section-1 {
           >.title {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
-            font-size: 14px;
-            color: #000000;
+
+
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           >.content {
             .sub-title {
               margin-top: 14px;
 
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
-              font-size: 14px;
+
+
+
               color: #4E4E4E;
               line-height: 20px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             .contacts {
@@ -317,14 +317,14 @@
               gap: 30px;
 
               .contact {
-                font-family: PingFangSC, PingFang SC;
-                font-weight: 400;
+
+
                 font-size: 16px;
                 color: #3CCF87;
                 line-height: 22px;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+
+
+
                 display: flex;
 
                 .icon {
@@ -351,28 +351,28 @@
           margin-top: 60px;
 
           .title {
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
-            font-size: 14px;
-            color: #000000;
+
+
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           .content {
             .sub-title {
               margin-top: 14px;
 
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
-              font-size: 14px;
+
+
+
               color: #4E4E4E;
               line-height: 20px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             .social-icons {
@@ -403,14 +403,14 @@
         .section-3 {
           margin-top: 30px;
 
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 20px;
-          color: #000000;
+
           line-height: 28px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
       }
     }

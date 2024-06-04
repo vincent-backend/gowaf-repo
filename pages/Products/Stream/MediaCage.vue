@@ -31,8 +31,8 @@
     <div class="pic"></div>
     <div class="btn-container">
       <a href="#" class="trail-btn">
-      {{ $t('products.stream.mediaCage.player2.btn') }}
-    </a>
+        {{ $t('products.stream.mediaCage.player2.btn') }}
+      </a>
     </div>
   </div>
 
@@ -50,27 +50,27 @@
   margin-top: 120px;
 
   >.title {
-    font-family: PingFangSC, PingFang SC;
+
     font-weight: 500;
     font-size: 30px;
-    color: #000000;
+
     line-height: 42px;
     text-align: center;
-    font-style: normal;
-    text-transform: none;
+
+
   }
 
   >.sub-title {
     margin-top: 18px;
 
-    font-family: PingFangSC, PingFang SC;
-    font-weight: 400;
+
+
     font-size: 16px;
     color: #4E4E4E;
-    line-height: 24px;
+
     text-align: center;
-    font-style: normal;
-    text-transform: none;
+
+
   }
 
   >.pic {
@@ -83,7 +83,7 @@
 
   >.btn-container {
     margin-top: 18px;
-    
+
     display: flex;
     justify-content: center;
   }

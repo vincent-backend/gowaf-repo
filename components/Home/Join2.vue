@@ -54,10 +54,10 @@
 
   .join2 {
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
     }
@@ -65,11 +65,11 @@
     >.sub-title {
       margin-top: 20px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       display: flex;
       align-items: center;
       justify-content: center;
@@ -136,25 +136,25 @@
             justify-content: center;
 
             .name {
-              font-family: PingFangSC, PingFang SC;
+
               font-weight: 500;
               font-size: 20px;
-              color: #000000;
+
               line-height: 28px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             .date {
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
+
+
               font-size: 16px;
               color: #4E4E4E;
-              line-height: 24px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
+
             }
           }
         }
@@ -190,27 +190,27 @@
         .title {
           margin-top: 20px;
 
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 24px;
-          color: #000000;
+
           line-height: 33px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
 
         .content {
           margin-top: 10px;
 
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
+
+
           font-size: 16px;
           color: #4E4E4E;
-          line-height: 24px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
+
         }
       }
     }

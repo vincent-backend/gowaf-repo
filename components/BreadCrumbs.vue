@@ -46,22 +46,22 @@ const props = defineProps({
       gap: 34px;
 
       a {
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
+
+
+
         color: #4E4E4E;
         line-height: 18px;
-        text-align: left;
-        font-style: normal;
+
+
 
         &.current {
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
-          font-size: 14px;
-          color: #000000;
+
+
           line-height: 18px;
-          text-align: left;
-          font-style: normal;
+
+
           background: linear-gradient(41.5494227786465deg, #46CF3A 0%, #36CFBC 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;

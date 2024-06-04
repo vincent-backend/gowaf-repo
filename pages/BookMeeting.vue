@@ -60,22 +60,22 @@
         color: #FFFFFF;
         line-height: 40px;
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
       }
 
       .content {
         margin: 12px auto 0;
 
         width: 724px;
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #FFFFFF;
-        line-height: 24px;
+
         text-align: center;
-        font-style: normal;
-        text-transform: none;
+
+
         opacity: .8;
       }
     }

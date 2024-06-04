@@ -60,22 +60,22 @@ const visible = ref(true);
       font-family: PingFang-SC, PingFang-SC;
       font-weight: bold;
       font-size: 20px;
-      color: #000000;
+
       line-height: 28px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
     }
 
     .content {
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
       line-height: 22px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
     }
   }
 }

@@ -105,13 +105,13 @@ function closeMenu() {
     position: relative;
 
     a {
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
-      font-size: 14px;
+
+
+
       color: #4E4E4E;
       line-height: 18px;
-      text-align: left;
-      font-style: normal;
+
+
     }
 
     .icon {
@@ -154,13 +154,13 @@ function closeMenu() {
             }
 
             >.title {
-              font-family: PingFangSC, PingFang SC;
+
               font-weight: 600;
-              font-size: 14px;
-              color: #000000;
+
+
               line-height: 16px;
-              text-align: left;
-              font-style: normal;
+
+
               text-transform: uppercase;
             }
 
@@ -186,13 +186,13 @@ function closeMenu() {
                   margin-left: 6px;
                   flex: 1;
 
-                  font-family: PingFangSC, PingFang SC;
-                  font-weight: 400;
+
+
                   font-size: 12px;
-                  color: #000000;
+
                   line-height: 16px;
-                  text-align: left;
-                  font-style: normal;
+
+
                 }
 
                 .arrow-icon {
@@ -220,23 +220,23 @@ function closeMenu() {
                 padding: 10px;
 
                 .title {
-                  font-family: PingFangSC, PingFang SC;
-                  font-weight: 400;
+
+
                   font-size: 12px;
                   color: #2c1717;
                   line-height: 18px;
-                  text-align: left;
-                  font-style: normal;
+
+
                 }
 
                 .sub-title {
-                  font-family: PingFangSC, PingFang SC;
-                  font-weight: 400;
+
+
                   font-size: 10px;
                   color: #4E4E4E;
                   line-height: 14px;
-                  text-align: left;
-                  font-style: normal;
+
+
                 }
 
                 &:hover {

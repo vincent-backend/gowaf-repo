@@ -40,14 +40,14 @@ const items = [
 
   .list1 {
     .title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
     }
 
     .list {

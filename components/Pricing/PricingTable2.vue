@@ -44,14 +44,14 @@
         align-items: center;
         justify-content: center;
 
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 22px;
         color: #FFFFFF;
         line-height: 30px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       .list-1 {
@@ -74,22 +74,22 @@
             font-weight: 600;
             font-size: 30px;
             line-height: 40px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
 
           .hint {
             margin-top: 10px;
 
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
+
+
             font-size: 16px;
             color: #4E4E4E;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
+
           }
         }
       }
@@ -113,14 +113,14 @@
           .text {
             margin-left: 8px;
 
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
-            font-size: 14px;
-            color: #000000;
+
+
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
       }
@@ -134,9 +134,7 @@
 
         .list-1 {
           .item {
-            .title {
-              color: #000000;
-            }
+            .title {}
           }
         }
 

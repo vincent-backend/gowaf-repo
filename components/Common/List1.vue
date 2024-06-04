@@ -36,28 +36,28 @@ const props = defineProps({
   .title1 {
     margin-top: 120px;
 
-    font-family: PingFangSC, PingFang SC;
+
     font-weight: 500;
     font-size: 30px;
-    color: #000000;
+
     line-height: 42px;
     text-align: center;
-    font-style: normal;
-    text-transform: none;
+
+
   }
 
   .title2 {
     margin: 18px auto 0;
 
     width: 612px;
-    font-family: PingFangSC, PingFang SC;
-    font-weight: 400;
+
+
     font-size: 16px;
     color: #4E4E4E;
-    line-height: 24px;
+
     text-align: center;
-    font-style: normal;
-    text-transform: none;
+
+
   }
 
   .list1 {
@@ -65,10 +65,10 @@ const props = defineProps({
     width: 1090px;
 
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
     }
@@ -76,14 +76,14 @@ const props = defineProps({
     >.sub-title {
       margin-top: 20px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
+
     }
 
     >.list {
@@ -116,26 +116,26 @@ const props = defineProps({
 
         .title {
           margin-top: 60px;
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 20px;
-          color: #000000;
+
           line-height: 28px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
 
         .content {
           margin-top: 10px;
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
+
+
           font-size: 16px;
           color: #4E4E4E;
-          line-height: 24px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
+
+
+
+
         }
       }
     }

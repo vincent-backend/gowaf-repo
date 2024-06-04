@@ -64,28 +64,28 @@
     padding-top: 100px;
 
     .title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
     }
 
     .sub-title {
       margin-top: 10px;
 
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
-      font-size: 14px;
+
+
+
       color: #4E4E4E;
       opacity: .5;
-      line-height: 24px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
+
     }
 
     .pic {
@@ -107,28 +107,28 @@
     >.left {
       >.title {
         width: 331px;
-        font-family: PingFangSC, PingFang SC;
+
         font-weight: 500;
         font-size: 30px;
-        color: #000000;
+
         line-height: 42px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
       }
 
       >.content {
         margin-top: 20px;
 
         width: 490px;
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
+
+
         font-size: 16px;
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
+
+
+
+
       }
 
       >.list {
@@ -149,14 +149,14 @@
 
           .text {
             margin-left: 8px;
-            font-family: PingFangSC, PingFang SC;
+
             font-weight: 500;
-            font-size: 14px;
-            color: #000000;
+
+
             line-height: 20px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+
+
+
           }
         }
       }
@@ -191,25 +191,25 @@
             gap: 10px;
 
             .title {
-              font-family: PingFangSC, PingFang SC;
+
               font-weight: 500;
               font-size: 20px;
-              color: #000000;
+
               line-height: 28px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
             }
 
             .content {
-              font-family: PingFangSC, PingFang SC;
-              font-weight: 400;
+
+
               font-size: 16px;
               color: #4E4E4E;
-              line-height: 24px;
-              text-align: left;
-              font-style: normal;
-              text-transform: none;
+
+
+
+
             }
           }
         }

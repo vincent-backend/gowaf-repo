@@ -21,22 +21,20 @@ const props = defineProps({
     'hide-foot': !props.showFoot,
   }">
     <div class="page-container home-banner">
-      <main>
-        <div class="left">
-          <div class="pre-title" v-if="props.preTitle">{{ props.preTitle }}</div>
-          <h2 class="title" v-if="props.title">{{ props.title }}</h2>
-          <div class="content" v-if="props.content">{{ props.content }}</div>
-          <a :href="props.href" class="trail-btn" style="margin-top: 40px;" v-if="props.btn">{{ props.btn }}</a>
-          <div class="hint" v-if="props.hint">{{ props.hint }}</div>
-        </div>
-        <div class="right">
-          <div class="pic" v-if="props.pic" :style="{
+      <div class="left">
+        <div class="pre-title" v-if="props.preTitle">{{ props.preTitle }}</div>
+        <h2 class="title" v-if="props.title">{{ props.title }}</h2>
+        <div class="content" v-if="props.content">{{ props.content }}</div>
+        <a :href="props.href" class="trail-btn" style="margin-top: 40px;" v-if="props.btn">{{ props.btn }}</a>
+        <div class="hint" v-if="props.hint">{{ props.hint }}</div>
+      </div>
+      <div class="right">
+        <div class="pic" v-if="props.pic" :style="{
     backgroundImage: `url(${props.pic})`,
     width: props.picWidth,
     height: props.picHeight,
   }"></div>
-        </div>
-      </main>
+      </div>
     </div>
     <div class="bottom">
       <div class="left">
@@ -73,78 +71,57 @@ const props = defineProps({
   height: 800px;
   max-width: 1920px;
   margin: 0 auto;
-  background: url(/public/images/home/home_banner_bg.png);
+  background: url(/public/images/home/home_banner_bg@2x.png);
   background-size: 1920px 800px;
   background-position: center;
   position: relative;
 
   .home-banner {
     display: flex;
+    justify-content: space-between;
 
-    main {
-      display: flex;
-      justify-content: space-between;
+    >.left {
+      margin-top: 180px;
 
-      .left {
-        margin-top: 180px;
-
-        .pre-title {
-          font-family: Mont, Mont;
-          font-weight: bold;
-          font-size: 30px;
-          color: #000000;
-          line-height: 40px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
-        }
-
-        .title {
-          width: 728px;
-          font-family: Mont, Mont;
-          font-weight: bold;
-          font-size: 50px;
-          color: #000000;
-          line-height: 70px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
-        }
-
-        .content {
-          margin-top: 12px;
-
-          width: 677px;
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
-          font-size: 14px;
-          color: #4E4E4E;
-          line-height: 24px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
-        }
-
-        .hint {
-          margin-top: 10px;
-
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
-          font-size: 12px;
-          color: #4E4E4E;
-          opacity: .5;
-          line-height: 24px;
-          text-align: left;
-          font-style: normal;
-          text-transform: none;
-        }
+      .pre-title {
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
       }
 
-      .right {
-        margin-top: 140px;
-
-        .pic {}
+      .title {
+        width: 728px;
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 70px;
       }
+
+      .content {
+        margin-top: 12px;
+
+        width: 677px;
+        color: #4E4E4E;
+      }
+
+      .hint {
+        margin-top: 10px;
+
+
+
+        font-size: 12px;
+        color: #4E4E4E;
+        opacity: .5;
+
+
+
+
+      }
+    }
+
+    >.right {
+      margin-top: 140px;
     }
   }
 
@@ -168,10 +145,8 @@ const props = defineProps({
       .title {
         display: flex;
         align-items: center;
-        font-family: PingFangSC, PingFang SC;
         font-weight: 500;
         font-size: 24px;
-        color: #000000;
         line-height: 34px;
 
         .num {
@@ -179,7 +154,6 @@ const props = defineProps({
           font-family: Mont, Mont;
           font-weight: 600;
           font-size: 30px;
-          color: #000000;
           line-height: 40px;
           background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
           -webkit-background-clip: text;
@@ -188,14 +162,9 @@ const props = defineProps({
       }
 
       .sub-title {
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
+
+
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
       }
     }
 
@@ -206,14 +175,8 @@ const props = defineProps({
       padding-right: 66px;
 
       .title {
-        font-family: PingFangSC, PingFang SC;
         font-weight: 500;
         font-size: 16px;
-        color: #000000;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
       }
 
       .rate {
@@ -225,21 +188,12 @@ const props = defineProps({
           width: 28px;
           height: 28px;
           background: url(/public/images/home/home_banner_ic_star.png);
-
         }
       }
 
       .sub-title {
         margin-top: 10px;
-
-        font-family: PingFangSC, PingFang SC;
-        font-weight: 400;
-        font-size: 14px;
         color: #4E4E4E;
-        line-height: 24px;
-        text-align: left;
-        font-style: normal;
-        text-transform: none;
       }
     }
   }
@@ -249,6 +203,49 @@ const props = defineProps({
 
     .bottom {
       display: none;
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .home-banner-container {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    background: url(/public/mobile-images/home/home_banner_bg@2x.png);
+
+    .home-banner {
+      flex-direction: column;
+      padding: 3.75rem 1.87rem 0;
+
+      >.left {
+        margin-top: 0;
+
+        .pre-title {
+          font-size: 2.5rem;
+          line-height: 3.31rem;
+        }
+
+        .title {
+          margin-top: 0.63rem;
+
+          width: auto;
+          font-size: 3.5rem;
+          line-height: 5rem;
+        }
+
+        .content {
+          margin-top: 1.5rem;
+
+          width: auto;
+
+        }
+
+        .hint {}
+      }
+
+      >.right {}
     }
   }
 }

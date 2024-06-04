@@ -25,25 +25,25 @@ const props = defineProps({
       font-family: Mont, Mont;
       font-weight: 600;
       font-size: 48px;
-      color: #000000;
+
       line-height: 64px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
       background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .number-content {
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
-      text-align: left;
-      font-style: normal;
-      text-transform: none;
+
+
+
+
     }
   }
 

@@ -30,28 +30,28 @@
     width: 874px;
 
     >.title {
-      font-family: PingFangSC, PingFang SC;
+
       font-weight: 500;
       font-size: 30px;
-      color: #000000;
+
       line-height: 42px;
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.sub-title {
       margin: 20px auto 0;
 
       width: 604px;
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
 
     >.content {
@@ -70,25 +70,25 @@
         position: absolute;
 
         .title {
-          font-family: PingFangSC, PingFang SC;
+
           font-weight: 500;
           font-size: 20px;
-          color: #000000;
+
           line-height: 28px;
-          font-style: normal;
-          text-transform: none;
+
+
         }
 
         .sub-title {
           margin-top: 10px;
 
-          font-family: PingFangSC, PingFang SC;
-          font-weight: 400;
+
+
           font-size: 16px;
           color: #4E4E4E;
-          line-height: 24px;
-          font-style: normal;
-          text-transform: none;
+
+
+
         }
       }
 
@@ -118,14 +118,14 @@
       margin: 44px auto 0;
 
       width: 522px;
-      font-family: PingFangSC, PingFang SC;
-      font-weight: 400;
+
+
       font-size: 16px;
       color: #4E4E4E;
-      line-height: 24px;
+
       text-align: center;
-      font-style: normal;
-      text-transform: none;
+
+
     }
   }
 }
