@@ -4,7 +4,7 @@
       <div class="title">
         {{ $t('home.join1.title') }}
       </div>
-      <a href="#" class="trail-btn" style="margin-top: 40px;">
+      <a href="#" class="trail-btn">
         {{ $t('home.join1.btn') }}
       </a>
       <div class="sub-title">
@@ -63,20 +63,24 @@
     position: relative;
     padding-top: 100px;
 
-    .title {
+    >.title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    .sub-title {
+    >.trail-btn {
+      margin-top: 40px;
+    }
+
+    >.sub-title {
       margin-top: 10px;
 
       color: #4E4E4E;
       opacity: .5;
     }
 
-    .pic {
+    >.pic {
       position: absolute;
       width: 950px;
       height: 830px;
@@ -150,8 +154,6 @@
             .icon {
               width: 100px;
               height: 100px;
-              background-size: 100%;
-              background-repeat: no-repeat;
             }
           }
 
@@ -182,21 +184,55 @@
 // For mobile devices
 @media (max-width: 767px) {
   .join-1-container {
+    margin-top: 6.25rem;
+    background-size: 46.88rem 26.13rem;
+
     .join-1 {
-      .title {}
+      padding-top: 4.38rem;
 
-      .sub-title {}
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
 
-      .pic {}
+      >.trail-btn {
+        margin-top: 2.5rem;
+      }
+
+      >.sub-title {
+        margin-top: 1.19rem;
+      }
+
+      >.pic {
+        width: 46.88rem;
+        height: 51.88rem;
+        background-image: url(/public/mobile-images/home/home_graph_rocket@2x.png);
+        left: 0;
+        top: 25.25rem;
+      }
     }
 
     .info-1 {
-      >.left {
-        >.title {}
+      margin-top: 27.87rem;
+      flex-direction: column;
 
-        >.content {}
+      >.left {
+        >.title {
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+        }
+
+        >.content {
+          margin-top: 1.19rem;
+
+          width: 100%;
+          font-size: 1.75rem;
+          line-height: 2.38rem;
+        }
 
         >.list {
+          margin-top: 3.13rem;
+
           >.item {
             .icon {}
 
@@ -206,16 +242,39 @@
       }
 
       >.right {
+        border-top: 0.06rem solid #E6E6E6;
+        padding: 0;
+        padding-top: 1.88rem;
+        margin: 0;
+        margin-top: 1.88rem;
+
         .list {
+          gap: 2.5rem;
+
           .item {
             .left {
-              .icon {}
+              .icon {
+                width: 9.38rem;
+                height: 9.38rem;
+              }
             }
 
             .right {
-              .title {}
+              margin-left: 1.25rem;
+              justify-content: center;
+              gap: 0;
 
-              .content {}
+              .title {
+                font-size: 2.13rem;
+                line-height: 3rem;
+              }
+
+              .content {
+                margin-top: 0.63rem;
+
+                font-size: 1.5rem;
+                line-height: 2.19rem;
+              }
             }
           }
         }
