@@ -9,7 +9,7 @@
     mh: '29.13rem',
   }" />
   <HomeList1 />
-  <!-- <HomeList2 /> -->
+  <HomeList2 />
   <!-- <HomeJoin1 /> -->
   <!-- <HomeJoin2 /> -->
   <!-- <CommonSuperCharge :title="$t('home.superCharge.title')" :sub-title="$t('home.superCharge.subTitle')"
