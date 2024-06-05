@@ -24,7 +24,7 @@
 
   <ProductsReduceError />
 
-  <CommonSuperCharge :data="$tm('products.cdn.safeHop.goFaster')" />
+  <CommonSuperCharge v-bind="$tm('products.cdn.safeHop.goFaster')" />
 
   <NetworkJoin1 :title="$t('products.cdn.safeHop.join1.title')"
     :person-name="$t('products.cdn.safeHop.join1.person.name')"

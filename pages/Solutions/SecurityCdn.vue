@@ -16,7 +16,7 @@
   <SolutionsFeatureList2 :title="$t('solutions.securityCdn.features2.title')"
     :sub-title="$t('solutions.securityCdn.features2.subTitle')" :items="$tm('solutions.securityCdn.features2.items')" />
 
-  <CommonSuperCharge :data="$tm('solutions.securityCdn.goFaster')" />
+  <CommonSuperCharge v-bind="$tm('solutions.securityCdn.goFaster')" />
 
   <SolutionsAd1 :title="$t('solutions.securityCdn.ad1.title')" :sub-title="$t('solutions.securityCdn.ad1.subTitle')"
     :btn="$t('solutions.securityCdn.ad1.btn')" href="#"

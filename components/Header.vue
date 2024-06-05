@@ -19,7 +19,7 @@ const handleBack = () => {
         </div>
       </LgOnly>
       <XsOnly>
-        <div class="left" v-if="alertVisible">
+        <div class="left" v-if="isHome">
           <a href="/" class="logo"></a>
         </div>
         <div class="left" v-else>
@@ -222,6 +222,8 @@ const handleBack = () => {
     height: 5.5rem;
 
     .header {
+      width: 100%;
+
       .left {
         .back {
           margin-left: 0.31rem;

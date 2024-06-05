@@ -12,10 +12,12 @@ defineProps<{
 <template>
   <div class="bread-crumbs-container">
     <div class="page-container bread-crumbs">
-      <span class="title">
-        {{ title }}
-      </span>
-      <span class="separator"></span>
+      <LgOnly>
+        <span class="title">
+          {{ title }}
+        </span>
+        <span class="separator"></span>
+      </LgOnly>
       <div class="links">
         <a :href="item.href" v-for="item in items" :class="{ current: item.current }">
           {{ item.label }}
@@ -50,25 +52,34 @@ defineProps<{
       gap: 34px;
 
       a {
-
-
-
         color: #4E4E4E;
         line-height: 18px;
 
-
-
         &.current {
-
           font-weight: 500;
-
-
           line-height: 18px;
-
-
           background: linear-gradient(41.5494227786465deg, #46CF3A 0%, #36CFBC 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .bread-crumbs-container {
+    height: 5.63rem;
+
+    .bread-crumbs {
+      .links {
+        gap: 3.13rem;
+
+        a {
+          font-size: 1.75rem;
+
+          &.current {}
         }
       }
     }

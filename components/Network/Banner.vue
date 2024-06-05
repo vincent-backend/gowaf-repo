@@ -106,14 +106,9 @@ const curTab = ref(0);
         border-radius: 20px;
         border: 1px solid #FFFFFF;
         padding: 9px 16px;
-
         font-weight: 600;
         font-size: 16px;
-
         line-height: 22px;
-
-
-
 
         &.current {
           background: #000;
@@ -130,11 +125,7 @@ const curTab = ref(0);
         font-family: Mont, Mont;
         font-weight: bold;
         font-size: 30px;
-
         line-height: 40px;
-
-
-
       }
 
       .title-1 {
@@ -143,24 +134,13 @@ const curTab = ref(0);
         font-family: Mont, Mont;
         font-weight: bold;
         font-size: 50px;
-
         line-height: 70px;
-
-
-
       }
 
       .title-2 {
         margin-top: 20px;
 
-
-
-
         color: #4E4E4E;
-
-
-
-
       }
     }
 
@@ -251,13 +231,8 @@ const curTab = ref(0);
         .text {
           margin-left: 12px;
 
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
 
           .count {
             color: #4E4E4E;
@@ -267,5 +242,10 @@ const curTab = ref(0);
       }
     }
   }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  
 }
 </style>
