@@ -1,9 +1,13 @@
 <script lang="ts" setup>
-const props = defineProps({
-  title1: String,
-  title2: String,
-  items: Array<any>,
-});
+defineProps<{
+  title1: string;
+  title2: string;
+  items: {
+    icon: string,
+    title: string,
+    content?: string,
+  }[];
+}>();
 </script>
 
 <template>

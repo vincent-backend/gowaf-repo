@@ -1,9 +1,13 @@
 <script lang="ts" setup>
-const props = defineProps({
-  tabs: Array<any>,
-});
+defineProps<{
+  tabs: {
+    tab: string;
+  }[];
+  curTab: number;
+}>();
 
-const curTab = defineModel('curTab', {
+defineEmits(['update:curTab']);
+defineModel('curTab', {
   type: Number,
   default: 0,
 });

@@ -1,14 +1,10 @@
 <script lang="ts" setup>
-
-const props = defineProps({
-  text: {
-    type: String,
-    default: '',
-  },
-  space: {
-    type: String,
-    default: '0px',
-  },
+withDefaults(defineProps<{
+  text?: string;
+  space?: string;
+}>(), {
+  text: '',
+  space: '0px',
 });
 </script>
 
