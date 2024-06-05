@@ -3263,33 +3263,33 @@ export default {
               tab: 'Built for performance',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/network/ddos/Network_DDoS_banner_graph_3.png',
-              iconWidth: '384px',
-              iconHeight: '288px',
+              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              iconWidth: '400px',
+              iconHeight: '400px',
             },
             {
               tab: 'Globallv scalable',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/network/ddos/Network_DDoS_banner_graph_3.png',
-              iconWidth: '384px',
-              iconHeight: '288px',
+              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              iconWidth: '400px',
+              iconHeight: '400px',
             },
             {
               tab: 'Content Protection',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/network/ddos/Network_DDoS_banner_graph_3.png',
-              iconWidth: '384px',
-              iconHeight: '288px',
+              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              iconWidth: '400px',
+              iconHeight: '400px',
             },
             {
               tab: 'Customizable Media Player',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/network/ddos/Network_DDoS_banner_graph_3.png',
-              iconWidth: '384px',
-              iconHeight: '288px',
+              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              iconWidth: '400px',
+              iconHeight: '400px',
             },
           ],
         },
@@ -3345,6 +3345,29 @@ export default {
               ],
             },
           ],
+        },
+        Calculate: {
+          list: [
+            { title: 'Upload video size', num: '300GB', percent: 45 },
+            { title: 'Monthly Traffic', num: '50GB', percent: 15 }
+          ],
+          ReplicationPoints: {
+            title: 'Replication points',
+            label: 'Price',
+            value: '$0.01',
+            unit: '/ Gigabyte',
+            icon: '/images/products/stream/overview/common_price_right_wihte_ic@2x.png',
+            list: [
+              { label: 'One', status: 1 },
+              {label: 'Two', status: 0},
+              {label: 'Three', status: 0},
+              {label: 'Four', status: 0},
+              {label: 'Five', status: 0},
+              { label: 'Six', status: 0 },
+              { label: 'Six', status: 0 },
+              { label: 'Eight', status: 0 },
+            ],
+          }
         },
         packedFeatures: {
           title: 'Packed with powerful features',
@@ -3825,8 +3848,97 @@ export default {
             hint: 'You can find more info in our',
             document: 'documentation.',
           },
-          section2: {},
+          section2: {
+            title: 'Perfect solution.',
+            title2: 'For any business.',
+            content: 'Stop losing revenue to users downloading and sharing your content. ',
+            content1: 'Push your protection strategy to the next level with an enterprise- grade multi- DRM system.Prevent downloads, screen recording, or even screenshots.Reduce costs and development time witha simplified workflow.',
+            list: [
+              {
+                title: 'Prevent downloads',
+                icon: '/images/products/stream/multi-drm/media_perfect_ic_1@2x.png',
+                content: 'Stop losing subscribers to piracy and stream media content on your terms.',
+              },
+              {
+                title: 'Online Courses',
+                icon: '/images/products/stream/multi-drm/media_perfect_ic_2@2x.png',
+                content: 'Take complete control of our content and limit access to courses or specific videos as you see fit.',
+              },
+              {
+                title: 'Prevent downloads',
+                icon: '/images/products/stream/multi-drm/media_perfect_ic_3@2x.png',
+                content: 'Stop piracy before it happens and ensure your content stays available only to your subscribers.',
+              },                            
+            ]
+          },
         },
+        drmCustomer: {
+          title: 'Trusted by 40.000+ global customers',
+          contentPre: "We're rated ",
+          contentImg: '/images/products/stream/multi-drm/home_title_star@2x.png',
+          contentMid: " Excellent 4.8",
+          contentP: "out of 5 on",
+          contentLink: "Trustpilot",
+          contentLast: " - Based on 700+ reviews",
+          list: {
+            title: 'Matthias Mauch',
+            subTitle: 'Younity',
+            content: "\"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don't need a lot of training.It's very streamlined.\"",
+          },
+          items: [
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1@2x.png'
+            },
+            {
+              num: 4.4,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2@2x.png'
+            },
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3@2x.png'
+            },
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4@2x.png'
+            },
+          ]
+        },
+        email:{
+          title: 'Hollywood protection.',
+          subTitle: 'Just an email away.',
+          list: [
+            {
+              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_1@2x.png',
+              content: 'End-to-end DRM protection with browser, native iOS, and Android support.',
+            },
+            {
+              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_2@2x.png',
+              content: 'Pre-integrated, and custom integration player.',
+            },
+            {
+              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_3@2x.png',
+              content: 'Unlimited media transcoding up to 4k. Completely free of charge.',
+            },
+          ],
+          content1: "During the switch to bunny.net, we found the service exemplary - at every point of the process they were there to help and made it incredibly easy.Now that we're fully switched over, we couldn't be happier - everything is",
+          content2: "Poliyfill adds a line of defense to our other CDN providers.I'm happy with the service - everything works.",
+          form: {
+            firstName: 'First Name',
+            firstNameLabel: 'Your first name',
+            lastName: 'Last Name',
+            lastNameLabel: 'Your last name',
+            companyName: 'Company Name',
+            companyNameLabel: 'you@company.com',
+            email: 'Email',
+            emailLabel: 'you@company.com',
+            phone: 'Phone',
+            phoneLabel: 'XXX-XXX-XXXX',
+            message: 'Message',
+            messageLable: 'Tell us about your project and how polyfill can help.',
+            btn: 'Send Email',
+          }
+        }
       },
     },
   },
