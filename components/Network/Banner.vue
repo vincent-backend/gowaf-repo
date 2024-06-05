@@ -246,6 +246,84 @@ const curTab = ref(0);
 
 // For mobile devices
 @media (max-width: 767px) {
-  
+  .banner-container {
+    .banner {
+      >.tabs {
+        a {
+          &.current {}
+        }
+      }
+
+      >.content {
+        .title-0 {}
+
+        .title-1 {}
+
+        .title-2 {}
+      }
+
+      >.dots {
+        .dot {
+          &.dot-blue {
+            background: url(/public/images/network/Network_Overview_banner_map_Europe.png) no-repeat;
+          }
+
+          &.dot-cyanogen {
+            background: url(/public/images/network/Network_Overview_banner_map_LATAM.png) no-repeat;
+          }
+
+          &.dot-orange {
+            background: url(/public/images/network/Network_Overview_banner_map_Oceania.png) no-repeat;
+          }
+
+          &.dot-green {
+            background: url(/public/images/network/Network_Overview_banner_map_Asia.png) no-repeat;
+          }
+
+          &.dot-yellow {
+            background: url(/public/images/network/Network_Overview_banner_map_North.png) no-repeat;
+          }
+
+          &.dot-pink {
+            background: url(/public/images/network/Network_Overview_banner_map_Middle.png) no-repeat;
+          }
+        }
+      }
+
+      >.legend-container {
+        .legend-item {
+          .icon {
+            &.icon-blue {
+              background: url(/public/images/network/Network_Overview_banner_node_Europe.png);
+            }
+
+            &.icon-cyanogen {
+              background: url(/public/images/network/Network_Overview_banner_node_LATAM.png);
+            }
+
+            &.icon-orange {
+              background: url(/public/images/network/Network_Overview_banner_node_Oceania.png);
+            }
+
+            &.icon-green {
+              background: url(/public/images/network/Network_Overview_banner_node_Asia.png);
+            }
+
+            &.icon-yellow {
+              background: url(/public/images/network/Network_Overview_banner_node_North.png);
+            }
+
+            &.icon-pink {
+              background: url(/public/images/network/Network_Overview_banner_node_Middle.png);
+            }
+          }
+
+          .text {
+            .count {}
+          }
+        }
+      }
+    }
+  }
 }
 </style>
