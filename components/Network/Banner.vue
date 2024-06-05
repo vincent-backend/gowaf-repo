@@ -247,19 +247,48 @@ const curTab = ref(0);
 // For mobile devices
 @media (max-width: 767px) {
   .banner-container {
+    height: 53.13rem;
+    min-width: auto;
+    background: url(/public/mobile-images/network/overview/map@2x.png);
+
     .banner {
+      overflow: visible;
+
       >.tabs {
+        margin-top: 1.87rem;
+        justify-content: space-between;
+        gap: 0;
+
         a {
+          padding: 0.81rem 1.1rem;
+          font-size: 1.5rem;
+          line-height: 2.06rem;
+
           &.current {}
         }
       }
 
       >.content {
-        .title-0 {}
+        margin-top: 1.88rem;
 
-        .title-1 {}
+        .title-0 {
+          font-size: 1.88rem;
+          line-height: 4rem;
+        }
 
-        .title-2 {}
+        .title-1 {
+          margin-top: 0.5rem;
+
+          font-size: 3.13rem;
+          line-height: 4.38rem;
+        }
+
+        .title-2 {
+          margin-top: 0.63rem;
+
+          font-size: 1.75rem;
+          line-height: 2.81rem;
+        }
       }
 
       >.dots {
@@ -291,8 +320,25 @@ const curTab = ref(0);
       }
 
       >.legend-container {
+        bottom: -8.81rem;
+
+        width: 43.13rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 1.25rem 0;
+
         .legend-item {
+          width: 50%;
+
+          font-size: 1.63rem;
+          line-height: 2.31rem;
+          white-space: nowrap;
+
           .icon {
+            width: 1.31rem;
+            height: 1.31rem;
+            min-width: 1.31rem;
+
             &.icon-blue {
               background: url(/public/images/network/Network_Overview_banner_node_Europe.png);
             }

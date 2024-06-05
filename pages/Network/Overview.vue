@@ -7,9 +7,9 @@
   ]" />
   <NetworkBanner />
 
-  <VSpace h="80px" mh="3.13rem" />
-  <!-- <CommonNumbers :items="$tm('network.overview.numbers')" /> -->
-  <!-- <NetworkFlags /> -->
+  <VSpace h="80px" mh="11.94rem" />
+  <CommonNumbers :items="$tm('network.overview.numbers')" />
+  <NetworkFlags />
   <!-- <NetworkHop /> -->
   <!-- <CommonList1 :items="$tm('network.overview.list1')" /> -->
   <!-- <CommonSuperCharge v-bind="$tm('network.overview.goFaster')" /> -->
