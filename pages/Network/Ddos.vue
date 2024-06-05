@@ -21,9 +21,13 @@
   <NetworkAlwaysSafe v-bind="$tm('network.ddos.alwaysSafe')" />
 
   <CommonNumbers style="margin-top: 40px;" :items="$tm('network.ddos.numbers')" />
-  <Line top="80px" />
+
+  <LgOnly>
+    <Line top="80px" m-top="0" />
+  </LgOnly>
 
   <NetworkProtectAtEdge />
+
   <NetworkStayProtectAlways />
   <CommonList1 :items="$tm('network.overview.list1')" />
 

@@ -48,11 +48,12 @@ defineProps<{
 
     >.content-container {
       margin-top: 50px;
+
       display: flex;
       flex-direction: column;
       height: 535px;
       gap: 20px;
-      background: url(/public/images/network/ddos/Network_DDoS_graph_2.png) no-repeat bottom center;
+      background: url(/public/images/network/ddos/Network_DDoS_graph_2@2x.png) no-repeat bottom center;
 
       >.row {
         display: flex;
@@ -96,19 +97,54 @@ defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .always-safe-container {
-    .always-safe {
-      >.title {}
+    margin-top: 6.25rem;
 
-      >.sub-title {}
+    .always-safe {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+      }
 
       >.content-container {
+        margin-top: 3.13rem;
+        height: auto;
+        gap: 1rem;
+        padding-bottom: 25.4rem;
+        background-image: url(/public/mobile-images/network/ddos/Network_DDoS_graph_2@2x.png);
+        background-size: 46.88rem 33.13rem !important;
+
         >.row {
           .content-item {
-            .icon {}
+            width: 20.94rem;
+            min-height: auto;
+            padding: 1.25rem;
+            padding-bottom: 3.44rem;
 
-            .title {}
+            .icon {
+              width: 4.25rem;
+              height: 4.25rem;
+            }
 
-            .content {}
+            .title {
+              margin-top: 1.87rem;
+
+              font-size: 2.25rem;
+              line-height: 3.13rem;
+            }
+
+            .content {
+              margin-top: 0.63rem;
+
+              font-size: 1.5rem;
+              line-height: 2.19rem;
+            }
           }
         }
       }

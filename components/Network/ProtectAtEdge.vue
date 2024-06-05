@@ -20,27 +20,18 @@
 
   .protect-at-edge {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.pic {
@@ -48,7 +39,6 @@
 
       width: 1102px;
       height: 368px;
-
       background: url(/public/images/network/ddos/Network_DDoS_flow.png) no-repeat;
     }
 
@@ -61,14 +51,9 @@
       .item {
         display: flex;
         align-items: center;
-
         font-weight: 500;
         font-size: 16px;
-
         line-height: 22px;
-
-
-
 
         .icon {
           width: 24px;
@@ -76,7 +61,6 @@
           display: flex;
           align-items: center;
           justify-content: center;
-
           background: linear-gradient(147deg, #F9C22F 0%, #FA6E4A 100%);
           border-radius: 12px;
           margin-right: 10px;
@@ -85,7 +69,6 @@
             content: '';
             width: 14px;
             height: 14px;
-
             background: url(/public/images/network/ddos/home_Text_list_ic_tick.png);
           }
         }
