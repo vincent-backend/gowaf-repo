@@ -103,4 +103,72 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .flags-container {
+    margin-top: 6.25rem;
+
+    >.flags {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+      }
+
+      >.flag-groups {
+        margin-top: 3.13rem;
+
+        .flag-group {
+          padding: 1.25rem;
+          padding-bottom: 3.13rem;
+          border-radius: 1.5rem;
+
+          >.title {
+            height: 5.13rem;
+
+            .icon {
+              width: 1.25rem;
+              height: 1.25rem;
+            }
+
+            .text {
+              margin-left: 0.63rem;
+
+              font-size: 1.88rem;
+              line-height: 2.63rem;
+            }
+          }
+
+          >.content {
+            margin-top: 3.13rem;
+            gap: 4.38rem 0;
+
+            .flag {
+              width: 33.3%;
+
+              .icon {
+                width: 2.88rem;
+                height: 1.88rem;
+              }
+
+              .text {
+                margin-left: 0.5rem;
+
+                font-size: 1.38rem;
+                line-height: 1.88rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>

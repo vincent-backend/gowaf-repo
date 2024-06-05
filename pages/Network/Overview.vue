@@ -10,7 +10,7 @@
   <VSpace h="80px" mh="11.94rem" />
   <CommonNumbers :items="$tm('network.overview.numbers')" />
   <NetworkFlags />
-  <!-- <NetworkHop /> -->
+  <NetworkHop />
   <!-- <CommonList1 :items="$tm('network.overview.list1')" /> -->
   <!-- <CommonSuperCharge v-bind="$tm('network.overview.goFaster')" /> -->
   <!-- <NetworkJoin1 :title="$t('network.overview.join1.title')" :person-name="$t('network.overview.join1.person.name')"

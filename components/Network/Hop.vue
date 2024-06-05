@@ -9,7 +9,7 @@
           {{ $t('network.overview.hop.subTitle') }}
         </div>
         <div>
-          <a href="#" class="trail-btn" style="margin-top: 40px;">
+          <a href="#" class="trail-btn">
             {{ $t('network.overview.hop.btn') }}
           </a>
         </div>
@@ -36,27 +36,20 @@
 
     .left {
       .title {
-
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
-
-
-
       }
 
       .sub-title {
         margin-top: 10px;
 
-
-
         font-size: 16px;
         color: #4E4E4E;
+      }
 
-
-
-
+      .trail-btn {
+        margin-top: 40px;
       }
     }
 
