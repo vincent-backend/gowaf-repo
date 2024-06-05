@@ -14,7 +14,7 @@
   <HomeList2 />
   <HomeJoin1 />
   <HomeJoin2 />
-  <CommonSuperCharge :data="$tm('home.superCharge')" />
+  <CommonSuperCharge v-bind="$tm('home.superCharge')" />
   <Footer />
 
   <Notification />

@@ -1,6 +1,9 @@
 <script lang="ts" setup>
-const props = defineProps({
-  data: Object,
+defineProps({
+  title: String,
+  subTitle: String,
+  tabs: Array<any>,
+  a: String,
   /*
   data: {
     title: string,
@@ -28,8 +31,6 @@ const props = defineProps({
 
 // tabs
 const curTab = ref(0);
-
-const { title, subTitle, tabs } = props.data!;
 </script>
 
 <template>

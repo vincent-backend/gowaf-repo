@@ -12,7 +12,7 @@ const curTab = defineModel('curTab', {
 <template>
   <div class="tabs-container">
     <div class="tabs">
-      <a v-for="tab, index in props.tabs" href="#" class="tab" :class="{ current: index === curTab }"
+      <a v-for="tab, index in tabs" href="#" class="tab" :class="{ current: index === curTab }"
         @click.prevent="$emit('update:curTab', index)">
         {{ tab.tab }}
       </a>
