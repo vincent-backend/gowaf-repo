@@ -32,27 +32,16 @@
 
   >.flags {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
-
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
-
-
-
     }
 
     >.flag-groups {
@@ -74,20 +63,14 @@
           .icon {
             width: 14px;
             height: 14px;
-
           }
 
           .text {
             margin-left: 12px;
 
-
             font-weight: 500;
             font-size: 20px;
-
             line-height: 28px;
-
-
-
           }
         }
 
@@ -111,14 +94,8 @@
             .text {
               margin-left: 10px;
 
-
-
               font-size: 16px;
-
               line-height: 22px;
-
-
-
             }
           }
         }
