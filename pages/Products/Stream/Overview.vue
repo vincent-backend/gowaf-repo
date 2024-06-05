@@ -20,9 +20,7 @@
     mh: '',
   }" />
 
-  <NetworkAlwaysSafe :title="$t('products.stream.overview.alwaysSafe.title')"
-    :sub-title="$t('products.stream.overview.alwaysSafe.subTitle')"
-    :items="$tm('products.stream.overview.alwaysSafe.rows')" />
+  <NetworkAlwaysSafe v-bind="$tm('products.stream.overview.alwaysSafe')" />
 
   <CommonNumbers style="margin-top: 40px;" :items="$tm('products.stream.overview.numbers')" />
 

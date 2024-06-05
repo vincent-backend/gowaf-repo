@@ -18,8 +18,7 @@
     mh: '26.25rem',
   }" />
 
-  <NetworkAlwaysSafe :title="$t('network.ddos.alwaysSafe.title')" :sub-title="$t('network.ddos.alwaysSafe.subTitle')"
-    :items="$tm('network.ddos.alwaysSafe.rows')" />
+  <NetworkAlwaysSafe v-bind="$tm('network.ddos.alwaysSafe')" />
 
   <CommonNumbers style="margin-top: 40px;" :items="$tm('network.ddos.numbers')" />
   <Line top="80px" />
