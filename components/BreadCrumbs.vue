@@ -1,8 +1,12 @@
 <script lang="ts" setup>
-const props = defineProps({
-  title: String,
-  items: Array<any>,
-});
+defineProps<{
+  title: string;
+  items: {
+    label: string;
+    href: string;
+    current: boolean;
+  }[];
+}>();
 </script>
 
 <template>

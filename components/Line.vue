@@ -1,15 +1,12 @@
 <script lang="ts" setup>
-const props = defineProps({
-  color: {
-    type: String,
-    default: '#E6E6E6',
-  },
-  height: {
-    type: String,
-    default: '1px',
-  },
-  top: String,
-  mTop: String,
+withDefaults(defineProps<{
+  color?: string;
+  height?: string;
+  top: string;
+  mTop: string;
+}>(), {
+  color: '#E6E6E6',
+  height: '1px',
 });
 </script>
 

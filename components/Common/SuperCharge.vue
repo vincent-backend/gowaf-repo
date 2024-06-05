@@ -1,33 +1,24 @@
 <script lang="ts" setup>
-defineProps({
-  title: String,
-  subTitle: String,
-  tabs: Array<any>,
-  a: String,
-  /*
-  data: {
-    title: string,
-    subTitle: string,
-    tabs: [
-      {
-        tab: string,
-        title: string,
-        content: string,
-        btn: string,
-        href: string,
+defineProps<{
+  title: string;
+  subTitle: string;
+  tabs: {
+    tab: string;
+    title: string;
+    titleTip?: string;
+    content: string;
+    btn: string;
+    href: string;
 
-        icon: string,
-        iconWidth: string,
-        iconHeight: string,
+    icon: string;
+    iconWidth: string;
+    iconHeight: string;
 
-        mIcon: string,
-        mIconWidth: string,
-        mIconHeight: string,
-      },
-    ],
-  },
-  */
-});
+    mIcon: string;
+    mIconWidth: string;
+    mIconHeight: string;
+  }[];
+}>();
 
 // tabs
 const curTab = ref(0);

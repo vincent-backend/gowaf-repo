@@ -1,26 +1,23 @@
 <script lang="ts" setup>
-defineProps({
-  preTitle: String,
-  title: String,
-  content: String,
-  btn: String,
-  href: String,
-  hint: String,
-  pic: Object,
-  /*
+withDefaults(defineProps<{
+  preTitle?: string;
+  title?: string;
+  content?: string;
+  btn?: string;
+  href?: string;
+  hint?: string;
   pic: {
-    src: string,
-    w: string,
-    h: string,
-    msrc: string,
-    mw: string,
-    mh: string,
-  },
-  */
-  showFoot: {
-    type: Boolean,
-    default: true,
-  },
+    src: string;
+    w: string;
+    h: string;
+
+    msrc: string;
+    mw: string;
+    mh: string;
+  };
+  showFoot?: boolean;
+}>(), {
+  showFoot: true,
 });
 </script>
 
