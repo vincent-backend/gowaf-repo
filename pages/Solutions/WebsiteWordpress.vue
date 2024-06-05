@@ -64,11 +64,12 @@
     `/images/solutions/website-acceleration/Solutions_Website_acceleration_logo_shopware@2x.png`,
   ]" :btn="$t('solutions.websiteWordpress.logos.btn')" href="#" />
 
-  <NetworkJoin1 :title="$t('solutions.websiteWordpress.join1.title')"
-    :person-name="$t('solutions.websiteWordpress.join1.person.name')"
-    :person-title="$t('solutions.websiteWordpress.join1.person.title')"
-    :person-content="$t('solutions.websiteWordpress.join1.person.content')"
-    person-avatar="/images/solutions/website-wordpress/SmartEdge™__evaluate_character.png" :show-scores="false" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('solutions.websiteWordpress.join1'),
+    avatar: '/images/solutions/website-wordpress/SmartEdge™__evaluate_character@2x.png',
+    mAvatar: '',
+    showScores: false,
+  }" />
 
   <Footer />
 </template>

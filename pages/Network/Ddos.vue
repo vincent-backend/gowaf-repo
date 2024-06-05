@@ -30,9 +30,11 @@
 
   <CommonSuperCharge v-bind="$tm('network.ddos.doNotLeave')" />
 
-  <NetworkJoin1 :title="$t('network.ddos.join1.title')" :person-name="$t('network.ddos.join1.person.name')"
-    :person-title="$t('network.ddos.join1.person.title')" :person-content="$t('network.ddos.join1.person.content')"
-    person-avatar="/images/network/ddos/Network_ddos_evaluate_character.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('network.ddos.join1'),
+    avatar: '/images/network/ddos/Network_ddos_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

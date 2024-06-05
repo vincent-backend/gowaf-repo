@@ -21,10 +21,11 @@
 
   <NetworkYourNeeds />
 
-  <NetworkJoin1 :title="$t('network.smartEdge.join1.title')" :person-name="$t('network.smartEdge.join1.person.name')"
-    :person-title="$t('network.smartEdge.join1.person.title')"
-    :person-content="$t('network.smartEdge.join1.person.content')"
-    person-avatar="/images/network/smart-edge/SmartEdge™__evaluate_character.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('network.smartEdge.join1'),
+    avatar: '/images/network/smart-edge/SmartEdge™__evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

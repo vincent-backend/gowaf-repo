@@ -40,11 +40,12 @@
 
   <ProductsHowStreamWorks />
 
-  <NetworkJoin1 :title="$t('products.stream.overview.join1.title')"
-    :person-name="$t('products.stream.overview.join1.person.name')"
-    :person-title="$t('products.stream.overview.join1.person.title')"
-    :person-content="$t('products.stream.overview.join1.person.content')"
-    person-avatar="/images/products/stream/overview/Network_Overview_evaluate_character@2x.png" :show-scores="false" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('products.stream.overview.join1'),
+    avatar: '/images/products/stream/overview/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '',
+    showScores: false,
+  }" />
 
   <ProductsDRMCustomers />
 

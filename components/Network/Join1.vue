@@ -1,10 +1,13 @@
 <script lang="ts" setup>
 withDefaults(defineProps<{
   title: string;
-  personName: string;
-  personTitle: string;
-  personContent: string;
-  personAvatar: string;
+  person: {
+    name: string;
+    title: string;
+    content: string;
+  },
+  avatar: string;
+  mAvatar: string;
   showScores?: boolean;
 }>(), {
   showScores: true,
@@ -24,12 +27,12 @@ withDefaults(defineProps<{
         <span class="s5">{{ $tm('network.overview.join1.subTitle')[5] }}</span>
       </div>
       <div class="comment">
-        <div class="avatar" :style="{ backgroundImage: `url(${personAvatar})` }"></div>
+        <div class="avatar" :style="{ backgroundImage: `url(${obeyDevice(avatar, mAvatar).value})` }"></div>
         <div class="decoration-1"></div>
-        <div class="name">{{ personName }}</div>
-        <div class="title">{{ personTitle }}</div>
+        <div class="name">{{ person.name }}</div>
+        <div class="title">{{ person.title }}</div>
         <Line top="20px" />
-        <div class="content">{{ personContent }}</div>
+        <div class="content">{{ person.content }}</div>
       </div>
       <div class="ranks-container" v-if="showScores">
         <div class="rank" v-for="item in $tm('network.overview.join1.ranks')">

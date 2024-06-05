@@ -40,11 +40,11 @@
   <PricingCalculate1 />
   <SolutionsSupportPlan />
 
-  <NetworkJoin1 :title="$t('solutions.videoDelivery.join1.title')"
-    :person-name="$t('solutions.videoDelivery.join1.person.name')"
-    :person-title="$t('solutions.videoDelivery.join1.person.title')"
-    :person-content="$t('solutions.videoDelivery.join1.person.content')"
-    person-avatar="/images/solutions/video-delivery/Network_Overview_evaluate_character.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('solutions.videoDelivery.join1'),
+    avatar: '/images/solutions/video-delivery/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

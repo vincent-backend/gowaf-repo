@@ -26,11 +26,11 @@
 
   <CommonSuperCharge v-bind="$tm('products.cdn.safeHop.goFaster')" />
 
-  <NetworkJoin1 :title="$t('products.cdn.safeHop.join1.title')"
-    :person-name="$t('products.cdn.safeHop.join1.person.name')"
-    :person-title="$t('products.cdn.safeHop.join1.person.title')"
-    :person-content="$t('products.cdn.safeHop.join1.person.content')"
-    person-avatar="/images/products/cdn/safe-hop/Network_ddos_evaluate_character@2x.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('products.cdn.safeHop.join1'),
+    avatar: '/images/products/cdn/safe-hop/Network_ddos_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

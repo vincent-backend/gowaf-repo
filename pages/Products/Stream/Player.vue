@@ -36,11 +36,11 @@
     <div class="pic"></div>
   </div>
 
-  <NetworkJoin1 :title="$t('products.stream.player.join1.title')"
-    :person-name="$t('products.stream.player.join1.person.name')"
-    :person-title="$t('products.stream.player.join1.person.title')"
-    :person-content="$t('products.stream.player.join1.person.content')"
-    person-avatar="/images/products/stream/player/Network_Overview_evaluate_character@2x.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('products.stream.player.join1'),
+    avatar: '/images/products/stream/player/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

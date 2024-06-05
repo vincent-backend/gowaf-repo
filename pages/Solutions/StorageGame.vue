@@ -31,11 +31,11 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
   <CommonList1 :title1="$t('solutions.storageGame.title1')" :title2="$t('solutions.storageGame.title2')"
     :items="$tm('solutions.storageGame.list1')" />
 
-  <NetworkJoin1 :title="$t('solutions.storageGame.join1.title')"
-    :person-name="$t('solutions.storageGame.join1.person.name')"
-    :person-title="$t('solutions.storageGame.join1.person.title')"
-    :person-content="$t('solutions.storageGame.join1.person.content')"
-    person-avatar="/images/solutions/storage-game/Network_Overview_evaluate_character@2x.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('solutions.storageGame.join1'),
+    avatar: '/images/solutions/storage-game/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

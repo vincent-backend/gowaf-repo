@@ -55,11 +55,12 @@
       pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_graph_2.png" pic-width="426px"
       pic-height="270px" reverse />
 
-    <NetworkJoin1 :title="$t('solutions.websiteAcceleration.join1.title')"
-      :person-name="$t('solutions.websiteAcceleration.join1.person.name')"
-      :person-title="$t('solutions.websiteAcceleration.join1.person.title')"
-      :person-content="$t('solutions.websiteAcceleration.join1.person.content')"
-      person-avatar="/images/solutions/website-acceleration/SmartEdge™__evaluate_character.png" :show-scores="false" />
+    <NetworkJoin1 v-bind="{
+      ...$tm('solutions.websiteAcceleration.join1'),
+      avatar: '/images/solutions/website-acceleration/SmartEdge™__evaluate_character@2x.png',
+      mAvatar: '',
+      showScores: false,
+    }" />
 
   </div>
 

@@ -13,9 +13,10 @@
   <NetworkHop />
   <CommonList1 v-bind="$tm('network.overview.list1')" />
   <CommonSuperCharge v-bind="$tm('network.overview.goFaster')" />
-  <NetworkJoin1 :title="$t('network.overview.join1.title')" :person-name="$t('network.overview.join1.person.name')"
-    :person-title="$t('network.overview.join1.person.title')"
-    :person-content="$t('network.overview.join1.person.content')"
-    person-avatar="/images/network/Network_Overview_evaluate_character.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('network.overview.join1'),
+    avatar: '/images/network/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '/mobile-images/network/overview/Network_Overview_evaluate_character@2x.png',
+  }" />
   <Footer />
 </template>

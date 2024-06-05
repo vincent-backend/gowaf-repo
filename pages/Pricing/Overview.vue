@@ -27,10 +27,12 @@
 
   <PricingSaveMoney />
 
-  <NetworkJoin1 :title="$t('pricing.overview.join1.title')" :person-name="$t('pricing.overview.join1.person.name')"
-    :person-title="$t('pricing.overview.join1.person.title')"
-    :person-content="$t('pricing.overview.join1.person.content')"
-    person-avatar="/images/pricing/overview/SmartEdge™__evaluate_character.png" :show-scores="false" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('pricing.overview.join1'),
+    avatar: '/images/pricing/overview/SmartEdge™__evaluate_character@2x.png',
+    mAvatar: '',
+    showScores: false,
+  }" />
 
   <Footer />
 </template>

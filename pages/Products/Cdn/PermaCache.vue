@@ -37,11 +37,11 @@
     :sub-title="$t('products.cdn.permaCache.chart1.subTitle')" pic="/images/products/cdn/perma-cache/chart-1@2x.png"
     pic-height="432px" />
 
-  <NetworkJoin1 :title="$t('products.cdn.permaCache.join1.title')"
-    :person-name="$t('products.cdn.permaCache.join1.person.name')"
-    :person-title="$t('products.cdn.permaCache.join1.person.title')"
-    :person-content="$t('products.cdn.permaCache.join1.person.content')"
-    person-avatar="/images/products/cdn/perma-cache/Network_ddos_evaluate_character@2x.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('products.cdn.permaCache.join1'),
+    avatar: '/images/products/cdn/perma-cache/Network_ddos_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

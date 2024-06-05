@@ -29,11 +29,11 @@
     :sub-title="$t('solutions.securityCdn.chart1.subTitle')" pic="/images/solutions/security-cdn/network-edge@2x.png"
     pic-height="580px" />
 
-  <NetworkJoin1 :title="$t('solutions.securityCdn.join1.title')"
-    :person-name="$t('solutions.securityCdn.join1.person.name')"
-    :person-title="$t('solutions.securityCdn.join1.person.title')"
-    :person-content="$t('solutions.securityCdn.join1.person.content')"
-    person-avatar="/images/solutions/security-cdn/Network_Overview_evaluate_character@2x.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('solutions.securityCdn.join1'),
+    avatar: '/images/solutions/security-cdn/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>

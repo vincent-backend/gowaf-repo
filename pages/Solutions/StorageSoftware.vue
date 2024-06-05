@@ -43,11 +43,11 @@
 
   <SolutionsSupportPlan2 />
 
-  <NetworkJoin1 :title="$t('solutions.storageSoftware.join1.title')"
-    :person-name="$t('solutions.storageSoftware.join1.person.name')"
-    :person-title="$t('solutions.storageSoftware.join1.person.title')"
-    :person-content="$t('solutions.storageSoftware.join1.person.content')"
-    person-avatar="/images/solutions/storage-software/Network_Overview_evaluate_character@2x.png" />
+  <NetworkJoin1 v-bind="{
+    ...$tm('solutions.storageSoftware.join1'),
+    avatar: '/images/solutions/storage-software/Network_Overview_evaluate_character@2x.png',
+    mAvatar: '',
+  }" />
 
   <Footer />
 </template>
