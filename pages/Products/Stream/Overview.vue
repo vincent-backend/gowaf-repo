@@ -46,5 +46,7 @@
     :person-content="$t('products.stream.overview.join1.person.content')"
     person-avatar="/images/products/stream/overview/Network_Overview_evaluate_character@2x.png" :show-scores="false" />
 
+  <ProductsDRMCustomers />
+
   <Footer />
 </template>

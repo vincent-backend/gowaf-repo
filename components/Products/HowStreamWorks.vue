@@ -39,7 +39,7 @@
 
 <style lang="less" scoped>
 .how-stream-works-container {
-  margin-top: 114px;
+  margin-top: 120px;
 
   .how-stream-works {
     padding-top: 80px;

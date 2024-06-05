@@ -84,7 +84,7 @@ const curTab = ref(0);
     }
 
     >.tabs-content {
-      margin: 98px auto 0;
+      margin: 45px auto 0;
 
       width: 974px;
       display: flex;

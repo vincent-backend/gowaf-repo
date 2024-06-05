@@ -26,6 +26,8 @@
   <ProductsEndlessSecurity />
   <ProductsDRMTable />
   <ProductsDRMPricing />
+  <ProductsDRMCustomers />
+  <ProductsDRMEmail />
 
   <Footer />
 </template>

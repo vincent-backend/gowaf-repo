@@ -31,14 +31,14 @@
 
   .simplified-pricing {
     >.title {
-
+      font-family: PingFangSC, PingFang SC;
       font-weight: 500;
       font-size: 30px;
-
+      color: #000000;
       line-height: 42px;
-
-
-
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
     }
 
     >.sub-title {
@@ -69,7 +69,7 @@
         flex: 1;
         padding: 20px;
         padding-top: 74px;
-        min-height: 678px;
+        min-height: 590px;
         position: relative;
 
         >.head {
