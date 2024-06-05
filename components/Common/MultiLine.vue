@@ -14,9 +14,9 @@ const props = defineProps({
 
 <template>
   <div class="multi-line-container" :style="{
-    gap: props.space,
+    gap: space,
   }">
-    <p v-for="line in props.text.split(/\n|\r\n/)">
+    <p v-for="line in text.split(/\n|\r\n/)">
       {{ line }}
     </p>
   </div>

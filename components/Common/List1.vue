@@ -8,13 +8,13 @@ const props = defineProps({
 
 <template>
   <div class="list1-container">
-    <div class="title1" v-if="props.title1">{{ props.title1 }}</div>
-    <div class="title2" v-if="props.title2">{{ props.title2 }}</div>
+    <div class="title1" v-if="title1">{{ title1 }}</div>
+    <div class="title2" v-if="title2">{{ title2 }}</div>
     <div class="list1 page-container">
       <div class="title"></div>
       <div class="sub-title"></div>
       <div class="list">
-        <div class="item" v-for="item in props.items">
+        <div class="item" v-for="item in items">
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
           <div class="title">
             {{ item.title }}

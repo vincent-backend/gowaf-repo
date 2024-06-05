@@ -9,7 +9,7 @@ const props = defineProps({
   <div class="bread-crumbs-container">
     <div class="page-container bread-crumbs">
       <span class="title">
-        {{ props.title }}
+        {{ title }}
       </span>
       <span class="separator"></span>
       <div class="links">

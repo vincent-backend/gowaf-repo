@@ -6,7 +6,7 @@ const props = defineProps({
 
 <template>
   <div class="numbers page-container">
-    <div v-for="item, index in props.items" :class="['number', 'n-' + index]">
+    <div v-for="item, index in items" :class="['number', 'n-' + index]">
       <div class="number-title">{{ item.label }}</div>
       <div class="number-content">{{ item.content }}</div>
     </div>

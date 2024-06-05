@@ -15,8 +15,8 @@ const props = defineProps({
 
 <template>
   <div class="line" :style="{
-    marginTop: obeyDevice(props.top, props.mTop).value,
-    background: props.color,
-    height: props.height,
+    marginTop: obeyDevice(top, mTop).value,
+    background: color,
+    height: height,
   }"></div>
 </template>
