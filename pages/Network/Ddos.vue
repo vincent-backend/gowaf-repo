@@ -13,9 +13,9 @@
     w: '500px',
     h: '420px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/network/ddos/Network_DDoS_banner_graph_1@2x.png',
+    mw: '31.25rem',
+    mh: '26.25rem',
   }" />
 
   <NetworkAlwaysSafe :title="$t('network.ddos.alwaysSafe.title')" :sub-title="$t('network.ddos.alwaysSafe.subTitle')"

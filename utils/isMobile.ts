@@ -12,9 +12,13 @@ export function detectMobileDevice() {
 }
 
 // is mobile
-export const isMobile = ref(false);
+export const isMobile = ref(detectMobileDevice());
+
+console.log(isMobile.value);
 
 onNuxtReady(() => {
+  isMobile.value = detectMobileDevice();
+
   setInterval(() => {
     const newValue = detectMobileDevice();
     if (isMobile.value != newValue) {
