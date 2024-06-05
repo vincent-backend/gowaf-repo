@@ -1,23 +1,20 @@
 <script lang="ts" setup>
-const props = defineProps({
-  title: String,
-  personName: String,
-  personTitle: String,
-  personContent: String,
-  personAvatar: String,
-  showScores: {
-    type: Boolean,
-    default: true,
-  },
+withDefaults(defineProps<{
+  title: string;
+  personName: string;
+  personTitle: string;
+  personContent: string;
+  personAvatar: string;
+  showScores?: boolean;
+}>(), {
+  showScores: true,
 });
 </script>
 
 <template>
-  <div class="join1-container" :class="{ 'no-ranks': !props.showScores }">
+  <div class="join1-container" :class="{ 'no-ranks': !showScores }">
     <div class="join1 page-container">
-      <div class="title">
-        {{ props.title }}
-      </div>
+      <div class="title">{{ title }}</div>
       <div class="sub-title">
         <span class="s0">{{ $tm('network.overview.join1.subTitle')[0] }}</span>
         <span class="s1"></span>
@@ -27,14 +24,14 @@ const props = defineProps({
         <span class="s5">{{ $tm('network.overview.join1.subTitle')[5] }}</span>
       </div>
       <div class="comment">
-        <div class="avatar" :style="{ backgroundImage: `url(${props.personAvatar})` }"></div>
+        <div class="avatar" :style="{ backgroundImage: `url(${personAvatar})` }"></div>
         <div class="decoration-1"></div>
-        <div class="name">{{ props.personName }}</div>
-        <div class="title">{{ props.personTitle }}</div>
+        <div class="name">{{ personName }}</div>
+        <div class="title">{{ personTitle }}</div>
         <Line top="20px" />
-        <div class="content">{{ props.personContent }}</div>
+        <div class="content">{{ personContent }}</div>
       </div>
-      <div class="ranks-container" v-if="props.showScores">
+      <div class="ranks-container" v-if="showScores">
         <div class="rank" v-for="item in $tm('network.overview.join1.ranks')">
           <div class="star-container">
             <div class="star"></div>
@@ -65,30 +62,17 @@ const props = defineProps({
 
     >.title {
       width: 600px;
-
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
-
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
       display: flex;
       align-items: center;
-
-
-
       font-size: 16px;
       color: #4E4E4E;
-
-
-
-
 
       .s0 {}
 
@@ -145,11 +129,7 @@ const props = defineProps({
         font-family: PingFang-SC, PingFang-SC;
         font-weight: bold;
         font-size: 24px;
-
         line-height: 34px;
-
-
-
         display: flex;
         align-items: center;
 
@@ -163,27 +143,15 @@ const props = defineProps({
       }
 
       .title {
-
-
         font-size: 16px;
         color: #4E4E4E;
-
-
-
-
       }
 
       .content {
         margin-top: 30px;
 
-
-
         font-size: 16px;
         color: #4E4E4E;
-
-
-
-
       }
     }
 
@@ -225,11 +193,7 @@ const props = defineProps({
             font-family: Mont, Mont;
             font-weight: 600;
             font-size: 30px;
-
             line-height: 40px;
-
-
-
             background: linear-gradient(66.90432699443122deg, #F9C22F 0%, #FA6E4A 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
