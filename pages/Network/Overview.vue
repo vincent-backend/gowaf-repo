@@ -11,7 +11,7 @@
   <CommonNumbers :items="$tm('network.overview.numbers')" />
   <NetworkFlags />
   <NetworkHop />
-  <!-- <CommonList1 :items="$tm('network.overview.list1')" /> -->
+  <CommonList1 :items="$tm('network.overview.list1')" />
   <!-- <CommonSuperCharge v-bind="$tm('network.overview.goFaster')" /> -->
   <!-- <NetworkJoin1 :title="$t('network.overview.join1.title')" :person-name="$t('network.overview.join1.person.name')"
     :person-title="$t('network.overview.join1.person.title')"

@@ -66,17 +66,37 @@
 // For mobile devices
 @media (max-width: 767px) {
   .hop-container {
+    margin-top: 6.25rem;
+
+    height: 28rem;
+
     .hop {
+      width: 100%;
+      padding-left: 1.88rem;
+
       .left {
-        .title {}
+        .title {
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+        }
 
-        .sub-title {}
+        .sub-title {
+          margin-top: 1rem;
 
-        .trail-btn {}
+          font-size: 1.63rem;
+          line-height: 2.38rem;
+        }
+
+        .trail-btn {
+          margin-top: 2.5rem;
+        }
       }
 
       .right {
-        .pic {}
+        .pic {
+          width: 18.75rem;
+          height: 18.75rem;
+        }
       }
     }
   }

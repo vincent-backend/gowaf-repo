@@ -40,28 +40,19 @@ defineProps<{
   .title1 {
     margin-top: 120px;
 
-
     font-weight: 500;
     font-size: 30px;
-
     line-height: 42px;
     text-align: center;
-
-
   }
 
   .title2 {
     margin: 18px auto 0;
 
     width: 612px;
-
-
     font-size: 16px;
     color: #4E4E4E;
-
     text-align: center;
-
-
   }
 
   .list1 {
@@ -69,10 +60,8 @@ defineProps<{
     width: 1090px;
 
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
@@ -80,14 +69,8 @@ defineProps<{
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
-
-
-
     }
 
     >.list {
@@ -106,13 +89,10 @@ defineProps<{
         box-shadow: 0px 4px 10px 0px #F1F1F1;
         border-radius: 14px;
         border: 1px solid #E6E6E6;
-
         box-sizing: border-box;
         padding: 20px;
 
         .icon {
-          // width: 80px;
-          // height: 80px;
           width: 88px;
           height: 88px;
           margin: 0 auto;
@@ -123,23 +103,14 @@ defineProps<{
 
           font-weight: 500;
           font-size: 20px;
-
           line-height: 28px;
-
-
-
         }
 
         .content {
           margin-top: 10px;
 
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
         }
       }
     }
