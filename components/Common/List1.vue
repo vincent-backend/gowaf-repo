@@ -12,11 +12,9 @@ defineProps<{
 
 <template>
   <div class="list1-container">
-    <div class="title1" v-if="title1">{{ title1 }}</div>
-    <div class="title2" v-if="title2">{{ title2 }}</div>
     <div class="list1 page-container">
-      <div class="title"></div>
-      <div class="sub-title"></div>
+      <div class="title1" v-if="title1">{{ title1 }}</div>
+      <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
@@ -59,22 +57,7 @@ defineProps<{
     margin-top: 80px;
     width: 1090px;
 
-    >.title {
-      font-weight: 500;
-      font-size: 30px;
-      line-height: 42px;
-      text-align: center;
-    }
-
-    >.sub-title {
-      margin-top: 20px;
-
-      font-size: 16px;
-      color: #4E4E4E;
-    }
-
     >.list {
-      margin-top: 80px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -111,6 +94,66 @@ defineProps<{
 
           font-size: 16px;
           color: #4E4E4E;
+        }
+      }
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .list1-container {
+    .title1 {
+      margin-top: 1.25rem;
+
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      text-align: left;
+    }
+
+    .title2 {
+      margin: 0;
+      margin-top: 1rem;
+
+      width: 100%;
+      font-size: 1.75rem;
+      line-height: 2.38rem;
+      text-align: left;
+    }
+
+    .list1 {
+      margin-top: 3.13rem;
+      width: 43rem;
+
+      >.list {
+        margin-top: 3.13rem;
+        gap: 1.25rem 0;
+
+        .item {
+          width: 20.94rem;
+          height: auto;
+
+          background-size: 20.94rem 12.5rem !important;
+          padding: 0.63rem 1.25rem 2rem;
+
+          .icon {
+            width: 8.25rem;
+            height: 8.25rem;
+          }
+
+          .title {
+            margin-top: 1.87rem;
+
+            font-size: 2.13rem;
+            line-height: 3.13rem;
+          }
+
+          .content {
+            margin-top: 1.25rem;
+
+            font-size: 1.5rem;
+            line-height: 2.13rem;
+          }
         }
       }
     }

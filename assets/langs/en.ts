@@ -653,38 +653,42 @@ export default {
         subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
         btn: 'Start 14-Day FREE Trial',
       },
-      list1: [
-        {
-          icon: '/images/network/Network_DDoS_card_ic_1.png',
-          title: 'Tier 1 Network Partners',
-          content: 'Hop on a network powered by carefully selected providers in top-tier data centers.',
-        },
-        {
-          icon: '/images/network/Network_DDoS_card_ic_2.png',
-          title: 'Massive Network Backbone',
-          content: 'Scale with ease by leveraging a massive 150 Tbps+ global network backbone.',
-        },
-        {
-          icon: '/images/network/Network_DDoS_card_ic_3.png',
-          title: 'SmartEdge Routing',
-          content: 'Route users where it matters with a smart routing engine optimized for your specific content.',
-        },
-        {
-          icon: '/images/network/Network_DDoS_card_ic_4.png',
-          title: 'Sub 24 ms Average Global Latency',
-          content: 'Reach your customer in less than 24 ms in most areas anywhere in the world.',
-        },
-        {
-          icon: '/images/network/Network_DDoS_card_ic_5.png',
-          title: 'NVMe + SSD Powered Servers',
-          content: 'Deliver content at maximum speed and minimal latency with NVMe and SSD servers.',
-        },
-        {
-          icon: '/images/network/Network_DDoS_card_ic_6.png',
-          title: 'Optimized for Static and Media Content',
-          content: 'Deliver higher cache hit rates for small and large files with a CDN optimized for efficient caching.',
-        },
-      ],
+      list1: {
+        title1: 'Built for performance. Optimized for perfection.',
+        title2: 'Join a global network that is carefully optimized and tuned down to the TCP level.',
+        items: [
+          {
+            icon: '/images/network/Network_DDoS_card_ic_1.png',
+            title: 'Tier 1 Network Partners',
+            content: 'Hop on a network powered by carefully selected providers in top-tier data centers.',
+          },
+          {
+            icon: '/images/network/Network_DDoS_card_ic_2.png',
+            title: 'Massive Network Backbone',
+            content: 'Scale with ease by leveraging a massive 150 Tbps+ global network backbone.',
+          },
+          {
+            icon: '/images/network/Network_DDoS_card_ic_3.png',
+            title: 'SmartEdge Routing',
+            content: 'Route users where it matters with a smart routing engine optimized for your specific content.',
+          },
+          {
+            icon: '/images/network/Network_DDoS_card_ic_4.png',
+            title: 'Sub 24 ms Average Global Latency',
+            content: 'Reach your customer in less than 24 ms in most areas anywhere in the world.',
+          },
+          {
+            icon: '/images/network/Network_DDoS_card_ic_5.png',
+            title: 'NVMe + SSD Powered Servers',
+            content: 'Deliver content at maximum speed and minimal latency with NVMe and SSD servers.',
+          },
+          {
+            icon: '/images/network/Network_DDoS_card_ic_6.png',
+            title: 'Optimized for Static and Media Content',
+            content: 'Deliver higher cache hit rates for small and large files with a CDN optimized for efficient caching.',
+          },
+        ]
+      },
       goFaster: {
         title: 'Go faster globally - and locally',
         subTitle: 'Minimize latency and increase resiliency with a network powered strictly by Tier 1 transit providers and direct access to over 3000+ ISPs.',
