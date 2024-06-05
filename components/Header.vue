@@ -1,16 +1,31 @@
 <script lang="ts" setup>
 const route = useRoute();
 
-const alertVisible = ref(route.path === '/');
+const isHome = route.path === '/';
+const alertVisible = ref(isHome);
+
+const handleBack = () => {
+  window.history.back();
+};
 </script>
 
 <template>
   <div class="header-placeholder"></div>
   <div class="header-container">
     <div class="header page-container">
-      <div class="left">
-        <a href="/" class="logo"></a>
-      </div>
+      <LgOnly>
+        <div class="left">
+          <a href="/" class="logo"></a>
+        </div>
+      </LgOnly>
+      <XsOnly>
+        <div class="left" v-if="alertVisible">
+          <a href="/" class="logo"></a>
+        </div>
+        <div class="left" v-else>
+          <a href="#" class="back" @click.prevent="handleBack"></a>
+        </div>
+      </XsOnly>
 
       <!-- for laptop -->
       <LgOnly>
@@ -105,14 +120,8 @@ const alertVisible = ref(route.path === '/');
             display: flex;
             align-items: center;
             justify-content: center;
-
-
-
-
             color: #46CF3A;
             line-height: 18px;
-
-
           }
 
           &.button-get-started {
@@ -123,14 +132,8 @@ const alertVisible = ref(route.path === '/');
             display: flex;
             align-items: center;
             justify-content: center;
-
-
-
-
             color: #FFFFFF;
             line-height: 18px;
-
-
           }
 
           &.button-lang {
@@ -141,14 +144,7 @@ const alertVisible = ref(route.path === '/');
             display: flex;
             align-items: center;
             justify-content: center;
-
-
-
-
-
             line-height: 18px;
-
-
           }
         }
       }
@@ -176,13 +172,9 @@ const alertVisible = ref(route.path === '/');
       align-items: center;
 
       .text {
-
-
         font-size: 16px;
         color: #FFFFFF;
         line-height: 18px;
-
-
       }
 
       .rocket {
@@ -200,12 +192,7 @@ const alertVisible = ref(route.path === '/');
         height: 30px;
         background: #FFFFFF;
         border-radius: 15px;
-
-
-
-
         line-height: 18px;
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -236,10 +223,12 @@ const alertVisible = ref(route.path === '/');
 
     .header {
       .left {
-        .logo {
-          width: 10.5rem;
-          height: 3rem;
-          margin-left: 1.87rem;
+        .back {
+          margin-left: 0.31rem;
+
+          width: 5.5rem;
+          height: 5.5rem;
+          background-image: url(/public/mobile-images/network/overview/home_menu_2@2x.png);
         }
       }
 
