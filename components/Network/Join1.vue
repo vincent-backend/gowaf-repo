@@ -213,4 +213,55 @@ withDefaults(defineProps<{
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .join1-container {
+    &.no-ranks {}
+
+    .join1 {
+      >.title {}
+
+      >.sub-title {
+        .s0 {}
+
+        .s1 {}
+
+        .s2 {}
+
+        .s3 {}
+
+        .s4 {}
+
+        .s5 {}
+      }
+
+      >.comment {
+        .avatar {}
+
+        .decoration-1 {}
+
+        .name {
+          &::before {}
+        }
+
+        .title {}
+
+        .content {}
+      }
+
+      >.ranks-container {
+        .rank {
+          .star-container {
+            .star {}
+
+            .score {}
+          }
+
+          .icon {}
+        }
+      }
+    }
+  }
+}
 </style>
