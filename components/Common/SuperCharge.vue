@@ -63,7 +63,7 @@ const { title, subTitle, tabs } = props.data!;
                 {{ text }}
               </p>
             </div>
-            <a href="#" class="trail-btn" style="margin-top: 40px;" v-if="tab.btn">{{ tab.btn }}</a>
+            <a href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</a>
           </div>
         </div>
       </template>
@@ -151,6 +151,10 @@ const { title, subTitle, tabs } = props.data!;
             color: #4E4E4E;
           }
         }
+
+        .trail-btn {
+          margin-top: 40px;
+        }
       }
     }
   }
@@ -177,19 +181,40 @@ const { title, subTitle, tabs } = props.data!;
       >.tabs-content {
         margin-top: 4.25rem;
 
+        width: auto;
         flex-direction: column;
 
         .left {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
           .icon {}
         }
 
         .right {
+          margin: 0;
+
           .title {
+            margin-top: 3.75rem;
+
+            font-size: 2.13rem;
+            line-height: 3rem;
+
             .title-tip {}
           }
 
           .content {
-            p {}
+            margin-top: 1.25rem;
+            width: auto;
+
+            p {
+              font-size: 1.63rem;
+            }
+          }
+
+          .trail-btn {
+            margin-top: 2.5rem;
           }
         }
       }

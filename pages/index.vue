@@ -15,7 +15,7 @@
   <HomeJoin1 />
   <HomeJoin2 />
   <CommonSuperCharge :data="$tm('home.superCharge')" />
-  <!-- <Footer /> -->
+  <Footer />
 
   <Notification />
 </template>
