@@ -192,12 +192,6 @@ body * {
   /* overflow:auto; */
 }
 
-/* Utility classes for display */
-.lg-only,
-.xs-only {
-  display: inherit;
-}
-
 /* For mobile devices */
 @media (max-width: 767px) {
   body * {
@@ -209,13 +203,6 @@ body * {
     width: 43rem;
     margin: 0 auto;
     padding: 0;
-  }
-
-  .lg-only {
-    display: none !important;
-  }
-  .xs-only {
-    display: inherit !important;
   }
 }
 

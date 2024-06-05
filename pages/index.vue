@@ -17,5 +17,7 @@
   <CommonSuperCharge v-bind="$tm('home.superCharge')" />
   <Footer />
 
-  <Notification />
+  <LgOnly>
+    <Notification />
+  </LgOnly>
 </template>

@@ -11,23 +11,31 @@ const alertVisible = ref(route.path === '/');
       <div class="left">
         <a href="/" class="logo"></a>
       </div>
-      <div class="right lg-only">
-        <HeaderMenu />
-        <div class="buttons-container">
-          <a href="#" class="button button-login">
-            {{ $t('header.login') }}
-          </a>
-          <a href="#" class="button button-get-started">
-            {{ $t('header.getStarted') }}
-          </a>
-          <a href="#" class="button button-lang">
-            EN
-          </a>
+
+      <!-- for laptop -->
+      <LgOnly>
+        <div class="right">
+          <HeaderMenu />
+          <div class="buttons-container">
+            <a href="#" class="button button-login">
+              {{ $t('header.login') }}
+            </a>
+            <a href="#" class="button button-get-started">
+              {{ $t('header.getStarted') }}
+            </a>
+            <a href="#" class="button button-lang">
+              EN
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="right xs-only">
-        <a href="#" class="menu-icon"></a>
-      </div>
+      </LgOnly>
+
+      <!-- for mobile -->
+      <XsOnly>
+        <div class="right">
+          <a href="#" class="menu-icon"></a>
+        </div>
+      </XsOnly>
     </div>
   </div>
   <div class="header-alert-container" v-if="alertVisible">

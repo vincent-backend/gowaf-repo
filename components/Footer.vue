@@ -41,15 +41,19 @@
               </dd>
             </dl>
           </div>
-          <Line top="70px" />
-          <div class="links">
-            <a v-for="item in $tm('footer.footer2.links')" :href="item.link">
-              {{ item.label }}
-            </a>
-          </div>
-          <div class="copyright">
-            {{ $t('footer.footer2.copyright') }}
-          </div>
+          <Line top="70px" m-top="3.13rem" />
+
+          <!-- laptop only -->
+          <LgOnly>
+            <div class="links">
+              <a v-for="item in $tm('footer.footer2.links')" :href="item.link">
+                {{ item.label }}
+              </a>
+            </div>
+            <div class="copyright">
+              {{ $t('footer.footer2.copyright') }}
+            </div>
+          </LgOnly>
         </div>
         <div class="right">
           <div class="section-1">
@@ -71,7 +75,7 @@
                 </a>
               </div>
               <div class="btn-container">
-                <a href="#" class="trail-btn" style="margin-top: 40px;">Contact Sales</a>
+                <a href="#" class="trail-btn">Contact Sales</a>
               </div>
             </div>
           </div>
@@ -93,6 +97,19 @@
           <div class="section-3">
             {{ $t('footer.footer2.section3') }}
           </div>
+
+          <!-- mobile only -->
+          <XsOnly>
+            <Line top="0" m-top="3.13rem" />
+            <div class="links">
+              <a v-for="item in $tm('footer.footer2.links')" :href="item.link">
+                {{ item.label }}
+              </a>
+            </div>
+            <div class="copyright">
+              {{ $t('footer.footer2.copyright') }}
+            </div>
+          </XsOnly>
         </div>
       </div>
     </div>
@@ -106,7 +123,7 @@
 
   .footer-1 {
     height: 100%;
-    background: url(/public/images/home/home_bot_banner_bg_dot.png) no-repeat left center;
+    background: url(/public/images/home/home_bot_banner_bg_dot@2x.png) no-repeat left center;
     background-size: 1018px 190px;
     display: flex;
     align-items: center;
@@ -169,7 +186,7 @@
       .logo {
         width: 112px;
         height: 32px;
-        background: url(/public/images/home/logo2.png) no-repeat;
+        background: url(/public/images/home/logo2@2x.png) no-repeat;
       }
     }
 
@@ -254,6 +271,7 @@
             .contacts {
               margin-top: 14px;
               display: flex;
+              align-items: center;
               gap: 30px;
 
               .contact {
@@ -268,17 +286,19 @@
                   margin-right: 10px;
 
                   &.icon-email {
-                    background: url(/public/images/home/bot_ic_email.png) no-repeat;
+                    background: url(/public/images/home/bot_ic_email@2x.png) no-repeat;
                   }
 
                   &.icon-phone {
-                    background: url(/public/images/home/bot_ic_phone.png) no-repeat;
+                    background: url(/public/images/home/bot_ic_phone@2x.png) no-repeat;
                   }
                 }
               }
             }
 
-            .btn-container {}
+            .btn-container {
+              margin-top: 40px;
+            }
           }
         }
 
@@ -287,7 +307,6 @@
 
           .title {
             font-weight: 500;
-
             line-height: 20px;
           }
 
@@ -309,15 +328,15 @@
                 height: 24px;
 
                 &.social-icon-1 {
-                  background: url(/public/images/home/bot_logo_twitter.png) no-repeat;
+                  background: url(/public/images/home/bot_logo_twitter@2x.png) no-repeat;
                 }
 
                 &.social-icon-2 {
-                  background: url(/public/images/home/bot_logo_face.png) no-repeat;
+                  background: url(/public/images/home/bot_logo_face@2x.png) no-repeat;
                 }
 
                 &.social-icon-3 {
-                  background: url(/public/images/home/nav_logo_in.png) no-repeat;
+                  background: url(/public/images/home/nav_logo_in@2x.png) no-repeat;
                 }
               }
             }
@@ -330,6 +349,234 @@
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
+        }
+      }
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .footer-1-container {
+    margin-top: 6.25rem;
+
+    height: 26rem;
+
+    .footer-1 {
+      flex-direction: column;
+      justify-content: center;
+
+      .left {
+        .title {
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+        }
+
+        .content {
+          margin-top: 1.25rem;
+
+          font-size: 1.63rem;
+          line-height: 2.38rem;
+        }
+      }
+
+      .right {
+        margin-top: 2.5rem;
+
+        align-items: flex-start;
+
+        .btn-container {
+          .btn {
+            width: auto;
+            height: auto;
+            padding: 1.25rem 1.63rem;
+            font-size: 1.63rem;
+            line-height: 2.13rem;
+          }
+        }
+
+        .btn-hint {
+          margin-top: 0.63rem;
+
+          font-size: 1.38rem;
+          line-height: 1.88rem;
+        }
+      }
+    }
+  }
+
+  .footer-2-container {
+    .footer-2 {
+      .logo-container {
+        padding: 0;
+        padding-top: 3.75rem;
+
+        .logo {
+          width: 10.5rem;
+          height: 3rem;
+          background: url(/public/mobile-images/home/logo@2x.png) no-repeat;
+        }
+      }
+
+      >.content {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        >.left {
+          .hot-links {
+            margin-top: 1.81rem;
+            flex-wrap: wrap;
+            gap: 1.25rem 2.5rem;
+
+            .link {}
+          }
+
+          .shortcuts-container {
+            margin-top: 3.13rem;
+            justify-content: space-between;
+            gap: 0;
+
+            .shortcuts {
+              flex: 1;
+              gap: 1.25rem;
+
+              dt {
+                margin-bottom: 1.25rem;
+
+                font-size: 1.5rem;
+              }
+
+              dd {
+                margin-top: 1.25rem;
+
+                a {
+                  font-size: 1.5rem;
+                }
+              }
+            }
+          }
+
+          .links {
+            a {}
+          }
+
+          .copyright {}
+        }
+
+        >.right {
+          margin-top: 3.13rem;
+
+          width: 100%;
+
+          .section-1 {
+            >.title {
+              font-size: 1.5rem;
+              line-height: 2.06rem;
+            }
+
+            >.content {
+              .sub-title {
+                margin-top: 0.63rem;
+
+                font-size: 1.5rem;
+                line-height: 2.06rem;
+              }
+
+              .contacts {
+                margin-top: 1.25rem;
+                gap: 4.38rem;
+
+                .contact {
+                  font-size: 1.63rem;
+                  line-height: 2.31rem;
+
+                  .icon {
+                    width: 2.25rem;
+                    height: 2.25rem;
+                    margin-right: 0.63rem;
+
+                    &.icon-email {}
+
+                    &.icon-phone {}
+                  }
+                }
+              }
+
+              .btn-container {
+                margin-top: 1.88rem;
+              }
+            }
+          }
+
+          .section-2 {
+            margin-top: 3.13rem;
+
+            .title {
+              font-size: 1.5rem;
+              line-height: 2.06rem;
+            }
+
+            .content {
+              .sub-title {
+                margin-top: 0.63rem;
+
+                font-size: 1.5rem;
+                line-height: 2.13rem;
+              }
+
+              .social-icons {
+                margin-top: 1.25rem;
+                gap: 2.25rem;
+
+                .social-icon {
+                  width: 2.25rem;
+                  height: 2.25rem;
+
+                  &.social-icon-1 {
+                    background: url(/public/mobile-images/home/bot_logo_twitter@2x.png) no-repeat;
+                  }
+
+                  &.social-icon-2 {
+                    background: url(/public/mobile-images/home/bot_logo_face@2x.png) no-repeat;
+                  }
+
+                  &.social-icon-3 {
+                    background: url(/public/mobile-images/home/nav_logo_in@2x.png) no-repeat;
+                  }
+                }
+              }
+            }
+          }
+
+          .section-3 {
+            margin-top: 1.88rem;
+
+            font-size: 1.88rem;
+            line-height: 2.63rem;
+          }
+
+          >.links {
+            margin-top: 3.13rem;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem 3.13rem;
+
+            a {
+              font-size: 1.5rem;
+              color: #4E4E4E;
+              line-height: 2.06rem;
+            }
+          }
+
+          >.copyright {
+            margin-top: 1.88rem;
+
+            font-size: 1.5rem;
+            color: #4E4E4E;
+            line-height: 2.06rem;
+            opacity: .5;
+          }
         }
       }
     }

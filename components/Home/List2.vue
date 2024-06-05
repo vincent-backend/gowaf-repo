@@ -17,16 +17,20 @@
             <div class="icon" :style="{
           backgroundImage: `url(/images/home/${item.icon}.png)`,
         }"></div>
-            <span class="coming-soon xs-only" v-if="item.comingSoon">
-              Coming Soon
-            </span>
+            <XsOnly>
+              <span class="coming-soon" v-if="item.comingSoon">
+                Coming Soon
+              </span>
+            </XsOnly>
           </div>
           <div class="right">
             <div class="title">
               {{ item.title }}
-              <span class="coming-soon lg-only" v-if="item.comingSoon">
-                Coming Soon
-              </span>
+              <LgOnly>
+                <span class="coming-soon" v-if="item.comingSoon">
+                  Coming Soon
+                </span>
+              </LgOnly>
             </div>
             <div class="content">
               {{ item.content }}
