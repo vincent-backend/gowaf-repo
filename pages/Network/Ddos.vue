@@ -8,8 +8,15 @@
 
   <CommonHeader1 :pre-title="$t('network.ddos.header.preTitle')" :title="$t('network.ddos.header.title')"
     :content="$t('network.ddos.header.content')" :btn="$t('network.ddos.header.btn')" href="#"
-    :hint="$t('network.ddos.header.hint')" pic="/images/network/ddos/Network_DDoS_banner_graph_1.png" pic-width="500px"
-    pic-height="420px" />
+    :hint="$t('network.ddos.header.hint')" :pic="{
+    src: '/images/network/ddos/Network_DDoS_banner_graph_1@2x.png',
+    w: '500px',
+    h: '420px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <NetworkAlwaysSafe :title="$t('network.ddos.alwaysSafe.title')" :sub-title="$t('network.ddos.alwaysSafe.subTitle')"
     :items="$tm('network.ddos.alwaysSafe.rows')" />

@@ -14,6 +14,7 @@ const props = defineProps({
     src: string,
     w: string,
     h: string,
+    msrc: string,
     mw: string,
     mh: string,
   },
@@ -24,8 +25,9 @@ const props = defineProps({
   },
 });
 
-const picW = isMobile ? props.pic!.mw : props.pic!.w;
-const picH = isMobile ? props.pic!.mh : props.pic!.h;
+const picSrc = isMobile() ? props.pic!.msrc : props.pic!.src;
+const picW = isMobile() ? props.pic!.mw : props.pic!.w;
+const picH = isMobile() ? props.pic!.mh : props.pic!.h;
 </script>
 
 <template>

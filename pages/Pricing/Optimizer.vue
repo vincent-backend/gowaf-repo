@@ -10,8 +10,15 @@
   ]" />
 
   <CommonHeader1 :pre-title="$t('pricing.optimizer.header.preTitle')" :title="$t('pricing.optimizer.header.title')"
-    :content="$t('pricing.optimizer.header.content')" pic="/images/pricing/optimizer/Pricing_Optimizer_banner_graph.png"
-    pic-width="410px" pic-height="366px" :show-foot="false" />
+    :content="$t('pricing.optimizer.header.content')" :show-foot="false" :pic="{
+    src: '/images/pricing/optimizer/Pricing_Optimizer_banner_graph@2x.png',
+    w: '410px',
+    h: '366px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <div class="price-1-container">
     <PricingTable :content="$tm('pricing.optimizer.pricingTable')" />

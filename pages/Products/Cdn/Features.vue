@@ -12,8 +12,15 @@
 
   <CommonHeader1 :pre-title="$t('products.cdn.features.header.preTitle')"
     :title="$t('products.cdn.features.header.title')" :content="$t('products.cdn.features.header.content')"
-    pic="/images/products/cdn/features/cdn_features_banner_graph@2x.png" pic-width="440px" pic-height="368px"
-    :show-foot="false" />
+    :show-foot="false" :pic="{
+    src: '/images/products/cdn/features/cdn_features_banner_graph@2x.png',
+    w: '440px',
+    h: '368px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <div class="ad2-container">
     <div class="title">{{ $t('products.cdn.features.ad2Container.title') }}</div>

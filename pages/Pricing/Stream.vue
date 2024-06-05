@@ -10,8 +10,15 @@
   ]" />
 
   <CommonHeader1 :pre-title="$t('pricing.stream.header.preTitle')" :title="$t('pricing.stream.header.title')"
-    :content="$t('pricing.stream.header.content')" pic="/images/pricing/stream/Pricing_Stream_banner_graph.png"
-    pic-width="466px" pic-height="428px" :show-foot="false" />
+    :content="$t('pricing.stream.header.content')" :show-foot="false" :pic="{
+    src: '/images/pricing/stream/Pricing_Stream_banner_graph@2x.png',
+    w: '466px',
+    h: '428px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <PricingTable2 />
 

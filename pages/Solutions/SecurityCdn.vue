@@ -3,9 +3,15 @@
 
   <CommonHeader1 :pre-title="$t('solutions.securityCdn.header.preTitle')"
     :title="$t('solutions.securityCdn.header.title')" :content="$t('solutions.securityCdn.header.content')"
-    :btn="$t('solutions.securityCdn.header.btn')" href="#" :hint="$t('solutions.securityCdn.header.hint')"
-    pic="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_banner_graph_1@2x.png" pic-width="460px"
-    pic-height="404px" />
+    :btn="$t('solutions.securityCdn.header.btn')" href="#" :hint="$t('solutions.securityCdn.header.hint')" :pic="{
+    src: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_banner_graph_1@2x.png',
+    w: '460px',
+    h: '404px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <SolutionsFeatureList2 :title="$t('solutions.securityCdn.features2.title')"
     :sub-title="$t('solutions.securityCdn.features2.subTitle')" :items="$tm('solutions.securityCdn.features2.items')" />

@@ -8,8 +8,15 @@
 
   <CommonHeader1 :pre-title="$t('network.smartEdge.header.preTitle')" :title="$t('network.smartEdge.header.title')"
     :content="$t('network.smartEdge.header.content')" :btn="$t('network.smartEdge.header.btn')" href="#"
-    :hint="$t('network.smartEdge.header.hint')" pic="/images/network/smart-edge/SmartEdge™_banner_graph_1.png"
-    pic-width="538px" pic-height="350px" :show-foot="false" />
+    :hint="$t('network.smartEdge.header.hint')" :show-foot="false" :pic="{
+    src: '/images/network/smart-edge/SmartEdge™_banner_graph_1@2x.png',
+    w: '538px',
+    h: '350px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
   <CommonNumbers style="margin-top: 80px;" :items="$tm('network.smartEdge.numbers')" />
 
   <NetworkYourNeeds />

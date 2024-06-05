@@ -10,8 +10,15 @@
   ]" />
   <CommonHeader1 :pre-title="$t('products.stream.overview.header.preTitle')"
     :title="$t('products.stream.overview.header.title')" :content="$t('products.stream.overview.header.content')"
-    :btn="$t('products.stream.overview.header.btn')" href="#" :hint="$t('products.stream.overview.header.hint')"
-    pic="/images/products/stream/overview/stream_overview_banner_graph@2x.png" pic-width="456px" pic-height="278px" />
+    :btn="$t('products.stream.overview.header.btn')" href="#" :hint="$t('products.stream.overview.header.hint')" :pic="{
+    src: '/images/products/stream/overview/stream_overview_banner_graph@2x.png',
+    w: '456px',
+    h: '278px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <NetworkAlwaysSafe :title="$t('products.stream.overview.alwaysSafe.title')"
     :sub-title="$t('products.stream.overview.alwaysSafe.subTitle')"

@@ -10,8 +10,15 @@
   ]" />
 
   <CommonHeader1 :pre-title="$t('pricing.dns.header.preTitle')" :title="$t('pricing.dns.header.title')"
-    :content="$t('pricing.dns.header.content')" pic="/images/pricing/dns/Pricing_DNS_banner_graph.png" pic-width="476px"
-    pic-height="350px" :show-foot="false" />
+    :content="$t('pricing.dns.header.content')" :show-foot="false" :pic="{
+    src: '/images/pricing/dns/Pricing_DNS_banner_graph@2x.png',
+    w: '476px',
+    h: '350px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <div class="price-1-container">
     <PricingTable :content="$tm('pricing.dns.pricingTable')" />

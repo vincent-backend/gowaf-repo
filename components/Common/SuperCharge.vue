@@ -154,6 +154,8 @@ const curTab = ref(0);
       >.tabs-content {
         margin-top: 4.25rem;
 
+        flex-direction: column;
+
         .left {
           .icon {}
         }

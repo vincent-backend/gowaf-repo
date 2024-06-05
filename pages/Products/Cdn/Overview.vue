@@ -12,8 +12,15 @@
 
   <CommonHeader1 :pre-title="$t('products.cdn.overview.header.preTitle')"
     :title="$t('products.cdn.overview.header.title')" :content="$t('products.cdn.overview.header.content')"
-    :btn="$t('products.cdn.overview.header.btn')" href="#" :hint="$t('products.cdn.overview.header.hint')"
-    pic="/images/products/cdn/overview/cdn_overview_banner_graph@2x.png" pic-width="381px" pic-height="371px" />
+    :btn="$t('products.cdn.overview.header.btn')" href="#" :hint="$t('products.cdn.overview.header.hint')" :pic="{
+    src: '/images/products/cdn/overview/cdn_overview_banner_graph@2x.png',
+    w: '381px',
+    h: '371px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <SolutionsAccelerate :title="$t('products.cdn.overview.accelerate.title')"
     :content="$t('products.cdn.overview.accelerate.content')" :list1="$tm('products.cdn.overview.accelerate.list1')"

@@ -6,9 +6,15 @@
       :title="$t('solutions.websiteAcceleration.header.title')"
       :content="$t('solutions.websiteAcceleration.header.content')"
       :btn="$t('solutions.websiteAcceleration.header.btn')" href="#"
-      :hint="$t('solutions.websiteAcceleration.header.hint')"
-      pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_banner_graph_1@2x.png"
-      pic-width="480px" pic-height="384px" :show-foot="false" />
+      :hint="$t('solutions.websiteAcceleration.header.hint')" :show-foot="false" :pic="{
+      src: '/images/solutions/website-acceleration/Solutions_Website_acceleration_banner_graph_1@2x.png',
+      w: '480px',
+      h: '384px',
+
+      msrc: '',
+      mw: '',
+      mh: '',
+    }" />
 
     <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.websiteAcceleration.numbers')" />
 

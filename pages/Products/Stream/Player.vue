@@ -10,8 +10,15 @@
   ]" />
   <CommonHeader1 :pre-title="$t('products.stream.player.header.preTitle')"
     :title="$t('products.stream.player.header.title')" :content="$t('products.stream.player.header.content')"
-    :btn="$t('products.stream.player.header.btn')" href="#" :hint="$t('products.stream.player.header.hint')"
-    pic="/images/products/stream/player/stream_player_banner_graph@2x.png" pic-width="472px" pic-height="322px" />
+    :btn="$t('products.stream.player.header.btn')" href="#" :hint="$t('products.stream.player.header.hint')" :pic="{
+    src: '/images/products/stream/player/stream_player_banner_graph@2x.png',
+    w: '472px',
+    h: '322px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
 
   <CommonList1 :title1="$t('products.stream.player.list1.title')" :title2="$t('products.stream.player.list1.subTitle')"

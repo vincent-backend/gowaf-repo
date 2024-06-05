@@ -4,8 +4,15 @@
   <CommonHeader1 :pre-title="$t('solutions.storageSoftware.header.preTitle')"
     :title="$t('solutions.storageSoftware.header.title')" :content="$t('solutions.storageSoftware.header.content')"
     :btn="$t('solutions.storageSoftware.header.btn')" href="#" :hint="$t('solutions.storageSoftware.header.hint')"
-    pic="/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_1@2x.png" pic-width="466px"
-    pic-height="368px" :show-foot="false" />
+    :show-foot="false" :pic="{
+    src: '/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_1@2x.png',
+    w: '466px',
+    h: '368px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.storageSoftware.numbers')" />
 

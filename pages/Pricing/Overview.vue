@@ -10,8 +10,15 @@
   ]" />
 
   <CommonHeader1 :pre-title="$t('pricing.overview.header.preTitle')" :title="$t('pricing.overview.header.title')"
-    :content="$t('pricing.overview.header.content')" pic="/images/pricing/overview/Pricing_Overview_banner_graph.png"
-    pic-width="450px" pic-height="366px" :show-foot="false" />
+    :content="$t('pricing.overview.header.content')" :show-foot="false" :pic="{
+    src: '/images/pricing/overview/Pricing_Overview_banner_graph@2x.png',
+    w: '450px',
+    h: '366px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <PricingPricing1 />
 

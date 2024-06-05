@@ -12,8 +12,15 @@
 
   <CommonHeader1 :pre-title="$t('products.cdn.safeHop.header.preTitle')"
     :title="$t('products.cdn.safeHop.header.title')" :content="$t('products.cdn.safeHop.header.content')"
-    :btn="$t('products.cdn.safeHop.header.btn')" href="#" :hint="$t('products.cdn.safeHop.header.hint')"
-    pic="/images/products/cdn/safe-hop/cdnsafehop_banner_graph@2x.png" pic-width="390px" pic-height="359px" />
+    :btn="$t('products.cdn.safeHop.header.btn')" href="#" :hint="$t('products.cdn.safeHop.header.hint')" :pic="{
+    src: '/images/products/cdn/safe-hop/cdnsafehop_banner_graph@2x.png',
+    w: '390px',
+    h: '359px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <ProductsReduceError />
 

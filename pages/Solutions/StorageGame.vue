@@ -5,8 +5,15 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
   <CommonHeader1 :pre-title="$t('solutions.storageGame.header.preTitle')"
     :title="$t('solutions.storageGame.header.title')" :content="$t('solutions.storageGame.header.content')"
     :btn="$t('solutions.storageGame.header.btn')" href="#" :hint="$t('solutions.storageGame.header.hint')"
-    pic="/images/solutions/storage-game/Solutions_Storage_game_banner_graph_1@2x.png" pic-width="442px"
-    pic-height="348px" :show-foot="false" />
+    :show-foot="false" :pic="{
+    src: '/images/solutions/storage-game/Solutions_Storage_game_banner_graph_1@2x.png',
+    w: '442px',
+    h: '348px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.storageGame.numbers')" />
 

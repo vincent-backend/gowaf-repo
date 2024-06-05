@@ -4,8 +4,15 @@
   <CommonHeader1 :pre-title="$t('solutions.videoDelivery.header.preTitle')"
     :title="$t('solutions.videoDelivery.header.title')" :content="$t('solutions.videoDelivery.header.content')"
     :btn="$t('solutions.videoDelivery.header.btn')" href="#" :hint="$t('solutions.videoDelivery.header.hint')"
-    pic="/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_1.png" pic-width="362px"
-    pic-height="338px" :show-foot="false" />
+    :show-foot="false" :pic="{
+    src: '/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_1@2x.png',
+    w: '362px',
+    h: '338px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <CommonNumbers style="margin-top: 60px;" :items="$tm('solutions.videoDelivery.numbers')" />
 

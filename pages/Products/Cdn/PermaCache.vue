@@ -13,8 +13,15 @@
   <CommonHeader1 :pre-title="$t('products.cdn.permaCache.header.preTitle')"
     :title="$t('products.cdn.permaCache.header.title')" :content="$t('products.cdn.permaCache.header.content')"
     :btn="$t('products.cdn.permaCache.header.btn')" href="#" :hint="$t('products.cdn.permaCache.header.hint')"
-    pic="/images/products/cdn/perma-cache/cdn_permacache_banner_img@2x.png" pic-width="374px" pic-height="402px"
-    :show-foot="false" />
+    :show-foot="false" :pic="{
+    src: '/images/products/cdn/perma-cache/cdn_permacache_banner_img@2x.png',
+    w: '374px',
+    h: '402px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('products.cdn.permaCache.numbers')" />
 

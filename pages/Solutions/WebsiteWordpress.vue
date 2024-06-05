@@ -4,8 +4,15 @@
   <CommonHeader1 :pre-title="$t('solutions.websiteWordpress.header.preTitle')"
     :title="$t('solutions.websiteWordpress.header.title')" :content="$t('solutions.websiteWordpress.header.content')"
     :btn="$t('solutions.websiteWordpress.header.btn')" href="#" :hint="$t('solutions.websiteWordpress.header.hint')"
-    pic="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_banner_graph_1@2x.png" pic-width="460px"
-    pic-height="404px" :show-foot="false" />
+    :show-foot="false" :pic="{
+    src: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_banner_graph_1@2x.png',
+    w: '460px',
+    h: '404px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.websiteWordpress.numbers')" />
 

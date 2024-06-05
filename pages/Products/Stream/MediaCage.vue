@@ -10,8 +10,15 @@
   ]" />
   <CommonHeader1 :pre-title="$t('products.stream.mediaCage.header.preTitle')"
     :title="$t('products.stream.mediaCage.header.title')" :content="$t('products.stream.mediaCage.header.content')"
-    :btn="$t('products.stream.mediaCage.header.btn')" href="#" :hint="$t('products.stream.mediaCage.header.hint')"
-    pic="/images/products/stream/media-cage/stream_media_banner_graph@2x.png" pic-width="360px" pic-height="336px" />
+    :btn="$t('products.stream.mediaCage.header.btn')" href="#" :hint="$t('products.stream.mediaCage.header.hint')" :pic="{
+    src: '/images/products/stream/media-cage/stream_media_banner_graph@2x.png',
+    w: '360px',
+    h: '336px',
+
+    msrc: '',
+    mw: '',
+    mh: '',
+  }" />
 
   <ProductsEasyPowerful />
   <ProductsProtectYourVideos />
