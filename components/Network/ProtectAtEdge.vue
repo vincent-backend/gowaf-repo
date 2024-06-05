@@ -62,14 +62,70 @@
           align-items: center;
           justify-content: center;
           background: linear-gradient(147deg, #F9C22F 0%, #FA6E4A 100%);
-          border-radius: 12px;
+          border-radius: 50%;
           margin-right: 10px;
 
           &::before {
             content: '';
             width: 14px;
             height: 14px;
-            background: url(/public/images/network/ddos/home_Text_list_ic_tick.png);
+            background: url(/public/images/network/ddos/home_Text_list_ic_tick@2x.png);
+            background-size: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .protect-at-edge-container {
+    margin-top: 6.25rem;
+
+    .protect-at-edge {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
+
+      >.pic {
+        margin-top: 3.13rem;
+
+        width: 46.88rem;
+        height: 60rem;
+        background: url(/public/mobile-images/network/ddos/Network_DDoS_flow@2x.png);
+      }
+
+      >.features {
+        margin-top: 3.13rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2.5rem 0;
+
+        .item {
+          width: 50%;
+          font-size: 1.63rem;
+          line-height: 2.31rem;
+
+          .icon {
+            width: 2.25rem;
+            height: 2.25rem;
+            margin-right: 1.25rem;
+
+            &::before {
+              width: 1.25rem;
+              height: 1.25rem;
+            }
           }
         }
       }
