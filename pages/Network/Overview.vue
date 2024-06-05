@@ -10,8 +10,7 @@
   <NetworkFlags />
   <NetworkHop />
   <CommonList1 :items="$tm('network.overview.list1')" />
-  <CommonSuperCharge :title="$t('network.overview.goFaster.title')"
-    :sub-title="$t('network.overview.goFaster.subTitle')" :tabs="$tm('network.overview.goFaster.tabs')" />
+  <CommonSuperCharge :data="$tm('network.overview.goFaster')" />
   <NetworkJoin1 :title="$t('network.overview.join1.title')" :person-name="$t('network.overview.join1.person.name')"
     :person-title="$t('network.overview.join1.person.title')"
     :person-content="$t('network.overview.join1.person.content')"

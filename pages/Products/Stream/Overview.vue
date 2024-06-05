@@ -26,9 +26,7 @@
 
   <CommonNumbers style="margin-top: 40px;" :items="$tm('products.stream.overview.numbers')" />
 
-  <CommonSuperCharge :title="$t('products.stream.overview.doNotLeave.title')"
-    :sub-title="$t('products.stream.overview.doNotLeave.subTitle')"
-    :tabs="$tm('products.stream.overview.doNotLeave.tabs')" />
+  <CommonSuperCharge :data="$tm('products.stream.overview.doNotLeave.title')" />
 
   <ProductsSimplifiedPricing />
   <PricingCalculate1 />

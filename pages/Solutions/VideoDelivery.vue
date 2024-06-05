@@ -16,9 +16,7 @@
 
   <CommonNumbers style="margin-top: 60px;" :items="$tm('solutions.videoDelivery.numbers')" />
 
-  <CommonSuperCharge :title="$t('solutions.videoDelivery.superCharge.title')"
-    :sub-title="$t('solutions.videoDelivery.superCharge.subTitle')"
-    :tabs="$tm('solutions.videoDelivery.superCharge.tabs')" />
+  <CommonSuperCharge :data="$tm('solutions.videoDelivery.superCharge')" />
 
   <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
     :btn="$t('solutions.videoDelivery.ad1.btn')" href="#"

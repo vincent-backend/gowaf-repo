@@ -27,9 +27,7 @@
 
   <ProductsNeverHit />
 
-  <CommonSuperCharge :title="$t('products.cdn.permaCache.superCharge.title')"
-    :sub-title="$t('products.cdn.permaCache.superCharge.subTitle')"
-    :tabs="$tm('products.cdn.permaCache.superCharge.tabs')" />
+  <CommonSuperCharge :data="$tm('products.cdn.permaCache.superCharge')" />
 
   <SolutionsAd1 :title="$t('products.cdn.permaCache.ad1.title')" :sub-title="$t('products.cdn.permaCache.ad1.subTitle')"
     :btn="$t('products.cdn.permaCache.ad1.btn')" href="#"

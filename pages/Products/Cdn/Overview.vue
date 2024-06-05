@@ -28,8 +28,7 @@
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('products.cdn.overview.numbers')" />
 
-  <CommonSuperCharge :title="$t('products.cdn.overview.goFaster.title')"
-    :sub-title="$t('products.cdn.overview.goFaster.subTitle')" :tabs="$tm('products.cdn.overview.goFaster.tabs')" />
+  <CommonSuperCharge :data="$tm('products.cdn.overview.goFaster')" />
 
   <SolutionsAd1 :title="$t('products.cdn.overview.ad1.title')" :sub-title="$t('products.cdn.overview.ad1.subTitle')"
     :btn="$t('products.cdn.overview.ad1.btn')" href="#"

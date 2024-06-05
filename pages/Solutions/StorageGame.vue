@@ -21,8 +21,7 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
     :content="$t('solutions.storageGame.accelerate.content')" :list1="$tm('solutions.storageGame.accelerate.list1')"
     :list2="$tm('solutions.storageGame.accelerate.list2')" />
 
-  <CommonSuperCharge :title="$t('solutions.storageGame.goFaster.title')"
-    :sub-title="$t('solutions.storageGame.goFaster.subTitle')" :tabs="$tm('solutions.storageGame.goFaster.tabs')" />
+  <CommonSuperCharge :data="$tm('solutions.storageGame.goFaster')" />
 
   <SolutionsAd1 :title="$t('solutions.storageGame.ad1.title')" :sub-title="$t('solutions.storageGame.ad1.subTitle')"
     :btn="$t('solutions.storageGame.ad1.btn')" href="#"

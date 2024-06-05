@@ -14,8 +14,7 @@
   <HomeList2 />
   <HomeJoin1 />
   <HomeJoin2 />
-  <CommonSuperCharge :title="$t('home.superCharge.title')" :sub-title="$t('home.superCharge.subTitle')"
-    :tabs="$tm('home.superCharge.tabs')" />
+  <CommonSuperCharge :data="$tm('home.superCharge')" />
   <!-- <Footer /> -->
 
   <Notification />

@@ -1,24 +1,5 @@
 <script lang="ts" setup>
-import { isMobile } from '#imports';
-
-const imgs = isMobile() ? [
-  '/mobile-images/home/home_logo_1@2x.png',
-  '/mobile-images/home/home_logo_2@2x.png',
-  '/mobile-images/home/home_logo_3@2x.png',
-  '/mobile-images/home/home_logo_4@2x.png',
-  '/mobile-images/home/home_logo_5@2x.png',
-  '/mobile-images/home/home_logo_6@2x.png',
-  '/mobile-images/home/home_logo_7@2x.png',
-  '/mobile-images/home/home_logo_8@2x.png',
-  '/mobile-images/home/home_logo_9@2x.png',
-  '/mobile-images/home/home_logo_10@2x.png',
-  '/mobile-images/home/home_logo_11@2x.png',
-  '/mobile-images/home/home_logo_12@2x.png',
-  '/mobile-images/home/home_logo_13@2x.png',
-  '/mobile-images/home/home_logo_14@2x.png',
-  '/mobile-images/home/home_logo_15@2x.png',
-  '/mobile-images/home/home_logo_16@2x.png',
-] : [
+const imgs = obeyDevice([
   '/images/home/home_logo_1@2x.png',
   '/images/home/home_logo_2@2x.png',
   '/images/home/home_logo_3@2x.png',
@@ -35,7 +16,24 @@ const imgs = isMobile() ? [
   '/images/home/home_logo_14@2x.png',
   '/images/home/home_logo_15@2x.png',
   '/images/home/home_logo_16@2x.png',
-];
+], [
+  '/mobile-images/home/home_logo_1@2x.png',
+  '/mobile-images/home/home_logo_2@2x.png',
+  '/mobile-images/home/home_logo_3@2x.png',
+  '/mobile-images/home/home_logo_4@2x.png',
+  '/mobile-images/home/home_logo_5@2x.png',
+  '/mobile-images/home/home_logo_6@2x.png',
+  '/mobile-images/home/home_logo_7@2x.png',
+  '/mobile-images/home/home_logo_8@2x.png',
+  '/mobile-images/home/home_logo_9@2x.png',
+  '/mobile-images/home/home_logo_10@2x.png',
+  '/mobile-images/home/home_logo_11@2x.png',
+  '/mobile-images/home/home_logo_12@2x.png',
+  '/mobile-images/home/home_logo_13@2x.png',
+  '/mobile-images/home/home_logo_14@2x.png',
+  '/mobile-images/home/home_logo_15@2x.png',
+  '/mobile-images/home/home_logo_16@2x.png',
+]);
 </script>
 
 <template>

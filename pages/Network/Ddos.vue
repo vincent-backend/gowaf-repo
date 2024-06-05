@@ -28,8 +28,7 @@
   <NetworkStayProtectAlways />
   <CommonList1 :items="$tm('network.overview.list1')" />
 
-  <CommonSuperCharge :title="$t('network.ddos.doNotLeave.title')" :sub-title="$t('network.ddos.doNotLeave.subTitle')"
-    :tabs="$tm('network.ddos.doNotLeave.tabs')" />
+  <CommonSuperCharge :data="$tm('network.ddos.doNotLeave')" />
 
   <NetworkJoin1 :title="$t('network.ddos.join1.title')" :person-name="$t('network.ddos.join1.person.name')"
     :person-title="$t('network.ddos.join1.person.title')" :person-content="$t('network.ddos.join1.person.content')"

@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-import { isMobile } from '~/utils/isMobile';
-
-const props = defineProps({
+defineProps({
   preTitle: String,
   title: String,
   content: String,
@@ -24,29 +22,25 @@ const props = defineProps({
     default: true,
   },
 });
-
-const picSrc = isMobile() ? props.pic!.msrc : props.pic!.src;
-const picW = isMobile() ? props.pic!.mw : props.pic!.w;
-const picH = isMobile() ? props.pic!.mh : props.pic!.h;
 </script>
 
 <template>
   <header class="home-banner-container" :class="{
-    'hide-foot': !props.showFoot,
+    'hide-foot': !showFoot,
   }">
     <div class="page-container home-banner">
       <div class="left">
-        <div class="pre-title" v-if="props.preTitle">{{ props.preTitle }}</div>
-        <h2 class="title" v-if="props.title">{{ props.title }}</h2>
-        <div class="content" v-if="props.content">{{ props.content }}</div>
-        <a :href="props.href" class="trail-btn" v-if="props.btn">{{ props.btn }}</a>
-        <div class="hint" v-if="props.hint">{{ props.hint }}</div>
+        <div class="pre-title" v-if="preTitle">{{ preTitle }}</div>
+        <h2 class="title" v-if="title">{{ title }}</h2>
+        <div class="content" v-if="content">{{ content }}</div>
+        <a :href="href" class="trail-btn" v-if="btn">{{ btn }}</a>
+        <div class="hint" v-if="hint">{{ hint }}</div>
       </div>
       <div class="right">
-        <div class="pic" v-if="props.pic" :style="{
-    backgroundImage: `url(${props.pic.src})`,
-    width: picW,
-    height: picH,
+        <div class="pic" v-if="pic" :style="{
+    backgroundImage: `url(${obeyDevice(pic.src, pic.msrc).value})`,
+    width: obeyDevice(pic.w, pic.mw).value,
+    height: obeyDevice(pic.h, pic.mh).value,
   }"></div>
       </div>
     </div>

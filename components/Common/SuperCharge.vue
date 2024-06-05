@@ -1,34 +1,57 @@
 <script lang="ts" setup>
 const props = defineProps({
-  title: String,
-  subTitle: String,
-  tabs: Array<any>,
+  data: Object,
+  /*
+  data: {
+    title: string,
+    subTitle: string,
+    tabs: [
+      {
+        tab: string,
+        title: string,
+        content: string,
+        btn: string,
+        href: string,
+
+        icon: string,
+        iconWidth: string,
+        iconHeight: string,
+
+        mIcon: string,
+        mIconWidth: string,
+        mIconHeight: string,
+      },
+    ],
+  },
+  */
 });
 
 // tabs
 const curTab = ref(0);
+
+const { title, subTitle, tabs } = props.data!;
 </script>
 
 <template>
   <div class="super-charge-container">
     <div class="page-container super-charge">
-      <div class="title">
-        {{ props.title }}
-      </div>
-      <div class="sub-title">
-        {{ props.subTitle }}
-      </div>
+      <div class="title">{{ title }}</div>
+      <div class="sub-title">{{ subTitle }}</div>
       <Line top="40px" m-top="2.5rem" />
 
-      <CommonTabs :tabs="props.tabs" v-model:cur-tab="curTab" />
+      <CommonTabs :tabs="tabs" v-model:cur-tab="curTab" />
       <template v-for="tab, index in tabs">
         <div class="tabs-content" v-if="index === curTab">
           <div class="left">
-            <div class="icon" :style="{
-          backgroundImage: `url(${tab.icon})`,
-          width: tab.iconWidth,
-          height: tab.iconHeight,
-        }"></div>
+            <div class="icon" :style="isMobile ? {
+        backgroundImage: `url(${tab.mIcon})`,
+        width: tab.mIconWidth,
+        height: tab.mIconHeight,
+      } : {
+        backgroundImage: `url(${tab.icon})`,
+        width: tab.iconWidth,
+        height: tab.iconHeight,
+      }"></div>
           </div>
           <div class="right">
             <div class="title">

@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { isMobile } from '#imports';
-
 const props = defineProps({
   color: {
     type: String,
@@ -13,13 +11,11 @@ const props = defineProps({
   top: String,
   mTop: String,
 });
-
-const top = isMobile() ? props.mTop : props.top;
 </script>
 
 <template>
   <div class="line" :style="{
-    marginTop: top,
+    marginTop: obeyDevice(props.top, props.mTop).value,
     background: props.color,
     height: props.height,
   }"></div>
