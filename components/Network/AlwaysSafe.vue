@@ -92,4 +92,27 @@ defineProps<{
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .always-safe-container {
+    .always-safe {
+      >.title {}
+
+      >.sub-title {}
+
+      >.content-container {
+        >.row {
+          .content-item {
+            .icon {}
+
+            .title {}
+
+            .content {}
+          }
+        }
+      }
+    }
+  }
+}
 </style>
