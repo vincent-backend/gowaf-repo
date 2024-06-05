@@ -62,4 +62,23 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .hop-container {
+    .hop {
+      .left {
+        .title {}
+
+        .sub-title {}
+
+        .trail-btn {}
+      }
+
+      .right {
+        .pic {}
+      }
+    }
+  }
+}
 </style>
