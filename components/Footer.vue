@@ -114,27 +114,17 @@
 
     .left {
       .title {
-
         font-weight: 500;
         font-size: 30px;
         color: #FFFFFF;
         line-height: 42px;
-
-
-
       }
 
       .content {
         margin-top: 10px;
 
-
-
         font-size: 16px;
         color: #FFFFFF;
-
-
-
-
       }
     }
 
@@ -152,28 +142,19 @@
           border-radius: 25px;
           align-items: center;
           justify-content: center;
-
           font-family: Mont, Mont;
           font-weight: 600;
           font-size: 16px;
-
           line-height: 21px;
-
-
-
         }
       }
 
       .btn-hint {
         margin-top: 13px;
 
-
         font-size: 12px;
         color: #FFFFFF;
         line-height: 17px;
-
-
-
         opacity: .7;
       }
     }
@@ -203,14 +184,8 @@
           gap: 30px;
 
           .link {
-
-
-
             color: #4E4E4E;
             line-height: 20px;
-
-
-
           }
         }
 
@@ -225,26 +200,15 @@
               margin-bottom: 14px;
 
               font-weight: 500;
-
-
               line-height: 20px;
-
-
-
             }
 
             dd {
               margin-top: 10px;
 
               a {
-
-
-
                 color: #4E4E4E;
                 line-height: 20px;
-
-
-
               }
             }
           }
@@ -257,28 +221,16 @@
           gap: 30px;
 
           a {
-
-
-
             color: #4E4E4E;
             line-height: 20px;
-
-
-
           }
         }
 
         .copyright {
           margin-top: 10px;
 
-
-
-
           color: #4E4E4E;
           line-height: 20px;
-
-
-
         }
       }
 
@@ -287,28 +239,16 @@
 
         .section-1 {
           >.title {
-
             font-weight: 500;
-
-
             line-height: 20px;
-
-
-
           }
 
           >.content {
             .sub-title {
               margin-top: 14px;
 
-
-
-
               color: #4E4E4E;
               line-height: 20px;
-
-
-
             }
 
             .contacts {
@@ -317,14 +257,9 @@
               gap: 30px;
 
               .contact {
-
-
                 font-size: 16px;
                 color: #3CCF87;
                 line-height: 22px;
-
-
-
                 display: flex;
 
                 .icon {
@@ -351,28 +286,17 @@
           margin-top: 60px;
 
           .title {
-
             font-weight: 500;
 
-
             line-height: 20px;
-
-
-
           }
 
           .content {
             .sub-title {
               margin-top: 14px;
 
-
-
-
               color: #4E4E4E;
               line-height: 20px;
-
-
-
             }
 
             .social-icons {
@@ -403,14 +327,9 @@
         .section-3 {
           margin-top: 30px;
 
-
           font-weight: 500;
           font-size: 20px;
-
           line-height: 28px;
-
-
-
         }
       }
     }
