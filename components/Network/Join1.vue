@@ -31,7 +31,7 @@ withDefaults(defineProps<{
         <div class="decoration-1"></div>
         <div class="name">{{ person.name }}</div>
         <div class="title">{{ person.title }}</div>
-        <Line top="20px" />
+        <Line top="20px" m-top="1.88rem" />
         <div class="content">{{ person.content }}</div>
       </div>
       <div class="ranks-container" v-if="showScores">
@@ -217,12 +217,29 @@ withDefaults(defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .join1-container {
+    height: auto;
+
     &.no-ranks {}
 
     .join1 {
-      >.title {}
+      display: block;
+      padding-top: 3.13rem;
+      padding-bottom: 6.25rem;
+
+      >.title {
+        width: auto;
+
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
 
       >.sub-title {
+        margin-top: 1rem;
+
+        display: block;
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+
         .s0 {}
 
         .s1 {}
@@ -237,28 +254,83 @@ withDefaults(defineProps<{
       }
 
       >.comment {
-        .avatar {}
+        margin-top: 13rem;
+        border-radius: 0.88rem;
+        padding: 1.87rem;
 
-        .decoration-1 {}
-
-        .name {
-          &::before {}
+        .avatar {
+          width: 27.38rem;
+          height: 18.75rem;
+          right: -0.63rem;
+          top: -9.63rem;
         }
 
-        .title {}
+        .decoration-1 {
+          width: 9.25rem;
+          height: 4.38rem;
+        }
 
-        .content {}
+        .name {
+          font-size: 2.25rem;
+          line-height: 3.13rem;
+
+          &::before {
+            width: 0.25rem;
+            height: 1.75rem;
+            margin-right: 1.31rem;
+          }
+        }
+
+        .title {
+          margin-top: 0.38rem;
+
+          font-size: 1.38rem;
+          line-height: 1.88rem;
+        }
+
+        .content {
+          margin-top: 1.88rem;
+
+          font-size: 1.63rem;
+          line-height: 2.38rem;
+        }
       }
 
       >.ranks-container {
-        .rank {
-          .star-container {
-            .star {}
+        margin-top: 2.94rem;
+        flex-wrap: wrap;
 
-            .score {}
+        gap: 0.5rem 0;
+
+        .rank {
+          width: 20.94rem;
+          height: 15.19rem;
+
+          border-radius: 1.5rem;
+
+          .star-container {
+            width: 9.38rem;
+            height: 9.38rem;
+
+            .star {
+              width: 2.5rem;
+              height: 2.5rem;
+            }
+
+            .score {
+              margin-top: 0.38rem;
+
+              font-size: 2.5rem;
+              line-height: 3.31rem;
+            }
           }
 
-          .icon {}
+          .icon {
+            margin-top: 0;
+
+            width: 11.25rem;
+            height: 3.13rem;
+          }
         }
       }
     }
