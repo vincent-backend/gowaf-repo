@@ -4034,7 +4034,8 @@ export default {
         ],
         exceptionalPerformance: {
           title: 'Exceptional performance.For every request.Every time.',
-          content: 'Deliver fantastic experience with 36 PoPs around Europe.Reach users in most major cities in under 10ms.'
+          content: 'Deliver fantastic experience with 36 PoPs around Europe.Reach users in most major cities in under 10ms.',
+          markerColor: "#3F59FF",
         },
         drmCustomer: {
           title: 'Join over 40.000+ happy customers',
@@ -4197,6 +4198,237 @@ export default {
             '/images/products/storage/europe/home_logo_8_2x_1.png',
           ] 
         }
+      },
+      NorthAmerica: {
+        header: {
+          preTitle: 'CDN North America',
+          title: 'Largest economy. Just a Hop Away.',
+          content: 'Deliver impeccable performance to the largest economy in the world. With 22 PoPs strategically placed through major cities in the USA and direct connections to major ISPs such as Comcast, you can reach most internet users in less than 27 ms.',
+          btn: 'Start 14-Day FREE Trial',
+          hint: 'No credit card needed. Start in seconds.',
+        },
+        numbers: [
+          {
+            label: '22',
+            content: 'PoPs',
+          },
+          {
+            label: '27 ms',
+            content: 'Avg Latency',
+          },
+          {
+            label: '15',
+            content: 'Transit Providers',
+          },
+          {
+            label: '151.000',
+            content: 'Peak Request/Second',
+          },
+        ],
+        exceptionalPerformance: {
+          title: 'Exceptional performance.For every request.Every time.',
+          content: 'Deliver fantastic experience with 22 PoPs around United States and Canada.Reach users in most major cities in under 10ms.',
+          markerColor: "#F9C22F",
+        },
+        drmCustomer: {
+          title: 'Join over 40.000+ happy customers',
+          contentPre: "We're rated ",
+          contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
+          contentMid: " Excellent 4.8",
+          contentP: "out of 5 on",
+          contentLink: "Trustpilot",
+          contentLast: " - Based on 700+ reviews",
+          faceImg: {
+            img: '/images/products/storage/northamerica/Network_ddos_evaluate_character_2x.png',
+            top: '-3px',
+            right: '135px',
+            width: '438px',
+            height: '300px',
+          },
+          list: {
+            title: 'Matthias Mauch',
+            subTitle: 'Younity',
+            content: "\"We had a flow! summit without a single complaint.I think, overall, bunny.net is just a very complete solution.Handling videos is so easy with Bunny - you don't need a lot of training. It's very streamlined.\"",
+          },
+          items: [
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png'
+            },
+            {
+              num: 4.4,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png'
+            },
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png'
+            },
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png'
+            },
+          ]
+        },
+        neverHit: {
+          title: 'Never hit your origin again',
+          subTitle: 'Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.',
+          items: [
+            {
+              icon: '/images/products/storage/europe/SmartEdge™_ic_engine_2x.png',
+              width: '100px',
+              height: '100px',
+              alignType: 'flex-start',
+              title: 'Scalable by Design',
+              content: 'Maximize your growth and delivery all across North America.',
+              contentAlign: 'left',
+            },
+            {
+              icon: '/images/products/storage/europe/SmartEdge™_ic_Monitoring_2x.png',
+              width: '100px',
+              height: '100px',
+              alignType: 'flex-start',
+              title: '24/7 Support',
+              content: 'Available 24 hours a day, every day of the week.',
+              contentAlign: 'left',
+            },
+            {
+              icon: '/images/products/storage/europe/home_list_ic_network_2x.png',
+              width: '100px',
+              height: '100px',
+              alignType: 'flex-start',
+              title: 'Transparent Pricing',
+              content: 'Only pay for the bandwidth you use and cancel anytime.',
+              contentAlign: 'left',
+            },
+          ],
+        },
+        HopList: {
+          title: 'Hop on the #1 CDN in USA & Canada',
+          subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+          btn: 'Start 14-Day FREE Trial',
+
+        },
+        list1: {
+          subTitle: 'Hop ahead of the technology curve.',
+          title: 'Everything you want and much more',
+          items: [
+            {
+              icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_1@2x.png',
+              title: 'Easy Let\'s Encrypt SSL',
+              content: 'Take advantage of a free SSL certificate with a single click of a button.',
+            },
+            {
+              icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_2@2x.png',
+              title: 'Instant Cache Purging',
+              content: 'Clearing cache has never been so easy and fast. Keep your content always up to date.',
+            },
+            {
+              icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_3@2x.png',
+              title: 'Real-Time Log Forwarding',
+              content: 'Gain complete visibility into your content and make data-driven business decisions.',
+            },
+            {
+              icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_4@2x.png',
+              title: 'Real-Time Monitoring',
+              content: 'Make use of the next-generation real-time monitoring dashboard and get full traffic insights.',
+            },
+            {
+              icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_5@2x.png',
+              title: 'Edge Rules',
+              content: 'Define custom rules to control delivery, security, routing, and much more directly on the edge.',
+            },
+            {
+              icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_6@2x.png',
+              title: 'Powerful Security',
+              content: 'Stay protected from any and all attacks with state-of-the-art DoS mitigation security.',
+            },
+          ],          
+        },
+        supportPlan: {
+          content: {
+            title: 'Save up to 80% on your content delivery costs',
+            content: "Don’t overpay for your Content Delivery ever again. At bunny.net, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!",
+            subConttent: 'Take advantage of two simple pay-as-you-go pricing designed for any budget starting at just $0.02/GB.',
+            list: {
+              title: 'What’s included?',
+              items: [
+                'No Hidden Fees',
+                'DDoS Protection',
+                'Real-Time Monitoring',
+                'Perma-Caching',
+              ],
+            },
+          },
+        },
+        calculator1: {
+          title: 'Calculate your monthly bill',
+          subTitle: 'Enter your total traffic used each month to see estimated pricing.',
+          tabs: [
+            {
+              tab: 'Gigabytes',
+            },
+            {
+              tab: 'Terabytes',
+            },
+          ],
+          items: [
+            {
+              title: 'EU / NA',
+              value: '200 GB',
+              percent: 45,
+            },
+          ],
+          subs: [
+            {
+              title: 'Standard Tier',
+              value: '$2/month',
+            },
+            {
+              title: 'Volume Tier',
+              value: '$1/month',
+            },
+          ],
+          btn: 'Start FREE 14-Day Trial',
+        },
+        storageSupportPlan: {
+          title: 'A Support Team That Cares',
+          subTitle: 'Forget support levels and get connected directly with an expert. Every single time.',
+          content: {
+            title: 'Super responsive. Around the clock.',
+            content: 'No more waiting around for the support you need right now. We are here for you 24 hours a day, 7 days a week, 365 days a year!',
+            title1: 'Super attentive.',
+            content1: 'Working on a bigger project? Take advantage of a dedicated support team that will be available to you 24/7 in your own Private Slack Channel. Get direct help and never wait again!',
+            list: [
+              { num: '5', unit: 'min', title: "FIRST RESPONSE TIME" },
+              { num: '3', unit: 'hrs', title: "AVERAGE SOLVE TIME" },
+            ],
+            btn: 'Meet our Super Bunnies',
+          },
+        },
+        partnerList: {
+          title: 'Leading carriers and peering partners',
+          subTitle: 'Stop compromising on network quality. Hop on a premium network with top Tier 1 transit provided by leading data carriers in North America.',
+          imgPcList: [
+            '/images/products/storage/northamerica/home_logo_1_2x.png',
+            '/images/products/storage/northamerica/home_logo_2_2x.png',
+            '/images/products/storage/northamerica/home_logo_3_2x.png',
+            '/images/products/storage/northamerica/home_logo_4_2x.png',
+            '/images/products/storage/northamerica/home_logo_5_2x.png',
+            '/images/products/storage/northamerica/home_logo_6_2x.png',
+            '/images/products/storage/northamerica/home_logo_7_2x.png',
+            '/images/products/storage/northamerica/home_logo_8_2x.png',
+          ],
+          imgMobileList: [
+            '/images/products/storage/northamerica/home_logo_1_2x.png',
+            '/images/products/storage/northamerica/home_logo_2_2x.png',
+            '/images/products/storage/northamerica/home_logo_3_2x.png',
+            '/images/products/storage/northamerica/home_logo_4_2x.png',
+            '/images/products/storage/northamerica/home_logo_5_2x.png',
+            '/images/products/storage/northamerica/home_logo_6_2x.png',
+            '/images/products/storage/northamerica/home_logo_7_2x.png',
+            '/images/products/storage/northamerica/home_logo_8_2x.png',
+          ]
+        },
       }
     }
   },

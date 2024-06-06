@@ -1,8 +1,19 @@
+<script lang="ts" setup>
+withDefaults(defineProps<{
+  markerColor: string,
+  title: string,
+  content: string,
+}>(), {
+  title: 'Exceptional performance.For every request.Every time.',
+  content: 'Deliver fantastic experience with 36 PoPs around Europe.Reach users in most major cities in under 10ms.',
+  markerColor: '#3F59FF',
+});
+</script>
 <template>
   <div class="exceptional-performance-container">
     <div class="never-hit page-container">
-      <div class="title">{{ $t('products.storage.Europe.exceptionalPerformance.title') }}</div>
-      <div class="sub-title">{{ $t('products.storage.Europe.exceptionalPerformance.content') }}</div>
+      <div class="title">{{ title }}</div>
+      <div class="sub-title">{{ content }}</div>
     </div>
     <div class="img">
       <ul class="position-container">
@@ -11,8 +22,8 @@
           :style="{left: item * (Math.floor(Math.random() * 4) + 20) + 'px', top: item * (Math.floor(Math.random() * 11) + 2) + 'px'}"
         >
           <div class="circle">
-            <div class="big-circle"></div>
-            <div class="small-circle"></div>
+            <div class="big-circle" :style="{background: `${markerColor}`}"></div>
+            <div class="small-circle" :style="{background: `${markerColor}`}"></div>
           </div>
         </li>
       </ul>
@@ -89,7 +100,7 @@
       }
   }
   .never-hit {
-    width: 894px;
+    width: 980px;
 
     >.title {
       font-family: PingFangSC, PingFang SC;

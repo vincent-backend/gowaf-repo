@@ -1,24 +1,26 @@
 <script lang="ts" setup>
-
-const imgs = obeyDevice([
-  '/images/products/storage/europe/home_logo_1_2x_1.png',
-  '/images/products/storage/europe/home_logo_2_2x_1.png',
-  '/images/products/storage/europe/home_logo_3_2x_1.png',
-  '/images/products/storage/europe/home_logo_4_2x_1.png',
-  '/images/products/storage/europe/home_logo_5_2x_1.png',
-  '/images/products/storage/europe/home_logo_6_2x_1.png',
-  '/images/products/storage/europe/home_logo_7_2x_1.png',
-  '/images/products/storage/europe/home_logo_8_2x_1.png',
-], [
-  '/images/products/storage/europe/home_logo_1_2x_1.png',
-  '/images/products/storage/europe/home_logo_2_2x_1.png',
-  '/images/products/storage/europe/home_logo_3_2x_1.png',
-  '/images/products/storage/europe/home_logo_4_2x_1.png',
-  '/images/products/storage/europe/home_logo_5_2x_1.png',
-  '/images/products/storage/europe/home_logo_6_2x_1.png',
-  '/images/products/storage/europe/home_logo_7_2x_1.png',
-  '/images/products/storage/europe/home_logo_8_2x_1.png',
-]);
+  const props = defineProps({
+    list: Array<string>,
+  });
+// const imgs = obeyDevice([
+//   '/images/products/storage/europe/home_logo_1_2x_1.png',
+//   '/images/products/storage/europe/home_logo_2_2x_1.png',
+//   '/images/products/storage/europe/home_logo_3_2x_1.png',
+//   '/images/products/storage/europe/home_logo_4_2x_1.png',
+//   '/images/products/storage/europe/home_logo_5_2x_1.png',
+//   '/images/products/storage/europe/home_logo_6_2x_1.png',
+//   '/images/products/storage/europe/home_logo_7_2x_1.png',
+//   '/images/products/storage/europe/home_logo_8_2x_1.png',
+// ], [
+//   '/images/products/storage/europe/home_logo_1_2x_1.png',
+//   '/images/products/storage/europe/home_logo_2_2x_1.png',
+//   '/images/products/storage/europe/home_logo_3_2x_1.png',
+//   '/images/products/storage/europe/home_logo_4_2x_1.png',
+//   '/images/products/storage/europe/home_logo_5_2x_1.png',
+//   '/images/products/storage/europe/home_logo_6_2x_1.png',
+//   '/images/products/storage/europe/home_logo_7_2x_1.png',
+//   '/images/products/storage/europe/home_logo_8_2x_1.png',
+// ]);
 </script>
 
 <template>
@@ -29,7 +31,7 @@ const imgs = obeyDevice([
         <p>{{ $t('products.storage.Europe.partnerList.subTitle') }}</p>
       </div>
       <div class="list">
-        <div class="item" v-for="img in imgs">
+        <div class="item" v-for="img in list">
           <img :src="img" />
         </div>
       </div>
