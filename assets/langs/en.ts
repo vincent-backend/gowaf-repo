@@ -1,3 +1,6 @@
+import { Title } from "#build/components";
+import { list } from "postcss";
+
 export default {
   home: {
     header: {
@@ -3050,16 +3053,25 @@ export default {
           items: [
             {
               icon: '/images/products/cdn/perma-cache/media_simple_ic_1@2x.png',
+              width: '80px',
+              height: '80px',    
+              alignType: 'center',          
               title: 'CDN',
               content: 'Requests an uncached file from the CDN',
             },
             {
               icon: '/images/products/cdn/perma-cache/media_simple_ic_2@2x.png',
+              width: '80px',
+              height: '80px',    
+              alignType: 'center',          
               title: 'Perma-Cache',
               content: 'Deliver files from the Edge Storage',
             },
             {
               icon: '/images/products/cdn/perma-cache/media_simple_ic_3@2x.png',
+              width: '80px',
+              height: '80px',     
+              alignType: 'center',         
               title: 'Origin',
               content: 'The request never hits your server.',
             },
@@ -3281,6 +3293,7 @@ export default {
             content: 'Satisfied Customers',
           },
         ],
+        
         doNotLeave: {
           title: 'Supercharge your internet presence',
           subTitle: 'Next-Generation Solutions. Next-Level Performance.',
@@ -3289,7 +3302,7 @@ export default {
               tab: 'Built for performance',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              icon: '/images/products/stream/overview/stream_overview_img_1.png',
               iconWidth: '400px',
               iconHeight: '400px',
             },
@@ -3297,7 +3310,7 @@ export default {
               tab: 'Globallv scalable',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              icon: '/images/products/stream/overview/stream_overview_img_1.png',
               iconWidth: '400px',
               iconHeight: '400px',
             },
@@ -3305,7 +3318,7 @@ export default {
               tab: 'Content Protection',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              icon: '/images/products/stream/overview/stream_overview_img_1.png',
               iconWidth: '400px',
               iconHeight: '400px',
             },
@@ -3313,7 +3326,7 @@ export default {
               tab: 'Customizable Media Player',
               title: 'Amazing performance and unparalleled reliability',
               content: 'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
-              icon: '/images/products/stream/overview/SketchPngc61cbb84603282d3e96a90a91adb90ab8ddedac8cf508a2b77157732dddaf575.png',
+              icon: '/images/products/stream/overview/stream_overview_img_1.png',
               iconWidth: '400px',
               iconHeight: '400px',
             },
@@ -3382,7 +3395,7 @@ export default {
             label: 'Price',
             value: '$0.01',
             unit: '/ Gigabyte',
-            icon: '/images/products/stream/overview/common_price_right_wihte_ic@2x.png',
+            icon: '/images/products/stream/overview/common_price_right_wihte_ic2x.png',
             list: [
               { label: 'One', status: 1 },
               { label: 'Two', status: 0 },
@@ -3851,7 +3864,7 @@ export default {
             title: '/month + DRM License Fees',
             content: 'Enteprise level protection that\'s easy on your wallet. Our scalable, user-focused approach ensures that your costs are always in line with your actual usage, providing both flexibility and affordability. Our pricing is designed to be flexible, pay only for DRM licenses used, plus a monthly base fee',
             title2: 'Pay as you scale',
-            conent2: 'Simple and innovative pricing that scales with vour needs. Start at iust $99 a month, then add a little hop per DRM licenses consumed per month:',
+            content2: 'Simple and innovative pricing that scales with vour needs. Start at iust $99 a month, then add a little hop per DRM licenses consumed per month:',
             list: [
               {
                 label: '0-20k:',
@@ -3901,11 +3914,18 @@ export default {
         drmCustomer: {
           title: 'Trusted by 40.000+ global customers',
           contentPre: "We're rated ",
-          contentImg: '/images/products/stream/multi-drm/home_title_star@2x.png',
+          contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
           contentMid: " Excellent 4.8",
           contentP: "out of 5 on",
           contentLink: "Trustpilot",
           contentLast: " - Based on 700+ reviews",
+          faceImg: {
+            img: '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
+            top: '-3px',
+            right: '135px',
+            width: '438px',
+            height: '300px',
+          },
           list: {
             title: 'Matthias Mauch',
             subTitle: 'Younity',
@@ -3914,19 +3934,19 @@ export default {
           items: [
             {
               num: 4.8,
-              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1@2x.png'
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png'
             },
             {
               num: 4.4,
-              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2@2x.png'
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png'
             },
             {
               num: 4.8,
-              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3@2x.png'
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png'
             },
             {
               num: 4.8,
-              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4@2x.png'
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png'
             },
           ]
         },
@@ -3935,15 +3955,15 @@ export default {
           subTitle: 'Just an email away.',
           list: [
             {
-              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_1@2x.png',
+              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_1_2x.png',
               content: 'End-to-end DRM protection with browser, native iOS, and Android support.',
             },
             {
-              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_2@2x.png',
+              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_2_2x.png',
               content: 'Pre-integrated, and custom integration player.',
             },
             {
-              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_3@2x.png',
+              icon: '/images/products/stream/multi-drm/stream_multi_7_ic_3_2x.png',
               content: 'Unlimited media transcoding up to 4k. Completely free of charge.',
             },
           ],
@@ -3955,9 +3975,9 @@ export default {
             lastName: 'Last Name',
             lastNameLabel: 'Your last name',
             companyName: 'Company Name',
-            companyNameLabel: 'you@company.com',
+            companyNameLabel: 'you company.com',
             email: 'Email',
-            emailLabel: 'you@company.com',
+            emailLabel: 'you company.com',
             phone: 'Phone',
             phoneLabel: 'XXX-XXX-XXXX',
             message: 'Message',
@@ -3967,5 +3987,208 @@ export default {
         }
       },
     },
+    storage: {
+      breadCrumbs: {
+        parent: 'Stream',
+        overview: 'Overview',
+        player: 'Player',
+        mediaCage: 'Media Cage',
+        multiDRM: 'Multi-DRM',
+        transcribeAI: 'Transcribe Al',
+        apiDocs: 'API Docs',
+      },
+      Europe: {
+        header: {
+          preTitle: 'CDN Europe',
+          title: 'Fastest content delivery in Europe',
+          content: 'Hop on the #1 content delivery network in Europe. Connect to all major ISPs with local connectivity in most major European cities.Powered by a network with a 19 ms latency, your users will never have to wait again.',
+          btn: 'Start 14-Day FREE Trial',
+          hint: 'No credit card needed. Start in seconds.',
+        },
+        numbers: [
+          {
+            label: '36',
+            content: 'PoPs',
+          },
+          {
+            label: '19 ms',
+            content: 'Avg Latency',
+          },
+          {
+            label: '14',
+            content: 'Transit Providers',
+          },
+          {
+            label: '156.000',
+            content: 'Peak Request/Second',
+          },
+        ],
+        exceptionalPerformance: {
+          title: 'Exceptional performance.For every request.Every time.',
+          content: 'Deliver fantastic experience with 36 PoPs around Europe.Reach users in most major cities in under 10ms.'
+        },
+        drmCustomer: {
+          title: 'Join over 40.000+ happy customers',
+          contentPre: "We're rated ",
+          contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
+          contentMid: " Excellent 4.8",
+          contentP: "out of 5 on",
+          contentLink: "Trustpilot",
+          contentLast: " - Based on 700+ reviews",
+          faceImg: {
+            img: '/images/products/storage/europe/Network_ddos_evaluate_character_2x.png',
+            top: '-54px',
+            right: '135px',
+            width: '438px',
+            height: '352px',
+          },
+          list: {
+            title: 'Lorenzo Faletra',
+            subTitle: 'CEO, Parrot Security',
+            content: "\"We tried several CDN providers before, and although being more expensive, they didn't offer the same performance and reliability. After the switch to polyfill, our users immediately noticed how fast and reliable the downloads became.\"",
+          },
+          items: [
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png'
+            },
+            {
+              num: 4.4,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png'
+            },
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png'
+            },
+            {
+              num: 4.8,
+              icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png'
+            },
+          ]
+        },
+        neverHit: {
+          title: 'Never hit your origin again',
+          subTitle: 'Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.',
+          items: [
+            {
+              icon: '/images/products/storage/europe/SmartEdge™_ic_engine_2x.png',
+              width: '100px',
+              height: '100px',
+              alignType: 'flex-start',
+              title: 'Scalable by Design',
+              content: 'Maximize your growth and delivery all across Europe.',
+              contentAlign: 'left',
+            },
+            {
+              icon: '/images/products/storage/europe/SmartEdge™_ic_Monitoring_2x.png',
+              width: '100px',
+              height: '100px',
+              alignType: 'flex-start',
+              title: '24/7 Support',
+              content: 'Available 24 hours a day, every day of the week.',
+              contentAlign: 'left',
+            },
+            {
+              icon: '/images/products/storage/europe/home_list_ic_network_2x.png',
+              width: '100px',
+              height: '100px',
+              alignType: 'flex-start',
+              title: 'Transparent Pricing',
+              content: 'Only pay for the bandwidth you use and cancel anytime.',
+              contentAlign: 'left',
+            },
+          ],
+        },
+        list1: {
+          subTitle: 'Hop ahead of the technology curve.',
+          title: 'Everything you want and much more',
+        },
+        supportPlan: {
+          content: {
+            title: 'Save up to 80% on your content delivery costs',
+            content: "Don’t overpay for your Content Delivery ever again. At bunny.net, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!",
+            subConttent: 'Take advantage of two simple pay-as-you-go pricing designed for any budget starting at just $0.02/GB.',
+            list: {
+              title: 'What’s included?',
+              items: [
+                'No Hidden Fees',
+                'DDoS Protection',
+                'Real-Time Monitoring',
+                'Perma-Caching',
+              ],
+            },
+          },
+        },
+        calculator1: {
+          title: 'Calculate your monthly bill',
+          subTitle: 'Enter your total traffic used each month to see estimated pricing.',
+          tabs: [
+            {
+              tab: 'Gigabytes',
+            },
+            {
+              tab: 'Terabytes',
+            },
+          ],
+          items: [
+            {
+              title: 'EU / NA',
+              value: '200 GB',
+              percent: 45,
+            },
+          ],
+          subs: [
+            {
+              title: 'Standard Tier',
+              value: '$2/month',
+            },
+            {
+              title: 'Volume Tier',
+              value: '$1/month',
+            },
+          ],
+          btn: 'Start FREE 14-Day Trial',
+        },
+        storageSupportPlan: {
+          title: 'A Support Team That Cares',
+          subTitle: 'Forget support levels and get connected directly with an expert. Every single time.',
+          content: {
+            title: 'Super responsive. Around the clock.',
+            content: 'No more waiting around for the support you need right now. We are here for you 24 hours a day, 7 days a week, 365 days a year!',
+            title1: 'Super attentive.',
+            content1: 'Working on a bigger project? Take advantage of a dedicated support team that will be available to you 24/7 in your own Private Slack Channel. Get direct help and never wait again!',
+            list: [
+              { num: '5', unit: 'min', title: "FIRST RESPONSE TIME" },
+              { num: '3', unit: 'hrs', title: "AVERAGE SOLVE TIME" },
+            ],
+            btn: 'Meet our Super Bunnies',
+          },
+        },
+        partnerList:{
+          title: 'Leading carriers and peering partners',
+          subTitle: 'Stop compromising on network quality. Hop on a premium network with top Tier 1 transit provided by leading data carriers in North America.',
+          imgPcList: [
+            '/images/products/storage/europe/home_logo_1_2x_1.png',
+            '/images/products/storage/europe/home_logo_2_2x_1.png',
+            '/images/products/storage/europe/home_logo_3_2x_1.png',
+            '/images/products/storage/europe/home_logo_4_2x_1.png',
+            '/images/products/storage/europe/home_logo_5_2x_1.png',
+            '/images/products/storage/europe/home_logo_6_2x_1.png',
+            '/images/products/storage/europe/home_logo_7_2x_1.png',
+            '/images/products/storage/europe/home_logo_8_2x_1.png',
+          ],
+          imgMobileList: [
+            '/images/products/storage/europe/home_logo_1_2x_1.png',
+            '/images/products/storage/europe/home_logo_2_2x_1.png',
+            '/images/products/storage/europe/home_logo_3_2x_1.png',
+            '/images/products/storage/europe/home_logo_4_2x_1.png',
+            '/images/products/storage/europe/home_logo_5_2x_1.png',
+            '/images/products/storage/europe/home_logo_6_2x_1.png',
+            '/images/products/storage/europe/home_logo_7_2x_1.png',
+            '/images/products/storage/europe/home_logo_8_2x_1.png',
+          ] 
+        }
+      }
+    }
   },
 };

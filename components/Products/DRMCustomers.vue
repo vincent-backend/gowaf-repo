@@ -1,32 +1,69 @@
+
+<script lang="ts" setup>
+defineProps<{
+  drmCustomer: {
+    title: string;
+    contentPre: string;
+    contentImg: string;
+    contentMid: string;
+    contentP: string;
+    contentLink: string;
+    contentLast: string;
+    faceImg: {
+      img: string;
+      top: string;
+      right: string;
+      width: string,
+      height: string,
+    }[];
+    list: {
+      title: string;
+      subTitle: string;
+      content: string;
+    }[];
+    items: Array<{
+      num: Number;
+      icon: string;
+    }>;
+  }[];
+}>();
+
+</script>
 <template>
   <div class="drm-customer-container">
     <div class="drm-customer-content-container">
-      <h3>{{ $t('products.stream.multiDRM.drmCustomer.title') }}</h3>
+      <h3>{{ drmCustomer.title }}</h3>
       
       <p>
-        {{ $t('products.stream.multiDRM.drmCustomer.contentPre') }}
-        <img :src="$t('products.stream.multiDRM.drmCustomer.contentImg')" :alt="$t('products.stream.multiDRM.drmCustomer.contentImg')" />
-        <span class="clolorFA9B3B">{{ $t('products.stream.multiDRM.drmCustomer.contentMid') }}</span>
-        {{ $t('products.stream.multiDRM.drmCustomer.contentP') }}
-        <a href="#">{{ $t('products.stream.multiDRM.drmCustomer.contentLink') }}</a>
-         {{ $t('products.stream.multiDRM.drmCustomer.contentLast') }}
+        {{ drmCustomer.contentPre }}
+        <img :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
+        <span class="clolorFA9B3B">{{ drmCustomer.contentMid }}</span>
+        {{ drmCustomer.contentP }}
+        <a href="#">{{ drmCustomer.contentLink }}</a>
+         {{ drmCustomer.contentLast }}
       </p>
       <div class="list">
         <div>
-          <h4><span></span>{{ $t('products.stream.multiDRM.drmCustomer.list.title') }}</h4>
-          <span>{{ $t('products.stream.multiDRM.drmCustomer.list.subTitle') }}</span>
+          <h4><span></span>{{ drmCustomer.list.title }}</h4>
+          <span>{{ drmCustomer.list.subTitle }}</span>
         </div>
         <p>
-          {{ $t('products.stream.multiDRM.drmCustomer.list.content') }}
+          {{ drmCustomer.list.content }}
         </p>
       </div>
       <ul>
-        <li v-for="(item, index) in $tm('products.stream.multiDRM.drmCustomer.items')" :key="index">
+        <li v-for="(item, index) in drmCustomer.items" :key="index">
           <span>{{ item.num }}</span>
           <img :src="item.icon" :alt="item.num">
         </li>
       </ul>
-      <div class="face-img"></div>
+      <div class="face-img" 
+          :style="'background-image:url('+drmCustomer.faceImg.img + '); width:' + 
+          drmCustomer.faceImg.width + ';height:' + 
+          drmCustomer.faceImg.height + ';top:' + 
+          drmCustomer.faceImg.top + ';right:' + 
+          drmCustomer.faceImg.right
+      "></div>
     </div>
   </div>
 </template>
@@ -45,10 +82,11 @@
       position: absolute;
       width: 438px;
       height: 300px;
-      background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_character@2x.png) no-repeat right 0;
-      background-size: 438px 300px !important;
+      background-position: right 0;
+      background-repeat: no-repeat;
+      background-size: cover !important;
       right:135px;
-      top:0;
+      top:-3px;
     }
     &::before{
         content: "";

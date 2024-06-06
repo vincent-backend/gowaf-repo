@@ -20,10 +20,31 @@ defineProps<{
 .numbers {
   height: 128px;
   position: relative;
-
+  .n-0, .n-2 {
+    &::before{
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 6px;
+      background: #ECECEC;
+      bottom: 0;
+      left:0;
+    }
+  }
+  .n-1, .n-3 {
+    &::before{
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 6px;
+      background: #ECECEC;
+      top: 0;
+      left:0;
+    }
+  }
   .number {
     position: absolute;
-
+    height: 128px;
     .number-title {
       font-family: Mont, Mont;
       font-weight: 600;
@@ -47,7 +68,7 @@ defineProps<{
 
   .n-1 {
     left: 271px;
-    top: 36px;
+    padding-top: 36px;
   }
 
   .n-2 {
@@ -56,8 +77,8 @@ defineProps<{
   }
 
   .n-3 {
-    left: 976px;
-    top: 36px;
+    left: 966px;
+    padding-top: 36px;
   }
 }
 

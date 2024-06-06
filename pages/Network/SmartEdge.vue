@@ -19,7 +19,7 @@
   }" />
   <CommonNumbers style="margin-top: 80px;" :items="$tm('network.smartEdge.numbers')" />
 
-  <NetworkYourNeeds />
+  <NetworkYourNeeds :yourNeeds="$tm('network.smartEdge.yourNeeds')" />
 
   <NetworkJoin1 v-bind="{
     ...$tm('network.smartEdge.join1'),

@@ -2,6 +2,7 @@
 defineProps<{
   title1: string;
   title2: string;
+  title2Width: String;
   items: {
     icon: string,
     title: string,
@@ -45,7 +46,7 @@ defineProps<{
   }
 
   .title2 {
-    margin: 18px auto 0;
+    margin: 18px auto 80px;
 
     width: 612px;
     font-size: 16px;

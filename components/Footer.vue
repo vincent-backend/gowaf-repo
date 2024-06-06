@@ -1,5 +1,13 @@
+<script lang="ts" setup>
+const props = defineProps({
+  isShowBanner: {
+    type: Boolean,
+    default: true,
+  },
+});
+</script>
 <template>
-  <footer class="footer-1-container">
+  <footer class="footer-1-container" v-if="isShowBanner">
     <div class="page-container footer-1">
       <div class="left">
         <div class="title">

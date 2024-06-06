@@ -25,7 +25,7 @@
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('products.cdn.permaCache.numbers')" />
 
-  <ProductsNeverHit />
+  <ProductsNeverHit :isShowTitle="true" :neverHit="$tm('products.cdn.permaCache.neverHit')" />
 
   <CommonSuperCharge v-bind="$tm('products.cdn.permaCache.superCharge')" />
 

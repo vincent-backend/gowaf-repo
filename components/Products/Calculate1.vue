@@ -1,13 +1,33 @@
 <script lang="ts" setup>
-const curTab = ref(0);
+  const curTab = ref(0);
+  withDefaults(defineProps<{
+    isShowTitle: boolean;
+    isShowReplicationPoints: boolean;
+    itemWidth: string,
+    subs: {
+      title: string,
+      value: string,
+    };
+    items: {
+      title: string,
+      value: string,
+      percent: number,
+    };
+
+  }>(), {
+    isShowTitle: true,
+    isShowReplicationPoints: true,
+    itemWidth: '270px',
+
+  });
 </script>
 
 <template>
   <div class="calculator-1-container">
     <div class="calculator-1 page-container">
-      <div class="title1">{{ $t('pricing.cdn.calculator1.title') }}</div>
-      <div class="title2">{{ $t('pricing.cdn.calculator1.subTitle') }}</div>
-      <Line top="40px" />
+      <div class="title1" v-if="isShowTitle">{{ $t('pricing.cdn.calculator1.title') }}</div>
+      <div class="title2" v-if="isShowTitle">{{ $t('pricing.cdn.calculator1.subTitle') }}</div>
+      <Line top="40px" v-if="isShowTitle" />
 
       <CommonTabs :tabs="$tm('pricing.cdn.calculator1.tabs')" v-model:cur-tab="curTab" />
       <div class="content">
@@ -16,10 +36,10 @@ const curTab = ref(0);
         </div>
         <div class="right">
           <div class="list">
-            <div class="item" v-for="(item, index) in $tm('products.stream.overview.Calculate.list')" :key="index">
+            <div class="item" v-for="(item, index) in items" :key="index" :style="{width:`${itemWidth}`}">
               <div class="left">
                 <div class="title">{{ item.title }}</div>
-                <div class="value">{{ item.num }}</div>
+                <div class="value">{{ item.value }}</div>
               </div>
               <div class="right">
                 <div class="circletrack">
@@ -28,7 +48,7 @@ const curTab = ref(0);
               </div>
             </div>
           </div>
-          <div class="replication-points-container">
+          <div class="replication-points-container" v-if="isShowReplicationPoints">
             <h4>Replication points</h4>
             <ul>
               <li v-for="(item, index) in $tm('products.stream.overview.Calculate.ReplicationPoints.list')" :key="index">
@@ -44,7 +64,7 @@ const curTab = ref(0);
             </div>
           </div>
           <div class="list2">
-            <div class="item" v-for="item in $tm('pricing.cdn.calculator1.subs')">
+            <div class="item" v-for="item in subs">
               <div class="left">
                 <span class="title">{{ item.title }}</span>
                 <span class="icon"></span>
@@ -205,7 +225,7 @@ const curTab = ref(0);
           width: 560px;
 
           >.item {
-            width: 270px;
+            min-width: 270px;
             height: 100px;
             background: #FFFFFF;
             box-shadow: 0px 4px 10px 0px #F1F1F1;

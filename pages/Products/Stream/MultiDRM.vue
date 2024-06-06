@@ -26,8 +26,10 @@
   <ProductsEndlessSecurity />
   <ProductsDRMTable />
   <ProductsDRMPricing />
-  <ProductsDRMCustomers />
+  <ProductsDRMCustomers 
+    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')" 
+  />
   <ProductsDRMEmail />
 
-  <Footer />
+  <Footer :is-show-banner="false" />
 </template>

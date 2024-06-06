@@ -24,10 +24,13 @@
 
   <CommonNumbers style="margin-top: 40px;" :items="$tm('products.stream.overview.numbers')" />
 
-  <CommonSuperCharge v-bind="$tm('products.stream.overview.doNotLeave.title')" />
+  <CommonSuperCharge v-bind="$tm('products.stream.overview.doNotLeave')" />
 
   <ProductsSimplifiedPricing />
-  <PricingCalculate1 />
+  <ProductsCalculate1 
+    :items="$tm('products.stream.overview.Calculate.list')"
+    :subs="$tm('pricing.cdn.calculator1.subs')"
+   />
 
   <ProductsPackedFeatures />
 
@@ -37,15 +40,9 @@
     reverse />
 
   <ProductsHowStreamWorks />
-
-  <NetworkJoin1 v-bind="{
-    ...$tm('products.stream.overview.join1'),
-    avatar: '/images/products/stream/overview/Network_Overview_evaluate_character@2x.png',
-    mAvatar: '',
-    showScores: false,
-  }" />
-
-  <ProductsDRMCustomers />
+  <ProductsDRMCustomers 
+    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')" 
+  />
 
   <Footer />
 </template>

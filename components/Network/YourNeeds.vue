@@ -1,8 +1,20 @@
+<script lang="ts" setup>
+const props = defineProps({
+  yourNeeds: {
+    type: Object,
+    default: {}
+  },
+  isShowMaxPerformance: {
+    type: Boolean,
+    default: true    
+  }
+});
+</script>
 <template>
   <div class="your-needs-container">
     <div class="your-needs page-container">
-      <div class="title">{{ $t('network.smartEdge.yourNeeds.title') }}</div>
-      <div class="sub-title">{{ $t('network.smartEdge.yourNeeds.subTitle') }}</div>
+      <div class="title">{{ $t('yourNeeds.title') }}</div>
+      <div class="sub-title">{{ $t('yourNeeds.subTitle') }}</div>
       <div class="list">
         <div class="item" v-for="item in $tm('network.smartEdge.yourNeeds.items')">
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
@@ -10,7 +22,7 @@
           <div class="content">{{ item.content }}</div>
         </div>
       </div>
-      <div class="max-performance">
+      <div class="max-performance" v-if="isShowMaxPerformance">
         <div class="left">
           <div class="title">{{ $t('network.smartEdge.maxPerformance.title') }}</div>
           <div class="content">{{ $t('network.smartEdge.maxPerformance.content') }}</div>
