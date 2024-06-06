@@ -32,7 +32,9 @@
   <SolutionsAd1 :title="$t('products.cdn.overview.ad1.title')" :sub-title="$t('products.cdn.overview.ad1.subTitle')"
     :btn="$t('products.cdn.overview.ad1.btn')" href="#"
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png" pic-width="300px" pic-height="300px" />
-  <CommonList1 :title1="$t('products.storage.Europe.list1.title')" :title2="$t('products.storage.Europe.list1.subTitle')"
+  <CommonList1 
+    :title1="$t('products.storage.Europe.list1.title')" 
+    :title2="$t('products.storage.Europe.list1.subTitle')"
     :items="$tm('products.cdn.overview.list1.items')" />    
   <ProductsSupportPlan />
   <ProductsCalculate1 
