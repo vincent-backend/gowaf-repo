@@ -59,17 +59,34 @@
 // For mobile devices
 @media (max-width: 767px) {
   .stay-protect-always-container {
+    margin-top: 6.25rem;
+    height: 28rem;
+
     .stay-protect-always {
       .left {
-        .title {}
+        .title {
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+          width: 20rem;
+        }
 
-        .sub-title {}
+        .sub-title {
+          margin-top: 1rem;
 
-        .btn-container {}
+          font-size: 1.63rem;
+          line-height: 2.38rem;
+        }
+
+        .btn-container {
+          margin-top: 2.5rem;
+        }
       }
 
       .right {
-        .pic {}
+        .pic {
+          width: 14.88rem;
+          height: 15.13rem;
+        }
       }
     }
   }
