@@ -17,9 +17,13 @@
     mw: '',
     mh: '',
   }" />
-  <CommonNumbers style="margin-top: 80px;" :items="$tm('network.smartEdge.numbers')" />
+  <VSpace h="80px" mh="3.13rem" />
+  <CommonNumbers :items="$tm('network.smartEdge.numbers')" />
 
-  <NetworkYourNeeds :yourNeeds="$tm('network.smartEdge.yourNeeds')" />
+  <NetworkYourNeeds v-bind="{
+    ...$tm('network.smartEdge.yourNeeds'),
+    maxPerformance: $tm('network.smartEdge.maxPerformance'),
+  }" />
 
   <NetworkJoin1 v-bind="{
     ...$tm('network.smartEdge.join1'),

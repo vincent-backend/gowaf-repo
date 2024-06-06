@@ -1,5 +1,3 @@
-import { Title } from "#build/components";
-import { list } from "postcss";
 
 export default {
   home: {
@@ -894,9 +892,9 @@ export default {
             icon: '/images/network/ddos/Network_DDoS_banner_graph_3@2x.png',
             iconWidth: '384px',
             iconHeight: '288px',
-            mIcon: '',
-            mIconWidth: '',
-            mIconHeight: '',
+            mIcon: '/mobile-images/network/ddos/Network_DDoS_banner_graph_3@2x.png',
+            mIconWidth: '24rem',
+            mIconHeight: '18rem',
           },
           {
             tab: 'mil Real-Time Monitoring',
@@ -905,9 +903,9 @@ export default {
             icon: '/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png',
             iconWidth: '294px',
             iconHeight: '294px',
-            mIcon: '',
-            mIconWidth: '',
-            mIconHeight: '',
+            mIcon: '/mobile-images/network/ddos/Network_DDoS_banner_graph_mil@2x.png',
+            mIconWidth: '18.38rem',
+            mIconHeight: '18.38rem',
           },
           {
             tab: 'Upload Protection',
@@ -916,9 +914,9 @@ export default {
             icon: '/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png',
             iconWidth: '334px',
             iconHeight: '279px',
-            mIcon: '',
-            mIconWidth: '',
-            mIconHeight: '',
+            mIcon: '/mobile-images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png',
+            mIconWidth: '20.88rem',
+            mIconHeight: '17.44rem',
           },
         ],
       },
@@ -962,19 +960,22 @@ export default {
         subTitle: 'Stop making compromises when delivering your content. SmartEdge™ consistently tailors a massive global network based on your needs.',
         items: [
           {
-            icon: '/images/network/smart-edge/SmartEdge™_ic_cache.png',
             title: 'Unparalleled Caching',
             content: 'Efficiently deliver content with automatic caching optimizations that ensure the most efficient data distribution around the globe.',
+            icon: '/images/network/smart-edge/SmartEdge™_ic_cache.png',
+            mIcon: '',
           },
           {
-            icon: '/images/network/smart-edge/SmartEdge™_ic_Monitoring.png',
             title: 'Built-in Health Monitoring',
             content: 'Avoid downtime and prevent revenue loss by utilizing a real-time health monitoring system built directly into the routing system.',
+            icon: '/images/network/smart-edge/SmartEdge™_ic_Monitoring.png',
+            mIcon: '',
           },
           {
-            icon: '/images/network/smart-edge/SmartEdge™_ic_engine.png',
             title: 'Content-Aware Routing Engine',
             content: 'Enjoy maximum performance for your specific type of content with automatic optimizations based on your files.',
+            icon: '/images/network/smart-edge/SmartEdge™_ic_engine.png',
+            mIcon: '',
           },
         ],
       },
@@ -3063,24 +3064,24 @@ export default {
             {
               icon: '/images/products/cdn/perma-cache/media_simple_ic_1@2x.png',
               width: '80px',
-              height: '80px',    
-              alignType: 'center',          
+              height: '80px',
+              alignType: 'center',
               title: 'CDN',
               content: 'Requests an uncached file from the CDN',
             },
             {
               icon: '/images/products/cdn/perma-cache/media_simple_ic_2@2x.png',
               width: '80px',
-              height: '80px',    
-              alignType: 'center',          
+              height: '80px',
+              alignType: 'center',
               title: 'Perma-Cache',
               content: 'Deliver files from the Edge Storage',
             },
             {
               icon: '/images/products/cdn/perma-cache/media_simple_ic_3@2x.png',
               width: '80px',
-              height: '80px',     
-              alignType: 'center',         
+              height: '80px',
+              alignType: 'center',
               title: 'Origin',
               content: 'The request never hits your server.',
             },
@@ -3302,7 +3303,7 @@ export default {
             content: 'Satisfied Customers',
           },
         ],
-        
+
         doNotLeave: {
           title: 'Supercharge your internet presence',
           subTitle: 'Next-Generation Solutions. Next-Level Performance.',
@@ -4174,7 +4175,7 @@ export default {
             btn: 'Meet our Super Bunnies',
           },
         },
-        partnerList:{
+        partnerList: {
           title: 'Leading carriers and peering partners',
           subTitle: 'Stop compromising on network quality. Hop on a premium network with top Tier 1 transit provided by leading data carriers in North America.',
           imgPcList: [
@@ -4196,7 +4197,7 @@ export default {
             '/images/products/storage/europe/home_logo_6_2x_1.png',
             '/images/products/storage/europe/home_logo_7_2x_1.png',
             '/images/products/storage/europe/home_logo_8_2x_1.png',
-          ] 
+          ]
         }
       },
       NorthAmerica: {

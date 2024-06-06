@@ -224,7 +224,6 @@ withDefaults(defineProps<{
     .join1 {
       display: block;
       padding-top: 3.13rem;
-      padding-bottom: 6.25rem;
 
       >.title {
         width: auto;

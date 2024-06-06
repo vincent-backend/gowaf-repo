@@ -35,7 +35,7 @@
   <NetworkJoin1 v-bind="{
     ...$tm('network.ddos.join1'),
     avatar: '/images/network/ddos/Network_ddos_evaluate_character@2x.png',
-    mAvatar: '',
+    mAvatar: '/mobile-images/network/ddos/Network_ddos_evaluate_character@2x.png',
   }" />
 
   <Footer />

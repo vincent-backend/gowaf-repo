@@ -1,45 +1,50 @@
 <script lang="ts" setup>
-const props = defineProps({
-  yourNeeds: {
-    type: Object,
-    default: {}
-  },
-  isShowMaxPerformance: {
-    type: Boolean,
-    default: true    
-  }
-});
+defineProps<{
+  title: string;
+  subTitle: string;
+  items: {
+    icon: string;
+    title: string;
+    content: string;
+  }[];
+  maxPerformance?: {
+    title: string;
+    content: string;
+    numberHint1: string;
+    numberHint2: string;
+  };
+}>();
 </script>
 <template>
   <div class="your-needs-container">
     <div class="your-needs page-container">
-      <div class="title">{{ $t('yourNeeds.title') }}</div>
-      <div class="sub-title">{{ $t('yourNeeds.subTitle') }}</div>
+      <div class="title">{{ title }}</div>
+      <div class="sub-title">{{ subTitle }}</div>
       <div class="list">
-        <div class="item" v-for="item in $tm('network.smartEdge.yourNeeds.items')">
+        <div class="item" v-for="item in items">
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
           <div class="title">{{ item.title }}</div>
           <div class="content">{{ item.content }}</div>
         </div>
       </div>
-      <div class="max-performance" v-if="isShowMaxPerformance">
+      <div class="max-performance" v-if="maxPerformance">
         <div class="left">
-          <div class="title">{{ $t('network.smartEdge.maxPerformance.title') }}</div>
-          <div class="content">{{ $t('network.smartEdge.maxPerformance.content') }}</div>
+          <div class="title">{{ maxPerformance.title }}</div>
+          <div class="content">{{ maxPerformance.content }}</div>
           <div class="numbers">
             <div class="item">
               <div class="number number-1">
                 15%
                 <div class="icon icon-up"></div>
               </div>
-              <div class="hint">{{ $t('network.smartEdge.maxPerformance.numberHint1') }}</div>
+              <div class="hint">{{ maxPerformance.numberHint1 }}</div>
             </div>
             <div class="item">
               <div class="number number-2">
                 30%
                 <div class="icon icon-down"></div>
               </div>
-              <div class="hint">{{ $t('network.smartEdge.maxPerformance.numberHint2') }}</div>
+              <div class="hint">{{ maxPerformance.numberHint2 }}</div>
             </div>
           </div>
         </div>
