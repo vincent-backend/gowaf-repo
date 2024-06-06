@@ -15,9 +15,9 @@
     w: '450px',
     h: '366px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/pricing/overview/Pricing_Overview_banner_graph@2x.png',
+    mw: '28.13rem',
+    mh: '22.88rem',
   }" />
 
   <PricingPricing1 />

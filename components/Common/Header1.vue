@@ -324,6 +324,14 @@ withDefaults(defineProps<{
         }
       }
     }
+
+    &.hide-foot {
+      height: 60rem;
+
+      .bottom {
+        display: none;
+      }
+    }
   }
 }
 </style>
