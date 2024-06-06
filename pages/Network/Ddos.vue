@@ -30,7 +30,6 @@
   <NetworkStayProtectAlways />
 
   <CommonList1 v-bind="$tm('network.overview.list1')" />
-
   <CommonSuperCharge v-bind="$tm('network.ddos.doNotLeave')" />
 
   <NetworkJoin1 v-bind="{
