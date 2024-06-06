@@ -55,4 +55,23 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .stay-protect-always-container {
+    .stay-protect-always {
+      .left {
+        .title {}
+
+        .sub-title {}
+
+        .btn-container {}
+      }
+
+      .right {
+        .pic {}
+      }
+    }
+  }
+}
 </style>
