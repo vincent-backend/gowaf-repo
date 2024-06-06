@@ -71,27 +71,18 @@ defineProps<{
 
   .your-needs {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.list {
@@ -112,24 +103,14 @@ defineProps<{
 
           font-weight: 500;
           font-size: 20px;
-
           line-height: 28px;
-
-
-
         }
 
         .content {
           margin-top: 10px;
 
-
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
         }
       }
     }
@@ -142,28 +123,17 @@ defineProps<{
       >.left {
         >.title {
           width: 405px;
-
           font-weight: 500;
           font-size: 30px;
-
           line-height: 42px;
-
-
-
         }
 
         >.content {
           margin-top: 20px;
 
           width: 540px;
-
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
         }
 
         >.numbers {
@@ -180,11 +150,7 @@ defineProps<{
               font-family: Mont, Mont;
               font-weight: 600;
               font-size: 48px;
-
               line-height: 64px;
-
-
-
 
               &.number-1 {
                 background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
@@ -214,14 +180,8 @@ defineProps<{
             }
 
             .hint {
-
-
               font-size: 16px;
               color: #4E4E4E;
-
-
-
-
             }
           }
         }
@@ -254,28 +214,17 @@ defineProps<{
 
         .title {
           width: 287px;
-
           font-weight: 500;
           font-size: 30px;
-
           line-height: 42px;
-
-
-
         }
 
         .content {
           margin-top: 20px;
 
           width: 540px;
-
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
         }
       }
     }
