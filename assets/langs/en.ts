@@ -1239,40 +1239,42 @@ export default {
           ],
         },
       ],
-      list1: [
-        {
-          icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
-          title: '$1 Monthly Minimum',
-          content: 'All features included for as little as $1 per month.',
-        },
-        {
-          icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
-          title: 'Toggle Zones ON/OFF',
-          content: 'Enable and disable regions with a click of a button.',
-        },
-        {
-          icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
-          title: 'No Request Fees',
-          content: 'Only pay for the bandwidth you actually use.',
-        },
-        {
-          icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
-          title: 'Multiple Payment Options',
-          content: 'Pay with PayPal, majority of credit cards as well as BTC.',
-        },
-        {
-          icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
-          title: 'All Features Included',
-          content: 'Use all of our unique features without any extra charges.',
-        },
-        {
-          icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
-          title: 'Overcharge Protection',
-          content: 'Protect your account with monthly bandwidth limits.',
-        },
-      ],
-      title1: 'Powerful features. Amazing performance.',
-      title2: 'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+      list1: {
+        title1: 'Powerful features. Amazing performance.',
+        title2: 'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+        items: [
+          {
+            icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
+            title: '$1 Monthly Minimum',
+            content: 'All features included for as little as $1 per month.',
+          },
+          {
+            icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
+            title: 'Toggle Zones ON/OFF',
+            content: 'Enable and disable regions with a click of a button.',
+          },
+          {
+            icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
+            title: 'No Request Fees',
+            content: 'Only pay for the bandwidth you actually use.',
+          },
+          {
+            icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
+            title: 'Multiple Payment Options',
+            content: 'Pay with PayPal, majority of credit cards as well as BTC.',
+          },
+          {
+            icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
+            title: 'All Features Included',
+            content: 'Use all of our unique features without any extra charges.',
+          },
+          {
+            icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
+            title: 'Overcharge Protection',
+            content: 'Protect your account with monthly bandwidth limits.',
+          },
+        ],
+      },
       saveMoney: {
         title: 'Save money. Go faster.',
         subTitle: 'Performance is in our DNA. Speed is our passion. Affordable pricing is just a perk.',
@@ -3377,10 +3379,10 @@ export default {
             icon: '/images/products/stream/overview/common_price_right_wihte_ic@2x.png',
             list: [
               { label: 'One', status: 1 },
-              {label: 'Two', status: 0},
-              {label: 'Three', status: 0},
-              {label: 'Four', status: 0},
-              {label: 'Five', status: 0},
+              { label: 'Two', status: 0 },
+              { label: 'Three', status: 0 },
+              { label: 'Four', status: 0 },
+              { label: 'Five', status: 0 },
               { label: 'Six', status: 0 },
               { label: 'Six', status: 0 },
               { label: 'Eight', status: 0 },
@@ -3886,7 +3888,7 @@ export default {
                 title: 'Prevent downloads',
                 icon: '/images/products/stream/multi-drm/media_perfect_ic_3@2x.png',
                 content: 'Stop piracy before it happens and ensure your content stays available only to your subscribers.',
-              },                            
+              },
             ]
           },
         },
@@ -3922,7 +3924,7 @@ export default {
             },
           ]
         },
-        email:{
+        email: {
           title: 'Hollywood protection.',
           subTitle: 'Just an email away.',
           list: [

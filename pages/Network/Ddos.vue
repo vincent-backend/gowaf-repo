@@ -27,7 +27,6 @@
   </LgOnly>
 
   <NetworkProtectAtEdge />
-
   <NetworkStayProtectAlways />
 
   <CommonList1 v-bind="$tm('network.overview.list1')" />
