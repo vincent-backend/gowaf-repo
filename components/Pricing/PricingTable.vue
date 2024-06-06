@@ -1,17 +1,26 @@
 <script lang="ts" setup>
-const props = defineProps({
-  header: String,
-  content: Array<any>,
-});
+defineProps<{
+  header?: string;
+  content: {
+    title: string;
+    titleEm?: string;
+    subTitle: string;
+    content: string;
+    href: string;
+    items: {
+      text: string;
+      hint: string;
+    }[];
+    bottomList: string[];
+  }[];
+}>();
 </script>
 
 <template>
   <div class="pricing-table">
-    <div class="header" v-if="props.header">
-      {{ props.header }}
-    </div>
+    <div class="header" v-if="header">{{ header }}</div>
     <div class="content">
-      <div class="content-item" v-for="item in props.content">
+      <div class="content-item" v-for="item in content">
         <div class="content-item-top">
           <div class="left">
             <div class="title">
@@ -58,19 +67,13 @@ const props = defineProps({
     height: 54px;
     background: linear-gradient(316deg, #3475F5 0%, #12E599 100%);
     border-radius: 14px 14px 0px 0px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-
     font-weight: 500;
     font-size: 22px;
     color: #FFFFFF;
     line-height: 30px;
-
-
-
   }
 
   >.content {
@@ -95,14 +98,9 @@ const props = defineProps({
           flex: 1;
 
           .title {
-
             font-weight: 500;
             font-size: 24px;
-
             line-height: 33px;
-
-
-
             display: flex;
             align-items: center;
 
@@ -119,35 +117,21 @@ const props = defineProps({
               font-size: 18px;
               color: #FFFFFF;
               line-height: 25px;
-
-
-
             }
           }
 
           .sub-title {
             margin-top: 10px;
 
-
-
             color: #4E4E4E;
-
-
-
-
           }
 
           .content {
             margin-top: 20px;
 
-
             font-weight: 500;
             font-size: 16px;
-
             line-height: 22px;
-
-
-
           }
         }
 
@@ -176,11 +160,7 @@ const props = defineProps({
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 30px;
-
                 line-height: 40px;
-
-
-
                 background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -189,14 +169,8 @@ const props = defineProps({
               .hint {
                 margin-top: 10px;
 
-
-
                 font-size: 16px;
                 color: #4E4E4E;
-
-
-
-
               }
             }
           }
@@ -213,15 +187,8 @@ const props = defineProps({
         .item {
           display: flex;
           align-items: center;
-
-
           font-weight: 500;
-
-
           line-height: 20px;
-
-
-
 
           &::before {
             content: '';
@@ -229,7 +196,6 @@ const props = defineProps({
 
             width: 18px;
             height: 18px;
-
             background: url(/public/images/pricing/storage/home_Text_list_ic_tick.png);
           }
         }

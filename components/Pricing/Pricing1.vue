@@ -30,4 +30,16 @@ const curTab = ref(0);
     padding: 20px;
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .pricing1-container {
+    margin-top: -2.31rem;
+
+    .pricing1 {
+      border-radius: 1.5rem;
+      padding: 1.25rem;
+    }
+  }
+}
 </style>

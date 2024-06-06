@@ -25,50 +25,56 @@ defineModel('curTab', {
 </template>
 
 <style lang="less" scoped>
-.tabs {
+.tabs-container {
   margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
 
-  .tab {
-    background: #FFFFFF;
-    border-radius: 20px;
-
-    font-weight: 500;
-    font-size: 16px;
-
-    line-height: 22px;
-    padding: 9px 16px;
-
+  .tabs {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
-    &.current {
-      background: #000000;
-      color: #FFF;
+    .tab {
+      background: #FFFFFF;
+      border-radius: 20px;
+
+      font-weight: 500;
+      font-size: 16px;
+
+      line-height: 22px;
+      padding: 9px 16px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.current {
+        background: #000000;
+        color: #FFF;
+      }
     }
   }
 }
 
+
 // For mobile devices
 @media (max-width: 767px) {
-  .tabs {
+  .tabs-container {
     margin-top: 2.5rem;
 
-    flex-wrap: wrap;
-    gap: 0.63rem;
+    .tabs {
+      flex-wrap: wrap;
+      gap: 0.63rem;
 
-    .tab {
-      padding: 0.81rem 1.25rem;
-      font-size: 1.5rem;
-      line-height: 2.06rem;
+      .tab {
+        padding: 0.81rem 1.25rem;
+        font-size: 1.5rem;
+        line-height: 2.06rem;
 
-      word-break: keep-all;
+        word-break: keep-all;
 
-      &.current {}
+        &.current {}
+      }
     }
   }
 }
