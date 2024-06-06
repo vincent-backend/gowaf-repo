@@ -203,4 +203,45 @@ defineProps<{
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .pricing-table {
+    >.header {}
+
+    >.content {
+      >.content-item {
+        &:first-child {}
+
+        >.content-item-top {
+          .left {
+            .title {
+              .em {}
+            }
+
+            .sub-title {}
+
+            .content {}
+          }
+
+          .right {
+            .list {
+              .item {
+                .text {}
+
+                .hint {}
+              }
+            }
+          }
+        }
+
+        >.content-item-bottom-list {
+          .item {
+            &::before {}
+          }
+        }
+      }
+    }
+  }
+}
 </style>
