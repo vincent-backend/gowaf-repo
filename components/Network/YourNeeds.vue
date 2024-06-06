@@ -100,7 +100,6 @@ defineProps<{
         .title {
           margin-top: 20px;
 
-
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
@@ -115,7 +114,7 @@ defineProps<{
       }
     }
 
-    .max-performance {
+    >.max-performance {
       margin-top: 120px;
       display: flex;
       justify-content: space-between;
@@ -234,22 +233,50 @@ defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .your-needs-container {
-    .your-needs {
-      >.title {}
+    margin-top: 6.25rem;
 
-      >.sub-title {}
+    .your-needs {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+      }
 
       >.list {
+        margin-top: 3.13rem;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 2.5rem;
+
         .item {
-          .icon {}
+          .icon {
+            width: 9.38rem;
+            height: 9.38rem;
+          }
 
-          .title {}
+          .title {
+            margin-top: 1.25rem;
 
-          .content {}
+            font-size: 2.13rem;
+            line-height: 3rem;
+          }
+
+          .content {
+            margin-top: 0.63rem;
+
+            font-size: 1.5rem;
+            line-height: 2.19rem;
+          }
         }
       }
 
-      .max-performance {
+      >.max-performance {
         >.left {
           >.title {}
 
