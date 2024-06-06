@@ -277,44 +277,102 @@ defineProps<{
       }
 
       >.max-performance {
-        >.left {
-          >.title {}
+        margin-top: 6.25rem;
+        flex-direction: column;
 
-          >.content {}
+        >.left {
+          >.title {
+            width: auto;
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+          }
+
+          >.content {
+            margin-top: 1rem;
+
+            width: auto;
+            font-size: 1.75rem;
+            line-height: 2.38rem;
+          }
 
           >.numbers {
+            margin-top: 3.13rem;
+
             >.item {
+              width: 50%;
+
               .number {
+                font-size: 3.13rem;
+                line-height: 4.13rem;
+
                 &.number-1 {}
 
                 &.number-2 {}
 
                 .icon {
+                  width: 2.5rem;
+                  height: 2.5rem;
+
                   &.icon-up {}
 
                   &.icon-down {}
                 }
               }
 
-              .hint {}
+              .hint {
+                font-size: 1.5rem;
+                line-height: 2.06rem;
+              }
             }
           }
         }
 
         >.right {
-          .pic {}
+          margin-top: 3.13rem;
+
+          .pic {
+            margin: 0 auto;
+
+            width: 25rem;
+            height: 16.88rem;
+          }
         }
       }
 
       .one-problem {
+        margin-top: 6.25rem;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+
         >.left {
-          .pic {}
+          margin-top: 3.13rem;
+
+          width: 100%;
+
+          .pic {
+            margin: 0 auto;
+
+            width: 25rem;
+            height: 16.88rem;
+          }
         }
 
         >.right {
-          .title {}
+          margin-left: 0;
 
-          .content {}
+          .title {
+            width: auto;
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+          }
+
+          .content {
+            margin-top: 0.94rem;
+
+            width: auto;
+            font-size: 1.75rem;
+            line-height: 2.38rem;
+          }
         }
       }
     }

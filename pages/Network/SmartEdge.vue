@@ -28,7 +28,7 @@
   <NetworkJoin1 v-bind="{
     ...$tm('network.smartEdge.join1'),
     avatar: '/images/network/smart-edge/SmartEdge™__evaluate_character@2x.png',
-    mAvatar: '',
+    mAvatar: '/mobile-images/network/smart-edge/SmartEdge™__evaluate_character@2x.png',
   }" />
 
   <Footer />

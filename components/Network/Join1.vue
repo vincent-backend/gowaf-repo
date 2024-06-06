@@ -217,6 +217,8 @@ withDefaults(defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .join1-container {
+    margin-top: 9.38rem;
+
     height: auto;
 
     &.no-ranks {}
