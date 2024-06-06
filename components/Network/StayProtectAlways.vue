@@ -5,7 +5,7 @@
         <div class="title">{{ $t('network.ddos.stayProtectAlways.title') }}</div>
         <div class="sub-title">{{ $t('network.ddos.stayProtectAlways.subTitle') }}</div>
         <div class="btn-container">
-          <a href="#" class="trail-btn" style="margin-top: 40px;">{{ $t('network.ddos.stayProtectAlways.btn') }}</a>
+          <a href="#" class="trail-btn">{{ $t('network.ddos.stayProtectAlways.btn') }}</a>
         </div>
       </div>
       <div class="right">
@@ -29,30 +29,21 @@
 
     .left {
       .title {
-
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
-
-
-
       }
 
       .sub-title {
         margin-top: 10px;
 
-
-
         font-size: 16px;
         color: #4E4E4E;
-
-
-
-
       }
 
-      .btn-container {}
+      .btn-container {
+        margin-top: 40px;
+      }
     }
 
     .right {

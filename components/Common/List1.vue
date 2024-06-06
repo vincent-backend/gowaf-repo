@@ -58,6 +58,8 @@ defineProps<{
     width: 1090px;
 
     >.list {
+      margin-top: 80px;
+
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;

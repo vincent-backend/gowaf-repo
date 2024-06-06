@@ -30,7 +30,7 @@
 
   <NetworkStayProtectAlways />
 
-  <CommonList1 :items="$tm('network.overview.list1')" />
+  <CommonList1 v-bind="$tm('network.overview.list1')" />
 
   <CommonSuperCharge v-bind="$tm('network.ddos.doNotLeave')" />
 
