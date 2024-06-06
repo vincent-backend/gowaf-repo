@@ -230,4 +230,67 @@ defineProps<{
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .your-needs-container {
+    .your-needs {
+      >.title {}
+
+      >.sub-title {}
+
+      >.list {
+        .item {
+          .icon {}
+
+          .title {}
+
+          .content {}
+        }
+      }
+
+      .max-performance {
+        >.left {
+          >.title {}
+
+          >.content {}
+
+          >.numbers {
+            >.item {
+              .number {
+                &.number-1 {}
+
+                &.number-2 {}
+
+                .icon {
+                  &.icon-up {}
+
+                  &.icon-down {}
+                }
+              }
+
+              .hint {}
+            }
+          }
+        }
+
+        >.right {
+          .pic {}
+        }
+      }
+
+      .one-problem {
+        >.left {
+          .pic {}
+        }
+
+        >.right {
+          .title {}
+
+          .content {}
+        }
+      }
+    }
+  }
+}
 </style>
