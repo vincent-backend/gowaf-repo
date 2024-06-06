@@ -38,8 +38,7 @@
     pic="/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_2@2x.png" pic-width="312px"
     pic-height="330px" style="margin-top: 0" />
 
-  <CommonList1 :title1="$t('solutions.storageSoftware.title1')" :title2="$t('solutions.storageSoftware.title2')"
-    :items="$tm('solutions.storageSoftware.list1')" />
+  <CommonList1 v-bind="$tm('solutions.storageSoftware.list1')" />
 
   <SolutionsSupportPlan2 />
 

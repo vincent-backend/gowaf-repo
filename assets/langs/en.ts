@@ -2046,40 +2046,42 @@ export default {
         subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
         btn: 'Start 14-Day FREE Trial',
       },
-      title1: 'Hop ahead of the technology curve',
-      title2: 'Leverage powerful features. At no additional cost.',
-      list1: [
-        {
-          icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_1@3x.png',
-          title: 'Powerful Security',
-          content: 'Stay protected from any and all attacks with state-of-the-art DDoS mitigation security.',
-        },
-        {
-          icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_2@3x.png',
-          title: 'Faster Downloads',
-          content: 'Say goodbye to slowdowns with a network designed for maximum throughput.',
-        },
-        {
-          icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_3@3x.png',
-          title: 'SSL/TLS Encryption',
-          content: 'Take advantage of a free SSL certificate with a single click of a button.',
-        },
-        {
-          icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_4@3x.png',
-          title: 'Minimize Latency',
-          content: 'Keep your global latency at bay and deliver your content to everyone within sub 24 ms.',
-        },
-        {
-          icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_5@3x.png',
-          title: 'Origin Protection',
-          content: 'Leverage a multi-layer caching system, and don’t let traffic spikes affect your infrastructure.',
-        },
-        {
-          icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_6@3x.png',
-          title: 'Real-Time Statistics',
-          content: 'Get complete insight into your games with real-time traffic statistics and logging.',
-        },
-      ],
+      list1: {
+        title1: 'Hop ahead of the technology curve',
+        title2: 'Leverage powerful features. At no additional cost.',
+        items: [
+          {
+            icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_1@3x.png',
+            title: 'Powerful Security',
+            content: 'Stay protected from any and all attacks with state-of-the-art DDoS mitigation security.',
+          },
+          {
+            icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_2@3x.png',
+            title: 'Faster Downloads',
+            content: 'Say goodbye to slowdowns with a network designed for maximum throughput.',
+          },
+          {
+            icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_3@3x.png',
+            title: 'SSL/TLS Encryption',
+            content: 'Take advantage of a free SSL certificate with a single click of a button.',
+          },
+          {
+            icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_4@3x.png',
+            title: 'Minimize Latency',
+            content: 'Keep your global latency at bay and deliver your content to everyone within sub 24 ms.',
+          },
+          {
+            icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_5@3x.png',
+            title: 'Origin Protection',
+            content: 'Leverage a multi-layer caching system, and don’t let traffic spikes affect your infrastructure.',
+          },
+          {
+            icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_6@3x.png',
+            title: 'Real-Time Statistics',
+            content: 'Get complete insight into your games with real-time traffic statistics and logging.',
+          },
+        ],
+      },
       join1: {
         title: '40.000+ customers already trust us',
         person: {
@@ -2176,25 +2178,27 @@ export default {
         subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
         btn: 'Start 14-Day FREE Trial',
       },
-      title1: 'Lightning fast. Features packed.',
-      title2: 'Raise the bar with robust security, reporting, and management feature.',
-      list1: [
-        {
-          icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_1@3x.png',
-          title: 'Token Authentication',
-          content: 'Take full control of who and for how long they can access your content.',
-        },
-        {
-          icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_2@3x.png',
-          title: 'Origin Protection',
-          content: 'Protect your origin from attacks and traffic surges with the bunny.net origin shield.',
-        },
-        {
-          icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3@3x.png',
-          title: 'Logging & Statistics',
-          content: 'Get complete insight into your content delivery with valuable insights and customer metrics.',
-        },
-      ],
+      list1: {
+        title1: 'Lightning fast. Features packed.',
+        title2: 'Raise the bar with robust security, reporting, and management feature.',
+        items: [
+          {
+            icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_1@3x.png',
+            title: 'Token Authentication',
+            content: 'Take full control of who and for how long they can access your content.',
+          },
+          {
+            icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_2@3x.png',
+            title: 'Origin Protection',
+            content: 'Protect your origin from attacks and traffic surges with the bunny.net origin shield.',
+          },
+          {
+            icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3@3x.png',
+            title: 'Logging & Statistics',
+            content: 'Get complete insight into your content delivery with valuable insights and customer metrics.',
+          },
+        ],
+      },
       supportPlan: {
         title: 'A support team that cares',
         subTitle: 'Forget support levels and get connected directly with an expert. Every single time.',
@@ -2315,40 +2319,42 @@ export default {
         subTitle: 'Integrate with the most popular CMS systems in just a few clicks. Get started in under 5 minutes.',
         btn: 'Step By Step Integration Guides',
       },
-      title1: 'Not just faster but also safer',
-      title2: 'Improve security, protect your content, and stop vulnerabilities.',
-      list1: [
-        {
-          icon: '/images/solutions/website-acceleration/cdn_overview_bulid_ic_1@3x.png',
-          title: 'Free SSL',
-          content: 'Take advantage of a free SSL certificate with a single button click.',
-        },
-        {
-          icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_2@3x.png',
-          title: '123 Global PoPs',
-          content: 'Supercharge your website delivery with strategically placed global PoPs.',
-        },
-        {
-          icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_3@3x.png',
-          title: 'Tier 1 Network',
-          content: 'Join a network powered by carefully selected providers with top-tier data centers.',
-        },
-        {
-          icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_4@3x.png',
-          title: 'Hotlinking Protection',
-          content: 'Easily protect your images from being shared on other websites with domain protection.',
-        },
-        {
-          icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_5@3x.png',
-          title: 'Smart Routing',
-          content: 'Route your users where it matters based on your content with the SmartEdge™ routing engine.',
-        },
-        {
-          icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png',
-          title: 'Polyfill Optimizer',
-          content: 'Optimize your images and minify your CSS/JS files for maximum performance.',
-        },
-      ],
+      list1: {
+        title1: 'Not just faster but also safer',
+        title2: 'Improve security, protect your content, and stop vulnerabilities.',
+        items: [
+          {
+            icon: '/images/solutions/website-acceleration/cdn_overview_bulid_ic_1@3x.png',
+            title: 'Free SSL',
+            content: 'Take advantage of a free SSL certificate with a single button click.',
+          },
+          {
+            icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_2@3x.png',
+            title: '123 Global PoPs',
+            content: 'Supercharge your website delivery with strategically placed global PoPs.',
+          },
+          {
+            icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_3@3x.png',
+            title: 'Tier 1 Network',
+            content: 'Join a network powered by carefully selected providers with top-tier data centers.',
+          },
+          {
+            icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_4@3x.png',
+            title: 'Hotlinking Protection',
+            content: 'Easily protect your images from being shared on other websites with domain protection.',
+          },
+          {
+            icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_5@3x.png',
+            title: 'Smart Routing',
+            content: 'Route your users where it matters based on your content with the SmartEdge™ routing engine.',
+          },
+          {
+            icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png',
+            title: 'Polyfill Optimizer',
+            content: 'Optimize your images and minify your CSS/JS files for maximum performance.',
+          },
+        ],
+      },
       ad2_1: {
         title: 'Decrease bounce rate. Improve conversion.',
         content: 'Did you know that 40% of users abandon a page if it doesn’t load within 3 seconds? Speed up your website to decrease your bounce rate, increase conversions and maximize your profits!',
@@ -2592,8 +2598,8 @@ export default {
         btn: 'Start 14-Day FREE Trial',
       },
       list1: {
-        title: 'Securely Deliver Content',
-        subTitle: 'Use powerful control features to keep full control of the access to your content.',
+        title1: 'Securely Deliver Content',
+        title2: 'Use powerful control features to keep full control of the access to your content.',
         items: [
           {
             icon: '/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_1@2x.png',
@@ -2754,8 +2760,8 @@ export default {
           btn: 'Start 14-Day FREE Trial',
         },
         list1: {
-          title: 'Build faster with a toolbox on the edge',
-          subTitle: 'Hop ahead of the technology curve.',
+          title1: 'Build faster with a toolbox on the edge',
+          title2: 'Hop ahead of the technology curve.',
           items: [
             {
               icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_1@2x.png',
@@ -3552,8 +3558,8 @@ export default {
           hint: 'No credit card needed. Start in seconds.',
         },
         list1: {
-          title: 'Make it your own',
-          subTitle: 'Maximize branding power by customizing every aspect of your player down to the CDN hostname.',
+          title1: 'Make it your own',
+          title2: 'Maximize branding power by customizing every aspect of your player down to the CDN hostname.',
           items: [
             {
               icon: '/images/products/stream/player/cdnperma_get_ic_1@2x.png',
@@ -3697,8 +3703,8 @@ export default {
           btn: 'Start 14-Day FREE Trial',
         },
         list1: {
-          title: 'Powerful security. On any device.',
-          subTitle: 'Get secure playback on any device with a powerful multi-DRM system just a click away.',
+          title1: 'Powerful security. On any device.',
+          title2: 'Get secure playback on any device with a powerful multi-DRM system just a click away.',
           items: [
             {
               icon: '/images/products/stream/media-cage/media_poerful_ic_1@3x.png',

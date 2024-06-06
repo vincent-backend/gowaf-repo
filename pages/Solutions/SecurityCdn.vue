@@ -22,8 +22,7 @@
     :btn="$t('solutions.securityCdn.ad1.btn')" href="#"
     pic="/images/solutions/security-cdn/Network_DDoS_banner_graph_2@2x.png" pic-width="238px" pic-height="242px" />
 
-  <CommonList1 :title1="$t('solutions.securityCdn.list1.title')" :title2="$t('solutions.securityCdn.list1.subTitle')"
-    :items="$tm('solutions.securityCdn.list1.items')" />
+  <CommonList1 v-bind="$tm('solutions.securityCdn.list1')" />
 
   <SolutionsChart1 :title="$t('solutions.securityCdn.chart1.title')"
     :sub-title="$t('solutions.securityCdn.chart1.subTitle')" pic="/images/solutions/security-cdn/network-edge@2x.png"

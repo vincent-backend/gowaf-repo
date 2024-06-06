@@ -40,8 +40,7 @@
       `/images/solutions/website-acceleration/Solutions_Website_acceleration_logo_shopware@2x.png`,
     ]" :btn="$t('solutions.websiteAcceleration.logos.btn')" href="#" />
 
-    <CommonList1 :title1="$t('solutions.websiteAcceleration.title1')"
-      :title2="$t('solutions.websiteAcceleration.title2')" :items="$tm('solutions.websiteAcceleration.list1')" />
+    <CommonList1 v-bind="$tm('solutions.websiteAcceleration.list1')" />
 
     <SolutionsAd2 :title="$t('solutions.websiteAcceleration.ad2_1.title')"
       :content="$t('solutions.websiteAcceleration.ad2_1.content')"

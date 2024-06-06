@@ -24,8 +24,7 @@
     <PricingTable :content="$tm('pricing.cdn.pricingTable')" />
   </div>
 
-  <CommonList1 v-bind="" :title1="$t('pricing.overview.title1')" :title2="$t('pricing.overview.title2')"
-    :items="$tm('pricing.overview.list1')" />
+  <CommonList1 v-bind="$tm('pricing.overview.list1')" />
   <PricingCalculate1 />
   <PricingSupportPlan />
   <PricingHop />

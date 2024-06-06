@@ -21,8 +21,7 @@
   }" />
 
 
-  <CommonList1 :title1="$t('products.stream.player.list1.title')" :title2="$t('products.stream.player.list1.subTitle')"
-    :items="$tm('products.stream.player.list1.items')" />
+  <CommonList1 v-bind="$tm('products.stream.player.list1')" />
 
   <ProductsPlayerFeatures />
 

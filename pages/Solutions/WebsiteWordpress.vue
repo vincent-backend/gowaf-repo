@@ -41,8 +41,7 @@
     pic="/images/solutions/website-wordpress/Network_Overview_banner_graph@2x.png" pic-width="300px"
     pic-height="300px" />
 
-  <CommonList1 :title1="$t('solutions.websiteWordpress.title1')" :title2="$t('solutions.websiteWordpress.title2')"
-    :items="$tm('solutions.websiteWordpress.list1')" />
+  <CommonList1 v-bind="$tm('solutions.websiteWordpress.list1')" />
 
   <SolutionsAd2 :title="$t('solutions.websiteWordpress.ad2_1.title')"
     :content="$t('solutions.websiteWordpress.ad2_1.content')" :btn="$t('solutions.websiteWordpress.ad2_1.btn')" href="#"

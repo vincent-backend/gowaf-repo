@@ -34,8 +34,7 @@
     :btn="$t('products.cdn.overview.ad1.btn')" href="#"
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png" pic-width="300px" pic-height="300px" />
 
-  <CommonList1 :title1="$t('products.cdn.overview.list1.title')" :title2="$t('products.cdn.overview.list1.subTitle')"
-    :items="$tm('products.cdn.overview.list1.items')" />
+  <CommonList1 v-bind="$tm('products.cdn.overview.list1')" />
 
   <ProductsList1 />
   <PricingCalculate1 />

@@ -28,8 +28,7 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
     pic="/images/solutions/storage-game/Solutions_Storage_game_Media_banner_graph_2@2x.png" pic-width="450px"
     pic-height="330px" />
 
-  <CommonList1 :title1="$t('solutions.storageGame.title1')" :title2="$t('solutions.storageGame.title2')"
-    :items="$tm('solutions.storageGame.list1')" />
+  <CommonList1 v-bind="$tm('solutions.storageGame.list1')" />
 
   <NetworkJoin1 v-bind="{
     ...$tm('solutions.storageGame.join1'),

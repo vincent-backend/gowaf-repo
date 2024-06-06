@@ -27,8 +27,7 @@
     :sub-title="$t('products.stream.mediaCage.ad1.subTitle')" :btn="$t('products.stream.mediaCage.ad1.btn')" href="#"
     pic="/images/products/stream/media-cage/video_banner_graph@2x.png" pic-width="300px" pic-height="300px" />
 
-  <CommonList1 :title1="$t('products.stream.mediaCage.list1.title')"
-    :title2="$t('products.stream.mediaCage.list1.subTitle')" :items="$tm('products.stream.mediaCage.list1.items')" />
+  <CommonList1 v-bind="$tm('products.stream.mediaCage.list1')" />
 
   <ProductsPerfectSolution />
 
