@@ -75,6 +75,7 @@ defineProps<{
     .bread-crumbs {
       .links {
         gap: 3.13rem;
+        overflow-x: scroll;
 
         a {
           font-size: 1.75rem;

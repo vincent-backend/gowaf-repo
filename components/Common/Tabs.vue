@@ -63,7 +63,9 @@ defineModel('curTab', {
     margin-top: 2.5rem;
 
     .tabs {
-      flex-wrap: wrap;
+      overflow-x: scroll;
+      align-items: flex-start;
+      justify-content: flex-start;
       gap: 0.63rem;
 
       .tab {
@@ -71,7 +73,8 @@ defineModel('curTab', {
         font-size: 1.5rem;
         line-height: 2.06rem;
 
-        word-break: keep-all;
+        // word-break: keep-all;
+        white-space: nowrap;
 
         &.current {}
       }

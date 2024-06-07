@@ -221,7 +221,9 @@ withDefaults(defineProps<{
 
     height: auto;
 
-    &.no-ranks {}
+    &.no-ranks {
+      height: 45.94rem;
+    }
 
     .join1 {
       display: block;

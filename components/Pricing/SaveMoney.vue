@@ -3,7 +3,7 @@
     <div class="save-money page-container">
       <div class="title">{{ $t('pricing.overview.saveMoney.title') }}</div>
       <div class="sub-title">{{ $t('pricing.overview.saveMoney.subTitle') }}</div>
-      <Line top="40px" />
+      <Line top="40px" m-top="1.87rem" />
       <div class="list">
         <div class="item" v-for="item in $tm('pricing.overview.saveMoney.list')">
           <div class="header">
@@ -74,6 +74,7 @@
 
         >.list {
           margin-top: 16px;
+
           padding: 10px 20px;
           background: #FFFFFF;
           border-radius: 8px;
@@ -99,6 +100,7 @@
 
             .bar {
               margin-left: 16px;
+
               width: 160px;
               height: 6px;
               background: #FAFAFA;
@@ -121,6 +123,94 @@
       font-size: 16px;
       color: #4E4E4E;
       text-align: center;
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .save-money-container {
+    margin-top: 6.25rem;
+
+    .save-money {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
+
+      >.list {
+        margin-top: 3.13rem;
+
+        flex-direction: column;
+        gap: 3.31rem;
+
+        >.item {
+          >.header {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            >.title {
+              font-size: 1.88rem;
+              line-height: 1.88rem;
+            }
+
+            >.sub-title {
+              margin-top: 1.25rem;
+            }
+          }
+
+          >.list {
+            margin-top: 1.87rem;
+
+            padding: 0.63rem 1.25rem 0.19rem;
+
+            >.item {
+              height: 5rem;
+
+              .label {
+                font-size: 1.63rem;
+                line-height: 2.31rem;
+              }
+
+              .value {
+                font-size: 1.5rem;
+                line-height: 2.06rem;
+              }
+
+              .bar {
+                margin-left: 1rem;
+
+                width: 10rem;
+                height: 0.5rem;
+                border-radius: 0.25rem;
+
+                .bar-value {
+                  height: 0.5rem;
+                  border-radius: 0.25rem;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      >.hint {
+        margin-top: 1.87rem;
+
+        font-size: 1.63rem;
+        line-height: 2.25rem;
+        text-align: left;
+      }
     }
   }
 }

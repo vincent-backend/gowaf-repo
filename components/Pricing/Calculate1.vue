@@ -7,7 +7,7 @@ const curTab = ref(0);
     <div class="calculator-1 page-container">
       <div class="title1">{{ $t('pricing.cdn.calculator1.title') }}</div>
       <div class="title2">{{ $t('pricing.cdn.calculator1.subTitle') }}</div>
-      <Line top="40px" />
+      <Line top="40px" m-top="1.87rem" />
 
       <CommonTabs :tabs="$tm('pricing.cdn.calculator1.tabs')" v-model:cur-tab="curTab" />
       <div class="content">
@@ -54,27 +54,19 @@ const curTab = ref(0);
 
   .calculator-1 {
     >.title1 {
-
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.title2 {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.content {
@@ -109,7 +101,6 @@ const curTab = ref(0);
             display: flex;
             justify-content: space-between;
             align-items: center;
-
             box-sizing: border-box;
             padding: 0 24px;
 
@@ -119,14 +110,10 @@ const curTab = ref(0);
               justify-content: center;
 
               .title {
-
                 font-weight: 500;
                 font-size: 16px;
                 color: #4E4E4E;
                 line-height: 22px;
-
-
-
               }
 
               .value {
@@ -135,11 +122,7 @@ const curTab = ref(0);
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 20px;
-
                 line-height: 26px;
-
-
-
               }
             }
 
@@ -175,14 +158,10 @@ const curTab = ref(0);
               align-items: center;
 
               .title {
-
                 font-weight: 500;
                 font-size: 16px;
                 color: #FFFFFF;
                 line-height: 22px;
-
-
-
               }
 
               .icon {
@@ -201,9 +180,6 @@ const curTab = ref(0);
                 font-size: 20px;
                 color: #FFFFFF;
                 line-height: 26px;
-
-
-
               }
             }
           }

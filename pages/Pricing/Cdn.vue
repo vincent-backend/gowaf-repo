@@ -15,9 +15,9 @@
     w: '388px',
     h: '332px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/pricing/cdn/Pricing_CDN_banner_graph@2x.png',
+    mw: '24.25rem',
+    mh: '20.75rem',
   }" />
 
   <div class="price-1-container">
@@ -48,5 +48,16 @@
   border-radius: 24px;
   box-sizing: border-box;
   padding: 20px;
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .price-1-container {
+    width: 43.13rem;
+    top: -2.25rem;
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+    padding-top: 0;
+  }
 }
 </style>
