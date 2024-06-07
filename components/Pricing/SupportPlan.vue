@@ -38,27 +38,18 @@
 
   .support-plan {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.content {
@@ -88,40 +79,24 @@
           margin-left: 30px;
 
           >.title {
-
             font-weight: 500;
             font-size: 24px;
-
             line-height: 33px;
-
-
-
           }
 
           >.content {
             margin-top: 20px;
 
-
-
             font-size: 16px;
             color: #4E4E4E;
-
-
-
-
           }
 
           >.title2 {
             margin-top: 30px;
 
-
             font-weight: 500;
             font-size: 24px;
-
             line-height: 33px;
-
-
-
           }
 
           >.list {
@@ -156,14 +131,9 @@
               .text {
                 margin-left: 10px;
 
-
                 font-weight: 500;
                 font-size: 16px;
-
                 line-height: 22px;
-
-
-
               }
             }
           }

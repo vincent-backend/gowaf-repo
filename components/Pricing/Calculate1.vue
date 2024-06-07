@@ -199,41 +199,96 @@ const curTab = ref(0);
 // For mobile devices
 @media (max-width: 767px) {
   .calculator-1-container {
-    .calculator-1 {
-      >.title1 {}
+    margin-top: 6.25rem;
 
-      >.title2 {}
+    .calculator-1 {
+      >.title1 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.title2 {
+        margin-top: 0.94rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
 
       >.content {
+        margin-top: 1.87rem;
+        flex-direction: column;
+
         >.left {
-          .pic {}
+          .pic {
+            width: 25.38rem;
+            height: 14.94rem;
+          }
         }
 
         >.right {
-          .list {
-            >.item {
-              .left {
-                .title {}
+          margin-top: 3.19rem;
 
-                .value {}
+          .list {
+            justify-content: space-between;
+            width: 43.13rem;
+            gap: 1.25rem 0;
+
+            >.item {
+              width: 20.94rem;
+              height: 8.75rem;
+
+              .left {
+                .title {
+                  font-size: 1.5rem;
+                  line-height: 2.06rem;
+                }
+
+                .value {
+                  margin-top: 0.44rem;
+
+                  font-size: 1.88rem;
+                  line-height: 2.5rem;
+                }
               }
 
               .right {
-                .circle {}
+                .circle {
+                  width: 3.63rem;
+                  height: 3.63rem;
+                  border-width: 1.5rem;
+                }
               }
             }
           }
 
           .list2 {
-            >.item {
-              .left {
-                .title {}
+            margin-top: 1.25rem;
+            flex-direction: column;
+            gap: 1.25rem;
 
-                .icon {}
+            >.item {
+              width: auto;
+              height: 4.38rem;
+
+              .left {
+                .title {
+                  font-size: 1.63rem;
+                  line-height: 2.31rem;
+                }
+
+                .icon {
+                  width: 2.25rem;
+                  height: 2.25rem;
+                }
               }
 
               .right {
-                .value {}
+                .value {
+                  font-size: 1.88rem;
+                  line-height: 2.5rem;
+                }
               }
             }
           }
