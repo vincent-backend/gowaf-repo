@@ -32,27 +32,18 @@
 
   .save-money {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 18px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.list {
@@ -69,25 +60,15 @@
           align-items: center;
 
           >.title {
-
             font-weight: 500;
             font-size: 20px;
-
             line-height: 28px;
-
-
-
           }
 
           >.sub-title {
-
-
             font-size: 16px;
             color: #4E4E4E;
-
             text-align: right;
-
-
           }
         }
 
@@ -105,26 +86,15 @@
 
             .label {
               flex: 1;
-
-
               font-weight: 500;
               font-size: 16px;
-
               line-height: 22px;
-
-
-
             }
 
             .value {
-
               font-weight: 500;
-
-
               line-height: 20px;
               text-align: right;
-
-
             }
 
             .bar {
@@ -148,14 +118,9 @@
     >.hint {
       margin-top: 40px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
   }
 }
