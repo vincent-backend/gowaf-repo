@@ -195,4 +195,53 @@ const curTab = ref(0);
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .calculator-1-container {
+    .calculator-1 {
+      >.title1 {}
+
+      >.title2 {}
+
+      >.content {
+        >.left {
+          .pic {}
+        }
+
+        >.right {
+          .list {
+            >.item {
+              .left {
+                .title {}
+
+                .value {}
+              }
+
+              .right {
+                .circle {}
+              }
+            }
+          }
+
+          .list2 {
+            >.item {
+              .left {
+                .title {}
+
+                .icon {}
+              }
+
+              .right {
+                .value {}
+              }
+            }
+          }
+
+          .btn-container {}
+        }
+      }
+    }
+  }
+}
 </style>
