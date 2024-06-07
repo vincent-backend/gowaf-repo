@@ -6,6 +6,7 @@ defineProps<{
     titleEm?: string;
     subTitle: string;
     content: string;
+    btn: string;
     href: string;
     items: {
       text: string;
@@ -32,12 +33,12 @@ defineProps<{
             <div class="sub-title">
               {{ item.subTitle }}
             </div>
-            <Line top="30px" />
+            <Line top="30px" m-top="1.88rem" />
             <div class="content">
               {{ item.content }}
             </div>
-            <div>
-              <a :href="item.href" class="trail-btn" style="margin-top: 40px;">{{ item.btn }}</a>
+            <div class="btn-container">
+              <a :href="item.href" class="trail-btn">{{ item.btn }}</a>
             </div>
           </div>
           <div class="right">
@@ -51,7 +52,7 @@ defineProps<{
         </div>
         <div class="content-item-bottom-list">
           <div class="item" v-for="a in item.bottomList">
-            {{ a }}
+            <span>{{ a }}</span>
           </div>
         </div>
       </div>
@@ -133,6 +134,10 @@ defineProps<{
             font-size: 16px;
             line-height: 22px;
           }
+
+          .btn-container {
+            margin-top: 40px;
+          }
         }
 
         .right {
@@ -196,7 +201,7 @@ defineProps<{
 
             width: 18px;
             height: 18px;
-            background: url(/public/images/pricing/storage/home_Text_list_ic_tick.png);
+            background-image: url(/public/images/pricing/storage/home_Text_list_ic_tick.png);
           }
         }
       }
@@ -207,37 +212,112 @@ defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .pricing-table {
-    >.header {}
+    margin-top: 1.88rem;
+
+    >.header {
+      height: 4.13rem;
+
+      font-size: 2rem;
+      line-height: 2.81rem;
+    }
 
     >.content {
+      gap: 1.25rem;
+
       >.content-item {
-        &:first-child {}
+        border-radius: 0.88rem;
+        padding: 1.88rem 1.25rem 1.25rem;
+
+        &:first-child {
+          border-radius: 0 0 0.88rem 0.88rem;
+        }
 
         >.content-item-top {
+          flex-direction: column;
+          justify-content: flex-start;
+
           .left {
+            flex: auto;
+
             .title {
-              .em {}
+              font-size: 2.13rem;
+              line-height: 3rem;
+
+              .em {
+                margin-left: 0.63rem;
+                width: 7rem;
+                height: 1.88rem;
+                background: url(/public/mobile-images/pricing/overview/home_card_tag_bg@2x.png);
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+              }
             }
 
-            .sub-title {}
+            .sub-title {
+              margin-top: 0.44rem;
+            }
 
-            .content {}
+            .content {
+              margin-top: 1rem;
+
+              font-size: 1.63rem;
+              line-height: 2.31rem;
+            }
+
+            .btn-container {
+              margin-top: 1rem;
+            }
           }
 
           .right {
-            .list {
-              .item {
-                .text {}
+            width: auto;
+            margin-top: 2.5rem;
+            margin-left: 0;
 
-                .hint {}
+            .list {
+              justify-content: space-between;
+              gap: 0.63rem 0;
+
+              .item {
+                width: 18.6rem;
+                height: 8.63rem;
+
+                .text {
+                  font-size: 2.5rem;
+                  line-height: 3.31rem;
+                }
+
+                .hint {
+                  margin-top: 0.44rem;
+
+                  font-size: 1.38rem;
+                  line-height: 1.88rem;
+                }
               }
             }
           }
         }
 
         >.content-item-bottom-list {
+          margin-top: 1.69rem;
+          flex-direction: column;
+          gap: 1.25rem;
+
           .item {
-            &::before {}
+            font-size: 1.63rem;
+            line-height: 2.31rem;
+            word-break: keep-all;
+
+            &::before {
+              width: 1.75rem;
+              height: 1.75rem;
+
+              background-size: 1.75rem 1.75rem;
+            }
+
+            span {
+              flex: 1;
+            }
           }
         }
       }
