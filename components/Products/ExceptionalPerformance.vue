@@ -3,6 +3,7 @@ withDefaults(defineProps<{
   markerColor: string,
   title: string,
   content: string,
+  img:string,
 }>(), {
   title: 'Exceptional performance.For every request.Every time.',
   content: 'Deliver fantastic experience with 36 PoPs around Europe.Reach users in most major cities in under 10ms.',
@@ -27,7 +28,7 @@ withDefaults(defineProps<{
           </div>
         </li>
       </ul>
-      <img src="/public/images/products/storage/europe/3Network_Overview_map_2x.png" alt="exceptional-performance">
+      <img :src="img" alt="exceptional-performance">
     </div>
   </div>
 </template>

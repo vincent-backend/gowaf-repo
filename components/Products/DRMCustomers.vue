@@ -9,6 +9,7 @@ defineProps<{
     contentP: string;
     contentLink: string;
     contentLast: string;
+    isShowSubTitle: boolean
     faceImg: {
       img: string;
       top: string;
@@ -33,8 +34,7 @@ defineProps<{
   <div class="drm-customer-container">
     <div class="drm-customer-content-container">
       <h3>{{ drmCustomer.title }}</h3>
-      
-      <p>
+      <p v-if="!drmCustomer.isHiddenSubTitle">
         {{ drmCustomer.contentPre }}
         <img :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
         <span class="clolorFA9B3B">{{ drmCustomer.contentMid }}</span>
@@ -150,7 +150,7 @@ defineProps<{
       box-sizing: border-box;
       padding: 30px;
       width: 1200px;
-      height: 220px;
+      height: 240px;
       background: linear-gradient( 312deg, #E9F8FC 0%, #FFFBF0 100%);
       border-radius: 24px;
       p{
@@ -162,6 +162,7 @@ defineProps<{
         text-align: left;
         font-style: normal;
         text-transform: none;
+        padding-right: 80px;
       }
       >div{
         width: 1140px;

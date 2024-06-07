@@ -92,7 +92,7 @@
             margin-top: 30px;
           }
           .super-plan-list{
-            margin: 20px 0 30px;
+            margin: 20px 0 20px;
             display: flex;
             li{
               margin-right: 30px;

@@ -1,6 +1,9 @@
 <script lang="ts" setup>
   const props = defineProps({
     list: Array<string>,
+    title: String,
+    subTitle: String,
+
   });
 // const imgs = obeyDevice([
 //   '/images/products/storage/europe/home_logo_1_2x_1.png',
@@ -27,8 +30,8 @@
   <div class="list1-container">
     <div class="page-container list1">
       <div class="title">
-        {{ $t('products.storage.Europe.partnerList.title') }}
-        <p>{{ $t('products.storage.Europe.partnerList.subTitle') }}</p>
+        {{ title }}
+        <p>{{ subTitle }}</p>
       </div>
       <div class="list">
         <div class="item" v-for="img in list">

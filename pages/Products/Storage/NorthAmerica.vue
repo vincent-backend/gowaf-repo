@@ -30,7 +30,7 @@
     :title="$t('products.storage.NorthAmerica.exceptionalPerformance.title')"
     :content="$t('products.storage.NorthAmerica.exceptionalPerformance.content')"
     :markerColor="$t('products.storage.NorthAmerica.exceptionalPerformance.markerColor')"
-
+    :img="$t('products.storage.NorthAmerica.exceptionalPerformance.img')"
    />
   <ProductsNeverHit :isShowTitle="false" :neverHit="$tm('products.storage.NorthAmerica.neverHit')" />
   <HomeList1 />
@@ -52,6 +52,9 @@
   <ProductsStorageSupportPlan />
   <ProductsStorageList1 
     :list="$tm('products.storage.NorthAmerica.partnerList.imgPcList')"
+    :title="$tm('products.storage.NorthAmerica.partnerList.title')"
+    :subTitle="$tm('products.storage.NorthAmerica.partnerList.subTitle')"
+
   />
   <ProductsDRMCustomers :drmCustomer="$tm('products.storage.NorthAmerica.drmCustomer')" />
   <Footer />

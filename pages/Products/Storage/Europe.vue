@@ -26,7 +26,12 @@
     }"
   />
   <CommonNumbers style="margin-top: 80px;" :items="$tm('products.storage.Europe.numbers')" />
-  <ProductsExceptionalPerformance />
+  <ProductsExceptionalPerformance 
+    :title="$t('products.storage.Europe.exceptionalPerformance.title')"
+    :content="$t('products.storage.Europe.exceptionalPerformance.content')"
+    :markerColor="$t('products.storage.Europe.exceptionalPerformance.markerColor')"
+    :img="$t('products.storage.Europe.exceptionalPerformance.img')"
+   />
   <ProductsNeverHit :isShowTitle="false" :neverHit="$tm('products.storage.Europe.neverHit')" />
   <HomeList1 />
   <SolutionsAd1 :title="$t('products.cdn.overview.ad1.title')" :sub-title="$t('products.cdn.overview.ad1.subTitle')"
@@ -47,7 +52,11 @@
   <ProductsStorageSupportPlan />
   <ProductsStorageList1 
     :list="$tm('products.storage.Europe.partnerList.imgPcList')"
+    :subTitle="$tm('products.storage.Europe.partnerList.subTitle')"
+    :title="$tm('products.storage.Europe.partnerList.title')"
   />
-  <ProductsDRMCustomers :drmCustomer="$tm('products.storage.Europe.drmCustomer')" />
+  <ProductsDRMCustomers 
+    :drmCustomer="$tm('products.storage.Europe.drmCustomer')"
+   />
   <Footer />
 </template>

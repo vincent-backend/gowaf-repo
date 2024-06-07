@@ -101,6 +101,7 @@ withDefaults(defineProps<{
         font-weight: bold;
         font-size: 50px;
         line-height: 70px;
+        white-space: pre-wrap;
       }
 
       .content {
