@@ -9,7 +9,7 @@
           <div class="left">
             <div class="title">{{ $t('pricing.cdn.supportPlan.content.title') }}</div>
             <div class="content">{{ $t('pricing.cdn.supportPlan.content.content') }}</div>
-            <Line top="30px" />
+            <Line top="30px" m-top="1.87rem" />
             <div class="title2">{{ $t('pricing.cdn.supportPlan.content.list.title') }}</div>
             <div class="list">
               <div class="item" v-for="item in $tm('pricing.cdn.supportPlan.content.list.items')">
@@ -63,9 +63,10 @@
       padding-bottom: 31px;
 
       >.line {
-        width: 1200px;
+        // width: 1200px;
+        width: 100%;
         height: 8px;
-        background: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        background-image: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line@2x.png);
       }
 
       >.main {
@@ -151,6 +152,105 @@
             height: 312px;
 
             background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
+          }
+        }
+      }
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .support-plan-container {
+    margin-top: 6.25rem;
+
+    .support-plan {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.sub-title {
+        margin-top: 0.94rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
+
+      >.content {
+        margin-top: 3.19rem;
+
+        border-radius: 0.88rem;
+        border: 0.06rem solid #E6E6E6;
+        padding-bottom: 3.13rem;
+
+        >.line {
+          height: 0.5rem;
+          background-image: url(/public/mobile-images/pricing/cdn/Pricing_CDN_card_top_line@2x.png);
+        }
+
+        >.main {
+          margin-top: 1.38rem;
+          flex-direction: column;
+
+          >.left {
+            width: auto;
+            margin: 0 1.81rem;
+
+            >.title {
+              font-size: 2.13rem;
+              line-height: 3rem;
+            }
+
+            >.content {
+              margin-top: 1rem;
+
+              font-size: 1.63rem;
+              line-height: 2.38rem;
+            }
+
+            >.title2 {
+              margin-top: 1.87rem;
+
+              font-size: 2.13rem;
+              line-height: 3rem;
+            }
+
+            >.list {
+              margin-top: 1.25rem;
+              flex-direction: column;
+              gap: 1.87rem;
+
+              .item {
+                width: auto;
+                font-size: 1.63rem;
+
+                .icon {
+                  width: 2.25rem;
+                  height: 2.25rem;
+
+                  &::before {}
+                }
+
+                .text {}
+              }
+            }
+
+            >.btn-container {
+              margin-top: 1.87rem;
+            }
+          }
+
+          >.right {
+            margin-top: 3.13rem;
+            margin-right: 0;
+
+            .pic {
+              width: 19.5rem;
+              height: 19.5rem;
+            }
           }
         }
       }

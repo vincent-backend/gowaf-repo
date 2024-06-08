@@ -25,6 +25,7 @@
   </div>
 
   <CommonList1 v-bind="$tm('pricing.overview.list1')" />
+
   <PricingSupportPlan />
   <PricingHop />
 
