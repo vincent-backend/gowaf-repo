@@ -23,27 +23,18 @@
 
   .hop {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.list {
@@ -65,27 +56,16 @@
         >.title {
           margin-top: 20px;
 
-
           font-weight: 500;
           font-size: 20px;
-
           line-height: 28px;
-
-
-
         }
 
         >.sub-title {
           margin-top: 10px;
 
-
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
         }
 
         >.btn-container {
