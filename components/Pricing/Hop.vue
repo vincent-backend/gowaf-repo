@@ -5,9 +5,13 @@
       <div class="sub-title">{{ $t('pricing.cdn.hop.subTitle') }}</div>
       <div class="list">
         <div class="item" v-for="item in $tm('pricing.cdn.hop.list')">
-          <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
-          <div class="title">{{ item.title }}</div>
-          <div class="sub-title">{{ item.subTitle }}</div>
+          <div class="head">
+            <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+            <div class="title-container">
+              <div class="title">{{ item.title }}</div>
+              <div class="sub-title">{{ item.subTitle }}</div>
+            </div>
+          </div>
           <div class="btn-container">
             <a :href="item.href" class="trail-btn">{{ item.btn }}</a>
           </div>
@@ -39,6 +43,7 @@
 
     >.list {
       margin-top: 80px;
+
       display: flex;
       justify-content: space-around;
 
@@ -48,24 +53,36 @@
         flex-direction: column;
         align-items: center;
 
-        >.icon {
-          width: 100px;
-          height: 100px;
-        }
+        >.head {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
 
-        >.title {
-          margin-top: 20px;
+          >.icon {
+            width: 100px;
+            height: 100px;
+          }
 
-          font-weight: 500;
-          font-size: 20px;
-          line-height: 28px;
-        }
+          >.title-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        >.sub-title {
-          margin-top: 10px;
+            >.title {
+              margin-top: 20px;
 
-          font-size: 16px;
-          color: #4E4E4E;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 28px;
+            }
+
+            >.sub-title {
+              margin-top: 10px;
+
+              font-size: 16px;
+              color: #4E4E4E;
+            }
+          }
         }
 
         >.btn-container {
@@ -79,20 +96,74 @@
 // For mobile devices
 @media (max-width: 767px) {
   .hop-container {
-    .hop {
-      >.title {}
+    margin-top: 6.25rem;
 
-      >.sub-title {}
+    .hop {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
 
       >.list {
+        margin: 3.13rem auto 0;
+
+        width: 29rem;
+        flex-direction: column;
+        gap: 3.13rem;
+
         >.item {
-          >.icon {}
+          width: auto;
 
-          >.title {}
+          >.head {
+            flex-direction: row;
 
-          >.sub-title {}
+            >.icon {
+              width: 9.38rem;
+              height: 9.38rem;
+            }
 
-          >.btn-container {}
+            >.title-container {
+              margin-left: 1.87rem;
+
+              align-items: flex-start;
+              justify-content: center;
+
+              >.title {
+                margin-top: 0;
+
+                font-size: 2.13rem;
+                line-height: 3rem;
+                text-align: left;
+              }
+
+              >.sub-title {
+                margin-top: 0.63rem;
+
+                font-size: 1.5rem;
+                line-height: 2.19rem;
+                text-align: left;
+              }
+            }
+          }
+
+          >.btn-container {
+            margin-top: 1.25rem;
+
+            width: 100%;
+
+            .trail-btn {
+              width: 100%;
+            }
+          }
         }
       }
     }
