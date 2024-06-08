@@ -75,4 +75,27 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .hop-container {
+    .hop {
+      >.title {}
+
+      >.sub-title {}
+
+      >.list {
+        >.item {
+          >.icon {}
+
+          >.title {}
+
+          >.sub-title {}
+
+          >.btn-container {}
+        }
+      }
+    }
+  }
+}
 </style>
