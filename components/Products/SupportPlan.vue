@@ -1,3 +1,10 @@
+<script lang="ts" setup>
+withDefaults(defineProps<{
+  title: string;
+}>(), {
+  title: 'Save up to 80% on your content delivery costs',
+});
+</script>
 <template>
   <div class="support-plan-container">
     <div class="support-plan page-container">
@@ -5,7 +12,7 @@
         <div class="line"></div>
         <div class="main">
           <div class="left">
-            <div class="title">{{ $t('products.storage.Europe.supportPlan.content.title') }}</div>
+            <div class="title">{{ title }}</div>
             <div class="content">{{ $t('products.storage.Europe.supportPlan.content.content') }}</div>
             <div class="content">{{ $t('products.storage.Europe.supportPlan.content.subConttent') }}</div>
             <Line top="30px" />
