@@ -9,9 +9,9 @@
     w: '362px',
     h: '338px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_1@2x.png',
+    mw: '22.63rem',
+    mh: '21.13rem',
   }" />
 
   <CommonNumbers style="margin-top: 60px;" :items="$tm('solutions.videoDelivery.numbers')" />
