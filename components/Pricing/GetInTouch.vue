@@ -150,16 +150,37 @@
 // For mobile devices
 @media (max-width: 767px) {
   .get-in-touch-container {
+    margin-top: 3.13rem;
+
     .get-in-touch {
+      padding: 0;
+      flex-direction: column;
+
       >.left {
-        >.title {}
+        >.title {
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+        }
 
-        >.sub-title {}
+        >.sub-title {
+          margin-top: 1rem;
 
-        >.pic {}
+          font-size: 1.75rem;
+          line-height: 2.38rem;
+        }
+
+        >.pic {
+          margin: 3.13rem auto 0;
+
+          width: 34.69rem;
+          height: 32.38rem;
+        }
       }
 
       >.right {
+        margin-left: 0;
+        margin-top: 4.13rem;
+
         .agree-link {}
 
         .btn-container {
