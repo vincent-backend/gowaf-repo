@@ -155,4 +155,63 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .pricing-table2-container {
+    .pricing-table2 {
+      .table-container {
+        .header {}
+
+        .list-1 {
+          .item {
+            .title {}
+
+            .hint {}
+          }
+        }
+
+        .list-2 {
+          .item {
+            .icon {}
+
+            .text {}
+          }
+        }
+
+        &.table-0 {
+          .header {}
+
+          .list-1 {
+            .item {
+              .title {}
+            }
+          }
+
+          .list-2 {
+            .item {
+              .icon {}
+            }
+          }
+        }
+
+        &.table-1 {
+          .header {}
+
+          .list-1 {
+            .item {
+              .title {}
+            }
+          }
+
+          .list-2 {
+            .item {
+              .icon {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>
