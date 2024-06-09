@@ -15,9 +15,9 @@
     w: '476px',
     h: '350px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/pricing/dns/Pricing_DNS_banner_graph@2x.png',
+    mw: '29.75rem',
+    mh: '21.88rem',
   }" />
 
   <div class="price-1-container">
