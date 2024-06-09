@@ -146,4 +146,33 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .get-in-touch-container {
+    .get-in-touch {
+      >.left {
+        >.title {}
+
+        >.sub-title {}
+
+        >.pic {}
+      }
+
+      >.right {
+        .agree-link {}
+
+        .btn-container {
+          .btn-submit {}
+        }
+
+        .hint {
+          .hint1 {}
+
+          .hint2 {}
+        }
+      }
+    }
+  }
+}
 </style>
