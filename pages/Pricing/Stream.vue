@@ -15,20 +15,20 @@
     w: '466px',
     h: '428px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/pricing/stream/Pricing_Stream_banner_graph@2x.png',
+    mw: '29.13rem',
+    mh: '26.75rem',
   }" />
 
   <PricingTable2 />
 
-  <CommonList1 v-bind="$tm('pricing.overview.list1')" />
+  <!-- <CommonList1 v-bind="$tm('pricing.overview.list1')" /> -->
 
-  <PricingCalculate1 />
-  <PricingSupportPlan />
-  <PricingHop />
+  <!-- <PricingCalculate1 /> -->
+  <!-- <PricingSupportPlan /> -->
+  <!-- <PricingHop /> -->
 
-  <PricingGetInTouch />
+  <!-- <PricingGetInTouch /> -->
 
-  <Footer />
+  <!-- <Footer /> -->
 </template>

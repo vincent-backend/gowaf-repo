@@ -43,15 +43,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
-
         font-weight: 500;
         font-size: 22px;
         color: #FFFFFF;
         line-height: 30px;
-
-
-
       }
 
       .list-1 {
@@ -74,22 +69,13 @@
             font-weight: 600;
             font-size: 30px;
             line-height: 40px;
-
-
-
           }
 
           .hint {
             margin-top: 10px;
 
-
-
             font-size: 16px;
             color: #4E4E4E;
-
-
-
-
           }
         }
       }
@@ -113,14 +99,8 @@
           .text {
             margin-left: 8px;
 
-
             font-weight: 500;
-
-
             line-height: 20px;
-
-
-
           }
         }
       }
