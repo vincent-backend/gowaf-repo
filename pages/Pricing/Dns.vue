@@ -45,4 +45,14 @@
   box-sizing: border-box;
   padding: 20px;
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .price-1-container {
+    width: 43.13rem;
+    top: -2.25rem;
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+  }
+}
 </style>
