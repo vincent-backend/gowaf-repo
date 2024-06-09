@@ -35,4 +35,18 @@ const props = defineProps({
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .textarea-container {
+    .textarea {
+      min-height: 8.75rem;
+      border-radius: 0.5rem;
+      font-size: 1.75rem;
+      padding: 1.25rem;
+
+      &:focus {}
+    }
+  }
+}
 </style>

@@ -30,7 +30,6 @@ const checked = ref(false);
   .checkbox {
     width: 20px;
     height: 20px;
-
     background: url(/public/images/pricing/cdn/connection_ic_cb_nor.png);
 
     &.checked {
@@ -41,14 +40,8 @@ const checked = ref(false);
   .text {
     margin-left: 10px;
 
-
-
-
     color: #4E4E4E;
     line-height: 20px;
-
-
-
   }
 }
 </style>

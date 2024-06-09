@@ -1,14 +1,11 @@
 <script lang="ts" setup>
-const props = defineProps({
-  gap: {
-    type: String,
-    default: '16px',
-  },
-});
+defineProps<{
+  gap?: string;
+}>();
 </script>
 
 <template>
-  <div class="form-form-row-container" :style="{ gap: props.gap }">
+  <div class="form-form-row-container" :style="{ gap: gap || obeyDevice('16px', '1.87rem').value }">
     <slot />
   </div>
 </template>
@@ -21,6 +18,13 @@ const props = defineProps({
 
   >* {
     flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-form-row-container {
+    flex-direction: column;
+    gap: 1.87rem;
   }
 }
 </style>

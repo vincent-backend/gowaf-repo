@@ -25,13 +25,25 @@ const props = defineProps({
     font-size: 16px;
     color: #000;
     padding-left: 20px;
-
     box-sizing: border-box;
-
     outline: none;
 
     &:focus {
       border-color: #46CF3A;
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .input-container {
+    input {
+      height: 5rem;
+      border-radius: 0.5rem;
+      font-size: 1.75rem;
+      padding-left: 1.25rem;
+
+      &:focus {}
     }
   }
 }
