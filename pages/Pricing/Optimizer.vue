@@ -15,9 +15,9 @@
     w: '410px',
     h: '366px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/pricing/optimizer/Pricing_Optimizer_banner_graph@2x.png',
+    mw: '25.63rem',
+    mh: '22.88rem',
   }" />
 
   <div class="price-1-container">
@@ -45,5 +45,15 @@
   border-radius: 24px;
   box-sizing: border-box;
   padding: 20px;
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .price-1-container {
+    width: 43.13rem;
+    top: -2.25rem;
+    padding: 1.25rem;
+    border-radius: 1.5rem;
+  }
 }
 </style>
