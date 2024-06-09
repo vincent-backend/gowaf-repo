@@ -64,4 +64,21 @@
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .pricing-map-container {
+    .pricing-map {
+      >.title {}
+
+      >.sub-title {}
+
+      >.map-container {
+        .map {
+          .dot {}
+        }
+      }
+    }
+  }
+}
 </style>
