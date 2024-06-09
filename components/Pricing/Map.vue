@@ -18,27 +18,18 @@
 
   .pricing-map {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.map-container {
@@ -49,7 +40,6 @@
       background: #FFFFFF;
       box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
       border-radius: 24px;
-
       display: flex;
       align-items: center;
       justify-content: center;
@@ -66,9 +56,7 @@
           background: linear-gradient(90deg, #46CF3A 0%, #36CFBC 100%);
           border: 4px solid rgba(65, 207, 99, 0.18);
           border-radius: 50%;
-
           position: absolute;
-
           left: 300px;
           top: 100px;
         }
