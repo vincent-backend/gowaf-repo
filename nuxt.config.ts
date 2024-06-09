@@ -5,12 +5,6 @@ export default defineNuxtConfig({
     '~/assets/css/common.css',
     '~/assets/css/global.less',
   ],
-  // postcss: {
-  //   plugins: {
-  //     tailwindcss: {},
-  //     autoprefixer: {},
-  //   },
-  // },
   modules: [
     '@nuxtjs/i18n',
   ],
@@ -19,7 +13,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Polyfill CDN DNS',
+      title: 'Polyfill Cloud',
     },
   },
 });
