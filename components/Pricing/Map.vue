@@ -68,14 +68,41 @@
 // For mobile devices
 @media (max-width: 767px) {
   .pricing-map-container {
-    .pricing-map {
-      >.title {}
+    margin-top: 6.25rem;
 
-      >.sub-title {}
+    .pricing-map {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
 
       >.map-container {
+        margin-top: 3.13rem;
+
+        width: 43.13rem;
+        height: 30rem;
+        border-radius: 0;
+
         .map {
-          .dot {}
+          width: 43.13rem;
+          height: 30rem;
+
+          .dot {
+            width: 0.5rem;
+            height: 0.5rem;
+            border-width: 0.25rem;
+            left: 22rem;
+            top: 24rem;
+          }
         }
       }
     }

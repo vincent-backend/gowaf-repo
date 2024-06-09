@@ -26,14 +26,14 @@
 
   <PricingMap />
 
-  <!-- <CommonList1 v-bind="$tm('pricing.overview.list1')" /> -->
-  <!-- <PricingCalculate1 /> -->
-  <!-- <PricingSupportPlan /> -->
-  <!-- <PricingHop /> -->
-  <!-- <PricingSaveMoney /> -->
-  <!-- <PricingGetInTouch /> -->
+  <CommonList1 v-bind="$tm('pricing.overview.list1')" />
+  <PricingCalculate1 />
+  <PricingSupportPlan />
+  <PricingHop />
+  <PricingSaveMoney />
+  <PricingGetInTouch />
 
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style lang="less" scoped>
