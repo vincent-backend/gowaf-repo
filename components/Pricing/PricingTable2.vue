@@ -159,23 +159,62 @@
 // For mobile devices
 @media (max-width: 767px) {
   .pricing-table2-container {
+    top: -2.25rem;
+
     .pricing-table2 {
+      border-radius: 1.5rem;
+      padding: 1.25rem;
+      gap: 1.25rem;
+      flex-direction: column;
+
       .table-container {
-        .header {}
+        border-radius: 0.87rem;
+
+        .header {
+          height: 4.13rem;
+          border-radius: 0.87rem 0.87rem 0px 0px;
+          font-size: 2rem;
+          line-height: 2.81rem;
+        }
 
         .list-1 {
-          .item {
-            .title {}
+          padding: 1.87rem 1.25rem 0;
+          gap: 1.25rem;
 
-            .hint {}
+          .item {
+            height: 8.63rem;
+            border-radius: 0.88rem;
+
+            .title {
+              font-size: 2.5rem;
+              line-height: 3.31rem;
+            }
+
+            .hint {
+              margin-top: 0.44rem;
+
+              font-size: 1.38rem;
+              line-height: 1.88rem;
+            }
           }
         }
 
         .list-2 {
-          .item {
-            .icon {}
+          margin-top: 1.75rem;
 
-            .text {}
+          gap: 1.25rem;
+
+          .item {
+            .icon {
+              width: 1.75rem;
+              height: 1.75rem;
+            }
+
+            .text {
+              margin-left: 1rem;
+              font-size: 1.63rem;
+              line-height: 2.31rem;
+            }
           }
         }
 

@@ -22,13 +22,13 @@
 
   <PricingTable2 />
 
-  <!-- <CommonList1 v-bind="$tm('pricing.overview.list1')" /> -->
+  <CommonList1 v-bind="$tm('pricing.overview.list1')" />
 
-  <!-- <PricingCalculate1 /> -->
-  <!-- <PricingSupportPlan /> -->
-  <!-- <PricingHop /> -->
+  <PricingCalculate1 />
+  <PricingSupportPlan />
+  <PricingHop />
 
-  <!-- <PricingGetInTouch /> -->
+  <PricingGetInTouch />
 
-  <!-- <Footer /> -->
+  <Footer />
 </template>
