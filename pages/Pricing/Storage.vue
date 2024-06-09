@@ -15,9 +15,9 @@
     w: '464px',
     h: '324px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/mobile-images/pricing/storage/Pricing_Storage_banner_graph@2x.png',
+    mw: '29rem',
+    mh: '20.25rem',
   }" />
 
   <div class="price-1-container">
@@ -26,14 +26,14 @@
 
   <PricingMap />
 
-  <CommonList1 v-bind="$tm('pricing.overview.list1')" />
-  <PricingCalculate1 />
-  <PricingSupportPlan />
-  <PricingHop />
-  <PricingSaveMoney />
-  <PricingGetInTouch />
+  <!-- <CommonList1 v-bind="$tm('pricing.overview.list1')" /> -->
+  <!-- <PricingCalculate1 /> -->
+  <!-- <PricingSupportPlan /> -->
+  <!-- <PricingHop /> -->
+  <!-- <PricingSaveMoney /> -->
+  <!-- <PricingGetInTouch /> -->
 
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <style lang="less" scoped>
@@ -48,5 +48,16 @@
   border-radius: 24px;
   box-sizing: border-box;
   padding: 20px;
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .price-1-container {
+    width: 43.13rem;
+    position: relative;
+    top: -2.32rem;
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+  }
 }
 </style>
