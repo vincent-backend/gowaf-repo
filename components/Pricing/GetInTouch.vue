@@ -83,28 +83,17 @@
 
     >.left {
       >.title {
-
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
-
-
-
       }
 
       >.sub-title {
         margin-top: 20px;
 
         width: 320px;
-
-
         font-size: 16px;
         color: #4E4E4E;
-
-
-
-
       }
 
       >.pic {
@@ -134,25 +123,18 @@
           background: #FFFFFF;
           border-radius: 25px;
           border: 2px solid #46CF3A;
-
           font-family: Mont, Mont;
           font-weight: 600;
           font-size: 16px;
-
         }
       }
 
       .hint {
         margin-top: 6px;
 
-
-
-
         color: #4E4E4E;
         line-height: 20px;
         text-align: center;
-
-
 
         .hint1 {}
 
