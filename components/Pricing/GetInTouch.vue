@@ -62,12 +62,12 @@
               {{ $t('pricing.cdn.getInTouch.form.btnSubmit') }}
             </button>
           </div>
-
-          <div class="hint">
-            <span class="hint1">{{ $t('pricing.cdn.getInTouch.form.hint1') }}</span>
-            <a href="#" class="hint2">{{ $t('pricing.cdn.getInTouch.form.hint2') }}</a>
-          </div>
         </Form>
+
+        <div class="hint">
+          <span class="hint1">{{ $t('pricing.cdn.getInTouch.form.hint1') }}</span>
+          <a href="#" class="hint2">{{ $t('pricing.cdn.getInTouch.form.hint2') }}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -188,6 +188,11 @@
         }
 
         .hint {
+          margin-top: 1.25rem;
+
+          font-size: 1.63rem;
+          line-height: 2.31rem;
+
           .hint1 {}
 
           .hint2 {}

@@ -38,10 +38,29 @@ const checked = ref(false);
   }
 
   .text {
+    flex: 1;
     margin-left: 10px;
 
-    color: #4E4E4E;
-    line-height: 20px;
+    * {
+      color: #4E4E4E;
+      line-height: 20px;
+    }
+
+
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .checkbox-container {
+    .text {
+      margin-left: 0.63rem;
+
+      * {
+        font-size: 1.63rem;
+        line-height: 2.31rem;
+      }
+    }
   }
 }
 </style>
