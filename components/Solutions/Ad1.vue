@@ -47,27 +47,16 @@ const props = defineProps({
 
     >.left {
       .title {
-
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
-
-
-
       }
 
       .sub-title {
         margin-top: 10px;
 
-
-
         font-size: 16px;
         color: #4E4E4E;
-
-
-
-
       }
 
       .btn-container {
@@ -77,6 +66,25 @@ const props = defineProps({
 
     >.right {
       .pic {}
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .ad1-container {
+    .ad1 {
+      >.left {
+        .title {}
+
+        .sub-title {}
+
+        .btn-container {}
+      }
+
+      >.right {
+        .pic {}
+      }
     }
   }
 }
