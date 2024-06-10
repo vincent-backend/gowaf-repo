@@ -18,10 +18,10 @@
 
   <CommonSuperCharge v-bind="$tm('solutions.videoDelivery.superCharge')" />
 
-  <!-- <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
+  <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
     :btn="$t('solutions.videoDelivery.ad1.btn')" href="#"
     pic="/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2.png" pic-width="300px"
-    pic-height="264px" /> -->
+    pic-height="264px" />
 
   <!-- <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
     :items="$tm('solutions.videoDelivery.list2')" /> -->
