@@ -221,6 +221,7 @@ withDefaults(defineProps<{
       flex-direction: column;
       box-sizing: border-box;
       padding-top: 3.75rem;
+      padding-bottom: 5.38rem;
 
       >.left {
         margin-top: 0;
@@ -327,7 +328,7 @@ withDefaults(defineProps<{
     }
 
     &.hide-foot {
-      height: 60rem;
+      // height: 60rem;
 
       .bottom {
         display: none;

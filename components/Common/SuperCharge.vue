@@ -161,6 +161,7 @@ const curTab = ref(0);
       >.title {
         font-size: 2.5rem;
         line-height: 3.5rem;
+        text-align: left;
       }
 
       >.sub-title {
@@ -168,6 +169,7 @@ const curTab = ref(0);
 
         font-size: 1.75rem;
         line-height: 2.38rem;
+        text-align: left;
       }
 
       >.tabs-content {

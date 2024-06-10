@@ -18,35 +18,35 @@
 
   <CommonSuperCharge v-bind="$tm('solutions.videoDelivery.superCharge')" />
 
-  <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
+  <!-- <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
     :btn="$t('solutions.videoDelivery.ad1.btn')" href="#"
     pic="/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2.png" pic-width="300px"
-    pic-height="264px" />
+    pic-height="264px" /> -->
 
-  <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
-    :items="$tm('solutions.videoDelivery.list2')" />
+  <!-- <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
+    :items="$tm('solutions.videoDelivery.list2')" /> -->
 
 
-  <div class="map-container">
+  <!-- <div class="map-container">
     <div class="title">{{ $t('solutions.videoDelivery.map.title') }}</div>
     <div class="sub-title">{{ $t('solutions.videoDelivery.map.subTitle') }}</div>
     <NetworkBanner class="map-container" />
-  </div>
+  </div> -->
 
-  <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.videoDelivery.numbers2')" />
+  <!-- <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.videoDelivery.numbers2')" /> -->
 
-  <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" />
+  <!-- <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" /> -->
 
-  <PricingCalculate1 />
-  <SolutionsSupportPlan />
+  <!-- <PricingCalculate1 /> -->
+  <!-- <SolutionsSupportPlan /> -->
 
-  <NetworkJoin1 v-bind="{
+  <!-- <NetworkJoin1 v-bind="{
     ...$tm('solutions.videoDelivery.join1'),
     avatar: '/images/solutions/video-delivery/Network_Overview_evaluate_character@2x.png',
     mAvatar: '',
-  }" />
+  }" /> -->
 
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <style lang="less" scoped>

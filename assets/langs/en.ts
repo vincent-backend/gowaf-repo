@@ -1815,6 +1815,9 @@ export default {
             icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme.png',
             iconWidth: '334px',
             iconHeight: '276px',
+            mIcon: '',
+            mIconWidth: '',
+            mIconHeight: '',
           },
           {
             tab: 'Distruptive Pricing',
@@ -4345,7 +4348,7 @@ export default {
               title: 'Powerful Security',
               content: 'Stay protected from any and all attacks with state-of-the-art DoS mitigation security.',
             },
-          ],          
+          ],
         },
         supportPlan: {
           content: {
@@ -4443,7 +4446,7 @@ export default {
         },
         numbers: [
           {
-            label: '13', 
+            label: '13',
             content: 'PoPs',
           },
           {
@@ -5125,7 +5128,7 @@ export default {
             '/images/products/storage/australia/home_logo_8_2x.png',
           ]
         },
-      }, 
+      },
       LatinAmerica: {
         header: {
           preTitle: 'CDN LATAM',
@@ -5352,7 +5355,7 @@ export default {
             '/images/products/storage/latinamerica/home_logo_5_2x.png',
           ]
         },
-      },           
+      },
     }
   },
 };
