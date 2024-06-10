@@ -106,4 +106,27 @@ defineProps<{
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .list1-container {
+    .title1 {}
+
+    .title2 {}
+
+    .list1 {
+      >.title {}
+
+      >.sub-title {}
+
+      >.list {
+        .item {
+          .icon {}
+
+          .title {}
+        }
+      }
+    }
+  }
+}
 </style>
