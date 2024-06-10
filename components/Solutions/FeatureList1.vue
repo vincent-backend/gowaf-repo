@@ -36,27 +36,16 @@ const props = defineProps({
         .title {
           margin-top: 20px;
 
-
           font-weight: 500;
           font-size: 20px;
-
           line-height: 28px;
-
-
-
         }
 
         .content {
           margin-top: 10px;
 
-
-
           font-size: 16px;
           color: #4E4E4E;
-
-
-
-
         }
       }
     }

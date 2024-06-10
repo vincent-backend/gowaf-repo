@@ -37,9 +37,9 @@
     <NetworkBanner class="map-container" />
   </div>
 
-  <!-- <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.videoDelivery.numbers2')" /> -->
+  <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.videoDelivery.numbers2')" />
 
-  <!-- <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" /> -->
+  <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" />
 
   <!-- <PricingCalculate1 /> -->
   <!-- <SolutionsSupportPlan /> -->
