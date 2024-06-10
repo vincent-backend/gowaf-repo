@@ -31,11 +31,11 @@
 
   <CommonList2 v-bind="$tm('solutions.videoDelivery.list2')" />
 
-  <!-- <div class="map-container">
+  <div class="map-container ">
     <div class="title">{{ $t('solutions.videoDelivery.map.title') }}</div>
     <div class="sub-title">{{ $t('solutions.videoDelivery.map.subTitle') }}</div>
     <NetworkBanner class="map-container" />
-  </div> -->
+  </div>
 
   <!-- <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.videoDelivery.numbers2')" /> -->
 
@@ -75,6 +75,34 @@
 
   .map-container {
     margin-top: 40px;
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .map-container {
+    margin-top: 6.25rem;
+
+    >.title {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      text-align: left;
+      padding-left: 1.87rem;
+    }
+
+    >.sub-title {
+      margin-top: 1rem;
+
+      width: auto;
+      font-size: 1.75rem;
+      line-height: 2.38rem;
+      text-align: left;
+      padding-left: 1.87rem;
+    }
+
+    .map-container {
+      margin-top: 3.13rem;
+    }
   }
 }
 </style>

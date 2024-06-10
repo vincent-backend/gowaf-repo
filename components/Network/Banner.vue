@@ -255,7 +255,7 @@ const curTab = ref(0);
       overflow: visible;
 
       >.tabs {
-        margin-top: 1.87rem;
+        padding-top: 1.87rem;
         justify-content: space-between;
         gap: 0;
 
