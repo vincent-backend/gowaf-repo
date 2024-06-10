@@ -11,11 +11,9 @@ defineProps<{
 
 <template>
   <div class="list1-container">
-    <div class="title1" v-if="title1">{{ title1 }}</div>
-    <div class="title2" v-if="title2">{{ title2 }}</div>
     <div class="list1 page-container">
-      <div class="title"></div>
-      <div class="sub-title"></div>
+      <div class="title1" v-if="title1">{{ title1 }}</div>
+      <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
@@ -33,45 +31,29 @@ defineProps<{
   background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
   overflow: hidden;
 
-  .title1 {
+  .list1 {
     margin-top: 80px;
 
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 42px;
-    text-align: center;
-  }
-
-  .title2 {
-    margin: 20px auto 0;
-
-    width: 612px;
-    font-size: 16px;
-    color: #4E4E4E;
-    text-align: center;
-  }
-
-  .list1 {
-    margin: 80px auto 0;
-
-    width: 1090px;
-
-    >.title {
+    .title1 {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
-      margin-top: 20px;
+    .title2 {
+      margin: 20px auto 0;
 
+      width: 612px;
       font-size: 16px;
       color: #4E4E4E;
+      text-align: center;
     }
 
-    >.list {
-      margin-top: 80px;
+    .list {
+      margin: 80px auto 0;
+
+      width: 1090px;
       display: flex;
       flex-wrap: wrap;
       gap: 50px;
@@ -110,20 +92,48 @@ defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .list1-container {
-    .title1 {}
-
-    .title2 {}
-
     .list1 {
-      >.title {}
+      margin-top: 3.63rem;
 
-      >.sub-title {}
+      .title1 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
 
-      >.list {
-        .item {
-          .icon {}
+      .title2 {
+        margin-top: 1rem;
 
-          .title {}
+        width: auto;
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
+
+      .list {
+        margin-top: 3.13rem;
+
+        width: auto;
+        gap: 1.25rem 0;
+        justify-content: space-between;
+
+        >.item {
+          width: 20.9rem;
+          height: 18.25rem;
+          padding: 0.63rem 0 1.25rem 1.25rem;
+
+          .icon {
+            width: 8.25rem;
+            height: 8.25rem;
+          }
+
+          .title {
+            margin-top: 1.87rem;
+
+            font-size: 2.13rem;
+            line-height: 3.13rem;
+            text-align: left;
+          }
         }
       }
     }
