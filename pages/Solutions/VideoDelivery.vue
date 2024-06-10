@@ -29,9 +29,7 @@
     mPicHeight: '16.5rem',
   }" />
 
-  <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
-    :items="$tm('solutions.videoDelivery.list2')" />
-
+  <CommonList2 v-bind="$tm('solutions.videoDelivery.list2')" />
 
   <!-- <div class="map-container">
     <div class="title">{{ $t('solutions.videoDelivery.map.title') }}</div>

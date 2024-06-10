@@ -1867,42 +1867,44 @@ export default {
         subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
         btn: 'Start 14-Day FREE Trial',
       },
-      title1: 'Packed with powerful features',
-      title2: 'Take advantage of powerful features specifically tailored to video delivery. Secure your streams using hotlinking protection and token authentication.',
-      list2: [
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png',
-          title: 'Origin Shield',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png',
-          title: 'Raw Logging',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_3.png',
-          title: 'Edge Storage',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_4.png',
-          title: 'Real Time Statistics',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_5.png',
-          title: 'Hotlinking Protection',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_6.png',
-          title: 'Token Authentication',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_7.png',
-          title: 'Media Optimized Caching',
-        },
-        {
-          icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_8.png',
-          title: 'Fully Customizable Player',
-        },
-      ],
+      list2: {
+        title1: 'Packed with powerful features',
+        title2: 'Take advantage of powerful features specifically tailored to video delivery. Secure your streams using hotlinking protection and token authentication.',
+        items: [
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png',
+            title: 'Origin Shield',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png',
+            title: 'Raw Logging',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_3.png',
+            title: 'Edge Storage',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_4.png',
+            title: 'Real Time Statistics',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_5.png',
+            title: 'Hotlinking Protection',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_6.png',
+            title: 'Token Authentication',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_7.png',
+            title: 'Media Optimized Caching',
+          },
+          {
+            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_8.png',
+            title: 'Fully Customizable Player',
+          },
+        ],
+      },
       map: {
         title: 'Bring video delivery to the next level',
         subTitle: 'The Polyfill network was explicitly designed for efficient video delivery. With strategically selected PoPs around the world, we assure a great price/performance ratio and an incredibly high cache hit rate.',
