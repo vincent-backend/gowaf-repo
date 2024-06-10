@@ -41,8 +41,8 @@
 
   <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" />
 
-  <!-- <PricingCalculate1 /> -->
-  <!-- <SolutionsSupportPlan /> -->
+  <PricingCalculate1 />
+  <SolutionsSupportPlan />
 
   <!-- <NetworkJoin1 v-bind="{
     ...$tm('solutions.videoDelivery.join1'),

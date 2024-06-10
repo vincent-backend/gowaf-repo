@@ -40,27 +40,18 @@
 
   .support-plan {
     >.title {
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
-
-
     }
 
     >.sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
       color: #4E4E4E;
-
       text-align: center;
-
-
     }
 
     >.main {
@@ -70,22 +61,17 @@
       box-shadow: 0px 4px 10px 0px #F1F1F1;
       border-radius: 14px;
       border: 1px solid #E6E6E6;
-
       box-sizing: border-box;
       padding: 30px;
       padding-right: 90px;
-
       position: relative;
 
       >.line {
         position: absolute;
-
         top: 0;
         left: 0;
-
         width: 100%;
         height: 8px;
-
         background: url(/public/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
       }
 
@@ -98,27 +84,16 @@
           width: 600px;
 
           >.title {
-
             font-weight: 500;
             font-size: 24px;
-
             line-height: 33px;
-
-
-
           }
 
           >.sub-title {
             margin-top: 20px;
 
-
-
             font-size: 16px;
             color: #4E4E4E;
-
-
-
-
           }
 
           >.list {
@@ -142,27 +117,16 @@
                 flex: 1;
 
                 .title {
-
                   font-weight: 500;
                   font-size: 16px;
-
                   line-height: 22px;
-
-
-
                 }
 
                 .content {
                   margin-top: 6px;
 
-
-
-
                   color: #4E4E4E;
                   line-height: 20px;
-
-
-
                 }
               }
             }
@@ -179,6 +143,47 @@
             height: 270px;
 
             background: url(/public/images/solutions/video-delivery/Solutions_Video_Delivery_graph_3.png);
+          }
+        }
+      }
+    }
+  }
+}
+
+// For mobile devices
+@media (max-width: 767px) {
+  .support-plan-container {
+    .support-plan {
+      >.title {}
+
+      >.sub-title {}
+
+      >.main {
+        >.line {}
+
+        >.content {
+          >.left {
+            >.title {}
+
+            >.sub-title {}
+
+            >.list {
+              >.item {
+                >.icon {}
+
+                >.right {
+                  .title {}
+
+                  .content {}
+                }
+              }
+            }
+
+            >.btn-container {}
+          }
+
+          >.right {
+            .pic {}
           }
         }
       }

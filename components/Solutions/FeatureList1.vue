@@ -51,4 +51,40 @@ const props = defineProps({
     }
   }
 }
+
+// For mobile devices
+@media (max-width: 767px) {
+  .feature-list-container {
+    margin-top: 6.25rem;
+
+    .feature-list {
+      .list {
+        flex-direction: column;
+        gap: 2.5rem;
+
+        .item {
+          .icon {
+            width: 9.38rem;
+            height: 9.38rem;
+          }
+
+          .title {
+            margin-top: 1.25rem;
+
+            font-size: 2.13rem;
+            color: #000000;
+            line-height: 3rem;
+          }
+
+          .content {
+            margin-top: 0.63rem;
+
+            font-size: 1.5rem;
+            line-height: 2.19rem;
+          }
+        }
+      }
+    }
+  }
+}
 </style>
