@@ -18,13 +18,19 @@
 
   <CommonSuperCharge v-bind="$tm('solutions.videoDelivery.superCharge')" />
 
-  <SolutionsAd1 :title="$t('solutions.videoDelivery.ad1.title')" :sub-title="$t('solutions.videoDelivery.ad1.subTitle')"
-    :btn="$t('solutions.videoDelivery.ad1.btn')" href="#"
-    pic="/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2.png" pic-width="300px"
-    pic-height="264px" />
+  <SolutionsAd1 v-bind="{
+    ...$tm('solutions.videoDelivery.ad1'),
+    href: '#',
+    pic: '/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2@2x.png',
+    picWidth: '300px',
+    picHeight: '264px',
+    mPic: '/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2@2x.png',
+    mPicWidth: '18.75rem',
+    mPicHeight: '16.5rem',
+  }" />
 
-  <!-- <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
-    :items="$tm('solutions.videoDelivery.list2')" /> -->
+  <CommonList2 :title1="$t('solutions.videoDelivery.title1')" :title2="$t('solutions.videoDelivery.title2')"
+    :items="$tm('solutions.videoDelivery.list2')" />
 
 
   <!-- <div class="map-container">
