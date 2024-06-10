@@ -44,13 +44,13 @@
   <PricingCalculate1 />
   <SolutionsSupportPlan />
 
-  <!-- <NetworkJoin1 v-bind="{
+  <NetworkJoin1 v-bind="{
     ...$tm('solutions.videoDelivery.join1'),
     avatar: '/images/solutions/video-delivery/Network_Overview_evaluate_character@2x.png',
-    mAvatar: '',
-  }" /> -->
+    mAvatar: '/mobile-images/solutions/video-delivery/Network_Overview_evaluate_character@2x.png',
+  }" />
 
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style lang="less" scoped>

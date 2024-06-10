@@ -9,7 +9,7 @@
           <div class="left">
             <div class="title">{{ $t('solutions.videoDelivery.supportPlan.main.title') }}</div>
             <div class="sub-title">{{ $t('solutions.videoDelivery.supportPlan.main.subTitle') }}</div>
-            <Line top="30px" />
+            <Line top="30px" m-top="2.5rem" />
             <div class="list">
               <div class="item" v-for="item in $tm('solutions.videoDelivery.supportPlan.main.list')">
                 <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
@@ -153,37 +153,93 @@
 // For mobile devices
 @media (max-width: 767px) {
   .support-plan-container {
-    .support-plan {
-      >.title {}
+    margin-top: 6.25rem;
 
-      >.sub-title {}
+    .support-plan {
+      >.title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        text-align: left;
+      }
 
       >.main {
-        >.line {}
+        margin-top: 3.13rem;
+
+        border-radius: 0.88rem;
+        padding: 1.87rem 1.87rem 3.13rem 1.87rem;
+
+        >.line {
+          height: 0.5rem;
+        }
 
         >.content {
-          >.left {
-            >.title {}
+          flex-direction: column;
 
-            >.sub-title {}
+          >.left {
+            width: auto;
+
+            >.title {
+              font-size: 2.13rem;
+              line-height: 3rem;
+            }
+
+            >.sub-title {
+              margin-top: 1rem;
+
+              font-size: 1.63rem;
+              line-height: 2.38rem;
+            }
 
             >.list {
+              margin-top: 1.87rem;
+
+              gap: 2.5rem;
+
               >.item {
-                >.icon {}
+                >.icon {
+                  width: 4.5rem;
+                  height: 4.5rem;
+                }
 
                 >.right {
-                  .title {}
+                  margin-left: 1.25rem;
+                  margin-right: 0;
 
-                  .content {}
+                  .title {
+                    font-size: 1.63rem;
+                    line-height: 2.31rem;
+                  }
+
+                  .content {
+                    margin-top: 0.63rem;
+
+                    font-size: 1.5rem;
+                    line-height: 1.88rem;
+                  }
                 }
               }
             }
 
-            >.btn-container {}
+            >.btn-container {
+              margin-top: 1.87rem;
+            }
           }
 
           >.right {
-            .pic {}
+            margin-top: 3.13rem;
+
+            .pic {
+              width: 21.13rem;
+              height: 16.88rem;
+            }
           }
         }
       }
