@@ -86,8 +86,30 @@ defineProps<{
 @media (max-width: 767px) {
   .numbers {
     height: 20.81rem;
-
+    .n-0, .n-2 {
+      &::before{
+        content: '';
+        position: absolute;
+        width: 3.13rem;
+        height: 0.38rem;
+        background: #ECECEC;
+        bottom: 0;
+        left:0;
+      }
+    }
+    .n-1, .n-3 {
+      &::before{
+        content: '';
+        position: absolute;
+        width: 3.13rem;
+        height: 0.38rem;
+        background: #ECECEC;
+        top: 0;
+        left:0;
+      }
+    }
     .number {
+      height: 8.44rem;
       .number-title {
         font-size: 3.13rem;
         line-height: 4.13rem;
@@ -106,17 +128,21 @@ defineProps<{
 
     .n-1 {
       left: 21.56rem;
-      top: 2.25rem;
+      top: 0rem;
+      padding-top: 2rem;
     }
 
     .n-2 {
       left: 0;
       top: 12.19rem;
+      
     }
 
     .n-3 {
       left: 21.56rem;
-      top: 14.63rem;
+      top: 12.63rem;
+      padding-top: 2rem;
+
     }
   }
 

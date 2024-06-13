@@ -9,9 +9,9 @@
     w: '466px',
     h: '368px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
+    msrc: '/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_1@2x.png',
+    mw: '29.13rem',
+    mh: '23rem',
   }" />
 
   <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.storageSoftware.numbers')" />
@@ -25,18 +25,28 @@
     :content="$t('solutions.storageSoftware.ad2.content')" :btn="$t('solutions.storageSoftware.ad2.btn')" href="#"
     :list="$tm('solutions.storageSoftware.ad2.list')"
     pic="/images/solutions/storage-software/Solutions_Storage_Software_graph_2@2x.png" pic-width="340px"
-    pic-height="280px" />
+    pic-height="280px"
+    m-pic-width="20.88rem" 
+    m-pic-height="17.5rem" 
+    m-pic="/images/solutions/storage-software/Solutions_Storage_Software_graph_2@2x.png"
+    
+  />
 
   <div class="map-container">
     <div class="title">{{ $t('solutions.storageSoftware.map.title') }}</div>
-    <div class="sub-title">{{ $t('solutions.storageSoftware.map.subTitle') }}</div>
+    <div class="sub-title">{{ $t('solutions.storageSoftware.map.subTitle') }}
+  </div>
     <NetworkBanner class="map-container" />
   </div>
 
   <SolutionsAd1 :title="$t('solutions.storageSoftware.ad1.title')"
     :sub-title="$t('solutions.storageSoftware.ad1.subTitle')" :btn="$t('solutions.storageSoftware.ad1.btn')" href="#"
     pic="/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_2@2x.png" pic-width="312px"
-    pic-height="330px" style="margin-top: 0" />
+    pic-height="330px" style="margin-top: 0" 
+    mPic='/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_2@2x.png'
+    mPicWidth='17.1rem'
+    mPicHeight='18.8rem'    
+  />
 
   <CommonList1 v-bind="$tm('solutions.storageSoftware.list1')" />
 
@@ -45,7 +55,7 @@
   <NetworkJoin1 v-bind="{
     ...$tm('solutions.storageSoftware.join1'),
     avatar: '/images/solutions/storage-software/Network_Overview_evaluate_character@2x.png',
-    mAvatar: '',
+    mAvatar: '/images/solutions/storage-software/Network_Overview_evaluate_character@2x.png',
   }" />
 
   <Footer />
@@ -83,5 +93,40 @@
   .map-container {
     margin-top: 40px;
   }
+}
+// For mobile devices
+@media (max-width: 767px) {
+  .map-container {
+  margin-top: 7.5rem;
+  margin-bottom: 16rem;
+  >.title {
+
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 0 1.8rem;
+    line-height: 1.6;
+    text-align: left;
+
+
+  }
+
+  >.sub-title {
+    margin: 1rem auto 0;
+
+    width: auto;
+    padding: 0 1.8rem;
+
+    font-size: 1.75rem;
+    color: #4E4E4E;
+
+    text-align: left;
+
+
+  }
+
+  .map-container {
+    margin-top: 3rem;
+  }
+}
 }
 </style>

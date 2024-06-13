@@ -8,7 +8,9 @@ const props = defineProps({
   pic: String,
   picWidth: String,
   picHeight: String,
-
+  mPic: String,
+  mPicWidth: String,
+  mPicHeight: String,
   reverse: Boolean,
 });
 </script>
@@ -17,11 +19,22 @@ const props = defineProps({
   <div class="ad2-container">
     <div class="ad2 page-container" :class="{ reverse: props.reverse }">
       <div class="left">
-        <div class="pic" :style="{
-      backgroundImage: `url(${props.pic})`,
-      width: props.picWidth,
-      height: props.picHeight,
-    }"></div>
+        <div class="pic" 
+          :style="isMobile ? {
+              backgroundImage: `url(${mPic})`,
+              width: mPicWidth,
+              height: mPicHeight,
+            } : {
+              backgroundImage: `url(${pic})`,
+              width: picWidth,
+              height: picHeight,
+            }"
+    
+    ></div>
+      <!-- btn -->
+        <div class="btn-container" v-if="props.btn">
+          <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
+        </div>
       </div>
       <div class="right">
         <!-- title -->
@@ -62,6 +75,10 @@ const props = defineProps({
 
     >.left {
       .pic {}
+      >.btn-container {
+          display: none;
+          
+      }
     }
 
     >.right {
@@ -130,6 +147,97 @@ const props = defineProps({
 
     &.reverse {
       flex-direction: row-reverse;
+    }
+  }
+}
+// For mobile devices
+@media (max-width: 767px) {
+  .ad2-container {
+    margin-top: 6.256rem;
+
+    .ad2 {
+      width: 43.13rem;
+      display: flex;
+      flex-direction: column-reverse; 
+
+      >.left {
+        margin-top: 3.13rem;
+        .pic {}
+        >.btn-container {
+          margin-top: 2.6rem;
+          display: flex;
+          justify-content: center;
+          
+        }
+      }
+
+      >.right {
+        width: 43.13rem;
+        >.title {
+
+          font-weight: 500;
+          font-size: 2.5rem;
+
+          line-height: 1.4;
+
+
+
+        }
+
+        >.content {
+          margin-top: 1.75rem;
+
+
+
+          font-size: 1.75rem;
+          color: #4E4E4E;
+
+
+
+
+        }
+
+        >.list {
+          margin-top: 2.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.6rem 0;
+
+          .item {
+            width: 50%;
+            display: flex;
+            align-items: center;
+
+            .icon {
+              width: 18px;
+              height: 18px;
+              background: url(/public/images/solutions/storage-software/home_Text_list_ic_tick@2x.png);
+            }
+
+            .title {
+              margin-left: 0.75rem;
+
+
+              font-weight: 500;
+              font-size: 1.5rem;
+
+              line-height: 1.4;
+
+
+
+            }
+          }
+        }
+
+        >.btn-container {
+          display: none;
+          
+        }
+      }
+
+      &.reverse {
+        flex-direction: row-reverse;
+      }
     }
   }
 }

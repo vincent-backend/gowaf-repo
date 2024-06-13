@@ -61,7 +61,7 @@ defineModel('curTab', {
 @media (max-width: 767px) {
   .tabs-container {
     margin-top: 2.5rem;
-
+    overflow-x: scroll;
     .tabs {
       overflow-x: scroll;
       align-items: flex-start;
@@ -76,7 +76,9 @@ defineModel('curTab', {
         // word-break: keep-all;
         white-space: nowrap;
 
-        &.current {}
+        &.current {
+          
+        }
       }
     }
   }

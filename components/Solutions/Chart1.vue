@@ -4,6 +4,8 @@ const props = defineProps({
   subTitle: String,
   pic: String,
   picHeight: String,
+  mPic: String,
+  mPicHeight: String,
 });
 </script>
 
@@ -12,10 +14,15 @@ const props = defineProps({
     <div class="chart1 page-container">
       <div class="title" v-if="props.title">{{ props.title }}</div>
       <div class="sub-title" v-if="props.subTitle">{{ props.subTitle }}</div>
-      <div class="pic" :style="{
-        backgroundImage: `url(${props.pic})`,
-        height: props.picHeight,
-      }"></div>
+      <div class="pic" 
+        :style="isMobile ? {
+          backgroundImage: `url(${mPic})`,
+          height: mPicHeight,
+        } : {
+          backgroundImage: `url(${pic})`,
+          height: picHeight,
+        }"
+      ></div>
     </div>
   </div>
 </template>
@@ -57,5 +64,49 @@ const props = defineProps({
       border-radius: 14px;
     }
   }
+}
+// For mobile devices
+@media (max-width: 767px) {
+.chart1-container {
+  margin-top: 6.25rem;
+
+  .chart1 {
+    >.title {
+
+      font-weight: 500;
+      font-size: 2.5rem;
+      line-height: 1.5;
+      text-align: left;
+
+
+    }
+
+    >.sub-title {
+      margin-top: 1rem;
+
+      font-size: 1.75rem;
+      color: #4E4E4E;
+
+      text-align: left;
+      border-bottom: 0.06rem solid #e6e6e6;
+      padding-bottom: 1.88rem;
+
+
+    }
+
+    >.pic {
+      margin-top: 3.8rem;
+      background-size: 40.63rem 37rem !important;
+      background-color: #fff;
+      background-position: center center;
+      background-repeat: no-repeat;
+      box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(173,173,173,0.14);
+      border-radius: 0.88rem;
+      width: 43.43rem;
+      height: 39rem;
+
+    }
+  }
+}  
 }
 </style>

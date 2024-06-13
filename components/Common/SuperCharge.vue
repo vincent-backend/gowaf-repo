@@ -188,14 +188,30 @@ const curTab = ref(0);
 
         .right {
           margin: 0;
-
+          position: relative;
           .title {
             margin-top: 3.75rem;
 
             font-size: 2.13rem;
             line-height: 3rem;
-
-            .title-tip {}
+            .title-tip {
+              position: absolute;
+              left:0;
+              top:1.2rem;
+              margin-left: 0;
+              width: 9.38rem;
+              height: 1.88rem;
+              background-image: url(/public/images/solutions/security-cdn/home_card_tag_bg@2x.png);
+              background-size: cover;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-family: PingFang-SC, PingFang-SC;
+              font-weight: bold;
+              font-size: 1.25rem;
+              color: #FFFFFF;
+              line-height: 1.4;
+            }
           }
 
           .content {

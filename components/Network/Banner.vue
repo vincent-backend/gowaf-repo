@@ -365,6 +365,8 @@ const curTab = ref(0);
           }
 
           .text {
+            font-size: 1.63rem;
+            margin-left: 0.5rem;
             .count {}
           }
         }

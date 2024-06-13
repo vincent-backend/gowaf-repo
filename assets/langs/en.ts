@@ -2049,6 +2049,9 @@ export default {
             icon: '/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png',
             iconWidth: '330px',
             iconHeight: '280px',
+            mIcon: '/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png',
+            mIconWidth: '20.63rem',
+            mIconHeight: '17.5rem'
           },
           {
             tab: 'VR Gaming',
@@ -2057,6 +2060,9 @@ export default {
             icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png',
             iconWidth: '338px',
             iconHeight: '314px',
+            mIcon: '/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png',
+            mIconWidth: '20.63rem',
+            mIconHeight: '17.5rem'
           },
           {
             tab: 'Browser-Based Games',
@@ -2065,6 +2071,9 @@ export default {
             icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png',
             iconWidth: '324px',
             iconHeight: '246px',
+            mIcon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png',
+            mIconWidth: '20.63rem',
+            mIconHeight: '17.5rem'
           },
           {
             tab: 'Download Delivery',
@@ -2073,6 +2082,9 @@ export default {
             icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png',
             iconWidth: '288px',
             iconHeight: '282px',
+            mIcon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png',
+            mIconWidth: '20.63rem',
+            mIconHeight: '17.5rem'
           },
         ],
       },
@@ -2599,6 +2611,9 @@ export default {
             icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png',
             iconWidth: '336px',
             iconHeight: '326px',
+            mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png',
+            mIconWidth: '20.38rem',
+            mIconHeight: '20.38rem', 
           },
           {
             tab: 'Volumetric Protection',
@@ -2607,6 +2622,9 @@ export default {
             icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png',
             iconWidth: '338px',
             iconHeight: '266px',
+            mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png',
+            mIconWidth: '20.38rem',
+            mIconHeight: '20.38rem', 
           },
           {
             tab: 'Web Application Firewall',
@@ -2616,6 +2634,9 @@ export default {
             icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png',
             iconWidth: '350px',
             iconHeight: '296px',
+            mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png',
+            mIconWidth: '20.38rem',
+            mIconHeight: '20.38rem', 
           },
           {
             tab: 'Request & Network Limits',
@@ -2624,6 +2645,9 @@ export default {
             icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png',
             iconWidth: '342px',
             iconHeight: '279px',
+            mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png',
+            mIconWidth: '20.38rem',
+            mIconHeight: '20.38rem', 
           },
         ],
       },

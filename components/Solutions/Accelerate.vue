@@ -274,4 +274,217 @@ const hovered = ref(-1);
     }
   }
 }
+// For mobile devices
+@media (max-width: 767px) {
+.accelerate-container {
+  margin-top: 5rem;
+
+  .accelerate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 43.13rem;
+    gap: 5rem;
+
+    >.left {
+      >.title {
+
+        font-weight: 500;
+        font-size: 2.5rem;
+
+        line-height: 1.4;
+
+
+      }
+
+      >.content {
+        margin-top: 1.75rem;
+
+        width: 43.13rem;
+
+
+
+
+        color: #4E4E4E;
+
+
+
+
+      }
+
+      >.list {
+        margin-top: 3.13rem;
+        display: block;
+        .item {
+          width: 100%;
+          margin-bottom: 1.25rem;
+          .icon {
+            width: 1.75rem;
+            height: 1.75rem;
+            background: url(/public/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
+          }
+
+          .title {
+            margin-left: 2.75;
+
+
+            font-weight: 500;
+            font-size: 1.63rem;
+
+            line-height: 1.4;
+
+
+
+          }
+        }
+      }
+
+      .up-down {
+        margin-top: 3.13rem;
+        display: flex;
+        .up,
+        .down {
+          flex: 1;
+
+          >.content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .value {
+              font-family: Mont, Mont;
+              font-weight: 600;
+              font-size: 3.13rem;
+
+              line-height: 1.4;
+
+
+
+            }
+
+            .icon {
+              margin-left: .8rem;
+              width: 2.7rem;
+              height: 2.7rem;
+            }
+          }
+
+          .title {
+
+
+            font-size: 1.5rem;
+            color: #4E4E4E;
+
+
+
+
+          }
+        }
+
+        .up {
+          >.content {
+            .value {
+              background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            .icon {
+              background: url(/public/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
+            }
+          }
+        }
+
+        .down {
+          >.content {
+            .value {
+              background: linear-gradient(0deg, #F9C22F 0%, #FA6E4A 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            .icon {
+              background: url(/public/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
+            }
+          }
+        }
+      }
+
+      .btn-container {
+        margin-top: 2.6rem;
+        display: flex;
+        justify-content: center;
+        
+      }
+    }
+
+    >.right {
+      .list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .item {
+          width: 48.6%;
+          height: 23.06rem;
+          box-sizing: border-box;
+          padding: 1rem;
+
+          background: #FFFFFF;
+          border-radius: 14px;
+
+          border: 2px solid #FFF;
+
+          .head {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .icon {
+              width: 5rem;
+              height: 5rem;
+            }
+
+            .title {
+              margin-top: 1.88rem;
+              margin-left: 0;
+
+              flex: 1;
+
+              font-weight: 500;
+              font-size: 1.63rem;
+
+              line-height: 1.4;
+
+
+
+            }
+          }
+
+          .content {
+            margin-top: 6px;
+            font-size: 1.5rem;
+
+
+
+            color: #4E4E4E;
+
+
+
+
+          }
+
+          &.active {
+            border: 2px solid #46CF3A;
+            // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+}
 </style>
