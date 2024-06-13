@@ -208,4 +208,175 @@ const props = defineProps({
     }
   }
 }
+// For mobile devices
+@media (max-width: 767px) {
+ .closer-to-user-container {
+    margin-top: 6.25rem;
+
+    .closer-to-user {
+      >.title {
+
+        font-weight: 500;
+        font-size: 2.25rem;
+
+        line-height: 42px;
+        text-align: left;
+
+
+      }
+
+      >.sub-title {
+        margin-top: 1rem;
+        font-size: 1.75rem;
+        color: #4E4E4E;
+        text-align: left;
+      }
+
+      >.list {
+        margin-top: 3.13rem;
+        flex-direction: column;
+        display: flex;
+        gap: 1.3rem;
+
+        background: #FFFFFF;
+        box-shadow: 0rem 0rem 1.88rem 0rem rgba(173,173,173,0.14);
+        border-radius: 1.5rem;
+
+        box-sizing: border-box;
+        padding: 1.25rem;
+
+        >.item {
+          height: auto;
+          background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+          border-radius: 1rem;
+          box-sizing: border-box;
+          position: relative;
+          padding: 1.25rem;
+          padding-top: 3.3rem;
+
+          .header {
+            position: absolute;
+            height: 4.13rem;
+            width: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 0.88rem 0.88rem 0rem 0rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            font-weight: 500;
+            font-size: 2rem;
+            color: #FFFFFF;
+            line-height: 1.6;
+
+
+
+          }
+
+          .head {
+            width: 100%;
+            height: 8rem;
+            background: #FFFFFF;
+            border-radius: 1rem;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            margin-top: 2.38rem;
+
+            .icon-1 {
+              margin-left: 0.3rem;
+              width: 5.63rem;
+              height: 5.63rem;
+            }
+
+            .time-container {
+              margin-left: 0.6rem;
+              flex: 1;
+              display: flex;
+              align-items: center;
+
+              .time {
+                font-family: Mont, Mont;
+                font-weight: 600;
+                font-size: 3.13rem;
+
+                line-height: 1.6;
+
+
+
+              }
+
+              .right {
+                margin-left: 1.88rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .unit {
+
+                  font-weight: 500;
+                  font-size: 2.13rem;
+
+                  line-height: 1.6;
+
+
+
+                }
+
+                .label {
+
+
+                  font-size: 1.63rem;
+                  color: #4E4E4E;
+
+
+
+
+                }
+              }
+            }
+
+            .icon-2 {
+              width: 9rem;
+              height: 7.63rem;
+            }
+          }
+
+          .content {
+            margin-top: 1.7rem;
+            padding-right: 1.7rem;
+
+
+
+            font-size: 1.63rem;
+            color: #4E4E4E;
+
+
+
+
+          }
+
+          &.item-0 {
+            background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+
+            .header {
+              background: #292929;
+            }
+          }
+
+          &.item-1 {
+            background: linear-gradient(312deg, #E9F8FC 0%, #FFFBF0 100%);
+
+            .header {
+              background: linear-gradient(316deg, #3475F5 0%, #12E599 100%);
+            }
+          }
+        }
+      }
+    }
+  } 
+}
 </style>

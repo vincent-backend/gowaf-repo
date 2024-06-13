@@ -42,8 +42,8 @@
   <SolutionsFeatureList1 :items="$tm('solutions.videoDelivery.features')" />
 
  <ProductsCalculate1 
-    :items="$tm('products.stream.overview.Calculate.list')"
-    :subs="$tm('pricing.cdn.calculator1.subs')"
+    :items="$tm('solutions.videoDelivery.Calculate.list')"
+    :subs="$tm('solutions.videoDelivery.Calculate.subs')"
    />
   
   <SolutionsSupportPlan />

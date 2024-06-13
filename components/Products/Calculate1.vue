@@ -43,7 +43,7 @@
               </div>
               <div class="right">
                 <div class="circletrack">
-                  <div class="circle" :class="'cirque' + item.percent">{{ item.percent }}</div>
+                  <div class="circle" :class="'cirque' + item.percent"></div>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@
             <ul>
               <li v-for="(item, index) in $tm('products.stream.overview.Calculate.ReplicationPoints.list')" :key="index">
                 <span :class="item.status ? 'big-circle' : 'sm-circle'"></span>
-                {{ item.label }}
+                <label>{{ item.label }}</label>
               </li>
             </ul>
             <div class="replication-points-info">
@@ -413,7 +413,7 @@
         padding-right: 0;
         .replication-points-container{
           width: 100%;
-          height: 8.75rem;
+          height: 15.25rem;
           background: #FFFFFF;
           box-shadow: 0rem 0.25rem 0.63rem 0rem #F1F1F1;
           border-radius: 0.5rem;
@@ -424,9 +424,9 @@
           h4{
             font-family: PingFangSC, PingFang SC;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 1.5rem;
             color: #4E4E4E;
-            line-height: 22px;
+            line-height: 1.6;
             text-align: left;
             font-style: normal;
             text-transform: none;
@@ -434,39 +434,54 @@
           >ul{
             display: flex;
             justify-content: space-between;
-            margin-top: 22px;
+            margin-top: 1.6rem;
             margin-left: 0px;
             position: relative;
             &::before{
               position: absolute;
               content: '';
-              left:6px;
-              top: -3px;
+              left:.2rem;
+              top: -0.1rem;
               background: #eee;
-              width: 485px;
-              height: 7px;
+              width: 38.31rem;
+              height: 0.06rem;
             }
             li{
               font-family: PingFangSC, PingFang SC;
               font-weight: 500;
-              font-size: 12px;
+              font-size: 1rem;
               color: #4E4E4E;
-              line-height: 17px;
+              line-height: 2.23rem;
               text-align: center;
               font-style: normal;
               text-transform: none;
+              height: 4.23rem;
+              position: relative;
+              label{
+                font-family: PingFangSC, PingFang SC;
+                font-weight: 500;
+                font-size: 1.1rem;
+                color: #4E4E4E;
+                line-height: 2.23rem;
+                text-align: center;
+                font-style: normal;
+                text-transform: none;
+                position: absolute;
+                bottom:0.2rem;
+                left:0;
+              }
               .sm-circle{
-                width: 16px;
-                height: 16px;
+                width: 1.13rem;
+                height: 1.13rem;
                 background: #EEEEEE;
                 display: block;
                 border-radius: 50%;
                 transform: translate(30%, -50%);
-                margin-bottom: 8px;
+                margin-bottom: .5rem;
               }
               .big-circle{
-                width: 24px;
-                height: 24px;
+                width: 2.25rem;
+                height: 2.25rem;
                 display: block;
                 border-radius: 50%;                
                 background: linear-gradient( 132deg, #46CF3A 0%, #36CFBC 100%);
@@ -477,23 +492,28 @@
           }
           .replication-points-info{
             font-family: PingFangSC, PingFang SC;
-            font-size: 14px;
+            font-size: 1.5rem;
             color: #4E4E4E;
-            line-height: 22px;
+            line-height: 1.6rem;
             text-align: left;
             font-style: normal;
             text-transform: none;
             display: table-cell;
-            padding-top: 15px;
+            padding-top: 1rem;
             strong{
               font-weight: 600;
-              font-size: 18px;
+              font-size: 1.5rem;
             }
             img{
-              width: 24px;
-              height: 24px;
+              width: 1.5rem;
+              height: 1.5rem;
               vertical-align: middle;
-              padding: 0 10px;
+              padding-left: 16rem;
+              padding-right:6rem;
+
+            }
+            label{
+              font-size: 1.5rem;
             }
           }
         }
@@ -503,7 +523,8 @@
           gap: 1.2rem;
           width: 100%;
           >.item {
-            width: 20vw !important;
+            width: 48% !important;
+            min-width: 48%;
             overflow: hidden;
             height: 8.75rem;
             background: #FFFFFF;
@@ -520,6 +541,7 @@
               display: flex;
               flex-direction: column;
               justify-content: center;
+              align-items: flex-start;
 
               .title {
                 font-family: PingFangSC, PingFang SC;
@@ -534,8 +556,6 @@
 
               .value {
                 margin-top: 1.6rem;
-
-                font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 1.5rem;
                 color: #000000;
@@ -543,21 +563,24 @@
                 text-align: left;
                 font-style: normal;
                 text-transform: none;
+                height: 2rem;
+                width: 10rem;
+                display: block;
               }
             }
             .right {
               .circletrack {
-                width: 5.62rem;
-                height: 5.62rem;
-                border: 1.2px solid #EEEEEE;
+                width: 3.62rem;
+                height: 3.62rem;
+                border: 1.2rem solid #EEEEEE;
                 border-radius: 50%;
                 position: relative;
                 .circle {
                   position: absolute;
                   top: -1rem;
                   left: -1rem;
-                  width: 5.62rem;
-                  height: 5.62rem;
+                  width: 3.62rem;
+                  height: 3.62rem;
                   border: 1rem solid #3BCF94;
                   border-radius: 50%;
                 }
@@ -575,59 +598,37 @@
         }
 
         .list2 {
-          margin-top: 1.5rem;
-          display: flex;
-          justify-content: space-between;
+            margin-top: 1.25rem;
+            flex-direction: column;
+            gap: 1.25rem;
 
-          >.item {
-            width: 5rem;
-            height: 50px;
-            background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-sizing: border-box;
-            padding: 0 9px;
+            >.item {
+              width: auto;
+              height: 4.38rem;
+              position: relative;
+              .left {
+                .title {
+                  font-size: 1.63rem;
+                  line-height: 2.31rem;
+                }
 
-            .left {
-              display: flex;
-              align-items: center;
-
-              .title {
-                font-family: PingFangSC, PingFang SC;
-                font-weight: 500;
-                font-size: 1.4rem;
-                color: #FFFFFF;
-                line-height: 1.6;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+                .icon {
+                  width: 2.25rem;
+                  height: 2.25rem;
+                  position: absolute;
+                  left:48%;
+                  top: 1rem;
+                }
               }
 
-              .icon {
-                margin-left: 8px;
-
-                width: 24px;
-                height: 24px;
-                background: url(/public/images/pricing/cdn/common_price_right_wihte_ic.png);
-              }
-            }
-
-            .right {
-              .value {
-                font-family: Mont, Mont;
-                font-weight: 600;
-                font-size: 1.75rem;
-                color: #FFFFFF;
-                line-height: 1.6;
-                text-align: left;
-                font-style: normal;
-                text-transform: none;
+              .right {
+                .value {
+                  font-size: 1.88rem;
+                  line-height: 2.5rem;
+                }
               }
             }
           }
-        }
 
         .btn-container {
           margin-top: 1.8rem;

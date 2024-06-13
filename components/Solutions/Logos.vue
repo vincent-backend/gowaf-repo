@@ -25,7 +25,7 @@ const props = defineProps({
   </div>
 </template>
 
-<style>
+<style lang="less" scoped>
 .logos-container {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -84,5 +84,61 @@ const props = defineProps({
       text-align: center;
     }
   }
+}
+@media (max-width: 767px) {
+  .logos-container {
+  padding-top: 4.8rem;
+  padding-bottom: 2.6rem;
+  background: #FFF;
+
+  .logos {
+    >.title {
+      margin: 0 auto;
+      width: auto;
+
+      font-weight: 500;
+      font-size: 2.5rem;
+
+      line-height: 1.6;
+      text-align: left;
+
+
+    }
+
+    >.sub-title {
+      margin-top: 1rem;
+      font-size: 1.75rem;
+      color: #4E4E4E;
+      text-align: left;
+    }
+
+    >.list {
+      margin-top: 3.13rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 2.4rem 0;
+
+      >.item {
+        width: 33%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+
+        >img {
+          display: block;
+          height: 3rem;
+          padding-right: 1rem;
+        }
+      }
+    }
+
+    >.btn-container {
+      margin-top: 3.13rem;
+      text-align: center;
+    }
+  }
+}
 }
 </style>

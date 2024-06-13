@@ -11,9 +11,9 @@
       w: '480px',
       h: '384px',
 
-      msrc: '',
-      mw: '',
-      mh: '',
+      msrc: '/images/solutions/website-acceleration/Solutions_Website_acceleration_banner_graph_1@2x.png',
+      mw: '30rem',
+      mh: '24rem',
     }" />
 
     <CommonNumbers style="margin-top: 80px;" :items="$tm('solutions.websiteAcceleration.numbers')" />
@@ -24,12 +24,18 @@
     <SolutionsAccelerate :title="$t('solutions.websiteAcceleration.accelerate.title')"
       :content="$t('solutions.websiteAcceleration.accelerate.content')"
       :list1="$tm('solutions.websiteAcceleration.accelerate.list1')"
-      :list2="$tm('solutions.websiteAcceleration.accelerate.list2')" />
+      :list2="$tm('solutions.websiteAcceleration.accelerate.list2')" 
+      mobileListLayoutType="wrap"  
+    />
 
     <SolutionsAd1 :title="$t('solutions.websiteAcceleration.ad1.title')"
       :sub-title="$t('solutions.websiteAcceleration.ad1.subTitle')" :btn="$t('solutions.websiteAcceleration.ad1.btn')"
       href="#" pic="/images/solutions/website-acceleration/Network_Overview_banner_graph@2x.png" pic-width="300px"
-      pic-height="300px" />
+      pic-height="300px" 
+      mPic='/images/solutions/website-acceleration/Network_Overview_banner_graph@2x.png'
+      mPicWidth='18.75rem'
+      mPicHeight='18.75rem'    
+    />
 
     <SolutionsLogos :title="$t('solutions.websiteAcceleration.logos.title')"
       :sub-title="$t('solutions.websiteAcceleration.logos.subTitle')" :imgs="[
@@ -46,18 +52,26 @@
       :content="$t('solutions.websiteAcceleration.ad2_1.content')"
       :list="$tm('solutions.websiteAcceleration.ad2_1.list')"
       pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_graph_1.png" pic-width="358px"
-      pic-height="286px" />
+      pic-height="286px" 
+      m-pic-width="22.38rem" 
+      m-pic-height="17.88rem" 
+      m-pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_graph_1.png"      
+    />
 
     <SolutionsAd2 :title="$t('solutions.websiteAcceleration.ad2_2.title')"
       :content="$t('solutions.websiteAcceleration.ad2_2.content')" :btn="$t('solutions.websiteAcceleration.ad2_2.btn')"
       href="#" :list="$tm('solutions.websiteAcceleration.ad2_2.list')"
       pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_graph_2.png" pic-width="426px"
-      pic-height="270px" reverse />
+      pic-height="270px" 
+      m-pic-width="26.63rem" 
+      m-pic-height="16.88rem" 
+      m-pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_graph_2.png"
+     />
 
     <NetworkJoin1 v-bind="{
       ...$tm('solutions.websiteAcceleration.join1'),
       avatar: '/images/solutions/website-acceleration/SmartEdge™__evaluate_character@2x.png',
-      mAvatar: '',
+      mAvatar: '/images/solutions/website-acceleration/SmartEdge™__evaluate_character@2x.png',
       showScores: false,
     }" />
 

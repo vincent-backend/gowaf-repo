@@ -256,7 +256,7 @@ withDefaults(defineProps<{
       }
 
       >.right {
-        margin-top: 5rem;
+        margin-top: 3rem;
 
         display: flex;
         justify-content: center;

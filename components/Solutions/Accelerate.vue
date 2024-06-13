@@ -7,6 +7,7 @@ const props = defineProps({
   list2: Array,
   btn: String,
   href: String,
+  mobileListLayoutType: String,
 });
 
 const hovered = ref(-1);
@@ -19,7 +20,12 @@ const hovered = ref(-1);
         <div class="title">{{ props.title }}</div>
         <div class="content">{{ props.content }}</div>
         <div class="list" v-if="props.list1">
-          <div class="item" v-for="item in props.list1">
+          <div class="item" v-for="item in props.list1" 
+          :style="mobileListLayoutType === 'wrap' ? {
+              width: '50%',
+              float:'left',
+            } : {}"
+          >
             <div class="icon"></div>
             <div class="title">{{ item }}</div>
           </div>

@@ -1786,6 +1786,39 @@ export default {
         btn: 'Try free for 14 days',
         hint: 'No credit card needed. Start in seconds.',
       },
+      Calculate: {
+        list: [
+          { title: 'Upload video size', value: '300GB', percent: 45 },
+          { title: 'Monthly Traffic', value: '50GB', percent: 15 }
+        ],
+        subs: [
+          {
+            title: 'Standard Tier',
+            value: '$4.5/month',
+          },
+          {
+            title: 'Volume Tier',
+            value: '$3.25/month',
+          }
+        ],
+        ReplicationPoints: {
+          title: 'Replication points',
+          label: 'Price',
+          value: '$0.01',
+          unit: '/ Gigabyte',
+          icon: '/images/products/stream/overview/common_price_right_wihte_ic2x.png',
+          list: [
+            { label: 'One', status: 1 },
+            { label: 'Two', status: 0 },
+            { label: 'Three', status: 0 },
+            { label: 'Four', status: 0 },
+            { label: 'Five', status: 0 },
+            { label: 'Six', status: 0 },
+            { label: 'Six', status: 0 },
+            { label: 'Eight', status: 0 },
+          ],
+        }
+      },
       numbers: [
         {
           label: '1.000.000+',
@@ -2522,23 +2555,27 @@ export default {
       },
       title1: 'Not just faster but also safer',
       title2: 'Improve security, protect your content, and stop vulnerabilities.',
-      list1: [
-        {
-          icon: '/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png',
-          title: 'Free SSL Encryption',
-          content: 'Utilize free SSL Encryption for all of your Websites and Files hosted on Polyfill network.',
-        },
-        {
-          icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png',
-          title: 'Image Watermark Protection',
-          content: 'Protect your images from hotlinking or being shared without credit.',
-        },
-        {
-          icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_3@2x.png',
-          title: 'Prevent Video Downloading',
-          content: 'Enable Media Cage to prevent your video from being shared or downloaded.',
-        },
-      ],
+      list1: {
+        title1: 'Not just faster but also safer',
+        title2: 'Improve security, protect your content, and stop vulnerabilities.',
+        items: [
+          {
+            icon: '/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png',
+            title: 'Free SSL Encryption',
+            content: 'Utilize free SSL Encryption for all of your Websites and Files hosted on Polyfill network.',
+          },
+          {
+            icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png',
+            title: 'Image Watermark Protection',
+            content: 'Protect your images from hotlinking or being shared without credit.',
+          },
+          {
+            icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_3@2x.png',
+            title: 'Prevent Video Downloading',
+            content: 'Enable Media Cage to prevent your video from being shared or downloaded.',
+          },
+        ],
+      },
       ad2_1: {
         title: 'Reduce image sizeup to 80%',
         content: 'Push your website performance to the speed of light with Polyfill Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Polyfill Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest!',

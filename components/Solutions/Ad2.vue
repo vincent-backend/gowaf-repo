@@ -153,7 +153,7 @@ const props = defineProps({
 // For mobile devices
 @media (max-width: 767px) {
   .ad2-container {
-    margin-top: 6.256rem;
+    margin-top: 6rem;
 
     .ad2 {
       width: 43.13rem;
@@ -164,7 +164,7 @@ const props = defineProps({
         margin-top: 3.13rem;
         .pic {}
         >.btn-container {
-          margin-top: 2.6rem;
+          margin-top: 3.6rem;
           display: flex;
           justify-content: center;
           
