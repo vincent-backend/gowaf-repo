@@ -4,11 +4,12 @@ defineProps<{
     label: string;
     content: string;
   }[];
+  type?: string;
 }>();
 </script>
 
 <template>
-  <div class="numbers page-container">
+  <div class="numbers page-container" :class="{ aboutType: type ? true: false }">
     <div v-for="item, index in items" :class="['number', 'n-' + index]">
       <div class="number-title">{{ item.label }}</div>
       <div class="number-content">{{ item.content }}</div>
@@ -79,6 +80,15 @@ defineProps<{
   .n-3 {
     left: 966px;
     padding-top: 36px;
+  }
+  &.aboutType {
+    .n-1 {
+        left: 435px;
+    }
+    
+    .n-2 {
+      left: 915px;
+    }
   }
 }
 

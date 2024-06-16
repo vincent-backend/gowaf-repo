@@ -24,7 +24,10 @@
     <PricingTable :content="$tm('pricing.storage.pricingTable')" />
   </div>
 
-  <PricingMap />
+  <PricingMap :content="{
+    title: $t('pricing.storage.map.title'),
+    subTitle: $t('pricing.storage.map.subTitle')
+  }" />
 
   <CommonList1 v-bind="$tm('pricing.overview.list1')" />
   <PricingCalculate1 />

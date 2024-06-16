@@ -1,11 +1,27 @@
+<script lang="ts" setup>
+withDefaults(defineProps<{
+  title?: string;
+  titleWidth: string;
+  content?: string;
+  items: any;
+  pic?: {
+    url?: string;
+    width?: number;
+    height?: number;
+  };
+  showFoot?: boolean;
+}>(), {
+  showFoot: true,
+});
+</script>
 <template>
   <div class="perfect-solution-container">
     <div class="perfect-solution page-container">
       <div class="left">
-        <div class="title">{{ $t('products.stream.mediaCage.perfectSolution.title') }}</div>
-        <div class="content">{{ $t('products.stream.mediaCage.perfectSolution.content') }}</div>
+        <div class="title" v-if="title" :style="{ width: titleWidth }">{{ title }}</div>
+        <div class="content" v-if="content">{{ content }}</div>
         <div class="list">
-          <div class="item" v-for="item in $tm('products.stream.mediaCage.perfectSolution.items')">
+          <div class="item" v-if="items.length > 0" v-for="item in items">
             <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
             <div class="right">
               <div class="title">{{ item.title }}</div>
@@ -15,7 +31,7 @@
         </div>
       </div>
       <div class="right">
-        <div class="pic"></div>
+        <div class="pic" :style="{ backgroundImage: `url(${pic?.url})`, width: pic?.width + 'px', height: pic?.height + 'px' }"></div>
       </div>
     </div>
   </div>
@@ -110,7 +126,7 @@
       >.pic {
         width: 460px;
         height: 480px;
-        background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+        // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
       }
     }
   }

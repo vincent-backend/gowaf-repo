@@ -1,8 +1,19 @@
+<script lang="ts" setup>
+withDefaults(defineProps<{
+  content?: {
+    title?: string;
+    subTitle?: string;
+  };
+  showFoot?: boolean;
+}>(), {
+  showFoot: true,
+});
+</script>
 <template>
   <div class="pricing-map-container">
     <div class="pricing-map page-container">
-      <div class="title">{{ $t('pricing.storage.map.title') }}</div>
-      <div class="sub-title">{{ $t('pricing.storage.map.subTitle') }}</div>
+      <div class="title">{{ content?.title }}</div>
+      <div class="sub-title">{{ content?.subTitle }}</div>
       <div class="map-container">
         <div class="map">
           <div class="dot"></div>

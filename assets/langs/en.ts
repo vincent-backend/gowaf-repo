@@ -14,6 +14,14 @@ export default {
         weAreRated: 'We\'re rated',
         weAreRated2: '4.8 out of 5 based on 600+ reviews',
       },
+      bottom1: {
+        title1: 'Join over',
+        title2: '40.000+',
+        title3: 'customers already joined us in our mission',
+        subTitle: 'Together we can create the internet everyone deservers - no matter where in the world they are.',
+        weAreRated: 'We\'re rated',
+        weAreRated2: '4.8 out of 5 based on 700+ reviews',
+      },
     },
     list1: {
       title: 'We\'ve helped amazing companies hop faster!',
@@ -5438,4 +5446,115 @@ export default {
       },
     }
   },
+  resources: {
+    about: {
+      header: {
+        preTitle: 'The Polyfill Mission',
+        title: 'Making the internet hop faster',
+        content: 'We are on a mission to help build and accelerate the internet of tomorrow. We obsess about customer experience and strive towards constant innovation, with a goal of helping companies and developers build a faster, safer, and more reliable internet.',
+        btn: 'Start 14-Day FREE Trial',
+        hint: 'No credit card needed. Start in seconds.',
+      },
+      perfectSolution: {
+        title: 'Supercharging the internet since 2014',
+        content: 'Polyfill started in 2014 with a simple idea of helping developers deliver content without breaking the bank. From there, it became a much more ambitious vision to help shape the internet.',
+        items: [
+          {
+            icon: '/images/resources/about/resources_about_ic_mission@2x.png',
+            title: 'Our Mission',
+            content: 'It’s our mission to help make the internet hop faster! By that, we mean building a faster, safer, and more reliable internet for billions of people worldwide.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_ic_vision@2x.png',
+            title: 'Our Vision',
+            content: 'To build a genuinely global network driven by constant innovation that helps companies hop ahead and developers to make the internet of tomorrow.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_ic_value@2x.png',
+            title: 'Our Main Core Value',
+            content: 'We are connected by 9 core values, but our main one is relentless innovation.',
+          },
+        ]
+      },
+      superCharge: {
+        tab: "Website Acceleration",
+        title: "Every ambitious vision has humble beginnings",
+        content: "Every story, no matter how small or large, has a beginning. While our vision has changed and grown, our beginnings were quite humble. What hasn’t changed is our commitment to focus on solving problems, and always putting the customer first from the moment you sign up.",
+        icon: "/images/resources/about/resources_about_graph_2@2x.png",
+        iconWidth: '334px',
+        iconHeight: '312px',
+        btn: "Read Our Full Story",
+        href: "#",
+        mIcon: '/mobile-images/home/home_bot_graph_Website@2x.png',
+        mIconWidth: '24.13rem',
+        mIconHeight: '18.19rem',
+      },
+      numbers: [
+        {
+          label: '40.000+',
+          content: 'Active Customers',
+        },
+        {
+          label: '1.000.000+',
+          content: 'Powered Websites',
+        },
+        {
+          label: '650+ Billion',
+          content: 'Delivered Monthly Requests',
+        },
+      ],
+      list2: {
+        title1: 'We hop by our core values',
+        title2: 'The Polyfill team is connected by 9 Polyfill values to help build a better tomorrow.',
+        items: [
+          {
+            icon: '/images/resources/about/resources_about_card_ic_1@2x.png',
+            title: 'We relentlessly innovate.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_2@2x.png',
+            title: 'We operate with integrity.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_3@2x.png',
+            title: 'We disrupt and deliver impact.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_4@2x.png',
+            title: 'We believe great is not good enough.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_5@2x.png',
+            title: 'We embrace transparency and open communication.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_6@2x.png',
+            title: 'We’re kind and strive to make the world a better place.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_7@2x.png',
+            title: 'We learn and improve every day.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_8@2x.png',
+            title: 'We put customers first.',
+          },
+          {
+            icon: '/images/resources/about/resources_about_card_ic_9@2x.png',
+            title: 'We embrace diversity.',
+          },
+        ],
+      },
+      map: {
+        title: 'Stationed in Europe but present all around the world',
+        subTitle: 'Polyfill was built by combining exceptional talent from all around the globe. While our home is in Europe, our warrens are present all around the world.Do you want to help make the internet hop faster? Join us.'
+      },
+      getInTouch: {
+        title: 'Get in touch with us',
+        form: {
+          hint1: 'Got a question, problem, or just want to talk to us? Fill out the form, and we will get back to you ASAP!',
+        }
+      }
+    }
+  }
 };

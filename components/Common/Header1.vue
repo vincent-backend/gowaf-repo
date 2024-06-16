@@ -6,6 +6,7 @@ withDefaults(defineProps<{
   btn?: string;
   href?: string;
   hint?: string;
+  page?: string;
   pic: {
     src: string;
     w: string;
@@ -41,7 +42,7 @@ withDefaults(defineProps<{
   }"></div>
       </div>
     </div>
-    <div class="bottom">
+    <div class="bottom" v-if="!page">
       <div class="left">
         <div class="title">
           <span>{{ $t('home.header.bottom.title1') }}</span>
@@ -65,6 +66,33 @@ withDefaults(defineProps<{
         </div>
         <div class="sub-title">
           {{ $t('home.header.bottom.weAreRated2') }}
+        </div>
+      </div>
+    </div>
+    <div class="bottom" v-if="page == 'resourcesAbout'">
+      <div class="left">
+        <div class="title">
+          <span>{{ $t('home.header.bottom1.title1') }}</span>
+          <span class="num">{{ $t('home.header.bottom1.title2') }}</span>
+          <span>{{ $t('home.header.bottom1.title3') }}</span>
+        </div>
+        <div class="sub-title">
+          {{ $t('home.header.bottom1.subTitle') }}
+        </div>
+      </div>
+      <div class="right">
+        <div class="title">
+          {{ $t('home.header.bottom1.weAreRated') }}
+        </div>
+        <div class="rate">
+          <div class="rate-item"></div>
+          <div class="rate-item"></div>
+          <div class="rate-item"></div>
+          <div class="rate-item"></div>
+          <div class="rate-item"></div>
+        </div>
+        <div class="sub-title">
+          {{ $t('home.header.bottom1.weAreRated2') }}
         </div>
       </div>
     </div>
