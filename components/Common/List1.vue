@@ -65,7 +65,10 @@ defineProps<{
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 50px;
-
+      &::after {
+          content: '';
+          flex: auto;
+      }
       .item {
         width: 330px;
         height: 380px;

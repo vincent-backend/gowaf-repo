@@ -38,12 +38,13 @@
     subTitle: $t('resources.about.map.subTitle')
   }" />
 
-  <div>
-    Our Polyfill Milestones
-    需要自己写组件
-  </div>
+  <CommonList3 
+    title1="Our Polyfill Milestones" 
+    title2=""
+    :items="$tm('resources.about.list.list')" 
+    layoutType="full"
+  /> 
   <ResourcesGetInTouch />
-
   <Footer :type="{
     page: 'about'
   }" />

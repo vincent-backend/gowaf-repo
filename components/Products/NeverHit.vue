@@ -76,10 +76,12 @@ defineProps<{
       position: relative;
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
 
       >.item {
-        padding-right: 90px;
-
+        padding-right: 70px;
+        width: 400px;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -1,22 +1,33 @@
 <script lang="ts" setup>
 withDefaults(defineProps<{
-  title: string;
+  bigtitle: string;
+  subTitle: string;
+  icon: string,
+  isHidenList: boolean,
+  title: string,
+  itemsContent: string,
+  itemsContent1: string,
 }>(), {
   title: 'Save up to 80% on your content delivery costs',
+  itemsContent: "Don’t overpay for your Content Delivery ever again. At bunny.net, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!",
+  itemsContent1: 'Take advantage of two simple pay-as-you-go pricing designed for any budget starting at just $0.02/GB.',
+  icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png', 
 });
 </script>
 <template>
   <div class="support-plan-container">
+    <h2 v-if="title">{{ bigtitle }}</h2>
+    <h5 v-if="subTitle">{{ subTitle }}</h5>
     <div class="support-plan page-container">
       <div class="content">
         <div class="line"></div>
         <div class="main">
           <div class="left">
             <div class="title">{{ title }}</div>
-            <div class="content">{{ $t('products.storage.Europe.supportPlan.content.content') }}</div>
-            <div class="content">{{ $t('products.storage.Europe.supportPlan.content.subConttent') }}</div>
-            <Line top="30px" />
-            <div class="list">
+            <div class="content">{{ itemsContent }}</div>
+            <div class="content">{{ itemsContent1 }}</div>
+            <Line top="30px" v-if="!isHidenList" />
+            <div class="list" v-if="!isHidenList">
               <div class="item" v-for="item in $tm('products.storage.Europe.supportPlan.content.list.items')">
                 <div class="icon"></div>
                 <div class="text">{{ item }}</div>
@@ -24,7 +35,8 @@ withDefaults(defineProps<{
             </div>
           </div>
           <div class="right">
-            <div class="pic"></div>
+            <div class="pic" :style="{background:`url(${icon})`}"></div>
+            
           </div>
         </div>
       </div>
@@ -35,6 +47,25 @@ withDefaults(defineProps<{
 <style lang="less" scoped>
 .support-plan-container {
   margin-top: 120px;
+  h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    font-style: normal;
+    text-transform: none;
+    padding-bottom: 20px;
+  }
+  h5{
+    font-weight: 500;
+    font-size: 16px;
+    color: #46CF3A;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+  }
   .support-plan {
     >.title {
       font-weight: 500;
@@ -90,7 +121,7 @@ withDefaults(defineProps<{
             font-size: 24px;
 
             line-height: 33px;
-
+            white-space: pre-wrap;
 
 
           }

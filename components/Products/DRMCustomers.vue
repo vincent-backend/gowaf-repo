@@ -51,7 +51,7 @@ defineProps<{
           {{ drmCustomer.list.content }}
         </p>
       </div>
-      <ul>
+      <ul v-if="drmCustomer.items">
         <li v-for="(item, index) in drmCustomer.items" :key="index">
           <span>{{ item.num }}</span>
           <img :src="item.icon" :alt="item.num">

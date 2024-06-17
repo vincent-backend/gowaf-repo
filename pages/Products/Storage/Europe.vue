@@ -40,7 +40,8 @@
   <CommonList1 
     :title1="$t('products.storage.Europe.list1.title')" 
     :title2="$t('products.storage.Europe.list1.subTitle')"
-    :items="$tm('products.cdn.overview.list1.items')" />    
+    :items="$tm('products.cdn.overview.list1.items')" 
+  />    
   <ProductsSupportPlan />
   <ProductsCalculate1 
     :isShowTitle="false" 

@@ -2,6 +2,7 @@
 defineProps<{
   title: string;
   subTitle: string;
+  isList: boolean;
   tabs: {
     tab: string;
     title: string;
@@ -17,6 +18,14 @@ defineProps<{
     mIcon: string;
     mIconWidth: string;
     mIconHeight: string;
+    items: {
+      title: string;
+      content: string;
+      iconList: {
+        icon: string,
+        label: string
+      }
+    }[];
   }[];
 }>();
 
@@ -33,8 +42,8 @@ const curTab = ref(0);
 
       <CommonTabs :tabs="tabs" v-model:cur-tab="curTab" />
       <template v-for="tab, index in tabs">
-        <div class="tabs-content" v-if="index === curTab">
-          <div class="left">
+        <div class="tabs-content" v-if="index === curTab" :style="isList ? {width: '1200px'} : {}">
+          <div class="left" v-if="!isList">
             <div class="icon" :style="isMobile ? {
         backgroundImage: `url(${tab.mIcon})`,
         width: tab.mIconWidth,
@@ -45,7 +54,7 @@ const curTab = ref(0);
         height: tab.iconHeight,
       }"></div>
           </div>
-          <div class="right">
+          <div class="right" v-if="!isList">
             <div class="title">
               {{ tab.title }}
               <span class="title-tip" v-if="tab.titleTip">{{ tab.titleTip }}</span>
@@ -56,6 +65,18 @@ const curTab = ref(0);
               </p>
             </div>
             <a href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</a>
+          </div>
+          <div class="job-items-list" v-if="isList">
+            <ul>
+              <li v-for="(item, index) in tab.items" :key="index">
+                <h3><span></span>{{ item.title }} </h3>
+                <p>{{ item.content }}</p>
+                <dl v-for="(val, i) in item.iconList" :key="i">
+                  <dt><img :src="val.icon" alt=""></dt>
+                  <dd>{{ val.label }}</dd>
+                </dl>
+              </li>
+            </ul>
           </div>
         </div>
       </template>
@@ -146,6 +167,78 @@ const curTab = ref(0);
 
         .trail-btn {
           margin-top: 40px;
+        }
+      }
+      .job-items-list{
+        width: 1200px;
+        margin-bottom: 100px;
+        ul{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          li{
+            width: 590px;
+            height: 236px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            border: 1px solid #E6E6E6;
+            overflow: hidden;
+            padding: 30px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            h3{
+              font-weight: 500;
+              font-size: 24px;
+              color: #000000;
+              line-height: 33px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+              margin-bottom: 18px;
+              span{
+                float: right;
+                width: 24px;
+                height: 24px;
+                background-image: url(/images/resources/careers/nav_ic_arrow_right_nor_2x.png);
+                cursor: pointer;
+                &:hover{
+                  border: 1px solid #eee;
+                }
+              }
+            }
+            p{
+              font-weight: 400;
+              font-size: 16px;
+              color: #4E4E4E;
+              line-height: 24px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;  
+              height: 100px;      
+              overflow: hidden;      
+            }
+            dl{
+              float: left;
+              display: flex;
+              padding-right: 24px;
+              dt{
+                padding-right: 8px;
+                img{
+                  width: 24px;
+                  height: 24px;
+                }
+              }
+              dd{
+                font-weight: 400;
+                font-size: 16px;
+                color: #4E4E4E;
+                line-height: 24px;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+              }
+            }
+          }
         }
       }
     }
