@@ -2,6 +2,7 @@
 const props = defineProps({
   title: String,
   content: String,
+  content2: String,
   list: Array<any>,
   btn: String,
   href: String,
@@ -42,6 +43,8 @@ const props = defineProps({
 
         <!-- content -->
         <div class="content">{{ props.content }}</div>
+        <div class="content" v-if="props.content2">{{ props.content2 }}</div>
+
 
         <!-- list -->
         <div class="list" v-if="props.list">

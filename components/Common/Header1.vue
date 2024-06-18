@@ -1,17 +1,20 @@
 <script lang="ts" setup>
 withDefaults(defineProps<{
   preTitle?: string;
+  logo?: string;
   title?: string;
   content?: string;
   btn?: string;
   href?: string;
   hint?: string;
   page?: string;
+  btn2BorderColor?: string;
+  isHidenLinkHit: boolean;
+  btn2?: string;
   pic: {
     src: string;
     w: string;
     h: string;
-
     msrc: string;
     mw: string;
     mh: string;
@@ -29,10 +32,29 @@ withDefaults(defineProps<{
     <div class="page-container home-banner">
       <div class="left">
         <div class="pre-title" v-if="preTitle">{{ preTitle }}</div>
+        <div class="pre-logo" v-if="logo">
+          <img :src="logo" alt="">
+        </div>
+
         <h2 class="title" v-if="title">{{ title }}</h2>
         <div class="content" v-if="content">{{ content }}</div>
-        <a :href="href" class="trail-btn" v-if="btn">{{ btn }}</a>
-        <div class="hint" v-if="hint">{{ hint }}</div>
+        <div class="header1-input-container" v-if="inputPlaceholder">
+          <FormInput name="email" :placeholder="inputPlaceholder" />
+          <a :href="href" class="trail-btn" v-if="btn" style="margin-top:0;margin-left:14px;">{{ btn }}</a>
+        </div>
+        <div v-else>
+          <a :href="href" class="trail-btn" v-if="btn2" style="margin-right:10px;">{{ btn2 }}</a>
+          <a :href="href" class="trail-btn" v-if="btn" 
+            :style="btn2BorderColor ? {border: `2px solid ${btn2BorderColor}`,} : ''">
+            {{ btn }}</a>
+        </div>
+        <FormCheckbox name="agree" value="1" v-if="isHidenLinkHit">
+          <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
+          <a class="agree-link" :href="$t('pricing.cdn.getInTouch.form.agreeHref')">
+            {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
+          </a>
+        </FormCheckbox>
+        <div class="hint" v-if="hint && !isHidenLinkHit">{{ hint }}</div>
       </div>
       <div class="right">
         <div class="pic" v-if="pic" :style="{
@@ -122,7 +144,13 @@ withDefaults(defineProps<{
         font-size: 30px;
         line-height: 40px;
       }
-
+      .pre-logo{
+        margin-bottom: 20px;
+        img{
+          width: 236px;
+          height: 30px;
+        }
+      }
       .title {
         width: 728px;
         font-family: Mont, Mont;
@@ -134,11 +162,21 @@ withDefaults(defineProps<{
 
       .content {
         margin-top: 12px;
-
+        
         width: 677px;
         color: #4E4E4E;
       }
-
+      .header1-input-container{
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 14px;
+        .input-container{
+          ::v-deep input{
+            border-radius: 27px !important;
+            width: 292px;
+          }
+        }
+      }
       .trail-btn {
         margin-top: 40px;
       }

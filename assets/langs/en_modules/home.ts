@@ -1,0 +1,231 @@
+export default {
+    home: {
+        header: {
+            title: 'The Global Content Delivery Platform That Truly Hops',
+            content: 'Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. polyfill makes lightning fast performance at any scale easier than ever before.',
+            btn: 'Try FREE for 14 days',
+            hint: 'Set-up in 5 minutes. No Credit Card required.',
+            bottom: {
+                title1: 'Join over',
+                title2: '1,000,000+',
+                title3: 'websites already powered by polyfill',
+                subTitle: 'Our dedication to quality has won the trust of many well known brands in their industries.',
+                weAreRated: 'We\'re rated',
+                weAreRated2: '4.8 out of 5 based on 600+ reviews',
+            },
+            bottom1: {
+                title1: 'Join over',
+                title2: '40.000+',
+                title3: 'customers already joined us in our mission',
+                subTitle: 'Together we can create the internet everyone deservers - no matter where in the world they are.',
+                weAreRated: 'We\'re rated',
+                weAreRated2: '4.8 out of 5 based on 700+ reviews',
+            },
+        },
+        list1: {
+            title: 'We\'ve helped amazing companies hop faster!',
+        },
+        list2: {
+            title: 'Hop to the edge and never look back',
+            subTitle: 'Experience unparalleled performance without compromise.',
+            numbers: [
+                {
+                    label: '123',
+                    content: 'Edge Locations',
+                },
+                {
+                    label: '650.000+',
+                    content: 'Requests Per Second',
+                },
+                {
+                    label: '80 Tbps+',
+                    content: 'Network Capacity',
+                },
+                {
+                    label: '24 ms',
+                    content: 'Avg. Worldwide Latency',
+                },
+            ],
+            features: [
+                {
+                    "icon": "home_card_ic_1_nor",
+                    "title": "CDN",
+                    "content": "Supercharge your content on a truly global scale.",
+                    "comingSoon": false
+                },
+                {
+                    "icon": "home_card_ic_2_nor",
+                    "title": "Storage",
+                    "content": "Experience hot object storage, replicated around the world.",
+                    "comingSoon": false
+                },
+                {
+                    "icon": "home_card_ic_3_nor",
+                    "title": "Stream",
+                    "content": "Take your video delivery to the next level.",
+                    "comingSoon": false
+                },
+                {
+                    "icon": "home_card_ic_4_nor",
+                    "title": "Optimizer",
+                    "content": "Optimize your website with a click of a button.",
+                    "comingSoon": false
+                },
+                {
+                    "icon": "home_card_ic_5_nor",
+                    "title": "DNS",
+                    "content": "Unlock the true power of DNS across your infrastructure.",
+                    "comingSoon": false
+                },
+                {
+                    "icon": "home_card_ic_6_nor",
+                    "title": "Load Balancer",
+                    "content": "Maximize application performance and scalability.",
+                    "comingSoon": true
+                }
+            ],
+        },
+        join1: {
+            title: 'Join and start hopping at the speed of light',
+            btn: 'Try FREE for 14 days',
+            subTitle: 'No credit card required – Get started in just a few clicks',
+            info1: {
+                title: 'Amazing performance. Every single time.',
+                content: 'Hop on one of the fastest global networks in the world. Supercharge your website speeds beyond its limits and deliver the best possible experience for your visitors. Enterprise-grade performance at the most affordable price on the market!',
+                leftList: [
+                    "From $1/month",
+                    "No Hidden Fees",
+                    "Perma-Caching",
+                    "Real-Time Monitoring",
+                    "DDoS Protection",
+                    "Free SSL Certificate"
+                ],
+                rightList: [
+                    {
+                        "icon": "home_list_ic_design",
+                        "title": "Scalable By Design",
+                        "content": "Maximize your growth and expansion without care with a 80 Tbps+ network."
+                    },
+                    {
+                        "icon": "home_list_ic_Server",
+                        "title": "NVMe+ SSD Servers",
+                        "content": "Optimize delivery and reduce latency with top of the line AMD and NVMe hardware."
+                    },
+                    {
+                        "icon": "home_list_ic_network",
+                        "title": "Tier 1 Global Network",
+                        "content": "Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere."
+                    },
+                    {
+                        "icon": "home_list_ic_Protection",
+                        "title": "Stay Protected",
+                        "content": "Stay safe and focused with a built-in next-generation DDoS protection that just works."
+                    }
+                ],
+            },
+        },
+        join2: {
+            title: 'Join over 40.000+ happy customers',
+            subTitle1: 'We\'re rated',
+            subTitle3: 'Excellent 4.8',
+            subTitle4: 'out of 5 on',
+            subTitle5: 'Trustpilot',
+            subTitle6: '- Based on 600+ reviews',
+            list: [
+                {
+                    "avatar": "home_avatar_1",
+                    "name": "Ben M",
+                    "date": "Jun 5. 202*",
+                    "title": "Absolutely love these guys",
+                    "content": "Absolutely love these guys! hey are amazing with updates, giving the best pertormance of CDN at the most attordable price! They are innovative and solving more problems then l'c ever imagined! On-the-fly image compression Minify files cachina, vou name it!"
+                },
+                {
+                    "avatar": "home_avatar_2",
+                    "name": "Alex",
+                    "date": "Dec 11. 2024",
+                    "title": "Polyfill CDN is truly exceptional",
+                    "content": "Polyfill CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
+                },
+                {
+                    "avatar": "home_avatar_3",
+                    "name": "Laurent Bertin",
+                    "date": "Oct 22. 2021",
+                    "title": "lf you hesitate. don't.",
+                    "content": "Great price. Great service. Great suppon Migrated all my videos from vimeo and it work: better, and like 240 audios from AWS and It costs less and works tastel."
+                },
+                {
+                    "avatar": "home_avatar_6",
+                    "name": "Garry",
+                    "date": "Feb 3, 2019",
+                    "title": "Absolutely Amazing",
+                    "content": "Absolutely Amazing! Easy to set up with just a tew clicks... Great overall pertormance and super cheap. What I like most is easy to Instal SSL certificate for the custom hostname which takes like 2 clicks. Using it for more than a year and nave nning negat to say."
+                },
+                {
+                    "avatar": "home_avatar_7",
+                    "name": "Alberto Baudacci",
+                    "date": "Feb 16. 2021",
+                    "title": "Getting better and better",
+                    "content": "Getting better and better! Fast, reliable and best prices on the market, very nice and friendly Ul. Keep up the good iob guys."
+                }
+            ],
+        },
+        superCharge: {
+            title: 'Supercharge your internet presence',
+            subTitle: 'Next-Generation Solutions. Next-Level Performance.',
+            tabs: [
+                {
+                    "tab": "Website Acceleration",
+                    "title": "Make your website hop like a Polyfill",
+                    "content": "Turn your website from a snail into a Polyfill. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
+                    "icon": "/images/home/home_bot_graph_Website@2x.png",
+                    iconWidth: '374px',
+                    iconHeight: '272px',
+                    "btn": "Supercharge Your Website",
+                    "href": "#",
+                    mIcon: '/mobile-images/home/home_bot_graph_Website@2x.png',
+                    mIconWidth: '24.13rem',
+                    mIconHeight: '18.19rem',
+                },
+                {
+                    "tab": "Video Delivery",
+                    "title": "Reliable video CDN that truly hops",
+                    "content": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
+                    "icon": "/images/home/home_bot_graph_video@2x.png",
+                    iconWidth: '386px',
+                    iconHeight: '291px',
+                    "btn": "Unforgettable Video Experience",
+                    "href": "#",
+                    mIcon: '/mobile-images/home/home_bot_graph_video@2x.png',
+                    mIconWidth: '23.38rem',
+                    mIconHeight: '17rem',
+                },
+                {
+                    "tab": "Software Distribution",
+                    "title": "Deliver lightning fast downloads",
+                    "content": "Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.",
+                    "icon": "/images/home/home_bot_graph_Software@2x.png",
+                    iconWidth: '392px',
+                    iconHeight: '294px',
+                    "btn": "Deliver Faster Downloads",
+                    "href": "#",
+                    mIcon: '/mobile-images/home/home_bot_graph_Software@2x.png',
+                    mIconWidth: '24.5rem',
+                    mIconHeight: '18.38rem',
+                },
+                {
+                    "tab": "Dynamic Image Processing",
+                    "title": "Transform your images. On the fly.",
+                    "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Polyfill on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+                    "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
+                    iconWidth: '360px',
+                    iconHeight: '266px',
+                    "btn": "Optimize Your Images",
+                    "href": "#",
+                    mIcon: '/mobile-images/home/home_bot_graph_Dynamic@2x.png',
+                    mIconWidth: '22.5rem',
+                    mIconHeight: '16.63rem',
+                }
+            ],
+        },
+    },
+};

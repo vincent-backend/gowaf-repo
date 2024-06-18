@@ -9,7 +9,7 @@
         :key="index"
         :class="currentSlide === index ? 'active' : ''"
       >
-        <div class="img1"><img :src="item.icon" alt="" /></div>
+        <div class="img1" :style="{width:`${item.width}`, height:`${item.height}`}"><img :src="item.icon" alt="" :style="{width:`${item.width}`, height:`${item.height}`}" /></div>
         <div>
           <h3>{{ item.title }}</h3>
           <p>{{ item.content }}</p>
@@ -110,7 +110,7 @@ const showSlide = (index: number) => {
           padding-bottom: 20px;
           padding-left: 130px;
           padding-top: 70px;
-          padding-right: 100px;
+          white-space: pre-wrap;
         }
         p{
           font-weight: 400;
@@ -130,9 +130,10 @@ const showSlide = (index: number) => {
       .img1 {
         width: 334px;
         height: 334px;
+        margin-top: 30px;
         img{
-          width: 334px;
-          height: 334px;
+          width: 100%;
+          height: 100%;
           display: block;
         }
       }

@@ -1,12 +1,11 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.storage.breadCrumbs.parent')" :items="[
-    { label: $t('products.storage.breadCrumbs.overview'), href: '#', current: true },
-    { label: $t('products.storage.breadCrumbs.player'), href: '#', current: false },
-    { label: $t('products.storage.breadCrumbs.mediaCage'), href: '#', current: false },
-    { label: $t('products.storage.breadCrumbs.multiDRM'), href: '#', current: false },
-    { label: $t('products.storage.breadCrumbs.transcribeAI'), href: '#', current: false },
-    { label: $t('products.storage.breadCrumbs.apiDocs'), href: '#', current: false },
+  <BreadCrumbs :title="$t('resources.breadCrumbs.parent')" :items="[
+    { label: $t('resources.breadCrumbs.about'), href: '/resources/about', current: false },
+    { label: $t('resources.breadCrumbs.story'), href: '/resources/story', current: true },
+    { label: $t('resources.breadCrumbs.careers'), href: '/resources/careers', current: false },
+    { label: $t('resources.breadCrumbs.caseStudies'), href: '/resources/caseStudies', current: false },
+    { label: $t('resources.breadCrumbs.contact'), href: '/resources/contact', current: false },
   ]" />
   <CommonHeader1 :pre-title="$t('resources.story.header.preTitle')"
     :title="$t('resources.story.header.title')" :content="$t('resources.story.header.content')"

@@ -1,4 +1,13 @@
 <script lang="ts" setup>
+withDefaults(defineProps<{
+  isHidenTile?: boolean;
+  bgColor?: string;
+  btText?: string;
+  list: {
+    
+  };
+}>(), {
+});
 const imgs = obeyDevice([
   '/images/home/home_logo_1@2x.png',
   '/images/home/home_logo_2@2x.png',
@@ -37,24 +46,40 @@ const imgs = obeyDevice([
 </script>
 
 <template>
-  <div class="list1-container">
+  <div class="list1-container" :style="{background:`${bgColor}`}">
     <div class="page-container list1">
-      <div class="title">
+      <div class="title" v-if="!isHidenTile">
         {{ $t('home.list1.title') }}
       </div>
-      <div class="list">
+      <div class="list" v-if="!list">
         <div class="item" v-for="img in imgs">
           <img :src="img" />
         </div>
       </div>
+      <div class="list" style="margin-top:-20px" v-else>
+        <div class="item" v-for="img in list">
+          <img :src="img" />
+        </div>
+      </div>
     </div>
+    <p>{{ btText }}</p>
   </div>
 </template>
 
 <style lang="less" scoped>
 .list1-container {
   padding-top: 60px;
-
+  p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #4E4E4E;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
   .list1 {
     >.title {
       font-weight: 500;

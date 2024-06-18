@@ -1,6 +1,12 @@
 <template>
   <Header />
-
+  <BreadCrumbs :title="$t('resources.breadCrumbs.parent')" :items="[
+      { label: $t('resources.breadCrumbs.about'), href: '/resources/about', current: true },
+      { label: $t('resources.breadCrumbs.story'), href: '/resources/story', current: false },
+      { label: $t('resources.breadCrumbs.careers'), href: '/resources/careers', current: false },
+      { label: $t('resources.breadCrumbs.caseStudies'), href: '/resources/caseStudies', current: false },
+      { label: $t('resources.breadCrumbs.contact'), href: '/resources/contact', current: false },
+    ]" />
   <CommonHeader1 :pre-title="$t('resources.about.header.preTitle')"
     :title="$t('resources.about.header.title')"
     :content="$t('resources.about.header.content')"

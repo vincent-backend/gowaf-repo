@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 defineProps<{
+  numbersTitle: string;
   items: {
     label: string;
+    label2: string;
     content: string;
   }[];
   type?: string;
@@ -9,18 +11,41 @@ defineProps<{
 </script>
 
 <template>
-  <div class="numbers page-container" :class="{ aboutType: type ? true: false }">
-    <div v-for="item, index in items" :class="['number', 'n-' + index]">
-      <div class="number-title">{{ item.label }}</div>
-      <div class="number-content">{{ item.content }}</div>
+  <div>
+    <h3 v-if="numbersTitle">{{ numbersTitle }}</h3>
+    <div class="numbers page-container" 
+      :class="{ aboutType: type ? true: false }">
+      <div v-for="(item, index) in items" :key="index"
+        :class="['number', 'n-' + index]" 
+        :style="items.length === 3 
+          ? {left: (index * 40) + '%'} 
+          : (items.length === 2) ? {left: (index * 50) + '%'} : ''">
+        <div class="number-title">
+          <h5>{{ item.label }}</h5>
+          <span v-if="item.label2">{{ item.label2 }}</span>
+        </div>
+        <div class="number-content">{{ item.content }}</div>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="less" scoped>
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none; 
+    margin: 60px auto 20px;
+    width: 1200px;
+}
 .numbers {
   height: 128px;
   position: relative;
+  
   .n-0, .n-2 {
     &::before{
       content: '';
@@ -47,13 +72,28 @@ defineProps<{
     position: absolute;
     height: 128px;
     .number-title {
-      font-family: Mont, Mont;
-      font-weight: 600;
-      font-size: 48px;
-      line-height: 64px;
-      background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      position: relative;
+      h5{
+        font-family: Mont, Mont;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      span{
+        font-weight: 600;
+        font-size: 20px;
+        color: #46CF3A;
+        line-height: 26px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        padding-left: 10px;
+      }
     }
 
     .number-content {

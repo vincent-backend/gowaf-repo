@@ -1,0 +1,953 @@
+export default {
+    solutions: {
+        videoDelivery: {
+            header: {
+                preTitle: 'Video Delivery CDN',
+                title: 'Reliable video CDN that truly hops',
+                content: 'Supercharge your video playback and high-quality VOD streaming through our global 150 Tbps+ network. Deliver the best video experience with no buffering and the lowest latency.',
+                btn: 'Try free for 14 days',
+                hint: 'No credit card needed. Start in seconds.',
+            },
+            Calculate: {
+                list: [
+                    { title: 'Upload video size', value: '300GB', percent: 45 },
+                    { title: 'Monthly Traffic', value: '50GB', percent: 15 }
+                ],
+                subs: [
+                    {
+                        title: 'Standard Tier',
+                        value: '$4.5/month',
+                    },
+                    {
+                        title: 'Volume Tier',
+                        value: '$3.25/month',
+                    }
+                ],
+                ReplicationPoints: {
+                    title: 'Replication points',
+                    label: 'Price',
+                    value: '$0.01',
+                    unit: '/ Gigabyte',
+                    icon: '/images/products/stream/overview/common_price_right_wihte_ic2x.png',
+                    list: [
+                        { label: 'One', status: 1 },
+                        { label: 'Two', status: 0 },
+                        { label: 'Three', status: 0 },
+                        { label: 'Four', status: 0 },
+                        { label: 'Five', status: 0 },
+                        { label: 'Six', status: 0 },
+                        { label: 'Six', status: 0 },
+                        { label: 'Eight', status: 0 },
+                    ],
+                }
+            },
+            numbers: [
+                {
+                    label: '1.000.000+',
+                    content: 'Powered Websites',
+                },
+                {
+                    label: 'Up to 5x',
+                    content: 'Faster Load Times',
+                },
+                {
+                    label: '123',
+                    content: 'Global PoPs',
+                },
+                {
+                    label: '$1/month',
+                    content: 'As low as',
+                },
+            ],
+            superCharge: {
+                title: 'Fast network meets unbeatable pricing',
+                subTitle: 'With 123 PoPs worldwide and an 150 Tbps+ network backbone, Polyfill guarantees smooth video playback no matter where your users are.',
+                tabs: [
+                    {
+                        tab: 'Extreme Performance',
+                        title: 'No more buffering. Ever again.',
+                        content: 'Enjoy smooth playback thanks to one of the fastest global networks backed by NVMe-based hardware and a smart routing engine. Deliver the best video experience by bringing the content just a hop away from your visitors.',
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png',
+                        iconWidth: '334px',
+                        iconHeight: '276px',
+                        btn: '',
+                        href: '#',
+                        mIcon: '/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png',
+                        mIconWidth: '20.88rem',
+                        mIconHeight: '17.25rem',
+                    },
+                    {
+                        tab: 'Distruptive Pricing',
+                        title: 'Save up to 80% on your content delivery billing',
+                        content: 'Don’t overpay for your Content Delivery ever again. At Polyfill, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!',
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png',
+                        iconWidth: '274px',
+                        iconHeight: '268px',
+                        btn: '',
+                        href: '#',
+                        mIcon: '/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png',
+                        mIconWidth: '17.13rem',
+                        mIconHeight: '16.75rem',
+                    },
+                    {
+                        tab: 'Perma-Cache',
+                        title: 'Transform once. Cache and accelerate forever.',
+                        content: 'Permanently store videos on the CDN with Perma-Cache to reduce origin egress fees and keep your infrastructure hopping faster. Increase performance and reliability by automatically distributing content worldwide for lightning-fast access times.',
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png',
+                        iconWidth: '316px',
+                        iconHeight: '246px',
+                        btn: '',
+                        href: '#',
+                        mIcon: '/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png',
+                        mIconWidth: '19.75rem',
+                        mIconHeight: '15.38rem',
+                    },
+                    {
+                        tab: 'Media Protection',
+                        title: 'Enterprise video protection. At no extra charge.',
+                        content: 'Enjoy enterprise-grade DRM security without the massive costs or technical hurdles. Protect your video content from piracy, stop downloads, screenshots, and prevent hotlinking with a single click of a button with Media Cage.',
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png',
+                        iconWidth: '300px',
+                        iconHeight: '243px',
+                        btn: '',
+                        href: '#',
+                        mIcon: '/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png',
+                        mIconWidth: '18.75rem',
+                        mIconHeight: '15.19rem',
+                    },
+                ],
+            },
+            ad1: {
+                title: 'Deliver video without buffering!',
+                subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+                btn: 'Start 14-Day FREE Trial',
+            },
+            list2: {
+                title1: 'Packed with powerful features',
+                title2: 'Take advantage of powerful features specifically tailored to video delivery. Secure your streams using hotlinking protection and token authentication.',
+                items: [
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png',
+                        title: 'Origin Shield',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png',
+                        title: 'Raw Logging',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_3.png',
+                        title: 'Edge Storage',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_4.png',
+                        title: 'Real Time Statistics',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_5.png',
+                        title: 'Hotlinking Protection',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_6.png',
+                        title: 'Token Authentication',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_7.png',
+                        title: 'Media Optimized Caching',
+                    },
+                    {
+                        icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_8.png',
+                        title: 'Fully Customizable Player',
+                    },
+                ],
+            },
+            map: {
+                title: 'Bring video delivery to the next level',
+                subTitle: 'The Polyfill network was explicitly designed for efficient video delivery. With strategically selected PoPs around the world, we assure a great price/performance ratio and an incredibly high cache hit rate.',
+            },
+            numbers2: [
+                {
+                    label: '123',
+                    content: 'Edge Locations',
+                },
+                {
+                    label: '650.000+',
+                    content: 'Requests Per Second',
+                },
+                {
+                    label: '150 Tbps+',
+                    content: 'Network Capacity',
+                },
+                {
+                    label: '24 ms',
+                    content: 'Avg. Global Latency',
+                },
+            ],
+            features: [
+                {
+                    icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Replicated.png',
+                    title: 'Replicated Cloud Storage',
+                    content: 'Replicate your media library around the world with our Geo-Replicated cloud storage for never before seen performance.',
+                },
+                {
+                    icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Redundant.png',
+                    title: 'Redundant Infrastructure',
+                    content: 'Without a single point of failure, Polyfill provides enterprise-level reliability, making sure you always stay online.',
+                },
+                {
+                    icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_NVMe.png',
+                    title: 'NVMe + SSD Powered Servers',
+                    content: 'Our servers are powered by NVMe and SSD technology to ensure millisecond latencies when delivering your media files.',
+                },
+            ],
+            supportPlan: {
+                title: 'Simple, clean and customizable player',
+                subTitle: 'Take advantage of fully customizable bunny.net media player.',
+                main: {
+                    title: 'Make it your own',
+                    subTitle: 'Maximize branding power by customizing every aspect of your player down to the CDN hostname.',
+                    list: [
+                        {
+                            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Color.png',
+                            title: 'Choose your Color',
+                            content: 'Customize the video player color scheme to match the design of your website perfectly.',
+                        },
+                        {
+                            icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Controls.png',
+                            title: 'Customize your Controls',
+                            content: 'Add or remove player controls to make it a perfect fit for your users’ experience.',
+                        },
+                    ],
+                    btn: 'Polyfill Media Player',
+                },
+            },
+            join1: {
+                title: 'Trusted by 40.000+ global customers',
+                person: {
+                    name: 'Matthias Mauch',
+                    title: 'Younity',
+                    content: '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."',
+                },
+            },
+        },
+        storageGame: {
+            header: {
+                preTitle: 'Gaming CDN',
+                title: 'Level up your gaming experience',
+                content: 'Help players hop into your game faster. Level up your updates without worrying about scalability. Prevent DDoS attacks to keep gamers happy and engaged without breaking the bank.',
+                btn: 'Try free for 14 days',
+                hint: 'No credit card needed. Start in seconds.',
+            },
+            numbers: [
+                {
+                    label: '80%',
+                    content: 'Lower Costs',
+                },
+                {
+                    label: '24 ms',
+                    content: 'Avg. Global Latency',
+                },
+                {
+                    label: 'Up to 5x',
+                    content: 'Faster Download Times',
+                },
+                {
+                    label: '150 Tbps+',
+                    content: 'Network Backbone',
+                },
+            ],
+            accelerate: {
+                title: 'Accelerate gaming on a global scale',
+                content: 'Stop worrying about your infrastructure falling apart during updates. Focus on keeping gamers engaged while we make sure you stay online. Deliver the best gaming experience in the universe.',
+                list1: [
+                    'Better Download Speeds',
+                    'Lower Costs',
+                    '24/7 Customer Support',
+                    'DDoS Protection',
+                    'Real-Time Monitoring',
+                    'Customized Pricing',
+                ],
+                list2: [
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_1_nor@2x.png',
+                        iconActive: '/images/solutions/storage-game/Solutions_Storage_game_ic_1_sel@2x.png',
+                        title: 'Unlimited Scalability',
+                        content: 'Turn your game into a global success. Reach your players worldwide with 123 global PoPs.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_2_nor@2x.png',
+                        iconActive: '/images/solutions/storage-game/Solutions_Storage_game_ic_2_sel@2x.png',
+                        title: 'Faster Downloads',
+                        content: 'Level up your download speeds, up to 5x without any strain on your network!',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_3_nor@2x.png',
+                        iconActive: '/images/solutions/storage-game/Solutions_Storage_game_ic_3_sel@2x.png',
+                        title: 'DDoS Protection',
+                        content: 'Stay protected from DDoS Attacks at all times. Run your game uninterrupted 24/7!',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_4_nor@2x.png',
+                        iconActive: '/images/solutions/storage-game/Solutions_Storage_game_ic_4_sel@2x.png',
+                        title: 'Reduce Costs',
+                        content: 'Eliminate enormous costs for high volume downloads with flexible pay-as-you-go pricing.',
+                    },
+                ],
+            },
+            goFaster: {
+                title: 'Best gaming experience. Every time.',
+                subTitle: 'Take advantage of the next-generation content delivery network for all of your gaming needs.',
+                tabs: [
+                    {
+                        tab: 'Mobile Games',
+                        title: 'Join the new era of mobile gaming',
+                        content: 'Deliver in-game content and updates smoothly to your global audience. Take advantage of our 123 global PoPs and maximize download speeds anywhere in the world up to 5x times.\nStand out from the competition with the fastest delivery of patches as well as pre and post-game updates!',
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png',
+                        iconWidth: '330px',
+                        iconHeight: '280px',
+                        mIcon: '/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png',
+                        mIconWidth: '20.63rem',
+                        mIconHeight: '17.5rem'
+                    },
+                    {
+                        tab: 'VR Gaming',
+                        title: 'Make your Virtual Reality experience flawless',
+                        content: 'Keep your players engaged with seamless VR sessions. Deliver content faster - don’t disappoint with slow loading and unnecessary lag. Take advantage of a next-gen CDN system designed to keep gamers gaming.\nWith a sub 24 ms global latency, your virtual world will load faster than the real one.',
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png',
+                        iconWidth: '338px',
+                        iconHeight: '314px',
+                        mIcon: '/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png',
+                        mIconWidth: '20.63rem',
+                        mIconHeight: '17.5rem'
+                    },
+                    {
+                        tab: 'Browser-Based Games',
+                        title: 'Faster load times for a better gaming experience',
+                        content: 'Keep players coming back. Accelerate your gaming assets and eliminate unnecessary loading times. Prevent DDoS attacks, stop bots and make sure your games stay online at all times.\nLower costs with a high volume tier and deliver dynamic ads without compromising the gaming experience.',
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png',
+                        iconWidth: '324px',
+                        iconHeight: '246px',
+                        mIcon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png',
+                        mIconWidth: '20.63rem',
+                        mIconHeight: '17.5rem'
+                    },
+                    {
+                        tab: 'Download Delivery',
+                        title: 'Help gamers hop into your game faster',
+                        content: 'Keep scalability issues in the past, traffic spikes in check, and never leave anything to chance again. Deliver downloads and updates faster than your competition while keeping your costs at bay. \nTake advantage of Pay As You Go pricing & a global 150 Tbps+ network to ensure gamers keep coming back.',
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png',
+                        iconWidth: '288px',
+                        iconHeight: '282px',
+                        mIcon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png',
+                        mIconWidth: '20.63rem',
+                        mIconHeight: '17.5rem'
+                    },
+                ],
+            },
+            ad1: {
+                title: 'Delivery Next-Gen Gaming Experience',
+                subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+                btn: 'Start 14-Day FREE Trial',
+            },
+            list1: {
+                title1: 'Hop ahead of the technology curve',
+                title2: 'Leverage powerful features. At no additional cost.',
+                items: [
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_1@3x.png',
+                        title: 'Powerful Security',
+                        content: 'Stay protected from any and all attacks with state-of-the-art DDoS mitigation security.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_2@3x.png',
+                        title: 'Faster Downloads',
+                        content: 'Say goodbye to slowdowns with a network designed for maximum throughput.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_3@3x.png',
+                        title: 'SSL/TLS Encryption',
+                        content: 'Take advantage of a free SSL certificate with a single click of a button.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_4@3x.png',
+                        title: 'Minimize Latency',
+                        content: 'Keep your global latency at bay and deliver your content to everyone within sub 24 ms.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_5@3x.png',
+                        title: 'Origin Protection',
+                        content: 'Leverage a multi-layer caching system, and don’t let traffic spikes affect your infrastructure.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_6@3x.png',
+                        title: 'Real-Time Statistics',
+                        content: 'Get complete insight into your games with real-time traffic statistics and logging.',
+                    },
+                ],
+            },
+            join1: {
+                title: '40.000+ customers already trust us',
+                person: {
+                    name: 'Tom Mason',
+                    title: 'Nexus Mods',
+                    content: '“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”',
+                },
+            },
+        },
+        storageSoftware: {
+            header: {
+                preTitle: 'Software Distribution',
+                title: 'Deliver lightning fast downloads',
+                content: 'Supercharge your software downloads with one of the fastest global networks: experience high-throughput and always reliable downloads worldwide.',
+                btn: 'Start 14-Day FREE Trial',
+                hint: 'No credit card needed. Start in seconds.',
+            },
+            numbers: [
+                {
+                    label: '40 Gbps',
+                    content: 'Uplink Per Server',
+                },
+                {
+                    label: '123',
+                    content: 'Global PoPs',
+                },
+                {
+                    label: '150 Tbps+',
+                    content: 'Network Backbone',
+                },
+                {
+                    label: '99.99%',
+                    content: 'Availability SLA',
+                },
+            ],
+            accelerate: {
+                title: 'Never worry about traffic peaks again',
+                content: 'Bring your content closer to your users anywhere in the world. Minimize latency and maximize your performance with the Polyfill global network. Take advantage of fully customized pricing and only pay for the bandwidth you actually use!',
+                upDown: {
+                    up: {
+                        value: '40%',
+                        title: 'FASTER LOAD TIME',
+                    },
+                    down: {
+                        value: '30%',
+                        title: 'LOWER BILLING',
+                    },
+                },
+                btn: 'Explore Polyfill CDN',
+                list2: [
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_1_nor@2x.png',
+                        iconActive: '/images/solutions/storage-software/Solutions_Storage_Software_ic_1_sel@2x.png',
+                        title: 'Scalable By Design',
+                        content: 'Maximize your growth and expansion without care with a 80+ Tbps network.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_2_nor@2x.png',
+                        iconActive: '/images/solutions/storage-software/Solutions_Storage_Software_ic_2_sel@2x.png',
+                        title: 'Tier 1 Global Network',
+                        content: 'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_3_nor@2x.png',
+                        iconActive: '/images/solutions/storage-software/Solutions_Storage_Software_ic_3_sel@2x.png',
+                        title: 'NVMe+ SSD Servers',
+                        content: 'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_4_nor@2x.png',
+                        iconActive: '/images/solutions/storage-software/Solutions_Storage_Software_ic_4_sel@2x.png',
+                        title: 'Stay Protected',
+                        content: 'Stay safe and focused with a built-in next-generation DDoS protection that just works.',
+                    },
+                ],
+            },
+            ad2: {
+                title: 'Fastest storage for fastest downloads',
+                content: 'Fast downloads need fast storage. Forget slow cold starts by keeping your files ready around the world. Polyfill Edge Storage delivers up to 5X faster performance compared to traditional object storage and helps your users get your files faster.',
+                list: [
+                    '5X Faster Downloads',
+                    'Automatic Geo-Failover',
+                    '8 Storage Regions',
+                    '99.99% SLA',
+                ],
+                btn: 'Explore Polyfill Storage',
+            },
+            map: {
+                title: 'Global network. For a global audience.',
+                subTitle: 'Never keep your users waiting again. Deliver updates in real-time and minimize downtime. Hop on one of the fastest global networks powered by 123 PoPs.',
+            },
+            ad1: {
+                title: 'Speed up your software distribution!',
+                subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+                btn: 'Start 14-Day FREE Trial',
+            },
+            list1: {
+                title1: 'Lightning fast. Features packed.',
+                title2: 'Raise the bar with robust security, reporting, and management feature.',
+                items: [
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_1@3x.png',
+                        title: 'Token Authentication',
+                        content: 'Take full control of who and for how long they can access your content.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_2@3x.png',
+                        title: 'Origin Protection',
+                        content: 'Protect your origin from attacks and traffic surges with the bunny.net origin shield.',
+                    },
+                    {
+                        icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3@3x.png',
+                        title: 'Logging & Statistics',
+                        content: 'Get complete insight into your content delivery with valuable insights and customer metrics.',
+                    },
+                ],
+            },
+            supportPlan: {
+                title: 'A support team that cares',
+                subTitle: 'Forget support levels and get connected directly with an expert. Every single time.',
+                main: {
+                    title: 'Trustworthy around the clock support',
+                    subTitle: 'No more waiting around for the support you need right now. We are here for you 24 hours a day, 7 days a week, 365 days a year. With an average 1st time response time under 5 minutes and average solve time under 3 hours, you are definitely in good hands (paws) with us!',
+                    responseTime: '5min',
+                    responseTimeTitle: 'FIRST RESPONSE TIME',
+                    solveTime: '3hrs',
+                    solveTimeTitle: 'AVERAGE SOLVE TIME',
+                    btn: 'Meet Our Super Polyfill',
+                },
+            },
+            join1: {
+                title: 'Join over 40.000+ happy customers',
+                person: {
+                    name: 'Tom Mason',
+                    title: 'Nexus Mods',
+                    content: '“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”',
+                },
+            },
+        },
+        websiteAcceleration: {
+            header: {
+                preTitle: 'Website Acceleration',
+                title: 'Make your website hop like a Polyfill',
+                content: 'Turn your website from a snail into a Polyfill. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website beyond the limits!',
+                btn: 'Start 14-Day FREE Trial',
+                hint: 'No credit card needed. Start in seconds.',
+            },
+            numbers: [
+                {
+                    label: '1.000.000+',
+                    content: 'Powered Websites',
+                },
+                {
+                    label: 'Up to 5x',
+                    content: 'Faster Load Times',
+                },
+                {
+                    label: '123',
+                    content: 'Global PoPs',
+                },
+                {
+                    label: '40.000+',
+                    content: 'Satisfied Customers',
+                },
+            ],
+            closerToUser: {
+                title: 'Bring your content closer to your users',
+                subTitle: 'A shorter distance makes your website load faster. With our global network, your customers are always just a hop away.',
+                items: [
+                    {
+                        header: 'Without CDN',
+                        icon1: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time@2x.png',
+                        number: '2.5',
+                        unit: 'seconds',
+                        label: 'Website Load Time',
+                        icon2: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_left@2x.png',
+                        content: 'Connecting your visitors directly to your server from worldwide is not a good thing. It increases the latency, slows down your website speed, and delivers a far worse user experience!',
+                    },
+                    {
+                        header: 'With Polyfill CDN',
+                        icon1: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time2@2x.png',
+                        number: '0.7',
+                        unit: 'seconds',
+                        label: 'Website Load Time',
+                        icon2: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_right@2x.png',
+                        content: 'By bringing your content closer to your visitors you will minimize latency, maximize performance and reduce your bounce rate. With Bunny CDN, your website will hop as fast as a Polyfill!',
+                    },
+                ],
+            },
+            accelerate: {
+                title: 'Amazing performance. Every time.',
+                content: 'Hop on one of the fastest global networks in the world. Supercharge your website speeds to the maximum and deliver the best possible experience for your visitors. Take advantage of enterprise-grade performance at the most affordable price on the market!',
+                list1: [
+                    'From $1/month',
+                    'Real-Time Monitoring',
+                    'No Hidden Fees',
+                    'DDoS Protection',
+                    'Perma-Caching',
+                    'Free SSL Certificate',
+                ],
+                list2: [
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_nor@2x.png',
+                        iconActive: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_sel@2x.png',
+                        title: 'Boost Performance',
+                        content: 'Keep your content on the edge, get closer to your users and hop ahead of the competition.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_nor@2x.png',
+                        iconActive: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_sel@2x.png',
+                        title: 'Win User Experience',
+                        content: 'Delight your visitors with an unforgettable user experience thanks to faster website load times.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_nor@2x.png',
+                        iconActive: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_sel@2x.png',
+                        title: 'Reduce Costs',
+                        content: 'Eliminate enormous costs for high volume downloads with a simple pay-as-you-go pricing.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_nor@2x.png',
+                        iconActive: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_sel@2x.png',
+                        title: 'Stay Protected',
+                        content: 'Stay safe and focused with a built-in next-generation DDoS protection that just works.',
+                    },
+                ],
+            },
+            ad1: {
+                title: 'Hop on next-gen web acceleration!',
+                subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+                btn: 'Start 14-Day FREE Trial',
+            },
+            logos: {
+                title: 'Simple, fast, and easy integration with the majority of popular CMS systems',
+                subTitle: 'Integrate with the most popular CMS systems in just a few clicks. Get started in under 5 minutes.',
+                btn: 'Step By Step Integration Guides',
+            },
+            list1: {
+                title1: 'Not just faster but also safer',
+                title2: 'Improve security, protect your content, and stop vulnerabilities.',
+                items: [
+                    {
+                        icon: '/images/solutions/website-acceleration/cdn_overview_bulid_ic_1@3x.png',
+                        title: 'Free SSL',
+                        content: 'Take advantage of a free SSL certificate with a single button click.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_2@3x.png',
+                        title: '123 Global PoPs',
+                        content: 'Supercharge your website delivery with strategically placed global PoPs.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_3@3x.png',
+                        title: 'Tier 1 Network',
+                        content: 'Join a network powered by carefully selected providers with top-tier data centers.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_4@3x.png',
+                        title: 'Hotlinking Protection',
+                        content: 'Easily protect your images from being shared on other websites with domain protection.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_5@3x.png',
+                        title: 'Smart Routing',
+                        content: 'Route your users where it matters based on your content with the SmartEdge™ routing engine.',
+                    },
+                    {
+                        icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png',
+                        title: 'Polyfill Optimizer',
+                        content: 'Optimize your images and minify your CSS/JS files for maximum performance.',
+                    },
+                ],
+            },
+            ad2_1: {
+                title: 'Decrease bounce rate. Improve conversion.',
+                content: 'Did you know that 40% of users abandon a page if it doesn’t load within 3 seconds? Speed up your website to decrease your bounce rate, increase conversions and maximize your profits!',
+                list: [
+                    'Decrease Bounce Rate',
+                    'Improve SEO',
+                    'Increase Conversions',
+                    'Improve User Experience',
+                ],
+            },
+            ad2_2: {
+                title: 'Reduce image size up to 80% with Polyfill Optimizer',
+                content: 'Push your website performance to the speed of light with Polyfill Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Polyfill Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest！',
+                list: [
+                    'Decrease Bounce Rate',
+                    'Improve SEO',
+                    'Increase Conversions',
+                    'Improve User Experience',
+                ],
+                btn: 'Learn More About Polyfill Optimizer',
+            },
+            join1: {
+                title: 'Join over 40.000+ happy customers',
+                person: {
+                    name: 'Jerry Caloroso',
+                    title: 'Chief Streaming Officer, OneStudio',
+                    content: '"Finding Polyfill CDN is like finding a gold mine! It\'s like is this real? "',
+                },
+            },
+        },
+        websiteWordpress: {
+            header: {
+                preTitle: 'WordPress CDN',
+                title: 'Supercharge your WordPress website',
+                content: 'Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!',
+                btn: 'Start 14-Day FREE Trial',
+                hint: 'No credit card needed. Start in seconds.',
+            },
+            numbers: [
+                {
+                    label: '1.000.000+',
+                    content: 'Powered Websites',
+                },
+                {
+                    label: 'Up to 5x',
+                    content: 'Faster Load Times',
+                },
+                {
+                    label: '123',
+                    content: 'Global PoPs',
+                },
+                {
+                    label: '$1/month',
+                    content: 'As low as',
+                },
+            ],
+            closerToUser: {
+                title: 'Shorten distance. Improve website load time',
+                subTitle: 'Speed up your website by up to 80% with our global network by bringing the content closer to your visitors. By integrating Polyfill CDN, you’ll improve your loading speeds, reduce bounce rate, and increase conversions. Everything you need to stand out from the competition is just a few simple clicks away!',
+            },
+            accelerate: {
+                title: 'Experience website performance like never before',
+                content: 'Supercharge your WordPress Website with a simple 1-click plugin installation. Take advantage of next-gen WordPress CDN delivery packed with robust security features and backed by an 150 Tbps+ network. Stay focused on your product, and let us take care of everything else.',
+                list1: [
+                    'Simple Installation',
+                    'DDoS Protection',
+                    'From $1/month',
+                    'No Hidden Fees',
+                    'Up to 5x Faster Website',
+                    '123 Global PoPs',
+                ],
+                list2: [
+                    {
+                        icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_nor@2x.png',
+                        iconActive: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_sel@2x.png',
+                        title: 'Best WordPress CDN on the market',
+                        content: 'Maximize your growth and expansion without care with our 150 Tbps+ network.',
+                    },
+                    {
+                        icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_nor@2x.png',
+                        iconActive: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_sel@2x.png',
+                        title: 'Tier 1 Global Network',
+                        content: 'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.',
+                    },
+                    {
+                        icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_nor@2x.png',
+                        iconActive: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_sel@2x.png',
+                        title: 'NVMe+ SSD Servers',
+                        content: 'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.',
+                    },
+                    {
+                        icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_nor@2x.png',
+                        iconActive: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_sel@2x.png',
+                        title: 'Stay Protected',
+                        content: 'Stay safe and focused with a built-in next-generation DDoS protection that just works.',
+                    },
+                ],
+            },
+            ad2: {
+                title: 'Decrease bounce rate. Improve conversion.',
+                content: 'Did you know that 40% of users abandon a page if it doesn’t load within 3 seconds? Speed up your website to decrease your bounce rate, increase conversions and maximize your profits!',
+                items: [
+                    {
+                        value: '5min',
+                        label: 'SETUP TIME',
+                    },
+                    {
+                        value: '5x',
+                        label: 'FASTER LOAD TIME',
+                    },
+                ],
+                btn: 'WordPress Integration',
+            },
+            ad1: {
+                title: 'Hop on the best WordPress CDN!',
+                subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+                btn: 'Start 14-Day FREE Trial',
+            },
+            title1: 'Not just faster but also safer',
+            title2: 'Improve security, protect your content, and stop vulnerabilities.',
+            list1: {
+                title1: 'Not just faster but also safer',
+                title2: 'Improve security, protect your content, and stop vulnerabilities.',
+                items: [
+                    {
+                        icon: '/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png',
+                        title: 'Free SSL Encryption',
+                        content: 'Utilize free SSL Encryption for all of your Websites and Files hosted on Polyfill network.',
+                    },
+                    {
+                        icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png',
+                        title: 'Image Watermark Protection',
+                        content: 'Protect your images from hotlinking or being shared without credit.',
+                    },
+                    {
+                        icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_3@2x.png',
+                        title: 'Prevent Video Downloading',
+                        content: 'Enable Media Cage to prevent your video from being shared or downloaded.',
+                    },
+                ],
+            },
+            ad2_1: {
+                title: 'Reduce image sizeup to 80%',
+                content: 'Push your website performance to the speed of light with Polyfill Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Polyfill Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest!',
+                list: [
+                    '80% Reduce Image Size',
+                    'Up to 30% Faster',
+                    'WeBP Transformation',
+                    'Minimize Load Time',
+                ],
+                btn: 'Explore  Polyfill Optimizer',
+            },
+            ad2_2: {
+                title: 'Protect your videos from being stolen',
+                content: 'Don’t want your video to be shared or downloaded? Media Cage locks your videos and prevents them from downloading or sharing outside your website. It is the perfect solution for online courses and videos you want to keep strictly on your site.',
+                btn: 'Explore Media Cage',
+            },
+            logos: {
+                title: 'Seamless and easy integration with popular WordPress plugins',
+                subTitle: 'Get the best experience possible by combing Polyfill with popular WordPress Plugins. It takes just a few clicks, and your website will work even faster and bring you better results!',
+                btn: 'Step By Step Integration Guides',
+            },
+            join1: {
+                title: 'Join over 40.000+ global customers',
+                person: {
+                    name: 'James Cantoni',
+                    title: 'Co-Founder, WP Compress',
+                    content: '“We\'re constantly impressed with the performance, ease of use, and outstanding support that Polyfill offers us and our clients!”',
+                },
+            },
+        },
+        securityCdn: {
+            header: {
+                preTitle: 'WordPress CDN',
+                title: 'Supercharge your WordPress website',
+                content: 'Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!',
+                btn: 'Start 14-Day FREE Trial',
+                hint: 'No credit card needed. Start in seconds.',
+            },
+            features2: {
+                title: 'No more downtime. Ever.',
+                subTitle: 'Stop DDoS attacks in their tracks before they even start causing damage.',
+                items: [
+                    {
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_ic_1.png',
+                        title: 'Always-On CDN Protection',
+                        content: 'With automatic, always-on protection, you can put attacks out in less than 10 seconds before they even get fully started.',
+                    },
+                    {
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_ic_2.png',
+                        tip: 'Coming soon',
+                        title: 'Dynamic AI Request Filter',
+                        content: 'Stop even the most sophisticated attacks with an AI-powered smart request filter that automatically adapts to your traffic.',
+                    },
+                    {
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_ic_3.png',
+                        title: 'False Positives Avoidance',
+                        content: 'Minimize false positive detections and stop infuriating your users with a smart false positive avoidance system.',
+                    },
+                ],
+            },
+            goFaster: {
+                title: 'Security everywhere you need it',
+                subTitle: 'Protect against all types of threats with a single platform.',
+                tabs: [
+                    {
+                        tab: 'HTTP Flood Protection',
+                        title: 'Protect against Layer 7 HTTP flood attacks',
+                        titleTip: 'Coming soon',
+                        content: 'Stop malicious bots or DDoS scripts from overloading your server. Polyfill helps you stay safe by automatically detecting and blocking malicious HTTP requests using a continuously learning AI security system. We stop threats seconds before they ever reach your origin.',
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png',
+                        iconWidth: '336px',
+                        iconHeight: '326px',
+                        mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png',
+                        mIconWidth: '20.38rem',
+                        mIconHeight: '20.38rem',
+                    },
+                    {
+                        tab: 'Volumetric Protection',
+                        title: 'Block volumetric network attacks on the edge',
+                        content: 'Ensure uninterrupted content delivery with a massive 150 Tbps+ global network that automatically blocks even the largest volumetric attacks right on the edge before hitting your server. Polyfill helps you keep your server safe and your users engaged. No matter what.',
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png',
+                        iconWidth: '338px',
+                        iconHeight: '266px',
+                        mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png',
+                        mIconWidth: '20.38rem',
+                        mIconHeight: '20.38rem',
+                    },
+                    {
+                        tab: 'Web Application Firewall',
+                        title: 'Protect your applications with Polyfill WAF',
+                        titleTip: 'Coming soon',
+                        content: 'Block malicious requests targeting your applications on the software layer. Polyfill WAF helps you stay safe by blocking common security vulnerabilities and a real-time critical response rule-set maintained by the Polyfill Security team to stay on top of new threats.',
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png',
+                        iconWidth: '350px',
+                        iconHeight: '296px',
+                        mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png',
+                        mIconWidth: '20.38rem',
+                        mIconHeight: '20.38rem',
+                    },
+                    {
+                        tab: 'Request & Network Limits',
+                        title: 'Set request and throughput limits with just a few clicks',
+                        content: 'Protect your online presence and stop bandwidth consumption attacks with simple configurable requests and network limits. You can easily limit the number of connections per IP, requests per second, download speed limits, and the total monthly traffic to stay in full control of your budget.',
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png',
+                        iconWidth: '342px',
+                        iconHeight: '279px',
+                        mIcon: '/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png',
+                        mIconWidth: '20.38rem',
+                        mIconHeight: '20.38rem',
+                    },
+                ],
+            },
+            ad1: {
+                title: 'Stay protected at all time!',
+                subTitle: 'Get started in seconds. No Credit Card Required. Cancel anytime.',
+                btn: 'Start 14-Day FREE Trial',
+            },
+            list1: {
+                title1: 'Securely Deliver Content',
+                title2: 'Use powerful control features to keep full control of the access to your content.',
+                items: [
+                    {
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_1@2x.png',
+                        title: 'Token Authentication',
+                        content: 'Sign requests to control who, where, and for how long they can access your content.',
+                    },
+                    {
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_2@2x.png',
+                        title: 'Hotlinking Protection',
+                        content: 'Stop third-party websites from stealing your content and wasting your bandwidth.',
+                    },
+                    {
+                        icon: '/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_3@2x.png',
+                        title: 'IP & Geo Blocking',
+                        content: 'Restrict content to specific countries or IPs only for full regional control.',
+                    },
+                ],
+            },
+            chart1: {
+                title: 'A network edge that has your back',
+                subTitle: '150 Tbps+ network backbone that withstands any DDoS attack.',
+            },
+            join1: {
+                title: 'Trusted by 40.000+ happy customers',
+                person: {
+                    name: 'Lorenzo Faletra',
+                    title: 'CEO, Parrot Security',
+                    content: '“Polyfill proved to be a very reliable CDN provider headed in Europe with strong privacy standards. We trusted them to take care of a very critical piece of our infrastructure that requires high confidentiality between us and our users.”',
+                },
+            },
+        },
+    },
+};

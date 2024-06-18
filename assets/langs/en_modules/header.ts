@@ -1,0 +1,78 @@
+export default {
+    header: {
+        alert: {
+            text: 'polyfill are going to Broadcast Asia in Singapore! - Let\'s dive into your future success with polyfill',
+            btn: 'Book a Meeting',
+        },
+        menus: {
+            network: 'Network',
+            pricing: 'Pricing',
+            products: 'Products',
+            solutions: 'Solutions',
+            resources: 'Resources',
+        },
+        solutionsMenu: {
+            solutions: {
+                title: 'SOLUTIONS',
+                items: [
+                    {
+                        title: 'By Need',
+                        icon: '/images/home/Solutions_nav_ic_need.png',
+                    },
+                    {
+                        title: 'By Industry',
+                        icon: '/images/home/Solutions_nav_ic_Industry.png',
+                    },
+                ],
+            },
+            byNeed: {
+                title: 'BY NEED',
+                items: [
+                    {
+                        title: 'Video and Streaming',
+                        icon: '/images/home/Solutions_nav_ic_video.png',
+                    },
+                    {
+                        title: 'Storage and Delivery',
+                        icon: '/images/home/Solutions_nav_ic_Storage.png',
+                    },
+                    {
+                        title: 'Website Performance',
+                        icon: '/images/home/Solutions_nav_ic_Website.png',
+                    },
+                    {
+                        title: 'Security and Protection',
+                        icon: '/images/home/Solutions_nav_ic_Security.png',
+                    },
+                ],
+            },
+            videoAndStreaming: {
+                title: 'VIDEO AND STREAMING',
+                items: [
+                    {
+                        title: 'Video Delivery',
+                        subTitle: 'Deliver the best video exoerience.',
+                    },
+                    {
+                        title: 'Media Cage',
+                        subTitle: 'Keep your videos secured and safe.',
+                    },
+                    {
+                        title: 'Enterprise Multi-DRM',
+                        subTitle: 'Hollywood grade video protection.',
+                    },
+                    {
+                        title: 'Transcribe Al',
+                        subTitle: 'Generate captions with a single click',
+                    },
+                ],
+            },
+            footer: {
+                title: 'See how Polyfill helped other companies reach the next leve!.',
+                btn: 'Polyfill case studies',
+            },
+        },
+        login: 'Login',
+        getStarted: 'Get Started',
+    },
+};

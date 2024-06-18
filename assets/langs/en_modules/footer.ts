@@ -1,0 +1,147 @@
+export default {
+    footer: {
+        footer1: {
+            title: 'Start Your 14 Day Free Trial',
+            content: 'Supercharge your Web Applications and Hop ahead of the Competition.',
+            btn: 'Start FREE Trial',
+            hint: 'No credit card required – Complete Registration in under 2 minutes.',
+        },
+        footer2: {
+            hotlinks: [
+                {
+                    "label": "About Us",
+                    "link": "#"
+                },
+                {
+                    "label": "Polyfill Blog",
+                    "link": "#"
+                },
+                {
+                    "label": "Polyfill Careers",
+                    "link": "#"
+                },
+                {
+                    "label": "Case Studies",
+                    "link": "#"
+                },
+                {
+                    "label": "Affiliate Program",
+                    "link": "#"
+                },
+                {
+                    "label": "Polyfill Academy",
+                    "link": "#"
+                }
+            ],
+            shortcuts: [
+                {
+                    "title": "Products",
+                    "items": [
+                        {
+                            "label": "Polyfill CDN",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Polyfill Optimizer",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Polyfill Storage",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Polyfill Stream",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Polyfill DNS",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Polyfill Fonts",
+                            "href": "#"
+                        }
+                    ]
+                },
+                {
+                    "title": "Developers",
+                    "items": [
+                        {
+                            "label": "Network Map",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Polyfill Features",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Network Tools",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Developer Hub",
+                            "href": "#"
+                        },
+                        {
+                            "label": "API Documentation",
+                            "href": "#"
+                        }
+                    ]
+                },
+                {
+                    "title": "Support",
+                    "items": [
+                        {
+                            "label": "SLA",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Support HUB",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Super Bunnies™",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Service Status",
+                            "href": "#"
+                        },
+                        {
+                            "label": "✉hello@bunny.net",
+                            "href": "#"
+                        }
+                    ]
+                }
+            ],
+            links: [
+                {
+                    "label": "Terms Of Service",
+                    "link": "#"
+                },
+                {
+                    "label": "Acceptable Use",
+                    "link": "#"
+                },
+                {
+                    "label": "GDPR",
+                    "link": "#"
+                },
+                {
+                    "label": "Privacy & Data Policy",
+                    "link": "#"
+                },
+                {
+                    "label": "Report Abuse",
+                    "link": "#"
+                }
+            ],
+            copyright: '2024 All Rights Reserved © Polyfill Way d.o.o.',
+            section1Title: 'Big traffic? Talk to Sales',
+            section1Content: 'Working on a big project?  Let our experts help you out.',
+            section2Title: 'Stay up to date with Polyfill',
+            section2Content: 'Follow us on social media for special promotions and important news.',
+            section3: 'Making the internet hop faster!',
+        },
+    },
+};
