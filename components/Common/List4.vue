@@ -9,6 +9,8 @@ defineProps<{
     subTitle: string,
     content1: string,
     content2: string,
+    content3: string,
+    content4: string,
   }[];
 }>();
 </script>
@@ -77,7 +79,7 @@ defineProps<{
           float: right;
           width: 16px;
           height: 16px;
-          background: url(/images/resources/caseStudies/nav_ic_arrow_right_nor_2x.png) no-repeat 0 0;
+          background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png) no-repeat 0 0;
           background-size: 16px 16px !important;
         }
       }

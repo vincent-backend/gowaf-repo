@@ -879,12 +879,12 @@ export default {
                 hint: 'I have read and agree to the polyfill',
             },
             logoIconList:[
-                "/images/resources/caseStudies/Resources_CaseStudies_logo_nz_2x.png",
-                "/images/resources/caseStudies/Resources_CaseStudies_logo_in_2x.png",
-                "/images/resources/caseStudies/Resources_CaseStudies_logo_va_2x.png",
-                "/images/resources/caseStudies/Resources_CaseStudies_logo_pa_2x.png",
-                "/images/resources/caseStudies/Resources_CaseStudies_logo_yo_2x.png",
-                "/images/resources/caseStudies/Resources_CaseStudies_logo_ne_2x.png",
+                "/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png",
+                "/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png",
+                "/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png",
+                "/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png",
+                "/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png",
+                "/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png",
             ],
             logoIconListBtText: 'Over 40.000 customers already trust us for a reason',
             list: {
@@ -894,120 +894,120 @@ export default {
                     {
                         title: 'HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_1_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_logo_nz_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_1_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW INNOGAMES FORGED A PATH TO SAVINGS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_2_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_logo_in_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_2_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW YOUNITY STREAMED flow! summit TO 200,000 VIEWERS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_3_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_logo_yo_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_3_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_4_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_logo_ne_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_4_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW ESKIMI EXPANDED WITH Polyfill CDN',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_5_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_es_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_5_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_es_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_6_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_ti_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_6_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_ti_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW VALNET SCALED 250% WHILE SAVING',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_7_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_logo_va_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_7_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_8_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_ot_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_8_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_ot_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW PARROTSEC IMPROVED THEIR SECURITY AND RELIABILITY',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_9_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_logo_pa_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_9_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW PULSE BOOSTED SERVICE AND IMPROVED USER EXPERIENCE',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_10_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_pu_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_10_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_pu_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW LAUNCH CDN BOOSTED SERVICE AND SAVED ON COSTS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_11_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_la_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_11_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_la_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW REDD.TUBE GREW FROM A FEW THOUSAND TO SEVERAL MILLION USERS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_12_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_dd_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_12_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_dd_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW SAMSUNG FOOD UTILIZED 5-STAR IMAGE OPTIMIZATION',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_13_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_sa_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_13_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_sa_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW SYSTEM76 STREAMLINED THEIR GLOBAL CONTENT DELIVERY',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_14_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_Case_card_logo_innogames_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_14_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_Case_card_logo_innogames_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW FILMMUSIC.IO PARTNERED WITH Polyfill TO SHARE MUSIC WITH THE WORLD',
                         subTitle: '',
-                        icon: '/images/resources/caseStudies/Resources_CaseStudies_pic_15_2x.png',
-                        icon2: '/images/resources/caseStudies/Resources_CaseStudies_card_logo_fi_2x.png',
+                        icon: '/images/resources/case-studies/Resources_CaseStudies_pic_15_2x.png',
+                        icon2: '/images/resources/case-studies/Resources_CaseStudies_card_logo_fi_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
@@ -1015,10 +1015,12 @@ export default {
                 ],
             },
         },
-        caseStudiesDetails: {
+        caseStudiesDetailsInnoGames: {
             header: {
                 preTitle: '',
-                logo: '/images/resources/caseStudiesDetails/innogames-colored-logo@2x.png',
+                logo: '/images/resources/case-studies-details-inno-games/innogames-colored-logo@2x.png',
+                logoWidth:'236px',
+                logoHeight:'30px',
                 title: 'How InnoGames forged a path to savings',
                 content: 'InnoGames wasn’t getting the support or pricing they needed from other CDN providers, so they looked elsewhere. While our memorable name piqued their interest, our outstanding services sealed the deal.',
                 btn: 'Contact Sales',
@@ -1050,7 +1052,7 @@ export default {
                 subTitle: '',
                 items: [
                     {
-                        pic: '/images/resources/caseStudiesDetails/Resources_Case_Studies_details_graph_1_2x.png',
+                        pic: '/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_1_2x.png',
                         title: 'About InnoGames',
                         content: 'InnoGames was founded in 2007, when a little browser game called Tribal Wars, a hobby project conceived by three young guys in 2003, evolved into a full-fledged game studio. Now, the Hamburg-based developer is a heavy hitter in the online gaming world, crafting award-winning free-to-play titles for gamers around the globe. They’re best known for titles like Tribal Wars, Elvenar, and Forge of Empires - the last of which grossed over 1 billion EUR in lifetime revenue.',
                         content2: 'The most recent additions to the InnoGames portfolio were Rise of Cultures and Sunrise Village, two mobile-first games that were released in early 2022. Whether its strategy-based builders or cozy farming sims, InnoGames has carved out the frontier of mobile gaming.',
@@ -1058,7 +1060,7 @@ export default {
                         height:'320px',
                     },
                     {
-                        pic: '/images/resources/caseStudiesDetails/Resources_Case_Studies_details_graph_2_2x.png',
+                        pic: '/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_2_2x.png',
                         title: 'The Challenges',
                         content: 'Although InnoGames wanted to do as much in-house as possible, there were some things they couldn’t do. InnoGames needed to distribute updates for 10 different games in countries all over the world, with a localized version of each game in every country. This amounted to over 500 terabytes per month of bandwidth.',
                         content2: 'InnoGames needed a CDN. But their first CDN provider had some issues: A confusing pricing plan that required InnoGames to purchase a minimum bandwidth commitment - or pay extra. A support ticket system that left InnoGames waiting days for answers.',
@@ -1066,7 +1068,7 @@ export default {
                         height: '288px',                        
                     },
                     {
-                        pic: '/images/resources/caseStudiesDetails/Resources_Case_Studies_details_graph_3_2x.png',
+                        pic: '/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_3_2x.png',
                         title: 'The Solution',
                         content: 'After investigating a few different CDN providers, InnoGames eventually chose Polyfill. Aside from the technical features, they said they liked the name. Us too. Once they started using Polyfill, they saw improvements right away. We didn’t require InnoGames to commit to a certain bandwidth just to get a fair price. We set them up with a pricing and bandwidth plan that fit their needs right out the gate.',
                         content2: 'Finally, we gave them 24/7 access to our Super Polyfill support and set up a private Slack channel. InnoGames was already using Slack, so they loved the convenience. InnoGames wanted to switch from their previous CDN because the support was too slow. Our Super Polyfill never kept them waiting. Whenever they had a question, we answered fast - usually the same day.',
@@ -1074,7 +1076,7 @@ export default {
                         height: '334px',
                     },
                     {
-                        pic: '/images/resources/caseStudiesDetails/Resources_Case_Studies_details_graph_4_2x.png',
+                        pic: '/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_4_2x.png',
                         title: 'The Results',
                         content: 'Although InnoGames came for the cute name, Polyfill quickly impressed them with our offerings. Polyfill CDN spoke for itself, with PoPs all over the world granting high speeds. The Super Polyfill never left InnoGames waiting more than a day for answers - so the InnoGames team enjoyed friendly service right when they needed it.',
                         content2: 'Our pricing was clear from the start, free of microtransactions and hidden fees. InnoGames paid just for what they needed, no more. Not to mention, they saved by switching to Polyfill.',
@@ -1091,21 +1093,496 @@ export default {
                     {
                         title: 'HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY',
                         subTitle: '',
-                        icon: '/images/resources/caseStudiesDetails/Resources_CaseStudies_pic_4_2x.png',
-                        icon2: '/images/resources/caseStudiesDetails/Resources_CaseStudies_card_logo_ne_2x.png',
+                        icon: '/images/resources/case-studies-details-inno-games/Resources_CaseStudies_pic_4_2x.png',
+                        icon2: '/images/resources/case-studies-details-inno-games/Resources_CaseStudies_card_logo_ne_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                     {
                         title: 'HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS',
                         subTitle: '',
-                        icon: '/images/resources/caseStudiesDetails/Resources_CaseStudies_pic_6_2x.png',
-                        icon2: '/images/resources/caseStudiesDetails/Resources_CaseStudies_card_logo_ti_2x.png',
+                        icon: '/images/resources/case-studies-details-inno-games/Resources_CaseStudies_pic_6_2x.png',
+                        icon2: '/images/resources/case-studies-details-inno-games/Resources_CaseStudies_card_logo_ti_2x.png',
                         content1: 'Read the case study',
                         content2: ''
                     },
                 ]
             }
+        },
+        caseStudiesDetailsNexusmods: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_ne_2x.png',
+                logoWidth: '176px',
+                logoHeight: '42px',
+                title: 'How NexusMods improved download speeds & stability',
+                content: 'By leveraging Edge Storage & Polyfill CDN, Nexus Mods significantly boosted global delivery performance. Seamless integration and 24/7 Slack support, made the transition smooth and effortless.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Flawless',
+                    label2: 'delivery',
+                    content: 'with faster download speeds',
+                },
+                {
+                    label: 'Improved',
+                    label2: 'UX',
+                    content: 'by reducing user\'s complaints',
+                },
+                {
+                    label: '30%',
+                    label2: 'lower costs',
+                    content: 'on a monthly basis',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_1_2x.png',
+                        title: 'About NexusMods',
+                        content: 'Nexus Mods is not only one of the most highly trafficked UK-based websites but one of the most popular gaming websites out there. For over 19 years, they have made it their mission to provide the best platform for gamers around the world to share their mods and tools, free for everyone to enjoy.',
+                        content2: 'Gamers can modify their games repeatedly by downloading mods that other users upload to the website or by using the Nexus Mods desktop app, Vortex, which helps automate the process. Nexus Mods supports a 50-terabyte mod library.',
+                        width: '389px',
+                        height: '258px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'The main challenge facing Nexus Mods was delivering files to a global userbase with sufficient speeds. They first built their own CDN with 30+ servers around the world. However, the delivery speeds for users in Australia, East Asia, and South America were subpar, for which they routinely received complaints.',
+                        content2: 'Nexus Mods tried working with other CDN solutions, but the pricing model wasn’t realistic. Their last provider employed a 95th percentile pricing model that caused significant overage bills due to weekend traffic spikes. Nexus Mods wanted to maintain its status as a cost-conscious, community-based, and community-funded website. On top of this, their traffic requirements were too high for standard pricing but not high enough for enterprise pricing.',
+                        width: '358px',
+                        height: '334px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'To help Nexus Mods solve these challenges, we worked together to find a solution that offered excellent performance while adhering to a very tight budget. The most significant factor behind their performance issues was a low cache hit rate. With their massive library of mods, their old CDN struggled to keep files in cache. It had to pull files from cold storage halfway across the world.',
+                        content2: 'We helped Nexus Mods migrate their 50 TB content library to our Edge Storage platform as a drop-in replacement. Edge Storage let them seamlessly replicate their files to 5 regions worldwide, guaranteeing consistent excellent performance. Next, we designed a custom CDN plan optimized for the best global efficiency and affordable pricing. We were able to offer significantly reduced pricing compared to their own CDN.',
+                        content3: 'Finally, we created a private Slack channel to help Nexus Mods smooth migration and give them direct 24/7 access to our Super Polyfill support team.',
+                        width: '340px',
+                        height: '296px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'The final results of Nexus Mods’ move to Polyfill were fantastic. We supercharged their download speeds, enabling flawless, stable delivery - even in remote places. With better delivery, their user experience and satisfaction improved drastically.',
+                        content2: 'Prior to switching to Polyfill, Nexus Mods received up to 10 complaints a day about slow download speed. Post-switch, these complaints disappeared entirely. To top it off, we lowered the total monthly delivery cost by 30%.',
+                        width: '396px',
+                        height: '292px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW INNOGAMES FORGED A PATH TO SAVINGS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_pic_2_2x.png',
+                        icon2: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_in_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_pic_6_2x.png',
+                        icon2: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_ti_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-nexusmods/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Tom Mason',
+                    subTitle: 'Head of Development',
+                    content: "\“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.\”",
+                },
+                items: null
+            },
+        },
+        caseStudiesDetailsNzxt: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_nz_2x.png',
+                logoWidth: '120px',
+                logoHeight: '42px',
+                title: 'How NZXT saved on costs and improved update deployment',
+                content: 'NZXT was looking to save on their monthly deployment costs and got more than they bargained for. They didn’t just cut their rate - they unlocked access to useful metrics that helped them build a better customer experience.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Fewer',
+                    label2: ' downloads',
+                    content: 'in various regions worldwide',
+                },
+                {
+                    label: 'Better',
+                    label2: 'price',
+                    content: 'on bandwidth and storage',
+                },
+                {
+                    label: '24/7',
+                    label2: 'support',
+                    content: 'access via private Slack',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_1_2x.png',
+                        title: 'About NZXT',
+                        content: 'NZXT is a leading manufacturer in the gaming hardware industry, specializing in high-performance gaming PCs and essential peripherals such as mice, keyboards, and microphones. We’re huge fans. Some of the Polyfill team own more than two NZXT gaming rigs.',
+                        content2: 'So why does a PC manufacturer use Polyfill? To keep those cool gaming rigs spinning, NZXT delivers monthly optimization updates to their 1 million users using their CAM software. NZXT came to Polyfill in early 2023 looking for a better monthly distribution rate, but got so much more.',
+                        width: '368px',
+                        height: '300px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'To keep those cool custom gaming rigs running crisp, lag-free games, NZXT releases monthly software updates to users around the globe. These deployments became expensive under their old CDN. NZXT needed to deploy 30-100 megabytes of data per installer. That amounted to more than 30 terabytes of data every month.',
+                        content2: 'NZXT first reduced the bandwidth load, deploying differential updates - or only updating the differences between the new and old versions - but even with reduced bandwidth, deployment costs remained a significant issue. Despite the costs, the NZXT team wasn’t willing to sacrifice their product’s quality to cut costs.',
+                        content3: 'Whatever change NZXT made, they needed something that could handle the traffic and wouldn’t affect customer experience.',
+                        width: '346px',
+                        height: '288px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'NZXT came to Polyfill in 2023. We made the switch easy for them. Once they switched, the NZXT team was pleased by how easy our dashboard was to use. Integrating Polyfill with their update platform was so easy that NZXT configured Polyfill CDN in a few minutes.',
+                        content2: 'Plus, our dashboard helped them level up their deployments with useful metrics that NZXT incorporated into their deployment validation. NZXT rarely had an issue that required a call to tech support, but our Super Polyfill support stayed on standby to make the switch even easier.',
+                        content3: '',
+                        width: '340px',
+                        height: '333px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'NZXT came to Polyfill to save on monthly overhead and stayed for the great service. NZXT could have integrated Polyfill CDN and forgotten about it. Instead, they found a cool new power-up: our dashboard became a useful monitoring tool, helping the NZXT team to verify the success of each deployment.',
+                        content2: 'Now, in addition to delivering software updates, they use us to track their beta releases. We impressed them with our service, and, of course, we saved them more than 50% on monthly fees.',
+                        width: '364px',
+                        height: '270px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_pic_4_2x.png',
+                        icon2: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_ne_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW PARROTSEC IMPROVED THEIR SECURITY AND RELIABILITY',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_pic_9_2x.png',
+                        icon2: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_pa_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-nzxt/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Bernhard Schrader',
+                    subTitle: 'Lead Sys Admin',
+                    content: "\"I like that Polyfill CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem.\"",
+                },
+                items: null
+            },
+        },
+        caseStudiesDetailsYounity: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_yo_2x.png',
+                logoWidth: '123px',
+                logoHeight: '42px',
+                title: 'How Younity streamed to 200.000 viewers',
+                content: 'Before Younity switched to Polyfill, the flow! summit was blocked up by loading errors and video player crashes. After the switch, for the first time since its inception, flow! summit continued free from stressful tech issues',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Bigger',
+                    label2: 'network',
+                    content: 'powered by 120+ PoPs and 80 Tbps backbone',
+                },
+                {
+                    label: 'Super',
+                    label2: 'support',
+                    content: 'working with them 24/7 during the event',
+                },
+                {
+                    label: '66%',
+                    label2: 'cost saved',
+                    content: 'compared to their original provider',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_1_2x.png',
+                        title: 'About Younity',
+                        content: 'With a vision to empower people to find fulfillment, Younity wanted to bring topics like self-development and mental health to a broader audience. In 2015, Younity set out on a journey as an online company, building its own spirituality and coaching platform and running online events like flow! summit to connect viewers with a renowned network of speakers and experts.',
+                        content2: 'They host lectures and seminars about personal growth, self-development, meditation, and much more. Since its foundation, Younity has made growth content accessible to anyone, anywhere since they launched flow! summit in 2017, viewers have tuned in from all over the world to listen and learn. These days, Younity hosts virtual events in more than 15 languages.',
+                        width: '336px',
+                        height: '252px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'To host online courses and lectures, Younity needed a virtual streaming platform. But once they started hosting summits, they had nothing but problems. The old platform couldn’t handle the traffic. Viewers complained about frequent crashes, and the crashes prevented the Younity team from seeing their analytics.',
+                        content2: 'Even worse, their old provider’s support couldn’t answer their questions before tech issues ruined the viewer experience. Plus, Younity’s last streaming service closed their account without warning, had trouble processing payments, and was difficult to contact. At such a high price and with such unreliable service, the old provider was more of an obstacle to flow! summit than a facilitator.',
+                        content3: '',
+                        width: '350px',
+                        height:'274px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'Younity stumbled upon Polyfill by chance. They realized Polyfill offered more than just basic streaming solutions. Polyfill Stream\'s captioning and translation features instantly caught their attention.Younity immediately saw the potential to ease access for its international audience.',
+                        content2: 'So Younity decided to give Polyfill a try. The Polyfill Stream video player delivered a seamless live stream - free of buffering and crashes. We knew Younity needed quick answers to keep flow! summit running smoothly, so we gave them rapid-fire, 24/7 Slack support to support them every step of the way. Lastly, Younity moved their websites to Polyfill CDN to improve image quality and reduce page load times.',
+                        content3: '',
+                        width: '318px',
+                        height: '318px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'For the first time since launching flow! summit in 2017, Younity held the event with zero crashes. Every year prior, viewers left comments on videos saying something wasn’t working. In the March 2023 flow! summit, there were no complaints at all.',
+                        content2: 'Integrating Polyfill was easy: the transition and preparation for the summit took less than a month. Younity was so happy with our service that they decided to use BunnyCDN to speed up their website as well.',
+                        width: '374px',
+                        height: '256px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-younity/Resources_CaseStudies_pic_8_2x.png',
+                        icon2: '/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_ot_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW ESKIMI EXPANDED WITH Polyfill CDN',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-younity/Resources_CaseStudies_pic_5_2x.png',
+                        icon2: '/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_es_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-younity/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Matthias Mauch',
+                    subTitle: 'Younity',
+                    content: "\"We had a flow! summit without a single complaint.I think, overall, bunny.net is just a very complete solution.Handling videos is so easy with Bunny - you don't need a lot of training. It's very streamlined.\"",
+                },
+                items: null
+            },
+        },
+        caseStudiesDetailsEskimi: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_es_2x.png',
+                logoWidth: '144px',
+                logoHeight: '42px',
+                title: 'How Eskimi expanded with Polyfill CDN',
+                content: 'Since Eskimi hopped to Polyfill two years ago, they’ve unlocked a world of potential customers. Eskimi now serves clients on six continents with rapid service.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Easy',
+                    label2: 'implementation',
+                    content: 'with Polyfill products',
+                },
+                {
+                    label: '24/7',
+                    label2: 'support',
+                    content: 'with fast and quality responses',
+                },
+                {
+                    label: 'Fair',
+                    label2: 'price',
+                    content: 'with pay-as-you-go pricing model',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_1_2x.png',
+                        title: 'About Eskimi',
+                        content: 'Eskimi is a supply-side service AdTech provider that serves advertisements to audiences all over the world. They distribute hundreds of thousands of media requests options in seconds and determine which ads to show to end users when they visit a website.',
+                        content2: 'Eskimi serves static and dynamic content, including image and video content. In just 100 milliseconds, Eskimi’s platform receives a request, matches it with the most relevant ads, and responds. Although their data centers are located in Europe, they serve ads all over the world. To Eskimi, a fast CDN is a vital part of their business.',
+                        width: '368px',
+                        height: '290px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'In the fast-paced AdTech world, every millisecond counts. To get ads in view of potential customers, Eskimi needs to process and serve requests as fast as possible. Eskimi receives multiple requests every time a customer lands on a site using their platform, which creates an unexpected expense. Other CDNs charged by the number of requests served, which inflated their in addition to the unreasonably high price, Eskimi couldn’t afford delays from a slow network.',
+                        content2: 'Even a few seconds of downtime meant customers’ ads wouldn’t be seen. Eskimi needed to keep their platform spinning out ads 24/7, at top speeds. Eskimi’s last CDN provider had servers in just two regions to distribute traffic around the world. It wasn’t enough to support their client base.',
+                        content3: '',
+                        width: '396px',
+                        height: '324px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'Eskimi read about Polyfill in an article in Hacker News. They liked what they heard, and decided to give us a try. First, we had to settle the pricing. The per-request fee structure other CDNs had offered Eskimi wasn’t feasible for their business, so we devised a pricing model that met their needs. Thanks to Polyfill CDN’s wider network, Eskimi gained access to more PoPs around the world.Through their internal reports, Eskimi promptly noticed latency and network errors drop off.',
+                        content2: 'Lastly, we supported Eskimi through every network hop. Our Super Polyfill support answered Eskimi’s support tickets in no time flat: usually the same day they were submitted. We blew Eskimi away with our delivery speeds, intuitive user interface, and Super Polyfill support.',
+                        content3: '',
+                        width: '422px',
+                        height: '320px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'Switching to Polyfill was a game-changer for Eskimi. Their old provider nearly locked them down with an expensive pricing plan, but our custom pricing plan slashed monthly overhead. Not only did we cut costs, but Polyfill CDN kept Eskimi’s platform spinning out ads without delay. From the moment they moved their platform, they saw errors and latency fall, further increasing revenue. Eskimi didn’t just cut costs - they grew.',
+                        content2: 'The Eskimi team watched in real-time as Polyfill CDN served requests all over the globe, thanks to our dashboard’s traffic map. We gave them the reliable service and high speeds they needed at a price they could afford.',
+                        width: '346px',
+                        height: '348px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_pic_8_2x.png',
+                        icon2: '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_ot_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW VALNET SCALED 250% WHILE SAVING',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_pic_7_2x.png',
+                        icon2: '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_va_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-eskimi/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Aivaras Voveris',
+                    subTitle: 'Staff Engineer',
+                    content: "\"Try them and use it.It's very, very simple: you need a CDN you use a CDN. The pricing and the quality are top notch - I would definitely recommend it as well.\"",
+                },
+                items: null
+            },
         },
     }
 };

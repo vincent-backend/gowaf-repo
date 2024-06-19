@@ -3,6 +3,8 @@ const props = defineProps({
   title: String,
   content: String,
   content2: String,
+  content3: String,
+  content4: String,
   list: Array<any>,
   btn: String,
   href: String,
@@ -44,8 +46,8 @@ const props = defineProps({
         <!-- content -->
         <div class="content">{{ props.content }}</div>
         <div class="content" v-if="props.content2">{{ props.content2 }}</div>
-
-
+        <div class="content" v-if="props.content3">{{ props.content3 }}</div>
+        <div class="content" v-if="props.content4">{{ props.content4 }}</div>
         <!-- list -->
         <div class="list" v-if="props.list">
           <div class="item" v-for="item in props.list">

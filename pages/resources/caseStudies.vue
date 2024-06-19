@@ -17,7 +17,7 @@
     :isHidenLinkHit="true"
     :inputPlaceholder="$t('resources.caseStudies.header.inputPlaceholder')"
     :pic="{
-      src: '/images/resources/caseStudies/Resources_Case_Studies_banner_graph_2x.png',
+      src: '/images/resources/case-studies/Resources_Case_Studies_banner_graph_2x.png',
       w: '416px',
       h: '348px',
 

@@ -2,6 +2,8 @@
 withDefaults(defineProps<{
   preTitle?: string;
   logo?: string;
+  logoWidth: string;
+  logoHeight: string;
   title?: string;
   content?: string;
   btn?: string;
@@ -33,7 +35,7 @@ withDefaults(defineProps<{
       <div class="left">
         <div class="pre-title" v-if="preTitle">{{ preTitle }}</div>
         <div class="pre-logo" v-if="logo">
-          <img :src="logo" alt="">
+          <img :src="logo" alt="" :style="logoWidth ? {width: logoWidth, height: logoHeight} : ''">
         </div>
 
         <h2 class="title" v-if="title">{{ title }}</h2>
