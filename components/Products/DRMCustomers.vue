@@ -71,7 +71,7 @@ defineProps<{
 <style lang="less" scoped>
 .drm-customer-container {
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 80px 0 30px 0;
   width: 100%;
   background: #fff;
   .drm-customer-content-container{
@@ -145,12 +145,12 @@ defineProps<{
       }
     }
     >.list{
-      margin: 100px auto 58px auto;
+      margin: 100px auto 18px auto;
       position: relative;
       box-sizing: border-box;
       padding: 30px;
       width: 1200px;
-      height: 240px;
+      min-height: 190px;
       background: linear-gradient( 312deg, #E9F8FC 0%, #FFFBF0 100%);
       border-radius: 24px;
       p{

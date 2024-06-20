@@ -18,7 +18,7 @@ defineProps<{
       <div v-for="(item, index) in items" :key="index"
         :class="['number', 'n-' + index]" 
         :style="items.length === 3 
-          ? {left: (index * 38) + '%'} 
+          ? {left: (index * 37) + '%'} 
           : (items.length === 2) ? {left: (index * 50) + '%'} : ''">
         <div class="number-title">
           <h5>{{ item.label }}</h5>
@@ -99,6 +99,7 @@ h3{
     .number-content {
       font-size: 16px;
       color: #4E4E4E;
+      white-space: pre-wrap;
     }
   }
 

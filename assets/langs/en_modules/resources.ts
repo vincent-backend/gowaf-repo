@@ -1584,5 +1584,479 @@ export default {
                 items: null
             },
         },
+        caseStudiesDetailsTimbo: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-timbo/Resources_CaseStudies_card_logo_ti_2x.png',
+                logoWidth: '77px',
+                logoHeight: '42px',
+                title: 'How Timbo Jimbo scaled to over 4 million players',
+                content: 'Other CDNs pricing models cost more than Static Shift Racing would have made in revenue, and would have ground the project to a halt. Thanks to Polyfill, Static Shift Racing keeps cruising along to its one-year anniversary in December.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Better',
+                    label2: 'distribution',
+                    content: 'with a Network powered by 120+ PoPs',
+                },
+                {
+                    label: 'Faster',
+                    label2: 'downloads',
+                    content: 'for regular game updates',
+                },
+                {
+                    label: 'Fair',
+                    label2: 'price',
+                    content: 'that enabled them to scale',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_1_2x.png',
+                        title: 'About Timbo Jimbo',
+                        content: 'Meet Timbo Jimbo: the two-man team behind Static Shift Racing. With just a two-person team, they made a seriously cool racing game where players can customize cars, race each other, and explore a vast open world.',
+                        content2: 'Static Shift Racing started as a hobby project, but just like Polyfill, Timbo Jimbo’s ambitions grew over time. In January 2023, they launched Static Shift Racing globally to a dedicated global audience. The game raced to the app store front pages, passing 4 million downloads before its first anniversary. The game is available for free on Android and iOS, and if you start the download right now, it’ll be ready to play before you finish reading this case study.',
+                        width: '384px',
+                        height: '280px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'With a 280 MB game file and a global audience, Timbo Jimbo needed to distribute not just their game but regular updates to people all over the world. App stores alone just couldn’t keep up. While the game file was small, Timbo Jimbo’s audience wasn’t. They needed a CDN that could accommodate an overseas audience and frequent updates.',
+                        content2: 'Timbo Jimbo couldn’t let downtime slow them down either. To support users across many time zones, Timbo Jimbo needed to distribute updates all day, every day. Timbo Jimbo’s previous CDN would have cost thousands of dollars per day, which would have stalled Static Shift Racing before it ever picked up traction.',
+                        content3: '',
+                        width: '334px',
+                        height: '320px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'While other CDN’s offered pricing that could have stalled the game in its tracks, Polyfill was the spark Timbo Jimbo needed to ignite Static Shift Racing. With enough PoPs to cover every continent, Polyfill CDN’s global network ensured speedy downloads for anyone, anywhere.',
+                        content2: 'Setup couldn’t have been easier, thanks to our support. Our Super Polyfill stepped in as Timbo Jimbo’s trusty copilots, steering them to success with fast, accurate answers whenever they needed them. Timbo Jimbo got answers to most questions the same day they asked!',
+                        content3: '',
+                        width: '346px',
+                        height: '292px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'As a small team, Timbo Jimbo was overlooked by other CDN providers. Polyfill made it possible for them to ignite their passion project. After switching to bunny, Timbo Jimbo raced to the App Store front page.',
+                        content2: 'Static Shift Racing passed 1 million downloads before its first month, but Timbo Jimbo didn’t let off the gas. They released more than 60 content updates to keep users coming back. Thanks to our clear pricing model, they don’t have to worry about surprise fees when they do. Thanks to the fans, some hard work, and a little help from Polyfill CDN, the game has been downloaded over 4 million times before its first anniversary.',
+                        width: '342px',
+                        height: '252px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW INNOGAMES FORGED A PATH TO SAVINGS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-timbo/Resources_CaseStudies_pic_2_2x.png',
+                        icon2: '/images/resources/case-studies-details-timbo/Resources_CaseStudies_card_logo_in_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-timbo/Resources_CaseStudies_pic_4_2x.png',
+                        icon2: '/images/resources/case-studies-details-timbo/Resources_CaseStudies_card_logo_ne_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-timbo/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Tim Aksu',
+                    subTitle: 'Co-Founder & Game Developer',
+                    content: "\"Polyfill just works.We were able to swap out our primary CDN with Bunny in a single afternoon thanks to their Pull Zone functionality with minimal changes to our backend.Polyfill has saved us thousands of dollars compared to our original CDN.We\'re so glad we gave Polyfill a shot!Polyfill",
+                },
+                items: null
+            },
+        },
+        caseStudiesDetailsValnet: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_va_2x.png',
+                logoWidth: '168px',
+                logoHeight: '42px',
+                title: 'How Valnet scaled by 250% while saving on costs',
+                content: 'Our delivery speeds and pricing caught Valnet’s attention, our platform’s ease of use and no-hassle integration really won them over. Polyfill didn’t just make expansion possible. We made it simple.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Fast',
+                    label2: 'migration',
+                    content: 'taking only a few days',
+                },
+                {
+                    label: 'Immediate',
+                    label2: 'savings',
+                    content: 'that allowed Valnet to scale',
+                },
+                {
+                    label: 'Curated',
+                    label2: 'delivery',
+                    content: 'between Volume & Standard Networks',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_1_2x.png',
+                        title: 'About Valnet',
+                        content: 'With a varied portfolio, including over 30 renowned brands like Screen Rant, Game Rant, and How-to-Geek, Valnet is one of the leading content investment firms. This media giant serves content to users all over the world. Across their offerings, they receive more than 15 million daily website visits and have an average of more than 30 million hours of watch time per month.',
+                        content2: 'In recent years, Valnet has expanded, acquiring additional verticals and building their own AdTech and monetization platforms. Valnet came to Polyfill seeking a scalable solution that would integrate smoothly with their newly developed video platform, and their experience exceeded expectations.',
+                        width: '440px',
+                        height: '322px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'Valnet had plans to expand quickly, but a few obstacles prevented them from scaling. Valnet needed a well-rounded technical solution that would fit the unique delivery needs of each of their 30+ verticals. Video content proved expensive to distribute. Valnet’s bandwidth needs were high, surpassing 5,000 terabytes per month. Their options were to build a new CDN from scratch, which would delay their growth, or to find a CDN provider. They chose the latter.',
+                        content2: 'Since Valnet was developing their own video platform, it needed a solution that could integrate quickly at a competitive rate. They also needed quick access to data usage metrics so they could chart their expansion. After a bit of research, Polyfill was an obvious choice.',
+                        content3: '',
+                        width: '402px',
+                        height: '354px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'Valnet immediately realized that Polyfill could give them the independence they needed to scale. We agreed, so we devised a first-class tech stack that met their needs. Polyfill CDN integrated seamlessly with Valnet’s new video player, with Polyfill Stream acting as a backup to maximize uptime. It also supported every type of content they served right from the dashboard.',
+                        content2: 'Reducing the costs of video delivery was a necessity for Valnet, so we devised a two-tier pricing model that made sense for their business. Additionally, our dashboard’s analytics made it easy to track bandwidth usage - without calling a representative. Finally, as usual, our Super Polyfill stood by to support Valnet any time.',
+                        content3: '',
+                        width: '366px',
+                        height: '316px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'From the moment Valnet found Polyfill, they knew we were the solution. They made us a key part of their growth strategy. Migrating to Polyfill took just a few days, which in turn cut four months from their original deployment schedule.',
+                        content2: 'After the switch, Valnet saw an immediate return on investment. Not only did they hit the ground running with a speedy deployment, but they paid a fraction of the price of comparable CDNs. Switching to Polyfill freed a giant up to grow even further. Valnet continued their growth plan and increased distribution by over 250%.',
+                        width: '406px',
+                        height: '252px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_pic_1_2x.png',
+                        icon2: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_nz_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW ESKIMI EXPANDED WITH Polyfill CDN',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_pic_5_2x.png',
+                        icon2: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_es_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-valnet/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Ji Kim',
+                    subTitle: 'Director of Marketing',
+                    content: "\"With our last provider, expansion wasn’t feasible.Switching to Polyfill brought our ROI calculations to the levels we were looking for.We started seeing ROI as soon as we switched over, and the transition was very, very quick.\”",
+                },
+                items: null
+            },
+        },
+        caseStudiesDetailsOTT: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-ott/Resources_CaseStudies_card_logo_ot_2x.png',
+                logoWidth: '110px',
+                logoHeight: '42px',
+                title: 'How OTT Solutions boosted speed and availability',
+                content: 'OTT Solution needed a little extra help to stabilize their networks and free up network traffic. Once they started working with Polyfill, we improved availability and stability by providing additional points of presence with peer-to-peer backup to prevent outages.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Improved',
+                    label2: ' delivery',
+                    content: 'improving the storage, stability and \nfetching of assets from the origin',
+                },
+                {
+                    label: 'Easy',
+                    label2: 'setup',
+                    content: 'an intuitive dashboard and \nstraightforward documentation',
+                },
+                {
+                    label: 'Happier',
+                    label2: 'customers',
+                    content: 'eliminated buffering, increased download \nspeeds, and improved reliability',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_graph_1_2x.png',
+                        title: 'About OTT Solutions',
+                        content: 'OTT Solutions builds turnkey Live TV and VOD streaming solutions for telecommunication and broadcasting service providers worldwide. They make streaming services possible for Vodafone, Telefonica, Telekom Srbija, Eurosport, beIN SPORTS, euronews, and Bloomberg, to name a few.',
+                        content2: 'In addition to providing an easy-to-use streaming platform with a clean user interface, they help service providers protect their content with robust security features. OTT Solutions promises and delivers a reliable and stable network that service providers trust to stream content to millions of end users.',
+                        width: '420px',
+                        height: '314px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'Although OTT Solutions had a trustworthy, reliable network, they needed a strong architecture to keep it that way. They needed a CDN to boost network reliability and bolster their network backbone. OTT Solutions used other CDNs, but these other networks lagged behind their standards. Thousands of customers in the Balkans couldn’t even watch sports during peak hours without buffering caused by network bottlenecks.',
+                        content2: 'Even a few minutes of downtime rippled to customers’ customers, so OTT Solutions needed a stable network that wouldn’t go down - not for even a minute. Their other CDN providers weren’t supplying enough stability. OTT Solutions needed someone to lighten the load - so they came to Polyfill.',
+                        width: '372px',
+                        height: '302px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'The Polyfill team didn’t disappoint. We set up a network that provided a fast, reliable connection with a peer-to-peer backup network that eliminated buffering during peak hours. OTT Solutions also noticed that Polyfill was faster than their other CDNs in some regions. Implementing Polyfill CDN was as quick as a Polyfill hop, thanks to our support library.',
+                        content2: 'We gave OTT Solutions 24/7 access to our Super Polyfill support team, but they were pleased to say they barely needed them. They felt empowered to resolve most issues themselves, with the Super Polyfill on standby for backup.',
+                        content3: '',
+                        width: '430px',
+                        height: '348px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'We improved availability by providing additional points of presence, with peer-to-peer backup to prevent outages. Our supercharged speeds kept customers right in the action. Plus, we impressed them with our fantastic support and customer service.',
+                        content2: 'With fewer network bottlenecks and improved reliability, OTT Solutions can keep their networks hopping.',
+                        width: '394px',
+                        height: '258px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW YOUNITY STREAMED flow! summit TO 200,000 VIEWERS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-ott/Resources_CaseStudies_pic_3_2x.png',
+                        icon2: '/images/resources/case-studies-details-ott/Resources_CaseStudies_card_logo_yo_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW VALNET SCALED 250% WHILE SAVING',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-ott/Resources_CaseStudies_pic_7_2x.png',
+                        icon2: '/images/resources/case-studies-details-ott/Resources_CaseStudies_card_logo_va_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-ott/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Sasa Zurkic',
+                    subTitle: 'CEO',
+                    content: "\"Polyfill adds a line of defense to our other CDN providers.I’m happy with the service - everything works.\"",
+                },
+                items: null
+            },
+        },
+        caseStudiesDetailsParrotSec: {
+            header: {
+                preTitle: '',
+                logo: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_pa_2x.png',
+                logoWidth: '224px',
+                logoHeight: '42px',
+                title: 'How ParrotSec improved security and reliability',
+                content: 'ParrotSec needed a way to host and distribute its unique operating system that met the security needs of its users while keeping its product free and open. They struggled to find a CDN that could adapt to their unique situation - until they found Polyfill.',
+                btn: 'Contact Sales',
+                btn2: 'Download Case Study',
+                inputPlaceholder: '',
+                hint: '1',
+            },
+            numbersTitle: 'Quick Overview',
+            numbers: [
+                {
+                    label: 'Better',
+                    label2: ' security',
+                    content: 'by ditching their old mirror network',
+                },
+                {
+                    label: 'Improved',
+                    label2: 'performance',
+                    content: 'by accelerating asset fetching',
+                },
+                {
+                    label: '80%',
+                    label2: 'lower costs',
+                    content: 'by setting up a unique pricing model',
+                },
+
+            ],
+            ad2Container: {
+                title: '',
+                subTitle: '',
+                items: [
+                    {
+                        pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_1_2x.png',
+                        title: 'About ParrotSec',
+                        content: 'Parrot Security OS is a free, open-source GNU/Linux distribution based on Debian, designed for security experts, developers, and privacy-aware people. It\'s a practical toolkit for cybersecurity specialists and a friendly companion for people who want to get closer to the cybersecurity world.',
+                        content2: 'Unlike similar operating systems, it comes pre-installed with coding tools and regularly updates to support popular software. The project started in 2013 as a small, homemade OS, but it quickly saw its base skyrocket to over 200 thousand users.',
+                        width: '386px',
+                        height: '318px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_2_2x.png',
+                        title: 'The Challenges',
+                        content: 'Parrot needed to support 9000+ downloads – over 102 gigabytes. At first, Parrot relied on volunteer mirror providers to increase their availability. But the mirror provider system created security problems: third parties could overwrite any download, and the Parrot team couldn’t do anything to stop it. Parrot’s bandwidth issue had evolved into a security issue.',
+                        content2: 'Parrot decided to use a CDN, but their early attempts were unsatisfactory. Traditional CDNs were expensive and inefficient. Some couldn’t comply with GDPR. Parrot needed a solution that wouldn’t lock them into costly enterprise pricing while still providing secure, fast, efficient downloads.',
+                        width: '368px',
+                        height: '312px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_3_2x.png',
+                        title: 'The Solution',
+                        content: 'Enter Polyfill! We worked with ParrotSec to build an affordable platform to host all of their architectures. With our custom pricing model, ParrotSec saved 80% on delivery costs. Other CDN networks tried to charge ParrotSec enterprise rates for features they didn’t use, but Polyfill offered them a plan built for their unique circumstances at an affordable rate.',
+                        content2: 'ParrotSec needed to host 5 different versions of ParrotOS, so we switched them over to Polyfill CDN and Polyfill Storage. We put them on a pay-as-you-go rate and only charged them for the service they used. Finally, we created a private Slack channel to give ParrotSec direct 24/7 access to our Super Polyfill support team to make sure their service really flew.',
+                        content3: '',
+                        width: '422px',
+                        height: '324px',
+                    },
+                    {
+                        pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_4_2x.png',
+                        title: 'The Results',
+                        content: 'Once Parrot switched to Polyfill, the team never looked back. Their users quickly noticed improved service and faster downloads. Complaints about security risks dropped off.',
+                        content2: 'We surprised ParrotSec with faster service on a single Polyfill server than their previous CDN gave them on six. At a fraction of the price. ParrotSec wasn’t being served by major providers - so Polyfill stepped in to fill the gap.',
+                        width: '378px',
+                        height: '322px',
+                    },
+                ],
+            },
+            list: {
+
+                title: "",
+                subTitle: "",
+                items: [
+                    {
+                        title: 'HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_pic_1_2x.png',
+                        icon2: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_nz_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                    {
+                        title: 'HOW LAUNCH CDN BOOSTED SERVICE AND SAVED ON COSTS',
+                        subTitle: '',
+                        icon: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_pic_11_2x.png',
+                        icon2: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_la_2x.png',
+                        content1: 'Read the case study',
+                        content2: ''
+                    },
+                ]
+            },
+            drmCustomer: {
+                title: '',
+                contentPre: "",
+                contentImg: '',
+                contentMid: "",
+                contentP: "",
+                contentLink: "",
+                contentLast: "",
+                isHiddenSubTitle: true,
+                faceImg: {
+                    img: '/images/resources/case-studies-details-parrotsec/Network_Overview_evaluate_character_2x.png',
+                    top: '-70px',
+                    right: '135px',
+                    width: '438px',
+                    height: '300px',
+                },
+                list: {
+                    title: 'Lorenzo Faletra',
+                    subTitle: 'CEO',
+                    content: "\"We tried several CDN providers before, and although they were more expensive, they didn't offer the same performance and reliability. After the switch to Polyfill, our users immediately noticed how fast and reliable the downloads became.\"",
+                },
+                items: null
+            },
+        },
     }
 };

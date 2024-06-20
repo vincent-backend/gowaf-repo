@@ -23,7 +23,7 @@ withDefaults(defineProps<{
 });
 </script>
 <template>
-  <footer class="footer-1-container" v-if="isShowBanner" :style="{ marginTop: type && type.page == 'about' ? 0 : '120px' }">
+  <footer class="footer-1-container" v-if="isShowBanner" :style="{ marginTop: type && type.page == 'about' ? 0 : '10px' }">
     <div class="page-container footer-1">
       <div class="left">
         <div class="title">
