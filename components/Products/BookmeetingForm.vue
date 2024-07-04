@@ -2,26 +2,27 @@
 <div class="email-form-container">
   <Form>
     <FormRow>
-      <FormItem :label="$t('products.stream.multiDRM.email.form.firstName')">
-        <FormInput name="first-name" :placeholder="$t('products.stream.multiDRM.email.form.firstNameLabel')" />
+      <FormItem :label="$t('bookMeeting.form.firstName')">
+        <FormInput name="first-name" :placeholder="$t('bookMeeting.form.firstNameLabel')" />
       </FormItem>
-      <FormItem :label="$t('products.stream.multiDRM.email.form.lastName')">
-        <FormInput name="last-name" :placeholder="$t('products.stream.multiDRM.email.form.lastNameLabel')" />
-      </FormItem>
-    </FormRow>
-    <FormRow>
-      <FormItem :label="$t('products.stream.multiDRM.email.form.companyName')">
-        <FormInput name="company-name" :placeholder="$t('products.stream.multiDRM.email.form.companyNameLabel')" />
+      <FormItem :label="$t('bookMeeting.form.email')">
+        <FormInput name="email" :placeholder="$t('bookMeeting.form.emailLabel')" />
       </FormItem>
     </FormRow>
     <FormRow>
-      <FormItem :label="$t('products.stream.multiDRM.email.form.email')">
-        <FormInput name="email" :placeholder="$t('products.stream.multiDRM.email.form.emailLabel')" />
+      <FormItem :label="$t('bookMeeting.form.companyName')">
+        <FormInput name="company-name" :placeholder="$t('bookMeeting.form.companyNameLabel')" />
+      </FormItem>
+      <FormItem :label="$t('bookMeeting.form.meetupDate')">
+        <FormInput name="meetupDate" :placeholder="$t('bookMeeting.form.meetupDate')" />
       </FormItem>
     </FormRow>
     <FormRow>
-      <FormItem :label="$t('products.stream.multiDRM.email.form.phone')">
-        <FormInput name="phone" :placeholder="$t('products.stream.multiDRM.email.form.phoneLabel')" />
+      <FormItem :label="$t('bookMeeting.form.phoneNumber')">
+        <FormInput name="phone-number" :placeholder="$t('bookMeeting.form.phoneLabel')" />
+      </FormItem>
+      <FormItem :label="$t('bookMeeting.form.meetWith')">
+        <FormInput name="meet-with" :placeholder="$t('bookMeeting.form.meetWithLabel')" />
       </FormItem>
     </FormRow>
     <FormRow>
@@ -43,7 +44,7 @@
 
     <div class="btn-container">
       <button type="submit" class="btn-submit">
-        {{ $t('products.stream.multiDRM.email.form.btn') }}
+        {{ $t('bookMeeting.form.btn') }}
       </button>
     </div>
   </Form>

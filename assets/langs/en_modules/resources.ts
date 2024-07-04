@@ -154,6 +154,30 @@ export default {
                 ],
             }
         },
+        contact: {
+            header: {
+                title: 'Polyfill Contact',
+                subTitle: 'How can we help you?',
+                content: 'Our Super Polyfill are here for you 24/7',
+
+            },
+            form: {
+                firstName: 'Full Name',
+                firstNameLabel: 'Your last name',
+                email: 'Email',
+                emailLabel: 'Your Email',
+                companyName: 'Company Name',
+                companyNameLabel: 'You Company Name',
+                meetupDate: 'Preferred date for Broadcast Asia meetup',
+                phoneNumber: 'Phone Number',
+                phoneLabel: 'XXX-XXX-XXXX',
+                meetWith: 'Who would you like to meet with?',
+                meetWithLabel: 'Please input',
+                message: 'Message',
+                messageLable: 'Tell us about your project or what you\'d like to discuss at Broadcast Asia meetup',
+                btn: 'Book a Meeting',
+            }
+        },
         story: {
             header: {
                 preTitle: 'Polyfill story',
@@ -2058,5 +2082,46 @@ export default {
                 items: null
             },
         },
+        contactUs: {
+            header: {},
+            list: [
+                {
+                    title: 'Support',
+                    subTitle: 'Get in touch with our Super Bunnies to get help.',
+                    icon: '/images/resources/contact/Pricing_CDN_ic_Storage_2x.png',
+                },
+                {
+                    title: 'Abuse',
+                    subTitle: 'Report illegal or inappropriate content.',
+                    icon: '/images/resources/contact/Pricing_CDN_ic_Optimizer_2x.png',
+
+                },
+                {
+                    title: 'Billing',
+                    subTitle: 'Get help with payment questions or billing issues.',
+                    icon: '/images/resources/contact/Pricing_CDN_ic_Stream_2x.png',
+
+                },
+            ],
+            form: {
+                firstName: 'First Name',
+                firstNameLabel: 'Your first name',
+                lastName: 'Last Name',
+                lastNameLabel: 'Your last name',
+                email: 'Email',
+                emailLabel: 'Your Email',
+                companyName: 'Company Name',
+                companyNameLabel: 'You Company Name',
+                info: 'How can we help you?',
+                infoLabel: 'I can not log into my account',
+                phoneNumber: 'Phone Number',
+                phoneLabel: 'XXX-XXX-XXXX',
+                meetWith: 'Who would you like to meet with?',
+                meetWithLabel: 'Please input',
+                message: 'Message',
+                messageLable: 'Tell us about vour proiect and how bunny.net can help you.',
+                btn: 'Let\'s talk',
+            }
+        },        
     }
 };

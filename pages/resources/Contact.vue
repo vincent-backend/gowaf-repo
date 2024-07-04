@@ -1,36 +1,26 @@
 <template>
   <div class="header-container">
     <div class="page-container header">
-      <div class="logo-container">
-        <div class="logo"></div>
-      </div>
       <div class="content-container">
         <div class="title">
-          {{ $t('bookMeeting.header.title') }}
+          {{ $t('resources.contact.header.title') }}
         </div>
+        <h4>{{ $t('resources.contact.header.subTitle') }}</h4>
         <div class="content">
-          {{ $t('bookMeeting.header.content') }}
+          {{ $t('resources.contact.header.content') }}
         </div>
       </div>
     </div>
   </div>
-  <div class="form-container">
-    <div class="page-container form">
-      <ProductsBookmeetingForm />
-      <div class="row"></div>
-      <div class="row"></div>
-      <div class="row"></div>
-      <div class="row row-message"></div>
-    </div>
-  </div>
-  
+  <ResourcesContactForm />
+  <Footer />
 </template>
 
 <style lang="less" scoped>
 .header-container {
   height: 350px;
   min-width: 1200px;
-  background: url(/public/images/book-meeting/banner.png) no-repeat center;
+  background: url(/public/images/resources/contact/banner-bg.png) no-repeat center;
   background-size: 1920px 350px;
 
   .header {
@@ -51,42 +41,44 @@
 
     .content-container {
       margin-top: 90px;
-
+      font-family: Mont, Mont;
       .title {
         width: 564px;
         margin: 0 auto;
-
-        font-family: Mont, Mont;
         font-weight: bold;
         font-size: 30px;
         color: #FFFFFF;
         line-height: 40px;
         text-align: center;
+        font-style: normal;
+        text-transform: none;
+        opacity: 0.9;
+      }
+      h4{
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 50px;
+        color: #FFFFFF;
+        line-height: 70px;
+        text-align: center;
+        font-style: normal;
+        text-transform: none;
+        opacity: 0.9;
       }
       .content {
-        margin: 12px auto 0;
-        width: 724px;
-        font-size: 16px;
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 14px;
         color: #FFFFFF;
+        line-height: 24px;
         text-align: center;
-        opacity: .8;
+        font-style: normal;
+        text-transform: none;
+        opacity: 0.8;
+        margin-top: 15px;
       }
     }
   }
 }
 
-.form-container {
-  margin-top: -70px;
-
-  .form {
-    width: 1000px;
-    margin: 0 auto;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
-    border-radius: 24px;
-    border: 1px solid #E6E6E6;
-    box-sizing: border-box;
-    padding: 50px 200px;
-  }
-}
 </style>
