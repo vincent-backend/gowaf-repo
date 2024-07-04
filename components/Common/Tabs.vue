@@ -9,15 +9,20 @@ defineProps<{
 defineEmits(['update:curTab']);
 defineModel('curTab', {
   type: Number,
-  default: 0,
+  default: 0
 });
 </script>
 
 <template>
   <div class="tabs-container">
     <div class="tabs">
-      <a v-for="tab, index in tabs" href="#" class="tab" :class="{ current: index === curTab }"
-        @click.prevent="$emit('update:curTab', index)">
+      <a
+        v-for="(tab, index) in tabs"
+        href="#"
+        class="tab"
+        :class="{ current: index === curTab }"
+        @click.prevent="$emit('update:curTab', index)"
+      >
         {{ tab.tab }}
       </a>
     </div>
@@ -35,7 +40,7 @@ defineModel('curTab', {
     gap: 10px;
 
     .tab {
-      background: #FFFFFF;
+      background: #ffffff;
       border-radius: 20px;
 
       font-weight: 500;
@@ -50,12 +55,11 @@ defineModel('curTab', {
 
       &.current {
         background: #000000;
-        color: #FFF;
+        color: #fff;
       }
     }
   }
 }
-
 
 // For mobile devices
 @media (max-width: 767px) {
@@ -77,7 +81,6 @@ defineModel('curTab', {
         white-space: nowrap;
 
         &.current {
-          
         }
       }
     }

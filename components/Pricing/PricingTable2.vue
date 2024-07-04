@@ -1,7 +1,11 @@
 <template>
   <div class="pricing-table2-container">
     <div class="pricing-table2 page-container">
-      <div class="table-container" v-for="item, index in $tm('pricing.stream.tables')" :class="`table-${index}`">
+      <div
+        class="table-container"
+        v-for="(item, index) in $tm('pricing.stream.tables')"
+        :class="`table-${index}`"
+      >
         <div class="header">{{ item.title }}</div>
         <div class="list-1">
           <div class="item" v-for="item2 in item.items">
@@ -26,7 +30,7 @@
   top: -60px;
 
   .pricing-table2 {
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
     border-radius: 24px;
     padding: 20px;
@@ -45,7 +49,7 @@
         justify-content: center;
         font-weight: 500;
         font-size: 22px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 30px;
       }
 
@@ -61,7 +65,7 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          background: #FFFFFF;
+          background: #ffffff;
           border-radius: 14px;
 
           .title {
@@ -75,7 +79,7 @@
             margin-top: 10px;
 
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
           }
         }
       }
@@ -106,7 +110,7 @@
       }
 
       &.table-0 {
-        background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+        background: linear-gradient(312deg, #f6f6f6 0%, #fafafa 100%);
 
         .header {
           background: #292929;
@@ -114,7 +118,8 @@
 
         .list-1 {
           .item {
-            .title {}
+            .title {
+            }
           }
         }
 
@@ -128,16 +133,16 @@
       }
 
       &.table-1 {
-        background: linear-gradient(312deg, #E9F8FC 0%, #FFFBF0 100%);
+        background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
 
         .header {
-          background: linear-gradient(316deg, #3475F5 0%, #12E599 100%);
+          background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
         }
 
         .list-1 {
           .item {
             .title {
-              background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+              background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }
@@ -219,33 +224,39 @@
         }
 
         &.table-0 {
-          .header {}
+          .header {
+          }
 
           .list-1 {
             .item {
-              .title {}
+              .title {
+              }
             }
           }
 
           .list-2 {
             .item {
-              .icon {}
+              .icon {
+              }
             }
           }
         }
 
         &.table-1 {
-          .header {}
+          .header {
+          }
 
           .list-1 {
             .item {
-              .title {}
+              .title {
+              }
             }
           }
 
           .list-2 {
             .item {
-              .icon {}
+              .icon {
+              }
             }
           }
         }

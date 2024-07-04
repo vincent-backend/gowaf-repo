@@ -2,10 +2,15 @@
   <div class="protect-at-edge-container">
     <div class="protect-at-edge page-container">
       <div class="title">{{ $t('network.ddos.protectAtEdge.title') }}</div>
-      <div class="sub-title">{{ $t('network.ddos.protectAtEdge.subTitle') }}</div>
+      <div class="sub-title">
+        {{ $t('network.ddos.protectAtEdge.subTitle') }}
+      </div>
       <div class="pic"></div>
       <div class="features">
-        <div class="item" v-for="item in $tm('network.ddos.protectAtEdge.items')">
+        <div
+          class="item"
+          v-for="item in $tm('network.ddos.protectAtEdge.items')"
+        >
           <span class="icon"></span>
           {{ item }}
         </div>
@@ -19,30 +24,31 @@
   margin-top: 80px;
 
   .protect-at-edge {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.pic {
+    > .pic {
       margin: 80px auto 0;
 
       width: 1102px;
       height: 368px;
-      background: url(/public/images/network/ddos/Network_DDoS_flow.png) no-repeat;
+      background: url(/public/images/network/ddos/Network_DDoS_flow.png)
+        no-repeat;
     }
 
-    >.features {
+    > .features {
       margin-top: 80px;
       display: flex;
       justify-content: center;
@@ -61,7 +67,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background: linear-gradient(147deg, #F9C22F 0%, #FA6E4A 100%);
+          background: linear-gradient(147deg, #f9c22f 0%, #fa6e4a 100%);
           border-radius: 50%;
           margin-right: 10px;
 
@@ -84,13 +90,13 @@
     margin-top: 6.25rem;
 
     .protect-at-edge {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -98,7 +104,7 @@
         text-align: left;
       }
 
-      >.pic {
+      > .pic {
         margin-top: 3.13rem;
 
         width: 46.88rem;
@@ -106,7 +112,7 @@
         background: url(/public/mobile-images/network/ddos/Network_DDoS_flow@2x.png);
       }
 
-      >.features {
+      > .features {
         margin-top: 3.13rem;
         flex-wrap: wrap;
         justify-content: flex-start;

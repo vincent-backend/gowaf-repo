@@ -6,7 +6,10 @@
       <div class="list">
         <div class="item" v-for="item in $tm('pricing.cdn.hop.list')">
           <div class="head">
-            <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+            <div
+              class="icon"
+              :style="{ backgroundImage: `url(${item.icon})` }"
+            ></div>
             <div class="title-container">
               <div class="title">{{ item.title }}</div>
               <div class="sub-title">{{ item.subTitle }}</div>
@@ -26,49 +29,49 @@
   margin-top: 120px;
 
   .hop {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.list {
+    > .list {
       margin-top: 80px;
 
       display: flex;
       justify-content: space-around;
 
-      >.item {
+      > .item {
         width: 204px;
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        >.head {
+        > .head {
           display: flex;
           flex-direction: column;
           align-items: center;
 
-          >.icon {
+          > .icon {
             width: 100px;
             height: 100px;
           }
 
-          >.title-container {
+          > .title-container {
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            >.title {
+            > .title {
               margin-top: 20px;
 
               font-weight: 500;
@@ -76,16 +79,16 @@
               line-height: 28px;
             }
 
-            >.sub-title {
+            > .sub-title {
               margin-top: 10px;
 
               font-size: 16px;
-              color: #4E4E4E;
+              color: #4e4e4e;
             }
           }
         }
 
-        >.btn-container {
+        > .btn-container {
           margin-top: 20px;
         }
       }
@@ -99,13 +102,13 @@
     margin-top: 6.25rem;
 
     .hop {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -113,31 +116,31 @@
         text-align: left;
       }
 
-      >.list {
+      > .list {
         margin: 3.13rem auto 0;
 
         width: 29rem;
         flex-direction: column;
         gap: 3.13rem;
 
-        >.item {
+        > .item {
           width: auto;
 
-          >.head {
+          > .head {
             flex-direction: row;
 
-            >.icon {
+            > .icon {
               width: 9.38rem;
               height: 9.38rem;
             }
 
-            >.title-container {
+            > .title-container {
               margin-left: 1.87rem;
 
               align-items: flex-start;
               justify-content: center;
 
-              >.title {
+              > .title {
                 margin-top: 0;
 
                 font-size: 2.13rem;
@@ -145,7 +148,7 @@
                 text-align: left;
               }
 
-              >.sub-title {
+              > .sub-title {
                 margin-top: 0.63rem;
 
                 font-size: 1.5rem;
@@ -155,7 +158,7 @@
             }
           }
 
-          >.btn-container {
+          > .btn-container {
             margin-top: 1.25rem;
 
             width: 100%;

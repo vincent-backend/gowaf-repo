@@ -18,7 +18,10 @@ defineProps<{
       <div class="content-container">
         <div class="row" v-for="row in rows">
           <div class="content-item" v-for="item in row">
-            <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+            <div
+              class="icon"
+              :style="{ backgroundImage: `url(${item.icon})` }"
+            ></div>
             <div class="title">{{ item.title }}</div>
             <div class="content">{{ item.content }}</div>
           </div>
@@ -33,39 +36,40 @@ defineProps<{
   margin-top: 80px;
 
   .always-safe {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
     }
 
-    >.content-container {
+    > .content-container {
       margin-top: 50px;
 
       display: flex;
       flex-direction: column;
       height: 535px;
       gap: 20px;
-      background: url(/public/images/network/ddos/Network_DDoS_graph_2@2x.png) no-repeat bottom center;
+      background: url(/public/images/network/ddos/Network_DDoS_graph_2@2x.png)
+        no-repeat bottom center;
 
-      >.row {
+      > .row {
         display: flex;
         justify-content: space-between;
 
         .content-item {
           width: 350px;
           min-height: 210px;
-          background: #FFFFFF;
-          box-shadow: 0px 4px 10px 0px #F1F1F1;
+          background: #ffffff;
+          box-shadow: 0px 4px 10px 0px #f1f1f1;
           border-radius: 14px;
-          border: 1px solid #E6E6E6;
+          border: 1px solid #e6e6e6;
           box-sizing: border-box;
           padding: 20px;
 
@@ -86,7 +90,7 @@ defineProps<{
             margin-top: 10px;
 
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
           }
         }
       }
@@ -100,19 +104,19 @@ defineProps<{
     margin-top: 6.25rem;
 
     .always-safe {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
         line-height: 2.38rem;
       }
 
-      >.content-container {
+      > .content-container {
         margin-top: 3.13rem;
         height: auto;
         gap: 1rem;
@@ -120,7 +124,7 @@ defineProps<{
         background-image: url(/public/mobile-images/network/ddos/Network_DDoS_graph_2@2x.png);
         background-size: 46.88rem 33.13rem !important;
 
-        >.row {
+        > .row {
           .content-item {
             width: 20.94rem;
             min-height: auto;

@@ -23,7 +23,6 @@
       <div class="row row-message"></div>
     </div>
   </div>
-  
 </template>
 
 <style lang="less" scoped>
@@ -59,7 +58,7 @@
         font-family: Mont, Mont;
         font-weight: bold;
         font-size: 30px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 40px;
         text-align: center;
       }
@@ -67,9 +66,9 @@
         margin: 12px auto 0;
         width: 724px;
         font-size: 16px;
-        color: #FFFFFF;
+        color: #ffffff;
         text-align: center;
-        opacity: .8;
+        opacity: 0.8;
       }
     }
   }
@@ -81,10 +80,10 @@
   .form {
     width: 1000px;
     margin: 0 auto;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
     border-radius: 24px;
-    border: 1px solid #E6E6E6;
+    border: 1px solid #e6e6e6;
     box-sizing: border-box;
     padding: 50px 200px;
   }

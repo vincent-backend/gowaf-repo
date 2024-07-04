@@ -7,12 +7,23 @@
         <div class="line"></div>
         <div class="main">
           <div class="left">
-            <div class="title">{{ $t('pricing.cdn.supportPlan.content.title') }}</div>
-            <div class="content">{{ $t('pricing.cdn.supportPlan.content.content') }}</div>
+            <div class="title">
+              {{ $t('pricing.cdn.supportPlan.content.title') }}
+            </div>
+            <div class="content">
+              {{ $t('pricing.cdn.supportPlan.content.content') }}
+            </div>
             <Line top="30px" m-top="1.87rem" />
-            <div class="title2">{{ $t('pricing.cdn.supportPlan.content.list.title') }}</div>
+            <div class="title2">
+              {{ $t('pricing.cdn.supportPlan.content.list.title') }}
+            </div>
             <div class="list">
-              <div class="item" v-for="item in $tm('pricing.cdn.supportPlan.content.list.items')">
+              <div
+                class="item"
+                v-for="item in $tm(
+                  'pricing.cdn.supportPlan.content.list.items'
+                )"
+              >
                 <div class="icon"></div>
                 <div class="text">{{ item }}</div>
               </div>
@@ -37,62 +48,62 @@
   margin-top: 120px;
 
   .support-plan {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.content {
+    > .content {
       margin-top: 80px;
 
-      background: #FFFFFF;
-      box-shadow: 0px 4px 10px 0px #F1F1F1;
+      background: #ffffff;
+      box-shadow: 0px 4px 10px 0px #f1f1f1;
       border-radius: 14px;
-      border: 1px solid #E6E6E6;
+      border: 1px solid #e6e6e6;
       position: relative;
       padding-bottom: 31px;
 
-      >.line {
+      > .line {
         // width: 1200px;
         width: 100%;
         height: 8px;
         background-image: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line@2x.png);
       }
 
-      >.main {
+      > .main {
         margin-top: 22px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        >.left {
+        > .left {
           width: 600px;
           margin-left: 30px;
 
-          >.title {
+          > .title {
             font-weight: 500;
             font-size: 24px;
             line-height: 33px;
           }
 
-          >.content {
+          > .content {
             margin-top: 20px;
 
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
           }
 
-          >.title2 {
+          > .title2 {
             margin-top: 30px;
 
             font-weight: 500;
@@ -100,7 +111,7 @@
             line-height: 33px;
           }
 
-          >.list {
+          > .list {
             margin-top: 20px;
             display: flex;
             flex-wrap: wrap;
@@ -114,7 +125,7 @@
               .icon {
                 width: 24px;
                 height: 24px;
-                background: linear-gradient(147deg, #F9C22F 0%, #FA6E4A 100%);
+                background: linear-gradient(147deg, #f9c22f 0%, #fa6e4a 100%);
                 border-radius: 12px;
 
                 display: flex;
@@ -139,12 +150,12 @@
             }
           }
 
-          >.btn-container {
+          > .btn-container {
             margin-top: 30px;
           }
         }
 
-        >.right {
+        > .right {
           margin-right: 90px;
 
           .pic {
@@ -165,13 +176,13 @@
     margin-top: 6.25rem;
 
     .support-plan {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 0.94rem;
 
         font-size: 1.75rem;
@@ -179,46 +190,46 @@
         text-align: left;
       }
 
-      >.content {
+      > .content {
         margin-top: 3.19rem;
 
         border-radius: 0.88rem;
-        border: 0.06rem solid #E6E6E6;
+        border: 0.06rem solid #e6e6e6;
         padding-bottom: 3.13rem;
 
-        >.line {
+        > .line {
           height: 0.5rem;
           background-image: url(/public/mobile-images/pricing/cdn/Pricing_CDN_card_top_line@2x.png);
         }
 
-        >.main {
+        > .main {
           margin-top: 1.38rem;
           flex-direction: column;
 
-          >.left {
+          > .left {
             width: auto;
             margin: 0 1.81rem;
 
-            >.title {
+            > .title {
               font-size: 2.13rem;
               line-height: 3rem;
             }
 
-            >.content {
+            > .content {
               margin-top: 1rem;
 
               font-size: 1.63rem;
               line-height: 2.38rem;
             }
 
-            >.title2 {
+            > .title2 {
               margin-top: 1.87rem;
 
               font-size: 2.13rem;
               line-height: 3rem;
             }
 
-            >.list {
+            > .list {
               margin-top: 1.25rem;
               flex-direction: column;
               gap: 1.87rem;
@@ -231,19 +242,21 @@
                   width: 2.25rem;
                   height: 2.25rem;
 
-                  &::before {}
+                  &::before {
+                  }
                 }
 
-                .text {}
+                .text {
+                }
               }
             }
 
-            >.btn-container {
+            > .btn-container {
               margin-top: 1.87rem;
             }
           }
 
-          >.right {
+          > .right {
             margin-top: 3.13rem;
             margin-right: 0;
 

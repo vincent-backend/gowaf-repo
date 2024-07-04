@@ -1,13 +1,17 @@
 <script lang="ts" setup>
 const props = defineProps({
   name: String,
-  placeholder: String,
+  placeholder: String
 });
 </script>
 
 <template>
   <div class="textarea-container">
-    <textarea class="textarea" :name="props.name" :placeholder="props.placeholder"></textarea>
+    <textarea
+      class="textarea"
+      :name="props.name"
+      :placeholder="props.placeholder"
+    ></textarea>
   </div>
 </template>
 
@@ -22,16 +26,16 @@ const props = defineProps({
     width: 100%;
     min-height: 120px;
     outline: none;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 8px;
-    border: 1px solid #E6E6E6;
+    border: 1px solid #e6e6e6;
     font-size: 16px;
     color: #000;
     padding: 16px;
     box-sizing: border-box;
 
     &:focus {
-      border-color: #46CF3A;
+      border-color: #46cf3a;
     }
   }
 }
@@ -45,7 +49,8 @@ const props = defineProps({
       font-size: 1.75rem;
       padding: 1.25rem;
 
-      &:focus {}
+      &:focus {
+      }
     }
   }
 }

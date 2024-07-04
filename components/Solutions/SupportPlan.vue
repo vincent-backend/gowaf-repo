@@ -1,18 +1,34 @@
 <template>
   <div class="support-plan-container">
     <div class="support-plan page-container">
-      <div class="title">{{ $t('solutions.videoDelivery.supportPlan.title') }}</div>
-      <div class="sub-title">{{ $t('solutions.videoDelivery.supportPlan.subTitle') }}</div>
+      <div class="title">
+        {{ $t('solutions.videoDelivery.supportPlan.title') }}
+      </div>
+      <div class="sub-title">
+        {{ $t('solutions.videoDelivery.supportPlan.subTitle') }}
+      </div>
       <div class="main">
         <div class="line"></div>
         <div class="content">
           <div class="left">
-            <div class="title">{{ $t('solutions.videoDelivery.supportPlan.main.title') }}</div>
-            <div class="sub-title">{{ $t('solutions.videoDelivery.supportPlan.main.subTitle') }}</div>
+            <div class="title">
+              {{ $t('solutions.videoDelivery.supportPlan.main.title') }}
+            </div>
+            <div class="sub-title">
+              {{ $t('solutions.videoDelivery.supportPlan.main.subTitle') }}
+            </div>
             <Line top="30px" m-top="2.5rem" />
             <div class="list">
-              <div class="item" v-for="item in $tm('solutions.videoDelivery.supportPlan.main.list')">
-                <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+              <div
+                class="item"
+                v-for="item in $tm(
+                  'solutions.videoDelivery.supportPlan.main.list'
+                )"
+              >
+                <div
+                  class="icon"
+                  :style="{ backgroundImage: `url(${item.icon})` }"
+                ></div>
                 <div class="right">
                   <div class="title">{{ item.title }}</div>
                   <div class="content">{{ item.content }}</div>
@@ -39,34 +55,34 @@
   margin-top: 120px;
 
   .support-plan {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.main {
+    > .main {
       margin-top: 80px;
 
-      background: #FFFFFF;
-      box-shadow: 0px 4px 10px 0px #F1F1F1;
+      background: #ffffff;
+      box-shadow: 0px 4px 10px 0px #f1f1f1;
       border-radius: 14px;
-      border: 1px solid #E6E6E6;
+      border: 1px solid #e6e6e6;
       box-sizing: border-box;
       padding: 30px;
       padding-right: 90px;
       position: relative;
 
-      >.line {
+      > .line {
         position: absolute;
         top: 0;
         left: 0;
@@ -75,43 +91,43 @@
         background: url(/public/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
       }
 
-      >.content {
+      > .content {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        >.left {
+        > .left {
           width: 600px;
 
-          >.title {
+          > .title {
             font-weight: 500;
             font-size: 24px;
             line-height: 33px;
           }
 
-          >.sub-title {
+          > .sub-title {
             margin-top: 20px;
 
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
           }
 
-          >.list {
+          > .list {
             margin-top: 30px;
             display: flex;
             flex-direction: column;
             gap: 20px;
 
-            >.item {
+            > .item {
               display: flex;
               align-items: center;
 
-              >.icon {
+              > .icon {
                 width: 48px;
                 height: 48px;
               }
 
-              >.right {
+              > .right {
                 margin-left: 16px;
                 margin-right: 80px;
                 flex: 1;
@@ -125,19 +141,19 @@
                 .content {
                   margin-top: 6px;
 
-                  color: #4E4E4E;
+                  color: #4e4e4e;
                   line-height: 20px;
                 }
               }
             }
           }
 
-          >.btn-container {
+          > .btn-container {
             margin-top: 30px;
           }
         }
 
-        >.right {
+        > .right {
           .pic {
             width: 338px;
             height: 270px;
@@ -156,13 +172,13 @@
     margin-top: 6.25rem;
 
     .support-plan {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -170,46 +186,46 @@
         text-align: left;
       }
 
-      >.main {
+      > .main {
         margin-top: 3.13rem;
 
         border-radius: 0.88rem;
         padding: 1.87rem 1.87rem 3.13rem 1.87rem;
 
-        >.line {
+        > .line {
           height: 0.5rem;
         }
 
-        >.content {
+        > .content {
           flex-direction: column;
 
-          >.left {
+          > .left {
             width: auto;
 
-            >.title {
+            > .title {
               font-size: 2.13rem;
               line-height: 3rem;
             }
 
-            >.sub-title {
+            > .sub-title {
               margin-top: 1rem;
 
               font-size: 1.63rem;
               line-height: 2.38rem;
             }
 
-            >.list {
+            > .list {
               margin-top: 1.87rem;
 
               gap: 2.5rem;
 
-              >.item {
-                >.icon {
+              > .item {
+                > .icon {
                   width: 4.5rem;
                   height: 4.5rem;
                 }
 
-                >.right {
+                > .right {
                   margin-left: 1.25rem;
                   margin-right: 0;
 
@@ -228,12 +244,12 @@
               }
             }
 
-            >.btn-container {
+            > .btn-container {
               margin-top: 1.87rem;
             }
           }
 
-          >.right {
+          > .right {
             margin-top: 3.13rem;
 
             .pic {

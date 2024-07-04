@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 const props = defineProps({
-  items: Array<any>,
+  items: Array<any>
 });
 </script>
 
@@ -9,7 +9,10 @@ const props = defineProps({
     <div class="feature-list page-container">
       <div class="list">
         <div class="item" v-for="item in props.items">
-          <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+          <div
+            class="icon"
+            :style="{ backgroundImage: `url(${item.icon})` }"
+          ></div>
           <div class="title">{{ item.title }}</div>
           <div class="content">{{ item.content }}</div>
         </div>
@@ -45,7 +48,7 @@ const props = defineProps({
           margin-top: 10px;
 
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
         }
       }
     }

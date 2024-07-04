@@ -16,9 +16,12 @@
         <div class="item" v-for="item in $tm('home.join2.list')">
           <div class="person">
             <div class="left">
-              <div class="avatar" :style="{
-          backgroundImage: `url(/images/home/${item.avatar}.png)`,
-        }"></div>
+              <div
+                class="avatar"
+                :style="{
+                  backgroundImage: `url(/images/home/${item.avatar}.png)`
+                }"
+              ></div>
             </div>
             <div class="right">
               <div class="name">
@@ -53,23 +56,24 @@
   margin-top: 150px;
 
   .join2 {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       display: flex;
       align-items: center;
       justify-content: center;
 
-      .s-1 {}
+      .s-1 {
+      }
 
       .s-2 {
         display: block;
@@ -80,37 +84,39 @@
       }
 
       .s-3 {
-        color: #FA9B3B;
+        color: #fa9b3b;
         margin-right: 10px;
       }
 
-      .s-4 {}
+      .s-4 {
+      }
 
       .s-5 {
-        color: #0EBF6A;
+        color: #0ebf6a;
         text-decoration: underline;
         margin: 0 10px;
       }
 
-      .s-6 {}
+      .s-6 {
+      }
     }
 
-    >.list {
+    > .list {
       margin-top: 60px;
 
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
 
-      >.item {
+      > .item {
         box-sizing: border-box;
         width: 386px;
         height: 410px;
         padding: 30px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 10px 0px #F1F1F1;
+        background: #ffffff;
+        box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
         display: flex;
         flex-direction: column;
 
@@ -138,7 +144,7 @@
 
             .date {
               font-size: 16px;
-              color: #4E4E4E;
+              color: #4e4e4e;
             }
           }
         }
@@ -154,7 +160,7 @@
             height: 28px;
             border-radius: 4px;
             background: rgba(255, 252, 235, 0.7);
-            box-shadow: inset 0px 1px 0px 0px #FFFFFF;
+            box-shadow: inset 0px 1px 0px 0px #ffffff;
             border-radius: 4px;
             backdrop-filter: blur(5px);
             display: flex;
@@ -183,7 +189,7 @@
           margin-top: 10px;
 
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
         }
       }
     }
@@ -196,18 +202,19 @@
     margin-top: 6.25rem;
 
     .join2 {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         display: block;
 
-        .s-1 {}
+        .s-1 {
+        }
 
         .s-2 {
           display: inline-block;
@@ -218,20 +225,24 @@
           top: 0.7rem;
         }
 
-        .s-3 {}
+        .s-3 {
+        }
 
-        .s-4 {}
+        .s-4 {
+        }
 
-        .s-5 {}
+        .s-5 {
+        }
 
-        .s-6 {}
+        .s-6 {
+        }
       }
 
-      >.list {
+      > .list {
         margin-top: 3.13rem;
         gap: 1.25rem;
 
-        >.item {
+        > .item {
           width: 100%;
           height: auto;
           padding: 1.88rem;
@@ -267,7 +278,8 @@
               width: 2.63rem;
               height: 2.63rem;
 
-              &::before {}
+              &::before {
+              }
             }
           }
 

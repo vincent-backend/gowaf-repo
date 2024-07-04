@@ -1,24 +1,56 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('pricing.breadCrumbs.parent')" :items="[
-    { label: $t('pricing.breadCrumbs.overview'), href: '/pricing/overview', current: false },
-    { label: $t('pricing.breadCrumbs.cdn'), href: '/pricing/cdn', current: true },
-    { label: $t('pricing.breadCrumbs.stream'), href: '/pricing/stream', current: false },
-    { label: $t('pricing.breadCrumbs.storage'), href: '/pricing/storage', current: false },
-    { label: $t('pricing.breadCrumbs.optimizer'), href: '/pricing/optimizer', current: false },
-    { label: $t('pricing.breadCrumbs.dns'), href: '/pricing/dns', current: false },
-  ]" />
+  <BreadCrumbs
+    :title="$t('pricing.breadCrumbs.parent')"
+    :items="[
+      {
+        label: $t('pricing.breadCrumbs.overview'),
+        href: '/pricing/overview',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.cdn'),
+        href: '/pricing/cdn',
+        current: true
+      },
+      {
+        label: $t('pricing.breadCrumbs.stream'),
+        href: '/pricing/stream',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.storage'),
+        href: '/pricing/storage',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.optimizer'),
+        href: '/pricing/optimizer',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.dns'),
+        href: '/pricing/dns',
+        current: false
+      }
+    ]"
+  />
 
-  <CommonHeader1 :pre-title="$t('pricing.cdn.header.preTitle')" :title="$t('pricing.cdn.header.title')"
-    :content="$t('pricing.cdn.header.content')" :show-foot="false" :pic="{
-    src: '/images/pricing/cdn/Pricing_CDN_banner_graph@2x.png',
-    w: '388px',
-    h: '332px',
+  <CommonHeader1
+    :pre-title="$t('pricing.cdn.header.preTitle')"
+    :title="$t('pricing.cdn.header.title')"
+    :content="$t('pricing.cdn.header.content')"
+    :show-foot="false"
+    :pic="{
+      src: '/images/pricing/cdn/Pricing_CDN_banner_graph@2x.png',
+      w: '388px',
+      h: '332px',
 
-    msrc: '/mobile-images/pricing/cdn/Pricing_CDN_banner_graph@2x.png',
-    mw: '24.25rem',
-    mh: '20.75rem',
-  }" />
+      msrc: '/mobile-images/pricing/cdn/Pricing_CDN_banner_graph@2x.png',
+      mw: '24.25rem',
+      mh: '20.75rem'
+    }"
+  />
 
   <div class="price-1-container">
     <PricingTable :content="$tm('pricing.cdn.pricingTable')" />
@@ -43,7 +75,7 @@
   position: relative;
   top: -60px;
   z-index: 2;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
   border-radius: 24px;
   box-sizing: border-box;

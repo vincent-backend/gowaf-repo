@@ -4,9 +4,9 @@ defineProps<{
   title2: string;
   title2Width: String;
   items: {
-    icon: string,
-    title: string,
-    content?: string,
+    icon: string;
+    title: string;
+    content?: string;
   }[];
 }>();
 </script>
@@ -18,7 +18,10 @@ defineProps<{
       <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
-          <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+          <div
+            class="icon"
+            :style="{ backgroundImage: `url(${item.icon})` }"
+          ></div>
           <div class="title">
             {{ item.title }}
           </div>
@@ -33,7 +36,7 @@ defineProps<{
 
 <style lang="less" scoped>
 .list1-container {
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
   overflow: hidden;
 
   .title1 {
@@ -50,7 +53,7 @@ defineProps<{
 
     width: 612px;
     font-size: 16px;
-    color: #4E4E4E;
+    color: #4e4e4e;
     text-align: center;
   }
 
@@ -58,7 +61,7 @@ defineProps<{
     margin-top: 80px;
     width: 1090px;
 
-    >.list {
+    > .list {
       margin-top: 80px;
 
       display: flex;
@@ -66,18 +69,19 @@ defineProps<{
       justify-content: space-between;
       gap: 50px;
       &::after {
-          content: '';
-          flex: auto;
+        content: '';
+        flex: auto;
       }
       .item {
         width: 330px;
         height: 380px;
-        background: url(/public/images/network/Network_DDoS_card_bg.png) no-repeat top,
-          #FFFFFF;
+        background:
+          url(/public/images/network/Network_DDoS_card_bg.png) no-repeat top,
+          #ffffff;
         background-size: 330px 200px !important;
-        box-shadow: 0px 4px 10px 0px #F1F1F1;
+        box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
         box-sizing: border-box;
         padding: 20px;
 
@@ -99,7 +103,7 @@ defineProps<{
           margin-top: 10px;
 
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
         }
       }
     }
@@ -131,7 +135,7 @@ defineProps<{
       margin-top: 3.13rem;
       width: 43rem;
 
-      >.list {
+      > .list {
         margin-top: 3.13rem;
         gap: 1.25rem 0;
 

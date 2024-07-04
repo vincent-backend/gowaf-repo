@@ -1,27 +1,58 @@
 <template>
   <div class="support-plan-container">
     <div class="support-plan page-container">
-      <div class="title">{{ $t('products.storage.Europe.storageSupportPlan.title') }}</div>
-      <div class="sub-title">{{ $t('products.storage.Europe.storageSupportPlan.subTitle') }}</div>
+      <div class="title">
+        {{ $t('products.storage.Europe.storageSupportPlan.title') }}
+      </div>
+      <div class="sub-title">
+        {{ $t('products.storage.Europe.storageSupportPlan.subTitle') }}
+      </div>
       <div class="content">
         <div class="line"></div>
         <div class="main">
           <div class="left">
-            <div class="title">{{ $t('products.storage.Europe.storageSupportPlan.content.title') }}</div>
-            <div class="content">{{ $t('products.storage.Europe.storageSupportPlan.content.content') }}</div>
+            <div class="title">
+              {{
+                $t('products.storage.Europe.storageSupportPlan.content.title')
+              }}
+            </div>
+            <div class="content">
+              {{
+                $t('products.storage.Europe.storageSupportPlan.content.content')
+              }}
+            </div>
             <Line top="30px" />
             <ul class="super-plan-list">
-              <li v-for="(item, index) in $tm('products.storage.Europe.storageSupportPlan.content.list')">
-                <h4><span>{{ item.num }}</span>{{ item.unit }}</h4>
-                {{  item.title }}
+              <li
+                v-for="(item, index) in $tm(
+                  'products.storage.Europe.storageSupportPlan.content.list'
+                )"
+              >
+                <h4>
+                  <span>{{ item.num }}</span
+                  >{{ item.unit }}
+                </h4>
+                {{ item.title }}
               </li>
             </ul>
             <Line top="10px" />
-            <div class="title mt30">{{ $t('products.storage.Europe.storageSupportPlan.content.title1') }}</div>
-            <div class="content">{{ $t('products.storage.Europe.storageSupportPlan.content.content1') }}</div>
+            <div class="title mt30">
+              {{
+                $t('products.storage.Europe.storageSupportPlan.content.title1')
+              }}
+            </div>
+            <div class="content">
+              {{
+                $t(
+                  'products.storage.Europe.storageSupportPlan.content.content1'
+                )
+              }}
+            </div>
             <div class="btn-container">
               <a href="#" class="trail-btn">
-                {{ $t('products.storage.Europe.storageSupportPlan.content.btn') }}
+                {{
+                  $t('products.storage.Europe.storageSupportPlan.content.btn')
+                }}
               </a>
             </div>
           </div>
@@ -39,71 +70,65 @@
   margin-top: 120px;
 
   .support-plan {
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.content {
+    > .content {
       margin-top: 80px;
 
-      background: #FFFFFF;
-      box-shadow: 0px 4px 10px 0px #F1F1F1;
+      background: #ffffff;
+      box-shadow: 0px 4px 10px 0px #f1f1f1;
       border-radius: 14px;
-      border: 1px solid #E6E6E6;
+      border: 1px solid #e6e6e6;
       position: relative;
       padding-bottom: 31px;
 
-      >.line {
+      > .line {
         width: 1200px;
         height: 8px;
         background: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line.png);
       }
 
-      >.main {
+      > .main {
         margin-top: 22px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        >.left {
+        > .left {
           width: 600px;
           margin-left: 30px;
-          .mt30{
+          .mt30 {
             margin-top: 30px;
           }
-          .super-plan-list{
+          .super-plan-list {
             margin: 20px 0 20px;
             display: flex;
-            li{
+            li {
               margin-right: 30px;
               color: #4e4e4e;
-              h4{
-                background: url(/public/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png) no-repeat 0 3px;
+              h4 {
+                background: url(/public/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png)
+                  no-repeat 0 3px;
                 background-size: 18px 18px !important;
                 text-indent: 29px;
                 font-weight: bold;
                 color: #000;
-                span{
+                span {
                   font-size: 24px;
                   padding-right: 5px;
                   color: #000;
@@ -111,39 +136,29 @@
               }
             }
           }
-          >.title {
+          > .title {
             font-weight: 500;
             font-size: 24px;
             line-height: 33px;
           }
 
-          >.content {
+          > .content {
             margin-top: 20px;
 
-
-
             font-size: 16px;
-            color: #4E4E4E;
-
-
-
-
+            color: #4e4e4e;
           }
 
-          >.title2 {
+          > .title2 {
             margin-top: 30px;
-
 
             font-weight: 500;
             font-size: 24px;
 
             line-height: 33px;
-
-
-
           }
 
-          >.list {
+          > .list {
             margin-top: 20px;
             display: flex;
             flex-wrap: wrap;
@@ -157,7 +172,7 @@
               .icon {
                 width: 24px;
                 height: 24px;
-                background: linear-gradient(147deg, #F9C22F 0%, #FA6E4A 100%);
+                background: linear-gradient(147deg, #f9c22f 0%, #fa6e4a 100%);
                 border-radius: 12px;
 
                 display: flex;
@@ -175,24 +190,20 @@
               .text {
                 margin-left: 10px;
 
-
                 font-weight: 500;
                 font-size: 16px;
 
                 line-height: 22px;
-
-
-
               }
             }
           }
 
-          >.btn-container {
+          > .btn-container {
             margin-top: 30px;
           }
         }
 
-        >.right {
+        > .right {
           margin-right: 90px;
 
           .pic {

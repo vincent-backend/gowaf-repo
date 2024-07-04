@@ -1,33 +1,67 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('pricing.breadCrumbs.parent')" :items="[
-    { label: $t('pricing.breadCrumbs.overview'), href: '/pricing/overview', current: false },
-    { label: $t('pricing.breadCrumbs.cdn'), href: '/pricing/cdn', current: false },
-    { label: $t('pricing.breadCrumbs.stream'), href: '/pricing/stream', current: false },
-    { label: $t('pricing.breadCrumbs.storage'), href: '/pricing/storage', current: true },
-    { label: $t('pricing.breadCrumbs.optimizer'), href: '/pricing/optimizer', current: false },
-    { label: $t('pricing.breadCrumbs.dns'), href: '/pricing/dns', current: false },
-  ]" />
+  <BreadCrumbs
+    :title="$t('pricing.breadCrumbs.parent')"
+    :items="[
+      {
+        label: $t('pricing.breadCrumbs.overview'),
+        href: '/pricing/overview',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.cdn'),
+        href: '/pricing/cdn',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.stream'),
+        href: '/pricing/stream',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.storage'),
+        href: '/pricing/storage',
+        current: true
+      },
+      {
+        label: $t('pricing.breadCrumbs.optimizer'),
+        href: '/pricing/optimizer',
+        current: false
+      },
+      {
+        label: $t('pricing.breadCrumbs.dns'),
+        href: '/pricing/dns',
+        current: false
+      }
+    ]"
+  />
 
-  <CommonHeader1 :pre-title="$t('pricing.storage.header.preTitle')" :title="$t('pricing.storage.header.title')"
-    :content="$t('pricing.storage.header.content')" :show-foot="false" :pic="{
-    src: '/images/pricing/storage/Pricing_Storage_banner_graph@2x.png',
-    w: '464px',
-    h: '324px',
+  <CommonHeader1
+    :pre-title="$t('pricing.storage.header.preTitle')"
+    :title="$t('pricing.storage.header.title')"
+    :content="$t('pricing.storage.header.content')"
+    :show-foot="false"
+    :pic="{
+      src: '/images/pricing/storage/Pricing_Storage_banner_graph@2x.png',
+      w: '464px',
+      h: '324px',
 
-    msrc: '/mobile-images/pricing/storage/Pricing_Storage_banner_graph@2x.png',
-    mw: '29rem',
-    mh: '20.25rem',
-  }" />
+      msrc: '/mobile-images/pricing/storage/Pricing_Storage_banner_graph@2x.png',
+      mw: '29rem',
+      mh: '20.25rem'
+    }"
+  />
 
   <div class="price-1-container">
     <PricingTable :content="$tm('pricing.storage.pricingTable')" />
   </div>
 
-  <PricingMap :content="{
-    title: $t('pricing.storage.map.title'),
-    subTitle: $t('pricing.storage.map.subTitle')
-  }" />
+  <PricingMap
+    :content="{
+      title: $t('pricing.storage.map.title'),
+      subTitle: $t('pricing.storage.map.subTitle')
+    }"
+  />
 
   <CommonList1 v-bind="$tm('pricing.overview.list1')" />
   <PricingCalculate1 />
@@ -46,7 +80,7 @@
   position: relative;
   top: -60px;
   z-index: 2;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
   border-radius: 24px;
   box-sizing: border-box;

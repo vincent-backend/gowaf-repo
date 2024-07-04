@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const props = defineProps({
   name: String,
-  value: String,
+  value: String
 });
 
 const checked = ref(false);
@@ -9,8 +9,13 @@ const checked = ref(false);
 
 <template>
   <div class="checkbox-container">
-    <input type="checkbox" :checked="checked" @change="checked = $event.target.checked" :name="props.name"
-      :value="props.value" />
+    <input
+      type="checkbox"
+      :checked="checked"
+      @change="checked = $event.target.checked"
+      :name="props.name"
+      :value="props.value"
+    />
     <div class="checkbox" :class="{ checked }"></div>
     <div class="text">
       <slot />
@@ -23,7 +28,7 @@ const checked = ref(false);
   display: flex;
   align-items: center;
 
-  input[type=checkbox] {
+  input[type='checkbox'] {
     display: none;
   }
 
@@ -42,11 +47,9 @@ const checked = ref(false);
     margin-left: 10px;
 
     * {
-      color: #4E4E4E;
+      color: #4e4e4e;
       line-height: 20px;
     }
-
-
   }
 }
 

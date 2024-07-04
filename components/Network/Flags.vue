@@ -8,15 +8,28 @@
         {{ $t('network.overview.flags.subTitle') }}
       </div>
       <div class="flag-groups">
-        <div class="flag-group" v-for="group in $tm('network.overview.flags.groups')">
+        <div
+          class="flag-group"
+          v-for="group in $tm('network.overview.flags.groups')"
+        >
           <div class="title">
-            <div class="icon" :style="{ backgroundImage: `url(/images/network/${group.icon}@2x.png)` }"></div>
+            <div
+              class="icon"
+              :style="{
+                backgroundImage: `url(/images/network/${group.icon}@2x.png)`
+              }"
+            ></div>
             <div class="text">{{ group.region }}</div>
           </div>
           <Line top="16px" m-top="1.25rem" />
           <div class="content">
             <div class="flag" v-for="flag in group.items">
-              <div class="icon" :style="{ backgroundImage: `url(/images/network/${flag.img}@2x.png)` }"></div>
+              <div
+                class="icon"
+                :style="{
+                  backgroundImage: `url(/images/network/${flag.img}@2x.png)`
+                }"
+              ></div>
               <div class="text">{{ flag.label }}</div>
             </div>
           </div>
@@ -30,21 +43,21 @@
 .flags-container {
   margin-top: 80px;
 
-  >.flags {
-    >.title {
+  > .flags {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
     }
 
-    >.flag-groups {
+    > .flag-groups {
       margin-top: 40px;
       display: flex;
       flex-direction: column;
@@ -52,10 +65,10 @@
 
       .flag-group {
         padding: 16px 30px 32px;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 24px;
 
-        >.title {
+        > .title {
           height: 60px;
           display: flex;
           align-items: center;
@@ -74,7 +87,7 @@
           }
         }
 
-        >.content {
+        > .content {
           margin-top: 32px;
 
           display: flex;
@@ -109,20 +122,20 @@
   .flags-container {
     margin-top: 6.25rem;
 
-    >.flags {
-      >.title {
+    > .flags {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
         line-height: 2.38rem;
       }
 
-      >.flag-groups {
+      > .flag-groups {
         margin-top: 3.13rem;
 
         .flag-group {
@@ -130,7 +143,7 @@
           padding-bottom: 3.13rem;
           border-radius: 1.5rem;
 
-          >.title {
+          > .title {
             height: 5.13rem;
 
             .icon {
@@ -146,7 +159,7 @@
             }
           }
 
-          >.content {
+          > .content {
             margin-top: 3.13rem;
             gap: 4.38rem 0;
 

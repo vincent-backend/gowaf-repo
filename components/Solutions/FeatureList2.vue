@@ -2,7 +2,7 @@
 const props = defineProps({
   title: String,
   subTitle: String,
-  items: Array<any>,
+  items: Array<any>
 });
 </script>
 
@@ -14,11 +14,14 @@ const props = defineProps({
       <div class="list">
         <div class="item" v-for="item in props.items">
           <div class="header">
-            <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+            <div
+              class="icon"
+              :style="{ backgroundImage: `url(${item.icon})` }"
+            ></div>
             <div class="tip" v-if="item.tip">{{ item.tip }}</div>
           </div>
           <div class="title">
-            {{ item.title }} 
+            {{ item.title }}
             <span v-if="item.tip" class="mobile-tip">{{ item.tip }}</span>
           </div>
           <div class="content">{{ item.content }}</div>
@@ -33,32 +36,24 @@ const props = defineProps({
   margin-top: 80px;
 
   .feature-list {
-
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 18px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.list {
+    > .list {
       margin-top: 60px;
       display: flex;
       justify-content: space-between;
@@ -79,46 +74,32 @@ const props = defineProps({
             margin-left: 16px;
 
             padding: 6px 12px;
-            background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
+            background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
             border-radius: 25px;
 
-
-
-
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 20px;
-
-
-
           }
         }
 
         .title {
           margin-top: 20px;
 
-
           font-weight: 500;
           font-size: 16px;
 
           line-height: 22px;
 
-        .mobile-tip{
-          display: none;
-        }
-
+          .mobile-tip {
+            display: none;
+          }
         }
 
         .content {
           margin-top: 14px;
 
-
-
-
-          color: #4E4E4E;
+          color: #4e4e4e;
           line-height: 20px;
-
-
-
         }
       }
     }
@@ -130,35 +111,34 @@ const props = defineProps({
     margin-top: 6.25rem;
 
     .feature-list {
-
-      >.title {
+      > .title {
         font-weight: 500;
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
         font-size: 1.75rem;
-        color: #4E4E4E;
+        color: #4e4e4e;
         text-align: left;
       }
-      >.list {
-        margin-top: .8rem;
+      > .list {
+        margin-top: 0.8rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
         .item {
-          position: relative;    
-          padding-left: 5.38rem;  
-          margin-top: 2.5rem;    
+          position: relative;
+          padding-left: 5.38rem;
+          margin-top: 2.5rem;
 
           .header {
             position: absolute;
-            left:0;
-            top:2.81rem;
+            left: 0;
+            top: 2.81rem;
             display: flex;
             flex-direction: row;
             .icon {
@@ -173,28 +153,25 @@ const props = defineProps({
           .title {
             margin-top: 0;
 
-
             font-weight: 500;
             font-size: 1.75rem;
 
             line-height: 22px;
-          .mobile-tip{
-            display: inline-block;
+            .mobile-tip {
+              display: inline-block;
               margin-left: 1rems;
-              padding: .4rem .8rem;
-              background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
+              padding: 0.4rem 0.8rem;
+              background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
               border-radius: 1.6rem;
-              color: #FFFFFF;
+              color: #ffffff;
               line-height: 1.4rem;
               font-size: 1.25rem;
-          }
-
-
+            }
           }
 
           .content {
-            margin-top: .6rem;
-            color: #4E4E4E;
+            margin-top: 0.6rem;
+            color: #4e4e4e;
             font-size: 1.5rem;
             line-height: 1.4;
           }

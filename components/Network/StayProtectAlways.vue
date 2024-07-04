@@ -2,10 +2,16 @@
   <div class="stay-protect-always-container">
     <div class="stay-protect-always page-container">
       <div class="left">
-        <div class="title">{{ $t('network.ddos.stayProtectAlways.title') }}</div>
-        <div class="sub-title">{{ $t('network.ddos.stayProtectAlways.subTitle') }}</div>
+        <div class="title">
+          {{ $t('network.ddos.stayProtectAlways.title') }}
+        </div>
+        <div class="sub-title">
+          {{ $t('network.ddos.stayProtectAlways.subTitle') }}
+        </div>
         <div class="btn-container">
-          <a href="#" class="trail-btn">{{ $t('network.ddos.stayProtectAlways.btn') }}</a>
+          <a href="#" class="trail-btn">{{
+            $t('network.ddos.stayProtectAlways.btn')
+          }}</a>
         </div>
       </div>
       <div class="right">
@@ -18,7 +24,7 @@
 <style lang="less" scoped>
 .stay-protect-always-container {
   margin-top: 120px;
-  background: linear-gradient(180deg, #E6EDFC 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
   height: 330px;
 
   .stay-protect-always {
@@ -38,7 +44,7 @@
         margin-top: 10px;
 
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
 
       .btn-container {

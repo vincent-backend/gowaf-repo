@@ -1,69 +1,105 @@
 <script lang="ts" setup>
-withDefaults(defineProps<{
-  preTitle?: string;
-  logo?: string;
-  logoWidth: string;
-  logoHeight: string;
-  title?: string;
-  content?: string;
-  btn?: string;
-  href?: string;
-  hint?: string;
-  page?: string;
-  btn2BorderColor?: string;
-  isHidenLinkHit: boolean;
-  btn2?: string;
-  pic: {
-    src: string;
-    w: string;
-    h: string;
-    msrc: string;
-    mw: string;
-    mh: string;
-  };
-  showFoot?: boolean;
-}>(), {
-  showFoot: true,
-});
+withDefaults(
+  defineProps<{
+    preTitle?: string;
+    logo?: string;
+    logoWidth: string;
+    logoHeight: string;
+    title?: string;
+    content?: string;
+    btn?: string;
+    href?: string;
+    hint?: string;
+    page?: string;
+    btn2BorderColor?: string;
+    isHidenLinkHit: boolean;
+    btn2?: string;
+    pic: {
+      src: string;
+      w: string;
+      h: string;
+      msrc: string;
+      mw: string;
+      mh: string;
+    };
+    showFoot?: boolean;
+  }>(),
+  {
+    showFoot: true
+  }
+);
 </script>
 
 <template>
-  <header class="home-banner-container" :class="{
-    'hide-foot': !showFoot,
-  }">
+  <header
+    class="home-banner-container"
+    :class="{
+      'hide-foot': !showFoot
+    }"
+  >
     <div class="page-container home-banner">
       <div class="left">
         <div class="pre-title" v-if="preTitle">{{ preTitle }}</div>
         <div class="pre-logo" v-if="logo">
-          <img :src="logo" alt="" :style="logoWidth ? {width: logoWidth, height: logoHeight} : ''">
+          <img
+            :src="logo"
+            alt=""
+            :style="logoWidth ? { width: logoWidth, height: logoHeight } : ''"
+          />
         </div>
 
         <h2 class="title" v-if="title">{{ title }}</h2>
         <div class="content" v-if="content">{{ content }}</div>
         <div class="header1-input-container" v-if="inputPlaceholder">
           <FormInput name="email" :placeholder="inputPlaceholder" />
-          <a :href="href" class="trail-btn" v-if="btn" style="margin-top:0;margin-left:14px;">{{ btn }}</a>
+          <a
+            :href="href"
+            class="trail-btn"
+            v-if="btn"
+            style="margin-top: 0; margin-left: 14px"
+            >{{ btn }}</a
+          >
         </div>
         <div v-else>
-          <a :href="href" class="trail-btn" v-if="btn2" style="margin-right:10px;">{{ btn2 }}</a>
-          <a :href="href" class="trail-btn" v-if="btn" 
-            :style="btn2BorderColor ? {border: `2px solid ${btn2BorderColor}`,} : ''">
-            {{ btn }}</a>
+          <a
+            :href="href"
+            class="trail-btn"
+            v-if="btn2"
+            style="margin-right: 10px"
+            >{{ btn2 }}</a
+          >
+          <a
+            :href="href"
+            class="trail-btn"
+            v-if="btn"
+            :style="
+              btn2BorderColor ? { border: `2px solid ${btn2BorderColor}` } : ''
+            "
+          >
+            {{ btn }}</a
+          >
         </div>
         <FormCheckbox name="agree" value="1" v-if="isHidenLinkHit">
           <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-          <a class="agree-link" :href="$t('pricing.cdn.getInTouch.form.agreeHref')">
+          <a
+            class="agree-link"
+            :href="$t('pricing.cdn.getInTouch.form.agreeHref')"
+          >
             {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
           </a>
         </FormCheckbox>
         <div class="hint" v-if="hint && !isHidenLinkHit">{{ hint }}</div>
       </div>
       <div class="right">
-        <div class="pic" v-if="pic" :style="{
-    backgroundImage: `url(${obeyDevice(pic.src, pic.msrc).value})`,
-    width: obeyDevice(pic.w, pic.mw).value,
-    height: obeyDevice(pic.h, pic.mh).value,
-  }"></div>
+        <div
+          class="pic"
+          v-if="pic"
+          :style="{
+            backgroundImage: `url(${obeyDevice(pic.src, pic.msrc).value})`,
+            width: obeyDevice(pic.w, pic.mw).value,
+            height: obeyDevice(pic.h, pic.mh).value
+          }"
+        ></div>
       </div>
     </div>
     <div class="bottom" v-if="!page">
@@ -137,7 +173,7 @@ withDefaults(defineProps<{
     display: flex;
     justify-content: space-between;
 
-    >.left {
+    > .left {
       margin-top: 180px;
 
       .pre-title {
@@ -146,9 +182,9 @@ withDefaults(defineProps<{
         font-size: 30px;
         line-height: 40px;
       }
-      .pre-logo{
+      .pre-logo {
         margin-bottom: 20px;
-        img{
+        img {
           width: 236px;
           height: 30px;
         }
@@ -164,16 +200,16 @@ withDefaults(defineProps<{
 
       .content {
         margin-top: 12px;
-        
+
         width: 677px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
-      .header1-input-container{
+      .header1-input-container {
         display: flex;
         margin-top: 40px;
         margin-bottom: 14px;
-        .input-container{
-          ::v-deep input{
+        .input-container {
+          ::v-deep input {
             border-radius: 27px !important;
             width: 292px;
           }
@@ -187,12 +223,12 @@ withDefaults(defineProps<{
         margin-top: 10px;
 
         font-size: 12px;
-        color: #4E4E4E;
-        opacity: .5;
+        color: #4e4e4e;
+        opacity: 0.5;
       }
     }
 
-    >.right {
+    > .right {
       margin-top: 140px;
     }
   }
@@ -227,14 +263,14 @@ withDefaults(defineProps<{
           font-weight: 600;
           font-size: 30px;
           line-height: 40px;
-          background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+          background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
       }
 
       .sub-title {
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
     }
 
@@ -263,7 +299,7 @@ withDefaults(defineProps<{
 
       .sub-title {
         margin-top: 10px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
     }
   }
@@ -291,7 +327,7 @@ withDefaults(defineProps<{
       padding-top: 3.75rem;
       padding-bottom: 5.38rem;
 
-      >.left {
+      > .left {
         margin-top: 0;
 
         .pre-title {
@@ -323,7 +359,7 @@ withDefaults(defineProps<{
         }
       }
 
-      >.right {
+      > .right {
         margin-top: 3rem;
 
         display: flex;
@@ -337,7 +373,7 @@ withDefaults(defineProps<{
       width: 43.13rem;
       height: 26.88rem;
       background: rgba(255, 255, 255, 0.7);
-      box-shadow: 0rem -0.12rem 0rem 0rem #FFFFFF;
+      box-shadow: 0rem -0.12rem 0rem 0rem #ffffff;
       border-radius: 1.5rem 1.5rem 0rem 0rem;
       backdrop-filter: blur(5px);
       position: static;
@@ -361,7 +397,7 @@ withDefaults(defineProps<{
           .num {
             font-size: 2.25rem;
 
-            margin: 0.5rem
+            margin: 0.5rem;
           }
         }
 

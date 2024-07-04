@@ -22,9 +22,9 @@ defineProps<{
       title: string;
       content: string;
       iconList: {
-        icon: string,
-        label: string
-      }
+        icon: string;
+        label: string;
+      };
     }[];
   }[];
 }>();
@@ -39,25 +39,40 @@ const curTab = ref(0);
       <div class="title">{{ title }}</div>
       <div class="sub-title">{{ subTitle }}</div>
       <Line top="40px" m-top="2.5rem" />
-
       <CommonTabs :tabs="tabs" v-model:cur-tab="curTab" />
-      <template v-for="tab, index in tabs">
-        <div class="tabs-content" v-if="index === curTab" :style="isList ? {width: '1200px'} : {}">
+      <template v-for="(tab, index) in tabs">
+        <div
+          class="tabs-content"
+          v-if="index === curTab"
+          :style="isList ? { width: '1200px' } : {}"
+        >
           <div class="left" v-if="!isList">
-            <div class="icon" :style="isMobile ? {
-        backgroundImage: `url(${tab.mIcon})`,
-        width: tab.mIconWidth,
-        height: tab.mIconHeight,
-      } : {
-        backgroundImage: `url(${tab.icon})`,
-        width: tab.iconWidth,
-        height: tab.iconHeight,
-      }"></div>
+            <XsOnly>
+              <div class="left-sub-title">{{ tab.subTitle }}</div>
+            </XsOnly>
+            <div
+              class="icon"
+              :style="
+                isMobile
+                  ? {
+                      backgroundImage: `url(${tab.mIcon})`,
+                      width: tab.mIconWidth,
+                      height: tab.mIconHeight
+                    }
+                  : {
+                      backgroundImage: `url(${tab.icon})`,
+                      width: tab.iconWidth,
+                      height: tab.iconHeight
+                    }
+              "
+            ></div>
           </div>
           <div class="right" v-if="!isList">
             <div class="title">
               {{ tab.title }}
-              <span class="title-tip" v-if="tab.titleTip">{{ tab.titleTip }}</span>
+              <span class="title-tip" v-if="tab.titleTip">{{
+                tab.titleTip
+              }}</span>
             </div>
             <div class="content">
               <p v-for="text in tab.content.split(/\r\n|\n/)">
@@ -69,10 +84,10 @@ const curTab = ref(0);
           <div class="job-items-list" v-if="isList">
             <ul>
               <li v-for="(item, index) in tab.items" :key="index">
-                <h3><span></span>{{ item.title }} </h3>
+                <h3><span></span>{{ item.title }}</h3>
                 <p>{{ item.content }}</p>
                 <dl v-for="(val, i) in item.iconList" :key="i">
-                  <dt><img :src="val.icon" alt=""></dt>
+                  <dt><img :src="val.icon" alt="" /></dt>
                   <dd>{{ val.label }}</dd>
                 </dl>
               </li>
@@ -89,22 +104,22 @@ const curTab = ref(0);
   margin-top: 156px;
 
   .super-charge {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.tabs-content {
+    > .tabs-content {
       margin: 45px auto 0;
 
       width: 974px;
@@ -146,7 +161,7 @@ const curTab = ref(0);
             font-family: PingFang-SC, PingFang-SC;
             font-weight: bold;
             font-size: 18px;
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 25px;
           }
         }
@@ -161,7 +176,7 @@ const curTab = ref(0);
 
           p {
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
           }
         }
 
@@ -169,24 +184,24 @@ const curTab = ref(0);
           margin-top: 40px;
         }
       }
-      .job-items-list{
+      .job-items-list {
         width: 1200px;
         margin-bottom: 100px;
-        ul{
+        ul {
           display: flex;
           justify-content: space-between;
           flex-wrap: wrap;
-          li{
+          li {
             width: 590px;
             height: 236px;
-            background: #FFFFFF;
+            background: #ffffff;
             border-radius: 8px;
-            border: 1px solid #E6E6E6;
+            border: 1px solid #e6e6e6;
             overflow: hidden;
             padding: 30px;
             box-sizing: border-box;
             margin-bottom: 20px;
-            h3{
+            h3 {
               font-weight: 500;
               font-size: 24px;
               color: #000000;
@@ -195,43 +210,43 @@ const curTab = ref(0);
               font-style: normal;
               text-transform: none;
               margin-bottom: 18px;
-              span{
+              span {
                 float: right;
                 width: 24px;
                 height: 24px;
                 background-image: url(/images/resources/careers/nav_ic_arrow_right_nor_2x.png);
                 cursor: pointer;
-                &:hover{
+                &:hover {
                   border: 1px solid #eee;
                 }
               }
             }
-            p{
+            p {
               font-weight: 400;
               font-size: 16px;
-              color: #4E4E4E;
+              color: #4e4e4e;
               line-height: 24px;
               text-align: left;
               font-style: normal;
-              text-transform: none;  
-              height: 100px;      
-              overflow: hidden;      
+              text-transform: none;
+              height: 100px;
+              overflow: hidden;
             }
-            dl{
+            dl {
               float: left;
               display: flex;
               padding-right: 24px;
-              dt{
+              dt {
                 padding-right: 8px;
-                img{
+                img {
                   width: 24px;
                   height: 24px;
                 }
               }
-              dd{
+              dd {
                 font-weight: 400;
                 font-size: 16px;
-                color: #4E4E4E;
+                color: #4e4e4e;
                 line-height: 24px;
                 text-align: left;
                 font-style: normal;
@@ -251,13 +266,13 @@ const curTab = ref(0);
     margin-top: 6.25rem;
 
     .super-charge {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -265,7 +280,7 @@ const curTab = ref(0);
         text-align: left;
       }
 
-      >.tabs-content {
+      > .tabs-content {
         margin-top: 4.25rem;
 
         width: auto;
@@ -275,8 +290,18 @@ const curTab = ref(0);
           display: flex;
           align-items: center;
           justify-content: center;
+          flex-direction: column;
 
-          .icon {}
+          .left-sub-title {
+            margin-bottom: 2.78rem;
+            font-weight: 400;
+            font-size: 1.56rem;
+            color: #4e4e4e;
+            line-height: 2.11rem;
+            text-align: left;
+          }
+          .icon {
+          }
         }
 
         .right {
@@ -289,8 +314,8 @@ const curTab = ref(0);
             line-height: 3rem;
             .title-tip {
               position: absolute;
-              left:0;
-              top:1.2rem;
+              left: 0;
+              top: 1.2rem;
               margin-left: 0;
               width: 9.38rem;
               height: 1.88rem;
@@ -302,7 +327,7 @@ const curTab = ref(0);
               font-family: PingFang-SC, PingFang-SC;
               font-weight: bold;
               font-size: 1.25rem;
-              color: #FFFFFF;
+              color: #ffffff;
               line-height: 1.4;
             }
           }
@@ -312,7 +337,8 @@ const curTab = ref(0);
             width: auto;
 
             p {
-              font-size: 1.63rem;
+              font-size: 1.56rem;
+              line-height: 2.11rem;
             }
           }
 

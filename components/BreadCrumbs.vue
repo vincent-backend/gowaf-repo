@@ -19,7 +19,11 @@ defineProps<{
         <span class="separator"></span>
       </LgOnly>
       <div class="links">
-        <a :href="item.href" v-for="item in items" :class="{ current: item.current }">
+        <a
+          :href="item.href"
+          v-for="item in items"
+          :class="{ current: item.current }"
+        >
           {{ item.label }}
         </a>
       </div>
@@ -29,7 +33,7 @@ defineProps<{
 
 <style lang="less" scoped>
 .bread-crumbs-container {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: inset 0px 1px 0px 0px rgba(226, 226, 226, 0.5);
   height: 60px;
 
@@ -38,12 +42,13 @@ defineProps<{
     display: flex;
     align-items: center;
 
-    .title {}
+    .title {
+    }
 
     .separator {
       width: 2px;
       height: 20px;
-      background: #F0F0F0;
+      background: #f0f0f0;
       margin: 0 34px;
     }
 
@@ -52,13 +57,18 @@ defineProps<{
       gap: 34px;
 
       a {
-        color: #4E4E4E;
+        color: #4e4e4e;
         line-height: 18px;
+        white-space: nowrap;
 
         &.current {
           font-weight: 500;
           line-height: 18px;
-          background: linear-gradient(41.5494227786465deg, #46CF3A 0%, #36CFBC 100%);
+          background: linear-gradient(
+            41.5494227786465deg,
+            #46cf3a 0%,
+            #36cfbc 100%
+          );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -80,7 +90,8 @@ defineProps<{
         a {
           font-size: 1.75rem;
 
-          &.current {}
+          &.current {
+          }
         }
       }
     }

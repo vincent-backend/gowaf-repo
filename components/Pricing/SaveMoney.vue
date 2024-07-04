@@ -2,10 +2,15 @@
   <div class="save-money-container">
     <div class="save-money page-container">
       <div class="title">{{ $t('pricing.overview.saveMoney.title') }}</div>
-      <div class="sub-title">{{ $t('pricing.overview.saveMoney.subTitle') }}</div>
+      <div class="sub-title">
+        {{ $t('pricing.overview.saveMoney.subTitle') }}
+      </div>
       <Line top="40px" m-top="1.87rem" />
       <div class="list">
-        <div class="item" v-for="item in $tm('pricing.overview.saveMoney.list')">
+        <div
+          class="item"
+          v-for="item in $tm('pricing.overview.saveMoney.list')"
+        >
           <div class="header">
             <div class="title">{{ item.title }}</div>
             <div class="sub-title">{{ item.subTitle }}</div>
@@ -31,56 +36,56 @@
   margin-top: 120px;
 
   .save-money {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 18px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.list {
+    > .list {
       margin-top: 40px;
       display: flex;
       gap: 20px;
 
-      >.item {
+      > .item {
         flex: 1;
 
-        >.header {
+        > .header {
           display: flex;
           justify-content: space-between;
           align-items: center;
 
-          >.title {
+          > .title {
             font-weight: 500;
             font-size: 20px;
             line-height: 28px;
           }
 
-          >.sub-title {
+          > .sub-title {
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
             text-align: right;
           }
         }
 
-        >.list {
+        > .list {
           margin-top: 16px;
 
           padding: 10px 20px;
-          background: #FFFFFF;
+          background: #ffffff;
           border-radius: 8px;
-          border: 1px solid #E6E6E6;
+          border: 1px solid #e6e6e6;
 
-          >.item {
+          > .item {
             height: 56px;
             display: flex;
             align-items: center;
@@ -103,12 +108,12 @@
 
               width: 160px;
               height: 6px;
-              background: #FAFAFA;
+              background: #fafafa;
               border-radius: 3px;
 
               .bar-value {
                 height: 6px;
-                background: linear-gradient(90deg, #46CF3A 0%, #36CFBC 100%);
+                background: linear-gradient(90deg, #46cf3a 0%, #36cfbc 100%);
                 border-radius: 3px;
               }
             }
@@ -117,11 +122,11 @@
       }
     }
 
-    >.hint {
+    > .hint {
       margin-top: 40px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
   }
@@ -133,13 +138,13 @@
     margin-top: 6.25rem;
 
     .save-money {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -147,34 +152,34 @@
         text-align: left;
       }
 
-      >.list {
+      > .list {
         margin-top: 3.13rem;
 
         flex-direction: column;
         gap: 3.31rem;
 
-        >.item {
-          >.header {
+        > .item {
+          > .header {
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
 
-            >.title {
+            > .title {
               font-size: 1.88rem;
               line-height: 1.88rem;
             }
 
-            >.sub-title {
+            > .sub-title {
               margin-top: 1.25rem;
             }
           }
 
-          >.list {
+          > .list {
             margin-top: 1.87rem;
 
             padding: 0.63rem 1.25rem 0.19rem;
 
-            >.item {
+            > .item {
               height: 5rem;
 
               .label {
@@ -204,7 +209,7 @@
         }
       }
 
-      >.hint {
+      > .hint {
         margin-top: 1.87rem;
 
         font-size: 1.63rem;

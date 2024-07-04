@@ -22,7 +22,10 @@ defineProps<{
       <div class="sub-title">{{ subTitle }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
-          <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+          <div
+            class="icon"
+            :style="{ backgroundImage: `url(${item.icon})` }"
+          ></div>
           <div class="title">{{ item.title }}</div>
           <div class="content">{{ item.content }}</div>
         </div>
@@ -58,7 +61,9 @@ defineProps<{
         </div>
         <div class="right">
           <div class="title">{{ $t('network.smartEdge.onProblem.title') }}</div>
-          <div class="content">{{ $t('network.smartEdge.onProblem.content') }}</div>
+          <div class="content">
+            {{ $t('network.smartEdge.onProblem.content') }}
+          </div>
         </div>
       </div>
     </div>
@@ -70,22 +75,22 @@ defineProps<{
   margin-top: 120px;
 
   .your-needs {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.list {
+    > .list {
       margin-top: 80px;
       display: flex;
       justify-content: space-between;
@@ -109,37 +114,37 @@ defineProps<{
           margin-top: 10px;
 
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
         }
       }
     }
 
-    >.max-performance {
+    > .max-performance {
       margin-top: 120px;
       display: flex;
       justify-content: space-between;
 
-      >.left {
-        >.title {
+      > .left {
+        > .title {
           width: 405px;
           font-weight: 500;
           font-size: 30px;
           line-height: 42px;
         }
 
-        >.content {
+        > .content {
           margin-top: 20px;
 
           width: 540px;
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
         }
 
-        >.numbers {
+        > .numbers {
           margin-top: 40px;
           display: flex;
 
-          >.item {
+          > .item {
             width: 50%;
 
             .number {
@@ -152,13 +157,13 @@ defineProps<{
               line-height: 64px;
 
               &.number-1 {
-                background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+                background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
               }
 
               &.number-2 {
-                background: linear-gradient(0deg, #F9C22F 0%, #FA6E4A 100%);
+                background: linear-gradient(0deg, #f9c22f 0%, #fa6e4a 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
               }
@@ -169,24 +174,24 @@ defineProps<{
                 margin-left: 10px;
 
                 &.icon-up {
-                  background: url(/public/images/network/smart-edge/SmartEdge™_ic_rise.png)
+                  background: url(/public/images/network/smart-edge/SmartEdge™_ic_rise.png);
                 }
 
                 &.icon-down {
-                  background: url(/public/images/network/smart-edge/SmartEdge™_ic_descend.png)
+                  background: url(/public/images/network/smart-edge/SmartEdge™_ic_descend.png);
                 }
               }
             }
 
             .hint {
               font-size: 16px;
-              color: #4E4E4E;
+              color: #4e4e4e;
             }
           }
         }
       }
 
-      >.right {
+      > .right {
         .pic {
           width: 400px;
           height: 270px;
@@ -200,7 +205,7 @@ defineProps<{
       display: flex;
       align-items: center;
 
-      >.left {
+      > .left {
         .pic {
           width: 400px;
           height: 270px;
@@ -208,7 +213,7 @@ defineProps<{
         }
       }
 
-      >.right {
+      > .right {
         margin-left: 190px;
 
         .title {
@@ -223,7 +228,7 @@ defineProps<{
 
           width: 540px;
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
         }
       }
     }
@@ -236,19 +241,19 @@ defineProps<{
     margin-top: 6.25rem;
 
     .your-needs {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
         line-height: 2.38rem;
       }
 
-      >.list {
+      > .list {
         margin-top: 3.13rem;
         justify-content: flex-start;
         flex-direction: column;
@@ -276,18 +281,18 @@ defineProps<{
         }
       }
 
-      >.max-performance {
+      > .max-performance {
         margin-top: 6.25rem;
         flex-direction: column;
 
-        >.left {
-          >.title {
+        > .left {
+          > .title {
             width: auto;
             font-size: 2.5rem;
             line-height: 3.5rem;
           }
 
-          >.content {
+          > .content {
             margin-top: 1rem;
 
             width: auto;
@@ -295,27 +300,31 @@ defineProps<{
             line-height: 2.38rem;
           }
 
-          >.numbers {
+          > .numbers {
             margin-top: 3.13rem;
 
-            >.item {
+            > .item {
               width: 50%;
 
               .number {
                 font-size: 3.13rem;
                 line-height: 4.13rem;
 
-                &.number-1 {}
+                &.number-1 {
+                }
 
-                &.number-2 {}
+                &.number-2 {
+                }
 
                 .icon {
                   width: 2.5rem;
                   height: 2.5rem;
 
-                  &.icon-up {}
+                  &.icon-up {
+                  }
 
-                  &.icon-down {}
+                  &.icon-down {
+                  }
                 }
               }
 
@@ -327,7 +336,7 @@ defineProps<{
           }
         }
 
-        >.right {
+        > .right {
           margin-top: 3.13rem;
 
           .pic {
@@ -344,7 +353,7 @@ defineProps<{
         align-items: flex-start;
         flex-direction: column-reverse;
 
-        >.left {
+        > .left {
           margin-top: 3.13rem;
 
           width: 100%;
@@ -357,7 +366,7 @@ defineProps<{
           }
         }
 
-        >.right {
+        > .right {
           margin-left: 0;
 
           .title {

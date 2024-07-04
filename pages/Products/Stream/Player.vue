@@ -1,43 +1,85 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.stream.breadCrumbs.parent')" :items="[
-    { label: $t('products.stream.breadCrumbs.overview'), href: '#', current: false },
-    { label: $t('products.stream.breadCrumbs.player'), href: '#', current: true },
-    { label: $t('products.stream.breadCrumbs.mediaCage'), href: '#', current: false },
-    { label: $t('products.stream.breadCrumbs.multiDRM'), href: '#', current: false },
-    { label: $t('products.stream.breadCrumbs.transcribeAI'), href: '#', current: false },
-    { label: $t('products.stream.breadCrumbs.apiDocs'), href: '#', current: false },
-  ]" />
-  <CommonHeader1 :pre-title="$t('products.stream.player.header.preTitle')"
-    :title="$t('products.stream.player.header.title')" :content="$t('products.stream.player.header.content')"
-    :btn="$t('products.stream.player.header.btn')" href="#" :hint="$t('products.stream.player.header.hint')" :pic="{
-    src: '/images/products/stream/player/stream_player_banner_graph@2x.png',
-    w: '472px',
-    h: '322px',
+  <BreadCrumbs
+    :title="$t('products.stream.breadCrumbs.parent')"
+    :items="[
+      {
+        label: $t('products.stream.breadCrumbs.overview'),
+        href: '#',
+        current: false
+      },
+      {
+        label: $t('products.stream.breadCrumbs.player'),
+        href: '#',
+        current: true
+      },
+      {
+        label: $t('products.stream.breadCrumbs.mediaCage'),
+        href: '#',
+        current: false
+      },
+      {
+        label: $t('products.stream.breadCrumbs.multiDRM'),
+        href: '#',
+        current: false
+      },
+      {
+        label: $t('products.stream.breadCrumbs.transcribeAI'),
+        href: '#',
+        current: false
+      },
+      {
+        label: $t('products.stream.breadCrumbs.apiDocs'),
+        href: '#',
+        current: false
+      }
+    ]"
+  />
+  <CommonHeader1
+    :pre-title="$t('products.stream.player.header.preTitle')"
+    :title="$t('products.stream.player.header.title')"
+    :content="$t('products.stream.player.header.content')"
+    :btn="$t('products.stream.player.header.btn')"
+    href="#"
+    :hint="$t('products.stream.player.header.hint')"
+    :pic="{
+      src: '/images/products/stream/player/stream_player_banner_graph@2x.png',
+      w: '472px',
+      h: '322px',
 
-    msrc: '',
-    mw: '',
-    mh: '',
-  }" />
-
+      msrc: '',
+      mw: '',
+      mh: ''
+    }"
+  />
 
   <CommonList1 v-bind="$tm('products.stream.player.list1')" />
 
   <ProductsPlayerFeatures />
 
-  <SolutionsAd2 style="margin-top: 163px;" :title="$t('products.stream.player.ad2.title')"
-    :content="$t('products.stream.player.ad2.content')" :btn="$t('products.stream.player.ad2.btn')" href="#"
-    pic="/images/products/stream/player/cdnfeatures_security_img@2x.png" pic-width="400px" pic-height="400px" reverse />
+  <SolutionsAd2
+    style="margin-top: 163px"
+    :title="$t('products.stream.player.ad2.title')"
+    :content="$t('products.stream.player.ad2.content')"
+    :btn="$t('products.stream.player.ad2.btn')"
+    href="#"
+    pic="/images/products/stream/player/cdnfeatures_security_img@2x.png"
+    pic-width="400px"
+    pic-height="400px"
+    reverse
+  />
 
   <div class="player2-container">
     <div class="title">{{ $t('products.stream.player.player2.title') }}</div>
-    <div class="sub-title">{{ $t('products.stream.player.player2.subTitle') }}</div>
+    <div class="sub-title">
+      {{ $t('products.stream.player.player2.subTitle') }}
+    </div>
     <div class="pic"></div>
   </div>
 
-<ProductsDRMCustomers 
-    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')" 
-  />  
+  <ProductsDRMCustomers
+    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
+  />
 
   <Footer />
 </template>
@@ -47,31 +89,24 @@
   margin-top: 120px;
   margin-bottom: 120px;
 
-  >.title {
-
+  > .title {
     font-weight: 500;
     font-size: 30px;
 
     line-height: 42px;
     text-align: center;
-
-
   }
 
-  >.sub-title {
+  > .sub-title {
     margin-top: 18px;
 
-
-
     font-size: 16px;
-    color: #4E4E4E;
+    color: #4e4e4e;
 
     text-align: center;
-
-
   }
 
-  >.pic {
+  > .pic {
     margin: 40px auto 0;
 
     width: 782px;

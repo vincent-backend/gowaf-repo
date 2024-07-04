@@ -9,14 +9,20 @@ const curTab = ref(0);
       <div class="title2">{{ $t('pricing.cdn.calculator1.subTitle') }}</div>
       <Line top="40px" m-top="1.87rem" />
 
-      <CommonTabs :tabs="$tm('pricing.cdn.calculator1.tabs')" v-model:cur-tab="curTab" />
+      <CommonTabs
+        :tabs="$tm('pricing.cdn.calculator1.tabs')"
+        v-model:cur-tab="curTab"
+      />
       <div class="content">
         <div class="left">
           <div class="pic"></div>
         </div>
         <div class="right">
           <div class="list">
-            <div class="item" v-for="item in $tm('pricing.cdn.calculator1.items')">
+            <div
+              class="item"
+              v-for="item in $tm('pricing.cdn.calculator1.items')"
+            >
               <div class="left">
                 <div class="title">{{ item.title }}</div>
                 <div class="value">{{ item.value }}</div>
@@ -27,7 +33,10 @@ const curTab = ref(0);
             </div>
           </div>
           <div class="list2">
-            <div class="item" v-for="item in $tm('pricing.cdn.calculator1.subs')">
+            <div
+              class="item"
+              v-for="item in $tm('pricing.cdn.calculator1.subs')"
+            >
               <div class="left">
                 <span class="title">{{ item.title }}</span>
                 <span class="icon"></span>
@@ -53,7 +62,7 @@ const curTab = ref(0);
   margin-top: 120px;
 
   .calculator-1 {
-    >.title1 {
+    > .title1 {
       font-weight: 500;
       font-size: 30px;
 
@@ -61,22 +70,22 @@ const curTab = ref(0);
       text-align: center;
     }
 
-    >.title2 {
+    > .title2 {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.content {
+    > .content {
       margin-top: 70px;
 
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      >.left {
+      > .left {
         .pic {
           width: 406px;
           height: 239px;
@@ -84,20 +93,20 @@ const curTab = ref(0);
         }
       }
 
-      >.right {
+      > .right {
         .list {
           display: flex;
           flex-wrap: wrap;
           gap: 20px;
           width: 576px;
 
-          >.item {
+          > .item {
             width: 278px;
             height: 100px;
-            background: #FFFFFF;
-            box-shadow: 0px 4px 10px 0px #F1F1F1;
+            background: #ffffff;
+            box-shadow: 0px 4px 10px 0px #f1f1f1;
             border-radius: 8px;
-            border: 1px solid #E6E6E6;
+            border: 1px solid #e6e6e6;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -112,7 +121,7 @@ const curTab = ref(0);
               .title {
                 font-weight: 500;
                 font-size: 16px;
-                color: #4E4E4E;
+                color: #4e4e4e;
                 line-height: 22px;
               }
 
@@ -130,7 +139,7 @@ const curTab = ref(0);
               .circle {
                 width: 44px;
                 height: 44px;
-                border: 16px solid #EEEEEE;
+                border: 16px solid #eeeeee;
                 border-radius: 50%;
               }
             }
@@ -142,10 +151,10 @@ const curTab = ref(0);
           display: flex;
           justify-content: space-between;
 
-          >.item {
+          > .item {
             width: 278px;
             height: 50px;
-            background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
+            background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -160,7 +169,7 @@ const curTab = ref(0);
               .title {
                 font-weight: 500;
                 font-size: 16px;
-                color: #FFFFFF;
+                color: #ffffff;
                 line-height: 22px;
               }
 
@@ -178,7 +187,7 @@ const curTab = ref(0);
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 20px;
-                color: #FFFFFF;
+                color: #ffffff;
                 line-height: 26px;
               }
             }
@@ -202,13 +211,13 @@ const curTab = ref(0);
     margin-top: 6.25rem;
 
     .calculator-1 {
-      >.title1 {
+      > .title1 {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.title2 {
+      > .title2 {
         margin-top: 0.94rem;
 
         font-size: 1.75rem;
@@ -216,18 +225,18 @@ const curTab = ref(0);
         text-align: left;
       }
 
-      >.content {
+      > .content {
         margin-top: 1.87rem;
         flex-direction: column;
 
-        >.left {
+        > .left {
           .pic {
             width: 25.38rem;
             height: 14.94rem;
           }
         }
 
-        >.right {
+        > .right {
           margin-top: 3.19rem;
 
           .list {
@@ -235,7 +244,7 @@ const curTab = ref(0);
             width: 43.13rem;
             gap: 1.25rem 0;
 
-            >.item {
+            > .item {
               width: 20.94rem;
               height: 8.75rem;
 
@@ -268,7 +277,7 @@ const curTab = ref(0);
             flex-direction: column;
             gap: 1.25rem;
 
-            >.item {
+            > .item {
               width: auto;
               height: 4.38rem;
 
@@ -293,7 +302,8 @@ const curTab = ref(0);
             }
           }
 
-          .btn-container {}
+          .btn-container {
+          }
         }
       }
     }

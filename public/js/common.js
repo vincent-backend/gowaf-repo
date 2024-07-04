@@ -9,9 +9,9 @@ window.isMobile = isMobile;
 
 function handleResize() {
   const screenWidth = Math.min(1024, window.screen.width);
-  document.documentElement.style.fontSize = screenWidth*8 / 390 + "px";
+  document.documentElement.style.fontSize = (screenWidth * 8) / 390 + 'px';
 }
 if (isMobile) {
   handleResize();
-  window.addEventListener("resize", handleResize);
+  window.addEventListener('resize', handleResize);
 }

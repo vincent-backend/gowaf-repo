@@ -20,7 +20,8 @@
 .header-container {
   height: 350px;
   min-width: 1200px;
-  background: url(/public/images/resources/contact/banner-bg.png) no-repeat center;
+  background: url(/public/images/resources/contact/banner-bg.png) no-repeat
+    center;
   background-size: 1920px 350px;
 
   .header {
@@ -47,18 +48,18 @@
         margin: 0 auto;
         font-weight: bold;
         font-size: 30px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 40px;
         text-align: center;
         font-style: normal;
         text-transform: none;
         opacity: 0.9;
       }
-      h4{
+      h4 {
         font-family: Mont, Mont;
         font-weight: bold;
         font-size: 50px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 70px;
         text-align: center;
         font-style: normal;
@@ -66,10 +67,12 @@
         opacity: 0.9;
       }
       .content {
-        font-family: PingFangSC, PingFang SC;
+        font-family:
+          PingFangSC,
+          PingFang SC;
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 24px;
         text-align: center;
         font-style: normal;
@@ -80,5 +83,4 @@
     }
   }
 }
-
 </style>

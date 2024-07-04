@@ -5,7 +5,10 @@ defineProps<{
 </script>
 
 <template>
-  <div class="form-form-row-container" :style="{ gap: gap || obeyDevice('16px', '1.87rem').value }">
+  <div
+    class="form-form-row-container"
+    :style="{ gap: gap || obeyDevice('16px', '1.87rem').value }"
+  >
     <slot />
   </div>
 </template>
@@ -16,7 +19,7 @@ defineProps<{
   align-items: flex-start;
   justify-content: space-between;
 
-  >* {
+  > * {
     flex: 1;
   }
 }

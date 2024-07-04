@@ -1,17 +1,20 @@
 <script lang="ts" setup>
-withDefaults(defineProps<{
-  title: string;
-  person: {
-    name: string;
+withDefaults(
+  defineProps<{
     title: string;
-    content: string;
-  },
-  avatar: string;
-  mAvatar: string;
-  showScores?: boolean;
-}>(), {
-  showScores: true,
-});
+    person: {
+      name: string;
+      title: string;
+      content: string;
+    };
+    avatar: string;
+    mAvatar: string;
+    showScores?: boolean;
+  }>(),
+  {
+    showScores: true
+  }
+);
 </script>
 
 <template>
@@ -27,7 +30,12 @@ withDefaults(defineProps<{
         <span class="s5">{{ $tm('network.overview.join1.subTitle')[5] }}</span>
       </div>
       <div class="comment">
-        <div class="avatar" :style="{ backgroundImage: `url(${obeyDevice(avatar, mAvatar).value})` }"></div>
+        <div
+          class="avatar"
+          :style="{
+            backgroundImage: `url(${obeyDevice(avatar, mAvatar).value})`
+          }"
+        ></div>
         <div class="decoration-1"></div>
         <div class="name">{{ person.name }}</div>
         <div class="title">{{ person.title }}</div>
@@ -42,7 +50,12 @@ withDefaults(defineProps<{
               {{ item.score }}
             </div>
           </div>
-          <div class="icon" :style="{ backgroundImage: `url(/images/network/${item.icon}.png)` }"></div>
+          <div
+            class="icon"
+            :style="{
+              backgroundImage: `url(/images/network/${item.icon}.png)`
+            }"
+          ></div>
         </div>
       </div>
     </div>
@@ -63,23 +76,25 @@ withDefaults(defineProps<{
     flex-direction: column;
     justify-content: center;
 
-    >.title {
+    > .title {
       width: 600px;
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
       display: flex;
       align-items: center;
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
-      .s0 {}
+      .s0 {
+      }
 
       .s1 {
+        display: inline-block;
         width: 20px;
         height: 20px;
         background: url(/public/images/network/home_title_star.png);
@@ -87,26 +102,28 @@ withDefaults(defineProps<{
       }
 
       .s2 {
-        color: #FA9B3B;
+        color: #fa9b3b;
         margin: 0 6px;
       }
 
-      .s3 {}
+      .s3 {
+      }
 
       .s4 {
-        color: #0EBF6A;
+        color: #0ebf6a;
         text-decoration: underline;
         margin: 0 6px;
       }
 
-      .s5 {}
+      .s5 {
+      }
     }
 
-    >.comment {
+    > .comment {
       width: 100%;
       margin-top: 100px;
       position: relative;
-      background: linear-gradient(312deg, #E9F8FC 0%, #FFFBF0 100%);
+      background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 24px;
       box-sizing: border-box;
       padding: 30px;
@@ -140,25 +157,25 @@ withDefaults(defineProps<{
           content: '';
           width: 6px;
           height: 22px;
-          background: linear-gradient(180deg, #46CF3A 0%, #36CFBC 100%);
+          background: linear-gradient(180deg, #46cf3a 0%, #36cfbc 100%);
           margin-right: 14px;
         }
       }
 
       .title {
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
 
       .content {
         margin-top: 30px;
 
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
     }
 
-    >.ranks-container {
+    > .ranks-container {
       margin-top: 50px;
       display: flex;
       justify-content: space-between;
@@ -166,9 +183,9 @@ withDefaults(defineProps<{
       .rank {
         width: 282px;
         height: 230px;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 24px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -177,7 +194,7 @@ withDefaults(defineProps<{
         .star-container {
           width: 128px;
           height: 128px;
-          background: linear-gradient(#FFFFFF 0%, #FFFBF0 100%);
+          background: linear-gradient(#ffffff 0%, #fffbf0 100%);
           border-radius: 64px;
           display: flex;
           flex-direction: column;
@@ -192,12 +209,15 @@ withDefaults(defineProps<{
 
           .score {
             margin-top: 8px;
-
             font-family: Mont, Mont;
             font-weight: 600;
             font-size: 30px;
             line-height: 40px;
-            background: linear-gradient(66.90432699443122deg, #F9C22F 0%, #FA6E4A 100%);
+            background: linear-gradient(
+              66.90432699443122deg,
+              #f9c22f 0%,
+              #fa6e4a 100%
+            );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
@@ -229,34 +249,44 @@ withDefaults(defineProps<{
       display: block;
       padding-top: 3.13rem;
 
-      >.title {
+      > .title {
         width: auto;
 
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         display: block;
         font-size: 1.75rem;
         line-height: 2.38rem;
 
-        .s0 {}
+        .s0 {
+        }
 
-        .s1 {}
+        .s1 {
+          margin: 0 1px;
+          width: 1.67rem;
+          height: 1.67rem;
+        }
 
-        .s2 {}
+        .s2 {
+          margin: 0;
+        }
 
-        .s3 {}
+        .s3 {
+        }
 
-        .s4 {}
+        .s4 {
+        }
 
-        .s5 {}
+        .s5 {
+        }
       }
 
-      >.comment {
+      > .comment {
         margin-top: 13rem;
         border-radius: 0.88rem;
         padding: 1.87rem;
@@ -299,7 +329,7 @@ withDefaults(defineProps<{
         }
       }
 
-      >.ranks-container {
+      > .ranks-container {
         margin-top: 2.94rem;
         flex-wrap: wrap;
 

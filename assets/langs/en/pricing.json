@@ -1,769 +1,769 @@
 {
-    "breadCrumbs": {
-        "parent": "Pricing",
-        "overview": "Overview",
-        "cdn": "CDN",
-        "stream": "Stream",
-        "storage": "Storage",
-        "optimizer": "Optimizer",
-        "dns": "DNS"
+  "breadCrumbs": {
+    "parent": "Pricing",
+    "overview": "Overview",
+    "cdn": "CDN",
+    "stream": "Stream",
+    "storage": "Storage",
+    "optimizer": "Optimizer",
+    "dns": "DNS"
+  },
+  "overview": {
+    "header": {
+      "preTitle": "Polyfill Pricing",
+      "title": "Use as you want. Pay as you go.",
+      "content": "Simple and affordable pricing at any scale. $1 Monthly Minimum."
     },
-    "overview": {
-        "header": {
-            "preTitle": "Polyfill Pricing",
-            "title": "Use as you want. Pay as you go.",
-            "content": "Simple and affordable pricing at any scale. $1 Monthly Minimum."
-        },
-        "pricingTab": [
-            {
-                "tab": "Polyfill CDN",
-                "header": "Polyfill CDN Pricing",
-                "content": [
-                    {
-                        "title": "Standard Network",
-                        "titleEm": "123 PoPs",
-                        "subTitle": "Hop on a lighting fast global network with region-based pricing.",
-                        "content": "Serving more than 100TB per month?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "$0.01 /GB",
-                                "hint": "Europe & North America"
-                            },
-                            {
-                                "text": "$0.03 /GB",
-                                "hint": "Asia & Oceania"
-                            },
-                            {
-                                "text": "$0.045 /GB",
-                                "hint": "South America"
-                            },
-                            {
-                                "text": "$0.06 /GB",
-                                "hint": "Middle East & Africa"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Volume Network",
-                        "titleEm": "10 PoPs",
-                        "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
-                        "content": "Serving more than 1PB per month?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "$0.005 /GB",
-                                "hint": "First 500TB"
-                            },
-                            {
-                                "text": "$0.004 /GB",
-                                "hint": "From 500TB-1PB"
-                            },
-                            {
-                                "text": "$0.002 /GB",
-                                "hint": "From 1PB-2PB"
-                            },
-                            {
-                                "text": "Contact Us",
-                                "hint": "From 2PB+"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Polyfill Stream",
-                "header": "Polyfill Stream Pricing",
-                "content": [
-                    {
-                        "title": "Simplified pricing. Up to 10x lower cost.",
-                        "titleEm": "",
-                        "subTitle": "Video player, transcoding, and security features are free of charge.",
-                        "content": "Servina more than 40TB per month?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "FREE",
-                                "hint": "Transcoding"
-                            },
-                            {
-                                "text": "$0.1/minute*",
-                                "hint": "Transcribing"
-                            },
-                            {
-                                "text": "$0.01/GB",
-                                "hint": "Storage"
-                            },
-                            {
-                                "text": "$0.005/GB",
-                                "hint": "CDN"
-                            }
-                        ],
-                        "bottomList": [
-                            "No security fees",
-                            "No transcoding fees",
-                            "Free laver included",
-                            "Distributed video storage",
-                            "150 Tbps+ backbone",
-                            "* Transcribing is paid per minute per langauge."
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Polyfill Storage",
-                "header": "Polyfill Storage Pricing",
-                "content": [
-                    {
-                        "title": "Standard Tier",
-                        "titleEm": "HDD",
-                        "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
-                        "content": "Storing more than 50TB per month?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "$0.01/GB",
-                                "hint": "Single Region"
-                            },
-                            {
-                                "text": "$0.02/GB",
-                                "hint": "Two Regions"
-                            },
-                            {
-                                "text": "$0.025/GB",
-                                "hint": "Three Regions"
-                            },
-                            {
-                                "text": "+$0.005/GB",
-                                "hint": "Each Additional Region"
-                            }
-                        ],
-                        "bottomList": [
-                            "True Pay As you Go",
-                            "$1 Monthly Minimum",
-                            "Free Traffic to Bunny CDN",
-                            "No API fees",
-                            "Free API egress"
-                        ]
-                    },
-                    {
-                        "title": "Edge Tier",
-                        "titleEm": "SSD",
-                        "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
-                        "content": "Storing more than 50TB per month?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "$0.02/GB",
-                                "hint": "Single Region"
-                            },
-                            {
-                                "text": "+$0.02/GB",
-                                "hint": "Each additional Region"
-                            }
-                        ],
-                        "bottomList": [
-                            "True Pay As you Go",
-                            "$1 Monthly Minimum",
-                            "Free Traffic to Bunny CDN",
-                            "No API fees",
-                            "Free API egress"
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Polyfill Optimizer",
-                "header": "Polyfill Optimizer Pricing",
-                "content": [
-                    {
-                        "title": "Excellent solution for any sized project",
-                        "titleEm": "",
-                        "subTitle": "Fixed monthly price regardless of your traffic and scale.",
-                        "content": "Want to optimize over 20 websites?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "FREE",
-                                "hint": "Unlimited Requests"
-                            },
-                            {
-                                "text": "FREE",
-                                "hint": "Unlimited Transformations"
-                            },
-                            {
-                                "text": "FREE",
-                                "hint": "Unlimited Optimizations"
-                            },
-                            {
-                                "text": "$9.5/website",
-                                "hint": "Simple Monthly Pricing"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Polyfill DNS",
-                "header": "Polyfill DNS Pricing",
-                "content": [
-                    {
-                        "title": "Pay per query. No hidden fees.",
-                        "titleEm": "",
-                        "subTitle": "Simple Pay As You Go pricing with a generous free plan.",
-                        "content": "Serving more than a billion queries per month?",
-                        "btn": "Contact sales",
-                        "href": "#",
-                        "items": [
-                            {
-                                "text": "FREE",
-                                "hint": "Standard Queries (First 20 million)"
-                            },
-                            {
-                                "text": "FREE",
-                                "hint": "Smart Queries (First 1 million)"
-                            },
-                            {
-                                "text": "$0.1/million",
-                                "hint": "Standard Queries (After 20 million)"
-                            },
-                            {
-                                "text": "$0.3/million",
-                                "hint": "Smart Queries (After 1 million)"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "list1": {
-            "title1": "Powerful features. Amazing performance.",
-            "title2": "Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.",
+    "pricingTab": [
+      {
+        "tab": "Polyfill CDN",
+        "header": "Polyfill CDN Pricing",
+        "content": [
+          {
+            "title": "Standard Network",
+            "titleEm": "123 PoPs",
+            "subTitle": "Hop on a lighting fast global network with region-based pricing.",
+            "content": "Serving more than 100TB per month?",
+            "btn": "Contact sales",
+            "href": "#",
             "items": [
-                {
-                    "icon": "/images/pricing/overview/Pricing_Overview_card_ic_1.png",
-                    "title": "$1 Monthly Minimum",
-                    "content": "All features included for as little as $1 per month."
-                },
-                {
-                    "icon": "/images/pricing/overview/Pricing_Overview_card_ic_2.png",
-                    "title": "Toggle Zones ON/OFF",
-                    "content": "Enable and disable regions with a click of a button."
-                },
-                {
-                    "icon": "/images/pricing/overview/Pricing_Overview_card_ic_3.png",
-                    "title": "No Request Fees",
-                    "content": "Only pay for the bandwidth you actually use."
-                },
-                {
-                    "icon": "/images/pricing/overview/Pricing_Overview_card_ic_4.png",
-                    "title": "Multiple Payment Options",
-                    "content": "Pay with PayPal, majority of credit cards as well as BTC."
-                },
-                {
-                    "icon": "/images/pricing/overview/Pricing_Overview_card_ic_5.png",
-                    "title": "All Features Included",
-                    "content": "Use all of our unique features without any extra charges."
-                },
-                {
-                    "icon": "/images/pricing/overview/Pricing_Overview_card_ic_6.png",
-                    "title": "Overcharge Protection",
-                    "content": "Protect your account with monthly bandwidth limits."
-                }
+              {
+                "text": "$0.01 /GB",
+                "hint": "Europe & North America"
+              },
+              {
+                "text": "$0.03 /GB",
+                "hint": "Asia & Oceania"
+              },
+              {
+                "text": "$0.045 /GB",
+                "hint": "South America"
+              },
+              {
+                "text": "$0.06 /GB",
+                "hint": "Middle East & Africa"
+              }
             ]
-        },
-        "saveMoney": {
-            "title": "Save money. Go faster.",
-            "subTitle": "Performance is in our DNA. Speed is our passion. Affordable pricing is just a perk.",
-            "list": [
-                {
-                    "title": "Price For 5 Terabytes",
-                    "subTitle": "(Europe & North America)",
-                    "items": [
-                        {
-                            "label": "Polyfill",
-                            "value": "$50",
-                            "width": "21.25%"
-                        },
-                        {
-                            "label": "CDN77",
-                            "value": "$165",
-                            "width": "31.875%"
-                        },
-                        {
-                            "label": "StackPath",
-                            "value": "$170",
-                            "width": "35%"
-                        },
-                        {
-                            "label": "KeyCDN",
-                            "value": "$200",
-                            "width": "38.125%"
-                        },
-                        {
-                            "label": "CloudFront",
-                            "value": "$425+",
-                            "width": "77.5%"
-                        },
-                        {
-                            "label": "Fastly",
-                            "value": "$600+",
-                            "width": "90%"
-                        }
-                    ]
-                },
-                {
-                    "title": "Average Global Performance",
-                    "subTitle": "(Worldwide Median - Lower is better)",
-                    "items": [
-                        {
-                            "label": "Polyfill",
-                            "value": "24 ms",
-                            "width": "21.25%"
-                        },
-                        {
-                            "label": "CDN77",
-                            "value": "31 ms",
-                            "width": "31.875%"
-                        },
-                        {
-                            "label": "StackPath",
-                            "value": "36 ms",
-                            "width": "35%"
-                        },
-                        {
-                            "label": "KeyCDN",
-                            "value": "39 ms",
-                            "width": "38.125%"
-                        },
-                        {
-                            "label": "CloudFront",
-                            "value": "27 ms",
-                            "width": "77.5%"
-                        },
-                        {
-                            "label": "Fastly",
-                            "value": "29ms",
-                            "width": "90%"
-                        }
-                    ]
-                }
-            ],
-            "hint": "Performance is based on independent real-world user data provided by CDNPerf and pricing from the public provider listing on July 2022."
-        },
-        "join1": {
-            "title": "Join over 40.000+ happy customers",
-            "subTitle": [
-                "We're rated",
-                "",
-                "Excellent 4.8",
-                " out of 5 on ",
-                "Trustpilot",
-                " - Based on 600+ reviews"
-            ],
-            "person": {
-                "name": "Jerry Caloroso",
-                "title": "Chief Streaming Officer, OneStudio",
-                "content": "\"Finding Polyfill CDN is like finding a gold mine! It's like is this real? \""
-            },
-            "ranks": [
-                {
-                    "score": "4.8",
-                    "icon": "Network_Overview_mark_logo_1"
-                },
-                {
-                    "score": "4.4",
-                    "icon": "Network_Overview_mark_logo_2"
-                },
-                {
-                    "score": "4.8",
-                    "icon": "Network_Overview_mark_logo_3"
-                },
-                {
-                    "score": "4.8",
-                    "icon": "Network_Overview_mark_logo_4"
-                }
-            ]
-        }
-    },
-    "cdn": {
-        "header": {
-            "preTitle": "CDN Pricing",
-            "title": "Fully flexible pay as you go CDN pricing",
-            "content": "Choose between two simple pricing plans designed for any budget. Scale from a few gigabytes to hundreds of petabytes per month."
-        },
-        "pricingTable": [
-            {
-                "title": "Standard Network",
-                "titleEm": "123 PoPs",
-                "subTitle": "Hop on a lighting fast global network with region-based pricing.",
-                "content": "Serving more than 100TB per month?",
-                "btn": "Contact sales",
-                "href": "#",
-                "items": [
-                    {
-                        "text": "$0.01 /GB",
-                        "hint": "Europe & North America"
-                    },
-                    {
-                        "text": "$0.03 /GB",
-                        "hint": "Asia & Oceania"
-                    },
-                    {
-                        "text": "$0.045 /GB",
-                        "hint": "South America"
-                    },
-                    {
-                        "text": "$0.06 /GB",
-                        "hint": "Middle East & Africa"
-                    }
-                ]
-            },
-            {
-                "title": "Volume Network",
-                "titleEm": "10 PoPs",
-                "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
-                "content": "Serving more than 1PB per month?",
-                "btn": "Contact sales",
-                "href": "#",
-                "items": [
-                    {
-                        "text": "$0.005 /GB",
-                        "hint": "First 500TB"
-                    },
-                    {
-                        "text": "$0.004 /GB",
-                        "hint": "From 500TB-1PB"
-                    },
-                    {
-                        "text": "$0.002 /GB",
-                        "hint": "From 1PB-2PB"
-                    },
-                    {
-                        "text": "Contact Us",
-                        "hint": "From 2PB+"
-                    }
-                ]
-            }
-        ],
-        "calculator1": {
-            "title": "Calculate your monthly bill",
-            "subTitle": "Enter your total traffic used each month to see estimated pricing.",
-            "tabs": [
-                {
-                    "tab": "Gigabytes"
-                },
-                {
-                    "tab": "Terabytes"
-                }
-            ],
+          },
+          {
+            "title": "Volume Network",
+            "titleEm": "10 PoPs",
+            "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
+            "content": "Serving more than 1PB per month?",
+            "btn": "Contact sales",
+            "href": "#",
             "items": [
-                {
-                    "title": "EU / NA",
-                    "value": "200 GB",
-                    "percent": 20
-                },
-                {
-                    "title": "Asia / Oceania",
-                    "value": "50GB",
-                    "percent": 10
-                },
-                {
-                    "title": "South America",
-                    "value": "0 GB",
-                    "percent": 0
-                },
-                {
-                    "title": "ME & Africa",
-                    "value": "0GB",
-                    "percent": 0
-                }
-            ],
-            "subs": [
-                {
-                    "title": "Standard Tier",
-                    "value": "$3.5/month"
-                },
-                {
-                    "title": "Volume Tier",
-                    "value": "$1.25/month"
-                }
-            ],
-            "btn": "Start FREE 14-Day Trial"
-        },
-        "supportPlan": {
-            "title": "Enterprise Support Plans",
-            "subTitle": "Expertise support service that meets your needs.",
-            "content": {
-                "title": "Always on hand",
-                "content": "Need a team on call 24/7 for your mission-critical applications? Take advantage of our enterprise support that is here for you 24/7 for all inquiries, not just incidents and problems.",
-                "list": {
-                    "title": "What’s included?",
-                    "items": [
-                        "24/7 availability",
-                        "Private Slack channel",
-                        "Dedicated Account Manager",
-                        "Direct communication with developers"
-                    ]
-                },
-                "btn": "Explore Polyfill Support"
-            }
-        },
-        "hop": {
-            "title": "Hop ahead with Polyfill products",
-            "subTitle": "Get all the tools you need to bring performance and security to the next level.",
-            "list": [
-                {
-                    "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
-                    "title": "Polyfill Storage",
-                    "subTitle": "From $0.01 /GB",
-                    "btn": "See pricing details",
-                    "href": "#"
-                },
-                {
-                    "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
-                    "title": "Polyfill Optimizer",
-                    "subTitle": "$9.50 /website",
-                    "btn": "See pricing details",
-                    "href": "#"
-                },
-                {
-                    "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
-                    "title": "Polyfill Stream",
-                    "subTitle": "From $0.005 /GB",
-                    "btn": "See pricing details",
-                    "href": "#"
-                }
+              {
+                "text": "$0.005 /GB",
+                "hint": "First 500TB"
+              },
+              {
+                "text": "$0.004 /GB",
+                "hint": "From 500TB-1PB"
+              },
+              {
+                "text": "$0.002 /GB",
+                "hint": "From 1PB-2PB"
+              },
+              {
+                "text": "Contact Us",
+                "hint": "From 2PB+"
+              }
             ]
-        },
-        "getInTouch": {
-            "title": "Get in Touch",
-            "subTitle": "Got a question or just want to talk to us? Fill out the form and we'll get back to you!",
-            "form": {
-                "labelFirstName": "First Name",
-                "placeholderFirstName": "Your first name",
-                "labelLastName": "Last Name",
-                "placeholderLastName": "Your last name",
-                "labelEmail": "Email",
-                "placeholderEmail": "Enter your email",
-                "labelCompanyName": "Company Name",
-                "placeholderCompanyName": "Your company name",
-                "labelPhone": "Phone",
-                "placeholderPhone": "XXX-XXX-XXXX",
-                "labelEstimatedTraffic": "Estimated monthly traffic",
-                "placeholderEstimatedTraffic": "I don't know",
-                "labelMessage": "Message",
-                "placeholderMessage": "Tell us about your project and how polyfill can help.",
-                "agree": "I have read and agree to the polyfill",
-                "agreeLink": "Privacy Policy",
-                "agreeHref": "#",
-                "btnSubmit": "Lets Talk",
-                "hint1": "Working on a big project?",
-                "hint2": "Get in touch with sales!"
-            }
-        }
-    },
-    "stream": {
-        "header": {
-            "preTitle": "Polyfill Stream Pricing",
+          }
+        ]
+      },
+      {
+        "tab": "Polyfill Stream",
+        "header": "Polyfill Stream Pricing",
+        "content": [
+          {
             "title": "Simplified pricing. Up to 10x lower cost.",
-            "content": "Utilize video player, transcoding, and all security features completely free of charge. Only pay for the traffic you use!"
-        },
-        "tables": [
-            {
-                "title": "Traditional Cloud Provider",
-                "items": [
-                    {
-                        "title": "$0.02/minute+",
-                        "hint": "Encoding"
-                    },
-                    {
-                        "title": "From $0.02/GB",
-                        "hint": "Storage"
-                    },
-                    {
-                        "title": "From $0.085/GB",
-                        "hint": "CDN"
-                    }
-                ],
-                "items2": [
-                    "Expensive transcoding fees",
-                    "Bring and integrate your own external player",
-                    "Complex integration with additional charges",
-                    "Centralized storage prone to bottlenecks"
-                ]
-            },
-            {
-                "title": "Bunny Stream",
-                "items": [
-                    {
-                        "title": "FREE",
-                        "hint": "Encoding"
-                    },
-                    {
-                        "title": "From $0.01/GB",
-                        "hint": "Storage"
-                    },
-                    {
-                        "title": "From $0.005/GB",
-                        "hint": "CDN"
-                    }
-                ],
-                "items2": [
-                    "No security fees",
-                    "No transcoding fees",
-                    "Free player included",
-                    "Distributed video storage",
-                    "Extreme performance with 150 Tbps+ backbone"
-                ]
-            }
+            "titleEm": "",
+            "subTitle": "Video player, transcoding, and security features are free of charge.",
+            "content": "Servina more than 40TB per month?",
+            "btn": "Contact sales",
+            "href": "#",
+            "items": [
+              {
+                "text": "FREE",
+                "hint": "Transcoding"
+              },
+              {
+                "text": "$0.1/minute*",
+                "hint": "Transcribing"
+              },
+              {
+                "text": "$0.01/GB",
+                "hint": "Storage"
+              },
+              {
+                "text": "$0.005/GB",
+                "hint": "CDN"
+              }
+            ],
+            "bottomList": [
+              "No security fees",
+              "No transcoding fees",
+              "Free laver included",
+              "Distributed video storage",
+              "150 Tbps+ backbone",
+              "* Transcribing is paid per minute per langauge."
+            ]
+          }
         ]
-    },
-    "storage": {
-        "header": {
-            "preTitle": "Polyfill Storage Pricing",
-            "title": "Surprisingly Affordable",
-            "content": "Keep your costs to a minimum. Never sacrifice performance. No commitments are required."
+      },
+      {
+        "tab": "Polyfill Storage",
+        "header": "Polyfill Storage Pricing",
+        "content": [
+          {
+            "title": "Standard Tier",
+            "titleEm": "HDD",
+            "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
+            "content": "Storing more than 50TB per month?",
+            "btn": "Contact sales",
+            "href": "#",
+            "items": [
+              {
+                "text": "$0.01/GB",
+                "hint": "Single Region"
+              },
+              {
+                "text": "$0.02/GB",
+                "hint": "Two Regions"
+              },
+              {
+                "text": "$0.025/GB",
+                "hint": "Three Regions"
+              },
+              {
+                "text": "+$0.005/GB",
+                "hint": "Each Additional Region"
+              }
+            ],
+            "bottomList": [
+              "True Pay As you Go",
+              "$1 Monthly Minimum",
+              "Free Traffic to Bunny CDN",
+              "No API fees",
+              "Free API egress"
+            ]
+          },
+          {
+            "title": "Edge Tier",
+            "titleEm": "SSD",
+            "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
+            "content": "Storing more than 50TB per month?",
+            "btn": "Contact sales",
+            "href": "#",
+            "items": [
+              {
+                "text": "$0.02/GB",
+                "hint": "Single Region"
+              },
+              {
+                "text": "+$0.02/GB",
+                "hint": "Each additional Region"
+              }
+            ],
+            "bottomList": [
+              "True Pay As you Go",
+              "$1 Monthly Minimum",
+              "Free Traffic to Bunny CDN",
+              "No API fees",
+              "Free API egress"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Polyfill Optimizer",
+        "header": "Polyfill Optimizer Pricing",
+        "content": [
+          {
+            "title": "Excellent solution for any sized project",
+            "titleEm": "",
+            "subTitle": "Fixed monthly price regardless of your traffic and scale.",
+            "content": "Want to optimize over 20 websites?",
+            "btn": "Contact sales",
+            "href": "#",
+            "items": [
+              {
+                "text": "FREE",
+                "hint": "Unlimited Requests"
+              },
+              {
+                "text": "FREE",
+                "hint": "Unlimited Transformations"
+              },
+              {
+                "text": "FREE",
+                "hint": "Unlimited Optimizations"
+              },
+              {
+                "text": "$9.5/website",
+                "hint": "Simple Monthly Pricing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Polyfill DNS",
+        "header": "Polyfill DNS Pricing",
+        "content": [
+          {
+            "title": "Pay per query. No hidden fees.",
+            "titleEm": "",
+            "subTitle": "Simple Pay As You Go pricing with a generous free plan.",
+            "content": "Serving more than a billion queries per month?",
+            "btn": "Contact sales",
+            "href": "#",
+            "items": [
+              {
+                "text": "FREE",
+                "hint": "Standard Queries (First 20 million)"
+              },
+              {
+                "text": "FREE",
+                "hint": "Smart Queries (First 1 million)"
+              },
+              {
+                "text": "$0.1/million",
+                "hint": "Standard Queries (After 20 million)"
+              },
+              {
+                "text": "$0.3/million",
+                "hint": "Smart Queries (After 1 million)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "list1": {
+      "title1": "Powerful features. Amazing performance.",
+      "title2": "Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.",
+      "items": [
+        {
+          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_1.png",
+          "title": "$1 Monthly Minimum",
+          "content": "All features included for as little as $1 per month."
         },
-        "pricingTable": [
-            {
-                "title": "Standard Tier",
-                "titleEm": "HDD",
-                "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
-                "content": "Storing more than 50TB per month?",
-                "btn": "Contact sales",
-                "href": "#",
-                "items": [
-                    {
-                        "text": "$0.01/GB",
-                        "hint": "Single Region"
-                    },
-                    {
-                        "text": "$0.02/GB",
-                        "hint": "Two Regions"
-                    },
-                    {
-                        "text": "$0.025/GB",
-                        "hint": "Three Regions"
-                    },
-                    {
-                        "text": "+$0.005/GB",
-                        "hint": "Each Additional Region"
-                    }
-                ],
-                "bottomList": [
-                    "True Pay As you Go",
-                    "$1 Monthly Minimum",
-                    "Free Traffic to Bunny CDN",
-                    "No API fees",
-                    "Free API egress"
-                ]
-            },
-            {
-                "title": "Edge Tier",
-                "titleEm": "SSD",
-                "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
-                "content": "Storing more than 50TB per month?",
-                "btn": "Contact sales",
-                "href": "#",
-                "items": [
-                    {
-                        "text": "$0.02/GB",
-                        "hint": "Single Region"
-                    },
-                    {
-                        "text": "+$0.02/GB",
-                        "hint": "Each additional Region"
-                    }
-                ],
-                "bottomList": [
-                    "True Pay As you Go",
-                    "$1 Monthly Minimum",
-                    "Free Traffic to Bunny CDN",
-                    "No API fees",
-                    "Free API egress"
-                ]
-            }
-        ],
-        "map": {
-            "title": "Global audience. Global storage.",
-            "subTitle": "Store your content where you need it when you need it for maximum performance and compliance."
+        {
+          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_2.png",
+          "title": "Toggle Zones ON/OFF",
+          "content": "Enable and disable regions with a click of a button."
+        },
+        {
+          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_3.png",
+          "title": "No Request Fees",
+          "content": "Only pay for the bandwidth you actually use."
+        },
+        {
+          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_4.png",
+          "title": "Multiple Payment Options",
+          "content": "Pay with PayPal, majority of credit cards as well as BTC."
+        },
+        {
+          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_5.png",
+          "title": "All Features Included",
+          "content": "Use all of our unique features without any extra charges."
+        },
+        {
+          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_6.png",
+          "title": "Overcharge Protection",
+          "content": "Protect your account with monthly bandwidth limits."
         }
+      ]
     },
-    "optimizer": {
-        "header": {
-            "preTitle": "Polyfill Optimizer Pricing",
-            "title": "Simple and affordable pricing",
-            "content": "Reduce load times and increase conversion rates in just a few clicks without writing a single line of code."
-        },
-        "pricingTable": [
+    "saveMoney": {
+      "title": "Save money. Go faster.",
+      "subTitle": "Performance is in our DNA. Speed is our passion. Affordable pricing is just a perk.",
+      "list": [
+        {
+          "title": "Price For 5 Terabytes",
+          "subTitle": "(Europe & North America)",
+          "items": [
             {
-                "title": "Excellent solution for any sized project",
-                "titleEm": "",
-                "subTitle": "Fixed monthly price regardless of your traffic and scale.",
-                "content": "Want to optimize over 20 websites?",
-                "btn": "Contact sales",
-                "href": "#",
-                "items": [
-                    {
-                        "text": "FREE",
-                        "hint": "Unlimited Requests"
-                    },
-                    {
-                        "text": "FREE",
-                        "hint": "Unlimited Transformations"
-                    },
-                    {
-                        "text": "FREE",
-                        "hint": "Unlimited Optimizations"
-                    },
-                    {
-                        "text": "$9.5/website",
-                        "hint": "Simple Monthly Pricing"
-                    }
-                ]
+              "label": "Polyfill",
+              "value": "$50",
+              "width": "21.25%"
+            },
+            {
+              "label": "CDN77",
+              "value": "$165",
+              "width": "31.875%"
+            },
+            {
+              "label": "StackPath",
+              "value": "$170",
+              "width": "35%"
+            },
+            {
+              "label": "KeyCDN",
+              "value": "$200",
+              "width": "38.125%"
+            },
+            {
+              "label": "CloudFront",
+              "value": "$425+",
+              "width": "77.5%"
+            },
+            {
+              "label": "Fastly",
+              "value": "$600+",
+              "width": "90%"
             }
-        ]
+          ]
+        },
+        {
+          "title": "Average Global Performance",
+          "subTitle": "(Worldwide Median - Lower is better)",
+          "items": [
+            {
+              "label": "Polyfill",
+              "value": "24 ms",
+              "width": "21.25%"
+            },
+            {
+              "label": "CDN77",
+              "value": "31 ms",
+              "width": "31.875%"
+            },
+            {
+              "label": "StackPath",
+              "value": "36 ms",
+              "width": "35%"
+            },
+            {
+              "label": "KeyCDN",
+              "value": "39 ms",
+              "width": "38.125%"
+            },
+            {
+              "label": "CloudFront",
+              "value": "27 ms",
+              "width": "77.5%"
+            },
+            {
+              "label": "Fastly",
+              "value": "29ms",
+              "width": "90%"
+            }
+          ]
+        }
+      ],
+      "hint": "Performance is based on independent real-world user data provided by CDNPerf and pricing from the public provider listing on July 2022."
     },
-    "dns": {
-        "header": {
-            "preTitle": "Polyfill DNS Pricing",
-            "title": "Only pay for the queries that you use",
-            "content": "Unlock the true power of DNS with a fully flexible and surprisingly affordable Pay As You Go pricing."
+    "join1": {
+      "title": "Join over 40.000+ happy customers",
+      "subTitle": [
+        "We're rated",
+        "",
+        "Excellent 4.8",
+        " out of 5 on ",
+        "Trustpilot",
+        " - Based on 600+ reviews"
+      ],
+      "person": {
+        "name": "Jerry Caloroso",
+        "title": "Chief Streaming Officer, OneStudio",
+        "content": "\"Finding Polyfill CDN is like finding a gold mine! It's like is this real? \""
+      },
+      "ranks": [
+        {
+          "score": "4.8",
+          "icon": "Network_Overview_mark_logo_1"
         },
-        "pricingTable": [
-            {
-                "title": "Pay per query. No hidden fees.",
-                "titleEm": "",
-                "subTitle": "Simple Pay As You Go pricing with a generous free plan.",
-                "content": "Serving more than a billion queries per month?",
-                "btn": "Contact sales",
-                "href": "#",
-                "items": [
-                    {
-                        "text": "FREE",
-                        "hint": "Standard Queries (First 20 million)"
-                    },
-                    {
-                        "text": "FREE",
-                        "hint": "Smart Queries (First 1 million)"
-                    },
-                    {
-                        "text": "$0.1/million",
-                        "hint": "Standard Queries (After 20 million)"
-                    },
-                    {
-                        "text": "$0.3/million",
-                        "hint": "Smart Queries (After 1 million)"
-                    }
-                ]
-            }
-        ]
+        {
+          "score": "4.4",
+          "icon": "Network_Overview_mark_logo_2"
+        },
+        {
+          "score": "4.8",
+          "icon": "Network_Overview_mark_logo_3"
+        },
+        {
+          "score": "4.8",
+          "icon": "Network_Overview_mark_logo_4"
+        }
+      ]
     }
+  },
+  "cdn": {
+    "header": {
+      "preTitle": "CDN Pricing",
+      "title": "Fully flexible pay as you go CDN pricing",
+      "content": "Choose between two simple pricing plans designed for any budget. Scale from a few gigabytes to hundreds of petabytes per month."
+    },
+    "pricingTable": [
+      {
+        "title": "Standard Network",
+        "titleEm": "123 PoPs",
+        "subTitle": "Hop on a lighting fast global network with region-based pricing.",
+        "content": "Serving more than 100TB per month?",
+        "btn": "Contact sales",
+        "href": "#",
+        "items": [
+          {
+            "text": "$0.01 /GB",
+            "hint": "Europe & North America"
+          },
+          {
+            "text": "$0.03 /GB",
+            "hint": "Asia & Oceania"
+          },
+          {
+            "text": "$0.045 /GB",
+            "hint": "South America"
+          },
+          {
+            "text": "$0.06 /GB",
+            "hint": "Middle East & Africa"
+          }
+        ]
+      },
+      {
+        "title": "Volume Network",
+        "titleEm": "10 PoPs",
+        "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
+        "content": "Serving more than 1PB per month?",
+        "btn": "Contact sales",
+        "href": "#",
+        "items": [
+          {
+            "text": "$0.005 /GB",
+            "hint": "First 500TB"
+          },
+          {
+            "text": "$0.004 /GB",
+            "hint": "From 500TB-1PB"
+          },
+          {
+            "text": "$0.002 /GB",
+            "hint": "From 1PB-2PB"
+          },
+          {
+            "text": "Contact Us",
+            "hint": "From 2PB+"
+          }
+        ]
+      }
+    ],
+    "calculator1": {
+      "title": "Calculate your monthly bill",
+      "subTitle": "Enter your total traffic used each month to see estimated pricing.",
+      "tabs": [
+        {
+          "tab": "Gigabytes"
+        },
+        {
+          "tab": "Terabytes"
+        }
+      ],
+      "items": [
+        {
+          "title": "EU / NA",
+          "value": "200 GB",
+          "percent": 20
+        },
+        {
+          "title": "Asia / Oceania",
+          "value": "50GB",
+          "percent": 10
+        },
+        {
+          "title": "South America",
+          "value": "0 GB",
+          "percent": 0
+        },
+        {
+          "title": "ME & Africa",
+          "value": "0GB",
+          "percent": 0
+        }
+      ],
+      "subs": [
+        {
+          "title": "Standard Tier",
+          "value": "$3.5/month"
+        },
+        {
+          "title": "Volume Tier",
+          "value": "$1.25/month"
+        }
+      ],
+      "btn": "Start FREE 14-Day Trial"
+    },
+    "supportPlan": {
+      "title": "Enterprise Support Plans",
+      "subTitle": "Expertise support service that meets your needs.",
+      "content": {
+        "title": "Always on hand",
+        "content": "Need a team on call 24/7 for your mission-critical applications? Take advantage of our enterprise support that is here for you 24/7 for all inquiries, not just incidents and problems.",
+        "list": {
+          "title": "What’s included?",
+          "items": [
+            "24/7 availability",
+            "Private Slack channel",
+            "Dedicated Account Manager",
+            "Direct communication with developers"
+          ]
+        },
+        "btn": "Explore Polyfill Support"
+      }
+    },
+    "hop": {
+      "title": "Hop ahead with Polyfill products",
+      "subTitle": "Get all the tools you need to bring performance and security to the next level.",
+      "list": [
+        {
+          "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
+          "title": "Polyfill Storage",
+          "subTitle": "From $0.01 /GB",
+          "btn": "See pricing details",
+          "href": "#"
+        },
+        {
+          "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
+          "title": "Polyfill Optimizer",
+          "subTitle": "$9.50 /website",
+          "btn": "See pricing details",
+          "href": "#"
+        },
+        {
+          "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
+          "title": "Polyfill Stream",
+          "subTitle": "From $0.005 /GB",
+          "btn": "See pricing details",
+          "href": "#"
+        }
+      ]
+    },
+    "getInTouch": {
+      "title": "Get in Touch",
+      "subTitle": "Got a question or just want to talk to us? Fill out the form and we'll get back to you!",
+      "form": {
+        "labelFirstName": "First Name",
+        "placeholderFirstName": "Your first name",
+        "labelLastName": "Last Name",
+        "placeholderLastName": "Your last name",
+        "labelEmail": "Email",
+        "placeholderEmail": "Enter your email",
+        "labelCompanyName": "Company Name",
+        "placeholderCompanyName": "Your company name",
+        "labelPhone": "Phone",
+        "placeholderPhone": "XXX-XXX-XXXX",
+        "labelEstimatedTraffic": "Estimated monthly traffic",
+        "placeholderEstimatedTraffic": "I don't know",
+        "labelMessage": "Message",
+        "placeholderMessage": "Tell us about your project and how polyfill can help.",
+        "agree": "I have read and agree to the polyfill",
+        "agreeLink": "Privacy Policy",
+        "agreeHref": "#",
+        "btnSubmit": "Lets Talk",
+        "hint1": "Working on a big project?",
+        "hint2": "Get in touch with sales!"
+      }
+    }
+  },
+  "stream": {
+    "header": {
+      "preTitle": "Polyfill Stream Pricing",
+      "title": "Simplified pricing. Up to 10x lower cost.",
+      "content": "Utilize video player, transcoding, and all security features completely free of charge. Only pay for the traffic you use!"
+    },
+    "tables": [
+      {
+        "title": "Traditional Cloud Provider",
+        "items": [
+          {
+            "title": "$0.02/minute+",
+            "hint": "Encoding"
+          },
+          {
+            "title": "From $0.02/GB",
+            "hint": "Storage"
+          },
+          {
+            "title": "From $0.085/GB",
+            "hint": "CDN"
+          }
+        ],
+        "items2": [
+          "Expensive transcoding fees",
+          "Bring and integrate your own external player",
+          "Complex integration with additional charges",
+          "Centralized storage prone to bottlenecks"
+        ]
+      },
+      {
+        "title": "Bunny Stream",
+        "items": [
+          {
+            "title": "FREE",
+            "hint": "Encoding"
+          },
+          {
+            "title": "From $0.01/GB",
+            "hint": "Storage"
+          },
+          {
+            "title": "From $0.005/GB",
+            "hint": "CDN"
+          }
+        ],
+        "items2": [
+          "No security fees",
+          "No transcoding fees",
+          "Free player included",
+          "Distributed video storage",
+          "Extreme performance with 150 Tbps+ backbone"
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "header": {
+      "preTitle": "Polyfill Storage Pricing",
+      "title": "Surprisingly Affordable",
+      "content": "Keep your costs to a minimum. Never sacrifice performance. No commitments are required."
+    },
+    "pricingTable": [
+      {
+        "title": "Standard Tier",
+        "titleEm": "HDD",
+        "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
+        "content": "Storing more than 50TB per month?",
+        "btn": "Contact sales",
+        "href": "#",
+        "items": [
+          {
+            "text": "$0.01/GB",
+            "hint": "Single Region"
+          },
+          {
+            "text": "$0.02/GB",
+            "hint": "Two Regions"
+          },
+          {
+            "text": "$0.025/GB",
+            "hint": "Three Regions"
+          },
+          {
+            "text": "+$0.005/GB",
+            "hint": "Each Additional Region"
+          }
+        ],
+        "bottomList": [
+          "True Pay As you Go",
+          "$1 Monthly Minimum",
+          "Free Traffic to Bunny CDN",
+          "No API fees",
+          "Free API egress"
+        ]
+      },
+      {
+        "title": "Edge Tier",
+        "titleEm": "SSD",
+        "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
+        "content": "Storing more than 50TB per month?",
+        "btn": "Contact sales",
+        "href": "#",
+        "items": [
+          {
+            "text": "$0.02/GB",
+            "hint": "Single Region"
+          },
+          {
+            "text": "+$0.02/GB",
+            "hint": "Each additional Region"
+          }
+        ],
+        "bottomList": [
+          "True Pay As you Go",
+          "$1 Monthly Minimum",
+          "Free Traffic to Bunny CDN",
+          "No API fees",
+          "Free API egress"
+        ]
+      }
+    ],
+    "map": {
+      "title": "Global audience. Global storage.",
+      "subTitle": "Store your content where you need it when you need it for maximum performance and compliance."
+    }
+  },
+  "optimizer": {
+    "header": {
+      "preTitle": "Polyfill Optimizer Pricing",
+      "title": "Simple and affordable pricing",
+      "content": "Reduce load times and increase conversion rates in just a few clicks without writing a single line of code."
+    },
+    "pricingTable": [
+      {
+        "title": "Excellent solution for any sized project",
+        "titleEm": "",
+        "subTitle": "Fixed monthly price regardless of your traffic and scale.",
+        "content": "Want to optimize over 20 websites?",
+        "btn": "Contact sales",
+        "href": "#",
+        "items": [
+          {
+            "text": "FREE",
+            "hint": "Unlimited Requests"
+          },
+          {
+            "text": "FREE",
+            "hint": "Unlimited Transformations"
+          },
+          {
+            "text": "FREE",
+            "hint": "Unlimited Optimizations"
+          },
+          {
+            "text": "$9.5/website",
+            "hint": "Simple Monthly Pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "dns": {
+    "header": {
+      "preTitle": "Polyfill DNS Pricing",
+      "title": "Only pay for the queries that you use",
+      "content": "Unlock the true power of DNS with a fully flexible and surprisingly affordable Pay As You Go pricing."
+    },
+    "pricingTable": [
+      {
+        "title": "Pay per query. No hidden fees.",
+        "titleEm": "",
+        "subTitle": "Simple Pay As You Go pricing with a generous free plan.",
+        "content": "Serving more than a billion queries per month?",
+        "btn": "Contact sales",
+        "href": "#",
+        "items": [
+          {
+            "text": "FREE",
+            "hint": "Standard Queries (First 20 million)"
+          },
+          {
+            "text": "FREE",
+            "hint": "Smart Queries (First 1 million)"
+          },
+          {
+            "text": "$0.1/million",
+            "hint": "Standard Queries (After 20 million)"
+          },
+          {
+            "text": "$0.3/million",
+            "hint": "Smart Queries (After 1 million)"
+          }
+        ]
+      }
+    ]
+  }
 }

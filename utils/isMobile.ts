@@ -1,6 +1,7 @@
 // detect mobile
 export function detectMobileDevice() {
-  const userAgent = typeof window === 'object' ? window.navigator.userAgent : 'server';
+  const userAgent =
+    typeof window === 'object' ? window.navigator.userAgent : 'server';
 
   const isMobile = Boolean(
     userAgent.match(
@@ -27,5 +28,5 @@ onNuxtReady(() => {
 });
 
 export function obeyDevice<T>(laptopValue: T, mobileValue: T) {
-  return computed(() => isMobile.value ? mobileValue : laptopValue);
+  return computed(() => (isMobile.value ? mobileValue : laptopValue));
 }

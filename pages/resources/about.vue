@@ -1,26 +1,51 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('resources.breadCrumbs.parent')" :items="[
-      { label: $t('resources.breadCrumbs.about'), href: '/resources/about', current: true },
-      { label: $t('resources.breadCrumbs.story'), href: '/resources/story', current: false },
-      { label: $t('resources.breadCrumbs.careers'), href: '/resources/careers', current: false },
-      { label: $t('resources.breadCrumbs.caseStudies'), href: '/resources/caseStudies', current: false },
-      { label: $t('resources.breadCrumbs.contact'), href: '/resources/contact', current: false },
-    ]" />
-  <CommonHeader1 :pre-title="$t('resources.about.header.preTitle')"
+  <BreadCrumbs
+    :title="$t('resources.breadCrumbs.parent')"
+    :items="[
+      {
+        label: $t('resources.breadCrumbs.about'),
+        href: '/resources/about',
+        current: true
+      },
+      {
+        label: $t('resources.breadCrumbs.story'),
+        href: '/resources/story',
+        current: false
+      },
+      {
+        label: $t('resources.breadCrumbs.careers'),
+        href: '/resources/careers',
+        current: false
+      },
+      {
+        label: $t('resources.breadCrumbs.caseStudies'),
+        href: '/resources/caseStudies',
+        current: false
+      },
+      {
+        label: $t('resources.breadCrumbs.contact'),
+        href: '/resources/contact',
+        current: false
+      }
+    ]"
+  />
+  <CommonHeader1
+    :pre-title="$t('resources.about.header.preTitle')"
     :title="$t('resources.about.header.title')"
     :content="$t('resources.about.header.content')"
     page="resourcesAbout"
     href="#"
     :pic="{
-    src: '/images/resources/about/resources_about_banner_graph@2x.png',
-    w: '540px',
-    h: '340px',
+      src: '/images/resources/about/resources_about_banner_graph@2x.png',
+      w: '540px',
+      h: '340px',
 
-    msrc: '/mobile-images/solutions/security-cdn/Solutions_Security_cdn_banner_graph@2x.png',
-    mw: '27.38rem',
-    mh: '25rem',
-  }" />
+      msrc: '/mobile-images/solutions/security-cdn/Solutions_Security_cdn_banner_graph@2x.png',
+      mw: '27.38rem',
+      mh: '25rem'
+    }"
+  />
 
   <ProductsPerfectSolution
     :title="$t('resources.about.perfectSolution.title')"
@@ -31,29 +56,37 @@
       url: '/images/resources/about/resources_about_graph_1@2x.png',
       width: 340,
       height: 288
-    }" />
+    }"
+  />
 
-  <ResourcesSuperCharge
-    :tab="$tm('resources.about.superCharge')" />
-  <CommonNumbers :items="$tm('resources.about.numbers')" :type="'resourcesAbout'" style="margin-top: 120px;" />
+  <ResourcesSuperCharge :tab="$tm('resources.about.superCharge')" />
+  <CommonNumbers
+    :items="$tm('resources.about.numbers')"
+    :type="'resourcesAbout'"
+    style="margin-top: 120px"
+  />
 
-  <CommonList2 v-bind="$tm('resources.about.list2') " />
+  <CommonList2 v-bind="$tm('resources.about.list2')" />
 
-  <PricingMap :content="{
-    title: $t('resources.about.map.title'),
-    subTitle: $t('resources.about.map.subTitle')
-  }" />
+  <PricingMap
+    :content="{
+      title: $t('resources.about.map.title'),
+      subTitle: $t('resources.about.map.subTitle')
+    }"
+  />
 
-  <CommonList3 
-    title1="Our Polyfill Milestones" 
+  <CommonList3
+    title1="Our Polyfill Milestones"
     title2=""
-    :items="$tm('resources.about.list.list')" 
+    :items="$tm('resources.about.list.list')"
     layoutType="full"
-  /> 
+  />
   <ResourcesGetInTouch />
-  <Footer :type="{
-    page: 'about'
-  }" />
+  <Footer
+    :type="{
+      page: 'about'
+    }"
+  />
 </template>
 <style lang="less" scoped>
 .footer-1-container {

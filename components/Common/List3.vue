@@ -3,26 +3,31 @@ defineProps<{
   title1: string;
   title2: string;
   title2Width: string;
-  layoutType: string
+  layoutType: string;
   items: {
-    icon: string,
-    title: string,
-    subTitle: string,
-    content1: string,
-    content2: string,
+    icon: string;
+    title: string;
+    subTitle: string;
+    content1: string;
+    content2: string;
   }[];
 }>();
 </script>
 
 <template>
-  <div class="list1-container" :style="layoutType === 'full' ? 'background: #FAFAFA;' : ''">
+  <div
+    class="list1-container"
+    :style="layoutType === 'full' ? 'background: #FAFAFA;' : ''"
+  >
     <div class="list1 page-container">
       <div class="title1" v-if="title1">{{ title1 }}</div>
       <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="full-list" v-if="layoutType === 'full'">
         <div class="full-item" v-for="item in items">
           <div class="title">
-            <h4><span>{{ item.title }}</span> <label>{{ item.content2 }}</label></h4>
+            <h4>
+              <span>{{ item.title }}</span> <label>{{ item.content2 }}</label>
+            </h4>
             <h5>{{ item.subTitle }}</h5>
           </div>
           <div class="content">
@@ -49,7 +54,7 @@ defineProps<{
 
 <style lang="less" scoped>
 .list1-container {
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
   overflow: hidden;
   margin-bottom: 120px;
 
@@ -67,7 +72,7 @@ defineProps<{
 
     width: 612px;
     font-size: 16px;
-    color: #4E4E4E;
+    color: #4e4e4e;
     text-align: center;
   }
 
@@ -75,7 +80,7 @@ defineProps<{
     margin-top: 80px;
     width: 1200px;
 
-    >.list {
+    > .list {
       margin-top: 80px;
       width: 1200px;
       overflow: hidden;
@@ -90,21 +95,26 @@ defineProps<{
       // flex-wrap: wrap;
       // justify-content: space-between;
       position: relative;
-      &::before{
-       content: '';
-		    position: absolute;
-		    top: 60px;
-		    left: 50%;
-		    -webkit-transform: translateX(-50%);
-		            transform: translateX(-50%);
-		    // width: 4px;
-		    // border-left:2px dashed #E6E6E6;
-        background: repeating-linear-gradient(to bottom, #ccc, #ccc 2px, transparent 10px, transparent 20px); /* 创建一条虚线背景 */ 
-        height: calc(100% - 478px); /* 设置元素的高度为1像素 */ 
+      &::before {
+        content: '';
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        // width: 4px;
+        // border-left:2px dashed #E6E6E6;
+        background: repeating-linear-gradient(
+          to bottom,
+          #ccc,
+          #ccc 2px,
+          transparent 10px,
+          transparent 20px
+        ); /* 创建一条虚线背景 */
+        height: calc(100% - 478px); /* 设置元素的高度为1像素 */
         width: 1px; /* 设置元素的宽度为100% */
-
       }
-      
+
       .item {
         // flex-basis: 561px; /* 设置你希望的图片宽度 */
         // margin-bottom: 100px; /* 设置图片之间的间隔 */
@@ -112,30 +122,32 @@ defineProps<{
         clear: both;
         width: 561px;
         height: auto;
-        background: url(/public/images/resources/story/Resources_Story_card_bg_2x.png) no-repeat left top,
-          #FFFFFF;
+        background:
+          url(/public/images/resources/story/Resources_Story_card_bg_2x.png)
+            no-repeat left top,
+          #ffffff;
         background-size: 246px 144px !important;
-        box-shadow: 0px 0px 30px 0px rgba(173,173,173,0.14);
+        box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
         border-radius: 24px;
         box-sizing: border-box;
         padding: 30px;
         // margin-bottom: 100px;
-        &:nth-of-type(2){
+        &:nth-of-type(2) {
           margin-top: -190px !important;
         }
-        &:nth-of-type(3){
+        &:nth-of-type(3) {
           margin-top: -140px !important;
         }
-        &:nth-of-type(4){
+        &:nth-of-type(4) {
           margin-top: -170px !important;
         }
-        &:nth-of-type(5){
+        &:nth-of-type(5) {
           margin-top: -165px !important;
         }
-        &:nth-child(2n){
-          float:right;
-          .title{
-            &::before{
+        &:nth-child(2n) {
+          float: right;
+          .title {
+            &::before {
               left: -78px;
             }
           }
@@ -145,7 +157,7 @@ defineProps<{
           font-size: 20px;
           line-height: 28px;
           position: relative;
-          &::before{
+          &::before {
             content: '';
             position: absolute;
             width: 18px;
@@ -153,23 +165,27 @@ defineProps<{
             top: 50%;
             right: -78px;
             -webkit-transform: translateY(-50%);
-		        transform: translateY(-50%);
-            background: #FAFAFA url(/public/images/resources/story/Resources_Story_node_2x.png) no-repeat left 0;
+            transform: translateY(-50%);
+            background: #fafafa
+              url(/public/images/resources/story/Resources_Story_node_2x.png)
+              no-repeat left 0;
             background-size: 18px 18px !important;
             margin-top: -25px;
           }
-          h4{
+          h4 {
             font-family: Mont, Mont;
             font-weight: 600;
             font-size: 48px;
-            color: #46CF3A;
+            color: #46cf3a;
             line-height: 64px;
             text-align: left;
             font-style: normal;
             text-transform: none;
           }
-          h5{
-            font-family: PingFangSC, PingFang SC;
+          h5 {
+            font-family:
+              PingFangSC,
+              PingFang SC;
             font-weight: 500;
             font-size: 30px;
             color: #000000;
@@ -182,12 +198,14 @@ defineProps<{
         }
 
         .content {
-          p{
+          p {
             margin-top: 10px;
-            font-family: PingFangSC, PingFang SC;
+            font-family:
+              PingFangSC,
+              PingFang SC;
             font-weight: 400;
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
             line-height: 24px;
             text-align: left;
             font-style: normal;
@@ -195,37 +213,40 @@ defineProps<{
           }
         }
       }
-
-
     }
-    >.full-list {
+    > .full-list {
       margin-top: 80px;
       padding-left: 88px;
       position: relative;
-      &::before{
-       content: '';
-		    position: absolute;
-		    top: 90px;
-		    left: 40px;
-		    // width: 4px;
-		    // border-left:2px dashed #E6E6E6;
-        background: repeating-linear-gradient(to bottom, #ccc, #ccc 2px, transparent 10px, transparent 20px); /* 创建一条虚线背景 */ 
-        height: calc(100% - 478px); /* 设置元素的高度为1像素 */ 
+      &::before {
+        content: '';
+        position: absolute;
+        top: 90px;
+        left: 40px;
+        // width: 4px;
+        // border-left:2px dashed #E6E6E6;
+        background: repeating-linear-gradient(
+          to bottom,
+          #ccc,
+          #ccc 2px,
+          transparent 10px,
+          transparent 20px
+        ); /* 创建一条虚线背景 */
+        height: calc(100% - 478px); /* 设置元素的高度为1像素 */
         width: 1px; /* 设置元素的宽度为100% */
-
       }
-      .full-item{
+      .full-item {
         width: 1112px;
         height: 196px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 10px 0px #F1F1F1;
+        background: #ffffff;
+        box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
         padding: 30px;
         margin-bottom: 10px;
         box-sizing: border-box;
         position: relative;
-        &::before{
+        &::before {
           content: '';
           position: absolute;
           width: 18px;
@@ -234,13 +255,15 @@ defineProps<{
           left: -57px;
           -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-          background: #FAFAFA url(/public/images/resources/story/Resources_Story_node_2x.png) no-repeat left 0;
+          background: #fafafa
+            url(/public/images/resources/story/Resources_Story_node_2x.png)
+            no-repeat left 0;
           background-size: 18px 18px !important;
         }
-        h4{
+        h4 {
           display: flex;
           justify-content: flex-start;
-          span{
+          span {
             font-weight: 500;
             font-size: 24px;
             color: #000000;
@@ -249,16 +272,17 @@ defineProps<{
             font-style: normal;
             text-transform: none;
           }
-          label{
+          label {
             width: 134px;
             height: 28px;
-            background: url(/images/resources/careers/home_card_tag_bg_2x.png) no-repeat 0 0;
+            background: url(/images/resources/careers/home_card_tag_bg_2x.png)
+              no-repeat 0 0;
             background-size: cover;
             margin-top: 5px;
             margin-left: 14px;
             font-weight: bold;
             font-size: 18px;
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 25px;
             text-align: left;
             font-style: normal;
@@ -266,7 +290,7 @@ defineProps<{
             text-align: center;
           }
         }
-        h5{
+        h5 {
           font-weight: 500;
           font-size: 20px;
           color: #000000;
@@ -276,12 +300,12 @@ defineProps<{
           text-transform: none;
           margin-top: 16px;
         }
-        .content{
+        .content {
           margin-top: 10px;
-          p{
+          p {
             font-weight: 400;
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
             line-height: 24px;
             text-align: left;
             font-style: normal;
@@ -318,7 +342,7 @@ defineProps<{
       margin-top: 3.13rem;
       width: 43rem;
 
-      >.list {
+      > .list {
         margin-top: 3.13rem;
         gap: 1.25rem 0;
 

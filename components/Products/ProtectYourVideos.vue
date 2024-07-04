@@ -1,12 +1,24 @@
 <template>
   <div class="protect-your-videos-container">
     <div class="protect-your-videos page-container">
-      <div class="title">{{ $t('products.stream.mediaCage.protectYourVideos.title') }}</div>
-      <div class="sub-title">{{ $t('products.stream.mediaCage.protectYourVideos.subTitle') }}</div>
+      <div class="title">
+        {{ $t('products.stream.mediaCage.protectYourVideos.title') }}
+      </div>
+      <div class="sub-title">
+        {{ $t('products.stream.mediaCage.protectYourVideos.subTitle') }}
+      </div>
       <div class="content">
-        <div class="item" v-for="item in $tm('products.stream.mediaCage.protectYourVideos.items')">
+        <div
+          class="item"
+          v-for="item in $tm(
+            'products.stream.mediaCage.protectYourVideos.items'
+          )"
+        >
           <div class="head">
-            <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+            <div
+              class="icon"
+              :style="{ backgroundImage: `url(${item.icon})` }"
+            ></div>
             <div class="tip" v-if="item.tip">{{ item.tip }}</div>
           </div>
           <div class="title">{{ item.title }}</div>
@@ -24,39 +36,32 @@
   .protect-your-videos {
     width: 1000px;
 
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 18px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.content {
+    > .content {
       margin-top: 60px;
       display: flex;
       justify-content: space-between;
 
-      >.item {
+      > .item {
         width: 260px;
 
-        >.head {
+        > .head {
           display: flex;
           align-items: center;
 
@@ -70,48 +75,32 @@
 
             width: 126px;
             height: 31px;
-            background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
+            background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
             border-radius: 25px;
 
             display: flex;
             align-items: center;
             justify-content: center;
 
-
-
-
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 20px;
-
-
-
           }
         }
 
-        >.title {
+        > .title {
           margin-top: 20px;
-
 
           font-weight: 500;
           font-size: 16px;
 
           line-height: 22px;
-
-
-
         }
 
-        >.content {
+        > .content {
           margin-top: 14px;
 
-
-
-
-          color: #4E4E4E;
+          color: #4e4e4e;
           line-height: 20px;
-
-
-
         }
       }
     }

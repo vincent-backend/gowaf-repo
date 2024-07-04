@@ -1,5 +1,4 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div class="list2-container">
@@ -10,13 +9,19 @@
       <div class="sub-title">
         {{ $t('home.list2.subTitle') }}
       </div>
-      <CommonNumbers style="margin-top: 60px;" :items="$tm('home.list2.numbers')" />
+      <CommonNumbers
+        style="margin-top: 60px"
+        :items="$tm('home.list2.numbers')"
+      />
       <div class="features">
         <div class="feature" v-for="item in $tm('home.list2.features')">
           <div class="left">
-            <div class="icon" :style="{
-          backgroundImage: `url(/images/home/${item.icon}.png)`,
-        }"></div>
+            <div
+              class="icon"
+              :style="{
+                backgroundImage: `url(/images/home/${item.icon}.png)`
+              }"
+            ></div>
             <XsOnly>
               <span class="coming-soon" v-if="item.comingSoon">
                 Coming Soon
@@ -47,28 +52,28 @@
   padding-top: 150px;
 
   .list2 {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
     }
 
-    >.features {
+    > .features {
       margin-top: 60px;
       display: flex;
       flex-wrap: wrap;
 
-      >.feature {
+      > .feature {
         width: 400px;
         height: 162px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
         box-sizing: border-box;
         position: relative;
         left: -1px;
@@ -77,18 +82,17 @@
         display: flex;
         padding: 31px 40px;
 
-        >.left {
+        > .left {
           .icon {
             width: 44px;
             height: 44px;
           }
         }
 
-        >.right {
+        > .right {
           margin-left: 20px;
 
-          >.title {
-
+          > .title {
             font-weight: 500;
             font-size: 20px;
             line-height: 28px;
@@ -105,13 +109,13 @@
               font-family: PingFang-SC, PingFang-SC;
               font-weight: bold;
               font-size: 12px;
-              color: #FFFFFF;
+              color: #ffffff;
               line-height: 17px;
               margin-left: 10px;
             }
           }
 
-          >.content {
+          > .content {
             margin-top: 10px;
 
             font-size: 16px;
@@ -129,27 +133,27 @@
     padding-top: 6.25rem;
 
     .list2 {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
         line-height: 2.38rem;
       }
 
-      >.features {
+      > .features {
         margin-top: 3.56rem;
 
-        >.feature {
+        > .feature {
           width: 50%;
           flex-direction: column;
           padding: 2.63rem 2.13rem 4.81rem 1.25rem;
 
-          >.left {
+          > .left {
             display: flex;
             align-items: center;
 
@@ -167,7 +171,7 @@
 
               font-size: 1.25rem;
               line-height: 1.75rem;
-              color: #FFFFFF;
+              color: #ffffff;
 
               display: flex;
               align-items: center;
@@ -175,16 +179,16 @@
             }
           }
 
-          >.right {
+          > .right {
             margin-left: 0;
             margin-top: 1.63rem;
 
-            >.title {
+            > .title {
               font-size: 2.13rem;
               line-height: 3rem;
             }
 
-            >.content {
+            > .content {
               margin-top: 0.25rem;
 
               font-size: 1.5rem;

@@ -38,9 +38,7 @@ const handleBack = () => {
             <a href="#" class="button button-get-started">
               {{ $t('header.getStarted') }}
             </a>
-            <a href="#" class="button button-lang">
-              EN
-            </a>
+            <a href="#" class="button button-lang"> EN </a>
           </div>
         </div>
       </LgOnly>
@@ -82,7 +80,7 @@ const handleBack = () => {
   z-index: 9;
   width: 100%;
   height: 60px;
-  background: rgba(255, 255, 255, .6);
+  background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(5px);
 
   .header {
@@ -120,19 +118,19 @@ const handleBack = () => {
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #46CF3A;
+            color: #46cf3a;
             line-height: 18px;
           }
 
           &.button-get-started {
             width: 100px;
             height: 30px;
-            background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
+            background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
             border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 18px;
           }
 
@@ -140,7 +138,7 @@ const handleBack = () => {
             width: 62px;
             height: 30px;
             border-radius: 15px;
-            border: 1px solid #E6E6E6;
+            border: 1px solid #e6e6e6;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -159,7 +157,7 @@ const handleBack = () => {
   width: 100%;
   z-index: 9;
   height: 50px;
-  background: linear-gradient(316deg, #3475F5 0%, #12E599 100%) center;
+  background: linear-gradient(316deg, #3475f5 0%, #12e599 100%) center;
   background-size: 1920px 50px;
 
   .header-alert {
@@ -173,7 +171,7 @@ const handleBack = () => {
 
       .text {
         font-size: 16px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 18px;
       }
 
@@ -190,7 +188,7 @@ const handleBack = () => {
 
         width: 128px;
         height: 30px;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 15px;
         line-height: 18px;
         display: flex;

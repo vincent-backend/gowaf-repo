@@ -16,7 +16,10 @@ defineProps<{
       <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
-          <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+          <div
+            class="icon"
+            :style="{ backgroundImage: `url(${item.icon})` }"
+          ></div>
           <div class="title">
             {{ item.title }}
           </div>
@@ -28,7 +31,7 @@ defineProps<{
 
 <style lang="less" scoped>
 .list1-container {
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
   overflow: hidden;
 
   .list1 {
@@ -46,7 +49,7 @@ defineProps<{
 
       width: 612px;
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
@@ -61,11 +64,12 @@ defineProps<{
       .item {
         width: 330px;
         height: 200px;
-        background: url(/public/images/network/Network_DDoS_card_bg.png) no-repeat top,
-          #FFFFFF;
-        box-shadow: 0px 4px 10px 0px #F1F1F1;
+        background:
+          url(/public/images/network/Network_DDoS_card_bg.png) no-repeat top,
+          #ffffff;
+        box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
         box-sizing: border-box;
         padding: 20px;
 
@@ -117,7 +121,7 @@ defineProps<{
         gap: 1.25rem 0;
         justify-content: space-between;
 
-        >.item {
+        > .item {
           width: 20.9rem;
           height: 18.25rem;
           padding: 0.63rem 0 1.25rem 1.25rem;

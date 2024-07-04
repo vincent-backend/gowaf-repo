@@ -5,7 +5,7 @@ const props = defineProps({
   pic: String,
   picHeight: String,
   mPic: String,
-  mPicHeight: String,
+  mPicHeight: String
 });
 </script>
 
@@ -14,14 +14,19 @@ const props = defineProps({
     <div class="chart1 page-container">
       <div class="title" v-if="props.title">{{ props.title }}</div>
       <div class="sub-title" v-if="props.subTitle">{{ props.subTitle }}</div>
-      <div class="pic" 
-        :style="isMobile ? {
-          backgroundImage: `url(${mPic})`,
-          height: mPicHeight,
-        } : {
-          backgroundImage: `url(${pic})`,
-          height: picHeight,
-        }"
+      <div
+        class="pic"
+        :style="
+          isMobile
+            ? {
+                backgroundImage: `url(${mPic})`,
+                height: mPicHeight
+              }
+            : {
+                backgroundImage: `url(${pic})`,
+                height: picHeight
+              }
+        "
       ></div>
     </div>
   </div>
@@ -32,31 +37,24 @@ const props = defineProps({
   margin-top: 120px;
 
   .chart1 {
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.pic {
+    > .pic {
       margin-top: 80px;
 
       width: 1200px;
@@ -67,46 +65,40 @@ const props = defineProps({
 }
 // For mobile devices
 @media (max-width: 767px) {
-.chart1-container {
-  margin-top: 6.25rem;
+  .chart1-container {
+    margin-top: 6.25rem;
 
-  .chart1 {
-    >.title {
+    .chart1 {
+      > .title {
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        text-align: left;
+      }
 
-      font-weight: 500;
-      font-size: 2.5rem;
-      line-height: 1.5;
-      text-align: left;
+      > .sub-title {
+        margin-top: 1rem;
 
+        font-size: 1.75rem;
+        color: #4e4e4e;
 
-    }
+        text-align: left;
+        border-bottom: 0.06rem solid #e6e6e6;
+        padding-bottom: 1.88rem;
+      }
 
-    >.sub-title {
-      margin-top: 1rem;
-
-      font-size: 1.75rem;
-      color: #4E4E4E;
-
-      text-align: left;
-      border-bottom: 0.06rem solid #e6e6e6;
-      padding-bottom: 1.88rem;
-
-
-    }
-
-    >.pic {
-      margin-top: 3.8rem;
-      background-size: 40.63rem 37rem !important;
-      background-color: #fff;
-      background-position: center center;
-      background-repeat: no-repeat;
-      box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(173,173,173,0.14);
-      border-radius: 0.88rem;
-      width: 43.43rem;
-      height: 39rem;
-
+      > .pic {
+        margin-top: 3.8rem;
+        background-size: 40.63rem 37rem !important;
+        background-color: #fff;
+        background-position: center center;
+        background-repeat: no-repeat;
+        box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(173, 173, 173, 0.14);
+        border-radius: 0.88rem;
+        width: 43.43rem;
+        height: 39rem;
+      }
     }
   }
-}  
 }
 </style>

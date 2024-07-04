@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const props = defineProps({
   title: String,
-  subTitle: String,
+  subTitle: String
 });
 </script>
 
@@ -11,11 +11,19 @@ const props = defineProps({
       <div class="title" v-if="props.title">{{ props.title }}</div>
       <div class="sub-title" v-if="props.subTitle">{{ props.subTitle }}</div>
       <div class="list">
-        <div class="item" :class="[`item-${index}`]"
-          v-for="item, index in $tm('solutions.websiteAcceleration.closerToUser.items')">
+        <div
+          class="item"
+          :class="[`item-${index}`]"
+          v-for="(item, index) in $tm(
+            'solutions.websiteAcceleration.closerToUser.items'
+          )"
+        >
           <div class="header">{{ item.header }}</div>
           <div class="head">
-            <div class="icon-1" :style="{ backgroundImage: `url(${item.icon1})` }"></div>
+            <div
+              class="icon-1"
+              :style="{ backgroundImage: `url(${item.icon1})` }"
+            ></div>
             <div class="time-container">
               <div class="time">{{ item.number }}</div>
               <div class="right">
@@ -23,7 +31,10 @@ const props = defineProps({
                 <div class="label">{{ item.label }}</div>
               </div>
             </div>
-            <div class="icon-2" :style="{ backgroundImage: `url(${item.icon2})` }"></div>
+            <div
+              class="icon-2"
+              :style="{ backgroundImage: `url(${item.icon2})` }"
+            ></div>
           </div>
           <div class="content">
             {{ item.content }}
@@ -39,46 +50,39 @@ const props = defineProps({
   margin-top: 120px;
 
   .closer-to-user {
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.list {
+    > .list {
       margin-top: 80px;
 
       display: flex;
       gap: 20px;
 
-      background: #FFFFFF;
+      background: #ffffff;
       box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
       border-radius: 24px;
 
       box-sizing: border-box;
       padding: 20px;
 
-      >.item {
+      > .item {
         height: 360px;
-        background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+        background: linear-gradient(312deg, #f6f6f6 0%, #fafafa 100%);
         border-radius: 14px;
         box-sizing: border-box;
         position: relative;
@@ -97,20 +101,16 @@ const props = defineProps({
           align-items: center;
           justify-content: center;
 
-
           font-weight: 500;
           font-size: 22px;
-          color: #FFFFFF;
+          color: #ffffff;
           line-height: 30px;
-
-
-
         }
 
         .head {
           width: 530px;
           height: 122px;
-          background: #FFFFFF;
+          background: #ffffff;
           border-radius: 14px;
           overflow: hidden;
           display: flex;
@@ -134,9 +134,6 @@ const props = defineProps({
               font-size: 48px;
 
               line-height: 64px;
-
-
-
             }
 
             .right {
@@ -146,25 +143,15 @@ const props = defineProps({
               justify-content: center;
 
               .unit {
-
                 font-weight: 500;
                 font-size: 24px;
 
                 line-height: 33px;
-
-
-
               }
 
               .label {
-
-
                 font-size: 16px;
-                color: #4E4E4E;
-
-
-
-
+                color: #4e4e4e;
               }
             }
           }
@@ -179,18 +166,12 @@ const props = defineProps({
           margin-top: 20px;
           padding-right: 30px;
 
-
-
           font-size: 16px;
-          color: #4E4E4E;
-
-
-
-
+          color: #4e4e4e;
         }
 
         &.item-0 {
-          background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+          background: linear-gradient(312deg, #f6f6f6 0%, #fafafa 100%);
 
           .header {
             background: #292929;
@@ -198,10 +179,10 @@ const props = defineProps({
         }
 
         &.item-1 {
-          background: linear-gradient(312deg, #E9F8FC 0%, #FFFBF0 100%);
+          background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
 
           .header {
-            background: linear-gradient(316deg, #3475F5 0%, #12E599 100%);
+            background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
           }
         }
       }
@@ -210,44 +191,41 @@ const props = defineProps({
 }
 // For mobile devices
 @media (max-width: 767px) {
- .closer-to-user-container {
+  .closer-to-user-container {
     margin-top: 6.25rem;
 
     .closer-to-user {
-      >.title {
-
+      > .title {
         font-weight: 500;
         font-size: 2.25rem;
 
         line-height: 42px;
         text-align: left;
-
-
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
         font-size: 1.75rem;
-        color: #4E4E4E;
+        color: #4e4e4e;
         text-align: left;
       }
 
-      >.list {
+      > .list {
         margin-top: 3.13rem;
         flex-direction: column;
         display: flex;
         gap: 1.3rem;
 
-        background: #FFFFFF;
-        box-shadow: 0rem 0rem 1.88rem 0rem rgba(173,173,173,0.14);
+        background: #ffffff;
+        box-shadow: 0rem 0rem 1.88rem 0rem rgba(173, 173, 173, 0.14);
         border-radius: 1.5rem;
 
         box-sizing: border-box;
         padding: 1.25rem;
 
-        >.item {
+        > .item {
           height: auto;
-          background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+          background: linear-gradient(312deg, #f6f6f6 0%, #fafafa 100%);
           border-radius: 1rem;
           box-sizing: border-box;
           position: relative;
@@ -266,20 +244,16 @@ const props = defineProps({
             align-items: center;
             justify-content: center;
 
-
             font-weight: 500;
             font-size: 2rem;
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 1.6;
-
-
-
           }
 
           .head {
             width: 100%;
             height: 8rem;
-            background: #FFFFFF;
+            background: #ffffff;
             border-radius: 1rem;
             overflow: hidden;
             display: flex;
@@ -304,9 +278,6 @@ const props = defineProps({
                 font-size: 3.13rem;
 
                 line-height: 1.6;
-
-
-
               }
 
               .right {
@@ -316,25 +287,15 @@ const props = defineProps({
                 justify-content: center;
 
                 .unit {
-
                   font-weight: 500;
                   font-size: 2.13rem;
 
                   line-height: 1.6;
-
-
-
                 }
 
                 .label {
-
-
                   font-size: 1.63rem;
-                  color: #4E4E4E;
-
-
-
-
+                  color: #4e4e4e;
                 }
               }
             }
@@ -349,18 +310,12 @@ const props = defineProps({
             margin-top: 1.7rem;
             padding-right: 1.7rem;
 
-
-
             font-size: 1.63rem;
-            color: #4E4E4E;
-
-
-
-
+            color: #4e4e4e;
           }
 
           &.item-0 {
-            background: linear-gradient(312deg, #F6F6F6 0%, #FAFAFA 100%);
+            background: linear-gradient(312deg, #f6f6f6 0%, #fafafa 100%);
 
             .header {
               background: #292929;
@@ -368,15 +323,15 @@ const props = defineProps({
           }
 
           &.item-1 {
-            background: linear-gradient(312deg, #E9F8FC 0%, #FFFBF0 100%);
+            background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
 
             .header {
-              background: linear-gradient(316deg, #3475F5 0%, #12E599 100%);
+              background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
             }
           }
         }
       }
     }
-  } 
+  }
 }
 </style>

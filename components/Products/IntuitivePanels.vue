@@ -5,18 +5,40 @@ const curTab = ref(0);
 <template>
   <div class="intuitive-panels-container">
     <div class="intuitive-panels page-container">
-      <div class="title">{{ $t('products.cdn.overview.intuitivePanels.title') }}</div>
-      <div class="sub-title">{{ $t('products.cdn.overview.intuitivePanels.subTitle') }}</div>
-      <Line top="30px" />
-      <CommonTabs :tabs="$tm('products.cdn.overview.intuitivePanels.tabs')" v-model:cur-tab="curTab" />
-      <template v-for="tab, index in $tm('products.cdn.overview.intuitivePanels.tabs')">
+      <div class="title">
+        {{ $t('products.cdn.overview.intuitivePanels.title') }}
+      </div>
+      <div class="sub-title">
+        {{ $t('products.cdn.overview.intuitivePanels.subTitle') }}
+      </div>
+      <Line top="30px" m-top="2.2rem" />
+      <CommonTabs
+        :tabs="$tm('products.cdn.overview.intuitivePanels.tabs')"
+        v-model:cur-tab="curTab"
+      />
+      <template
+        v-for="(tab, index) in $tm(
+          'products.cdn.overview.intuitivePanels.tabs'
+        )"
+      >
         <div class="tab-content" v-if="index === curTab">
           <div class="content">{{ tab.content }}</div>
-          <div class="pic" :style="{
-        backgroundImage: `url(${tab.pic})`,
-        width: tab.picWidth,
-        height: tab.picHeight,
-      }"></div>
+          <div
+            class="pic"
+            :style="
+              isMobile
+                ? {
+                    backgroundImage: `url(${tab.pic})`,
+                    width: tab.mpicWidth,
+                    height: tab.mpicHeight
+                  }
+                : {
+                    backgroundImage: `url(${tab.pic})`,
+                    width: tab.picWidth,
+                    height: tab.picHeight
+                  }
+            "
+          ></div>
         </div>
       </template>
     </div>
@@ -31,48 +53,78 @@ const curTab = ref(0);
   height: 951px;
 
   .intuitive-panels {
-    >.title {
+    > .title {
       margin-top: 30px;
-
 
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.tab-content {
+    > .tab-content {
       margin-top: 30px;
 
-      >.content {
-
-
+      > .content {
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
 
         text-align: center;
-
-
       }
 
-      >.pic {
+      > .pic {
         margin: 50px auto 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .intuitive-panels-container {
+    height: fit-content;
+    margin-bottom: 7.8rem;
+    .intuitive-panels {
+      > .title {
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 2.22rem;
+        line-height: 3.11rem;
+        text-align: left;
+      }
+
+      > .sub-title {
+        width: 90%;
+        margin-top: 0.89rem;
+        font-weight: 400;
+        font-size: 1.56rem;
+        color: #4e4e4e;
+        line-height: 2.11rem;
+        text-align: left;
+      }
+
+      > .tab-content {
+        margin-top: 30px;
+
+        > .content {
+          font-size: 16px;
+          color: #4e4e4e;
+
+          text-align: center;
+        }
+
+        > .pic {
+          margin: 50px auto 0;
+        }
       }
     }
   }

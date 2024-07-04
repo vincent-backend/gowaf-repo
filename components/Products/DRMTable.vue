@@ -4,13 +4,21 @@
       <div class="table">
         <div class="header">
           <div class="row">
-            <div class="cell" v-for="item in $tm('products.stream.multiDRM.drmTable.table.header')">
+            <div
+              class="cell"
+              v-for="item in $tm(
+                'products.stream.multiDRM.drmTable.table.header'
+              )"
+            >
               {{ item }}
             </div>
           </div>
         </div>
         <div class="body">
-          <div class="row" v-for="row in $tm('products.stream.multiDRM.drmTable.table.body')">
+          <div
+            class="row"
+            v-for="row in $tm('products.stream.multiDRM.drmTable.table.body')"
+          >
             <div class="cell" v-for="item in row">
               <span v-if="item === true" class="icon-true"></span>
               <span v-else-if="item === false" class="icon-false"></span>
@@ -20,15 +28,25 @@
         </div>
         <div class="footer">
           <div class="row">
-            <div class="cell" v-for="item in $tm('products.stream.multiDRM.drmTable.table.footer')">
+            <div
+              class="cell"
+              v-for="item in $tm(
+                'products.stream.multiDRM.drmTable.table.footer'
+              )"
+            >
               {{ item }}
             </div>
           </div>
         </div>
       </div>
-      <CommonMultiLine class="hint" :text="$t('products.stream.multiDRM.drmTable.hint')" />
+      <CommonMultiLine
+        class="hint"
+        :text="$t('products.stream.multiDRM.drmTable.hint')"
+      />
       <div class="btn-container">
-        <a href="#" class="trail-btn">{{ $t('products.stream.multiDRM.drmTable.btn') }}</a>
+        <a href="#" class="trail-btn">{{
+          $t('products.stream.multiDRM.drmTable.btn')
+        }}</a>
       </div>
     </div>
   </div>
@@ -42,11 +60,11 @@
     width: 1000px;
 
     padding: 10px 30px 40px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
     border-radius: 14px;
 
-    >.table {
+    > .table {
       .row {
         height: 50px;
         display: flex;
@@ -67,13 +85,10 @@
       .header {
         .row {
           .cell {
-
             font-weight: 600;
             font-size: 18px;
 
             line-height: 25px;
-
-
           }
         }
       }
@@ -81,14 +96,9 @@
       .body {
         .row {
           .cell {
-
             font-weight: 500;
 
-
             line-height: 20px;
-
-
-
 
             .icon-true,
             .icon-false {
@@ -110,33 +120,23 @@
       .footer {
         .row {
           .cell {
-
-
-
-
             line-height: 20px;
             text-align: center;
-
-
           }
         }
       }
     }
 
-    >.hint {
+    > .hint {
       margin-top: 40px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.btn-container {
+    > .btn-container {
       margin-top: 20px;
 
       display: flex;

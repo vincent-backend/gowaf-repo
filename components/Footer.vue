@@ -11,19 +11,26 @@ const props = defineProps({
 });
 </script> -->
 <script lang="ts" setup>
-withDefaults(defineProps<{
-  isShowBanner: boolean;
-  type?: {
-    page: string;
+withDefaults(
+  defineProps<{
+    isShowBanner: boolean;
+    type?: {
+      page: string;
+    };
+    showFoot?: boolean;
+  }>(),
+  {
+    showFoot: true,
+    isShowBanner: true
   }
-  showFoot?: boolean;
-}>(), {
-  showFoot: true,
-  isShowBanner: true
-});
+);
 </script>
 <template>
-  <footer class="footer-1-container" v-if="isShowBanner" :style="{ marginTop: type && type.page == 'about' ? 0 : '10px' }">
+  <footer
+    class="footer-1-container"
+    v-if="isShowBanner"
+    :style="{ marginTop: type && type.page == 'about' ? 0 : '10px' }"
+  >
     <div class="page-container footer-1">
       <div class="left">
         <div class="title">
@@ -53,12 +60,19 @@ withDefaults(defineProps<{
       <div class="content">
         <div class="left">
           <div class="hot-links">
-            <a v-for="item in $tm('footer.footer2.hotlinks')" :href="item.link" class="link">
+            <a
+              v-for="item in $tm('footer.footer2.hotlinks')"
+              :href="item.link"
+              class="link"
+            >
               {{ item.label }}
             </a>
           </div>
           <div class="shortcuts-container">
-            <dl class="shortcuts" v-for="item in $tm('footer.footer2.shortcuts')">
+            <dl
+              class="shortcuts"
+              v-for="item in $tm('footer.footer2.shortcuts')"
+            >
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
                 <a :href="item2.href">{{ item2.label }}</a>
@@ -142,12 +156,13 @@ withDefaults(defineProps<{
 <style lang="less" scoped>
 .footer-1-container {
   margin-top: 120px;
-  background: linear-gradient(316deg, #3475F5 0%, #12E599 100%);
+  background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
   height: 190px;
 
   .footer-1 {
     height: 100%;
-    background: url(/public/images/home/home_bot_banner_bg_dot@2x.png) no-repeat left center;
+    background: url(/public/images/home/home_bot_banner_bg_dot@2x.png) no-repeat
+      left center;
     background-size: 1018px 190px;
     display: flex;
     align-items: center;
@@ -157,7 +172,7 @@ withDefaults(defineProps<{
       .title {
         font-weight: 500;
         font-size: 30px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 42px;
       }
 
@@ -165,7 +180,7 @@ withDefaults(defineProps<{
         margin-top: 10px;
 
         font-size: 16px;
-        color: #FFFFFF;
+        color: #ffffff;
       }
     }
 
@@ -179,7 +194,7 @@ withDefaults(defineProps<{
           display: flex;
           width: 174px;
           height: 50px;
-          background: #FFFFFF;
+          background: #ffffff;
           border-radius: 25px;
           align-items: center;
           justify-content: center;
@@ -194,9 +209,9 @@ withDefaults(defineProps<{
         margin-top: 13px;
 
         font-size: 12px;
-        color: #FFFFFF;
+        color: #ffffff;
         line-height: 17px;
-        opacity: .7;
+        opacity: 0.7;
       }
     }
   }
@@ -214,18 +229,18 @@ withDefaults(defineProps<{
       }
     }
 
-    >.content {
+    > .content {
       display: flex;
       justify-content: space-between;
 
-      >.left {
+      > .left {
         .hot-links {
           display: flex;
           justify-content: flex-start;
           gap: 30px;
 
           .link {
-            color: #4E4E4E;
+            color: #4e4e4e;
             line-height: 20px;
           }
         }
@@ -248,7 +263,7 @@ withDefaults(defineProps<{
               margin-top: 10px;
 
               a {
-                color: #4E4E4E;
+                color: #4e4e4e;
                 line-height: 20px;
               }
             }
@@ -262,7 +277,7 @@ withDefaults(defineProps<{
           gap: 30px;
 
           a {
-            color: #4E4E4E;
+            color: #4e4e4e;
             line-height: 20px;
           }
         }
@@ -270,25 +285,25 @@ withDefaults(defineProps<{
         .copyright {
           margin-top: 10px;
 
-          color: #4E4E4E;
+          color: #4e4e4e;
           line-height: 20px;
         }
       }
 
-      >.right {
+      > .right {
         width: 400px;
 
         .section-1 {
-          >.title {
+          > .title {
             font-weight: 500;
             line-height: 20px;
           }
 
-          >.content {
+          > .content {
             .sub-title {
               margin-top: 14px;
 
-              color: #4E4E4E;
+              color: #4e4e4e;
               line-height: 20px;
             }
 
@@ -300,7 +315,7 @@ withDefaults(defineProps<{
 
               .contact {
                 font-size: 16px;
-                color: #3CCF87;
+                color: #3ccf87;
                 line-height: 22px;
                 display: flex;
 
@@ -310,11 +325,13 @@ withDefaults(defineProps<{
                   margin-right: 10px;
 
                   &.icon-email {
-                    background: url(/public/images/home/bot_ic_email@2x.png) no-repeat;
+                    background: url(/public/images/home/bot_ic_email@2x.png)
+                      no-repeat;
                   }
 
                   &.icon-phone {
-                    background: url(/public/images/home/bot_ic_phone@2x.png) no-repeat;
+                    background: url(/public/images/home/bot_ic_phone@2x.png)
+                      no-repeat;
                   }
                 }
               }
@@ -338,7 +355,7 @@ withDefaults(defineProps<{
             .sub-title {
               margin-top: 14px;
 
-              color: #4E4E4E;
+              color: #4e4e4e;
               line-height: 20px;
             }
 
@@ -352,15 +369,18 @@ withDefaults(defineProps<{
                 height: 24px;
 
                 &.social-icon-1 {
-                  background: url(/public/images/home/bot_logo_twitter@2x.png) no-repeat;
+                  background: url(/public/images/home/bot_logo_twitter@2x.png)
+                    no-repeat;
                 }
 
                 &.social-icon-2 {
-                  background: url(/public/images/home/bot_logo_face@2x.png) no-repeat;
+                  background: url(/public/images/home/bot_logo_face@2x.png)
+                    no-repeat;
                 }
 
                 &.social-icon-3 {
-                  background: url(/public/images/home/nav_logo_in@2x.png) no-repeat;
+                  background: url(/public/images/home/nav_logo_in@2x.png)
+                    no-repeat;
                 }
               }
             }
@@ -442,17 +462,18 @@ withDefaults(defineProps<{
         }
       }
 
-      >.content {
+      > .content {
         flex-direction: column;
         justify-content: flex-start;
 
-        >.left {
+        > .left {
           .hot-links {
             margin-top: 1.81rem;
             flex-wrap: wrap;
             gap: 1.25rem 2.5rem;
 
-            .link {}
+            .link {
+            }
           }
 
           .shortcuts-container {
@@ -481,24 +502,26 @@ withDefaults(defineProps<{
           }
 
           .links {
-            a {}
+            a {
+            }
           }
 
-          .copyright {}
+          .copyright {
+          }
         }
 
-        >.right {
+        > .right {
           margin-top: 3.13rem;
 
           width: 100%;
 
           .section-1 {
-            >.title {
+            > .title {
               font-size: 1.5rem;
               line-height: 2.06rem;
             }
 
-            >.content {
+            > .content {
               .sub-title {
                 margin-top: 0.63rem;
 
@@ -519,9 +542,11 @@ withDefaults(defineProps<{
                     height: 2.25rem;
                     margin-right: 0.63rem;
 
-                    &.icon-email {}
+                    &.icon-email {
+                    }
 
-                    &.icon-phone {}
+                    &.icon-phone {
+                    }
                   }
                 }
               }
@@ -557,15 +582,18 @@ withDefaults(defineProps<{
                   height: 2.25rem;
 
                   &.social-icon-1 {
-                    background: url(/public/mobile-images/home/bot_logo_twitter@2x.png) no-repeat;
+                    background: url(/public/mobile-images/home/bot_logo_twitter@2x.png)
+                      no-repeat;
                   }
 
                   &.social-icon-2 {
-                    background: url(/public/mobile-images/home/bot_logo_face@2x.png) no-repeat;
+                    background: url(/public/mobile-images/home/bot_logo_face@2x.png)
+                      no-repeat;
                   }
 
                   &.social-icon-3 {
-                    background: url(/public/mobile-images/home/nav_logo_in@2x.png) no-repeat;
+                    background: url(/public/mobile-images/home/nav_logo_in@2x.png)
+                      no-repeat;
                   }
                 }
               }
@@ -579,7 +607,7 @@ withDefaults(defineProps<{
             line-height: 2.63rem;
           }
 
-          >.links {
+          > .links {
             margin-top: 3.13rem;
 
             display: flex;
@@ -588,18 +616,18 @@ withDefaults(defineProps<{
 
             a {
               font-size: 1.5rem;
-              color: #4E4E4E;
+              color: #4e4e4e;
               line-height: 2.06rem;
             }
           }
 
-          >.copyright {
+          > .copyright {
             margin-top: 1.88rem;
 
             font-size: 1.5rem;
-            color: #4E4E4E;
+            color: #4e4e4e;
             line-height: 2.06rem;
-            opacity: .5;
+            opacity: 0.5;
           }
         }
       }

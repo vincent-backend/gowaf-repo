@@ -1,12 +1,22 @@
 <template>
   <div class="products-list1-container">
     <div class="products-list1 page-container">
-      <div class="title">{{ $t('products.cdn.overview.pricingSimplified.title') }}</div>
-      <div class="sub-title">{{ $t('products.cdn.overview.pricingSimplified.subTitle') }}</div>
+      <div class="title">
+        {{ $t('products.cdn.overview.pricingSimplified.title') }}
+      </div>
+      <div class="sub-title">
+        {{ $t('products.cdn.overview.pricingSimplified.subTitle') }}
+      </div>
       <div class="list">
-        <div class="item" v-for="item in $tm('products.cdn.overview.pricingSimplified.items')">
+        <div
+          class="item"
+          v-for="item in $tm('products.cdn.overview.pricingSimplified.items')"
+        >
           <div class="left">
-            <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+            <div
+              class="icon"
+              :style="{ backgroundImage: `url(${item.icon})` }"
+            ></div>
             <div class="icon-label">{{ item.iconLabel }}</div>
           </div>
           <div class="right">
@@ -15,7 +25,10 @@
             <div class="indicator-container">
               <div class="indicator" v-for="indicator in item.indicators">
                 <div class="head">
-                  <div class="icon" :style="{ backgroundImage: `url(${indicator.icon})` }"></div>
+                  <div
+                    class="icon"
+                    :style="{ backgroundImage: `url(${indicator.icon})` }"
+                  ></div>
                   <div class="value">{{ indicator.value }}</div>
                 </div>
                 <div class="label">{{ indicator.label }}</div>
@@ -35,118 +48,95 @@
   .products-list1 {
     width: 1100px;
 
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin: 18px auto 0;
       width: 630px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.list {
+    > .list {
       display: flex;
       justify-content: space-between;
       margin-top: 80px;
 
-      >.item {
+      > .item {
         display: flex;
         width: 450px;
 
-        >.left {
+        > .left {
           display: flex;
           flex-direction: column;
           align-items: center;
 
-          >.icon {
+          > .icon {
             width: 148px;
             height: 148px;
           }
 
-          >.icon-label {
+          > .icon-label {
             margin-top: 4px;
 
             width: 126px;
             height: 31px;
-            background: linear-gradient(132deg, #46CF3A 0%, #36CFBC 100%);
+            background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
             border-radius: 25px;
 
             display: flex;
             align-items: center;
             justify-content: center;
 
-
-
-
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 20px;
-
-
-
           }
         }
 
-        >.right {
+        > .right {
           margin-left: 30px;
 
-          >.title {
+          > .title {
             padding-top: 10px;
-
 
             font-weight: 500;
             font-size: 16px;
 
             line-height: 22px;
-
-
-
           }
 
-          >.content {
+          > .content {
             margin-top: 14px;
 
-
-
-
-            color: #4E4E4E;
+            color: #4e4e4e;
             line-height: 20px;
-
-
-
           }
 
-          >.indicator-container {
+          > .indicator-container {
             margin-top: 30px;
             display: flex;
             justify-content: space-between;
 
-            >.indicator {
-              >.head {
+            > .indicator {
+              > .head {
                 display: flex;
                 align-items: center;
 
-                >.icon {
+                > .icon {
                   width: 40px;
                   height: 40px;
                 }
 
-                >.value {
+                > .value {
                   margin-left: 10px;
 
                   font-family: Mont, Mont;
@@ -155,25 +145,18 @@
 
                   line-height: 40px;
 
-
-
-                  background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+                  background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
                 }
               }
 
-              >.label {
+              > .label {
                 margin-top: 10px;
 
-
-
                 font-size: 12px;
-                color: #4E4E4E;
+                color: #4e4e4e;
                 line-height: 17px;
-
-
-
               }
             }
           }

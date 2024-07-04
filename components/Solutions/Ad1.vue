@@ -24,15 +24,23 @@ defineProps<{
         </div>
       </div>
       <div class="right">
-        <div class="pic" :style="obeyDevice({
-          backgroundImage: `url(${pic})`,
-          width: picWidth,
-          height: picHeight,
-        }, {
-          backgroundImage: `url(${mPic})`,
-          width: mPicWidth,
-          height: mPicHeight,
-        }).value"></div>
+        <div
+          class="pic"
+          :style="
+            obeyDevice(
+              {
+                backgroundImage: `url(${pic})`,
+                width: picWidth,
+                height: picHeight
+              },
+              {
+                backgroundImage: `url(${mPic})`,
+                width: mPicWidth,
+                height: mPicHeight
+              }
+            ).value
+          "
+        ></div>
       </div>
     </div>
   </div>
@@ -43,7 +51,7 @@ defineProps<{
   margin-top: 120px;
 
   height: 330px;
-  background: linear-gradient(180deg, #E6EDFC 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
 
   .ad1 {
     width: 1090px;
@@ -52,7 +60,7 @@ defineProps<{
     align-items: center;
     justify-content: space-between;
 
-    >.left {
+    > .left {
       .title {
         font-weight: 500;
         font-size: 30px;
@@ -63,7 +71,7 @@ defineProps<{
         margin-top: 10px;
 
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
 
       .btn-container {
@@ -71,8 +79,9 @@ defineProps<{
       }
     }
 
-    >.right {
-      .pic {}
+    > .right {
+      .pic {
+      }
     }
   }
 }
@@ -93,7 +102,7 @@ defineProps<{
       padding-left: 1.87rem;
       padding-right: 0.63rem;
 
-      >.left {
+      > .left {
         flex: 1;
 
         .title {
@@ -113,8 +122,9 @@ defineProps<{
         }
       }
 
-      >.right {
-        .pic {}
+      > .right {
+        .pic {
+        }
       }
     }
   }

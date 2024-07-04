@@ -6,8 +6,12 @@ const curTab = ref(0);
   <div class="banner-container">
     <div class="page-container banner">
       <div class="tabs">
-        <a href="#" v-for="tab, index in $tm('network.overview.tabs')" :class="{ current: index === curTab }"
-          @click.prevent="curTab = index">
+        <a
+          href="#"
+          v-for="(tab, index) in $tm('network.overview.tabs')"
+          :class="{ current: index === curTab }"
+          @click.prevent="curTab = index"
+        >
           {{ tab }}
         </a>
       </div>
@@ -87,7 +91,8 @@ const curTab = ref(0);
 .banner-container {
   height: 840px;
   min-width: 1200px;
-  background: url(/public/images/network/Network_Overview_map.png) no-repeat center;
+  background: url(/public/images/network/Network_Overview_map.png) no-repeat
+    center;
   background-size: 1920px 840px;
 
   .banner {
@@ -95,7 +100,7 @@ const curTab = ref(0);
     position: relative;
     height: 100%;
 
-    >.tabs {
+    > .tabs {
       margin-top: 30px;
       display: flex;
       justify-content: center;
@@ -104,7 +109,7 @@ const curTab = ref(0);
       a {
         background: rgba(255, 255, 255, 0.3);
         border-radius: 20px;
-        border: 1px solid #FFFFFF;
+        border: 1px solid #ffffff;
         padding: 9px 16px;
         font-weight: 600;
         font-size: 16px;
@@ -113,12 +118,12 @@ const curTab = ref(0);
         &.current {
           background: #000;
           border-color: #000;
-          color: #FFF;
+          color: #fff;
         }
       }
     }
 
-    >.content {
+    > .content {
       margin-top: 40px;
 
       .title-0 {
@@ -140,11 +145,11 @@ const curTab = ref(0);
       .title-2 {
         margin-top: 20px;
 
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
     }
 
-    >.dots {
+    > .dots {
       position: absolute;
       left: 187px;
       top: 277px;
@@ -155,32 +160,38 @@ const curTab = ref(0);
         height: 26px;
 
         &.dot-blue {
-          background: url(/public/images/network/Network_Overview_banner_map_Europe.png) no-repeat;
+          background: url(/public/images/network/Network_Overview_banner_map_Europe.png)
+            no-repeat;
         }
 
         &.dot-cyanogen {
-          background: url(/public/images/network/Network_Overview_banner_map_LATAM.png) no-repeat;
+          background: url(/public/images/network/Network_Overview_banner_map_LATAM.png)
+            no-repeat;
         }
 
         &.dot-orange {
-          background: url(/public/images/network/Network_Overview_banner_map_Oceania.png) no-repeat;
+          background: url(/public/images/network/Network_Overview_banner_map_Oceania.png)
+            no-repeat;
         }
 
         &.dot-green {
-          background: url(/public/images/network/Network_Overview_banner_map_Asia.png) no-repeat;
+          background: url(/public/images/network/Network_Overview_banner_map_Asia.png)
+            no-repeat;
         }
 
         &.dot-yellow {
-          background: url(/public/images/network/Network_Overview_banner_map_North.png) no-repeat;
+          background: url(/public/images/network/Network_Overview_banner_map_North.png)
+            no-repeat;
         }
 
         &.dot-pink {
-          background: url(/public/images/network/Network_Overview_banner_map_Middle.png) no-repeat;
+          background: url(/public/images/network/Network_Overview_banner_map_Middle.png)
+            no-repeat;
         }
       }
     }
 
-    >.legend-container {
+    > .legend-container {
       position: absolute;
       left: 0;
       bottom: 20px;
@@ -188,7 +199,7 @@ const curTab = ref(0);
       box-sizing: border-box;
       padding: 20px;
       background: rgba(255, 255, 255, 0.8);
-      box-shadow: 0px 14px 20px 0px #C9D8DA;
+      box-shadow: 0px 14px 20px 0px #c9d8da;
       border-radius: 14px;
       backdrop-filter: blur(5px);
       display: flex;
@@ -232,11 +243,11 @@ const curTab = ref(0);
           margin-left: 12px;
 
           font-size: 16px;
-          color: #4E4E4E;
+          color: #4e4e4e;
 
           .count {
-            color: #4E4E4E;
-            opacity: .5;
+            color: #4e4e4e;
+            opacity: 0.5;
           }
         }
       }
@@ -254,7 +265,7 @@ const curTab = ref(0);
     .banner {
       overflow: visible;
 
-      >.tabs {
+      > .tabs {
         padding-top: 1.87rem;
         justify-content: space-between;
         gap: 0;
@@ -264,11 +275,12 @@ const curTab = ref(0);
           font-size: 1.5rem;
           line-height: 2.06rem;
 
-          &.current {}
+          &.current {
+          }
         }
       }
 
-      >.content {
+      > .content {
         margin-top: 1.88rem;
 
         .title-0 {
@@ -291,35 +303,41 @@ const curTab = ref(0);
         }
       }
 
-      >.dots {
+      > .dots {
         .dot {
           &.dot-blue {
-            background: url(/public/images/network/Network_Overview_banner_map_Europe.png) no-repeat;
+            background: url(/public/images/network/Network_Overview_banner_map_Europe.png)
+              no-repeat;
           }
 
           &.dot-cyanogen {
-            background: url(/public/images/network/Network_Overview_banner_map_LATAM.png) no-repeat;
+            background: url(/public/images/network/Network_Overview_banner_map_LATAM.png)
+              no-repeat;
           }
 
           &.dot-orange {
-            background: url(/public/images/network/Network_Overview_banner_map_Oceania.png) no-repeat;
+            background: url(/public/images/network/Network_Overview_banner_map_Oceania.png)
+              no-repeat;
           }
 
           &.dot-green {
-            background: url(/public/images/network/Network_Overview_banner_map_Asia.png) no-repeat;
+            background: url(/public/images/network/Network_Overview_banner_map_Asia.png)
+              no-repeat;
           }
 
           &.dot-yellow {
-            background: url(/public/images/network/Network_Overview_banner_map_North.png) no-repeat;
+            background: url(/public/images/network/Network_Overview_banner_map_North.png)
+              no-repeat;
           }
 
           &.dot-pink {
-            background: url(/public/images/network/Network_Overview_banner_map_Middle.png) no-repeat;
+            background: url(/public/images/network/Network_Overview_banner_map_Middle.png)
+              no-repeat;
           }
         }
       }
 
-      >.legend-container {
+      > .legend-container {
         bottom: -8.81rem;
 
         width: 43.13rem;
@@ -367,7 +385,8 @@ const curTab = ref(0);
           .text {
             font-size: 1.63rem;
             margin-left: 0.5rem;
-            .count {}
+            .count {
+            }
           }
         }
       }

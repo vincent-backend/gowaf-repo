@@ -26,7 +26,7 @@
   margin-top: 80px;
 
   height: 330px;
-  background: linear-gradient(180deg, #E6EDFC 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
 
   .hop {
     height: 100%;
@@ -45,7 +45,7 @@
         margin-top: 10px;
 
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
 
       .trail-btn {

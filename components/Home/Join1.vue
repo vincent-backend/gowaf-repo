@@ -33,9 +33,12 @@
         <div class="list">
           <div class="item" v-for="item in $tm('home.join1.info1.rightList')">
             <div class="left">
-              <div class="icon" :style="{
-          backgroundImage: `url(/images/home/${item.icon}.png)`,
-        }"></div>
+              <div
+                class="icon"
+                :style="{
+                  backgroundImage: `url(/images/home/${item.icon}.png)`
+                }"
+              ></div>
             </div>
             <div class="right">
               <div class="title">
@@ -63,24 +66,24 @@
     position: relative;
     padding-top: 100px;
 
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    >.trail-btn {
+    > .trail-btn {
       margin-top: 40px;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 10px;
 
-      color: #4E4E4E;
-      opacity: .5;
+      color: #4e4e4e;
+      opacity: 0.5;
     }
 
-    >.pic {
+    > .pic {
       position: absolute;
       width: 950px;
       height: 830px;
@@ -96,28 +99,28 @@
     position: relative;
     z-index: 3;
 
-    >.left {
-      >.title {
+    > .left {
+      > .title {
         width: 331px;
         font-weight: 500;
         font-size: 30px;
         line-height: 42px;
       }
 
-      >.content {
+      > .content {
         margin-top: 20px;
 
         width: 490px;
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
       }
 
-      >.list {
+      > .list {
         margin-top: 104px;
         display: flex;
         flex-wrap: wrap;
 
-        >.item {
+        > .item {
           width: 50%;
           display: flex;
           align-items: center;
@@ -125,7 +128,8 @@
           .icon {
             width: 18px;
             height: 18px;
-            background: url(/public/images/home/home_Text_list_ic_tick.png) no-repeat;
+            background: url(/public/images/home/home_Text_list_ic_tick.png)
+              no-repeat;
           }
 
           .text {
@@ -138,7 +142,7 @@
       }
     }
 
-    >.right {
+    > .right {
       padding-top: 130px;
       margin-left: 164px;
 
@@ -172,7 +176,7 @@
 
             .content {
               font-size: 16px;
-              color: #4E4E4E;
+              color: #4e4e4e;
             }
           }
         }
@@ -190,20 +194,20 @@
     .join-1 {
       padding-top: 4.38rem;
 
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.trail-btn {
+      > .trail-btn {
         margin-top: 2.5rem;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1.19rem;
       }
 
-      >.pic {
+      > .pic {
         width: 46.88rem;
         height: 51.88rem;
         background-image: url(/public/mobile-images/home/home_graph_rocket@2x.png);
@@ -216,13 +220,13 @@
       margin-top: 27.87rem;
       flex-direction: column;
 
-      >.left {
-        >.title {
+      > .left {
+        > .title {
           font-size: 2.5rem;
           line-height: 3.5rem;
         }
 
-        >.content {
+        > .content {
           margin-top: 1.19rem;
 
           width: 100%;
@@ -230,19 +234,21 @@
           line-height: 2.38rem;
         }
 
-        >.list {
+        > .list {
           margin-top: 3.13rem;
 
-          >.item {
-            .icon {}
+          > .item {
+            .icon {
+            }
 
-            .text {}
+            .text {
+            }
           }
         }
       }
 
-      >.right {
-        border-top: 0.06rem solid #E6E6E6;
+      > .right {
+        border-top: 0.06rem solid #e6e6e6;
         padding: 0;
         padding-top: 1.88rem;
         margin: 0;
@@ -281,6 +287,5 @@
       }
     }
   }
-
 }
 </style>

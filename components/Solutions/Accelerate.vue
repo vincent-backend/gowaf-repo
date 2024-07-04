@@ -7,7 +7,7 @@ const props = defineProps({
   list2: Array,
   btn: String,
   href: String,
-  mobileListLayoutType: String,
+  mobileListLayoutType: String
 });
 
 const hovered = ref(-1);
@@ -20,11 +20,17 @@ const hovered = ref(-1);
         <div class="title">{{ props.title }}</div>
         <div class="content">{{ props.content }}</div>
         <div class="list" v-if="props.list1">
-          <div class="item" v-for="item in props.list1" 
-          :style="mobileListLayoutType === 'wrap' ? {
-              width: '50%',
-              float:'left',
-            } : {}"
+          <div
+            class="item"
+            v-for="item in props.list1"
+            :style="
+              mobileListLayoutType === 'wrap'
+                ? {
+                    width: '50%',
+                    float: 'left'
+                  }
+                : {}
+            "
           >
             <div class="icon"></div>
             <div class="title">{{ item }}</div>
@@ -54,11 +60,20 @@ const hovered = ref(-1);
       </div>
       <div class="right">
         <div class="list">
-          <div class="item" :class="{ active: index === hovered }" v-for="item, index in props.list2"
-            @mouseenter="hovered = index" @mouseleave="hovered = -1">
+          <div
+            class="item"
+            :class="{ active: index === hovered }"
+            v-for="(item, index) in props.list2"
+            @mouseenter="hovered = index"
+            @mouseleave="hovered = -1"
+          >
             <div class="head">
-              <div class="icon" :style="{ backgroundImage: `url(${hovered === index ? item.iconActive : item.icon})` }">
-              </div>
+              <div
+                class="icon"
+                :style="{
+                  backgroundImage: `url(${hovered === index ? item.iconActive : item.icon})`
+                }"
+              ></div>
               <div class="title">{{ item.title }}</div>
             </div>
             <div class="content">{{ item.content }}</div>
@@ -79,34 +94,23 @@ const hovered = ref(-1);
     justify-content: space-between;
     gap: 80px;
 
-    >.left {
-      >.title {
-
+    > .left {
+      > .title {
         font-weight: 500;
         font-size: 30px;
 
         line-height: 42px;
-
-
-
       }
 
-      >.content {
+      > .content {
         margin-top: 18px;
 
         width: 520px;
 
-
-
-
-        color: #4E4E4E;
-
-
-
-
+        color: #4e4e4e;
       }
 
-      >.list {
+      > .list {
         margin-top: 40px;
 
         display: flex;
@@ -127,14 +131,10 @@ const hovered = ref(-1);
           .title {
             margin-left: 8px;
 
-
             font-weight: 500;
             font-size: 16px;
 
             line-height: 22px;
-
-
-
           }
         }
       }
@@ -148,7 +148,7 @@ const hovered = ref(-1);
         .down {
           flex: 1;
 
-          >.content {
+          > .content {
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -159,9 +159,6 @@ const hovered = ref(-1);
               font-size: 48px;
 
               line-height: 64px;
-
-
-
             }
 
             .icon {
@@ -172,21 +169,15 @@ const hovered = ref(-1);
           }
 
           .title {
-
-
             font-size: 16px;
-            color: #4E4E4E;
-
-
-
-
+            color: #4e4e4e;
           }
         }
 
         .up {
-          >.content {
+          > .content {
             .value {
-              background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+              background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }
@@ -198,9 +189,9 @@ const hovered = ref(-1);
         }
 
         .down {
-          >.content {
+          > .content {
             .value {
-              background: linear-gradient(0deg, #F9C22F 0%, #FA6E4A 100%);
+              background: linear-gradient(0deg, #f9c22f 0%, #fa6e4a 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }
@@ -217,7 +208,7 @@ const hovered = ref(-1);
       }
     }
 
-    >.right {
+    > .right {
       .list {
         display: flex;
         flex-wrap: wrap;
@@ -229,10 +220,10 @@ const hovered = ref(-1);
           box-sizing: border-box;
           padding: 16px;
 
-          background: #FFFFFF;
+          background: #ffffff;
           border-radius: 14px;
 
-          border: 2px solid #FFF;
+          border: 2px solid #fff;
 
           .head {
             display: flex;
@@ -252,27 +243,17 @@ const hovered = ref(-1);
               font-size: 16px;
 
               line-height: 22px;
-
-
-
             }
           }
 
           .content {
             margin-top: 6px;
 
-
-
-
-            color: #4E4E4E;
-
-
-
-
+            color: #4e4e4e;
           }
 
           &.active {
-            border: 2px solid #46CF3A;
+            border: 2px solid #46cf3a;
             // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
           }
         }
@@ -282,215 +263,181 @@ const hovered = ref(-1);
 }
 // For mobile devices
 @media (max-width: 767px) {
-.accelerate-container {
-  margin-top: 5rem;
+  .accelerate-container {
+    margin-top: 5rem;
 
-  .accelerate {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 43.13rem;
-    gap: 5rem;
+    .accelerate {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 43.13rem;
+      gap: 5rem;
 
-    >.left {
-      >.title {
+      > .left {
+        > .title {
+          font-weight: 500;
+          font-size: 2.5rem;
 
-        font-weight: 500;
-        font-size: 2.5rem;
-
-        line-height: 1.4;
-
-
-      }
-
-      >.content {
-        margin-top: 1.75rem;
-
-        width: 43.13rem;
-
-
-
-
-        color: #4E4E4E;
-
-
-
-
-      }
-
-      >.list {
-        margin-top: 3.13rem;
-        display: block;
-        .item {
-          width: 100%;
-          margin-bottom: 1.25rem;
-          .icon {
-            width: 1.75rem;
-            height: 1.75rem;
-            background: url(/public/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
-          }
-
-          .title {
-            margin-left: 2.75;
-
-
-            font-weight: 500;
-            font-size: 1.63rem;
-
-            line-height: 1.4;
-
-
-
-          }
-        }
-      }
-
-      .up-down {
-        margin-top: 3.13rem;
-        display: flex;
-        .up,
-        .down {
-          flex: 1;
-
-          >.content {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-
-            .value {
-              font-family: Mont, Mont;
-              font-weight: 600;
-              font-size: 3.13rem;
-
-              line-height: 1.4;
-
-
-
-            }
-
-            .icon {
-              margin-left: .8rem;
-              width: 2.7rem;
-              height: 2.7rem;
-            }
-          }
-
-          .title {
-
-
-            font-size: 1.5rem;
-            color: #4E4E4E;
-
-
-
-
-          }
+          line-height: 1.4;
         }
 
-        .up {
-          >.content {
-            .value {
-              background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
+        > .content {
+          margin-top: 1.75rem;
 
-            .icon {
-              background: url(/public/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
-            }
-          }
+          width: 43.13rem;
+
+          color: #4e4e4e;
         }
 
-        .down {
-          >.content {
-            .value {
-              background: linear-gradient(0deg, #F9C22F 0%, #FA6E4A 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-
+        > .list {
+          margin-top: 3.13rem;
+          display: block;
+          .item {
+            width: 100%;
+            margin-bottom: 1.25rem;
             .icon {
-              background: url(/public/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
-            }
-          }
-        }
-      }
-
-      .btn-container {
-        margin-top: 2.6rem;
-        display: flex;
-        justify-content: center;
-        
-      }
-    }
-
-    >.right {
-      .list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1rem;
-
-        .item {
-          width: 48.6%;
-          height: 23.06rem;
-          box-sizing: border-box;
-          padding: 1rem;
-
-          background: #FFFFFF;
-          border-radius: 14px;
-
-          border: 2px solid #FFF;
-
-          .head {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-
-            .icon {
-              width: 5rem;
-              height: 5rem;
+              width: 1.75rem;
+              height: 1.75rem;
+              background: url(/public/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
             }
 
             .title {
-              margin-top: 1.88rem;
-              margin-left: 0;
-
-              flex: 1;
+              margin-left: 2.75;
 
               font-weight: 500;
               font-size: 1.63rem;
 
               line-height: 1.4;
+            }
+          }
+        }
 
+        .up-down {
+          margin-top: 3.13rem;
+          display: flex;
+          .up,
+          .down {
+            flex: 1;
 
+            > .content {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
 
+              .value {
+                font-family: Mont, Mont;
+                font-weight: 600;
+                font-size: 3.13rem;
+
+                line-height: 1.4;
+              }
+
+              .icon {
+                margin-left: 0.8rem;
+                width: 2.7rem;
+                height: 2.7rem;
+              }
+            }
+
+            .title {
+              font-size: 1.5rem;
+              color: #4e4e4e;
             }
           }
 
-          .content {
-            margin-top: 6px;
-            font-size: 1.5rem;
+          .up {
+            > .content {
+              .value {
+                background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
 
-
-
-            color: #4E4E4E;
-
-
-
-
+              .icon {
+                background: url(/public/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
+              }
+            }
           }
 
-          &.active {
-            border: 2px solid #46CF3A;
-            // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
+          .down {
+            > .content {
+              .value {
+                background: linear-gradient(0deg, #f9c22f 0%, #fa6e4a 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+
+              .icon {
+                background: url(/public/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
+              }
+            }
+          }
+        }
+
+        .btn-container {
+          margin-top: 2.6rem;
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      > .right {
+        .list {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 1rem;
+
+          .item {
+            width: 48.6%;
+            height: 23.06rem;
+            box-sizing: border-box;
+            padding: 1rem;
+
+            background: #ffffff;
+            border-radius: 14px;
+
+            border: 2px solid #fff;
+
+            .head {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+
+              .icon {
+                width: 5rem;
+                height: 5rem;
+              }
+
+              .title {
+                margin-top: 1.88rem;
+                margin-left: 0;
+
+                flex: 1;
+
+                font-weight: 500;
+                font-size: 1.63rem;
+
+                line-height: 1.4;
+              }
+            }
+
+            .content {
+              margin-top: 6px;
+              font-size: 1.5rem;
+
+              color: #4e4e4e;
+            }
+
+            &.active {
+              border: 2px solid #46cf3a;
+              // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
+            }
           }
         }
       }
     }
   }
-}
-
 }
 </style>

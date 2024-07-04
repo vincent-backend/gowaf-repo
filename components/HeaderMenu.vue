@@ -37,20 +37,26 @@ function closeMenu() {
     </div>
 
     <!-- Solutions -->
-    <div class="menu-item" :class="{ open: openedMenu === 'solutions' }" @mouseenter="openMenu('solutions')"
-      @mouseleave="closeMenu()">
+    <div
+      class="menu-item"
+      :class="{ open: openedMenu === 'solutions' }"
+      @mouseenter="openMenu('solutions')"
+      @mouseleave="closeMenu()"
+    >
       <a href="#">{{ $t('header.menus.solutions') }}</a>
       <i class="icon"></i>
 
       <div class="sub-menu solutions-sub-menu">
         <div class="content">
-          <template v-for="item, index in [
-        $tm('header.solutionsMenu.solutions'),
-        '|',
-        $tm('header.solutionsMenu.byNeed'),
-        '|',
-        $tm('header.solutionsMenu.videoAndStreaming'),
-      ]">
+          <template
+            v-for="(item, index) in [
+              $tm('header.solutionsMenu.solutions'),
+              '|',
+              $tm('header.solutionsMenu.byNeed'),
+              '|',
+              $tm('header.solutionsMenu.videoAndStreaming')
+            ]"
+          >
             <div class="separator" v-if="item === '|'"></div>
             <div class="column" :class="['column-' + index]" v-else>
               <div class="title">
@@ -59,7 +65,10 @@ function closeMenu() {
               <div class="list">
                 <template v-for="item2 in item.items">
                   <a href="#" class="item-with-icon" v-if="item2.icon">
-                    <div class="icon" :style="{ backgroundImage: `url(${item2.icon})` }"></div>
+                    <div
+                      class="icon"
+                      :style="{ backgroundImage: `url(${item2.icon})` }"
+                    ></div>
                     <div class="title">
                       {{ item2.title }}
                     </div>
@@ -105,13 +114,8 @@ function closeMenu() {
     position: relative;
 
     a {
-
-
-
-      color: #4E4E4E;
+      color: #4e4e4e;
       line-height: 18px;
-
-
     }
 
     .icon {
@@ -131,16 +135,16 @@ function closeMenu() {
 
       &.solutions-sub-menu {
         left: -160px;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 8px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid #e6e6e6;
 
         padding: 20px 16px 10px;
 
-        >.content {
+        > .content {
           display: flex;
 
-          >.column {
+          > .column {
             &.column-0 {
               min-width: 144px;
             }
@@ -153,18 +157,15 @@ function closeMenu() {
               min-width: 192px;
             }
 
-            >.title {
-
+            > .title {
               font-weight: 600;
 
-
               line-height: 16px;
-
 
               text-transform: uppercase;
             }
 
-            >.list {
+            > .list {
               margin-top: 16px;
               display: flex;
               flex-direction: column;
@@ -186,13 +187,9 @@ function closeMenu() {
                   margin-left: 6px;
                   flex: 1;
 
-
-
                   font-size: 12px;
 
                   line-height: 16px;
-
-
                 }
 
                 .arrow-icon {
@@ -206,7 +203,7 @@ function closeMenu() {
 
                   .title {
                     font-weight: 500;
-                    color: #46CF3A;
+                    color: #46cf3a;
                   }
 
                   .arrow-icon {
@@ -220,23 +217,15 @@ function closeMenu() {
                 padding: 10px;
 
                 .title {
-
-
                   font-size: 12px;
                   color: #2c1717;
                   line-height: 18px;
-
-
                 }
 
                 .sub-title {
-
-
                   font-size: 10px;
-                  color: #4E4E4E;
+                  color: #4e4e4e;
                   line-height: 14px;
-
-
                 }
 
                 &:hover {
@@ -244,21 +233,21 @@ function closeMenu() {
 
                   .title {
                     font-weight: 500;
-                    color: #46CF3A;
+                    color: #46cf3a;
                   }
                 }
               }
             }
           }
 
-          >.separator {
+          > .separator {
             width: 1px;
-            background: #E6E6E6;
+            background: #e6e6e6;
             margin: 0 16px;
           }
         }
 
-        >.footer {
+        > .footer {
           margin-top: 17px;
         }
       }

@@ -1,28 +1,50 @@
 <template>
   <div class="connect-directly-container">
     <div class="connect-directly page-container">
-      <div class="title">{{ $t('products.cdn.overview.connectDirectly.title') }}</div>
-      <div class="sub-title">{{ $t('products.cdn.overview.connectDirectly.subTitle') }}</div>
+      <div class="title">
+        {{ $t('products.cdn.overview.connectDirectly.title') }}
+      </div>
+      <div class="sub-title">
+        {{ $t('products.cdn.overview.connectDirectly.subTitle') }}
+      </div>
       <div class="content">
         <div class="left">
           <div class="pic"></div>
         </div>
         <div class="right">
-          <div class="title">{{ $t('products.cdn.overview.connectDirectly.content.title1') }}</div>
-          <div class="content">{{ $t('products.cdn.overview.connectDirectly.content.content1') }}</div>
+          <div class="title">
+            {{ $t('products.cdn.overview.connectDirectly.content.title1') }}
+          </div>
+          <div class="content">
+            {{ $t('products.cdn.overview.connectDirectly.content.content1') }}
+          </div>
           <div class="item-container">
-            <div class="item" v-for="item in $tm('products.cdn.overview.connectDirectly.content.items')">
+            <div
+              class="item"
+              v-for="item in $tm(
+                'products.cdn.overview.connectDirectly.content.items'
+              )"
+            >
               <div class="head">
-                <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }"></div>
+                <div
+                  class="icon"
+                  :style="{ backgroundImage: `url(${item.icon})` }"
+                ></div>
                 <div class="value">{{ item.value }}</div>
               </div>
               <div class="label">{{ item.label }}</div>
             </div>
           </div>
-          <div class="title">{{ $t('products.cdn.overview.connectDirectly.content.title2') }}</div>
-          <div class="content">{{ $t('products.cdn.overview.connectDirectly.content.content2') }}</div>
+          <div class="title">
+            {{ $t('products.cdn.overview.connectDirectly.content.title2') }}
+          </div>
+          <div class="content">
+            {{ $t('products.cdn.overview.connectDirectly.content.content2') }}
+          </div>
           <div class="btn-container">
-            <a href="#" class="trail-btn">{{ $t('products.cdn.overview.connectDirectly.content.btn') }}</a>
+            <a href="#" class="trail-btn">{{
+              $t('products.cdn.overview.connectDirectly.content.btn')
+            }}</a>
           </div>
         </div>
       </div>
@@ -33,39 +55,32 @@
 <style lang="less" scoped>
 .connect-directly-container {
   padding: 80px 0;
-  background: #FFF;
+  background: #fff;
 
   .connect-directly {
-    >.title {
-
+    > .title {
       font-weight: 500;
       font-size: 30px;
 
       line-height: 42px;
       text-align: center;
-
-
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
 
       text-align: center;
-
-
     }
 
-    >.content {
+    > .content {
       margin-top: 50px;
       display: flex;
       align-items: center;
 
-      >.left {
+      > .left {
         .pic {
           width: 504px;
           height: 549px;
@@ -74,41 +89,31 @@
         }
       }
 
-      >.right {
+      > .right {
         margin-left: 160px;
 
-        >.title {
-
+        > .title {
           font-weight: 500;
           font-size: 16px;
 
           line-height: 22px;
-
-
-
         }
 
-        >.content {
+        > .content {
           margin-top: 20px;
 
-
-
-
-          color: #4E4E4E;
+          color: #4e4e4e;
           line-height: 20px;
-
-
-
         }
 
-        >.item-container {
+        > .item-container {
           margin-top: 40px;
           margin-bottom: 60px;
 
           display: flex;
           gap: 30px;
 
-          >.item {
+          > .item {
             .head {
               display: flex;
               align-items: center;
@@ -127,9 +132,7 @@
 
                 line-height: 40px;
 
-
-
-                background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+                background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
               }
@@ -138,19 +141,13 @@
             .label {
               margin-top: 4px;
 
-
-
-
-              color: #4E4E4E;
+              color: #4e4e4e;
               line-height: 20px;
-
-
-
             }
           }
         }
 
-        >.btn-container {
+        > .btn-container {
           margin-top: 40px;
         }
       }

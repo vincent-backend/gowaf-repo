@@ -31,9 +31,18 @@ const visible = ref(true);
   width: 269px;
   height: 122px;
 
-  background: url(/public/images/home/suspension_bg_team.png) left no-repeat,
-    linear-gradient(180deg, #59CFCF 0%, #7EDBD2 9%, rgba(146, 234, 220, 0.95) 19%, #B3F7E5 32%, #FFFFFF 70%, #FFFFFF 100%);
-  box-shadow: 0px 4px 10px 0px #F1F1F1;
+  background:
+    url(/public/images/home/suspension_bg_team.png) left no-repeat,
+    linear-gradient(
+      180deg,
+      #59cfcf 0%,
+      #7edbd2 9%,
+      rgba(146, 234, 220, 0.95) 19%,
+      #b3f7e5 32%,
+      #ffffff 70%,
+      #ffffff 100%
+    );
+  box-shadow: 0px 4px 10px 0px #f1f1f1;
   border-radius: 14px;
 
   .close {
@@ -62,20 +71,12 @@ const visible = ref(true);
       font-size: 20px;
 
       line-height: 28px;
-
-
-
     }
 
     .content {
-
-
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       line-height: 22px;
-
-
-
     }
   }
 }

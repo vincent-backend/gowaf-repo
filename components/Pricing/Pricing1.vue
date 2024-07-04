@@ -5,9 +5,17 @@ const curTab = ref(0);
 <template>
   <div class="pricing1-container">
     <div class="pricing1 page-container">
-      <CommonTabs :tabs="$tm('pricing.overview.pricingTab')" v-model:cur-tab="curTab" style="margin-top: 0;" />
-      <template v-for="tab, index in $tm('pricing.overview.pricingTab')">
-        <PricingTable v-if="index === curTab" :header="tab.header" :content="tab.content" />
+      <CommonTabs
+        :tabs="$tm('pricing.overview.pricingTab')"
+        v-model:cur-tab="curTab"
+        style="margin-top: 0"
+      />
+      <template v-for="(tab, index) in $tm('pricing.overview.pricingTab')">
+        <PricingTable
+          v-if="index === curTab"
+          :header="tab.header"
+          :content="tab.content"
+        />
       </template>
     </div>
   </div>
@@ -22,7 +30,7 @@ const curTab = ref(0);
   .pricing1 {
     z-index: 2;
 
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
     border-radius: 24px;
 

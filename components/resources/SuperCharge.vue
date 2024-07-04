@@ -26,15 +26,22 @@ const curTab = ref(0);
       <template>
         <div class="tabs-content">
           <div class="left">
-            <div class="icon" :style="isMobile ? {
-        backgroundImage: `url(${tab?.mIcon})`,
-        width: tab.mIconWidth,
-        height: tab.mIconHeight,
-      } : {
-        backgroundImage: `url(${tab.icon})`,
-        width: tab.iconWidth,
-        height: tab.iconHeight,
-      }"></div>
+            <div
+              class="icon"
+              :style="
+                isMobile
+                  ? {
+                      backgroundImage: `url(${tab?.mIcon})`,
+                      width: tab.mIconWidth,
+                      height: tab.mIconHeight
+                    }
+                  : {
+                      backgroundImage: `url(${tab.icon})`,
+                      width: tab.iconWidth,
+                      height: tab.iconHeight
+                    }
+              "
+            ></div>
           </div>
           <div class="right">
             <div class="title">
@@ -60,22 +67,22 @@ const curTab = ref(0);
   margin-top: 120px;
 
   .super-charge {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.tabs-content {
+    > .tabs-content {
       margin: 45px auto 0;
 
       width: 974px;
@@ -120,7 +127,7 @@ const curTab = ref(0);
             font-family: PingFang-SC, PingFang-SC;
             font-weight: bold;
             font-size: 18px;
-            color: #FFFFFF;
+            color: #ffffff;
             line-height: 25px;
           }
         }
@@ -135,7 +142,7 @@ const curTab = ref(0);
 
           p {
             font-size: 16px;
-            color: #4E4E4E;
+            color: #4e4e4e;
           }
         }
 
@@ -153,13 +160,13 @@ const curTab = ref(0);
     margin-top: 6.25rem;
 
     .super-charge {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -167,7 +174,7 @@ const curTab = ref(0);
         text-align: left;
       }
 
-      >.tabs-content {
+      > .tabs-content {
         margin-top: 4.25rem;
 
         width: auto;
@@ -178,7 +185,8 @@ const curTab = ref(0);
           align-items: center;
           justify-content: center;
 
-          .icon {}
+          .icon {
+          }
         }
 
         .right {
@@ -206,7 +214,7 @@ const curTab = ref(0);
               font-family: PingFang-SC, PingFang-SC;
               font-weight: bold;
               font-size: 1.25rem;
-              color: #FFFFFF;
+              color: #ffffff;
               line-height: 1.4;
             }
           }

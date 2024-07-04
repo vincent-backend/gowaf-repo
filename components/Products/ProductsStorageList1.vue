@@ -1,10 +1,9 @@
 <script lang="ts" setup>
-  const props = defineProps({
-    list: Array<string>,
-    title: String,
-    subTitle: String,
-
-  });
+const props = defineProps({
+  list: Array<string>,
+  title: String,
+  subTitle: String
+});
 // const imgs = obeyDevice([
 //   '/images/products/storage/europe/home_logo_1_2x_1.png',
 //   '/images/products/storage/europe/home_logo_2_2x_1.png',
@@ -47,28 +46,28 @@
   padding-top: 60px;
   padding-bottom: 102px;
   .list1 {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
-      p{
+      p {
         font-size: 16px;
-        color: #4E4E4E;
+        color: #4e4e4e;
         padding-top: 16px;
       }
     }
 
-    >.list {
+    > .list {
       margin-top: 60px;
 
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
 
-      >.item {
+      > .item {
         width: 190px;
         height: 84px;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -89,17 +88,17 @@
     padding-top: 6.25rem;
 
     .list1 {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.list {
+      > .list {
         margin-top: 2.5rem;
         justify-content: space-between;
         gap: 0.88rem 0;
 
-        >.item {
+        > .item {
           width: 13.75rem;
           height: 6.25rem;
           border-radius: 0.5rem;

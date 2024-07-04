@@ -1,13 +1,16 @@
 <script lang="ts" setup>
-withDefaults(defineProps<{
-  content?: {
-    title?: string;
-    subTitle?: string;
-  };
-  showFoot?: boolean;
-}>(), {
-  showFoot: true,
-});
+withDefaults(
+  defineProps<{
+    content?: {
+      title?: string;
+      subTitle?: string;
+    };
+    showFoot?: boolean;
+  }>(),
+  {
+    showFoot: true
+  }
+);
 </script>
 <template>
   <div class="pricing-map-container">
@@ -28,27 +31,27 @@ withDefaults(defineProps<{
   margin-top: 120px;
 
   .pricing-map {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
       text-align: center;
     }
 
-    >.sub-title {
+    > .sub-title {
       margin-top: 20px;
 
       font-size: 16px;
-      color: #4E4E4E;
+      color: #4e4e4e;
       text-align: center;
     }
 
-    >.map-container {
+    > .map-container {
       margin-top: 40px;
 
       width: 1200px;
       height: 589px;
-      background: #FFFFFF;
+      background: #ffffff;
       box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
       border-radius: 24px;
       display: flex;
@@ -64,7 +67,7 @@ withDefaults(defineProps<{
         .dot {
           width: 8px;
           height: 8px;
-          background: linear-gradient(90deg, #46CF3A 0%, #36CFBC 100%);
+          background: linear-gradient(90deg, #46cf3a 0%, #36cfbc 100%);
           border: 4px solid rgba(65, 207, 99, 0.18);
           border-radius: 50%;
           position: absolute;
@@ -82,13 +85,13 @@ withDefaults(defineProps<{
     margin-top: 6.25rem;
 
     .pricing-map {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
         text-align: left;
       }
 
-      >.sub-title {
+      > .sub-title {
         margin-top: 1rem;
 
         font-size: 1.75rem;
@@ -96,7 +99,7 @@ withDefaults(defineProps<{
         text-align: left;
       }
 
-      >.map-container {
+      > .map-container {
         margin-top: 3.13rem;
 
         width: 43.13rem;

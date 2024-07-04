@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 const props = defineProps({
   name: String,
-  placeholder: String,
+  placeholder: String
 });
 </script>
 
@@ -19,9 +19,9 @@ const props = defineProps({
     display: block;
     width: 100%;
     height: 54px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 8px;
-    border: 1px solid #E6E6E6;
+    border: 1px solid #e6e6e6;
     font-size: 16px;
     color: #000;
     padding-left: 20px;
@@ -29,7 +29,7 @@ const props = defineProps({
     outline: none;
 
     &:focus {
-      border-color: #46CF3A;
+      border-color: #46cf3a;
     }
   }
 }
@@ -43,7 +43,8 @@ const props = defineProps({
       font-size: 1.75rem;
       padding-left: 1.25rem;
 
-      &:focus {}
+      &:focus {
+      }
     }
   }
 }

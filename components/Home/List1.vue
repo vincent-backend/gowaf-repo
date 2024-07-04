@@ -1,52 +1,55 @@
 <script lang="ts" setup>
-withDefaults(defineProps<{
-  isHidenTile?: boolean;
-  bgColor?: string;
-  btText?: string;
-  list: {
-    
-  };
-}>(), {
-});
-const imgs = obeyDevice([
-  '/images/home/home_logo_1@2x.png',
-  '/images/home/home_logo_2@2x.png',
-  '/images/home/home_logo_3@2x.png',
-  '/images/home/home_logo_4@2x.png',
-  '/images/home/home_logo_5@2x.png',
-  '/images/home/home_logo_6@2x.png',
-  '/images/home/home_logo_7@2x.png',
-  '/images/home/home_logo_8@2x.png',
-  '/images/home/home_logo_9@2x.png',
-  '/images/home/home_logo_10@2x.png',
-  '/images/home/home_logo_11@2x.png',
-  '/images/home/home_logo_12@2x.png',
-  '/images/home/home_logo_13@2x.png',
-  '/images/home/home_logo_14@2x.png',
-  '/images/home/home_logo_15@2x.png',
-  '/images/home/home_logo_16@2x.png',
-], [
-  '/mobile-images/home/home_logo_1@2x.png',
-  '/mobile-images/home/home_logo_2@2x.png',
-  '/mobile-images/home/home_logo_3@2x.png',
-  '/mobile-images/home/home_logo_4@2x.png',
-  '/mobile-images/home/home_logo_5@2x.png',
-  '/mobile-images/home/home_logo_6@2x.png',
-  '/mobile-images/home/home_logo_7@2x.png',
-  '/mobile-images/home/home_logo_8@2x.png',
-  '/mobile-images/home/home_logo_9@2x.png',
-  '/mobile-images/home/home_logo_10@2x.png',
-  '/mobile-images/home/home_logo_11@2x.png',
-  '/mobile-images/home/home_logo_12@2x.png',
-  '/mobile-images/home/home_logo_13@2x.png',
-  '/mobile-images/home/home_logo_14@2x.png',
-  '/mobile-images/home/home_logo_15@2x.png',
-  '/mobile-images/home/home_logo_16@2x.png',
-]);
+withDefaults(
+  defineProps<{
+    isHidenTile?: boolean;
+    bgColor?: string;
+    btText?: string;
+    list: {};
+  }>(),
+  {}
+);
+const imgs = obeyDevice(
+  [
+    '/images/home/home_logo_1@2x.png',
+    '/images/home/home_logo_2@2x.png',
+    '/images/home/home_logo_3@2x.png',
+    '/images/home/home_logo_4@2x.png',
+    '/images/home/home_logo_5@2x.png',
+    '/images/home/home_logo_6@2x.png',
+    '/images/home/home_logo_7@2x.png',
+    '/images/home/home_logo_8@2x.png',
+    '/images/home/home_logo_9@2x.png',
+    '/images/home/home_logo_10@2x.png',
+    '/images/home/home_logo_11@2x.png',
+    '/images/home/home_logo_12@2x.png',
+    '/images/home/home_logo_13@2x.png',
+    '/images/home/home_logo_14@2x.png',
+    '/images/home/home_logo_15@2x.png',
+    '/images/home/home_logo_16@2x.png'
+  ],
+  [
+    '/mobile-images/home/home_logo_1@2x.png',
+    '/mobile-images/home/home_logo_2@2x.png',
+    '/mobile-images/home/home_logo_3@2x.png',
+    '/mobile-images/home/home_logo_4@2x.png',
+    '/mobile-images/home/home_logo_5@2x.png',
+    '/mobile-images/home/home_logo_6@2x.png',
+    '/mobile-images/home/home_logo_7@2x.png',
+    '/mobile-images/home/home_logo_8@2x.png',
+    '/mobile-images/home/home_logo_9@2x.png',
+    '/mobile-images/home/home_logo_10@2x.png',
+    '/mobile-images/home/home_logo_11@2x.png',
+    '/mobile-images/home/home_logo_12@2x.png',
+    '/mobile-images/home/home_logo_13@2x.png',
+    '/mobile-images/home/home_logo_14@2x.png',
+    '/mobile-images/home/home_logo_15@2x.png',
+    '/mobile-images/home/home_logo_16@2x.png'
+  ]
+);
 </script>
 
 <template>
-  <div class="list1-container" :style="{background:`${bgColor}`}">
+  <div class="list1-container" :style="{ background: `${bgColor}` }">
     <div class="page-container list1">
       <div class="title" v-if="!isHidenTile">
         {{ $t('home.list1.title') }}
@@ -56,7 +59,7 @@ const imgs = obeyDevice([
           <img :src="img" />
         </div>
       </div>
-      <div class="list" style="margin-top:-20px" v-else>
+      <div class="list" style="margin-top: -20px" v-else>
         <div class="item" v-for="img in list">
           <img :src="img" />
         </div>
@@ -69,10 +72,10 @@ const imgs = obeyDevice([
 <style lang="less" scoped>
 .list1-container {
   padding-top: 60px;
-  p{
+  p {
     font-weight: 400;
     font-size: 14px;
-    color: #4E4E4E;
+    color: #4e4e4e;
     line-height: 24px;
     text-align: center;
     font-style: normal;
@@ -81,23 +84,23 @@ const imgs = obeyDevice([
     padding-top: 10px;
   }
   .list1 {
-    >.title {
+    > .title {
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
-    >.list {
+    > .list {
       margin-top: 60px;
 
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
 
-      >.item {
+      > .item {
         width: 190px;
         height: 84px;
-        background: #FFFFFF;
+        background: #ffffff;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -118,17 +121,17 @@ const imgs = obeyDevice([
     padding-top: 6.25rem;
 
     .list1 {
-      >.title {
+      > .title {
         font-size: 2.5rem;
         line-height: 3.5rem;
       }
 
-      >.list {
+      > .list {
         margin-top: 2.5rem;
         justify-content: space-between;
         gap: 0.88rem 0;
 
-        >.item {
+        > .item {
           width: 13.75rem;
           height: 6.25rem;
           border-radius: 0.5rem;
