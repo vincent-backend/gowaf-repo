@@ -46,10 +46,9 @@
       src: '/images/products/stream/media-cage/stream_media_banner_graph@2x.png',
       w: '360px',
       h: '336px',
-
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/products/stream/media-cage/stream_media_banner_graph@2x.png',
+      mw: '28.5rem',
+      mh: '17.38rem'
     }"
   />
 
@@ -64,6 +63,9 @@
     pic="/images/products/stream/media-cage/video_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"
+    m-pic="/images/products/stream/media-cage/video_banner_graph@2x.png"
+    m-pic-height="18.75rem"
+    m-pic-width="18.75rem"
   />
 
   <CommonList1 v-bind="$tm('products.stream.mediaCage.list1')" />
@@ -117,7 +119,7 @@
       ...$tm('products.stream.mediaCage.join1'),
       avatar:
         '/images/products/stream/media-cage/Network_Overview_evaluate_character@2x.png',
-      mAvatar: ''
+      mAvatar: '/images/products/stream/media-cage/Network_Overview_evaluate_character@2x.png'
     }"
   />
 
@@ -158,6 +160,41 @@
 
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .player2-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1.88rem;
+    margin-top: 6.25rem;
+
+    > .title {
+      font-weight: 500;
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      text-align: left;
+    }
+
+    > .sub-title {
+      margin-top: 1rem;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      text-align: left;
+    }
+
+    > .pic {
+      margin: 3rem auto 0;
+      width: 100%;
+      height: 24.25rem;
+      background: url(/public/images/products/stream/player/player-1@2x.png);
+    }
+
+    > .btn-container {
+      margin-top: 1.25rem;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
 </style>

@@ -742,7 +742,10 @@
             "content": "Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.",
             "icon": "/images/products/stream/overview/stream_overview_img_1.png",
             "iconWidth": "400px",
-            "iconHeight": "400px"
+            "iconHeight": "400px",
+            "mIcon": "/images/products/stream/overview/stream_overview_img_1.png",
+            "mIconWidth": "22.22rem",
+            "mIconHeight": "22.22rem"
           },
           {
             "tab": "Globallv scalable",
@@ -750,7 +753,10 @@
             "content": "Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.",
             "icon": "/images/products/stream/overview/stream_overview_img_1.png",
             "iconWidth": "400px",
-            "iconHeight": "400px"
+            "iconHeight": "400px",
+            "mIcon": "/images/products/stream/overview/stream_overview_img_1.png",
+            "mIconWidth": "22.22rem",
+            "mIconHeight": "22.22rem"
           },
           {
             "tab": "Content Protection",
@@ -758,7 +764,10 @@
             "content": "Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.",
             "icon": "/images/products/stream/overview/stream_overview_img_1.png",
             "iconWidth": "400px",
-            "iconHeight": "400px"
+            "iconHeight": "400px",
+            "mIcon": "/images/products/stream/overview/stream_overview_img_1.png",
+            "mIconWidth": "22.22rem",
+            "mIconHeight": "22.22rem"
           },
           {
             "tab": "Customizable Media Player",
@@ -766,7 +775,10 @@
             "content": "Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.",
             "icon": "/images/products/stream/overview/stream_overview_img_1.png",
             "iconWidth": "400px",
-            "iconHeight": "400px"
+            "iconHeight": "400px",
+            "mIcon": "/images/products/stream/overview/stream_overview_img_1.png",
+            "mIconWidth": "22.22rem",
+            "mIconHeight": "22.22rem"
           }
         ]
       },
@@ -981,8 +993,9 @@
                 },
                 {
                   "title": "Video Sceenshot",
+                  "max": true,
                   "items": [
-                    "Cover Image"
+                    "Screenshot for the Cover Image"
                   ]
                 },
                 {
@@ -1015,6 +1028,7 @@
               },
               {
                 "title": "Excellent Experience",
+                "max": true,
                 "items": [
                   "CDN"
                 ]
@@ -1381,6 +1395,40 @@
           ]
         }
       },
+      "drmCustomernetword": {
+        "title": "Trusted by 40.000+ global customers",
+        "subTitle": [
+          "We're rated",
+          "",
+          "Excellent 4.8",
+          " out of 5 on ",
+          "Trustpilot",
+          " - Based on 600+ reviews"
+        ],
+        "person": {
+          "name": "Matthias Mauch",
+          "title": "Younity",
+          "content": "“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
+        },
+        "ranks": [
+          {
+            "score": "4.8",
+            "icon": "Network_Overview_mark_logo_1"
+          },
+          {
+            "score": "4.4",
+            "icon": "Network_Overview_mark_logo_2"
+          },
+          {
+            "score": "4.8",
+            "icon": "Network_Overview_mark_logo_3"
+          },
+          {
+            "score": "4.8",
+            "icon": "Network_Overview_mark_logo_4"
+          }
+        ]
+      },
       "drmCustomer": {
         "title": "Trusted by 40.000+ global customers",
         "contentPre": "We're rated ",
@@ -1454,6 +1502,27 @@
           "messageLable": "Tell us about your project and how polyfill can help.",
           "btn": "Send Email"
         }
+      },
+      "perfectSolution": {
+        "title": "Hollywood protection. Just an email away.",
+        "content": "During the switch to bunny.net, we found the service exemplary - at every point of the process they were there to help and made it incredibly easy. Now that we're fully switched over, we couldn't be happier - everything is easier. auicker. and better.",
+        "items": [
+          {
+            "icon": "/images/products/stream/media-cage/media_perfect_ic_1@2x.png",
+            "title": "Prevent downloads",
+            "content": "End-to-end DRM protection with browser, native iOS, and Android support."
+          },
+          {
+            "icon": "/images/products/stream/media-cage/media_perfect_ic_2@2x.png",
+            "title": "Online Courses",
+            "content": "Pre-integrated, and custom integration player."
+          },
+          {
+            "icon": "/images/products/stream/media-cage/media_perfect_ic_3@2x.png",
+            "title": "Sporting Events",
+            "content": "Unlimited media transcoding up to 4k. Completely free of charge."
+          }
+        ]
       }
     }
   },

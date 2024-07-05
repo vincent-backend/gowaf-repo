@@ -25,6 +25,14 @@ withDefaults(
           {{ title }}
         </div>
         <div class="content" v-if="content">{{ content }}</div>
+        <XsOnly>
+          <div
+            class="pic"
+            :style="{
+              backgroundImage: `url(${pic?.url})`
+            }"
+          ></div>
+        </XsOnly>
         <div class="list">
           <div class="item" v-if="items.length > 0" v-for="item in items">
             <div
@@ -38,16 +46,18 @@ withDefaults(
           </div>
         </div>
       </div>
-      <div class="right">
-        <div
-          class="pic"
-          :style="{
-            backgroundImage: `url(${pic?.url})`,
-            width: pic?.width + 'px',
-            height: pic?.height + 'px'
-          }"
-        ></div>
-      </div>
+      <LgOnly>
+        <div class="right">
+          <div
+            class="pic"
+            :style="{
+              backgroundImage: `url(${pic?.url})`,
+              width: pic?.width + 'px',
+              height: pic?.height + 'px'
+            }"
+          ></div>
+        </div>
+      </LgOnly>
     </div>
   </div>
 </template>
@@ -125,6 +135,84 @@ withDefaults(
         width: 460px;
         height: 480px;
         // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .perfect-solution-container {
+    margin-top: 6.25rem;
+    padding: 0 1.8rem;
+
+    .perfect-solution {
+      display: flex;
+      flex-direction: column-reverse;
+
+      > .left {
+        > .title {
+          width: 100%;
+          font-weight: 500;
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+        }
+        > .pic {
+          margin: 0 auto;
+          width: 28.75rem;
+          height: 30rem;
+          // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+        }
+        > .content {
+          margin-top: 1rem;
+          font-size: 1.75rem;
+          width: 100%;
+          color: #4e4e4e;
+        }
+
+        > .list {
+          margin-top: 2.5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 2.5rem;
+
+          > .item {
+            display: flex;
+            flex-direction: column;
+
+            > .icon {
+              width: 7.5rem;
+              height: 7.5rem;
+            }
+
+            > .right {
+              margin-left: 0;
+
+              > .title {
+                font-weight: 500;
+                margin-top: 1.25rem;
+                font-size: 2.13rem;
+                line-height: 3rem;
+              }
+
+              > .content {
+                margin-top: 0.6rem;
+                font-size: 1.5rem;
+                width: 100%;
+                color: #4e4e4e;
+                line-height: 2.19rem;
+              }
+            }
+          }
+        }
+      }
+
+      > .right {
+        padding-top: 2.5rem;
+
+        > .pic {
+          width: 28.75rem;
+          height: 30rem;
+          // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+        }
       }
     }
   }

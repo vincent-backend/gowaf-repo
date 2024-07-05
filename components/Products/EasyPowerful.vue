@@ -113,4 +113,82 @@
     }
   }
 }
+@media (max-width: 767px) {
+  .easy-powerful-container {
+    margin-top: 6.25rem;
+    padding: 0 1.88rem;
+
+    .easy-powerful {
+      width: 100%;
+
+      > .title {
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      > .sub-title {
+        margin-top: 1rem;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        text-align: left;
+      }
+
+      > .content {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        > .item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 3rem;
+
+          > .icon {
+            width: 7.5rem;
+            height: 7.5rem;
+            position: relative;
+
+            .index {
+              position: absolute;
+              right: -3.13rem;
+              top: -3.5rem;
+              font-family: Mont, Mont;
+              font-weight: bold;
+              font-size: 6.25rem;
+              line-height: 6rem;
+              background: linear-gradient(
+                41.5494227786465deg,
+                #46cf3a 0%,
+                #36cfbc 100%
+              );
+              opacity: 0.3;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+
+          > .title {
+            margin-top: 1.63rem;
+            font-family: Mont, Mont;
+            font-weight: bold;
+            font-size: 2.13rem;
+            line-height: 3rem;
+          }
+
+          > .content {
+            margin-top: 8px;
+            font-size: 1.63rem;
+            width: 37.13rem;
+            color: #4e4e4e;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

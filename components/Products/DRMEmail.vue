@@ -38,9 +38,7 @@
       width: 433px;
 
       h3 {
-        font-family:
-          PingFangSC,
-          PingFang SC;
+        font-family: PingFangSC, PingFang SC;
         font-weight: 500;
         font-size: 30px;
         color: #000000;
@@ -57,9 +55,7 @@
           margin-bottom: 30px;
           p {
             padding-top: 10px;
-            font-family:
-              PingFangSC,
-              PingFang SC;
+            font-family: PingFangSC, PingFang SC;
             font-weight: 400;
             font-size: 14px;
             color: #4e4e4e;
@@ -77,9 +73,7 @@
         }
       }
       > p {
-        font-family:
-          PingFangSC,
-          PingFang SC;
+        font-family: PingFangSC, PingFang SC;
         font-weight: 400;
         font-size: 16px;
         color: #4e4e4e;
@@ -92,6 +86,78 @@
     }
     .right {
       width: 598px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .drm-email-container {
+    margin: 0 auto;
+    padding: 1.88rem 0;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fafafa;
+    .drm-email-content-container {
+      width: 100%;
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 0 1.88rem;
+      display: flex;
+      flex-direction: column;
+      .left {
+        width: 100%;
+        h3 {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 2.5rem;
+          color: #000000;
+          line-height: 3.5rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        ul {
+          margin-top: 2.5rem;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          li {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2.5rem;
+            p {
+              padding-top: 10px;
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 400;
+              font-size: 1.5rem;
+              color: #4e4e4e;
+              line-height: 2.19rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+              margin-bottom: 0;
+            }
+            img {
+              width: 7.5rem;
+              height: 7.5rem;
+              margin-right: auto;
+            }
+          }
+        }
+        > p {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 1.75rem;
+          color: #4e4e4e;
+          line-height: 2.38rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          margin-bottom: 2.5rem;
+        }
+      }
+      .right {
+        width: 100%;
+      }
     }
   }
 }

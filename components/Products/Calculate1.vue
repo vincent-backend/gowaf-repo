@@ -52,7 +52,7 @@ withDefaults(
             >
               <div class="left">
                 <div class="title">{{ item.title }}</div>
-                <div class="value">{{ item.value }}</div>
+                <div class="value">{{ item.num }}</div>
               </div>
               <div class="right">
                 <div class="circletrack">
@@ -65,18 +65,22 @@ withDefaults(
             class="replication-points-container"
             v-if="isShowReplicationPoints"
           >
-            <h4>Replication points</h4>
-            <ul>
-              <li
-                v-for="(item, index) in $tm(
-                  'products.stream.overview.Calculate.ReplicationPoints.list'
-                )"
-                :key="index"
-              >
-                <span :class="item.status ? 'big-circle' : 'sm-circle'"></span>
-                <label>{{ item.label }}</label>
-              </li>
-            </ul>
+            <div class="row">
+              <h4>Replication points</h4>
+              <ul>
+                <li
+                  v-for="(item, index) in $tm(
+                    'products.stream.overview.Calculate.ReplicationPoints.list'
+                  )"
+                  :key="index"
+                >
+                  <span
+                    :class="item.status ? 'big-circle' : 'sm-circle'"
+                  ></span>
+                  <label>{{ item.label }}</label>
+                </li>
+              </ul>
+            </div>
             <div class="replication-points-info">
               <span>{{
                 $t('products.stream.overview.Calculate.ReplicationPoints.label')
@@ -125,9 +129,7 @@ withDefaults(
 
   .calculator-1 {
     > .title1 {
-      font-family:
-        PingFangSC,
-        PingFang SC;
+      font-family: PingFangSC, PingFang SC;
       font-weight: 500;
       font-size: 30px;
       color: #000000;
@@ -140,9 +142,7 @@ withDefaults(
     > .title2 {
       margin-top: 20px;
 
-      font-family:
-        PingFangSC,
-        PingFang SC;
+      font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 16px;
       color: #4e4e4e;
@@ -180,10 +180,13 @@ withDefaults(
           margin-top: 24px;
           padding: 20px 24px;
           box-sizing: border-box;
+          .row {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+          }
           h4 {
-            font-family:
-              PingFangSC,
-              PingFang SC;
+            font-family: PingFangSC, PingFang SC;
             font-weight: 500;
             font-size: 16px;
             color: #4e4e4e;
@@ -192,7 +195,7 @@ withDefaults(
             font-style: normal;
             text-transform: none;
           }
-          > ul {
+          ul {
             display: flex;
             justify-content: space-between;
             margin-top: 22px;
@@ -208,9 +211,7 @@ withDefaults(
               height: 7px;
             }
             li {
-              font-family:
-                PingFangSC,
-                PingFang SC;
+              font-family: PingFangSC, PingFang SC;
               font-weight: 500;
               font-size: 12px;
               color: #4e4e4e;
@@ -238,9 +239,7 @@ withDefaults(
             }
           }
           .replication-points-info {
-            font-family:
-              PingFangSC,
-              PingFang SC;
+            font-family: PingFangSC, PingFang SC;
             font-size: 14px;
             color: #4e4e4e;
             line-height: 22px;
@@ -286,9 +285,7 @@ withDefaults(
               justify-content: center;
 
               .title {
-                font-family:
-                  PingFangSC,
-                  PingFang SC;
+                font-family: PingFangSC, PingFang SC;
                 font-weight: 500;
                 font-size: 16px;
                 color: #4e4e4e;
@@ -361,9 +358,7 @@ withDefaults(
               align-items: center;
 
               .title {
-                font-family:
-                  PingFangSC,
-                  PingFang SC;
+                font-family: PingFangSC, PingFang SC;
                 font-weight: 500;
                 font-size: 16px;
                 color: #ffffff;
@@ -414,9 +409,7 @@ withDefaults(
 
     .calculator-1 {
       > .title1 {
-        font-family:
-          PingFangSC,
-          PingFang SC;
+        font-family: PingFangSC, PingFang SC;
         font-weight: 500;
         font-size: 2.5rem;
         color: #000000;
@@ -428,10 +421,7 @@ withDefaults(
 
       > .title2 {
         margin-top: 0.94rem;
-
-        font-family:
-          PingFangSC,
-          PingFang SC;
+        font-family: PingFangSC, PingFang SC;
         font-weight: 400;
         font-size: 1.75rem;
         color: #4e4e4e;
@@ -464,7 +454,7 @@ withDefaults(
           padding-right: 0;
           .replication-points-container {
             width: 100%;
-            height: 15.25rem;
+            height: 12.75rem;
             background: #ffffff;
             box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;
             border-radius: 0.5rem;
@@ -472,23 +462,26 @@ withDefaults(
             margin-top: 1.8rem;
             padding: 1.5rem 1.88rem;
             box-sizing: border-box;
+            .row {
+              flex-direction: row;
+            }
             h4 {
-              font-family:
-                PingFangSC,
-                PingFang SC;
+              font-family: PingFangSC, PingFang SC;
               font-weight: 500;
+              margin-top: 1rem;
               font-size: 1.5rem;
               color: #4e4e4e;
-              line-height: 1.6;
+              line-height: 2.06rem;
               text-align: left;
               font-style: normal;
               text-transform: none;
             }
-            > ul {
+            ul {
+              width: 60%;
               display: flex;
               justify-content: space-between;
               margin-top: 1.6rem;
-              margin-left: 0px;
+              margin-left: 1.6rem;
               position: relative;
               &::before {
                 position: absolute;
@@ -496,13 +489,11 @@ withDefaults(
                 left: 0.2rem;
                 top: -0.1rem;
                 background: #eee;
-                width: 38.31rem;
+                width: 100%;
                 height: 0.06rem;
               }
               li {
-                font-family:
-                  PingFangSC,
-                  PingFang SC;
+                font-family: PingFangSC, PingFang SC;
                 font-weight: 500;
                 font-size: 1rem;
                 color: #4e4e4e;
@@ -513,9 +504,7 @@ withDefaults(
                 height: 4.23rem;
                 position: relative;
                 label {
-                  font-family:
-                    PingFangSC,
-                    PingFang SC;
+                  font-family: PingFangSC, PingFang SC;
                   font-weight: 500;
                   font-size: 1.1rem;
                   color: #4e4e4e;
@@ -537,8 +526,8 @@ withDefaults(
                   margin-bottom: 0.5rem;
                 }
                 .big-circle {
-                  width: 2.25rem;
-                  height: 2.25rem;
+                  width: 1.5rem;
+                  height: 1.5rem;
                   display: block;
                   border-radius: 50%;
                   background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
@@ -547,9 +536,7 @@ withDefaults(
               }
             }
             .replication-points-info {
-              font-family:
-                PingFangSC,
-                PingFang SC;
+              font-family: PingFangSC, PingFang SC;
               font-size: 1.5rem;
               color: #4e4e4e;
               line-height: 1.6rem;
@@ -566,8 +553,6 @@ withDefaults(
                 width: 1.5rem;
                 height: 1.5rem;
                 vertical-align: middle;
-                padding-left: 16rem;
-                padding-right: 6rem;
               }
               label {
                 font-size: 1.5rem;
@@ -601,11 +586,10 @@ withDefaults(
                 align-items: flex-start;
 
                 .title {
-                  font-family:
-                    PingFangSC,
-                    PingFang SC;
+                  font-family: PingFangSC, PingFang SC;
                   font-weight: 500;
                   font-size: 1.5rem;
+                  white-space: nowrap;
                   color: #4e4e4e;
                   line-height: 1.6;
                   text-align: left;

@@ -2,22 +2,50 @@
   <div class="email-form-container">
     <Form>
       <FormRow>
-        <FormItem :label="$t('products.stream.multiDRM.email.form.firstName')">
-          <FormInput
-            name="first-name"
-            :placeholder="
-              $t('products.stream.multiDRM.email.form.firstNameLabel')
-            "
-          />
-        </FormItem>
-        <FormItem :label="$t('products.stream.multiDRM.email.form.lastName')">
-          <FormInput
-            name="last-name"
-            :placeholder="
-              $t('products.stream.multiDRM.email.form.lastNameLabel')
-            "
-          />
-        </FormItem>
+        <LgOnly>
+          <FormItem
+            :label="$t('products.stream.multiDRM.email.form.firstName')"
+          >
+            <FormInput
+              name="first-name"
+              :placeholder="
+                $t('products.stream.multiDRM.email.form.firstNameLabel')
+              "
+            />
+          </FormItem>
+          <FormItem :label="$t('products.stream.multiDRM.email.form.lastName')">
+            <FormInput
+              name="last-name"
+              :placeholder="
+                $t('products.stream.multiDRM.email.form.lastNameLabel')
+              "
+            />
+          </FormItem>
+        </LgOnly>
+        <XsOnly>
+          <div class="flex-row">
+            <FormItem
+              :label="$t('products.stream.multiDRM.email.form.firstName')"
+            >
+              <FormInput
+                name="first-name"
+                :placeholder="
+                  $t('products.stream.multiDRM.email.form.firstNameLabel')
+                "
+              />
+            </FormItem>
+            <FormItem
+              :label="$t('products.stream.multiDRM.email.form.lastName')"
+            >
+              <FormInput
+                name="last-name"
+                :placeholder="
+                  $t('products.stream.multiDRM.email.form.lastNameLabel')
+                "
+              />
+            </FormItem>
+          </div>
+        </XsOnly>
       </FormRow>
       <FormRow>
         <FormItem
@@ -110,9 +138,7 @@
   .hint {
     margin-top: 6px;
 
-    font-family:
-      PingFangSC,
-      PingFang SC;
+    font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 14px;
     color: #4e4e4e;
@@ -127,6 +153,61 @@
     .hint2 {
       margin-left: 6px;
       text-decoration: underline;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .email-form-container {
+    width: 100%;
+    flex: 1;
+    .flex-row{
+      display: flex;
+      width: 100%;
+      gap: 1rem;
+    }
+    .agree-link {
+      margin-left: 5px;
+      color: #0ebf6a;
+    }
+
+    .btn-container {
+      margin-top: 14px;
+
+      .btn-submit {
+        box-sizing: border-box;
+
+        width: 100%;
+        height: 50px;
+        background: #ffffff;
+        border-radius: 25px;
+        border: 2px solid #46cf3a;
+
+        font-family: Mont, Mont;
+        font-weight: 600;
+        font-size: 16px;
+        color: #000000;
+      }
+    }
+
+    .hint {
+      margin-top: 6px;
+
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 14px;
+      color: #4e4e4e;
+      line-height: 20px;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+
+      .hint1 {
+      }
+
+      .hint2 {
+        margin-left: 6px;
+        text-decoration: underline;
+      }
     }
   }
 }

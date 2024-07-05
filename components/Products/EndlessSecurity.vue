@@ -7,7 +7,7 @@
       <div class="sub-title">
         {{ $t('products.stream.multiDRM.endlessSecurity.subTitle') }}
       </div>
-      <div class="content">
+      <div class="content" v-if="!isMobile">
         <CommonMultiLine
           class="tag tag-1"
           :text="
@@ -61,6 +61,7 @@
           :text="$t('products.stream.multiDRM.endlessSecurity.content.cdn')"
         />
       </div>
+      <div class="content" v-else></div>
     </div>
   </div>
 </template>
@@ -154,6 +155,39 @@
     }
 
     > .content {
+    }
+  }
+}
+@media (max-width: 767px) {
+  .endless-security-container {
+    margin-top: 6.25rem;
+
+    .endless-security {
+      > .title {
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      > .sub-title {
+        margin-top: 1rem;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        text-align: left;
+      }
+
+      > .content {
+        margin-top: 2.25rem;
+        height: 69.88rem;
+        width: 43.88rem;
+        box-sizing: border-box;
+        background: url(/public/mobile-images/products/stream/MultiDRM/EndlesssecurityLimitlessDelivery@2x.png)
+          center;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        position: relative;
+      }
     }
   }
 }

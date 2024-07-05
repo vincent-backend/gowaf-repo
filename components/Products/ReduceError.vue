@@ -57,7 +57,6 @@
       width: 604px;
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
@@ -146,11 +145,11 @@
 
       > .content {
         margin-top: 2.06rem;
-        width: 35rem;
-        height: 25.39rem;
-        background: url(/public/images/products/cdn/safe-hop/cdnsafehop_reduce_graph@2x.png)
+        width: 42rem;
+        height: 28.56rem;
+        background: url(/public/mobile-images/products/cdn/safe-hop/cdnsafehop_reduce_graph@2x.png)
           left;
-        background-size: 35rem 25.39rem;
+        background-size: 100% 100%;
         position: relative;
 
         > .pic-l,
@@ -161,29 +160,31 @@
           .title {
             flex-wrap: nowrap;
             white-space: nowrap;
+            text-align: center;
             font-weight: 500;
-            font-size: 1.78rem;
-            line-height: 2.5rem;
+            font-size: 2rem;
+            line-height: 2.81rem;
           }
 
           .sub-title {
             margin-top: 0.44rem;
-            font-size: 1.56rem;
-            line-height: 1.33rem;
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+            text-align: center;
             color: #4e4e4e;
           }
         }
 
         > .pic-l {
-          left: 2rem;
+          left: 1.5rem;
           top: 12rem;
-          width: 15.67rem;
+          width: 20.67rem;
           text-align: center;
         }
 
         > .label-1 {
-          left: 33rem;
-          top: 12rem;
+          left: 30rem;
+          top: 10rem;
           width: 12.78rem;
           .sub-title {
             white-space: nowrap;
@@ -191,9 +192,9 @@
         }
 
         > .label-2 {
-          left: 33rem;
-          top: 24rem;
-          width: 12.78rem;
+          left: 28rem;
+          top: 28rem;
+          width: 18rem;
           // .sub-title {
           //   white-space: nowrap;
           // }
@@ -201,9 +202,9 @@
       }
 
       > .hint {
-        margin: 4.22rem 0 0;
-        width: 38.33rem;
-        font-size: 1.56rem;
+        margin: 8.22rem 0 0;
+        width: 100%;
+        font-size: 1.75rem;
         color: #4e4e4e;
         text-align: left;
       }
