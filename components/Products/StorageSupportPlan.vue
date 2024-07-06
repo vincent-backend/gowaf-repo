@@ -217,4 +217,158 @@
     }
   }
 }
+@media (max-width: 767px) {
+  .support-plan-container {
+    margin-top: 6.25rem;
+
+    .support-plan {
+      > .title {
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+
+      > .sub-title {
+        margin-top: 1rem;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        text-align: left;
+      }
+
+      > .content {
+        margin-top: 3.13rem;
+        background: #ffffff;
+        box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;
+        border-radius: 0.88rem;
+        border: 1px solid #e6e6e6;
+        position: relative;
+        padding-bottom: 3.13rem;
+
+        > .line {
+          width: 100%;
+          height: 0.5rem;
+          background: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        }
+
+        > .main {
+          margin-top: 1.88rem;
+          width: 100%;
+          padding: 0 1.88rem;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+
+          > .left {
+            width: 100%;
+            margin-left: 0;
+            .mt30 {
+              margin-top: 1.88rem;
+            }
+            .super-plan-list {
+              margin: 3.18rem 0 3.18rem;
+              display: flex;
+              li {
+                margin-right: 6rem;
+                color: #4e4e4e;
+                font-size: 1.5rem;
+                width: 50%;
+                white-space: nowrap;
+                h4 {
+                  background: url(/public/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png)
+                    no-repeat 0 3px;
+                  background-size: 2.25rem 2.25rem !important;
+                  text-indent: 3.35rem;
+                  font-weight: bold;
+                  color: #000;
+                  span {
+                    font-size: 3rem;
+                    padding-right: 0;
+                    color: #000;
+                  }
+                }
+              }
+            }
+            > .title {
+              font-weight: 500;
+              font-size: 2.13rem;
+              line-height: 3rem;
+            }
+
+            > .content {
+              margin-top: 1rem;
+              font-size: 1.63rem;
+              color: #4e4e4e;
+            }
+
+            > .title2 {
+              margin-top: 1rem;
+              font-weight: 500;
+              font-size: 2.13rem;
+              line-height: 3rem;
+            }
+
+            > .list {
+              margin-top: 20px;
+              display: flex;
+              flex-wrap: wrap;
+              gap: 20px 0;
+
+              .item {
+                width: 50%;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                  width: 2.25rem;
+                  height: 2.25rem;
+                  background: linear-gradient(147deg, #f9c22f 0%, #fa6e4a 100%);
+                  border-radius: 12px;
+
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+
+                  &::before {
+                    content: '';
+                    width: 14px;
+                    height: 14px;
+                    background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                  }
+                }
+
+                .text {
+                  margin-left: 10px;
+
+                  font-weight: 500;
+                  font-size: 16px;
+
+                  line-height: 22px;
+                }
+              }
+            }
+
+            > .btn-container {
+              margin-top: 3.13rem;
+            }
+          }
+
+          > .right {
+            margin-right: 0;
+
+            .pic {
+              margin-top: 3.13rem;
+              width: 19.5rem;
+              height: 19.5rem;
+
+              background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>

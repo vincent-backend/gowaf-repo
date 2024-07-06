@@ -89,7 +89,8 @@ defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .ad1-container {
-    margin-top: 6.25rem;
+    margin-top: 0;
+    padding-top: 6.25rem;
 
     height: 28rem;
 

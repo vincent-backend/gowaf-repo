@@ -202,4 +202,149 @@ withDefaults(
     }
   }
 }
+@media (max-width: 767px) {
+  .support-plan-container {
+    margin-top: 6.25rem;
+    h2 {
+      text-align: left;
+      font-weight: 500;
+      font-size: 2.13rem;
+      color: #000000;
+      line-height: 3rem;
+      font-style: normal;
+      text-transform: none;
+      padding-bottom: 1rem;
+    }
+    h5 {
+      font-weight: 500;
+      font-size: 1.63rem;
+      color: #46cf3a;
+      line-height: 2.38rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .support-plan {
+     
+      > .title {
+        font-weight: 500;
+        font-size: 2.13rem;
+        line-height: 3rem;
+        text-align: left;
+      }
+
+      > .sub-title {
+        margin-top: 1rem;
+        font-size: 1.63rem;
+        color: #4e4e4e;
+        text-align: left;
+      }
+
+      > .content {
+        margin-top: 1.88rem;
+        background: #ffffff;
+        box-shadow: 0px 4px 10px 0px #f1f1f1;
+        border-radius: 0.88rem;
+        border: 1px solid #e6e6e6;
+        position: relative;
+        padding: 0 1.88rem;
+        padding-bottom: 3rem;
+        box-sizing: border-box;
+
+        > .line {
+          width: calc(100% + 3.75rem);
+          margin-left: -1.88rem;
+          height: 0.5rem;
+          background: url(/public/mobile-images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        }
+
+        > .main {
+          margin-top: 1.88rem;
+          display: flex;
+          flex-direction: column;
+          // justify-content: space-between;
+
+          > .left {
+            width: 100%;
+            margin-left: 0;
+
+            > .title {
+              font-weight: 500;
+              font-size: 2.13rem;
+              line-height: 3rem;
+              white-space: pre-wrap;
+            }
+
+            > .content {
+              margin-top: 1rem;
+              font-size: 1.63rem;
+              color: #4e4e4e;
+            }
+
+            > .title2 {
+              margin-top: 30px;
+              font-weight: 500;
+              font-size: 2.13rem;
+              line-height: 3rem;
+            }
+
+            > .list {
+              margin-top: 1.88rem;
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              gap: 1.88rem 0;
+
+              .item {
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                  width: 2.25rem;
+                  height: 2.25rem;
+                  background: linear-gradient(147deg, #f9c22f 0%, #fa6e4a 100%);
+                  border-radius: 1.13rem;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  &::before {
+                    content: '';
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                  }
+                }
+
+                .text {
+                  margin-left: 1.25rem;
+                  font-weight: 500;
+                  font-size: 1.63rem;
+                  line-height: 2.31rem;
+                }
+              }
+            }
+
+            > .btn-container {
+              margin-top: 30px;
+            }
+          }
+
+          > .right {
+            margin-right: 0;
+            padding-top: 3.3rem;
+            margin: 0 auto;
+            .pic {
+              width: 24.63rem;
+              height: 19.5rem;
+              background: url(/public/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png)
+                no-repeat 0 0px;
+              background-size: 24.63rem 19.5rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>

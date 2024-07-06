@@ -48,6 +48,7 @@ withDefaults(
               class="item"
               v-for="(item, index) in items"
               :key="index"
+              :class="{ onlyOne: items.length == 1 }"
               :style="{ width: `${itemWidth}` }"
             >
               <div class="left">
@@ -452,6 +453,7 @@ withDefaults(
 
         > .right {
           padding-right: 0;
+          width: 100%;
           .replication-points-container {
             width: 100%;
             height: 12.75rem;
@@ -579,6 +581,9 @@ withDefaults(
               box-sizing: border-box;
               padding: 0 1.8rem;
               overflow: hidden;
+              &.onlyOne {
+                width: 100% !important;
+              }
               .left {
                 display: flex;
                 flex-direction: column;
@@ -642,6 +647,7 @@ withDefaults(
 
           .list2 {
             margin-top: 1.25rem;
+            width: 100%;
             flex-direction: column;
             gap: 1.25rem;
 

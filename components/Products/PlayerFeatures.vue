@@ -27,11 +27,11 @@ const curTab = ref(0);
               class="pic"
               :style="{
                 backgroundImage: `url(${item.pic})`,
-                width: item.picWidth,
-                height: item.picHeight
+                width: isMobile ? item.mpicWidth : item.picWidth,
+                height: isMobile ? item.mpicHeight : item.picHeight
               }"
             ></div>
-            <div class="hint">{{ item.hint }}</div>
+            <div v-if="item.hint" class="hint">{{ item.hint }}</div>
           </div>
         </template>
       </div>
@@ -93,6 +93,54 @@ const curTab = ref(0);
           color: #4e4e4e;
 
           text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .player-features-container {
+    margin-top: 6.25rem;
+
+    .player-features {
+      padding-top: 0;
+      position: relative;
+
+      > .bg {
+        display: none;
+      }
+
+      > .content {
+        position: relative;
+        z-index: 2;
+
+        > .title {
+          font-weight: 500;
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+          text-align: left;
+        }
+
+        > .sub-title {
+          margin-top: 1rem;
+          font-size: 1.75rem;
+          color: #4e4e4e;
+          text-align: left;
+        }
+
+        > .content {
+          margin-top: 2.5rem;
+
+          > .pic {
+            margin: 0 auto 0;
+          }
+
+          > .hint {
+            margin-top: 2.5rem;
+            font-size: 1.63rem;
+            color: #4e4e4e;
+            text-align: left;
+          }
         }
       }
     }

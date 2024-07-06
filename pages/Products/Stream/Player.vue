@@ -47,9 +47,9 @@
       w: '472px',
       h: '322px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/products/stream/player/stream_player_banner_graph@2x.png',
+      mw: '29.5rem',
+      mh: '20.13rem'
     }"
   />
 
@@ -58,7 +58,6 @@
   <ProductsPlayerFeatures />
 
   <SolutionsAd2
-    style="margin-top: 163px"
     :title="$t('products.stream.player.ad2.title')"
     :content="$t('products.stream.player.ad2.content')"
     :btn="$t('products.stream.player.ad2.btn')"
@@ -66,7 +65,24 @@
     pic="/images/products/stream/player/cdnfeatures_security_img@2x.png"
     pic-width="400px"
     pic-height="400px"
-    reverse
+    m-pic="/images/products/stream/player/cdnfeatures_security_img@2x.png"
+    m-pic-height="25rem"
+    m-pic-width="25rem"
+    v-bind="
+      isMobile
+        ? {
+            style: {
+              marginTop: '6.25rem'
+            },
+            reverse: true
+          }
+        : {
+            style: {
+              marginTop: '163px'
+            },
+            reverse: true
+          }
+    "
   />
 
   <div class="player2-container">
@@ -77,9 +93,22 @@
     <div class="pic"></div>
   </div>
 
-  <ProductsDRMCustomers
-    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
-  />
+  <LgOnly>
+    <ProductsDRMCustomers
+      :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <NetworkJoin1
+      v-bind="{
+        ...$tm('products.stream.multiDRM.drmCustomernetword'),
+        avatar:
+          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
+        mAvatar:
+          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png'
+      }"
+    />
+  </XsOnly>f
 
   <Footer />
 </template>
@@ -112,6 +141,36 @@
     width: 782px;
     height: 440px;
     background: url(/public/images/products/stream/player/player-1@2x.png);
+  }
+}
+@media (max-width: 767px) {
+  .player2-container {
+    padding: 0 1.88rem;
+    box-sizing: border-box;
+    margin-top: 6.25rem;
+    margin-bottom: 10rem;
+
+    > .title {
+      font-weight: 500;
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      text-align: left;
+    }
+
+    > .sub-title {
+      margin-top: 1rem;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      line-height: 2.38rem;
+      text-align: left;
+    }
+
+    > .pic {
+      margin: 2.5rem auto 0;
+      width: 100%;
+      height: 24.25rem;
+      background: url(/public/images/products/stream/player/player-1@2x.png);
+    }
   }
 }
 </style>

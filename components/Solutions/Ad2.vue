@@ -232,7 +232,7 @@ const props = defineProps({
 
       &.reverse {
         // flex-direction: row-reverse;
-        flex-direction: column;
+        flex-direction: column-reverse;
       }
     }
   }

@@ -1082,6 +1082,8 @@
           {
             "tab": "Video Chapters",
             "pic": "/images/products/stream/player/player-1@2x.png",
+            "mpicWidth": "100%",
+            "mpicHeight": "24.25rem",
             "picWidth": "610px",
             "picHeight": "343px",
             "hint": "Add video chapters to your videos to allow viewers to navigate through the video more easily."
@@ -1091,6 +1093,8 @@
             "pic": "/images/products/stream/player/player-1@2x.png",
             "picWidth": "610px",
             "picHeight": "343px",
+            "mpicWidth": "100%",
+            "mpicHeight": "24.25rem",
             "hint": "Add video chapters to your videos to allow viewers to navigate through the video more easily."
           },
           {
@@ -1098,6 +1102,8 @@
             "pic": "/images/products/stream/player/player-1@2x.png",
             "picWidth": "610px",
             "picHeight": "343px",
+            "mpicWidth": "100%",
+            "mpicHeight": "24.25rem",
             "hint": "Add video chapters to your videos to allow viewers to navigate through the video more easily."
           },
           {
@@ -1105,6 +1111,8 @@
             "pic": "/images/products/stream/player/player-1@2x.png",
             "picWidth": "610px",
             "picHeight": "343px",
+            "mpicWidth": "100%",
+            "mpicHeight": "24.25rem",
             "hint": "Add video chapters to your videos to allow viewers to navigate through the video more easily."
           },
           {
@@ -1112,6 +1120,8 @@
             "pic": "/images/products/stream/player/player-1@2x.png",
             "picWidth": "610px",
             "picHeight": "343px",
+            "mpicWidth": "100%",
+            "mpicHeight": "24.25rem",
             "hint": "Add video chapters to your videos to allow viewers to navigate through the video more easily."
           },
           {
@@ -1119,6 +1129,8 @@
             "pic": "/images/products/stream/player/player-1@2x.png",
             "picWidth": "610px",
             "picHeight": "343px",
+            "mpicWidth": "100%",
+            "mpicHeight": "24.25rem",
             "hint": "Add video chapters to your videos to allow viewers to navigate through the video more easily."
           }
         ]
