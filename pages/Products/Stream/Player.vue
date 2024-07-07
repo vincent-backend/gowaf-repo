@@ -108,8 +108,7 @@
           '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png'
       }"
     />
-  </XsOnly>f
-
+  </XsOnly>
   <Footer />
 </template>
 

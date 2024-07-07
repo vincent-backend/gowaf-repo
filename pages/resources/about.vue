@@ -50,12 +50,15 @@
   <ProductsPerfectSolution
     :title="$t('resources.about.perfectSolution.title')"
     :titleWidth="'550px'"
+    pic-position="bottom"
     :content="$t('resources.about.perfectSolution.content')"
     :items="$tm('resources.about.perfectSolution.items')"
     :pic="{
       url: '/images/resources/about/resources_about_graph_1@2x.png',
       width: 340,
-      height: 288
+      height: 288,
+      mheight: '18rem',
+      mwidth: '21.25rem',
     }"
   />
 

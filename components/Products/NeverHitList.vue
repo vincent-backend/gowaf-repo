@@ -47,12 +47,13 @@ defineProps<{
 <style lang="less" scoped>
 .never-list {
   width: 100%;
-  margin: 6.5rem 0;
+  margin: 6.5rem 0 3.5rem 0;
   padding: 0 1.88rem;
   box-sizing: border-box;
   .content {
     display: flex;
     flex-direction: column;
+    gap: 2.55rem;
     .item {
       display: flex;
       align-items: center;

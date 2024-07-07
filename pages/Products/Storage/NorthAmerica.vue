@@ -50,9 +50,9 @@
       w: '524px',
       h: '434px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/products/storage/northamerica/Network_Overview_nation_Europe_2x.png',
+      mw: '32.75rem',
+      mh: '29.63rem'
     }"
   />
   <CommonNumbers
@@ -69,10 +69,18 @@
     "
     :img="$t('products.storage.NorthAmerica.exceptionalPerformance.img')"
   />
-  <ProductsNeverHit
-    :isShowTitle="false"
-    :neverHit="$tm('products.storage.NorthAmerica.neverHit')"
-  />
+  <LgOnly>
+    <ProductsNeverHit
+      :isShowTitle="false"
+      :neverHit="$tm('products.storage.NorthAmerica.neverHit')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <ProductsNeverHitList
+      :isShowTitle="false"
+      :neverHit="$tm('products.storage.NorthAmerica.neverHit')"
+    />
+  </XsOnly>
   <HomeList1 />
   <SolutionsAd1
     :title="$t('products.storage.NorthAmerica.HopList.title')"
@@ -82,6 +90,9 @@
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"
+    m-pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+    m-pic-width="18.75rem"
+    m-pic-height="18.72rem"
   />
   <CommonList1
     :title1="$t('products.storage.NorthAmerica.list1.title')"
@@ -102,8 +113,29 @@
     :title="$tm('products.storage.NorthAmerica.partnerList.title')"
     :subTitle="$tm('products.storage.NorthAmerica.partnerList.subTitle')"
   />
-  <ProductsDRMCustomers
-    :drmCustomer="$tm('products.storage.NorthAmerica.drmCustomer')"
-  />
+  <LgOnly>
+    <ProductsDRMCustomers
+      :drmCustomer="$tm('products.storage.NorthAmerica.drmCustomer')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <NetworkJoin1
+      class="asia-join1"
+      v-bind="{
+        ...$tm('products.stream.multiDRM.drmCustomernetword'),
+        avatar:
+          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
+        mAvatar:
+          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png'
+      }"
+    />
+  </XsOnly>
   <Footer />
 </template>
+<style lang="less" scoped>
+@media (max-width: 767px) {
+  .asia-join1 {
+    margin-top: 0 !important;
+  }
+}
+</style>

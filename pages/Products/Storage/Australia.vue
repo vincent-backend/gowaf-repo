@@ -50,9 +50,9 @@
       w: '524px',
       h: '434px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/products/storage/Australia/Network_Overview_nation_Australia_2x.png',
+      mw: '32.75rem',
+      mh: '27.13rem'
     }"
   />
   <CommonNumbers
@@ -67,10 +67,18 @@
     "
     :img="$t('products.storage.Australia.exceptionalPerformance.img')"
   />
-  <ProductsNeverHit
-    :isShowTitle="false"
-    :neverHit="$tm('products.storage.Australia.neverHit')"
-  />
+  <LgOnly>
+    <ProductsNeverHit
+      :isShowTitle="false"
+      :neverHit="$tm('products.storage.Australia.neverHit')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <ProductsNeverHitList
+      :isShowTitle="false"
+      :neverHit="$tm('products.storage.Australia.neverHit')"
+    />
+  </XsOnly>
   <HomeList1 />
   <SolutionsAd1
     :title="$t('products.storage.Australia.HopList.title')"
@@ -80,6 +88,9 @@
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"
+    m-pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+    m-pic-width="18.75rem"
+    m-pic-height="18.72rem"
   />
   <CommonList1
     :title1="$t('products.storage.Australia.list1.title')"
@@ -100,8 +111,29 @@
     :title="$tm('products.storage.Australia.partnerList.title')"
     :list="$tm('products.storage.Australia.partnerList.imgPcList')"
   />
-  <ProductsDRMCustomers
-    :drmCustomer="$tm('products.storage.Australia.drmCustomer')"
-  />
+  <LgOnly>
+    <ProductsDRMCustomers
+      :drmCustomer="$tm('products.storage.Australia.drmCustomer')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <NetworkJoin1
+      class="asia-join1"
+      v-bind="{
+        ...$tm('products.stream.multiDRM.drmCustomernetword'),
+        avatar:
+          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
+        mAvatar:
+          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png'
+      }"
+    />
+  </XsOnly>
   <Footer />
 </template>
+<style lang="less" scoped>
+@media (max-width: 767px) {
+  .asia-join1 {
+    margin-top: 0 !important;
+  }
+}
+</style>

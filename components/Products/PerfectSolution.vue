@@ -9,11 +9,15 @@ withDefaults(
       url?: string;
       width?: number;
       height?: number;
+      mwidth?: string;
+      mheight?: string;
     };
+    picPosition: string;
     showFoot?: boolean;
   }>(),
   {
-    showFoot: true
+    showFoot: true,
+    picPosition: 'top'
   }
 );
 </script>
@@ -21,15 +25,22 @@ withDefaults(
   <div class="perfect-solution-container">
     <div class="perfect-solution page-container">
       <div class="left">
-        <div class="title" v-if="title" :style="{ width: titleWidth }">
+        <div
+          class="title"
+          v-if="title"
+          :style="{ width: isMobile ? '100%' : titleWidth }"
+        >
           {{ title }}
         </div>
         <div class="content" v-if="content">{{ content }}</div>
         <XsOnly>
           <div
+            v-if="picPosition === 'top'"
             class="pic"
             :style="{
-              backgroundImage: `url(${pic?.url})`
+              backgroundImage: `url(${pic?.url})`,
+              width: pic?.mwidth,
+              height: pic?.mheight
             }"
           ></div>
         </XsOnly>
@@ -45,6 +56,18 @@ withDefaults(
             </div>
           </div>
         </div>
+        <XsOnly>
+          <div
+            v-if="picPosition !== 'top'"
+            class="pic"
+            :style="{
+              backgroundImage: `url(${pic?.url})`,
+              width: pic?.mwidth,
+              height: pic?.mheight,
+              marginTop: '3.13rem'
+            }"
+          ></div>
+        </XsOnly>
       </div>
       <LgOnly>
         <div class="right">

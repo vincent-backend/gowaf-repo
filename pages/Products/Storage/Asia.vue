@@ -118,6 +118,7 @@
   </LgOnly>
   <XsOnly>
     <NetworkJoin1
+      class="asia-join1"
       v-bind="{
         ...$tm('products.stream.multiDRM.drmCustomernetword'),
         avatar:
@@ -129,3 +130,10 @@
   </XsOnly>
   <Footer />
 </template>
+<style lang="less" scoped>
+@media (max-width: 767px) {
+  .asia-join1 {
+    margin-top: 0 !important;
+  }
+}
+</style>

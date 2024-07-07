@@ -23,41 +23,48 @@ const curTab = ref(0);
 <template>
   <div class="super-charge-container">
     <div class="page-container super-charge">
-      <template>
-        <div class="tabs-content">
-          <div class="left">
+      <div class="tabs-content">
+        <div class="left">
+          <div
+            class="icon"
+            :style="
+              isMobile
+                ? {
+                    backgroundImage: `url(${tab?.mIcon})`,
+                    width: tab.mIconWidth,
+                    height: tab.mIconHeight
+                  }
+                : {
+                    backgroundImage: `url(${tab.icon})`,
+                    width: tab.iconWidth,
+                    height: tab.iconHeight
+                  }
+            "
+          ></div>
+        </div>
+        <div class="right">
+          <div class="title">
+            {{ tab.title }}
+          </div>
+          <div class="content">
+            <p>{{ tab.content }}</p>
+          </div>
+          <a v-if="!isMobile && tab.btn" href="#" class="trail-btn">{{
+            tab.btn
+          }}</a>
+          <div v-else class="btn-pic">
             <div
               class="icon"
-              :style="
-                isMobile
-                  ? {
-                      backgroundImage: `url(${tab?.mIcon})`,
-                      width: tab.mIconWidth,
-                      height: tab.mIconHeight
-                    }
-                  : {
-                      backgroundImage: `url(${tab.icon})`,
-                      width: tab.iconWidth,
-                      height: tab.iconHeight
-                    }
-              "
+              :style="{
+                backgroundImage: `url(${tab?.mIcon})`,
+                width: tab.mIconWidth,
+                height: tab.mIconHeight
+              }"
             ></div>
-          </div>
-          <div class="right">
-            <div class="title">
-              {{ tab.title }}
-              <!-- <span class="title-tip" v-if="tab.titleTip">{{ tab.titleTip }}</span> -->
-            </div>
-            <div class="content">
-              <p>{{ tab.content }}</p>
-              <!-- <p v-for="text in tab.content.split(/\r\n|\n/)">
-                {{ text }}
-              </p> -->
-            </div>
             <a href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</a>
           </div>
         </div>
-      </template>
+      </div>
     </div>
   </div>
 </template>
@@ -181,11 +188,16 @@ const curTab = ref(0);
         flex-direction: column;
 
         .left {
+          display: none;
+        }
+        .btn-pic {
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
-
+          width: 100%;
           .icon {
+            margin: 3.13rem 0;
           }
         }
 
