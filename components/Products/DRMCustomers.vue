@@ -51,6 +51,7 @@ defineProps<{
       </div>
       <ul v-if="drmCustomer.items">
         <li v-for="(item, index) in drmCustomer.items" :key="index">
+          <div class="star"></div>
           <span>{{ item.num }}</span>
           <img :src="item.icon" :alt="item.num" />
         </li>
@@ -118,9 +119,7 @@ defineProps<{
     }
     > h3 {
       padding-left: 90px;
-      font-family:
-        PingFangSC,
-        PingFang SC;
+      font-family: PingFangSC, PingFang SC;
       font-weight: 500;
       font-size: 30px;
       color: #000000;
@@ -132,9 +131,7 @@ defineProps<{
     }
     > p {
       padding-left: 90px;
-      font-family:
-        PingFangSC,
-        PingFang SC;
+      font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 16px;
       color: #4e4e4e;
@@ -166,9 +163,7 @@ defineProps<{
       background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 24px;
       p {
-        font-family:
-          PingFangSC,
-          PingFang SC;
+        font-family: PingFangSC, PingFang SC;
         font-weight: 400;
         font-size: 16px;
         color: #4e4e4e;
@@ -205,9 +200,7 @@ defineProps<{
           }
         }
         > span {
-          font-family:
-            PingFangSC,
-            PingFang SC;
+          font-family: PingFangSC, PingFang SC;
           font-weight: 400;
           font-size: 16px;
           color: #4e4e4e;
@@ -227,14 +220,18 @@ defineProps<{
         width: 282px;
         height: 230px;
         box-sizing: border-box;
-        background: #ffffff
-          url(/public/images/products/stream/multi-drm/Network_Overview_ic_star@2x.png)
-          no-repeat center 45px;
-        background-size: 36px 33px !important;
         border-radius: 24px;
         border: 1px solid #e6e6e6;
-        padding-top: 90px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .star {
+          width: 36px;
+          height: 36px;
+          background: url(/public/images/network/Network_Overview_ic_star.png);
+        }
         span {
           display: block;
           text-align: center;
@@ -245,11 +242,187 @@ defineProps<{
           line-height: 40px;
           font-style: normal;
           text-transform: none;
-          padding-bottom: 22px;
+          padding-bottom: 0;
         }
         img {
           width: 180px;
           height: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .drm-customer-container {
+    margin: 0 auto;
+    padding: 0 1.88rem;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    .drm-customer-content-container {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      .face-img {
+        position: absolute;
+        width: 27.38rem !important;
+        height: 18.75rem !important;
+        background-position: right 0;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        right: -1rem !important;
+        bottom: 4.94rem !important;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        top: 15.94rem;
+        left: 0;
+        width: 9.25rem;
+        height: 4.38rem;
+        background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
+          no-repeat 0 0;
+        background-size: 9.25rem 4.38rem;
+        z-index: 10;
+      }
+      &::after {
+        display: none;
+      }
+      > h3 {
+        padding-left: 0;
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        padding-bottom: 1rem;
+      }
+      > p {
+        padding-left: 0;
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        display: table-cell;
+        padding-bottom: 11rem;
+        .clolorFA9B3B {
+          color: #fa9b3b;
+        }
+        a {
+          color: #0cbf6a;
+          text-decoration: underline;
+        }
+        img {
+          width: 1.88rem;
+          height: 1.88rem;
+          vertical-align: top;
+        }
+      }
+      > .list {
+        margin: 0 auto 2.94rem auto;
+        position: relative;
+        box-sizing: border-box;
+        padding: 1.88rem;
+        width: 100%;
+        min-height: 24.81rem;
+        background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
+        border-radius: 0.88rem;
+        p {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 1.63rem;
+          color: #4e4e4e;
+          line-height: 2.38rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          padding-right: 0;
+        }
+        > div {
+          width: 100%;
+          margin: 0px auto 1.88rem auto;
+          border-bottom: 1px solid #e6e6e6;
+          position: relative;
+          padding-bottom: 1.88rem;
+          h4 {
+            position: relative;
+            font-family: PingFang-SC, PingFang-SC;
+            font-weight: bold;
+            font-size: 2.25rem;
+            color: #000000;
+            line-height: 3.13rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+            padding-left: 1rem;
+            > span {
+              position: absolute;
+              top: 0.7rem;
+              left: 0;
+              width: 0.25rem;
+              height: 1.75rem;
+              background: linear-gradient(180deg, #46cf3a 0%, #36cfbc 100%);
+            }
+          }
+          > span {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 400;
+            font-size: 1.38rem;
+            color: #4e4e4e;
+            line-height: 1.88rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+        }
+      }
+      > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin: 2.9rem auto 0px auto;
+        gap: 1rem;
+        li {
+          width: calc(50% - 1rem);
+          height: 15.19rem;
+          box-sizing: border-box;
+          border-radius: 1.5rem;
+          border: 1px solid #e6e6e6;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .star {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: url(/public/images/network/Network_Overview_ic_star.png);
+          }
+          span {
+            display: block;
+            text-align: center;
+            font-family: Mont, Mont;
+            font-weight: 600;
+            font-size: 2.5rem;
+            line-height: 3.31rem;
+            color: #f9a337;
+            padding: 0;
+            font-style: normal;
+            text-transform: none;
+            margin: 0.38rem 0 0 0;
+          }
+          img {
+            width: 11.25rem;
+            height: 3.13rem;
+          }
         }
       }
     }

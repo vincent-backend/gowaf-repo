@@ -104,6 +104,72 @@ defineProps<{
 // For mobile devices
 @media (max-width: 767px) {
   .list-container {
+    width: 100%;
+    padding: 1.88rem;
+    box-sizing: border-box;
+    margin: 6.25rem auto;
+
+    ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 1.25rem;
+      li {
+        width: calc(50% - 1.25rem);
+        background: #ffffff;
+        box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;
+        border-radius: 0.88rem;
+        border: 0.06rem solid #e6e6e6;
+        box-sizing: border-box;
+        margin: 0;
+        h5 {
+          padding: 0.75rem 1.25rem;
+          font-size: 1.75rem;
+          color: #000000;
+          font-weight: 500;
+          line-height: 2.5rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          height: 85px;
+        }
+        p {
+          margin: 0.23rem 1.25rem;
+          border-top: 1px solid #e6e6e6;
+          padding: 1.25rem 0;
+          font-weight: 500;
+          font-size: 1.75rem;
+          color: #000000;
+          line-height: 2.5rem;
+          text-align: left;
+          display: flex;
+          align-items: center;
+          flex-direction: row-reverse;
+          label {
+            width: 1.25rem;
+            height: 1.25rem;
+            background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png)
+              no-repeat 0 0;
+            background-size: 1.25rem 1.25rem !important;
+            margin-left: auto;
+          }
+        }
+        span {
+          padding-left: 1.25rem;
+          padding-top: 1.25rem;
+          display: block;
+          img {
+            width: auto;
+            height: 2.81rem;
+          }
+        }
+        img {
+          width: 100%;
+          height: 13.75rem;
+        }
+      }
+    }
   }
 }
 </style>

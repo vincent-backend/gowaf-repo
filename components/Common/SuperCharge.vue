@@ -346,6 +346,79 @@ const curTab = ref(0);
             margin-top: 2.5rem;
           }
         }
+        .job-items-list {
+          width: 100%;
+          margin-bottom: 6.25rem;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+              width: 43.13rem;
+              height: 19.5rem;
+              background: #ffffff;
+              border-radius: 0.75rem;
+              border: 0.09rem solid #e6e6e6;
+              overflow: hidden;
+              padding: 1.88rem;
+              box-sizing: border-box;
+              margin-bottom: 1.25rem;
+              h3 {
+                font-weight: 500;
+                font-size: 2.13rem;
+                color: #000000;
+                line-height: 3rem;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+                margin-bottom: 1.25rem;
+                span {
+                  float: right;
+                  width: 1.88rem;
+                  height: 1.88rem;
+                  background-image: url(/images/resources/careers/nav_ic_arrow_right_nor_2x.png);
+                  cursor: pointer;
+                  &:hover {
+                    border: 1px solid #eee;
+                  }
+                }
+              }
+              p {
+                font-weight: 400;
+                font-size: 1.5rem;
+                color: #4e4e4e;
+                line-height: 2.25rem;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+                height: auto;
+                overflow: hidden;
+                margin-bottom: 1.25rem;
+              }
+              dl {
+                float: left;
+                display: flex;
+                padding-right: 2.25rem;
+                dt {
+                  padding-right: 0.75rem;
+                  img {
+                    width: 2.25rem;
+                    height: 2.25rem;
+                  }
+                }
+                dd {
+                  font-weight: 400;
+                  font-size: 1.5rem;
+                  color: #4e4e4e;
+                  line-height: 2.25rem;
+                  text-align: left;
+                  font-style: normal;
+                  text-transform: none;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

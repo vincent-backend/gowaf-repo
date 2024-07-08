@@ -60,6 +60,7 @@ defineProps<{
       .icon {
         width: 9.38rem;
         height: 9.38rem;
+        flex-shrink: 0;
       }
       .text-row {
         height: 100%;

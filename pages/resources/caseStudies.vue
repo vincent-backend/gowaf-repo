@@ -46,19 +46,24 @@
       src: '/images/resources/case-studies/Resources_Case_Studies_banner_graph_2x.png',
       w: '416px',
       h: '348px',
-
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/case-studies/Resources_Case_Studies_banner_graph_2x.png',
+      mw: '26rem',
+      mh: '21.75rem'
     }"
   />
   <HomeList1
     :list="$tm('resources.caseStudies.logoIconList')"
     :isHidenTile="true"
+    class="caseStudies-HomeList1"
     bgColor="#fff"
     :btText="$tm('resources.caseStudies.logoIconListBtText')"
   />
-  <CommonList4 v-bind="$tm('resources.caseStudies.list')" />
+  <CommonList4 class="caseStudies-CommonList4" v-bind="$tm('resources.caseStudies.list')" />
 
   <Footer />
 </template>
+<style lang="less" scoped>
+.caseStudies-CommonList4{
+  margin-top: 0;
+}
+</style>

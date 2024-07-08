@@ -116,15 +116,15 @@ defineProps<{
 
       .list {
         margin-top: 3.13rem;
-
         width: auto;
         gap: 1.25rem 0;
         justify-content: space-between;
 
         > .item {
           width: 20.9rem;
-          height: 18.25rem;
-          padding: 0.63rem 0 1.25rem 1.25rem;
+          min-height: 18.25rem;
+          box-sizing: border-box;
+          padding: 0.63rem 1.25rem 1.25rem 1.25rem;
 
           .icon {
             width: 8.25rem;
@@ -132,8 +132,7 @@ defineProps<{
           }
 
           .title {
-            margin-top: 1.87rem;
-
+            margin-top: 1.88rem;
             font-size: 2.13rem;
             line-height: 3.13rem;
             text-align: left;

@@ -44,7 +44,11 @@ withDefaults(
           <img
             :src="logo"
             alt=""
-            :style="logoWidth ? { width: logoWidth, height: logoHeight } : ''"
+            :style="
+              !isMobile && logoWidth
+                ? { width: logoWidth, height: logoHeight }
+                : ''
+            "
           />
         </div>
 
@@ -320,6 +324,8 @@ withDefaults(
     max-width: none;
     height: auto;
     background: url(/public/mobile-images/home/home_banner_bg@2x.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
 
     .home-banner {
       flex-direction: column;
@@ -337,16 +343,14 @@ withDefaults(
 
         .title {
           margin-top: 0.63rem;
-
-          width: 34.75rem;
+          width: 100%;
           font-size: 3.5rem;
           line-height: 5rem;
         }
 
         .content {
           margin-top: 1.5rem;
-
-          width: 39.5rem;
+          width: 100%;
         }
 
         .trail-btn {
@@ -356,6 +360,13 @@ withDefaults(
         .hint {
           margin-top: 1.87rem;
           font-size: 1.38rem;
+        }
+        .pre-logo {
+          margin-bottom: 0.94rem;
+          img {
+            width: 9rem;
+            height: 2.63rem;
+          }
         }
       }
 
@@ -432,7 +443,7 @@ withDefaults(
     }
 
     &.hide-foot {
-      // height: 60rem;
+      height: 73.44rem;
 
       .bottom {
         display: none;

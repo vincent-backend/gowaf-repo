@@ -50,13 +50,14 @@
       w: '406px',
       h: '368px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_banner_graph_2x.png',
+      mw: '25.38rem',
+      mh: '23rem'
     }"
   />
   <CommonNumbers
     style="margin-top: 60px"
+    is-row
     :items="$tm('resources.caseStudiesDetailsEskimi.numbers')"
     :numbersTitle="$t('resources.caseStudiesDetailsEskimi.numbersTitle')"
   />
@@ -74,15 +75,24 @@
         :content3="item?.content3"
         :content4="item?.content4"
         :pic="item.pic"
+        :m-pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        :reverse="index % 2 === 0"
+        m-pic-width="24.75rem"
+        m-pic-height="20.25rem"
+        :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>
   <CommonList4 v-bind="$tm('resources.caseStudiesDetailsEskimi.list')" />
   <ProductsDRMCustomers
+    class="Eskimi-products-customers"
     :drmCustomer="$tm('resources.caseStudiesDetailsEskimi.drmCustomer')"
   />
   <Footer />
 </template>
+<style lang="less" scoped>
+.Eskimi-products-customers {
+  margin-top: 12.5rem;
+}
+</style>

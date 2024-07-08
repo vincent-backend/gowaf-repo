@@ -58,23 +58,9 @@
   <ProductsEndlessSecurity />
   <ProductsDRMTable />
   <ProductsDRMPricing />
-  <LgOnly>
-    <ProductsDRMCustomers
-      :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
-    />
-  </LgOnly>
-  <XsOnly>
-    <NetworkJoin1
-      v-bind="{
-        ...$tm('products.stream.multiDRM.drmCustomernetword'),
-        avatar:
-          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
-        mAvatar:
-          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png'
-      }"
-    />
-  </XsOnly>
-  
+  <ProductsDRMCustomers
+    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
+  />
   <ProductsDRMEmail />
 
   <Footer :is-show-banner="false" />

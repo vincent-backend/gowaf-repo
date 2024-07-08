@@ -58,15 +58,14 @@
       width: 340,
       height: 288,
       mheight: '18rem',
-      mwidth: '21.25rem',
+      mwidth: '21.25rem'
     }"
   />
 
   <ResourcesSuperCharge :tab="$tm('resources.about.superCharge')" />
   <CommonNumbers
+    class="about-numbers"
     :items="$tm('resources.about.numbers')"
-    :type="'resourcesAbout'"
-    style="margin-top: 120px"
   />
 
   <CommonList2 v-bind="$tm('resources.about.list2')" />
@@ -83,6 +82,7 @@
     title2=""
     :items="$tm('resources.about.list.list')"
     layoutType="full"
+    class="about-CommonList"
   />
   <ResourcesGetInTouch />
   <Footer
@@ -94,5 +94,16 @@
 <style lang="less" scoped>
 .footer-1-container {
   margin-top: 0 !important;
+}
+.about-numbers {
+  margin-top: 120px;
+}
+@media (max-width: 767px) {
+  .about-numbers {
+    margin: 6.25rem 0;
+  }
+  .about-CommonList{
+    margin-bottom: 6.3rem;
+  }
 }
 </style>

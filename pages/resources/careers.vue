@@ -45,22 +45,34 @@
       w: '424px',
       h: '346px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/careers/Resources_Careers_banner_graph_2x.png',
+      mw: '26.5rem',
+      mh: '21.63rem'
     }"
   />
   <CommonList2 v-bind="$tm('resources.careers.list1')" />
   <ResourcesWorkingPolyfill />
-  <ProductsNeverHit
-    :isShowTitle="true"
-    :neverHit="$tm('resources.careers.neverHit')"
-  />
+  <LgOnly>
+    <ProductsNeverHit
+      :isShowTitle="false"
+      :neverHit="$tm('resources.careers.neverHit')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <ProductsNeverHitList
+      :isShowTitle="false"
+      :neverHit="$tm('resources.careers.neverHit')"
+    />
+  </XsOnly>
   <CommonSuperCharge
     v-bind="$tm('resources.careers.currentJob')"
     :isList="true"
   />
-
   <ProductsDRMCustomers :drmCustomer="$tm('resources.careers.drmCustomer')" />
   <Footer />
 </template>
+<style lang="less" scoped>
+.careers-join1 {
+  margin-top: 0;
+}
+</style>

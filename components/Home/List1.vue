@@ -4,7 +4,7 @@ withDefaults(
     isHidenTile?: boolean;
     bgColor?: string;
     btText?: string;
-    list: {};
+    list: [];
   }>(),
   {}
 );
@@ -54,13 +54,8 @@ const imgs = obeyDevice(
       <div class="title" v-if="!isHidenTile">
         {{ $t('home.list1.title') }}
       </div>
-      <div class="list" v-if="!list">
-        <div class="item" v-for="img in imgs">
-          <img :src="img" />
-        </div>
-      </div>
-      <div class="list" style="margin-top: -20px" v-else>
-        <div class="item" v-for="img in list">
+      <div class="list" :class="{ isList: list.length > 0 }">
+        <div class="item" v-for="img in list || imgs">
           <img :src="img" />
         </div>
       </div>
@@ -92,7 +87,6 @@ const imgs = obeyDevice(
 
     > .list {
       margin-top: 60px;
-
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
@@ -119,6 +113,9 @@ const imgs = obeyDevice(
 @media (max-width: 767px) {
   .list1-container {
     padding-top: 6.25rem;
+    p {
+      font-size: 1.5rem;
+    }
 
     .list1 {
       > .title {
@@ -138,6 +135,19 @@ const imgs = obeyDevice(
 
           img {
             height: 3rem;
+          }
+        }
+        &.isList {
+          flex-wrap: wrap;
+          .item {
+            width: calc(50% - 0.88rem);
+            height: 6.25rem;
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: center;
+            img {
+              height: 3rem;
+            }
           }
         }
       }

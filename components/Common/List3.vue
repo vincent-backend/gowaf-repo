@@ -122,8 +122,7 @@ defineProps<{
         clear: both;
         width: 561px;
         height: auto;
-        background:
-          url(/public/images/resources/story/Resources_Story_card_bg_2x.png)
+        background: url(/public/images/resources/story/Resources_Story_card_bg_2x.png)
             no-repeat left top,
           #ffffff;
         background-size: 246px 144px !important;
@@ -183,9 +182,7 @@ defineProps<{
             text-transform: none;
           }
           h5 {
-            font-family:
-              PingFangSC,
-              PingFang SC;
+            font-family: PingFangSC, PingFang SC;
             font-weight: 500;
             font-size: 30px;
             color: #000000;
@@ -200,9 +197,7 @@ defineProps<{
         .content {
           p {
             margin-top: 10px;
-            font-family:
-              PingFangSC,
-              PingFang SC;
+            font-family: PingFangSC, PingFang SC;
             font-weight: 400;
             font-size: 16px;
             color: #4e4e4e;
@@ -322,7 +317,6 @@ defineProps<{
   .list1-container {
     .title1 {
       margin-top: 1.25rem;
-
       font-size: 2.5rem;
       line-height: 3.5rem;
       text-align: left;
@@ -331,7 +325,6 @@ defineProps<{
     .title2 {
       margin: 0;
       margin-top: 1rem;
-
       width: 100%;
       font-size: 1.75rem;
       line-height: 2.38rem;
@@ -340,16 +333,17 @@ defineProps<{
 
     .list1 {
       margin-top: 3.13rem;
-      width: 43rem;
+      width: 100%;
+      padding: 0 1.88rem;
 
       > .list {
         margin-top: 3.13rem;
+        box-sizing: border-box;
         gap: 1.25rem 0;
 
         .item {
           width: 20.94rem;
           height: auto;
-
           background-size: 20.94rem 12.5rem !important;
           padding: 0.63rem 1.25rem 2rem;
 
@@ -360,7 +354,6 @@ defineProps<{
 
           .title {
             margin-top: 1.87rem;
-
             font-size: 2.13rem;
             line-height: 3.13rem;
           }
@@ -370,6 +363,106 @@ defineProps<{
 
             font-size: 1.5rem;
             line-height: 2.13rem;
+          }
+        }
+      }
+      .full-list {
+        margin-top: 2.88rem;
+        padding-left: 2.88rem;
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 10.88rem;
+          left: 0.2rem;
+          // width: 4px;
+          // border-left:2px dashed #E6E6E6;
+          background: repeating-linear-gradient(
+            to bottom,
+            #ccc,
+            #ccc 2px,
+            transparent 10px,
+            transparent 20px
+          );
+          height: calc(100% - 20rem); /* 设置元素的高度为1像素 */
+          width: 1px; /* 设置元素的宽度为100% */
+        }
+        .full-item {
+          width: 40.75rem;
+          height: fit-content;
+          background: #ffffff;
+          box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;
+          border-radius: 0.88rem;
+          border: 0.06rem solid #e6e6e6;
+          padding: 1.88rem;
+          margin-bottom: 1.25rem;
+          box-sizing: border-box;
+          position: relative;
+          &::before {
+            content: '';
+            position: absolute;
+            width: 1.13rem;
+            height: 1.13rem;
+            top: 50%;
+            left: -3.25rem;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background: #fafafa
+              url(/public/images/resources/story/Resources_Story_node_2x.png)
+              no-repeat left 0;
+            background-size: 1.13rem 1.13rem !important;
+          }
+          h4 {
+            display: flex;
+            justify-content: flex-start;
+            span {
+              font-weight: 500;
+              font-size: 2.13rem;
+              color: #000000;
+              line-height: 2.13rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+            label {
+              width: 9.25rem;
+              height: 1.75rem;
+              background: url(/images/resources/careers/home_card_tag_bg_2x.png)
+                no-repeat 0 0;
+              background-size: cover;
+              margin-top: 0;
+              margin-left: 1.38rem;
+              font-weight: bold;
+              font-size: 1.25rem;
+              color: #ffffff;
+              line-height: 1.75rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+              text-align: center;
+            }
+          }
+          h5 {
+            font-weight: 500;
+            font-size: 1.88rem;
+            color: #000000;
+            line-height: 2.63rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+            margin-top: 1rem;
+          }
+          .content {
+            margin-top: 1.25rem;
+            p {
+              font-weight: 400;
+              font-size: 1.5rem;
+              color: #4e4e4e;
+              line-height: 2.13rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
           }
         }
       }
