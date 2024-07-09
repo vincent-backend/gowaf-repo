@@ -1,4 +1,3 @@
-import Accelerate from '../../components/Solutions/Accelerate.vue';
 <template>
   <Header />
 
@@ -22,7 +21,9 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
   />
 
   <CommonNumbers
-    style="margin-top: 80px"
+    is-row
+    is-two-row
+    class="SecurityCdn-CommonNumbers"
     :items="$tm('solutions.storageGame.numbers')"
   />
 
@@ -33,7 +34,10 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
     :list2="$tm('solutions.storageGame.accelerate.list2')"
   />
 
-  <CommonSuperCharge v-bind="$tm('solutions.storageGame.goFaster')" />
+  <CommonSuperCharge
+    class="SecurityCdn-SuperCharge"
+    v-bind="$tm('solutions.storageGame.goFaster')"
+  />
 
   <SolutionsAd1
     :title="$t('solutions.storageGame.ad1.title')"
@@ -51,6 +55,7 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
   <CommonList1 v-bind="$tm('solutions.storageGame.list1')" />
 
   <NetworkJoin1
+    class="SecurityCdn-NetworkJoin1"
     v-bind="{
       ...$tm('solutions.storageGame.join1'),
       avatar:
@@ -62,3 +67,18 @@ import Accelerate from '../../components/Solutions/Accelerate.vue';
 
   <Footer />
 </template>
+
+<style lang="less" scoped>
+.SecurityCdn-SuperCharge,
+.SecurityCdn-NetworkJoin1 {
+  margin-bottom: 6.25rem;
+}
+.SecurityCdn-CommonNumbers {
+  margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .SecurityCdn-CommonNumbers {
+    margin-top: 6.25rem;
+  }
+}
+</style>

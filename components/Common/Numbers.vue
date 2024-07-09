@@ -9,15 +9,8 @@ const props = defineProps<{
   }[];
   type?: string;
   isRow?: boolean;
+  isTwoRow?: boolean;
 }>();
-
-const leftText = (index: number) => {
-  return props.items.length === 3
-    ? index * 37 + '%'
-    : props.items.length === 2
-    ? { left: index * 50 + '%' }
-    : '';
-};
 </script>
 
 <template>
@@ -41,7 +34,7 @@ const leftText = (index: number) => {
         </div>
       </div>
     </template>
-    <div class="rowList" v-else>
+    <div class="rowList" :class="{ twoRows: isTwoRow }" v-else>
       <div v-for="(item, index) in items" :key="index" class="row-item">
         <div class="number-title">
           <h5>{{ item.label }}</h5>
@@ -233,14 +226,12 @@ h3 {
       display: flex;
       flex-direction: column;
       position: relative;
-      &::before {
+      &::after {
+        display: block;
         content: '';
-        position: absolute;
         width: 3.13rem;
         height: 0.38rem;
         background: #ececec;
-        bottom: 0;
-        left: 0;
       }
       .number-title {
         display: flex;
@@ -283,6 +274,43 @@ h3 {
         font-style: normal;
         text-transform: none;
         padding-bottom: 2.25rem;
+      }
+    }
+  }
+  .twoRows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 0;
+    .row-item {
+      width: calc(50% - 0.63rem);
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      &:nth-child(2n) {
+        &::before {
+          margin-bottom: 1.88rem;
+          display: block;
+          content: '';
+          width: 3.13rem;
+          height: 0.38rem;
+          background: #ececec;
+        }
+        &::after {
+          display: none;
+        }
+      }
+      &:nth-child(2n-1) {
+        &::after {
+          margin-top: 0;
+          display: block;
+          content: '';
+          width: 3.13rem;
+          height: 0.38rem;
+          background: #ececec;
+        }
       }
     }
   }

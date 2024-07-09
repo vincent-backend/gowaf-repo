@@ -913,8 +913,8 @@
           "iconWidth": "338px",
           "iconHeight": "266px",
           "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png",
-          "mIconWidth": "20.38rem",
-          "mIconHeight": "20.38rem"
+          "mIconWidth": "21.13rem",
+          "mIconHeight": "16.63rem"
         },
         {
           "tab": "Web Application Firewall",
@@ -925,8 +925,8 @@
           "iconWidth": "350px",
           "iconHeight": "296px",
           "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png",
-          "mIconWidth": "20.38rem",
-          "mIconHeight": "20.38rem"
+          "mIconWidth": "21.88rem",
+          "mIconHeight": "18.5rem"
         },
         {
           "tab": "Request & Network Limits",
@@ -936,8 +936,8 @@
           "iconWidth": "342px",
           "iconHeight": "279px",
           "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png",
-          "mIconWidth": "20.38rem",
-          "mIconHeight": "20.38rem"
+          "mIconWidth": "21.38rem",
+          "mIconHeight": "17.44rem"
         }
       ]
     },

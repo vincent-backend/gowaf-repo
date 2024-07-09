@@ -46,7 +46,7 @@
       w: '450px',
       h: '366px',
 
-      msrc: '/mobile-images/pricing/overview/SmartEdge™__evaluate_character@2x.png',
+      msrc: '/mobile-images/pricing/overview/Pricing_Overview_banner_graph@2x.png',
       mw: '28.13rem',
       mh: '22.88rem'
     }"

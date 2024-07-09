@@ -22,6 +22,8 @@
     />
 
     <CommonNumbers
+      is-row
+      is-two-row
       style="margin-top: 80px"
       :items="$tm('solutions.websiteAcceleration.numbers')"
     />

@@ -25,7 +25,7 @@
     :items="$tm('solutions.securityCdn.features2.items')"
   />
 
-  <CommonSuperCharge v-bind="$tm('solutions.securityCdn.goFaster')" />
+  <CommonSuperCharge class="SecurityCdn-SuperCharge" v-bind="$tm('solutions.securityCdn.goFaster')" />
 
   <SolutionsAd1
     :title="$t('solutions.securityCdn.ad1.title')"
@@ -59,7 +59,13 @@
       mAvatar:
         '/mobile-images/solutions/security-cdn/Network_Overview_evaluate_character@2x.png'
     }"
+    class="SecurityCdn-NetworkJoin1"
   />
 
   <Footer />
 </template>
+<style lang="less" scoped>
+.SecurityCdn-SuperCharge,.SecurityCdn-NetworkJoin1{
+  margin-bottom: 6.25rem;
+}
+</style>

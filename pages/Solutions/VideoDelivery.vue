@@ -21,6 +21,8 @@
   />
 
   <CommonNumbers
+    is-row
+    is-two-row
     style="margin-top: 60px"
     :items="$tm('solutions.videoDelivery.numbers')"
   />
@@ -51,6 +53,8 @@
   </div>
 
   <CommonNumbers
+    is-row
+    is-two-row
     style="margin-top: 80px"
     :items="$tm('solutions.videoDelivery.numbers2')"
   />
