@@ -224,11 +224,15 @@ const handleBack = () => {
 
       .left {
         .back {
-          margin-left: 0.31rem;
-
+          margin-left: 1.88rem;
           width: 5.5rem;
           height: 5.5rem;
           background-image: url(/public/mobile-images/network/overview/home_menu_2@2x.png);
+        }
+        .logo {
+          margin-left: 1.88rem;
+          width: 10.63rem;
+          height: 3rem;
         }
       }
 
@@ -236,7 +240,7 @@ const handleBack = () => {
         .menu-icon {
           width: 5.5rem;
           height: 5.5rem;
-          margin-right: 0.31rem;
+          margin-right: 1.88rem;
           background-image: url(/public/mobile-images/home/home_menu@2x.png);
         }
       }

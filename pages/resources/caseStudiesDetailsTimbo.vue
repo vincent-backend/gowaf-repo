@@ -50,12 +50,13 @@
       w: '434px',
       h: '400px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_banner_graph_2x.png',
+      mw: '27.13rem',
+      mh: '25rem'
     }"
   />
   <CommonNumbers
+    is-row
     style="margin-top: 60px"
     :items="$tm('resources.caseStudiesDetailsTimbo.numbers')"
     :numbersTitle="$t('resources.caseStudiesDetailsTimbo.numbersTitle')"
@@ -76,13 +77,23 @@
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        :reverse="index % 2 === 0"
+        :m-pic="item.pic"
+        :m-pic-width="item.mwidth"
+        :m-pic-height="item.mheight"
+        :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>
   <CommonList4 v-bind="$tm('resources.caseStudiesDetailsTimbo.list')" />
   <ProductsDRMCustomers
+    class="Eskimi-products-customers"
     :drmCustomer="$tm('resources.caseStudiesDetailsTimbo.drmCustomer')"
   />
   <Footer />
 </template>
+<style lang="less" scoped>
+.Eskimi-products-customers {
+  margin-top: 12.5rem;
+  margin-bottom: 6.25rem;
+}
+</style>

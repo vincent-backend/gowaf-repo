@@ -39,7 +39,6 @@
     :content="$t('resources.caseStudiesDetailsParrotSec.header.content')"
     :btn="$t('resources.caseStudiesDetailsParrotSec.header.btn')"
     href="#"
-    :hint="$t('resources.caseStudiesDetailsParrotSec.header.hint')"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"
@@ -50,12 +49,13 @@
       w: '398px',
       h: '368px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_banner_graph_2x.png',
+      mw: '24.88rem',
+      mh: '23rem'
     }"
   />
   <CommonNumbers
+    is-row
     style="margin-top: 60px"
     :items="$tm('resources.caseStudiesDetailsParrotSec.numbers')"
     :numbersTitle="$t('resources.caseStudiesDetailsParrotSec.numbersTitle')"
@@ -76,13 +76,23 @@
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        :reverse="index % 2 === 0"
+        :m-pic="item.pic"
+        :m-pic-width="item.mwidth"
+        :m-pic-height="item.mheight"
+        :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>
   <CommonList4 v-bind="$tm('resources.caseStudiesDetailsParrotSec.list')" />
   <ProductsDRMCustomers
+    class="Eskimi-products-customers"
     :drmCustomer="$tm('resources.caseStudiesDetailsParrotSec.drmCustomer')"
   />
   <Footer />
 </template>
+<style lang="less" scoped>
+.Eskimi-products-customers {
+  margin-top: 12.5rem;
+  margin-bottom: 6.25rem;
+}
+</style>

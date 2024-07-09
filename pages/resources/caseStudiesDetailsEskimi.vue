@@ -39,7 +39,6 @@
     :content="$t('resources.caseStudiesDetailsEskimi.header.content')"
     :btn="$t('resources.caseStudiesDetailsEskimi.header.btn')"
     href="#"
-    :hint="$t('resources.caseStudiesDetailsEskimi.header.hint')"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"

@@ -23,7 +23,7 @@ const leftText = (index: number) => {
 <template>
   <div class="numbers-container">
     <h3 v-if="numbersTitle">{{ numbersTitle }}</h3>
-    <template v-if="!isRow">
+    <template v-if="!isRow || !isMobile">
       <div
         class="numbers page-container"
         :class="{ aboutType: type ? true : false }"
@@ -32,7 +32,6 @@ const leftText = (index: number) => {
           v-for="(item, index) in items"
           :key="index"
           :class="['number', 'n-' + index]"
-          :style="isMobile ? '' : leftText(index)"
         >
           <div class="number-title">
             <h5>{{ item.label }}</h5>
@@ -69,12 +68,15 @@ h3 {
 .numbers {
   height: 128px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 
   .n-0,
   .n-2 {
-    &::before {
+    &::after {
+      margin-top: 36px;
+      display: block;
       content: '';
-      position: absolute;
       width: 50px;
       height: 6px;
       background: #ececec;
@@ -85,8 +87,9 @@ h3 {
   .n-1,
   .n-3 {
     &::before {
+      display: block;
+      margin-bottom: 36px;
       content: '';
-      position: absolute;
       width: 50px;
       height: 6px;
       background: #ececec;
@@ -95,7 +98,7 @@ h3 {
     }
   }
   .number {
-    position: absolute;
+    position: relative;
     height: 128px;
     .number-title {
       display: flex;
@@ -127,26 +130,6 @@ h3 {
       color: #4e4e4e;
       white-space: pre-wrap;
     }
-  }
-
-  .n-0 {
-    left: 0;
-    top: 0;
-  }
-
-  .n-1 {
-    left: 271px;
-    padding-top: 36px;
-  }
-
-  .n-2 {
-    left: 622px;
-    top: 0;
-  }
-
-  .n-3 {
-    left: 966px;
-    padding-top: 36px;
   }
   &.aboutType {
     .n-1 {

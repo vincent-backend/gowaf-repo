@@ -58,7 +58,7 @@
 <style lang="less" scoped>
 .join-1-container {
   margin-top: 150px;
-
+  overflow: hidden;
   background: url(/public/images/home/join1-bg.png) no-repeat top;
   background-size: 1920px 350px;
 

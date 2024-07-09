@@ -364,7 +364,7 @@ withDefaults(
         .pre-logo {
           margin-bottom: 0.94rem;
           img {
-            width: 9rem;
+            width: auto;
             height: 2.63rem;
           }
         }
@@ -443,7 +443,7 @@ withDefaults(
     }
 
     &.hide-foot {
-      height: 73.44rem;
+      height: fit-content;
 
       .bottom {
         display: none;

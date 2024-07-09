@@ -39,7 +39,6 @@
     :content="$t('resources.caseStudiesDetailsInnoGames.header.content')"
     :btn="$t('resources.caseStudiesDetailsInnoGames.header.btn')"
     href="#"
-    :hint="$t('resources.caseStudiesDetailsInnoGames.header.hint')"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"
@@ -50,14 +49,15 @@
       w: '386px',
       h: '366px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_banner_graph_2x.png',
+      mw: '24.13rem',
+      mh: '22.88rem'
     }"
   />
 
   <CommonNumbers
     style="margin-top: 60px"
+    is-row
     :items="$tm('resources.caseStudiesDetailsInnoGames.numbers')"
     :numbersTitle="$t('resources.caseStudiesDetailsInnoGames.numbersTitle')"
   />
@@ -72,13 +72,25 @@
         :title="item.title"
         :content="item.content"
         :content2="item.content2"
-        :pic="item.pic"
+        :m-pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        :reverse="index % 2 === 0"
+        m-pic-width="24.75rem"
+        m-pic-height="20.25rem"
+        :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>
   <CommonList4 v-bind="$tm('resources.caseStudiesDetailsInnoGames.list')" />
+  <ProductsDRMCustomers
+    class="Eskimi-products-customers"
+    :drmCustomer="$tm('resources.caseStudiesDetailsInnoGames.drmCustomer')"
+  />
   <Footer />
 </template>
+<style lang="less" scoped>
+.Eskimi-products-customers {
+  margin-top: 12.5rem;
+  margin-bottom: 6.25rem;
+}
+</style>

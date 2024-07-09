@@ -54,7 +54,7 @@ const imgs = obeyDevice(
       <div class="title" v-if="!isHidenTile">
         {{ $t('home.list1.title') }}
       </div>
-      <div class="list" :class="{ isList: list.length > 0 }">
+      <div class="list" :class="{ isList: list && list.length > 0 }">
         <div class="item" v-for="img in list || imgs">
           <img :src="img" />
         </div>

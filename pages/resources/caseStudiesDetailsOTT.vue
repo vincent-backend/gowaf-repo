@@ -39,7 +39,6 @@
     :content="$t('resources.caseStudiesDetailsOTT.header.content')"
     :btn="$t('resources.caseStudiesDetailsOTT.header.btn')"
     href="#"
-    :hint="$t('resources.caseStudiesDetailsOTT.header.hint')"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"
@@ -50,13 +49,14 @@
       w: '417px',
       h: '397px',
 
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_banner_graph_2x.png',
+      mw: '26.06rem',
+      mh: '24.81rem'
     }"
   />
   <CommonNumbers
     style="margin-top: 60px"
+    is-row
     :items="$tm('resources.caseStudiesDetailsOTT.numbers')"
     :numbersTitle="$t('resources.caseStudiesDetailsOTT.numbersTitle')"
   />
@@ -76,13 +76,23 @@
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        :reverse="index % 2 === 0"
+        :m-pic="item.pic"
+        :m-pic-width="item.mwidth"
+        :m-pic-height="item.mheight"
+        :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>
   <CommonList4 v-bind="$tm('resources.caseStudiesDetailsOTT.list')" />
   <ProductsDRMCustomers
+    class="Eskimi-products-customers"
     :drmCustomer="$tm('resources.caseStudiesDetailsOTT.drmCustomer')"
   />
   <Footer />
 </template>
+<style lang="less" scoped>
+.Eskimi-products-customers {
+  margin-top: 12.5rem;
+  margin-bottom: 6.25rem;
+}
+</style>

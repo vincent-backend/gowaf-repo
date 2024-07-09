@@ -272,9 +272,11 @@ defineProps<{
         background-repeat: no-repeat;
         background-size: cover !important;
         right: -1rem !important;
-        bottom: 4.94rem !important;
+        top: auto !important;
+        bottom: 15.24rem !important;
       }
       &::before {
+        display: none;
         content: '';
         position: absolute;
         top: 15.94rem;
