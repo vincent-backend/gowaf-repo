@@ -733,6 +733,9 @@
           ]
         }
       ]
+    },
+    "BouuyDNS": {
+      "title": "Take full control of your DNS"
     }
   },
   "stream": {

@@ -63,6 +63,12 @@
   />
   <CommonList1 v-bind="$tm('products.DNS.list1')" />
   <CommonSuperCharge v-bind="$tm('products.DNS.doNotLeave')" />
+  <div class="topimg-container">
+    <div class="page-container directly">
+      <div class="title">{{ $t('products.cdn.BouuyDNS.title') }}</div>
+      <div class="img"></div>
+    </div>
+  </div>
   <ProductsDRMCustomers
     class="BouuyDNS-ProductsDRMCustomers"
     :drmCustomer="$tm('products.DNS.multiDRM.drmCustomer')"
@@ -70,6 +76,30 @@
   <Footer />
 </template>
 <style lang="less" scoped>
+.topimg-container {
+  padding: 80px 0;
+  width: 100%;
+  .directly {
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 30px;
+      color: #000000;
+      line-height: 42px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      text-align: center;
+    }
+    .img {
+      margin-top: 64px;
+      width: 1242px;
+      height: 766px;
+      background: url(/images/products/DNS/Take full control of your DNS@2x.png);
+      background-size: 1242px 766px;
+    }
+  }
+}
 @media (max-width: 767px) {
   .BouuyDNS-ProductsDRMCustomers {
     :deep(.isHiddenSubTitle) {
