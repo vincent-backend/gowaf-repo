@@ -113,23 +113,9 @@
     :title="$tm('products.storage.NorthAmerica.partnerList.title')"
     :subTitle="$tm('products.storage.NorthAmerica.partnerList.subTitle')"
   />
-  <LgOnly>
-    <ProductsDRMCustomers
-      :drmCustomer="$tm('products.storage.NorthAmerica.drmCustomer')"
-    />
-  </LgOnly>
-  <XsOnly>
-    <NetworkJoin1
-      class="asia-join1"
-      v-bind="{
-        ...$tm('products.stream.multiDRM.drmCustomernetword'),
-        avatar:
-          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
-        mAvatar:
-          '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png'
-      }"
-    />
-  </XsOnly>
+  <ProductsDRMCustomers
+    :drmCustomer="$tm('products.storage.NorthAmerica.drmCustomer')"
+  />
   <Footer />
 </template>
 <style lang="less" scoped>

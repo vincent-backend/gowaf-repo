@@ -9,30 +9,35 @@ defineProps<{
     contentLink: string;
     contentLast: string;
     isShowSubTitle: boolean;
+    isHiddenSubTitle: boolean;
     faceImg: {
       img: string;
       top: string;
       right: string;
       width: string;
       height: string;
-    }[];
+      mtop: string;
+      mright: string;
+      mwidth: string;
+      mheight: string;
+    };
     list: {
       title: string;
       subTitle: string;
       content: string;
-    }[];
+    };
     items: Array<{
       num: Number;
       icon: string;
     }>;
-  }[];
+  };
 }>();
 </script>
 <template>
   <div class="drm-customer-container">
     <div class="drm-customer-content-container">
       <h3>{{ drmCustomer.title }}</h3>
-      <p v-if="!drmCustomer.isHiddenSubTitle">
+      <p :class="{ isHiddenSubTitle: drmCustomer.isHiddenSubTitle }">
         {{ drmCustomer.contentPre }}
         <img :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
         <span class="clolorFA9B3B">{{ drmCustomer.contentMid }}</span>
@@ -41,9 +46,26 @@ defineProps<{
         {{ drmCustomer.contentLast }}
       </p>
       <div class="list">
-        <div>
+        <div class="header-list">
           <h4><span></span>{{ drmCustomer.list.title }}</h4>
           <span>{{ drmCustomer.list.subTitle }}</span>
+          <div
+            class="face-img"
+            :style="
+              obeyDevice(
+                {
+                  backgroundImage: `url(${drmCustomer.faceImg.img})`,
+                  height: drmCustomer.faceImg.height,
+                  width: drmCustomer.faceImg.width
+                },
+                {
+                  backgroundImage: `url(${drmCustomer.faceImg.img})`,
+                  height: drmCustomer.faceImg.mheight,
+                  width: drmCustomer.faceImg.mwidth
+                }
+              ).value
+            "
+          ></div>
         </div>
         <p>
           {{ drmCustomer.list.content }}
@@ -53,24 +75,9 @@ defineProps<{
         <li v-for="(item, index) in drmCustomer.items" :key="index">
           <div class="star"></div>
           <span>{{ item.num }}</span>
-          <img :src="item.icon" :alt="item.num" />
+          <img :src="item.icon" />
         </li>
       </ul>
-      <div
-        class="face-img"
-        :style="
-          'background-image:url(' +
-          drmCustomer.faceImg.img +
-          '); width:' +
-          drmCustomer.faceImg.width +
-          ';height:' +
-          drmCustomer.faceImg.height +
-          ';top:' +
-          drmCustomer.faceImg.top +
-          ';right:' +
-          drmCustomer.faceImg.right
-        "
-      ></div>
     </div>
   </div>
 </template>
@@ -85,16 +92,25 @@ defineProps<{
     width: 1380px;
     margin: 0 auto;
     position: relative;
-    .face-img {
-      position: absolute;
-      width: 438px;
-      height: 300px;
-      background-position: right 0;
-      background-repeat: no-repeat;
-      background-size: cover !important;
-      right: 135px;
-      top: -3px;
+    .isHiddenSubTitle {
+      display: none;
+      visibility: hidden;
+      padding-bottom: 144px;
     }
+    .header-list {
+      position: relative;
+      .face-img {
+        position: absolute;
+        width: 438px;
+        height: 300px;
+        background-position: right 0;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        right: 0;
+        bottom: 0;
+      }
+    }
+
     &::before {
       content: '';
       position: absolute;
@@ -256,7 +272,7 @@ defineProps<{
 @media (max-width: 767px) {
   .drm-customer-container {
     margin: 0 auto;
-    padding: 0 1.88rem;
+    padding: 4rem 1.88rem;
     box-sizing: border-box;
     width: 100%;
     background: #fff;
@@ -264,16 +280,20 @@ defineProps<{
       width: 100%;
       margin: 0 auto;
       position: relative;
-      .face-img {
-        position: absolute;
-        width: 27.38rem !important;
-        height: 18.75rem !important;
-        background-position: right 0;
-        background-repeat: no-repeat;
-        background-size: cover !important;
-        right: -1rem !important;
-        top: auto !important;
-        bottom: 15.24rem !important;
+      .isHiddenSubTitle {
+        display: block;
+        padding-bottom: 5rem;
+      }
+      .header-list {
+        position: relative;
+        .face-img {
+          position: absolute;
+          background-position: right 0;
+          background-repeat: no-repeat;
+          background-size: cover !important;
+          right: 0;
+          bottom: 0;
+        }
       }
       &::before {
         display: none;

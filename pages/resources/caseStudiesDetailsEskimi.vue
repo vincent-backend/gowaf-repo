@@ -92,6 +92,6 @@
 </template>
 <style lang="less" scoped>
 .Eskimi-products-customers {
-  margin-top: 12.5rem;
+  // margin-top: 12.5rem;
 }
 </style>

@@ -61,17 +61,14 @@ defineProps<{
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
@@ -97,21 +94,15 @@ defineProps<{
 
         .title {
           margin-top: 22px;
-
           font-family: Mont, Mont;
           font-weight: bold;
           font-size: 26px;
-
           line-height: 35px;
-          text-align: center;
         }
 
         .content {
           margin-top: 8px;
-
           color: #4e4e4e;
-
-          text-align: center;
         }
       }
 

@@ -235,7 +235,11 @@
         "top": "-54px",
         "right": "135px",
         "width": "438px",
-        "height": "352px"
+        "height": "352px",
+        "mtop": "6.81rem",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Dejan Grofelnik Pelzel",
@@ -303,29 +307,6 @@
           "content2": "Today, our team of experts is working to help solve some of the most complex global challenges and help shape and power the internet of tomorrow. In short and simple: we're making the internet hop faster!"
         }
       ]
-    },
-    "drmCustomer": {
-      "title": "Together we will build a better tomorrow",
-      "contentPre": "",
-      "contentImg": "",
-      "contentMid": "",
-      "contentP": "",
-      "contentLink": "",
-      "contentLast": "",
-      "isHiddenSubTitle": true,
-      "faceImg": {
-        "img": "/images/resources/story/Network_Overview_evaluate_character_2x.png",
-        "top": "-54px",
-        "right": "135px",
-        "width": "438px",
-        "height": "352px"
-      },
-      "list": {
-        "title": "Dejan Grofelnik Pelzel",
-        "subTitle": "Founder & CEO of Polyfill",
-        "content": "What started with trying to build a great CDN has grown into a passion to speed up the internet and really innovate the market."
-      },
-      "items": null
     },
     "list1": {
       "title1": "Polyfill Values That Keep Us Hopping",
@@ -1365,8 +1346,8 @@
           "content2": "The most recent additions to the InnoGames portfolio were Rise of Cultures and Sunrise Village, two mobile-first games that were released in early 2022. Whether its strategy-based builders or cozy farming sims, InnoGames has carved out the frontier of mobile gaming.",
           "width": "320px",
           "height": "320px",
-          "mwidth": "23rem",
-          "mheight": "18.75rem"
+          "mwidth": "19.98rem",
+          "mheight": "19.98rem"
         },
         {
           "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_2_2x.png",
@@ -1375,8 +1356,8 @@
           "content2": "InnoGames needed a CDN. But their first CDN provider had some issues: A confusing pricing plan that required InnoGames to purchase a minimum bandwidth commitment - or pay extra. A support ticket system that left InnoGames waiting days for answers.",
           "width": "346px",
           "height": "288px",
-          "mwidth": "",
-          "mheight": ""
+          "mwidth": "21.63rem",
+          "mheight": "18rem"
         },
         {
           "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_3_2x.png",
@@ -1385,8 +1366,8 @@
           "content2": "Finally, we gave them 24/7 access to our Super Polyfill support and set up a private Slack channel. InnoGames was already using Slack, so they loved the convenience. InnoGames wanted to switch from their previous CDN because the support was too slow. Our Super Polyfill never kept them waiting. Whenever they had a question, we answered fast - usually the same day.",
           "width": "400px",
           "height": "334px",
-          "mwidth": "21.63rem",
-          "mheight": "18rem"
+          "mwidth": "25rem",
+          "mheight": "20.88rem"
         },
         {
           "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_4_2x.png",
@@ -1395,8 +1376,8 @@
           "content2": "Our pricing was clear from the start, free of microtransactions and hidden fees. InnoGames paid just for what they needed, no more. Not to mention, they saved by switching to Polyfill.",
           "width": "364px",
           "height": "269px",
-          "mwidth": "21.25rem",
-          "mheight": "20.81rem"
+          "mwidth": "22.75rem",
+          "mheight": "16.88rem"
         }
       ]
     },
@@ -1436,7 +1417,11 @@
         "top": "-54px",
         "right": "135px",
         "width": "438px",
-        "height": "352px"
+        "height": "352px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Bernhard Schrader",
@@ -1560,7 +1545,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Tom Mason",
@@ -1685,7 +1674,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Bernhard Schrader",
@@ -1810,7 +1803,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Matthias Mauch",
@@ -1927,7 +1924,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Aivaras Voveris",
@@ -2052,7 +2053,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Tim Aksu",
@@ -2177,7 +2182,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Ji Kim",
@@ -2301,7 +2310,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Sasa Zurkic",
@@ -2425,7 +2438,11 @@
         "top": "-70px",
         "right": "135px",
         "width": "438px",
-        "height": "300px"
+        "height": "300px",
+        "mtop": "0",
+        "mright": "0",
+        "mwidth": "27.38rem",
+        "mheight": "18.75rem"
       },
       "list": {
         "title": "Lorenzo Faletra",

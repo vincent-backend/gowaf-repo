@@ -15,12 +15,17 @@ defineProps<{
     items: Array<{
       num: Number;
       icon: string;
+      title: string;
+      content: string;
+      alignType: string;
     }>;
-  }[];
+  };
 }>();
 </script>
 <template>
   <div class="never-list page-container">
+    <div class="title" v-if="isShowTitle">{{ neverHit.title }}</div>
+    <div class="sub-title" v-if="isShowTitle">{{ neverHit.subTitle }}</div>
     <div class="content">
       <div
         class="item"
@@ -50,6 +55,20 @@ defineProps<{
   margin: 6.5rem 0 3.5rem 0;
   padding: 0 1.88rem;
   box-sizing: border-box;
+  > .title {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    text-align: left;
+  }
+
+  > .sub-title {
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    line-height: 2.38rem;
+    text-align: left;
+    margin-bottom: 3.13rem;
+  }
   .content {
     display: flex;
     flex-direction: column;

@@ -24,7 +24,6 @@
     </div>
   </div>
 </template>
-
 <style lang="less" scoped>
 .header-container {
   height: 350px;

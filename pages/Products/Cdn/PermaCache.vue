@@ -60,6 +60,8 @@
   />
 
   <CommonNumbers
+    is-row
+    is-two-row
     style="margin-top: 80px"
     :items="$tm('products.cdn.permaCache.numbers')"
   />
@@ -98,7 +100,8 @@
       ...$tm('products.cdn.permaCache.join1'),
       avatar:
         '/images/products/cdn/perma-cache/Network_ddos_evaluate_character@2x.png',
-      mAvatar: '/images/products/cdn/perma-cache/Network_ddos_evaluate_character@2x.png'
+      mAvatar:
+        '/images/products/cdn/perma-cache/Network_ddos_evaluate_character@2x.png'
     }"
   />
 

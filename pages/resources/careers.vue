@@ -68,7 +68,9 @@
     v-bind="$tm('resources.careers.currentJob')"
     :isList="true"
   />
-  <ProductsDRMCustomers :drmCustomer="$tm('resources.careers.drmCustomer')" />
+  <ProductsDRMCustomers
+    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
+  />
   <Footer />
 </template>
 <style lang="less" scoped>

@@ -72,11 +72,12 @@
         :title="item.title"
         :content="item.content"
         :content2="item.content2"
+        :pic="item.pic"
         :m-pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        m-pic-width="24.75rem"
-        m-pic-height="20.25rem"
+        :m-pic-width="item.mwidth"
+        :m-pic-height="item.mheight"
         :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
@@ -89,8 +90,8 @@
   <Footer />
 </template>
 <style lang="less" scoped>
-.Eskimi-products-customers {
-  margin-top: 12.5rem;
-  margin-bottom: 6.25rem;
-}
+// .Eskimi-products-customers {
+//   margin-top: 12.5rem;
+//   margin-bottom: 6.25rem;
+// }
 </style>

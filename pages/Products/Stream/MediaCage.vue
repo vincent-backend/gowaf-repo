@@ -114,15 +114,9 @@
     </div>
   </div>
 
-  <NetworkJoin1
-    v-bind="{
-      ...$tm('products.stream.mediaCage.join1'),
-      avatar:
-        '/images/products/stream/media-cage/Network_Overview_evaluate_character@2x.png',
-      mAvatar: '/images/products/stream/media-cage/Network_Overview_evaluate_character@2x.png'
-    }"
+  <ProductsDRMCustomers
+    :drmCustomer="$tm('products.storage.Asia.drmCustomer')"
   />
-
   <Footer />
 </template>
 

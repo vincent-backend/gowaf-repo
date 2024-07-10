@@ -391,7 +391,7 @@ const hovered = ref(-1);
 
           .item {
             width: 48.6%;
-            height: 23.06rem;
+            height: auto;
             box-sizing: border-box;
             padding: 1rem;
 

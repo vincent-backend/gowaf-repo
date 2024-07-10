@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { ref } from 'vue';
 const curTab = ref(0);
 </script>
 

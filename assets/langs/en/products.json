@@ -664,6 +664,75 @@
           "content": "“So far we are loving the service. We can not even think of anything to complain about!”"
         }
       }
+    },
+    "comparison": {
+      "header": {
+        "title": "Compare Polyfill vs CloudFront AWS",
+        "subTitle": "Looking for the best CloudFront AWS alternative?",
+        "content": "Enjoy enterprise grade performance and features at fraction of the cost."
+      },
+      "comparisonList": [
+        {
+          "comparisonIcon": "/images/products/cdn/comparison/CacheFly_logo@2x.png",
+          "items": [
+            "64",
+            "29ms",
+            "Enterprise Level Pricing",
+            "100%",
+            [
+              true,
+              "Email & 9-5 Chat Sup"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Zone, URL & Director"
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            "Token Authentication,Geo/IP Blocking & Hotlink protection"
+          ]
+        }
+      ]
     }
   },
   "stream": {
@@ -1448,13 +1517,17 @@
         "contentMid": " Excellent 4.8",
         "contentP": "out of 5 on",
         "contentLink": "Trustpilot",
-        "contentLast": " - Based on 700+ reviews",
+        "contentLast": " - Based on 600+ reviews",
         "faceImg": {
           "img": "/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png",
           "top": "-3px",
           "right": "135px",
           "width": "438px",
-          "height": "300px"
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
         },
         "list": {
           "title": "Matthias Mauch",
@@ -1581,7 +1654,7 @@
         "markerColor": "#3F59FF"
       },
       "drmCustomer": {
-        "title": "Join over 40.000+ happy customers",
+        "title": "Trusted by 40.000+ happy customers",
         "contentPre": "We're rated ",
         "contentImg": "/images/products/stream/multi-drm/home_title_star2x.png",
         "contentMid": " Excellent 4.8",
@@ -1593,12 +1666,16 @@
           "top": "-54px",
           "right": "135px",
           "width": "438px",
-          "height": "352px"
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
         },
         "list": {
           "title": "Lorenzo Faletra",
           "subTitle": "CEO, Parrot Security",
-          "content": "\"We tried several CDN providers before, and although being more expensive, they didn't offer the same performance and reliability. After the switch to polyfill, our users immediately noticed how fast and reliable the downloads became.\""
+          "content": "\"Polyfill proved to be a very reliable CDN provider headed in Europe with strong privacy standards. We trusted them to take care of a very critical piece of our infrastructure that requires high confidentiality between us and our users.\""
         },
         "items": [
           {
@@ -1783,24 +1860,28 @@
         "markerColor": "#F9C22F"
       },
       "drmCustomer": {
-        "title": "Join over 40.000+ happy customers",
+        "title": "Join over 40.000+ customers who already put their trust in polyfill",
         "contentPre": "We're rated ",
         "contentImg": "/images/products/stream/multi-drm/home_title_star2x.png",
         "contentMid": " Excellent 4.8",
         "contentP": "out of 5 on",
         "contentLink": "Trustpilot",
-        "contentLast": " - Based on 700+ reviews",
+        "contentLast": " - Based on 600+ reviews",
         "faceImg": {
           "img": "/images/products/storage/northamerica/Network_ddos_evaluate_character_2x.png",
           "top": "-3px",
           "right": "135px",
           "width": "438px",
-          "height": "300px"
+          "height": "300px",
+          "mtop": "14.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
         },
         "list": {
-          "title": "Matthias Mauch",
-          "subTitle": "Younity",
-          "content": "\"We had a flow! summit without a single complaint.I think, overall, bunny.net is just a very complete solution.Handling videos is so easy with Bunny - you don't need a lot of training. It's very streamlined.\""
+          "title": "Periklis",
+          "subTitle": "VitrinaBox, Senior Software Engineer",
+          "content": "\"polyfill is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
         },
         "items": [
           {
@@ -2269,7 +2350,11 @@
           "top": "-3px",
           "right": "135px",
           "width": "438px",
-          "height": "300px"
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
         },
         "list": {
           "title": "Pedro Dobrescu",
@@ -2509,7 +2594,11 @@
           "top": "-3px",
           "right": "135px",
           "width": "438px",
-          "height": "300px"
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
         },
         "list": {
           "title": "Matthias Mauch",
@@ -2742,19 +2831,23 @@
         "contentMid": " Excellent 4.8",
         "contentP": "out of 5 on",
         "contentLink": "Trustpilot",
-        "contentLast": " - Based on 700+ reviews",
+        "contentLast": " - Based on 600+ reviews",
         "isHiddenSubTitle": false,
         "faceImg": {
-          "img": "/images/products/storage/LatinAmerica/Network_ddos_evaluate_character_2x.png",
+          "img": "/images/products/storage/latinamerica/Network_ddos_evaluate_character_2x.png",
           "top": "-3px",
           "right": "135px",
           "width": "438px",
-          "height": "300px"
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
         },
         "list": {
-          "title": "Periklis",
-          "subTitle": "VitrinaBox, Senior Software Engineer",
-          "content": "\"bunny.net is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
+          "title": "Pedro Dobrescu",
+          "subTitle": "ShortPixel",
+          "content": "\"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!\""
         },
         "items": [
           {
@@ -2936,6 +3029,173 @@
           "/images/products/storage/latinamerica/home_logo_5_2x.png"
         ]
       }
+    }
+  },
+  "DNS": {
+    "breadCrumbs": {
+      "DNS": "DNS",
+      "overview": "Overview",
+      "pricing": "pricing",
+      "apiDocs": "API Docs"
+    },
+    "multiDRM": {
+      "header": {
+        "preTitle": "Polyfill DNS",
+        "title": "Unlock the true powe",
+        "content": "Hop on an ultra-fast DNS platform designed to power the next-generation of applications. By utilizing scriptable records, Polyfill DNS helps you unlock the true power of DNS and turn complex issues into simple solutions.",
+        "btn": "Start 14-Day FREE Trial"
+      },
+      "drmCustomer": {
+        "title": "Trusted by over 40.000+ Customers",
+        "contentPre": "",
+        "contentImg": "/images/products/stream/multi-drm/home_title_star2x.png",
+        "contentMid": " ",
+        "contentP": "",
+        "contentLink": "",
+        "contentLast": "",
+        "isHiddenSubTitle": true,
+        "faceImg": {
+          "img": "/images/products/DNS/SmartEdge_evaluate_character@2x.png",
+          "top": "-3px",
+          "right": "135px",
+          "width": "438px",
+          "height": "300px",
+          "mtop": "0",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
+        },
+        "list": {
+          "title": "MuslimCentral",
+          "subTitle": "",
+          "content": "\"We find the bunny.net service to be resplendent. The excellent user interface, well priced, and superb support turnaround times. One of the best online service providers we dealt with.\""
+        },
+        "items": [
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png"
+          },
+          {
+            "num": 4.4,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png"
+          },
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png"
+          },
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png"
+          }
+        ]
+      }
+    },
+    "neverHit": {
+      "title": "Build faster. Hop faster.",
+      "subTitle": "Get started in less than 5 minutes and take your web presence to the next level.",
+      "items": [
+        {
+          "icon": "/images/products/cdn/perma-cache/media_simple_ic_1@2x.png",
+          "width": "100px",
+          "height": "100px",
+          "alignType": "flex-start",
+          "title": "Simplify CDN Integration",
+          "content": "Connect your domains to Polyfill CDN with a click of a button to supercharge and protect your applications in seconds."
+        },
+        {
+          "icon": "/images/products/cdn/perma-cache/media_simple_ic_2@2x.png",
+          "width": "100px",
+          "height": "100px",
+          "alignType": "flex-start",
+          "title": "Script Your Way Around Complexity",
+          "content": "Simplify deployments, deliver complex global logic, or automate your infrastructure with scriptable DNS records."
+        },
+        {
+          "icon": "/images/products/cdn/perma-cache/media_simple_ic_3@2x.png",
+          "width": "100px",
+          "height": "100px",
+          "alignType": "flex-start",
+          "title": "Massive Scalability",
+          "content": "Power projects at scale without worry with a DNS system that already backs one of the busiest CDN platforms on the planet."
+        }
+      ]
+    },
+    "list1": {
+      "title1": "Stay online. Stay fast.",
+      "title2": "Leverage a massively redundant global infrastructure engineered for 100% uptime and lightning-fast performance.",
+      "items": [
+        {
+          "icon": "/images/products/DNS/Network_DDoS_card_ic_2@2x.png",
+          "title": "Global Anycast",
+          "content": "Keep latency to users below 20ms in most regions worldwide, thanks to 36+ global DNS PoPs."
+        },
+        {
+          "icon": "/images/products/DNS/Network_DDoS_card_ic_5@2x.png",
+          "title": "Redundant Networks",
+          "content": "Stay online thanks to a redundant network that prevents single points of failure."
+        },
+        {
+          "icon": "/images/products/DNS/cdn_overview_bulid_ic_6@2x.png",
+          "title": "Powerful DDoS Protection",
+          "content": "Keep peace of mind with built-in security features and DDoS protection."
+        }
+      ]
+    },
+    "doNotLeave": {
+      "title": "Key features designed to help you hop ahead",
+      "subTitle": "DNS packed with powerful solutions.",
+      "tabs": [
+        {
+          "tab": "Custom Nameservers",
+          "title": "Keep your brand in your own hands",
+          "content": "Keep your brand in the spotlight on every step of your web presence. Easily set up custom nameservers on your own custom domain with just a few clicks and no extra cost. Unlock internal delegations for administrative benefits without managing your network.",
+          "icon": "/images/products/DNS/cdnfeatures_security_img@2x.png",
+          "iconWidth": "400px",
+          "iconHeight": "400px",
+          "mIcon": "/images/products/DNS/cdnfeatures_security_img@2x.png",
+          "mIconWidth": "25rem",
+          "mIconHeight": "25rem"
+        },
+        {
+          "tab": "mil Real-Time Monitoring",
+          "title": "Hop smoother with real-time threat monitoring",
+          "content": "Never worry about threats again thanks to an automatic real-time monitoring and alerting system. Gain complete visibility into your security to stay safe and stop attackers from ever reaching your servers. We help you with detection so that you never need the cure.",
+          "icon": "/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+          "iconWidth": "294px",
+          "iconHeight": "294px",
+          "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+          "mIconWidth": "18.38rem",
+          "mIconHeight": "18.38rem"
+        },
+        {
+          "tab": "Upload Protection",
+          "title": "Stop inappropriate content and help keep internet safe",
+          "content": "Keep the internet friendlier by stopping inappropriate uploads with smart edge upload filtering powered by machine learning and a real-time block list. We help you control users' malicious, abusive and inappropriate uploads, so you don't have to lose time removing them.",
+          "icon": "/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+          "iconWidth": "334px",
+          "iconHeight": "279px",
+          "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+          "mIconWidth": "20.88rem",
+          "mIconHeight": "17.44rem"
+        }
+      ]
+    },
+    "dnsCustomer": {
+      "title": "DNS platform for the next-gen of web apps",
+      "subTitle": "Make intelligent routing decisions and build smart network services with just a few lines of code. Interconnect your applications and get complete control of your network behavior.",
+      "items": [
+        "Load Balancing",
+        "Domain Mapping",
+        "SEO Optimization",
+        "Multi-Cloud Solutions",
+        "Service Discovery",
+        "Geographical Routing"
+      ],
+      "contentImg": "/images/products/DNS/cdnfeatures_reporting_img@2x.png",
+      "imgw": "400px",
+      "imgh": "400px",
+      "mimgw": "25rem",
+      "mimgh": "25rem"
     }
   }
 }

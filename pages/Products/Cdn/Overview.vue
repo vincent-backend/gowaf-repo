@@ -52,9 +52,9 @@
       src: '/images/products/cdn/overview/cdn_overview_banner_graph@2x.png',
       w: '381px',
       h: '371px',
-      msrc: '',
-      mw: '',
-      mh: ''
+      msrc: '/images/products/cdn/overview/cdn_overview_banner_graph@2x.png',
+      mw: '23.81rem',
+      mh: '23.19rem'
     }"
   />
 
@@ -66,6 +66,8 @@
   />
 
   <CommonNumbers
+    is-row
+    is-two-row
     style="margin-top: 80px"
     :items="$tm('products.cdn.overview.numbers')"
   />

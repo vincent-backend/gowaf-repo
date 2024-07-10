@@ -50,8 +50,6 @@ defineProps<{
 
   .title2 {
     margin: 18px auto 80px;
-
-    width: 612px;
     font-size: 16px;
     color: #4e4e4e;
     text-align: center;
