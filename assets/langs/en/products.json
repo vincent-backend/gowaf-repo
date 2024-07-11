@@ -2037,7 +2037,8 @@
       "mediaCage": "Media Cage",
       "multiDRM": "Multi-DRM",
       "transcribeAI": "Transcribe Al",
-      "apiDocs": "API Docs"
+      "apiDocs": "API Docs",
+      "TransformAPI": "TransformAPI"
     },
     "Europe": {
       "header": {
@@ -3905,6 +3906,115 @@
       "imgh": "400px",
       "mimgw": "25rem",
       "mimgh": "25rem"
+    }
+  },
+  "optimizer": {
+    "breadCrumbs": {
+      "parent": "Optimizer"
+    },
+    "overview": {
+      "header": {
+        "preTitle": "Polyfill Optimizer",
+        "title": "Faster website.  Made simple.",
+        "content": "Improve your website performance and user experience. Reduce load times and increase  conversion rates in just a few clicks. Get hopping in under 5 minutes without  writing a single line of code."
+      },
+      "EasyPowerful": {
+        "title": "Optimize your website. With a single click.",
+        "subTitle": "Supercharge your data with seamless global replication that just works.",
+        "items": [
+          {
+            "icon": "/images/products/optimizer/overview/media_simple_ic_1@2x.png",
+            "title": "Connect",
+            "content": "Easily connect your website to Bunny Optimizer with just a few clicks."
+          },
+          {
+            "icon": "/images/products/optimizer/overview/transcribe_1_ic_2@2x.png",
+            "title": "Transform API",
+            "content": "Resize, crop, and modify images on the fly with simple url query parameters."
+          },
+          {
+            "icon": "/images/products/optimizer/overview/stream_overview_ic_replicate@2x.png",
+            "title": "Optimize",
+            "content": "Automatically optimize images, and minify CSS & JavaScript files for maximum performance."
+          },
+          {
+            "icon": "/images/products/optimizer/overview/media_simple_ic_3@2x.png",
+            "title": "Deliver",
+            "content": "Deliver your website faster than ever before to anyone, anywhere, anytime!"
+          }
+        ]
+      },
+      "numbers": [
+        {
+          "label": "Up to 80%",
+          "content": "Image Compression"
+        },
+        {
+          "label": "97%",
+          "content": "Cache HIT Rate"
+        },
+        {
+          "label": "40.000+",
+          "content": "Satisfied Customers"
+        },
+        {
+          "label": "50 Billion+",
+          "content": "Optimized Images"
+        }
+      ],
+      "neverHit": {
+        "title": "Powerful optimization. One-click away.",
+        "subTitle": "Get hopping in less than 5 minutes without writing a single line of code.",
+        "items": [
+          {
+            "icon": "/images/products/optimizer/overview/SmartEdge™_ic_cache@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "flex-start",
+            "title": "Minify CSS & JavaScri",
+            "content": "Automatically compress and minify your CSS and JavaScript files to maximize website load speeds!",
+            "contentAlign": "left"
+          },
+          {
+            "icon": "/images/products/optimizer/overview/SmartEdge™_ic_Monitoring@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "flex-start",
+            "title": "Smart Image Optimization",
+            "content": "Automatically adjust, resize and compress images based on the user’s device type in the most optimal way possible!",
+            "contentAlign": "left"
+          },
+          {
+            "icon": "/images/products/optimizer/overview/SmartEdge™_ic_engine@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "flex-start",
+            "title": "Automatic WebP Compression",
+            "content": "Reduce your image sizes up to 80% by compressing them into a web-friendly and faster WebP format!",
+            "contentAlign": "left"
+          }
+        ]
+      },
+      "Minimize": {
+        "title": "Minimize your load times. Maximize your profits.",
+        "content": "Delight your customers with an excellent user experience and unparalleled website load times. Maximize conversion rates while significantly reducing infrastructure costs. ",
+        "content2": "Take advantage of the industry-leading optimization features you need to hop ahead of the competition and maximize your return on investment."
+      },
+      "Boost": {
+        "title": "Boost your SEO.  Get more traffic.",
+        "content": "Optimize your whole website to improve your site health and boost your SEO rankings. The content might be king, but fast load times, optimized images, and minified CSS & JS are just as necessary for the best possible SEO ranking. Bunny Optimizer takes care of all of that with just a simple click of a button. Hop ahead of the competition and occupy the top of Google search results!"
+      },
+      "website": {
+        "title": "/month per website*",
+        "content": "Eliminate expensive optimization and transformation services with a fixed monthly price regardless of your traffic scale. Excellent solution for any sized project.",
+        "btnSubtext": " * CDN bandwidth costs are applied separately",
+        "list": [
+          "Unlimited requests",
+          "Unlimited optimizations",
+          "Unlimited image transformations"
+        ],
+        "btn": "Optimize You Website"
+      }
     }
   }
 }

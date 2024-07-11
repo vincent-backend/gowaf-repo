@@ -14,7 +14,9 @@ const props = defineProps({
   mPic: String,
   mPicWidth: String,
   mPicHeight: String,
-  reverse: Boolean
+  btnSubtext: String,
+  reverse: Boolean,
+  singleRowlist: Boolean,
 });
 </script>
 
@@ -22,22 +24,18 @@ const props = defineProps({
   <div class="ad2-container">
     <div class="ad2 page-container" :class="{ reverse: props.reverse }">
       <div class="left">
-        <div
-          class="pic"
-          :style="
-            isMobile
-              ? {
-                  backgroundImage: `url(${mPic})`,
-                  width: mPicWidth,
-                  height: mPicHeight
-                }
-              : {
-                  backgroundImage: `url(${pic})`,
-                  width: picWidth,
-                  height: picHeight
-                }
-          "
-        ></div>
+        <div class="pic" :style="isMobile
+          ? {
+            backgroundImage: `url(${mPic})`,
+            width: mPicWidth,
+            height: mPicHeight
+          }
+          : {
+            backgroundImage: `url(${pic})`,
+            width: picWidth,
+            height: picHeight
+          }
+          "></div>
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
           <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
@@ -45,7 +43,9 @@ const props = defineProps({
       </div>
       <div class="right">
         <!-- title -->
-        <div class="title">{{ props.title }}</div>
+        <div class="title">
+          <slot name="title" />{{ props.title }}
+        </div>
 
         <!-- content -->
         <div class="content">{{ props.content }}</div>
@@ -53,7 +53,7 @@ const props = defineProps({
         <div class="content" v-if="props.content3">{{ props.content3 }}</div>
         <div class="content" v-if="props.content4">{{ props.content4 }}</div>
         <!-- list -->
-        <div class="list" v-if="props.list">
+        <div class="list" :class="{ singleRowlist }" v-if="props.list">
           <div class="item" v-for="item in props.list">
             <div class="icon">
               <div class="icon-img"></div>
@@ -67,6 +67,7 @@ const props = defineProps({
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
           <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
+          <div class="btn-sub">{{ props.btnSubtext }}</div>
         </div>
       </div>
     </div>
@@ -83,32 +84,32 @@ const props = defineProps({
     align-items: center;
     justify-content: space-between;
 
-    > .left {
-      .pic {
-      }
-      > .btn-container {
+    >.left {
+      .pic {}
+
+      >.btn-container {
         display: none;
       }
     }
 
-    > .right {
+    >.right {
       width: 600px;
 
-      > .title {
+      >.title {
         font-weight: 500;
         font-size: 30px;
 
         line-height: 42px;
       }
 
-      > .content {
+      >.content {
         margin-top: 20px;
 
         font-size: 16px;
         color: #4e4e4e;
       }
 
-      > .list {
+      >.list {
         margin-top: 40px;
         display: flex;
         flex-wrap: wrap;
@@ -123,6 +124,7 @@ const props = defineProps({
             width: 18px;
             height: 18px;
             border-radius: 50%;
+
             .icon-img {
               width: 100%;
               height: 100%;
@@ -139,10 +141,28 @@ const props = defineProps({
             line-height: 22px;
           }
         }
+
+        &.singleRowlist {
+          .item {
+            width: 100%;
+          }
+        }
       }
 
-      > .btn-container {
+      >.btn-container {
         margin-top: 40px;
+
+        .btn-sub {
+          margin-top: 10px;
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 12px;
+          color: #4E4E4E;
+          line-height: 24px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
       }
     }
 
@@ -151,6 +171,7 @@ const props = defineProps({
     }
   }
 }
+
 // For mobile devices
 @media (max-width: 767px) {
   .ad2-container {
@@ -161,34 +182,36 @@ const props = defineProps({
       display: flex;
       flex-direction: column;
 
-      > .left {
+      >.left {
         margin-top: 3.13rem;
-        .pic {
-        }
-        > .btn-container {
+
+        .pic {}
+
+        >.btn-container {
           margin-top: 3.6rem;
           display: flex;
           justify-content: center;
         }
       }
 
-      > .right {
+      >.right {
         width: 43.13rem;
-        > .title {
+
+        >.title {
           font-weight: 500;
           font-size: 2.5rem;
 
           line-height: 1.4;
         }
 
-        > .content {
+        >.content {
           margin-top: 1.75rem;
 
           font-size: 1.75rem;
           color: #4e4e4e;
         }
 
-        > .list {
+        >.list {
           margin-top: 2.5rem;
           display: flex;
           flex-wrap: wrap;
@@ -207,6 +230,7 @@ const props = defineProps({
               justify-content: center;
               align-items: center;
               background: linear-gradient(147deg, #f9c22f 0%, #fa6e4a 100%);
+
               .icon-img {
                 width: 50%;
                 height: 50%;
@@ -225,7 +249,7 @@ const props = defineProps({
           }
         }
 
-        > .btn-container {
+        >.btn-container {
           display: none;
         }
       }

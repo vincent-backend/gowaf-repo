@@ -93,6 +93,7 @@ defineProps<{
         }
 
         .title {
+          white-space: nowrap;
           margin-top: 22px;
           font-family: Mont, Mont;
           font-weight: bold;
