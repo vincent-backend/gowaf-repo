@@ -80,8 +80,8 @@ withDefaults(
               btn2BorderColor ? { border: `2px solid ${btn2BorderColor}` } : ''
             "
           >
-            {{ btn }}</a
-          >
+            {{ btn }}
+          </a>
         </div>
         <FormCheckbox name="agree" value="1" v-if="isHidenLinkHit">
           <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>

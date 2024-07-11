@@ -129,9 +129,10 @@ defineProps<{
       right: 1px;
       width: 148px;
       height: 70px;
-      background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_2@2x.png)
+      background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
         no-repeat 0 0;
       background-size: 148px 70px;
+      z-index: 0;
     }
     > h3 {
       padding-left: 90px;
@@ -178,6 +179,7 @@ defineProps<{
       min-height: 190px;
       background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 24px;
+      z-index: 1;
       p {
         font-family: PingFangSC, PingFang SC;
         font-weight: 400;

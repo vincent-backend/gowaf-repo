@@ -2,18 +2,13 @@
   <div class="easy-powerful-container">
     <div class="easy-powerful page-container">
       <div class="title">
-        {{ $t('products.stream.mediaCage.easyPowerful.title') }}
+        {{ localizedDefaults.title }}
       </div>
       <div class="sub-title">
-        {{ $t('products.stream.mediaCage.easyPowerful.subTitle') }}
+        {{ localizedDefaults.subTitle }}
       </div>
       <div class="content">
-        <div
-          class="item"
-          v-for="(item, index) in $tm(
-            'products.stream.mediaCage.easyPowerful.items'
-          )"
-        >
+        <div class="item" v-for="(item, index) in localizedDefaults.fulItems">
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }">
             <div class="index">
               {{ (index + 1).toString().padStart(2, '0') }}
@@ -27,12 +22,36 @@
   </div>
 </template>
 
+<script setup lang="ts">
+const { t: $t, tm } = useI18n();
+const props = withDefaults(
+  defineProps<{
+    title?: string;
+    subTitle?: string;
+    fulItems?: Array<{
+      icon: string;
+      title: string;
+      content: string;
+    }>;
+  }>(),
+  {}
+);
+const slotDefault = !!useSlots().default;
+const localizedDefaults: any = computed(() => {
+  const obj = {
+    title: $t('products.stream.mediaCage.easyPowerful.title'),
+    subTitle: $t('products.stream.mediaCage.easyPowerful.subTitle'),
+    fulItems: tm('products.stream.mediaCage.easyPowerful.items') as any
+  };
+  return mergeWithDefaults(obj, props);
+});
+</script>
+
 <style lang="less" scoped>
 .easy-powerful-container {
   margin-top: 80px;
 
   .easy-powerful {
-    width: 920px;
 
     > .title {
       font-weight: 500;
@@ -55,6 +74,7 @@
       margin-top: 50px;
       display: flex;
       justify-content: space-between;
+      width: 100%;
 
       > .item {
         display: flex;

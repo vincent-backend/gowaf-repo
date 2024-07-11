@@ -1,7 +1,7 @@
 <template>
   <Header />
   <BreadCrumbs
-    :title="$t('products.storage.breadCrumbs.parent')"
+    :title="$t('products.cdn.breadCrumbs.parent')"
     :items="[
       {
         label: $t('products.storage.breadCrumbs.overview'),

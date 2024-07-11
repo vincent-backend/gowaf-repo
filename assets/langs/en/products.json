@@ -2030,7 +2030,8 @@
   },
   "storage": {
     "breadCrumbs": {
-      "parent": "Stream",
+      "parent": "Storage",
+      "edgeTier": "Edge Tier",
       "overview": "Overview",
       "player": "Player",
       "mediaCage": "Media Cage",
@@ -3446,6 +3447,297 @@
           "/images/products/storage/latinamerica/home_logo_5_2x.png"
         ]
       }
+    },
+    "BouuyStorage": {
+      "header": {
+        "preTitle": "Polyfill Storage",
+        "title": "The fastest object storage replicated to the edge",
+        "content": "Forget slow object storage and WOW your customers with unparalleled performance.  Automatically replicate your files worldwide to minimize your latency and maximize throughput for your files. For every request. Everywhere.",
+        "btn": "Start 14-Day FREE Trial"
+      },
+      "EasyPowerful": {
+        "title": "Object storage designed for a global audience",
+        "subTitle": "Supercharge your data with seamless global replication that just works.",
+        "items": [
+          {
+            "icon": "/images/products/storage/BouuyStorage/media_simple_ic_1@2x.png",
+            "title": "Upload",
+            "content": "Upload your media files using an HTTP API or web file manager."
+          },
+          {
+            "icon": "/images/products/storage/BouuyStorage/transcribe_1_ic_2@2x.png",
+            "title": "Deliver",
+            "content": "Access your data worldwide without waiting for replication."
+          },
+          {
+            "icon": "/images/products/storage/BouuyStorage/stream_overview_ic_replicate@2x.png",
+            "title": "Replicate",
+            "content": "Automatically replicate around the world in the background."
+          },
+          {
+            "icon": "/images/products/storage/BouuyStorage/stream_overview_ic_supercharge@2x.png",
+            "title": "Supercharge",
+            "content": "Supercharge your files with our global CDN."
+          }
+        ]
+      },
+      "PricingTable": {
+        "title": "Surprisingly Affordable",
+        "subtitle": "Keep your costs to a minimum. Never sacrifice performance. No commitments or minimums are required."
+      },
+      "list1": {
+        "title1": "No charges for API egress or requests",
+        "title2Width": "574px",
+        "title2": "Your data is your own. Stop paying for accessing and managing your files. Enjoy free API egress and request fees and only pay for the CDN delivery.",
+        "items": [
+          {
+            "icon": "/images/products/storage/BouuyStorage/Network_DDoS_card_ic_1@2x.png",
+            "title": "No Minimums",
+            "content": "Pay only for what you use with no monthly minimums or data retention policies."
+          },
+          {
+            "icon": "/images/products/storage/BouuyStorage/Pricing_Overview_card_ic_3@2x.png",
+            "title": "No Egress Charges",
+            "content": "Stop paying to access your files. Only get charged when delivering files through the CDN."
+          },
+          {
+            "icon": "/images/products/storage/BouuyStorage/Beautiful_Video_Player@2x.png",
+            "title": "No API Request Charges",
+            "content": "Manage your files without worries or extra costs with FREE API request charges."
+          }
+        ]
+      },
+      "SaveMoney": {
+        "title": "Let’s talk numbers",
+        "subTitle": "Hop ahead of the competition.",
+        "hint": "Tested from 14 bunny.net locations in Europe, North America, Asia, South America, Australia, and South Africa.",
+        "fitem": [
+          {
+            "title": "Average Global Latency",
+            "subTitle": "(Milliseconds - Lower is better)",
+            "items": [
+              {
+                "label": "Polyfill",
+                "value": "41 ms",
+                "width": "21.25%"
+              },
+              {
+                "label": "AWS S3 (EU Central)",
+                "value": "131 ms",
+                "width": "31.875%"
+              },
+              {
+                "label": "DigitalOcean (Frankfurt)",
+                "value": "136 ms",
+                "width": "100%"
+              },
+              {
+                "label": "Wasabi (EU Central)",
+                "value": "129 ms",
+                "width": "100%"
+              },
+              {
+                "label": "BackBlaze",
+                "value": "133 ms",
+                "width": "100%"
+              }
+            ]
+          },
+          {
+            "title": "Average Global Throughput",
+            "subTitle": "(MB/s - Higher is better)",
+            "items": [
+              {
+                "label": "Polyfill",
+                "value": "58.3 MB/s",
+                "width": "100%"
+              },
+              {
+                "label": "AWS S3 (EU Central)",
+                "value": "31.42 MB/s",
+                "width": "50.875%"
+              },
+              {
+                "label": "DigitalOcean (Frankfurt)",
+                "value": "29.8 MB/s",
+                "width": "50%"
+              },
+              {
+                "label": "Wasabi (EU Central)",
+                "value": "28.13 MB/s",
+                "width": "50%"
+              },
+              {
+                "label": "BackBlaze",
+                "value": "26.23 MB/s",
+                "width": "50%"
+              }
+            ]
+          }
+        ]
+      },
+      "drmCustomer": {
+        "title": "Join over 40.000+ happy customers",
+        "contentPre": "We're rated ",
+        "contentImg": "/images/products/stream/multi-drm/home_title_star2x.png",
+        "contentMid": " Excellent 4.8",
+        "contentP": "out of 5 on",
+        "contentLink": "Trustpilot",
+        "contentLast": " - Based on 700+ reviews",
+        "isHiddenSubTitle": false,
+        "faceImg": {
+          "img": "/images/products/storage/BouuyStorage/Network_Overview_evaluate_character@2x.png",
+          "top": "-3px",
+          "right": "135px",
+          "width": "438px",
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
+        },
+        "list": {
+          "title": "Tom Mason",
+          "subTitle": "Nexus Mods",
+          "content": "\"Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.\""
+        },
+        "items": [
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png"
+          },
+          {
+            "num": 4.4,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png"
+          },
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png"
+          },
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png"
+          }
+        ]
+      }
+    },
+    "SSDStorage": {
+      "header": {
+        "preTitle": "SSD Storage",
+        "title": "Enter The Next Generation Of Performance",
+        "content": "Redefine HOT storage. Supercharge your web applications with the world's fastest SSD cloud storage system. Store and deliver files from 15 globally replicated regions  to offer an unparalleled performance.",
+        "hint": "No credit card needed. Start in seconds."
+      },
+      "Latency": {
+        "title": "Hop Beyond Latency",
+        "subtitle": "Deliver unparalleled website experiences with up to 90% load time reduction."
+      },
+      "SaveMoney": {
+        "title": "Leap beyond legacy. Hop into the future.",
+        "subTitle": "Ditch the delay. Elevate your digital experiences with our ultra-fast SSD storage, supported by a 40Gbit network stack and seamless CDN integration.",
+        "fitem": [
+          {
+            "title": "Median Global TTFB",
+            "subTitle": "(Milliseconds - Lower is better)",
+            "items": [
+              {
+                "label": "Bunny Edge Tier (15 regions)",
+                "value": "26",
+                "width": "21.25%"
+              },
+              {
+                "label": "Bunny Standard Tier (8 regions)",
+                "value": "45",
+                "width": "31.875%"
+              },
+              {
+                "label": "Bunny Storage SSD (London)",
+                "value": "127",
+                "width": "40%"
+              },
+              {
+                "label": "Azure Hot (Amsterdam)",
+                "value": "135",
+                "width": "50%"
+              },
+              {
+                "label": "Google Object Storage (London)",
+                "value": "187",
+                "width": "80%"
+              },
+              {
+                "label": "Digital Ocean Storage (Frankfurt)",
+                "value": "226",
+                "width": "90%"
+              },
+              {
+                "label": "AWS S3 (London)",
+                "value": "261",
+                "width": "100%"
+              }
+            ]
+          },
+          {
+            "title": "99 Percentile Global TTFB",
+            "subTitle": "(Milliseconds - Lower is better)",
+            "items": [
+              {
+                "label": "Bunny Edge Tier (15 regions)",
+                "value": "193",
+                "width": "21.25%"
+              },
+              {
+                "label": "Bunny Standard Tier (8 regions)",
+                "value": "349",
+                "width": "31.875%"
+              },
+              {
+                "label": "Bunny Storage SSD (London)",
+                "value": "500",
+                "width": "40%"
+              },
+              {
+                "label": "Azure Hot (Amsterdam)",
+                "value": "648",
+                "width": "50%"
+              },
+              {
+                "label": "Google Object Storage (London)",
+                "value": "1002",
+                "width": "80%"
+              },
+              {
+                "label": "Digital Ocean Storage (Frankfurt)",
+                "value": "1054",
+                "width": "90%"
+              },
+              {
+                "label": "AWS S3 (London)",
+                "value": "1166",
+                "width": "100%"
+              }
+            ]
+          }
+        ]
+      },
+      "numbers": [
+        {
+          "label": "15",
+          "content": "Storage Regions"
+        },
+        {
+          "label": "150 Tbps+",
+          "content": "Network Backbone"
+        },
+        {
+          "label": "<5ms",
+          "content": "Disk Latency"
+        },
+        {
+          "label": "99.99%",
+          "content": "Availability SLA"
+        }
+      ]
     }
   },
   "DNS": {

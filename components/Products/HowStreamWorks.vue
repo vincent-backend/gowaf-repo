@@ -59,6 +59,7 @@
 <style lang="less" scoped>
 .how-stream-works-container {
   margin-top: 120px;
+  margin-bottom: 120px;
 
   .how-stream-works {
     padding-top: 80px;
@@ -68,8 +69,8 @@
       position: absolute;
       left: 50%;
       top: 0;
-      margin-left: -860px;
-      width: 1720px;
+      margin-left: -700px;
+      width: 1400px;
       height: 659px;
       background: linear-gradient(180deg, #e6edfc 0%, #fafafa 100%);
       border-radius: 60px;

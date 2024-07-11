@@ -100,7 +100,7 @@ const localizedDefaults: any = computed(() => {
     subTitle: $t('products.storage.Europe.storageSupportPlan.subTitle'),
     btnText: $t('products.storage.Europe.storageSupportPlan.content.btn')
   };
-  return { ...obj, ...props };
+  return mergeWithDefaults(obj, props);
 });
 </script>
 

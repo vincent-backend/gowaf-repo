@@ -1,16 +1,13 @@
 <template>
   <div class="save-money-container">
     <div class="save-money page-container">
-      <div class="title">{{ $t('pricing.overview.saveMoney.title') }}</div>
+      <div class="title">{{ localizedDefaults.title }}</div>
       <div class="sub-title">
-        {{ $t('pricing.overview.saveMoney.subTitle') }}
+        {{ localizedDefaults.subTitle }}
       </div>
       <Line top="40px" m-top="1.87rem" />
       <div class="list">
-        <div
-          class="item"
-          v-for="item in $tm('pricing.overview.saveMoney.list')"
-        >
+        <div class="item" v-for="item in localizedDefaults.fItems">
           <div class="header">
             <div class="title">{{ item.title }}</div>
             <div class="sub-title">{{ item.subTitle }}</div>
@@ -26,10 +23,42 @@
           </div>
         </div>
       </div>
-      <div class="hint">{{ $t('pricing.overview.saveMoney.hint') }}</div>
+      <div class="hint">{{ localizedDefaults.hint }}</div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t: $t, tm } = useI18n();
+const props = withDefaults(
+  defineProps<{
+    title?: string;
+    subTitle?: string;
+    hint?: string;
+    fItems?: Array<{
+      title: string;
+      subTitle: string;
+      content: string;
+      items: Array<{
+        label: string;
+        value: string;
+        width: string;
+      }>;
+    }>;
+  }>(),
+  {}
+);
+const slotDefault = !!useSlots().default;
+const localizedDefaults: any = computed(() => {
+  const obj = {
+    title: $t('pricing.overview.saveMoney.title'),
+    subTitle: $t('pricing.overview.saveMoney.subTitle'),
+    hint: $t('pricing.overview.saveMoney.hint'),
+    fItems: tm('pricing.overview.saveMoney.list') as any
+  };
+  return mergeWithDefaults(obj, props);
+});
+</script>
 
 <style lang="less" scoped>
 .save-money-container {
