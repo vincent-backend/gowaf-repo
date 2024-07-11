@@ -667,12 +667,14 @@
     },
     "comparison": {
       "header": {
-        "title": "Compare Polyfill vs CloudFront AWS",
-        "subTitle": "Looking for the best CloudFront AWS alternative?",
+        "title": "Compare Polyfill vs ",
+        "subTitle": "Looking for the best ",
+        "subRightTitle": " alternative?",
         "content": "Enjoy enterprise grade performance and features at fraction of the cost."
       },
       "comparisonList": [
         {
+          "key": "CacheFly",
           "comparisonIcon": "/images/products/cdn/comparison/CacheFly_logo@2x.png",
           "items": [
             "64",
@@ -731,8 +733,420 @@
             ],
             "Token Authentication,Geo/IP Blocking & Hotlink protection"
           ]
+        },
+        {
+          "key": "AWS",
+          "comparisonIcon": "/images/products/cdn/comparison/CloudFront_logo@2x.png",
+          "items": [
+            "310+",
+            "27ms",
+            "$425",
+            "100%",
+            [
+              true,
+              "Extra Cost"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Zone, URL, Directory & File-type Wildcard"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Globally Replicated"
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              false
+            ],
+            "Token Authentication, Geo/IP Blocking & Hotlink protection"
+          ]
+        },
+        {
+          "key": "CDN77",
+          "comparisonIcon": "/images/products/cdn/comparison/CDN77_logo@2x.png",
+          "items": [
+            "48",
+            "31ms",
+            "$165",
+            "99.99%",
+            [
+              true,
+              "Email & 9-5 Chat Sup"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Zone, URL"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Single Location"
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            "Token Authentication,Geo/IP Blocking & Hotlink protection"
+          ]
+        },
+        {
+          "key": "CloudFlare",
+          "comparisonIcon": "/images/products/cdn/comparison/CloudFlare_logo@2x.png",
+          "items": [
+            "270+",
+            "28ms",
+            "$2000+",
+            "Plan Dependent",
+            [
+              true,
+              "Email & Phone"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Zone, URL, Hostname, Tag & Prefix"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Globally Replicated"
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            "Token Authentication,Geo/IP Blocking & Hotlink protection"
+          ]
+        },
+        {
+          "key": "Fastly",
+          "comparisonIcon": "/images/products/cdn/comparison/Fastly_logo@2x.png",
+          "items": [
+            "98",
+            "29ms",
+            "$600+",
+            "99.99%",
+            [
+              true,
+              "Email, Ticket, Slack & Phone"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Zone, URL, Regex, Tag & Wildcard"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Globally Replicated"
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            "Token Authentication,Geo/IP Blocking & Hotlink protection"
+          ]
+        },
+        {
+          "key": "Akamai",
+          "comparisonIcon": "/images/products/cdn/comparison/akamai_logo@2x.png",
+          "items": [
+            "135",
+            "29ms",
+            "Enterprise Level Pricing",
+            "100%",
+            [
+              true,
+              "Email, Ticket & Phone"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Zone, URL, Hostname, Tag & Prefix"
+            ],
+            [
+              true
+            ],
+            [
+              true,
+              "Globally Replicated"
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            [
+              false
+            ],
+            [
+              true
+            ],
+            "Token Authentication,Geo/IP Blocking & Hotlink protection"
+          ]
         }
-      ]
+      ],
+      "SupportPlan": {
+        "btnsubText": "No credit card required – Get started in seconds.",
+        "btnText": "Start 14 - day FREE Trial",
+        "title": "Why bunny.net is a better choice",
+        "subTitle": "There is a reason why over 40.000+customers already love bunny.net.",
+        "list": [
+          {
+            "title": "100% Customer Focused",
+            "content": "From our affordable pricing and innovative product ecosystem to our industry-leading Super Bunny™ 24/7 technical support. It’s our mission to provide you with the best experience possible at every hop of the way."
+          },
+          {
+            "title": "Amazing Performance",
+            "content": "We don’t just talk performance. We show it. Bunny network offers unparallel performance with a sub 29 ms average global latency. Forget enterprise plans. With bunny.net, your web applications will hop at the speed of light regardless of your scale."
+          }
+        ]
+      },
+      "drmCustomer": {
+        "title": "Join over 40.000+ happy customers",
+        "contentPre": "We're rated ",
+        "contentImg": "/images/products/stream/multi-drm/home_title_star2x.png",
+        "contentMid": " Excellent 4.8",
+        "contentP": "out of 5 on",
+        "contentLink": "Trustpilot",
+        "contentLast": " - Based on 700+ reviews",
+        "isHiddenSubTitle": false,
+        "faceImg": {
+          "img": "/images/products/cdn/comparison/Network_ddos_evaluate_character@2x.png",
+          "top": "-3px",
+          "right": "135px",
+          "width": "438px",
+          "height": "300px",
+          "mtop": "11.81rem",
+          "mright": "0",
+          "mwidth": "27.38rem",
+          "mheight": "18.75rem"
+        },
+        "list": {
+          "title": "Lorenzo Faletra",
+          "subTitle": "CEO, Parrot Security",
+          "content": "\"We tried several CDN providers before, and although being more expensive, they didn't offer the same performance and reliability. After the switch to bunny.net, our users immediately noticed how fast and reliable the downloads became.\""
+        },
+        "items": [
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png"
+          },
+          {
+            "num": 4.4,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png"
+          },
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png"
+          },
+          {
+            "num": 4.8,
+            "icon": "/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png"
+          }
+        ]
+      },
+      "alwaysSafe": {
+        "title": "Next-generation solutions for today’s problems",
+        "subTitle": "Deliver next-generation performance without compromise.",
+        "rows": [
+          [
+            {
+              "icon": "/images/products/stream/overview/stream_overview_ic_upload@2x.png",
+              "title": "Website Acceleration",
+              "content": "Speed up your website with a single click of a button."
+            },
+            {
+              "icon": "/images/products/stream/overview/stream_overview_ic_transcode@2x.png",
+              "title": "Software Distribution",
+              "content": "Experience high-throughput and reliable downloads."
+            }
+          ],
+          [
+            {
+              "icon": "/images/products/stream/overview/stream_overview_ic_replicate@2x.png",
+              "title": "Image Processing",
+              "content": "Resize, crop, sharpen, and transform images on the fly."
+            },
+            {
+              "icon": "/images/products/stream/overview/stream_overview_ic_supercharge@2x.png",
+              "title": "DDoS Protection",
+              "content": "Stay protected by mitigating attacks before they reach you."
+            }
+          ],
+          [
+            {
+              "icon": "/images/products/stream/overview/stream_overview_ic_replicate@2x.png",
+              "title": "Video Delivery",
+              "content": "Deliver smooth playback and high-quality VOD streaming."
+            },
+            {
+              "icon": "/images/products/stream/overview/stream_overview_ic_supercharge@2x.png",
+              "title": "Perma-Cache",
+              "content": "Maximize application performance and scalability."
+            }
+          ]
+        ]
+      }
     },
     "BouuyDNS": {
       "title": "Take full control of your DNS"

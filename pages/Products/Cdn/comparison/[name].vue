@@ -41,13 +41,17 @@
     ]"
   />
   <CommonHeader2
-    :title="$t('products.cdn.comparison.header.title')"
-    :sub-title="$t('products.cdn.comparison.header.subTitle')"
+    :title="$t('products.cdn.comparison.header.title') + contrastName"
+    :sub-title="
+      $t('products.cdn.comparison.header.subTitle') +
+      contrastName +
+      $t('products.cdn.comparison.header.subRightTitle')
+    "
     :content="$t('products.cdn.comparison.header.content')"
     href="#"
   />
   <ProductsDNScomparisonList
-    :ptlist="$tm('products.cdn.comparison.comparisonList')"
+    :ptlist="comparisonList"
   ></ProductsDNScomparisonList>
   <SolutionsAd1
     :title="$t('products.cdn.overview.ad1.title')"
@@ -61,14 +65,31 @@
     m-pic-width="18.75rem"
     m-pic-height="18.72rem"
   />
-  <ProductsStorageSupportPlan />
+  <ProductsStorageSupportPlan
+    :title="$t('products.cdn.comparison.SupportPlan.title')"
+    :sub-title="$t('products.cdn.comparison.SupportPlan.subTitle')"
+    :btn-text="$t('products.cdn.comparison.SupportPlan.btnText')"
+    :btnsub-text="$t('products.cdn.comparison.SupportPlan.btnsubText')"
+  >
+    <div class="Planlist">
+      <div
+        class="row-item"
+        v-for="item in $tm('products.cdn.comparison.SupportPlan.list')"
+      >
+        <div class="left-title">
+          {{ item.title }}
+        </div>
+        <div class="content">{{ item.content }}</div>
+      </div>
+    </div>
+  </ProductsStorageSupportPlan>
   <SolutionsAd2
     :title="$t('products.stream.overview.ad2.title')"
     :content="$t('products.stream.overview.ad2.content')"
     href="#"
-    pic="/images/products/stream/overview/stream_overview_upload_img@2x.png"
-    pic-width="339px"
-    pic-height="372px"
+    pic="/images/products/cdn/comparison/cdn_overview_supercharged_img@2x.png"
+    pic-width="363px"
+    pic-height="376px"
   >
     <div class="percentage">
       <div class="percentage-item">
@@ -85,11 +106,14 @@
     class="comparison-CommonNumbers"
     :items="$tm('products.stream.overview.numbers')"
   />
-  <NetworkAlwaysSafe v-bind="$tm('products.stream.overview.alwaysSafe')" />
+  <NetworkAlwaysSafe
+    class="comparison-NetworkAlwaysSafe"
+    v-bind="$tm('products.cdn.comparison.alwaysSafe')"
+  />
 
   <CommonSuperCharge v-bind="$tm('products.DNS.doNotLeave')" />
   <ProductsDRMCustomers
-    :drmCustomer="$tm('products.storage.Australia.drmCustomer')"
+    :drmCustomer="$tm('products.cdn.comparison.drmCustomer')"
   />
   <SolutionsAd1
     :title="$t('products.cdn.overview.ad1.title')"
@@ -106,7 +130,44 @@
   <Footer />
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+const route = useRoute();
+const router = useRouter();
+const { tm } = useI18n();
+
+const NameMap: any = {
+  aws: 'AWS',
+  cacheFly: 'CacheFly',
+  CDN77: 'CDN77',
+  cloudFlare: 'CloudFlare',
+  fastly: 'Fastly',
+  vsakamai: 'Akamai'
+};
+onMounted(() => {
+  console.log('route.params.name', route.params.name);
+  if (!route.params.name || !NameMap[route.params.name as any]) {
+    router.replace({ path: '/Products/Cdn/comparison/aws' });
+  }
+});
+
+const contrastName = computed(() => {
+  /*
+  CDN-comparison-AWS
+  CDN-comparison-CacheFly
+  CDN-comparison-CDN77
+  CDN-comparison-CloudFlare
+  CDN-comparison-Fastly
+  CDN-comparison-vsakamai
+  */
+  return NameMap[route.params.name as any];
+});
+
+const comparisonList = computed(() => {
+  return tm('products.cdn.comparison.comparisonList').filter(el => {
+    return el.key == contrastName.value;
+  });
+});
+</script>
 
 <style lang="scss" scoped>
 .percentage {
@@ -142,6 +203,46 @@
   }
 }
 .comparison-CommonNumbers {
-  margin:175px 0 150px 0;
+  margin: 175px 0 150px 0;
+}
+.Planlist {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .row-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e6e6e6;
+    gap: 20px;
+    padding-bottom: 20px;
+    .left-title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 24px;
+      color: #000000;
+      line-height: 33px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .content {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4e4e4e;
+      line-height: 24px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+}
+.comparison-NetworkAlwaysSafe {
+  :deep(.always-safe > .title) {
+    text-align: center;
+  }
+  :deep(.always-safe > .sub-title) {
+    text-align: center;
+  }
 }
 </style>

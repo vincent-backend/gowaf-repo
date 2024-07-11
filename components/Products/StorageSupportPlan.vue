@@ -2,68 +2,107 @@
   <div class="support-plan-container">
     <div class="support-plan page-container">
       <div class="title">
-        {{ $t('products.storage.Europe.storageSupportPlan.title') }}
+        {{ localizedDefaults.title }}
       </div>
       <div class="sub-title">
-        {{ $t('products.storage.Europe.storageSupportPlan.subTitle') }}
+        {{ localizedDefaults.subTitle }}
       </div>
       <div class="content">
         <div class="line"></div>
         <div class="main">
           <div class="left">
-            <div class="title">
-              {{
-                $t('products.storage.Europe.storageSupportPlan.content.title')
-              }}
-            </div>
-            <div class="content">
-              {{
-                $t('products.storage.Europe.storageSupportPlan.content.content')
-              }}
-            </div>
-            <Line top="30px" />
-            <ul class="super-plan-list">
-              <li
-                v-for="(item, index) in $tm(
-                  'products.storage.Europe.storageSupportPlan.content.list'
-                )"
-              >
-                <h4>
-                  <span>{{ item.num }}</span
-                  >{{ item.unit }}
-                </h4>
-                {{ item.title }}
-              </li>
-            </ul>
-            <Line top="10px" />
-            <div class="title mt30">
-              {{
-                $t('products.storage.Europe.storageSupportPlan.content.title1')
-              }}
-            </div>
-            <div class="content">
-              {{
-                $t(
-                  'products.storage.Europe.storageSupportPlan.content.content1'
-                )
-              }}
-            </div>
+            <template v-if="!slotDefault">
+              <div class="title">
+                {{
+                  $t('products.storage.Europe.storageSupportPlan.content.title')
+                }}
+              </div>
+              <div class="content">
+                {{
+                  $t(
+                    'products.storage.Europe.storageSupportPlan.content.content'
+                  )
+                }}
+              </div>
+              <Line top="30px" />
+              <ul class="super-plan-list">
+                <li
+                  v-for="(item, index) in $tm(
+                    'products.storage.Europe.storageSupportPlan.content.list'
+                  )"
+                >
+                  <h4>
+                    <span>{{ item.num }}</span>
+                    {{ item.unit }}
+                  </h4>
+                  {{ item.title }}
+                </li>
+              </ul>
+              <Line top="10px" />
+              <div class="title mt30">
+                {{
+                  $t(
+                    'products.storage.Europe.storageSupportPlan.content.title1'
+                  )
+                }}
+              </div>
+              <div class="content">
+                {{
+                  $t(
+                    'products.storage.Europe.storageSupportPlan.content.content1'
+                  )
+                }}
+              </div>
+            </template>
+            <slot></slot>
             <div class="btn-container">
               <a href="#" class="trail-btn">
-                {{
-                  $t('products.storage.Europe.storageSupportPlan.content.btn')
-                }}
+                {{ localizedDefaults.btnText }}
               </a>
+              <span v-if="localizedDefaults.btnsubText" class="btn-subtxt">{{
+                localizedDefaults.btnsubText
+              }}</span>
             </div>
           </div>
           <div class="right">
-            <div class="pic"></div>
+            <div
+              class="pic"
+              :style="{
+                backgroundImage: `url(${localizedDefaults.icon})`
+              }"
+            ></div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t: $t } = useI18n();
+const props = withDefaults(
+  defineProps<{
+    title: string;
+    subTitle: string;
+    icon: string;
+    btnText: string;
+    btnsubText: string;
+    isHidenList: boolean;
+  }>(),
+  {
+    icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
+  }
+);
+const slotDefault = !!useSlots().default;
+const localizedDefaults: any = computed(() => {
+  const obj = {
+    title: $t('products.storage.Europe.storageSupportPlan.title'),
+    subTitle: $t('products.storage.Europe.storageSupportPlan.subTitle'),
+    btnText: $t('products.storage.Europe.storageSupportPlan.content.btn')
+  };
+  return { ...obj, ...props };
+});
+</script>
 
 <style lang="less" scoped>
 .support-plan-container {
@@ -200,6 +239,22 @@
 
           > .btn-container {
             margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            .trail-btn {
+              width: fit-content;
+            }
+            .btn-subtxt {
+              margin-top: 30px;
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 400;
+              font-size: 10px;
+              color: #4e4e4e;
+              line-height: 20px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
           }
         }
 
