@@ -5,7 +5,16 @@
     "story": "Story",
     "careers": "Careers",
     "caseStudies": "Case Studies",
-    "contact": "Contact"
+    "contact": "Contact",
+    "blog": "Blog",
+    "allPosts": "All Posts",
+    "News": "News",
+    "Performance": "Performance",
+    "Networking": "Networking",
+    "Security": "Security",
+    "Tips": "Tips",
+    "Privacy": "Privacy",
+    "Al": "Al"
   },
   "about": {
     "header": {
@@ -2716,5 +2725,38 @@
         }
       ]
     }
+  },
+  "blog": {
+    "header": {
+      "preTitle": "Polyfill Blog News",
+      "title": "Hopping Ahead: Polyfikk.net ranks as the #1 Fastest CDN in 2023",
+      "content": "We're on a mission to make the internet hop faster globally. We're thrilled to share how we hopped ahead in 2023, becoming the world's fastest CDN, and the journey that got us ther..."
+    },
+    "CommonTabs": [
+      {
+        "tab": "All Posts"
+      },
+      {
+        "tab": "AI"
+      },
+      {
+        "tab": "Networking"
+      },
+      {
+        "tab": "News"
+      },
+      {
+        "tab": "Performance"
+      },
+      {
+        "tab": "Privacy"
+      },
+      {
+        "tab": "Securitv"
+      },
+      {
+        "tab": "Tips And Tricks"
+      }
+    ]
   }
 }
