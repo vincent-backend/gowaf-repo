@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.9",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
     "less": "^4.2.0",
     "less-loader": "^12.2.0"
   }

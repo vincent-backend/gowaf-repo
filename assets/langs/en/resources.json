@@ -2490,5 +2490,231 @@
       "messageLable": "Tell us about vour proiect and how bunny.net can help you.",
       "btn": "Let's talk"
     }
+  },
+  "SuperPolyfill": {
+    "leftImgRightTransform": {
+      "title": "Let's look at the numbers.",
+      "img": "/images/resources/SuperPolyfill/super_polyfill_letslook_img@2x.png",
+      "imgw": "400px",
+      "subTitle": "Don't just take our word for it - check out our ZenDesk numbers.",
+      "list": [
+        {
+          "num": "9",
+          "company": "minutes",
+          "icon": "/images/resources/SuperPolyfill/cdn_overview_never_ic_1_sele@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/cdn_overview_never_ic_1_sele@2x.png",
+          "title": "Time to",
+          "boldtitle": "first response",
+          "content": "(average: August 2023)"
+        },
+        {
+          "num": "35.6%",
+          "company": "",
+          "icon": "/images/resources/SuperPolyfill/cdn_overview_never_ic_2_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/cdn_overview_never_ic_2_nor@2x.png",
+          "title": "Tickets solved in",
+          "boldtitle": "1 response",
+          "content": "(average: August 2023)"
+        },
+        {
+          "num": "10",
+          "company": "minutes",
+          "icon": "/images/resources/SuperPolyfill/cdn_overview_never_ic_3_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/cdn_overview_never_ic_3_nor@2x.png",
+          "title": "Time for",
+          "boldtitle": "avg. reply",
+          "content": "(average: August 2023)"
+        },
+        {
+          "num": "5.797",
+          "company": "tickets",
+          "icon": "/images/resources/SuperPolyfill/cdn_overview_never_ic_4_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/cdn_overview_never_ic_4_nor@2x.png",
+          "title": "Successfully",
+          "boldtitle": "solved",
+          "content": "(average: August 2023)"
+        }
+      ]
+    },
+    "author": {
+      "title": "Let's look at the numbers.",
+      "subTitle": "Don't just take our word for it - check out our ZenDesk numbers.",
+      "list": [
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Max",
+          "subtitle": "Head of Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Benjamin",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Renz",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Tomas",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Sunil",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Jack",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Bruno",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Tilen",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Jesus",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Raul",
+          "subtitle": "Support"
+        },
+        {
+          "img": "/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png",
+          "title": "Joseph",
+          "subtitle": "Support"
+        }
+      ]
+    },
+    "accelerate": {
+      "title": "No need to panic - if anything goes wrong. We’ve got your paws.",
+      "content": "You never have to worry about anything! Our Super Bunnies are here 24 hours a day, every day of the week, including weekends and holidays. Working on a bigger project? Check out all our premium support features!",
+      "list1": [
+        "24/7 Customer Support",
+        "Technically Smart",
+        "Customer Management",
+        "In-House Team"
+      ],
+      "list2": [
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon1@2x.png",
+          "title": "Scalable By Design",
+          "content": "Maximize your growth and expansion without care with a 150 Tbps+ network."
+        },
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon2_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon2_sel@2x.png",
+          "title": "Tier 1 Global Network",
+          "content": "Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere."
+        },
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon3_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon3_sel@2x.png",
+          "title": "NVMe+ SSD Servers",
+          "content": "Optimize delivery and reduce latency with top of the line AMD and NVMe hardware."
+        },
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon4_nor@2x.png",
+          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon4_sel@2x.png",
+          "title": "Stay Protected",
+          "content": "Stay safe and focused with a built-in next-generation DoS protection that just works."
+        }
+      ]
+    },
+    "numbers": [
+      {
+        "label": "24/7",
+        "content": "Availability"
+      },
+      {
+        "label": "5 minutes",
+        "content": "Avg. Response Time"
+      },
+      {
+        "label": "3 hours",
+        "content": "Avg. Solve Time"
+      },
+      {
+        "label": "100.000+",
+        "content": "Tickets Solved"
+      }
+    ],
+    "goFaster": {
+      "title": "True around-the-clock support",
+      "subTitle": "No more waiting around for support you need right now! We are here for you 24 hours a day, 7 days a week, 365 days a year!",
+      "tabs": [
+        {
+          "tab": "Technically Knowledgeable",
+          "title": "Keeping you happy is our priority",
+          "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
+          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "iconWidth": "360px",
+          "iconHeight": "360px"
+        },
+        {
+          "tab": "Fastest in the Business",
+          "title": "",
+          "content": "",
+          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "iconWidth": "360px",
+          "iconHeight": "360px",
+          "btn": "",
+          "href": "#"
+        },
+        {
+          "tab": "Impressively Efficient",
+          "title": "",
+          "content": "",
+          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "iconWidth": "360px",
+          "iconHeight": "360px",
+          "btn": "",
+          "href": "#"
+        },
+        {
+          "tab": "99% Customer Satisfaction",
+          "title": "",
+          "content": "",
+          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "iconWidth": "360px",
+          "iconHeight": "360px",
+          "btn": "",
+          "href": "#"
+        }
+      ]
+    },
+    "list1": {
+      "title1": "Polyfill Knowledge Center",
+      "title2": "Just looking for some quick information? Check out our Frequently Asked Questions.",
+      "items": [
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img1@2x.png",
+          "title": "Support HUB",
+          "content": "Guides, Troubleshooting, and Support Requests to help you get started with bunny.net."
+        },
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img2@2x.png",
+          "title": "Developer HUB",
+          "content": "Collection of information and documentation to make configuration as easy as possible."
+        },
+        {
+          "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img3@2x.png",
+          "title": "API Reference",
+          "content": "Learn about everything you can do with the bunny.net account and all other Bunny products."
+        }
+      ]
+    }
   }
 }

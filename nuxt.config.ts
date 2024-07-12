@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/common.css', '~/assets/css/global.less'],
-  modules: ['@nuxtjs/i18n', '@element-plus/nuxt'],
+  modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt',],
 
   i18n: {
     vueI18n: './i18n.config.ts'

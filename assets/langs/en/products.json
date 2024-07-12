@@ -4015,6 +4015,60 @@
         ],
         "btn": "Optimize You Website"
       }
+    },
+    "TransformAPI": {
+      "header": {
+        "preTitle": "Dynamic Image Processing",
+        "title": "Transform your  images. On the fly.",
+        "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine running in 123 datacenters worldwide. Simplify development and optimize SEO by reducing image size by up to 80%."
+      },
+      "verticalCarousel": {
+        "title": "Simplify development. Reduce costs.",
+        "subTitle": "Reduce the complexity of image management with a powerful on-the-fly transformation API.",
+        "btnText": "Read The API Documentation",
+        "sweperList": [
+          {
+            "icon": "/images/products/optimizer/TransformAPI/media_perfect_ic_1@2x.png",
+            "aicon": "/images/products/optimizer/TransformAPI/ative_media_perfect_ic_1@2x.png",
+            "iconw": "60px",
+            "miconw": "",
+            "title": "Resize & Crop",
+            "bigPic": "/images/products/optimizer/TransformAPI/Snipaste_2024-07-12_11-33-58.png",
+            "bigpicW": "804px",
+            "mbigpicW": ""
+          },
+          {
+            "icon": "/images/products/optimizer/TransformAPI/media_perfect_ic_2@2x.png",
+            "aicon": "/images/products/optimizer/TransformAPI/ative_media_perfect_ic_2@2x.png",
+            "iconw": "60px",
+            "miconw": "",
+            "title": "Sharpen & Blur",
+            "bigPic": "/images/products/optimizer/TransformAPI/Snipaste_2024-07-12_11-33-58.png",
+            "bigpicW": "804px",
+            "mbigpicW": ""
+          },
+          {
+            "icon": "/images/products/optimizer/TransformAPI/media_perfect_ic_3@2x.png",
+            "aicon": "/images/products/optimizer/TransformAPI/ative_media_perfect_ic_3@2x.png",
+            "iconw": "51px",
+            "miconw": "",
+            "title": "Adjust Filters & Colors",
+            "bigPic": "/images/products/optimizer/TransformAPI/Snipaste_2024-07-12_11-33-58.png",
+            "bigpicW": "804px",
+            "mbigpicW": ""
+          },
+          {
+            "icon": "/images/products/optimizer/TransformAPI/media_perfect_ic_4@2x.png",
+            "aicon": "/images/products/optimizer/TransformAPI/ative_media_perfect_ic_4@2x.png",
+            "iconw": "60px",
+            "miconw": "",
+            "title": "Convert & Optimize",
+            "bigPic": "/images/products/optimizer/TransformAPI/Snipaste_2024-07-12_11-33-58.png",
+            "bigpicW": "804px",
+            "mbigpicW": ""
+          }
+        ]
+      }
     }
   }
 }

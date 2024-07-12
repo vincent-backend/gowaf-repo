@@ -89,16 +89,15 @@ const props = withDefaults(
     btnsubText: string;
     isHidenList: boolean;
   }>(),
-  {
-    icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
-  }
+  {}
 );
 const slotDefault = !!useSlots().default;
 const localizedDefaults: any = computed(() => {
   const obj = {
     title: $t('products.storage.Europe.storageSupportPlan.title'),
     subTitle: $t('products.storage.Europe.storageSupportPlan.subTitle'),
-    btnText: $t('products.storage.Europe.storageSupportPlan.content.btn')
+    btnText: $t('products.storage.Europe.storageSupportPlan.content.btn'),
+    icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
   };
   return mergeWithDefaults(obj, props);
 });
