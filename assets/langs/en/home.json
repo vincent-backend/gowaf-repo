@@ -225,5 +225,31 @@
         "mIconHeight": "16.63rem"
       }
     ]
+  },
+  "login": {
+    "title": "Welcome back!",
+    "subtitle": "Log into Polyfill account.",
+    "Forgot": "Forgot password?",
+    "loginbtn": "Log In",
+    "divider": "Or continue with",
+    "tips": "Don't have an account?",
+    "signUp": "Sign Up. ",
+    "list": [
+      {
+        "img": "https://polyfill.io/images/home/facebook@2x.png",
+        "title": "New Polyfill Dashboard is live!",
+        "content": "The easiest way to dynamically generate images and deliver them directly from the CDN."
+      },
+      {
+        "img": "https://polyfill.io/images/home/facebook@2x.png",
+        "title": "Try out Polyfill AI Beta!",
+        "content": "Take web application performance to the next level on a true planet-scale level with Polyfill Storage Edge Tier."
+      },
+      {
+        "img": "https://polyfill.io/images/home/facebook@2x.png",
+        "title": "The Next Generation Of Performance!",
+        "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
+      }
+    ]
   }
 }
