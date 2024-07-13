@@ -67,10 +67,9 @@
           <div class="right">
             <div
               class="pic"
-              :style="{
-                backgroundImage: `url(${localizedDefaults.icon})`
-              }"
-            ></div>
+            >
+              <img :src="localizedDefaults.icon" alt="" srcset="" />
+            </div>
           </div>
         </div>
       </div>
@@ -87,6 +86,7 @@ const props = withDefaults(
     icon: string;
     btnText: string;
     btnsubText: string;
+    iconw: string;
     isHidenList: boolean;
   }>(),
   {}
@@ -263,8 +263,10 @@ const localizedDefaults: any = computed(() => {
           .pic {
             width: 312px;
             height: 312px;
-
-            background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
+            img{
+              width: 100%;
+            }
+            // background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
           }
         }
       }

@@ -1742,7 +1742,7 @@
       "player2": {
         "title": "Simple, clean, and customizable player",
         "subTitle": "Maximize branding power by customizing every aspect of your player down to the CDN hostname",
-        "btn": "Explore Media Player"
+        "btn": "Start Transcribing"
       },
       "join1": {
         "title": "Trusted by 40.000+ global customers",
@@ -4066,6 +4066,143 @@
             "bigPic": "/images/products/optimizer/TransformAPI/Snipaste_2024-07-12_11-33-58.png",
             "bigpicW": "804px",
             "mbigpicW": ""
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "blog": {
+      "paging3": "posts"
+    }
+  },
+  "Stream": {
+    "TranscribeAI": {
+      "header": {
+        "preTitle": "Transcribe Al",
+        "title": "Turn your videos into  valuable insights",
+        "content": "Automatically detect, and convert speech in your videos to text. Generate captions and translations in over 57 languages. Expand your global reach and explore a new level of  video insights."
+      },
+      "EasyPowerful": {
+        "title": "Generate captions with a click of a button!",
+        "subTitle": "Transcribe Al seamlessly integrates into your existing video workflow.",
+        "items": [
+          {
+            "icon": "/images/products/stream/TranscribeAI/media_simple_ic_1@2x.png",
+            "title": "Upload",
+            "content": "Upload your media files using an HTTP API or web file manager."
+          },
+          {
+            "icon": "/images/products/stream/TranscribeAI/transcribe_1_ic_2@2x.png",
+            "title": "Transcribe",
+            "content": "Transcribe Al automatically transcribes and captions your videos during transcoding."
+          },
+          {
+            "icon": "/images/products/stream/TranscribeAI/transcribe_1_ic_3@2x.png",
+            "title": "Deliver and Build",
+            "content": "Deliver your captioned videos to new audiences, or access the raw transcriptions through the ApI"
+          }
+        ]
+      },
+      "neverHit": {
+        "title": "The next era of video intelligence.",
+        "subTitle": "Provide valuable business insights, or enhance your user experience.",
+        "items": [
+          {
+            "icon": "/images/products/stream/TranscribeAI/transcribe_2_ic_1@2x.png",
+            "width": "80px",
+            "height": "80px",
+            "alignType": "center",
+            "title": "Create Subtitles",
+            "content": "Reach a broader audience by removing the language barriers with automated translations to up to 57 languages available in just a few clicks."
+          },
+          {
+            "icon": "/images/products/stream/TranscribeAI/transcribe_2_ic_2@2x.png",
+            "width": "80px",
+            "height": "80px",
+            "alignType": "center",
+            "title": "Generate Meeting Notes",
+            "content": "Accurately transcribe meetinas and generate summaries and titles to quickly categorize and capture the meetings that help teams succeed."
+          },
+          {
+            "icon": "/images/products/stream/TranscribeAI/transcribe_2_ic_3@2x.png",
+            "width": "80px",
+            "height": "80px",
+            "alignType": "center",
+            "title": "Get Powerful Video Insights",
+            "content": "Extract insights from meetings, customer conversations, or customer engagement and enrich your workflow experience."
+          }
+        ]
+      },
+      "ad1": {
+        "title": "Expand your video reach now!",
+        "subTitle": "Get started in seconds. No Credit Card Required. Cancel anvtime."
+      },
+      "list1": {
+        "title": "Unlimited possibilities. At an affordable price.",
+        "subTitle": "Get started in minutes, with a 14-day free trial and simple pay-as-you-use pricing.",
+        "items": [
+          {
+            "icon": "/images/products/stream/TranscribeAI/Pricing_Overview_card_ic_4@2x.png",
+            "title": "Pay Only For What You Use",
+            "content": "Only pay for the number of minutes you transcribe with no minimum recurring costs."
+          },
+          {
+            "icon": "/images/products/stream/TranscribeAI/Pricing_Overview_card_ic_1@2x.png",
+            "title": "$1 Monthly Minimum",
+            "content": "Get started for free with a 14-day free trial, and continue for as little as $1 per month."
+          },
+          {
+            "icon": "/images/products/stream/TranscribeAI/Beautiful_Video_Player@2x.png",
+            "title": "All Features Included",
+            "content": "Use the full Transcribe AI feature set with no extra charges or hidden costs."
+          }
+        ]
+      },
+      "SupportPlan": {
+        "btnText": "Explore Polyfill Support",
+        "btnsubText": " Transcribing cost is separately for each language or translation.",
+        "list": [
+          {
+            "title": "/per minute of video*",
+            "hin": "$0.1",
+            "content": "Eliminate expensive transcribing fees and start utilizing Bunny AI with simple and affordable pricing. Excellent solution that scales with project size."
+          }
+        ],
+        "included": {
+          "title": "What’s included?",
+          "list": [
+            "Transcriptions in 56 languages",
+            "All Features",
+            "Full API Support"
+          ]
+        }
+      },
+      "doNotLeave": {
+        "title": "Hop faster with AI that just works.",
+        "subTitle": "Reduce the complexity of video processing and managing multiple APIs with an end-to-end system that just works.",
+        "tabs": [
+          {
+            "tab": "Simplify Workflow",
+            "title": "Simplify your video workflow",
+            "content": "Replace multiple complicated APIs with a simple, end-to-end solution. Transcribe AI integrates directly into your existing Bunny Stream workflow to reduce complexity and help you hop aster. Just upload your videos, and Bunny Stream will automatically encode, tag, and transcribe any speech into organized and timestamped captions available in just a few minutes.",
+            "icon": "/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png",
+            "iconWidth": "378px",
+            "iconHeight": "389px",
+            "mIcon": "/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png",
+            "mIconWidth": "23.63rem",
+            "mIconHeight": "24.31rem"
+          },
+          {
+            "tab": "Reduce Costs",
+            "title": "Amazing performance and unparalleled reliability",
+            "content": "Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.",
+            "icon": "/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png",
+            "iconWidth": "378px",
+            "iconHeight": "389px",
+            "mIcon": "/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png",
+            "mIconWidth": "23.63rem",
+            "mIconHeight": "24.31rem"
           }
         ]
       }

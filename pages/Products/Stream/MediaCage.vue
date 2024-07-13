@@ -101,94 +101,10 @@
     }"
   />
 
-  <div class="player2-container">
-    <div class="title">{{ $t('products.stream.mediaCage.player2.title') }}</div>
-    <div class="sub-title">
-      {{ $t('products.stream.mediaCage.player2.subTitle') }}
-    </div>
-    <div class="pic"></div>
-    <div class="btn-container">
-      <a href="#" class="trail-btn">
-        {{ $t('products.stream.mediaCage.player2.btn') }}
-      </a>
-    </div>
-  </div>
+  <ProductsPlayerVideo />
 
   <ProductsDRMCustomers
     :drmCustomer="$tm('products.storage.Asia.drmCustomer')"
   />
   <Footer />
 </template>
-
-<style lang="less" scoped>
-.player2-container {
-  margin-top: 120px;
-
-  > .title {
-    font-weight: 500;
-    font-size: 30px;
-
-    line-height: 42px;
-    text-align: center;
-  }
-
-  > .sub-title {
-    margin-top: 18px;
-
-    font-size: 16px;
-    color: #4e4e4e;
-
-    text-align: center;
-  }
-
-  > .pic {
-    margin: 40px auto 0;
-
-    width: 782px;
-    height: 440px;
-    background: url(/public/images/products/stream/player/player-1@2x.png);
-  }
-
-  > .btn-container {
-    margin-top: 18px;
-
-    display: flex;
-    justify-content: center;
-  }
-}
-@media (max-width: 767px) {
-  .player2-container {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 1.88rem;
-    margin-top: 6.25rem;
-
-    > .title {
-      font-weight: 500;
-      font-size: 2.5rem;
-      line-height: 3.5rem;
-      text-align: left;
-    }
-
-    > .sub-title {
-      margin-top: 1rem;
-      font-size: 1.75rem;
-      color: #4e4e4e;
-      text-align: left;
-    }
-
-    > .pic {
-      margin: 3rem auto 0;
-      width: 100%;
-      height: 24.25rem;
-      background: url(/public/images/products/stream/player/player-1@2x.png);
-    }
-
-    > .btn-container {
-      margin-top: 1.25rem;
-      display: flex;
-      justify-content: center;
-    }
-  }
-}
-</style>
