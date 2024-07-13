@@ -52,7 +52,6 @@ const localizedDefaults: any = computed(() => {
   margin-top: 80px;
 
   .easy-powerful {
-
     > .title {
       font-weight: 500;
       font-size: 30px;
@@ -81,6 +80,26 @@ const localizedDefaults: any = computed(() => {
         flex-direction: column;
         align-items: center;
         padding-top: 33px;
+        position: relative;
+
+        &::after {
+          display: block;
+          content: '';
+          width: 118.01px;
+          height: 46.31px;
+          position: absolute;
+          right: -50%;
+          top: 0;
+          margin-left: -32px;
+          margin-top: 46px;
+          background: url('/images/home/arrow@2x.png');
+          background-size: 100% 100%;
+        }
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
 
         > .icon {
           width: 80px;
