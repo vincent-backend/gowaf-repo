@@ -5,21 +5,12 @@
         <img src="/public/images/home/logo.png" alt="" />
       </div>
       <div class="body">
-        <HomeForgotleftList />
+        <HomeResetleftList />
         <div class="login-body">
-          <HomeForgotform />
-          <el-divider>
-            {{ $t('home.login.divider') }}
-          </el-divider>
-          <div class="ssolist">
-            <div class="item google"></div>
-            <div class="item gitlab"></div>
-            <div class="item okta"></div>
-          </div>
+          <HomeResetPasswordform />
           <div class="tips">
-            {{ $t('home.forgot.tips') }}
             <span class="hit" @click="$router.push({ path: '/login' })">
-              {{ $t('home.forgot.signUp') }}
+              {{ $t('home.ResetPassword.BacktoLog In') }}
             </span>
           </div>
         </div>
@@ -57,7 +48,7 @@ const showType = ref('login');
   width: 550px;
   box-sizing: border-box;
   padding: 50px;
-  height: 696px;
+  height: 430px;
   background: #ffffff;
   box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
   border: 1px solid #e6e6e6;
@@ -83,7 +74,6 @@ const showType = ref('login');
   }
   .tips {
     text-align: center;
-    margin-top: 20px;
     font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 14px;

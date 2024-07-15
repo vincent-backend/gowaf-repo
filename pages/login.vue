@@ -26,13 +26,7 @@
       </div>
     </div>
   </div>
-  <el-backtop :bottom="40" :right="50" :visibility-height="0">
-    <img
-      class="backtop"
-      src="/public/images/home/suspension_btn_nor@2x.png"
-      alt=""
-    />
-  </el-backtop>
+  <HomeBacktop />
 </template>
 
 <script setup lang="ts">
@@ -53,10 +47,6 @@ const showType = ref('login');
     }
   }
 }
-.backtop {
-  width: 144px;
-  height: 144px;
-}
 .body {
   display: flex;
   flex: 1;
@@ -71,12 +61,7 @@ const showType = ref('login');
   background: #ffffff;
   box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
   border: 1px solid #e6e6e6;
-  width: 550px;
-  height: 696px;
-  background: #ffffff;
-  box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
+  border-radius: 15px;
   .ssolist {
     display: flex;
     justify-content: center;
