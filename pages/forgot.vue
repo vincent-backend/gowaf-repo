@@ -5,9 +5,9 @@
         <img src="/public/images/home/logo.png" alt="" />
       </div>
       <div class="body">
-        <HomeLoginleftList />
+        <HomeForgotleftList />
         <div class="login-body">
-          <home-loginform @to-forgot="showType = 'forgot'" />
+          <HomeForgotform />
           <el-divider>
             {{ $t('home.login.divider') }}
           </el-divider>
@@ -17,9 +17,9 @@
             <div class="item okta"></div>
           </div>
           <div class="tips">
-            {{ $t('home.login.tips') }}
-            <span class="hit" @click="$router.push({ path: '/forgot' })">
-              {{ $t('home.login.signUp') }}
+            {{ $t('home.forgot.tips') }}
+            <span class="hit" @click="$router.push({ path: '/login' })">
+              {{ $t('home.forgot.signUp') }}
             </span>
           </div>
         </div>
@@ -107,8 +107,8 @@ const showType = ref('login');
     font-style: normal;
     text-transform: none;
     .hit {
-      color: #0ebf6a;
       cursor: pointer;
+      color: #0ebf6a;
     }
   }
 }
