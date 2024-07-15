@@ -1,15 +1,3 @@
-<!-- <script lang="ts" setup>
-const props = defineProps({
-  isShowBanner: {
-    type: Boolean,
-    default: true,
-  },
-  type?: {
-    type: String,
-    default: ''
-  }
-});
-</script> -->
 <script lang="ts" setup>
 withDefaults(
   defineProps<{
@@ -218,6 +206,8 @@ withDefaults(
 }
 
 .footer-2-container {
+  padding-bottom: 43px;
+  background: #ffffff;
   .footer-2 {
     .logo-container {
       padding: 30px 0;

@@ -321,5 +321,15 @@
         "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
       }
     ]
+  },
+  "ContactSales": {
+    "preTitle": "Contact Sales",
+    "title": "Talk to a polyfill expert",
+    "content": "Tell us about you project and we'll connect you with a CDN expert and tailor a perfect solution for you",
+    "btn": "Send Inquiry",
+    "agreement": [
+      "I have read and agree to the polyfill",
+      " Privacy Policy "
+    ]
   }
 }
