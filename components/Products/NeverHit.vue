@@ -15,8 +15,15 @@ defineProps<{
     items: Array<{
       num: Number;
       icon: string;
+      title: string;
+      width: string;
+      height: string;
+      content: string;
+      btn: string;
+      alignType: string;
+      contentAlign: string;
     }>;
-  }[];
+  };
 }>();
 </script>
 <template>
@@ -41,6 +48,9 @@ defineProps<{
           <div class="title">{{ item.title }}</div>
           <div class="content" :style="{ textAlign: `${item.contentAlign}` }">
             {{ item.content }}
+          </div>
+          <div class="btn" v-if="item.btn">
+            <div class="btn-text">{{ item.btn }}</div>
           </div>
         </div>
 
@@ -104,6 +114,29 @@ defineProps<{
         .content {
           margin-top: 8px;
           color: #4e4e4e;
+        }
+        .btn {
+          margin-top: 40px;
+          width: fit-content;
+          height: fit-content;
+          border-radius: 25px;
+          // background: linear-gradient(
+          //   90deg,
+          //   rgba(70, 207, 58, 1),
+          //   rgba(54, 207, 188, 1)
+          // );
+          // box-sizing: border-box;
+          // padding: 2px;
+          border: 2px solid #46cf3a;
+          .btn-text {
+            border-radius: 25px;
+            background: #fff;
+            padding: 15px 26px;
+            font-family: Mont, Mont;
+            font-weight: 600;
+            font-size: 16px;
+            color: #000000;
+          }
         }
       }
 

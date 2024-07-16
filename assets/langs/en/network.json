@@ -3,10 +3,21 @@
     "parent": "Network",
     "overview": "Overview",
     "ddosProtection": "DDoS Protection",
-    "smartEdge": "SmartEdge™"
+    "smartEdge": "SmartEdge™",
+    "WebTools": "Web Tools",
+    "DNSLookur": "DNS Lookur",
+    "LatencyTest": "Latency Test",
+    "HTTPTest": "HTTP Test",
+    "Traceroute": "Traceroute",
+    "OtherTools": "Other Tools",
+    "DiagnosticReport": "Diagnostic Report"
   },
   "overview": {
-    "tabs": ["Standard Network", "Volume Network", "ISP Network"],
+    "tabs": [
+      "Standard Network",
+      "Volume Network",
+      "ISP Network"
+    ],
     "title0": "Polyfill CDN Network",
     "title1": "150 Tbps+ at your fingertips",
     "title2": "Supercharge your content with one of the fastest networks in the world.",
@@ -901,6 +912,50 @@
         "title": "ShortPixel",
         "content": "“It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!”"
       }
+    }
+  },
+  "WebTools": {
+    "bennerTitle": "Global Network Diagnostic Tools",
+    "bennerSubTitle": "Tools to help you optimize and get started with bunny.net and run network tests and diagnostics from over 120 locations around the world.",
+    "neverHit": {
+      "title": "Never hit your origin again",
+      "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+      "items": [
+        {
+          "icon": "/images/network/WebTools/web_tools_ic_1@2x.png",
+          "width": "100px",
+          "height": "100px",
+          "alignType": "center",
+          "title": "Latency Check",
+          "content": "Chockatency from over 120 Isrationc around the world to check routing issues, or erformance Issues.",
+          "contentAlign": "center",
+          "btn": "check Webcite"
+        },
+        {
+          "icon": "/images/network/WebTools/web_tools_ic_2@2x.png",
+          "width": "100px",
+          "height": "100px",
+          "alignType": "center",
+          "title": "HTTP Connectivity Check",
+          "content": "Test HTTP connectivity from over 120 locations around the world to troubleshoot origin connection problems, performance and geo blocking issues.",
+          "contentAlign": "center",
+          "btn": "Test Connectivity"
+        },
+        {
+          "icon": "/images/network/WebTools/web_tools_ic_3@2x.png",
+          "width": "100px",
+          "height": "100px",
+          "alignType": "center",
+          "title": "Diagnostic Report",
+          "content": "A diagnosic tool for collecting and troubleshooting detailed information about your Internet configuration, routing and performance.",
+          "contentAlign": "center",
+          "btn": "Run Diagnostics"
+        }
+      ]
+    },
+    "DNSLookur": {
+      "title": "DNS Lookup Test",
+      "subtitle": "Enter the URL of your file or website to test connectivity from the Polyfill.net network to your server."
     }
   }
 }
