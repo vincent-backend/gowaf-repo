@@ -84,12 +84,16 @@
     </div>
   </ProductsStorageSupportPlan>
   <SolutionsAd2
-    :title="$t('products.stream.overview.ad2.title')"
-    :content="$t('products.stream.overview.ad2.content')"
+    :title="$t('products.cdn.comparison.ad2.title')"
+    :content="$t('products.cdn.comparison.ad2.content')"
     href="#"
     pic="/images/products/cdn/comparison/cdn_overview_supercharged_img@2x.png"
     pic-width="363px"
     pic-height="376px"
+    m-pic="/images/products/cdn/comparison/cdn_overview_supercharged_img@2x.png"
+    m-pic-width="22.19rem"
+    m-pic-height="23.25rem"
+    :reverse="isMobile"
   >
     <div class="percentage">
       <div class="percentage-item">
@@ -103,6 +107,8 @@
     </div>
   </SolutionsAd2>
   <CommonNumbers
+    is-row
+    is-two-row
     class="comparison-CommonNumbers"
     :items="$tm('products.stream.overview.numbers')"
   />
@@ -136,7 +142,7 @@ const router = useRouter();
 const { tm } = useI18n();
 
 const NameMap: any = {
-  aws: 'AWS',
+  aws: 'CloudFront AWS',
   cacheFly: 'CacheFly',
   CDN77: 'CDN77',
   cloudFlare: 'CloudFlare',
@@ -164,7 +170,10 @@ const contrastName = computed(() => {
 
 const comparisonList = computed(() => {
   return tm('products.cdn.comparison.comparisonList').filter(el => {
-    return el.key == contrastName.value;
+    return (
+      el.key ==
+      (contrastName.value === 'CloudFront AWS' ? 'AWS' : contrastName.value)
+    );
   });
 });
 </script>
@@ -243,6 +252,43 @@ const comparisonList = computed(() => {
   }
   :deep(.always-safe > .sub-title) {
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .percentage {
+    display: flex;
+    gap: 7rem;
+    margin-top: 3.13rem;
+    &-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .num {
+      font-family: Mont, Mont;
+      font-weight: 600;
+      font-size: 3.13rem;
+      color: #000000;
+      line-height: 4.13rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .sub-title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: #4e4e4e;
+      line-height: 2.06rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+  .comparison-CommonNumbers {
+    margin: 3.13rem 0 6.25rem 0;
   }
 }
 </style>

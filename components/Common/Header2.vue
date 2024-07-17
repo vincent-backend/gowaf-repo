@@ -72,10 +72,48 @@ withDefaults(
   .home-banner-container {
     width: 100%;
     max-width: none;
-    height: auto;
+    height: 42.69rem;
     background: url(/public/mobile-images/home/home_banner_bg@2x.png);
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
+    .home-banner {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      .subTitle {
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.31rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+      .title {
+        font-family: Mont, Mont;
+        font-weight: bold;
+        font-size: 3.5rem;
+        color: #000000;
+        line-height: 5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        margin: 0;
+      }
+      .content {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        line-height: 2.81rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
   }
 }
 </style>
