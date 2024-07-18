@@ -3,6 +3,7 @@ const route = useRoute();
 
 const isHome = route.path === '/';
 const alertVisible = ref(isHome);
+const show = ref(false);
 
 const handleBack = () => {
   window.history.back();
@@ -25,6 +26,7 @@ const handleBack = () => {
         <div class="left" v-else>
           <a href="#" class="back" @click.prevent="handleBack"></a>
         </div>
+        <HeaderCollapseMenu v-model:show="show" />
       </XsOnly>
 
       <!-- for laptop -->
@@ -46,7 +48,7 @@ const handleBack = () => {
       <!-- for mobile -->
       <XsOnly>
         <div class="right">
-          <a href="#" class="menu-icon"></a>
+          <a href="#" class="menu-icon" @click="show = !show"></a>
         </div>
       </XsOnly>
     </div>
@@ -77,7 +79,7 @@ const handleBack = () => {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9;
+  z-index: 99;
   width: 100%;
   height: 60px;
   background: rgba(255, 255, 255, 0.6);
