@@ -153,6 +153,66 @@ const localizedDefaults: any = computed(() => {
       }
 
       > .content {
+        margin-top: 3.75rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3.75rem;
+        box-sizing: border-box;
+        .author-item {
+          width: 17.63rem;
+          height: 23.75rem;
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          .bg {
+            width: 100%;
+            height: 15rem;
+            background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
+            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+            border-radius: 12px 12px 0px 0px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-end;
+          }
+          .title-box {
+            box-sizing: border-box;
+            width: 100%;
+            height: 8.75rem;
+            background: #ffffff;
+            box-shadow: 0rem 0rem 0.5rem 0rem rgba(0, 0, 0, 0.2);
+            border-radius: 0rem 0rem 0.75rem 0.75rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 0;
+            .title {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 500;
+              font-size: 2.5rem;
+              color: #000000;
+              line-height: 3.5rem;
+              text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+              text-align: center;
+              font-style: normal;
+              text-transform: none;
+            }
+            .sub-title {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 500;
+              font-size: 1.5rem;
+              color: #000000;
+              line-height: 2.06rem;
+              text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+              text-align: center;
+              font-style: normal;
+              text-transform: none;
+            }
+          }
+        }
       }
     }
   }

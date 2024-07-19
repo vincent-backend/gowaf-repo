@@ -205,6 +205,7 @@ withDefaults(
 @media (max-width: 767px) {
   .support-plan-container {
     margin-top: 6.25rem;
+    padding: 0 1.88rem;
     h2 {
       text-align: left;
       font-weight: 500;
@@ -225,6 +226,7 @@ withDefaults(
       text-transform: none;
     }
     .support-plan {
+      width: 100%;
      
       > .title {
         font-weight: 500;
@@ -272,7 +274,7 @@ withDefaults(
               font-weight: 500;
               font-size: 2.13rem;
               line-height: 3rem;
-              white-space: pre-wrap;
+              white-space: inherit;
             }
 
             > .content {

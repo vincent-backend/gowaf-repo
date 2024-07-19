@@ -12,6 +12,8 @@ defineProps<{
     content2: string;
   }[];
 }>();
+
+const slotfull = !!useSlots().full;
 </script>
 
 <template>
@@ -24,16 +26,19 @@ defineProps<{
       <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="full-list" v-if="layoutType === 'full'">
         <div class="full-item" v-for="item in items">
-          <div class="title">
-            <h4>
-              <span>{{ item.title }}</span> <label>{{ item.content2 }}</label>
-            </h4>
-            <h5>{{ item.subTitle }}</h5>
-          </div>
-          <div class="content">
-            <p>{{ item.content1 }}</p>
-            <p></p>
-          </div>
+          <template v-if="!slotfull">
+            <div class="title">
+              <h4>
+                <span>{{ item.title }}</span> <label>{{ item.content2 }}</label>
+              </h4>
+              <h5>{{ item.subTitle }}</h5>
+            </div>
+            <div class="content">
+              <p>{{ item.content1 }}</p>
+              <p></p>
+            </div>
+          </template>
+          <slot name="full" :item="item"> </slot>
         </div>
       </div>
       <div class="list" v-else>

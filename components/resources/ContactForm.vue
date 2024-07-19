@@ -8,8 +8,10 @@
             :key="index"
           >
             <img :src="item.icon" :alt="item.title" />
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.subTitle }}</p>
+            <div class="content">
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.subTitle }}</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -169,9 +171,7 @@
   .hint {
     margin-top: 6px;
 
-    font-family:
-      PingFangSC,
-      PingFang SC;
+    font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 14px;
     color: #4e4e4e;
@@ -186,6 +186,109 @@
     .hint2 {
       margin-left: 6px;
       text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .form-container {
+    margin-top: -1.88rem;
+    .list-container {
+      margin: 0 auto 1.88rem auto;
+      width: 100%;
+      height: fit-content;
+      border-bottom: 1px solid #e6e6e6;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2.38rem;
+        padding: 0 0 1.88rem 0;
+        li {
+          text-align: center;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          .content{
+            display: flex;
+            flex-direction: column;
+          }
+          img {
+            width: 9.38rem;
+            height: 9.38rem;
+            display: block;
+            margin: 0;
+          }
+          h3 {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 500;
+            font-size: 1.88rem;
+            color: #000000;
+            line-height: 2.63rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+            padding: 0;
+          }
+          p {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 400;
+            font-size: 1.63rem;
+            color: #4e4e4e;
+            line-height: 2.38rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+        }
+      }
+    }
+    .form-contact-container {
+      padding: 0;
+    }
+    .my-form {
+      width: 43.13rem;
+      height: fit-content;
+      background: #ffffff;
+      box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(166, 183, 183, 0.1);
+      border-radius: 1.5rem;
+      border: 0.06rem solid #e6e6e6;
+      box-sizing: border-box;
+      padding: 2.5rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .email-form-container {
+    width: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 1.88rem;
+    .agree-link {
+      margin-left: 0.88rem;
+      color: #0ebf6a;
+    }
+
+    .btn-container {
+      width: 100%;
+      margin-top: 3.13rem;
+
+      .btn-submit {
+        box-sizing: border-box;
+        width: 100%;
+        height: 4.63rem;
+        text-align: center;
+        background: #ffffff;
+        border-radius: 2.31rem;
+        border: 0.13rem solid rgba(70, 207, 58, 1);
+        font-family: Mont, Mont;
+        font-weight: 600;
+        font-size: 1.63rem;
+        color: #000000;
+        line-height: 2.13rem;
+        font-style: normal;
+        text-transform: none;
+      }
     }
   }
 }

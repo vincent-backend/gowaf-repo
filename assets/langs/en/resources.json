@@ -2676,37 +2676,43 @@
           "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
           "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
           "iconWidth": "360px",
-          "iconHeight": "360px"
+          "iconHeight": "360px",
+          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "mIconWidth": "22.5rem",
+          "mIconHeight": "22.5rem"
         },
         {
           "tab": "Fastest in the Business",
-          "title": "",
-          "content": "",
+          "title": "Keeping you happy is our priority",
+          "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
           "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
           "iconWidth": "360px",
           "iconHeight": "360px",
-          "btn": "",
-          "href": "#"
+          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "mIconWidth": "22.5rem",
+          "mIconHeight": "22.5rem"
         },
         {
           "tab": "Impressively Efficient",
-          "title": "",
-          "content": "",
+          "title": "Keeping you happy is our priority",
+          "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
           "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
           "iconWidth": "360px",
           "iconHeight": "360px",
-          "btn": "",
-          "href": "#"
+          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "mIconWidth": "22.5rem",
+          "mIconHeight": "22.5rem"
         },
         {
           "tab": "99% Customer Satisfaction",
-          "title": "",
-          "content": "",
+          "title": "Keeping you happy is our priority",
+          "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
           "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
           "iconWidth": "360px",
           "iconHeight": "360px",
-          "btn": "",
-          "href": "#"
+          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+          "mIconWidth": "22.5rem",
+          "mIconHeight": "22.5rem"
         }
       ]
     },

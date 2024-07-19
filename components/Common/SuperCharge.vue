@@ -264,6 +264,7 @@ const curTab = ref(0);
 @media (max-width: 767px) {
   .super-charge-container {
     margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
 
     .super-charge {
       > .title {

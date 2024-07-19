@@ -64,6 +64,8 @@
 
   <ResourcesSuperCharge :tab="$tm('resources.about.superCharge')" />
   <CommonNumbers
+    is-row
+    is-two-row
     class="about-numbers"
     :items="$tm('resources.about.numbers')"
   />
@@ -84,7 +86,7 @@
     layoutType="full"
     class="about-CommonList"
   />
-  <ResourcesGetInTouch />
+  <ResourcesGetInTouch class="Touch" />
   <Footer
     :type="{
       page: 'about'
@@ -102,8 +104,11 @@
   .about-numbers {
     margin: 6.25rem 0;
   }
-  .about-CommonList{
+  .about-CommonList {
     margin-bottom: 6.3rem;
+  }
+  .Touch{
+    margin-bottom: 6.25rem;
   }
 }
 </style>

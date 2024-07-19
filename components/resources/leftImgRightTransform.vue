@@ -190,7 +190,7 @@ const localizedDefaults: any = computed(() => {
 
             .content {
               margin-top: 6px;
-              color: #4E4E4E;
+              color: #4e4e4e;
             }
             .head-title-box {
               display: flex;
@@ -248,6 +248,123 @@ const localizedDefaults: any = computed(() => {
       }
 
       > .content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+        margin-bottom: 6.25rem;
+        gap: 2.5rem;
+        .left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 100% !important;
+          }
+        }
+        .right {
+          .list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            .item {
+              width: 20.94rem;
+              height: 18rem;
+              box-sizing: border-box;
+              padding: 0.88rem;
+
+              background: #ffffff;
+              border-radius: 0.88rem;
+
+              border: 0.13rem solid #fff;
+
+              .head {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                .num-box {
+                  display: flex;
+                  align-items: flex-end;
+                  margin-left: 0;
+                  margin-top: 0.88rem;
+                  .num {
+                    font-family: Mont, Mont;
+                    font-weight: 600;
+                    font-size: 2.5rem;
+                    color: #000000;
+                    line-height: 3.31rem;
+                    text-align: left;
+                    font-style: normal;
+                    text-transform: none;
+                    background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  }
+                  .company {
+                    font-family: PingFangSC, PingFang SC;
+                    font-weight: 500;
+                    font-size: 1.88rem;
+                    color: #000000;
+                    line-height: 2.63rem;
+                    text-align: left;
+                    font-style: normal;
+                    text-transform: none;
+                  }
+                }
+
+                .icon {
+                  width: 5rem;
+                  height: 5rem;
+                }
+              }
+
+              .content {
+                margin-top: 0.75rem;
+                color: #4e4e4e;
+                font-family: PingFangSC, PingFang SC;
+                font-weight: 400;
+                font-size: 1.5rem;
+                color: #4e4e4e;
+                line-height: 2.19rem;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+              }
+              .head-title-box {
+                display: flex;
+                margin-top: 1rem;
+                gap: 4px;
+                .head-title {
+                  font-family: PingFangSC, PingFang SC;
+                  font-weight: 400;
+                  font-size: 1.5rem;
+                  color: #4e4e4e;
+                  line-height: 2.19rem;
+                  text-align: left;
+                  font-style: normal;
+                  text-transform: none;
+                  white-space: nowrap;
+                }
+                .bold-title {
+                  font-family: PingFangSC, PingFang SC;
+                  font-weight: 600;
+                  font-size: 1.5rem;
+                  color: #000000;
+                  line-height: 2.19rem;
+                  text-align: left;
+                  font-style: normal;
+                  white-space: nowrap;
+                  text-transform: none;
+                }
+              }
+
+              &.active {
+                border: 0.13rem solid #46cf3a;
+                // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
+              }
+            }
+          }
+        }
       }
     }
   }

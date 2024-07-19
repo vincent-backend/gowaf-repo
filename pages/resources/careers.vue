@@ -77,4 +77,15 @@
 .careers-join1 {
   margin-top: 0;
 }
+@media (max-width: 767px) {
+  .about-numbers {
+    margin: 6.25rem 0;
+  }
+  .about-CommonList {
+    margin-bottom: 6.3rem;
+  }
+  .Touch {
+    margin-bottom: 6.25rem;
+  }
+}
 </style>
