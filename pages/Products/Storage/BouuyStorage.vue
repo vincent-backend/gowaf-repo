@@ -33,8 +33,8 @@
       h: '361px',
 
       msrc: '/images/products/storage/BouuyStorage/stream_transcribe_banner_graph@2x.png',
-      mw: '',
-      mh: ''
+      mw: '31rem',
+      mh: '22rem'
     }"
   />
 
@@ -49,7 +49,10 @@
     style="margin-top: 80px"
     :items="$tm('products.storage.SSDStorage.numbers')"
   />
-  <CommonSuperCharge v-bind="$tm('products.DNS.doNotLeave')" />
+  <CommonSuperCharge
+    class="BouuyStorage-CommonSuperCharge"
+    v-bind="$tm('products.DNS.doNotLeave')"
+  />
   <SolutionsAd1
     :title="$t('products.cdn.overview.ad1.title')"
     :sub-title="$t('products.cdn.overview.ad1.subTitle')"
@@ -141,6 +144,56 @@
   }
   :deep(.pricing-table) {
     margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .BouuyStorage-CommonSuperCharge {
+    margin-bottom: 6.25rem;
+  }
+  .price-1-container {
+    margin-top: 6.25rem;
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    .title-box {
+      width: 100%;
+      height: 9.75rem;
+      background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
+      border-radius: 0.88rem 0.88rem 0rem 0rem;
+      filter: blur(0px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      .title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2rem;
+        color: #ffffff;
+        line-height: 2.81rem;
+        text-align: center;
+        font-style: normal;
+        text-transform: none;
+      }
+      .sub-title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.38rem;
+        color: #ffffff;
+        line-height: 1.88rem;
+        text-align: center;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    :deep(.pricing-table) {
+      margin-top: 0;
+    }
   }
 }
 </style>

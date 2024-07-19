@@ -33,8 +33,8 @@
       h: '470px',
 
       msrc: '/images/products/optimizer/TransformAPI/Network_DDoS_banner_graph_1@2x.png',
-      mw: '',
-      mh: ''
+      mw: '31.25rem',
+      mh: '26.25rem'
     }"
   />
   <ProductsVerticalCarousel />
@@ -77,6 +77,9 @@
     pic="/images/products/optimizer/overview/SmartEdge™_graph_1@2x.png"
     pic-width="447px"
     pic-height="302px"
+    m-pic="/images/products/optimizer/overview/SmartEdge™_graph_1@2x.png"
+    m-pic-height="18.88rem"
+    m-pic-width="27.94rem"
     reverse
     class="Minimize"
   >
@@ -183,5 +186,68 @@
   background: linear-gradient(41.5494227786465deg, #46cf3a 0%, #36cfbc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px) {
+  .Minimize {
+    margin-bottom: 6.25rem;
+
+    .percentage {
+      display: flex;
+      gap: 5.44rem;
+      margin-top: 1.25rem;
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .num {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .numt {
+          font-family: Mont, Mont;
+          font-weight: 600;
+          font-size: 3rem;
+          line-height: 4rem;
+          background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .numic {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-image: url('/images/products/optimizer/overview/SmartEdge™_ic_rise@2x.png');
+        }
+      }
+
+      .yellow {
+        .numt {
+          background: linear-gradient(0deg, #f9c22f 0%, #fa6e4a 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .numic {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-image: url('/images/products/optimizer/overview/SmartEdge™_ic_descend@2x.png');
+        }
+      }
+
+      .sub-title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #4e4e4e;
+        line-height: 1.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+  }
 }
 </style>

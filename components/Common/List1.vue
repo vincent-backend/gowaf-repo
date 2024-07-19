@@ -15,7 +15,11 @@ defineProps<{
   <div class="list1-container">
     <div class="list1 page-container">
       <div class="title1" v-if="title1">{{ title1 }}</div>
-      <div class="title2" :style="{ width: title2Width }" v-if="title2">
+      <div
+        class="title2"
+        :style="{ width: isMobile ? '100%' : title2Width }"
+        v-if="title2"
+      >
         {{ title2 }}
       </div>
       <div class="list">

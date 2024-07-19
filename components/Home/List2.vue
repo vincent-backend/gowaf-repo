@@ -10,6 +10,8 @@
         {{ $t('home.list2.subTitle') }}
       </div>
       <CommonNumbers
+        is-row
+        is-two-row
         style="margin-top: 60px"
         :items="$tm('home.list2.numbers')"
       />

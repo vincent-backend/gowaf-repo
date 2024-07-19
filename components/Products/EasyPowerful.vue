@@ -185,6 +185,9 @@ const localizedDefaults: any = computed(() => {
           flex-direction: column;
           align-items: center;
           padding-top: 3rem;
+          &::after {
+            display: none;
+          }
 
           > .icon {
             width: 7.5rem;

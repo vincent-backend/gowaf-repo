@@ -279,10 +279,11 @@ defineProps<{
               gap: 0.63rem 0;
 
               .item {
-                width: 18.6rem;
+                width: 50%;
                 height: 8.63rem;
 
                 .text {
+                  white-space: nowrap;
                   font-size: 2.5rem;
                   line-height: 3.31rem;
                 }

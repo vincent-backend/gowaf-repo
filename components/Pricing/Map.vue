@@ -62,6 +62,7 @@ withDefaults(
         width: 896px;
         height: 512px;
         background: url(/public/images/pricing/storage/home_map.png);
+        background-size: 100% 100%;
         position: relative;
 
         .dot {
@@ -101,21 +102,20 @@ withDefaults(
 
       > .map-container {
         margin-top: 3.13rem;
-
         width: 43.13rem;
         height: 30rem;
         border-radius: 0;
 
         .map {
-          width: 43.13rem;
-          height: 30rem;
+          width: 35rem;
+          height: 20rem;
 
           .dot {
             width: 0.5rem;
             height: 0.5rem;
             border-width: 0.25rem;
-            left: 22rem;
-            top: 24rem;
+            left: 26rem;
+            top: 6rem;
           }
         }
       }

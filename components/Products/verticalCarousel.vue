@@ -18,7 +18,7 @@
               class="icon"
               :src="item.title === current.title ? item.aicon : item.icon"
               :style="{
-                width: item.iconw
+                width: isMobile ? item.miconw : item.iconw
               }"
               alt=""
               srcset=""
@@ -30,7 +30,7 @@
           <img
             :src="current.bigPic"
             :style="{
-              width: current.bigpicW
+              width: isMobile ? '100%' : current.bigpicW
             }"
             alt=""
             srcset=""
@@ -127,6 +127,7 @@ const { pause, resume, isActive } = useIntervalFn(updateIndex, 2000, {
       .left {
         display: flex;
         flex-shrink: 0;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         gap: 30px;
@@ -208,6 +209,77 @@ const { pause, resume, isActive } = useIntervalFn(updateIndex, 2000, {
       }
 
       > .content {
+        background: #fafafa;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2.5rem;
+        .left {
+          display: flex;
+          flex-shrink: 0;
+          flex-direction: row;
+          justify-content: center;
+          overflow-x: auto;
+          overflow-y: hidden;
+          gap: 1.5rem;
+          .sweper-item {
+            flex-shrink: 0;
+            width: 19.25rem;
+            height: 5.63rem;
+            padding: 0.88rem 1.25rem;
+            box-sizing: border-box;
+            background: #ffffff;
+            border-radius: 0.5rem;
+            gap: 1rem;
+            display: flex;
+            align-items: center;
+            .text {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 500;
+              font-size: 1.75rem;
+              color: #000000;
+              line-height: 2.5rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+            .icon {
+              width: 3.75rem;
+            }
+            &.Active {
+              background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
+              border-radius: 0.5rem;
+              .text {
+                color: #ffffff;
+              }
+            }
+          }
+        }
+        .right {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .btn-row {
+        width: 100%;
+        display: flex;
+        margin-top: 1.5rem;
+        .btn {
+          margin-left: auto;
+          margin-right: auto;
+          width: fit-content;
+          height: 4.63rem;
+          background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
+          border-radius: 2.31rem;
+          white-space: nowrap;
+          padding: 0 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #ffffff;
+        }
       }
     }
   }

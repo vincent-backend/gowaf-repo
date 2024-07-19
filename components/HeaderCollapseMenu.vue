@@ -74,11 +74,30 @@
 
 <script setup lang="ts">
 defineEmits(['update:show']);
-defineModel('show', {
+const model = defineModel('show', {
   type: Boolean,
   default: false
 });
 const activation = ref('');
+
+watch(
+  () => model.value,
+  val => {
+    if (val) {
+      var mo = function (e: any) {
+        e.preventDefault();
+      };
+      document.body.style.overflow = 'hidden';
+      document.addEventListener('touchmove', mo, false); //禁止页面滑动
+    } else {
+      var mo = function (e: any) {
+        e.preventDefault();
+      };
+      document.body.style.overflow = ''; //出现滚动条
+      document.removeEventListener('touchmove', mo, false);
+    }
+  }
+);
 </script>
 <style lang="scss" scoped>
 .fade-enter-active,
@@ -109,6 +128,8 @@ const activation = ref('');
   /* backdrop-filter: blur(40px); */
   .menu {
     width: 100%;
+    height: calc(100% - 23.18rem);
+    overflow-y: auto;
     padding-top: 5rem;
     padding: 5rem 1.88rem 0;
     box-sizing: border-box;
@@ -146,11 +167,9 @@ const activation = ref('');
   }
 }
 .btn-row {
-  position: absolute;
-  bottom: 23.18rem;
-  left: 0;
   width: 100vw;
   height: 23.18rem;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;

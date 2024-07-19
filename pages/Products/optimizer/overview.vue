@@ -33,8 +33,8 @@
       h: '470px',
 
       msrc: '/images/products/optimizer/overview/cdnfeatures_performance_img@2x.png',
-      mw: '',
-      mh: ''
+      mw: '25.63rem',
+      mh: '22.88rem'
     }"
   />
   <ProductsEasyPowerful

@@ -33,8 +33,8 @@
       h: '361px',
 
       msrc: '/images/products/storage/SSDStorage/stream_transcribe_banner_graph@2x.png',
-      mw: '',
-      mh: ''
+      mw: '23.31rem',
+      mh: '20.31rem'
     }"
   />
   <PricingMap
