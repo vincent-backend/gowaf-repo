@@ -213,9 +213,9 @@ withDefaults(
       padding: 30px 0;
 
       .logo {
-        width: 112px;
-        height: 32px;
-        background: url(/public/images/home/logo2@2x.png) no-repeat;
+        width: 114px;
+        height: 44px;
+        background: url(/public/images/home/Gowaf_logo+文字.png) no-repeat;
       }
     }
 
@@ -446,9 +446,9 @@ withDefaults(
         padding-top: 3.75rem;
 
         .logo {
-          width: 10.5rem;
-          height: 3rem;
-          background: url(/public/mobile-images/home/logo@2x.png) no-repeat;
+          width: 10.69rem;
+          height: 4.13rem;
+          background: url(/public/images/home/Gowaf_logo+文字.png) no-repeat;
         }
       }
 

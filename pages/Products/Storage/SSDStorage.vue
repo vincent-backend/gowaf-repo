@@ -71,12 +71,22 @@
       </div>
     </div>
     <div class="img-bg">
-      <img
-        class="img"
-        src="/images/products/storage/SSDStorage/Hop Beyond Latency_img@2x.png"
-        alt=""
-        srcset=""
-      />
+      <XsOnly>
+        <img
+          class="mimg"
+          src="/mobile-images/products/storage/SSDStorage/storage_img@2x.png"
+          alt=""
+          srcset=""
+        />
+      </XsOnly>
+      <LgOnly>
+        <img
+          class="img"
+          src="/images/products/storage/SSDStorage/Hop Beyond Latency_img@2x.png"
+          alt=""
+          srcset=""
+        />
+      </LgOnly>
     </div>
   </div>
   <ProductsDRMCustomers
@@ -123,6 +133,48 @@
     width: 1200px;
     .img {
       width: 100%;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .Latency {
+    display: flex;
+    margin-top: 6.25rem;
+    flex-direction: column;
+    .title-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1rem;
+      .title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+      .sub-title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    .img-bg {
+      width: 100%;
+      .mimg {
+        width: 100%;
+        height: 91.5rem;
+      }
     }
   }
 }

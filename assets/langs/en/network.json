@@ -956,6 +956,79 @@
     "DNSLookur": {
       "title": "DNS Lookup Test",
       "subtitle": "Enter the URL of your file or website to test connectivity from the Polyfill.net network to your server."
+    },
+    "DiagnosticReport": {
+      "btn": "Run Diagnostic Report",
+      "title": "Diagnostic Report",
+      "subtitle": "The diagnostic report will collect detailed information about your browser, internet and DNS configuration  that can be used for testing connectivity and troubleshooting issues.",
+      "neverHit": {
+        "items": [
+          {
+            "icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "center",
+            "title": "IP Address",
+            "content": "Your IP address will be collected and mapped to a country and geographical location result.",
+            "contentAlign": "center"
+          },
+          {
+            "icon": "/images/network/WebTools/diagnostic_report_ic_2@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "center",
+            "title": "DNS Information",
+            "content": "The IP of your DNS provider will be collected and mapped to a country and longitude/latitude location.",
+            "contentAlign": "center"
+          },
+          {
+            "icon": "/images/network/WebTools/diagnostic_report_ic_3@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "center",
+            "title": "Operating System",
+            "content": "The name and version of your computer's operating system will be collected.",
+            "contentAlign": "center"
+          },
+          {
+            "icon": "/images/network/WebTools/diagnostic_report_ic_4@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "center",
+            "title": "Browser Information",
+            "content": "The name, version and user agent of your web browser will be collected.",
+            "contentAlign": "center"
+          }
+        ]
+      }
+    },
+    "OtherTools": {
+      "title": "Other Tools",
+      "subtitle": "SSL Check, GeoIP Lookup, and more!",
+      "neverHit": {
+        "items": [
+          {
+            "icon": "/images/network/WebTools/other_tools_ic_1@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "center",
+            "title": "SSL Checker",
+            "content": "Verify whether your SSL certificate is correctly installed.",
+            "contentAlign": "center",
+            "btn": "SSL Checker"
+          },
+          {
+            "icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+            "width": "100px",
+            "height": "100px",
+            "alignType": "center",
+            "title": "IP Geolocation",
+            "content": "Check aproximately where an IP address is located (geolocation).",
+            "contentAlign": "center",
+            "btn": "GeolP Lookup"
+          }
+        ]
+      }
     }
   }
 }

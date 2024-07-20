@@ -127,7 +127,6 @@ const { pause, resume, isActive } = useIntervalFn(updateIndex, 2000, {
       .left {
         display: flex;
         flex-shrink: 0;
-        width: 100%;
         flex-direction: column;
         justify-content: center;
         gap: 30px;

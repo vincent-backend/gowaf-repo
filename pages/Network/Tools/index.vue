@@ -5,32 +5,32 @@
     :items="[
       {
         label: $t('network.breadCrumbs.DNSLookur'),
-        href: '/network/Tools/DNSLookur',
+        href: '/Network/Tools/DNSLookur',
         current: false
       },
       {
         label: $t('network.breadCrumbs.LatencyTest'),
-        href: '/network/ddos',
+        href: '/Network/Tools/LatencyTest',
         current: false
       },
       {
         label: $t('network.breadCrumbs.HTTPTest'),
-        href: '/network/smartedge',
+        href: '/Network/Tools/HTTPTest',
         current: false
       },
       {
         label: $t('network.breadCrumbs.Traceroute'),
-        href: '/network/smartedge',
+        href: '/Network/Tools/Traceroute',
         current: false
       },
       {
         label: $t('network.breadCrumbs.OtherTools'),
-        href: '/network/smartedge',
+        href: '/Network/Tools/OtherTools',
         current: false
       },
       {
         label: $t('network.breadCrumbs.DiagnosticReport'),
-        href: '/network/smartedge',
+        href: '/Network/Tools/DiagnosticReport',
         current: false
       }
     ]"

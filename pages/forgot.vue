@@ -2,7 +2,7 @@
   <div class="bg">
     <div class="page-container">
       <div class="logo-header">
-        <img src="/public/images/home/logo.png" alt="" />
+        <img src="/public/images/home/Gowaf_logo+文字.png" alt="" />
       </div>
       <div class="body">
         <HomeForgotleftList />

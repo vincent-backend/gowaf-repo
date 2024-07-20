@@ -3,6 +3,7 @@ import notification from './zh/notification.json';
 import header from './zh/header.json';
 import footer from './zh/footer.json';
 import bookMeeting from './zh/bookMeeting.json';
+import nationalFlag from './zh/nationalFlag.json';
 import network from './zh/network.json';
 import pricing from './zh/pricing.json';
 import solutions from './zh/solutions.json';
@@ -15,6 +16,7 @@ const zh = {
   header,
   footer,
   bookMeeting,
+  nationalFlag,
   network,
   pricing,
   solutions,

@@ -5,22 +5,22 @@
     :items="[
       {
         label: $t('products.cdn.breadCrumbs.overview'),
-        href: '#',
+        href: '/Products/Cdn/Overview',
         current: true
       },
       {
         label: $t('products.cdn.breadCrumbs.features'),
-        href: '#',
+        href: '/Products/Cdn/Features',
         current: false
       },
       {
         label: $t('products.cdn.breadCrumbs.permaCache'),
-        href: '#',
+        href: '/Products/Cdn/PermaCache',
         current: false
       },
       {
         label: $t('products.cdn.breadCrumbs.safehop'),
-        href: '#',
+        href: '/Products/Cdn/SafeHop',
         current: false
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         label: $t('products.cdn.breadCrumbs.comparison'),
-        href: '#',
+        href: '/Products/Cdn/comparison/aws',
         current: false
       },
       {

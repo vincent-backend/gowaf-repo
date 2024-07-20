@@ -4,9 +4,10 @@
       <div class="benner-title">
         {{ localizedDefaults.title }}
       </div>
-      <div class="benner-subtitle">
+      <div class="benner-subtitle" :style="{ width: subWidth }">
         {{ localizedDefaults.subTitle }}
       </div>
+      <slot />
     </div>
   </div>
 </template>
@@ -17,6 +18,7 @@ const props = withDefaults(
   defineProps<{
     title?: string;
     subTitle?: string;
+    subWidth?: string;
   }>(),
   {}
 );

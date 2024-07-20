@@ -96,9 +96,9 @@ const handleBack = () => {
 
       .logo {
         display: block;
-        width: 112px;
-        height: 32px;
-        background: url(/public/images/home/logo2.png);
+        width: 114px;
+        height: 44px;
+        background: url(/public/images/home/Gowaf_logo+文字.png);
       }
     }
 
@@ -233,8 +233,8 @@ const handleBack = () => {
         }
         .logo {
           margin-left: 1.88rem;
-          width: 10.63rem;
-          height: 3rem;
+          width: 10.69rem;
+          height: 4.13rem;
         }
       }
 

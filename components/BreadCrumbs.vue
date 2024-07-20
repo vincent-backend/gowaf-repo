@@ -7,6 +7,9 @@ defineProps<{
     current: boolean;
   }[];
 }>();
+// const router = useRouter()
+// const all = router.getRoutes()
+// console.log("all", all)
 </script>
 
 <template>
@@ -36,6 +39,7 @@ defineProps<{
   background: #ffffff;
   box-shadow: inset 0px 1px 0px 0px rgba(226, 226, 226, 0.5);
   height: 60px;
+  overflow-y: hidden;
 
   .bread-crumbs {
     height: 100%;
@@ -86,6 +90,7 @@ defineProps<{
       .links {
         gap: 3.13rem;
         overflow-x: scroll;
+        overflow-y: hidden;
 
         a {
           font-size: 1.75rem;

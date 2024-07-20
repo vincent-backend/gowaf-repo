@@ -77,7 +77,7 @@ const comparisonName = [
   'Security Settings'
 ];
 const selflist = {
-  comparisonIcon: '/images/home/polyfill_logo@2x.png',
+  comparisonIcon: '/images/home/Gowaf_logo+文字.png',
   items: [
     '123',
     '24ms',
