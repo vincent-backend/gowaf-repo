@@ -1029,6 +1029,44 @@
           }
         ]
       }
+    },
+    "Traceroute": {
+      "title": "Global Traceroute Test",
+      "Host": "Host",
+      "PacketLoss": "Packet Loss",
+      "Average": "Average",
+      "Best": "Best",
+      "Worst": "Worst",
+      "article1": [
+        {
+          "title": "What is a traceroute?",
+          "content": [
+            "Traceroute is a network diagnostic tool used for diagnosing the path taken by a network packet to reach a destination IP. It shows the latency and packet loss between a source and destination network point as well as any network hops in between."
+          ]
+        },
+        {
+          "title": "What is a traceroute used for?",
+          "content": [
+            "Traceroutes are invaluable when debugging network issues. They allow us to diagnose suboptimal network routes, loops or packet loss while connecting between two points in a network. They can also be used to troubleshoot network failures and failed routes.",
+            "To get an accurate representation of a traceroute result, it is generally recommended to run a traceroute in both directions from the destination and source and vice versa."
+          ]
+        }
+      ],
+      "article2": [
+        {
+          "title": "How does a traceroute work?",
+          "content": [
+            "A traceroute tool usually relies on ICMP messages to send echo packages. It then measures the response time between the time when the message was sent and the time we received a reply, which is called latency. This is calculated for each network hop to give as much visibility as possible into the network route. It is also possible to run a traceroute in TCP mode for situations where ICMP is unavailable, however, this is less common."
+          ]
+        },
+        {
+          "title": "What does packet loss in a traceroute mean?",
+          "content": [
+            "Packet loss in a traceroute means that a specific hop or destination address failed or refused to send a response message. This can be indicative of network congestion or other issues. However, it is important to understand that due to the nature of ICMP, it is often the case that particular hops between the source and destination will refuse to send a reply message.",
+            "It is not uncommon to see hops in the middle report packet loss by routers that are set to deprioritize or ignore ICMP packets. It is usually recommended to focus primarily on the packet loss on the last hop of the destination to get a more accurate understanding of a potential issue."
+          ]
+        }
+      ]
     }
   }
 }

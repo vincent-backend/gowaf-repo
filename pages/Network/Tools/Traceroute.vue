@@ -36,8 +36,9 @@
     ]"
   />
   <NetworkToolsBenner
-    :title="$t('network.WebTools.DNSLookur.title')"
+    :title="$t('network.WebTools.Traceroute.title')"
     :sub-width="'658px'"
+    :class="{ maxheight: show }"
     :sub-title="$t('network.WebTools.DNSLookur.subtitle')"
   >
     <div class="inputBox">
@@ -74,21 +75,123 @@
         </template>
       </el-input>
     </div>
+    <div class="BennerList" v-if="!show">
+      <div
+        class="item"
+        v-for="(item, index) in $tm('nationalFlag.BennerList')"
+        :key="index"
+      >
+        <img class="nationalFlag" :src="item.img" alt="" />
+        <div class="name">{{ item.name }}</div>
+      </div>
+    </div>
+    <transition name="fade">
+      <div class="allNations" v-if="show">
+        <div class="column" v-for="(item, index) in columnlist" :key="index">
+          <NetworkNationalFlagList
+            v-for="(n, indexs) in item"
+            :key="indexs"
+            type="transparent"
+            :title="n.title"
+            :list="n.list"
+          ></NetworkNationalFlagList>
+        </div>
+      </div>
+    </transition>
+    <div class="more" :class="{ rotate: !show }" @click="show = !show">
+      show all
+      <el-icon class="icon" color="#fff" ize="16"><DArrowRight /></el-icon>
+    </div>
   </NetworkToolsBenner>
-  <div class="map">
-    <img
-      class="img"
-      src="/public/images/network/WebTools/dnslookuptest_earth_img@2x.png"
-      alt=""
-    />
+  <div class="page-container article">
+    <div class="article-nav">
+      <div class="left">
+        <div class="item">{{ $t('network.WebTools.Traceroute.Host') }}</div>
+        <div class="item">
+          {{ $t('network.WebTools.Traceroute.PacketLoss') }}
+        </div>
+      </div>
+      <div class="right">
+        <div class="item">{{ $t('network.WebTools.Traceroute.Average') }}</div>
+        <div class="item">{{ $t('network.WebTools.Traceroute.Best') }}</div>
+        <div class="item">{{ $t('network.WebTools.Traceroute.Worst') }}</div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="column">
+        <div
+          class="article-item"
+          v-for="(item, index) in $tm('network.WebTools.Traceroute.article1')"
+          :key="index"
+        >
+          <div class="title">{{ item.title }}</div>
+          <div class="content">
+            <p v-for="(content, index) in item.content" :key="index">
+              {{ content }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div
+          class="article-item"
+          v-for="(item, index) in $tm('network.WebTools.Traceroute.article2')"
+          :key="index"
+        >
+          <div class="title">{{ item.title }}</div>
+          <div class="content">
+            <p v-for="(content, index) in item.content" :key="index">
+              {{ content }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <Footer :is-show-banner="false" />
 </template>
 
 <script setup lang="ts">
+import { DArrowRight } from '@element-plus/icons-vue';
 import { CommonIconDropDown, CommonInputsubfix } from '#components';
+const { t, tm } = useI18n();
 const input = ref('');
-const select = ref('1');
+const show = ref(false);
+
+const columnlist = [
+  [
+    {
+      title: t('nationalFlag.continentName[1]'),
+      list: tm('nationalFlag.Europe') as any
+    }
+  ],
+  [
+    {
+      title: t('nationalFlag.continentName[0]'),
+      list: tm('nationalFlag.North_America') as any
+    }
+  ],
+  [
+    {
+      title: t('nationalFlag.continentName[2]'),
+      list: tm('nationalFlag.Asia') as any
+    }
+  ],
+  [
+    {
+      title: t('nationalFlag.continentName[3]'),
+      list: tm('nationalFlag.Oceania') as any
+    },
+    {
+      title: t('nationalFlag.continentName[4]'),
+      list: tm('nationalFlag.South_America') as any
+    },
+    {
+      title: t('nationalFlag.continentName[5]'),
+      list: tm('nationalFlag.Middle_East&Africa') as any
+    }
+  ]
+];
 </script>
 <style lang="scss" scoped>
 .input-with-select {
@@ -151,16 +254,160 @@ const select = ref('1');
     }
   }
 }
-.map {
-  width: 100%;
-  height: 840px;
-  background: #cad6d7;
+.BennerList {
   display: flex;
-  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .nationalFlag {
+      width: 40px;
+      height: 40px;
+    }
+    .name {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 20px;
+      color: #ffffff;
+      line-height: 28px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+}
+.more {
+  cursor: pointer;
+  font-family: PingFangSC, PingFang SC;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 22px;
+  text-align: left;
+  font-style: normal;
+  opacity: 0.5;
+  display: flex;
   align-items: center;
-  .img {
-    width: 1075px;
-    height: 626px;
+  gap: 10px;
+  .icon {
+    transform: rotate(270deg);
+    :deep(path) {
+      color: #ffffff !important;
+    }
+  }
+  &.rotate {
+    .icon {
+      transform: rotate(90deg);
+    }
+  }
+}
+.allNations {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.maxheight {
+  padding: 100px 0 62px 0;
+  /* transition: all 0.3s; */
+  height: fit-content;
+  background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  background: #fafafa;
+  .article-nav {
+    display: flex;
+    padding: 24px 80px;
+    border-bottom: 1px solid #d8d8d8;
+    .left {
+      margin-right: auto;
+      display: flex;
+      gap: 80px;
+      .item {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 30px;
+        color: #000000;
+        line-height: 42px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    .right {
+      margin-left: auto;
+      display: flex;
+      gap: 80px;
+      .item {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 30px;
+        color: #000000;
+        line-height: 42px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+  }
+  .list {
+    margin-top: 100px;
+    display: flex;
+    gap: 80px;
+    .column {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+      .article-item {
+        flex-direction: column;
+        gap: 16px;
+        display: flex;
+        .title {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 30px;
+          color: #000000;
+          line-height: 42px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        .content {
+          display: flex;
+          gap: 16px;
+          flex-direction: column;
+          p {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 400;
+            font-size: 16px;
+            color: #4e4e4e;
+            line-height: 24px;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+        }
+      }
+    }
   }
 }
 </style>

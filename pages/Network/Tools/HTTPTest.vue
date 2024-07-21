@@ -85,7 +85,7 @@
   <div class="page-container NationalFlagList">
     <div class="column">
       <NetworkNationalFlagList
-        :title="$t('network.WebTools.DNSLookur.title')"
+        :title="$t('nationalFlag.continentName[0]')"
         :list="$tm('nationalFlag.North_America')"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
