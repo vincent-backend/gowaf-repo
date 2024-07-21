@@ -8,7 +8,11 @@
         {{ localizedDefaults.subTitle }}
       </div>
       <div class="content">
-        <div class="item" v-for="(item, index) in localizedDefaults.fulItems">
+        <div
+          class="item"
+          :class="{ showNext }"
+          v-for="(item, index) in localizedDefaults.fulItems"
+        >
           <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }">
             <div class="index">
               {{ (index + 1).toString().padStart(2, '0') }}
@@ -28,6 +32,7 @@ const props = withDefaults(
   defineProps<{
     title?: string;
     subTitle?: string;
+    showNext?: Boolean;
     fulItems?: Array<{
       icon: string;
       title: string;
@@ -41,6 +46,7 @@ const localizedDefaults: any = computed(() => {
   const obj = {
     title: $t('products.stream.mediaCage.easyPowerful.title'),
     subTitle: $t('products.stream.mediaCage.easyPowerful.subTitle'),
+    showNext: true,
     fulItems: tm('products.stream.mediaCage.easyPowerful.items') as any
   };
   return mergeWithDefaults(obj, props);
@@ -81,26 +87,26 @@ const localizedDefaults: any = computed(() => {
         align-items: center;
         padding-top: 33px;
         position: relative;
-
-        &::after {
-          display: block;
-          content: '';
-          width: 118.01px;
-          height: 46.31px;
-          position: absolute;
-          right: -50%;
-          top: 0;
-          margin-left: -32px;
-          margin-top: 46px;
-          background: url('/images/home/arrow@2x.png');
-          background-size: 100% 100%;
-        }
-        &:last-child {
+        &.showNext {
           &::after {
-            display: none;
+            display: block;
+            content: '';
+            width: 118.01px;
+            height: 46.31px;
+            position: absolute;
+            right: -50%;
+            top: 0;
+            margin-left: -32px;
+            margin-top: 46px;
+            background: url('/images/home/arrow@2x.png');
+            background-size: 100% 100%;
+          }
+          &:last-child {
+            &::after {
+              display: none;
+            }
           }
         }
-
         > .icon {
           width: 80px;
           height: 80px;

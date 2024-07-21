@@ -331,5 +331,45 @@
       "I have read and agree to the polyfill",
       " Privacy Policy "
     ]
+  },
+  "AffiliateProgram": {
+    "preTitle": "Polyfill Affiliate Program",
+    "title": "Join Polyfill Affiliate  program and help us  grow faster",
+    "content": "Help us grow and earn money along the way. We help you make the most referrals  possible with resources to a library of global creative, ready-made education and  lead magnets.",
+    "btn": "Join Polyfill Affiliate Program",
+    "hint": "A Polyfill.net account is needed to participate in the program.",
+    "neverHit": {
+      "title": "Register. Share. Earn.",
+      "subTitle": "Start earning money in 3 simple steps.",
+      "fulItems": [
+        {
+          "icon": "/images/home/affiliate_1_ic_1@2x.png",
+          "width": "80px",
+          "height": "80px",
+          "alignType": "center",
+          "title": "Register",
+          "content": "Create a paid account at Polyfill.net.",
+          "contentAlign": "center"
+        },
+        {
+          "icon": "/images/home/affiliate_1_ic_2@2x.png",
+          "width": "80px",
+          "height": "80px",
+          "alignType": "center",
+          "title": "Share you link",
+          "content": "Share your unique link with the world.",
+          "contentAlign": "center"
+        },
+        {
+          "icon": "/images/home/affiliate_1_ic_3@2x.png",
+          "width": "80px",
+          "height": "80px",
+          "alignType": "center",
+          "title": "Start making money",
+          "content": "Earn $20 for each paid signup.",
+          "contentAlign": "center"
+        }
+      ]
+    }
   }
 }
