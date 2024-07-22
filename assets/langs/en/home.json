@@ -370,6 +370,64 @@
           "contentAlign": "center"
         }
       ]
+    },
+    "listBtn": "Get Your Affiliate Code",
+    "list1": {
+      "title1": "How does it work?",
+      "title2": "Getting started with the Polyfill Affiliate program is free and easy.",
+      "items": [
+        {
+          "icon": "/images/home/affiliate_2_ic_1@2x.png",
+          "title": "Pay Only For What You Use",
+          "content": "Only pay for the number of minutes you transcribe with no minimum recurring costs."
+        },
+        {
+          "icon": "/images/home/affiliate_2_ic_2@2x.png",
+          "title": "$1 Monthly Minimum",
+          "content": "Get started for free with a 14-day free trial, and continue for as little as $1 per month."
+        },
+        {
+          "icon": "/images/home/affiliate_2_ic_3@2x.png",
+          "title": "All Features Included",
+          "content": "Use the full Transcribe AI feature set with no extra charges or hidden costs."
+        }
+      ]
+    },
+    "mktitle": "Pre-built Marketing Materials",
+    "mksubtitle": "Take advantage of pre-designed marketing materials. Choose from our extensive library of banner ads and find the ideal size for you.",
+    "Collapse": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Got further questions? We prepared a list of additional helpful information!",
+      "list": [
+        {
+          "title": "How does the Bunny Affiliate program work?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+        },
+        {
+          "title": "Who is eligible for the Bunny Affiliate program?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program.."
+        },
+        {
+          "title": "How do I join the affiliate program?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+        },
+        {
+          "title": "How much do I earn per referral?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+        },
+        {
+          "title": "Is there a maximum amount for commission?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+        },
+        {
+          "title": "When will I get my payout?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+        },
+        {
+          "title": "Can I create my own marketing materials?",
+          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+        }
+      ]
     }
   }
 }

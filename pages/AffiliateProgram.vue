@@ -23,6 +23,38 @@
     v-bind="$tm('home.AffiliateProgram.neverHit')"
   />
   <VSpace h="100px"></VSpace>
+  <CommonList1 v-bind="$tm('home.AffiliateProgram.list1')" />
+  <div class="btn-row page-container">
+    <div class="btn">
+      {{ $t('home.AffiliateProgram.listBtn') }}
+    </div>
+  </div>
+  <VSpace h="100px"></VSpace>
+  <div class="page-container Marketing">
+    <div class="mk-title">{{ $t('home.AffiliateProgram.mktitle') }}</div>
+    <div class="mk-subtitle">{{ $t('home.AffiliateProgram.mksubtitle') }}</div>
+    <div class="mkt-img">
+      <img
+        class="mkt-img"
+        src="/public/images/home/编组_178@2x.png"
+        alt=""
+        srcset=""
+      />
+    </div>
+  </div>
+  <VSpace h="40px"></VSpace>
+  <div class="btn-row page-container">
+    <div class="btn">
+      {{ $t('home.AffiliateProgram.listBtn') }}
+    </div>
+  </div>
+  <VSpace h="100px"></VSpace>
+  <HomeCollapse
+    :title="$t('home.AffiliateProgram.Collapse.title')"
+    :subtitle="$t('home.AffiliateProgram.Collapse.subtitle')"
+    :list="$tm('home.AffiliateProgram.Collapse.list')"
+  ></HomeCollapse>
+  <VSpace h="100px"></VSpace>
   <Footer />
 </template>
 
@@ -49,4 +81,53 @@ const list = ref([
   'DoS Protection'
 ]);
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .btn {
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid rgba(70, 207, 58, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mont, Mont;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+  }
+}
+.Marketing {
+  .mk-title {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+  }
+  .mk-subtitle {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin: 20px 0 40px 0;
+  }
+  .mkt-img {
+    width: 100%;
+  }
+}
+</style>
