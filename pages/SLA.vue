@@ -1,0 +1,136 @@
+<template>
+  <Header />
+  <CommonHeader1
+    :pre-title="$t('home.SLA.preTitle')"
+    :title="$t('home.SLA.title')"
+    :content="$t('home.SLA.content')"
+    :show-foot="true"
+    href="#"
+    :pic="{
+      src: '/images/home/SLA_banner_graph@2x.png',
+      w: '497px',
+      h: '491px',
+
+      msrc: '/images/home/SLA_banner_graph@2x.png',
+      mw: '26.5rem',
+      mh: '29.13rem'
+    }"
+  />
+  <div class="ad2-container" style="margin-bottom: 90px">
+    <template
+      v-for="(item, index) in $tm('home.SLA.ad2Container.items')"
+      :key="index"
+    >
+      <SolutionsAd2
+        :title="item.title"
+        :content="item?.content"
+        :content2="item?.content2"
+        :content3="item?.content3"
+        :content4="item?.content4"
+        :pic="item.pic"
+        :m-pic="item.pic"
+        :pic-width="item.width"
+        :pic-height="item.height"
+        m-pic-width="24.75rem"
+        m-pic-height="20.25rem"
+        :reverse="isMobile ? true : index % 2 === 0"
+      />
+    </template>
+  </div>
+  <div class="page-container table">
+    <div class="title">{{ $t('home.SLA.table.title') }}</div>
+    <div class="sub-title">{{ $t('home.SLA.table.preTitle') }}</div>
+    <div class="table-body">
+      <div
+        class="col"
+        v-for="(items, index) in $tm('home.SLA.table.list')"
+        :key="index"
+      >
+        <div class="item" v-for="(item, indexs) in items" :key="indexs">
+          {{ item }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</template>
+
+<script setup lang="ts"></script>
+<style lang="scss" scoped>
+.table {
+  position: relative;
+  /* &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, #e6edfc 0%, #fafafa 100%);
+  } */
+  .title {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 20px;
+    z-index: 11;
+  }
+  .sub-title {
+    width: 600px;
+    margin: 0 auto;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    z-index: 11;
+  }
+  .table-body {
+    margin: 31px 0 100px;
+    z-index: 11;
+    width: 1159px;
+    height: 354px;
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    padding: 40px 166px 40px 40px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    .col {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .item {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4e4e4e;
+        line-height: 24px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        &:first-child {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 30px;
+          color: #000000;
+          line-height: 42px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}
+</style>

@@ -429,5 +429,60 @@
         }
       ]
     }
+  },
+  "SLA": {
+    "preTitle": "Service Level Agreement",
+    "title": "Stay online.  No matter what.",
+    "content": "Behind a cute name stands a furious beast. Thanks to redundancy on every step, we offer enterprise level stability in our core infrastructure.",
+    "ad2Container": {
+      "title": "",
+      "subTitle": "",
+      "items": [
+        {
+          "pic": "/images/home/Uptime_Guaran_img@2x.png",
+          "title": "99.99% Uptime Guarantee",
+          "content": "The Polyfill.net platform was designed with performance and stability in mind. Our system leverages automatic healing and failover in case of server failure using multiple methods of uptime and performance monitoring. On top of that, our team is working around the clock to prevent and minimize any disruptions and provide optimal performance around the globe.",
+          "width": "400px",
+          "height": "400px"
+        },
+        {
+          "pic": "/images/home/Redundant_Infrastructure_img@2x.png",
+          "title": "Redundant Infrastructure",
+          "content": "By utilizing a redundant architecture and intelligent BGP routing, we achieve automatic failover for our DNS system both in case of a hardware or network outage. We monitor our PoP edge servers in real-time to detect any network problems or performance degeneration and intelligently route around them.",
+          "width": "360px",
+          "height": "360px"
+        }
+      ]
+    },
+    "table": {
+      "list": [
+        [
+          "Monthly Availability",
+          "99.98%",
+          "99.95%",
+          "99.70%",
+          "99.50%",
+          "99.00%"
+        ],
+        [
+          "Outage Time",
+          "10 – 59 minutes",
+          "1 – 2 hours",
+          "2 – 4 hours",
+          "4 – 7 hours",
+          "7+ hours"
+        ],
+        [
+          "Outage Time",
+          "12 hours",
+          "24 hours",
+          "48 hours",
+          "120 hours",
+          "240 hours"
+        ]
+      ],
+      "title": "Outage Credits",
+      "preTitle": "In the event of monthly availability falling below our guarantees, your account will be  eligible for SLA credits based on your monthly usage."
+    }
   }
 }
