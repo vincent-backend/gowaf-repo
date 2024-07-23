@@ -484,5 +484,227 @@
       "title": "Outage Credits",
       "preTitle": "In the event of monthly availability falling below our guarantees, your account will be  eligible for SLA credits based on your monthly usage."
     }
+  },
+  "SupportHUB": {
+    "title": "How can we help you?",
+    "subtitle": "Guides, troubleshooting and support requests to help you get started with Polyfill.net.",
+    "list": [
+      {
+        "title": "CDN",
+        "subtitle": "Polyfill CDN product documentation, integration guides, and troubleshooting help.",
+        "items": [
+          {
+            "title": "Getting Started",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Integration Guides",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Product Documentatio",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Technical Informatio",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Troubleshooting",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Edge Rules",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "DNS",
+        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "items": [
+          {
+            "title": "Getting Started",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Product Documentatio",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Storage",
+        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "items": [
+          {
+            "title": "Getting Started",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Product Documentatio",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Stream",
+        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "items": [
+          {
+            "title": "Getting Started",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Product Documentatio",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Optimizer",
+        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "items": [
+          {
+            "title": "Getting Started",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Product Documentatio",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frequently Asked Questions (FAQ)",
+        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "items": [
+          {
+            "title": "Billing",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Pull Zones",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Edge Storage",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          },
+          {
+            "title": "Account",
+            "subtitle": [
+              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+              "The list of dynamic variables in the Edge Rule redirect URL",
+              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+              "How to correctly set up the Edge Rule trigger path",
+              "How to use Edge Rules to set a custom cache time for a file extension"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

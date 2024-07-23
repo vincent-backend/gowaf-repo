@@ -1,7 +1,7 @@
 <template>
-  <div class="home-Collapse page-container">
-    <div class="title">{{ title }}</div>
-    <div class="sub-title">{{ subtitle }}</div>
+  <div class="home-Collapse">
+    <div class="title" v-if="title">{{ title }}</div>
+    <div class="sub-title" v-if="subtitle">{{ subtitle }}</div>
     <el-collapse class="collapse" v-model="activeNames">
       <el-collapse-item
         class="collapse-item"
@@ -19,16 +19,26 @@
             srcset=""
           />
         </template>
-        <div class="text">
-          {{ item.subtitle }}
-        </div>
+        <template v-if="typeof item.subtitle === 'string'">
+          <div class="text">
+            {{ item.subtitle }}
+          </div>
+        </template>
+        <template v-else>
+          <div
+            class="text-arr"
+            v-for="(items, index) in item.subtitle"
+            :key="index"
+          >
+            {{ items }}
+          </div>
+        </template>
       </el-collapse-item>
     </el-collapse>
   </div>
 </template>
 
 <script setup lang="ts">
-import { Plus } from '@element-plus/icons-vue';
 withDefaults(
   defineProps<{
     title?: boolean;
@@ -44,6 +54,7 @@ const activeNames = ref(['1']);
 </script>
 <style lang="scss" scoped>
 .home-Collapse {
+  width: 100%;
   .title {
     font-family: PingFangSC, PingFang SC;
     font-weight: 500;
@@ -69,13 +80,14 @@ const activeNames = ref(['1']);
     width: 100%;
     display: flex;
     flex-direction: column;
+    border: none;
     gap: 20px;
     .collapse-item {
       background: #ffffff;
       min-height: 120px;
       box-shadow: 0px 4px 10px 0px #f1f1f1;
       border-radius: 14px;
-      border: 1px solid #e6e6e6;
+      border: none;
       padding: 0 20px;
       :deep(.el-collapse-item__header) {
         height: 120px;
@@ -87,7 +99,7 @@ const activeNames = ref(['1']);
         text-align: left;
         font-style: normal;
         text-transform: none;
-        .el-collapse-item__arrow{
+        .el-collapse-item__arrow {
           display: none;
         }
         &.is-active {
@@ -100,7 +112,7 @@ const activeNames = ref(['1']);
           width: 34px;
           height: 34px;
           margin-left: auto;
-          transition: all .3s;
+          transition: all 0.3s;
         }
       }
       .text {
@@ -113,6 +125,10 @@ const activeNames = ref(['1']);
         text-align: left;
         font-style: normal;
         text-transform: none;
+      }
+      .text-arr {
+        padding: 20px 0;
+        border-bottom: 1px solid #eaeaea;
       }
     }
   }

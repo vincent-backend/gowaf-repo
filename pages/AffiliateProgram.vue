@@ -49,11 +49,14 @@
     </div>
   </div>
   <VSpace h="100px"></VSpace>
-  <HomeCollapse
-    :title="$t('home.AffiliateProgram.Collapse.title')"
-    :subtitle="$t('home.AffiliateProgram.Collapse.subtitle')"
-    :list="$tm('home.AffiliateProgram.Collapse.list')"
-  ></HomeCollapse>
+  <div class="page-container">
+    <HomeCollapse
+      :title="$t('home.AffiliateProgram.Collapse.title')"
+      :subtitle="$t('home.AffiliateProgram.Collapse.subtitle')"
+      :list="$tm('home.AffiliateProgram.Collapse.list')"
+    ></HomeCollapse>
+  </div>
+
   <VSpace h="100px"></VSpace>
   <Footer />
 </template>
