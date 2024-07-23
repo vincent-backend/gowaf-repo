@@ -1,4 +1,5 @@
 <template>
+  <!-- select下拉框的icon 可替换 -->
   <img class="img" :src="src" alt="" />
 </template>
 

@@ -66,7 +66,7 @@ const activeNames = ref(['1']);
     margin: 20px 0 40px;
   }
   .collapse {
-    width: 1112px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
