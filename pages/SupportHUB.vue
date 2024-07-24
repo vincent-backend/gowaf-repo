@@ -35,6 +35,7 @@
 
 <script setup lang="ts">
 import { Search } from '@element-plus/icons-vue';
+import { ref } from 'vue';
 const input = ref('');
 </script>
 <style lang="scss" scoped>

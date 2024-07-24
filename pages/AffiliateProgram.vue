@@ -45,9 +45,9 @@
   <XsOnly>
     <Footer :showbot-foot="false" />
     <SolutionsAd1
-      :title="$t('products.cdn.overview.ad1.title')"
-      :sub-title="$t('products.cdn.overview.ad1.subTitle')"
-      :btn="$t('products.cdn.overview.ad1.btn')"
+      :title="$t('home.AffiliateProgram.fotad1.title')"
+      :sub-title="$t('home.AffiliateProgram.fotad1.subTitle')"
+      :btn="$t('home.AffiliateProgram.fotad1.btn')"
       href="#"
       pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
       pic-width="300px"
@@ -58,17 +58,18 @@
     />
     <VSpace h="100px" mh="3.75rem" bg="#fff"></VSpace>
     <SolutionsAd1
-      :title="$t('products.cdn.overview.ad1.title')"
-      :sub-title="$t('products.cdn.overview.ad1.subTitle')"
+      :title="$t('home.AffiliateProgram.fotad2.title')"
+      :sub-title="$t('home.AffiliateProgram.fotad2.subTitle')"
       :btn="$t('products.cdn.overview.ad1.btn')"
       href="#"
-      pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+      pic="/images/home/video_banner_graph@2x.png"
       pic-width="300px"
       pic-height="300px"
-      m-pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+      m-pic="/images/home/video_banner_graph@2x.png"
       m-pic-width="18.75rem"
       m-pic-height="18.72rem"
     />
+    <VSpace h="100px" mh="3.75rem" bg="#fff"></VSpace>
   </XsOnly>
   <LgOnly>
     <VSpace h="40px" mh="6.25rem"></VSpace>
