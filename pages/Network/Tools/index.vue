@@ -36,11 +36,19 @@
     ]"
   />
   <NetworkToolsBenner />
-  <ProductsNeverHit
-    class="NeverHit-box"
-    :isShowTitle="false"
-    :neverHit="$tm('network.WebTools.neverHit')"
-  />
+  <LgOnly>
+    <ProductsNeverHit
+      class="NeverHit-box"
+      :isShowTitle="false"
+      :neverHit="$tm('network.WebTools.neverHit')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <ProductsNeverHitList
+      :isShowTitle="true"
+      :neverHit="$tm('network.WebTools.neverHit')"
+    />
+  </XsOnly>
   <Footer :is-show-banner="false" />
 </template>
 
