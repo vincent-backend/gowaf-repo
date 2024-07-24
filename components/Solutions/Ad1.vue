@@ -9,13 +9,14 @@ defineProps<{
   picHeight: string;
   mPic: string;
   mPicWidth: string;
+  reverse: Boolean;
   mPicHeight: string;
 }>();
 </script>
 
 <template>
   <div class="ad1-container">
-    <div class="ad1 page-container">
+    <div class="ad1 page-container" :class="{ reverse: reverse }">
       <div class="left">
         <div class="title">{{ title }}</div>
         <div class="sub-title">{{ subTitle }}</div>
@@ -83,6 +84,10 @@ defineProps<{
       .pic {
       }
     }
+    &.reverse {
+      flex-direction: row-reverse;
+      // flex-direction: column-reverse;
+    }
   }
 }
 
@@ -126,6 +131,10 @@ defineProps<{
       > .right {
         .pic {
         }
+      }
+      &.reverse {
+        // flex-direction: row-reverse;
+        flex-direction: column-reverse;
       }
     }
   }

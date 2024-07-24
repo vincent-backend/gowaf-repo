@@ -33,8 +33,8 @@
       h: '470px',
 
       msrc: '/images/products/optimizer/overview/cdnfeatures_performance_img@2x.png',
-      mw: '25.63rem',
-      mh: '22.88rem'
+      mw: '29.38rem',
+      mh: '29.38rem'
     }"
   />
   <ProductsEasyPowerful
@@ -57,6 +57,10 @@
     pic="/images/products/optimizer/overview/SmartEdge™_graph_1@2x.png"
     pic-width="447px"
     pic-height="302px"
+    m-pic="/images/products/optimizer/overview/SmartEdge™_graph_1@2x.png"
+    m-pic-height="18.88rem"
+    m-pic-width="27.94rem"
+    :reverse="isMobile"
     class="Minimize"
   >
     <div class="percentage">
@@ -100,6 +104,10 @@
     pic="/images/products/optimizer/overview/multi_drmprcing_img@2x.png"
     pic-width="582px"
     pic-height="582px"
+    m-pic="/images/products/optimizer/overview/multi_drmprcing_img@2x.png"
+    m-pic-height="36.38rem"
+    m-pic-width="36.38rem"
+    :reverse="isMobile"
     class="website"
   >
     <template #title>
@@ -125,6 +133,10 @@
     pic="/images/products/optimizer/overview/stream_overview_banner_graph@2x.png"
     pic-width="456px"
     pic-height="278px"
+    m-pic="/images/products/optimizer/overview/stream_overview_banner_graph@2x.png"
+    m-pic-height="17.38rem"
+    m-pic-width="28.5rem"
+    :reverse="isMobile"
     class="Boost"
   >
   </SolutionsAd2>
@@ -214,5 +226,87 @@
   background: linear-gradient(41.5494227786465deg, #46cf3a 0%, #36cfbc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px) {
+  .Minimize {
+    margin-bottom: 6.25rem;
+    .percentage {
+      display: flex;
+      gap: 1.88rem;
+      margin-top: 1.25rem;
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .num {
+        display: flex;
+        align-items: center;
+        gap: 0.63rem;
+
+        .numt {
+          font-family: Mont, Mont;
+          font-weight: 600;
+          font-size: 3rem;
+          color: #000000;
+          line-height: 4rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .numic {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-image: url('/images/products/optimizer/overview/SmartEdge™_ic_rise@2x.png');
+        }
+      }
+
+      .yellow {
+        .numt {
+          background: linear-gradient(0deg, #f9c22f 0%, #fa6e4a 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .numic {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-image: url('/images/products/optimizer/overview/SmartEdge™_ic_descend@2x.png');
+        }
+      }
+
+      .sub-title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #4e4e4e;
+        line-height: 1.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+  }
+  .highlight {
+    font-family: Mont, Mont;
+    font-weight: 500;
+    font-size: 3.13rem;
+    color: #000000;
+    line-height: 4.13rem;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    background: linear-gradient(41.5494227786465deg, #46cf3a 0%, #36cfbc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .Boost {
+    margin-bottom: 6.25rem;
+  }
 }
 </style>

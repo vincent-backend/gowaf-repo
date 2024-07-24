@@ -22,18 +22,18 @@
     :show-next="false"
     v-bind="$tm('home.AffiliateProgram.neverHit')"
   />
-  <VSpace h="100px"></VSpace>
+  <VSpace h="100px" mh="6.25rem"></VSpace>
   <CommonList1 v-bind="$tm('home.AffiliateProgram.list1')" />
   <div class="btn-row page-container">
     <div class="btn">
       {{ $t('home.AffiliateProgram.listBtn') }}
     </div>
   </div>
-  <VSpace h="100px"></VSpace>
+  <VSpace h="100px" mh="6.25rem"></VSpace>
   <div class="page-container Marketing">
     <div class="mk-title">{{ $t('home.AffiliateProgram.mktitle') }}</div>
     <div class="mk-subtitle">{{ $t('home.AffiliateProgram.mksubtitle') }}</div>
-    <div class="mkt-img">
+    <div class="mkt-img" v-if="!isMobile">
       <img
         class="mkt-img"
         src="/public/images/home/编组_178@2x.png"
@@ -42,13 +42,43 @@
       />
     </div>
   </div>
-  <VSpace h="40px"></VSpace>
-  <div class="btn-row page-container">
-    <div class="btn">
-      {{ $t('home.AffiliateProgram.listBtn') }}
+  <XsOnly>
+    <Footer :showbot-foot="false" />
+    <SolutionsAd1
+      :title="$t('products.cdn.overview.ad1.title')"
+      :sub-title="$t('products.cdn.overview.ad1.subTitle')"
+      :btn="$t('products.cdn.overview.ad1.btn')"
+      href="#"
+      pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+      pic-width="300px"
+      pic-height="300px"
+      m-pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+      m-pic-width="18.75rem"
+      m-pic-height="18.72rem"
+    />
+    <VSpace h="100px" mh="3.75rem" bg="#fff"></VSpace>
+    <SolutionsAd1
+      :title="$t('products.cdn.overview.ad1.title')"
+      :sub-title="$t('products.cdn.overview.ad1.subTitle')"
+      :btn="$t('products.cdn.overview.ad1.btn')"
+      href="#"
+      pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+      pic-width="300px"
+      pic-height="300px"
+      m-pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
+      m-pic-width="18.75rem"
+      m-pic-height="18.72rem"
+    />
+  </XsOnly>
+  <LgOnly>
+    <VSpace h="40px" mh="6.25rem"></VSpace>
+    <div class="btn-row page-container">
+      <div class="btn">
+        {{ $t('home.AffiliateProgram.listBtn') }}
+      </div>
     </div>
-  </div>
-  <VSpace h="100px"></VSpace>
+  </LgOnly>
+  <VSpace h="100px" mh="3.25rem"></VSpace>
   <div class="page-container">
     <HomeCollapse
       :title="$t('home.AffiliateProgram.Collapse.title')"
@@ -56,8 +86,7 @@
       :list="$tm('home.AffiliateProgram.Collapse.list')"
     ></HomeCollapse>
   </div>
-
-  <VSpace h="100px"></VSpace>
+  <VSpace h="100px" mh="6.25rem"></VSpace>
   <Footer />
 </template>
 
@@ -131,6 +160,58 @@ const list = ref([
   }
   .mkt-img {
     width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .btn-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    .btn {
+      width: 22.88rem;
+      height: 4.63rem;
+      background: #ffffff;
+      border-radius: 2.34rem;
+      border: 0.13rem solid rgba(70, 207, 58, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Mont, Mont;
+      font-weight: 600;
+      font-size: 1.63rem;
+      color: #000000;
+      line-height: 2.13rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+  .Marketing {
+    .mk-title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 2.5rem;
+      color: #000000;
+      line-height: 3.5rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .mk-subtitle {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      line-height: 2.38rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      margin: 1rem 0 2rem 0;
+    }
+    .mkt-img {
+      width: 100%;
+    }
   }
 }
 </style>

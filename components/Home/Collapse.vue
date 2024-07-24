@@ -133,4 +133,88 @@ const activeNames = ref(['1']);
     }
   }
 }
+@media (max-width: 767px) {
+  .home-Collapse {
+    width: 100%;
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 2.5rem;
+      color: #000000;
+      line-height: 3.5rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .sub-title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      line-height: 2.38rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .collapse {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border: none;
+      gap: 20px;
+      .collapse-item {
+        background: #ffffff;
+        min-height: 7.75rem;
+        box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;
+        border-radius: 0.88rem;
+        border: none;
+        padding: 0 1.25rem;
+        :deep(.el-collapse-item__content) {
+          padding: 0;
+        }
+        :deep(.el-collapse-item__header) {
+          height: 7.75rem;
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 1.88rem;
+          color: #000000;
+          line-height: 2.63rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          .el-collapse-item__arrow {
+            display: none;
+          }
+          &.is-active {
+            border-bottom: 1px solid #d8d8d8;
+            .header-icon {
+              transform: rotate(180deg);
+            }
+          }
+          .header-icon {
+            width: 2.13rem;
+            height: 2.13rem;
+            margin-left: auto;
+            transition: all 0.3s;
+          }
+        }
+        .text {
+          padding: 1.25rem 0;
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 1.5rem;
+          color: #4e4e4e;
+          line-height: 2.06rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        .text-arr {
+          padding: 1.25rem 0;
+          border-bottom: 1px solid #eaeaea;
+        }
+      }
+    }
+  }
+}
 </style>

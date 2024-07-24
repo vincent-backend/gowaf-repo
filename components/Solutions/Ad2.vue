@@ -16,7 +16,7 @@ const props = defineProps({
   mPicHeight: String,
   btnSubtext: String,
   reverse: Boolean,
-  singleRowlist: Boolean,
+  singleRowlist: Boolean
 });
 </script>
 
@@ -24,28 +24,31 @@ const props = defineProps({
   <div class="ad2-container">
     <div class="ad2 page-container" :class="{ reverse: props.reverse }">
       <div class="left">
-        <div class="pic" :style="isMobile
-          ? {
-            backgroundImage: `url(${mPic})`,
-            width: mPicWidth,
-            height: mPicHeight
-          }
-          : {
-            backgroundImage: `url(${pic})`,
-            width: picWidth,
-            height: picHeight
-          }
-          "></div>
+        <div
+          class="pic"
+          :style="
+            isMobile
+              ? {
+                  backgroundImage: `url(${mPic})`,
+                  width: mPicWidth,
+                  height: mPicHeight
+                }
+              : {
+                  backgroundImage: `url(${pic})`,
+                  width: picWidth,
+                  height: picHeight
+                }
+          "
+        ></div>
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
           <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
+          <div class="btn-sub">{{ props.btnSubtext }}</div>
         </div>
       </div>
       <div class="right">
         <!-- title -->
-        <div class="title">
-          <slot name="title" />{{ props.title }}
-        </div>
+        <div class="title"><slot name="title" />{{ props.title }}</div>
 
         <!-- content -->
         <div class="content">{{ props.content }}</div>
@@ -84,32 +87,33 @@ const props = defineProps({
     align-items: center;
     justify-content: space-between;
 
-    >.left {
-      .pic {}
+    > .left {
+      .pic {
+      }
 
-      >.btn-container {
+      > .btn-container {
         display: none;
       }
     }
 
-    >.right {
+    > .right {
       width: 600px;
 
-      >.title {
+      > .title {
         font-weight: 500;
         font-size: 30px;
 
         line-height: 42px;
       }
 
-      >.content {
+      > .content {
         margin-top: 20px;
 
         font-size: 16px;
         color: #4e4e4e;
       }
 
-      >.list {
+      > .list {
         margin-top: 40px;
         display: flex;
         flex-wrap: wrap;
@@ -149,7 +153,7 @@ const props = defineProps({
         }
       }
 
-      >.btn-container {
+      > .btn-container {
         margin-top: 40px;
 
         .btn-sub {
@@ -157,7 +161,7 @@ const props = defineProps({
           font-family: PingFangSC, PingFang SC;
           font-weight: 400;
           font-size: 12px;
-          color: #4E4E4E;
+          color: #4e4e4e;
           line-height: 24px;
           text-align: left;
           font-style: normal;
@@ -182,36 +186,49 @@ const props = defineProps({
       display: flex;
       flex-direction: column;
 
-      >.left {
+      > .left {
         margin-top: 3.13rem;
 
-        .pic {}
+        .pic {
+        }
 
-        >.btn-container {
+        > .btn-container {
           margin-top: 3.6rem;
           display: flex;
+          gap: 0.7rem;
+          flex-direction: column;
           justify-content: center;
+          .btn-sub {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 400;
+            font-size: 1.63rem;
+            color: #4e4e4e;
+            line-height: 2.38rem;
+            text-align: center;
+            font-style: normal;
+            text-transform: none;
+          }
         }
       }
 
-      >.right {
+      > .right {
         width: 43.13rem;
 
-        >.title {
+        > .title {
           font-weight: 500;
           font-size: 2.5rem;
 
           line-height: 1.4;
         }
 
-        >.content {
+        > .content {
           margin-top: 1.75rem;
 
           font-size: 1.75rem;
           color: #4e4e4e;
         }
 
-        >.list {
+        > .list {
           margin-top: 2.5rem;
           display: flex;
           flex-wrap: wrap;
@@ -249,7 +266,7 @@ const props = defineProps({
           }
         }
 
-        >.btn-container {
+        > .btn-container {
           display: none;
         }
       }

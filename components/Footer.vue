@@ -6,10 +6,12 @@ withDefaults(
       page: string;
     };
     showFoot?: boolean;
+    showbotFoot?: boolean;
   }>(),
   {
     showFoot: true,
-    isShowBanner: true
+    isShowBanner: true,
+    showbotFoot: true
   }
 );
 </script>
@@ -40,7 +42,7 @@ withDefaults(
       </div>
     </div>
   </footer>
-  <footer class="footer-2-container">
+  <footer v-if="showbotFoot" class="footer-2-container">
     <div class="page-container footer-2">
       <div class="logo-container">
         <div class="logo"></div>
