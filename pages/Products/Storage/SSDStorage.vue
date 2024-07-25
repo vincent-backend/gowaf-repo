@@ -5,12 +5,12 @@
     :items="[
       {
         label: $t('products.stream.breadCrumbs.overview'),
-        href: '#',
+        href: '/Products/Storage/BouuyStorage',
         current: false
       },
       {
-        label: $t('products.storage.breadCrumbs.edgeTier'),
-        href: '#',
+        label: $t('products.storage.breadCrumbs.SSDStorage'),
+        href: '/Products/Storage/SSDStorage',
         current: true
       },
       {

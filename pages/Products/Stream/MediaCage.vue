@@ -1,40 +1,6 @@
 <template>
   <Header />
-  <BreadCrumbs
-    :title="$t('products.stream.breadCrumbs.parent')"
-    :items="[
-      {
-        label: $t('products.stream.breadCrumbs.overview'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.stream.breadCrumbs.player'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.stream.breadCrumbs.mediaCage'),
-        href: '#',
-        current: true
-      },
-      {
-        label: $t('products.stream.breadCrumbs.multiDRM'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.stream.breadCrumbs.transcribeAI'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.stream.breadCrumbs.apiDocs'),
-        href: '#',
-        current: false
-      }
-    ]"
-  />
+  <BreadCrumbs :title="$t('products.stream.breadCrumbs.parent')" :items="StreamMenu($t,$route.path)" />
   <CommonHeader1
     :pre-title="$t('products.stream.mediaCage.header.preTitle')"
     :title="$t('products.stream.mediaCage.header.title')"

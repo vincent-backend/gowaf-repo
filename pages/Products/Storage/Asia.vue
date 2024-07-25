@@ -1,40 +1,7 @@
 <template>
   <Header />
-  <BreadCrumbs
-    :title="$t('products.cdn.breadCrumbs.parent')"
-    :items="[
-      {
-        label: $t('products.storage.breadCrumbs.overview'),
-        href: '#',
-        current: true
-      },
-      {
-        label: $t('products.storage.breadCrumbs.player'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.storage.breadCrumbs.mediaCage'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.storage.breadCrumbs.multiDRM'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.storage.breadCrumbs.transcribeAI'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.storage.breadCrumbs.apiDocs'),
-        href: '#',
-        current: false
-      }
-    ]"
-  />
+  <BreadCrumbs :title="$t('products.cdn.breadCrumbs.parent')" :items="CDNenu($t,$route.path)" />
+
   <CommonHeader1
     :pre-title="$t('products.storage.Asia.header.preTitle')"
     :title="$t('products.storage.Asia.header.title')"

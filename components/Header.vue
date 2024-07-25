@@ -34,7 +34,7 @@ const handleBack = () => {
         <div class="right">
           <HeaderMenu />
           <div class="buttons-container">
-            <a href="#" class="button button-login">
+            <a href="/login" class="button button-login">
               {{ $t('header.login') }}
             </a>
             <a href="#" class="button button-get-started">

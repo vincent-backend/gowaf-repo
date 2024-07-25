@@ -1,45 +1,7 @@
 <template>
   <Header />
-  <BreadCrumbs
-    :title="$t('products.cdn.breadCrumbs.parent')"
-    :items="[
-      {
-        label: $t('products.cdn.breadCrumbs.overview'),
-        href: '/Products/Cdn/Overview',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.features'),
-        href: '/Products/Cdn/Features',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.permaCache'),
-        href: '/Products/Cdn/PermaCache',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.safehop'),
-        href: '/Products/Cdn/SafeHop',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.regions'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.comparison'),
-        href: '/Products/Cdn/comparison/aws',
-        current: true
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.apiDocs'),
-        href: '#',
-        current: false
-      }
-    ]"
-  />
+  <BreadCrumbs :title="$t('products.cdn.breadCrumbs.parent')" :items="CDNenu($t,$route.path)" />
+
   <CommonHeader2
     :title="$t('products.cdn.comparison.header.title') + contrastName"
     :sub-title="
@@ -138,6 +100,7 @@
 
 <script setup lang="ts">
 const route = useRoute();
+console.log("route", route)
 const router = useRouter();
 const { tm } = useI18n();
 

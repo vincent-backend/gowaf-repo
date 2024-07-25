@@ -1,10 +1,16 @@
 <script lang="ts" setup>
+import { ArrowDown } from '@element-plus/icons-vue';
 defineProps<{
   title: string;
   items: {
     label: string;
     href: string;
     current: boolean;
+    children?: Array<{
+      label: string;
+      href: string;
+      current: boolean;
+    }>;
   }[];
 }>();
 // const router = useRouter()
@@ -22,13 +28,29 @@ defineProps<{
         <span class="separator"></span>
       </LgOnly>
       <div class="links">
-        <a
-          :href="item.href"
-          v-for="item in items"
-          :class="{ current: item.current }"
-        >
-          {{ item.label }}
-        </a>
+        <template v-for="item in items">
+          <a
+            v-if="!item.children"
+            :href="item.href"
+            :class="{ current: item.current }"
+          >
+            {{ item.label }}
+          </a>
+          <el-dropdown v-else>
+            <a class="dropdown-link" :class="{ current: item.current }">
+              {{ item.label }} <el-icon size="12"><ArrowDown /></el-icon>
+            </a>
+            <template #dropdown>
+              <el-dropdown-menu>
+                <el-dropdown-item v-for="(d, i) in item.children" :key="i">
+                  <a :href="d.href" :class="{ current: d.current }">
+                    {{ d.label }}
+                  </a>
+                </el-dropdown-item>
+              </el-dropdown-menu>
+            </template>
+          </el-dropdown>
+        </template>
       </div>
     </div>
   </div>
@@ -59,23 +81,18 @@ defineProps<{
     .links {
       display: flex;
       gap: 34px;
+      .dropdown-link {
+        outline: none;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        gap: 5px;
+      }
 
       a {
         color: #4e4e4e;
         line-height: 18px;
         white-space: nowrap;
-
-        &.current {
-          font-weight: 500;
-          line-height: 18px;
-          background: linear-gradient(
-            41.5494227786465deg,
-            #46cf3a 0%,
-            #36cfbc 100%
-          );
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
       }
     }
   }
@@ -101,5 +118,15 @@ defineProps<{
       }
     }
   }
+}
+</style>
+
+<style lang="scss">
+.current {
+  font-weight: 500;
+  line-height: 18px;
+  background: linear-gradient(41.5494227786465deg, #46cf3a 0%, #36cfbc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 </style>

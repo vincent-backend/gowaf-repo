@@ -8,7 +8,19 @@
       "safehop": "Safehop",
       "regions": "Regions",
       "comparison": "Comparison",
-      "apiDocs": "API Docs"
+      "apiDocs": "API Docs",
+      "Europe": "Europe",
+      "North_America": "North America",
+      "Asia": "Asia",
+      "Latin_America": "Latin America",
+      "Australia": "Australia",
+      "AfriceMiddleEast": "Africa & Middle East",
+      "AWS": "CloudFront AWS",
+      "cacheFly": "CacheFly",
+      "CDN77": "CDN77",
+      "cloudFlare": "CloudFlare",
+      "fastly": "Fastly",
+      "vsakamai": "Akamai"
     },
     "overview": {
       "header": {
@@ -2042,7 +2054,8 @@
       "multiDRM": "Multi-DRM",
       "transcribeAI": "Transcribe Al",
       "apiDocs": "API Docs",
-      "TransformAPI": "TransformAPI"
+      "TransformAPI": "TransformAPI",
+      "SSDStorage": "SSD Storage"
     },
     "Europe": {
       "header": {

@@ -1,45 +1,6 @@
 <template>
   <Header />
-  <BreadCrumbs
-    :title="$t('products.cdn.breadCrumbs.parent')"
-    :items="[
-      {
-        label: $t('products.cdn.breadCrumbs.overview'),
-        href: '/Products/Cdn/Overview',
-        current: true
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.features'),
-        href: '/Products/Cdn/Features',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.permaCache'),
-        href: '/Products/Cdn/PermaCache',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.safehop'),
-        href: '/Products/Cdn/SafeHop',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.regions'),
-        href: '#',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.comparison'),
-        href: '/Products/Cdn/comparison/aws',
-        current: false
-      },
-      {
-        label: $t('products.cdn.breadCrumbs.apiDocs'),
-        href: '#',
-        current: false
-      }
-    ]"
-  />
+  <BreadCrumbs :title="$t('products.cdn.breadCrumbs.parent')" :items="CDNenu($t,$route.path)" />
 
   <CommonHeader1
     :pre-title="$t('products.cdn.overview.header.preTitle')"
