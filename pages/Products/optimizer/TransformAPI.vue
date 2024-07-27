@@ -110,7 +110,11 @@
 
   <Footer />
 </template>
-
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>
 <style lang="scss" scoped>
 .Minimize {
   margin-bottom: 120px;

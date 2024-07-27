@@ -20,7 +20,7 @@
     <div class="agreement">
       <el-checkbox v-model="formLabelAlign.checked" size="large">
         <template v-for="(item, index) in $tm('home.forgot.agreement')">
-          <span :class="{ green: [1, 3, 5].includes(index) }">{{ item }}</span>
+          <font :class="{ green: [1, 3, 5].includes(index) }">{{ item }}</font>
         </template>
       </el-checkbox>
     </div>
@@ -101,19 +101,28 @@ defineEmits(['toForgot']);
   margin-bottom: 30px;
   .green {
     color: #0ebf6a;
-  }
+  } 
   :deep(.el-checkbox) {
     display: inline-flex;
+    max-width: 100%;
     align-items: flex-start;
     height: fit-content;
     .el-checkbox__input{
       margin-top: 10px;
     }
     .el-checkbox__label {
-      display: flex;
+      white-space: break-spaces;
+      /* display: inline-flex;
       flex-wrap: wrap;
       gap: 2px;
+      max-width: 100%;
+      span{
+        word-break: break-all;
+      } */
     }
   }
+}
+@media (max-width: 767px){
+
 }
 </style>

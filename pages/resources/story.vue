@@ -80,6 +80,11 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>
 <style lang="scss" scoped>
 .title {
   position: relative;

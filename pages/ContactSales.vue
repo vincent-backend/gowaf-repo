@@ -11,16 +11,16 @@
       w: '420px',
       h: '340px',
 
-      msrc: '/mobile-images/home/Contact_banner_graph@2x.png',
+      msrc: '/images/home/Contact_banner_graph@2x.png',
       mw: '26.5rem',
-      mh: '29.13rem'
+      mh: '21.25rem'
     }"
   />
   <div class="form-body">
     <div class="main">
       <el-form label-position="top" :model="formLabelAlign" size="large">
         <el-row :gutter="20">
-          <el-col :span="12">
+          <el-col :span="12" :xs="24">
             <el-form-item label="Full Name">
               <el-input
                 v-model="formLabelAlign.name"
@@ -28,8 +28,8 @@
               />
             </el-form-item>
           </el-col>
-          <el-col :span="12"
-            ><el-form-item label="Email">
+          <el-col :span="12" :xs="24">
+            <el-form-item label="Email">
               <el-input
                 v-model="formLabelAlign.Email"
                 placeholder="you@company.com"
@@ -38,7 +38,7 @@
           </el-col>
         </el-row>
         <el-row :gutter="20">
-          <el-col :span="12">
+          <el-col :span="12" :xs="24">
             <el-form-item label="Company">
               <el-input
                 v-model="formLabelAlign.Company"
@@ -46,7 +46,7 @@
               />
             </el-form-item>
           </el-col>
-          <el-col :span="12">
+          <el-col :span="12" :xs="24">
             <el-form-item label="Website">
               <el-input
                 v-model="formLabelAlign.Website"
@@ -56,7 +56,7 @@
           </el-col>
         </el-row>
         <el-row :gutter="20">
-          <el-col :span="12">
+          <el-col :span="12" :xs="24">
             <el-form-item label="Phone">
               <el-input
                 v-model="formLabelAlign.Phone"
@@ -64,7 +64,7 @@
               />
             </el-form-item>
           </el-col>
-          <el-col :span="12">
+          <el-col :span="12" :xs="24">
             <el-form-item label="Your website link">
               <el-input
                 v-model="formLabelAlign.link"
@@ -107,7 +107,7 @@
             <template
               v-for="(item, index) in $tm('home.ContactSales.agreement')"
             >
-              <span :class="{ green: [1].includes(index) }">{{ item }}</span>
+              <font :class="{ green: [1].includes(index) }">{{ item }}</font>
             </template>
           </el-checkbox>
         </div>
@@ -123,6 +123,9 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
 const formLabelAlign = reactive({
   name: '',
   Email: '',
@@ -216,12 +219,13 @@ const list = ref([
     color: #0ebf6a;
   }
   :deep(.el-checkbox) {
-    display: inline-flex;
-    height: fit-content;
+    /* display: inline-flex; */
+    /* height: fit-content; */
     .el-checkbox__label {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2px;
+      white-space: break-spaces;
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      /* gap: 2px; */
     }
   }
 }
@@ -247,6 +251,62 @@ const list = ref([
     height: 100%;
     border-radius: 25px;
     background: #fff;
+  }
+}
+@media (max-width: 767px) {
+  .form-body {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    .main {
+      width: 43.13rem;
+      height: fit-content;
+      background: #ffffff;
+      box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(166, 183, 183, 0.1);
+      border-radius: 3rem;
+      border: 0.06rem solid #e6e6e6;
+      margin-top: -5.4rem;
+      box-sizing: border-box;
+      padding: 2.88rem 2.8rem;
+      z-index: 11;
+    }
+  }
+  .Message-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    .item {
+      width: 18.13rem;
+      height: 5rem;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ecfbee;
+      cursor: pointer;
+      .text {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        text-align: center;
+        font-style: normal;
+        text-transform: none;
+        background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      &.activation {
+        background: linear-gradient(90deg, #46cf3a 0%, #36cfbc 100%);
+        .text {
+          color: #fff;
+          background: none;
+          -webkit-text-fill-color: unset;
+        }
+      }
+    }
   }
 }
 </style>

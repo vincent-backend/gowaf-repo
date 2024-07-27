@@ -137,7 +137,11 @@
   <Footer :isShowBanner="false" />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>
 <style lang="scss" scoped>
 .bottom-header {
   width: 100%;

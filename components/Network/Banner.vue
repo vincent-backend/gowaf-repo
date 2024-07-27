@@ -268,6 +268,7 @@ const curTab = ref(0);
       > .tabs {
         padding-top: 1.87rem;
         justify-content: space-between;
+        margin-top: 0;
         gap: 0;
 
         a {

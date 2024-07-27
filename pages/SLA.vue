@@ -55,7 +55,11 @@
   <Footer />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  title: 'SLA'
+});
+</script>
 <style lang="scss" scoped>
 .table {
   position: relative;

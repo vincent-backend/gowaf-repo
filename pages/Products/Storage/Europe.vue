@@ -1,6 +1,9 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.cdn.breadCrumbs.parent')" :items="CDNenu($t,$route.path)" />
+  <BreadCrumbs
+    :title="$t('products.cdn.breadCrumbs.parent')"
+    :items="CDNenu($t, $route.path)"
+  />
 
   <CommonHeader1
     :pre-title="$t('products.storage.Europe.header.preTitle')"
@@ -83,6 +86,11 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>
 <style lang="less" scoped>
 @media (max-width: 767px) {
   .asia-join1 {

@@ -23,7 +23,7 @@
   <NetworkBanner />
 
   <VSpace h="80px" mh="11.94rem" />
-  <CommonNumbers :items="$tm('network.overview.numbers')" />
+  <CommonNumbers is-row is-two-row :items="$tm('network.overview.numbers')" />
   <NetworkFlags />
   <NetworkHop />
   <CommonList1 v-bind="$tm('network.overview.list1')" />
@@ -38,3 +38,8 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Network'
+});
+</script>

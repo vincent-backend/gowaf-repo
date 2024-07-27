@@ -89,6 +89,11 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>
 <style lang="less" scoped>
 // .Eskimi-products-customers {
 //   margin-top: 12.5rem;

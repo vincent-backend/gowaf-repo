@@ -24,6 +24,11 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'BookMeeting'
+});
+</script>
 <style lang="less" scoped>
 .header-container {
   height: 350px;

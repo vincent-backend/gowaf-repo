@@ -37,6 +37,9 @@
 import { Search } from '@element-plus/icons-vue';
 import { ref } from 'vue';
 const input = ref('');
+definePageMeta({
+  title: 'SupportHUB'
+});
 </script>
 <style lang="scss" scoped>
 .input-with-select {

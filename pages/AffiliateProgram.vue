@@ -90,9 +90,11 @@
   <VSpace h="100px" mh="6.25rem"></VSpace>
   <Footer />
 </template>
-
 <script setup lang="ts">
 import VSpace from './../components/VSpace.vue';
+definePageMeta({
+  title: 'AffiliateProgram'
+});
 const formLabelAlign = reactive({
   name: '',
   Email: '',

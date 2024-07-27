@@ -135,6 +135,11 @@
 
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Solutions'
+});
+</script>
 
 <style lang="less" scoped>
 .ad2-list {

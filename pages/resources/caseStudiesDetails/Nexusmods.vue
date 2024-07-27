@@ -86,3 +86,8 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>

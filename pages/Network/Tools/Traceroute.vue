@@ -157,6 +157,9 @@ import { CommonIconDropDown, CommonInputsubfix } from '#components';
 const { t, tm } = useI18n();
 const input = ref('');
 const show = ref(false);
+definePageMeta({
+  title: 'Web Tools'
+});
 
 const columnlist = [
   [

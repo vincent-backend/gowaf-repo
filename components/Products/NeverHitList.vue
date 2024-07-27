@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 defineProps<{
   isShowTitle: boolean;
+  type: string;
   neverHit: {
     title: string;
     subTitle: string;
@@ -18,6 +19,7 @@ defineProps<{
       title: string;
       content: string;
       alignType: string;
+      btn?: string;
     }>;
   };
 }>();
@@ -30,6 +32,7 @@ defineProps<{
       <div
         class="item"
         v-for="item in neverHit.items"
+        :class="{ isNotCard: type }"
         :style="{ alignItems: `${item.alignType}` }"
       >
         <div
@@ -42,6 +45,9 @@ defineProps<{
           <div class="title">{{ item.title }}</div>
           <div class="sub-title">
             {{ item.content }}
+          </div>
+          <div v-if="item.btn" class="btn">
+            {{ item.btn }}
           </div>
         </div>
       </div>
@@ -76,6 +82,40 @@ defineProps<{
     .item {
       display: flex;
       align-items: center;
+      &.isNotCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .text-row {
+          width: 33.81rem;
+          gap: 1rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .sub-title {
+            text-align: center;
+          }
+          .btn {
+            margin-top: 2rem;
+            background: #ffffff;
+            border-radius: 2.34rem;
+            border: 0.13rem solid rgba(70, 207, 58, 1);
+            padding: 1.25rem 1.88rem;
+            font-family: Mont, Mont;
+            font-weight: 600;
+            font-size: 1.63rem;
+            color: #000000;
+            line-height: 2.13rem;
+            font-style: normal;
+            text-transform: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
       .icon {
         width: 9.38rem;
         height: 9.38rem;

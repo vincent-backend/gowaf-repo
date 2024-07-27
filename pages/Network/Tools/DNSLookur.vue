@@ -121,6 +121,9 @@
 import { CommonIconDropDown, CommonInputsubfix } from '#components';
 const input = ref('');
 const select = ref('1');
+definePageMeta({
+  title: 'Web Tools'
+});
 </script>
 <style lang="scss" scoped>
 .input-with-select {

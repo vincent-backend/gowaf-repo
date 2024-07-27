@@ -64,7 +64,11 @@
 
   <Footer />
 </template>
-
+<script setup lang="ts">
+definePageMeta({
+  title: 'Pricing'
+});
+</script>
 <style lang="less" scoped>
 .price-1-container {
   width: 1200px;

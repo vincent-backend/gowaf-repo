@@ -234,6 +234,9 @@ withDefaults(
 
     > .right {
       margin-top: 140px;
+      .pic{
+        background-size: contain;
+      }
     }
   }
 

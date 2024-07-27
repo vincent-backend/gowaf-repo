@@ -1,6 +1,9 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.stream.breadCrumbs.parent')" :items="StreamMenu($t,$route.path)" />
+  <BreadCrumbs
+    :title="$t('products.stream.breadCrumbs.parent')"
+    :items="StreamMenu($t, $route.path)"
+  />
 
   <CommonHeader1
     :pre-title="$t('products.Stream.TranscribeAI.header.preTitle')"
@@ -99,7 +102,11 @@
   <Footer />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>
 <style lang="scss" scoped>
 .Planlist {
   display: flex;

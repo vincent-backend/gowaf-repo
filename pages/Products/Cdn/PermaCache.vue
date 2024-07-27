@@ -1,6 +1,9 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.cdn.breadCrumbs.parent')" :items="CDNenu($t,$route.path)" />
+  <BreadCrumbs
+    :title="$t('products.cdn.breadCrumbs.parent')"
+    :items="CDNenu($t, $route.path)"
+  />
   <CommonHeader1
     :pre-title="$t('products.cdn.permaCache.header.preTitle')"
     :title="$t('products.cdn.permaCache.header.title')"
@@ -67,3 +70,9 @@
 
   <Footer />
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>

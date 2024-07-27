@@ -1,6 +1,9 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.cdn.breadCrumbs.parent')" :items="CDNenu($t,$route.path)" />
+  <BreadCrumbs
+    :title="$t('products.cdn.breadCrumbs.parent')"
+    :items="CDNenu($t, $route.path)"
+  />
 
   <CommonHeader2
     :title="$t('products.cdn.comparison.header.title') + contrastName"
@@ -100,9 +103,11 @@
 
 <script setup lang="ts">
 const route = useRoute();
-console.log("route", route)
 const router = useRouter();
 const { tm } = useI18n();
+definePageMeta({
+  title: 'Products'
+});
 
 const NameMap: any = {
   aws: 'CloudFront AWS',

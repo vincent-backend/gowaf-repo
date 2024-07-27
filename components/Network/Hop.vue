@@ -24,7 +24,7 @@
 <style lang="less" scoped>
 .hop-container {
   margin-top: 80px;
-
+  overflow: hidden;
   height: 330px;
   background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
 

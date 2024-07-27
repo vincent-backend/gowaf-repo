@@ -25,7 +25,10 @@
     :items="$tm('solutions.securityCdn.features2.items')"
   />
 
-  <CommonSuperCharge class="SecurityCdn-SuperCharge" v-bind="$tm('solutions.securityCdn.goFaster')" />
+  <CommonSuperCharge
+    class="SecurityCdn-SuperCharge"
+    v-bind="$tm('solutions.securityCdn.goFaster')"
+  />
 
   <SolutionsAd1
     :title="$t('solutions.securityCdn.ad1.title')"
@@ -65,7 +68,13 @@
   <Footer />
 </template>
 <style lang="less" scoped>
-.SecurityCdn-SuperCharge,.SecurityCdn-NetworkJoin1{
+.SecurityCdn-SuperCharge,
+.SecurityCdn-NetworkJoin1 {
   margin-bottom: 6.25rem;
 }
 </style>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Solutions'
+});
+</script>

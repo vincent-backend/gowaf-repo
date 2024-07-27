@@ -52,6 +52,11 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>
 
 <style lang="less" scoped>
 .map-container {

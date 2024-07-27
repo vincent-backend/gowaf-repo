@@ -96,3 +96,8 @@
   // margin-bottom: 6.25rem;
 }
 </style>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>

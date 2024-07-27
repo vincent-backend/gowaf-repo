@@ -58,12 +58,20 @@
     bgColor="#fff"
     :btText="$tm('resources.caseStudies.logoIconListBtText')"
   />
-  <CommonList4 class="caseStudies-CommonList4" v-bind="$tm('resources.caseStudies.list')" />
+  <CommonList4
+    class="caseStudies-CommonList4"
+    v-bind="$tm('resources.caseStudies.list')"
+  />
 
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>
 <style lang="less" scoped>
-.caseStudies-CommonList4{
+.caseStudies-CommonList4 {
   margin-top: 0;
 }
 </style>

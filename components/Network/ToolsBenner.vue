@@ -65,4 +65,40 @@ const localizedDefaults: any = computed(() => {
     text-transform: none;
   }
 }
+@media (max-width: 767px) {
+  .benner {
+    width: 100%;
+    height: 45.13rem;
+    background: linear-gradient(322deg, #207af7 0%, #12e599 100%);
+    .page-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .benner-title {
+      font-family: Mont, Mont;
+      font-weight: bold;
+      font-size: 3.5rem;
+      color: #ffffff;
+      line-height: 5rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .benner-subtitle {
+      width: auto;
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.75rem;
+      color: #ffffff;
+      line-height: 2.81rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+}
 </style>

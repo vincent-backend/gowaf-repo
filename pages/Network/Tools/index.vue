@@ -45,14 +45,19 @@
   </LgOnly>
   <XsOnly>
     <ProductsNeverHitList
-      :isShowTitle="true"
+      :isShowTitle="false"
+      type="card"
       :neverHit="$tm('network.WebTools.neverHit')"
     />
   </XsOnly>
   <Footer :is-show-banner="false" />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Web Tools'
+});
+</script>
 <style lang="scss" scoped>
 .NeverHit-box {
   margin-bottom: 100px;

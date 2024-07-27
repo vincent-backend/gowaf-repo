@@ -107,8 +107,13 @@
   .about-CommonList {
     margin-bottom: 6.3rem;
   }
-  .Touch{
+  .Touch {
     margin-bottom: 6.25rem;
   }
 }
 </style>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Resources'
+});
+</script>

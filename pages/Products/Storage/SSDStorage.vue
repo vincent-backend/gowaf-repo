@@ -95,7 +95,11 @@
 
   <Footer />
 </template>
-
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>
 <style lang="scss" scoped>
 .Latency {
   display: flex;

@@ -75,6 +75,11 @@
   />
   <Footer />
 </template>
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>
 <style lang="less" scoped>
 .topimg-container {
   padding: 80px 0;

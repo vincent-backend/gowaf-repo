@@ -1,6 +1,9 @@
 <template>
   <Header />
-  <BreadCrumbs :title="$t('products.stream.breadCrumbs.parent')" :items="StreamMenu($t,$route.path)" />
+  <BreadCrumbs
+    :title="$t('products.stream.breadCrumbs.parent')"
+    :items="StreamMenu($t, $route.path)"
+  />
 
   <CommonHeader1
     :pre-title="$t('products.stream.player.header.preTitle')"
@@ -64,6 +67,12 @@
   />
   <Footer />
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  title: 'Products'
+});
+</script>
 
 <style lang="less" scoped>
 .player2-container {

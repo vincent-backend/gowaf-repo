@@ -12,12 +12,39 @@
         </div>
 
         <!-- Products -->
-        <div class="menu-item">
+        <div
+          class="menu-item"
+          :class="{ noborder: activation == 'Products' }"
+          @click="activation = activation == 'Products' ? '' : 'Products'"
+        >
           <div class="name">
             <a href="#">{{ $t('header.menus.products') }}</a>
             <i class="icon"></i>
           </div>
         </div>
+        <transition name="fade">
+          <el-menu
+            v-if="activation == 'Products'"
+            class="menu-main"
+            index="title"
+            unique-opened
+            background-color="#fff"
+            style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
+            text-color="#000"
+          >
+            <MenuItem
+              v-for="item in ProductsMenu($t, $route.path)"
+              :item="item"
+              :key="item.title"
+            />
+            <div class="tips">
+              <div class="text">
+                See how Polyfill helped other companies reach the next leve!
+              </div>
+              <div class="btn">Polyfill case studies</div>
+            </div>
+          </el-menu>
+        </transition>
 
         <div
           class="menu-item"
@@ -33,7 +60,7 @@
           <el-menu
             v-if="activation == 'solutions'"
             class="menu-main"
-            router
+            index="title"
             unique-opened
             background-color="#fff"
             style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
@@ -56,12 +83,39 @@
             </div>
           </el-menu>
         </transition>
-        <div class="menu-item">
+        <div
+          class="menu-item"
+          :class="{ noborder: activation == 'resources' }"
+          @click="activation = activation == 'resources' ? '' : 'resources'"
+        >
           <div class="name">
             <a href="#">{{ $t('header.menus.resources') }}</a>
             <i class="icon"></i>
           </div>
         </div>
+        <transition name="fade">
+          <el-menu
+            v-if="activation == 'resources'"
+            class="menu-main"
+            index="title"
+            unique-opened
+            background-color="#fff"
+            style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
+            text-color="#000"
+          >
+            <MenuItem
+              v-for="item in ResourcesMenu($t, $route.path)"
+              :item="item"
+              :key="item.title"
+            />
+            <div class="tips">
+              <div class="text">
+                See how Polyfill helped other companies reach the next leve!
+              </div>
+              <div class="btn">Polyfill case studies</div>
+            </div>
+          </el-menu>
+        </transition>
       </div>
       <div class="btn-row">
         <div class="login">{{ $t('header.login') }}</div>

@@ -26,6 +26,9 @@ const handleBack = () => {
         <div class="left" v-else>
           <a href="#" class="back" @click.prevent="handleBack"></a>
         </div>
+        <div class="home-title-text">
+          {{ $route.meta.title }}
+        </div>
         <HeaderCollapseMenu v-model:show="show" />
       </XsOnly>
 
@@ -223,7 +226,16 @@ const handleBack = () => {
 
     .header {
       width: 100%;
-
+      display: flex;
+      align-items: center;
+      .home-title-text {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.13rem;
+        color: #000000;
+        text-align: center;
+        font-style: normal;
+      }
       .left {
         .back {
           margin-left: 1.88rem;

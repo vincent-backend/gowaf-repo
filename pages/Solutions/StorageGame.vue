@@ -67,7 +67,11 @@
 
   <Footer />
 </template>
-
+<script setup lang="ts">
+definePageMeta({
+  title: 'Solutions'
+});
+</script>
 <style lang="less" scoped>
 .SecurityCdn-SuperCharge,
 .SecurityCdn-NetworkJoin1 {

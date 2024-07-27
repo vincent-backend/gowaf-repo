@@ -109,9 +109,11 @@
   </div>
   <Footer />
 </template>
-
 <script setup lang="ts">
 const curTab = ref(0);
+definePageMeta({
+  title: 'Resources'
+});
 </script>
 <style lang="scss" scoped>
 .header {

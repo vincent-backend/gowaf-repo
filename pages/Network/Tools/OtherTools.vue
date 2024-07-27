@@ -53,6 +53,10 @@
 <script setup lang="ts">
 const input = ref('');
 const select = ref('1');
+definePageMeta({
+  title: 'Web Tools'
+});
+
 </script>
 <style lang="scss" scoped>
 .btnBox {

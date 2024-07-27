@@ -7,19 +7,22 @@
       alt=""
     />
   </el-backtop>
-  <el-dialog v-model="dialogVisible" width="680" class="custom-dialog">
+  <el-dialog
+    v-model="dialogVisible"
+    :width="isMobile ? '43.13rem' : '680'"
+    class="custom-dialog"
+  >
     <template #title>
       <div class="dialog-top">
         <div class="talking">
-          <img
-            class="dialog-logo"
-            src="/public/images/home/chat_avatar@2x.png"
-          />
-          <div class="title">
-            {{ $t('home.login.backtop.title1') }}
-            <span class="sub">{{ $t('home.login.backtop.sub') }}</span>
+          <img class="dialog-logo" src="/public/images/home/Gowaf_logo_1.png" />
+          <div class="dialog-row">
+            <div class="title">
+              {{ $t('home.login.backtop.title1') }}
+              <span class="sub">{{ $t('home.login.backtop.sub') }}</span>
+            </div>
+            <div class="PREVIEW" src="" alt="">PREVIEW</div>
           </div>
-          <div class="PREVIEW" src="" alt="">PREVIEW</div>
         </div>
         <div class="btn-row">
           <img
@@ -93,6 +96,11 @@ const textarea = ref('');
     display: flex;
     align-items: center;
     gap: 10px;
+    .dialog-row {
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+    }
   }
   .dialog-logo {
     width: 50px;
@@ -185,6 +193,109 @@ const textarea = ref('');
     background-size: 100% 100%;
   }
 }
+@media (max-width: 767px) {
+  .backtop {
+    width: 9rem;
+    height: 9rem;
+  }
+  .dialog-top {
+    display: flex;
+    width: 100%;
+    height: 19rem;
+    justify-content: center;
+    flex-direction: column;
+    .talking {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      .dialog-row {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+      }
+    }
+    .dialog-logo {
+      width: 6.25rem;
+      height: 6.25rem;
+    }
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 2rem;
+      color: #000000;
+      line-height: 2.81rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      .sub {
+        color: #0ebf6a;
+      }
+    }
+    .PREVIEW {
+      width: 9.5rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #ffffff;
+      background: url('/public/images/home/home_card_tag_bg@2x.png');
+      background-size: 100% 100%;
+    }
+    .btn-row {
+      display: flex;
+      align-items: center;
+      margin-top: 2.5rem;
+      gap: 2.5rem;
+      .img {
+        width: 3rem;
+        height: 3rem;
+      }
+      .reset {
+        display: flex;
+        gap: 1rem;
+        width: 10rem;
+        height: 4rem;
+        background: #ffffff;
+        border-radius: 2rem;
+        border: 0.06rem solid #e6e6e6;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    .dialogBox {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+      .bold {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2rem;
+        color: #000000;
+        line-height: 2.81rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+      .ordinary {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #4e4e4e;
+        line-height: 2.13rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+  }
+}
 </style>
 
 <style lang="scss">
@@ -212,6 +323,34 @@ const textarea = ref('');
   .el-dialog__body {
     z-index: 1;
     position: relative;
+  }
+}
+@media (max-width: 767px) {
+  .custom-dialog {
+    border-radius: 1.75rem;
+    padding: 1.5rem;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      width: 43.13rem;
+      height: 19rem;
+      background: url('/public/images/home/chat_top@2x.png') no-repeat !important;
+      background-position: top left;
+      background-size: 43.13rem 19rem !important;
+    }
+    .el-dialog__header {
+      padding: 0;
+      z-index: 1;
+      position: relative;
+    }
+    .el-dialog__body {
+      z-index: 1;
+      position: relative;
+    }
   }
 }
 </style>
