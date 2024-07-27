@@ -3,10 +3,12 @@
     "breadCrumbs": {
       "parent": "CDN",
       "overview": "Overview",
+      "gowaf": "Gowaf CDN",
       "features": "Features",
       "permaCache": "Perma-Cache",
       "safehop": "Safehop",
       "regions": "Regions",
+      "dns": "DNS",
       "comparison": "Comparison",
       "apiDocs": "API Docs",
       "Europe": "Europe",

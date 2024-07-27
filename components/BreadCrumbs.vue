@@ -32,18 +32,18 @@ defineProps<{
           <a
             v-if="!item.children"
             :href="item.href"
-            :class="{ current: item.current }"
+            :class="{ dropdownCurrent: item.current }"
           >
             {{ item.label }}
           </a>
           <el-dropdown v-else>
-            <a class="dropdown-link" :class="{ current: item.current }">
+            <a class="dropdown-link" :class="{ dropdownCurrent: item.current }">
               {{ item.label }} <el-icon size="12"><ArrowDown /></el-icon>
             </a>
             <template #dropdown>
               <el-dropdown-menu>
                 <el-dropdown-item v-for="(d, i) in item.children" :key="i">
-                  <a :href="d.href" :class="{ current: d.current }">
+                  <a :href="d.href" :class="{ dropdownCurrent: d.current }">
                     {{ d.label }}
                   </a>
                 </el-dropdown-item>
@@ -112,7 +112,7 @@ defineProps<{
         a {
           font-size: 1.75rem;
 
-          &.current {
+          &.dropdownCurrent {
           }
         }
       }
@@ -122,7 +122,7 @@ defineProps<{
 </style>
 
 <style lang="scss">
-.current {
+.dropdownCurrent {
   font-weight: 500;
   line-height: 18px;
   background: linear-gradient(41.5494227786465deg, #46cf3a 0%, #36cfbc 100%);
