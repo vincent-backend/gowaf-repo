@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div class="collapse" v-if="show">
+    <div class="collapse" v-if="show" v-click-outside="onClickOutside">
       <div class="menu">
         <div class="menu-item">
           <a href="/network/overview">{{ $t('header.menus.network') }}</a>
@@ -118,8 +118,10 @@
         </transition>
       </div>
       <div class="btn-row">
-        <div class="login">{{ $t('header.login') }}</div>
-        <div class="get">{{ $t('header.getStarted') }}</div>
+        <div class="login" @click="$router.push({ path: '/login' })">
+          {{ $t('header.login') }}
+        </div>
+        <div class="get" @click="$router.push({ path: '/forgot' })">{{ $t('header.getStarted') }}</div>
         <div class="language">EN <i class="icon"></i></div>
       </div>
     </div>
@@ -127,12 +129,19 @@
 </template>
 
 <script setup lang="ts">
-defineEmits(['update:show']);
+import { ClickOutside as vClickOutside } from 'element-plus';
+const emit = defineEmits(['update:show']);
 const model = defineModel('show', {
   type: Boolean,
   default: false
 });
 const activation = ref('');
+
+const popoverRef = ref();
+const onClickOutside = () => {
+  emit('update:show', false);
+  // unref(popoverRef).popperRef?.delayHide?.()
+};
 
 watch(
   () => model.value,
