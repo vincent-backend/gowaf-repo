@@ -42,11 +42,20 @@
   >
     <div class="btnBox">{{ $t('network.WebTools.DiagnosticReport.btn') }}</div>
   </NetworkToolsBenner>
-  <ProductsNeverHit
-    class="NeverHit-box"
-    :isShowTitle="false"
-    :neverHit="$tm('network.WebTools.DiagnosticReport.neverHit')"
-  />
+  <LgOnly>
+    <ProductsNeverHit
+      class="NeverHit-box"
+      :isShowTitle="false"
+      :neverHit="$tm('network.WebTools.DiagnosticReport.neverHit')"
+    />
+  </LgOnly>
+  <XsOnly>
+    <ProductsNeverHitList
+      :isShowTitle="false"
+      type="card"
+      :neverHit="$tm('network.WebTools.DiagnosticReport.neverHit')"
+    />
+  </XsOnly>
   <VSpace :h="'145px'"></VSpace>
   <Footer :is-show-banner="false" />
 </template>
@@ -85,10 +94,31 @@ definePageMeta({
     .item {
       width: 260px;
       padding-right: 53px !important;
-      &:last-child{
-      padding-right: 0 !important;
+      &:last-child {
+        padding-right: 0 !important;
       }
     }
+  }
+}
+@media (max-width: 767px) {
+  .btnBox {
+    width: 14.63rem;
+    height: 3.13rem;
+    background: #ffffff;
+    border-radius: 1.56rem;
+    border: 0.13rem solid rgba(70, 207, 58, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mont, Mont;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.31rem;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    cursor: pointer;
   }
 }
 </style>

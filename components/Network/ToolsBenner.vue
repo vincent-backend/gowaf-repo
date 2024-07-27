@@ -55,6 +55,7 @@ const localizedDefaults: any = computed(() => {
   }
   .benner-subtitle {
     width: 552px;
+    max-width: 100%;
     font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 14px;
@@ -89,7 +90,7 @@ const localizedDefaults: any = computed(() => {
       text-transform: none;
     }
     .benner-subtitle {
-      width: auto;
+      width: 100%;
       font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 1.75rem;

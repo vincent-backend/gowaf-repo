@@ -28,4 +28,18 @@ withDefaults(
     height: 32px;
   }
 }
+@media (max-width: 767px) {
+  .sub-icon {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    border-right: 1px solid #d8d8d8;
+    .img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
 </style>

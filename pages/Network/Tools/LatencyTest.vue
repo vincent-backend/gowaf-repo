@@ -47,32 +47,29 @@
         :prefix-icon="CommonInputsubfix"
         class="input-with-select"
       >
-        <!-- <template #prepend>
-          <el-select
-            v-model="select"
-            placeholder=""
-            :suffix-icon="CommonIconDropDown"
-          >
-            <el-option label="A" value="1" />
-            <el-option label="CNAME" value="2" />
-            <el-option label="MX" value="3" /
-            <el-option label="AAAA" value="4" />
-            <el-option label="TXT" value="5" />
-            <el-option label="NS" value="6" />
-            <el-option label="SRV" value="7" />
-          </el-select>
-        </template> -->
         <template #append>
-          <el-button>
-            <img
-              class="btn"
-              src="/public/images/network/WebTools/common_link_more@2x.png"
-              alt=""
-              srcset=""
-            />
-          </el-button>
+          <LgOnly>
+            <el-button>
+              <img
+                class="btn"
+                src="/public/images/network/WebTools/common_link_more@2x.png"
+                alt=""
+                srcset=""
+              />
+            </el-button>
+          </LgOnly>
         </template>
       </el-input>
+      <XsOnly>
+        <el-button class="xs-btn">
+          <img
+            class="btn"
+            src="/public/images/network/WebTools/common_link_more@2x.png"
+            alt=""
+            srcset=""
+          />
+        </el-button>
+      </XsOnly>
     </div>
   </NetworkToolsBenner>
   <div class="map">
@@ -201,5 +198,109 @@ definePageMeta({
   gap: 80px;
   background: #fafafa;
   margin-bottom: 100px;
+}
+@media (max-width: 767px) {
+  .NationalFlagList {
+    display: flex;
+    gap: 6.25rem;
+    padding: 6.25rem 0;
+    box-sizing: border-box;
+    background: #fafafa;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.25rem;
+  }
+  .map {
+    width: 100%;
+    height: 39.81rem;
+    background: #cad6d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 100%;
+      height: 27.25rem;
+    }
+  }
+  .input-with-select {
+    height: 4.13rem;
+    :deep(.el-input__inner) {
+      width: 31.13rem;
+      height: 4.13rem;
+    }
+    :deep(.el-input__wrapper) {
+      box-sizing: border-box;
+      padding-left: 0;
+      border-radius: 0.75rem 0.75rem;
+    }
+    :deep(.el-input__prefix-inner) {
+      width: fit-content;
+      .el-input__icon {
+        width: fit-content;
+      }
+    }
+    :deep(.el-input-group__append) {
+      background: #ffffff;
+      display: none;
+      align-items: center;
+      flex-shrink: 0;
+      justify-content: center;
+      width: 66px;
+      height: 66px;
+      box-sizing: border-box;
+      border-radius: 0px 0.75rem 0.75rem 0px;
+      .el-button {
+        padding: 0;
+        width: fit-content;
+        height: fit-content;
+        .btn {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+    :deep(.el-input-group__prepend) {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      justify-content: center;
+      box-sizing: border-box;
+      width: 4rem;
+      padding: 0;
+      height: 4.13rem;
+      border-radius: 0.75rem 0px 0px 0.75rem;
+      .el-select {
+        width: 100%;
+        height: 100%;
+      }
+      .el-select__wrapper {
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .xs-btn {
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 4.13rem;
+    background: #ffffff;
+    border-radius: 0.75rem;
+    .btn {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 }
 </style>

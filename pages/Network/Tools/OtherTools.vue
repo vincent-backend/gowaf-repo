@@ -41,11 +41,20 @@
     :sub-title="$t('network.WebTools.OtherTools.subtitle')"
   >
   </NetworkToolsBenner>
-  <ProductsNeverHit
+  <LgOnly>
+    <ProductsNeverHit
     class="NeverHit-box"
     :isShowTitle="false"
     :neverHit="$tm('network.WebTools.OtherTools.neverHit')"
   />
+  </LgOnly>
+  <XsOnly>
+    <ProductsNeverHitList
+      :isShowTitle="false"
+      type="card"
+      :neverHit="$tm('network.WebTools.OtherTools.neverHit')"
+    />
+  </XsOnly>
   <VSpace :h="'145px'"></VSpace>
   <Footer :is-show-banner="false" />
 </template>

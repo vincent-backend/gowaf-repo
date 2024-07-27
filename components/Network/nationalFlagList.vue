@@ -130,4 +130,100 @@ const props = withDefaults(
     }
   }
 }
+@media (max-width: 767px) {
+  .nationalFlag-list {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    .title {
+      padding: 1.25rem 0;
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 1.88rem;
+      color: #000000;
+      line-height: 2.63rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      .item {
+        display: flex;
+        align-items: center;
+        width: 35rem;
+        height: 4.25rem;
+        background: #ffffff;
+        border-radius: 0.75rem;
+        box-sizing: border-box;
+        gap: 1.25rem;
+        padding: 0 0.88rem;
+        .nationalFlag {
+          width: 2.5rem;
+          height: 2.5rem;
+        }
+        .name {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 1.5rem;
+          color: #000000;
+          line-height: 2.06rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        .more {
+          width: 2rem;
+          height: 2rem;
+          margin-left: auto;
+          background: url('/images/nationalFlag/common_more@2x.png');
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+  .transparent-list {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 30px;
+      color: #ffffff;
+      line-height: 42px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 52px;
+      .item {
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        gap: 20px;
+        .nationalFlag {
+          width: 40px;
+          height: 40px;
+        }
+        .name {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 20px;
+          color: #ffffff;
+          line-height: 28px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}
 </style>
