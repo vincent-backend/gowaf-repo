@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Polyfill Cloud'
+      title: 'Gowaf Cloud'
     }
   },
 

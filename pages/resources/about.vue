@@ -80,7 +80,7 @@
   />
 
   <CommonList3
-    title1="Our Polyfill Milestones"
+    title1="Our Gowaf Milestones"
     title2=""
     :items="$tm('resources.about.list.list')"
     layoutType="full"

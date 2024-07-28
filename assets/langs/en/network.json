@@ -18,7 +18,7 @@
       "Volume Network",
       "ISP Network"
     ],
-    "title0": "Polyfill CDN Network",
+    "title0": "Gowaf CDN Network",
     "title1": "150 Tbps+ at your fingertips",
     "title2": "Supercharge your content with one of the fastest networks in the world.",
     "numbers": [
@@ -652,7 +652,7 @@
         {
           "tab": "Asia",
           "title": "CDN Asia",
-          "content": "Reach users with direct local connectivity throughout Asia. polyfill is positioned in all key centers to deliver unparalleled performance in the region, including emerging markets through strategic local partnerships.",
+          "content": "Reach users with direct local connectivity throughout Asia. Gowaf is positioned in all key centers to deliver unparalleled performance in the region, including emerging markets through strategic local partnerships.",
           "icon": "/images/network/Network_Overview_nation_Asia@2x.png",
           "iconWidth": "330px",
           "iconHeight": "272px",
@@ -665,7 +665,7 @@
         {
           "tab": "Australia",
           "title": "CDN Australia & Oceania",
-          "content": "each users in milliseconds across Oceania through a locally built and optimized anycast network. Positioned in 6 key major cities across Australia and New Zealand, polyfill helps you deliver exceptional performance for every request.",
+          "content": "each users in milliseconds across Oceania through a locally built and optimized anycast network. Positioned in 6 key major cities across Australia and New Zealand, Gowaf helps you deliver exceptional performance for every request.",
           "icon": "/images/network/Network_Overview_nation_Australia@2x.png",
           "iconWidth": "330px",
           "iconHeight": "241px",
@@ -678,7 +678,7 @@
         {
           "tab": "Middle East & Africa",
           "title": "CDN Africa & Middle East",
-          "content": "polyfill helps you deliver a consistent experience around the world. With local connectivity in multiple African countries, we help your customers get to your content faster, regardless if they’re from Kenya or Cape Town.",
+          "content": "Gowaf helps you deliver a consistent experience around the world. With local connectivity in multiple African countries, we help your customers get to your content faster, regardless if they’re from Kenya or Cape Town.",
           "icon": "/images/network/Network_Overview_nation_Middle_East@2x.png",
           "iconWidth": "338px",
           "iconHeight": "242px",
@@ -703,7 +703,7 @@
       "person": {
         "name": "Tom Mason",
         "title": "Nexus Mods",
-        "content": "“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
+        "content": "“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
       },
       "ranks": [
         {
@@ -735,7 +735,7 @@
     },
     "alwaysSafe": {
       "title": "Always safe. Always on.",
-      "subTitle": "Stay protected with polyfill DDoS mitigation system that detects and prevents attacks in less than 10 seconds.",
+      "subTitle": "Stay protected with Gowaf DDoS mitigation system that detects and prevents attacks in less than 10 seconds.",
       "rows": [
         [
           {
@@ -837,11 +837,11 @@
       ]
     },
     "join1": {
-      "title": "Join over 40.000+ customers who already put their trust in polyfill",
+      "title": "Join over 40.000+ customers who already put their trust in Gowaf",
       "person": {
         "name": "Periklis",
         "title": "VitrinaBox, Senior Software Engineer",
-        "content": "\"polyfill is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
+        "content": "\"Gowaf is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
       }
     }
   },
@@ -919,7 +919,7 @@
     "bennerSubTitle": "Tools to help you optimize and get started with bunny.net and run network tests and diagnostics from over 120 locations around the world.",
     "neverHit": {
       "title": "Never hit your origin again",
-      "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+      "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
       "items": [
         {
           "icon": "/images/network/WebTools/web_tools_ic_1@2x.png",
@@ -955,7 +955,7 @@
     },
     "DNSLookur": {
       "title": "DNS Lookup Test",
-      "subtitle": "Enter the URL of your file or website to test connectivity from the Polyfill.net network to your server."
+      "subtitle": "Enter the URL of your file or website to test connectivity from the Gowaf.net network to your server."
     },
     "DiagnosticReport": {
       "btn": "Run Diagnostic Report",

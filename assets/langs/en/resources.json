@@ -24,7 +24,7 @@
   },
   "about": {
     "header": {
-      "preTitle": "The Polyfill Mission",
+      "preTitle": "The Gowaf Mission",
       "title": "Making the internet hop faster",
       "content": "We are on a mission to help build and accelerate the internet of tomorrow. We obsess about customer experience and strive towards constant innovation, with a goal of helping companies and developers build a faster, safer, and more reliable internet.",
       "btn": "Start 14-Day FREE Trial",
@@ -32,7 +32,7 @@
     },
     "perfectSolution": {
       "title": "Supercharging the internet since 2014",
-      "content": "Polyfill started in 2014 with a simple idea of helping developers deliver content without breaking the bank. From there, it became a much more ambitious vision to help shape the internet.",
+      "content": "Gowaf started in 2014 with a simple idea of helping developers deliver content without breaking the bank. From there, it became a much more ambitious vision to help shape the internet.",
       "items": [
         {
           "icon": "/images/resources/about/resources_about_ic_mission@2x.png",
@@ -80,7 +80,7 @@
     ],
     "list2": {
       "title1": "We hop by our core values",
-      "title2": "The Polyfill team is connected by 9 Polyfill values to help build a better tomorrow.",
+      "title2": "The Gowaf team is connected by 9 Gowaf values to help build a better tomorrow.",
       "items": [
         {
           "icon": "/images/resources/about/resources_about_card_ic_1@2x.png",
@@ -122,7 +122,7 @@
     },
     "map": {
       "title": "Stationed in Europe but present all around the world",
-      "subTitle": "Polyfill was built by combining exceptional talent from all around the globe. While our home is in Europe, our warrens are present all around the world.Do you want to help make the internet hop faster? Join us."
+      "subTitle": "Gowaf was built by combining exceptional talent from all around the globe. While our home is in Europe, our warrens are present all around the world.Do you want to help make the internet hop faster? Join us."
     },
     "getInTouch": {
       "title": "Get in touch with us",
@@ -136,13 +136,13 @@
       "list": [
         {
           "title": "1-Million Websites",
-          "subTitle": "A million sites hopping with Polyfill!",
+          "subTitle": "A million sites hopping with Gowaf!",
           "icon": "/images/resources/story/Resources_Story_card_bg_2x.png",
-          "content1": "The Polyfill are taking over the internet! In August 2022, over 1 million websites are now hopping with Polyfill and we're getting ready to grow even faster.",
+          "content1": "The Gowaf are taking over the internet! In August 2022, over 1 million websites are now hopping with Gowaf and we're getting ready to grow even faster.",
           "content2": "August 2022"
         },
         {
-          "title": "Polyfill Rebrand",
+          "title": "Gowaf Rebrand",
           "subTitle": "A bigger vision under a new name to go along",
           "content1": "A simple idea of building a great CDN turned into an ambitious new vision to truly help shape the future of the internet and make it hop faster.",
           "content2": "January 2021"
@@ -155,13 +155,13 @@
         },
         {
           "title": "Beta Launch",
-          "subTitle": "Polyfill CDN beta finally launched",
-          "content1": "The idea turned into a vision of disrupting the CDN market. After 3 years of hard work and sleepless nights, Polyfill CDN entered its first beta stage.",
+          "subTitle": "Gowaf CDN beta finally launched",
+          "content1": "The idea turned into a vision of disrupting the CDN market. After 3 years of hard work and sleepless nights, Gowaf CDN entered its first beta stage.",
           "content2": "October 2015"
         },
         {
           "title": "The Idea was Born",
-          "subTitle": "Idea of Polyfill CDN was first born",
+          "subTitle": "Idea of Gowaf CDN was first born",
           "content1": "Struggling with CDN costs, our founder Dejan came up with the first idea of a fast, powerful, but affordable CDN to help others accelerate their content.",
           "content2": "January 2012"
         }
@@ -170,9 +170,9 @@
   },
   "contact": {
     "header": {
-      "title": "Polyfill Contact",
+      "title": "Gowaf Contact",
       "subTitle": "How can we help you?",
-      "content": "Our Super Polyfill are here for you 24/7"
+      "content": "Our Super Gowaf are here for you 24/7"
     },
     "form": {
       "firstName": "Full Name",
@@ -193,9 +193,9 @@
   },
   "story": {
     "header": {
-      "preTitle": "Polyfill story",
+      "preTitle": "Gowaf story",
       "title": "Simple beginnings turned into an ambitious vision",
-      "content": "All the way back in 2012, a developer had a problem with an ever-rising CDN bill. So he decided to take things into his own hands and build a better solution. Here is the story behind Polyfill and what started our journey of supercharging the internet.",
+      "content": "All the way back in 2012, a developer had a problem with an ever-rising CDN bill. So he decided to take things into his own hands and build a better solution. Here is the story behind Gowaf and what started our journey of supercharging the internet.",
       "btn": "Start 14-Day FREE Trial",
       "hint": "No credit card needed. Start in seconds."
     },
@@ -218,20 +218,20 @@
         },
         {
           "title": "2015",
-          "subTitle": "Polyfill CDN was born!",
+          "subTitle": "Gowaf CDN was born!",
           "content1": "Before he knew it, Dejan became obsessed with building a service to disrupt the overpriced content delivery market. He focused on a product available to everyone - not just large enterprises.",
-          "content2": "Every beginning is hard, but that did not stop him - quite the opposite. It fueled his passion and dedication to building a world-class product and changing how people view content delivery. Without funding or a large team, the project grew, and finally, in 2015, Polyfill CDN was born with 8 PoPs worldwide and a strong focus on reducing content delivery costs."
+          "content2": "Every beginning is hard, but that did not stop him - quite the opposite. It fueled his passion and dedication to building a world-class product and changing how people view content delivery. Without funding or a large team, the project grew, and finally, in 2015, Gowaf CDN was born with 8 PoPs worldwide and a strong focus on reducing content delivery costs."
         },
         {
           "title": "2018",
-          "subTitle": "The first Polyfill Office opened",
-          "content1": "Developed as a side-project by a single person without any funding, it took a few years for the service to take off. But it was in 2018 when things turned - Polyfill CDN started growing rapidly! ",
-          "content2": "Thousands of new users every month began aligning with the service's vision and were fed up with the overpriced CDN market.With some help from his friends, Dejan could finally quit his job, focus full time on building the company and even open the first Polyfill Office.With more time on his hands, Dejan started focusing on bringing value and developing advanced features under a very simple interface that users really loved."
+          "subTitle": "The first Gowaf Office opened",
+          "content1": "Developed as a side-project by a single person without any funding, it took a few years for the service to take off. But it was in 2018 when things turned - Gowaf CDN started growing rapidly! ",
+          "content2": "Thousands of new users every month began aligning with the service's vision and were fed up with the overpriced CDN market.With some help from his friends, Dejan could finally quit his job, focus full time on building the company and even open the first Gowaf Office.With more time on his hands, Dejan started focusing on bringing value and developing advanced features under a very simple interface that users really loved."
         },
         {
           "title": "2021",
           "subTitle": "The start of a new vision",
-          "content1": "The year 2021 is the year everything changed. After seeing the impact that Polyfill CDN had on the world and how many new problems it could solve, a much loftier goal was born in Dejan’s mind: to push the company and the internet itself to the next level. This marked the end of Polyfill CDN and the start of Polyfill with an ambitious new vision of truly making the internet a better place, focusing on relentless innovation, and making complex problems at scale as simple as a few clicks.",
+          "content1": "The year 2021 is the year everything changed. After seeing the impact that Gowaf CDN had on the world and how many new problems it could solve, a much loftier goal was born in Dejan’s mind: to push the company and the internet itself to the next level. This marked the end of Gowaf CDN and the start of Gowaf with an ambitious new vision of truly making the internet a better place, focusing on relentless innovation, and making complex problems at scale as simple as a few clicks.",
           "content2": "Today, our team of experts is working to help solve some of the most complex global challenges and help shape and power the internet of tomorrow. In short and simple: we're making the internet hop faster!"
         }
       ]
@@ -258,7 +258,7 @@
       },
       "list": {
         "title": "Dejan Grofelnik Pelzel",
-        "subTitle": "Founder & CEO of Polyfill",
+        "subTitle": "Founder & CEO of Gowaf",
         "content": "What started with trying to build a great CDN has grown into a passion to speed up the internet and really innovate the market."
       },
       "items": null
@@ -272,17 +272,17 @@
       "subTitle": "The question everyone has been asking us",
       "icon": "/images/resources/story/Resources_Story_card_graph_2x.png",
       "items": {
-        "title": "Why Polyfill? Why not QuickEnterpriseCDN? \nThe answer is simple.",
+        "title": "Why Gowaf? Why not QuickEnterpriseCDN? \nThe answer is simple.",
         "content": "We're on a mission to offer an enterprise- grade service with enterprise - grade features in a simple package that is approachable and affordable to anyone.No sneaky contracts, no complicated features, just a passionate team trying to build a fantastic service for everyone to use.",
-        "content1": "Even though our vision evolved through the years, our passion and core values have always remained the same. As one of the cutest and fastest animals on the planet, for us, the Polyfill symbolizes just those core values. Like our team, it's a funky and unconventional brand, but a brand we deeply believe in.Also, who doesn't like Polyfill?"
+        "content1": "Even though our vision evolved through the years, our passion and core values have always remained the same. As one of the cutest and fastest animals on the planet, for us, the Gowaf symbolizes just those core values. Like our team, it's a funky and unconventional brand, but a brand we deeply believe in.Also, who doesn't like Gowaf?"
       }
     }
   },
   "careers": {
     "header": {
-      "preTitle": "Polyfill Careers",
+      "preTitle": "Gowaf Careers",
       "title": "Shape the future of the internet",
-      "content": "Polyfill is the place where individual imaginations gather together to solve next-generation internet challenges. Join a team of experts and, together, help shape the future of the internet. Here, you’ll do more than join something — you’ll add something.",
+      "content": "Gowaf is the place where individual imaginations gather together to solve next-generation internet challenges. Join a team of experts and, together, help shape the future of the internet. Here, you’ll do more than join something — you’ll add something.",
       "btn": "Explore opportunities",
       "hint": "No credit card needed. Start in seconds."
     },
@@ -305,26 +305,26 @@
         },
         {
           "title": "2015",
-          "subTitle": "Polyfill CDN was born!",
+          "subTitle": "Gowaf CDN was born!",
           "content1": "Before he knew it, Dejan became obsessed with building a service to disrupt the overpriced content delivery market. He focused on a product available to everyone - not just large enterprises.",
-          "content2": "Every beginning is hard, but that did not stop him - quite the opposite. It fueled his passion and dedication to building a world-class product and changing how people view content delivery. Without funding or a large team, the project grew, and finally, in 2015, Polyfill CDN was born with 8 PoPs worldwide and a strong focus on reducing content delivery costs."
+          "content2": "Every beginning is hard, but that did not stop him - quite the opposite. It fueled his passion and dedication to building a world-class product and changing how people view content delivery. Without funding or a large team, the project grew, and finally, in 2015, Gowaf CDN was born with 8 PoPs worldwide and a strong focus on reducing content delivery costs."
         },
         {
           "title": "2018",
-          "subTitle": "The first Polyfill Office opened",
-          "content1": "Developed as a side-project by a single person without any funding, it took a few years for the service to take off. But it was in 2018 when things turned - Polyfill CDN started growing rapidly! ",
-          "content2": "Thousands of new users every month began aligning with the service's vision and were fed up with the overpriced CDN market.With some help from his friends, Dejan could finally quit his job, focus full time on building the company and even open the first Polyfill Office.With more time on his hands, Dejan started focusing on bringing value and developing advanced features under a very simple interface that users really loved."
+          "subTitle": "The first Gowaf Office opened",
+          "content1": "Developed as a side-project by a single person without any funding, it took a few years for the service to take off. But it was in 2018 when things turned - Gowaf CDN started growing rapidly! ",
+          "content2": "Thousands of new users every month began aligning with the service's vision and were fed up with the overpriced CDN market.With some help from his friends, Dejan could finally quit his job, focus full time on building the company and even open the first Gowaf Office.With more time on his hands, Dejan started focusing on bringing value and developing advanced features under a very simple interface that users really loved."
         },
         {
           "title": "2021",
           "subTitle": "The start of a new vision",
-          "content1": "The year 2021 is the year everything changed. After seeing the impact that Polyfill CDN had on the world and how many new problems it could solve, a much loftier goal was born in Dejan’s mind: to push the company and the internet itself to the next level. This marked the end of Polyfill CDN and the start of Polyfill with an ambitious new vision of truly making the internet a better place, focusing on relentless innovation, and making complex problems at scale as simple as a few clicks.",
+          "content1": "The year 2021 is the year everything changed. After seeing the impact that Gowaf CDN had on the world and how many new problems it could solve, a much loftier goal was born in Dejan’s mind: to push the company and the internet itself to the next level. This marked the end of Gowaf CDN and the start of Gowaf with an ambitious new vision of truly making the internet a better place, focusing on relentless innovation, and making complex problems at scale as simple as a few clicks.",
           "content2": "Today, our team of experts is working to help solve some of the most complex global challenges and help shape and power the internet of tomorrow. In short and simple: we're making the internet hop faster!"
         }
       ]
     },
     "list1": {
-      "title1": "Polyfill Values That Keep Us Hopping",
+      "title1": "Gowaf Values That Keep Us Hopping",
       "title2": "Eight simple values that unite one amazing team.",
       "items": [
         {
@@ -374,18 +374,18 @@
       "subTitle": "The question everyone has been asking us",
       "icon": "/images/resources/story/Resources_Story_card_graph_2x.png",
       "items": {
-        "title": "Why Polyfill? Why not QuickEnterpriseCDN? \nThe answer is simple.",
+        "title": "Why Gowaf? Why not QuickEnterpriseCDN? \nThe answer is simple.",
         "content": "We're on a mission to offer an enterprise- grade service with enterprise - grade features in a simple package that is approachable and affordable to anyone.No sneaky contracts, no complicated features, just a passionate team trying to build a fantastic service for everyone to use.",
-        "content1": "Even though our vision evolved through the years, our passion and core values have always remained the same. As one of the cutest and fastest animals on the planet, for us, the Polyfill symbolizes just those core values. Like our team, it's a funky and unconventional brand, but a brand we deeply believe in.Also, who doesn't like Polyfill?"
+        "content1": "Even though our vision evolved through the years, our passion and core values have always remained the same. As one of the cutest and fastest animals on the planet, for us, the Gowaf symbolizes just those core values. Like our team, it's a funky and unconventional brand, but a brand we deeply believe in.Also, who doesn't like Gowaf?"
       }
     },
     "carouselList": {
-      "title": "Working at Polyfill",
+      "title": "Working at Gowaf",
       "subTitle": "Join a growing team of experts that’s constantly pushing for innovation.",
       "items": [
         {
           "title": "Building a Better Future.\nFor everyone.",
-          "subTitle": "Founder & CEO of Polyfill",
+          "subTitle": "Founder & CEO of Gowaf",
           "content": "We're building towards a better future where amazing people help millions of others have a faster, safer, and more enjoyable internet experience everywhere and anywhere in the world.",
           "icon": "/images/resources/careers/Resources_Careers_graph_1_2x.png",
           "width": "334px",
@@ -393,7 +393,7 @@
         },
         {
           "title": "Dynamic and Fun Environment",
-          "subTitle": "Founder & CEO of Polyfill",
+          "subTitle": "Founder & CEO of Gowaf",
           "content": "We have an ambitious mission that brings along a set of fun and challenging problems to solve. Technology is constantly changing and hopping along.Every day is filled with exciting new challenges.",
           "icon": "/images/resources/careers/Resources_Careers_graph_2_2x.png",
           "width": "334px",
@@ -401,7 +401,7 @@
         },
         {
           "title": "Embracing the Flex-Work Lifestyle",
-          "subTitle": "Founder & CEO of Polyfill",
+          "subTitle": "Founder & CEO of Gowaf",
           "content": "We emphasize work-life balance with a fully flexible remote work approach. Our employees have full flexibility in time and location, enabling them to effortlessly incorporate work into their daily lives.",
           "icon": "/images/resources/careers/Resources_Careers_graph_3_2x.png",
           "width": "370px",
@@ -409,8 +409,8 @@
         },
         {
           "title": "Amazing Company Culture",
-          "subTitle": "Founder & CEO of Polyfill",
-          "content": "We put our Polyfill first and focus on building an inclusive, fun, and challenging environment while maintaining a very relaxed and fun team culture with the same values.",
+          "subTitle": "Founder & CEO of Gowaf",
+          "content": "We put our Gowaf first and focus on building an inclusive, fun, and challenging environment while maintaining a very relaxed and fun team culture with the same values.",
           "icon": "/images/resources/careers/Resources_Careers_graph_4_2x.png",
           "width": "358px",
           "height": "296px"
@@ -533,12 +533,12 @@
     },
     "currentJob": {
       "title": "Current Job Openings",
-      "subTitle": "Interested in a position and think we’ll be a good fit? Join an international team of amazing Polyfill!",
+      "subTitle": "Interested in a position and think we’ll be a good fit? Join an international team of amazing Gowaf!",
       "tabs": [
         {
           "tab": "All",
-          "title": "Make your website hop like a Polyfill",
-          "content": "Turn your website from a snail into a Polyfill. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
+          "title": "Make your website hop like a Gowaf",
+          "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
           "icon": "/images/home/home_bot_graph_Website@2x.png",
           "iconWidth": "374px",
           "iconHeight": "272px",
@@ -550,7 +550,7 @@
           "items": [
             {
               "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -568,7 +568,7 @@
             },
             {
               "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -586,7 +586,7 @@
             },
             {
               "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Polyfill Edge Compute product line, guiding and developing a forward-",
+              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -604,7 +604,7 @@
             },
             {
               "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Polyfill Security product line, driving a continuously evolving vision for the",
+              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -640,7 +640,7 @@
             },
             {
               "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Polyfill DNS product line, guiding a continually evolving vision.",
+              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -658,7 +658,7 @@
             },
             {
               "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Polyfill products, ensuring our customers have intuitive and efficient access to our solutions.",
+              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -676,7 +676,7 @@
             },
             {
               "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Polyfill Academy articles, work on case studies, and user guides for our dashboard.",
+              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -709,7 +709,7 @@
           "items": [
             {
               "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -727,7 +727,7 @@
             },
             {
               "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -745,7 +745,7 @@
             },
             {
               "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Polyfill Edge Compute product line, guiding and developing a forward-",
+              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -763,7 +763,7 @@
             },
             {
               "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Polyfill Security product line, driving a continuously evolving vision for the",
+              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -799,7 +799,7 @@
             },
             {
               "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Polyfill DNS product line, guiding a continually evolving vision.",
+              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -817,7 +817,7 @@
             },
             {
               "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Polyfill products, ensuring our customers have intuitive and efficient access to our solutions.",
+              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -835,7 +835,7 @@
             },
             {
               "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Polyfill Academy articles, work on case studies, and user guides for our dashboard.",
+              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -868,7 +868,7 @@
           "items": [
             {
               "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -886,7 +886,7 @@
             },
             {
               "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -904,7 +904,7 @@
             },
             {
               "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Polyfill Edge Compute product line, guiding and developing a forward-",
+              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -922,7 +922,7 @@
             },
             {
               "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Polyfill Security product line, driving a continuously evolving vision for the",
+              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -958,7 +958,7 @@
             },
             {
               "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Polyfill DNS product line, guiding a continually evolving vision.",
+              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -976,7 +976,7 @@
             },
             {
               "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Polyfill products, ensuring our customers have intuitive and efficient access to our solutions.",
+              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -994,7 +994,7 @@
             },
             {
               "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Polyfill Academy articles, work on case studies, and user guides for our dashboard.",
+              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1015,7 +1015,7 @@
         {
           "tab": "Marketing",
           "title": "Transform your images. On the fly.",
-          "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Polyfill on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+          "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
           "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
           "iconWidth": "360px",
           "iconHeight": "266px",
@@ -1027,7 +1027,7 @@
           "items": [
             {
               "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1045,7 +1045,7 @@
             },
             {
               "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Polyfill CDN product line, guiding a continually evolving vision to continue improving",
+              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1063,7 +1063,7 @@
             },
             {
               "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Polyfill Edge Compute product line, guiding and developing a forward-",
+              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1081,7 +1081,7 @@
             },
             {
               "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Polyfill Security product line, driving a continuously evolving vision for the",
+              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1117,7 +1117,7 @@
             },
             {
               "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Polyfill DNS product line, guiding a continually evolving vision.",
+              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1135,7 +1135,7 @@
             },
             {
               "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Polyfill products, ensuring our customers have intuitive and efficient access to our solutions.",
+              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1153,7 +1153,7 @@
             },
             {
               "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Polyfill Academy articles, work on case studies, and user guides for our dashboard.",
+              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
               "iconList": [
                 {
                   "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
@@ -1181,7 +1181,7 @@
       "content": "Learn how we helped over 40.000+ customers like you hop ahead of the competition!",
       "btn": "Subscribe",
       "inputPlaceholder": "Enter your email",
-      "hint": "I have read and agree to the polyfill"
+      "hint": "I have read and agree to the Gowaf"
     },
     "logoIconList": [
       "/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png",
@@ -1229,7 +1229,7 @@
           "content2": ""
         },
         {
-          "title": "HOW ESKIMI EXPANDED WITH Polyfill CDN",
+          "title": "HOW ESKIMI EXPANDED WITH Gowaf CDN",
           "subTitle": "",
           "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_5_2x.png",
           "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_es_2x.png",
@@ -1309,7 +1309,7 @@
           "content2": ""
         },
         {
-          "title": "HOW FILMMUSIC.IO PARTNERED WITH Polyfill TO SHARE MUSIC WITH THE WORLD",
+          "title": "HOW FILMMUSIC.IO PARTNERED WITH Gowaf TO SHARE MUSIC WITH THE WORLD",
           "subTitle": "",
           "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_15_2x.png",
           "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_fi_2x.png",
@@ -1377,8 +1377,8 @@
         {
           "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_3_2x.png",
           "title": "The Solution",
-          "content": "After investigating a few different CDN providers, InnoGames eventually chose Polyfill. Aside from the technical features, they said they liked the name. Us too. Once they started using Polyfill, they saw improvements right away. We didn’t require InnoGames to commit to a certain bandwidth just to get a fair price. We set them up with a pricing and bandwidth plan that fit their needs right out the gate.",
-          "content2": "Finally, we gave them 24/7 access to our Super Polyfill support and set up a private Slack channel. InnoGames was already using Slack, so they loved the convenience. InnoGames wanted to switch from their previous CDN because the support was too slow. Our Super Polyfill never kept them waiting. Whenever they had a question, we answered fast - usually the same day.",
+          "content": "After investigating a few different CDN providers, InnoGames eventually chose Gowaf. Aside from the technical features, they said they liked the name. Us too. Once they started using Gowaf, they saw improvements right away. We didn’t require InnoGames to commit to a certain bandwidth just to get a fair price. We set them up with a pricing and bandwidth plan that fit their needs right out the gate.",
+          "content2": "Finally, we gave them 24/7 access to our Super Gowaf support and set up a private Slack channel. InnoGames was already using Slack, so they loved the convenience. InnoGames wanted to switch from their previous CDN because the support was too slow. Our Super Gowaf never kept them waiting. Whenever they had a question, we answered fast - usually the same day.",
           "width": "400px",
           "height": "334px",
           "mwidth": "25rem",
@@ -1387,8 +1387,8 @@
         {
           "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_4_2x.png",
           "title": "The Results",
-          "content": "Although InnoGames came for the cute name, Polyfill quickly impressed them with our offerings. Polyfill CDN spoke for itself, with PoPs all over the world granting high speeds. The Super Polyfill never left InnoGames waiting more than a day for answers - so the InnoGames team enjoyed friendly service right when they needed it.",
-          "content2": "Our pricing was clear from the start, free of microtransactions and hidden fees. InnoGames paid just for what they needed, no more. Not to mention, they saved by switching to Polyfill.",
+          "content": "Although InnoGames came for the cute name, Gowaf quickly impressed them with our offerings. Gowaf CDN spoke for itself, with PoPs all over the world granting high speeds. The Super Gowaf never left InnoGames waiting more than a day for answers - so the InnoGames team enjoyed friendly service right when they needed it.",
+          "content2": "Our pricing was clear from the start, free of microtransactions and hidden fees. InnoGames paid just for what they needed, no more. Not to mention, they saved by switching to Gowaf.",
           "width": "364px",
           "height": "269px",
           "mwidth": "22.75rem",
@@ -1441,7 +1441,7 @@
       "list": {
         "title": "Bernhard Schrader",
         "subTitle": "Lead Sys Admin",
-        "content": "I like that Polyfill CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."
+        "content": "I like that Gowaf CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."
       },
       "items": null
     }
@@ -1453,7 +1453,7 @@
       "logoWidth": "176px",
       "logoHeight": "42px",
       "title": "How NexusMods improved download speeds & stability",
-      "content": "By leveraging Edge Storage & Polyfill CDN, Nexus Mods significantly boosted global delivery performance. Seamless integration and 24/7 Slack support, made the transition smooth and effortless.",
+      "content": "By leveraging Edge Storage & Gowaf CDN, Nexus Mods significantly boosted global delivery performance. Seamless integration and 24/7 Slack support, made the transition smooth and effortless.",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -1506,7 +1506,7 @@
           "title": "The Solution",
           "content": "To help Nexus Mods solve these challenges, we worked together to find a solution that offered excellent performance while adhering to a very tight budget. The most significant factor behind their performance issues was a low cache hit rate. With their massive library of mods, their old CDN struggled to keep files in cache. It had to pull files from cold storage halfway across the world.",
           "content2": "We helped Nexus Mods migrate their 50 TB content library to our Edge Storage platform as a drop-in replacement. Edge Storage let them seamlessly replicate their files to 5 regions worldwide, guaranteeing consistent excellent performance. Next, we designed a custom CDN plan optimized for the best global efficiency and affordable pricing. We were able to offer significantly reduced pricing compared to their own CDN.",
-          "content3": "Finally, we created a private Slack channel to help Nexus Mods smooth migration and give them direct 24/7 access to our Super Polyfill support team.",
+          "content3": "Finally, we created a private Slack channel to help Nexus Mods smooth migration and give them direct 24/7 access to our Super Gowaf support team.",
           "width": "340px",
           "height": "296px",
           "mwidth": "21.63rem",
@@ -1515,8 +1515,8 @@
         {
           "pic": "/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_4_2x.png",
           "title": "The Results",
-          "content": "The final results of Nexus Mods’ move to Polyfill were fantastic. We supercharged their download speeds, enabling flawless, stable delivery - even in remote places. With better delivery, their user experience and satisfaction improved drastically.",
-          "content2": "Prior to switching to Polyfill, Nexus Mods received up to 10 complaints a day about slow download speed. Post-switch, these complaints disappeared entirely. To top it off, we lowered the total monthly delivery cost by 30%.",
+          "content": "The final results of Nexus Mods’ move to Gowaf were fantastic. We supercharged their download speeds, enabling flawless, stable delivery - even in remote places. With better delivery, their user experience and satisfaction improved drastically.",
+          "content2": "Prior to switching to Gowaf, Nexus Mods received up to 10 complaints a day about slow download speed. Post-switch, these complaints disappeared entirely. To top it off, we lowered the total monthly delivery cost by 30%.",
           "width": "396px",
           "height": "292px",
           "mwidth": "21.63rem",
@@ -1569,7 +1569,7 @@
       "list": {
         "title": "Tom Mason",
         "subTitle": "Head of Development",
-        "content": "“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
+        "content": "“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
       },
       "items": null
     }
@@ -1612,8 +1612,8 @@
         {
           "pic": "/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_1_2x.png",
           "title": "About NZXT",
-          "content": "NZXT is a leading manufacturer in the gaming hardware industry, specializing in high-performance gaming PCs and essential peripherals such as mice, keyboards, and microphones. We’re huge fans. Some of the Polyfill team own more than two NZXT gaming rigs.",
-          "content2": "So why does a PC manufacturer use Polyfill? To keep those cool gaming rigs spinning, NZXT delivers monthly optimization updates to their 1 million users using their CAM software. NZXT came to Polyfill in early 2023 looking for a better monthly distribution rate, but got so much more.",
+          "content": "NZXT is a leading manufacturer in the gaming hardware industry, specializing in high-performance gaming PCs and essential peripherals such as mice, keyboards, and microphones. We’re huge fans. Some of the Gowaf team own more than two NZXT gaming rigs.",
+          "content2": "So why does a PC manufacturer use Gowaf? To keep those cool gaming rigs spinning, NZXT delivers monthly optimization updates to their 1 million users using their CAM software. NZXT came to Gowaf in early 2023 looking for a better monthly distribution rate, but got so much more.",
           "width": "368px",
           "height": "300px",
           "mwidth": "23rem",
@@ -1633,8 +1633,8 @@
         {
           "pic": "/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_3_2x.png",
           "title": "The Solution",
-          "content": "NZXT came to Polyfill in 2023. We made the switch easy for them. Once they switched, the NZXT team was pleased by how easy our dashboard was to use. Integrating Polyfill with their update platform was so easy that NZXT configured Polyfill CDN in a few minutes.",
-          "content2": "Plus, our dashboard helped them level up their deployments with useful metrics that NZXT incorporated into their deployment validation. NZXT rarely had an issue that required a call to tech support, but our Super Polyfill support stayed on standby to make the switch even easier.",
+          "content": "NZXT came to Gowaf in 2023. We made the switch easy for them. Once they switched, the NZXT team was pleased by how easy our dashboard was to use. Integrating Gowaf with their update platform was so easy that NZXT configured Gowaf CDN in a few minutes.",
+          "content2": "Plus, our dashboard helped them level up their deployments with useful metrics that NZXT incorporated into their deployment validation. NZXT rarely had an issue that required a call to tech support, but our Super Gowaf support stayed on standby to make the switch even easier.",
           "content3": "",
           "width": "340px",
           "height": "333px",
@@ -1644,7 +1644,7 @@
         {
           "pic": "/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_graph_4_2x.png",
           "title": "The Results",
-          "content": "NZXT came to Polyfill to save on monthly overhead and stayed for the great service. NZXT could have integrated Polyfill CDN and forgotten about it. Instead, they found a cool new power-up: our dashboard became a useful monitoring tool, helping the NZXT team to verify the success of each deployment.",
+          "content": "NZXT came to Gowaf to save on monthly overhead and stayed for the great service. NZXT could have integrated Gowaf CDN and forgotten about it. Instead, they found a cool new power-up: our dashboard became a useful monitoring tool, helping the NZXT team to verify the success of each deployment.",
           "content2": "Now, in addition to delivering software updates, they use us to track their beta releases. We impressed them with our service, and, of course, we saved them more than 50% on monthly fees.",
           "width": "364px",
           "height": "270px",
@@ -1698,7 +1698,7 @@
       "list": {
         "title": "Bernhard Schrader",
         "subTitle": "Lead Sys Admin",
-        "content": "\"I like that Polyfill CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem.\""
+        "content": "\"I like that Gowaf CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem.\""
       },
       "items": null
     }
@@ -1710,7 +1710,7 @@
       "logoWidth": "123px",
       "logoHeight": "42px",
       "title": "How Younity streamed to 200.000 viewers",
-      "content": "Before Younity switched to Polyfill, the flow! summit was blocked up by loading errors and video player crashes. After the switch, for the first time since its inception, flow! summit continued free from stressful tech issues",
+      "content": "Before Younity switched to Gowaf, the flow! summit was blocked up by loading errors and video player crashes. After the switch, for the first time since its inception, flow! summit continued free from stressful tech issues",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -1762,8 +1762,8 @@
         {
           "pic": "/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_3_2x.png",
           "title": "The Solution",
-          "content": "Younity stumbled upon Polyfill by chance. They realized Polyfill offered more than just basic streaming solutions. Polyfill Stream's captioning and translation features instantly caught their attention.Younity immediately saw the potential to ease access for its international audience.",
-          "content2": "So Younity decided to give Polyfill a try. The Polyfill Stream video player delivered a seamless live stream - free of buffering and crashes. We knew Younity needed quick answers to keep flow! summit running smoothly, so we gave them rapid-fire, 24/7 Slack support to support them every step of the way. Lastly, Younity moved their websites to Polyfill CDN to improve image quality and reduce page load times.",
+          "content": "Younity stumbled upon Gowaf by chance. They realized Gowaf offered more than just basic streaming solutions. Gowaf Stream's captioning and translation features instantly caught their attention.Younity immediately saw the potential to ease access for its international audience.",
+          "content2": "So Younity decided to give Gowaf a try. The Gowaf Stream video player delivered a seamless live stream - free of buffering and crashes. We knew Younity needed quick answers to keep flow! summit running smoothly, so we gave them rapid-fire, 24/7 Slack support to support them every step of the way. Lastly, Younity moved their websites to Gowaf CDN to improve image quality and reduce page load times.",
           "content3": "",
           "width": "318px",
           "height": "318px",
@@ -1774,7 +1774,7 @@
           "pic": "/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_4_2x.png",
           "title": "The Results",
           "content": "For the first time since launching flow! summit in 2017, Younity held the event with zero crashes. Every year prior, viewers left comments on videos saying something wasn’t working. In the March 2023 flow! summit, there were no complaints at all.",
-          "content2": "Integrating Polyfill was easy: the transition and preparation for the summit took less than a month. Younity was so happy with our service that they decided to use BunnyCDN to speed up their website as well.",
+          "content2": "Integrating Gowaf was easy: the transition and preparation for the summit took less than a month. Younity was so happy with our service that they decided to use BunnyCDN to speed up their website as well.",
           "width": "374px",
           "height": "256px",
           "mwidth": "23.38rem",
@@ -1795,7 +1795,7 @@
           "content2": ""
         },
         {
-          "title": "HOW ESKIMI EXPANDED WITH Polyfill CDN",
+          "title": "HOW ESKIMI EXPANDED WITH Gowaf CDN",
           "subTitle": "",
           "icon": "/images/resources/case-studies-details-younity/Resources_CaseStudies_pic_5_2x.png",
           "icon2": "/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_es_2x.png",
@@ -1838,8 +1838,8 @@
       "logo": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_es_2x.png",
       "logoWidth": "144px",
       "logoHeight": "42px",
-      "title": "How Eskimi expanded with Polyfill CDN",
-      "content": "Since Eskimi hopped to Polyfill two years ago, they’ve unlocked a world of potential customers. Eskimi now serves clients on six continents with rapid service.",
+      "title": "How Eskimi expanded with Gowaf CDN",
+      "content": "Since Eskimi hopped to Gowaf two years ago, they’ve unlocked a world of potential customers. Eskimi now serves clients on six continents with rapid service.",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -1850,7 +1850,7 @@
       {
         "label": "Easy",
         "label2": "implementation",
-        "content": "with Polyfill products"
+        "content": "with Gowaf products"
       },
       {
         "label": "24/7",
@@ -1887,8 +1887,8 @@
         {
           "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_3_2x.png",
           "title": "The Solution",
-          "content": "Eskimi read about Polyfill in an article in Hacker News. They liked what they heard, and decided to give us a try. First, we had to settle the pricing. The per-request fee structure other CDNs had offered Eskimi wasn’t feasible for their business, so we devised a pricing model that met their needs. Thanks to Polyfill CDN’s wider network, Eskimi gained access to more PoPs around the world.Through their internal reports, Eskimi promptly noticed latency and network errors drop off.",
-          "content2": "Lastly, we supported Eskimi through every network hop. Our Super Polyfill support answered Eskimi’s support tickets in no time flat: usually the same day they were submitted. We blew Eskimi away with our delivery speeds, intuitive user interface, and Super Polyfill support.",
+          "content": "Eskimi read about Gowaf in an article in Hacker News. They liked what they heard, and decided to give us a try. First, we had to settle the pricing. The per-request fee structure other CDNs had offered Eskimi wasn’t feasible for their business, so we devised a pricing model that met their needs. Thanks to Gowaf CDN’s wider network, Eskimi gained access to more PoPs around the world.Through their internal reports, Eskimi promptly noticed latency and network errors drop off.",
+          "content2": "Lastly, we supported Eskimi through every network hop. Our Super Gowaf support answered Eskimi’s support tickets in no time flat: usually the same day they were submitted. We blew Eskimi away with our delivery speeds, intuitive user interface, and Super Gowaf support.",
           "content3": "",
           "width": "422px",
           "height": "320px"
@@ -1896,8 +1896,8 @@
         {
           "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_4_2x.png",
           "title": "The Results",
-          "content": "Switching to Polyfill was a game-changer for Eskimi. Their old provider nearly locked them down with an expensive pricing plan, but our custom pricing plan slashed monthly overhead. Not only did we cut costs, but Polyfill CDN kept Eskimi’s platform spinning out ads without delay. From the moment they moved their platform, they saw errors and latency fall, further increasing revenue. Eskimi didn’t just cut costs - they grew.",
-          "content2": "The Eskimi team watched in real-time as Polyfill CDN served requests all over the globe, thanks to our dashboard’s traffic map. We gave them the reliable service and high speeds they needed at a price they could afford.",
+          "content": "Switching to Gowaf was a game-changer for Eskimi. Their old provider nearly locked them down with an expensive pricing plan, but our custom pricing plan slashed monthly overhead. Not only did we cut costs, but Gowaf CDN kept Eskimi’s platform spinning out ads without delay. From the moment they moved their platform, they saw errors and latency fall, further increasing revenue. Eskimi didn’t just cut costs - they grew.",
+          "content2": "The Eskimi team watched in real-time as Gowaf CDN served requests all over the globe, thanks to our dashboard’s traffic map. We gave them the reliable service and high speeds they needed at a price they could afford.",
           "width": "346px",
           "height": "348px"
         }
@@ -1960,7 +1960,7 @@
       "logoWidth": "77px",
       "logoHeight": "42px",
       "title": "How Timbo Jimbo scaled to over 4 million players",
-      "content": "Other CDNs pricing models cost more than Static Shift Racing would have made in revenue, and would have ground the project to a halt. Thanks to Polyfill, Static Shift Racing keeps cruising along to its one-year anniversary in December.",
+      "content": "Other CDNs pricing models cost more than Static Shift Racing would have made in revenue, and would have ground the project to a halt. Thanks to Gowaf, Static Shift Racing keeps cruising along to its one-year anniversary in December.",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -1992,7 +1992,7 @@
           "pic": "/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_1_2x.png",
           "title": "About Timbo Jimbo",
           "content": "Meet Timbo Jimbo: the two-man team behind Static Shift Racing. With just a two-person team, they made a seriously cool racing game where players can customize cars, race each other, and explore a vast open world.",
-          "content2": "Static Shift Racing started as a hobby project, but just like Polyfill, Timbo Jimbo’s ambitions grew over time. In January 2023, they launched Static Shift Racing globally to a dedicated global audience. The game raced to the app store front pages, passing 4 million downloads before its first anniversary. The game is available for free on Android and iOS, and if you start the download right now, it’ll be ready to play before you finish reading this case study.",
+          "content2": "Static Shift Racing started as a hobby project, but just like Gowaf, Timbo Jimbo’s ambitions grew over time. In January 2023, they launched Static Shift Racing globally to a dedicated global audience. The game raced to the app store front pages, passing 4 million downloads before its first anniversary. The game is available for free on Android and iOS, and if you start the download right now, it’ll be ready to play before you finish reading this case study.",
           "width": "384px",
           "height": "280px",
           "mwidth": "24rem",
@@ -2012,8 +2012,8 @@
         {
           "pic": "/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_3_2x.png",
           "title": "The Solution",
-          "content": "While other CDN’s offered pricing that could have stalled the game in its tracks, Polyfill was the spark Timbo Jimbo needed to ignite Static Shift Racing. With enough PoPs to cover every continent, Polyfill CDN’s global network ensured speedy downloads for anyone, anywhere.",
-          "content2": "Setup couldn’t have been easier, thanks to our support. Our Super Polyfill stepped in as Timbo Jimbo’s trusty copilots, steering them to success with fast, accurate answers whenever they needed them. Timbo Jimbo got answers to most questions the same day they asked!",
+          "content": "While other CDN’s offered pricing that could have stalled the game in its tracks, Gowaf was the spark Timbo Jimbo needed to ignite Static Shift Racing. With enough PoPs to cover every continent, Gowaf CDN’s global network ensured speedy downloads for anyone, anywhere.",
+          "content2": "Setup couldn’t have been easier, thanks to our support. Our Super Gowaf stepped in as Timbo Jimbo’s trusty copilots, steering them to success with fast, accurate answers whenever they needed them. Timbo Jimbo got answers to most questions the same day they asked!",
           "content3": "",
           "width": "346px",
           "height": "292px",
@@ -2023,8 +2023,8 @@
         {
           "pic": "/images/resources/case-studies-details-timbo/Resources_Case_Studies_details_Timbo_graph_4_2x.png",
           "title": "The Results",
-          "content": "As a small team, Timbo Jimbo was overlooked by other CDN providers. Polyfill made it possible for them to ignite their passion project. After switching to bunny, Timbo Jimbo raced to the App Store front page.",
-          "content2": "Static Shift Racing passed 1 million downloads before its first month, but Timbo Jimbo didn’t let off the gas. They released more than 60 content updates to keep users coming back. Thanks to our clear pricing model, they don’t have to worry about surprise fees when they do. Thanks to the fans, some hard work, and a little help from Polyfill CDN, the game has been downloaded over 4 million times before its first anniversary.",
+          "content": "As a small team, Timbo Jimbo was overlooked by other CDN providers. Gowaf made it possible for them to ignite their passion project. After switching to bunny, Timbo Jimbo raced to the App Store front page.",
+          "content2": "Static Shift Racing passed 1 million downloads before its first month, but Timbo Jimbo didn’t let off the gas. They released more than 60 content updates to keep users coming back. Thanks to our clear pricing model, they don’t have to worry about surprise fees when they do. Thanks to the fans, some hard work, and a little help from Gowaf CDN, the game has been downloaded over 4 million times before its first anniversary.",
           "width": "342px",
           "height": "252px",
           "mwidth": "21.38rem",
@@ -2077,7 +2077,7 @@
       "list": {
         "title": "Tim Aksu",
         "subTitle": "Co-Founder & Game Developer",
-        "content": "\"Polyfill just works.We were able to swap out our primary CDN with Bunny in a single afternoon thanks to their Pull Zone functionality with minimal changes to our backend.Polyfill has saved us thousands of dollars compared to our original CDN.We're so glad we gave Polyfill a shot!Polyfill"
+        "content": "\"Gowaf just works.We were able to swap out our primary CDN with Bunny in a single afternoon thanks to their Pull Zone functionality with minimal changes to our backend.Gowaf has saved us thousands of dollars compared to our original CDN.We're so glad we gave Gowaf a shot!Gowaf"
       },
       "items": null
     }
@@ -2089,7 +2089,7 @@
       "logoWidth": "168px",
       "logoHeight": "42px",
       "title": "How Valnet scaled by 250% while saving on costs",
-      "content": "Our delivery speeds and pricing caught Valnet’s attention, our platform’s ease of use and no-hassle integration really won them over. Polyfill didn’t just make expansion possible. We made it simple.",
+      "content": "Our delivery speeds and pricing caught Valnet’s attention, our platform’s ease of use and no-hassle integration really won them over. Gowaf didn’t just make expansion possible. We made it simple.",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -2121,7 +2121,7 @@
           "pic": "/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_1_2x.png",
           "title": "About Valnet",
           "content": "With a varied portfolio, including over 30 renowned brands like Screen Rant, Game Rant, and How-to-Geek, Valnet is one of the leading content investment firms. This media giant serves content to users all over the world. Across their offerings, they receive more than 15 million daily website visits and have an average of more than 30 million hours of watch time per month.",
-          "content2": "In recent years, Valnet has expanded, acquiring additional verticals and building their own AdTech and monetization platforms. Valnet came to Polyfill seeking a scalable solution that would integrate smoothly with their newly developed video platform, and their experience exceeded expectations.",
+          "content2": "In recent years, Valnet has expanded, acquiring additional verticals and building their own AdTech and monetization platforms. Valnet came to Gowaf seeking a scalable solution that would integrate smoothly with their newly developed video platform, and their experience exceeded expectations.",
           "width": "440px",
           "height": "322px",
           "mwidth": "27.5rem",
@@ -2131,7 +2131,7 @@
           "pic": "/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_2_2x.png",
           "title": "The Challenges",
           "content": "Valnet had plans to expand quickly, but a few obstacles prevented them from scaling. Valnet needed a well-rounded technical solution that would fit the unique delivery needs of each of their 30+ verticals. Video content proved expensive to distribute. Valnet’s bandwidth needs were high, surpassing 5,000 terabytes per month. Their options were to build a new CDN from scratch, which would delay their growth, or to find a CDN provider. They chose the latter.",
-          "content2": "Since Valnet was developing their own video platform, it needed a solution that could integrate quickly at a competitive rate. They also needed quick access to data usage metrics so they could chart their expansion. After a bit of research, Polyfill was an obvious choice.",
+          "content2": "Since Valnet was developing their own video platform, it needed a solution that could integrate quickly at a competitive rate. They also needed quick access to data usage metrics so they could chart their expansion. After a bit of research, Gowaf was an obvious choice.",
           "content3": "",
           "width": "402px",
           "height": "354px",
@@ -2141,8 +2141,8 @@
         {
           "pic": "/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_3_2x.png",
           "title": "The Solution",
-          "content": "Valnet immediately realized that Polyfill could give them the independence they needed to scale. We agreed, so we devised a first-class tech stack that met their needs. Polyfill CDN integrated seamlessly with Valnet’s new video player, with Polyfill Stream acting as a backup to maximize uptime. It also supported every type of content they served right from the dashboard.",
-          "content2": "Reducing the costs of video delivery was a necessity for Valnet, so we devised a two-tier pricing model that made sense for their business. Additionally, our dashboard’s analytics made it easy to track bandwidth usage - without calling a representative. Finally, as usual, our Super Polyfill stood by to support Valnet any time.",
+          "content": "Valnet immediately realized that Gowaf could give them the independence they needed to scale. We agreed, so we devised a first-class tech stack that met their needs. Gowaf CDN integrated seamlessly with Valnet’s new video player, with Gowaf Stream acting as a backup to maximize uptime. It also supported every type of content they served right from the dashboard.",
+          "content2": "Reducing the costs of video delivery was a necessity for Valnet, so we devised a two-tier pricing model that made sense for their business. Additionally, our dashboard’s analytics made it easy to track bandwidth usage - without calling a representative. Finally, as usual, our Super Gowaf stood by to support Valnet any time.",
           "content3": "",
           "width": "366px",
           "height": "316px",
@@ -2152,8 +2152,8 @@
         {
           "pic": "/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_4_2x.png",
           "title": "The Results",
-          "content": "From the moment Valnet found Polyfill, they knew we were the solution. They made us a key part of their growth strategy. Migrating to Polyfill took just a few days, which in turn cut four months from their original deployment schedule.",
-          "content2": "After the switch, Valnet saw an immediate return on investment. Not only did they hit the ground running with a speedy deployment, but they paid a fraction of the price of comparable CDNs. Switching to Polyfill freed a giant up to grow even further. Valnet continued their growth plan and increased distribution by over 250%.",
+          "content": "From the moment Valnet found Gowaf, they knew we were the solution. They made us a key part of their growth strategy. Migrating to Gowaf took just a few days, which in turn cut four months from their original deployment schedule.",
+          "content2": "After the switch, Valnet saw an immediate return on investment. Not only did they hit the ground running with a speedy deployment, but they paid a fraction of the price of comparable CDNs. Switching to Gowaf freed a giant up to grow even further. Valnet continued their growth plan and increased distribution by over 250%.",
           "width": "406px",
           "height": "252px",
           "mwidth": "25.38rem",
@@ -2174,7 +2174,7 @@
           "content2": ""
         },
         {
-          "title": "HOW ESKIMI EXPANDED WITH Polyfill CDN",
+          "title": "HOW ESKIMI EXPANDED WITH Gowaf CDN",
           "subTitle": "",
           "icon": "/images/resources/case-studies-details-valnet/Resources_CaseStudies_pic_5_2x.png",
           "icon2": "/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_es_2x.png",
@@ -2206,7 +2206,7 @@
       "list": {
         "title": "Ji Kim",
         "subTitle": "Director of Marketing",
-        "content": "\"With our last provider, expansion wasn’t feasible.Switching to Polyfill brought our ROI calculations to the levels we were looking for.We started seeing ROI as soon as we switched over, and the transition was very, very quick.”"
+        "content": "\"With our last provider, expansion wasn’t feasible.Switching to Gowaf brought our ROI calculations to the levels we were looking for.We started seeing ROI as soon as we switched over, and the transition was very, very quick.”"
       },
       "items": null
     }
@@ -2218,7 +2218,7 @@
       "logoWidth": "110px",
       "logoHeight": "42px",
       "title": "How OTT Solutions boosted speed and availability",
-      "content": "OTT Solution needed a little extra help to stabilize their networks and free up network traffic. Once they started working with Polyfill, we improved availability and stability by providing additional points of presence with peer-to-peer backup to prevent outages.",
+      "content": "OTT Solution needed a little extra help to stabilize their networks and free up network traffic. Once they started working with Gowaf, we improved availability and stability by providing additional points of presence with peer-to-peer backup to prevent outages.",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -2260,7 +2260,7 @@
           "pic": "/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_graph_2_2x.png",
           "title": "The Challenges",
           "content": "Although OTT Solutions had a trustworthy, reliable network, they needed a strong architecture to keep it that way. They needed a CDN to boost network reliability and bolster their network backbone. OTT Solutions used other CDNs, but these other networks lagged behind their standards. Thousands of customers in the Balkans couldn’t even watch sports during peak hours without buffering caused by network bottlenecks.",
-          "content2": "Even a few minutes of downtime rippled to customers’ customers, so OTT Solutions needed a stable network that wouldn’t go down - not for even a minute. Their other CDN providers weren’t supplying enough stability. OTT Solutions needed someone to lighten the load - so they came to Polyfill.",
+          "content2": "Even a few minutes of downtime rippled to customers’ customers, so OTT Solutions needed a stable network that wouldn’t go down - not for even a minute. Their other CDN providers weren’t supplying enough stability. OTT Solutions needed someone to lighten the load - so they came to Gowaf.",
           "width": "372px",
           "height": "302px",
           "mwidth": "23.25rem",
@@ -2269,8 +2269,8 @@
         {
           "pic": "/images/resources/case-studies-details-ott/Resources_Case_Studies_details_OTT_graph_3_2x.png",
           "title": "The Solution",
-          "content": "The Polyfill team didn’t disappoint. We set up a network that provided a fast, reliable connection with a peer-to-peer backup network that eliminated buffering during peak hours. OTT Solutions also noticed that Polyfill was faster than their other CDNs in some regions. Implementing Polyfill CDN was as quick as a Polyfill hop, thanks to our support library.",
-          "content2": "We gave OTT Solutions 24/7 access to our Super Polyfill support team, but they were pleased to say they barely needed them. They felt empowered to resolve most issues themselves, with the Super Polyfill on standby for backup.",
+          "content": "The Gowaf team didn’t disappoint. We set up a network that provided a fast, reliable connection with a peer-to-peer backup network that eliminated buffering during peak hours. OTT Solutions also noticed that Gowaf was faster than their other CDNs in some regions. Implementing Gowaf CDN was as quick as a Gowaf hop, thanks to our support library.",
+          "content2": "We gave OTT Solutions 24/7 access to our Super Gowaf support team, but they were pleased to say they barely needed them. They felt empowered to resolve most issues themselves, with the Super Gowaf on standby for backup.",
           "content3": "",
           "width": "430px",
           "height": "348px",
@@ -2334,7 +2334,7 @@
       "list": {
         "title": "Sasa Zurkic",
         "subTitle": "CEO",
-        "content": "\"Polyfill adds a line of defense to our other CDN providers.I’m happy with the service - everything works.\""
+        "content": "\"Gowaf adds a line of defense to our other CDN providers.I’m happy with the service - everything works.\""
       },
       "items": null
     }
@@ -2346,7 +2346,7 @@
       "logoWidth": "224px",
       "logoHeight": "42px",
       "title": "How ParrotSec improved security and reliability",
-      "content": "ParrotSec needed a way to host and distribute its unique operating system that met the security needs of its users while keeping its product free and open. They struggled to find a CDN that could adapt to their unique situation - until they found Polyfill.",
+      "content": "ParrotSec needed a way to host and distribute its unique operating system that met the security needs of its users while keeping its product free and open. They struggled to find a CDN that could adapt to their unique situation - until they found Gowaf.",
       "btn": "Contact Sales",
       "btn2": "Download Case Study",
       "inputPlaceholder": "",
@@ -2397,8 +2397,8 @@
         {
           "pic": "/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_3_2x.png",
           "title": "The Solution",
-          "content": "Enter Polyfill! We worked with ParrotSec to build an affordable platform to host all of their architectures. With our custom pricing model, ParrotSec saved 80% on delivery costs. Other CDN networks tried to charge ParrotSec enterprise rates for features they didn’t use, but Polyfill offered them a plan built for their unique circumstances at an affordable rate.",
-          "content2": "ParrotSec needed to host 5 different versions of ParrotOS, so we switched them over to Polyfill CDN and Polyfill Storage. We put them on a pay-as-you-go rate and only charged them for the service they used. Finally, we created a private Slack channel to give ParrotSec direct 24/7 access to our Super Polyfill support team to make sure their service really flew.",
+          "content": "Enter Gowaf! We worked with ParrotSec to build an affordable platform to host all of their architectures. With our custom pricing model, ParrotSec saved 80% on delivery costs. Other CDN networks tried to charge ParrotSec enterprise rates for features they didn’t use, but Gowaf offered them a plan built for their unique circumstances at an affordable rate.",
+          "content2": "ParrotSec needed to host 5 different versions of ParrotOS, so we switched them over to Gowaf CDN and Gowaf Storage. We put them on a pay-as-you-go rate and only charged them for the service they used. Finally, we created a private Slack channel to give ParrotSec direct 24/7 access to our Super Gowaf support team to make sure their service really flew.",
           "content3": "",
           "width": "422px",
           "height": "324px",
@@ -2408,8 +2408,8 @@
         {
           "pic": "/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_4_2x.png",
           "title": "The Results",
-          "content": "Once Parrot switched to Polyfill, the team never looked back. Their users quickly noticed improved service and faster downloads. Complaints about security risks dropped off.",
-          "content2": "We surprised ParrotSec with faster service on a single Polyfill server than their previous CDN gave them on six. At a fraction of the price. ParrotSec wasn’t being served by major providers - so Polyfill stepped in to fill the gap.",
+          "content": "Once Parrot switched to Gowaf, the team never looked back. Their users quickly noticed improved service and faster downloads. Complaints about security risks dropped off.",
+          "content2": "We surprised ParrotSec with faster service on a single Gowaf server than their previous CDN gave them on six. At a fraction of the price. ParrotSec wasn’t being served by major providers - so Gowaf stepped in to fill the gap.",
           "width": "378px",
           "height": "322px",
           "mwidth": "23.63rem",
@@ -2462,7 +2462,7 @@
       "list": {
         "title": "Lorenzo Faletra",
         "subTitle": "CEO",
-        "content": "\"We tried several CDN providers before, and although they were more expensive, they didn't offer the same performance and reliability. After the switch to Polyfill, our users immediately noticed how fast and reliable the downloads became.\""
+        "content": "\"We tried several CDN providers before, and although they were more expensive, they didn't offer the same performance and reliability. After the switch to Gowaf, our users immediately noticed how fast and reliable the downloads became.\""
       },
       "items": null
     }
@@ -2717,7 +2717,7 @@
       ]
     },
     "list1": {
-      "title1": "Polyfill Knowledge Center",
+      "title1": "Gowaf Knowledge Center",
       "title2": "Just looking for some quick information? Check out our Frequently Asked Questions.",
       "items": [
         {
@@ -2740,7 +2740,7 @@
   },
   "blog": {
     "header": {
-      "preTitle": "Polyfill Blog News",
+      "preTitle": "Gowaf Blog News",
       "title": "Hopping Ahead: Polyfikk.net ranks as the #1 Fastest CDN in 2023",
       "content": "We're on a mission to make the internet hop faster globally. We're thrilled to share how we hopped ahead in 2023, becoming the world's fastest CDN, and the journey that got us ther..."
     },
@@ -2774,7 +2774,7 @@
       {
         "img": "/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png",
         "title": "News",
-        "content": "Leading with smarter edge compute,Polyfill.net hopping at NAB 2024",
+        "content": "Leading with smarter edge compute,Gowaf.net hopping at NAB 2024",
         "author": "Raul Vecchione",
         "headPortrait": "",
         "time": "April 26. 2024"
@@ -2782,7 +2782,7 @@
       {
         "img": "",
         "title": "News",
-        "content": "Now Creators Take Charge Using Polyfill Stream with Patreon",
+        "content": "Now Creators Take Charge Using Gowaf Stream with Patreon",
         "author": "Raul Vecchione",
         "headPortrait": "",
         "time": "April 26. 2024"

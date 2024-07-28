@@ -12,11 +12,11 @@
         "link": "#"
       },
       {
-        "label": "Polyfill Blog",
+        "label": "Gowaf Blog",
         "link": "#"
       },
       {
-        "label": "Polyfill Careers",
+        "label": "Gowaf Careers",
         "link": "#"
       },
       {
@@ -28,7 +28,7 @@
         "link": "#"
       },
       {
-        "label": "Polyfill Academy",
+        "label": "Gowaf Academy",
         "link": "#"
       }
     ],
@@ -37,27 +37,27 @@
         "title": "Products",
         "items": [
           {
-            "label": "Polyfill CDN",
+            "label": "Gowaf CDN",
             "href": "#"
           },
           {
-            "label": "Polyfill Optimizer",
+            "label": "Gowaf Optimizer",
             "href": "#"
           },
           {
-            "label": "Polyfill Storage",
+            "label": "Gowaf Storage",
             "href": "#"
           },
           {
-            "label": "Polyfill Stream",
+            "label": "Gowaf Stream",
             "href": "#"
           },
           {
-            "label": "Polyfill DNS",
+            "label": "Gowaf DNS",
             "href": "#"
           },
           {
-            "label": "Polyfill Fonts",
+            "label": "Gowaf Fonts",
             "href": "#"
           }
         ]
@@ -70,7 +70,7 @@
             "href": "#"
           },
           {
-            "label": "Polyfill Features",
+            "label": "Gowaf Features",
             "href": "#"
           },
           {
@@ -135,10 +135,10 @@
         "link": "#"
       }
     ],
-    "copyright": "2024 All Rights Reserved © Polyfill Way d.o.o.",
+    "copyright": "2024 All Rights Reserved © Gowaf Way d.o.o.",
     "section1Title": "Big traffic? Talk to Sales",
     "section1Content": "Working on a big project?  Let our experts help you out.",
-    "section2Title": "Stay up to date with Polyfill",
+    "section2Title": "Stay up to date with Gowaf",
     "section2Content": "Follow us on social media for special promotions and important news.",
     "section3": "Making the internet hop faster!"
   }

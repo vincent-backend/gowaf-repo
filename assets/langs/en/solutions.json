@@ -92,7 +92,7 @@
     ],
     "superCharge": {
       "title": "Fast network meets unbeatable pricing",
-      "subTitle": "With 123 PoPs worldwide and an 150 Tbps+ network backbone, Polyfill guarantees smooth video playback no matter where your users are.",
+      "subTitle": "With 123 PoPs worldwide and an 150 Tbps+ network backbone, Gowaf guarantees smooth video playback no matter where your users are.",
       "tabs": [
         {
           "tab": "Extreme Performance",
@@ -110,7 +110,7 @@
         {
           "tab": "Distruptive Pricing",
           "title": "Save up to 80% on your content delivery billing",
-          "content": "Don’t overpay for your Content Delivery ever again. At Polyfill, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!",
+          "content": "Don’t overpay for your Content Delivery ever again. At Gowaf, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!",
           "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png",
           "iconWidth": "274px",
           "iconHeight": "268px",
@@ -193,7 +193,7 @@
     },
     "map": {
       "title": "Bring video delivery to the next level",
-      "subTitle": "The Polyfill network was explicitly designed for efficient video delivery. With strategically selected PoPs around the world, we assure a great price/performance ratio and an incredibly high cache hit rate."
+      "subTitle": "The Gowaf network was explicitly designed for efficient video delivery. With strategically selected PoPs around the world, we assure a great price/performance ratio and an incredibly high cache hit rate."
     },
     "numbers2": [
       {
@@ -222,7 +222,7 @@
       {
         "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Redundant.png",
         "title": "Redundant Infrastructure",
-        "content": "Without a single point of failure, Polyfill provides enterprise-level reliability, making sure you always stay online."
+        "content": "Without a single point of failure, Gowaf provides enterprise-level reliability, making sure you always stay online."
       },
       {
         "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_NVMe.png",
@@ -248,7 +248,7 @@
             "content": "Add or remove player controls to make it a perfect fit for your users’ experience."
           }
         ],
-        "btn": "Polyfill Media Player"
+        "btn": "Gowaf Media Player"
       }
     },
     "join1": {
@@ -420,7 +420,7 @@
       "person": {
         "name": "Tom Mason",
         "title": "Nexus Mods",
-        "content": "“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
+        "content": "“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
       }
     }
   },
@@ -452,7 +452,7 @@
     ],
     "accelerate": {
       "title": "Never worry about traffic peaks again",
-      "content": "Bring your content closer to your users anywhere in the world. Minimize latency and maximize your performance with the Polyfill global network. Take advantage of fully customized pricing and only pay for the bandwidth you actually use!",
+      "content": "Bring your content closer to your users anywhere in the world. Minimize latency and maximize your performance with the Gowaf global network. Take advantage of fully customized pricing and only pay for the bandwidth you actually use!",
       "upDown": {
         "up": {
           "value": "40%",
@@ -463,7 +463,7 @@
           "title": "LOWER BILLING"
         }
       },
-      "btn": "Explore Polyfill CDN",
+      "btn": "Explore Gowaf CDN",
       "list2": [
         {
           "icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_1_nor@2x.png",
@@ -493,14 +493,14 @@
     },
     "ad2": {
       "title": "Fastest storage for fastest downloads",
-      "content": "Fast downloads need fast storage. Forget slow cold starts by keeping your files ready around the world. Polyfill Edge Storage delivers up to 5X faster performance compared to traditional object storage and helps your users get your files faster.",
+      "content": "Fast downloads need fast storage. Forget slow cold starts by keeping your files ready around the world. Gowaf Edge Storage delivers up to 5X faster performance compared to traditional object storage and helps your users get your files faster.",
       "list": [
         "5X Faster Downloads",
         "Automatic Geo-Failover",
         "8 Storage Regions",
         "99.99% SLA"
       ],
-      "btn": "Explore Polyfill Storage"
+      "btn": "Explore Gowaf Storage"
     },
     "map": {
       "title": "Global network. For a global audience.",
@@ -542,7 +542,7 @@
         "responseTimeTitle": "FIRST RESPONSE TIME",
         "solveTime": "3hrs",
         "solveTimeTitle": "AVERAGE SOLVE TIME",
-        "btn": "Meet Our Super Polyfill"
+        "btn": "Meet Our Super Gowaf"
       }
     },
     "join1": {
@@ -550,15 +550,15 @@
       "person": {
         "name": "Tom Mason",
         "title": "Nexus Mods",
-        "content": "“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
+        "content": "“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
       }
     }
   },
   "websiteAcceleration": {
     "header": {
       "preTitle": "Website Acceleration",
-      "title": "Make your website hop like a Polyfill",
-      "content": "Turn your website from a snail into a Polyfill. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website beyond the limits!",
+      "title": "Make your website hop like a Gowaf",
+      "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website beyond the limits!",
       "btn": "Start 14-Day FREE Trial",
       "hint": "No credit card needed. Start in seconds."
     },
@@ -594,13 +594,13 @@
           "content": "Connecting your visitors directly to your server from worldwide is not a good thing. It increases the latency, slows down your website speed, and delivers a far worse user experience!"
         },
         {
-          "header": "With Polyfill CDN",
+          "header": "With Gowaf CDN",
           "icon1": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time2@2x.png",
           "number": "0.7",
           "unit": "seconds",
           "label": "Website Load Time",
           "icon2": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_right@2x.png",
-          "content": "By bringing your content closer to your visitors you will minimize latency, maximize performance and reduce your bounce rate. With Bunny CDN, your website will hop as fast as a Polyfill!"
+          "content": "By bringing your content closer to your visitors you will minimize latency, maximize performance and reduce your bounce rate. With Bunny CDN, your website will hop as fast as a Gowaf!"
         }
       ]
     },
@@ -683,7 +683,7 @@
         },
         {
           "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png",
-          "title": "Polyfill Optimizer",
+          "title": "Gowaf Optimizer",
           "content": "Optimize your images and minify your CSS/JS files for maximum performance."
         }
       ]
@@ -699,22 +699,22 @@
       ]
     },
     "ad2_2": {
-      "title": "Reduce image size up to 80% with Polyfill Optimizer",
-      "content": "Push your website performance to the speed of light with Polyfill Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Polyfill Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest！",
+      "title": "Reduce image size up to 80% with Gowaf Optimizer",
+      "content": "Push your website performance to the speed of light with Gowaf Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Gowaf Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest！",
       "list": [
         "Decrease Bounce Rate",
         "Improve SEO",
         "Increase Conversions",
         "Improve User Experience"
       ],
-      "btn": "Learn More About Polyfill Optimizer"
+      "btn": "Learn More About Gowaf Optimizer"
     },
     "join1": {
       "title": "Join over 40.000+ happy customers",
       "person": {
         "name": "Jerry Caloroso",
         "title": "Chief Streaming Officer, OneStudio",
-        "content": "\"Finding Polyfill CDN is like finding a gold mine! It's like is this real? \""
+        "content": "\"Finding Gowaf CDN is like finding a gold mine! It's like is this real? \""
       }
     }
   },
@@ -746,7 +746,7 @@
     ],
     "closerToUser": {
       "title": "Shorten distance. Improve website load time",
-      "subTitle": "Speed up your website by up to 80% with our global network by bringing the content closer to your visitors. By integrating Polyfill CDN, you’ll improve your loading speeds, reduce bounce rate, and increase conversions. Everything you need to stand out from the competition is just a few simple clicks away!"
+      "subTitle": "Speed up your website by up to 80% with our global network by bringing the content closer to your visitors. By integrating Gowaf CDN, you’ll improve your loading speeds, reduce bounce rate, and increase conversions. Everything you need to stand out from the competition is just a few simple clicks away!"
     },
     "accelerate": {
       "title": "Experience website performance like never before",
@@ -815,7 +815,7 @@
         {
           "icon": "/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png",
           "title": "Free SSL Encryption",
-          "content": "Utilize free SSL Encryption for all of your Websites and Files hosted on Polyfill network."
+          "content": "Utilize free SSL Encryption for all of your Websites and Files hosted on Gowaf network."
         },
         {
           "icon": "/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png",
@@ -831,14 +831,14 @@
     },
     "ad2_1": {
       "title": "Reduce image sizeup to 80%",
-      "content": "Push your website performance to the speed of light with Polyfill Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Polyfill Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest!",
+      "content": "Push your website performance to the speed of light with Gowaf Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Gowaf Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest!",
       "list": [
         "80% Reduce Image Size",
         "Up to 30% Faster",
         "WeBP Transformation",
         "Minimize Load Time"
       ],
-      "btn": "Explore  Polyfill Optimizer"
+      "btn": "Explore  Gowaf Optimizer"
     },
     "ad2_2": {
       "title": "Protect your videos from being stolen",
@@ -847,7 +847,7 @@
     },
     "logos": {
       "title": "Seamless and easy integration with popular WordPress plugins",
-      "subTitle": "Get the best experience possible by combing Polyfill with popular WordPress Plugins. It takes just a few clicks, and your website will work even faster and bring you better results!",
+      "subTitle": "Get the best experience possible by combing Gowaf with popular WordPress Plugins. It takes just a few clicks, and your website will work even faster and bring you better results!",
       "btn": "Step By Step Integration Guides"
     },
     "join1": {
@@ -855,7 +855,7 @@
       "person": {
         "name": "James Cantoni",
         "title": "Co-Founder, WP Compress",
-        "content": "“We're constantly impressed with the performance, ease of use, and outstanding support that Polyfill offers us and our clients!”"
+        "content": "“We're constantly impressed with the performance, ease of use, and outstanding support that Gowaf offers us and our clients!”"
       }
     }
   },
@@ -897,7 +897,7 @@
           "tab": "HTTP Flood Protection",
           "title": "Protect against Layer 7 HTTP flood attacks",
           "titleTip": "Coming soon",
-          "content": "Stop malicious bots or DDoS scripts from overloading your server. Polyfill helps you stay safe by automatically detecting and blocking malicious HTTP requests using a continuously learning AI security system. We stop threats seconds before they ever reach your origin.",
+          "content": "Stop malicious bots or DDoS scripts from overloading your server. Gowaf helps you stay safe by automatically detecting and blocking malicious HTTP requests using a continuously learning AI security system. We stop threats seconds before they ever reach your origin.",
           "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png",
           "iconWidth": "336px",
           "iconHeight": "326px",
@@ -908,7 +908,7 @@
         {
           "tab": "Volumetric Protection",
           "title": "Block volumetric network attacks on the edge",
-          "content": "Ensure uninterrupted content delivery with a massive 150 Tbps+ global network that automatically blocks even the largest volumetric attacks right on the edge before hitting your server. Polyfill helps you keep your server safe and your users engaged. No matter what.",
+          "content": "Ensure uninterrupted content delivery with a massive 150 Tbps+ global network that automatically blocks even the largest volumetric attacks right on the edge before hitting your server. Gowaf helps you keep your server safe and your users engaged. No matter what.",
           "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png",
           "iconWidth": "338px",
           "iconHeight": "266px",
@@ -918,9 +918,9 @@
         },
         {
           "tab": "Web Application Firewall",
-          "title": "Protect your applications with Polyfill WAF",
+          "title": "Protect your applications with Gowaf WAF",
           "titleTip": "Coming soon",
-          "content": "Block malicious requests targeting your applications on the software layer. Polyfill WAF helps you stay safe by blocking common security vulnerabilities and a real-time critical response rule-set maintained by the Polyfill Security team to stay on top of new threats.",
+          "content": "Block malicious requests targeting your applications on the software layer. Gowaf WAF helps you stay safe by blocking common security vulnerabilities and a real-time critical response rule-set maintained by the Gowaf Security team to stay on top of new threats.",
           "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png",
           "iconWidth": "350px",
           "iconHeight": "296px",
@@ -976,7 +976,7 @@
       "person": {
         "name": "Lorenzo Faletra",
         "title": "CEO, Parrot Security",
-        "content": "“Polyfill proved to be a very reliable CDN provider headed in Europe with strong privacy standards. We trusted them to take care of a very critical piece of our infrastructure that requires high confidentiality between us and our users.”"
+        "content": "“Gowaf proved to be a very reliable CDN provider headed in Europe with strong privacy standards. We trusted them to take care of a very critical piece of our infrastructure that requires high confidentiality between us and our users.”"
       }
     }
   }

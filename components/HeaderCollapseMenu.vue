@@ -39,9 +39,9 @@
             />
             <div class="tips">
               <div class="text">
-                See how Polyfill helped other companies reach the next leve!
+                See how Gowaf helped other companies reach the next leve!
               </div>
-              <div class="btn">Polyfill case studies</div>
+              <div class="btn">Gowaf case studies</div>
             </div>
           </el-menu>
         </transition>
@@ -77,9 +77,9 @@
             />
             <div class="tips">
               <div class="text">
-                See how Polyfill helped other companies reach the next leve!
+                See how Gowaf helped other companies reach the next leve!
               </div>
-              <div class="btn">Polyfill case studies</div>
+              <div class="btn">Gowaf case studies</div>
             </div>
           </el-menu>
         </transition>
@@ -110,9 +110,9 @@
             />
             <div class="tips">
               <div class="text">
-                See how Polyfill helped other companies reach the next leve!
+                See how Gowaf helped other companies reach the next leve!
               </div>
-              <div class="btn">Polyfill case studies</div>
+              <div class="btn">Gowaf case studies</div>
             </div>
           </el-menu>
         </transition>

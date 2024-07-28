@@ -60,7 +60,7 @@
         </XsOnly>
         <el-input
           v-model="input"
-          placeholder="Polyfill.net"
+          placeholder="Gowaf.net"
           :prefix-icon="CommonInputsubfix"
           class="input-with-select"
         >

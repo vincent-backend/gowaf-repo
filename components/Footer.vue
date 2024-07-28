@@ -95,7 +95,7 @@ withDefaults(
               <div class="contacts">
                 <a href="#" class="contact">
                   <span class="icon icon-email"></span>
-                  sales@Polyfill
+                  sales@Gowaf
                 </a>
                 <a href="#" class="contact">
                   <span class="icon icon-phone"></span>

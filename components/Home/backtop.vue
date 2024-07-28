@@ -54,7 +54,7 @@
           assistant.
         </div>
         <div class="ordinary">
-          You can ask me anything related to Polyfill, your account, and I can
+          You can ask me anything related to Gowaf, your account, and I can
           even help you troubleshoot issues. To get started, simply send me a
           message!
         </div>

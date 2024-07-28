@@ -1,13 +1,13 @@
 {
   "header": {
     "title": "The Global Content Delivery Platform That Truly Hops",
-    "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. polyfill makes lightning fast performance at any scale easier than ever before.",
+    "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. Gowaf makes lightning fast performance at any scale easier than ever before.",
     "btn": "Try FREE for 14 days",
     "hint": "Set-up in 5 minutes. No Credit Card required.",
     "bottom": {
       "title1": "Join over",
       "title2": "1,000,000+",
-      "title3": "websites already powered by polyfill",
+      "title3": "websites already powered by Gowaf",
       "subTitle": "Our dedication to quality has won the trust of many well known brands in their industries.",
       "weAreRated": "We're rated",
       "weAreRated2": "4.8 out of 5 based on 600+ reviews"
@@ -142,8 +142,8 @@
         "avatar": "home_avatar_2",
         "name": "Alex",
         "date": "Dec 11. 2024",
-        "title": "Polyfill CDN is truly exceptional",
-        "content": "Polyfill CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
+        "title": "Gowaf CDN is truly exceptional",
+        "content": "Gowaf CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
       },
       {
         "avatar": "home_avatar_3",
@@ -174,8 +174,8 @@
     "tabs": [
       {
         "tab": "Website Acceleration",
-        "title": "Make your website hop like a Polyfill",
-        "content": "Turn your website from a snail into a Polyfill. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
+        "title": "Make your website hop like a Gowaf",
+        "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
         "icon": "/images/home/home_bot_graph_Website@2x.png",
         "iconWidth": "374px",
         "iconHeight": "272px",
@@ -214,7 +214,7 @@
       {
         "tab": "Dynamic Image Processing",
         "title": "Transform your images. On the fly.",
-        "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Polyfill on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+        "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
         "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
         "iconWidth": "360px",
         "iconHeight": "266px",

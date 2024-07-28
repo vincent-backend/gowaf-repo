@@ -10,14 +10,14 @@
   },
   "overview": {
     "header": {
-      "preTitle": "Polyfill Pricing",
+      "preTitle": "Gowaf Pricing",
       "title": "Use as you want. Pay as you go.",
       "content": "Simple and affordable pricing at any scale. $1 Monthly Minimum."
     },
     "pricingTab": [
       {
-        "tab": "Polyfill CDN",
-        "header": "Polyfill CDN Pricing",
+        "tab": "Gowaf CDN",
+        "header": "Gowaf CDN Pricing",
         "content": [
           {
             "title": "Standard Network",
@@ -74,8 +74,8 @@
         ]
       },
       {
-        "tab": "Polyfill Stream",
-        "header": "Polyfill Stream Pricing",
+        "tab": "Gowaf Stream",
+        "header": "Gowaf Stream Pricing",
         "content": [
           {
             "title": "Simplified pricing. Up to 10x lower cost.",
@@ -114,8 +114,8 @@
         ]
       },
       {
-        "tab": "Polyfill Storage",
-        "header": "Polyfill Storage Pricing",
+        "tab": "Gowaf Storage",
+        "header": "Gowaf Storage Pricing",
         "content": [
           {
             "title": "Standard Tier",
@@ -178,8 +178,8 @@
         ]
       },
       {
-        "tab": "Polyfill Optimizer",
-        "header": "Polyfill Optimizer Pricing",
+        "tab": "Gowaf Optimizer",
+        "header": "Gowaf Optimizer Pricing",
         "content": [
           {
             "title": "Excellent solution for any sized project",
@@ -210,8 +210,8 @@
         ]
       },
       {
-        "tab": "Polyfill DNS",
-        "header": "Polyfill DNS Pricing",
+        "tab": "Gowaf DNS",
+        "header": "Gowaf DNS Pricing",
         "content": [
           {
             "title": "Pay per query. No hidden fees.",
@@ -287,7 +287,7 @@
           "subTitle": "(Europe & North America)",
           "items": [
             {
-              "label": "Polyfill",
+              "label": "Gowaf",
               "value": "$50",
               "width": "21.25%"
             },
@@ -323,7 +323,7 @@
           "subTitle": "(Worldwide Median - Lower is better)",
           "items": [
             {
-              "label": "Polyfill",
+              "label": "Gowaf",
               "value": "24 ms",
               "width": "21.25%"
             },
@@ -370,7 +370,7 @@
       "person": {
         "name": "Jerry Caloroso",
         "title": "Chief Streaming Officer, OneStudio",
-        "content": "\"Finding Polyfill CDN is like finding a gold mine! It's like is this real? \""
+        "content": "\"Finding Gowaf CDN is like finding a gold mine! It's like is this real? \""
       },
       "ranks": [
         {
@@ -512,30 +512,30 @@
             "Direct communication with developers"
           ]
         },
-        "btn": "Explore Polyfill Support"
+        "btn": "Explore Gowaf Support"
       }
     },
     "hop": {
-      "title": "Hop ahead with Polyfill products",
+      "title": "Hop ahead with Gowaf products",
       "subTitle": "Get all the tools you need to bring performance and security to the next level.",
       "list": [
         {
           "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
-          "title": "Polyfill Storage",
+          "title": "Gowaf Storage",
           "subTitle": "From $0.01 /GB",
           "btn": "See pricing details",
           "href": "#"
         },
         {
           "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
-          "title": "Polyfill Optimizer",
+          "title": "Gowaf Optimizer",
           "subTitle": "$9.50 /website",
           "btn": "See pricing details",
           "href": "#"
         },
         {
           "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
-          "title": "Polyfill Stream",
+          "title": "Gowaf Stream",
           "subTitle": "From $0.005 /GB",
           "btn": "See pricing details",
           "href": "#"
@@ -559,8 +559,8 @@
         "labelEstimatedTraffic": "Estimated monthly traffic",
         "placeholderEstimatedTraffic": "I don't know",
         "labelMessage": "Message",
-        "placeholderMessage": "Tell us about your project and how polyfill can help.",
-        "agree": "I have read and agree to the polyfill",
+        "placeholderMessage": "Tell us about your project and how Gowaf can help.",
+        "agree": "I have read and agree to the Gowaf",
         "agreeLink": "Privacy Policy",
         "agreeHref": "#",
         "btnSubmit": "Lets Talk",
@@ -571,7 +571,7 @@
   },
   "stream": {
     "header": {
-      "preTitle": "Polyfill Stream Pricing",
+      "preTitle": "Gowaf Stream Pricing",
       "title": "Simplified pricing. Up to 10x lower cost.",
       "content": "Utilize video player, transcoding, and all security features completely free of charge. Only pay for the traffic you use!"
     },
@@ -627,7 +627,7 @@
   },
   "storage": {
     "header": {
-      "preTitle": "Polyfill Storage Pricing",
+      "preTitle": "Gowaf Storage Pricing",
       "title": "Surprisingly Affordable",
       "content": "Keep your costs to a minimum. Never sacrifice performance. No commitments are required."
     },
@@ -698,7 +698,7 @@
   },
   "optimizer": {
     "header": {
-      "preTitle": "Polyfill Optimizer Pricing",
+      "preTitle": "Gowaf Optimizer Pricing",
       "title": "Simple and affordable pricing",
       "content": "Reduce load times and increase conversion rates in just a few clicks without writing a single line of code."
     },
@@ -733,7 +733,7 @@
   },
   "dns": {
     "header": {
-      "preTitle": "Polyfill DNS Pricing",
+      "preTitle": "Gowaf DNS Pricing",
       "title": "Only pay for the queries that you use",
       "content": "Unlock the true power of DNS with a fully flexible and surprisingly affordable Pay As You Go pricing."
     },

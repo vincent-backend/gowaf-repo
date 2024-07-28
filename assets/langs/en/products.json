@@ -26,7 +26,7 @@
     },
     "overview": {
       "header": {
-        "preTitle": "Polyfill CDN",
+        "preTitle": "Gowaf CDN",
         "title": "Performance like never before",
         "content": "Hop on a lightning fast global content delivery network and supercharge your web presence.Deliver consistent experience to everyone, nomatter where they are!",
         "btn": "Start 14-Day FREE Trial",
@@ -336,7 +336,7 @@
         ]
       },
       "connectDirectly": {
-        "title": "Connect directly with a Super Polyfill. Every single time.",
+        "title": "Connect directly with a Super Gowaf. Every single time.",
         "subTitle": "The only support you'll ever want to talk to.",
         "content": {
           "title1": "Super responsive. Around the clock.",
@@ -355,7 +355,7 @@
           ],
           "title2": "Super attentive.",
           "content2": "Working on a bigger project? Take advantage of a dedicated support team that will be available to vou z4// in vour own rivate Sack nannelbet direct help and never wait again!",
-          "btn": "Meet our Super Polyfill"
+          "btn": "Meet our Super Gowaf"
         }
       }
     },
@@ -384,7 +384,7 @@
           {
             "pic": "/images/products/cdn/features/cdnfeatures_network_img@2x.png",
             "title": "Network",
-            "content": "Not all networks are crafted the same. Polyfill gives you a direct line to one of the fastest networks in the world, designed for a true planet-scale reach that's always just a hop away from your users.",
+            "content": "Not all networks are crafted the same. Gowaf gives you a direct line to one of the fastest networks in the world, designed for a true planet-scale reach that's always just a hop away from your users.",
             "list": [
               "150 Tbps+ Backbone",
               "123 PoPs",
@@ -426,7 +426,7 @@
       "header": {
         "preTitle": "CDN Perma-Cache",
         "title": "Keep files global. At all times.",
-        "content": "Permanently store your files on the edge with Polyfill Storage for a 100% Cache HIT rate. Guarantee excellent performance for every request, every time, and avoid hefty origin traffic bills.",
+        "content": "Permanently store your files on the edge with Gowaf Storage for a 100% Cache HIT rate. Guarantee excellent performance for every request, every time, and avoid hefty origin traffic bills.",
         "btn": "Start 14-Day FREE Trial",
         "hint": "No credit card needed. Start in seconds."
       },
@@ -450,7 +450,7 @@
       ],
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/cdn/perma-cache/media_simple_ic_1@2x.png",
@@ -587,17 +587,17 @@
         "subTitle": "Lower your origin traffic by up to 90% with a single click."
       },
       "join1": {
-        "title": "Join over 40.000+ customers who already put their trust in polyfill",
+        "title": "Join over 40.000+ customers who already put their trust in Gowaf",
         "person": {
           "name": "Periklis",
           "title": "VitrinaBox, Senior Software Engineer",
-          "content": "\"polyfill is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
+          "content": "\"Gowaf is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
         }
       }
     },
     "safeHop": {
       "header": {
-        "preTitle": "Polyfill SafeHop™",
+        "preTitle": "Gowaf SafeHop™",
         "title": "Maximize uptime. Reduce origin errors.",
         "content": "Reduce origin errors and maximize uptime! SafeHop allows you to easily configure timeouts, delays and request retries to your origin to work around any potential network issues.",
         "btn": "Start 14-Day FREE Trial",
@@ -681,7 +681,7 @@
     },
     "comparison": {
       "header": {
-        "title": "Compare Polyfill vs ",
+        "title": "Compare Gowaf vs ",
         "subTitle": "Looking for the best ",
         "subRightTitle": " alternative?",
         "content": "Enjoy enterprise grade performance and features at fraction of the cost."
@@ -1182,7 +1182,7 @@
     },
     "overview": {
       "header": {
-        "preTitle": "Polyfill Stream",
+        "preTitle": "Gowaf Stream",
         "title": "A better way to deliver online video",
         "content": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
         "btn": "Start 14-Day FREE Trial",
@@ -1314,7 +1314,7 @@
             ]
           },
           {
-            "head": "Polyfill Stream",
+            "head": "Gowaf Stream",
             "items": [
               {
                 "title": "FREE",
@@ -1444,8 +1444,8 @@
         "btn": "Video API Documentation"
       },
       "howStreamWorks": {
-        "title": "How Polyfill Stream works",
-        "subTitle": "A quick look behind how Polyfill Stream superchargers your video delivery.",
+        "title": "How Gowaf Stream works",
+        "subTitle": "A quick look behind how Gowaf Stream superchargers your video delivery.",
         "list": [
           {
             "title": "Media Ingress",
@@ -1783,14 +1783,14 @@
         "subTitle": "From media transcoding, packaging, to DRM encryption and license management with an integrated player.",
         "content": {
           "sourceVideo": "Source Video",
-          "drmService": "Polyfill Enterprise\nDRM Service",
+          "drmService": "Gowaf Enterprise\nDRM Service",
           "generateKey": "Generate\nContent Key",
           "contentKey": "Content Key",
           "transcode": "Transcode",
           "packageEncryption": "Packaging & encryption",
-          "storage": "Polyfill Storage",
+          "storage": "Gowaf Storage",
           "watermark": "Watermark",
-          "cdn": "Polyfill CDN"
+          "cdn": "Gowaf CDN"
         }
       },
       "drmTable": {
@@ -1924,7 +1924,7 @@
         "person": {
           "name": "Matthias Mauch",
           "title": "Younity",
-          "content": "“Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
+          "content": "“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”"
         },
         "ranks": [
           {
@@ -2019,7 +2019,7 @@
           "phone": "Phone",
           "phoneLabel": "XXX-XXX-XXXX",
           "message": "Message",
-          "messageLable": "Tell us about your project and how polyfill can help.",
+          "messageLable": "Tell us about your project and how Gowaf can help.",
           "btn": "Send Email"
         }
       },
@@ -2113,7 +2113,7 @@
         "list": {
           "title": "Lorenzo Faletra",
           "subTitle": "CEO, Parrot Security",
-          "content": "\"Polyfill proved to be a very reliable CDN provider headed in Europe with strong privacy standards. We trusted them to take care of a very critical piece of our infrastructure that requires high confidentiality between us and our users.\""
+          "content": "\"Gowaf proved to be a very reliable CDN provider headed in Europe with strong privacy standards. We trusted them to take care of a very critical piece of our infrastructure that requires high confidentiality between us and our users.\""
         },
         "items": [
           {
@@ -2136,7 +2136,7 @@
       },
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/storage/europe/SmartEdge™_ic_engine_2x.png",
@@ -2298,7 +2298,7 @@
         "markerColor": "#F9C22F"
       },
       "drmCustomer": {
-        "title": "Join over 40.000+ customers who already put their trust in polyfill",
+        "title": "Join over 40.000+ customers who already put their trust in Gowaf",
         "contentPre": "We're rated ",
         "contentImg": "/images/products/stream/multi-drm/home_title_star2x.png",
         "contentMid": " Excellent 4.8",
@@ -2319,7 +2319,7 @@
         "list": {
           "title": "Periklis",
           "subTitle": "VitrinaBox, Senior Software Engineer",
-          "content": "\"polyfill is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
+          "content": "\"Gowaf is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers.\""
         },
         "items": [
           {
@@ -2342,7 +2342,7 @@
       },
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/storage/europe/SmartEdge™_ic_engine_2x.png",
@@ -2582,7 +2582,7 @@
       },
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/storage/europe/SmartEdge™_ic_engine_2x.png",
@@ -2820,7 +2820,7 @@
       },
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/storage/europe/SmartEdge™_ic_engine_2x.png",
@@ -3064,7 +3064,7 @@
       },
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/storage/europe/SmartEdge™_ic_engine_2x.png",
@@ -3308,7 +3308,7 @@
       },
       "neverHit": {
         "title": "Never hit your origin again",
-        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Polyfill keeps your infrastructure hopping, regardless of scale or traffic spikes.",
+        "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.",
         "items": [
           {
             "icon": "/images/products/storage/europe/SmartEdge™_ic_engine_2x.png",
@@ -3470,7 +3470,7 @@
     },
     "BouuyStorage": {
       "header": {
-        "preTitle": "Polyfill Storage",
+        "preTitle": "Gowaf Storage",
         "title": "The fastest object storage replicated to the edge",
         "content": "Forget slow object storage and WOW your customers with unparalleled performance.  Automatically replicate your files worldwide to minimize your latency and maximize throughput for your files. For every request. Everywhere.",
         "btn": "Start 14-Day FREE Trial"
@@ -3537,7 +3537,7 @@
             "subTitle": "(Milliseconds - Lower is better)",
             "items": [
               {
-                "label": "Polyfill",
+                "label": "Gowaf",
                 "value": "41 ms",
                 "width": "21.25%"
               },
@@ -3568,7 +3568,7 @@
             "subTitle": "(MB/s - Higher is better)",
             "items": [
               {
-                "label": "Polyfill",
+                "label": "Gowaf",
                 "value": "58.3 MB/s",
                 "width": "100%"
               },
@@ -3619,7 +3619,7 @@
         "list": {
           "title": "Tom Mason",
           "subTitle": "Nexus Mods",
-          "content": "\"Working with polyfill has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.\""
+          "content": "\"Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.\""
         },
         "items": [
           {
@@ -3769,9 +3769,9 @@
     },
     "multiDRM": {
       "header": {
-        "preTitle": "Polyfill DNS",
+        "preTitle": "Gowaf DNS",
         "title": "Unlock the true powe",
-        "content": "Hop on an ultra-fast DNS platform designed to power the next-generation of applications. By utilizing scriptable records, Polyfill DNS helps you unlock the true power of DNS and turn complex issues into simple solutions.",
+        "content": "Hop on an ultra-fast DNS platform designed to power the next-generation of applications. By utilizing scriptable records, Gowaf DNS helps you unlock the true power of DNS and turn complex issues into simple solutions.",
         "btn": "Start 14-Day FREE Trial"
       },
       "drmCustomer": {
@@ -3829,7 +3829,7 @@
           "height": "100px",
           "alignType": "flex-start",
           "title": "Simplify CDN Integration",
-          "content": "Connect your domains to Polyfill CDN with a click of a button to supercharge and protect your applications in seconds."
+          "content": "Connect your domains to Gowaf CDN with a click of a button to supercharge and protect your applications in seconds."
         },
         {
           "icon": "/images/products/cdn/perma-cache/media_simple_ic_2@2x.png",
@@ -3933,7 +3933,7 @@
     },
     "overview": {
       "header": {
-        "preTitle": "Polyfill Optimizer",
+        "preTitle": "Gowaf Optimizer",
         "title": "Faster website.  Made simple.",
         "content": "Improve your website performance and user experience. Reduce load times and increase  conversion rates in just a few clicks. Get hopping in under 5 minutes without  writing a single line of code."
       },
@@ -4179,7 +4179,7 @@
         ]
       },
       "SupportPlan": {
-        "btnText": "Explore Polyfill Support",
+        "btnText": "Explore Gowaf Support",
         "btnsubText": " Transcribing cost is separately for each language or translation.",
         "list": [
           {

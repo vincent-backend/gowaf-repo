@@ -9,27 +9,23 @@
     "hotlinks": [
       {
         "label": "About Us",
-        "link": "#"
+        "link": "/resources/about"
       },
       {
-        "label": "Polyfill Blog",
-        "link": "#"
+        "label": "Gowaf Blog",
+        "link": "/resources/blog"
       },
       {
-        "label": "Polyfill Careers",
-        "link": "#"
+        "label": "Gowaf Careers",
+        "link": "/resources/careers"
       },
       {
         "label": "Case Studies",
-        "link": "#"
+        "link": "/resources/caseStudiesDetails"
       },
       {
         "label": "Affiliate Program",
-        "link": "#"
-      },
-      {
-        "label": "Polyfill Academy",
-        "link": "#"
+        "link": "/AffiliateProgram"
       }
     ],
     "shortcuts": [
@@ -37,28 +33,24 @@
         "title": "Products",
         "items": [
           {
-            "label": "Polyfill CDN",
-            "href": "#"
+            "label": "Gowaf CDN",
+            "href": "/Products/Cdn/Overview"
           },
           {
-            "label": "Polyfill Optimizer",
-            "href": "#"
+            "label": "Gowaf Optimizer",
+            "href": "/Products/optimizer/Overview"
           },
           {
-            "label": "Polyfill Storage",
-            "href": "#"
+            "label": "Gowaf Storage",
+            "href": "/Products/Storage/Asia"
           },
           {
-            "label": "Polyfill Stream",
-            "href": "#"
+            "label": "Gowaf Stream",
+            "href": "/Products/Stream/Overview"
           },
           {
-            "label": "Polyfill DNS",
-            "href": "#"
-          },
-          {
-            "label": "Polyfill Fonts",
-            "href": "#"
+            "label": "Gowaf DNS",
+            "href": "/Products/Cdn/Overview"
           }
         ]
       },
@@ -67,15 +59,15 @@
         "items": [
           {
             "label": "Network Map",
-            "href": "#"
+            "href": "/Network/Overview"
           },
           {
-            "label": "Polyfill Features",
-            "href": "#"
+            "label": "Gowaf Features",
+            "href": "/Products/Cdn/Features"
           },
           {
             "label": "Network Tools",
-            "href": "#"
+            "href": "/Network/Tools"
           },
           {
             "label": "Developer Hub",
@@ -92,15 +84,15 @@
         "items": [
           {
             "label": "SLA",
-            "href": "#"
+            "href": "/SLA"
           },
           {
             "label": "Support HUB",
-            "href": "#"
+            "href": "/SupportHUB"
           },
           {
             "label": "Super Bunnies™",
-            "href": "#"
+            "href": "/BookMeeting"
           },
           {
             "label": "Service Status",
@@ -135,10 +127,10 @@
         "link": "#"
       }
     ],
-    "copyright": "2024 All Rights Reserved © Polyfill Way d.o.o.",
+    "copyright": "2024 All Rights Reserved © Gowaf Way d.o.o.",
     "section1Title": "Big traffic? Talk to Sales",
     "section1Content": "Working on a big project?  Let our experts help you out.",
-    "section2Title": "Stay up to date with Polyfill",
+    "section2Title": "Stay up to date with Gowaf",
     "section2Content": "Follow us on social media for special promotions and important news.",
     "section3": "Making the internet hop faster!"
   }

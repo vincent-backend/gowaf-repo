@@ -1,13 +1,13 @@
 {
   "header": {
     "title": "The Global Content Delivery Platform That Truly Hops",
-    "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. polyfill makes lightning fast performance at any scale easier than ever before.",
+    "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. Gowaf makes lightning fast performance at any scale easier than ever before.",
     "btn": "Try FREE for 14 days",
     "hint": "Set-up in 5 minutes. No Credit Card required.",
     "bottom": {
       "title1": "Join over",
       "title2": "1,000,000+",
-      "title3": "websites already powered by polyfill",
+      "title3": "websites already powered by Gowaf",
       "subTitle": "Our dedication to quality has won the trust of many well known brands in their industries.",
       "weAreRated": "We're rated",
       "weAreRated2": "4.8 out of 5 based on 600+ reviews"
@@ -142,8 +142,8 @@
         "avatar": "home_avatar_2",
         "name": "Alex",
         "date": "Dec 11. 2024",
-        "title": "Polyfill CDN is truly exceptional",
-        "content": "Polyfill CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
+        "title": "Gowaf CDN is truly exceptional",
+        "content": "Gowaf CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
       },
       {
         "avatar": "home_avatar_3",
@@ -174,8 +174,8 @@
     "tabs": [
       {
         "tab": "Website Acceleration",
-        "title": "Make your website hop like a Polyfill",
-        "content": "Turn your website from a snail into a Polyfill. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
+        "title": "Make your website hop like a Gowaf",
+        "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
         "icon": "/images/home/home_bot_graph_Website@2x.png",
         "iconWidth": "374px",
         "iconHeight": "272px",
@@ -214,7 +214,7 @@
       {
         "tab": "Dynamic Image Processing",
         "title": "Transform your images. On the fly.",
-        "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Polyfill on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+        "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
         "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
         "iconWidth": "360px",
         "iconHeight": "266px",
@@ -228,7 +228,7 @@
   },
   "login": {
     "title": "Welcome back!",
-    "subtitle": "Log into Polyfill account.",
+    "subtitle": "Log into Gowaf account.",
     "Forgot": "Forgot password?",
     "loginbtn": "Log In",
     "divider": "Or continue with",
@@ -237,13 +237,13 @@
     "list": [
       {
         "img": "/images/home/log_icon_1@2x.png",
-        "title": "New Polyfill Dashboard is live!",
+        "title": "New Gowaf Dashboard is live!",
         "content": "The easiest way to dynamically generate images and deliver them directly from the CDN."
       },
       {
         "img": "/images/home/log_icon_2@2x.png",
-        "title": "Try out Polyfill AI Beta!",
-        "content": "Take web application performance to the next level on a true planet-scale level with Polyfill Storage Edge Tier."
+        "title": "Try out Gowaf AI Beta!",
+        "content": "Take web application performance to the next level on a true planet-scale level with Gowaf Storage Edge Tier."
       },
       {
         "img": "/images/home/log_icon_3@2x.png",
@@ -302,13 +302,13 @@
     "list": [
       {
         "img": "/images/home/log_icon_1@2x.png",
-        "title": "New Polyfill Dashboard is live!",
+        "title": "New Gowaf Dashboard is live!",
         "content": "The easiest way to dynamically generate images and deliver them directly from the CDN."
       },
       {
         "img": "/images/home/log_icon_2@2x.png",
-        "title": "Try out Polyfill AI Beta!",
-        "content": "Take web application performance to the next level on a true planet-scale level with Polyfill Storage Edge Tier."
+        "title": "Try out Gowaf AI Beta!",
+        "content": "Take web application performance to the next level on a true planet-scale level with Gowaf Storage Edge Tier."
       },
       {
         "img": "/images/home/log_icon_3@2x.png",
@@ -317,27 +317,27 @@
       },
       {
         "img": "/images/home/log_icon_4@2x.png",
-        "title": "Polyfill DNS is now live!",
+        "title": "Gowaf DNS is now live!",
         "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
       }
     ]
   },
   "ContactSales": {
     "preTitle": "Contact Sales",
-    "title": "Talk to a polyfill expert",
+    "title": "Talk to a Gowaf expert",
     "content": "Tell us about you project and we'll connect you with a CDN expert and tailor a perfect solution for you",
     "btn": "Send Inquiry",
     "agreement": [
-      "I have read and agree to the polyfill",
+      "I have read and agree to the Gowaf",
       " Privacy Policy "
     ]
   },
   "AffiliateProgram": {
-    "preTitle": "Polyfill Affiliate Program",
-    "title": "Join Polyfill Affiliate  program and help us  grow faster",
+    "preTitle": "Gowaf Affiliate Program",
+    "title": "Join Gowaf Affiliate  program and help us  grow faster",
     "content": "Help us grow and earn money along the way. We help you make the most referrals  possible with resources to a library of global creative, ready-made education and  lead magnets.",
-    "btn": "Join Polyfill Affiliate Program",
-    "hint": "A Polyfill.net account is needed to participate in the program.",
+    "btn": "Join Gowaf Affiliate Program",
+    "hint": "A Gowaf.net account is needed to participate in the program.",
     "neverHit": {
       "title": "Register. Share. Earn.",
       "subTitle": "Start earning money in 3 simple steps.",
@@ -348,7 +348,7 @@
           "height": "80px",
           "alignType": "center",
           "title": "Register",
-          "content": "Create a paid account at Polyfill.net.",
+          "content": "Create a paid account at Gowaf.net.",
           "contentAlign": "center"
         },
         {
@@ -374,7 +374,7 @@
     "listBtn": "Get Your Affiliate Code",
     "list1": {
       "title1": "How does it work?",
-      "title2": "Getting started with the Polyfill Affiliate program is free and easy.",
+      "title2": "Getting started with the Gowaf Affiliate program is free and easy.",
       "items": [
         {
           "icon": "/images/home/affiliate_2_ic_1@2x.png",
@@ -450,7 +450,7 @@
         {
           "pic": "/images/home/Uptime_Guaran_img@2x.png",
           "title": "99.99% Uptime Guarantee",
-          "content": "The Polyfill.net platform was designed with performance and stability in mind. Our system leverages automatic healing and failover in case of server failure using multiple methods of uptime and performance monitoring. On top of that, our team is working around the clock to prevent and minimize any disruptions and provide optimal performance around the globe.",
+          "content": "The Gowaf.net platform was designed with performance and stability in mind. Our system leverages automatic healing and failover in case of server failure using multiple methods of uptime and performance monitoring. On top of that, our team is working around the clock to prevent and minimize any disruptions and provide optimal performance around the globe.",
           "width": "400px",
           "height": "400px"
         },
@@ -496,11 +496,11 @@
   },
   "SupportHUB": {
     "title": "How can we help you?",
-    "subtitle": "Guides, troubleshooting and support requests to help you get started with Polyfill.net.",
+    "subtitle": "Guides, troubleshooting and support requests to help you get started with Gowaf.net.",
     "list": [
       {
         "title": "CDN",
-        "subtitle": "Polyfill CDN product documentation, integration guides, and troubleshooting help.",
+        "subtitle": "Gowaf CDN product documentation, integration guides, and troubleshooting help.",
         "items": [
           {
             "title": "Getting Started",
@@ -566,7 +566,7 @@
       },
       {
         "title": "DNS",
-        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
         "items": [
           {
             "title": "Getting Started",
@@ -592,7 +592,7 @@
       },
       {
         "title": "Storage",
-        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
         "items": [
           {
             "title": "Getting Started",
@@ -618,7 +618,7 @@
       },
       {
         "title": "Stream",
-        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
         "items": [
           {
             "title": "Getting Started",
@@ -644,7 +644,7 @@
       },
       {
         "title": "Optimizer",
-        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
         "items": [
           {
             "title": "Getting Started",
@@ -670,7 +670,7 @@
       },
       {
         "title": "Frequently Asked Questions (FAQ)",
-        "subtitle": "Polyfill DNS product documentation, integration guides, and troubleshooting help.",
+        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
         "items": [
           {
             "title": "Billing",
