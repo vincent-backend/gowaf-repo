@@ -40,7 +40,7 @@ const handleBack = () => {
             <a href="/login" class="button button-login">
               {{ $t('header.login') }}
             </a>
-            <a href="#" class="button button-get-started">
+            <a href="/forgot" class="button button-get-started">
               {{ $t('header.getStarted') }}
             </a>
             <a href="#" class="button button-lang"> EN </a>

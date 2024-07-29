@@ -25,6 +25,8 @@
   <NetworkAlwaysSafe v-bind="$tm('products.stream.overview.alwaysSafe')" />
 
   <CommonNumbers
+    is-row
+    is-two-row
     style="margin-top: 40px"
     :items="$tm('products.stream.overview.numbers')"
   />
