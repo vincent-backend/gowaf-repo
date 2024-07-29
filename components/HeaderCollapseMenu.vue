@@ -121,7 +121,9 @@
         <div class="login" @click="$router.push({ path: '/login' })">
           {{ $t('header.login') }}
         </div>
-        <div class="get" @click="$router.push({ path: '/forgot' })">{{ $t('header.getStarted') }}</div>
+        <div class="get" @click="$router.push({ path: '/forgot' })">
+          {{ $t('header.getStarted') }}
+        </div>
         <div class="language">EN <i class="icon"></i></div>
       </div>
     </div>
@@ -159,6 +161,9 @@ watch(
       document.body.style.overflow = ''; //出现滚动条
       document.removeEventListener('touchmove', mo, false);
     }
+  },
+  {
+    immediate: true
   }
 );
 </script>
