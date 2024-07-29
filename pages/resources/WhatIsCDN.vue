@@ -229,12 +229,16 @@ definePageMeta({
         }
         .vs-icon {
           display: flex;
-          margin: 20px 0;
           gap: 85px;
           .yes,
           .no {
-            width: 97px;
-            height: 64px;
+            width: 100px;
+            height: 100px;
+            background: url('/images//resources/WhatIsCDN/Thumbs_up@2x.png');
+            background-size: 100% 100%;
+          }
+          .no {
+            background: url('/images//resources/WhatIsCDN/Thumbs_down@2x.png');
           }
         }
         .tips {
@@ -321,6 +325,8 @@ definePageMeta({
         .bot-img {
           width: 220px;
           height: 266px;
+          background: url('/images//resources/WhatIsCDN/service_women_img@2x.png');
+          background-size: 100% 100%;
         }
         .bot-btn {
           width: 372px;
@@ -445,8 +451,13 @@ definePageMeta({
             gap: 5.3rem;
             .yes,
             .no {
-              width: 5.45rem;
-              height: 3.54rem;
+              width: 6.25rem;
+              height: 6.25rem;
+              background: url('/images//resources/WhatIsCDN/Thumbs_up@2x.png');
+              background-size: 100% 100%;
+            }
+            .no {
+              background: url('/images//resources/WhatIsCDN/Thumbs_down@2x.png');
             }
           }
           .tips {
