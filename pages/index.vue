@@ -21,6 +21,7 @@
   <HomeJoin1 />
   <HomeJoin2 />
   <CommonSuperCharge v-bind="$tm('home.superCharge')" />
+  <VSpace h="120px" mh="6.25rem"></VSpace>
   <Footer />
 
   <LgOnly>

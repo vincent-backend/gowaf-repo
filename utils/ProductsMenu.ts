@@ -42,7 +42,7 @@ export default function ($t: any, path: string) {
       children: [
         {
           label: $t('products.cdn.breadCrumbs.overview'),
-          href: '/Products/DNS/BouuyDNS',
+          href: '/Products/Stream/Overview',
           current: false
         },
         {
