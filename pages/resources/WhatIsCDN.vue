@@ -5,7 +5,7 @@
     :items="[
       {
         label: $t('resources.breadCrumbs.CDN'),
-        href: '',
+        href: '/resources/WhatIsCDN',
         current: true
       },
       {
@@ -34,11 +34,6 @@
         current: false
       },
       {
-        label: $t('resources.breadCrumbs.Security'),
-        href: '',
-        current: false
-      },
-      {
         label: $t('resources.breadCrumbs.Computing'),
         href: '',
         current: false
@@ -59,8 +54,8 @@
       h: '371px',
 
       msrc: '/images/resources/WhatIsCDN/cdn_overview_banner_graph@2x.png',
-      mw: '26.5rem',
-      mh: '21.63rem'
+      mw: '23.81rem',
+      mh: '23.19rem'
     }"
   />
   <div class="bottom-header">
@@ -139,7 +134,7 @@
 
 <script setup lang="ts">
 definePageMeta({
-  title: 'Resources'
+  title: 'Academy'
 });
 </script>
 <style lang="scss" scoped>
@@ -343,6 +338,220 @@ definePageMeta({
           .img {
             width: 24px;
             height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .bottom-header {
+    width: 100%;
+    height: 7.5rem;
+    background: #e6edfc;
+    .page-container {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      gap: 2.5rem;
+      overflow-y: hidden;
+      overflow-x: auto;
+      .option {
+        white-space: nowrap;
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #000000;
+        line-height: 2.81rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        &.bold {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .textContent {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    width: 100%;
+    background: #fafafa;
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      gap: 6.25rem;
+      .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 6.25rem;
+        .articleBlock {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          .title {
+            font-family: Mont, Mont;
+            font-weight: bold;
+            font-size: 3.13rem;
+            color: #000000;
+            line-height: 4.38rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+          .content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 400;
+            font-size: 1.63rem;
+            color: #4e4e4e;
+            line-height: 2.38rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+            :deep(img) {
+              width: 100%;
+            }
+            :deep(b) {
+              font-weight: 700;
+            }
+          }
+        }
+        .helpful {
+          width: 43.75rem;
+          height: 16.69rem;
+          background: #e6edfc;
+          border-radius: 1.25rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .putQuestionsTo {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 600;
+            font-size: 2rem;
+            color: #000000;
+            line-height: 2.81rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+          .vs-icon {
+            display: flex;
+            margin: 1.25rem 0;
+            gap: 5.3rem;
+            .yes,
+            .no {
+              width: 5.45rem;
+              height: 3.54rem;
+            }
+          }
+          .tips {
+            display: flex;
+            gap: 0.88rem;
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 600;
+            font-size: 1.63rem;
+            color: #000000;
+            line-height: 2.38rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+            .bold {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+      .right {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        gap: 1.25rem;
+        .right-title {
+          font-family: Mont, Mont;
+          font-weight: bold;
+          font-size: 3.13rem;
+          color: #000000;
+          line-height: 4.38rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        .advertisement {
+          display: flex;
+          flex-direction: column;
+          background: #e6edfc;
+          border-radius: 1.25rem;
+          padding: 1.5rem 1.25rem;
+          .ad-title {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 600;
+            font-size: 1.63rem;
+            color: #000000;
+            line-height: 2.31rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+          .ad-content {
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 400;
+            font-size: 1.63rem;
+            color: #4e4e4e;
+            line-height: 2.38rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+        }
+        .advertisement-bot {
+          margin: 0 auto;
+          margin-top: 6.25rem;
+          width: 26.25rem;
+          height: 27rem;
+          background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
+          box-shadow: 0rem 0rem 0.75rem 0rem rgba(126, 135, 154, 0.25);
+          border-radius: 0.88rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .bot-t {
+            width: 17.88rem;
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 600;
+            font-size: 1.63rem;
+            color: #000000;
+            line-height: 2.31rem;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+          .bot-img {
+            width: 13.75rem;
+            height: 16.63rem;
+          }
+          .bot-btn {
+            width: 23.25rem;
+            height: 3.13rem;
+            background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 500;
+            font-size: 1.63rem;
+            color: #ffffff;
+            .img {
+              width: 1.5rem;
+              height: 1.5rem;
+            }
           }
         }
       }
