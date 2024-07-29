@@ -38,7 +38,7 @@
     }"
   />
   <ProductsVerticalCarousel />
-  <CommonSuperCharge v-bind="$tm('products.DNS.doNotLeave')" />
+  <CommonSuperCharge v-bind="$tm('products.optimizer.TransformAPI.doNotLeave')" />
   <SolutionsAd1
     :title="$t('products.cdn.overview.ad1.title')"
     :sub-title="$t('products.cdn.overview.ad1.subTitle')"

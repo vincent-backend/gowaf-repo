@@ -4087,6 +4087,56 @@
             "mbigpicW": ""
           }
         ]
+      },
+      "doNotLeave": {
+        "title": "Say goodbye to slow loading images",
+        "subTitle": "Get pixel-perfect images, optimized, stored, and delivered around the world.",
+        "tabs": [
+          {
+            "tab": "Simple & Fast API",
+            "title": "Streamline security. Protect your images.",
+            "content": "Ensure your full-size images remain secure and protected with automatic watermarking, token authentication, and image classes. Only display the formats you want without complex security or network permissions.\nHop ahead of the competition by utilizing Bunny Optimizer's robust security that you can set up in just a few clicks.",
+            "icon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img01@2x.png",
+            "iconWidth": "400px",
+            "iconHeight": "400px",
+            "mIcon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img01@2x.png",
+            "mIconWidth": "25rem",
+            "mIconHeight": "25rem"
+          },
+          {
+            "tab": "Cache Forever",
+            "title": "Transform once. Cache forever.",
+            "content": "Get rid of added latency caused by the dynamic transformation that slows down your load times. Only process images once, then permanently store them on the edge using Perma-Cache to deliver unparalleled performance.\nbunny.net helps you hop ahead by combining innovative technologies designed for absolute performance. For every request. Every time.",
+            "icon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img02@2x.png",
+            "iconWidth": "400px",
+            "iconHeight": "400px",
+            "mIcon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img02@2x.png",
+            "mIconWidth": "25rem",
+            "mIconHeight": "25rem"
+          },
+          {
+            "tab": "Simplify Development",
+            "title": "Simplify development.  Maximize productivity.",
+            "content": "Drastically reduce the development time of applications by not worrying about image management. Upload and store a single image file and use dynamic image transformation API to achieve pixel-perfect design for every device.\nAccelerate a single domain or your complete application to simplify development based on whatever works best for you.",
+            "icon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img03@2x.png",
+            "iconWidth": "400px",
+            "iconHeight": "400px",
+            "mIcon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img03@2x.png",
+            "mIconWidth": "25rem",
+            "mIconHeight": "25rem"
+          },
+          {
+            "tab": "Protect Original Images",
+            "title": "Streamline security. Protect your images.",
+            "content": "Ensure your full-size images remain secure and protected with automatic watermarking, token authentication, and image classes. Only display the formats you want without complex security or network permissions.\nHop ahead of the competition by utilizing Bunny Optimizer's robust security that you can set up in just a few clicks.",
+            "icon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img04@2x.png",
+            "iconWidth": "400px",
+            "iconHeight": "400px",
+            "mIcon": "/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img04@2x.png",
+            "mIconWidth": "25rem",
+            "mIconHeight": "25rem"
+          }
+        ]
       }
     }
   },
