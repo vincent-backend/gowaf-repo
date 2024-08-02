@@ -142,7 +142,7 @@ defineProps<{
 
       > .list {
         margin-top: 3.13rem;
-        gap: 1.25rem 0;
+        gap: 1.25rem 1rem;
 
         .item {
           width: 20.94rem;

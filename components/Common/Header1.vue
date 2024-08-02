@@ -3,8 +3,8 @@ withDefaults(
   defineProps<{
     preTitle?: string;
     logo?: string;
-    logoWidth: string;
-    logoHeight: string;
+    logoWidth?: string;
+    logoHeight?: string;
     title?: string;
     content?: string;
     btn?: string;
@@ -12,7 +12,8 @@ withDefaults(
     hint?: string;
     page?: string;
     btn2BorderColor?: string;
-    isHidenLinkHit: boolean;
+    inputPlaceholder?: string;
+    isHidenLinkHit?: boolean;
     btn2?: string;
     pic: {
       src: string;
@@ -213,7 +214,7 @@ withDefaults(
         margin-top: 40px;
         margin-bottom: 14px;
         .input-container {
-          ::v-deep input {
+          :v-deep(input) {
             border-radius: 27px !important;
             width: 292px;
           }
@@ -234,7 +235,7 @@ withDefaults(
 
     > .right {
       margin-top: 140px;
-      .pic{
+      .pic {
         background-size: contain;
       }
     }

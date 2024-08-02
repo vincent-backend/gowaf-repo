@@ -56,7 +56,7 @@
     :isHidenTile="true"
     class="caseStudies-HomeList1"
     bgColor="#fff"
-    :btText="$tm('resources.caseStudies.logoIconListBtText')"
+    :btText="$t('resources.caseStudies.logoIconListBtText')"
   />
   <CommonList4
     class="caseStudies-CommonList4"

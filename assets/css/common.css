@@ -84,10 +84,14 @@ video {
   padding: 0;
 }
 
-/* html {
-  min-height: 100vh;
-  background-color: #f0f2f5;
-} */
+img{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+	user-select: none;
+}
 
 html {
   background-color: #fff;
@@ -96,21 +100,10 @@ html {
 
 /* body style */
 body {
-  font-family:
-    PingFangSC-Regular,
-    PingFang SC,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto,
-    'Helvetica Neue',
-    Helvetica,
-    Arial,
-    'Hiragino Sans GB',
-    'Source Han Sans',
-    'Noto Sans CJK Sc',
-    'Microsoft YaHei',
-    'Microsoft Jhenghei',
-    sans-serif;
+  font-family: PingFangSC-Regular, PingFang SC, -apple-system,
+    BlinkMacSystemFont, Roboto, 'Helvetica Neue', Helvetica, Arial,
+    'Hiragino Sans GB', 'Source Han Sans', 'Noto Sans CJK Sc', 'Microsoft YaHei',
+    'Microsoft Jhenghei', sans-serif;
   color: #000;
   background: #fafafa;
   min-height: 100vh;
@@ -167,6 +160,10 @@ q {
 a {
   color: #303133;
   text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
 }
 
 /* h5 only */
@@ -194,9 +191,7 @@ table {
 
 /* Base font size for desktop */
 body * {
-  font-family:
-    PingFangSC,
-    PingFang SC;
+  font-family: PingFangSC, PingFang SC;
   font-weight: 400;
   font-size: 14px;
   color: #000000;

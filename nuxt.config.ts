@@ -19,9 +19,13 @@ export default defineNuxtConfig({
   },
 
   elementPlus: {
-    // icon: 'ElIcon',
+    icon: 'ElIcon',
     importStyle: 'scss',
-    // themes: ['dark'],
+  },
+
+   // vueuse
+   vueuse: {
+    ssrHandlers: true,
   },
 
   app: {
