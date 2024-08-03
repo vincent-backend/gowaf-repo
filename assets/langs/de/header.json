@@ -1,0 +1,116 @@
+{
+	"alert": {
+		"btn": "Buchen Sie ein Treffen",
+		"text": "Gowaf wird Asien in Singapur übertragen! \n- Lassen Sie uns mit Gowaf in Ihren zukünftigen Erfolg eintauchen"
+	},
+	"getStarted": "Loslegen",
+	"login": "Anmeldung",
+	"menus": {
+		"network": "Netzwerk",
+		"pricing": "Preisgestaltung",
+		"products": "Produkte",
+		"resources": "Ressourcen",
+		"solutions": "Lösungen"
+	},
+	"solutionsMenu": {
+		"byNeed": {
+			"items": [
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"icon": "/images/home/Solutions_nav_ic_video.png",
+				"title": "Video und Streaming"
+			},
+			"items[1]": {
+				"icon": "/images/home/Solutions_nav_ic_Storage.png",
+				"title": "Lagerung und Lieferung"
+			},
+			"items[2]": {
+				"icon": "/images/home/Solutions_nav_ic_Website.png",
+				"title": "Website-Leistung"
+			},
+			"items[3]": {
+				"icon": "/images/home/Solutions_nav_ic_Security.png",
+				"title": "Sicherheit und Schutz"
+			},
+			"title": "DURCH NOTWENDIGKEIT"
+		},
+		"footer": {
+			"btn": "Gowaf-Fallstudien",
+			"title": "Sehen Sie, wie Gowaf anderen Unternehmen geholfen hat, die nächste Stufe zu erreichen!"
+		},
+		"solutions": {
+			"items": [
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"icon": "/images/home/Solutions_nav_ic_need.png",
+				"title": "Aus Bedarf"
+			},
+			"items[1]": {
+				"icon": "/images/home/Solutions_nav_ic_Industry.png",
+				"title": "Nach Branche"
+			},
+			"title": "LÖSUNGEN"
+		},
+		"videoAndStreaming": {
+			"items": [
+				{
+					"subTitle": "",
+					"title": ""
+				},
+				{
+					"subTitle": "",
+					"title": ""
+				},
+				{
+					"subTitle": "",
+					"title": ""
+				},
+				{
+					"subTitle": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"subTitle": "Liefern Sie das beste Videoerlebnis.",
+				"title": "Videobereitstellung"
+			},
+			"items[1]": {
+				"subTitle": "Halten Sie Ihre Videos sicher und geschützt.",
+				"title": "Medienkäfig"
+			},
+			"items[2]": {
+				"subTitle": "Videoschutz auf Hollywood-Niveau.",
+				"title": "Enterprise Multi-DRM"
+			},
+			"items[3]": {
+				"subTitle": "Generieren Sie Untertitel mit einem einzigen Klick",
+				"title": "Al transkribieren"
+			},
+			"title": "VIDEO UND STREAMING"
+		}
+	}
+}

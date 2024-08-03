@@ -1,0 +1,1997 @@
+{
+	"breadCrumbs": {
+		"ddosProtection": "DDoS Protection",
+		"DiagnosticReport": "Diagnostic Report",
+		"DNSLookur": "DNS Lookur",
+		"HTTPTest": "HTTP Test",
+		"LatencyTest": "Latency Test",
+		"OtherTools": "Other Tools",
+		"overview": "Überblick",
+		"parent": "Netzwerk",
+		"smartEdge": "SmartEdge™",
+		"Traceroute": "Traceroute",
+		"WebTools": "Web-Tools"
+	},
+	"ddos": {
+		"alwaysSafe": {
+			"rows": [
+				[
+					{
+						"content": "",
+						"icon": "",
+						"title": ""
+					},
+					{
+						"content": "",
+						"icon": "",
+						"title": ""
+					}
+				],
+				[
+					{
+						"content": "",
+						"icon": "",
+						"title": ""
+					},
+					{
+						"content": "",
+						"icon": "",
+						"title": ""
+					}
+				]
+			],
+			"rows[0][0]": {
+				"content": "Das System überwacht und erkennt kontinuierlich ungewöhnliche Verkehrsmuster.",
+				"icon": "/images/network/ddos/Network_DDoS_ic_Detection@2x.png",
+				"title": "Erkennung"
+			},
+			"rows[0][1]": {
+				"content": "Dedizierte DoS-Filter-Hardware und -Software blockieren böswilligen Datenverkehr.",
+				"icon": "/images/network/ddos/Network_DDoS_ic_Filtering@2x.png",
+				"title": "Filtern"
+			},
+			"rows[1][0]": {
+				"content": "Das Routing wird durch unsere Rechenzentren optimiert und geleitet, um den Datenverkehr aufzufangen.",
+				"icon": "/images/network/ddos/Network_DDoS_ic_Routing@2x.png",
+				"title": "Routenführung"
+			},
+			"rows[1][1]": {
+				"content": "Angriffsprotokolle werden analysiert, um zukünftige Abwehrmaßnahmen und Sicherheit zu verbessern.",
+				"icon": "/images/network/ddos/Network_DDoS_ic_Post@2x.png",
+				"title": "Nachanalyse"
+			},
+			"subTitle": "Bleiben Sie geschützt mit dem DDoS-Abwehrsystem von Gowaf, das Angriffe in weniger als 10 Sekunden erkennt und verhindert.",
+			"title": "Immer sicher. \nImmer auf."
+		},
+		"doNotLeave": {
+			"subTitle": "Bleiben Sie rund um die Uhr geschützt und gehen Sie nie wieder unter",
+			"tabs": [
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				}
+			],
+			"tabs[0]": {
+				"content": "Nutzen Sie unser 150-Tbit/s-Netzwerk-Backbone und machen Sie sich keine Sorgen mehr über einen erneuten Ausfall. \nUnser globales Netzwerk kann Angriffe jeder Größe absorbieren und stoppen, bevor sie Ihren Server erreichen. \nBleiben Sie geschützt und konzentrieren Sie sich auf das, was Sie am besten können, während wir dafür sorgen, dass Sie online bleiben.",
+				"icon": "/images/network/ddos/Network_DDoS_banner_graph_3@2x.png",
+				"iconHeight": "288px",
+				"iconWidth": "384px",
+				"mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_3@2x.png",
+				"mIconHeight": "18rem",
+				"mIconWidth": "24rem",
+				"tab": "150-Tbit/s-Netzwerk",
+				"title": "Massives Netzwerk-Backbone für 100 % Verfügbarkeit"
+			},
+			"tabs[1]": {
+				"content": "Dank eines automatischen Echtzeitüberwachungs- und Warnsystems müssen Sie sich nie wieder Sorgen über Bedrohungen machen. \nVerschaffen Sie sich einen vollständigen Einblick in Ihre Sicherheit, um sicher zu bleiben und zu verhindern, dass Angreifer jemals Ihre Server erreichen. \nWir helfen Ihnen bei der Erkennung, sodass Sie nie ein Heilmittel benötigen.",
+				"icon": "/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+				"iconHeight": "294px",
+				"iconWidth": "294px",
+				"mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+				"mIconHeight": "18,38rem",
+				"mIconWidth": "18,38rem",
+				"tab": "mil Echtzeitüberwachung",
+				"title": "Reibungsloser mit Echtzeit-Bedrohungsüberwachung"
+			},
+			"tabs[2]": {
+				"content": "Halten Sie das Internet freundlicher, indem Sie unangemessene Uploads mit der intelligenten Edge-Upload-Filterung stoppen, die auf maschinellem Lernen und einer Echtzeit-Sperrliste basiert. \nWir helfen Ihnen, böswillige, missbräuchliche und unangemessene Uploads von Benutzern zu kontrollieren, damit Sie keine Zeit damit verschwenden müssen, sie zu entfernen.",
+				"icon": "/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+				"iconHeight": "279px",
+				"iconWidth": "334px",
+				"mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+				"mIconHeight": "17,44rem",
+				"mIconWidth": "20,88rem",
+				"tab": "Upload-Schutz",
+				"title": "Stoppen Sie unangemessene Inhalte und tragen Sie zur Sicherheit des Internets bei"
+			},
+			"title": "Überlassen Sie die Verfügbarkeit nicht dem Zufall"
+		},
+		"header": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"content": "Schützen Sie Ihre Website vor DDoS-Angriffen. \nStellen Sie eine einwandfreie Betriebszeit sicher und sorgen Sie dafür, dass es nie wieder zu Ausfällen kommt. \nWir kümmern uns um den DDoS-Schutz, damit Sie sich auf Ihr Produkt konzentrieren können!",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "DDoS-Schutz",
+			"title": "DDoS-Schutz als Standard"
+		},
+		"join1": {
+			"person": {
+				"content": "„Gowaf ist einfach zu bedienen, bietet wettbewerbsfähige Preise und ein hervorragendes Preis-Leistungs-Verhältnis. Die Technologie ist äußerst effizient, während jeden Monat neue Funktionen eingeführt werden. Kundenorientiert und bietet den Kunden gleichzeitig eine Reihe von Wachstumschancen.“",
+				"name": "Periklis",
+				"title": "VitrinaBox, Senior Software Engineer"
+			},
+			"title": "Schließen Sie sich den über 40.000 Kunden an, die bereits auf Gowaf vertrauen"
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Netzwerk-Backbone",
+			"label": "150 Tbit/s"
+		},
+		"numbers[1]": {
+			"content": "Anfragen pro Sekunde",
+			"label": "650.000"
+		},
+		"numbers[2]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[3]": {
+			"content": "Zufriedene Kunden",
+			"label": "40.000"
+		},
+		"protectAtEdge": {
+			"items": [
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"items[0]": "UDP-Flut",
+			"items[1]": "ICMP-Flut",
+			"items[2]": "NTP-Verstärkung",
+			"items[3]": "DNS-Verstärkung",
+			"items[4]": "SYN-Flut",
+			"subTitle": "Bleiben Sie dank Edge AI jederzeit geschützt, indem Sie Angriffe abwehren, bevor sie Ihre Server erreichen.",
+			"title": "DDoS-Schutz am Netzwerkrand"
+		},
+		"stayProtectAlways": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Konzentrieren Sie sich auf Ihr Produkt und lassen Sie uns für Ihre Sicherheit sorgen.",
+			"title": "Bleiben Sie geschützt. \nStets!"
+		}
+	},
+	"overview": {
+		"bennerTextList": [
+			{
+				"icon": "",
+				"name": "",
+				"num": ""
+			},
+			{
+				"icon": "",
+				"name": "",
+				"num": ""
+			},
+			{
+				"icon": "",
+				"name": "",
+				"num": ""
+			},
+			{
+				"icon": "",
+				"name": "",
+				"num": ""
+			},
+			{
+				"icon": "",
+				"name": "",
+				"num": ""
+			},
+			{
+				"icon": "",
+				"name": "",
+				"num": ""
+			}
+		],
+		"bennerTextList[0]": {
+			"icon": "Symbol-blau",
+			"name": "Europa",
+			"num": "35"
+		},
+		"bennerTextList[1]": {
+			"icon": "Symbol-Cyanogen",
+			"name": "LATAM",
+			"num": "16"
+		},
+		"bennerTextList[2]": {
+			"icon": "Symbol-Orange",
+			"name": "Ozeanien",
+			"num": "7"
+		},
+		"bennerTextList[3]": {
+			"icon": "Symbol-grün",
+			"name": "Asien",
+			"num": "29"
+		},
+		"bennerTextList[4]": {
+			"icon": "Symbol-Gelb",
+			"name": "Nordamerika",
+			"num": "22"
+		},
+		"bennerTextList[5]": {
+			"icon": "Symbol-Rosa",
+			"name": "Naher Osten",
+			"num": "12"
+		},
+		"flags": {
+			"groups": [
+				{
+					"icon": "",
+					"items": [
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						}
+					],
+					"region": ""
+				},
+				{
+					"icon": "",
+					"items": [
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						}
+					],
+					"region": ""
+				},
+				{
+					"icon": "",
+					"items": [
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						}
+					],
+					"region": ""
+				},
+				{
+					"icon": "",
+					"items": [
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						}
+					],
+					"region": ""
+				},
+				{
+					"icon": "",
+					"items": [
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						}
+					],
+					"region": ""
+				},
+				{
+					"icon": "",
+					"items": [
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						},
+						{
+							"img": "",
+							"label": ""
+						}
+					],
+					"region": ""
+				}
+			],
+			"groups[0]": {
+				"icon": "Network_Overview_banner_node_Europe",
+				"items[0]": {
+					"img": "Network_Overview_Europe_ch",
+					"label": "Zürich"
+				},
+				"items[1]": {
+					"img": "Network_Overview_Europe_nl",
+					"label": "Amsterdam"
+				},
+				"items[2]": {
+					"img": "Network_Overview_Europe_gr",
+					"label": "Athen"
+				},
+				"items[3]": {
+					"img": "Network_Overview_Europe_rs",
+					"label": "Belgrad"
+				},
+				"items[4]": {
+					"img": "Network_Overview_Europe_de",
+					"label": "Berlin"
+				},
+				"items[5]": {
+					"img": "Network_Overview_Europe_BEL",
+					"label": "Brüssel"
+				},
+				"items[6]": {
+					"img": "Network_Overview_Europe_hu",
+					"label": "Budapest"
+				},
+				"items[7]": {
+					"img": "Network_Overview_Europe_ro",
+					"label": "Bukarest"
+				},
+				"items[8]": {
+					"img": "Network_Overview_Europe_md",
+					"label": "Chișinău"
+				},
+				"items[9]": {
+					"img": "Network_Overview_Europe_dk",
+					"label": "Kopenhagen"
+				},
+				"items[10]": {
+					"img": "Network_Overview_Europe_ie",
+					"label": "Dublin"
+				},
+				"items[11]": {
+					"img": "Network_Overview_Europe_de",
+					"label": "Frankfurt"
+				},
+				"items[12]": {
+					"img": "Network_Overview_Europe_de",
+					"label": "Frankfurt 2"
+				},
+				"items[13]": {
+					"img": "Network_Overview_Europe_fi",
+					"label": "Helsinki"
+				},
+				"items[14]": {
+					"img": "Network_Overview_Europe_is",
+					"label": "Keflavik"
+				},
+				"items[15]": {
+					"img": "Network_Overview_Europe_ua",
+					"label": "Kiew"
+				},
+				"items[16]": {
+					"img": "Network_Overview_Europe_pt",
+					"label": "Lissabon"
+				},
+				"items[17]": {
+					"img": "Network_Overview_Europe_si",
+					"label": "Ljubljana"
+				},
+				"items[18]": {
+					"img": "Network_Overview_Europe_gb",
+					"label": "London"
+				},
+				"items[19]": {
+					"img": "Network_Overview_Europe_lu",
+					"label": "Luxemburg"
+				},
+				"items[20]": {
+					"img": "Network_Overview_Europe_es",
+					"label": "Madrid"
+				},
+				"items[21]": {
+					"img": "Network_Overview_Europe_fr",
+					"label": "Marseille"
+				},
+				"items[22]": {
+					"img": "Network_Overview_Europe_fr",
+					"label": "Mailand"
+				},
+				"items[23]": {
+					"img": "Network_Overview_Europe_ru",
+					"label": "Moskau"
+				},
+				"items[24]": {
+					"img": "Network_Overview_Europe_ba",
+					"label": "Novi Travnik"
+				},
+				"items[25]": {
+					"img": "Network_Overview_Europe_no",
+					"label": "Oslo"
+				},
+				"items[26]": {
+					"img": "Network_Overview_Europe_fr",
+					"label": "Paris"
+				},
+				"items[27]": {
+					"img": "Network_Overview_Europe_cz",
+					"label": "Prag"
+				},
+				"items[28]": {
+					"img": "Network_Overview_Europe_lv",
+					"label": "Riga"
+				},
+				"items[29]": {
+					"img": "Network_Overview_Europe_bg",
+					"label": "Sofia"
+				},
+				"items[30]": {
+					"img": "Network_Overview_Europe_se",
+					"label": "Stockholm"
+				},
+				"items[31]": {
+					"img": "Network_Overview_Europe_at",
+					"label": "Wien"
+				},
+				"items[32]": {
+					"img": "Network_Overview_Europe_lt",
+					"label": "Vilnius"
+				},
+				"items[33]": {
+					"img": "Network_Overview_Europe_pl",
+					"label": "Warschau"
+				},
+				"items[34]": {
+					"img": "Network_Overview_Europe_hr",
+					"label": "Zagreb"
+				},
+				"region": "Europa (35)"
+			},
+			"groups[1]": {
+				"icon": "Network_Overview_banner_node_LATAM",
+				"items[0]": {
+					"img": "Network_Overview_Latam_co",
+					"label": "Bogotá"
+				},
+				"items[1]": {
+					"img": "Network_Overview_Latam_ar",
+					"label": "Buenos Aires"
+				},
+				"items[2]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Curitiba"
+				},
+				"items[3]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Fortaleza"
+				},
+				"items[4]": {
+					"img": "Network_Overview_Latam_gt",
+					"label": "Guatemala"
+				},
+				"items[5]": {
+					"img": "Network_Overview_Latam_bo",
+					"label": "La Paz"
+				},
+				"items[6]": {
+					"img": "Network_Overview_Latam_pe",
+					"label": "Lima"
+				},
+				"items[7]": {
+					"img": "Network_Overview_Latam_mx",
+					"label": "Mexiko Stadt"
+				},
+				"items[8]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Porto Alegre"
+				},
+				"items[9]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Rio de Janeiro"
+				},
+				"items[10]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Salvador"
+				},
+				"items[11]": {
+					"img": "Network_Overview_Latam_pr",
+					"label": "San Juan"
+				},
+				"items[12]": {
+					"img": "Network_Overview_Latam_cr",
+					"label": "San Pedro"
+				},
+				"items[13]": {
+					"img": "Network_Overview_Latam_cl",
+					"label": "Santiago"
+				},
+				"items[14]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Sao Paulo"
+				},
+				"items[15]": {
+					"img": "Network_Overview_Latam_br",
+					"label": "Sao Paulo 2"
+				},
+				"region": "LATAM (16)"
+			},
+			"groups[2]": {
+				"icon": "Network_Overview_banner_node_Oceania",
+				"items[0]": {
+					"img": "Network_Overview_Oceania_au",
+					"label": "Adelaide"
+				},
+				"items[1]": {
+					"img": "Network_Overview_Oceania_au",
+					"label": "Auckland"
+				},
+				"items[2]": {
+					"img": "Network_Overview_Oceania_au",
+					"label": "Brisbane"
+				},
+				"items[3]": {
+					"img": "Network_Overview_Oceania_us",
+					"label": "Hagatna"
+				},
+				"items[4]": {
+					"img": "Network_Overview_Oceania_au",
+					"label": "Melbourne"
+				},
+				"items[5]": {
+					"img": "Network_Overview_Oceania_au",
+					"label": "Perth"
+				},
+				"items[6]": {
+					"img": "Network_Overview_Oceania_au",
+					"label": "Sydney"
+				},
+				"region": "Ozeanien (7)"
+			},
+			"groups[3]": {
+				"icon": "Network_Overview_banner_node_Asia",
+				"items[0]": {
+					"img": "Network_Overview_Aaia_kz",
+					"label": "AlmatyAlmaty"
+				},
+				"items[1]": {
+					"img": "Network_Overview_Aaia_az",
+					"label": "Baku"
+				},
+				"items[2]": {
+					"img": "Network_Overview_Aaia_th",
+					"label": "Bangkok"
+				},
+				"items[3]": {
+					"img": "Network_Overview_Aaia_in",
+					"label": "Bangalore"
+				},
+				"items[4]": {
+					"img": "Network_Overview_Aaia_in",
+					"label": "Chennai"
+				},
+				"items[5]": {
+					"img": "Network_Overview_Aaia_bd",
+					"label": "DhakaDhaka"
+				},
+				"items[6]": {
+					"img": "Network_Overview_Aaia_hk",
+					"label": "Hongkong"
+				},
+				"items[7]": {
+					"img": "Network_Overview_Aaia_vn",
+					"label": "Ho Chi Minh"
+				},
+				"items[8]": {
+					"img": "Network_Overview_Aaia_tr",
+					"label": "Istanbul"
+				},
+				"items[9]": {
+					"img": "Network_Overview_Aaia_id",
+					"label": "Jakarta"
+				},
+				"items[10]": {
+					"img": "Network_Overview_Aaia_pk",
+					"label": "Karatschi"
+				},
+				"items[11]": {
+					"img": "Network_Overview_Aaia_np",
+					"label": "Kathmandu"
+				},
+				"items[12]": {
+					"img": "Network_Overview_Aaia_in",
+					"label": "Kalkutta"
+				},
+				"items[13]": {
+					"img": "Network_Overview_Aaia_my",
+					"label": "Kuala Lumpur"
+				},
+				"items[14]": {
+					"img": "Network_Overview_Aaia_ph",
+					"label": "Manila"
+				},
+				"items[15]": {
+					"img": "Network_Overview_Aaia_in",
+					"label": "Mumbai"
+				},
+				"items[16]": {
+					"img": "Network_Overview_Aaia_cy",
+					"label": "Nikosia"
+				},
+				"items[17]": {
+					"img": "Network_Overview_Aaia_in",
+					"label": "Neu-Delhi"
+				},
+				"items[18]": {
+					"img": "Network_Overview_Aaia_jp",
+					"label": "Osaka"
+				},
+				"items[19]": {
+					"img": "Network_Overview_Aaia_kh",
+					"label": "Phnom Penh"
+				},
+				"items[20]": {
+					"img": "Network_Overview_Aaia_kr",
+					"label": "Seoul"
+				},
+				"items[21]": {
+					"img": "Network_Overview_Aaia_sg",
+					"label": "Singapur V"
+				},
+				"items[22]": {
+					"img": "Network_Overview_Aaia_sg",
+					"label": "Singapur 2"
+				},
+				"items[23]": {
+					"img": "Network_Overview_Aaia_tw",
+					"label": "Taipeh"
+				},
+				"items[24]": {
+					"img": "Network_Overview_Aaia_ge",
+					"label": "Tiflis"
+				},
+				"items[25]": {
+					"img": "Network_Overview_Aaia_jp",
+					"label": "Tokio"
+				},
+				"items[26]": {
+					"img": "Network_Overview_Aaia_mn",
+					"label": "Ulaanbaatar"
+				},
+				"items[27]": {
+					"img": "Network_Overview_Aaia_mm",
+					"label": "Yangon"
+				},
+				"items[28]": {
+					"img": "Network_Overview_Aaia_am",
+					"label": "Eriwan"
+				},
+				"region": "Asien (29)"
+			},
+			"groups[4]": {
+				"icon": "Network_Overview_banner_node_North",
+				"items[0]": {
+					"img": "Network_Overview_North_us",
+					"label": "Ashburn"
+				},
+				"items[1]": {
+					"img": "Network_Overview_North_us",
+					"label": "Atlanta"
+				},
+				"items[2]": {
+					"img": "Network_Overview_North_us",
+					"label": "Boston"
+				},
+				"items[3]": {
+					"img": "Network_Overview_North_us",
+					"label": "Charlotte"
+				},
+				"items[4]": {
+					"img": "Network_Overview_North_us",
+					"label": "Chicago"
+				},
+				"items[5]": {
+					"img": "Network_Overview_North_us",
+					"label": "Dallas"
+				},
+				"items[6]": {
+					"img": "Network_Overview_North_us",
+					"label": "Denver"
+				},
+				"items[7]": {
+					"img": "Network_Overview_North_us",
+					"label": "Honolulu"
+				},
+				"items[8]": {
+					"img": "Network_Overview_North_us",
+					"label": "Houston"
+				},
+				"items[9]": {
+					"img": "Network_Overview_North_us",
+					"label": "Kansas City"
+				},
+				"items[10]": {
+					"img": "Network_Overview_North_us",
+					"label": "Los Angeles"
+				},
+				"items[11]": {
+					"img": "Network_Overview_North_us",
+					"label": "Miami"
+				},
+				"items[12]": {
+					"img": "Network_Overview_North_us",
+					"label": "Minneapolis"
+				},
+				"items[13]": {
+					"img": "Network_Overview_North_ca",
+					"label": "Montreal"
+				},
+				"items[14]": {
+					"img": "Network_Overview_North_us",
+					"label": "New York"
+				},
+				"items[15]": {
+					"img": "Network_Overview_North_us",
+					"label": "Ogden"
+				},
+				"items[16]": {
+					"img": "Network_Overview_North_us",
+					"label": "Phönix"
+				},
+				"items[17]": {
+					"img": "Network_Overview_North_us",
+					"label": "Pittsburgh"
+				},
+				"items[18]": {
+					"img": "Network_Overview_North_us",
+					"label": "San Jose"
+				},
+				"items[19]": {
+					"img": "Network_Overview_North_us",
+					"label": "Seattle"
+				},
+				"items[20]": {
+					"img": "Network_Overview_North_ca",
+					"label": "Toronto"
+				},
+				"items[21]": {
+					"img": "Network_Overview_North_ca",
+					"label": "Vancouver"
+				},
+				"region": "Nordamerika (22)"
+			},
+			"groups[5]": {
+				"icon": "Network_Overview_banner_node_Middle",
+				"items[0]": {
+					"img": "Network_Overview_Middle_eg",
+					"label": "Kairo"
+				},
+				"items[1]": {
+					"img": "Network_Overview_Middle_eg",
+					"label": "Kairo 2"
+				},
+				"items[2]": {
+					"img": "Network_Overview_Middle_za",
+					"label": "Kapstadt"
+				},
+				"items[3]": {
+					"img": "Network_Overview_Middle_iq",
+					"label": "Bagdad"
+				},
+				"items[4]": {
+					"img": "Network_Overview_Middle_iq",
+					"label": "Bagdad 2"
+				},
+				"items[5]": {
+					"img": "Network_Overview_Middle_bh",
+					"label": "Bahrain"
+				},
+				"items[6]": {
+					"img": "Network_Overview_Middle_ae",
+					"label": "Dubai"
+				},
+				"items[7]": {
+					"img": "Network_Overview_Middle_ae",
+					"label": "Fujairah"
+				},
+				"items[8]": {
+					"img": "Network_Overview_Middle_za",
+					"label": "Johannesburg"
+				},
+				"items[9]": {
+					"img": "Network_Overview_Middle_ng",
+					"label": "Lagos"
+				},
+				"items[10]": {
+					"img": "Network_Overview_Middle_ao",
+					"label": "Luanda"
+				},
+				"items[11]": {
+					"img": "Network_Overview_Middle_sa",
+					"label": "Riad"
+				},
+				"region": "Naher Osten"
+			},
+			"subTitle": "Nutzen Sie ein globales Netzwerk, das 6 Kontinente und 77 Länder umfasst.",
+			"title": "Ihre Benutzer sind nur einen Katzensprung entfernt"
+		},
+		"goFaster": {
+			"subTitle": "Minimieren Sie die Latenz und erhöhen Sie die Ausfallsicherheit mit einem Netzwerk, das ausschließlich von Tier-1-Transitanbietern betrieben wird und direkten Zugriff auf über 3000 ISPs bietet.",
+			"tabs": [
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				}
+			],
+			"tabs[0]": {
+				"btn": "Erfahren Sie mehr",
+				"content": "Steigen Sie ein",
+				"icon": "/images/network/Network_Overview_nation_Europe@2x.png",
+				"iconHeight": "310px",
+				"iconWidth": "374px",
+				"mIcon": "/mobile-images/network/overview/Network_Overview_nation_Europe@2x.png",
+				"mIconHeight": "19,38rem",
+				"mIconWidth": "23,38rem",
+				"tab": "Europa",
+				"title": "CDN Europa"
+			},
+			"tabs[1]": {
+				"btn": "Erfahren Sie mehr",
+				"content": "Erbringen Sie tadellose Leistungen für die größte Volkswirtschaft der Welt. \nMit 22 PoPs, die strategisch über große Städte in den USA verteilt sind, und direkten Verbindungen zu großen ISPs wie Comcast können Sie die meisten Internetnutzer in weniger als 27 ms erreichen.",
+				"icon": "/images/network/Network_Overview_nation_North_America@2x.png",
+				"iconHeight": "268px",
+				"iconWidth": "320px",
+				"mIcon": "/mobile-images/network/overview/Network_Overview_nation_North_America@2x.png",
+				"mIconHeight": "16,75rem",
+				"mIconWidth": "20rem",
+				"tab": "Nordamerika",
+				"title": "CDN Nordamerika"
+			},
+			"tabs[2]": {
+				"btn": "Erfahren Sie mehr",
+				"content": "Bieten Sie maximale Leistung in ganz Süd- und Lateinamerika mit dem schnellsten Netzwerk in der Region. \nStellen Sie eine direkte Verbindung zu den meisten großen ISPs her und bringen Sie Ihre Inhalte in ganz LATAM nur einen Katzensprung von Ihren Besuchern entfernt.",
+				"icon": "/images/network/Network_Overview_nation_Latin_America@2x.png",
+				"iconHeight": "316px",
+				"iconWidth": "272px",
+				"mIcon": "/mobile-images/network/overview/Network_Overview_nation_Latin_America@2x.png",
+				"mIconHeight": "19,75rem",
+				"mIconWidth": "17rem",
+				"tab": "Lateinamerika",
+				"title": "CDN Lateinamerika"
+			},
+			"tabs[3]": {
+				"btn": "Erfahren Sie mehr",
+				"content": "Erreichen Sie Benutzer mit direkter lokaler Konnektivität in ganz Asien. \nGowaf ist in allen wichtigen Zentren positioniert, um durch strategische lokale Partnerschaften eine beispiellose Leistung in der Region, einschließlich der Schwellenländer, zu erbringen.",
+				"icon": "/images/network/Network_Overview_nation_Asia@2x.png",
+				"iconHeight": "272px",
+				"iconWidth": "330px",
+				"mIcon": "/mobile-images/network/overview/Network_Overview_nation_Asia@2x.png",
+				"mIconHeight": "17rem",
+				"mIconWidth": "20,63rem",
+				"tab": "Asien",
+				"title": "CDN Asien"
+			},
+			"tabs[4]": {
+				"btn": "Erfahren Sie mehr",
+				"content": "über ein lokal aufgebautes und optimiertes Anycast-Netzwerk jeden Benutzer in Millisekunden in ganz Ozeanien erreichen. \nGowaf ist in sechs wichtigen Großstädten in Australien und Neuseeland vertreten und hilft Ihnen dabei, bei jeder Anfrage außergewöhnliche Leistungen zu erbringen.",
+				"icon": "/images/network/Network_Overview_nation_Australia@2x.png",
+				"iconHeight": "241px",
+				"iconWidth": "330px",
+				"mIcon": "/mobile-images/network/overview/Network_Overview_nation_Australia@2x.png",
+				"mIconHeight": "15rem",
+				"mIconWidth": "20,63rem",
+				"tab": "Australien",
+				"title": "CDN Australien"
+			},
+			"tabs[5]": {
+				"btn": "Erfahren Sie mehr",
+				"content": "Gowaf hilft Ihnen, weltweit ein einheitliches Erlebnis zu bieten. \nMit lokaler Konnektivität in mehreren afrikanischen Ländern helfen wir Ihren Kunden, schneller auf Ihre Inhalte zuzugreifen, unabhängig davon, ob sie aus Kenia oder Kapstadt kommen.",
+				"icon": "/images/network/Network_Overview_nation_Middle_East@2x.png",
+				"iconHeight": "242px",
+				"iconWidth": "338px",
+				"mIcon": "/mobile-images/network/overview/Network_Overview_nation_Middle_East@2x.png",
+				"mIconHeight": "15.13rem",
+				"mIconWidth": "21.13rem",
+				"tab": "Naher Osten",
+				"title": "CDN Afrika"
+			},
+			"title": "Gehen Sie global und lokal schneller voran"
+		},
+		"hop": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Steigen Sie in das schnellste globale CDN-Netzwerk ein"
+		},
+		"join1": {
+			"person": {
+				"content": "„Die Zusammenarbeit mit Gowaf war ein Hauch frischer Luft. \nIhr Team war hilfsbereit, reaktionsschnell und kompetent. \nDer Service hat unsere Erwartungen in jeder Hinsicht übertroffen.“",
+				"name": "Tom Mason",
+				"title": "Nexus-Mods"
+			},
+			"ranks": [
+				{
+					"icon": "",
+					"score": ""
+				},
+				{
+					"icon": "",
+					"score": ""
+				},
+				{
+					"icon": "",
+					"score": ""
+				},
+				{
+					"icon": "",
+					"score": ""
+				}
+			],
+			"ranks[0]": {
+				"icon": "Network_Overview_mark_logo_1",
+				"score": "4.8"
+			},
+			"ranks[1]": {
+				"icon": "Network_Overview_mark_logo_2",
+				"score": "4.4"
+			},
+			"ranks[2]": {
+				"icon": "Network_Overview_mark_logo_3",
+				"score": "4.8"
+			},
+			"ranks[3]": {
+				"icon": "Network_Overview_mark_logo_4",
+				"score": "4.8"
+			},
+			"subTitle": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"subTitle[0]": "Wir sind bewertet",
+			"subTitle[1]": "",
+			"subTitle[2]": "Ausgezeichnet 4,8",
+			"subTitle[3]": "von 5 auf",
+			"subTitle[4]": "Trustpilot",
+			"subTitle[5]": "- Basierend auf 600 Bewertungen",
+			"title": "Schließen Sie sich über 40.000 globalen Kunden an"
+		},
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Nutzen Sie ein Netzwerk, das von sorgfältig ausgewählten Anbietern in erstklassigen Rechenzentren betrieben wird.",
+				"icon": "/images/network/Network_DDoS_card_ic_1.png",
+				"title": "Tier-1-Netzwerkpartner"
+			},
+			"items[1]": {
+				"content": "Skalieren Sie problemlos, indem Sie ein riesiges globales Netzwerk-Backbone mit 150 Tbit/s nutzen.",
+				"icon": "/images/network/Network_DDoS_card_ic_2.png",
+				"title": "Massives Netzwerk-Backbone"
+			},
+			"items[2]": {
+				"content": "Leiten Sie Benutzer dorthin, wo es darauf ankommt, mit einer intelligenten Routing-Engine, die für Ihre spezifischen Inhalte optimiert ist.",
+				"icon": "/images/network/Network_DDoS_card_ic_3.png",
+				"title": "SmartEdge-Routing"
+			},
+			"items[3]": {
+				"content": "Erreichen Sie Ihre Kunden in den meisten Regionen der Welt in weniger als 24 ms.",
+				"icon": "/images/network/Network_DDoS_card_ic_4.png",
+				"title": "Unter 24 ms durchschnittliche globale Latenz"
+			},
+			"items[4]": {
+				"content": "Stellen Sie Inhalte mit maximaler Geschwindigkeit und minimaler Latenz mit NVMe- und SSD-Servern bereit.",
+				"icon": "/images/network/Network_DDoS_card_ic_5.png",
+				"title": "NVMe-SSD-betriebene Server"
+			},
+			"items[5]": {
+				"content": "Erzielen Sie höhere Cache-Trefferraten für kleine und große Dateien mit einem CDN, das für effizientes Caching optimiert ist.",
+				"icon": "/images/network/Network_DDoS_card_ic_6.png",
+				"title": "Optimiert für statische und Medieninhalte"
+			},
+			"title1": "Gebaut für Leistung. \nOptimiert für Perfektion.",
+			"title2": "Treten Sie einem globalen Netzwerk bei, das sorgfältig optimiert und auf die TCP-Ebene abgestimmt ist."
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[1]": {
+			"content": "Durchschn. \nGlobale Latenz",
+			"label": "24 ms"
+		},
+		"numbers[2]": {
+			"content": "Durchschn. \nCache-Trefferquote",
+			"label": "95 %"
+		},
+		"numbers[3]": {
+			"content": "Unterstützte Websites",
+			"label": "1.000.000"
+		},
+		"tabs": [
+			"",
+			"",
+			""
+		],
+		"tabs[0]": "Standardnetzwerk",
+		"tabs[1]": "Volumennetzwerk",
+		"tabs[2]": "ISP-Netzwerk",
+		"title0": "Gowaf CDN-Netzwerk",
+		"title1": "150 Tbit/s immer zur Hand",
+		"title2": "Verbessern Sie Ihre Inhalte mit einem der schnellsten Netzwerke der Welt."
+	},
+	"smartEdge": {
+		"header": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"content": "Schützen Sie Ihre Website vor DDoS-Angriffen. \nStellen Sie eine einwandfreie Betriebszeit sicher und sorgen Sie dafür, dass es nie wieder zu Ausfällen kommt. \nWir kümmern uns um den DDoS-Schutz, damit Sie sich auf Ihr Produkt konzentrieren können!",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "DDoS-Schutz",
+			"title": "DDoS-Schutz als Standard"
+		},
+		"join1": {
+			"person": {
+				"content": "„Es ist eine Freude, mit dem bunny.net-Team zusammenzuarbeiten! \nNoch bevor wir zu ihrem hervorragenden CDN-Netzwerk wechselten, fügten sie einige Funktionen hinzu, die wir für den Übergang brauchten. \nUnd danach haben sie so schnell neue Funktionen hinzugefügt oder jedes Problem gelöst, das wir hatten! \nEin echter Langzeitpartner, den wir sehr schätzen!“",
+				"name": "Pedro Dobrescu",
+				"title": "ShortPixel"
+			},
+			"title": "Schließen Sie sich über 40.000 zufriedenen Kunden an"
+		},
+		"maxPerformance": {
+			"content": "Erzielen Sie bis zu 30 % verbesserte Cache-Trefferraten und eine enorme Steigerung der globalen Leistung dank optimiertem Routing basierend auf Ihren spezifischen Inhalten. \nReduzieren Sie Cache-MISS-Anfragen, die die Leistung beeinträchtigen, und sind Sie der Konkurrenz einen Schritt voraus.",
+			"numberHint1": "VERBESSERTE LEISTUNG",
+			"numberHint2": "GERINGERER URSPRUNGSVERKEHR",
+			"title": "Maximieren Sie die Leistung mit globalem Routing"
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Unterstützte Websites",
+			"label": "1.000.000"
+		},
+		"numbers[1]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[2]": {
+			"content": "Schnellere Ladezeiten",
+			"label": "Bis zu 5x"
+		},
+		"numbers[3]": {
+			"content": "Zufriedene Kunden",
+			"label": "40.000"
+		},
+		"onProblem": {
+			"content": "Traditionell leiten CDNs Benutzer mit einer einzigen Routing-Konfiguration weiter, was nicht immer optimal ist. \nSmartEdge™ kombiniert eine voreingestellte globale Konfiguration mit automatischen Leistungsmetriken, um für jede Region intelligent zwischen Anycast, GeoDNS und latenzbasiertem Routing zu wählen und so die Leistung und Routing-Qualität für Ihren spezifischen Anwendungsfall zu maximieren.",
+			"title": "Ein Problem. \nEin Routing-System."
+		},
+		"yourNeeds": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"mIcon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"mIcon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"mIcon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Stellen Sie Inhalte effizient mit automatischen Caching-Optimierungen bereit, die die effizienteste Datenverteilung rund um den Globus gewährleisten.",
+				"icon": "/images/network/smart-edge/SmartEdge™_ic_cache.png",
+				"mIcon": "",
+				"title": "Beispielloses Caching"
+			},
+			"items[1]": {
+				"content": "Vermeiden Sie Ausfallzeiten und verhindern Sie Umsatzeinbußen, indem Sie ein Echtzeit-Zustandsüberwachungssystem nutzen, das direkt in das Routing-System integriert ist.",
+				"icon": "/images/network/smart-edge/SmartEdge™_ic_Monitoring.png",
+				"mIcon": "",
+				"title": "Integrierte Gesundheitsüberwachung"
+			},
+			"items[2]": {
+				"content": "Genießen Sie maximale Leistung für Ihre spezifische Art von Inhalten mit automatischen Optimierungen basierend auf Ihren Dateien.",
+				"icon": "/images/network/smart-edge/SmartEdge™_ic_engine.png",
+				"mIcon": "",
+				"title": "Content-Aware-Routing-Engine"
+			},
+			"subTitle": "Gehen Sie bei der Bereitstellung Ihrer Inhalte keine Kompromisse mehr ein. \nSmartEdge™ passt ein riesiges globales Netzwerk konsequent an Ihre Bedürfnisse an.",
+			"title": "Auf Ihre Bedürfnisse zugeschnittenes globales Netzwerk"
+		}
+	},
+	"WebTools": {
+		"bennerSubTitle": "Tools, die Ihnen bei der Optimierung und beim Einstieg in bunny.net sowie bei der Durchführung von Netzwerktests und -diagnosen an über 120 Standorten auf der ganzen Welt helfen.",
+		"bennerTitle": "Globale Netzwerkdiagnosetools",
+		"DiagnosticReport": {
+			"btn": "Diagnosebericht ausführen",
+			"neverHit": {
+				"items": [
+					{
+						"alignType": "",
+						"content": "",
+						"contentAlign": "",
+						"height": "",
+						"icon": "",
+						"title": "",
+						"width": ""
+					},
+					{
+						"alignType": "",
+						"content": "",
+						"contentAlign": "",
+						"height": "",
+						"icon": "",
+						"title": "",
+						"width": ""
+					},
+					{
+						"alignType": "",
+						"content": "",
+						"contentAlign": "",
+						"height": "",
+						"icon": "",
+						"title": "",
+						"width": ""
+					},
+					{
+						"alignType": "",
+						"content": "",
+						"contentAlign": "",
+						"height": "",
+						"icon": "",
+						"title": "",
+						"width": ""
+					}
+				],
+				"items[0]": {
+					"alignType": "Center",
+					"content": "Ihre IP-Adresse wird erfasst und einem Land und einem geografischen Standort zugeordnet.",
+					"contentAlign": "Center",
+					"height": "100px",
+					"icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+					"title": "IP Adresse",
+					"width": "100px"
+				},
+				"items[1]": {
+					"alignType": "Center",
+					"content": "Die IP Ihres DNS-Anbieters wird erfasst und einem Land sowie einem Längen-/Breitengrad zugeordnet.",
+					"contentAlign": "Center",
+					"height": "100px",
+					"icon": "/images/network/WebTools/diagnostic_report_ic_2@2x.png",
+					"title": "DNS-Informationen",
+					"width": "100px"
+				},
+				"items[2]": {
+					"alignType": "Center",
+					"content": "Der Name und die Version des Betriebssystems Ihres Computers werden erfasst.",
+					"contentAlign": "Center",
+					"height": "100px",
+					"icon": "/images/network/WebTools/diagnostic_report_ic_3@2x.png",
+					"title": "Betriebssystem",
+					"width": "100px"
+				},
+				"items[3]": {
+					"alignType": "Center",
+					"content": "Dabei werden Name, Version und User-Agent Ihres Webbrowsers erfasst.",
+					"contentAlign": "Center",
+					"height": "100px",
+					"icon": "/images/network/WebTools/diagnostic_report_ic_4@2x.png",
+					"title": "Browserinformationen",
+					"width": "100px"
+				}
+			},
+			"subtitle": "Der Diagnosebericht sammelt detaillierte Informationen über Ihren Browser, Ihre Internet- und DNS-Konfiguration, die zum Testen der Konnektivität und zur Fehlerbehebung verwendet werden können.",
+			"title": "Diagnosebericht"
+		},
+		"DNSLookur": {
+			"subtitle": "Geben Sie die URL Ihrer Datei oder Website ein, um die Konnektivität vom Gowaf.net-Netzwerk zu Ihrem Server zu testen.",
+			"title": "DNS-Suchtest"
+		},
+		"neverHit": {
+			"items": [
+				{
+					"alignType": "",
+					"btn": "",
+					"content": "",
+					"contentAlign": "",
+					"height": "",
+					"icon": "",
+					"title": "",
+					"width": ""
+				},
+				{
+					"alignType": "",
+					"btn": "",
+					"content": "",
+					"contentAlign": "",
+					"height": "",
+					"icon": "",
+					"title": "",
+					"width": ""
+				},
+				{
+					"alignType": "",
+					"btn": "",
+					"content": "",
+					"contentAlign": "",
+					"height": "",
+					"icon": "",
+					"title": "",
+					"width": ""
+				}
+			],
+			"items[0]": {
+				"alignType": "Center",
+				"btn": "Überprüfen Sie Website",
+				"content": "Informieren Sie sich über mehr als 120 Standorte auf der ganzen Welt, um Routing- oder Leistungsprobleme zu überprüfen.",
+				"contentAlign": "Center",
+				"height": "100px",
+				"icon": "/images/network/WebTools/web_tools_ic_1@2x.png",
+				"title": "Latenzprüfung",
+				"width": "100px"
+			},
+			"items[1]": {
+				"alignType": "Center",
+				"btn": "Konnektivität testen",
+				"content": "Testen Sie die HTTP-Konnektivität von über 120 Standorten auf der ganzen Welt, um Ursprungsverbindungsprobleme, Leistungs- und Geoblocking-Probleme zu beheben.",
+				"contentAlign": "Center",
+				"height": "100px",
+				"icon": "/images/network/WebTools/web_tools_ic_2@2x.png",
+				"title": "HTTP-Konnektivitätsprüfung",
+				"width": "100px"
+			},
+			"items[2]": {
+				"alignType": "Center",
+				"btn": "Führen Sie die Diagnose aus",
+				"content": "Ein Diagnosetool zum Sammeln und Beheben detaillierter Informationen zu Ihrer Internetkonfiguration, Ihrem Routing und Ihrer Leistung.",
+				"contentAlign": "Center",
+				"height": "100px",
+				"icon": "/images/network/WebTools/web_tools_ic_3@2x.png",
+				"title": "Diagnosebericht",
+				"width": "100px"
+			},
+			"subTitle": "Minimieren Sie den Datenverkehr zu Ihrem Ursprungsort und senken Sie die Kosten, indem Sie Dateien direkt aus Perma-Cache bereitstellen. \nGowaf hält Ihre Infrastruktur in Schwung, unabhängig von Umfang oder Verkehrsspitzen.",
+			"title": "Treffen Sie nie wieder Ihren Ursprung"
+		},
+		"OtherTools": {
+			"neverHit": {
+				"items": [
+					{
+						"alignType": "",
+						"btn": "",
+						"content": "",
+						"contentAlign": "",
+						"height": "",
+						"icon": "",
+						"title": "",
+						"width": ""
+					},
+					{
+						"alignType": "",
+						"btn": "",
+						"content": "",
+						"contentAlign": "",
+						"height": "",
+						"icon": "",
+						"title": "",
+						"width": ""
+					}
+				],
+				"items[0]": {
+					"alignType": "Center",
+					"btn": "SSL-Checker",
+					"content": "Überprüfen Sie, ob Ihr SSL-Zertifikat korrekt installiert ist.",
+					"contentAlign": "Center",
+					"height": "100px",
+					"icon": "/images/network/WebTools/other_tools_ic_1@2x.png",
+					"title": "SSL-Checker",
+					"width": "100px"
+				},
+				"items[1]": {
+					"alignType": "Center",
+					"btn": "GeolP-Suche",
+					"content": "Überprüfen Sie ungefähr, wo sich eine IP-Adresse befindet (Geolokalisierung).",
+					"contentAlign": "Center",
+					"height": "100px",
+					"icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+					"title": "IP-Geolokalisierung",
+					"width": "100px"
+				}
+			},
+			"subtitle": "SSL-Prüfung, GeoIP-Suche und mehr!",
+			"title": "Andere Werkzeuge"
+		},
+		"Traceroute": {
+			"article1": [
+				{
+					"content": [
+						""
+					],
+					"title": ""
+				},
+				{
+					"content": [
+						"",
+						""
+					],
+					"title": ""
+				}
+			],
+			"article1[0]": {
+				"content[0]": "Traceroute ist ein Netzwerkdiagnosetool, das zur Diagnose des Pfades verwendet wird, den ein Netzwerkpaket nimmt, um eine Ziel-IP zu erreichen. \nEs zeigt die Latenz und den Paketverlust zwischen einem Quell- und einem Zielnetzwerkpunkt sowie alle Netzwerksprünge dazwischen.",
+				"title": "Was ist eine Traceroute?"
+			},
+			"article1[1]": {
+				"content[0]": "Traceroutes sind beim Debuggen von Netzwerkproblemen von unschätzbarem Wert. \nSie ermöglichen es uns, suboptimale Netzwerkrouten, Schleifen oder Paketverluste bei der Verbindung zwischen zwei Punkten in einem Netzwerk zu diagnostizieren. \nSie können auch zur Fehlerbehebung bei Netzwerkfehlern und fehlerhaften Routen verwendet werden.",
+				"content[1]": "Um eine genaue Darstellung eines Traceroute-Ergebnisses zu erhalten, wird im Allgemeinen empfohlen, eine Traceroute in beide Richtungen vom Ziel und der Quelle und umgekehrt auszuführen.",
+				"title": "Wofür wird eine Traceroute verwendet?"
+			},
+			"article2": [
+				{
+					"content": [
+						""
+					],
+					"title": ""
+				},
+				{
+					"content": [
+						"",
+						""
+					],
+					"title": ""
+				}
+			],
+			"article2[0]": {
+				"content[0]": "Ein Traceroute-Tool verwendet normalerweise ICMP-Nachrichten, um Echopakete zu senden. \nAnschließend wird die Reaktionszeit zwischen dem Senden der Nachricht und dem Empfang einer Antwort gemessen, die als Latenz bezeichnet wird. \nDies wird für jeden Netzwerk-Hop berechnet, um so viel Einblick wie möglich in die Netzwerkroute zu geben. \nIn Situationen, in denen ICMP nicht verfügbar ist, ist es auch möglich, eine Traceroute im TCP-Modus auszuführen, dies ist jedoch weniger häufig.",
+				"title": "Wie funktioniert eine Traceroute?"
+			},
+			"article2[1]": {
+				"content[0]": "Paketverlust in einer Traceroute bedeutet, dass ein bestimmter Hop oder eine bestimmte Zieladresse fehlgeschlagen ist oder das Senden einer Antwortnachricht verweigert hat. \nDies kann auf eine Netzwerküberlastung oder andere Probleme hinweisen. \nEs ist jedoch wichtig zu verstehen, dass es aufgrund der Natur von ICMP häufig vorkommt, dass bestimmte Hops zwischen der Quelle und dem Ziel das Senden einer Antwortnachricht verweigern.",
+				"content[1]": "Es ist nicht ungewöhnlich, dass Hops in der Mitte Paketverluste durch Router melden, die so eingestellt sind, dass sie ICMP-Pakete herabsetzen oder ignorieren. \nNormalerweise wird empfohlen, sich hauptsächlich auf den Paketverlust auf dem letzten Hop des Ziels zu konzentrieren, um ein genaueres Verständnis eines potenziellen Problems zu erhalten.",
+				"title": "Was bedeutet Paketverlust bei einer Traceroute?"
+			},
+			"Average": "Durchschnitt",
+			"Best": "Am besten",
+			"Host": "Gastgeber",
+			"PacketLoss": "Paketverlust",
+			"title": "Globaler Traceroute-Test",
+			"Worst": "Am schlimmsten"
+		}
+	}
+}

@@ -1,0 +1,1203 @@
+{
+	"AffiliateProgram": {
+		"btn": "Nehmen Sie am Gowaf-Partnerprogramm teil",
+		"Collapse": {
+			"list": [
+				{
+					"subtitle": "",
+					"title": ""
+				},
+				{
+					"subtitle": "",
+					"title": ""
+				},
+				{
+					"subtitle": "",
+					"title": ""
+				},
+				{
+					"subtitle": "",
+					"title": ""
+				},
+				{
+					"subtitle": "",
+					"title": ""
+				},
+				{
+					"subtitle": "",
+					"title": ""
+				},
+				{
+					"subtitle": "",
+					"title": ""
+				}
+			],
+			"list[0]": {
+				"subtitle": "Jeder, der über ein kostenpflichtiges bunny.net-Konto verfügt, kann am Partnerprogramm teilnehmen.",
+				"title": "Wie funktioniert das Bunny-Partnerprogramm?"
+			},
+			"list[1]": {
+				"subtitle": "Jeder, der ein kostenpflichtiges bunny.net-Konto hat, kann am Partnerprogramm teilnehmen.",
+				"title": "Wer ist für das Bunny-Partnerprogramm berechtigt?"
+			},
+			"list[2]": {
+				"subtitle": "Jeder, der über ein kostenpflichtiges bunny.net-Konto verfügt, kann am Partnerprogramm teilnehmen.",
+				"title": "Wie trete ich dem Partnerprogramm bei?"
+			},
+			"list[3]": {
+				"subtitle": "Jeder, der über ein kostenpflichtiges bunny.net-Konto verfügt, kann am Partnerprogramm teilnehmen.",
+				"title": "Wie viel verdiene ich pro Empfehlung?"
+			},
+			"list[4]": {
+				"subtitle": "Jeder, der über ein kostenpflichtiges bunny.net-Konto verfügt, kann am Partnerprogramm teilnehmen.",
+				"title": "Gibt es einen Höchstbetrag für die Provision?"
+			},
+			"list[5]": {
+				"subtitle": "Jeder, der über ein kostenpflichtiges bunny.net-Konto verfügt, kann am Partnerprogramm teilnehmen.",
+				"title": "Wann erhalte ich meine Auszahlung?"
+			},
+			"list[6]": {
+				"subtitle": "Jeder, der über ein kostenpflichtiges bunny.net-Konto verfügt, kann am Partnerprogramm teilnehmen.",
+				"title": "Kann ich meine eigenen Marketingmaterialien erstellen?"
+			},
+			"subtitle": "Haben Sie weitere Fragen? \nWir haben eine Liste mit zusätzlichen hilfreichen Informationen zusammengestellt!",
+			"title": "Häufig gestellte Fragen"
+		},
+		"content": "Helfen Sie uns zu wachsen und verdienen Sie dabei Geld. \nWir helfen Ihnen dabei, die größtmögliche Anzahl an Empfehlungen zu erhalten, indem wir Ressourcen zu einer Bibliothek mit globalen kreativen, vorgefertigten Bildungs- und Lead-Magneten bereitstellen.",
+		"fotad1": {
+			"btn": "Vertragsverkäufe",
+			"subTitle": "Arbeiten Sie an einem größeren Projekt?  \nLassen Sie sich von unseren Hasen helfen!",
+			"title": "Seien Sie der Konkurrenz einen Schritt voraus!"
+		},
+		"fotad2": {
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Bringen Sie Ihre Videosicherheit einen Schritt voraus!"
+		},
+		"hint": "Für die Teilnahme am Programm ist ein Gowaf.net-Konto erforderlich.",
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Zahlen Sie nur für die Anzahl der Minuten, die Sie transkribieren, es fallen keine wiederkehrenden Mindestkosten an.",
+				"icon": "/images/home/affiliate_2_ic_1@2x.png",
+				"title": "Zahlen Sie nur für das, was Sie nutzen"
+			},
+			"items[1]": {
+				"content": "Beginnen Sie kostenlos mit einer 14-tägigen kostenlosen Testversion und fahren Sie für nur 1 US-Dollar pro Monat fort.",
+				"icon": "/images/home/affiliate_2_ic_2@2x.png",
+				"title": "1 $ monatliches Minimum"
+			},
+			"items[2]": {
+				"content": "Nutzen Sie den gesamten Funktionsumfang von Transcribe AI ohne zusätzliche Gebühren oder versteckte Kosten.",
+				"icon": "/images/home/affiliate_2_ic_3@2x.png",
+				"title": "Alle Funktionen inklusive"
+			},
+			"title1": "Wie funktioniert es?",
+			"title2": "Der Einstieg in das Gowaf-Partnerprogramm ist kostenlos und einfach."
+		},
+		"listBtn": "Holen Sie sich Ihren Partnercode",
+		"mksubtitle": "Profitieren Sie von vorgefertigten Marketingmaterialien. \nWählen Sie aus unserer umfangreichen Bibliothek an Bannerwerbung und finden Sie die ideale Größe für Sie.",
+		"mktitle": "Vorgefertigte Marketingmaterialien",
+		"neverHit": {
+			"fulItems": [
+				{
+					"alignType": "",
+					"content": "",
+					"contentAlign": "",
+					"height": "",
+					"icon": "",
+					"title": "",
+					"width": ""
+				},
+				{
+					"alignType": "",
+					"content": "",
+					"contentAlign": "",
+					"height": "",
+					"icon": "",
+					"title": "",
+					"width": ""
+				},
+				{
+					"alignType": "",
+					"content": "",
+					"contentAlign": "",
+					"height": "",
+					"icon": "",
+					"title": "",
+					"width": ""
+				}
+			],
+			"fulItems[0]": {
+				"alignType": "Center",
+				"content": "Erstellen Sie ein kostenpflichtiges Konto bei Gowaf.net.",
+				"contentAlign": "Center",
+				"height": "80px",
+				"icon": "/images/home/affiliate_1_ic_1@2x.png",
+				"title": "Registrieren",
+				"width": "80px"
+			},
+			"fulItems[1]": {
+				"alignType": "Center",
+				"content": "Teilen Sie Ihren einzigartigen Link mit der Welt.",
+				"contentAlign": "Center",
+				"height": "80px",
+				"icon": "/images/home/affiliate_1_ic_2@2x.png",
+				"title": "Teilen Sie Ihren Link",
+				"width": "80px"
+			},
+			"fulItems[2]": {
+				"alignType": "Center",
+				"content": "Verdienen Sie 20 $ für jede bezahlte Anmeldung.",
+				"contentAlign": "Center",
+				"height": "80px",
+				"icon": "/images/home/affiliate_1_ic_3@2x.png",
+				"title": "Fangen Sie an, Geld zu verdienen",
+				"width": "80px"
+			},
+			"subTitle": "Beginnen Sie mit dem Geldverdienen in 3 einfachen Schritten.",
+			"title": "Registrieren. \nAktie. \nVerdienen."
+		},
+		"preTitle": "Gowaf-Partnerprogramm",
+		"title": "Nehmen Sie am Gowaf-Partnerprogramm teil und helfen Sie uns, schneller zu wachsen"
+	},
+	"ContactSales": {
+		"agreement": [
+			"",
+			""
+		],
+		"agreement[0]": "Ich habe den Gowaf gelesen und bin damit einverstanden",
+		"agreement[1]": "Datenschutzrichtlinie",
+		"btn": "Anfrage absenden",
+		"content": "Erzählen Sie uns von Ihrem Projekt und wir verbinden Sie mit einem CDN-Experten und erstellen eine perfekte Lösung für Sie",
+		"preTitle": "Kontaktieren Sie den Vertrieb",
+		"title": "Sprechen Sie mit einem Gowaf-Experten"
+	},
+	"forgot": {
+		"agreement": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"agreement[0]": "Ich stimme dem zu",
+		"agreement[1]": "Nutzungsbedingungen",
+		"agreement[2]": ",",
+		"agreement[3]": "Richtlinien zur akzeptablen Nutzung",
+		"agreement[4]": "und bestätige, dass ich bunny.net gelesen und verstanden habe",
+		"agreement[5]": "Datenschutzrichtlinie",
+		"agreement[6]": ".",
+		"card": [
+			{
+				"content": "",
+				"describe": "",
+				"img": "",
+				"name": ""
+			},
+			{
+				"content": "",
+				"describe": "",
+				"img": "",
+				"name": ""
+			}
+		],
+		"card[0]": {
+			"content": "Ich habe den Test gemacht, er hat mir sehr gut gefallen und ich benutze ihn. \nEs verfügt über eine einfache Konfiguration, tolle Funktionen und einen erschwinglichen Preis. \nSehr gut!",
+			"describe": "Toller CDN-Service",
+			"img": "/images/home/polyfill_Sign Up_avatar_1@2x.png",
+			"name": "Ronei de Sousa Almeida"
+		},
+		"card[1]": {
+			"content": "Eine so großartige, kostengünstige, vollständige und einfache Alternative für AWS Cloudfront. \nDie DRM-Funktion ist ein so großer Service A",
+			"describe": "So eine einfache Cloudfront-Alternative",
+			"img": "/images/home/polyfill_Sign Up_avatar_2@2x.png",
+			"name": "Jean Didier"
+		},
+		"head": "Erweitern Sie Ihre weltweite Lieferung in weniger als einem Jahr",
+		"list": [
+			"",
+			"",
+			""
+		],
+		"list[0]": "120 globale PoPs für eine weltweite Latenz von unter 24 ms.",
+		"list[1]": "Mit dem 80-Tbit/s-Netzwerk-Backbone kommt es nie wieder zu Ausfällen.",
+		"list[2]": "Echter interner technischer Support rund um die Uhr.",
+		"loginbtn": "Ein Konto erstellen",
+		"signUp": "Anmeldung.",
+		"subhead": "5 Minuten",
+		"subheadlines": "Beispiellose Leistung ohne Kompromisse.",
+		"subtitle": "Sie sind nur 5 Minuten von einer schnelleren Website entfernt.",
+		"tips": "Sie haben bereits ein Konto?",
+		"title": "14-tägige KOSTENLOSE Testversion"
+	},
+	"header": {
+		"bottom": {
+			"subTitle": "Unser Engagement für Qualität hat das Vertrauen vieler bekannter Marken in ihren Branchen gewonnen.",
+			"title1": "Machen Sie mit",
+			"title2": "1.000.000",
+			"title3": "Websites, die bereits von Gowaf betrieben werden",
+			"weAreRated": "Wir sind bewertet",
+			"weAreRated2": "4,8 von 5 basierend auf 600 Bewertungen"
+		},
+		"bottom1": {
+			"subTitle": "Gemeinsam können wir das Internet schaffen, das jeder verdient – ​​egal wo auf der Welt er sich befindet.",
+			"title1": "Machen Sie mit",
+			"title2": "40.000",
+			"title3": "Kunden haben sich unserer Mission bereits angeschlossen",
+			"weAreRated": "Wir sind bewertet",
+			"weAreRated2": "4,8 von 5 basierend auf 700 Bewertungen"
+		},
+		"btn": "Testen Sie es 14 Tage lang KOSTENLOS",
+		"content": "Beschleunigen Sie Ihre Inhalte mit unseren CDN-, Edge-Storage- und Optimierungsdiensten der nächsten Generation. \nGowaf macht blitzschnelle Leistung in jeder Größenordnung einfacher als je zuvor.",
+		"hint": "Aufbau in 5 Minuten. \nKeine Kreditkarte benötigt.",
+		"title": "Die globale Content-Delivery-Plattform, die wirklich begeistert"
+	},
+	"join1": {
+		"btn": "Testen Sie es 14 Tage lang KOSTENLOS",
+		"info1": {
+			"content": "Steigen Sie in eines der schnellsten globalen Netzwerke der Welt ein. \nErhöhen Sie die Geschwindigkeit Ihrer Website über ihre Grenzen hinaus und bieten Sie Ihren Besuchern das bestmögliche Erlebnis. \nLeistung auf Unternehmensniveau zum günstigsten Preis auf dem Markt!",
+			"leftList": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"leftList[0]": "Ab 1 $/Monat",
+			"leftList[1]": "Keine versteckten Gebühren",
+			"leftList[2]": "Perma-Caching",
+			"leftList[3]": "Echtzeitüberwachung",
+			"leftList[4]": "DDoS-Schutz",
+			"leftList[5]": "Kostenloses SSL-Zertifikat",
+			"rightList": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"rightList[0]": {
+				"content": "Maximieren Sie Ihr Wachstum und Ihre Expansion ohne Sorgen mit einem 80-Tbit/s-Netzwerk.",
+				"icon": "home_list_ic_design",
+				"title": "Vom Design her skalierbar"
+			},
+			"rightList[1]": {
+				"content": "Optimieren Sie die Bereitstellung und reduzieren Sie die Latenz mit erstklassiger AMD- und NVMe-Hardware.",
+				"icon": "home_list_ic_Server",
+				"title": "NVMe SSD-Server"
+			},
+			"rightList[2]": {
+				"content": "Stellen Sie mit über 3.000 ISPs und 14 Tier-1-Transitanbietern eine direkte Verbindung zu Ihren Benutzern her. \nÜberall.",
+				"icon": "home_list_ic_network",
+				"title": "Globales Tier-1-Netzwerk"
+			},
+			"rightList[3]": {
+				"content": "Bleiben Sie sicher und konzentriert mit einem integrierten DDoS-Schutz der nächsten Generation, der einfach funktioniert.",
+				"icon": "home_list_ic_Protection",
+				"title": "Bleiben Sie geschützt"
+			},
+			"title": "Wunderbar Derbietung. \nJedes Mal."
+		},
+		"subTitle": "Keine Kreditkarte erforderlich – Starten Sie mit nur wenigen Klicks",
+		"title": "Machen Sie mit und fangen Sie an, mit Lichtgeschwindigkeit zu hüpfen"
+	},
+	"join2": {
+		"list": [
+			{
+				"avatar": "",
+				"content": "",
+				"date": "",
+				"name": "",
+				"title": ""
+			},
+			{
+				"avatar": "",
+				"content": "",
+				"date": "",
+				"name": "",
+				"title": ""
+			},
+			{
+				"avatar": "",
+				"content": "",
+				"date": "",
+				"name": "",
+				"title": ""
+			},
+			{
+				"avatar": "",
+				"content": "",
+				"date": "",
+				"name": "",
+				"title": ""
+			},
+			{
+				"avatar": "",
+				"content": "",
+				"date": "",
+				"name": "",
+				"title": ""
+			}
+		],
+		"list[0]": {
+			"avatar": "home_avatar_1",
+			"content": "Ich liebe diese Jungs absolut! \nHey, sie sind großartig mit Updates und bieten die beste CDN-Leistung zum günstigsten Preis! \nSie sind innovativ und lösen mehr Probleme, als ich mir jemals hätte vorstellen können! \nOn-the-fly-Bildkomprimierung Minimieren Sie Dateien – Cachina, Sie nennen es!",
+			"date": "5. Juni 202*",
+			"name": "Ben M",
+			"title": "Ich liebe diese Jungs absolut"
+		},
+		"list[1]": {
+			"avatar": "home_avatar_2",
+			"content": "Gowaf CDN ist wirklich außergewöhnlich. \nEs übertrifft bekannte CDN-Anbieter in puncto Geschwindigkeit und ist günstiger.",
+			"date": "11. Dezember 2024",
+			"name": "Alex",
+			"title": "Gowaf CDN ist wirklich außergewöhnlich"
+		},
+		"list[2]": {
+			"avatar": "home_avatar_3",
+			"content": "Guter Preis. \nGuter Service. \nToller Support. Ich habe alle meine Videos von Vimeo migriert und es funktioniert: besser, und etwa 240 Audios von AWS und es kostet weniger und funktioniert gut.",
+			"date": "22. Okt. 2021",
+			"name": "Laurent Bertin",
+			"title": "Wenn Sie zögern. \nnicht."
+		},
+		"list[3]": {
+			"avatar": "home_avatar_6",
+			"content": "Einfach unglaublich! \nEinfache Einrichtung mit nur wenigen Klicks ... Tolle Gesamtleistung und supergünstig. \nWas mir am besten gefällt, ist die einfache Installation eines SSL-Zertifikats für den benutzerdefinierten Hostnamen, die etwa zwei Klicks dauert. \nIch benutze es seit mehr als einem Jahr und kann es nicht sagen.",
+			"date": "3. Februar 2019",
+			"name": "Garry",
+			"title": "Einfach unglaublich"
+		},
+		"list[4]": {
+			"avatar": "home_avatar_7",
+			"content": "Besser und besser werden! \nSchnell, zuverlässig und die besten Preise auf dem Markt, sehr nette und freundliche Ul. \nMacht weiter so, Jungs.",
+			"date": "16. Februar 2021",
+			"name": "Alberto Baudacci",
+			"title": "Besser und besser werden"
+		},
+		"subTitle1": "Wir sind bewertet",
+		"subTitle3": "Ausgezeichnet 4,8",
+		"subTitle4": "von 5 auf",
+		"subTitle5": "Trustpilot",
+		"subTitle6": "- Basierend auf 600 Bewertungen",
+		"title": "Schließen Sie sich über 40.000 zufriedenen Kunden an"
+	},
+	"list1": {
+		"title": "Wir haben großartigen Unternehmen geholfen, schneller zu springen!"
+	},
+	"list2": {
+		"features": [
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			}
+		],
+		"features[0]": {
+			"comingSoon": "FALSCH",
+			"content": "Bringen Sie Ihre Inhalte auf eine wirklich globale Ebene.",
+			"icon": "home_card_ic_1_nor",
+			"title": "CDN"
+		},
+		"features[1]": {
+			"comingSoon": "FALSCH",
+			"content": "Erleben Sie Hot Object Storage, weltweit repliziert.",
+			"icon": "home_card_ic_2_nor",
+			"title": "Lagerung"
+		},
+		"features[2]": {
+			"comingSoon": "FALSCH",
+			"content": "Bringen Sie Ihre Videobereitstellung auf die nächste Stufe.",
+			"icon": "home_card_ic_3_nor",
+			"title": "Strom"
+		},
+		"features[3]": {
+			"comingSoon": "FALSCH",
+			"content": "Optimieren Sie Ihre Website mit einem Klick.",
+			"icon": "home_card_ic_4_nor",
+			"title": "Optimierer"
+		},
+		"features[4]": {
+			"comingSoon": "FALSCH",
+			"content": "Nutzen Sie die wahre Leistungsfähigkeit von DNS in Ihrer gesamten Infrastruktur.",
+			"icon": "home_card_ic_5_nor",
+			"title": "DNS"
+		},
+		"features[5]": {
+			"comingSoon": "WAHR",
+			"content": "Maximieren Sie die Anwendungsleistung und Skalierbarkeit.",
+			"icon": "home_card_ic_6_nor",
+			"title": "Lastenausgleicher"
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Edge-Standorte",
+			"label": "123"
+		},
+		"numbers[1]": {
+			"content": "Anfragen pro Sekunde",
+			"label": "650.000"
+		},
+		"numbers[2]": {
+			"content": "Netzwerkkapazität",
+			"label": "80 Tbit/s"
+		},
+		"numbers[3]": {
+			"content": "Durchschn. \nWeltweite Latenz",
+			"label": "24 ms"
+		},
+		"subTitle": "Erleben Sie beispiellose Leistung ohne Kompromisse.",
+		"title": "Springe an den Rand und schaue niemals zurück"
+	},
+	"login": {
+		"backtop": {
+			"sub": "Fluffee!",
+			"title1": "Du redest mit"
+		},
+		"divider": "Oder fahren Sie fort mit",
+		"Forgot": "Passwort vergessen?",
+		"list": [
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			}
+		],
+		"list[0]": {
+			"content": "Der einfachste Weg, Bilder dynamisch zu generieren und direkt aus dem CDN bereitzustellen.",
+			"img": "/images/home/log_icon_1@2x.png",
+			"title": "Das neue Gowaf-Dashboard ist live!"
+		},
+		"list[1]": {
+			"content": "Bringen Sie die Leistung von Webanwendungen mit Gowaf Storage Edge Tier auf die nächste Stufe auf einem echten Planetenniveau.",
+			"img": "/images/home/log_icon_2@2x.png",
+			"title": "Probieren Sie die Gowaf AI Beta aus!"
+		},
+		"list[2]": {
+			"content": "Nutzen Sie die wahre Leistungsfähigkeit von DNS und verwandeln Sie komplexe Probleme in einfache Lösungen.",
+			"img": "/images/home/log_icon_3@2x.png",
+			"title": "Die nächste Generation der Leistung!"
+		},
+		"loginbtn": "Anmeldung",
+		"signUp": "Melden Sie sich an.",
+		"subtitle": "Melden Sie sich beim Gowaf-Konto an.",
+		"tips": "Sie haben noch kein Konto?",
+		"title": "Willkommen zurück!"
+	},
+	"ResetPassword": {
+		"BacktoLog In": "Zurück zur Anmeldung",
+		"list": [
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"img": "",
+				"title": ""
+			}
+		],
+		"list[0]": {
+			"content": "Der einfachste Weg, Bilder dynamisch zu generieren und direkt aus dem CDN bereitzustellen.",
+			"img": "/images/home/log_icon_1@2x.png",
+			"title": "Das neue Gowaf-Dashboard ist live!"
+		},
+		"list[1]": {
+			"content": "Bringen Sie die Leistung von Webanwendungen mit Gowaf Storage Edge Tier auf die nächste Stufe auf einem echten Planetenniveau.",
+			"img": "/images/home/log_icon_2@2x.png",
+			"title": "Probieren Sie die Gowaf AI Beta aus!"
+		},
+		"list[2]": {
+			"content": "Nutzen Sie die wahre Leistungsfähigkeit von DNS und verwandeln Sie komplexe Probleme in einfache Lösungen.",
+			"img": "/images/home/log_icon_3@2x.png",
+			"title": "Die nächste Generation der Leistung!"
+		},
+		"list[3]": {
+			"content": "Nutzen Sie die wahre Leistungsfähigkeit von DNS und verwandeln Sie komplexe Probleme in einfache Lösungen.",
+			"img": "/images/home/log_icon_4@2x.png",
+			"title": "Gowaf DNS ist jetzt live!"
+		},
+		"loginbtn": "Passwort zurücksetzen",
+		"subtitle": "Um Ihr Passwort zurückzusetzen, geben Sie die E-Mail-Adresse Ihres bunny.net-Kontos ein.",
+		"title": "Passwort zurücksetzen"
+	},
+	"SLA": {
+		"ad2Container": {
+			"items": [
+				{
+					"content": "",
+					"height": "",
+					"pic": "",
+					"title": "",
+					"width": ""
+				},
+				{
+					"content": "",
+					"height": "",
+					"pic": "",
+					"title": "",
+					"width": ""
+				}
+			],
+			"items[0]": {
+				"content": "Die Gowaf.net-Plattform wurde im Hinblick auf Leistung und Stabilität entwickelt. \nUnser System nutzt automatische Reparatur und Failover im Falle eines Serverausfalls und nutzt dabei mehrere Methoden zur Betriebszeit- und Leistungsüberwachung. \nDarüber hinaus arbeitet unser Team rund um die Uhr daran, etwaige Störungen zu verhindern bzw. zu minimieren und rund um den Globus optimale Leistungen zu erbringen.",
+				"height": "400px",
+				"pic": "/images/home/Uptime_Guaran_img@2x.png",
+				"title": "99,99 % Verfügbarkeitsgarantie",
+				"width": "400px"
+			},
+			"items[1]": {
+				"content": "Durch den Einsatz einer redundanten Architektur und intelligentem BGP-Routing erreichen wir einen automatischen Failover für unser DNS-System sowohl im Falle eines Hardware- als auch eines Netzwerkausfalls. \nWir überwachen unsere PoP-Edge-Server in Echtzeit, um Netzwerkprobleme oder Leistungseinbußen zu erkennen und diese intelligent zu umgehen.",
+				"height": "360px",
+				"pic": "/images/home/Redundant_Infrastructure_img@2x.png",
+				"title": "Redundante Infrastruktur",
+				"width": "360px"
+			},
+			"subTitle": "",
+			"title": ""
+		},
+		"content": "Hinter einem niedlichen Namen verbirgt sich ein wütendes Biest. \nDank der Redundanz bei jedem Schritt bieten wir Stabilität auf Unternehmensniveau in unserer Kerninfrastruktur.",
+		"preTitle": "Service-Level-Vereinbarung",
+		"table": {
+			"list": [
+				[
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+				[
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			],
+			"list[0][0]": "Monatliche Verfügbarkeit",
+			"list[0][1]": "99,98 %",
+			"list[0][2]": "99,95 %",
+			"list[0][3]": "99,70 %",
+			"list[0][4]": "99,50 %",
+			"list[0][5]": "99,00 %",
+			"list[1][0]": "Ausfallzeit",
+			"list[1][1]": "10 – 59 Minuten",
+			"list[1][2]": "12 Stunden",
+			"list[1][3]": "24 Stunden",
+			"list[1][4]": "4 – 7 Stunden",
+			"list[1][5]": "7 Stunden",
+			"list[2][0]": "Ausfallzeit",
+			"list[2][1]": "12 Stunden",
+			"list[2][2]": "24 Stunden",
+			"list[2][3]": "48 Stunden",
+			"list[2][4]": "120 Stunden",
+			"list[2][5]": "240 Stunden",
+			"preTitle": "Sollte die monatliche Verfügbarkeit unter unsere Garantien fallen, hat Ihr Konto Anspruch auf SLA-Gutschriften basierend auf Ihrer monatlichen Nutzung.",
+			"title": "Ausfallgutschriften"
+		},
+		"title": "Online bleiben.  \nEgal was."
+	},
+	"superCharge": {
+		"subTitle": "Lösungen der nächsten Generation. \nLeistung der nächsten Stufe.",
+		"tabs": [
+			{
+				"btn": "",
+				"content": "",
+				"href": "",
+				"icon": "",
+				"iconHeight": "",
+				"iconWidth": "",
+				"mIcon": "",
+				"mIconHeight": "",
+				"mIconWidth": "",
+				"tab": "",
+				"title": ""
+			},
+			{
+				"btn": "",
+				"content": "",
+				"href": "",
+				"icon": "",
+				"iconHeight": "",
+				"iconWidth": "",
+				"mIcon": "",
+				"mIconHeight": "",
+				"mIconWidth": "",
+				"tab": "",
+				"title": ""
+			},
+			{
+				"btn": "",
+				"content": "",
+				"href": "",
+				"icon": "",
+				"iconHeight": "",
+				"iconWidth": "",
+				"mIcon": "",
+				"mIconHeight": "",
+				"mIconWidth": "",
+				"tab": "",
+				"title": ""
+			},
+			{
+				"btn": "",
+				"content": "",
+				"href": "",
+				"icon": "",
+				"iconHeight": "",
+				"iconWidth": "",
+				"mIcon": "",
+				"mIconHeight": "",
+				"mIconWidth": "",
+				"tab": "",
+				"title": ""
+			}
+		],
+		"tabs[0]": {
+			"btn": "Laden Sie Ihre Website auf",
+			"content": "Verwandeln Sie Ihre Website von einer Schnecke in einen Gowaf. \nBieten Sie Ihren Benutzern das bestmögliche Erlebnis mit unserem globalen CDN- und Optimierungsservice. \nBeschleunigen Sie Ihre Website und seien Sie der Konkurrenz einen Schritt voraus.",
+			"icon": "/images/home/home_bot_graph_Website@2x.png",
+			"iconHeight": "272px",
+			"iconWidth": "374px",
+			"mIcon": "/mobile-images/home/home_bot_graph_Website@2x.png",
+			"mIconHeight": "18.19rem",
+			"mIconWidth": "24.13rem",
+			"tab": "Website-Beschleunigung",
+			"title": "Lassen Sie Ihre Website wie einen Gowaf hüpfen"
+		},
+		"tabs[1]": {
+			"btn": "Unvergessliches Videoerlebnis",
+			"content": "Lösen Sie den Aufwand der Videobereitstellung, indem Sie Transkodierung, Speicherung, Sicherheit und Videoplayer in einem leistungsstarken, aber unkomplizierten Paket packen. \nÜberall streamen. \nOhne Pufferung!",
+			"icon": "/images/home/home_bot_graph_video@2x.png",
+			"iconHeight": "291px",
+			"iconWidth": "386px",
+			"mIcon": "/mobile-images/home/home_bot_graph_video@2x.png",
+			"mIconHeight": "17rem",
+			"mIconWidth": "23,38rem",
+			"tab": "Videobereitstellung",
+			"title": "Zuverlässiges Video-CDN, das wirklich springt"
+		},
+		"tabs[2]": {
+			"btn": "Liefern Sie schnellere Downloads",
+			"content": "Beschleunigen Sie Ihre Software-Downloads weltweit mit einem der schnellsten globalen Netzwerke. \nErleben Sie einen hohen Durchsatz, indem Sie Ihre Inhalte überall näher an Ihre Benutzer bringen.",
+			"icon": "/images/home/home_bot_graph_Software@2x.png",
+			"iconHeight": "294px",
+			"iconWidth": "392px",
+			"mIcon": "/mobile-images/home/home_bot_graph_Software@2x.png",
+			"mIconHeight": "18,38rem",
+			"mIconWidth": "24,5rem",
+			"tab": "Softwareverteilung",
+			"title": "Liefern Sie blitzschnelle Downloads"
+		},
+		"tabs[3]": {
+			"btn": "Optimieren Sie Ihre Bilder",
+			"content": "Ändern Sie die Größe, beschneiden, schärfen und transformieren Sie Bilder im Handumdrehen mit der ultraschnellen Verarbeitungs-Engine Gowaf in 123 Rechenzentren weltweit. \nVereinfachen Sie die Entwicklung",
+			"icon": "/images/home/home_bot_graph_Dynamic@2x.png",
+			"iconHeight": "266px",
+			"iconWidth": "360px",
+			"mIcon": "/mobile-images/home/home_bot_graph_Dynamic@2x.png",
+			"mIconHeight": "16,63rem",
+			"mIconWidth": "22,5rem",
+			"tab": "Dynamische Bildverarbeitung",
+			"title": "Verwandeln Sie Ihre Bilder. \nIm Handumdrehen."
+		},
+		"title": "Laden Sie Ihre Internetpräsenz auf"
+	},
+	"SupportHUB": {
+		"list": [
+			{
+				"items": [
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					}
+				],
+				"subtitle": "",
+				"title": ""
+			},
+			{
+				"items": [
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					}
+				],
+				"subtitle": "",
+				"title": ""
+			},
+			{
+				"items": [
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					}
+				],
+				"subtitle": "",
+				"title": ""
+			},
+			{
+				"items": [
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					}
+				],
+				"subtitle": "",
+				"title": ""
+			},
+			{
+				"items": [
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					}
+				],
+				"subtitle": "",
+				"title": ""
+			},
+			{
+				"items": [
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					},
+					{
+						"subtitle": [
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"title": ""
+					}
+				],
+				"subtitle": "",
+				"title": ""
+			}
+		],
+		"list[0]": {
+			"items[0]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Erste Schritte"
+			},
+			"items[1]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Integrationsleitfäden"
+			},
+			"items[2]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Produktdokumentation"
+			},
+			"items[3]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Technische Informationen"
+			},
+			"items[4]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Fehlerbehebung"
+			},
+			"items[5]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Kantenregeln"
+			},
+			"subtitle": "Gowaf CDN-Produktdokumentation, Integrationshandbücher und Hilfe zur Fehlerbehebung.",
+			"title": "CDN"
+		},
+		"list[1]": {
+			"items[0]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Erste Schritte"
+			},
+			"items[1]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Produktdokumentation"
+			},
+			"subtitle": "Gowaf DNS-Produktdokumentation, Integrationshandbücher und Hilfe zur Fehlerbehebung.",
+			"title": "DNS"
+		},
+		"list[2]": {
+			"items[0]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Erste Schritte"
+			},
+			"items[1]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Produktdokumentation"
+			},
+			"subtitle": "Gowaf DNS-Produktdokumentation, Integrationshandbücher und Hilfe zur Fehlerbehebung.",
+			"title": "Lagerung"
+		},
+		"list[3]": {
+			"items[0]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Erste Schritte"
+			},
+			"items[1]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Produktdokumentation"
+			},
+			"subtitle": "Gowaf DNS-Produktdokumentation, Integrationshandbücher und Hilfe zur Fehlerbehebung.",
+			"title": "Strom"
+		},
+		"list[4]": {
+			"items[0]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Erste Schritte"
+			},
+			"items[1]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Produktdokumentation"
+			},
+			"subtitle": "Gowaf DNS-Produktdokumentation, Integrationshandbücher und Hilfe zur Fehlerbehebung.",
+			"title": "Optimierer"
+		},
+		"list[5]": {
+			"items[0]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Abrechnung"
+			},
+			"items[1]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Pull-Zonen"
+			},
+			"items[2]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Edge-Storage"
+			},
+			"items[3]": {
+				"subtitle[0]": "So richten Sie mithilfe von Edge Rules eine direkte IP-Ursprungs-URL mit einem benutzerdefinierten Hostnamen ein",
+				"subtitle[1]": "Die Liste der dynamischen Variablen in der Umleitungs-URL der Edge-Regel",
+				"subtitle[2]": "So leiten Sie Ihren b-cdn.net-Hostnamen mithilfe von Edge-Regeln zu Ihrem benutzerdefinierten CDN-Hostnamen um",
+				"subtitle[3]": "So richten Sie den Auslösepfad der Kantenregel richtig ein",
+				"subtitle[4]": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
+				"title": "Konto"
+			},
+			"subtitle": "Gowaf DNS-Produktdokumentation, Integrationshandbücher und Hilfe zur Fehlerbehebung.",
+			"title": "Häufig gestellte Fragen (FAQ)"
+		},
+		"subtitle": "Anleitungen, Fehlerbehebungen und Supportanfragen, die Ihnen den Einstieg in Gowaf.net erleichtern.",
+		"title": "Wie können wir Ihnen helfen?"
+	}
+}

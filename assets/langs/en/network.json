@@ -723,7 +723,39 @@
           "icon": "Network_Overview_mark_logo_4"
         }
       ]
-    }
+    },
+    "bennerTextList": [
+      {
+        "icon": "icon-blue",
+        "name": "Europe",
+        "num": "35"
+      },
+      {
+        "icon": "icon-cyanogen",
+        "name": "LATAM",
+        "num": "16"
+      },
+      {
+        "icon": "icon-orange",
+        "name": "Oceania",
+        "num": "7"
+      },
+      {
+        "icon": "icon-green",
+        "name": "Asia",
+        "num": "29"
+      },
+      {
+        "icon": "icon-yellow",
+        "name": "North America",
+        "num": "22"
+      },
+      {
+        "icon": "icon-pink",
+        "name": "Middle East & Africa",
+        "num": "12"
+      }
+    ]
   },
   "ddos": {
     "header": {

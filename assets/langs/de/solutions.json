@@ -1,0 +1,1592 @@
+{
+	"securityCdn": {
+		"ad1": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Bleiben Sie jederzeit geschützt!"
+		},
+		"chart1": {
+			"subTitle": "150-Tbit/s-Netzwerk-Backbone, das jedem DDoS-Angriff standhält.",
+			"title": "Ein Netzwerk-Edge, das Ihnen den Rücken freihält"
+		},
+		"features2": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"tip": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Mit dem automatischen, ständig aktiven Schutz können Sie Angriffe in weniger als 10 Sekunden abwehren, bevor sie überhaupt beginnen.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_ic_1.png",
+				"title": "Always-On-CDN-Schutz"
+			},
+			"items[1]": {
+				"content": "Stoppen Sie selbst die ausgefeiltesten Angriffe mit einem KI-gestützten intelligenten Anforderungsfilter, der sich automatisch an Ihren Datenverkehr anpasst.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_ic_2.png",
+				"tip": "Demnächst",
+				"title": "Dynamischer KI-Anfragefilter"
+			},
+			"items[2]": {
+				"content": "Minimieren Sie falsch-positive Erkennungen und verärgern Sie Ihre Benutzer nicht mehr mit einem intelligenten System zur Vermeidung falsch-positiver Ergebnisse.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_ic_3.png",
+				"title": "Vermeidung falsch positiver Ergebnisse"
+			},
+			"subTitle": "Stoppen Sie DDoS-Angriffe, bevor sie überhaupt Schaden anrichten.",
+			"title": "Keine Ausfallzeiten mehr. \nImmer."
+		},
+		"goFaster": {
+			"subTitle": "Schützen Sie sich mit einer einzigen Plattform vor allen Arten von Bedrohungen.",
+			"tabs": [
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": "",
+					"titleTip": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": "",
+					"titleTip": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				}
+			],
+			"tabs[0]": {
+				"content": "Verhindern Sie, dass bösartige Bots oder DDoS-Skripte Ihren Server überlasten. \nGowaf hilft Ihnen, sicher zu bleiben, indem es bösartige HTTP-Anfragen mithilfe eines kontinuierlich lernenden KI-Sicherheitssystems automatisch erkennt und blockiert. \nWir stoppen Bedrohungen Sekunden bevor sie Ihren Ursprung erreichen.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png",
+				"iconHeight": "326px",
+				"iconWidth": "336px",
+				"mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png",
+				"mIconHeight": "20,38rem",
+				"mIconWidth": "20,38rem",
+				"tab": "HTTP-Flood-Schutz",
+				"title": "Schützen Sie sich vor Layer-7-HTTP-Flood-Angriffen",
+				"titleTip": "Demnächst"
+			},
+			"tabs[1]": {
+				"content": "Sorgen Sie für eine unterbrechungsfreie Bereitstellung von Inhalten mit einem riesigen globalen Netzwerk mit 150 Tbit/s, das automatisch selbst die größten volumetrischen Angriffe direkt am Netzwerkrand blockiert, bevor sie Ihren Server erreichen. \nGowaf hilft Ihnen, Ihren Server zu schützen und Ihre Benutzer einzubinden. \nEgal was.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png",
+				"iconHeight": "266px",
+				"iconWidth": "338px",
+				"mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png",
+				"mIconHeight": "16,63rem",
+				"mIconWidth": "21.13rem",
+				"tab": "Volumetrischer Schutz",
+				"title": "Blockieren Sie volumetrische Netzwerkangriffe am Edge"
+			},
+			"tabs[2]": {
+				"content": "Blockieren Sie böswillige Anfragen, die auf Ihre Anwendungen auf der Softwareebene abzielen. \nGowaf WAF hilft Ihnen, sicher zu bleiben, indem es häufige Sicherheitslücken blockiert und einen Regelsatz für kritische Reaktionen in Echtzeit erstellt, der vom Gowaf-Sicherheitsteam verwaltet wird, um über neue Bedrohungen auf dem Laufenden zu bleiben.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png",
+				"iconHeight": "296px",
+				"iconWidth": "350px",
+				"mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png",
+				"mIconHeight": "18,5rem",
+				"mIconWidth": "21,88rem",
+				"tab": "Webanwendungs-Firewall",
+				"title": "Schützen Sie Ihre Anwendungen mit Gowaf WAF",
+				"titleTip": "Demnächst"
+			},
+			"tabs[3]": {
+				"content": "Schützen Sie Ihre Online-Präsenz und stoppen Sie Angriffe auf Bandbreitenverbrauch mit einfach konfigurierbaren Anforderungen und Netzwerkbeschränkungen. \nSie können die Anzahl der Verbindungen pro IP, Anfragen pro Sekunde, Download-Geschwindigkeitsbegrenzungen und den gesamten monatlichen Datenverkehr ganz einfach begrenzen, um die volle Kontrolle über Ihr Budget zu behalten.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png",
+				"iconHeight": "279px",
+				"iconWidth": "342px",
+				"mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png",
+				"mIconHeight": "17,44rem",
+				"mIconWidth": "21,38rem",
+				"tab": "Anfrage",
+				"title": "Legen Sie mit nur wenigen Klicks Anforderungs- und Durchsatzgrenzen fest"
+			},
+			"title": "Sicherheit überall dort, wo Sie sie brauchen"
+		},
+		"header": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"content": "Verbessern Sie die Ladezeiten Ihrer Website um bis zu 80 % und bieten Sie Ihren Benutzern weltweit ein besseres Erlebnis. \nMachen Sie Ihre WordPress-Website mit einem einfachen Klick schneller!",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "WordPress-CDN",
+			"title": "Laden Sie Ihre WordPress-Website auf"
+		},
+		"join1": {
+			"person": {
+				"content": "„Gowaf hat sich als sehr zuverlässiger CDN-Anbieter mit Sitz in Europa und strengen Datenschutzstandards erwiesen. \nWir vertrauten darauf, dass sie sich um einen sehr wichtigen Teil unserer Infrastruktur kümmern, der eine hohe Vertraulichkeit zwischen uns und unseren Benutzern erfordert.“",
+				"name": "Lorenzo Faletra",
+				"title": "CEO, Parrot Security"
+			},
+			"title": "40.000 zufriedene Kunden vertrauen darauf"
+		},
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Signieren Sie Anfragen, um zu kontrollieren, wer, wo und wie lange auf Ihre Inhalte zugreifen kann.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_1@2x.png",
+				"title": "Token-Authentifizierung"
+			},
+			"items[1]": {
+				"content": "Verhindern Sie, dass Websites Dritter Ihre Inhalte stehlen und Ihre Bandbreite verschwenden.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_2@2x.png",
+				"title": "Hotlinking-Schutz"
+			},
+			"items[2]": {
+				"content": "Beschränken Sie den Inhalt nur auf bestimmte Länder oder IPs, um eine vollständige regionale Kontrolle zu erhalten.",
+				"icon": "/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_3@2x.png",
+				"title": "IP"
+			},
+			"title1": "Inhalte sicher bereitstellen",
+			"title2": "Nutzen Sie leistungsstarke Kontrollfunktionen, um die volle Kontrolle über den Zugriff auf Ihre Inhalte zu behalten."
+		}
+	},
+	"storageGame": {
+		"accelerate": {
+			"content": "Machen Sie sich keine Sorgen mehr darüber, dass Ihre Infrastruktur bei Aktualisierungen auseinanderfällt. \nKonzentrieren Sie sich darauf, die Spieler bei Laune zu halten, während wir dafür sorgen, dass Sie online bleiben. \nBieten Sie das beste Spielerlebnis im Universum.",
+			"list1": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"list1[0]": "Bessere Download-Geschwindigkeiten",
+			"list1[1]": "Geringere Kosten",
+			"list1[2]": "Kundensupport rund um die Uhr",
+			"list1[3]": "DDoS-Schutz",
+			"list1[4]": "Echtzeitüberwachung",
+			"list1[5]": "Individuelle Preise",
+			"list2": [
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				}
+			],
+			"list2[0]": {
+				"content": "Machen Sie Ihr Spiel zu einem weltweiten Erfolg. \nErreichen Sie Ihre Spieler weltweit mit 123 globalen PoPs.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_ic_1_nor@2x.png",
+				"iconActive": "/images/solutions/storage-game/Solutions_Storage_game_ic_1_sel@2x.png",
+				"title": "Unbegrenzte Skalierbarkeit"
+			},
+			"list2[1]": {
+				"content": "Erhöhen Sie Ihre Download-Geschwindigkeit um das bis zu Fünffache, ohne Ihr Netzwerk zu belasten!",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_ic_2_nor@2x.png",
+				"iconActive": "/images/solutions/storage-game/Solutions_Storage_game_ic_2_sel@2x.png",
+				"title": "Schnellere Downloads"
+			},
+			"list2[2]": {
+				"content": "Bleiben Sie jederzeit vor DDoS-Angriffen geschützt. \nFühren Sie Ihr Spiel rund um die Uhr ununterbrochen aus!",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_ic_3_nor@2x.png",
+				"iconActive": "/images/solutions/storage-game/Solutions_Storage_game_ic_3_sel@2x.png",
+				"title": "DDoS-Schutz"
+			},
+			"list2[3]": {
+				"content": "Eliminieren Sie enorme Kosten für Downloads mit hohem Volumen durch flexible Pay-as-you-go-Preise.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_ic_4_nor@2x.png",
+				"iconActive": "/images/solutions/storage-game/Solutions_Storage_game_ic_4_sel@2x.png",
+				"title": "Kosten reduzieren"
+			},
+			"title": "Beschleunigen Sie das Spielen auf globaler Ebene"
+		},
+		"ad1": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Bereitstellung eines Gaming-Erlebnisses der nächsten Generation"
+		},
+		"goFaster": {
+			"subTitle": "Nutzen Sie das Content-Delivery-Netzwerk der nächsten Generation für alle Ihre Gaming-Anforderungen.",
+			"tabs": [
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				}
+			],
+			"tabs[0]": {
+				"content": "Stellen Sie In-Game-Inhalte und Updates reibungslos für Ihr globales Publikum bereit. \nProfitieren Sie von unseren 123 globalen PoPs und maximieren Sie die Download-Geschwindigkeit überall auf der Welt bis zum Fünffachen.\n\nHeben Sie sich von der Konkurrenz durch die schnellste Bereitstellung von Patches sowie Updates vor und nach dem Spiel ab!",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png",
+				"iconHeight": "280px",
+				"iconWidth": "330px",
+				"mIcon": "/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png",
+				"mIconHeight": "17,5rem",
+				"mIconWidth": "20,63rem",
+				"tab": "Handyspiele",
+				"title": "Treten Sie der neuen Ära des mobilen Spielens bei"
+			},
+			"tabs[1]": {
+				"content": "Halten Sie Ihre Spieler mit nahtlosen VR-Sitzungen beschäftigt. \nStellen Sie Inhalte schneller bereit – enttäuschen Sie nicht durch langsames Laden und unnötige Verzögerungen. \nProfitieren Sie von einem CDN-System der nächsten Generation, das darauf ausgelegt ist, Gamern das Spielen zu ermöglichen.\n\nMit einer globalen Latenz von unter 24 ms wird Ihre virtuelle Welt schneller geladen als die reale.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png",
+				"iconHeight": "314px",
+				"iconWidth": "338px",
+				"mIcon": "/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png",
+				"mIconHeight": "17,5rem",
+				"mIconWidth": "20,63rem",
+				"tab": "VR-Gaming",
+				"title": "Machen Sie Ihr Virtual-Reality-Erlebnis perfekt"
+			},
+			"tabs[2]": {
+				"content": "Sorgen Sie dafür, dass die Spieler wiederkommen. \nBeschleunigen Sie Ihre Gaming-Ressourcen und vermeiden Sie unnötige Ladezeiten. \nVerhindern Sie DDoS-Angriffe, stoppen Sie Bots und stellen Sie sicher, dass Ihre Spiele jederzeit online bleiben.\n\nSenken Sie die Kosten mit einem hohen Volumen und liefern Sie dynamische Anzeigen, ohne das Spielerlebnis zu beeinträchtigen.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png",
+				"iconHeight": "246px",
+				"iconWidth": "324px",
+				"mIcon": "/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png",
+				"mIconHeight": "17,5rem",
+				"mIconWidth": "20,63rem",
+				"tab": "Browserbasierte Spiele",
+				"title": "Schnellere Ladezeiten für ein besseres Spielerlebnis"
+			},
+			"tabs[3]": {
+				"content": "Behalten Sie Skalierbarkeitsprobleme der Vergangenheit bei, halten Sie Traffic-Spitzen unter Kontrolle und überlassen Sie nie wieder etwas dem Zufall. \nStellen Sie Downloads und Updates schneller bereit als Ihre Konkurrenz und halten Sie gleichzeitig Ihre Kosten niedrig. \n\nProfitieren Sie vom Pay-As-You-Go-Preis",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png",
+				"iconHeight": "282px",
+				"iconWidth": "288px",
+				"mIcon": "/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png",
+				"mIconHeight": "17,5rem",
+				"mIconWidth": "20,63rem",
+				"tab": "Lieferung herunterladen",
+				"title": "Helfen Sie Spielern, schneller in Ihr Spiel einzusteigen"
+			},
+			"title": "Bestes Spielerlebnis. \nJedes Mal."
+		},
+		"header": {
+			"btn": "14 Tage lang kostenlos testen",
+			"content": "Helfen Sie Spielern, schneller in Ihr Spiel einzusteigen. \nVerbessern Sie Ihre Updates, ohne sich Gedanken über die Skalierbarkeit machen zu müssen. \nVerhindern Sie DDoS-Angriffe, um die Spieler zufrieden und engagiert zu halten, ohne Ihr Budget zu sprengen.",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "Gaming-CDN",
+			"title": "Verbessern Sie Ihr Spielerlebnis"
+		},
+		"join1": {
+			"person": {
+				"content": "„Die Zusammenarbeit mit Gowaf war ein Hauch frischer Luft. \nIhr Team war hilfsbereit, reaktionsschnell und kompetent. \nDer Service hat unsere Erwartungen in jeder Hinsicht übertroffen.“",
+				"name": "Tom Mason",
+				"title": "Nexus-Mods"
+			},
+			"title": "40.000 Kunden vertrauen uns bereits"
+		},
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Bleiben Sie mit modernster DDoS-Abwehrsicherheit vor allen Angriffen geschützt.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_card_ic_1@3x.png",
+				"title": "Leistungsstarke Sicherheit"
+			},
+			"items[1]": {
+				"content": "Verabschieden Sie sich von Verlangsamungen mit einem Netzwerk, das auf maximalen Durchsatz ausgelegt ist.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_card_ic_2@3x.png",
+				"title": "Schnellere Downloads"
+			},
+			"items[2]": {
+				"content": "Profitieren Sie mit nur einem Klick von einem kostenlosen SSL-Zertifikat.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_card_ic_3@3x.png",
+				"title": "SSL/TLS-Verschlüsselung"
+			},
+			"items[3]": {
+				"content": "Halten Sie Ihre globale Latenz in Schach und stellen Sie Ihre Inhalte innerhalb von weniger als 24 ms für alle bereit.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_card_ic_4@3x.png",
+				"title": "Minimieren Sie die Latenz"
+			},
+			"items[4]": {
+				"content": "Nutzen Sie ein mehrschichtiges Caching-System und verhindern Sie, dass Verkehrsspitzen Ihre Infrastruktur beeinträchtigen.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_card_ic_5@3x.png",
+				"title": "Herkunftsschutz"
+			},
+			"items[5]": {
+				"content": "Erhalten Sie mit Echtzeit-Verkehrsstatistiken und -Protokollierung einen vollständigen Einblick in Ihre Spiele.",
+				"icon": "/images/solutions/storage-game/Solutions_Storage_game_card_ic_6@3x.png",
+				"title": "Echtzeitstatistiken"
+			},
+			"title1": "Seien Sie der Technologiekurve einen Schritt voraus",
+			"title2": "Nutzen Sie leistungsstarke Funktionen. \nOhne zusätzliche Kosten."
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Geringere Kosten",
+			"label": "80 %"
+		},
+		"numbers[1]": {
+			"content": "Durchschn. \nGlobale Latenz",
+			"label": "24 ms"
+		},
+		"numbers[2]": {
+			"content": "Schnellere Downloadzeiten",
+			"label": "Bis zu 5x"
+		},
+		"numbers[3]": {
+			"content": "Netzwerk-Backbone",
+			"label": "150 Tbit/s"
+		}
+	},
+	"storageGame.accelerate.list2[3].content": "",
+	"storageSoftware": {
+		"accelerate": {
+			"btn": "Entdecken Sie Gowaf CDN",
+			"content": "Bringen Sie Ihre Inhalte Ihren Benutzern überall auf der Welt näher. \nMinimieren Sie die Latenz und maximieren Sie Ihre Leistung mit dem globalen Netzwerk von Gowaf. \nProfitieren Sie von einer vollständig individuellen Preisgestaltung und zahlen Sie nur für die Bandbreite, die Sie tatsächlich nutzen!",
+			"list2": [
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				}
+			],
+			"list2[0]": {
+				"content": "Maximieren Sie Ihr Wachstum und Ihre Expansion ohne Sorgen mit einem 80-Tbit/s-Netzwerk.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_1_nor@2x.png",
+				"iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_1_sel@2x.png",
+				"title": "Vom Design her skalierbar"
+			},
+			"list2[1]": {
+				"content": "Stellen Sie mit über 3.000 ISPs und 14 Tier-1-Transitanbietern eine direkte Verbindung zu Ihren Benutzern her. \nÜberall.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_2_nor@2x.png",
+				"iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_2_sel@2x.png",
+				"title": "Globales Tier-1-Netzwerk"
+			},
+			"list2[2]": {
+				"content": "Optimieren Sie die Bereitstellung und reduzieren Sie die Latenz mit erstklassiger AMD- und NVMe-Hardware.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_3_nor@2x.png",
+				"iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_3_sel@2x.png",
+				"title": "NVMe SSD-Server"
+			},
+			"list2[3]": {
+				"content": "Bleiben Sie sicher und konzentriert mit einem integrierten DDoS-Schutz der nächsten Generation, der einfach funktioniert.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_4_nor@2x.png",
+				"iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_4_sel@2x.png",
+				"title": "Bleiben Sie geschützt"
+			},
+			"title": "Machen Sie sich nie wieder Sorgen über Verkehrsspitzen",
+			"upDown": {
+				"down": {
+					"title": "GERINGERE RECHNUNG",
+					"value": "30 %"
+				},
+				"up": {
+					"title": "SCHNELLERE LADEZEIT",
+					"value": "40 %"
+				}
+			}
+		},
+		"ad1": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Beschleunigen Sie Ihre Softwareverteilung!"
+		},
+		"ad2": {
+			"btn": "Entdecken Sie Gowaf Storage",
+			"content": "Schnelle Downloads erfordern schnellen Speicher. \nVergessen Sie langsame Kaltstarts, indem Sie Ihre Dateien überall auf der Welt bereithalten. \nGowaf Edge Storage bietet eine bis zu 5-mal schnellere Leistung im Vergleich zu herkömmlichem Objektspeicher und hilft Ihren Benutzern, ihre Dateien schneller zu erhalten.",
+			"list": [
+				"",
+				"",
+				"",
+				""
+			],
+			"list[0]": "5X schnellere Downloads",
+			"list[1]": "Automatisches Geo-Failover",
+			"list[2]": "8 Speicherregionen",
+			"list[3]": "99,99 % SLA",
+			"title": "Schnellster Speicher für schnellste Downloads"
+		},
+		"header": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"content": "Beschleunigen Sie Ihre Software-Downloads mit einem der schnellsten globalen Netzwerke: Erleben Sie weltweit einen hohen Durchsatz und immer zuverlässige Downloads.",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "Softwareverteilung",
+			"title": "Liefern Sie blitzschnelle Downloads"
+		},
+		"join1": {
+			"person": {
+				"content": "„Die Zusammenarbeit mit Gowaf war ein Hauch frischer Luft. \nIhr Team war hilfsbereit, reaktionsschnell und kompetent. \nDer Service hat unsere Erwartungen in jeder Hinsicht übertroffen.“",
+				"name": "Tom Mason",
+				"title": "Nexus-Mods"
+			},
+			"title": "Schließen Sie sich über 40.000 zufriedenen Kunden an"
+		},
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Übernehmen Sie die volle Kontrolle darüber, wer und wie lange auf Ihre Inhalte zugreifen kann.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_card_ic_1@3x.png",
+				"title": "Token-Authentifizierung"
+			},
+			"items[1]": {
+				"content": "Schützen Sie Ihren Ursprung vor Angriffen und Verkehrsspitzen mit dem bunny.net-Ursprungsschild.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_card_ic_2@3x.png",
+				"title": "Herkunftsschutz"
+			},
+			"items[2]": {
+				"content": "Erhalten Sie einen vollständigen Einblick in Ihre Content-Bereitstellung mit wertvollen Erkenntnissen und Kundenkennzahlen.",
+				"icon": "/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3@3x.png",
+				"title": "Protokollierung"
+			},
+			"title1": "Blitzschnell. \nVollgepackt mit Funktionen.",
+			"title2": "Legen Sie die Messlatte höher mit robusten Sicherheits-, Berichts- und Verwaltungsfunktionen."
+		},
+		"map": {
+			"subTitle": "Lassen Sie Ihre Benutzer nie wieder warten. \nStellen Sie Updates in Echtzeit bereit und minimieren Sie Ausfallzeiten. \nNutzen Sie eines der schnellsten globalen Netzwerke mit 123 PoPs.",
+			"title": "Globales Netzwerk. \nFür ein globales Publikum."
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Uplink pro Server",
+			"label": "40 Gbit/s"
+		},
+		"numbers[1]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[2]": {
+			"content": "Netzwerk-Backbone",
+			"label": "150 Tbit/s"
+		},
+		"numbers[3]": {
+			"content": "Verfügbarkeits-SLA",
+			"label": "99,99 %"
+		},
+		"supportPlan": {
+			"main": {
+				"btn": "Lernen Sie unseren Super-Gowaf kennen",
+				"responseTime": "5 Minuten",
+				"responseTimeTitle": "ERSTE ANTWORTZEIT",
+				"solveTime": "3 Std",
+				"solveTimeTitle": "DURCHSCHNITTLICHE LÖSUNGSZEIT",
+				"subTitle": "Kein Warten mehr auf die Unterstützung, die Sie gerade benötigen. \nWir sind 24 Stunden am Tag, 7 Tage die Woche, 365 Tage im Jahr für Sie da. \nMit einer durchschnittlichen Reaktionszeit beim ersten Mal von unter 5 Minuten und einer durchschnittlichen Lösungszeit von unter 3 Stunden sind Sie bei uns auf jeden Fall in guten Händen (Pfoten)!",
+				"title": "Vertrauenswürdiger Support rund um die Uhr"
+			},
+			"subTitle": "Vergessen Sie Support-Stufen und nehmen Sie direkt Kontakt mit einem Experten auf. \nJedes Mal.",
+			"title": "Ein Support-Team, das sich kümmert"
+		}
+	},
+	"videoDelivery": {
+		"ad1": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Liefern Sie Videos ohne Pufferung!"
+		},
+		"Calculate": {
+			"list": [
+				{
+					"title": "",
+					"value": ""
+				},
+				{
+					"title": "",
+					"value": ""
+				}
+			],
+			"list[0]": {
+				"percent": "45",
+				"title": "Videogröße hochladen",
+				"value": "300 GB"
+			},
+			"list[1]": {
+				"percent": "15",
+				"title": "Monatlicher Verkehr",
+				"value": "50 GB"
+			},
+			"ReplicationPoints": {
+				"icon": "/images/products/stream/overview/common_price_right_wihte_ic2x.png",
+				"label": "Preis",
+				"list": [
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					},
+					{
+						"label": ""
+					}
+				],
+				"list[0]": {
+					"label": "Eins",
+					"status": "1"
+				},
+				"list[1]": {
+					"label": "Zwei",
+					"status": "0"
+				},
+				"list[2]": {
+					"label": "Drei",
+					"status": "0"
+				},
+				"list[3]": {
+					"label": "Vier",
+					"status": "0"
+				},
+				"list[4]": {
+					"label": "Fünf",
+					"status": "0"
+				},
+				"list[5]": {
+					"label": "Sechs",
+					"status": "0"
+				},
+				"list[6]": {
+					"label": "Sechs",
+					"status": "0"
+				},
+				"list[7]": {
+					"label": "Acht",
+					"status": "0"
+				},
+				"title": "Replikationspunkte",
+				"unit": "/ Gigabyte",
+				"value": "0,01 $"
+			},
+			"subs": [
+				{
+					"title": "",
+					"value": ""
+				},
+				{
+					"title": "",
+					"value": ""
+				}
+			],
+			"subs[0]": {
+				"title": "Standardstufe",
+				"value": "4,5 $/Monat"
+			},
+			"subs[1]": {
+				"title": "Volumenstufe",
+				"value": "3,25 $/Monat"
+			}
+		},
+		"features": [
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			},
+			{
+				"content": "",
+				"icon": "",
+				"title": ""
+			}
+		],
+		"features[0]": {
+			"content": "Replizieren Sie Ihre Medienbibliothek auf der ganzen Welt mit unserem georeplizierten Cloud-Speicher für noch nie dagewesene Leistung.",
+			"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Replicated.png",
+			"title": "Replizierter Cloud-Speicher"
+		},
+		"features[1]": {
+			"content": "Ohne einen Single Point of Failure bietet Gowaf Zuverlässigkeit auf Unternehmensniveau und stellt sicher, dass Sie immer online bleiben.",
+			"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Redundant.png",
+			"title": "Redundante Infrastruktur"
+		},
+		"features[2]": {
+			"content": "Unsere Server basieren auf NVMe- und SSD-Technologie, um Latenzen im Millisekundenbereich bei der Bereitstellung Ihrer Mediendateien sicherzustellen.",
+			"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_NVMe.png",
+			"title": "NVMe-SSD-betriebene Server"
+		},
+		"header": {
+			"btn": "14 Tage lang kostenlos testen",
+			"content": "Optimieren Sie Ihre Videowiedergabe und hochwertiges VOD-Streaming über unser globales 150-Tbit/s-Netzwerk. \nBieten Sie das beste Videoerlebnis ohne Pufferung und mit der geringsten Latenz.",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "Videobereitstellungs-CDN",
+			"title": "Zuverlässiges Video-CDN, das wirklich springt"
+		},
+		"join1": {
+			"person": {
+				"content": "„Wir hatten einen Flow!-Gipfel ohne eine einzige Beschwerde. Insgesamt denke ich, dass bunny.net einfach eine sehr umfassende Lösung ist. Der Umgang mit Videos ist mit Bunny so einfach – man braucht nicht viel Schulung. Es ist sehr rationalisiert.“",
+				"name": "Matthias Mauch",
+				"title": "Younity"
+			},
+			"title": "40.000 Kunden weltweit vertrauen darauf"
+		},
+		"list2": {
+			"items": [
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				},
+				{
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png",
+				"title": "Ursprungsschild"
+			},
+			"items[1]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png",
+				"title": "Rohprotokollierung"
+			},
+			"items[2]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_3.png",
+				"title": "Edge-Storage"
+			},
+			"items[3]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_4.png",
+				"title": "Echtzeitstatistiken"
+			},
+			"items[4]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_5.png",
+				"title": "Hotlinking-Schutz"
+			},
+			"items[5]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_6.png",
+				"title": "Token-Authentifizierung"
+			},
+			"items[6]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_7.png",
+				"title": "Medienoptimiertes Caching"
+			},
+			"items[7]": {
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_8.png",
+				"title": "Vollständig anpassbarer Player"
+			},
+			"title1": "Vollgepackt mit leistungsstarken Funktionen",
+			"title2": "Profitieren Sie von leistungsstarken Funktionen, die speziell auf die Videobereitstellung zugeschnitten sind. \nSichern Sie Ihre Streams mit Hotlinking-Schutz und Token-Authentifizierung."
+		},
+		"map": {
+			"subTitle": "Das Gowaf-Netzwerk wurde ausdrücklich für eine effiziente Videobereitstellung entwickelt. \nMit strategisch ausgewählten PoPs auf der ganzen Welt gewährleisten wir ein hervorragendes Preis-Leistungs-Verhältnis und eine unglaublich hohe Cache-Hitrate.",
+			"title": "Bringen Sie die Videobereitstellung auf die nächste Stufe"
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers2": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers2[0]": {
+			"content": "Edge-Standorte",
+			"label": "123"
+		},
+		"numbers2[1]": {
+			"content": "Anfragen pro Sekunde",
+			"label": "650.000"
+		},
+		"numbers2[2]": {
+			"content": "Netzwerkkapazität",
+			"label": "150 Tbit/s"
+		},
+		"numbers2[3]": {
+			"content": "Durchschn. \nGlobale Latenz",
+			"label": "24 ms"
+		},
+		"numbers[0]": {
+			"content": "Unterstützte Websites",
+			"label": "1.000.000"
+		},
+		"numbers[1]": {
+			"content": "Schnellere Ladezeiten",
+			"label": "Bis zu 5x"
+		},
+		"numbers[2]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[3]": {
+			"content": "So niedrig wie",
+			"label": "1 $/Monat"
+		},
+		"superCharge": {
+			"subTitle": "Mit 123 PoPs weltweit und einem 150-Tbit/s-Netzwerk-Backbone garantiert Gowaf eine reibungslose Videowiedergabe, egal wo sich Ihre Benutzer befinden.",
+			"tabs": [
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				},
+				{
+					"btn": "",
+					"content": "",
+					"href": "",
+					"icon": "",
+					"iconHeight": "",
+					"iconWidth": "",
+					"mIcon": "",
+					"mIconHeight": "",
+					"mIconWidth": "",
+					"tab": "",
+					"title": ""
+				}
+			],
+			"tabs[0]": {
+				"btn": "",
+				"content": "Genießen Sie eine reibungslose Wiedergabe dank eines der schnellsten globalen Netzwerke, unterstützt durch NVMe-basierte Hardware und eine intelligente Routing-Engine. \nBieten Sie das beste Videoerlebnis, indem Sie die Inhalte nur einen Katzensprung von Ihren Besuchern entfernt platzieren.",
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png",
+				"iconHeight": "276px",
+				"iconWidth": "334px",
+				"mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png",
+				"mIconHeight": "17,25rem",
+				"mIconWidth": "20,88rem",
+				"tab": "Extreme Leistung",
+				"title": "Keine Pufferung mehr. \nImmer wieder."
+			},
+			"tabs[1]": {
+				"btn": "",
+				"content": "Bezahlen Sie nie wieder zu viel für Ihre Content-Bereitstellung. \nBei Gowaf zahlen Sie immer nur für die Bandbreite, die Sie nutzen, und sonst nichts. \nWir konzentrieren uns darauf, unsere Kosten zu optimieren und die Einsparungen an Sie weiterzugeben!",
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png",
+				"iconHeight": "268px",
+				"iconWidth": "274px",
+				"mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png",
+				"mIconHeight": "16,75rem",
+				"mIconWidth": "17.13rem",
+				"tab": "Störende Preisgestaltung",
+				"title": "Sparen Sie bis zu 80 % bei der Abrechnung Ihrer Content-Lieferung"
+			},
+			"tabs[2]": {
+				"btn": "",
+				"content": "Speichern Sie Videos mit Perma-Cache dauerhaft im CDN, um die Ursprungs-Egress-Gebühren zu senken und dafür zu sorgen, dass Ihre Infrastruktur schneller läuft. \nErhöhen Sie Leistung und Zuverlässigkeit durch die automatische weltweite Verteilung von Inhalten für blitzschnelle Zugriffszeiten.",
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png",
+				"iconHeight": "246px",
+				"iconWidth": "316px",
+				"mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png",
+				"mIconHeight": "15,38rem",
+				"mIconWidth": "19,75rem",
+				"tab": "Perma-Cache",
+				"title": "Einmal verwandeln. \nCachen und beschleunigen Sie für immer."
+			},
+			"tabs[3]": {
+				"btn": "",
+				"content": "Genießen Sie DRM-Sicherheit auf Unternehmensniveau ohne enorme Kosten oder technische Hürden. \nSchützen Sie Ihre Videoinhalte vor Piraterie, stoppen Sie Downloads, Screenshots und verhindern Sie Hotlinking mit einem einzigen Klick auf eine Schaltfläche mit Media Cage.",
+				"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png",
+				"iconHeight": "243px",
+				"iconWidth": "300px",
+				"mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png",
+				"mIconHeight": "15,19rem",
+				"mIconWidth": "18,75rem",
+				"tab": "Medienschutz",
+				"title": "Videoschutz für Unternehmen. \nOhne Aufpreis."
+			},
+			"title": "Schnelles Netzwerk trifft auf unschlagbare Preise"
+		},
+		"supportPlan": {
+			"main": {
+				"btn": "Gowaf Media Player",
+				"list": [
+					{
+						"content": "",
+						"icon": "",
+						"title": ""
+					},
+					{
+						"content": "",
+						"icon": "",
+						"title": ""
+					}
+				],
+				"list[0]": {
+					"content": "Passen Sie das Farbschema des Videoplayers so an, dass es perfekt zum Design Ihrer Website passt.",
+					"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Color.png",
+					"title": "Wählen Sie Ihre Farbe"
+				},
+				"list[1]": {
+					"content": "Fügen Sie Player-Steuerelemente hinzu oder entfernen Sie sie, um es perfekt an das Benutzererlebnis anzupassen.",
+					"icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Controls.png",
+					"title": "Passen Sie Ihre Steuerelemente an"
+				},
+				"subTitle": "Maximieren Sie die Markenwirkung, indem Sie jeden Aspekt Ihres Players bis hin zum CDN-Hostnamen anpassen.",
+				"title": "Machen Sie es zu Ihrem eigenen"
+			},
+			"subTitle": "Nutzen Sie den vollständig anpassbaren bunny.net-Mediaplayer.",
+			"title": "Einfacher, übersichtlicher und anpassbarer Player"
+		}
+	},
+	"websiteAcceleration": {
+		"accelerate": {
+			"content": "Steigen Sie in eines der schnellsten globalen Netzwerke der Welt ein. \nErhöhen Sie die Geschwindigkeit Ihrer Website auf das Maximum und bieten Sie Ihren Besuchern das bestmögliche Erlebnis. \nProfitieren Sie von der Leistung der Enterprise-Klasse zum günstigsten Preis auf dem Markt!",
+			"list1": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"list1[0]": "Ab 1 $/Monat",
+			"list1[1]": "Echtzeitüberwachung",
+			"list1[2]": "Keine versteckten Gebühren",
+			"list1[3]": "DDoS-Schutz",
+			"list1[4]": "Perma-Caching",
+			"list1[5]": "Kostenloses SSL-Zertifikat",
+			"list2": [
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				}
+			],
+			"list2[0]": {
+				"content": "Halten Sie Ihre Inhalte auf dem neuesten Stand, kommen Sie näher an Ihre Nutzer heran und sind Sie der Konkurrenz einen Schritt voraus.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_nor@2x.png",
+				"iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_sel@2x.png",
+				"title": "Steigern Sie die Leistung"
+			},
+			"list2[1]": {
+				"content": "Erfreuen Sie Ihre Besucher mit einem unvergesslichen Benutzererlebnis dank schnellerer Website-Ladezeiten.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_nor@2x.png",
+				"iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_sel@2x.png",
+				"title": "Gewinnen Sie Benutzererfahrung"
+			},
+			"list2[2]": {
+				"content": "Eliminieren Sie enorme Kosten für Downloads mit hohem Volumen durch eine einfache nutzungsbasierte Bezahlung.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_nor@2x.png",
+				"iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_sel@2x.png",
+				"title": "Kosten reduzieren"
+			},
+			"list2[3]": {
+				"content": "Bleiben Sie sicher und konzentriert mit einem integrierten DDoS-Schutz der nächsten Generation, der einfach funktioniert.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_nor@2x.png",
+				"iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_sel@2x.png",
+				"title": "Bleiben Sie geschützt"
+			},
+			"title": "Wunderbar Derbietung. \nJedes Mal."
+		},
+		"ad1": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Steigen Sie auf die Webbeschleunigung der nächsten Generation!"
+		},
+		"ad2_1": {
+			"content": "Wussten Sie, dass 40 % der Nutzer eine Seite verlassen, wenn sie nicht innerhalb von 3 Sekunden geladen wird? \nBeschleunigen Sie Ihre Website, um Ihre Absprungrate zu senken, die Conversions zu steigern und Ihre Gewinne zu maximieren!",
+			"list": [
+				"",
+				"",
+				"",
+				""
+			],
+			"list[0]": "Verringern Sie die Absprungrate",
+			"list[1]": "Verbessern Sie SEO",
+			"list[2]": "Erhöhen Sie die Conversions",
+			"list[3]": "Verbessern Sie die Benutzererfahrung",
+			"title": "Absprungrate verringern. \nVerbessern Sie die Konvertierung."
+		},
+		"ad2_2": {
+			"btn": "Erfahren Sie mehr über Gowaf Optimizer",
+			"content": "Bringen Sie die Leistung Ihrer Website mit Gowaf Optimizer auf Lichtgeschwindigkeit. \nReduzieren Sie die Größe der Bilddateien um bis zu 80 % und ändern Sie sie in das webfreundliche WebP-Format. \nDurch die Aktivierung von Gowaf Optimizer wird die Geschwindigkeit Ihrer Website um bis zu 30 % verbessert und Sie werden sich wirklich von den anderen abheben！",
+			"list": [
+				"",
+				"",
+				"",
+				""
+			],
+			"list[0]": "Verringern Sie die Absprungrate",
+			"list[1]": "Verbessern Sie SEO",
+			"list[2]": "Erhöhen Sie die Conversions",
+			"list[3]": "Verbessern Sie die Benutzererfahrung",
+			"title": "Reduzieren Sie die Bildgröße mit Gowaf Optimizer um bis zu 80 %"
+		},
+		"closerToUser": {
+			"items": [
+				{
+					"content": "",
+					"header": "",
+					"icon1": "",
+					"icon2": "",
+					"label": "",
+					"number": "",
+					"unit": ""
+				},
+				{
+					"content": "",
+					"header": "",
+					"icon1": "",
+					"icon2": "",
+					"label": "",
+					"number": "",
+					"unit": ""
+				}
+			],
+			"items[0]": {
+				"content": "Es ist keine gute Sache, Ihre Besucher aus der ganzen Welt direkt mit Ihrem Server zu verbinden. \nEs erhöht die Latenz, verlangsamt die Geschwindigkeit Ihrer Website und sorgt für ein weitaus schlechteres Benutzererlebnis!",
+				"header": "Ohne CDN",
+				"icon1": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time@2x.png",
+				"icon2": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_left@2x.png",
+				"label": "Ladezeit der Website",
+				"number": "2.5",
+				"unit": "Sekunden"
+			},
+			"items[1]": {
+				"content": "Indem Sie Ihre Inhalte näher an Ihre Besucher bringen, minimieren Sie die Latenz, maximieren die Leistung und reduzieren Ihre Absprungrate. \nMit Bunny CDN springt Ihre Website so schnell wie ein Gowaf!",
+				"header": "Mit Gowaf CDN",
+				"icon1": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time2@2x.png",
+				"icon2": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_right@2x.png",
+				"label": "Ladezeit der Website",
+				"number": "0,7",
+				"unit": "Sekunden"
+			},
+			"subTitle": "Eine kürzere Entfernung führt dazu, dass Ihre Website schneller lädt. \nMit unserem globalen Netzwerk sind Ihre Kunden immer nur einen Katzensprung entfernt.",
+			"title": "Bringen Sie Ihre Inhalte Ihren Nutzern näher"
+		},
+		"header": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"content": "Verwandeln Sie Ihre Website von einer Schnecke in einen Gowaf. \nBieten Sie Ihren Benutzern das bestmögliche Erlebnis mit unserem globalen CDN- und Optimierungsservice. \nBeschleunigen Sie Ihre Website über die Grenzen hinaus!",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "Website-Beschleunigung",
+			"title": "Lassen Sie Ihre Website wie einen Gowaf hüpfen"
+		},
+		"join1": {
+			"person": {
+				"content": "„Gowaf CDN zu finden ist wie eine Goldmine zu finden! Ist das echt?“",
+				"name": "Jerry Caloroso",
+				"title": "Chief Streaming Officer, OneStudio"
+			},
+			"title": "Schließen Sie sich über 40.000 zufriedenen Kunden an"
+		},
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Profitieren Sie mit nur einem Klick von einem kostenlosen SSL-Zertifikat.",
+				"icon": "/images/solutions/website-acceleration/cdn_overview_bulid_ic_1@3x.png",
+				"title": "Kostenloses SSL"
+			},
+			"items[1]": {
+				"content": "Optimieren Sie die Bereitstellung Ihrer Website mit strategisch platzierten globalen PoPs.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_2@3x.png",
+				"title": "123 globale PoPs"
+			},
+			"items[2]": {
+				"content": "Treten Sie einem Netzwerk bei, das von sorgfältig ausgewählten Anbietern mit erstklassigen Rechenzentren betrieben wird.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_3@3x.png",
+				"title": "Tier-1-Netzwerk"
+			},
+			"items[3]": {
+				"content": "Schützen Sie Ihre Bilder ganz einfach mit dem Domain-Schutz vor der Weitergabe auf anderen Websites.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_4@3x.png",
+				"title": "Hotlinking-Schutz"
+			},
+			"items[4]": {
+				"content": "Leiten Sie Ihre Benutzer basierend auf Ihren Inhalten mit der SmartEdge™-Routing-Engine dorthin, wo es darauf ankommt.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_5@3x.png",
+				"title": "Intelligentes Routing"
+			},
+			"items[5]": {
+				"content": "Optimieren Sie Ihre Bilder und minimieren Sie Ihre CSS/JS-Dateien für maximale Leistung.",
+				"icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png",
+				"title": "Gowaf-Optimierer"
+			},
+			"title1": "Nicht nur schneller, sondern auch sicherer",
+			"title2": "Verbessern Sie die Sicherheit, schützen Sie Ihre Inhalte und schließen Sie Schwachstellen."
+		},
+		"logos": {
+			"btn": "Schritt-für-Schritt-Anleitungen zur Integration",
+			"subTitle": "Integrieren Sie mit nur wenigen Klicks die gängigsten CMS-Systeme. \nBeginnen Sie in weniger als 5 Minuten.",
+			"title": "Einfache, schnelle und einfache Integration mit den meisten gängigen CMS-Systemen"
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Unterstützte Websites",
+			"label": "1.000.000"
+		},
+		"numbers[1]": {
+			"content": "Schnellere Ladezeiten",
+			"label": "Bis zu 5x"
+		},
+		"numbers[2]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[3]": {
+			"content": "Zufriedene Kunden",
+			"label": "40.000"
+		}
+	},
+	"websiteWordpress": {
+		"accelerate": {
+			"content": "Laden Sie Ihre WordPress-Website mit einer einfachen 1-Klick-Plugin-Installation auf Hochtouren. \nProfitieren Sie von der WordPress-CDN-Bereitstellung der nächsten Generation, die mit robusten Sicherheitsfunktionen ausgestattet ist und von einem 150-Tbit/s-Netzwerk unterstützt wird. \nKonzentrieren Sie sich auf Ihr Produkt und überlassen Sie uns den Rest.",
+			"list1": [
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
+			],
+			"list1[0]": "Einfache Installation",
+			"list1[1]": "DDoS-Schutz",
+			"list1[2]": "Ab 1 $/Monat",
+			"list1[3]": "Keine versteckten Gebühren",
+			"list1[4]": "Bis zu 5x schnellere Website",
+			"list1[5]": "123 globale PoPs",
+			"list2": [
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"iconActive": "",
+					"title": ""
+				}
+			],
+			"list2[0]": {
+				"content": "Maximieren Sie Ihr Wachstum und Ihre Expansion ohne Sorgen mit unserem 150-Tbit/s-Netzwerk.",
+				"icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_nor@2x.png",
+				"iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_sel@2x.png",
+				"title": "Bestes WordPress-CDN auf dem Markt"
+			},
+			"list2[1]": {
+				"content": "Stellen Sie mit über 3.000 ISPs und 14 Tier-1-Transitanbietern eine direkte Verbindung zu Ihren Benutzern her. \nÜberall.",
+				"icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_nor@2x.png",
+				"iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_sel@2x.png",
+				"title": "Globales Tier-1-Netzwerk"
+			},
+			"list2[2]": {
+				"content": "Optimieren Sie die Bereitstellung und reduzieren Sie die Latenz mit erstklassiger AMD- und NVMe-Hardware.",
+				"icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_nor@2x.png",
+				"iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_sel@2x.png",
+				"title": "NVMe SSD-Server"
+			},
+			"list2[3]": {
+				"content": "Bleiben Sie sicher und konzentriert mit einem integrierten DDoS-Schutz der nächsten Generation, der einfach funktioniert.",
+				"icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_nor@2x.png",
+				"iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_sel@2x.png",
+				"title": "Bleiben Sie geschützt"
+			},
+			"title": "Erleben Sie Website-Performance wie nie zuvor"
+		},
+		"ad1": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
+			"title": "Steigen Sie auf das beste WordPress-CDN!"
+		},
+		"ad2": {
+			"btn": "WordPress-Integration",
+			"content": "Wussten Sie, dass 40 % der Nutzer eine Seite verlassen, wenn sie nicht innerhalb von 3 Sekunden geladen wird? \nBeschleunigen Sie Ihre Website, um Ihre Absprungrate zu senken, die Conversions zu steigern und Ihre Gewinne zu maximieren!",
+			"items": [
+				{
+					"label": "",
+					"value": ""
+				},
+				{
+					"label": "",
+					"value": ""
+				}
+			],
+			"items[0]": {
+				"label": "AUFBAUZEIT",
+				"value": "5 Minuten"
+			},
+			"items[1]": {
+				"label": "SCHNELLERE LADEZEIT",
+				"value": "5x"
+			},
+			"title": "Absprungrate verringern. \nVerbessern Sie die Konvertierung."
+		},
+		"ad2_1": {
+			"btn": "Entdecken Sie den Gowaf-Optimierer",
+			"content": "Bringen Sie die Leistung Ihrer Website mit Gowaf Optimizer auf Lichtgeschwindigkeit. \nReduzieren Sie die Größe der Bilddateien um bis zu 80 % und ändern Sie sie in das webfreundliche WebP-Format. \nDurch die Aktivierung von Gowaf Optimizer wird die Geschwindigkeit Ihrer Website um bis zu 30 % gesteigert und Sie heben sich wirklich von den anderen ab!",
+			"list": [
+				"",
+				"",
+				"",
+				""
+			],
+			"list[0]": "80 % Bildgröße reduzieren",
+			"list[1]": "Bis zu 30 % schneller",
+			"list[2]": "WeBP-Transformation",
+			"list[3]": "Minimieren Sie die Ladezeit",
+			"title": "Bildgröße um bis zu 80 % reduzieren"
+		},
+		"ad2_2": {
+			"btn": "Entdecken Sie Media Cage",
+			"content": "Möchten Sie nicht, dass Ihr Video geteilt oder heruntergeladen wird? \nMedia Cage sperrt Ihre Videos und verhindert, dass sie außerhalb Ihrer Website heruntergeladen oder geteilt werden. \nEs ist die perfekte Lösung für Online-Kurse und Videos, die Sie ausschließlich auf Ihrer Website behalten möchten.",
+			"title": "Schützen Sie Ihre Videos vor Diebstahl"
+		},
+		"closerToUser": {
+			"subTitle": "Beschleunigen Sie Ihre Website mit unserem globalen Netzwerk um bis zu 80 %, indem Sie den Inhalt Ihren Besuchern näher bringen. \nDurch die Integration von Gowaf CDN verbessern Sie Ihre Ladegeschwindigkeiten, reduzieren die Absprungrate und steigern die Conversions. \nAlles, was Sie brauchen, um sich von der Konkurrenz abzuheben, ist nur ein paar einfache Klicks entfernt!",
+			"title": "Distanz verkürzen. \nVerbessern Sie die Ladezeit Ihrer Website"
+		},
+		"header": {
+			"btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+			"content": "Verbessern Sie die Ladezeiten Ihrer Website um bis zu 80 % und bieten Sie Ihren Benutzern weltweit ein besseres Erlebnis. \nMachen Sie Ihre WordPress-Website mit einem einfachen Klick schneller!",
+			"hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekunden.",
+			"preTitle": "WordPress-CDN",
+			"title": "Laden Sie Ihre WordPress-Website auf"
+		},
+		"join1": {
+			"person": {
+				"content": "„Wir sind immer wieder beeindruckt von der Leistung, Benutzerfreundlichkeit und dem hervorragenden Support, den Gowaf uns und unseren Kunden bietet!“",
+				"name": "James Cantoni",
+				"title": "Mitbegründer von WP Compress"
+			},
+			"title": "Schließen Sie sich über 40.000 globalen Kunden an"
+		},
+		"list1": {
+			"items": [
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				},
+				{
+					"content": "",
+					"icon": "",
+					"title": ""
+				}
+			],
+			"items[0]": {
+				"content": "Nutzen Sie die kostenlose SSL-Verschlüsselung für alle Ihre Websites und Dateien, die im Gowaf-Netzwerk gehostet werden.",
+				"icon": "/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png",
+				"title": "Kostenlose SSL-Verschlüsselung"
+			},
+			"items[1]": {
+				"content": "Schützen Sie Ihre Bilder vor Hotlinking oder der Weitergabe ohne Quellenangabe.",
+				"icon": "/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png",
+				"title": "Bildwasserzeichenschutz"
+			},
+			"items[2]": {
+				"content": "Aktivieren Sie Media Cage, um zu verhindern, dass Ihr Video geteilt oder heruntergeladen wird.",
+				"icon": "/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_3@2x.png",
+				"title": "Verhindern Sie das Herunterladen von Videos"
+			},
+			"title1": "Nicht nur schneller, sondern auch sicherer",
+			"title2": "Verbessern Sie die Sicherheit, schützen Sie Ihre Inhalte und schließen Sie Schwachstellen."
+		},
+		"logos": {
+			"btn": "Schritt-für-Schritt-Anleitungen zur Integration",
+			"subTitle": "Holen Sie sich das bestmögliche Erlebnis, indem Sie Gowaf mit beliebten WordPress-Plugins kombinieren. \nMit nur wenigen Klicks funktioniert Ihre Website noch schneller und liefert Ihnen bessere Ergebnisse!",
+			"title": "Nahtlose und einfache Integration mit beliebten WordPress-Plugins"
+		},
+		"numbers": [
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			},
+			{
+				"content": "",
+				"label": ""
+			}
+		],
+		"numbers[0]": {
+			"content": "Unterstützte Websites",
+			"label": "1.000.000"
+		},
+		"numbers[1]": {
+			"content": "Schnellere Ladezeiten",
+			"label": "Bis zu 5x"
+		},
+		"numbers[2]": {
+			"content": "Globale PoPs",
+			"label": "123"
+		},
+		"numbers[3]": {
+			"content": "So niedrig wie",
+			"label": "1 $/Monat"
+		},
+		"title1": "Nicht nur schneller, sondern auch sicherer",
+		"title2": "Verbessern Sie die Sicherheit, schützen Sie Ihre Inhalte und schließen Sie Schwachstellen."
+	}
+}

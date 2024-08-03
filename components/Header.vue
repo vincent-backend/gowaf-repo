@@ -3,10 +3,38 @@ const route = useRoute();
 
 const isHome = route.path === '/';
 const alertVisible = ref(isHome);
+const ProductsPopoverRef = ref();
 const show = ref(false);
+const { locale, messages, setLocale } = useI18n();
 
 const handleBack = () => {
   window.history.back();
+};
+const ProductsRef = ref();
+const options = [
+  { text: 'English', href: 'en' },
+  { text: 'English (United Kingdom)', href: 'en-gb' },
+  { text: 'English (Canada)', href: 'en-ca' },
+  { text: 'English (Australia)', href: 'en-au' },
+  { text: 'English (India)', href: 'en-in' },
+  { text: 'Deutsch', href: 'de' },
+  { text: 'Español (España)', href: 'es' },
+  { text: 'Español (Latinoamérica)', href: 'es-la' },
+  { text: 'Français', href: 'fr' },
+  { text: 'Italiano', href: 'it' },
+  { text: '日本語', href: 'ja' },
+  { text: '한국어', href: 'ko-kr' },
+  { text: 'Polski', href: 'pl' },
+  { text: 'Português', href: 'pt-br' },
+  { text: 'Русский', href: 'ru' },
+  { text: '繁體中文', href: 'zh-tw' },
+  { text: '简体中文', href: 'zh' }
+];
+const changeLang = async (lc: string) => {
+  console.log('locales', messages.value);
+  setLocale(lc);
+  console.log('changeLang -> locale', locale.value);
+  ProductsPopoverRef.value.hide();
 };
 </script>
 
@@ -43,7 +71,27 @@ const handleBack = () => {
             <a href="/forgot" class="button button-get-started">
               {{ $t('header.getStarted') }}
             </a>
-            <a href="#" class="button button-lang"> EN </a>
+            <a href="#" class="button button-lang" ref="ProductsRef"> EN </a>
+            <el-popover
+              ref="ProductsPopoverRef"
+              popper-class="popper-menu"
+              :virtual-ref="ProductsRef"
+              trigger="hover"
+              width="auto"
+              :offset="20"
+              virtual-triggering
+            >
+              <div class="dropdown-container">
+                <div
+                  class="dropdown-option"
+                  v-for="(item, index) in options"
+                  :key="index"
+                  @click="changeLang(item.href)"
+                >
+                  {{ item.text }}
+                </div>
+              </div>
+            </el-popover>
           </div>
         </div>
       </LgOnly>
@@ -151,6 +199,33 @@ const handleBack = () => {
           }
         }
       }
+    }
+  }
+}
+.dropdown-container {
+  min-width: 150px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  .dropdown-option {
+    cursor: pointer;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 7px 6px 7px 10px;
+    margin-bottom: 6px;
+    &.is-active,
+    &:hover {
+      background: rgba(70, 207, 58, 0.06);
+      font-weight: 500;
+      color: #46cf3a;
     }
   }
 }

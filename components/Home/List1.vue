@@ -1,13 +1,12 @@
 <script lang="ts" setup>
-withDefaults(
-  defineProps<{
-    isHidenTile?: boolean;
-    bgColor?: string;
-    btText?: string;
-    list: [];
-  }>(),
-  {}
-);
+const router = useRouter();
+const props = defineProps<{
+  isHidenTile?: boolean;
+  bgColor?: string;
+  btText?: string;
+  list?: [];
+  linkList?: Array<string>;
+}>();
 const imgs = obeyDevice(
   [
     '/images/home/home_logo_1@2x.png',
@@ -46,6 +45,12 @@ const imgs = obeyDevice(
     '/mobile-images/home/home_logo_16@2x.png'
   ]
 );
+const imgclick = (index: number) => {
+  const link = props.linkList ? props.linkList[index] : '';
+  if (link) {
+    router.push({ path: link });
+  }
+};
 </script>
 
 <template>
@@ -55,7 +60,11 @@ const imgs = obeyDevice(
         {{ $t('home.list1.title') }}
       </div>
       <div class="list" :class="{ isList: list && list.length > 0 }">
-        <div class="item" v-for="img in list || imgs">
+        <div
+          class="item"
+          v-for="(img, index) in list || imgs"
+          @click="imgclick(index)"
+        >
           <img :src="img" />
         </div>
       </div>

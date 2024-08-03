@@ -20,7 +20,7 @@
       },
       {
         label: $t('resources.breadCrumbs.caseStudies'),
-        href: '/resources/caseStudies',
+        href: '/resources/caseStudiesDetails',
         current: true
       },
       {
@@ -53,6 +53,7 @@
   />
   <HomeList1
     :list="$tm('resources.caseStudies.logoIconList')"
+    :linkList="$tm('resources.caseStudies.logoIconlink')"
     :isHidenTile="true"
     class="caseStudies-HomeList1"
     bgColor="#fff"

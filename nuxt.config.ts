@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     vueI18n: './i18n.config.ts'
   },
 
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -23,8 +24,8 @@ export default defineNuxtConfig({
     importStyle: 'scss',
   },
 
-   // vueuse
-   vueuse: {
+  // vueuse
+  vueuse: {
     ssrHandlers: true,
   },
 
@@ -34,5 +35,12 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2024-07-09'
+  compatibilityDate: '2024-07-09',
+  nitro: {
+    output: {
+      publicDir: "./dist/public",
+      dir: "./dist",
+      serverDir: "./dist/server",
+    },
+  }
 });

@@ -1,5 +1,33 @@
 <script lang="ts" setup>
+const { t: $t, tm } = useI18n();
+const props = defineProps<{
+  title0?: string;
+  title1?: string;
+  subtitle?: string;
+  list?: Array<{
+    img: string;
+    name: string;
+  }>;
+}>();
+
+const localizedDefaults: any = computed(() => {
+  const obj = {
+    title0: $t('network.overview.title0'),
+    title1: $t('network.overview.title1'),
+    subtitle: $t('network.overview.title2'),
+    list: tm('network.overview.bennerTextList') as any
+  };
+  return mergeWithDefaults(obj, props);
+});
 const curTab = ref(0);
+const dotlist = computed(() => {
+  const arr: any = {
+    0: tm('bennermap.Standard') as any,
+    1: tm('bennermap.volume') as any,
+    2: tm('bennermap.Isp') as any
+  };
+  return arr[curTab.value];
+});
 </script>
 
 <template>
@@ -17,69 +45,45 @@ const curTab = ref(0);
       </div>
       <div class="content">
         <div class="title-0">
-          {{ $t('network.overview.title0') }}
+          {{ localizedDefaults.title0 }}
         </div>
         <div class="title-1">
-          {{ $t('network.overview.title1') }}
+          {{ localizedDefaults.title1 }}
         </div>
         <div class="title-2">
-          {{ $t('network.overview.title2') }}
+          {{ localizedDefaults.subtitle }}
         </div>
       </div>
       <div class="dots">
-        <div class="dot dot-blue"></div>
-        <div class="dot dot-cyanogen"></div>
+        <div
+          class="dot"
+          v-for="item in dotlist"
+          :style="item.popStyle"
+          :class="{
+            'dot-blue': item.label.style == 'rgb(254, 198, 62)',
+            'dot-cyanogen': item.label.style == 'rgb(255, 157, 100)',
+            'dot-green': item.label.style == 'rgb(241, 138, 217)',
+            'dot-yellow': item.label.style == 'rgb(242, 32, 136)',
+            'dot-orange': item.label.style == 'rgb(149, 251, 253)',
+            'dot-pink': item.label.style == 'rgb(132, 252, 187)'
+          }"
+        ></div>
+        <!-- <div class="dot dot-cyanogen"></div>
         <div class="dot dot-orange"></div>
         <div class="dot dot-green"></div>
         <div class="dot dot-yellow"></div>
-        <div class="dot dot-pink"></div>
+        <div class="dot dot-pink"></div> -->
       </div>
       <div class="legend-container">
-        <div class="legend-item">
-          <div class="icon icon-blue"></div>
+        <div
+          class="legend-item"
+          v-for="(item, index) in localizedDefaults.list"
+          :key="index"
+        >
+          <div class="icon" :class="[item.icon]"></div>
           <div class="text">
-            Europe
-            <span class="count">(35)</span>
-          </div>
-        </div>
-
-        <div class="legend-item">
-          <div class="icon icon-cyanogen"></div>
-          <div class="text">
-            Europe
-            <span class="count">(35)</span>
-          </div>
-        </div>
-
-        <div class="legend-item">
-          <div class="icon icon-orange"></div>
-          <div class="text">
-            Europe
-            <span class="count">(35)</span>
-          </div>
-        </div>
-
-        <div class="legend-item">
-          <div class="icon icon-green"></div>
-          <div class="text">
-            Europe
-            <span class="count">(35)</span>
-          </div>
-        </div>
-
-        <div class="legend-item">
-          <div class="icon icon-yellow"></div>
-          <div class="text">
-            Europe
-            <span class="count">(35)</span>
-          </div>
-        </div>
-
-        <div class="legend-item">
-          <div class="icon icon-pink"></div>
-          <div class="text">
-            Middle East & Africa
-            <span class="count">(35)</span>
+            {{ item.name }}
+            <span class="count">({{ item.num }})</span>
           </div>
         </div>
       </div>
@@ -150,14 +154,16 @@ const curTab = ref(0);
     }
 
     > .dots {
-      position: absolute;
-      left: 187px;
-      top: 277px;
-
+      position: relative;
+      top: 76px;
+      left: 168px;
+      width: 84%;
+      height: 56%;
       .dot {
         position: absolute;
         width: 26px;
         height: 26px;
+        color: rgb(242, 32, 136);
 
         &.dot-blue {
           background: url(/public/images/network/Network_Overview_banner_map_Europe.png)

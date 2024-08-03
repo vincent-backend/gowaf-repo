@@ -20,7 +20,7 @@
       },
       {
         label: $t('resources.breadCrumbs.caseStudies'),
-        href: '/resources/caseStudies',
+        href: '/resources/caseStudiesDetails',
         current: true
       },
       {
@@ -31,7 +31,6 @@
     ]"
   />
   <CommonHeader1
-    :pre-title="$t('resources.caseStudiesDetailsNzxt.header.preTitle')"
     :logo="$t('resources.caseStudiesDetailsNzxt.header.logo')"
     :logoWidth="$t('resources.caseStudiesDetailsNzxt.header.logoWidth')"
     :logoHeight="$t('resources.caseStudiesDetailsNzxt.header.logoHeight')"
