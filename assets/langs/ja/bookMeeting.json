@@ -1,23 +1,39 @@
 {
-	"form": {
-		"btn": "",
-		"companyName": "",
-		"companyNameLabel": "",
-		"email": "",
-		"emailLabel": "",
-		"firstName": "",
-		"firstNameLabel": "",
-		"meetupDate": "",
-		"meetWith": "",
-		"meetWithLabel": "",
-		"message": "",
-		"messageLable": "",
-		"phoneLabel": "",
-		"phoneNumber": ""
-	},
-	"form.btn": "",
-	"header": {
-		"content": "",
-		"title": ""
-	}
+  "form": {
+    "btn": "会議を予約する",
+    "companyName": "",
+    "companyNameLabel": "",
+    "email": "",
+    "emailLabel": "",
+    "firstName": "",
+    "firstNameLabel": "",
+    "meetupDate": "",
+    "meetWith": "",
+    "meetWithLabel": "",
+    "message": "",
+    "messageLable": "",
+    "phoneLabel": "",
+    "phoneNumber": "",
+    "__i18n_ally_root__": {
+      "btn": "",
+      "companyName": "",
+      "companyNameLabel": "",
+      "email": "",
+      "emailLabel": "",
+      "firstName": "",
+      "firstNameLabel": "",
+      "meetWith": "",
+      "meetWithLabel": "",
+      "meetupDate": "",
+      "message": "",
+      "messageLable": "",
+      "phoneLabel": "",
+      "phoneNumber": ""
+    }
+  },
+  "form.btn": "",
+  "header": {
+    "content": "あなたのプロジェクト、ニーズ、シンガポールのブロードキャスト・アジアでの空き状況についてお知らせください。当社の gowaf 専門家との 1 対 1 のミーティングを予定します。",
+    "title": "ブロードキャスト アジア 2024 での gowaf 専門家とのミーティングを予約してください!"
+  }
 }

@@ -1,116 +1,116 @@
 {
-	"alert": {
-		"btn": "",
-		"text": ""
-	},
-	"getStarted": "",
-	"login": "",
-	"menus": {
-		"network": "",
-		"pricing": "",
-		"products": "",
-		"resources": "",
-		"solutions": ""
-	},
-	"solutionsMenu": {
-		"byNeed": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"footer": {
-			"btn": "",
-			"title": ""
-		},
-		"solutions": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"videoAndStreaming": {
-			"items": [
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"title": ""
-		}
-	}
+  "alert": {
+    "btn": "会議を予約する",
+    "text": "Gowaf はシンガポールでブロードキャスト・アジアに参加します! \n- Gowaf であなたの将来の成功について考えてみましょう"
+  },
+  "getStarted": "始めましょう",
+  "login": "ログイン",
+  "menus": {
+    "network": "通信網",
+    "pricing": "価格設定",
+    "products": "製品",
+    "resources": "リソース",
+    "solutions": "ソリューション"
+  },
+  "solutionsMenu": {
+    "byNeed": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/home/Solutions_nav_ic_video.png",
+        "title": "ビデオとストリーミング"
+      },
+      "items[1]": {
+        "icon": "/images/home/Solutions_nav_ic_Storage.png",
+        "title": "保管と配送"
+      },
+      "items[2]": {
+        "icon": "/images/home/Solutions_nav_ic_Website.png",
+        "title": "ウェブサイトのパフォーマンス"
+      },
+      "items[3]": {
+        "icon": "/images/home/Solutions_nav_ic_Security.png",
+        "title": "セキュリティと保護"
+      },
+      "title": "必要に応じて"
+    },
+    "footer": {
+      "btn": "ゴワフのケーススタディ",
+      "title": "Gowaf が他の企業の次のレベルへの到達をどのように支援したかをご覧ください。"
+    },
+    "solutions": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/home/Solutions_nav_ic_need.png",
+        "title": "必要に応じて"
+      },
+      "items[1]": {
+        "icon": "/images/home/Solutions_nav_ic_Industry.png",
+        "title": "業界別"
+      },
+      "title": "ソリューション"
+    },
+    "videoAndStreaming": {
+      "items": [
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "subTitle": "最高の映像体験をお届けします。",
+        "title": "動画配信"
+      },
+      "items[1]": {
+        "subTitle": "ビデオを安全に保管してください。",
+        "title": "メディアケージ"
+      },
+      "items[2]": {
+        "subTitle": "ハリウッドグレードのビデオ保護。",
+        "title": "エンタープライズマルチ DRM"
+      },
+      "items[3]": {
+        "subTitle": "ワンクリックでキャプションを生成",
+        "title": "アルを転写する"
+      },
+      "title": "ビデオとストリーミング"
+    }
+  }
 }

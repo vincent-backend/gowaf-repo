@@ -1,116 +1,116 @@
 {
-	"alert": {
-		"btn": "",
-		"text": ""
-	},
-	"getStarted": "",
-	"login": "",
-	"menus": {
-		"network": "",
-		"pricing": "",
-		"products": "",
-		"resources": "",
-		"solutions": ""
-	},
-	"solutionsMenu": {
-		"byNeed": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"footer": {
-			"btn": "",
-			"title": ""
-		},
-		"solutions": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"videoAndStreaming": {
-			"items": [
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"title": ""
-		}
-	}
+  "alert": {
+    "btn": "Book a Meeting",
+    "text": "Gowaf are going to Broadcast Asia in Singapore! - Let's dive into your future success with Gowaf"
+  },
+  "getStarted": "Get Started",
+  "login": "Login",
+  "menus": {
+    "network": "Network",
+    "pricing": "Pricing",
+    "products": "Products",
+    "resources": "Resources",
+    "solutions": "Solutions"
+  },
+  "solutionsMenu": {
+    "byNeed": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/home/Solutions_nav_ic_video.png",
+        "title": "Video and Streaming"
+      },
+      "items[1]": {
+        "icon": "/images/home/Solutions_nav_ic_Storage.png",
+        "title": "Storage and Delivery"
+      },
+      "items[2]": {
+        "icon": "/images/home/Solutions_nav_ic_Website.png",
+        "title": "Website Performance"
+      },
+      "items[3]": {
+        "icon": "/images/home/Solutions_nav_ic_Security.png",
+        "title": "Security and Protection"
+      },
+      "title": "BY NEED"
+    },
+    "footer": {
+      "btn": "Gowaf case studies",
+      "title": "See how Gowaf helped other companies reach the next leve!."
+    },
+    "solutions": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/home/Solutions_nav_ic_need.png",
+        "title": "By Need"
+      },
+      "items[1]": {
+        "icon": "/images/home/Solutions_nav_ic_Industry.png",
+        "title": "By Industry"
+      },
+      "title": "SOLUTIONS"
+    },
+    "videoAndStreaming": {
+      "items": [
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "subTitle": "Deliver the best video exoerience.",
+        "title": "Video Delivery"
+      },
+      "items[1]": {
+        "subTitle": "Keep your videos secured and safe.",
+        "title": "Media Cage"
+      },
+      "items[2]": {
+        "subTitle": "Hollywood grade video protection.",
+        "title": "Enterprise Multi-DRM"
+      },
+      "items[3]": {
+        "subTitle": "Generate captions with a single click",
+        "title": "Transcribe Al"
+      },
+      "title": "VIDEO AND STREAMING"
+    }
+  }
 }

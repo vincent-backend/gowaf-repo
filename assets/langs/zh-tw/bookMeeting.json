@@ -1,23 +1,39 @@
 {
-	"form": {
-		"btn": "",
-		"companyName": "",
-		"companyNameLabel": "",
-		"email": "",
-		"emailLabel": "",
-		"firstName": "",
-		"firstNameLabel": "",
-		"meetupDate": "",
-		"meetWith": "",
-		"meetWithLabel": "",
-		"message": "",
-		"messageLable": "",
-		"phoneLabel": "",
-		"phoneNumber": ""
-	},
-	"form.btn": "",
-	"header": {
-		"content": "",
-		"title": ""
-	}
+  "form": {
+    "btn": "預訂會議",
+    "companyName": "",
+    "companyNameLabel": "",
+    "email": "",
+    "emailLabel": "",
+    "firstName": "",
+    "firstNameLabel": "",
+    "meetupDate": "",
+    "meetWith": "",
+    "meetWithLabel": "",
+    "message": "",
+    "messageLable": "",
+    "phoneLabel": "",
+    "phoneNumber": "",
+    "__i18n_ally_root__": {
+      "btn": "",
+      "companyName": "",
+      "companyNameLabel": "",
+      "email": "",
+      "emailLabel": "",
+      "firstName": "",
+      "firstNameLabel": "",
+      "meetWith": "",
+      "meetWithLabel": "",
+      "meetupDate": "",
+      "message": "",
+      "messageLable": "",
+      "phoneLabel": "",
+      "phoneNumber": ""
+    }
+  },
+  "form.btn": "",
+  "header": {
+    "content": "請告訴我們您的專案、需求以及在新加坡亞洲廣播電台的時間，我們將安排與我們的一位 gowaf 專家進行一對一的會議。",
+    "title": "在 2024 年亞洲廣播會議上預訂與 gowaf 專家的會面！"
+  }
 }

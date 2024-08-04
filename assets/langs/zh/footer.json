@@ -1,240 +1,240 @@
 {
-	"footer1": {
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"footer2": {
-		"copyright": "",
-		"hotlinks": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"hotlinks[0]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[1]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[2]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[3]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[4]": {
-			"label": "",
-			"link": ""
-		},
-		"links": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"links[0]": {
-			"label": "",
-			"link": ""
-		},
-		"links[1]": {
-			"label": "",
-			"link": ""
-		},
-		"links[2]": {
-			"label": "",
-			"link": ""
-		},
-		"links[3]": {
-			"label": ""
-		},
-		"links[4]": {
-			"label": ""
-		},
-		"section1Content": "",
-		"section1Title": "",
-		"section2Content": "",
-		"section2Title": "",
-		"section3": "",
-		"shortcuts": [
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			}
-		],
-		"shortcuts[0]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"href": "",
-				"label": ""
-			},
-			"items[4]": {
-				"href": "",
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[1]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[2]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		}
-	}
+  "footer1": {
+    "btn": "开启免费体验",
+    "content": "增强您的 Web 应用程序并在竞争中领先。",
+    "hint": "无需信用卡 - 2 分钟内即可完成注册。",
+    "title": "开始 14 天免费试用"
+  },
+  "footer2": {
+    "copyright": "2024 版权所有 © Gowaf Way d.o.o.",
+    "hotlinks": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "hotlinks[0]": {
+      "label": "关于我们",
+      "link": "/资源/关于"
+    },
+    "hotlinks[1]": {
+      "label": "高瓦夫博客",
+      "link": "/资源/博客"
+    },
+    "hotlinks[2]": {
+      "label": "高瓦夫职业生涯",
+      "link": "/资源/职业"
+    },
+    "hotlinks[3]": {
+      "label": "实例探究",
+      "link": "/资源/案例研究详细信息"
+    },
+    "hotlinks[4]": {
+      "label": "联盟计划",
+      "link": "/联盟计划"
+    },
+    "links": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "links[0]": {
+      "label": "服务条款",
+      "link": ""
+    },
+    "links[1]": {
+      "label": "可接受的使用",
+      "link": ""
+    },
+    "links[2]": {
+      "label": "通用数据保护条例",
+      "link": ""
+    },
+    "links[3]": {
+      "label": "隐私"
+    },
+    "links[4]": {
+      "label": "报告滥用"
+    },
+    "section1Content": "从事一个大项目？  \n让我们的专家帮助您。",
+    "section1Title": "客流量大？\n与销售人员交谈",
+    "section2Content": "在社交媒体上关注我们，了解特别促销活动和重要新闻。",
+    "section2Title": "了解 Gowaf 的最新动态",
+    "section3": "让互联网跳得更快！",
+    "shortcuts": [
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      }
+    ],
+    "shortcuts[0]": {
+      "items[0]": {
+        "href": "/产品/CDN/概述",
+        "label": "高瓦夫CDN"
+      },
+      "items[1]": {
+        "href": "/产品/优化器/概述",
+        "label": "高瓦夫优化器"
+      },
+      "items[2]": {
+        "href": "/产品/存储/亚洲",
+        "label": "高瓦夫存储"
+      },
+      "items[3]": {
+        "href": "/产品/流/概述",
+        "label": "戈瓦夫溪"
+      },
+      "items[4]": {
+        "href": "/产品/CDN/概述",
+        "label": "戈瓦夫域名系统"
+      },
+      "title": "产品"
+    },
+    "shortcuts[1]": {
+      "items[0]": {
+        "href": "/网络/概述",
+        "label": "网络地图"
+      },
+      "items[1]": {
+        "href": "/产品/CDN/功能",
+        "label": "高瓦夫特点"
+      },
+      "items[2]": {
+        "href": "/网络/工具",
+        "label": "网络工具"
+      },
+      "items[3]": {
+        "label": "开发者中心"
+      },
+      "items[4]": {
+        "label": "API文档"
+      },
+      "title": "开发商"
+    },
+    "shortcuts[2]": {
+      "items[0]": {
+        "href": "/SLA",
+        "label": "SLA"
+      },
+      "items[1]": {
+        "href": "/支持HUB",
+        "label": "支持集线器"
+      },
+      "items[2]": {
+        "href": "/预订会议",
+        "label": "超级兔子™"
+      },
+      "items[3]": {
+        "label": "服务状态"
+      },
+      "items[4]": {
+        "label": "✉hello@bunny.net"
+      },
+      "title": "支持"
+    }
+  }
 }

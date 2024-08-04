@@ -1,1997 +1,1997 @@
 {
-	"breadCrumbs": {
-		"ddosProtection": "DDoS Protection",
-		"DiagnosticReport": "Diagnostic Report",
-		"DNSLookur": "DNS Lookur",
-		"HTTPTest": "HTTP Test",
-		"LatencyTest": "Latency Test",
-		"OtherTools": "Other Tools",
-		"overview": "",
-		"parent": "",
-		"smartEdge": "",
-		"Traceroute": "",
-		"WebTools": ""
-	},
-	"ddos": {
-		"alwaysSafe": {
-			"rows": [
-				[
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					},
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					}
-				],
-				[
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					},
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					}
-				]
-			],
-			"rows[0][0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rows[0][1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rows[1][0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rows[1][1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"doNotLeave": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[1]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"protectAtEdge": {
-			"items": [
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"items[0]": "",
-			"items[1]": "",
-			"items[2]": "",
-			"items[3]": "",
-			"items[4]": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"stayProtectAlways": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"overview": {
-		"bennerTextList": [
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			}
-		],
-		"bennerTextList[0]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[1]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[2]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[3]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[4]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[5]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"flags": {
-			"groups": [
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				}
-			],
-			"groups[0]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"items[16]": {
-					"img": "",
-					"label": ""
-				},
-				"items[17]": {
-					"img": "",
-					"label": ""
-				},
-				"items[18]": {
-					"img": "",
-					"label": ""
-				},
-				"items[19]": {
-					"img": "",
-					"label": ""
-				},
-				"items[20]": {
-					"img": "",
-					"label": ""
-				},
-				"items[21]": {
-					"img": "",
-					"label": ""
-				},
-				"items[22]": {
-					"img": "",
-					"label": ""
-				},
-				"items[23]": {
-					"img": "",
-					"label": ""
-				},
-				"items[24]": {
-					"img": "",
-					"label": ""
-				},
-				"items[25]": {
-					"img": "",
-					"label": ""
-				},
-				"items[26]": {
-					"img": "",
-					"label": ""
-				},
-				"items[27]": {
-					"img": "",
-					"label": ""
-				},
-				"items[28]": {
-					"img": "",
-					"label": ""
-				},
-				"items[29]": {
-					"img": "",
-					"label": ""
-				},
-				"items[30]": {
-					"img": "",
-					"label": ""
-				},
-				"items[31]": {
-					"img": "",
-					"label": ""
-				},
-				"items[32]": {
-					"img": "",
-					"label": ""
-				},
-				"items[33]": {
-					"img": "",
-					"label": ""
-				},
-				"items[34]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[1]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[2]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[3]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"items[16]": {
-					"img": "",
-					"label": ""
-				},
-				"items[17]": {
-					"img": "",
-					"label": ""
-				},
-				"items[18]": {
-					"img": "",
-					"label": ""
-				},
-				"items[19]": {
-					"img": "",
-					"label": ""
-				},
-				"items[20]": {
-					"img": "",
-					"label": ""
-				},
-				"items[21]": {
-					"img": "",
-					"label": ""
-				},
-				"items[22]": {
-					"img": "",
-					"label": ""
-				},
-				"items[23]": {
-					"img": "",
-					"label": ""
-				},
-				"items[24]": {
-					"img": "",
-					"label": ""
-				},
-				"items[25]": {
-					"img": "",
-					"label": ""
-				},
-				"items[26]": {
-					"img": "",
-					"label": ""
-				},
-				"items[27]": {
-					"img": "",
-					"label": ""
-				},
-				"items[28]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[4]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"items[16]": {
-					"img": "",
-					"label": ""
-				},
-				"items[17]": {
-					"img": "",
-					"label": ""
-				},
-				"items[18]": {
-					"img": "",
-					"label": ""
-				},
-				"items[19]": {
-					"img": "",
-					"label": ""
-				},
-				"items[20]": {
-					"img": "",
-					"label": ""
-				},
-				"items[21]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[5]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"goFaster": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[1]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[3]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[4]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[5]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"hop": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"ranks": [
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				}
-			],
-			"ranks[0]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[1]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[2]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[3]": {
-				"icon": "",
-				"score": ""
-			},
-			"subTitle": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"subTitle[0]": "",
-			"subTitle[1]": "",
-			"subTitle[2]": "",
-			"subTitle[3]": "",
-			"subTitle[4]": "",
-			"subTitle[5]": "",
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"tabs": [
-			"",
-			"",
-			""
-		],
-		"tabs[0]": "",
-		"tabs[1]": "",
-		"tabs[2]": "",
-		"title0": "",
-		"title1": "",
-		"title2": ""
-	},
-	"smartEdge": {
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"maxPerformance": {
-			"content": "",
-			"numberHint1": "",
-			"numberHint2": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"onProblem": {
-			"content": "",
-			"title": ""
-		},
-		"yourNeeds": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"mIcon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"mIcon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"mIcon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"mIcon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"mIcon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"mIcon": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"WebTools": {
-		"bennerSubTitle": "",
-		"bennerTitle": "",
-		"DiagnosticReport": {
-			"btn": "",
-			"neverHit": {
-				"items": [
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					}
-				],
-				"items[0]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[1]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[2]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[3]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"DNSLookur": {
-			"subtitle": "",
-			"title": ""
-		},
-		"neverHit": {
-			"items": [
-				{
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			],
-			"items[0]": {
-				"alignType": "",
-				"btn": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"items[1]": {
-				"alignType": "",
-				"btn": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"items[2]": {
-				"alignType": "",
-				"btn": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"OtherTools": {
-			"neverHit": {
-				"items": [
-					{
-						"alignType": "",
-						"btn": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"btn": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					}
-				],
-				"items[0]": {
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[1]": {
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"Traceroute": {
-			"article1": [
-				{
-					"content": [
-						""
-					],
-					"title": ""
-				},
-				{
-					"content": [
-						"",
-						""
-					],
-					"title": ""
-				}
-			],
-			"article1[0]": {
-				"content[0]": "",
-				"title": ""
-			},
-			"article1[1]": {
-				"content[0]": "",
-				"content[1]": "",
-				"title": ""
-			},
-			"article2": [
-				{
-					"content": [
-						""
-					],
-					"title": ""
-				},
-				{
-					"content": [
-						"",
-						""
-					],
-					"title": ""
-				}
-			],
-			"article2[0]": {
-				"content[0]": "",
-				"title": ""
-			},
-			"article2[1]": {
-				"content[0]": "",
-				"content[1]": "",
-				"title": ""
-			},
-			"Average": "",
-			"Best": "",
-			"Host": "",
-			"PacketLoss": "",
-			"title": "",
-			"Worst": ""
-		}
-	}
+  "breadCrumbs": {
+    "ddosProtection": "DDoS Protection",
+    "DiagnosticReport": "Diagnostic Report",
+    "DNSLookur": "DNS Lookur",
+    "HTTPTest": "HTTP Test",
+    "LatencyTest": "Latency Test",
+    "OtherTools": "Other Tools",
+    "overview": "개요",
+    "parent": "회로망",
+    "smartEdge": "스마트엣지™",
+    "Traceroute": "경로 추적",
+    "WebTools": "웹 도구"
+  },
+  "ddos": {
+    "alwaysSafe": {
+      "rows": [
+        [
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          },
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          }
+        ],
+        [
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          },
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          }
+        ]
+      ],
+      "rows[0][0]": {
+        "content": "시스템은 비정상적인 트래픽 패턴을 지속적으로 모니터링하고 감지합니다.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Detection@2x.png",
+        "title": "발각"
+      },
+      "rows[0][1]": {
+        "content": "전용 DoS 필터링 하드웨어 및 소프트웨어가 악성 트래픽을 차단합니다.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Filtering@2x.png",
+        "title": "필터링"
+      },
+      "rows[1][0]": {
+        "content": "라우팅은 트래픽을 흡수하기 위해 데이터 센터 전반에 걸쳐 최적화되고 안내됩니다.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Routing@2x.png",
+        "title": "라우팅"
+      },
+      "rows[1][1]": {
+        "content": "향후 완화 및 보안을 개선하기 위해 공격 로그를 분석합니다.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Post@2x.png",
+        "title": "사후분석"
+      },
+      "subTitle": "10초 이내에 공격을 탐지하고 방지하는 Gowaf DDoS 완화 시스템으로 보호를 받으세요.",
+      "title": "항상 안전합니다. \n항상 켜져 있습니다."
+    },
+    "doNotLeave": {
+      "subTitle": "연중무휴 24시간 보호를 받으며 다시는 다운되지 않습니다.",
+      "tabs": [
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "content": "150Tbps 네트워크 백본을 이용하면 다시 다운될 염려가 없습니다. \n당사의 글로벌 네트워크는 모든 규모의 공격을 흡수하고 공격이 귀하의 서버에 도달하기 전에 차단할 수 있습니다. \n우리는 귀하가 온라인 상태를 유지하도록 보장하는 동안 보호를 받고 귀하가 가장 잘하는 일에 집중할 수 있습니다.",
+        "icon": "/images/network/ddos/Network_DDoS_banner_graph_3@2x.png",
+        "iconHeight": "288px",
+        "iconWidth": "384px",
+        "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_3@2x.png",
+        "mIconHeight": "18렘",
+        "mIconWidth": "24렘",
+        "tab": "150Tbps 네트워크",
+        "title": "100% 가동 시간을 위한 대규모 네트워크 백본"
+      },
+      "tabs[1]": {
+        "content": "자동 실시간 모니터링 및 경고 시스템 덕분에 다시는 위협에 대해 걱정하지 마세요. \n보안에 대한 완전한 가시성을 확보하여 안전을 유지하고 공격자가 서버에 접근하는 것을 차단하세요. \n치료가 필요하지 않도록 탐지를 도와드립니다.",
+        "icon": "/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+        "iconHeight": "294px",
+        "iconWidth": "294px",
+        "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+        "mIconHeight": "18시 38분",
+        "mIconWidth": "18시 38분",
+        "tab": "백만 실시간 모니터링",
+        "title": "실시간 위협 모니터링으로 더욱 원활하게 작업하세요"
+      },
+      "tabs[2]": {
+        "content": "기계 학습과 실시간 차단 목록을 기반으로 하는 스마트 엣지 업로드 필터링으로 부적절한 업로드를 차단하여 인터넷을 더욱 친화적으로 유지하세요. \n우리는 사용자의 악의적이고 모욕적이며 부적절한 업로드를 제어할 수 있도록 지원하므로 해당 업로드를 제거하는 데 시간을 낭비할 필요가 없습니다.",
+        "icon": "/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+        "iconHeight": "279px",
+        "iconWidth": "334px",
+        "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+        "mIconHeight": "17시 44분",
+        "mIconWidth": "20.88rem",
+        "tab": "업로드 보호",
+        "title": "부적절한 콘텐츠를 중지하고 인터넷을 안전하게 보호하세요."
+      },
+      "title": "가동 시간을 운에 맡기지 마십시오"
+    },
+    "header": {
+      "btn": "14일 무료 평가판 시작",
+      "content": "DDoS 공격으로부터 웹사이트를 보호하세요. \n완벽한 가동 시간을 보장하고 다시는 다운되지 않습니다. \n귀하가 제품에 집중할 수 있도록 DDoS 보호를 관리합니다!",
+      "hint": "신용 카드가 필요하지 않습니다. \n몇 초 만에 시작하세요.",
+      "preTitle": "DDoS 보호",
+      "title": "표준으로 DDoS 보호"
+    },
+    "join1": {
+      "person": {
+        "content": "\"Gowaf는 사용하기 쉽고, 경쟁력 있는 가격과 탁월한 가격 대비 가치를 제공합니다. 기술은 매우 효율적이며 매달 새로운 기능이 도입됩니다. 고객 중심이면서 고객에게 다양한 성장 기회를 제공합니다.\"",
+        "name": "페리클리스",
+        "title": "VitrinaBox, 수석 소프트웨어 엔지니어"
+      },
+      "title": "이미 Gowaf를 신뢰하고 있는 40,000명 이상의 고객과 함께 하세요"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "네트워크 백본",
+      "label": "150Tbps"
+    },
+    "numbers[1]": {
+      "content": "초당 요청",
+      "label": "650.000"
+    },
+    "numbers[2]": {
+      "content": "글로벌 PoP",
+      "label": "123"
+    },
+    "numbers[3]": {
+      "content": "만족한 고객",
+      "label": "40.000"
+    },
+    "protectAtEdge": {
+      "items": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "items[0]": "UDP 플러드",
+      "items[1]": "ICMP 홍수",
+      "items[2]": "NTP 증폭",
+      "items[3]": "DNS 증폭",
+      "items[4]": "SYN 홍수",
+      "subTitle": "Edge AI 덕분에 공격이 서버에 도달하기 전에 완화하여 항상 보호를 받을 수 있습니다.",
+      "title": "네트워크 에지에서의 DDoS 보호"
+    },
+    "stayProtectAlways": {
+      "btn": "14일 무료 평가판 시작",
+      "subTitle": "귀하의 제품에 집중하시고 귀하의 보안은 저희에게 맡기십시오.",
+      "title": "보호를 받으세요. \n언제나!"
+    }
+  },
+  "overview": {
+    "bennerTextList": [
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      }
+    ],
+    "bennerTextList[0]": {
+      "icon": "아이콘-파란색",
+      "name": "유럽",
+      "num": "35"
+    },
+    "bennerTextList[1]": {
+      "icon": "아이콘-시아노겐",
+      "name": "라틴 아메리카",
+      "num": "16"
+    },
+    "bennerTextList[2]": {
+      "icon": "아이콘-주황색",
+      "name": "오세아니아",
+      "num": "7"
+    },
+    "bennerTextList[3]": {
+      "icon": "아이콘-녹색",
+      "name": "아시아",
+      "num": "29"
+    },
+    "bennerTextList[4]": {
+      "icon": "아이콘-노란색",
+      "name": "북아메리카",
+      "num": "22"
+    },
+    "bennerTextList[5]": {
+      "icon": "아이콘 핑크",
+      "name": "중동",
+      "num": "12"
+    },
+    "flags": {
+      "groups": [
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        }
+      ],
+      "groups[0]": {
+        "icon": "Network_Overview_banner_node_Europe",
+        "items[0]": {
+          "img": "Network_Overview_Europe_ch",
+          "label": "취리히"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Europe_nl",
+          "label": "암스테르담"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Europe_gr",
+          "label": "아테네"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Europe_rs",
+          "label": "베오그라드"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Europe_de",
+          "label": "베를린"
+        },
+        "items[5]": {
+          "img": "네트워크_개요_유럽_BEL",
+          "label": "브뤼셀"
+        },
+        "items[6]": {
+          "img": "네트워크_개요_유럽_hu",
+          "label": "부다페스트"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Europe_ro",
+          "label": "부카레스트"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Europe_md",
+          "label": "키시나우"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Europe_dk",
+          "label": "코펜하겐"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Europe_ie",
+          "label": "더블린"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Europe_de",
+          "label": "프랑크푸르트"
+        },
+        "items[12]": {
+          "img": "Network_Overview_Europe_de",
+          "label": "프랑크푸르트 2"
+        },
+        "items[13]": {
+          "img": "Network_Overview_Europe_fi",
+          "label": "헬싱키"
+        },
+        "items[14]": {
+          "img": "Network_Overview_Europe_is",
+          "label": "케플라비크"
+        },
+        "items[15]": {
+          "img": "Network_Overview_Europe_ua",
+          "label": "키이우"
+        },
+        "items[16]": {
+          "img": "Network_Overview_Europe_pt",
+          "label": "리스본"
+        },
+        "items[17]": {
+          "img": "Network_Overview_Europe_si",
+          "label": "류블랴나"
+        },
+        "items[18]": {
+          "img": "Network_Overview_Europe_gb",
+          "label": "런던"
+        },
+        "items[19]": {
+          "img": "네트워크_개요_유럽_lu",
+          "label": "룩셈부르크"
+        },
+        "items[20]": {
+          "img": "Network_Overview_Europe_es",
+          "label": "마드리드"
+        },
+        "items[21]": {
+          "img": "네트워크_개요_유럽_fr",
+          "label": "마르세유"
+        },
+        "items[22]": {
+          "img": "네트워크_개요_유럽_fr",
+          "label": "밀라노"
+        },
+        "items[23]": {
+          "img": "Network_Overview_Europe_ru",
+          "label": "모스크바"
+        },
+        "items[24]": {
+          "img": "Network_Overview_Europe_ba",
+          "label": "노비 트라브닉"
+        },
+        "items[25]": {
+          "img": "Network_Overview_Europe_no",
+          "label": "오슬로"
+        },
+        "items[26]": {
+          "img": "네트워크_개요_유럽_fr",
+          "label": "파리"
+        },
+        "items[27]": {
+          "img": "Network_Overview_Europe_cz",
+          "label": "프라하"
+        },
+        "items[28]": {
+          "img": "Network_Overview_Europe_lv",
+          "label": "리가"
+        },
+        "items[29]": {
+          "img": "Network_Overview_Europe_bg",
+          "label": "소피아"
+        },
+        "items[30]": {
+          "img": "Network_Overview_Europe_se",
+          "label": "스톡홀름"
+        },
+        "items[31]": {
+          "img": "Network_Overview_Europe_at",
+          "label": "비엔나"
+        },
+        "items[32]": {
+          "img": "Network_Overview_Europe_lt",
+          "label": "빌니우스"
+        },
+        "items[33]": {
+          "img": "Network_Overview_Europe_pl",
+          "label": "바르샤바"
+        },
+        "items[34]": {
+          "img": "Network_Overview_Europe_hr",
+          "label": "자그레브"
+        },
+        "region": "유럽 ​​(35)"
+      },
+      "groups[1]": {
+        "icon": "Network_Overview_banner_node_LATAM",
+        "items[0]": {
+          "img": "Network_Overview_Latam_co",
+          "label": "보고타"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Latam_ar",
+          "label": "부에노스 아이레스"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "쿠리티바"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "포르탈레자"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Latam_gt",
+          "label": "과테말라"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Latam_bo",
+          "label": "라파스"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Latam_pe",
+          "label": "리마"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Latam_mx",
+          "label": "멕시코 시티"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "포르투알레그레"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "리오 데 자네이로"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "살바도르"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Latam_pr",
+          "label": "산후안"
+        },
+        "items[12]": {
+          "img": "Network_Overview_Latam_cr",
+          "label": "산페드로"
+        },
+        "items[13]": {
+          "img": "Network_Overview_Latam_cl",
+          "label": "산티아고"
+        },
+        "items[14]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "상파울루"
+        },
+        "items[15]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "상파울루 2"
+        },
+        "region": "라틴 아메리카 (16)"
+      },
+      "groups[2]": {
+        "icon": "Network_Overview_banner_node_Oceania",
+        "items[0]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "애들레이드"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "오클랜드"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "브리즈번"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Oceania_us",
+          "label": "하갓냐"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "멜버른"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "퍼스"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "시드니"
+        },
+        "region": "오세아니아 (7)"
+      },
+      "groups[3]": {
+        "icon": "Network_Overview_banner_node_Asia",
+        "items[0]": {
+          "img": "Network_Overview_Aaia_kz",
+          "label": "알마티알마티"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Aaia_az",
+          "label": "바쿠"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Aaia_th",
+          "label": "방콕"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "방갈로르"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "첸나이"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Aaia_bd",
+          "label": "다카다카"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Aaia_hk",
+          "label": "홍콩"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Aaia_vn",
+          "label": "호치민"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Aaia_tr",
+          "label": "이스탄불"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Aaia_id",
+          "label": "자카르타"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Aaia_pk",
+          "label": "카라치"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Aaia_np",
+          "label": "카트만두"
+        },
+        "items[12]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "콜카타"
+        },
+        "items[13]": {
+          "img": "Network_Overview_Aaia_my",
+          "label": "쿠알라 룸푸르"
+        },
+        "items[14]": {
+          "img": "Network_Overview_Aaia_ph",
+          "label": "마닐라"
+        },
+        "items[15]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "뭄바이"
+        },
+        "items[16]": {
+          "img": "Network_Overview_Aaia_cy",
+          "label": "니코시아"
+        },
+        "items[17]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "뉴 델리"
+        },
+        "items[18]": {
+          "img": "Network_Overview_Aaia_jp",
+          "label": "오사카"
+        },
+        "items[19]": {
+          "img": "Network_Overview_Aaia_kh",
+          "label": "프놈펜"
+        },
+        "items[20]": {
+          "img": "네트워크_개요_Aaia_kr",
+          "label": "서울"
+        },
+        "items[21]": {
+          "img": "Network_Overview_Aaia_sg",
+          "label": "싱가포르 V"
+        },
+        "items[22]": {
+          "img": "Network_Overview_Aaia_sg",
+          "label": "싱가포르 2"
+        },
+        "items[23]": {
+          "img": "Network_Overview_Aaia_tw",
+          "label": "타이페이"
+        },
+        "items[24]": {
+          "img": "Network_Overview_Aaia_ge",
+          "label": "트빌리시"
+        },
+        "items[25]": {
+          "img": "Network_Overview_Aaia_jp",
+          "label": "도쿄"
+        },
+        "items[26]": {
+          "img": "Network_Overview_Aaia_mn",
+          "label": "울란바토르"
+        },
+        "items[27]": {
+          "img": "Network_Overview_Aaia_mm",
+          "label": "양곤"
+        },
+        "items[28]": {
+          "img": "Network_Overview_Aaia_am",
+          "label": "예레반"
+        },
+        "region": "아시아 (29)"
+      },
+      "groups[4]": {
+        "icon": "Network_Overview_banner_node_North",
+        "items[0]": {
+          "img": "Network_Overview_North_us",
+          "label": "애쉬번"
+        },
+        "items[1]": {
+          "img": "Network_Overview_North_us",
+          "label": "애틀랜타"
+        },
+        "items[2]": {
+          "img": "Network_Overview_North_us",
+          "label": "보스턴"
+        },
+        "items[3]": {
+          "img": "Network_Overview_North_us",
+          "label": "샬럿"
+        },
+        "items[4]": {
+          "img": "Network_Overview_North_us",
+          "label": "시카고"
+        },
+        "items[5]": {
+          "img": "Network_Overview_North_us",
+          "label": "달라스"
+        },
+        "items[6]": {
+          "img": "Network_Overview_North_us",
+          "label": "덴버"
+        },
+        "items[7]": {
+          "img": "Network_Overview_North_us",
+          "label": "호놀룰루"
+        },
+        "items[8]": {
+          "img": "Network_Overview_North_us",
+          "label": "휴스턴"
+        },
+        "items[9]": {
+          "img": "Network_Overview_North_us",
+          "label": "캔자스시"
+        },
+        "items[10]": {
+          "img": "Network_Overview_North_us",
+          "label": "로스 앤젤레스"
+        },
+        "items[11]": {
+          "img": "Network_Overview_North_us",
+          "label": "마이애미"
+        },
+        "items[12]": {
+          "img": "Network_Overview_North_us",
+          "label": "미니애폴리스"
+        },
+        "items[13]": {
+          "img": "Network_Overview_North_ca",
+          "label": "몬트리올"
+        },
+        "items[14]": {
+          "img": "Network_Overview_North_us",
+          "label": "뉴욕"
+        },
+        "items[15]": {
+          "img": "Network_Overview_North_us",
+          "label": "오그덴"
+        },
+        "items[16]": {
+          "img": "Network_Overview_North_us",
+          "label": "불사조"
+        },
+        "items[17]": {
+          "img": "Network_Overview_North_us",
+          "label": "피츠버그"
+        },
+        "items[18]": {
+          "img": "Network_Overview_North_us",
+          "label": "산호세"
+        },
+        "items[19]": {
+          "img": "Network_Overview_North_us",
+          "label": "시애틀"
+        },
+        "items[20]": {
+          "img": "Network_Overview_North_ca",
+          "label": "토론토"
+        },
+        "items[21]": {
+          "img": "Network_Overview_North_ca",
+          "label": "밴쿠버"
+        },
+        "region": "북미 (22)"
+      },
+      "groups[5]": {
+        "icon": "Network_Overview_banner_node_Middle",
+        "items[0]": {
+          "img": "Network_Overview_Middle_eg",
+          "label": "카이로"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Middle_eg",
+          "label": "카이로 2"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Middle_za",
+          "label": "케이프 타운"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Middle_iq",
+          "label": "바그다드"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Middle_iq",
+          "label": "바그다드 2"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Middle_bh",
+          "label": "바레인"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Middle_ae",
+          "label": "두바이"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Middle_ae",
+          "label": "푸자이라"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Middle_za",
+          "label": "요하네스버그"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Middle_ng",
+          "label": "라고스"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Middle_ao",
+          "label": "루안다"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Middle_sa",
+          "label": "리야드"
+        },
+        "region": "중동"
+      },
+      "subTitle": "6개 대륙, 77개국에 걸친 글로벌 네트워크를 경험해보세요.",
+      "title": "귀하의 사용자는 단 한 걸음 떨어져 있습니다"
+    },
+    "goFaster": {
+      "subTitle": "Tier 1 대중교통 공급자가 엄격하게 지원하는 네트워크와 3000개 이상의 ISP에 직접 액세스하여 대기 시간을 최소화하고 복원력을 높입니다.",
+      "tabs": [
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "btn": "더 알아보기",
+        "content": "타세요",
+        "icon": "/images/network/Network_Overview_nation_Europe@2x.png",
+        "iconHeight": "310px",
+        "iconWidth": "374px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Europe@2x.png",
+        "mIconHeight": "19시 38분",
+        "mIconWidth": "23시 38분",
+        "tab": "유럽",
+        "title": "CDN 유럽"
+      },
+      "tabs[1]": {
+        "btn": "더 알아보기",
+        "content": "세계 최대 규모의 경제에 완벽한 성능을 제공합니다. \n미국의 주요 도시를 통해 전략적으로 배치된 22개의 PoP와 Comcast와 같은 주요 ISP에 대한 직접 연결을 통해 27ms 이내에 대부분의 인터넷 사용자에게 연결할 수 있습니다.",
+        "icon": "/images/network/Network_Overview_nation_North_America@2x.png",
+        "iconHeight": "268px",
+        "iconWidth": "320px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_North_America@2x.png",
+        "mIconHeight": "16.75rem",
+        "mIconWidth": "20렘",
+        "tab": "북아메리카",
+        "title": "CDN 북미"
+      },
+      "tabs[2]": {
+        "btn": "더 알아보기",
+        "content": "해당 지역에서 가장 빠른 네트워크를 통해 남미 및 라틴 아메리카 전역에서 최대 성능을 제공합니다. \n대부분의 주요 ISP에 직접 연결하여 LATAM 전역의 방문자로부터 콘텐츠를 단 한 걸음 떨어진 곳으로 가져오세요.",
+        "icon": "/images/network/Network_Overview_nation_Latin_America@2x.png",
+        "iconHeight": "316px",
+        "iconWidth": "272px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Latin_America@2x.png",
+        "mIconHeight": "19.75rem",
+        "mIconWidth": "17렘",
+        "tab": "라틴 아메리카",
+        "title": "CDN 라틴 아메리카"
+      },
+      "tabs[3]": {
+        "btn": "더 알아보기",
+        "content": "아시아 전역의 직접적인 로컬 연결을 통해 사용자에게 다가가세요. \nGowaf는 전략적 현지 파트너십을 통해 신흥 시장을 포함하여 해당 지역에서 비교할 수 없는 성과를 제공하기 위해 모든 주요 센터에 위치하고 있습니다.",
+        "icon": "/images/network/Network_Overview_nation_Asia@2x.png",
+        "iconHeight": "272px",
+        "iconWidth": "330px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Asia@2x.png",
+        "mIconHeight": "17렘",
+        "mIconWidth": "20.63rem",
+        "tab": "아시아",
+        "title": "CDN 아시아"
+      },
+      "tabs[4]": {
+        "btn": "더 알아보기",
+        "content": "로컬로 구축되고 최적화된 애니캐스트 네트워크를 통해 오세아니아 전역의 각 사용자를 밀리초 단위로 연결합니다. \n호주와 뉴질랜드의 6개 주요 도시에 위치한 Gowaf는 모든 요청에 ​​대해 탁월한 성능을 제공하도록 돕습니다.",
+        "icon": "/images/network/Network_Overview_nation_Australia@2x.png",
+        "iconHeight": "241px",
+        "iconWidth": "330px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Australia@2x.png",
+        "mIconHeight": "15렘",
+        "mIconWidth": "20.63rem",
+        "tab": "호주",
+        "title": "CDN 호주"
+      },
+      "tabs[5]": {
+        "btn": "더 알아보기",
+        "content": "Gowaf는 전 세계적으로 일관된 경험을 제공하도록 도와줍니다. \n여러 아프리카 국가의 로컬 연결을 통해 고객이 케냐 또는 케이프타운 출신인지에 관계없이 고객이 콘텐츠에 더 빠르게 접근할 수 있도록 돕습니다.",
+        "icon": "/images/network/Network_Overview_nation_Middle_East@2x.png",
+        "iconHeight": "242px",
+        "iconWidth": "338px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Middle_East@2x.png",
+        "mIconHeight": "15시 13분",
+        "mIconWidth": "21시 13분",
+        "tab": "중동",
+        "title": "CDN 아프리카"
+      },
+      "title": "전 세계적으로, 그리고 지역적으로 더 빠르게 진행하세요"
+    },
+    "hop": {
+      "btn": "14일 무료 평가판 시작",
+      "subTitle": "몇 초 만에 시작하세요. \n신용 카드가 필요하지 않습니다. \n언제든지 취소하세요.",
+      "title": "가장 빠른 글로벌 CDN 네트워크에 참여하세요"
+    },
+    "join1": {
+      "person": {
+        "content": "“Gowaf와 함께 일하는 것은 신선한 공기였습니다. \n그들의 팀은 도움이 되고, 반응이 빠르고, 지식이 풍부합니다. \n서비스는 모든 단계에서 우리의 기대를 뛰어넘었습니다.”",
+        "name": "톰 메이슨",
+        "title": "넥서스 모드"
+      },
+      "ranks": [
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        }
+      ],
+      "ranks[0]": {
+        "icon": "Network_Overview_mark_logo_1",
+        "score": "4.8"
+      },
+      "ranks[1]": {
+        "icon": "Network_Overview_mark_logo_2",
+        "score": "4.4"
+      },
+      "ranks[2]": {
+        "icon": "Network_Overview_mark_logo_3",
+        "score": "4.8"
+      },
+      "ranks[3]": {
+        "icon": "Network_Overview_mark_logo_4",
+        "score": "4.8"
+      },
+      "subTitle": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "subTitle[0]": "우리는 평가받습니다",
+      "subTitle[1]": "",
+      "subTitle[2]": "우수함 4.8",
+      "subTitle[3]": "5개 중",
+      "subTitle[4]": "신뢰 조종사",
+      "subTitle[5]": "- 600개의 리뷰를 바탕으로 함",
+      "title": "40,000명 이상의 글로벌 고객과 함께하세요"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "최상위 데이터 센터에서 엄선된 제공업체가 제공하는 네트워크를 이용하세요.",
+        "icon": "/images/network/Network_DDoS_card_ic_1.png",
+        "title": "계층 1 네트워크 파트너"
+      },
+      "items[1]": {
+        "content": "대규모 150Tbps 글로벌 네트워크 백본을 활용하여 쉽게 확장할 수 있습니다.",
+        "icon": "/이미지/네트워크/Network_DDoS_card_ic_2.png",
+        "title": "대규모 네트워크 백본"
+      },
+      "items[2]": {
+        "content": "특정 콘텐츠에 최적화된 스마트 라우팅 엔진을 사용하여 중요한 곳으로 사용자를 라우팅하세요.",
+        "icon": "/이미지/네트워크/Network_DDoS_card_ic_3.png",
+        "title": "스마트엣지 라우팅"
+      },
+      "items[3]": {
+        "content": "전 세계 대부분의 지역에서 24ms 이내에 고객에게 도달하세요.",
+        "icon": "/이미지/네트워크/Network_DDoS_card_ic_4.png",
+        "title": "24ms 미만 평균 글로벌 지연 시간"
+      },
+      "items[4]": {
+        "content": "NVMe 및 SSD 서버를 사용하여 최대 속도와 최소 대기 시간으로 콘텐츠를 제공하세요.",
+        "icon": "/이미지/네트워크/Network_DDoS_card_ic_5.png",
+        "title": "NVMe SSD 구동 서버"
+      },
+      "items[5]": {
+        "content": "효율적인 캐싱에 최적화된 CDN을 통해 작은 파일과 큰 파일에 대해 더 높은 캐시 적중률을 제공합니다.",
+        "icon": "/images/network/Network_DDoS_card_ic_6.png",
+        "title": "정적 및 미디어 콘텐츠에 최적화됨"
+      },
+      "title1": "성능을 위해 제작되었습니다. \n완벽함을 위해 최적화되었습니다.",
+      "title2": "세심하게 최적화되고 TCP 수준으로 조정된 글로벌 네트워크에 참여하세요."
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "글로벌 PoP",
+      "label": "123"
+    },
+    "numbers[1]": {
+      "content": "평균 \n전역 대기 시간",
+      "label": "24ms"
+    },
+    "numbers[2]": {
+      "content": "평균 \n캐시 적중률",
+      "label": "95%"
+    },
+    "numbers[3]": {
+      "content": "강력한 웹사이트",
+      "label": "1.000.000"
+    },
+    "tabs": [
+      "",
+      "",
+      ""
+    ],
+    "tabs[0]": "표준 네트워크",
+    "tabs[1]": "볼륨 네트워크",
+    "tabs[2]": "ISP 네트워크",
+    "title0": "고와프 CDN 네트워크",
+    "title1": "손끝에서 즐기는 150Tbps",
+    "title2": "세계에서 가장 빠른 네트워크 중 하나로 콘텐츠를 강화하세요."
+  },
+  "smartEdge": {
+    "header": {
+      "btn": "14일 무료 평가판 시작",
+      "content": "DDoS 공격으로부터 웹사이트를 보호하세요. \n완벽한 가동 시간을 보장하고 다시는 다운되지 않습니다. \n귀하가 제품에 집중할 수 있도록 DDoS 보호를 관리합니다!",
+      "hint": "신용 카드가 필요하지 않습니다. \n몇 초 만에 시작하세요.",
+      "preTitle": "DDoS 보호",
+      "title": "표준으로 DDoS 보호"
+    },
+    "join1": {
+      "person": {
+        "content": "“bunny.net 팀과 함께 일하게 되어 기쁩니다! \n우수한 CDN 네트워크로 전환하기 전에도 전환에 필요한 몇 가지 기능을 추가했습니다. \n그 후 그들은 매우 신속하게 새로운 기능을 추가하거나 우리가 가진 문제를 해결해 주었습니다! \n우리가 진심으로 감사하는 진정한 장기 파트너입니다!”",
+        "name": "페드로 도브레스쿠",
+        "title": "쇼트픽셀"
+      },
+      "title": "40,000명이 넘는 행복한 고객과 함께 하세요"
+    },
+    "maxPerformance": {
+      "content": "특정 콘텐츠를 기반으로 최적화된 라우팅 덕분에 최대 30% 향상된 캐시 적중률과 글로벌 성능의 대폭 향상을 달성할 수 있습니다. \n성능을 파괴하고 경쟁에서 앞서가는 캐시 MISS 요청을 줄입니다.",
+      "numberHint1": "향상된 성능",
+      "numberHint2": "낮은 출처의 트래픽",
+      "title": "글로벌 라우팅으로 성능 극대화"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "강력한 웹사이트",
+      "label": "1.000.000"
+    },
+    "numbers[1]": {
+      "content": "글로벌 PoP",
+      "label": "123"
+    },
+    "numbers[2]": {
+      "content": "더 빠른 로드 시간",
+      "label": "최대 5배"
+    },
+    "numbers[3]": {
+      "content": "만족한 고객",
+      "label": "40,000"
+    },
+    "onProblem": {
+      "content": "전통적으로 CDN은 항상 최적이 아닌 단일 라우팅 구성으로 사용자를 라우팅합니다. \nSmartEdge™는 사전 설정된 글로벌 구성과 자동 성능 지표를 결합하여 각 지역에 대해 애니캐스트, GeoDNS 및 대기 시간 기반 라우팅 중에서 지능적으로 선택하여 특정 사용 사례에 대한 성능과 라우팅 품질을 극대화합니다.",
+      "title": "한 가지 문제. \n하나의 라우팅 시스템."
+    },
+    "yourNeeds": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "mIcon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "mIcon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "mIcon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "전 세계에서 가장 효율적인 데이터 배포를 보장하는 자동 캐싱 최적화를 통해 콘텐츠를 효율적으로 제공합니다.",
+        "icon": "/images/network/smart-edge/SmartEdge™_ic_cache.png",
+        "mIcon": "",
+        "title": "비교할 수 없는 캐싱"
+      },
+      "items[1]": {
+        "content": "라우팅 시스템에 직접 내장된 실시간 상태 모니터링 시스템을 활용하여 가동 중지 시간을 방지하고 수익 손실을 방지하세요.",
+        "icon": "/images/network/smart-edge/SmartEdge™_ic_Monitoring.png",
+        "mIcon": "",
+        "title": "내장 상태 모니터링"
+      },
+      "items[2]": {
+        "content": "파일을 기반으로 한 자동 최적화를 통해 특정 유형의 콘텐츠에 대한 최대 성능을 즐겨보세요.",
+        "icon": "/images/network/smart-edge/SmartEdge™_ic_engine.png",
+        "mIcon": "",
+        "title": "콘텐츠 인식 라우팅 엔진"
+      },
+      "subTitle": "콘텐츠를 전달할 때 타협하지 마세요. \nSmartEdge™는 귀하의 필요에 따라 대규모 글로벌 네트워크를 지속적으로 맞춤화합니다.",
+      "title": "귀하의 요구에 맞는 글로벌 네트워크"
+    }
+  },
+  "WebTools": {
+    "bennerSubTitle": "Bunny.net을 최적화 및 시작하고 전 세계 120개 이상의 위치에서 네트워크 테스트 및 진단을 실행하는 데 도움이 되는 도구입니다.",
+    "bennerTitle": "글로벌 네트워크 진단 도구",
+    "DiagnosticReport": {
+      "btn": "진단 보고서 실행",
+      "neverHit": {
+        "items": [
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          }
+        ],
+        "items[0]": {
+          "alignType": "센터",
+          "content": "귀하의 IP 주소가 수집되어 국가 및 지리적 위치 결과에 매핑됩니다.",
+          "contentAlign": "센터",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+          "title": "IP 주소",
+          "width": "100px"
+        },
+        "items[1]": {
+          "alignType": "센터",
+          "content": "DNS 공급자의 IP가 수집되어 국가 및 경도/위도 위치에 매핑됩니다.",
+          "contentAlign": "센터",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_2@2x.png",
+          "title": "DNS 정보",
+          "width": "100px"
+        },
+        "items[2]": {
+          "alignType": "센터",
+          "content": "귀하의 컴퓨터 운영 체제의 이름과 버전이 수집됩니다.",
+          "contentAlign": "센터",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_3@2x.png",
+          "title": "운영 체제",
+          "width": "100px"
+        },
+        "items[3]": {
+          "alignType": "센터",
+          "content": "귀하의 웹 브라우저의 이름, 버전, 사용자 에이전트가 수집됩니다.",
+          "contentAlign": "센터",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_4@2x.png",
+          "title": "브라우저 정보",
+          "width": "100px"
+        }
+      },
+      "subtitle": "진단 보고서는 연결 테스트 및 문제 해결에 사용할 수 있는 브라우저, 인터넷 및 DNS 구성에 대한 자세한 정보를 수집합니다.",
+      "title": "진단 보고서"
+    },
+    "DNSLookur": {
+      "subtitle": "Gowaf.net 네트워크에서 서버로의 연결을 테스트하려면 파일 또는 웹 사이트의 URL을 입력하십시오.",
+      "title": "DNS 조회 테스트"
+    },
+    "neverHit": {
+      "items": [
+        {
+          "alignType": "",
+          "btn": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "btn": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "btn": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        }
+      ],
+      "items[0]": {
+        "alignType": "센터",
+        "btn": "웹사이트 확인",
+        "content": "라우팅 문제 또는 성능 문제를 확인하기 위해 전 세계 120개 이상의 Isrationc에서 Chockatency를 제공합니다.",
+        "contentAlign": "센터",
+        "height": "100px",
+        "icon": "/images/network/WebTools/web_tools_ic_1@2x.png",
+        "title": "레이턴시 체크",
+        "width": "100px"
+      },
+      "items[1]": {
+        "alignType": "센터",
+        "btn": "연결 테스트",
+        "content": "전 세계 120개 이상의 위치에서 HTTP 연결을 테스트하여 원본 연결 문제, 성능 및 지리적 차단 문제를 해결합니다.",
+        "contentAlign": "센터",
+        "height": "100px",
+        "icon": "/images/network/WebTools/web_tools_ic_2@2x.png",
+        "title": "HTTP 연결 확인",
+        "width": "100px"
+      },
+      "items[2]": {
+        "alignType": "센터",
+        "btn": "진단 실행",
+        "content": "인터넷 구성, 라우팅 및 성능에 대한 자세한 정보를 수집하고 문제를 해결하기 위한 진단 도구입니다.",
+        "contentAlign": "센터",
+        "height": "100px",
+        "icon": "/images/network/WebTools/web_tools_ic_3@2x.png",
+        "title": "진단 보고서",
+        "width": "100px"
+      },
+      "subTitle": "Perma-Cache에서 직접 파일을 제공하여 원본에 대한 트래픽을 최소화하고 비용을 절감하세요. \nGowaf는 규모나 트래픽 급증에 관계없이 인프라 호핑을 유지합니다.",
+      "title": "다시는 원점에 도달하지 마세요."
+    },
+    "OtherTools": {
+      "neverHit": {
+        "items": [
+          {
+            "alignType": "",
+            "btn": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "btn": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          }
+        ],
+        "items[0]": {
+          "alignType": "센터",
+          "btn": "SSL 검사기",
+          "content": "SSL 인증서가 올바르게 설치되었는지 확인하세요.",
+          "contentAlign": "센터",
+          "height": "100px",
+          "icon": "/images/network/WebTools/other_tools_ic_1@2x.png",
+          "title": "SSL 검사기",
+          "width": "100px"
+        },
+        "items[1]": {
+          "alignType": "센터",
+          "btn": "GeolP 조회",
+          "content": "IP 주소가 있는 대략적인 위치(지리적 위치)를 확인하세요.",
+          "contentAlign": "센터",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+          "title": "IP 위치정보",
+          "width": "100px"
+        }
+      },
+      "subtitle": "SSL 확인, GeoIP 조회 등!",
+      "title": "기타 도구"
+    },
+    "Traceroute": {
+      "article1": [
+        {
+          "content": [
+            ""
+          ],
+          "title": ""
+        },
+        {
+          "content": [
+            "",
+            ""
+          ],
+          "title": ""
+        }
+      ],
+      "article1[0]": {
+        "content[0]": "Traceroute는 네트워크 패킷이 대상 IP에 도달하기 위해 이동하는 경로를 진단하는 데 사용되는 네트워크 진단 도구입니다. \n소스와 대상 네트워크 지점 사이의 대기 시간과 패킷 손실은 물론 그 사이의 모든 네트워크 홉도 표시됩니다.",
+        "title": "추적 경로란 무엇입니까?"
+      },
+      "article1[1]": {
+        "content[0]": "Traceroute는 네트워크 문제를 디버깅할 때 매우 중요합니다. \n이를 통해 네트워크의 두 지점을 연결하는 동안 최적이 아닌 네트워크 경로, 루프 또는 패킷 손실을 진단할 수 있습니다. \n또한 네트워크 오류 및 실패한 경로 문제를 해결하는 데에도 사용할 수 있습니다.",
+        "content[1]": "Traceroute 결과를 정확하게 표현하려면 일반적으로 대상과 소스의 양방향 또는 그 반대로 Traceroute를 실행하는 것이 좋습니다.",
+        "title": "Traceroute는 어떤 용도로 사용되나요?"
+      },
+      "article2": [
+        {
+          "content": [
+            ""
+          ],
+          "title": ""
+        },
+        {
+          "content": [
+            "",
+            ""
+          ],
+          "title": ""
+        }
+      ],
+      "article2[0]": {
+        "content[0]": "Traceroute 도구는 일반적으로 ICMP 메시지를 사용하여 에코 패키지를 보냅니다. \n그런 다음 메시지가 전송된 시간과 응답을 받은 시간 사이의 응답 시간(대기 시간)을 측정합니다. \n이는 네트워크 경로에 대한 가시성을 최대한 제공하기 위해 각 네트워크 홉에 대해 계산됩니다. \nICMP를 사용할 수 없는 상황에서는 TCP 모드에서 경로 추적을 실행할 수도 있지만 이는 덜 일반적입니다.",
+        "title": "추적 경로는 어떻게 작동하나요?"
+      },
+      "article2[1]": {
+        "content[0]": "추적 경로의 패킷 손실은 특정 홉 또는 대상 주소가 응답 메시지 전송에 실패했거나 거부되었음을 의미합니다. \n이는 네트워크 정체 또는 기타 문제를 나타낼 수 있습니다. \n그러나 ICMP의 특성으로 인해 원본과 대상 간의 특정 홉이 응답 메시지 전송을 거부하는 경우가 종종 있다는 점을 이해하는 것이 중요합니다.",
+        "content[1]": "ICMP 패킷의 우선 순위를 낮추거나 무시하도록 설정된 라우터에 의해 중간 보고 패킷 손실의 홉을 보는 것은 드문 일이 아닙니다. \n잠재적인 문제를 보다 정확하게 이해하려면 일반적으로 대상의 마지막 홉에서 패킷 손실에 주로 초점을 맞추는 것이 좋습니다.",
+        "title": "Traceroute에서 패킷 손실은 무엇을 의미합니까?"
+      },
+      "Average": "평균",
+      "Best": "최상의",
+      "Host": "주인",
+      "PacketLoss": "패킷 손실",
+      "title": "전역 경로 추적 테스트",
+      "Worst": "최악의"
+    }
+  }
 }

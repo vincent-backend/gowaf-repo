@@ -1,1203 +1,1203 @@
 {
-	"AffiliateProgram": {
-		"btn": "",
-		"Collapse": {
-			"list": [
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				}
-			],
-			"list[0]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[1]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[2]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[3]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[4]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[5]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[6]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"content": "",
-		"fotad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"fotad2": {
-			"subTitle": "",
-			"title": ""
-		},
-		"hint": "",
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"listBtn": "",
-		"mksubtitle": "",
-		"mktitle": "",
-		"neverHit": {
-			"fulItems": [
-				{
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			],
-			"fulItems[0]": {
-				"alignType": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"fulItems[1]": {
-				"alignType": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"fulItems[2]": {
-				"alignType": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"preTitle": "",
-		"title": ""
-	},
-	"ContactSales": {
-		"agreement": [
-			"",
-			""
-		],
-		"agreement[0]": "",
-		"agreement[1]": "",
-		"btn": "",
-		"content": "",
-		"preTitle": "",
-		"title": ""
-	},
-	"forgot": {
-		"agreement": [
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
-		],
-		"agreement[0]": "",
-		"agreement[1]": "",
-		"agreement[2]": "",
-		"agreement[3]": "",
-		"agreement[4]": "",
-		"agreement[5]": "",
-		"agreement[6]": "",
-		"card": [
-			{
-				"content": "",
-				"describe": "",
-				"img": "",
-				"name": ""
-			},
-			{
-				"content": "",
-				"describe": "",
-				"img": "",
-				"name": ""
-			}
-		],
-		"card[0]": {
-			"content": "",
-			"describe": "",
-			"img": "",
-			"name": ""
-		},
-		"card[1]": {
-			"content": "",
-			"describe": "",
-			"img": "",
-			"name": ""
-		},
-		"head": "",
-		"list": [
-			"",
-			"",
-			""
-		],
-		"list[0]": "",
-		"list[1]": "",
-		"list[2]": "",
-		"loginbtn": "",
-		"signUp": "",
-		"subhead": "",
-		"subheadlines": "",
-		"subtitle": "",
-		"tips": "",
-		"title": ""
-	},
-	"header": {
-		"bottom": {
-			"subTitle": "",
-			"title1": "",
-			"title2": "",
-			"title3": "",
-			"weAreRated": "",
-			"weAreRated2": ""
-		},
-		"bottom1": {
-			"subTitle": "",
-			"title1": "",
-			"title2": "",
-			"title3": "",
-			"weAreRated": "",
-			"weAreRated2": ""
-		},
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"join1": {
-		"btn": "",
-		"info1": {
-			"content": "",
-			"leftList": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"leftList[0]": "",
-			"leftList[1]": "",
-			"leftList[2]": "",
-			"leftList[3]": "",
-			"leftList[4]": "",
-			"leftList[5]": "",
-			"rightList": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"rightList[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rightList[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rightList[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rightList[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"subTitle": "",
-		"title": ""
-	},
-	"join2": {
-		"list": [
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[1]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[2]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[3]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[4]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"subTitle1": "",
-		"subTitle3": "",
-		"subTitle4": "",
-		"subTitle5": "",
-		"subTitle6": "",
-		"title": ""
-	},
-	"list1": {
-		"title": ""
-	},
-	"list2": {
-		"features": [
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			}
-		],
-		"features[0]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[1]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[2]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[3]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[4]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[5]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"subTitle": "",
-		"title": ""
-	},
-	"login": {
-		"backtop": {
-			"sub": "",
-			"title1": ""
-		},
-		"divider": "",
-		"Forgot": "",
-		"list": [
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[1]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[2]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"loginbtn": "",
-		"signUp": "",
-		"subtitle": "",
-		"tips": "",
-		"title": ""
-	},
-	"ResetPassword": {
-		"BacktoLog In": "",
-		"list": [
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[1]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[2]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[3]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"loginbtn": "",
-		"subtitle": "",
-		"title": ""
-	},
-	"SLA": {
-		"ad2Container": {
-			"items": [
-				{
-					"content": "",
-					"height": "",
-					"pic": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"content": "",
-					"height": "",
-					"pic": "",
-					"title": "",
-					"width": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"height": "",
-				"pic": "",
-				"title": "",
-				"width": ""
-			},
-			"items[1]": {
-				"content": "",
-				"height": "",
-				"pic": "",
-				"title": "",
-				"width": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"content": "",
-		"preTitle": "",
-		"table": {
-			"list": [
-				[
-					"",
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				[
-					"",
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				[
-					"",
-					"",
-					"",
-					"",
-					"",
-					""
-				]
-			],
-			"list[0][0]": "",
-			"list[0][1]": "",
-			"list[0][2]": "",
-			"list[0][3]": "",
-			"list[0][4]": "",
-			"list[0][5]": "",
-			"list[1][0]": "",
-			"list[1][1]": "",
-			"list[1][2]": "",
-			"list[1][3]": "",
-			"list[1][4]": "",
-			"list[1][5]": "",
-			"list[2][0]": "",
-			"list[2][1]": "",
-			"list[2][2]": "",
-			"list[2][3]": "",
-			"list[2][4]": "",
-			"list[2][5]": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"title": ""
-	},
-	"superCharge": {
-		"subTitle": "",
-		"tabs": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			}
-		],
-		"tabs[0]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"tabs[1]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"tabs[2]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"tabs[3]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"title": ""
-	},
-	"SupportHUB": {
-		"list": [
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[4]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[5]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[1]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[2]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[3]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[4]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[5]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"subtitle": "",
-		"title": ""
-	}
+  "AffiliateProgram": {
+    "btn": "加入 Gowaf 联盟计划",
+    "Collapse": {
+      "list": [
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        }
+      ],
+      "list[0]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "Bunny 联盟计划如何运作？"
+      },
+      "list[1]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "谁有资格参加 Bunny 联盟计划？"
+      },
+      "list[2]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "我如何加入联盟计划？"
+      },
+      "list[3]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "每次推荐我能赚多少钱？"
+      },
+      "list[4]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "佣金有最高金额吗？"
+      },
+      "list[5]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "我什么时候能收到付款？"
+      },
+      "list[6]": {
+        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
+        "title": "我可以创建自己的营销材料吗？"
+      },
+      "subtitle": "还有其他问题吗？\n我们准备了一份额外有用信息的列表！",
+      "title": "经常问的问题"
+    },
+    "content": "帮助我们一路成长并赚钱。\n我们帮助您通过资源向全球创意、现成的教育和铅磁铁图书馆进行尽可能多的推荐。",
+    "fotad1": {
+      "btn": "合约销售",
+      "subTitle": "从事更大的项目？  \n让我们的兔子来帮助你吧！",
+      "title": "在竞争中领先！"
+    },
+    "fotad2": {
+      "subTitle": "几秒钟内即可开始。\n无需信用卡。\n随时取消。",
+      "title": "让您的视频安全领先一步！"
+    },
+    "hint": "参与该计划需要有 Gowaf.net 帐户。",
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "只需支付您转录的分钟数，没有最低经常性费用。",
+        "icon": "/images/home/affiliate_2_ic_1@2x.png",
+        "title": "只需为您使用的内容付费"
+      },
+      "items[1]": {
+        "content": "开始免费试用 14 天，继续使用每月仅需 1 美元。",
+        "icon": "/images/home/affiliate_2_ic_2@2x.png",
+        "title": "每月最低 1 美元"
+      },
+      "items[2]": {
+        "content": "使用完整的 Transcribe AI 功能集，无需额外费用或隐藏成本。",
+        "icon": "/images/home/affiliate_2_ic_3@2x.png",
+        "title": "包含所有功能"
+      },
+      "title1": "它是如何工作的？",
+      "title2": "开始使用 Gowaf 联盟计划是免费且简单的。"
+    },
+    "listBtn": "获取您的会员代码",
+    "mksubtitle": "利用预先设计的营销材料。\n从我们丰富的横幅广告库中进行选择，找到适合您的理想尺寸。",
+    "mktitle": "预建营销材料",
+    "neverHit": {
+      "fulItems": [
+        {
+          "alignType": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        }
+      ],
+      "fulItems[0]": {
+        "alignType": "中心",
+        "content": "在 Gowaf.net 创建付费帐户。",
+        "contentAlign": "中心",
+        "height": "80像素",
+        "icon": "/images/home/affiliate_1_ic_1@2x.png",
+        "title": "登记",
+        "width": "80像素"
+      },
+      "fulItems[1]": {
+        "alignType": "中心",
+        "content": "与世界分享您独特的联系。",
+        "contentAlign": "中心",
+        "height": "80像素",
+        "icon": "/images/home/affiliate_1_ic_2@2x.png",
+        "title": "分享您的链接",
+        "width": "80像素"
+      },
+      "fulItems[2]": {
+        "alignType": "中心",
+        "content": "每次付费注册可赚取 20 美元。",
+        "contentAlign": "中心",
+        "height": "80像素",
+        "icon": "/images/home/affiliate_1_ic_3@2x.png",
+        "title": "开始赚钱",
+        "width": "80像素"
+      },
+      "subTitle": "只需 3 个简单步骤即可开始赚钱。",
+      "title": "登记。\n分享。\n赚。"
+    },
+    "preTitle": "高瓦夫联盟计划",
+    "title": "加入 Gowaf 联盟计划并帮助我们更快成长"
+  },
+  "ContactSales": {
+    "agreement": [
+      "",
+      ""
+    ],
+    "agreement[0]": "我已阅读并同意 Gowaf",
+    "agreement[1]": "隐私政策",
+    "btn": "发送询问",
+    "content": "告诉我们您的项目，我们将为您联系 CDN 专家，并为您量身定制完美的解决方案",
+    "preTitle": "联系销售人员",
+    "title": "与 Gowaf 专家交谈"
+  },
+  "forgot": {
+    "agreement": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "agreement[0]": "我同意",
+    "agreement[1]": "服务条款",
+    "agreement[2]": ",",
+    "agreement[3]": "可接受的使用政策",
+    "agreement[4]": "并确认我已阅读并理解 bunny.net",
+    "agreement[5]": "隐私政策",
+    "agreement[6]": "。",
+    "card": [
+      {
+        "content": "",
+        "describe": "",
+        "img": "",
+        "name": ""
+      },
+      {
+        "content": "",
+        "describe": "",
+        "img": "",
+        "name": ""
+      }
+    ],
+    "card[0]": {
+      "content": "我做了测试，我非常喜欢它并且正在使用它。\n它具有简单的配置、强大的功能和实惠的价格。\n非常好！",
+      "describe": "优质的 CDN 服务",
+      "img": "/images/home/polyfill_Sign Up_avatar_1@2x.png",
+      "name": "罗内·德·索萨·阿尔梅达"
+    },
+    "card[1]": {
+      "content": "这是 AWS Cloudfront 的绝佳、经济高效、完整且简单的替代方案。 \nDRM功能是一个如此庞大的服务A",
+      "describe": "如此简单的 Cloudfront 替代方案",
+      "img": "/images/home/polyfill_Sign Up_avatar_2@2x.png",
+      "name": "让·迪迪埃"
+    },
+    "head": "在以下时间内增强您的全球交付能力",
+    "list": [
+      "",
+      "",
+      ""
+    ],
+    "list[0]": "120 个全球 PoP，全球延迟低于 24 毫秒。",
+    "list[1]": "80 Tbps 网络主干网络再也不会出现故障。",
+    "list[2]": "真正的全天候支持 24/7/365 内部技术支持。",
+    "loginbtn": "创建一个帐户",
+    "signUp": "登录。",
+    "subhead": "5分钟",
+    "subheadlines": "无与伦比的性能，毫不妥协。",
+    "subtitle": "只需 5 分钟即可到达速度更快的网站。",
+    "tips": "已经有帐户？",
+    "title": "14 天免费试用"
+  },
+  "header": {
+    "bottom": {
+      "subTitle": "我们对质量的执着赢得了行业内许多知名品牌的信任。",
+      "title1": "加入过来",
+      "title2": "1,000,000",
+      "title3": "网站已由 Gowaf 提供支持",
+      "weAreRated": "我们被评为",
+      "weAreRated2": "4.8 分（满分 5 分）基于 600 条评论"
+    },
+    "bottom1": {
+      "subTitle": "我们可以共同创造每个人都值得拥有的互联网——无论他们身在世界何处。",
+      "title1": "加入过来",
+      "title2": "40.000",
+      "title3": "客户已经加入我们的使命",
+      "weAreRated": "我们被评为",
+      "weAreRated2": "4.8 分（满分 5 分）基于 700 条评论"
+    },
+    "btn": "免费试用 14 天",
+    "content": "使用我们的下一代 CDN、边缘存储和优化服务加速您的内容。 \nGowaf 使任何规模的闪电般的快速性能比以往任何时候都更容易。",
+    "hint": "5 分钟内完成设置。\n无需信用卡。",
+    "title": "真正跳跃的全球内容交付平台"
+  },
+  "join1": {
+    "btn": "免费试用 14 天",
+    "info1": {
+      "content": "加入世界上最快的全球网络之一。\n使您的网站速度超出其限制，并为您的访问者提供最佳的体验。\n以市场上最实惠的价格提供企业级性能！",
+      "leftList": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "leftList[0]": "从 1 美元/月起",
+      "leftList[1]": "无隐藏费用",
+      "leftList[2]": "永久缓存",
+      "leftList[3]": "实时监控",
+      "leftList[4]": "DDoS 防护",
+      "leftList[5]": "免费 SSL 证书",
+      "rightList": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "rightList[0]": {
+        "content": "借助 80 Tbps 网络，轻松实现增长和扩展最大化。",
+        "icon": "home_list_ic_design",
+        "title": "可扩展的设计"
+      },
+      "rightList[1]": {
+        "content": "利用顶级 AMD 和 NVMe 硬件优化交付并减少延迟。",
+        "icon": "home_list_ic_服务器",
+        "title": "NVMe SSD 服务器"
+      },
+      "rightList[2]": {
+        "content": "通过 3000 多家 ISP 和 14 家一级传输提供商直接连接到您的用户。\n任何地方。",
+        "icon": "home_list_ic_network",
+        "title": "一级全球网络"
+      },
+      "rightList[3]": {
+        "content": "借助有效的内置下一代 DDoS 防护，保持安全并专注。",
+        "icon": "home_list_ic_Protection",
+        "title": "受到保护"
+      },
+      "title": "惊人的表现。\n每一次。"
+    },
+    "subTitle": "无需信用卡 – 只需点击几下即可开始",
+    "title": "加入并开始以光速跳跃"
+  },
+  "join2": {
+    "list": [
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "avatar": "home_avatar_1",
+      "content": "绝对喜欢这些家伙！\n嘿，更新令人惊叹，以最实惠的价格提供 CDN 的最佳性能！\n他们具有创新精神，解决的问题比我想象的还要多！\n即时图像压缩 缩小文件 cachina，您能想到的！",
+      "date": "202 年 6 月 5 日*",
+      "name": "本·M",
+      "title": "绝对喜欢这些家伙"
+    },
+    "list[1]": {
+      "avatar": "home_avatar_2",
+      "content": "Gowaf CDN 确实非常出色。\n它在速度上优于著名的 CDN 提供商，而且价格更便宜。",
+      "date": "2024 年 12 月 11 日",
+      "name": "亚历克斯",
+      "title": "Gowaf CDN 确实非常出色"
+    },
+    "list[2]": {
+      "avatar": "home_avatar_3",
+      "content": "价格实惠。\n很棒的服务。\n很棒的支持，从 vimeo 迁移了我的所有视频，效果很好：更好，就像来自 AWS 的 240 个音频，成本更低，效果更好。",
+      "date": "2021 年 10 月 22 日",
+      "name": "洛朗·贝尔廷",
+      "title": "如果你犹豫的话。\n不。"
+    },
+    "list[3]": {
+      "avatar": "home_avatar_6",
+      "content": "非常精彩！\n只需点击几下即可轻松设置...整体性能出色且超级便宜。\n我最喜欢的是轻松为自定义主机名安装 SSL 证书，只需点击 2 次即可。\n用了一年多了，没什么可说的。",
+      "date": "2019 年 2 月 3 日",
+      "name": "加里",
+      "title": "非常精彩"
+    },
+    "list[4]": {
+      "avatar": "home_avatar_7",
+      "content": "越来越好！\n快速、可靠和市场上最优惠的价格，非常友好的 Ul。\n继续保持良好的工作状态。",
+      "date": "2021 年 2 月 16 日",
+      "name": "阿尔贝托·鲍达奇",
+      "title": "越来越好"
+    },
+    "subTitle1": "我们被评为",
+    "subTitle3": "优秀4.8",
+    "subTitle4": "满分 5 分",
+    "subTitle5": "信任飞行员",
+    "subTitle6": "- 基于 600 条评论",
+    "title": "加入超过 40,000 名满意的客户"
+  },
+  "list1": {
+    "title": "我们帮助优秀的公司更快地发展！"
+  },
+  "list2": {
+    "features": [
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      }
+    ],
+    "features[0]": {
+      "comingSoon": "",
+      "content": "在真正的全球范围内增强您的内容。",
+      "icon": "home_card_ic_1_nor",
+      "title": "CDN"
+    },
+    "features[1]": {
+      "comingSoon": "",
+      "content": "体验世界各地复制的热门对象存储。",
+      "icon": "home_card_ic_2_nor",
+      "title": "贮存"
+    },
+    "features[2]": {
+      "comingSoon": "",
+      "content": "将您的视频交付提升到一个新的水平。",
+      "icon": "home_card_ic_3_nor",
+      "title": "溪流"
+    },
+    "features[3]": {
+      "comingSoon": "",
+      "content": "单击按钮即可优化您的网站。",
+      "icon": "home_card_ic_4_nor",
+      "title": "优化器"
+    },
+    "features[4]": {
+      "comingSoon": "",
+      "content": "在您的基础设施中释放 DNS 的真正力量。",
+      "icon": "home_card_ic_5_nor",
+      "title": "域名系统"
+    },
+    "features[5]": {
+      "comingSoon": "",
+      "content": "最大限度地提高应用程序性能和可扩展性。",
+      "icon": "home_card_ic_6_nor",
+      "title": "负载均衡器"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "边缘位置",
+      "label": "123"
+    },
+    "numbers[1]": {
+      "content": "每秒请求数",
+      "label": "650.000"
+    },
+    "numbers[2]": {
+      "content": "网络容量",
+      "label": "80 太比特/秒"
+    },
+    "numbers[3]": {
+      "content": "平均。\n全球延迟",
+      "label": "24 毫秒"
+    },
+    "subTitle": "体验无与伦比的性能而不妥协。",
+    "title": "跳到边缘，永不回头"
+  },
+  "login": {
+    "backtop": {
+      "sub": "蓬松！",
+      "title1": "你正在与"
+    },
+    "divider": "或者继续",
+    "Forgot": "忘记密码？",
+    "list": [
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "content": "动态生成图像并直接从 CDN 传送图像的最简单方法。",
+      "img": "/images/home/log_icon_1@2x.png",
+      "title": "新的 Gowaf 仪表板已上线！"
+    },
+    "list[1]": {
+      "content": "借助 Gowaf 存储边缘层，将 Web 应用程序性能提升到真正的全球级水平。",
+      "img": "/images/home/log_icon_2@2x.png",
+      "title": "试试 Gowaf AI 测试版！"
+    },
+    "list[2]": {
+      "content": "释放 DNS 的真正威力，将复杂的问题转化为简单的解决方案。",
+      "img": "/images/home/log_icon_3@2x.png",
+      "title": "下一代性能！"
+    },
+    "loginbtn": "登录",
+    "signUp": "报名。",
+    "subtitle": "登录 Gowaf 帐户。",
+    "tips": "没有帐户？",
+    "title": "欢迎回来！"
+  },
+  "ResetPassword": {
+    "BacktoLog In": "回到登入",
+    "list": [
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "content": "动态生成图像并直接从 CDN 传送图像的最简单方法。",
+      "img": "/images/home/log_icon_1@2x.png",
+      "title": "新的 Gowaf 仪表板已上线！"
+    },
+    "list[1]": {
+      "content": "借助 Gowaf 存储边缘层，将 Web 应用程序性能提升到真正的全球级水平。",
+      "img": "/images/home/log_icon_2@2x.png",
+      "title": "试试 Gowaf AI 测试版！"
+    },
+    "list[2]": {
+      "content": "释放 DNS 的真正威力，将复杂的问题转化为简单的解决方案。",
+      "img": "/images/home/log_icon_3@2x.png",
+      "title": "下一代性能！"
+    },
+    "list[3]": {
+      "content": "释放 DNS 的真正威力，将复杂的问题转化为简单的解决方案。",
+      "img": "/images/home/log_icon_4@2x.png",
+      "title": "Gowaf DNS 现已上线！"
+    },
+    "loginbtn": "重设密码",
+    "subtitle": "要重置密码，请输入您的 bunny.net 帐户电子邮件。",
+    "title": "重设密码"
+  },
+  "SLA": {
+    "ad2Container": {
+      "items": [
+        {
+          "content": "",
+          "height": "",
+          "pic": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "content": "",
+          "height": "",
+          "pic": "",
+          "title": "",
+          "width": ""
+        }
+      ],
+      "items[0]": {
+        "content": "Gowaf.net 平台的设计考虑到了性能和稳定性。\n我们的系统使用多种正常运行时间和性能监控方法，在服务器发生故障时利用自动修复和故障转移。\n最重要的是，我们的团队全天候工作，以防止和最大程度地减少任何干扰，并在全球范围内提供最佳性能。",
+        "height": "400像素",
+        "pic": "/images/home/Uptime_Guaran_img@2x.png",
+        "title": "99.99% 正常运行时间保证",
+        "width": "400像素"
+      },
+      "items[1]": {
+        "content": "通过利用冗余架构和智能 BGP 路由，我们可以在硬件或网络中断的情况下实现 DNS 系统的自动故障转移。\n我们实时监控 PoP 边缘服务器，以检测任何网络问题或性能下降，并智能地绕过它们。",
+        "height": "360像素",
+        "pic": "/images/home/Redundant_Infrastruct_img@2x.png",
+        "title": "冗余基础设施",
+        "width": "360像素"
+      },
+      "subTitle": "",
+      "title": ""
+    },
+    "content": "可爱的名字背后，隐藏着一头凶猛的野兽。\n由于每一步都有冗余，我们在核心基础设施中提供企业级稳定性。",
+    "preTitle": "服务水平协议",
+    "table": {
+      "list": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "list[0][0]": "每月可用性",
+      "list[0][1]": "99.98%",
+      "list[0][2]": "99.95%",
+      "list[0][3]": "99.70%",
+      "list[0][4]": "99.50%",
+      "list[0][5]": "99.00%",
+      "list[1][0]": "停电时间",
+      "list[1][1]": "10 – 59 分钟",
+      "list[1][2]": "12小时",
+      "list[1][3]": "24小时",
+      "list[1][4]": "4 – 7 小时",
+      "list[1][5]": "7小时",
+      "list[2][0]": "停电时间",
+      "list[2][1]": "12小时",
+      "list[2][2]": "24小时",
+      "list[2][3]": "48小时",
+      "list[2][4]": "120小时",
+      "list[2][5]": "240小时",
+      "preTitle": "如果每月可用性低于我们的保证，您的帐户将有资格根据您每月的使用情况获得 SLA 积分。",
+      "title": "停电积分"
+    },
+    "title": "保持在线。  \n无论。"
+  },
+  "superCharge": {
+    "subTitle": "下一代解决方案。\n更高水平的性能。",
+    "tabs": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      }
+    ],
+    "tabs[0]": {
+      "btn": "增强您的网站",
+      "content": "将您的网站从蜗牛变成高瓦夫。\n通过我们的全球 CDN 和优化器服务，为您的用户提供最佳体验。\n加快您的网站速度并在竞争中领先。",
+      "icon": "/images/home/home_bot_graph_Website@2x.png",
+      "iconHeight": "272像素",
+      "iconWidth": "374像素",
+      "mIcon": "/mobile-images/home/home_bot_graph_Website@2x.png",
+      "mIconHeight": "18.19雷姆",
+      "mIconWidth": "24.13雷姆",
+      "tab": "网站加速",
+      "title": "让您的网站像 Gowaf 一样跳跃"
+    },
+    "tabs[1]": {
+      "btn": "难忘的视频体验",
+      "content": "通过将转码、存储、安全性和视频播放器打包到一个功能强大但简单的软件包中，解决视频传输的麻烦。\n随处流式传输。\n没有缓冲！",
+      "icon": "/images/home/home_bot_graph_video@2x.png",
+      "iconHeight": "291像素",
+      "iconWidth": "386像素",
+      "mIcon": "/mobile-images/home/home_bot_graph_video@2x.png",
+      "mIconHeight": "17雷姆",
+      "mIconWidth": "23.38雷姆",
+      "tab": "视频传输",
+      "title": "真正跳跃的可靠视频 CDN"
+    },
+    "tabs[2]": {
+      "btn": "提供更快的下载",
+      "content": "通过最快的全球网络之一增强您在全球范围内的软件下载。\n让您的内容更接近任何地方的用户，体验高吞吐量。",
+      "icon": "/images/home/home_bot_graph_Software@2x.png",
+      "iconHeight": "294像素",
+      "iconWidth": "392像素",
+      "mIcon": "/mobile-images/home/home_bot_graph_Software@2x.png",
+      "mIconHeight": "18.38雷姆",
+      "mIconWidth": "24.5雷姆",
+      "tab": "软件分发",
+      "title": "提供闪电般的快速下载"
+    },
+    "tabs[3]": {
+      "btn": "优化您的图像",
+      "content": "使用全球 123 个数据中心上的超快速处理引擎 Gowaf 动态调整图像大小、裁剪、锐化和转换图像。\n简化开发",
+      "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
+      "iconHeight": "266像素",
+      "iconWidth": "360像素",
+      "mIcon": "/mobile-images/home/home_bot_graph_Dynamic@2x.png",
+      "mIconHeight": "16.63雷姆",
+      "mIconWidth": "22.5雷姆",
+      "tab": "动态图像处理",
+      "title": "改变你的图像。\n在飞行中。"
+    },
+    "title": "增强您的互联网形象"
+  },
+  "SupportHUB": {
+    "list": [
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "items[0]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "入门"
+      },
+      "items[1]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "集成指南"
+      },
+      "items[2]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "产品文档"
+      },
+      "items[3]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "技术信息"
+      },
+      "items[4]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "故障排除"
+      },
+      "items[5]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "边缘规则"
+      },
+      "subtitle": "Gowaf CDN 产品文档、集成指南和故障排除帮助。",
+      "title": "CDN"
+    },
+    "list[1]": {
+      "items[0]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "入门"
+      },
+      "items[1]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "产品文档"
+      },
+      "subtitle": "Gowaf DNS 产品文档、集成指南和故障排除帮助。",
+      "title": "域名系统"
+    },
+    "list[2]": {
+      "items[0]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "入门"
+      },
+      "items[1]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "产品文档"
+      },
+      "subtitle": "Gowaf DNS 产品文档、集成指南和故障排除帮助。",
+      "title": "贮存"
+    },
+    "list[3]": {
+      "items[0]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "入门"
+      },
+      "items[1]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "产品文档"
+      },
+      "subtitle": "Gowaf DNS 产品文档、集成指南和故障排除帮助。",
+      "title": "溪流"
+    },
+    "list[4]": {
+      "items[0]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "入门"
+      },
+      "items[1]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "产品文档"
+      },
+      "subtitle": "Gowaf DNS 产品文档、集成指南和故障排除帮助。",
+      "title": "优化器"
+    },
+    "list[5]": {
+      "items[0]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "计费"
+      },
+      "items[1]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "拉区"
+      },
+      "items[2]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "边缘存储"
+      },
+      "items[3]": {
+        "subtitle[0]": "如何使用 Edge 规则设置具有自定义主机名的直接 IP 源 URL",
+        "subtitle[1]": "Edge 规则重定向 URL 中的动态变量列表",
+        "subtitle[2]": "如何使用边缘规则将 b-cdn.net 主机名重定向到自定义 CDN 主机名",
+        "subtitle[3]": "如何正确设置Edge Rule触发路径",
+        "subtitle[4]": "如何使用边缘规则为文件扩展名设置自定义缓存时间",
+        "title": "帐户"
+      },
+      "subtitle": "Gowaf DNS 产品文档、集成指南和故障排除帮助。",
+      "title": "常见问题 (FAQ)"
+    },
+    "subtitle": "帮助您开始使用 Gowaf.net 的指南、故障排除和支持请求。",
+    "title": "我们该怎样帮助你？"
+  }
 }

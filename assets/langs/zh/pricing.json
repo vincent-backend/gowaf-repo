@@ -1,1309 +1,1309 @@
 {
-	"breadCrumbs": {
-		"cdn": "",
-		"dns": "",
-		"optimizer": "",
-		"overview": "",
-		"parent": "",
-		"storage": "",
-		"stream": ""
-	},
-	"cdn": {
-		"calculator1": {
-			"btn": "",
-			"items": [
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				}
-			],
-			"items[0]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"items[1]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"items[2]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"items[3]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"subs": [
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				}
-			],
-			"subs[0]": {
-				"title": "",
-				"value": ""
-			},
-			"subs[1]": {
-				"title": "",
-				"value": ""
-			},
-			"subTitle": "",
-			"tabs": [
-				{
-					"tab": ""
-				},
-				{
-					"tab": ""
-				}
-			],
-			"tabs[0]": {
-				"tab": ""
-			},
-			"tabs[1]": {
-				"tab": ""
-			},
-			"title": ""
-		},
-		"getInTouch": {
-			"form": {
-				"agree": "",
-				"agreeHref": "",
-				"agreeLink": "",
-				"btnSubmit": "",
-				"hint1": "",
-				"hint2": "",
-				"labelCompanyName": "",
-				"labelEmail": "",
-				"labelEstimatedTraffic": "",
-				"labelFirstName": "",
-				"labelLastName": "",
-				"labelMessage": "",
-				"labelPhone": "",
-				"placeholderCompanyName": "",
-				"placeholderEmail": "",
-				"placeholderEstimatedTraffic": "",
-				"placeholderFirstName": "",
-				"placeholderLastName": "",
-				"placeholderMessage": "",
-				"placeholderPhone": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"hop": {
-			"list": [
-				{
-					"btn": "",
-					"href": "",
-					"icon": "",
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"href": "",
-					"icon": "",
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"href": "",
-					"icon": "",
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"list[0]": {
-				"btn": "",
-				"icon": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"list[1]": {
-				"btn": "",
-				"icon": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"list[2]": {
-				"btn": "",
-				"icon": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		},
-		"pricingTable[1]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		},
-		"supportPlan": {
-			"content": {
-				"btn": "",
-				"content": "",
-				"list": {
-					"items": [
-						"",
-						"",
-						"",
-						""
-					],
-					"items[0]": "",
-					"items[1]": "",
-					"items[2]": "",
-					"items[3]": "",
-					"title": ""
-				},
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"dns": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		}
-	},
-	"optimizer": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		}
-	},
-	"overview": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"ranks": [
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				}
-			],
-			"ranks[0]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[1]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[2]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[3]": {
-				"icon": "",
-				"score": ""
-			},
-			"subTitle": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"subTitle[0]": "",
-			"subTitle[1]": "",
-			"subTitle[2]": "",
-			"subTitle[3]": "",
-			"subTitle[4]": "",
-			"subTitle[5]": "",
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"pricingTab": [
-			{
-				"content": [
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					},
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"bottomList": [
-							"",
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"bottomList": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					},
-					{
-						"bottomList": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			}
-		],
-		"pricingTab[0]": {
-			"content[0]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"content[1]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[1]": {
-			"content[0]": {
-				"bottomList[0]": "",
-				"bottomList[1]": "",
-				"bottomList[2]": "",
-				"bottomList[3]": "",
-				"bottomList[4]": "",
-				"bottomList[5]": "",
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[2]": {
-			"content[0]": {
-				"bottomList[0]": "",
-				"bottomList[1]": "",
-				"bottomList[2]": "",
-				"bottomList[3]": "",
-				"bottomList[4]": "",
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"content[1]": {
-				"bottomList[0]": "",
-				"bottomList[1]": "",
-				"bottomList[2]": "",
-				"bottomList[3]": "",
-				"bottomList[4]": "",
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[3]": {
-			"content[0]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[4]": {
-			"content[0]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"saveMoney": {
-			"hint": "",
-			"list": [
-				{
-					"items": [
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						}
-					],
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"items": [
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						}
-					],
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"list[0]": {
-				"items[0]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[1]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[2]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[3]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[4]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[5]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"subTitle": "",
-				"title": ""
-			},
-			"list[1]": {
-				"items[0]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[1]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[2]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[3]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[4]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[5]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"subTitle": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"storage": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"map": {
-			"subTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"bottomList": [
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			{
-				"bottomList": [
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"bottomList[0]": "",
-			"bottomList[1]": "",
-			"bottomList[2]": "",
-			"bottomList[3]": "",
-			"bottomList[4]": "",
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		},
-		"pricingTable[1]": {
-			"bottomList[0]": "",
-			"bottomList[1]": "",
-			"bottomList[2]": "",
-			"bottomList[3]": "",
-			"bottomList[4]": "",
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		}
-	},
-	"stream": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"tables": [
-			{
-				"items": [
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					}
-				],
-				"items2": [
-					"",
-					"",
-					"",
-					""
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					}
-				],
-				"items2": [
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				"title": ""
-			}
-		],
-		"tables[0]": {
-			"items2[0]": "",
-			"items2[1]": "",
-			"items2[2]": "",
-			"items2[3]": "",
-			"items[0]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"tables[1]": {
-			"items2[0]": "",
-			"items2[1]": "",
-			"items2[2]": "",
-			"items2[3]": "",
-			"items2[4]": "",
-			"items[0]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"title": ""
-			},
-			"title": ""
-		}
-	}
+  "breadCrumbs": {
+    "cdn": "CDN",
+    "dns": "域名系统",
+    "optimizer": "优化器",
+    "overview": "概述",
+    "parent": "价钱",
+    "storage": "贮存",
+    "stream": "溪流"
+  },
+  "cdn": {
+    "calculator1": {
+      "btn": "开始 14 天免费试用",
+      "items": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "items[0]": {
+        "percent": "",
+        "title": "欧盟/北美",
+        "value": "200GB"
+      },
+      "items[1]": {
+        "percent": "",
+        "title": "亚洲/大洋洲",
+        "value": "50GB"
+      },
+      "items[2]": {
+        "percent": "",
+        "title": "南美洲",
+        "value": "0GB"
+      },
+      "items[3]": {
+        "percent": "",
+        "title": "我",
+        "value": "0GB"
+      },
+      "subs": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "subs[0]": {
+        "title": "标准层",
+        "value": "3.5 美元/月"
+      },
+      "subs[1]": {
+        "title": "数量等级",
+        "value": "1.25 美元/月"
+      },
+      "subTitle": "输入您每月使用的总流量以查看估计价格。",
+      "tabs": [
+        {
+          "tab": ""
+        },
+        {
+          "tab": ""
+        }
+      ],
+      "tabs[0]": {
+        "tab": "千兆字节"
+      },
+      "tabs[1]": {
+        "tab": "太字节"
+      },
+      "title": "计算您的每月账单"
+    },
+    "getInTouch": {
+      "form": {
+        "agree": "我已阅读并同意 Gowaf",
+        "agreeHref": "",
+        "agreeLink": "隐私政策",
+        "btnSubmit": "让我们谈谈",
+        "hint1": "从事一个大项目？",
+        "hint2": "联系销售吧！",
+        "labelCompanyName": "公司名称",
+        "labelEmail": "电子邮件",
+        "labelEstimatedTraffic": "预计每月流量",
+        "labelFirstName": "名",
+        "labelLastName": "姓",
+        "labelMessage": "信息",
+        "labelPhone": "电话",
+        "placeholderCompanyName": "您的公司名称",
+        "placeholderEmail": "输入你的电子邮箱",
+        "placeholderEstimatedTraffic": "我不知道",
+        "placeholderFirstName": "你的名字",
+        "placeholderLastName": "你的姓氏",
+        "placeholderMessage": "告诉我们您的项目以及 Gowaf 如何提供帮助。",
+        "placeholderPhone": "XXX-XXX-XXXX"
+      },
+      "subTitle": "有疑问或只是想与我们交谈？\n填写表格，我们会尽快回复您！",
+      "title": "保持联系"
+    },
+    "header": {
+      "content": "在两个专为任何预算设计的简单定价计划之间进行选择。\n每月从几 GB 扩展到数百 PB。",
+      "preTitle": "CDN 定价",
+      "title": "完全灵活的按需付费 CDN 定价"
+    },
+    "hop": {
+      "list": [
+        {
+          "btn": "",
+          "href": "",
+          "icon": "",
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "href": "",
+          "icon": "",
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "href": "",
+          "icon": "",
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "list[0]": {
+        "btn": "查看定价详情",
+        "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
+        "subTitle": "0.01 美元/GB 起",
+        "title": "高瓦夫存储"
+      },
+      "list[1]": {
+        "btn": "查看定价详情",
+        "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
+        "subTitle": "$9.50 /网站",
+        "title": "高瓦夫优化器"
+      },
+      "list[2]": {
+        "btn": "查看定价详情",
+        "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
+        "subTitle": "0.005 美元/GB 起",
+        "title": "戈瓦夫溪"
+      },
+      "subTitle": "获取将性能和安全性提升到新水平所需的所有工具。",
+      "title": "与 Gowaf 产品一起前进"
+    },
+    "pricingTable": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "btn": "联系销售人员",
+      "content": "每月服务超过 100TB？",
+      "items[0]": {
+        "hint": "欧洲",
+        "text": "0.01 美元/GB"
+      },
+      "items[1]": {
+        "hint": "亚洲",
+        "text": "0.03 美元/GB"
+      },
+      "items[2]": {
+        "hint": "南美洲",
+        "text": "0.045 美元/GB"
+      },
+      "items[3]": {
+        "hint": "中东",
+        "text": "0.06 美元/GB"
+      },
+      "subTitle": "借助基于区域的定价，快速连接全球网络。",
+      "title": "标准网络",
+      "titleEm": "123 个 PoP"
+    },
+    "pricingTable[1]": {
+      "btn": "联系销售人员",
+      "content": "每月服务超过 1PB？",
+      "items[0]": {
+        "hint": "前 500TB",
+        "text": "0.005 美元/GB"
+      },
+      "items[1]": {
+        "hint": "从 500TB-1PB",
+        "text": "0.004 美元/GB"
+      },
+      "items[2]": {
+        "hint": "从 1PB 到 2PB",
+        "text": "0.002 美元/GB"
+      },
+      "items[3]": {
+        "hint": "2PB起",
+        "text": "联系我们"
+      },
+      "subTitle": "以单一全球费率，利用全球最具成本效益的高带宽项目定价。",
+      "title": "卷网络",
+      "titleEm": "10 个 PoP"
+    },
+    "supportPlan": {
+      "content": {
+        "btn": "探索 Gowaf 支持",
+        "content": "需要一个 24/7 随时待命的团队来处理您的关键任务应用程序吗？\n利用我们的企业支持，我们 24/7 全天候为您提供所有查询，而不仅仅是事件和问题。",
+        "list": {
+          "items": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "items[0]": "24/7 可用",
+          "items[1]": "私人 Slack 频道",
+          "items[2]": "专属客户经理",
+          "items[3]": "与开发商直接沟通",
+          "title": "包括什么？"
+        },
+        "title": "随时可用"
+      },
+      "subTitle": "满足您需求的专业支持服务。",
+      "title": "企业支持计划"
+    }
+  },
+  "dns": {
+    "header": {
+      "content": "通过完全灵活且价格惊人的即用即付定价来释放 DNS 的真正威力。",
+      "preTitle": "Gowaf DNS 定价",
+      "title": "只需为您使用的查询付费"
+    },
+    "pricingTable": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "btn": "联系销售人员",
+      "content": "每月服务超过十亿次查询？",
+      "items[0]": {
+        "hint": "标准查询（前 2000 万条）",
+        "text": "自由的"
+      },
+      "items[1]": {
+        "hint": "智能查询（前 100 万条）",
+        "text": "自由的"
+      },
+      "items[2]": {
+        "hint": "标准查询（2000万条后）",
+        "text": "0.1 美元/百万"
+      },
+      "items[3]": {
+        "hint": "智能查询（100万条后）",
+        "text": "0.3 美元/百万"
+      },
+      "subTitle": "简单的即用即付定价和慷慨的免费计划。",
+      "title": "按查询付费。\n无隐藏费用。",
+      "titleEm": ""
+    }
+  },
+  "optimizer": {
+    "header": {
+      "content": "只需点击几下即可减少加载时间并提高转化率，而无需编写任何代码。",
+      "preTitle": "Gowaf 优化器定价",
+      "title": "简单且实惠的定价"
+    },
+    "pricingTable": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "btn": "联系销售人员",
+      "content": "想要优化 20 多个网站？",
+      "items[0]": {
+        "hint": "无限请求",
+        "text": "自由的"
+      },
+      "items[1]": {
+        "hint": "无限变换",
+        "text": "自由的"
+      },
+      "items[2]": {
+        "hint": "无限优化",
+        "text": "自由的"
+      },
+      "items[3]": {
+        "hint": "简单的每月定价",
+        "text": "$9.5/网站"
+      },
+      "subTitle": "无论您的流量和规模如何，每月固定价格。",
+      "title": "适用于任何规模项目的出色解决方案",
+      "titleEm": ""
+    }
+  },
+  "overview": {
+    "header": {
+      "content": "任何规模的简单且实惠的定价。\n每月最低 1 美元。",
+      "preTitle": "高瓦夫定价",
+      "title": "随心所欲地使用。\n现收现付。"
+    },
+    "join1": {
+      "person": {
+        "content": "“找到 Gowaf CDN 就像找到金矿一样！这是真的吗？”",
+        "name": "杰里·卡洛罗索",
+        "title": "OneStudio 首席流媒体官"
+      },
+      "ranks": [
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        }
+      ],
+      "ranks[0]": {
+        "icon": "Network_Overview_mark_logo_1",
+        "score": "4.8"
+      },
+      "ranks[1]": {
+        "icon": "Network_Overview_mark_logo_2",
+        "score": "4.4"
+      },
+      "ranks[2]": {
+        "icon": "Network_Overview_mark_logo_3",
+        "score": "4.8"
+      },
+      "ranks[3]": {
+        "icon": "Network_Overview_mark_logo_4",
+        "score": "4.8"
+      },
+      "subTitle": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "subTitle[0]": "我们被评为",
+      "subTitle[1]": "",
+      "subTitle[2]": "优秀4.8",
+      "subTitle[3]": "满分 5 分",
+      "subTitle[4]": "信任飞行员",
+      "subTitle[5]": "- 基于 600 条评论",
+      "title": "加入超过 40,000 名满意的客户"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "每月仅需 1 美元即可包含所有功能。",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_1.png",
+        "title": "每月最低 1 美元"
+      },
+      "items[1]": {
+        "content": "单击按钮即可启用和禁用区域。",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_2.png",
+        "title": "切换区域开/关"
+      },
+      "items[2]": {
+        "content": "只需为您实际使用的带宽付费。",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_3.png",
+        "title": "无请求费"
+      },
+      "items[3]": {
+        "content": "使用 PayPal、大多数信用卡以及 BTC 付款。",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_4.png",
+        "title": "多种付款方式"
+      },
+      "items[4]": {
+        "content": "使用我们所有独特的功能，无需支付任何额外费用。",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_5.png",
+        "title": "包含所有功能"
+      },
+      "items[5]": {
+        "content": "通过每月带宽限制保护您的帐户。",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_6.png",
+        "title": "过充保护"
+      },
+      "title1": "强大的功能。\n惊人的表现。",
+      "title2": "获得闪电般的快速性能、强大的安全性和无限的可扩展性。\n加快跳跃速度所需的一切。"
+    },
+    "pricingTab": [
+      {
+        "content": [
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          },
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "bottomList": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "bottomList": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          },
+          {
+            "bottomList": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      }
+    ],
+    "pricingTab[0]": {
+      "content[0]": {
+        "btn": "联系销售人员",
+        "content": "每月服务超过 100TB？",
+        "items[0]": {
+          "hint": "欧洲",
+          "text": "0.01 美元/GB"
+        },
+        "items[1]": {
+          "hint": "亚洲",
+          "text": "0.03 美元/GB"
+        },
+        "items[2]": {
+          "hint": "南美洲",
+          "text": "0.045 美元/GB"
+        },
+        "items[3]": {
+          "hint": "中东",
+          "text": "0.06 美元/GB"
+        },
+        "subTitle": "借助基于区域的定价，快速连接全球网络。",
+        "title": "标准网络",
+        "titleEm": "123 个 PoP"
+      },
+      "content[1]": {
+        "btn": "联系销售人员",
+        "content": "每月服务超过 1PB？",
+        "items[0]": {
+          "hint": "前 500TB",
+          "text": "0.005 美元/GB"
+        },
+        "items[1]": {
+          "hint": "从 500TB-1PB",
+          "text": "0.004 美元/GB"
+        },
+        "items[2]": {
+          "hint": "从 1PB 到 2PB",
+          "text": "0.002 美元/GB"
+        },
+        "items[3]": {
+          "hint": "2PB起",
+          "text": "联系我们"
+        },
+        "subTitle": "以单一全球费率，利用全球最具成本效益的高带宽项目定价。",
+        "title": "卷网络",
+        "titleEm": "10 个 PoP"
+      },
+      "header": "Gowaf CDN 定价",
+      "tab": "高瓦夫CDN"
+    },
+    "pricingTab[1]": {
+      "content[0]": {
+        "bottomList[0]": "无保安费",
+        "bottomList[1]": "无转码费用",
+        "bottomList[2]": "附送免费紫菜",
+        "bottomList[3]": "分布式视频存储",
+        "bottomList[4]": "150 Tbps 主干网",
+        "bottomList[5]": "* 转录按每种语言每分钟付费。",
+        "btn": "联系销售人员",
+        "content": "Servina 每月超过 40TB？",
+        "items[0]": {
+          "hint": "转码",
+          "text": "自由的"
+        },
+        "items[1]": {
+          "hint": "抄写",
+          "text": "0.1 美元/分钟*"
+        },
+        "items[2]": {
+          "hint": "贮存",
+          "text": "0.01 美元/GB"
+        },
+        "items[3]": {
+          "hint": "CDN",
+          "text": "0.005 美元/GB"
+        },
+        "subTitle": "视频播放器、转码和安全功能都是免费的。",
+        "title": "简化定价。\n成本降低多达 10 倍。",
+        "titleEm": ""
+      },
+      "header": "Gowaf 流定价",
+      "tab": "戈瓦夫溪"
+    },
+    "pricingTab[2]": {
+      "content[0]": {
+        "bottomList[0]": "真正的随用随付",
+        "bottomList[1]": "每月最低 1 美元",
+        "bottomList[2]": "Bunny CDN 免费流量",
+        "bottomList[3]": "无 API 费用",
+        "bottomList[4]": "免费 API 出口",
+        "btn": "联系销售人员",
+        "content": "每月存储超过 50TB？",
+        "items[0]": {
+          "hint": "单一区域",
+          "text": "0.01 美元/GB"
+        },
+        "items[1]": {
+          "hint": "两个地区",
+          "text": "0.02 美元/GB"
+        },
+        "items[2]": {
+          "hint": "三个区域",
+          "text": "0.025 美元/GB"
+        },
+        "items[3]": {
+          "hint": "每个附加区域",
+          "text": "0.005 美元/GB"
+        },
+        "subTitle": "每个存储区域 0.01 USD/GB，最多两个区域。\n每个附加区域 0.005 USD/GB。\n最多 9 个区域。",
+        "title": "标准层",
+        "titleEm": "硬盘"
+      },
+      "content[1]": {
+        "bottomList[0]": "真正的随用随付",
+        "bottomList[1]": "每月最低 1 美元",
+        "bottomList[2]": "Bunny CDN 免费流量",
+        "bottomList[3]": "无 API 费用",
+        "bottomList[4]": "免费 API 出口",
+        "btn": "联系销售人员",
+        "content": "每月存储超过 50TB？",
+        "items[0]": {
+          "hint": "单一区域",
+          "text": "0.02 美元/GB"
+        },
+        "items[1]": {
+          "hint": "每个附加区域",
+          "text": "0.02 美元/GB"
+        },
+        "subTitle": "每个存储区域 0.02 USD/GB。\n最多 15 个区域。",
+        "title": "边缘层",
+        "titleEm": "固态硬盘"
+      },
+      "header": "Gowaf 存储定价",
+      "tab": "高瓦夫存储"
+    },
+    "pricingTab[3]": {
+      "content[0]": {
+        "btn": "联系销售人员",
+        "content": "想要优化 20 多个网站？",
+        "items[0]": {
+          "hint": "无限请求",
+          "text": "自由的"
+        },
+        "items[1]": {
+          "hint": "无限变换",
+          "text": "自由的"
+        },
+        "items[2]": {
+          "hint": "无限优化",
+          "text": "自由的"
+        },
+        "items[3]": {
+          "hint": "简单的每月定价",
+          "text": "$9.5/网站"
+        },
+        "subTitle": "无论您的流量和规模如何，每月固定价格。",
+        "title": "适用于任何规模项目的出色解决方案",
+        "titleEm": ""
+      },
+      "header": "Gowaf 优化器定价",
+      "tab": "高瓦夫优化器"
+    },
+    "pricingTab[4]": {
+      "content[0]": {
+        "btn": "联系销售人员",
+        "content": "每月服务超过十亿次查询？",
+        "items[0]": {
+          "hint": "标准查询（前 2000 万条）",
+          "text": "自由的"
+        },
+        "items[1]": {
+          "hint": "智能查询（前 100 万条）",
+          "text": "自由的"
+        },
+        "items[2]": {
+          "hint": "标准查询（2000万条后）",
+          "text": "0.1 美元/百万"
+        },
+        "items[3]": {
+          "hint": "智能查询（100万条后）",
+          "text": "0.3 美元/百万"
+        },
+        "subTitle": "简单的即用即付定价和慷慨的免费计划。",
+        "title": "按查询付费。\n无隐藏费用。",
+        "titleEm": ""
+      },
+      "header": "Gowaf DNS 定价",
+      "tab": "戈瓦夫域名系统"
+    },
+    "saveMoney": {
+      "hint": "性能基于 CDNPerf 提供的独立真实用户数据以及 2022 年 7 月上市的公共提供商的定价。",
+      "list": [
+        {
+          "items": [
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            }
+          ],
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "items": [
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            }
+          ],
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "list[0]": {
+        "items[0]": {
+          "label": "戈瓦夫",
+          "value": "50 美元",
+          "width": "21.25%"
+        },
+        "items[1]": {
+          "label": "CDN77",
+          "value": "165 美元",
+          "width": "31.875%"
+        },
+        "items[2]": {
+          "label": "堆栈路径",
+          "value": "170 美元",
+          "width": "35%"
+        },
+        "items[3]": {
+          "label": "密钥CDN",
+          "value": "200 美元",
+          "width": "38.125%"
+        },
+        "items[4]": {
+          "label": "云锋",
+          "value": "425 美元",
+          "width": "77.5%"
+        },
+        "items[5]": {
+          "label": "快速",
+          "value": "600 美元",
+          "width": "90%"
+        },
+        "subTitle": "（欧洲",
+        "title": "5 TB 价格"
+      },
+      "list[1]": {
+        "items[0]": {
+          "label": "戈瓦夫",
+          "value": "24 毫秒",
+          "width": "21.25%"
+        },
+        "items[1]": {
+          "label": "CDN77",
+          "value": "31毫秒",
+          "width": "31.875%"
+        },
+        "items[2]": {
+          "label": "堆栈路径",
+          "value": "36毫秒",
+          "width": "35%"
+        },
+        "items[3]": {
+          "label": "密钥CDN",
+          "value": "39 毫秒",
+          "width": "38.125%"
+        },
+        "items[4]": {
+          "label": "云锋",
+          "value": "27 毫秒",
+          "width": "77.5%"
+        },
+        "items[5]": {
+          "label": "快速",
+          "value": "29毫秒",
+          "width": "90%"
+        },
+        "subTitle": "（全球中位数 - 越低越好）",
+        "title": "全球平均表现"
+      },
+      "subTitle": "性能已融入我们的 DNA。\n速度是我们的激情。\n实惠的价格只是一个福利。",
+      "title": "存钱。\n走快点。"
+    }
+  },
+  "storage": {
+    "header": {
+      "content": "将您的成本降至最低。\n永远不要牺牲性能。\n无需做出任何承诺。",
+      "preTitle": "Gowaf 存储定价",
+      "title": "令人惊讶的实惠"
+    },
+    "map": {
+      "subTitle": "当您需要时，将您的内容存储在您需要的地方，以获得最佳性能和合规性。",
+      "title": "全球观众。\n全局存储。"
+    },
+    "pricingTable": [
+      {
+        "bottomList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      },
+      {
+        "bottomList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "bottomList[0]": "真正的随用随付",
+      "bottomList[1]": "每月最低 1 美元",
+      "bottomList[2]": "Bunny CDN 免费流量",
+      "bottomList[3]": "无 API 费用",
+      "bottomList[4]": "免费 API 出口",
+      "btn": "联系销售人员",
+      "content": "每月存储超过 50TB？",
+      "items[0]": {
+        "hint": "单一区域",
+        "text": "0.01 美元/GB"
+      },
+      "items[1]": {
+        "hint": "两个地区",
+        "text": "0.02 美元/GB"
+      },
+      "items[2]": {
+        "hint": "三个区域",
+        "text": "0.025 美元/GB"
+      },
+      "items[3]": {
+        "hint": "每个附加区域",
+        "text": "0.005 美元/GB"
+      },
+      "subTitle": "每个存储区域 0.01 USD/GB，最多两个区域。\n每个附加区域 0.005 USD/GB。\n最多 9 个区域。",
+      "title": "标准层",
+      "titleEm": "硬盘"
+    },
+    "pricingTable[1]": {
+      "bottomList[0]": "真正的随用随付",
+      "bottomList[1]": "每月最低 1 美元",
+      "bottomList[2]": "Bunny CDN 免费流量",
+      "bottomList[3]": "无 API 费用",
+      "bottomList[4]": "免费 API 出口",
+      "btn": "联系销售人员",
+      "content": "每月存储超过 50TB？",
+      "items[0]": {
+        "hint": "单一区域",
+        "text": "0.02 美元/GB"
+      },
+      "items[1]": {
+        "hint": "每个附加区域",
+        "text": "0.02 美元/GB"
+      },
+      "subTitle": "每个存储区域 0.02 USD/GB。\n最多 15 个区域。",
+      "title": "边缘层",
+      "titleEm": "固态硬盘"
+    }
+  },
+  "stream": {
+    "header": {
+      "content": "完全免费使用视频播放器、转码和所有安全功能。\n只需为您使用的流量付费！",
+      "preTitle": "Gowaf 流定价",
+      "title": "简化定价。\n成本降低多达 10 倍。"
+    },
+    "tables": [
+      {
+        "items": [
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          }
+        ],
+        "items2": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          }
+        ],
+        "items2": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "title": ""
+      }
+    ],
+    "tables[0]": {
+      "items2[0]": "昂贵的转码费用",
+      "items2[1]": "引入并集成您自己的外部播放器",
+      "items2[2]": "复杂的集成需要额外费用",
+      "items2[3]": "集中存储容易出现瓶颈",
+      "items[0]": {
+        "hint": "编码",
+        "title": "0.02 美元/分钟"
+      },
+      "items[1]": {
+        "hint": "贮存",
+        "title": "0.02 美元/GB 起"
+      },
+      "items[2]": {
+        "hint": "CDN",
+        "title": "0.085 美元/GB 起"
+      },
+      "title": "传统云提供商"
+    },
+    "tables[1]": {
+      "items2[0]": "无保安费",
+      "items2[1]": "无转码费用",
+      "items2[2]": "包括免费播放器",
+      "items2[3]": "分布式视频存储",
+      "items2[4]": "150 Tbps 主干网的极致性能",
+      "items[0]": {
+        "hint": "编码",
+        "title": "自由的"
+      },
+      "items[1]": {
+        "hint": "贮存",
+        "title": "0.01 美元/GB 起"
+      },
+      "items[2]": {
+        "hint": "CDN",
+        "title": "0.005 美元/GB 起"
+      },
+      "title": "兔子流"
+    }
+  }
 }

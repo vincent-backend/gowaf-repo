@@ -1,240 +1,240 @@
 {
-	"footer1": {
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"footer2": {
-		"copyright": "",
-		"hotlinks": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"hotlinks[0]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[1]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[2]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[3]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[4]": {
-			"label": "",
-			"link": ""
-		},
-		"links": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"links[0]": {
-			"label": "",
-			"link": ""
-		},
-		"links[1]": {
-			"label": "",
-			"link": ""
-		},
-		"links[2]": {
-			"label": "",
-			"link": ""
-		},
-		"links[3]": {
-			"label": ""
-		},
-		"links[4]": {
-			"label": ""
-		},
-		"section1Content": "",
-		"section1Title": "",
-		"section2Content": "",
-		"section2Title": "",
-		"section3": "",
-		"shortcuts": [
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			}
-		],
-		"shortcuts[0]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"href": "",
-				"label": ""
-			},
-			"items[4]": {
-				"href": "",
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[1]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[2]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		}
-	}
+  "footer1": {
+    "btn": "Commencer l'essai gratuit",
+    "content": "Boostez vos applications Web et prenez une longueur d'avance sur la concurrence.",
+    "hint": "Aucune carte de crédit requise – Complétez l’inscription en moins de 2 minutes.",
+    "title": "Commencez votre essai gratuit de 14 jours"
+  },
+  "footer2": {
+    "copyright": "2024 Tous droits réservés © Gowaf Way d.o.o.",
+    "hotlinks": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "hotlinks[0]": {
+      "label": "À propos de nous",
+      "link": "/ressources/à propos"
+    },
+    "hotlinks[1]": {
+      "label": "Blog Gowaf",
+      "link": "/ressources/blog"
+    },
+    "hotlinks[2]": {
+      "label": "Carrières chez Gowaf",
+      "link": "/ressources/carrières"
+    },
+    "hotlinks[3]": {
+      "label": "Études de cas",
+      "link": "/ressources/caseStudiesDétails"
+    },
+    "hotlinks[4]": {
+      "label": "Programme d'affiliation",
+      "link": "/Programme d'affiliation"
+    },
+    "links": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "links[0]": {
+      "label": "Conditions d'utilisation",
+      "link": ""
+    },
+    "links[1]": {
+      "label": "Utilisation acceptable",
+      "link": ""
+    },
+    "links[2]": {
+      "label": "RGPD",
+      "link": ""
+    },
+    "links[3]": {
+      "label": "Confidentialité"
+    },
+    "links[4]": {
+      "label": "Signaler un abus"
+    },
+    "section1Content": "Vous travaillez sur un gros projet ?  \nLaissez nos experts vous aider.",
+    "section1Title": "Gros trafic ? \nParlez aux ventes",
+    "section2Content": "Suivez-nous sur les réseaux sociaux pour des promotions spéciales et des nouvelles importantes.",
+    "section2Title": "Restez à jour avec Gowaf",
+    "section3": "Rendre Internet plus rapide !",
+    "shortcuts": [
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      }
+    ],
+    "shortcuts[0]": {
+      "items[0]": {
+        "href": "/Produits/Canada/Vue d'ensemble",
+        "label": "Gowaf CDN"
+      },
+      "items[1]": {
+        "href": "/Produits/optimiseur/Présentation",
+        "label": "Optimiseur Gowaf"
+      },
+      "items[2]": {
+        "href": "/Produits/Stockage/Asie",
+        "label": "Stockage Gowaf"
+      },
+      "items[3]": {
+        "href": "/Produits/Stream/Vue d'ensemble",
+        "label": "Flux Gowaf"
+      },
+      "items[4]": {
+        "href": "/Produits/Canada/Vue d'ensemble",
+        "label": "DNS Gowaf"
+      },
+      "title": "Des produits"
+    },
+    "shortcuts[1]": {
+      "items[0]": {
+        "href": "/Réseau/Vue d'ensemble",
+        "label": "Carte du réseau"
+      },
+      "items[1]": {
+        "href": "/Produits/CAN/Caractéristiques",
+        "label": "Caractéristiques de Gowaf"
+      },
+      "items[2]": {
+        "href": "/Réseau/Outils",
+        "label": "Outils réseau"
+      },
+      "items[3]": {
+        "label": "Centre des développeurs"
+      },
+      "items[4]": {
+        "label": "Documentation API"
+      },
+      "title": "Développeurs"
+    },
+    "shortcuts[2]": {
+      "items[0]": {
+        "href": "/SLA",
+        "label": "ANS"
+      },
+      "items[1]": {
+        "href": "/SupportHUB",
+        "label": "Centre d'assistance"
+      },
+      "items[2]": {
+        "href": "/Réunion de livres",
+        "label": "Super Lapins™"
+      },
+      "items[3]": {
+        "label": "État du service"
+      },
+      "items[4]": {
+        "label": "✉hello@bunny.net"
+      },
+      "title": "Soutien"
+    }
+  }
 }

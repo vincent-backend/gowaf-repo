@@ -1,1997 +1,1997 @@
 {
-	"breadCrumbs": {
-		"ddosProtection": "DDoS Protection",
-		"DiagnosticReport": "Diagnostic Report",
-		"DNSLookur": "DNS Lookur",
-		"HTTPTest": "HTTP Test",
-		"LatencyTest": "Latency Test",
-		"OtherTools": "Other Tools",
-		"overview": "",
-		"parent": "",
-		"smartEdge": "",
-		"Traceroute": "",
-		"WebTools": ""
-	},
-	"ddos": {
-		"alwaysSafe": {
-			"rows": [
-				[
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					},
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					}
-				],
-				[
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					},
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					}
-				]
-			],
-			"rows[0][0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rows[0][1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rows[1][0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rows[1][1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"doNotLeave": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[1]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"protectAtEdge": {
-			"items": [
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"items[0]": "",
-			"items[1]": "",
-			"items[2]": "",
-			"items[3]": "",
-			"items[4]": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"stayProtectAlways": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"overview": {
-		"bennerTextList": [
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			},
-			{
-				"icon": "",
-				"name": "",
-				"num": ""
-			}
-		],
-		"bennerTextList[0]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[1]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[2]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[3]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[4]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"bennerTextList[5]": {
-			"icon": "",
-			"name": "",
-			"num": ""
-		},
-		"flags": {
-			"groups": [
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				},
-				{
-					"icon": "",
-					"items": [
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						},
-						{
-							"img": "",
-							"label": ""
-						}
-					],
-					"region": ""
-				}
-			],
-			"groups[0]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"items[16]": {
-					"img": "",
-					"label": ""
-				},
-				"items[17]": {
-					"img": "",
-					"label": ""
-				},
-				"items[18]": {
-					"img": "",
-					"label": ""
-				},
-				"items[19]": {
-					"img": "",
-					"label": ""
-				},
-				"items[20]": {
-					"img": "",
-					"label": ""
-				},
-				"items[21]": {
-					"img": "",
-					"label": ""
-				},
-				"items[22]": {
-					"img": "",
-					"label": ""
-				},
-				"items[23]": {
-					"img": "",
-					"label": ""
-				},
-				"items[24]": {
-					"img": "",
-					"label": ""
-				},
-				"items[25]": {
-					"img": "",
-					"label": ""
-				},
-				"items[26]": {
-					"img": "",
-					"label": ""
-				},
-				"items[27]": {
-					"img": "",
-					"label": ""
-				},
-				"items[28]": {
-					"img": "",
-					"label": ""
-				},
-				"items[29]": {
-					"img": "",
-					"label": ""
-				},
-				"items[30]": {
-					"img": "",
-					"label": ""
-				},
-				"items[31]": {
-					"img": "",
-					"label": ""
-				},
-				"items[32]": {
-					"img": "",
-					"label": ""
-				},
-				"items[33]": {
-					"img": "",
-					"label": ""
-				},
-				"items[34]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[1]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[2]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[3]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"items[16]": {
-					"img": "",
-					"label": ""
-				},
-				"items[17]": {
-					"img": "",
-					"label": ""
-				},
-				"items[18]": {
-					"img": "",
-					"label": ""
-				},
-				"items[19]": {
-					"img": "",
-					"label": ""
-				},
-				"items[20]": {
-					"img": "",
-					"label": ""
-				},
-				"items[21]": {
-					"img": "",
-					"label": ""
-				},
-				"items[22]": {
-					"img": "",
-					"label": ""
-				},
-				"items[23]": {
-					"img": "",
-					"label": ""
-				},
-				"items[24]": {
-					"img": "",
-					"label": ""
-				},
-				"items[25]": {
-					"img": "",
-					"label": ""
-				},
-				"items[26]": {
-					"img": "",
-					"label": ""
-				},
-				"items[27]": {
-					"img": "",
-					"label": ""
-				},
-				"items[28]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[4]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"items[12]": {
-					"img": "",
-					"label": ""
-				},
-				"items[13]": {
-					"img": "",
-					"label": ""
-				},
-				"items[14]": {
-					"img": "",
-					"label": ""
-				},
-				"items[15]": {
-					"img": "",
-					"label": ""
-				},
-				"items[16]": {
-					"img": "",
-					"label": ""
-				},
-				"items[17]": {
-					"img": "",
-					"label": ""
-				},
-				"items[18]": {
-					"img": "",
-					"label": ""
-				},
-				"items[19]": {
-					"img": "",
-					"label": ""
-				},
-				"items[20]": {
-					"img": "",
-					"label": ""
-				},
-				"items[21]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"groups[5]": {
-				"icon": "",
-				"items[0]": {
-					"img": "",
-					"label": ""
-				},
-				"items[1]": {
-					"img": "",
-					"label": ""
-				},
-				"items[2]": {
-					"img": "",
-					"label": ""
-				},
-				"items[3]": {
-					"img": "",
-					"label": ""
-				},
-				"items[4]": {
-					"img": "",
-					"label": ""
-				},
-				"items[5]": {
-					"img": "",
-					"label": ""
-				},
-				"items[6]": {
-					"img": "",
-					"label": ""
-				},
-				"items[7]": {
-					"img": "",
-					"label": ""
-				},
-				"items[8]": {
-					"img": "",
-					"label": ""
-				},
-				"items[9]": {
-					"img": "",
-					"label": ""
-				},
-				"items[10]": {
-					"img": "",
-					"label": ""
-				},
-				"items[11]": {
-					"img": "",
-					"label": ""
-				},
-				"region": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"goFaster": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[1]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[3]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[4]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[5]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"hop": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"ranks": [
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				}
-			],
-			"ranks[0]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[1]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[2]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[3]": {
-				"icon": "",
-				"score": ""
-			},
-			"subTitle": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"subTitle[0]": "",
-			"subTitle[1]": "",
-			"subTitle[2]": "",
-			"subTitle[3]": "",
-			"subTitle[4]": "",
-			"subTitle[5]": "",
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"tabs": [
-			"",
-			"",
-			""
-		],
-		"tabs[0]": "",
-		"tabs[1]": "",
-		"tabs[2]": "",
-		"title0": "",
-		"title1": "",
-		"title2": ""
-	},
-	"smartEdge": {
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"maxPerformance": {
-			"content": "",
-			"numberHint1": "",
-			"numberHint2": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"onProblem": {
-			"content": "",
-			"title": ""
-		},
-		"yourNeeds": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"mIcon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"mIcon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"mIcon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"mIcon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"mIcon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"mIcon": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"WebTools": {
-		"bennerSubTitle": "",
-		"bennerTitle": "",
-		"DiagnosticReport": {
-			"btn": "",
-			"neverHit": {
-				"items": [
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					}
-				],
-				"items[0]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[1]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[2]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[3]": {
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"DNSLookur": {
-			"subtitle": "",
-			"title": ""
-		},
-		"neverHit": {
-			"items": [
-				{
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			],
-			"items[0]": {
-				"alignType": "",
-				"btn": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"items[1]": {
-				"alignType": "",
-				"btn": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"items[2]": {
-				"alignType": "",
-				"btn": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"OtherTools": {
-			"neverHit": {
-				"items": [
-					{
-						"alignType": "",
-						"btn": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					},
-					{
-						"alignType": "",
-						"btn": "",
-						"content": "",
-						"contentAlign": "",
-						"height": "",
-						"icon": "",
-						"title": "",
-						"width": ""
-					}
-				],
-				"items[0]": {
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				"items[1]": {
-					"alignType": "",
-					"btn": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"Traceroute": {
-			"article1": [
-				{
-					"content": [
-						""
-					],
-					"title": ""
-				},
-				{
-					"content": [
-						"",
-						""
-					],
-					"title": ""
-				}
-			],
-			"article1[0]": {
-				"content[0]": "",
-				"title": ""
-			},
-			"article1[1]": {
-				"content[0]": "",
-				"content[1]": "",
-				"title": ""
-			},
-			"article2": [
-				{
-					"content": [
-						""
-					],
-					"title": ""
-				},
-				{
-					"content": [
-						"",
-						""
-					],
-					"title": ""
-				}
-			],
-			"article2[0]": {
-				"content[0]": "",
-				"title": ""
-			},
-			"article2[1]": {
-				"content[0]": "",
-				"content[1]": "",
-				"title": ""
-			},
-			"Average": "",
-			"Best": "",
-			"Host": "",
-			"PacketLoss": "",
-			"title": "",
-			"Worst": ""
-		}
-	}
+  "breadCrumbs": {
+    "ddosProtection": "DDoS Protection",
+    "DiagnosticReport": "Diagnostic Report",
+    "DNSLookur": "DNS Lookur",
+    "HTTPTest": "HTTP Test",
+    "LatencyTest": "Latency Test",
+    "OtherTools": "Other Tools",
+    "overview": "Panoramica",
+    "parent": "Rete",
+    "smartEdge": "SmartEdge™",
+    "Traceroute": "Traceroute",
+    "WebTools": "Strumenti Web"
+  },
+  "ddos": {
+    "alwaysSafe": {
+      "rows": [
+        [
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          },
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          }
+        ],
+        [
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          },
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          }
+        ]
+      ],
+      "rows[0][0]": {
+        "content": "Il sistema monitora e rileva continuamente eventuali modelli di traffico anomali.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Detection@2x.png",
+        "title": "Rilevamento"
+      },
+      "rows[0][1]": {
+        "content": "Hardware e software dedicati per il filtraggio DoS bloccano il traffico dannoso.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Filtering@2x.png",
+        "title": "Filtraggio"
+      },
+      "rows[1][0]": {
+        "content": "Il routing è ottimizzato e guidato nei nostri data center per assorbire il traffico.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Routing@2x.png",
+        "title": "Instradamento"
+      },
+      "rows[1][1]": {
+        "content": "I registri degli attacchi vengono analizzati per migliorare la mitigazione e la sicurezza future.",
+        "icon": "/images/network/ddos/Network_DDoS_ic_Post@2x.png",
+        "title": "Post-analisi"
+      },
+      "subTitle": "Rimani protetto con il sistema di mitigazione DDoS Gowaf che rileva e previene gli attacchi in meno di 10 secondi.",
+      "title": "Sempre al sicuro. \nSempre acceso."
+    },
+    "doNotLeave": {
+      "subTitle": "Rimani protetto 24 ore su 24, 7 giorni su 7 e non cadere mai più",
+      "tabs": [
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "content": "Sali sulla nostra dorsale di rete da 150 Tbps e non preoccuparti mai più di andare giù. \nLa nostra rete globale può assorbire attacchi di qualsiasi dimensione e fermarli prima che raggiungano il tuo server. \nRimani protetto e concentrati su ciò che sai fare meglio, mentre noi ci assicuriamo che tu rimanga online.",
+        "icon": "/images/network/ddos/Network_DDoS_banner_graph_3@2x.png",
+        "iconHeight": "288px",
+        "iconWidth": "384px",
+        "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_3@2x.png",
+        "mIconHeight": "18rem",
+        "mIconWidth": "24rem",
+        "tab": "Rete da 150 Tbps",
+        "title": "Enorme backbone di rete per un uptime del 100%."
+      },
+      "tabs[1]": {
+        "content": "Non preoccuparti mai più delle minacce grazie a un sistema automatico di monitoraggio e avviso in tempo reale. \nOttieni una visibilità completa sulla tua sicurezza per rimanere al sicuro e impedire agli aggressori di raggiungere i tuoi server. \nTi aiutiamo con il rilevamento in modo che tu non abbia mai bisogno della cura.",
+        "icon": "/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+        "iconHeight": "294px",
+        "iconWidth": "294px",
+        "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_mil@2x.png",
+        "mIconHeight": "18.38rem",
+        "mIconWidth": "18.38rem",
+        "tab": "mil Monitoraggio in tempo reale",
+        "title": "Viaggia più agevolmente con il monitoraggio delle minacce in tempo reale"
+      },
+      "tabs[2]": {
+        "content": "Mantieni Internet più amichevole bloccando i caricamenti inappropriati con il filtraggio dei caricamenti smart edge basato sull'apprendimento automatico e un elenco di blocchi in tempo reale. \nTi aiutiamo a controllare i caricamenti dannosi, offensivi e inappropriati degli utenti, in modo da non dover perdere tempo a rimuoverli.",
+        "icon": "/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+        "iconHeight": "279px",
+        "iconWidth": "334px",
+        "mIcon": "/mobile-images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png",
+        "mIconHeight": "17.44rem",
+        "mIconWidth": "20.88rem",
+        "tab": "Protezione caricamento",
+        "title": "Blocca i contenuti inappropriati e contribuisci a mantenere Internet sicuro"
+      },
+      "title": "Non lasciare i tempi di attività al caso"
+    },
+    "header": {
+      "btn": "Inizia la prova GRATUITA di 14 giorni",
+      "content": "Proteggi il tuo sito web dagli attacchi DDoS. \nGarantisci tempi di attività impeccabili e non scendere mai più. \nCi occupiamo della protezione DDoS così tu puoi concentrarti sul tuo prodotto!",
+      "hint": "Non è necessaria la carta di credito. \nInizia in pochi secondi.",
+      "preTitle": "Protezione DDoS",
+      "title": "Protezione DDoS di serie"
+    },
+    "join1": {
+      "person": {
+        "content": "\"Gowaf è facile da usare, offre prezzi competitivi e un eccellente rapporto qualità-prezzo. La tecnologia è super efficiente e nuove funzionalità vengono introdotte ogni mese. Incentrato sul cliente e offre una serie di opportunità di crescita per i clienti.\"",
+        "name": "Periklis",
+        "title": "VitrinaBox, ingegnere software senior"
+      },
+      "title": "Unisciti agli oltre 40.000 clienti che già ripongono la loro fiducia in Gowaf"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "Dorsale di rete",
+      "label": "150 Tbps"
+    },
+    "numbers[1]": {
+      "content": "Richieste al secondo",
+      "label": "650.000"
+    },
+    "numbers[2]": {
+      "content": "PoP globali",
+      "label": "123"
+    },
+    "numbers[3]": {
+      "content": "Clienti soddisfatti",
+      "label": "40.000"
+    },
+    "protectAtEdge": {
+      "items": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "items[0]": "Inondazione dell'UDP",
+      "items[1]": "Inondazione dell'ICMP",
+      "items[2]": "Amplificazione NTP",
+      "items[3]": "Amplificazione DNS",
+      "items[4]": "SYN Alluvione",
+      "subTitle": "Rimani protetto in ogni momento mitigando gli attacchi prima che raggiungano i tuoi server, grazie a Edge AI.",
+      "title": "Protezione DDoS ai margini della rete"
+    },
+    "stayProtectAlways": {
+      "btn": "Inizia la prova GRATUITA di 14 giorni",
+      "subTitle": "Rimani concentrato sul tuo prodotto e lascia che noi ci prendiamo cura della tua sicurezza.",
+      "title": "Rimani protetto. \nSempre!"
+    }
+  },
+  "overview": {
+    "bennerTextList": [
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      },
+      {
+        "icon": "",
+        "name": "",
+        "num": ""
+      }
+    ],
+    "bennerTextList[0]": {
+      "icon": "icona-blu",
+      "name": "Europa",
+      "num": "35"
+    },
+    "bennerTextList[1]": {
+      "icon": "icona-cianogeno",
+      "name": "LATAM",
+      "num": "16"
+    },
+    "bennerTextList[2]": {
+      "icon": "icona-arancione",
+      "name": "Oceania",
+      "num": "7"
+    },
+    "bennerTextList[3]": {
+      "icon": "icona-verde",
+      "name": "Asia",
+      "num": "29"
+    },
+    "bennerTextList[4]": {
+      "icon": "icona-giallo",
+      "name": "Nord America",
+      "num": "22"
+    },
+    "bennerTextList[5]": {
+      "icon": "icona-rosa",
+      "name": "Medio Oriente",
+      "num": "12"
+    },
+    "flags": {
+      "groups": [
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        },
+        {
+          "icon": "",
+          "items": [
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            },
+            {
+              "img": "",
+              "label": ""
+            }
+          ],
+          "region": ""
+        }
+      ],
+      "groups[0]": {
+        "icon": "Network_Overview_banner_node_Europe",
+        "items[0]": {
+          "img": "Network_Overview_Europa_ch",
+          "label": "Zurigo"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Europe_nl",
+          "label": "Amsterdam"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Europa_gr",
+          "label": "Atene"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Europe_rs",
+          "label": "Belgrado"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Europe_de",
+          "label": "Berlino"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Europa_BEL",
+          "label": "Bruxelles"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Europe_hu",
+          "label": "Budapest"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Europe_ro",
+          "label": "Bucarest"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Europa_md",
+          "label": "Chisinau"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Europe_dk",
+          "label": "Copenaghen"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Europe_ie",
+          "label": "Dublino"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Europe_de",
+          "label": "Francoforte"
+        },
+        "items[12]": {
+          "img": "Network_Overview_Europe_de",
+          "label": "Francoforte 2"
+        },
+        "items[13]": {
+          "img": "Network_Overview_Europe_fi",
+          "label": "Helsinki"
+        },
+        "items[14]": {
+          "img": "Network_Overview_Europa_is",
+          "label": "Keflavík"
+        },
+        "items[15]": {
+          "img": "Network_Overview_Europe_ua",
+          "label": "Kiev"
+        },
+        "items[16]": {
+          "img": "Network_Overview_Europa_pt",
+          "label": "Lisbona"
+        },
+        "items[17]": {
+          "img": "Network_Overview_Europa_si",
+          "label": "Lubiana"
+        },
+        "items[18]": {
+          "img": "Network_Overview_Europe_gb",
+          "label": "Londra"
+        },
+        "items[19]": {
+          "img": "Network_Overview_Europe_lu",
+          "label": "Lussemburgo"
+        },
+        "items[20]": {
+          "img": "Network_Overview_Europe_es",
+          "label": "Madrid"
+        },
+        "items[21]": {
+          "img": "Network_Overview_Europe_fr",
+          "label": "Marsiglia"
+        },
+        "items[22]": {
+          "img": "Network_Overview_Europe_fr",
+          "label": "Milano"
+        },
+        "items[23]": {
+          "img": "Network_Overview_Europe_ru",
+          "label": "Mosca"
+        },
+        "items[24]": {
+          "img": "Network_Overview_Europe_ba",
+          "label": "Novi Travnik"
+        },
+        "items[25]": {
+          "img": "Network_Overview_Europa_no",
+          "label": "Oslo"
+        },
+        "items[26]": {
+          "img": "Network_Overview_Europe_fr",
+          "label": "Parigi"
+        },
+        "items[27]": {
+          "img": "Network_Overview_Europe_cz",
+          "label": "Praga"
+        },
+        "items[28]": {
+          "img": "Network_Overview_Europa_lv",
+          "label": "Riga"
+        },
+        "items[29]": {
+          "img": "Network_Overview_Europe_bg",
+          "label": "Sofia"
+        },
+        "items[30]": {
+          "img": "Network_Overview_Europe_se",
+          "label": "Stoccolma"
+        },
+        "items[31]": {
+          "img": "Network_Overview_Europe_at",
+          "label": "Vienna"
+        },
+        "items[32]": {
+          "img": "Network_Overview_Europa_lt",
+          "label": "Vilnius"
+        },
+        "items[33]": {
+          "img": "Network_Overview_Europe_pl",
+          "label": "Varsavia"
+        },
+        "items[34]": {
+          "img": "Network_Overview_Europe_hr",
+          "label": "Zagabria"
+        },
+        "region": "Europa (35)"
+      },
+      "groups[1]": {
+        "icon": "Network_Overview_banner_node_LATAM",
+        "items[0]": {
+          "img": "Network_Overview_Latam_co",
+          "label": "Bogotà"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Latam_ar",
+          "label": "Buenos Aires"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "Curitiba"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "Fortaleza"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Latam_gt",
+          "label": "Guatemala"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Latam_bo",
+          "label": "La Pace"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Latam_pe",
+          "label": "Lima"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Latam_mx",
+          "label": "città del Messico"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "Porto Alegre"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "Rio de Janeiro"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "Salvatore"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Latam_pr",
+          "label": "San Giovanni"
+        },
+        "items[12]": {
+          "img": "Network_Overview_Latam_cr",
+          "label": "San Pedro"
+        },
+        "items[13]": {
+          "img": "Network_Overview_Latam_cl",
+          "label": "Santiago"
+        },
+        "items[14]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "San Paolo"
+        },
+        "items[15]": {
+          "img": "Network_Overview_Latam_br",
+          "label": "San Paolo 2"
+        },
+        "region": "LATAM (16)"
+      },
+      "groups[2]": {
+        "icon": "Network_Overview_banner_node_Oceania",
+        "items[0]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "Adelaide"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "Auckland"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "Brisbane"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Oceania_us",
+          "label": "Hagatna"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "Melbourne"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "Perth"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Oceania_au",
+          "label": "Sydney"
+        },
+        "region": "Oceania (7)"
+      },
+      "groups[3]": {
+        "icon": "Network_Overview_banner_node_Asia",
+        "items[0]": {
+          "img": "Network_Overview_Aaia_kz",
+          "label": "AlmatyAlmaty"
+        },
+        "items[1]": {
+          "img": "Network_Overview_Aaia_az",
+          "label": "Baku"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Aaia_th",
+          "label": "Bangkok"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "Bangalore"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "Chennai"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Aaia_bd",
+          "label": "DaccaDacca"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Aaia_hk",
+          "label": "Hong Kong"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Aaia_vn",
+          "label": "Ho Chi Minh"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Aaia_tr",
+          "label": "Istanbul"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Aaia_id",
+          "label": "Giakarta"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Aaia_pk",
+          "label": "Karachi"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Aaia_np",
+          "label": "Katmandu"
+        },
+        "items[12]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "Calcutta"
+        },
+        "items[13]": {
+          "img": "Network_Overview_Aaia_my",
+          "label": "Kuala Lumpur"
+        },
+        "items[14]": {
+          "img": "Network_Overview_Aaia_ph",
+          "label": "manila"
+        },
+        "items[15]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "Bombay"
+        },
+        "items[16]": {
+          "img": "Network_Overview_Aaia_cy",
+          "label": "Nicosia"
+        },
+        "items[17]": {
+          "img": "Network_Overview_Aaia_in",
+          "label": "Nuova Delhi"
+        },
+        "items[18]": {
+          "img": "Network_Overview_Aaia_jp",
+          "label": "Osaka"
+        },
+        "items[19]": {
+          "img": "Network_Overview_Aaia_kh",
+          "label": "Phnom Penh"
+        },
+        "items[20]": {
+          "img": "Network_Overview_Aaia_kr",
+          "label": "Seul"
+        },
+        "items[21]": {
+          "img": "Network_Overview_Aaia_sg",
+          "label": "Singapore V"
+        },
+        "items[22]": {
+          "img": "Network_Overview_Aaia_sg",
+          "label": "Singapore2"
+        },
+        "items[23]": {
+          "img": "Network_Overview_Aaia_tw",
+          "label": "Taipei"
+        },
+        "items[24]": {
+          "img": "Network_Overview_Aaia_ge",
+          "label": "Tbilisi"
+        },
+        "items[25]": {
+          "img": "Network_Overview_Aaia_jp",
+          "label": "Tokio"
+        },
+        "items[26]": {
+          "img": "Network_Overview_Aaia_mn",
+          "label": "Ulan Bator"
+        },
+        "items[27]": {
+          "img": "Rete_Panoramica_Aaia_mm",
+          "label": "Rangoon"
+        },
+        "items[28]": {
+          "img": "Network_Overview_Aaia_am",
+          "label": "Yerevan"
+        },
+        "region": "Asia (29)"
+      },
+      "groups[4]": {
+        "icon": "Network_Overview_banner_node_Nord",
+        "items[0]": {
+          "img": "Network_Overview_North_us",
+          "label": "Ashburn"
+        },
+        "items[1]": {
+          "img": "Network_Overview_North_us",
+          "label": "Atlanta"
+        },
+        "items[2]": {
+          "img": "Network_Overview_North_us",
+          "label": "Boston"
+        },
+        "items[3]": {
+          "img": "Network_Overview_North_us",
+          "label": "Carlotta"
+        },
+        "items[4]": {
+          "img": "Network_Overview_North_us",
+          "label": "Chicago"
+        },
+        "items[5]": {
+          "img": "Network_Overview_North_us",
+          "label": "Dallas"
+        },
+        "items[6]": {
+          "img": "Network_Overview_North_us",
+          "label": "Denver"
+        },
+        "items[7]": {
+          "img": "Network_Overview_North_us",
+          "label": "Honolulu"
+        },
+        "items[8]": {
+          "img": "Network_Overview_North_us",
+          "label": "Houston"
+        },
+        "items[9]": {
+          "img": "Network_Overview_North_us",
+          "label": "Kansas City"
+        },
+        "items[10]": {
+          "img": "Network_Overview_North_us",
+          "label": "Los Angeles"
+        },
+        "items[11]": {
+          "img": "Network_Overview_North_us",
+          "label": "Miami"
+        },
+        "items[12]": {
+          "img": "Network_Overview_North_us",
+          "label": "Minneapolis"
+        },
+        "items[13]": {
+          "img": "Network_Overview_North_ca",
+          "label": "Montreal"
+        },
+        "items[14]": {
+          "img": "Network_Overview_North_us",
+          "label": "New York"
+        },
+        "items[15]": {
+          "img": "Network_Overview_North_us",
+          "label": "Ogden"
+        },
+        "items[16]": {
+          "img": "Network_Overview_North_us",
+          "label": "Fenice"
+        },
+        "items[17]": {
+          "img": "Network_Overview_North_us",
+          "label": "Pittsburgh"
+        },
+        "items[18]": {
+          "img": "Network_Overview_North_us",
+          "label": "San Jose"
+        },
+        "items[19]": {
+          "img": "Network_Overview_North_us",
+          "label": "Seattle"
+        },
+        "items[20]": {
+          "img": "Network_Overview_North_ca",
+          "label": "Toronto"
+        },
+        "items[21]": {
+          "img": "Network_Overview_North_ca",
+          "label": "Vancouver"
+        },
+        "region": "Nord America (22)"
+      },
+      "groups[5]": {
+        "icon": "Network_Overview_banner_node_Middle",
+        "items[0]": {
+          "img": "Rete_Panoramica_Medio_eg",
+          "label": "Cairo"
+        },
+        "items[1]": {
+          "img": "Rete_Panoramica_Medio_eg",
+          "label": "Il Cairo 2"
+        },
+        "items[2]": {
+          "img": "Network_Overview_Middle_za",
+          "label": "Città del Capo"
+        },
+        "items[3]": {
+          "img": "Network_Overview_Middle_iq",
+          "label": "Baghdad"
+        },
+        "items[4]": {
+          "img": "Network_Overview_Middle_iq",
+          "label": "Baghdad 2"
+        },
+        "items[5]": {
+          "img": "Network_Overview_Middle_bh",
+          "label": "Bahrein"
+        },
+        "items[6]": {
+          "img": "Network_Overview_Middle_ae",
+          "label": "Dubai"
+        },
+        "items[7]": {
+          "img": "Network_Overview_Middle_ae",
+          "label": "Fujairah"
+        },
+        "items[8]": {
+          "img": "Network_Overview_Middle_za",
+          "label": "Johannesburg"
+        },
+        "items[9]": {
+          "img": "Network_Overview_Middle_ng",
+          "label": "Lagos"
+        },
+        "items[10]": {
+          "img": "Network_Overview_Middle_ao",
+          "label": "Luanda"
+        },
+        "items[11]": {
+          "img": "Network_Overview_Middle_sa",
+          "label": "Riad"
+        },
+        "region": "Medio Oriente"
+      },
+      "subTitle": "Salta su una rete globale che si estende su 6 continenti e 77 paesi.",
+      "title": "I tuoi utenti sono a un passo di distanza"
+    },
+    "goFaster": {
+      "subTitle": "Riduci al minimo la latenza e aumenta la resilienza con una rete alimentata rigorosamente da fornitori di transito di livello 1 e accesso diretto a oltre 3000 ISP.",
+      "tabs": [
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "btn": "Saperne di più",
+        "content": "Salta su",
+        "icon": "/images/network/Network_Overview_nation_Europe@2x.png",
+        "iconHeight": "310px",
+        "iconWidth": "374px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Europe@2x.png",
+        "mIconHeight": "19.38rem",
+        "mIconWidth": "23.38rem",
+        "tab": "Europa",
+        "title": "CDN Europa"
+      },
+      "tabs[1]": {
+        "btn": "Saperne di più",
+        "content": "Fornisci prestazioni impeccabili alla più grande economia del mondo. \nCon 22 PoP strategicamente posizionati nelle principali città degli Stati Uniti e connessioni dirette ai principali ISP come Comcast, puoi raggiungere la maggior parte degli utenti Internet in meno di 27 ms.",
+        "icon": "/images/network/Network_Overview_nation_North_America@2x.png",
+        "iconHeight": "268px",
+        "iconWidth": "320px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_North_America@2x.png",
+        "mIconHeight": "16.75rem",
+        "mIconWidth": "20rem",
+        "tab": "Nord America",
+        "title": "CDN Nord America"
+      },
+      "tabs[2]": {
+        "btn": "Saperne di più",
+        "content": "Fornisci le massime prestazioni in tutta l'America meridionale e latina con la rete più veloce della regione. \nConnettiti direttamente alla maggior parte dei principali ISP e porta i tuoi contenuti a un passo dai tuoi visitatori in tutta l'America Latina.",
+        "icon": "/images/network/Network_Overview_nation_Latin_America@2x.png",
+        "iconHeight": "316px",
+        "iconWidth": "272px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Latin_America@2x.png",
+        "mIconHeight": "19.75rem",
+        "mIconWidth": "17rem",
+        "tab": "America Latina",
+        "title": "CDN America Latina"
+      },
+      "tabs[3]": {
+        "btn": "Saperne di più",
+        "content": "Raggiungi gli utenti con connettività locale diretta in tutta l'Asia. \nGowaf è posizionata in tutti i centri chiave per fornire prestazioni senza precedenti nella regione, compresi i mercati emergenti attraverso partnership locali strategiche.",
+        "icon": "/images/network/Network_Overview_nation_Asia@2x.png",
+        "iconHeight": "272px",
+        "iconWidth": "330px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Asia@2x.png",
+        "mIconHeight": "17rem",
+        "mIconWidth": "20.63rem",
+        "tab": "Asia",
+        "title": "CDN Asia"
+      },
+      "tabs[4]": {
+        "btn": "Saperne di più",
+        "content": "ogni utente in millisecondi in tutta l'Oceania attraverso una rete anycast ottimizzata e creata localmente. \nPosizionato in 6 principali città chiave dell'Australia e della Nuova Zelanda, Gowaf ti aiuta a fornire prestazioni eccezionali per ogni richiesta.",
+        "icon": "/images/network/Network_Overview_nation_Australia@2x.png",
+        "iconHeight": "241px",
+        "iconWidth": "330px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Australia@2x.png",
+        "mIconHeight": "15rem",
+        "mIconWidth": "20.63rem",
+        "tab": "Australia",
+        "title": "CDN Australia"
+      },
+      "tabs[5]": {
+        "btn": "Saperne di più",
+        "content": "Gowaf ti aiuta a offrire un'esperienza coerente in tutto il mondo. \nGrazie alla connettività locale in più paesi africani, aiutiamo i tuoi clienti a raggiungere i tuoi contenuti più velocemente, indipendentemente dal fatto che provengano dal Kenya o da Città del Capo.",
+        "icon": "/images/network/Network_Overview_nation_Middle_East@2x.png",
+        "iconHeight": "242px",
+        "iconWidth": "338px",
+        "mIcon": "/mobile-images/network/overview/Network_Overview_nation_Middle_East@2x.png",
+        "mIconHeight": "15.13Rem",
+        "mIconWidth": "21.13rem",
+        "tab": "Medio Oriente",
+        "title": "CDN Africa"
+      },
+      "title": "Vai più veloce a livello globale e locale"
+    },
+    "hop": {
+      "btn": "Inizia la prova GRATUITA di 14 giorni",
+      "subTitle": "Inizia in pochi secondi. \nNessuna carta di credito richiesta. \nAnnulla in qualsiasi momento.",
+      "title": "Salta sulla rete CDN globale più veloce"
+    },
+    "join1": {
+      "person": {
+        "content": "“Lavorare con Gowaf è stata una boccata d’aria fresca. \nIl loro team è stato utile, reattivo e competente. \nIl servizio ha superato le nostre aspettative in ogni fase del processo.”",
+        "name": "Tom Massone",
+        "title": "Mod Nexus"
+      },
+      "ranks": [
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        }
+      ],
+      "ranks[0]": {
+        "icon": "Network_Overview_mark_logo_1",
+        "score": "4.8"
+      },
+      "ranks[1]": {
+        "icon": "Network_Overview_mark_logo_2",
+        "score": "4.4"
+      },
+      "ranks[2]": {
+        "icon": "Network_Overview_mark_logo_3",
+        "score": "4.8"
+      },
+      "ranks[3]": {
+        "icon": "Network_Overview_mark_logo_4",
+        "score": "4.8"
+      },
+      "subTitle": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "subTitle[0]": "Siamo valutati",
+      "subTitle[1]": "",
+      "subTitle[2]": "Eccellente 4.8",
+      "subTitle[3]": "su 5 in poi",
+      "subTitle[4]": "Trustpilot",
+      "subTitle[5]": "- Basato su 600 recensioni",
+      "title": "Unisciti agli oltre 40.000 clienti globali"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "Accedi a una rete fornita da fornitori accuratamente selezionati in data center di alto livello.",
+        "icon": "/images/network/Network_DDoS_card_ic_1.png",
+        "title": "Partner di rete di livello 1"
+      },
+      "items[1]": {
+        "content": "Scala con facilità sfruttando un enorme backbone di rete globale da 150 Tbps.",
+        "icon": "/images/network/Network_DDoS_card_ic_2.png",
+        "title": "Enorme dorsale di rete"
+      },
+      "items[2]": {
+        "content": "Indirizza gli utenti dove conta con un motore di routing intelligente ottimizzato per i tuoi contenuti specifici.",
+        "icon": "/images/network/Network_DDoS_card_ic_3.png",
+        "title": "Instradamento SmartEdge"
+      },
+      "items[3]": {
+        "content": "Raggiungi il tuo cliente in meno di 24 ms nella maggior parte delle aree di tutto il mondo.",
+        "icon": "/images/network/Network_DDoS_card_ic_4.png",
+        "title": "Latenza globale media inferiore a 24 ms"
+      },
+      "items[4]": {
+        "content": "Distribuisci contenuti alla massima velocità e con una latenza minima con i server NVMe e SSD.",
+        "icon": "/images/network/Network_DDoS_card_ic_5.png",
+        "title": "Server alimentati da SSD NVMe"
+      },
+      "items[5]": {
+        "content": "Fornisci tassi di riscontri della cache più elevati per file di piccole e grandi dimensioni con una CDN ottimizzata per una memorizzazione nella cache efficiente.",
+        "icon": "/images/network/Network_DDoS_card_ic_6.png",
+        "title": "Ottimizzato per contenuti statici e multimediali"
+      },
+      "title1": "Costruito per le prestazioni. \nOttimizzato per la perfezione.",
+      "title2": "Unisciti a una rete globale attentamente ottimizzata e sintonizzata al livello TCP."
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "PoP globali",
+      "label": "123"
+    },
+    "numbers[1]": {
+      "content": "Media \nLatenza globale",
+      "label": "24 ms"
+    },
+    "numbers[2]": {
+      "content": "Media \nRapporto riscontri nella cache",
+      "label": "95%"
+    },
+    "numbers[3]": {
+      "content": "Siti Web potenziati",
+      "label": "1.000.000"
+    },
+    "tabs": [
+      "",
+      "",
+      ""
+    ],
+    "tabs[0]": "Rete standard",
+    "tabs[1]": "Rete di volumi",
+    "tabs[2]": "Rete dell'ISP",
+    "title0": "Rete CDN Gowaf",
+    "title1": "150 Tbps a portata di mano",
+    "title2": "Potenzia i tuoi contenuti con una delle reti più veloci al mondo."
+  },
+  "smartEdge": {
+    "header": {
+      "btn": "Inizia la prova GRATUITA di 14 giorni",
+      "content": "Proteggi il tuo sito web dagli attacchi DDoS. \nGarantisci tempi di attività impeccabili e non scendere mai più. \nCi occupiamo della protezione DDoS così tu puoi concentrarti sul tuo prodotto!",
+      "hint": "Non è necessaria la carta di credito. \nInizia in pochi secondi.",
+      "preTitle": "Protezione DDoS",
+      "title": "Protezione DDoS di serie"
+    },
+    "join1": {
+      "person": {
+        "content": "“È un piacere lavorare con il team di bunny.net! \nAncor prima che passassimo alla loro eccellente rete CDN, hanno aggiunto alcune funzionalità di cui avevamo bisogno per la transizione. \nE dopo, sono stati velocissimi nell'aggiungere nuove funzionalità o nel risolvere qualsiasi problema avessimo! \nUn vero partner a lungo termine che apprezziamo davvero!”",
+        "name": "Pedro Dobrescu",
+        "title": "ShortPixel"
+      },
+      "title": "Unisciti agli oltre 40.000 clienti soddisfatti"
+    },
+    "maxPerformance": {
+      "content": "Ottieni percentuali di riscontri della cache migliorate fino al 30% e un enorme incremento delle prestazioni globali grazie al routing ottimizzato in base al tuo contenuto specifico. \nRiduci le richieste MISS della cache che distruggono le prestazioni e superano la concorrenza.",
+      "numberHint1": "PRESTAZIONE MIGLIORATA",
+      "numberHint2": "MINORE TRAFFICO D'ORIGINE",
+      "title": "Massimizza le prestazioni con il routing globale"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "Siti Web potenziati",
+      "label": "1.000.000"
+    },
+    "numbers[1]": {
+      "content": "PoP globali",
+      "label": "123"
+    },
+    "numbers[2]": {
+      "content": "Tempi di caricamento più rapidi",
+      "label": "Fino a 5x"
+    },
+    "numbers[3]": {
+      "content": "Clienti soddisfatti",
+      "label": "40.000"
+    },
+    "onProblem": {
+      "content": "Tradizionalmente, i CDN instraderanno gli utenti con un'unica configurazione di routing che non è sempre ottimale. \nSmartEdge™ combina una configurazione globale preimpostata con parametri prestazionali automatici per selezionare in modo intelligente tra anycast, GeoDNS e routing basato sulla latenza per ciascuna regione per massimizzare le prestazioni e la qualità del routing per il tuo caso d'uso specifico.",
+      "title": "Un problema. \nUn sistema di routing."
+    },
+    "yourNeeds": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "mIcon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "mIcon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "mIcon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "Distribuisci in modo efficiente i contenuti con ottimizzazioni automatiche della memorizzazione nella cache che garantiscono la distribuzione dei dati più efficiente in tutto il mondo.",
+        "icon": "/images/network/smart-edge/SmartEdge™_ic_cache.png",
+        "mIcon": "",
+        "title": "Caching senza pari"
+      },
+      "items[1]": {
+        "content": "Evita i tempi di inattività e previeni la perdita di entrate utilizzando un sistema di monitoraggio dello stato in tempo reale integrato direttamente nel sistema di routing.",
+        "icon": "/images/network/smart-edge/SmartEdge™_ic_Monitoring.png",
+        "mIcon": "",
+        "title": "Monitoraggio della salute integrato"
+      },
+      "items[2]": {
+        "content": "Goditi le massime prestazioni per il tuo tipo specifico di contenuto con ottimizzazioni automatiche basate sui tuoi file.",
+        "icon": "/images/network/smart-edge/SmartEdge™_ic_engine.png",
+        "mIcon": "",
+        "title": "Motore di routing sensibile al contenuto"
+      },
+      "subTitle": "Smetti di scendere a compromessi quando pubblichi i tuoi contenuti. \nSmartEdge™ personalizza costantemente un'enorme rete globale in base alle tue esigenze.",
+      "title": "Rete globale su misura per le vostre esigenze"
+    }
+  },
+  "WebTools": {
+    "bennerSubTitle": "Strumenti che ti aiutano a ottimizzare e iniziare a utilizzare bunny.net ed eseguire test e diagnostica di rete da oltre 120 località in tutto il mondo.",
+    "bennerTitle": "Strumenti diagnostici di rete globale",
+    "DiagnosticReport": {
+      "btn": "Esegui rapporto diagnostico",
+      "neverHit": {
+        "items": [
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          }
+        ],
+        "items[0]": {
+          "alignType": "centro",
+          "content": "Il tuo indirizzo IP verrà raccolto e mappato in un risultato di paese e posizione geografica.",
+          "contentAlign": "centro",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+          "title": "Indirizzo IP",
+          "width": "100px"
+        },
+        "items[1]": {
+          "alignType": "centro",
+          "content": "L'IP del tuo provider DNS verrà raccolto e mappato su un paese e una posizione di longitudine/latitudine.",
+          "contentAlign": "centro",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_2@2x.png",
+          "title": "Informazioni DNS",
+          "width": "100px"
+        },
+        "items[2]": {
+          "alignType": "centro",
+          "content": "Verranno raccolti il ​​nome e la versione del sistema operativo del tuo computer.",
+          "contentAlign": "centro",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_3@2x.png",
+          "title": "Sistema operativo",
+          "width": "100px"
+        },
+        "items[3]": {
+          "alignType": "centro",
+          "content": "Verranno raccolti il ​​nome, la versione e lo user agent del tuo browser web.",
+          "contentAlign": "centro",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_4@2x.png",
+          "title": "Informazioni sul browser",
+          "width": "100px"
+        }
+      },
+      "subtitle": "Il rapporto diagnostico raccoglierà informazioni dettagliate sulla configurazione del browser, di Internet e del DNS che possono essere utilizzate per testare la connettività e risolvere i problemi.",
+      "title": "Rapporto diagnostico"
+    },
+    "DNSLookur": {
+      "subtitle": "Inserisci l'URL del tuo file o sito web per testare la connettività dalla rete Gowaf.net al tuo server.",
+      "title": "Test di ricerca DNS"
+    },
+    "neverHit": {
+      "items": [
+        {
+          "alignType": "",
+          "btn": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "btn": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "btn": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        }
+      ],
+      "items[0]": {
+        "alignType": "centro",
+        "btn": "controlla il sito Web",
+        "content": "Chockatency da oltre 120 Isrationc in tutto il mondo per verificare problemi di routing o problemi di prestazioni.",
+        "contentAlign": "centro",
+        "height": "100px",
+        "icon": "/images/network/WebTools/web_tools_ic_1@2x.png",
+        "title": "Controllo della latenza",
+        "width": "100px"
+      },
+      "items[1]": {
+        "alignType": "centro",
+        "btn": "Testare la connettività",
+        "content": "Testa la connettività HTTP da oltre 120 località in tutto il mondo per risolvere problemi di connessione all'origine, prestazioni e problemi di blocco geografico.",
+        "contentAlign": "centro",
+        "height": "100px",
+        "icon": "/images/network/WebTools/web_tools_ic_2@2x.png",
+        "title": "Controllo della connettività HTTP",
+        "width": "100px"
+      },
+      "items[2]": {
+        "alignType": "centro",
+        "btn": "Esegui la diagnostica",
+        "content": "Uno strumento diagnostico per la raccolta e la risoluzione dei problemi di informazioni dettagliate sulla configurazione, il routing e le prestazioni di Internet.",
+        "contentAlign": "centro",
+        "height": "100px",
+        "icon": "/images/network/WebTools/web_tools_ic_3@2x.png",
+        "title": "Rapporto diagnostico",
+        "width": "100px"
+      },
+      "subTitle": "Riduci al minimo il traffico verso la tua origine e riduci i costi fornendo i file direttamente da Perma-Cache. \nGowaf mantiene attiva la tua infrastruttura, indipendentemente dalla portata o dai picchi di traffico.",
+      "title": "Non colpire mai più la tua origine"
+    },
+    "OtherTools": {
+      "neverHit": {
+        "items": [
+          {
+            "alignType": "",
+            "btn": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          },
+          {
+            "alignType": "",
+            "btn": "",
+            "content": "",
+            "contentAlign": "",
+            "height": "",
+            "icon": "",
+            "title": "",
+            "width": ""
+          }
+        ],
+        "items[0]": {
+          "alignType": "centro",
+          "btn": "Controllo SSL",
+          "content": "Verifica se il tuo certificato SSL è installato correttamente.",
+          "contentAlign": "centro",
+          "height": "100px",
+          "icon": "/images/network/WebTools/other_tools_ic_1@2x.png",
+          "title": "Controllo SSL",
+          "width": "100px"
+        },
+        "items[1]": {
+          "alignType": "centro",
+          "btn": "Ricerca GeolP",
+          "content": "Controllare approssimativamente dove si trova un indirizzo IP (geolocalizzazione).",
+          "contentAlign": "centro",
+          "height": "100px",
+          "icon": "/images/network/WebTools/diagnostic_report_ic_1@2x.png",
+          "title": "Geolocalizzazione IP",
+          "width": "100px"
+        }
+      },
+      "subtitle": "Controllo SSL, ricerca GeoIP e altro ancora!",
+      "title": "Altri strumenti"
+    },
+    "Traceroute": {
+      "article1": [
+        {
+          "content": [
+            ""
+          ],
+          "title": ""
+        },
+        {
+          "content": [
+            "",
+            ""
+          ],
+          "title": ""
+        }
+      ],
+      "article1[0]": {
+        "content[0]": "Traceroute è uno strumento diagnostico di rete utilizzato per diagnosticare il percorso intrapreso da un pacchetto di rete per raggiungere un IP di destinazione. \nMostra la latenza e la perdita di pacchetti tra un punto di rete di origine e di destinazione, nonché eventuali salti di rete intermedi.",
+        "title": "Cos'è un traceroute?"
+      },
+      "article1[1]": {
+        "content[0]": "I traceroute hanno un valore inestimabile durante il debug dei problemi di rete. \nCi consentono di diagnosticare percorsi di rete non ottimali, loop o perdita di pacchetti durante la connessione tra due punti in una rete. \nPossono anche essere utilizzati per risolvere guasti di rete e percorsi non riusciti.",
+        "content[1]": "Per ottenere una rappresentazione accurata del risultato di un traceroute, in genere si consiglia di eseguire un traceroute in entrambe le direzioni dalla destinazione e dalla sorgente e viceversa.",
+        "title": "A cosa serve un traceroute?"
+      },
+      "article2": [
+        {
+          "content": [
+            ""
+          ],
+          "title": ""
+        },
+        {
+          "content": [
+            "",
+            ""
+          ],
+          "title": ""
+        }
+      ],
+      "article2[0]": {
+        "content[0]": "Uno strumento traceroute di solito si basa sui messaggi ICMP per inviare pacchetti echo. \nQuindi misura il tempo di risposta tra il momento in cui il messaggio è stato inviato e il momento in cui abbiamo ricevuto una risposta, chiamato latenza. \nQuesto viene calcolato per ciascun hop di rete per offrire la massima visibilità possibile sul percorso della rete. \nÈ anche possibile eseguire un traceroute in modalità TCP per situazioni in cui ICMP non è disponibile, tuttavia ciò è meno comune.",
+        "title": "Come funziona un traceroute?"
+      },
+      "article2[1]": {
+        "content[0]": "La perdita di pacchetti in un traceroute significa che un hop o un indirizzo di destinazione specifico non è riuscito o si è rifiutato di inviare un messaggio di risposta. \nCiò può essere indicativo di congestione della rete o altri problemi. \nTuttavia, è importante comprendere che, a causa della natura dell'ICMP, spesso accade che particolari passaggi tra l'origine e la destinazione si rifiutino di inviare un messaggio di risposta.",
+        "content[1]": "Non è raro vedere gli hop in the middle segnalare la perdita di pacchetti da parte dei router impostati per ridurre la priorità o ignorare i pacchetti ICMP. \nIn genere si consiglia di concentrarsi principalmente sulla perdita di pacchetti nell'ultimo salto della destinazione per ottenere una comprensione più accurata di un potenziale problema.",
+        "title": "Cosa significa la perdita di pacchetti in un traceroute?"
+      },
+      "Average": "Media",
+      "Best": "Migliore",
+      "Host": "Ospite",
+      "PacketLoss": "Perdita di pacchetti",
+      "title": "Test globale del traceroute",
+      "Worst": "Peggio"
+    }
+  }
 }

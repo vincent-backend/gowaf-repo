@@ -1,1203 +1,1203 @@
 {
-	"AffiliateProgram": {
-		"btn": "",
-		"Collapse": {
-			"list": [
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				},
-				{
-					"subtitle": "",
-					"title": ""
-				}
-			],
-			"list[0]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[1]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[2]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[3]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[4]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[5]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"list[6]": {
-				"subtitle": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"content": "",
-		"fotad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"fotad2": {
-			"subTitle": "",
-			"title": ""
-		},
-		"hint": "",
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"listBtn": "",
-		"mksubtitle": "",
-		"mktitle": "",
-		"neverHit": {
-			"fulItems": [
-				{
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"alignType": "",
-					"content": "",
-					"contentAlign": "",
-					"height": "",
-					"icon": "",
-					"title": "",
-					"width": ""
-				}
-			],
-			"fulItems[0]": {
-				"alignType": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"fulItems[1]": {
-				"alignType": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"fulItems[2]": {
-				"alignType": "",
-				"content": "",
-				"contentAlign": "",
-				"height": "",
-				"icon": "",
-				"title": "",
-				"width": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"preTitle": "",
-		"title": ""
-	},
-	"ContactSales": {
-		"agreement": [
-			"",
-			""
-		],
-		"agreement[0]": "",
-		"agreement[1]": "",
-		"btn": "",
-		"content": "",
-		"preTitle": "",
-		"title": ""
-	},
-	"forgot": {
-		"agreement": [
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
-		],
-		"agreement[0]": "",
-		"agreement[1]": "",
-		"agreement[2]": "",
-		"agreement[3]": "",
-		"agreement[4]": "",
-		"agreement[5]": "",
-		"agreement[6]": "",
-		"card": [
-			{
-				"content": "",
-				"describe": "",
-				"img": "",
-				"name": ""
-			},
-			{
-				"content": "",
-				"describe": "",
-				"img": "",
-				"name": ""
-			}
-		],
-		"card[0]": {
-			"content": "",
-			"describe": "",
-			"img": "",
-			"name": ""
-		},
-		"card[1]": {
-			"content": "",
-			"describe": "",
-			"img": "",
-			"name": ""
-		},
-		"head": "",
-		"list": [
-			"",
-			"",
-			""
-		],
-		"list[0]": "",
-		"list[1]": "",
-		"list[2]": "",
-		"loginbtn": "",
-		"signUp": "",
-		"subhead": "",
-		"subheadlines": "",
-		"subtitle": "",
-		"tips": "",
-		"title": ""
-	},
-	"header": {
-		"bottom": {
-			"subTitle": "",
-			"title1": "",
-			"title2": "",
-			"title3": "",
-			"weAreRated": "",
-			"weAreRated2": ""
-		},
-		"bottom1": {
-			"subTitle": "",
-			"title1": "",
-			"title2": "",
-			"title3": "",
-			"weAreRated": "",
-			"weAreRated2": ""
-		},
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"join1": {
-		"btn": "",
-		"info1": {
-			"content": "",
-			"leftList": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"leftList[0]": "",
-			"leftList[1]": "",
-			"leftList[2]": "",
-			"leftList[3]": "",
-			"leftList[4]": "",
-			"leftList[5]": "",
-			"rightList": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"rightList[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rightList[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rightList[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"rightList[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"subTitle": "",
-		"title": ""
-	},
-	"join2": {
-		"list": [
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			},
-			{
-				"avatar": "",
-				"content": "",
-				"date": "",
-				"name": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[1]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[2]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[3]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"list[4]": {
-			"avatar": "",
-			"content": "",
-			"date": "",
-			"name": "",
-			"title": ""
-		},
-		"subTitle1": "",
-		"subTitle3": "",
-		"subTitle4": "",
-		"subTitle5": "",
-		"subTitle6": "",
-		"title": ""
-	},
-	"list1": {
-		"title": ""
-	},
-	"list2": {
-		"features": [
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			}
-		],
-		"features[0]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[1]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[2]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[3]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[4]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[5]": {
-			"comingSoon": "",
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"subTitle": "",
-		"title": ""
-	},
-	"login": {
-		"backtop": {
-			"sub": "",
-			"title1": ""
-		},
-		"divider": "",
-		"Forgot": "",
-		"list": [
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[1]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[2]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"loginbtn": "",
-		"signUp": "",
-		"subtitle": "",
-		"tips": "",
-		"title": ""
-	},
-	"ResetPassword": {
-		"BacktoLog In": "",
-		"list": [
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"img": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[1]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[2]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"list[3]": {
-			"content": "",
-			"img": "",
-			"title": ""
-		},
-		"loginbtn": "",
-		"subtitle": "",
-		"title": ""
-	},
-	"SLA": {
-		"ad2Container": {
-			"items": [
-				{
-					"content": "",
-					"height": "",
-					"pic": "",
-					"title": "",
-					"width": ""
-				},
-				{
-					"content": "",
-					"height": "",
-					"pic": "",
-					"title": "",
-					"width": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"height": "",
-				"pic": "",
-				"title": "",
-				"width": ""
-			},
-			"items[1]": {
-				"content": "",
-				"height": "",
-				"pic": "",
-				"title": "",
-				"width": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"content": "",
-		"preTitle": "",
-		"table": {
-			"list": [
-				[
-					"",
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				[
-					"",
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				[
-					"",
-					"",
-					"",
-					"",
-					"",
-					""
-				]
-			],
-			"list[0][0]": "",
-			"list[0][1]": "",
-			"list[0][2]": "",
-			"list[0][3]": "",
-			"list[0][4]": "",
-			"list[0][5]": "",
-			"list[1][0]": "",
-			"list[1][1]": "",
-			"list[1][2]": "",
-			"list[1][3]": "",
-			"list[1][4]": "",
-			"list[1][5]": "",
-			"list[2][0]": "",
-			"list[2][1]": "",
-			"list[2][2]": "",
-			"list[2][3]": "",
-			"list[2][4]": "",
-			"list[2][5]": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"title": ""
-	},
-	"superCharge": {
-		"subTitle": "",
-		"tabs": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			}
-		],
-		"tabs[0]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"tabs[1]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"tabs[2]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"tabs[3]": {
-			"btn": "",
-			"content": "",
-			"icon": "",
-			"iconHeight": "",
-			"iconWidth": "",
-			"mIcon": "",
-			"mIconHeight": "",
-			"mIconWidth": "",
-			"tab": "",
-			"title": ""
-		},
-		"title": ""
-	},
-	"SupportHUB": {
-		"list": [
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					},
-					{
-						"subtitle": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"title": ""
-					}
-				],
-				"subtitle": "",
-				"title": ""
-			}
-		],
-		"list[0]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[4]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[5]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[1]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[2]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[3]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[4]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"list[5]": {
-			"items[0]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subtitle[0]": "",
-				"subtitle[1]": "",
-				"subtitle[2]": "",
-				"subtitle[3]": "",
-				"subtitle[4]": "",
-				"title": ""
-			},
-			"subtitle": "",
-			"title": ""
-		},
-		"subtitle": "",
-		"title": ""
-	}
+  "AffiliateProgram": {
+    "btn": "Присоединяйтесь к партнерской программе Gowaf",
+    "Collapse": {
+      "list": [
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        },
+        {
+          "subtitle": "",
+          "title": ""
+        }
+      ],
+      "list[0]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Как работает партнерская программа Bunny?"
+      },
+      "list[1]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Кто имеет право на участие в партнерской программе Bunny?"
+      },
+      "list[2]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Как мне присоединиться к партнёрской программе?"
+      },
+      "list[3]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Сколько я зарабатываю за одного реферала?"
+      },
+      "list[4]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Существует ли максимальная сумма комиссии?"
+      },
+      "list[5]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Когда я получу выплату?"
+      },
+      "list[6]": {
+        "subtitle": "Присоединиться к партнерской программе может любой, у кого есть платный аккаунт на Bunny.net.",
+        "title": "Могу ли я создавать свои собственные маркетинговые материалы?"
+      },
+      "subtitle": "Есть еще вопросы? \nМы подготовили список дополнительной полезной информации!",
+      "title": "Часто задаваемые вопросы"
+    },
+    "content": "Помогите нам расти и зарабатывать деньги на этом пути. \nМы помогаем вам привлечь как можно больше рефералов с помощью ресурсов библиотеки глобального креативного, готового образования и лид-магнитов.",
+    "fotad1": {
+      "btn": "Контрактные продажи",
+      "subTitle": "Работаете над более масштабным проектом?  \nПусть наши кролики вам помогут!",
+      "title": "Будьте впереди конкурентов!"
+    },
+    "fotad2": {
+      "subTitle": "Начните работу за считанные секунды. \nКредитная карта не требуется. \nОтменить в любое время.",
+      "title": "Сделайте свою видеобезопасность на шаг впереди!"
+    },
+    "hint": "Для участия в программе необходима учетная запись Gowaf.net.",
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "Платите только за количество минут, которые вы расшифровываете, без минимальных периодических затрат.",
+        "icon": "/images/home/affiliate_2_ic_1@2x.png",
+        "title": "Платите только за то, что используете"
+      },
+      "items[1]": {
+        "content": "Начните бесплатно с 14-дневной бесплатной пробной версии и продолжайте всего за 1 доллар в месяц.",
+        "icon": "/images/home/affiliate_2_ic_2@2x.png",
+        "title": "Минимум 1 доллар США в месяц"
+      },
+      "items[2]": {
+        "content": "Используйте полный набор функций Transcribe AI без каких-либо дополнительных или скрытых затрат.",
+        "icon": "/images/home/affiliate_2_ic_3@2x.png",
+        "title": "Все функции включены"
+      },
+      "title1": "Как это работает?",
+      "title2": "Начать работу с партнерской программой Gowaf легко и бесплатно."
+    },
+    "listBtn": "Получите свой партнерский код",
+    "mksubtitle": "Воспользуйтесь заранее разработанными маркетинговыми материалами. \nВыберите из нашей обширной библиотеки рекламных баннеров и найдите идеальный для вас размер.",
+    "mktitle": "Готовые маркетинговые материалы",
+    "neverHit": {
+      "fulItems": [
+        {
+          "alignType": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "alignType": "",
+          "content": "",
+          "contentAlign": "",
+          "height": "",
+          "icon": "",
+          "title": "",
+          "width": ""
+        }
+      ],
+      "fulItems[0]": {
+        "alignType": "центр",
+        "content": "Создайте платный аккаунт на Gowaf.net.",
+        "contentAlign": "центр",
+        "height": "80 пикселей",
+        "icon": "/images/home/affiliate_1_ic_1@2x.png",
+        "title": "регистр",
+        "width": "80 пикселей"
+      },
+      "fulItems[1]": {
+        "alignType": "центр",
+        "content": "Поделитесь своей уникальной связью со всем миром.",
+        "contentAlign": "центр",
+        "height": "80 пикселей",
+        "icon": "/images/home/affiliate_1_ic_2@2x.png",
+        "title": "Поделитесь ссылкой",
+        "width": "80 пикселей"
+      },
+      "fulItems[2]": {
+        "alignType": "центр",
+        "content": "Зарабатывайте $20 за каждую платную регистрацию.",
+        "contentAlign": "центр",
+        "height": "80 пикселей",
+        "icon": "/images/home/affiliate_1_ic_3@2x.png",
+        "title": "Начни зарабатывать деньги",
+        "width": "80 пикселей"
+      },
+      "subTitle": "Начните зарабатывать деньги в 3 простых шага.",
+      "title": "Регистр. \nДелиться. \nЗарабатывать."
+    },
+    "preTitle": "Партнерская программа Gowaf",
+    "title": "Присоединяйтесь к партнерской программе Gowaf и помогите нам расти быстрее"
+  },
+  "ContactSales": {
+    "agreement": [
+      "",
+      ""
+    ],
+    "agreement[0]": "Я прочитал и согласен с Gowaf",
+    "agreement[1]": "политика конфиденциальности",
+    "btn": "Отправить запрос",
+    "content": "Расскажите нам о своем проекте, и мы свяжем вас с экспертом CDN и подберем для вас идеальное решение.",
+    "preTitle": "Свяжитесь с отделом продаж",
+    "title": "Поговорите с экспертом Gowaf"
+  },
+  "forgot": {
+    "agreement": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "agreement[0]": "я согласен",
+    "agreement[1]": "Условия использования",
+    "agreement[2]": ",",
+    "agreement[3]": "Политика приемлемого использования",
+    "agreement[4]": "и подтверждаю, что я прочитал и понял информацию на сайте Bunny.net.",
+    "agreement[5]": "политика конфиденциальности",
+    "agreement[6]": ".",
+    "card": [
+      {
+        "content": "",
+        "describe": "",
+        "img": "",
+        "name": ""
+      },
+      {
+        "content": "",
+        "describe": "",
+        "img": "",
+        "name": ""
+      }
+    ],
+    "card[0]": {
+      "content": "Сделала тест, мне очень понравилось, пользуюсь. \nОн имеет простую настройку, отличные характеристики и доступную цену. \nОчень хороший!",
+      "describe": "Отличный сервис CDN",
+      "img": "/images/home/polyfill_Sign Up_avatar_1@2x.png",
+      "name": "Роней де Соуза Алмейда"
+    },
+    "card[1]": {
+      "content": "Отличная, экономичная, полная и простая альтернатива AWS Cloudfront. \nФункция DRM — такая огромная услуга.",
+      "describe": "Такая простая альтернатива Cloudfront",
+      "img": "/images/home/polyfill_Sign Up_avatar_2@2x.png",
+      "name": "Жан Дидье"
+    },
+    "head": "Ускорьте доставку по всему миру за меньшие сроки.",
+    "list": [
+      "",
+      "",
+      ""
+    ],
+    "list[0]": "120 глобальных точек доступа с задержкой менее 24 мс по всему миру.",
+    "list[1]": "Никогда больше не отключайтесь с магистральной сетью 80 Тбит/с.",
+    "list[2]": "Настоящая круглосуточная техническая поддержка 24/7/365.",
+    "loginbtn": "Завести аккаунт",
+    "signUp": "Авторизоваться.",
+    "subhead": "5 минут",
+    "subheadlines": "Непревзойденная производительность без компромиссов.",
+    "subtitle": "Вы всего в 5 минутах ходьбы от более быстрого веб-сайта.",
+    "tips": "У вас уже есть аккаунт?",
+    "title": "14-дневная БЕСПЛАТНАЯ пробная версия"
+  },
+  "header": {
+    "bottom": {
+      "subTitle": "Наша приверженность качеству завоевала доверие многих известных брендов в своих отраслях.",
+      "title1": "Присоединяйтесь",
+      "title2": "1 000 000",
+      "title3": "веб-сайты, уже работающие на Gowaf",
+      "weAreRated": "У нас есть рейтинг",
+      "weAreRated2": "4,8 из 5 на основе 600 отзывов"
+    },
+    "bottom1": {
+      "subTitle": "Вместе мы можем создать Интернет, которого заслуживают все, независимо от того, в какой точке мира они находятся.",
+      "title1": "Присоединяйтесь",
+      "title2": "40.000",
+      "title3": "клиенты уже присоединились к нам в нашей миссии",
+      "weAreRated": "У нас есть рейтинг",
+      "weAreRated2": "4,8 из 5 на основе 700 отзывов"
+    },
+    "btn": "Попробуйте БЕСПЛАТНО в течение 14 дней",
+    "content": "Ускорьте работу вашего контента с помощью наших CDN нового поколения, Edge Storage и служб оптимизации. \nGowaf делает молниеносную производительность в любом масштабе проще, чем когда-либо прежде.",
+    "hint": "Оформление за 5 минут. \nКредитная карта не требуется.",
+    "title": "Глобальная платформа доставки контента, которая действительно динамична"
+  },
+  "join1": {
+    "btn": "Попробуйте БЕСПЛАТНО в течение 14 дней",
+    "info1": {
+      "content": "Подключитесь к одной из самых быстрых глобальных сетей в мире. \nУвеличьте скорость вашего веб-сайта до предела и обеспечьте наилучшие впечатления для ваших посетителей. \nПроизводительность корпоративного уровня по самой доступной цене на рынке!",
+      "leftList": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "leftList[0]": "От $1/мес.",
+      "leftList[1]": "Никаких скрытых комиссий",
+      "leftList[2]": "Постоянное кэширование",
+      "leftList[3]": "Мониторинг в реальном времени",
+      "leftList[4]": "Защита от DDoS",
+      "leftList[5]": "Бесплатный SSL-сертификат",
+      "rightList": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "rightList[0]": {
+        "content": "Максимизируйте свой рост и расширение без забот с помощью сети со скоростью 80 Тбит/с.",
+        "icon": "home_list_ic_design",
+        "title": "Масштабируемость по дизайну"
+      },
+      "rightList[1]": {
+        "content": "Оптимизируйте доставку и сократите задержку с помощью новейшего оборудования AMD и NVMe.",
+        "icon": "home_list_ic_Server",
+        "title": "SSD-серверы NVMe"
+      },
+      "rightList[2]": {
+        "content": "Подключайтесь напрямую к своим пользователям с помощью более чем 3000 интернет-провайдеров и 14 транзитных провайдеров уровня 1. \nВ любом месте.",
+        "icon": "home_list_ic_network",
+        "title": "Глобальная сеть уровня 1"
+      },
+      "rightList[3]": {
+        "content": "Оставайтесь в безопасности и сосредоточьтесь благодаря встроенной защите от DDoS нового поколения, которая просто работает.",
+        "icon": "home_list_ic_Protection",
+        "title": "Оставайтесь защищенными"
+      },
+      "title": "Потрясающее исполнение. \nКаждый раз."
+    },
+    "subTitle": "Кредитная карта не требуется – начните работу всего за несколько кликов",
+    "title": "Присоединяйтесь и начните прыгать со скоростью света"
+  },
+  "join2": {
+    "list": [
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      },
+      {
+        "avatar": "",
+        "content": "",
+        "date": "",
+        "name": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "avatar": "home_avatar_1",
+      "content": "Безумно люблю этих ребят! \nэй, вы потрясающие обновления, обеспечивающие максимальную производительность CDN по самой доступной цене! \nОни новаторские и решают больше проблем, чем я когда-либо мог себе представить! \nСжатие изображений на лету. Минимизируйте файлы, как вам угодно!",
+      "date": "5 июня 202*",
+      "name": "Бен М",
+      "title": "Безумно люблю этих ребят"
+    },
+    "list[1]": {
+      "avatar": "home_avatar_2",
+      "content": "Gowaf CDN действительно исключителен. \nОн превосходит известных провайдеров CDN по скорости и дешевле.",
+      "date": "11 дек. 2024 г.",
+      "name": "Алекс",
+      "title": "Gowaf CDN действительно исключительный"
+    },
+    "list[2]": {
+      "avatar": "home_avatar_3",
+      "content": "Отличная цена. \nОтличный сервис. \nОтличная поддержка. Перенес все мои видео с Vimeo, и все работает: лучше, как и 240 аудио с AWS, и это стоит дешевле и работает вкуснее.",
+      "date": "22 окт. 2021 г.",
+      "name": "Лоран Бертен",
+      "title": "Если ты колеблешься. \nне."
+    },
+    "list[3]": {
+      "avatar": "home_avatar_6",
+      "content": "Абсолютно потрясающе! \nЛегко настроить всего двумя щелчками мыши... Отличная общая производительность и очень дешево. \nЧто мне больше всего нравится, так это простота установки SSL-сертификата для пользовательского имени хоста, которая занимает примерно 2 клика. \nПользуюсь им больше года и ничего плохого сказать не могу.",
+      "date": "3 февраля 2019 г.",
+      "name": "Гарри",
+      "title": "Абсолютно потрясающе"
+    },
+    "list[4]": {
+      "avatar": "home_avatar_7",
+      "content": "Становимся все лучше и лучше! \nБыстро, надежно и по лучшим ценам на рынке, очень приятная и дружелюбная ул. \nПродолжайте в том же духе, ребята.",
+      "date": "16 февр. 2021 г.",
+      "name": "Альберто Баудаччи",
+      "title": "Становлюсь все лучше и лучше"
+    },
+    "subTitle1": "У нас есть рейтинг",
+    "subTitle3": "Отлично 4,8",
+    "subTitle4": "из 5 на",
+    "subTitle5": "Трастпилот",
+    "subTitle6": "- На основе 600 отзывов",
+    "title": "Присоединяйтесь к более чем 40 000 довольных клиентов"
+  },
+  "list1": {
+    "title": "Мы помогли замечательным компаниям развиваться быстрее!"
+  },
+  "list2": {
+    "features": [
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      }
+    ],
+    "features[0]": {
+      "comingSoon": "",
+      "content": "Увеличьте свой контент в поистине глобальном масштабе.",
+      "icon": "home_card_ic_1_nor",
+      "title": "CDN"
+    },
+    "features[1]": {
+      "comingSoon": "",
+      "content": "Испытайте хранилище «горячих» объектов, воспроизведенное по всему миру.",
+      "icon": "home_card_ic_2_nor",
+      "title": "Хранилище"
+    },
+    "features[2]": {
+      "comingSoon": "",
+      "content": "Поднимите доставку видео на новый уровень.",
+      "icon": "home_card_ic_3_nor",
+      "title": "Транслировать"
+    },
+    "features[3]": {
+      "comingSoon": "",
+      "content": "Оптимизируйте свой сайт одним нажатием кнопки.",
+      "icon": "home_card_ic_4_nor",
+      "title": "Оптимизатор"
+    },
+    "features[4]": {
+      "comingSoon": "",
+      "content": "Раскройте истинную мощь DNS в вашей инфраструктуре.",
+      "icon": "home_card_ic_5_nor",
+      "title": "DNS"
+    },
+    "features[5]": {
+      "comingSoon": "",
+      "content": "Максимизируйте производительность и масштабируемость приложений.",
+      "icon": "home_card_ic_6_nor",
+      "title": "Балансировщик нагрузки"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "Краевые местоположения",
+      "label": "123"
+    },
+    "numbers[1]": {
+      "content": "Запросов в секунду",
+      "label": "650.000"
+    },
+    "numbers[2]": {
+      "content": "Емкость сети",
+      "label": "80 Тбит/с"
+    },
+    "numbers[3]": {
+      "content": "Среднее \nЗадержка по всему миру",
+      "label": "24 мс"
+    },
+    "subTitle": "Ощутите непревзойденную производительность без компромиссов.",
+    "title": "Подойди к краю и никогда не оглядывайся назад."
+  },
+  "login": {
+    "backtop": {
+      "sub": "Пушистик!",
+      "title1": "Ты говоришь с"
+    },
+    "divider": "Или продолжить с",
+    "Forgot": "Забыли пароль?",
+    "list": [
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "content": "Самый простой способ динамически генерировать изображения и доставлять их прямо из CDN.",
+      "img": "/images/home/log_icon_1@2x.png",
+      "title": "Новая информационная панель Gowaf уже доступна!"
+    },
+    "list[1]": {
+      "content": "Поднимите производительность веб-приложений на новый уровень мирового масштаба с помощью Gowaf Storage Edge Tier.",
+      "img": "/images/home/log_icon_2@2x.png",
+      "title": "Попробуйте бета-версию Gowaf AI!"
+    },
+    "list[2]": {
+      "content": "Раскройте истинную мощь DNS и превратите сложные проблемы в простые решения.",
+      "img": "/images/home/log_icon_3@2x.png",
+      "title": "Следующее поколение производительности!"
+    },
+    "loginbtn": "Авторизоваться",
+    "signUp": "Зарегистрироваться.",
+    "subtitle": "Войдите в аккаунт Gowaf.",
+    "tips": "У вас нет учетной записи?",
+    "title": "Добро пожаловать!"
+  },
+  "ResetPassword": {
+    "BacktoLog In": "Вернуться на страницу авторизации",
+    "list": [
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "img": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "content": "Самый простой способ динамически генерировать изображения и доставлять их непосредственно из CDN.",
+      "img": "/images/home/log_icon_1@2x.png",
+      "title": "Новая информационная панель Gowaf уже доступна!"
+    },
+    "list[1]": {
+      "content": "Поднимите производительность веб-приложений на новый уровень мирового масштаба с помощью Gowaf Storage Edge Tier.",
+      "img": "/images/home/log_icon_2@2x.png",
+      "title": "Попробуйте бета-версию Gowaf AI!"
+    },
+    "list[2]": {
+      "content": "Раскройте истинную мощь DNS и превратите сложные проблемы в простые решения.",
+      "img": "/images/home/log_icon_3@2x.png",
+      "title": "Следующее поколение производительности!"
+    },
+    "list[3]": {
+      "content": "Раскройте истинную мощь DNS и превратите сложные проблемы в простые решения.",
+      "img": "/images/home/log_icon_4@2x.png",
+      "title": "Gowaf DNS теперь доступен!"
+    },
+    "loginbtn": "Сброс пароля",
+    "subtitle": "Чтобы сбросить пароль, введите адрес электронной почты своей учетной записи Bunny.net.",
+    "title": "Сброс пароля"
+  },
+  "SLA": {
+    "ad2Container": {
+      "items": [
+        {
+          "content": "",
+          "height": "",
+          "pic": "",
+          "title": "",
+          "width": ""
+        },
+        {
+          "content": "",
+          "height": "",
+          "pic": "",
+          "title": "",
+          "width": ""
+        }
+      ],
+      "items[0]": {
+        "content": "Платформа Gowaf.net была разработана с учетом производительности и стабильности. \nНаша система использует автоматическое восстановление и аварийное переключение в случае сбоя сервера, используя несколько методов мониторинга работоспособности и производительности. \nКроме того, наша команда работает круглосуточно, чтобы предотвратить и минимизировать любые сбои и обеспечить оптимальную производительность по всему миру.",
+        "height": "400 пикселей",
+        "pic": "/images/home/Uptime_Guaran_img@2x.png",
+        "title": "Гарантия безотказной работы 99,99%",
+        "width": "400 пикселей"
+      },
+      "items[1]": {
+        "content": "Используя избыточную архитектуру и интеллектуальную маршрутизацию BGP, мы обеспечиваем автоматическое аварийное переключение нашей системы DNS как в случае сбоя оборудования, так и в случае сбоя сети. \nМы отслеживаем наши пограничные PoP-серверы в режиме реального времени, чтобы обнаружить любые проблемы в сети или снижение производительности и интеллектуально маршрутизировать их.",
+        "height": "360 пикселей",
+        "pic": "/images/home/Redundant_Infrastructure_img@2x.png",
+        "title": "Резервированная инфраструктура",
+        "width": "360 пикселей"
+      },
+      "subTitle": "",
+      "title": ""
+    },
+    "content": "За милым именем скрывается свирепый зверь. \nБлагодаря резервированию на каждом этапе мы предлагаем стабильность корпоративного уровня в нашей базовой инфраструктуре.",
+    "preTitle": "Соглашение об уровне обслуживания",
+    "table": {
+      "list": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "list[0][0]": "Ежемесячная доступность",
+      "list[0][1]": "99,98%",
+      "list[0][2]": "99,95%",
+      "list[0][3]": "99,70%",
+      "list[0][4]": "99,50%",
+      "list[0][5]": "99,00%",
+      "list[1][0]": "Время простоя",
+      "list[1][1]": "10 – 59 минут",
+      "list[1][2]": "12 часов",
+      "list[1][3]": "24 часа",
+      "list[1][4]": "4 – 7 часов",
+      "list[1][5]": "7 часов",
+      "list[2][0]": "Время простоя",
+      "list[2][1]": "12 часов",
+      "list[2][2]": "24 часа",
+      "list[2][3]": "48 часов",
+      "list[2][4]": "120 часов",
+      "list[2][5]": "240 часов",
+      "preTitle": "Если ежемесячная доступность окажется ниже наших гарантий, ваша учетная запись будет иметь право на получение кредитов по соглашению об уровне обслуживания в зависимости от вашего ежемесячного использования.",
+      "title": "Кредиты на простои"
+    },
+    "title": "Оставайтесь онлайн.  \nНе важно что."
+  },
+  "superCharge": {
+    "subTitle": "Решения нового поколения. \nПроизводительность следующего уровня.",
+    "tabs": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      }
+    ],
+    "tabs[0]": {
+      "btn": "Прокачайте свой сайт",
+      "content": "Превратите свой сайт из улитки в Gowaf. \nПредоставьте своим пользователям наилучшие впечатления с помощью нашей глобальной сети CDN и службы оптимизатора. \nУскорьте свой сайт и опередите конкурентов.",
+      "icon": "/images/home/home_bot_graph_Website@2x.png",
+      "iconHeight": "272px",
+      "iconWidth": "374 пикселей",
+      "mIcon": "/mobile-images/home/home_bot_graph_Website@2x.png",
+      "mIconHeight": "18.19рем",
+      "mIconWidth": "24.13рем",
+      "tab": "Ускорение веб-сайта",
+      "title": "Пусть ваш сайт будет прыгать как Gowaf"
+    },
+    "tabs[1]": {
+      "btn": "Незабываемые впечатления от видео",
+      "content": "Решите проблемы с доставкой видео, объединив транскодирование, хранение, безопасность и видеопроигрыватель в мощный, но простой пакет. \nТранслируйте где угодно. \nБез буферизации!",
+      "icon": "/images/home/home_bot_graph_video@2x.png",
+      "iconHeight": "291px",
+      "iconWidth": "386 пикселей",
+      "mIcon": "/mobile-images/home/home_bot_graph_video@2x.png",
+      "mIconHeight": "17рем",
+      "mIconWidth": "23.38рем",
+      "tab": "Доставка видео",
+      "title": "Надежный видео CDN, который действительно прыгает"
+    },
+    "tabs[2]": {
+      "btn": "Обеспечьте более быструю загрузку",
+      "content": "Увеличьте скорость загрузки программного обеспечения по всему миру с помощью одной из самых быстрых глобальных сетей. \nОцените высокую пропускную способность, сделав свой контент ближе к пользователям где угодно.",
+      "icon": "/images/home/home_bot_graph_Software@2x.png",
+      "iconHeight": "294px",
+      "iconWidth": "392px",
+      "mIcon": "/mobile-images/home/home_bot_graph_Software@2x.png",
+      "mIconHeight": "18.38рем",
+      "mIconWidth": "24,5рем",
+      "tab": "Распространение программного обеспечения",
+      "title": "Обеспечьте молниеносную загрузку"
+    },
+    "tabs[3]": {
+      "btn": "Оптимизируйте свои изображения",
+      "content": "Изменяйте размер, обрезайте, повышайте резкость и преобразуйте изображения на лету с помощью сверхбыстрого процессора Gowaf в 123 центрах обработки данных по всему миру. \nУпрощение разработки",
+      "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
+      "iconHeight": "266 пикселей",
+      "iconWidth": "360 пикселей",
+      "mIcon": "/mobile-images/home/home_bot_graph_Dynamic@2x.png",
+      "mIconHeight": "16,63рем",
+      "mIconWidth": "22,5рем",
+      "tab": "Динамическая обработка изображений",
+      "title": "Преобразуйте свои изображения. \nНа лету."
+    },
+    "title": "Увеличьте свое присутствие в Интернете"
+  },
+  "SupportHUB": {
+    "list": [
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          },
+          {
+            "subtitle": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "title": ""
+          }
+        ],
+        "subtitle": "",
+        "title": ""
+      }
+    ],
+    "list[0]": {
+      "items[0]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Начиная"
+      },
+      "items[1]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Руководства по интеграции"
+      },
+      "items[2]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Документация по продукту"
+      },
+      "items[3]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Техническая информация"
+      },
+      "items[4]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Поиск неисправностей"
+      },
+      "items[5]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Краевые правила"
+      },
+      "subtitle": "Документация по продукту Gowaf CDN, руководства по интеграции и помощь по устранению неполадок.",
+      "title": "CDN"
+    },
+    "list[1]": {
+      "items[0]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Начиная"
+      },
+      "items[1]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Документация по продукту"
+      },
+      "subtitle": "Документация по продукту Gowaf DNS, руководства по интеграции и помощь по устранению неполадок.",
+      "title": "DNS"
+    },
+    "list[2]": {
+      "items[0]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Начиная"
+      },
+      "items[1]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Документация по продукту"
+      },
+      "subtitle": "Документация по продукту Gowaf DNS, руководства по интеграции и помощь по устранению неполадок.",
+      "title": "Хранилище"
+    },
+    "list[3]": {
+      "items[0]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Начиная"
+      },
+      "items[1]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Документация по продукту"
+      },
+      "subtitle": "Документация по продукту Gowaf DNS, руководства по интеграции и помощь по устранению неполадок.",
+      "title": "Транслировать"
+    },
+    "list[4]": {
+      "items[0]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Начиная"
+      },
+      "items[1]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Документация по продукту"
+      },
+      "subtitle": "Документация по продукту Gowaf DNS, руководства по интеграции и помощь по устранению неполадок.",
+      "title": "Оптимизатор"
+    },
+    "list[5]": {
+      "items[0]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Биллинг"
+      },
+      "items[1]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Зоны вытягивания"
+      },
+      "items[2]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Пограничное хранилище"
+      },
+      "items[3]": {
+        "subtitle[0]": "Как настроить исходный URL-адрес прямого IP-адреса с собственным именем хоста с помощью Edge Rules",
+        "subtitle[1]": "Список динамических переменных в URL-адресе перенаправления правила Edge.",
+        "subtitle[2]": "Как перенаправить имя хоста b-cdn.net на собственное имя хоста CDN с помощью пограничных правил",
+        "subtitle[3]": "Как правильно настроить путь срабатывания Edge Rule",
+        "subtitle[4]": "Как использовать Edge Rules, чтобы установить собственное время кэширования для расширения файла",
+        "title": "Счет"
+      },
+      "subtitle": "Документация по продукту Gowaf DNS, руководства по интеграции и помощь по устранению неполадок.",
+      "title": "Часто задаваемые вопросы (FAQ)"
+    },
+    "subtitle": "Руководства, инструкции по устранению неполадок и запросы на поддержку, которые помогут вам начать работу с Gowaf.net.",
+    "title": "Как мы можем вам помочь?"
+  }
 }

@@ -1,23 +1,39 @@
 {
-	"form": {
-		"btn": "",
-		"companyName": "",
-		"companyNameLabel": "",
-		"email": "",
-		"emailLabel": "",
-		"firstName": "",
-		"firstNameLabel": "",
-		"meetupDate": "",
-		"meetWith": "",
-		"meetWithLabel": "",
-		"message": "",
-		"messageLable": "",
-		"phoneLabel": "",
-		"phoneNumber": ""
-	},
-	"form.btn": "",
-	"header": {
-		"content": "",
-		"title": ""
-	}
+  "form": {
+    "btn": "Zarezerwuj spotkanie",
+    "companyName": "",
+    "companyNameLabel": "",
+    "email": "",
+    "emailLabel": "",
+    "firstName": "",
+    "firstNameLabel": "",
+    "meetupDate": "",
+    "meetWith": "",
+    "meetWithLabel": "",
+    "message": "",
+    "messageLable": "",
+    "phoneLabel": "",
+    "phoneNumber": "",
+    "__i18n_ally_root__": {
+      "btn": "",
+      "companyName": "",
+      "companyNameLabel": "",
+      "email": "",
+      "emailLabel": "",
+      "firstName": "",
+      "firstNameLabel": "",
+      "meetWith": "",
+      "meetWithLabel": "",
+      "meetupDate": "",
+      "message": "",
+      "messageLable": "",
+      "phoneLabel": "",
+      "phoneNumber": ""
+    }
+  },
+  "form.btn": "",
+  "header": {
+    "content": "Opowiedz nam o swoim projekcie, potrzebach i dostępności w Broadcast Asia w Singapurze, a my umówimy się na indywidualne spotkanie z jednym z naszych ekspertów gowaf.",
+    "title": "Zarezerwuj spotkanie z ekspertem gowaf na Broadcast Asia 2024!"
+  }
 }

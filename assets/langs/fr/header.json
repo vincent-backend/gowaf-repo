@@ -1,116 +1,116 @@
 {
-	"alert": {
-		"btn": "",
-		"text": ""
-	},
-	"getStarted": "",
-	"login": "",
-	"menus": {
-		"network": "",
-		"pricing": "",
-		"products": "",
-		"resources": "",
-		"solutions": ""
-	},
-	"solutionsMenu": {
-		"byNeed": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"footer": {
-			"btn": "",
-			"title": ""
-		},
-		"solutions": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"videoAndStreaming": {
-			"items": [
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[1]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[2]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"items[3]": {
-				"subTitle": "",
-				"title": ""
-			},
-			"title": ""
-		}
-	}
+  "alert": {
+    "btn": "Réserver une réunion",
+    "text": "Gowaf va diffuser l'Asie à Singapour ! \n- Plongeons dans votre réussite future avec Gowaf"
+  },
+  "getStarted": "Commencer",
+  "login": "Se connecter",
+  "menus": {
+    "network": "Réseau",
+    "pricing": "Tarifs",
+    "products": "Des produits",
+    "resources": "Ressources",
+    "solutions": "Solutions"
+  },
+  "solutionsMenu": {
+    "byNeed": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/home/Solutions_nav_ic_video.png",
+        "title": "Vidéo et streaming"
+      },
+      "items[1]": {
+        "icon": "/images/home/Solutions_nav_ic_Storage.png",
+        "title": "Stockage et livraison"
+      },
+      "items[2]": {
+        "icon": "/images/home/Solutions_nav_ic_Website.png",
+        "title": "Performances du site Web"
+      },
+      "items[3]": {
+        "icon": "/images/home/Solutions_nav_ic_Security.png",
+        "title": "Sécurité et protection"
+      },
+      "title": "PAR BESOIN"
+    },
+    "footer": {
+      "btn": "Études de cas Gowaf",
+      "title": "Découvrez comment Gowaf a aidé d'autres entreprises à passer au niveau supérieur !"
+    },
+    "solutions": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/home/Solutions_nav_ic_need.png",
+        "title": "Par besoin"
+      },
+      "items[1]": {
+        "icon": "/images/home/Solutions_nav_ic_Industry.png",
+        "title": "Par industrie"
+      },
+      "title": "SOLUTIONS"
+    },
+    "videoAndStreaming": {
+      "items": [
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "subTitle": "Offrez la meilleure expérience vidéo.",
+        "title": "Livraison vidéo"
+      },
+      "items[1]": {
+        "subTitle": "Gardez vos vidéos sécurisées et sécurisées.",
+        "title": "Cage multimédia"
+      },
+      "items[2]": {
+        "subTitle": "Protection vidéo de qualité hollywoodienne.",
+        "title": "Multi-DRM d'entreprise"
+      },
+      "items[3]": {
+        "subTitle": "Générez des sous-titres en un seul clic",
+        "title": "Transcrire Al"
+      },
+      "title": "VIDÉO ET STREAMING"
+    }
+  }
 }

@@ -1,240 +1,240 @@
 {
-	"footer1": {
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"footer2": {
-		"copyright": "",
-		"hotlinks": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"hotlinks[0]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[1]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[2]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[3]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[4]": {
-			"label": "",
-			"link": ""
-		},
-		"links": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"links[0]": {
-			"label": "",
-			"link": ""
-		},
-		"links[1]": {
-			"label": "",
-			"link": ""
-		},
-		"links[2]": {
-			"label": "",
-			"link": ""
-		},
-		"links[3]": {
-			"label": ""
-		},
-		"links[4]": {
-			"label": ""
-		},
-		"section1Content": "",
-		"section1Title": "",
-		"section2Content": "",
-		"section2Title": "",
-		"section3": "",
-		"shortcuts": [
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			}
-		],
-		"shortcuts[0]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"href": "",
-				"label": ""
-			},
-			"items[4]": {
-				"href": "",
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[1]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[2]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		}
-	}
+  "footer1": {
+    "btn": "Start FREE Trial",
+    "content": "Supercharge your Web Applications and Hop ahead of the Competition.",
+    "hint": "No credit card required – Complete Registration in under 2 minutes.",
+    "title": "Start Your 14 Day Free Trial"
+  },
+  "footer2": {
+    "copyright": "2024 All Rights Reserved © Gowaf Way d.o.o.",
+    "hotlinks": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "hotlinks[0]": {
+      "label": "About Us",
+      "link": "/resources/about"
+    },
+    "hotlinks[1]": {
+      "label": "Gowaf Blog",
+      "link": "/resources/blog"
+    },
+    "hotlinks[2]": {
+      "label": "Gowaf Careers",
+      "link": "/resources/careers"
+    },
+    "hotlinks[3]": {
+      "label": "Case Studies",
+      "link": "/resources/caseStudiesDetails"
+    },
+    "hotlinks[4]": {
+      "label": "Affiliate Program",
+      "link": "/AffiliateProgram"
+    },
+    "links": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "links[0]": {
+      "label": "Terms Of Service",
+      "link": ""
+    },
+    "links[1]": {
+      "label": "Acceptable Use",
+      "link": ""
+    },
+    "links[2]": {
+      "label": "GDPR",
+      "link": ""
+    },
+    "links[3]": {
+      "label": "Privacy"
+    },
+    "links[4]": {
+      "label": "Report Abuse"
+    },
+    "section1Content": "Working on a big project?  Let our experts help you out.",
+    "section1Title": "Big traffic? Talk to Sales",
+    "section2Content": "Follow us on social media for special promotions and important news.",
+    "section2Title": "Stay up to date with Gowaf",
+    "section3": "Making the internet hop faster!",
+    "shortcuts": [
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      }
+    ],
+    "shortcuts[0]": {
+      "items[0]": {
+        "href": "/Products/Cdn/Overview",
+        "label": "Gowaf CDN"
+      },
+      "items[1]": {
+        "href": "/Products/optimizer/Overview",
+        "label": "Gowaf Optimizer"
+      },
+      "items[2]": {
+        "href": "/Products/Storage/Asia",
+        "label": "Gowaf Storage"
+      },
+      "items[3]": {
+        "href": "/Products/Stream/Overview",
+        "label": "Gowaf Stream"
+      },
+      "items[4]": {
+        "href": "/Products/Cdn/Overview",
+        "label": "Gowaf DNS"
+      },
+      "title": "Products"
+    },
+    "shortcuts[1]": {
+      "items[0]": {
+        "href": "/Network/Overview",
+        "label": "Network Map"
+      },
+      "items[1]": {
+        "href": "/Products/Cdn/Features",
+        "label": "Gowaf Features"
+      },
+      "items[2]": {
+        "href": "/Network/Tools",
+        "label": "Network Tools"
+      },
+      "items[3]": {
+        "label": "Developer Hub"
+      },
+      "items[4]": {
+        "label": "API Documentation"
+      },
+      "title": "Developers"
+    },
+    "shortcuts[2]": {
+      "items[0]": {
+        "href": "/SLA",
+        "label": "SLA"
+      },
+      "items[1]": {
+        "href": "/SupportHUB",
+        "label": "Support HUB"
+      },
+      "items[2]": {
+        "href": "/BookMeeting",
+        "label": "Super Bunnies™"
+      },
+      "items[3]": {
+        "label": "Service Status"
+      },
+      "items[4]": {
+        "label": "✉hello@bunny.net"
+      },
+      "title": "Support"
+    }
+  }
 }

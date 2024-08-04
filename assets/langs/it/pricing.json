@@ -1,1309 +1,1309 @@
 {
-	"breadCrumbs": {
-		"cdn": "",
-		"dns": "",
-		"optimizer": "",
-		"overview": "",
-		"parent": "",
-		"storage": "",
-		"stream": ""
-	},
-	"cdn": {
-		"calculator1": {
-			"btn": "",
-			"items": [
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				}
-			],
-			"items[0]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"items[1]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"items[2]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"items[3]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"subs": [
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				}
-			],
-			"subs[0]": {
-				"title": "",
-				"value": ""
-			},
-			"subs[1]": {
-				"title": "",
-				"value": ""
-			},
-			"subTitle": "",
-			"tabs": [
-				{
-					"tab": ""
-				},
-				{
-					"tab": ""
-				}
-			],
-			"tabs[0]": {
-				"tab": ""
-			},
-			"tabs[1]": {
-				"tab": ""
-			},
-			"title": ""
-		},
-		"getInTouch": {
-			"form": {
-				"agree": "",
-				"agreeHref": "",
-				"agreeLink": "",
-				"btnSubmit": "",
-				"hint1": "",
-				"hint2": "",
-				"labelCompanyName": "",
-				"labelEmail": "",
-				"labelEstimatedTraffic": "",
-				"labelFirstName": "",
-				"labelLastName": "",
-				"labelMessage": "",
-				"labelPhone": "",
-				"placeholderCompanyName": "",
-				"placeholderEmail": "",
-				"placeholderEstimatedTraffic": "",
-				"placeholderFirstName": "",
-				"placeholderLastName": "",
-				"placeholderMessage": "",
-				"placeholderPhone": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"hop": {
-			"list": [
-				{
-					"btn": "",
-					"href": "",
-					"icon": "",
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"href": "",
-					"icon": "",
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"href": "",
-					"icon": "",
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"list[0]": {
-				"btn": "",
-				"icon": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"list[1]": {
-				"btn": "",
-				"icon": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"list[2]": {
-				"btn": "",
-				"icon": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		},
-		"pricingTable[1]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		},
-		"supportPlan": {
-			"content": {
-				"btn": "",
-				"content": "",
-				"list": {
-					"items": [
-						"",
-						"",
-						"",
-						""
-					],
-					"items[0]": "",
-					"items[1]": "",
-					"items[2]": "",
-					"items[3]": "",
-					"title": ""
-				},
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"dns": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		}
-	},
-	"optimizer": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		}
-	},
-	"overview": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"ranks": [
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				},
-				{
-					"icon": "",
-					"score": ""
-				}
-			],
-			"ranks[0]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[1]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[2]": {
-				"icon": "",
-				"score": ""
-			},
-			"ranks[3]": {
-				"icon": "",
-				"score": ""
-			},
-			"subTitle": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"subTitle[0]": "",
-			"subTitle[1]": "",
-			"subTitle[2]": "",
-			"subTitle[3]": "",
-			"subTitle[4]": "",
-			"subTitle[5]": "",
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"pricingTab": [
-			{
-				"content": [
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					},
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"bottomList": [
-							"",
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"bottomList": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					},
-					{
-						"bottomList": [
-							"",
-							"",
-							"",
-							"",
-							""
-						],
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			},
-			{
-				"content": [
-					{
-						"btn": "",
-						"content": "",
-						"href": "",
-						"items": [
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							},
-							{
-								"hint": "",
-								"text": ""
-							}
-						],
-						"subTitle": "",
-						"title": "",
-						"titleEm": ""
-					}
-				],
-				"header": "",
-				"tab": ""
-			}
-		],
-		"pricingTab[0]": {
-			"content[0]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"content[1]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[1]": {
-			"content[0]": {
-				"bottomList[0]": "",
-				"bottomList[1]": "",
-				"bottomList[2]": "",
-				"bottomList[3]": "",
-				"bottomList[4]": "",
-				"bottomList[5]": "",
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[2]": {
-			"content[0]": {
-				"bottomList[0]": "",
-				"bottomList[1]": "",
-				"bottomList[2]": "",
-				"bottomList[3]": "",
-				"bottomList[4]": "",
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"content[1]": {
-				"bottomList[0]": "",
-				"bottomList[1]": "",
-				"bottomList[2]": "",
-				"bottomList[3]": "",
-				"bottomList[4]": "",
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[3]": {
-			"content[0]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"pricingTab[4]": {
-			"content[0]": {
-				"btn": "",
-				"content": "",
-				"items[0]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[1]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[2]": {
-					"hint": "",
-					"text": ""
-				},
-				"items[3]": {
-					"hint": "",
-					"text": ""
-				},
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			"header": "",
-			"tab": ""
-		},
-		"saveMoney": {
-			"hint": "",
-			"list": [
-				{
-					"items": [
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						}
-					],
-					"subTitle": "",
-					"title": ""
-				},
-				{
-					"items": [
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						},
-						{
-							"label": "",
-							"value": "",
-							"width": ""
-						}
-					],
-					"subTitle": "",
-					"title": ""
-				}
-			],
-			"list[0]": {
-				"items[0]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[1]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[2]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[3]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[4]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[5]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"subTitle": "",
-				"title": ""
-			},
-			"list[1]": {
-				"items[0]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[1]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[2]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[3]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[4]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"items[5]": {
-					"label": "",
-					"value": "",
-					"width": ""
-				},
-				"subTitle": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"storage": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"map": {
-			"subTitle": "",
-			"title": ""
-		},
-		"pricingTable": [
-			{
-				"bottomList": [
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			},
-			{
-				"bottomList": [
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				"btn": "",
-				"content": "",
-				"href": "",
-				"items": [
-					{
-						"hint": "",
-						"text": ""
-					},
-					{
-						"hint": "",
-						"text": ""
-					}
-				],
-				"subTitle": "",
-				"title": "",
-				"titleEm": ""
-			}
-		],
-		"pricingTable[0]": {
-			"bottomList[0]": "",
-			"bottomList[1]": "",
-			"bottomList[2]": "",
-			"bottomList[3]": "",
-			"bottomList[4]": "",
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[3]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		},
-		"pricingTable[1]": {
-			"bottomList[0]": "",
-			"bottomList[1]": "",
-			"bottomList[2]": "",
-			"bottomList[3]": "",
-			"bottomList[4]": "",
-			"btn": "",
-			"content": "",
-			"items[0]": {
-				"hint": "",
-				"text": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"text": ""
-			},
-			"subTitle": "",
-			"title": "",
-			"titleEm": ""
-		}
-	},
-	"stream": {
-		"header": {
-			"content": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"tables": [
-			{
-				"items": [
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					}
-				],
-				"items2": [
-					"",
-					"",
-					"",
-					""
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					},
-					{
-						"hint": "",
-						"title": ""
-					}
-				],
-				"items2": [
-					"",
-					"",
-					"",
-					"",
-					""
-				],
-				"title": ""
-			}
-		],
-		"tables[0]": {
-			"items2[0]": "",
-			"items2[1]": "",
-			"items2[2]": "",
-			"items2[3]": "",
-			"items[0]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"tables[1]": {
-			"items2[0]": "",
-			"items2[1]": "",
-			"items2[2]": "",
-			"items2[3]": "",
-			"items2[4]": "",
-			"items[0]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[1]": {
-				"hint": "",
-				"title": ""
-			},
-			"items[2]": {
-				"hint": "",
-				"title": ""
-			},
-			"title": ""
-		}
-	}
+  "breadCrumbs": {
+    "cdn": "CDN",
+    "dns": "DNS",
+    "optimizer": "Ottimizzatore",
+    "overview": "Panoramica",
+    "parent": "Prezzi",
+    "storage": "Magazzinaggio",
+    "stream": "Flusso"
+  },
+  "cdn": {
+    "calculator1": {
+      "btn": "Inizia la prova GRATUITA di 14 giorni",
+      "items": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "items[0]": {
+        "percent": "",
+        "title": "UE/NA",
+        "value": "200GB"
+      },
+      "items[1]": {
+        "percent": "",
+        "title": "Asia/Oceania",
+        "value": "50GB"
+      },
+      "items[2]": {
+        "percent": "",
+        "title": "Sud America",
+        "value": "0GB"
+      },
+      "items[3]": {
+        "percent": "",
+        "title": "ME",
+        "value": "0GB"
+      },
+      "subs": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "subs[0]": {
+        "title": "Livello standard",
+        "value": "$ 3,5 al mese"
+      },
+      "subs[1]": {
+        "title": "Livello di volume",
+        "value": "$ 1,25 al mese"
+      },
+      "subTitle": "Inserisci il traffico totale utilizzato ogni mese per visualizzare i prezzi stimati.",
+      "tabs": [
+        {
+          "tab": ""
+        },
+        {
+          "tab": ""
+        }
+      ],
+      "tabs[0]": {
+        "tab": "Gigabyte"
+      },
+      "tabs[1]": {
+        "tab": "Terabyte"
+      },
+      "title": "Calcola la tua fattura mensile"
+    },
+    "getInTouch": {
+      "form": {
+        "agree": "Ho letto e accetto il Gowaf",
+        "agreeHref": "",
+        "agreeLink": "politica sulla riservatezza",
+        "btnSubmit": "Parliamo",
+        "hint1": "Stai lavorando a un grande progetto?",
+        "hint2": "Entra in contatto con le vendite!",
+        "labelCompanyName": "Nome della ditta",
+        "labelEmail": "E-mail",
+        "labelEstimatedTraffic": "Traffico mensile stimato",
+        "labelFirstName": "Nome di battesimo",
+        "labelLastName": "Cognome",
+        "labelMessage": "Messaggio",
+        "labelPhone": "Telefono",
+        "placeholderCompanyName": "Il nome della tua azienda",
+        "placeholderEmail": "Inserisci il tuo indirizzo email",
+        "placeholderEstimatedTraffic": "Non lo so",
+        "placeholderFirstName": "Il tuo nome",
+        "placeholderLastName": "Il tuo cognome",
+        "placeholderMessage": "Raccontaci del tuo progetto e di come Gowaf può aiutarti.",
+        "placeholderPhone": "XXX-XXX-XXXX"
+      },
+      "subTitle": "Hai una domanda o vuoi semplicemente parlare con noi? \nCompila il modulo e ti ricontatteremo!",
+      "title": "Mettiti in contatto"
+    },
+    "header": {
+      "content": "Scegli tra due semplici piani tariffari progettati per qualsiasi budget. \nScala da pochi gigabyte a centinaia di petabyte al mese.",
+      "preTitle": "Prezzi CDN",
+      "title": "Prezzi CDN completamente flessibili con pagamento in base al consumo"
+    },
+    "hop": {
+      "list": [
+        {
+          "btn": "",
+          "href": "",
+          "icon": "",
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "href": "",
+          "icon": "",
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "href": "",
+          "icon": "",
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "list[0]": {
+        "btn": "Vedi i dettagli sui prezzi",
+        "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
+        "subTitle": "A partire da $ 0,01/GB",
+        "title": "Deposito Gowaf"
+      },
+      "list[1]": {
+        "btn": "Vedi i dettagli sui prezzi",
+        "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
+        "subTitle": "$ 9,50 /sito web",
+        "title": "Ottimizzatore Gowaf"
+      },
+      "list[2]": {
+        "btn": "Vedi i dettagli sui prezzi",
+        "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
+        "subTitle": "A partire da $ 0,005/GB",
+        "title": "Flusso Gowaf"
+      },
+      "subTitle": "Ottieni tutti gli strumenti di cui hai bisogno per portare prestazioni e sicurezza a un livello superiore.",
+      "title": "Vai avanti con i prodotti Gowaf"
+    },
+    "pricingTable": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      },
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "btn": "Contatta le vendite",
+      "content": "Servi più di 100 TB al mese?",
+      "items[0]": {
+        "hint": "Europa",
+        "text": "$ 0,01/GB"
+      },
+      "items[1]": {
+        "hint": "Asia",
+        "text": "$ 0,03/GB"
+      },
+      "items[2]": {
+        "hint": "Sud America",
+        "text": "$ 0,045/GB"
+      },
+      "items[3]": {
+        "hint": "Medio Oriente",
+        "text": "$ 0,06/GB"
+      },
+      "subTitle": "Accedi a una rete globale velocissima con prezzi basati sulla regione.",
+      "title": "Rete standard",
+      "titleEm": "123 PoP"
+    },
+    "pricingTable[1]": {
+      "btn": "Contatta le vendite",
+      "content": "Servi più di 1 PB al mese?",
+      "items[0]": {
+        "hint": "Primi 500TB",
+        "text": "$ 0,005/GB"
+      },
+      "items[1]": {
+        "hint": "Da 500TB-1PB",
+        "text": "$ 0,004/GB"
+      },
+      "items[2]": {
+        "hint": "Da 1PB-2PB",
+        "text": "$ 0,002/GB"
+      },
+      "items[3]": {
+        "hint": "Dal 2PB",
+        "text": "Contattaci"
+      },
+      "subTitle": "Approfitta dei prezzi più convenienti al mondo per progetti a larghezza di banda elevata con un'unica tariffa globale.",
+      "title": "Rete di volumi",
+      "titleEm": "10 PoP"
+    },
+    "supportPlan": {
+      "content": {
+        "btn": "Esplora il supporto Gowaf",
+        "content": "Hai bisogno di un team disponibile 24 ore su 24, 7 giorni su 7, per le tue applicazioni mission-critical? \nApprofitta del nostro supporto aziendale che è a tua disposizione 24 ore su 24, 7 giorni su 7, per tutte le richieste, non solo per incidenti e problemi.",
+        "list": {
+          "items": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "items[0]": "Disponibilità 24 ore su 24, 7 giorni su 7",
+          "items[1]": "Canale Slack privato",
+          "items[2]": "Account manager dedicato",
+          "items[3]": "Comunicazione diretta con gli sviluppatori",
+          "title": "Cosa è incluso?"
+        },
+        "title": "Sempre a portata di mano"
+      },
+      "subTitle": "Un servizio di supporto competente che soddisfa le tue esigenze.",
+      "title": "Piani di supporto aziendale"
+    }
+  },
+  "dns": {
+    "header": {
+      "content": "Sblocca la vera potenza del DNS con un prezzo Pay As You Go completamente flessibile e sorprendentemente conveniente.",
+      "preTitle": "Prezzi DNS Gowaf",
+      "title": "Paghi solo per le query che utilizzi"
+    },
+    "pricingTable": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "btn": "Contatta le vendite",
+      "content": "Servire più di un miliardo di query al mese?",
+      "items[0]": {
+        "hint": "Query standard (primi 20 milioni)",
+        "text": "GRATUITO"
+      },
+      "items[1]": {
+        "hint": "Query intelligenti (primo 1 milione)",
+        "text": "GRATUITO"
+      },
+      "items[2]": {
+        "hint": "Query standard (dopo 20 milioni)",
+        "text": "$ 0,1/milione"
+      },
+      "items[3]": {
+        "hint": "Query intelligenti (dopo 1 milione)",
+        "text": "$ 0,3/milione"
+      },
+      "subTitle": "Prezzi semplici con pagamento in base al consumo con un generoso piano gratuito.",
+      "title": "Paga per query. \nNessun costo nascosto.",
+      "titleEm": ""
+    }
+  },
+  "optimizer": {
+    "header": {
+      "content": "Riduci i tempi di caricamento e aumenta i tassi di conversione in pochi clic senza scrivere una sola riga di codice.",
+      "preTitle": "Prezzi dell'ottimizzatore Gowaf",
+      "title": "Prezzi semplici e convenienti"
+    },
+    "pricingTable": [
+      {
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "btn": "Contatta le vendite",
+      "content": "Vuoi ottimizzare oltre 20 siti web?",
+      "items[0]": {
+        "hint": "Richieste illimitate",
+        "text": "GRATUITO"
+      },
+      "items[1]": {
+        "hint": "Trasformazioni illimitate",
+        "text": "GRATUITO"
+      },
+      "items[2]": {
+        "hint": "Ottimizzazioni illimitate",
+        "text": "GRATUITO"
+      },
+      "items[3]": {
+        "hint": "Prezzi mensili semplici",
+        "text": "$ 9,5/sito web"
+      },
+      "subTitle": "Prezzo mensile fisso indipendentemente dal traffico e dalle dimensioni.",
+      "title": "Ottima soluzione per progetti di qualsiasi dimensione",
+      "titleEm": ""
+    }
+  },
+  "overview": {
+    "header": {
+      "content": "Prezzi semplici e convenienti su qualsiasi scala. \nMinimo mensile di $ 1.",
+      "preTitle": "Prezzi Gowaf",
+      "title": "Usa come vuoi. \nPaga mentre procedi."
+    },
+    "join1": {
+      "person": {
+        "content": "\"Trovare Gowaf CDN è come trovare una miniera d'oro! È come se fosse reale? \"",
+        "name": "Jerry Caloroso",
+        "title": "Direttore dello streaming, OneStudio"
+      },
+      "ranks": [
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        },
+        {
+          "icon": "",
+          "score": ""
+        }
+      ],
+      "ranks[0]": {
+        "icon": "Network_Overview_mark_logo_1",
+        "score": "4.8"
+      },
+      "ranks[1]": {
+        "icon": "Network_Overview_mark_logo_2",
+        "score": "4.4"
+      },
+      "ranks[2]": {
+        "icon": "Network_Overview_mark_logo_3",
+        "score": "4.8"
+      },
+      "ranks[3]": {
+        "icon": "Network_Overview_mark_logo_4",
+        "score": "4.8"
+      },
+      "subTitle": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "subTitle[0]": "Siamo valutati",
+      "subTitle[1]": "",
+      "subTitle[2]": "Eccellente 4.8",
+      "subTitle[3]": "su 5 in poi",
+      "subTitle[4]": "Trustpilot",
+      "subTitle[5]": "- Basato su 600 recensioni",
+      "title": "Unisciti agli oltre 40.000 clienti soddisfatti"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "Tutte le funzionalità incluse per un minimo di $ 1 al mese.",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_1.png",
+        "title": "Minimo mensile di $ 1"
+      },
+      "items[1]": {
+        "content": "Abilita e disabilita le regioni con un clic di un pulsante.",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_2.png",
+        "title": "Attiva/disattiva le zone"
+      },
+      "items[2]": {
+        "content": "Paghi solo per la larghezza di banda effettivamente utilizzata.",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_3.png",
+        "title": "Nessun costo di richiesta"
+      },
+      "items[3]": {
+        "content": "Paga con PayPal, la maggior parte delle carte di credito e BTC.",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_4.png",
+        "title": "Molteplici opzioni di pagamento"
+      },
+      "items[4]": {
+        "content": "Utilizza tutte le nostre funzionalità uniche senza costi aggiuntivi.",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_5.png",
+        "title": "Tutte le funzionalità incluse"
+      },
+      "items[5]": {
+        "content": "Proteggi il tuo account con limiti di larghezza di banda mensili.",
+        "icon": "/images/pricing/overview/Pricing_Overview_card_ic_6.png",
+        "title": "Protezione da sovraccarico"
+      },
+      "title1": "Funzionalità potenti. \nEccellente prestazione.",
+      "title2": "Ottieni prestazioni ultraveloci, sicurezza solida e scalabilità illimitata. \nTutto ciò di cui hai bisogno per saltare più velocemente."
+    },
+    "pricingTab": [
+      {
+        "content": [
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          },
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "bottomList": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "bottomList": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          },
+          {
+            "bottomList": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      },
+      {
+        "content": [
+          {
+            "btn": "",
+            "content": "",
+            "href": "",
+            "items": [
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              },
+              {
+                "hint": "",
+                "text": ""
+              }
+            ],
+            "subTitle": "",
+            "title": "",
+            "titleEm": ""
+          }
+        ],
+        "header": "",
+        "tab": ""
+      }
+    ],
+    "pricingTab[0]": {
+      "content[0]": {
+        "btn": "Contatta le vendite",
+        "content": "Servi più di 100 TB al mese?",
+        "items[0]": {
+          "hint": "Europa",
+          "text": "$ 0,01/GB"
+        },
+        "items[1]": {
+          "hint": "Asia",
+          "text": "$ 0,03/GB"
+        },
+        "items[2]": {
+          "hint": "Sud America",
+          "text": "$ 0,045/GB"
+        },
+        "items[3]": {
+          "hint": "Medio Oriente",
+          "text": "$ 0,06/GB"
+        },
+        "subTitle": "Accedi a una rete globale velocissima con prezzi basati sulla regione.",
+        "title": "Rete standard",
+        "titleEm": "123 PoP"
+      },
+      "content[1]": {
+        "btn": "Contatta le vendite",
+        "content": "Servi più di 1 PB al mese?",
+        "items[0]": {
+          "hint": "Primi 500TB",
+          "text": "$ 0,005/GB"
+        },
+        "items[1]": {
+          "hint": "Da 500TB-1PB",
+          "text": "$ 0,004/GB"
+        },
+        "items[2]": {
+          "hint": "Da 1PB-2PB",
+          "text": "$ 0,002/GB"
+        },
+        "items[3]": {
+          "hint": "Dal 2PB",
+          "text": "Contattaci"
+        },
+        "subTitle": "Approfitta dei prezzi più convenienti al mondo per progetti a larghezza di banda elevata con un'unica tariffa globale.",
+        "title": "Rete di volumi",
+        "titleEm": "10 PoP"
+      },
+      "header": "Prezzi CDN Gowaf",
+      "tab": "Gowaf CDN"
+    },
+    "pricingTab[1]": {
+      "content[0]": {
+        "bottomList[0]": "Nessuna commissione di sicurezza",
+        "bottomList[1]": "Nessun costo di transcodifica",
+        "bottomList[2]": "Laver gratuito incluso",
+        "bottomList[3]": "Archiviazione video distribuita",
+        "bottomList[4]": "Dorsale da 150 Tbps",
+        "bottomList[5]": "*La trascrizione viene pagata al minuto per lingua.",
+        "btn": "Contatta le vendite",
+        "content": "Servina più di 40TB al mese?",
+        "items[0]": {
+          "hint": "Transcodifica",
+          "text": "GRATUITO"
+        },
+        "items[1]": {
+          "hint": "Trascrizione",
+          "text": "$ 0,1/minuto*"
+        },
+        "items[2]": {
+          "hint": "Magazzinaggio",
+          "text": "$ 0,01/GB"
+        },
+        "items[3]": {
+          "hint": "CDN",
+          "text": "$ 0,005/GB"
+        },
+        "subTitle": "Il lettore video, la transcodifica e le funzionalità di sicurezza sono gratuiti.",
+        "title": "Prezzi semplificati. \nCosto fino a 10 volte inferiore.",
+        "titleEm": ""
+      },
+      "header": "Prezzi del flusso Gowaf",
+      "tab": "Flusso Gowaf"
+    },
+    "pricingTab[2]": {
+      "content[0]": {
+        "bottomList[0]": "Vero pagamento in base al consumo",
+        "bottomList[1]": "Minimo mensile di $ 1",
+        "bottomList[2]": "Traffico gratuito verso Bunny CDN",
+        "bottomList[3]": "Nessuna commissione API",
+        "bottomList[4]": "Uscita API gratuita",
+        "btn": "Contatta le vendite",
+        "content": "Archiviazione di più di 50 TB al mese?",
+        "items[0]": {
+          "hint": "Regione unica",
+          "text": "$ 0,01/GB"
+        },
+        "items[1]": {
+          "hint": "Due Regioni",
+          "text": "$ 0,02/GB"
+        },
+        "items[2]": {
+          "hint": "Tre Regioni",
+          "text": "$ 0,025/GB"
+        },
+        "items[3]": {
+          "hint": "Ogni regione aggiuntiva",
+          "text": "$ 0,005/GB"
+        },
+        "subTitle": "$ 0,01/GB per regione di archiviazione per un massimo di due regioni. \n$ 0,005/GB per regione aggiuntiva. \nFino a 9 regioni.",
+        "title": "Livello standard",
+        "titleEm": "HDD"
+      },
+      "content[1]": {
+        "bottomList[0]": "Vero pagamento in base al consumo",
+        "bottomList[1]": "Minimo mensile di $ 1",
+        "bottomList[2]": "Traffico gratuito verso Bunny CDN",
+        "bottomList[3]": "Nessuna commissione API",
+        "bottomList[4]": "Uscita API gratuita",
+        "btn": "Contatta le vendite",
+        "content": "Archiviazione di più di 50 TB al mese?",
+        "items[0]": {
+          "hint": "Regione unica",
+          "text": "$ 0,02/GB"
+        },
+        "items[1]": {
+          "hint": "Ogni regione aggiuntiva",
+          "text": "$ 0,02/GB"
+        },
+        "subTitle": "$ 0,02/GB per ciascuna regione di archiviazione. \nFino a 15 regioni.",
+        "title": "Livello periferico",
+        "titleEm": "SSD"
+      },
+      "header": "Prezzi dello spazio di archiviazione Gowaf",
+      "tab": "Deposito Gowaf"
+    },
+    "pricingTab[3]": {
+      "content[0]": {
+        "btn": "Contatta le vendite",
+        "content": "Vuoi ottimizzare oltre 20 siti web?",
+        "items[0]": {
+          "hint": "Richieste illimitate",
+          "text": "GRATUITO"
+        },
+        "items[1]": {
+          "hint": "Trasformazioni illimitate",
+          "text": "GRATUITO"
+        },
+        "items[2]": {
+          "hint": "Ottimizzazioni illimitate",
+          "text": "GRATUITO"
+        },
+        "items[3]": {
+          "hint": "Prezzi mensili semplici",
+          "text": "$ 9,5/sito web"
+        },
+        "subTitle": "Prezzo mensile fisso indipendentemente dal traffico e dalle dimensioni.",
+        "title": "Ottima soluzione per progetti di qualsiasi dimensione",
+        "titleEm": ""
+      },
+      "header": "Prezzi dell'ottimizzatore Gowaf",
+      "tab": "Ottimizzatore Gowaf"
+    },
+    "pricingTab[4]": {
+      "content[0]": {
+        "btn": "Contatta le vendite",
+        "content": "Servire più di un miliardo di query al mese?",
+        "items[0]": {
+          "hint": "Query standard (primi 20 milioni)",
+          "text": "GRATUITO"
+        },
+        "items[1]": {
+          "hint": "Query intelligenti (primo 1 milione)",
+          "text": "GRATUITO"
+        },
+        "items[2]": {
+          "hint": "Query standard (dopo 20 milioni)",
+          "text": "$ 0,1/milione"
+        },
+        "items[3]": {
+          "hint": "Query intelligenti (dopo 1 milione)",
+          "text": "$ 0,3/milione"
+        },
+        "subTitle": "Prezzi semplici con pagamento in base al consumo con un generoso piano gratuito.",
+        "title": "Paga per query. \nNessun costo nascosto.",
+        "titleEm": ""
+      },
+      "header": "Prezzi DNS Gowaf",
+      "tab": "DNS Gowaf"
+    },
+    "saveMoney": {
+      "hint": "Le prestazioni si basano su dati indipendenti degli utenti reali forniti da CDNPerf e sui prezzi della lista pubblica dei fornitori di luglio 2022.",
+      "list": [
+        {
+          "items": [
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            }
+          ],
+          "subTitle": "",
+          "title": ""
+        },
+        {
+          "items": [
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            },
+            {
+              "label": "",
+              "value": "",
+              "width": ""
+            }
+          ],
+          "subTitle": "",
+          "title": ""
+        }
+      ],
+      "list[0]": {
+        "items[0]": {
+          "label": "Gowaf",
+          "value": "$ 50",
+          "width": "21,25%"
+        },
+        "items[1]": {
+          "label": "CDN77",
+          "value": "$ 165",
+          "width": "31,875%"
+        },
+        "items[2]": {
+          "label": "StackPath",
+          "value": "$ 170",
+          "width": "35%"
+        },
+        "items[3]": {
+          "label": "KeyCDN",
+          "value": "$ 200",
+          "width": "38,125%"
+        },
+        "items[4]": {
+          "label": "CloudFront",
+          "value": "$ 425",
+          "width": "77,5%"
+        },
+        "items[5]": {
+          "label": "Velocemente",
+          "value": "$ 600",
+          "width": "90%"
+        },
+        "subTitle": "(Europa",
+        "title": "Prezzo per 5 Terabyte"
+      },
+      "list[1]": {
+        "items[0]": {
+          "label": "Gowaf",
+          "value": "24 ms",
+          "width": "21,25%"
+        },
+        "items[1]": {
+          "label": "CDN77",
+          "value": "31 ms",
+          "width": "31,875%"
+        },
+        "items[2]": {
+          "label": "StackPath",
+          "value": "36 ms",
+          "width": "35%"
+        },
+        "items[3]": {
+          "label": "KeyCDN",
+          "value": "39 ms",
+          "width": "38,125%"
+        },
+        "items[4]": {
+          "label": "CloudFront",
+          "value": "27 ms",
+          "width": "77,5%"
+        },
+        "items[5]": {
+          "label": "Velocemente",
+          "value": "29 ms",
+          "width": "90%"
+        },
+        "subTitle": "(Mediana mondiale: un valore inferiore è migliore)",
+        "title": "Performance globale media"
+      },
+      "subTitle": "Le prestazioni sono nel nostro DNA. \nLa velocità è la nostra passione. \nIl prezzo conveniente è solo un vantaggio.",
+      "title": "Risparmiare. \nVai più veloce."
+    }
+  },
+  "storage": {
+    "header": {
+      "content": "Mantieni i costi al minimo. \nNon sacrificare mai le prestazioni. \nNon sono richiesti impegni.",
+      "preTitle": "Prezzi dello spazio di archiviazione Gowaf",
+      "title": "Sorprendentemente conveniente"
+    },
+    "map": {
+      "subTitle": "Archivia i tuoi contenuti dove ne hai bisogno quando ne hai bisogno per il massimo delle prestazioni e della conformità.",
+      "title": "Pubblico globale. \nArchiviazione globale."
+    },
+    "pricingTable": [
+      {
+        "bottomList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      },
+      {
+        "bottomList": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "btn": "",
+        "content": "",
+        "href": "",
+        "items": [
+          {
+            "hint": "",
+            "text": ""
+          },
+          {
+            "hint": "",
+            "text": ""
+          }
+        ],
+        "subTitle": "",
+        "title": "",
+        "titleEm": ""
+      }
+    ],
+    "pricingTable[0]": {
+      "bottomList[0]": "Vero pagamento in base al consumo",
+      "bottomList[1]": "Minimo mensile di $ 1",
+      "bottomList[2]": "Traffico gratuito verso Bunny CDN",
+      "bottomList[3]": "Nessuna commissione API",
+      "bottomList[4]": "Uscita API gratuita",
+      "btn": "",
+      "content": "Archiviazione di più di 50 TB al mese?",
+      "items[0]": {
+        "hint": "Regione unica",
+        "text": "$ 0,01/GB"
+      },
+      "items[1]": {
+        "hint": "Due Regioni",
+        "text": "$ 0,02/GB"
+      },
+      "items[2]": {
+        "hint": "Tre Regioni",
+        "text": "$ 0,025/GB"
+      },
+      "items[3]": {
+        "hint": "Ogni regione aggiuntiva",
+        "text": "$ 0,005/GB"
+      },
+      "subTitle": "$ 0,01/GB per regione di archiviazione per un massimo di due regioni. \n$ 0,005/GB per regione aggiuntiva. \nFino a 9 regioni.",
+      "title": "Livello standard",
+      "titleEm": "HDD"
+    },
+    "pricingTable[1]": {
+      "bottomList[0]": "Vero pagamento in base al consumo",
+      "bottomList[1]": "Minimo mensile di $ 1",
+      "bottomList[2]": "Traffico gratuito verso Bunny CDN",
+      "bottomList[3]": "Nessuna commissione API",
+      "bottomList[4]": "Uscita API gratuita",
+      "btn": "Contatta le vendite",
+      "content": "Archiviazione di più di 50 TB al mese?",
+      "items[0]": {
+        "hint": "Regione unica",
+        "text": "$ 0,02/GB"
+      },
+      "items[1]": {
+        "hint": "Ogni regione aggiuntiva",
+        "text": "$ 0,02/GB"
+      },
+      "subTitle": "$ 0,02/GB per ciascuna regione di archiviazione. \nFino a 15 regioni.",
+      "title": "Livello periferico",
+      "titleEm": "SSD"
+    }
+  },
+  "stream": {
+    "header": {
+      "content": "Utilizza il lettore video, la transcodifica e tutte le funzionalità di sicurezza in modo completamente gratuito. \nPaghi solo per il traffico che utilizzi!",
+      "preTitle": "Prezzi del flusso Gowaf",
+      "title": "Prezzi semplificati. \nCosto fino a 10 volte inferiore."
+    },
+    "tables": [
+      {
+        "items": [
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          }
+        ],
+        "items2": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          },
+          {
+            "hint": "",
+            "title": ""
+          }
+        ],
+        "items2": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "title": ""
+      }
+    ],
+    "tables[0]": {
+      "items2[0]": "Commissioni di transcodifica costose",
+      "items2[1]": "Porta e integra il tuo lettore esterno",
+      "items2[2]": "Integrazione complessa con costi aggiuntivi",
+      "items2[3]": "Lo storage centralizzato è soggetto a colli di bottiglia",
+      "items[0]": {
+        "hint": "Codifica",
+        "title": "$ 0,02/minuto"
+      },
+      "items[1]": {
+        "hint": "Magazzinaggio",
+        "title": "A partire da $ 0,02/GB"
+      },
+      "items[2]": {
+        "hint": "CDN",
+        "title": "A partire da $ 0,085/GB"
+      },
+      "title": "Fornitore di servizi cloud tradizionale"
+    },
+    "tables[1]": {
+      "items2[0]": "Nessuna commissione di sicurezza",
+      "items2[1]": "Nessun costo di transcodifica",
+      "items2[2]": "Lettore gratuito incluso",
+      "items2[3]": "Archiviazione video distribuita",
+      "items2[4]": "Prestazioni estreme con backbone da 150 Tbps",
+      "items[0]": {
+        "hint": "Codifica",
+        "title": "GRATUITO"
+      },
+      "items[1]": {
+        "hint": "Magazzinaggio",
+        "title": "A partire da $ 0,01/GB"
+      },
+      "items[2]": {
+        "hint": "CDN",
+        "title": "A partire da $ 0,005/GB"
+      },
+      "title": "Coniglio Stream"
+    }
+  }
 }

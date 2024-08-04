@@ -1,23 +1,39 @@
 {
-	"form": {
-		"btn": "",
-		"companyName": "",
-		"companyNameLabel": "",
-		"email": "",
-		"emailLabel": "",
-		"firstName": "",
-		"firstNameLabel": "",
-		"meetupDate": "",
-		"meetWith": "",
-		"meetWithLabel": "",
-		"message": "",
-		"messageLable": "",
-		"phoneLabel": "",
-		"phoneNumber": ""
-	},
-	"form.btn": "",
-	"header": {
-		"content": "",
-		"title": ""
-	}
+  "form": {
+    "btn": "Book a Meeting",
+    "companyName": "",
+    "companyNameLabel": "",
+    "email": "",
+    "emailLabel": "",
+    "firstName": "",
+    "firstNameLabel": "",
+    "meetupDate": "",
+    "meetWith": "",
+    "meetWithLabel": "",
+    "message": "",
+    "messageLable": "",
+    "phoneLabel": "",
+    "phoneNumber": "",
+    "__i18n_ally_root__": {
+      "btn": "",
+      "companyName": "",
+      "companyNameLabel": "",
+      "email": "",
+      "emailLabel": "",
+      "firstName": "",
+      "firstNameLabel": "",
+      "meetWith": "",
+      "meetWithLabel": "",
+      "meetupDate": "",
+      "message": "",
+      "messageLable": "",
+      "phoneLabel": "",
+      "phoneNumber": ""
+    }
+  },
+  "form.btn": "",
+  "header": {
+    "content": "Tell us about your project, needs, and availability at the Broadcast Asia in Singapore and we will schedule a one-on-one meeting with one of our gowaf experts.",
+    "title": "Book a Meeting with a gowaf Expert at Broadcast Asia 2024!"
+  }
 }

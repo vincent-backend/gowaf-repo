@@ -1,23 +1,39 @@
 {
-	"form": {
-		"btn": "",
-		"companyName": "",
-		"companyNameLabel": "",
-		"email": "",
-		"emailLabel": "",
-		"firstName": "",
-		"firstNameLabel": "",
-		"meetupDate": "",
-		"meetWith": "",
-		"meetWithLabel": "",
-		"message": "",
-		"messageLable": "",
-		"phoneLabel": "",
-		"phoneNumber": ""
-	},
-	"form.btn": "",
-	"header": {
-		"content": "",
-		"title": ""
-	}
+  "form": {
+    "btn": "Reserve una reunión",
+    "companyName": "",
+    "companyNameLabel": "",
+    "email": "",
+    "emailLabel": "",
+    "firstName": "",
+    "firstNameLabel": "",
+    "meetupDate": "",
+    "meetWith": "",
+    "meetWithLabel": "",
+    "message": "",
+    "messageLable": "",
+    "phoneLabel": "",
+    "phoneNumber": "",
+    "__i18n_ally_root__": {
+      "btn": "",
+      "companyName": "",
+      "companyNameLabel": "",
+      "email": "",
+      "emailLabel": "",
+      "firstName": "",
+      "firstNameLabel": "",
+      "meetWith": "",
+      "meetWithLabel": "",
+      "meetupDate": "",
+      "message": "",
+      "messageLable": "",
+      "phoneLabel": "",
+      "phoneNumber": ""
+    }
+  },
+  "form.btn": "",
+  "header": {
+    "content": "Cuéntenos sobre su proyecto, necesidades y disponibilidad en Broadcast Asia en Singapur y programaremos una reunión individual con uno de nuestros expertos en gowaf.",
+    "title": "¡Reserve una reunión con un experto en gowaf en Broadcast Asia 2024!"
+  }
 }

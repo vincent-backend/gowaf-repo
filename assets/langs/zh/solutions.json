@@ -1,1592 +1,1746 @@
 {
-	"securityCdn": {
-		"ad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"chart1": {
-			"subTitle": "",
-			"title": ""
-		},
-		"features2": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"tip": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"tip": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"goFaster": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": "",
-					"titleTip": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": "",
-					"titleTip": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": "",
-				"titleTip": ""
-			},
-			"tabs[1]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": "",
-				"titleTip": ""
-			},
-			"tabs[3]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		}
-	},
-	"storageGame": {
-		"accelerate": {
-			"content": "",
-			"list1": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"list1[0]": "",
-			"list1[1]": "",
-			"list1[2]": "",
-			"list1[3]": "",
-			"list1[4]": "",
-			"list1[5]": "",
-			"list2": [
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				}
-			],
-			"list2[0]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[1]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[2]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[3]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"ad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"goFaster": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[1]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[3]": {
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		}
-	},
-	"storageGame.accelerate.list2[3].content": "",
-	"storageSoftware": {
-		"accelerate": {
-			"btn": "",
-			"content": "",
-			"list2": [
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				}
-			],
-			"list2[0]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[1]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[2]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[3]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"title": "",
-			"upDown": {
-				"down": {
-					"title": "",
-					"value": ""
-				},
-				"up": {
-					"title": "",
-					"value": ""
-				}
-			}
-		},
-		"ad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"ad2": {
-			"btn": "",
-			"content": "",
-			"list": [
-				"",
-				"",
-				"",
-				""
-			],
-			"list[0]": "",
-			"list[1]": "",
-			"list[2]": "",
-			"list[3]": "",
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"map": {
-			"subTitle": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"supportPlan": {
-			"main": {
-				"btn": "",
-				"responseTime": "",
-				"responseTimeTitle": "",
-				"solveTime": "",
-				"solveTimeTitle": "",
-				"subTitle": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"videoDelivery": {
-		"ad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"Calculate": {
-			"list": [
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				}
-			],
-			"list[0]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"list[1]": {
-				"percent": "",
-				"title": "",
-				"value": ""
-			},
-			"ReplicationPoints": {
-				"icon": "",
-				"label": "",
-				"list": [
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					},
-					{
-						"label": ""
-					}
-				],
-				"list[0]": {
-					"label": "",
-					"status": ""
-				},
-				"list[1]": {
-					"label": "",
-					"status": ""
-				},
-				"list[2]": {
-					"label": "",
-					"status": ""
-				},
-				"list[3]": {
-					"label": "",
-					"status": ""
-				},
-				"list[4]": {
-					"label": "",
-					"status": ""
-				},
-				"list[5]": {
-					"label": "",
-					"status": ""
-				},
-				"list[6]": {
-					"label": "",
-					"status": ""
-				},
-				"list[7]": {
-					"label": "",
-					"status": ""
-				},
-				"title": "",
-				"unit": "",
-				"value": ""
-			},
-			"subs": [
-				{
-					"title": "",
-					"value": ""
-				},
-				{
-					"title": "",
-					"value": ""
-				}
-			],
-			"subs[0]": {
-				"title": "",
-				"value": ""
-			},
-			"subs[1]": {
-				"title": "",
-				"value": ""
-			}
-		},
-		"features": [
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			{
-				"content": "",
-				"icon": "",
-				"title": ""
-			}
-		],
-		"features[0]": {
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[1]": {
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"features[2]": {
-			"content": "",
-			"icon": "",
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"list2": {
-			"items": [
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				},
-				{
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[6]": {
-				"icon": "",
-				"title": ""
-			},
-			"items[7]": {
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"map": {
-			"subTitle": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers2": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers2[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers2[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers2[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers2[3]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"superCharge": {
-			"subTitle": "",
-			"tabs": [
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				},
-				{
-					"btn": "",
-					"content": "",
-					"href": "",
-					"icon": "",
-					"iconHeight": "",
-					"iconWidth": "",
-					"mIcon": "",
-					"mIconHeight": "",
-					"mIconWidth": "",
-					"tab": "",
-					"title": ""
-				}
-			],
-			"tabs[0]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[1]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[2]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"tabs[3]": {
-				"btn": "",
-				"content": "",
-				"icon": "",
-				"iconHeight": "",
-				"iconWidth": "",
-				"mIcon": "",
-				"mIconHeight": "",
-				"mIconWidth": "",
-				"tab": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"supportPlan": {
-			"main": {
-				"btn": "",
-				"list": [
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					},
-					{
-						"content": "",
-						"icon": "",
-						"title": ""
-					}
-				],
-				"list[0]": {
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				"list[1]": {
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				"subTitle": "",
-				"title": ""
-			},
-			"subTitle": "",
-			"title": ""
-		}
-	},
-	"websiteAcceleration": {
-		"accelerate": {
-			"content": "",
-			"list1": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"list1[0]": "",
-			"list1[1]": "",
-			"list1[2]": "",
-			"list1[3]": "",
-			"list1[4]": "",
-			"list1[5]": "",
-			"list2": [
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				}
-			],
-			"list2[0]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[1]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[2]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[3]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"ad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"ad2_1": {
-			"content": "",
-			"list": [
-				"",
-				"",
-				"",
-				""
-			],
-			"list[0]": "",
-			"list[1]": "",
-			"list[2]": "",
-			"list[3]": "",
-			"title": ""
-		},
-		"ad2_2": {
-			"btn": "",
-			"content": "",
-			"list": [
-				"",
-				"",
-				"",
-				""
-			],
-			"list[0]": "",
-			"list[1]": "",
-			"list[2]": "",
-			"list[3]": "",
-			"title": ""
-		},
-		"closerToUser": {
-			"items": [
-				{
-					"content": "",
-					"header": "",
-					"icon1": "",
-					"icon2": "",
-					"label": "",
-					"number": "",
-					"unit": ""
-				},
-				{
-					"content": "",
-					"header": "",
-					"icon1": "",
-					"icon2": "",
-					"label": "",
-					"number": "",
-					"unit": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"header": "",
-				"icon1": "",
-				"icon2": "",
-				"label": "",
-				"number": "",
-				"unit": ""
-			},
-			"items[1]": {
-				"content": "",
-				"header": "",
-				"icon1": "",
-				"icon2": "",
-				"label": "",
-				"number": "",
-				"unit": ""
-			},
-			"subTitle": "",
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[3]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[4]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[5]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"logos": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		}
-	},
-	"websiteWordpress": {
-		"accelerate": {
-			"content": "",
-			"list1": [
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
-			],
-			"list1[0]": "",
-			"list1[1]": "",
-			"list1[2]": "",
-			"list1[3]": "",
-			"list1[4]": "",
-			"list1[5]": "",
-			"list2": [
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"iconActive": "",
-					"title": ""
-				}
-			],
-			"list2[0]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[1]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[2]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"list2[3]": {
-				"content": "",
-				"icon": "",
-				"iconActive": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"ad1": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"ad2": {
-			"btn": "",
-			"content": "",
-			"items": [
-				{
-					"label": "",
-					"value": ""
-				},
-				{
-					"label": "",
-					"value": ""
-				}
-			],
-			"items[0]": {
-				"label": "",
-				"value": ""
-			},
-			"items[1]": {
-				"label": "",
-				"value": ""
-			},
-			"title": ""
-		},
-		"ad2_1": {
-			"btn": "",
-			"content": "",
-			"list": [
-				"",
-				"",
-				"",
-				""
-			],
-			"list[0]": "",
-			"list[1]": "",
-			"list[2]": "",
-			"list[3]": "",
-			"title": ""
-		},
-		"ad2_2": {
-			"btn": "",
-			"content": "",
-			"title": ""
-		},
-		"closerToUser": {
-			"subTitle": "",
-			"title": ""
-		},
-		"header": {
-			"btn": "",
-			"content": "",
-			"hint": "",
-			"preTitle": "",
-			"title": ""
-		},
-		"join1": {
-			"person": {
-				"content": "",
-				"name": "",
-				"title": ""
-			},
-			"title": ""
-		},
-		"list1": {
-			"items": [
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				},
-				{
-					"content": "",
-					"icon": "",
-					"title": ""
-				}
-			],
-			"items[0]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[1]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"items[2]": {
-				"content": "",
-				"icon": "",
-				"title": ""
-			},
-			"title1": "",
-			"title2": ""
-		},
-		"logos": {
-			"btn": "",
-			"subTitle": "",
-			"title": ""
-		},
-		"numbers": [
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			},
-			{
-				"content": "",
-				"label": ""
-			}
-		],
-		"numbers[0]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[1]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[2]": {
-			"content": "",
-			"label": ""
-		},
-		"numbers[3]": {
-			"content": "",
-			"label": ""
-		},
-		"title1": "",
-		"title2": ""
-	}
+  "securityCdn": {
+    "ad1": {
+      "btn": "开始 14 天免费试用",
+      "subTitle": "几秒钟内即可开始。\n无需信用卡。\n随时取消。",
+      "title": "时刻做好防护！"
+    },
+    "chart1": {
+      "subTitle": "150 Tbps 网络主干可抵御任何 DDoS 攻击。",
+      "title": "为您提供支持的网络边缘"
+    },
+    "features2": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "tip": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "借助始终在线的自动保护，您可以在攻击完全开始之前不到 10 秒的时间内将其阻止。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_ic_1.png",
+        "title": "始终在线的 CDN 保护"
+      },
+      "items[1]": {
+        "content": "利用人工智能驱动的智能请求过滤器自动适应您的流量，甚至可以阻止最复杂的攻击。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_ic_2.png",
+        "tip": "即将推出",
+        "title": "动态AI请求过滤器"
+      },
+      "items[2]": {
+        "content": "通过智能误报避免系统最大限度地减少误报检测并停止激怒用户。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_ic_3.png",
+        "title": "避免误报"
+      },
+      "subTitle": "在 DDoS 攻击开始造成损害之前就将其阻止。",
+      "title": "不再有停机时间。\n曾经。"
+    },
+    "goFaster": {
+      "subTitle": "通过单一平台防御所有类型的威胁。",
+      "tabs": [
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": "",
+          "titleTip": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": "",
+          "titleTip": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "content": "阻止恶意机器人或 DDoS 脚本使您的服务器过载。 \nGowaf 使用不断学习的 AI 安全系统自动检测和阻止恶意 HTTP 请求，帮助您保持安全。\n我们会在威胁到达您的源头之前几秒将其阻止。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png",
+        "iconHeight": "326像素",
+        "iconWidth": "336像素",
+        "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_1@2x.png",
+        "mIconHeight": "20.38雷姆",
+        "mIconWidth": "20.38雷姆",
+        "tab": "HTTP 洪水防护",
+        "title": "防御第 7 层 HTTP 洪水攻击",
+        "titleTip": "即将推出"
+      },
+      "tabs[1]": {
+        "content": "通过 150 Tbps 的大型全球网络确保不间断的内容交付，该网络可以在攻击您的服务器之前自动阻止边缘最大的容量攻击。 \nGowaf 帮助您保持服务器安全和用户参与。\n无论。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png",
+        "iconHeight": "266像素",
+        "iconWidth": "338像素",
+        "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_2@2x.png",
+        "mIconHeight": "16.63雷姆",
+        "mIconWidth": "21.13雷姆",
+        "tab": "容量保护",
+        "title": "阻止边缘的容量网络攻击"
+      },
+      "tabs[2]": {
+        "content": "在软件层阻止针对您的应用程序的恶意请求。 \nGowaf WAF 通过阻止常见安全漏洞和由 Gowaf 安全团队维护的实时关键响应规则集来帮助您保持安全，以掌握新威胁。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png",
+        "iconHeight": "296像素",
+        "iconWidth": "350像素",
+        "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_3@2x.png",
+        "mIconHeight": "18.5雷姆",
+        "mIconWidth": "21.88雷姆",
+        "tab": "网络应用防火墙",
+        "title": "使用 Gowaf WAF 保护您的应用程序",
+        "titleTip": "即将推出"
+      },
+      "tabs[3]": {
+        "content": "通过简单的可配置请求和网络限制来保护您的在线状态并阻止带宽消耗攻击。\n您可以轻松限制每个 IP 的连接数、每秒请求数、下载速度限制以及每月总流量，以完全控制您的预算。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png",
+        "iconHeight": "279像素",
+        "iconWidth": "342像素",
+        "mIcon": "/images/solutions/security-cdn/Solutions_Security_cdn_graph_4@2x.png",
+        "mIconHeight": "17.44雷姆",
+        "mIconWidth": "21.38雷姆",
+        "tab": "要求",
+        "title": "只需点击几下即可设置请求和吞吐量限制"
+      },
+      "title": "安全无处不在"
+    },
+    "header": {
+      "btn": "开始 14 天免费试用",
+      "content": "将您的网站加载时间缩短高达 80%，并为全球用户提供更好的体验。\n只需单击一个按钮，即可让您的 WordPress 网站跳转得更快！",
+      "hint": "无需信用卡。\n几秒钟内开始。",
+      "preTitle": "WordPress CDN",
+      "title": "增强您的 WordPress 网站"
+    },
+    "join1": {
+      "person": {
+        "content": "“事实证明，Gowaf 是一家非常可靠的 CDN 提供商，以欧洲为主导，拥有严格的隐私标准。\n我们相信他们能够照顾我们基础设施中非常关键的部分，这需要我们和用户之间高度保密。”",
+        "name": "洛伦索·法莱特拉",
+        "title": "鹦鹉安全公司首席执行官"
+      },
+      "title": "受到 40,000 名满意客户的信赖"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "签署请求以控制谁、在哪里以及多长时间可以访问您的内容。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_1@2x.png",
+        "title": "令牌认证"
+      },
+      "items[1]": {
+        "content": "阻止第三方网站窃取您的内容并浪费您的带宽。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_2@2x.png",
+        "title": "盗链保护"
+      },
+      "items[2]": {
+        "content": "将内容限制为特定国家或 IP，仅用于完全区域控制。",
+        "icon": "/images/solutions/security-cdn/Solutions_Security_cdn_card_ic_3@2x.png",
+        "title": "知识产权"
+      },
+      "title1": "安全地交付内容",
+      "title2": "使用强大的控制功能来完全控制对内容的访问。"
+    }
+  },
+  "storageGame": {
+    "accelerate": {
+      "content": "",
+      "list1": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list1[0]": "",
+      "list1[1]": "",
+      "list1[2]": "",
+      "list1[3]": "",
+      "list1[4]": "",
+      "list1[5]": "",
+      "list2": [
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        }
+      ],
+      "list2[0]": {
+        "content": "",
+        "icon": "",
+        "iconActive": "",
+        "title": ""
+      },
+      "list2[1]": {
+        "content": "",
+        "icon": "",
+        "iconActive": "",
+        "title": ""
+      },
+      "list2[2]": {
+        "content": "",
+        "icon": "",
+        "iconActive": "",
+        "title": ""
+      },
+      "list2[3]": {
+        "content": "通过灵活的按需付费定价，消除大量下载的巨额成本。",
+        "icon": "",
+        "iconActive": "",
+        "title": ""
+      },
+      "title": ""
+    },
+    "ad1": {
+      "btn": "",
+      "subTitle": "",
+      "title": ""
+    },
+    "goFaster": {
+      "subTitle": "",
+      "tabs": [
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "content": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      "tabs[1]": {
+        "content": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      "tabs[2]": {
+        "content": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      "tabs[3]": {
+        "content": "",
+        "icon": "",
+        "iconHeight": "",
+        "iconWidth": "",
+        "mIcon": "",
+        "mIconHeight": "",
+        "mIconWidth": "",
+        "tab": "",
+        "title": ""
+      },
+      "title": ""
+    },
+    "header": {
+      "btn": "",
+      "content": "",
+      "hint": "",
+      "preTitle": "",
+      "title": ""
+    },
+    "join1": {
+      "person": {
+        "content": "",
+        "name": "",
+        "title": ""
+      },
+      "title": ""
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      "items[1]": {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      "items[2]": {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      "items[3]": {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      "items[4]": {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      "items[5]": {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      "title1": "",
+      "title2": ""
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "",
+      "label": ""
+    },
+    "numbers[1]": {
+      "content": "",
+      "label": ""
+    },
+    "numbers[2]": {
+      "content": "",
+      "label": ""
+    },
+    "numbers[3]": {
+      "content": "",
+      "label": ""
+    },
+    "__i18n_ally_root__": {
+      "accelerate": {
+        "content": "",
+        "list1[0]": "",
+        "list1[1]": "",
+        "list1[2]": "",
+        "list1[3]": "",
+        "list1[4]": "",
+        "list1[5]": "",
+        "list2[0]": {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        "list2[1]": {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        "list2[2]": {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        "list2[3]": {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        "title": ""
+      },
+      "ad1": {
+        "btn": "",
+        "subTitle": "",
+        "title": ""
+      },
+      "goFaster": {
+        "subTitle": "",
+        "tabs[0]": {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        "tabs[1]": {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        "tabs[2]": {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        "tabs[3]": {
+          "content": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        "title": ""
+      },
+      "header": {
+        "btn": "",
+        "content": "",
+        "hint": "",
+        "preTitle": "",
+        "title": ""
+      },
+      "join1": {
+        "person": {
+          "content": "",
+          "name": "",
+          "title": ""
+        },
+        "title": ""
+      },
+      "list1": {
+        "items[0]": {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        "items[1]": {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        "items[2]": {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        "items[3]": {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        "items[4]": {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        "items[5]": {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        "title1": "",
+        "title2": ""
+      },
+      "numbers[0]": {
+        "content": "",
+        "label": ""
+      },
+      "numbers[1]": {
+        "content": "",
+        "label": ""
+      },
+      "numbers[2]": {
+        "content": "",
+        "label": ""
+      },
+      "numbers[3]": {
+        "content": "",
+        "label": ""
+      }
+    }
+  },
+  "storageGame.accelerate.list2[3].content": "",
+  "storageSoftware": {
+    "accelerate": {
+      "btn": "探索 Gowaf CDN",
+      "content": "让您的内容更贴近世界各地的用户。\n利用 Gowaf 全球网络最大限度地减少延迟并最大限度地提高性能。\n利用完全定制的定价，只需为您实际使用的带宽付费！",
+      "list2": [
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        }
+      ],
+      "list2[0]": {
+        "content": "借助 80 Tbps 网络，轻松实现增长和扩展最大化。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_1_nor@2x.png",
+        "iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_1_sel@2x.png",
+        "title": "可扩展的设计"
+      },
+      "list2[1]": {
+        "content": "通过 3000 多家 ISP 和 14 家一级传输提供商直接连接到您的用户。\n任何地方。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_2_nor@2x.png",
+        "iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_2_sel@2x.png",
+        "title": "一级全球网络"
+      },
+      "list2[2]": {
+        "content": "利用顶级 AMD 和 NVMe 硬件优化交付并减少延迟。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_3_nor@2x.png",
+        "iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_3_sel@2x.png",
+        "title": "NVMe SSD 服务器"
+      },
+      "list2[3]": {
+        "content": "借助有效的内置下一代 DDoS 防护，保持安全并专注。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_ic_4_nor@2x.png",
+        "iconActive": "/images/solutions/storage-software/Solutions_Storage_Software_ic_4_sel@2x.png",
+        "title": "受到保护"
+      },
+      "title": "再也不用担心交通高峰",
+      "upDown": {
+        "down": {
+          "title": "降低账单",
+          "value": "30%"
+        },
+        "up": {
+          "title": "更快的加载时间",
+          "value": "40%"
+        }
+      }
+    },
+    "ad1": {
+      "btn": "开始 14 天免费试用",
+      "subTitle": "几秒钟内即可开始。\n无需信用卡。\n随时取消。",
+      "title": "加快您的软件分发速度！"
+    },
+    "ad2": {
+      "btn": "探索 Gowaf 存储",
+      "content": "快速下载需要快速存储。\n通过在世界各地保持文件准备就绪，忘记缓慢的冷启动。\n与传统对象存储相比，Gowaf Edge Storage 的性能提升高达 5 倍，并帮助您的用户更快地获取文件。",
+      "list": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list[0]": "下载速度提高 5 倍",
+      "list[1]": "自动异地故障转移",
+      "list[2]": "8个存储区域",
+      "list[3]": "99.99% 服务水平协议",
+      "title": "最快的存储，最快的下载"
+    },
+    "header": {
+      "btn": "开始 14 天免费试用",
+      "content": "利用最快的全球网络之一增强您的软件下载：在全球范围内体验高吞吐量且始终可靠的下载。",
+      "hint": "无需信用卡。\n几秒钟内开始。",
+      "preTitle": "软件分发",
+      "title": "提供闪电般的快速下载"
+    },
+    "join1": {
+      "person": {
+        "content": "“与戈瓦夫的合作让人呼吸新鲜空气。\n他们的团队乐于助人、反应敏捷且知识渊博。\n这项服务的每一步都超出了我们的预期。”",
+        "name": "汤姆·梅森",
+        "title": "Nexus 模组"
+      },
+      "title": "加入超过 40,000 名满意的客户"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "完全控制谁可以访问您的内容以及访问您的内容的时间。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_card_ic_1@3x.png",
+        "title": "令牌认证"
+      },
+      "items[1]": {
+        "content": "使用 bunny.net originshield 保护您的源站免受攻击和流量激增。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_card_ic_2@3x.png",
+        "title": "原产地保护"
+      },
+      "items[2]": {
+        "content": "通过有价值的见解和客户指标，全面了解您的内容交付。",
+        "icon": "/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3@3x.png",
+        "title": "记录"
+      },
+      "title1": "快如闪电。\n功能齐全。",
+      "title2": "通过强大的安全性、报告和管理功能提高标准。"
+    },
+    "map": {
+      "subTitle": "不再让您的用户等待。\n实时提供更新并最大限度地减少停机时间。\n加入由 123 个 PoP 提供支持的最快的全球网络之一。",
+      "title": "全球网络。\n面向全球观众。"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "每台服务器的上行链路",
+      "label": "40Gbps"
+    },
+    "numbers[1]": {
+      "content": "全球 PoP",
+      "label": "123"
+    },
+    "numbers[2]": {
+      "content": "网络骨干网",
+      "label": "150 兆比特/秒"
+    },
+    "numbers[3]": {
+      "content": "可用性服务等级协议",
+      "label": "99.99%"
+    },
+    "supportPlan": {
+      "main": {
+        "btn": "认识我们的超级高瓦夫",
+        "responseTime": "5分钟",
+        "responseTimeTitle": "第一反应时间",
+        "solveTime": "3小时",
+        "solveTimeTitle": "平均求解时间",
+        "subTitle": "无需再等待您现在需要的支持。\n我们全年 365 天、每周 7 天、每天 24 小时竭诚为您服务。\n平均第一次响应时间低于 5 分钟，平均解决时间低于 3 小时，我们绝对会为您提供良好的服务！",
+        "title": "值得信赖的全天候支持"
+      },
+      "subTitle": "忘记支持级别并直接与专家联系。\n每一次。",
+      "title": "关心的支持团队"
+    }
+  },
+  "videoDelivery": {
+    "ad1": {
+      "btn": "开始 14 天免费试用",
+      "subTitle": "几秒钟内即可开始。\n无需信用卡。\n随时取消。",
+      "title": "无需缓冲即可交付视频！"
+    },
+    "Calculate": {
+      "list": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "list[0]": {
+        "percent": "",
+        "title": "上传视频大小",
+        "value": "300GB"
+      },
+      "list[1]": {
+        "percent": "",
+        "title": "每月流量",
+        "value": "50GB"
+      },
+      "ReplicationPoints": {
+        "icon": "/images/products/stream/overview/common_price_right_wihte_ic2x.png",
+        "label": "价格",
+        "list": [
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          }
+        ],
+        "list[0]": {
+          "label": "一",
+          "status": ""
+        },
+        "list[1]": {
+          "label": "二",
+          "status": ""
+        },
+        "list[2]": {
+          "label": "三",
+          "status": ""
+        },
+        "list[3]": {
+          "label": "四",
+          "status": ""
+        },
+        "list[4]": {
+          "label": "五",
+          "status": ""
+        },
+        "list[5]": {
+          "label": "六",
+          "status": ""
+        },
+        "list[6]": {
+          "label": "六",
+          "status": ""
+        },
+        "list[7]": {
+          "label": "八",
+          "status": ""
+        },
+        "title": "复制点",
+        "unit": "/ 技嘉",
+        "value": "0.01 美元"
+      },
+      "subs": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "subs[0]": {
+        "title": "标准层",
+        "value": "4.5 美元/月"
+      },
+      "subs[1]": {
+        "title": "数量等级",
+        "value": "$3.25/月"
+      }
+    },
+    "features": [
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      },
+      {
+        "content": "",
+        "icon": "",
+        "title": ""
+      }
+    ],
+    "features[0]": {
+      "content": "使用我们的地理复制云存储在世界各地复制您的媒体库，以获得前所未有的性能。",
+      "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Replicated.png",
+      "title": "复制云存储"
+    },
+    "features[1]": {
+      "content": "Gowaf 没有单点故障，提供企业级可靠性，确保您始终保持在线状态。",
+      "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Redundant.png",
+      "title": "冗余基础设施"
+    },
+    "features[2]": {
+      "content": "我们的服务器采用 NVMe 和 SSD 技术，可确保交付媒体文件时实现毫秒级延迟。",
+      "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_NVMe.png",
+      "title": "NVMe SSD 供电的服务器"
+    },
+    "header": {
+      "btn": "免费试用 14 天",
+      "content": "通过我们的全球 150 Tbps 网络增强您的视频播放和高质量 VOD 流媒体。\n提供最佳视频体验，无缓冲且延迟最低。",
+      "hint": "无需信用卡。\n几秒钟内开始。",
+      "preTitle": "视频交付CDN",
+      "title": "真正跳跃的可靠视频 CDN"
+    },
+    "join1": {
+      "person": {
+        "content": "“我们进行得很顺利！峰会没有任何投诉。我认为，总的来说，bunny.net 是一个非常完整的解决方案。使用 Bunny 处理视频非常容易 - 您不需要大量培训。它非常精简。”",
+        "name": "马蒂亚斯·莫赫",
+        "title": "尤尼提"
+      },
+      "title": "受到全球 40,000 家客户的信赖"
+    },
+    "list2": {
+      "items": [
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        },
+        {
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png",
+        "title": "起源之盾"
+      },
+      "items[1]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png",
+        "title": "原始记录"
+      },
+      "items[2]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_3.png",
+        "title": "边缘存储"
+      },
+      "items[3]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_4.png",
+        "title": "实时统计"
+      },
+      "items[4]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_5.png",
+        "title": "盗链保护"
+      },
+      "items[5]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_6.png",
+        "title": "令牌认证"
+      },
+      "items[6]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_7.png",
+        "title": "媒体优化缓存"
+      },
+      "items[7]": {
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_8.png",
+        "title": "完全可定制的播放器"
+      },
+      "title1": "具有强大的功能",
+      "title2": "利用专为视频传输量身定制的强大功能。\n使用盗链保护和令牌身份验证保护您的流。"
+    },
+    "map": {
+      "subTitle": "Gowaf 网络专为高效视频传输而设计。\n通过在世界各地战略性选择的 PoP，我们确保了出色的性价比和令人难以置信的高缓存命中率。",
+      "title": "将视频传输提升到新的水平"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers2": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers2[0]": {
+      "content": "边缘位置",
+      "label": "123"
+    },
+    "numbers2[1]": {
+      "content": "每秒请求数",
+      "label": "650.000"
+    },
+    "numbers2[2]": {
+      "content": "网络容量",
+      "label": "150 兆比特/秒"
+    },
+    "numbers2[3]": {
+      "content": "平均。\n全局延迟",
+      "label": "24 毫秒"
+    },
+    "numbers[0]": {
+      "content": "供电网站",
+      "label": "1.000.000"
+    },
+    "numbers[1]": {
+      "content": "更快的加载时间",
+      "label": "高达 5 倍"
+    },
+    "numbers[2]": {
+      "content": "全球 PoP",
+      "label": "123"
+    },
+    "numbers[3]": {
+      "content": "低至",
+      "label": "1 美元/月"
+    },
+    "superCharge": {
+      "subTitle": "Gowaf 拥有全球 123 个 PoP 和 150 Tbps 网络主干，无论您的用户身在何处，都能保证流畅的视频播放。",
+      "tabs": [
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        },
+        {
+          "btn": "",
+          "content": "",
+          "href": "",
+          "icon": "",
+          "iconHeight": "",
+          "iconWidth": "",
+          "mIcon": "",
+          "mIconHeight": "",
+          "mIconWidth": "",
+          "tab": "",
+          "title": ""
+        }
+      ],
+      "tabs[0]": {
+        "btn": "",
+        "content": "得益于基于 NVMe 的硬件和智能路由引擎支持的最快的全球网络之一，享受流畅的播放。\n通过让内容距离访问者仅一步之遥，提供最佳的视频体验。",
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png",
+        "iconHeight": "276像素",
+        "iconWidth": "334像素",
+        "mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png",
+        "mIconHeight": "17.25雷姆",
+        "mIconWidth": "20.88雷姆",
+        "tab": "极致性能",
+        "title": "不再需要缓冲。\n以后再。"
+      },
+      "tabs[1]": {
+        "btn": "",
+        "content": "不要再为您的内容交付支付过高的费用。\n在 Gowaf，您永远只需为您使用的带宽付费，无需支付其他费用。\n我们专注于优化成本并将节省的成本回馈给您！",
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png",
+        "iconHeight": "268像素",
+        "iconWidth": "274像素",
+        "mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png",
+        "mIconHeight": "16.75雷姆",
+        "mIconWidth": "17.13雷姆",
+        "tab": "颠覆性定价",
+        "title": "节省高达 80% 的内容交付费用"
+      },
+      "tabs[2]": {
+        "btn": "",
+        "content": "使用 Perma-Cache 将视频永久存储在 CDN 上，以减少源站出口费用并让您的基础设施运行得更快。\n通过在全球范围内自动分发内容来提高性能和可靠性，从而实现闪电般的快速访问。",
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png",
+        "iconHeight": "246像素",
+        "iconWidth": "316像素",
+        "mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png",
+        "mIconHeight": "15.38雷姆",
+        "mIconWidth": "19.75雷姆",
+        "tab": "永久缓存",
+        "title": "变身一次。\n永久缓存和加速。"
+      },
+      "tabs[3]": {
+        "btn": "",
+        "content": "享受企业级 DRM 安全性，无需承担巨额成本或技术障碍。\n使用 Media Cage 只需单击一个按钮即可保护您的视频内容免遭盗版、停止下载、屏幕截图并防止盗链。",
+        "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png",
+        "iconHeight": "243像素",
+        "iconWidth": "300像素",
+        "mIcon": "/mobile-images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png",
+        "mIconHeight": "15.19雷姆",
+        "mIconWidth": "18.75雷姆",
+        "tab": "媒体保护",
+        "title": "企业视频保护。\n无需额外付费。"
+      },
+      "title": "快速网络满足无与伦比的价格"
+    },
+    "supportPlan": {
+      "main": {
+        "btn": "高瓦夫媒体播放器",
+        "list": [
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          },
+          {
+            "content": "",
+            "icon": "",
+            "title": ""
+          }
+        ],
+        "list[0]": {
+          "content": "自定义视频播放器配色方案以完美匹配您网站的设计。",
+          "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Color.png",
+          "title": "选择您的颜色"
+        },
+        "list[1]": {
+          "content": "添加或删除播放器控件，使其完美适合您的用户体验。",
+          "icon": "/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Controls.png",
+          "title": "自定义您的控件"
+        },
+        "subTitle": "通过自定义播放器的各个方面（具体到 CDN 主机名），最大限度地提高品牌影响力。",
+        "title": "让它成为你自己的"
+      },
+      "subTitle": "利用完全可定制的 bunny.net 媒体播放器。",
+      "title": "简单、干净且可定制的播放器"
+    }
+  },
+  "websiteAcceleration": {
+    "accelerate": {
+      "content": "加入世界上最快的全球网络之一。\n最大限度地提高您的网站速度，并为访问者提供最佳的体验。\n以市场上最实惠的价格充分利用企业级性能！",
+      "list1": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list1[0]": "从 1 美元/月起",
+      "list1[1]": "实时监控",
+      "list1[2]": "无隐藏费用",
+      "list1[3]": "DDoS 防护",
+      "list1[4]": "永久缓存",
+      "list1[5]": "免费 SSL 证书",
+      "list2": [
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        }
+      ],
+      "list2[0]": {
+        "content": "让您的内容保持领先，拉近与用户的距离并在竞争中领先。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_nor@2x.png",
+        "iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_sel@2x.png",
+        "title": "提升性能"
+      },
+      "list2[1]": {
+        "content": "由于更快的网站加载时间，让您的访问者获得难忘的用户体验。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_nor@2x.png",
+        "iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_sel@2x.png",
+        "title": "赢得用户体验"
+      },
+      "list2[2]": {
+        "content": "通过简单的即用即付定价，消除大量下载的巨额成本。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_nor@2x.png",
+        "iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_sel@2x.png",
+        "title": "减少开支"
+      },
+      "list2[3]": {
+        "content": "借助有效的内置下一代 DDoS 防护，保持安全并专注。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_nor@2x.png",
+        "iconActive": "/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_sel@2x.png",
+        "title": "受到保护"
+      },
+      "title": "惊人的表现。\n每次。"
+    },
+    "ad1": {
+      "btn": "开始 14 天免费试用",
+      "subTitle": "几秒钟内即可开始。\n无需信用卡。\n随时取消。",
+      "title": "跳上下一代网络加速！"
+    },
+    "ad2_1": {
+      "content": "您是否知道，如果页面在 3 秒内未加载，40% 的用户就会放弃该页面？\n加快您的网站速度，降低跳出率，增加转化率并最大化您的利润！",
+      "list": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list[0]": "降低跳出率",
+      "list[1]": "改善搜索引擎优化",
+      "list[2]": "提高转化率",
+      "list[3]": "改善用户体验",
+      "title": "降低跳出率。\n提高转化率。"
+    },
+    "ad2_2": {
+      "btn": "了解有关 Gowaf 优化器的更多信息",
+      "content": "使用 Gowaf Optimizer 将您的网站性能提升到光速。\n将图像文件大小减少最多 80%，并将其更改为网络友好的 WebP 格式。\n启用Gowaf Optimizer将使您的网站速度提高高达30%，真正让您脱颖而出！",
+      "list": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list[0]": "降低跳出率",
+      "list[1]": "改善搜索引擎优化",
+      "list[2]": "提高转化率",
+      "list[3]": "改善用户体验",
+      "title": "使用 Gowaf Optimizer 将图像尺寸减小多达 80%"
+    },
+    "closerToUser": {
+      "items": [
+        {
+          "content": "",
+          "header": "",
+          "icon1": "",
+          "icon2": "",
+          "label": "",
+          "number": "",
+          "unit": ""
+        },
+        {
+          "content": "",
+          "header": "",
+          "icon1": "",
+          "icon2": "",
+          "label": "",
+          "number": "",
+          "unit": ""
+        }
+      ],
+      "items[0]": {
+        "content": "将来自世界各地的访问者直接连接到您的服务器并不是一件好事。\n它会增加延迟，降低网站速度，并提供更糟糕的用户体验！",
+        "header": "没有 CDN",
+        "icon1": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time@2x.png",
+        "icon2": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_left@2x.png",
+        "label": "网站加载时间",
+        "number": "2.5",
+        "unit": "秒"
+      },
+      "items[1]": {
+        "content": "通过让您的内容更接近访问者，您可以最大限度地减少延迟、最大限度地提高性能并降低跳出率。\n有了 Bunny CDN，您的网站将像 Gowaf 一样快速跳转！",
+        "header": "使用 Gowaf CDN",
+        "icon1": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time2@2x.png",
+        "icon2": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_right@2x.png",
+        "label": "网站加载时间",
+        "number": "0.7",
+        "unit": "秒"
+      },
+      "subTitle": "较短的距离使您的网站加载速度更快。\n借助我们的全球网络，您的客户始终近在咫尺。",
+      "title": "让您的内容更贴近用户"
+    },
+    "header": {
+      "btn": "开始 14 天免费试用",
+      "content": "将您的网站从蜗牛变成高瓦夫。\n通过我们的全球 CDN 和优化器服务，为您的用户提供最佳体验。\n超越限制，加速您的网站！",
+      "hint": "无需信用卡。\n几秒钟内开始。",
+      "preTitle": "网站加速",
+      "title": "让您的网站像 Gowaf 一样跳跃"
+    },
+    "join1": {
+      "person": {
+        "content": "“找到 Gowaf CDN 就像找到金矿一样！这是真的吗？”",
+        "name": "杰里·卡洛罗索",
+        "title": "OneStudio 首席流媒体官"
+      },
+      "title": "加入超过 40,000 名满意的客户"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "只需单击一下按钮即可利用免费的 SSL 证书。",
+        "icon": "/images/solutions/website-acceleration/cdn_overview_bulid_ic_1@3x.png",
+        "title": "免费SSL"
+      },
+      "items[1]": {
+        "content": "通过战略性放置的全球 PoP 增强您的网站交付能力。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_2@3x.png",
+        "title": "123 个全球 PoP"
+      },
+      "items[2]": {
+        "content": "加入由精心挑选的提供商提供顶级数据中心支持的网络。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_3@3x.png",
+        "title": "一级网络"
+      },
+      "items[3]": {
+        "content": "通过域保护轻松保护您的图像免遭在其他网站上共享。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_4@3x.png",
+        "title": "盗链保护"
+      },
+      "items[4]": {
+        "content": "使用 SmartEdge™ 路由引擎根据您的内容将您的用户路由到重要的地方。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_5@3x.png",
+        "title": "智能路由"
+      },
+      "items[5]": {
+        "content": "优化您的图像并缩小 CSS/JS 文件以获得最佳性能。",
+        "icon": "/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png",
+        "title": "高瓦夫优化器"
+      },
+      "title1": "不仅更快而且更安全",
+      "title2": "提高安全性、保护您的内容并阻止漏洞。"
+    },
+    "logos": {
+      "btn": "分步集成指南",
+      "subTitle": "只需点击几下即可与最流行的 CMS 系统集成。 \n5 分钟内即可开始。",
+      "title": "简单、快速、轻松地与大多数流行的 CMS 系统集成"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "供电网站",
+      "label": "1.000.000"
+    },
+    "numbers[1]": {
+      "content": "更快的加载时间",
+      "label": "高达 5 倍"
+    },
+    "numbers[2]": {
+      "content": "全球 PoP",
+      "label": "123"
+    },
+    "numbers[3]": {
+      "content": "满意的客户",
+      "label": "40.000"
+    }
+  },
+  "websiteWordpress": {
+    "accelerate": {
+      "content": "通过简单的一键插件安装来增强您的 WordPress 网站。\n利用具有强大安全功能并由 150 Tbps 网络支持的下一代 WordPress CDN 交付。\n专注于您的产品，让我们来处理其他一切。",
+      "list1": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list1[0]": "安装简单",
+      "list1[1]": "DDoS 防护",
+      "list1[2]": "从 1 美元/月起",
+      "list1[3]": "无隐藏费用",
+      "list1[4]": "网站速度提高 5 倍",
+      "list1[5]": "123 个全球 PoP",
+      "list2": [
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "iconActive": "",
+          "title": ""
+        }
+      ],
+      "list2[0]": {
+        "content": "借助我们的 150 Tbps 网络，最大限度地提高您的增长和扩展能力。",
+        "icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_nor@2x.png",
+        "iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_sel@2x.png",
+        "title": "市场上最好的 WordPress CDN"
+      },
+      "list2[1]": {
+        "content": "通过 3000 多家 ISP 和 14 家一级传输提供商直接连接到您的用户。\n任何地方。",
+        "icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_nor@2x.png",
+        "iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_sel@2x.png",
+        "title": "一级全球网络"
+      },
+      "list2[2]": {
+        "content": "利用顶级 AMD 和 NVMe 硬件优化交付并减少延迟。",
+        "icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_nor@2x.png",
+        "iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_sel@2x.png",
+        "title": "NVMe SSD 服务器"
+      },
+      "list2[3]": {
+        "content": "借助有效的内置下一代 DDoS 防护，保持安全并专注。",
+        "icon": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_nor@2x.png",
+        "iconActive": "/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_sel@2x.png",
+        "title": "受到保护"
+      },
+      "title": "体验前所未有的网站性能"
+    },
+    "ad1": {
+      "btn": "开始 14 天免费试用",
+      "subTitle": "几秒钟内即可开始。\n无需信用卡。\n随时取消。",
+      "title": "跳上最好的 WordPress CDN！"
+    },
+    "ad2": {
+      "btn": "WordPress 集成",
+      "content": "您是否知道，如果页面在 3 秒内未加载，40% 的用户就会放弃该页面？\n加快您的网站速度，降低跳出率，增加转化率并最大化您的利润！",
+      "items": [
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "items[0]": {
+        "label": "设置时间",
+        "value": "5分钟"
+      },
+      "items[1]": {
+        "label": "更快的加载时间",
+        "value": "5x"
+      },
+      "title": "降低跳出率。\n提高转化率。"
+    },
+    "ad2_1": {
+      "btn": "探索 Gowaf 优化器",
+      "content": "使用 Gowaf Optimizer 将您的网站性能提升到光速。\n将图像文件大小减少最多 80%，并将其更改为网络友好的 WebP 格式。\n启用 Gowaf Optimizer 将使您的网站速度提高高达 30%，真正让您脱颖而出！",
+      "list": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "list[0]": "图像尺寸缩小 80%",
+      "list[1]": "速度提高 30%",
+      "list[2]": "韦伯转型",
+      "list[3]": "最小化加载时间",
+      "title": "将图像尺寸缩小至 80%"
+    },
+    "ad2_2": {
+      "btn": "探索媒体笼",
+      "content": "不希望您的视频被共享或下载？ \nMedia Cage 会锁定您的视频并阻止它们在您的网站之外下载或共享。\n对于您想要严格保留在网站上的在线课程和视频来说，它是完美的解决方案。",
+      "title": "保护您的视频不被盗"
+    },
+    "closerToUser": {
+      "subTitle": "借助我们的全球网络，让内容更贴近您的访问者，将您的网站速度提高高达 80%。\n通过集成 Gowaf CDN，您将提高加载速度、降低跳出率并提高转化率。\n只需点击几下鼠标，即可在竞争中脱颖而出！",
+      "title": "缩短距离。\n改善网站加载时间"
+    },
+    "header": {
+      "btn": "开始 14 天免费试用",
+      "content": "将您的网站加载时间缩短高达 80%，并为全球用户提供更好的体验。\n只需单击一个按钮，即可让您的 WordPress 网站跳转得更快！",
+      "hint": "无需信用卡。\n几秒钟内开始。",
+      "preTitle": "WordPress CDN",
+      "title": "增强您的 WordPress 网站"
+    },
+    "join1": {
+      "person": {
+        "content": "“Gowaf 为我们和我们的客户提供的性能、易用性和出色的支持一直给我们留下了深刻的印象！”",
+        "name": "詹姆斯·坎托尼",
+        "title": "WP 压缩联合创始人"
+      },
+      "title": "加入超过 40,000 个全球客户的行列"
+    },
+    "list1": {
+      "items": [
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "items[0]": {
+        "content": "对 Gowaf 网络上托管的所有网站和文件使用免费的 SSL 加密。",
+        "icon": "/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png",
+        "title": "免费 SSL 加密"
+      },
+      "items[1]": {
+        "content": "保护您的图像免遭盗链或未经授权而共享。",
+        "icon": "/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png",
+        "title": "图片水印保护"
+      },
+      "items[2]": {
+        "content": "启用 Media Cage 可防止您的视频被共享或下载。",
+        "icon": "/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_3@2x.png",
+        "title": "防止视频下载"
+      },
+      "title1": "不仅更快而且更安全",
+      "title2": "提高安全性、保护您的内容并阻止漏洞。"
+    },
+    "logos": {
+      "btn": "分步集成指南",
+      "subTitle": "将 Gowaf 与流行的 WordPress 插件结合起来，获得最佳体验。\n只需点击几下，您的网站就会运行得更快，并为您带来更好的结果！",
+      "title": "与流行的 WordPress 插件无缝、轻松集成"
+    },
+    "numbers": [
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      },
+      {
+        "content": "",
+        "label": ""
+      }
+    ],
+    "numbers[0]": {
+      "content": "供电网站",
+      "label": "1.000.000"
+    },
+    "numbers[1]": {
+      "content": "更快的加载时间",
+      "label": "高达 5 倍"
+    },
+    "numbers[2]": {
+      "content": "全球 PoP",
+      "label": "123"
+    },
+    "numbers[3]": {
+      "content": "低至",
+      "label": "1 美元/月"
+    },
+    "title1": "不仅更快而且更安全",
+    "title2": "提高安全性、保护您的内容并阻止漏洞。"
+  }
 }

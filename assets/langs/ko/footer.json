@@ -1,240 +1,240 @@
 {
-	"footer1": {
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"footer2": {
-		"copyright": "",
-		"hotlinks": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"hotlinks[0]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[1]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[2]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[3]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[4]": {
-			"label": "",
-			"link": ""
-		},
-		"links": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"links[0]": {
-			"label": "",
-			"link": ""
-		},
-		"links[1]": {
-			"label": "",
-			"link": ""
-		},
-		"links[2]": {
-			"label": "",
-			"link": ""
-		},
-		"links[3]": {
-			"label": ""
-		},
-		"links[4]": {
-			"label": ""
-		},
-		"section1Content": "",
-		"section1Title": "",
-		"section2Content": "",
-		"section2Title": "",
-		"section3": "",
-		"shortcuts": [
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			}
-		],
-		"shortcuts[0]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"href": "",
-				"label": ""
-			},
-			"items[4]": {
-				"href": "",
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[1]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[2]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		}
-	}
+  "footer1": {
+    "btn": "무료 평가판 시작",
+    "content": "웹 애플리케이션을 강화하고 경쟁에서 앞서 나가세요.",
+    "hint": "신용카드가 필요하지 않습니다. 2분 이내에 등록을 완료하세요.",
+    "title": "14일 무료 평가판을 시작하세요"
+  },
+  "footer2": {
+    "copyright": "2024 판권 소유 © Gowaf Way d.o.o.",
+    "hotlinks": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "hotlinks[0]": {
+      "label": "회사 소개",
+      "link": "/자원/정보"
+    },
+    "hotlinks[1]": {
+      "label": "고와프 블로그",
+      "link": "/자원/블로그"
+    },
+    "hotlinks[2]": {
+      "label": "고와프 채용",
+      "link": "/자원/경력"
+    },
+    "hotlinks[3]": {
+      "label": "사례 연구",
+      "link": "/resources/caseStudies세부정보"
+    },
+    "hotlinks[4]": {
+      "label": "제휴 프로그램",
+      "link": "/제휴프로그램"
+    },
+    "links": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "links[0]": {
+      "label": "서비스 약관",
+      "link": ""
+    },
+    "links[1]": {
+      "label": "허용되는 사용",
+      "link": ""
+    },
+    "links[2]": {
+      "label": "GDPR",
+      "link": ""
+    },
+    "links[3]": {
+      "label": "은둔"
+    },
+    "links[4]": {
+      "label": "남용 신고"
+    },
+    "section1Content": "큰 프로젝트를 진행 중이신가요?  \n우리 전문가들이 당신을 도와드리겠습니다.",
+    "section1Title": "교통량이 많나요? \n영업팀에 문의하세요",
+    "section2Content": "특별 프로모션과 중요한 뉴스를 보려면 소셜 미디어를 팔로우하세요.",
+    "section2Title": "Gowaf의 최신 소식을 받아보세요",
+    "section3": "인터넷 홉을 더 빠르게 만들기!",
+    "shortcuts": [
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      }
+    ],
+    "shortcuts[0]": {
+      "items[0]": {
+        "href": "/제품/Cdn/개요",
+        "label": "고와프 CDN"
+      },
+      "items[1]": {
+        "href": "/제품/최적화 프로그램/개요",
+        "label": "고와프 옵티마이저"
+      },
+      "items[2]": {
+        "href": "/제품/스토리지/아시아",
+        "label": "고와프 스토리지"
+      },
+      "items[3]": {
+        "href": "/제품/스트림/개요",
+        "label": "고와프 스트림"
+      },
+      "items[4]": {
+        "href": "/제품/Cdn/개요",
+        "label": "고와프 DNS"
+      },
+      "title": "제품"
+    },
+    "shortcuts[1]": {
+      "items[0]": {
+        "href": "/네트워크/개요",
+        "label": "네트워크 맵"
+      },
+      "items[1]": {
+        "href": "/제품/Cdn/기능",
+        "label": "고와프 기능"
+      },
+      "items[2]": {
+        "href": "/네트워크/도구",
+        "label": "네트워크 도구"
+      },
+      "items[3]": {
+        "label": "개발자 허브"
+      },
+      "items[4]": {
+        "label": "API 문서"
+      },
+      "title": "개발자"
+    },
+    "shortcuts[2]": {
+      "items[0]": {
+        "href": "/SLA",
+        "label": "SLA"
+      },
+      "items[1]": {
+        "href": "/지원허브",
+        "label": "지원 허브"
+      },
+      "items[2]": {
+        "href": "/북미팅",
+        "label": "슈퍼 버니™"
+      },
+      "items[3]": {
+        "label": "서비스 현황"
+      },
+      "items[4]": {
+        "label": "✉hello@bunny.net"
+      },
+      "title": "지원하다"
+    }
+  }
 }

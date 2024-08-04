@@ -1,240 +1,240 @@
 {
-	"footer1": {
-		"btn": "",
-		"content": "",
-		"hint": "",
-		"title": ""
-	},
-	"footer2": {
-		"copyright": "",
-		"hotlinks": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"hotlinks[0]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[1]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[2]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[3]": {
-			"label": "",
-			"link": ""
-		},
-		"hotlinks[4]": {
-			"label": "",
-			"link": ""
-		},
-		"links": [
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			},
-			{
-				"label": "",
-				"link": ""
-			}
-		],
-		"links[0]": {
-			"label": "",
-			"link": ""
-		},
-		"links[1]": {
-			"label": "",
-			"link": ""
-		},
-		"links[2]": {
-			"label": "",
-			"link": ""
-		},
-		"links[3]": {
-			"label": ""
-		},
-		"links[4]": {
-			"label": ""
-		},
-		"section1Content": "",
-		"section1Title": "",
-		"section2Content": "",
-		"section2Title": "",
-		"section3": "",
-		"shortcuts": [
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			},
-			{
-				"items": [
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					},
-					{
-						"href": "",
-						"label": ""
-					}
-				],
-				"title": ""
-			}
-		],
-		"shortcuts[0]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"href": "",
-				"label": ""
-			},
-			"items[4]": {
-				"href": "",
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[1]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		},
-		"shortcuts[2]": {
-			"items[0]": {
-				"href": "",
-				"label": ""
-			},
-			"items[1]": {
-				"href": "",
-				"label": ""
-			},
-			"items[2]": {
-				"href": "",
-				"label": ""
-			},
-			"items[3]": {
-				"label": ""
-			},
-			"items[4]": {
-				"label": ""
-			},
-			"title": ""
-		}
-	}
+  "footer1": {
+    "btn": "Начать БЕСПЛАТНУЮ пробную версию",
+    "content": "Усовершенствуйте свои веб-приложения и опередите конкурентов.",
+    "hint": "Кредитная карта не требуется – завершите регистрацию менее чем за 2 минуты.",
+    "title": "Начните 14-дневную бесплатную пробную версию"
+  },
+  "footer2": {
+    "copyright": "2024 Все права защищены © Gowaf Way d.o.o.",
+    "hotlinks": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "hotlinks[0]": {
+      "label": "О нас",
+      "link": "/ресурсы/о"
+    },
+    "hotlinks[1]": {
+      "label": "Блог Говафа",
+      "link": "/ресурсы/блог"
+    },
+    "hotlinks[2]": {
+      "label": "Карьера в Говафе",
+      "link": "/ресурсы/карьера"
+    },
+    "hotlinks[3]": {
+      "label": "Тематические исследования",
+      "link": "/resources/caseStudiesDetails"
+    },
+    "hotlinks[4]": {
+      "label": "Партнерская программа",
+      "link": "/Партнерская программа"
+    },
+    "links": [
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      },
+      {
+        "label": "",
+        "link": ""
+      }
+    ],
+    "links[0]": {
+      "label": "Условия использования",
+      "link": ""
+    },
+    "links[1]": {
+      "label": "Допустимое использование",
+      "link": ""
+    },
+    "links[2]": {
+      "label": "GDPR",
+      "link": ""
+    },
+    "links[3]": {
+      "label": "Конфиденциальность"
+    },
+    "links[4]": {
+      "label": "Сообщить о нарушении"
+    },
+    "section1Content": "Работаете над большим проектом?  \nПозвольте нашим специалистам помочь вам.",
+    "section1Title": "Большой трафик? \nПоговорите с продавцом",
+    "section2Content": "Следите за нами в социальных сетях, чтобы быть в курсе специальных предложений и важных новостей.",
+    "section2Title": "Будьте в курсе событий с Gowaf",
+    "section3": "Делаем интернет быстрее!",
+    "shortcuts": [
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      },
+      {
+        "items": [
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          },
+          {
+            "href": "",
+            "label": ""
+          }
+        ],
+        "title": ""
+      }
+    ],
+    "shortcuts[0]": {
+      "items[0]": {
+        "href": "/Продукты/CDN/Обзор",
+        "label": "Говаф CDN"
+      },
+      "items[1]": {
+        "href": "/Продукты/оптимизатор/Обзор",
+        "label": "Оптимизатор Говафа"
+      },
+      "items[2]": {
+        "href": "/Продукция/Хранение/Азия",
+        "label": "Говаф Хранилище"
+      },
+      "items[3]": {
+        "href": "/Продукты/Поток/Обзор",
+        "label": "Говаф Стрим"
+      },
+      "items[4]": {
+        "href": "/Продукты/CDN/Обзор",
+        "label": "Говаф DNS"
+      },
+      "title": "Продукты"
+    },
+    "shortcuts[1]": {
+      "items[0]": {
+        "href": "/Сеть/Обзор",
+        "label": "Карта сети"
+      },
+      "items[1]": {
+        "href": "/Продукты/CDN/Функции",
+        "label": "Особенности Говафа"
+      },
+      "items[2]": {
+        "href": "/Сеть/Инструменты",
+        "label": "Сетевые инструменты"
+      },
+      "items[3]": {
+        "label": "Центр разработчиков"
+      },
+      "items[4]": {
+        "label": "API-документация"
+      },
+      "title": "Разработчики"
+    },
+    "shortcuts[2]": {
+      "items[0]": {
+        "href": "/Соглашение об уровне обслуживания",
+        "label": "Соглашение об уровне обслуживания"
+      },
+      "items[1]": {
+        "href": "/SupportHUB",
+        "label": "Центр поддержки"
+      },
+      "items[2]": {
+        "href": "/BookMeeting",
+        "label": "Супер Кролики™"
+      },
+      "items[3]": {
+        "label": "Статус услуги"
+      },
+      "items[4]": {
+        "label": "✉hello@bunny.net"
+      },
+      "title": "Поддерживать"
+    }
+  }
 }

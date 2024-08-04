@@ -1,897 +1,1783 @@
 {
-	"Isp": [
-		{
-			"label": {
-				"style": "",
-				"text": "巴格达 (ISP)"
-			},
-			"popStyle": "top: 36%; left: 57%;"
-		}
-	],
-	"Standard": [
-		{
-			"label": {
-				"style": "",
-				"text": "阿姆斯特丹"
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		}
-	],
-	"volume": [
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		},
-		{
-			"label": {
-				"style": "",
-				"text": ""
-			},
-			"popStyle": ""
-		}
-	]
+  "Isp": [
+    {
+      "label": {
+				"style": "rgb(132, 252, 187)",
+        "text": "巴格达 (ISP)"
+      },
+      "popStyle": "top: 36%; left: 57%;"
+    }
+  ],
+  "Standard": [
+    {
+      "label": {
+				"style": "rgb(254, 198, 62)",
+        "text": "阿姆斯特丹"
+      },
+			"popStyle": "top: 17.5%; left: 45%;"
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    }
+  ],
+  "volume": [
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    },
+    {
+      "label": {
+        "style": "",
+        "text": ""
+      },
+      "popStyle": ""
+    }
+  ],
+  "Isp[0]": {
+    "label": {
+      "style": "RGB(132, 252, 187)"
+    }
+  },
+  "Standard[0]": {
+    "label": {
+      "style": "RGB(254, 198, 62)"
+    },
+    "popStyle": "顶部：17.5%；\n左：45%；"
+  },
+  "Standard[100]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "里约热内卢"
+    },
+    "popStyle": "顶部：73%；\n左：29.5%；"
+  },
+  "Standard[101]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "萨尔瓦多"
+    },
+    "popStyle": "顶部：66.5%；\n左：30.4%；"
+  },
+  "Standard[102]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "圣胡安"
+    },
+    "popStyle": "顶部：43.5%；\n左：20.8%；"
+  },
+  "Standard[103]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "圣佩德罗"
+    },
+    "popStyle": "顶部：48.5%；\n左：15%；"
+  },
+  "Standard[104]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "圣地亚哥"
+    },
+    "popStyle": "顶部：85%；\n左：21.2%；"
+  },
+  "Standard[105]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "圣保罗（卷）"
+    },
+    "popStyle": "顶部：74%；\n左：28%；"
+  },
+  "Standard[106]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "开罗"
+    },
+    "popStyle": "顶部：35%；\n左：53.4%；"
+  },
+  "Standard[107]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "开普敦"
+    },
+    "popStyle": "顶部：82.5%；\n左：49.5%；"
+  },
+  "Standard[108]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "巴格达 (ISP)"
+    },
+    "popStyle": "顶部：36%；\n左：57%；"
+  },
+  "Standard[109]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "巴林"
+    },
+    "popStyle": "顶部：38%；\n左：60.4%；"
+  },
+  "Standard[10]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "法兰克福（卷）"
+    },
+    "popStyle": "顶部：19.7%；\n左：46.4%；"
+  },
+  "Standard[110]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "迪拜"
+    },
+    "popStyle": "顶部：38.5%；\n左：61.6%；"
+  },
+  "Standard[111]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "富查伊拉"
+    },
+    "popStyle": "顶部：39.5%；\n左：62.5%；"
+  },
+  "Standard[112]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "约翰内斯堡"
+    },
+    "popStyle": "顶部：75%；\n左：53.5%；"
+  },
+  "Standard[113]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "拉各斯"
+    },
+    "popStyle": "顶部：52%；\n左：43.5%；"
+  },
+  "Standard[114]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "罗安达"
+    },
+    "popStyle": "顶部：61%；\n左：47%；"
+  },
+  "Standard[115]": {
+    "label": {
+      "style": "RGB(132, 252, 187)",
+      "text": "利雅得"
+    },
+    "popStyle": "顶部：39%；\n左：59%；"
+  },
+  "Standard[11]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "赫尔辛基"
+    },
+    "popStyle": "顶部：12.5%；\n左：50.3%；"
+  },
+  "Standard[12]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "凯夫拉维克"
+    },
+    "popStyle": "顶部：10.1%；\n左：38.5%；"
+  },
+  "Standard[13]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "基辅"
+    },
+    "popStyle": "顶部：18%；\n左：54.2%；"
+  },
+  "Standard[14]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "里斯本"
+    },
+    "popStyle": "顶部：28%；\n左：40.8%；"
+  },
+  "Standard[15]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "卢布尔雅那"
+    },
+    "popStyle": "顶部：22.5%；\n左：48.3%；"
+  },
+  "Standard[16]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "伦敦"
+    },
+    "popStyle": "顶部：18.4%；\n左：43.3%；"
+  },
+  "Standard[17]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "卢森堡"
+    },
+    "popStyle": "顶部：20.3%；\n左：45.5%；"
+  },
+  "Standard[18]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "马德里"
+    },
+    "popStyle": "顶部：27%；\n左：42.5%；"
+  },
+  "Standard[19]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "马赛"
+    },
+    "popStyle": "顶部：25%；\n左：45%；"
+  },
+  "Standard[1]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "雅典"
+    },
+    "popStyle": "顶部：29.6%；\n左：52%；"
+  },
+  "Standard[20]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "米兰"
+    },
+    "popStyle": "顶部：22.5%；\n左：46%；"
+  },
+  "Standard[21]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "莫斯科"
+    },
+    "popStyle": "顶部：13.2%；\n左：56%；"
+  },
+  "Standard[22]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "新特拉夫尼克"
+    },
+    "popStyle": "顶部：24%；\n左：50%；"
+  },
+  "Standard[23]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "奥斯陆"
+    },
+    "popStyle": "顶部：13%；\n左：47%；"
+  },
+  "Standard[24]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "巴黎（卷）"
+    },
+    "popStyle": "顶部：21%；\n左：44.4%；"
+  },
+  "Standard[25]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "布拉格"
+    },
+    "popStyle": "顶部：18.9%；\n左：48.7%；"
+  },
+  "Standard[26]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "里加"
+    },
+    "popStyle": "顶部：16%；\n左：49.4%；"
+  },
+  "Standard[27]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "苏菲亚"
+    },
+    "popStyle": "顶部：26%；\n左：52.4%；"
+  },
+  "Standard[28]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "斯德哥尔摩"
+    },
+    "popStyle": "顶部：12.9%；\n左：48.5%；"
+  },
+  "Standard[29]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "维也纳"
+    },
+    "popStyle": "顶部：20.9%；\n左：49.3%；"
+  },
+  "Standard[2]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "贝尔格莱德"
+    },
+    "popStyle": "顶部：23%；\n左：51.5%；"
+  },
+  "Standard[30]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "维尔纽斯"
+    },
+    "popStyle": "顶部：14.7%；\n左：51.3%；"
+  },
+  "Standard[31]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "华沙"
+    },
+    "popStyle": "顶部：17.2%；\n左：51%；"
+  },
+  "Standard[32]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "萨格勒布"
+    },
+    "popStyle": "顶部：22.5%；\n左：49.5%；"
+  },
+  "Standard[33]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "苏黎世"
+    },
+    "popStyle": "顶部：21.5%；\n左：45.7%；"
+  },
+  "Standard[34]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "阿什伯恩"
+    },
+    "popStyle": "顶部：29%；\n左：18.5%；"
+  },
+  "Standard[35]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "亚特兰大"
+    },
+    "popStyle": "顶部：32%；\n左：16%；"
+  },
+  "Standard[36]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "波士顿"
+    },
+    "popStyle": "顶部：25.5%；\n左：21.5%；"
+  },
+  "Standard[37]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "夏洛特"
+    },
+    "popStyle": "顶部：31.5%；\n左：17.6%；"
+  },
+  "Standard[38]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "芝加哥（卷）"
+    },
+    "popStyle": "顶部：23.5%；\n左：18%；"
+  },
+  "Standard[39]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "达拉斯（卷）"
+    },
+    "popStyle": "顶部：31%；\n左：12.5%；"
+  },
+  "Standard[3]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "柏林"
+    },
+    "popStyle": "顶部：18%；\n左：47.7%；"
+  },
+  "Standard[40]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "丹佛"
+    },
+    "popStyle": "顶部：27.5%；\n左：12%；"
+  },
+  "Standard[41]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "檀香山"
+    },
+    "popStyle": "顶部：38.5%；\n左：1.5%；"
+  },
+  "Standard[42]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "休斯顿"
+    },
+    "popStyle": "顶部：34%；\n左：13.2%；"
+  },
+  "Standard[43]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "堪萨斯城"
+    },
+    "popStyle": "顶部：27%；\n左：13.7%；"
+  },
+  "Standard[44]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "洛杉矶（卷）"
+    },
+    "popStyle": "顶部：30.5%；\n左：5.5%；"
+  },
+  "Standard[45]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "迈阿密（卷）"
+    },
+    "popStyle": "顶部：36.6%；\n左：17.4%；"
+  },
+  "Standard[46]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "明尼阿波利斯"
+    },
+    "popStyle": "顶部：20%；\n左：17%；"
+  },
+  "Standard[47]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "蒙特利尔"
+    },
+    "popStyle": "顶部：20.5%；\n左：22%；"
+  },
+  "Standard[48]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "纽约"
+    },
+    "popStyle": "顶部：28%；\n左：20.2%；"
+  },
+  "Standard[49]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "奥格登"
+    },
+    "popStyle": "顶部：26.5%；\n左：9%；"
+  },
+  "Standard[4]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "布鲁塞尔"
+    },
+    "popStyle": "顶部：19.4%；\n左：44.4%；"
+  },
+  "Standard[50]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "凤凰"
+    },
+    "popStyle": "顶部：32.5%；\n左：8%；"
+  },
+  "Standard[51]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "匹兹堡"
+    },
+    "popStyle": "顶部：26.5%；\n左：18.2%；"
+  },
+  "Standard[52]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "圣荷西"
+    },
+    "popStyle": "顶部：27%；\n左：5.5%；"
+  },
+  "Standard[53]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "西雅图"
+    },
+    "popStyle": "顶部：23%；\n左：7%；"
+  },
+  "Standard[54]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "多伦多"
+    },
+    "popStyle": "顶部：22%；\n左：20%；"
+  },
+  "Standard[55]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "温哥华"
+    },
+    "popStyle": "顶部：19.5%；\n左：7%；"
+  },
+  "Standard[56]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "阿德莱德"
+    },
+    "popStyle": "顶部：83%；\n左：87.5%；"
+  },
+  "Standard[57]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "奥克兰"
+    },
+    "popStyle": "顶部：84%；\n左：98.2%；"
+  },
+  "Standard[58]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "布里斯班"
+    },
+    "popStyle": "顶部：76%；\n左：93.2%；"
+  },
+  "Standard[59]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "阿加尼亚"
+    },
+    "popStyle": "顶部：45%；\n左：90%；"
+  },
+  "Standard[5]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "布达佩斯"
+    },
+    "popStyle": "顶部：21.1%；\n左：50.5%；"
+  },
+  "Standard[60]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "墨尔本"
+    },
+    "popStyle": "顶部：84.8%；\n左：89%；"
+  },
+  "Standard[61]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "珀斯"
+    },
+    "popStyle": "顶部：81%；\n左：80.5%；"
+  },
+  "Standard[62]": {
+    "label": {
+      "style": "RGB(149, 251, 253)",
+      "text": "悉尼"
+    },
+    "popStyle": "顶部：82%；\n左：91.2%；"
+  },
+  "Standard[63]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "阿拉木图"
+    },
+    "popStyle": "顶部：26.5%；\n左：66%；"
+  },
+  "Standard[64]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "巴库"
+    },
+    "popStyle": "顶部：30%；\n左：59%；"
+  },
+  "Standard[65]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "曼谷"
+    },
+    "popStyle": "顶部：48%；\n左：77%；"
+  },
+  "Standard[66]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "班加罗尔"
+    },
+    "popStyle": "顶部：47.3%；\n左：69%；"
+  },
+  "Standard[67]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "钦奈"
+    },
+    "popStyle": "顶部：46.9%；\n左：70.1%；"
+  },
+  "Standard[68]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "达卡"
+    },
+    "popStyle": "顶部：38.5%；\n左：73%；"
+  },
+  "Standard[69]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "香港（卷）"
+    },
+    "popStyle": "顶部：40.6%；\n左：80.8%；"
+  },
+  "Standard[6]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "布加勒斯特"
+    },
+    "popStyle": "顶部：24.5%；\n左：53.9%；"
+  },
+  "Standard[70]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "胡志明"
+    },
+    "popStyle": "顶部：49%；\n左：79.1%；"
+  },
+  "Standard[71]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "伊斯坦布尔"
+    },
+    "popStyle": "顶部：29.3%；\n左：53.7%；"
+  },
+  "Standard[72]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "雅加达"
+    },
+    "popStyle": "顶部：62%；\n左：80%；"
+  },
+  "Standard[73]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "卡拉奇"
+    },
+    "popStyle": "顶部：38%；\n左：65%；"
+  },
+  "Standard[74]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "加德满都"
+    },
+    "popStyle": "顶部：38%；\n左：70.8%；"
+  },
+  "Standard[75]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "加尔各答"
+    },
+    "popStyle": "顶部：40%；\n左：72%；"
+  },
+  "Standard[76]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "吉隆坡"
+    },
+    "popStyle": "顶部：53.3%；\n左：76.8%；"
+  },
+  "Standard[77]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "马尼拉"
+    },
+    "popStyle": "顶部：44.5%；\n左：83.3%；"
+  },
+  "Standard[78]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "孟买"
+    },
+    "popStyle": "顶部：43.5%；\n左：67.4%；"
+  },
+  "Standard[79]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "尼科西亚"
+    },
+    "popStyle": "顶部：31.5%；\n左：54%；"
+  },
+  "Standard[7]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "基希讷乌"
+    },
+    "popStyle": "顶部：21.5%；\n左：54.1%；"
+  },
+  "Standard[80]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "新德里"
+    },
+    "popStyle": "顶部：39%；\n左：68.7%；"
+  },
+  "Standard[81]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "大阪"
+    },
+    "popStyle": "顶部：32%；\n左：86%；"
+  },
+  "Standard[82]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "金边"
+    },
+    "popStyle": "顶部：48.4%；\n左：78.1%；"
+  },
+  "Standard[83]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "汉城"
+    },
+    "popStyle": "顶部：29.6%；\n左：83.3%；"
+  },
+  "Standard[84]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "新加坡（卷）"
+    },
+    "popStyle": "顶部：54.7%；\n左：77.9%；"
+  },
+  "Standard[85]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "台北"
+    },
+    "popStyle": "顶部：38.7%；\n左：83.1%；"
+  },
+  "Standard[86]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "第比利斯"
+    },
+    "popStyle": "顶部：29%；\n左：57%；"
+  },
+  "Standard[87]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "东京（卷）"
+    },
+    "popStyle": "顶部：30.5%；\n左：87.5%；"
+  },
+  "Standard[88]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "乌兰巴托"
+    },
+    "popStyle": "顶部：25%；\n左：77%；"
+  },
+  "Standard[89]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "仰光"
+    },
+    "popStyle": "顶部：44%；\n左：75.2%；"
+  },
+  "Standard[8]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "哥本哈根"
+    },
+    "popStyle": "顶部：15%；\n左：47.7%；"
+  },
+  "Standard[90]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "埃里温"
+    },
+    "popStyle": "顶部：31%；\n左：57%；"
+  },
+  "Standard[91]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "波哥大"
+    },
+    "popStyle": "顶部：52.6%；\n左：19%；"
+  },
+  "Standard[92]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "布宜诺斯艾利斯"
+    },
+    "popStyle": "顶部：83%；\n左：25.5%；"
+  },
+  "Standard[93]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "库里蒂巴"
+    },
+    "popStyle": "顶部：75.4%；\n左：27.2%；"
+  },
+  "Standard[94]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "福塔莱萨"
+    },
+    "popStyle": "顶部：60%；\n左：31%；"
+  },
+  "Standard[95]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "危地马拉"
+    },
+    "popStyle": "顶部：46%；\n左：13.5%；"
+  },
+  "Standard[96]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "拉巴斯"
+    },
+    "popStyle": "顶部：69%；\n左：21%；"
+  },
+  "Standard[97]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "利马"
+    },
+    "popStyle": "顶部：67%；\n左：18%；"
+  },
+  "Standard[98]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "墨西哥城"
+    },
+    "popStyle": "顶部：41.6%；\n左：10.4%；"
+  },
+  "Standard[99]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "阿雷格里港"
+    },
+    "popStyle": "顶部：78%；\n左：27%；"
+  },
+  "Standard[9]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "都柏林"
+    },
+    "popStyle": "顶部：17.4%；\n左：41.7%；"
+  },
+  "volume[0]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "法兰克福（卷）"
+    },
+    "popStyle": "顶部：19.7%；\n左：46.4%；"
+  },
+  "volume[1]": {
+    "label": {
+      "style": "RGB(254, 198, 62)",
+      "text": "巴黎（卷）"
+    },
+    "popStyle": "顶部：21%；\n左：44.4%；"
+  },
+  "volume[2]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "芝加哥（卷）"
+    },
+    "popStyle": "顶部：23.5%；\n左：18%；"
+  },
+  "volume[3]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "达拉斯（卷）"
+    },
+    "popStyle": "顶部：31%；\n左：12.5%；"
+  },
+  "volume[4]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "洛杉矶（卷）"
+    },
+    "popStyle": "顶部：30.5%；\n左：5.5%；"
+  },
+  "volume[5]": {
+    "label": {
+      "style": "RGB(242, 32, 136)",
+      "text": "迈阿密（卷）"
+    },
+    "popStyle": "顶部：36.6%；\n左：17.4%；"
+  },
+  "volume[6]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "香港（卷）"
+    },
+    "popStyle": "顶部：40.6%；\n左：80.8%；"
+  },
+  "volume[7]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "新加坡（卷）"
+    },
+    "popStyle": "顶部：54.7%；\n左：77.9%；"
+  },
+  "volume[8]": {
+    "label": {
+      "style": "RGB(241, 138, 217)",
+      "text": "东京（卷）"
+    },
+    "popStyle": "顶部：30.5%；\n左：87.5%；"
+  },
+  "volume[9]": {
+    "label": {
+      "style": "RGB(255, 157, 100)",
+      "text": "圣保罗（卷）"
+    },
+    "popStyle": "顶部：74%；\n左：28%；"
+  }
 }
