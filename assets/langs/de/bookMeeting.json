@@ -1,23 +1,22 @@
 {
-	"form": {
-		"btn": "Buchen Sie ein Treffen",
-		"companyName": "Name der Firma",
-		"companyNameLabel": "Ihr Firmenname",
-		"email": "Email",
-		"emailLabel": "Deine E-Mail",
-		"firstName": "Vollständiger Name",
-		"firstNameLabel": "Ihr Nachname",
-		"meetupDate": "Gewünschter Termin für das Broadcast Asia-Treffen",
-		"meetWith": "Wen würden Sie gerne treffen?",
-		"meetWithLabel": "Bitte eingeben",
-		"message": "Nachricht",
-		"messageLable": "Erzählen Sie uns von Ihrem Projekt oder was Sie beim Broadcast Asia-Treffen besprechen möchten",
-		"phoneLabel": "XXX-XXX-XXXX",
-		"phoneNumber": "Telefonnummer"
-	},
-	"form.btn": "",
-	"header": {
-		"content": "Erzählen Sie uns von Ihrem Projekt, Ihren Bedürfnissen und Ihrer Verfügbarkeit bei der Broadcast Asia in Singapur und wir vereinbaren einen persönlichen Termin mit einem unserer Gowaf-Experten.",
-		"title": "Buchen Sie ein Treffen mit einem gowaf-Experten bei Broadcast Asia 2024!"
-	}
+  "form": {
+    "btn": "Buchen Sie ein Treffen",
+    "companyName": "Name der Firma",
+    "companyNameLabel": "Ihr Firmenname",
+    "email": "Email",
+    "emailLabel": "Deine E-Mail",
+    "firstName": "Vollständiger Name",
+    "firstNameLabel": "Ihr Nachname",
+    "meetupDate": "Gewünschter Termin für das Broadcast Asia-Treffen",
+    "meetWith": "Wen würden Sie gerne treffen?",
+    "meetWithLabel": "Bitte eingeben",
+    "message": "Nachricht",
+    "messageLable": "Erzählen Sie uns von Ihrem Projekt oder was Sie beim Broadcast Asia-Treffen besprechen möchten",
+    "phoneLabel": "XXX-XXX-XXXX",
+    "phoneNumber": "Telefonnummer"
+  },
+  "header": {
+    "content": "Erzählen Sie uns von Ihrem Projekt, Ihren Bedürfnissen und Ihrer Verfügbarkeit bei der Broadcast Asia in Singapur und wir vereinbaren einen persönlichen Termin mit einem unserer Gowaf-Experten.",
+    "title": "Buchen Sie ein Treffen mit einem gowaf-Experten bei Broadcast Asia 2024!"
+  }
 }

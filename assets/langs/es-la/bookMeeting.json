@@ -2,7 +2,7 @@
   "form": {
     "btn": "Reserve una reunión",
     "companyName": "",
-    "companyNameLabel": "",
+    "companyNameLabel": "Su nombre de empresa",
     "email": "",
     "emailLabel": "",
     "firstName": "",
@@ -13,23 +13,7 @@
     "message": "",
     "messageLable": "",
     "phoneLabel": "",
-    "phoneNumber": "",
-    "__i18n_ally_root__": {
-      "btn": "",
-      "companyName": "",
-      "companyNameLabel": "",
-      "email": "",
-      "emailLabel": "",
-      "firstName": "",
-      "firstNameLabel": "",
-      "meetWith": "",
-      "meetWithLabel": "",
-      "meetupDate": "",
-      "message": "",
-      "messageLable": "",
-      "phoneLabel": "",
-      "phoneNumber": ""
-    }
+    "phoneNumber": ""
   },
   "form.btn": "",
   "header": {

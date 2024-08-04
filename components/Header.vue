@@ -11,8 +11,9 @@ const handleBack = () => {
   window.history.back();
 };
 const ProductsRef = ref();
+
 const options = [
-  { text: 'English', href: 'en' },
+  { text: 'EN', href: 'en' },
   { text: 'English (United Kingdom)', href: 'en-gb' },
   { text: 'English (Canada)', href: 'en-ca' },
   { text: 'English (Australia)', href: 'en-au' },
@@ -30,12 +31,15 @@ const options = [
   { text: '繁體中文', href: 'zh-tw' },
   { text: '简体中文', href: 'zh' }
 ];
-const changeLang = async (lc: string) => {
+const changeLang = async (item: any) => {
   console.log('locales', messages.value);
-  setLocale(lc);
+  showText.value = item.text;
+  setLocale(item.href);
   console.log('changeLang -> locale', locale.value);
   ProductsPopoverRef.value.hide();
 };
+
+const showText = ref<string>('EN');
 </script>
 
 <template>
@@ -71,7 +75,7 @@ const changeLang = async (lc: string) => {
             <a href="/forgot" class="button button-get-started">
               {{ $t('header.getStarted') }}
             </a>
-            <a href="#" class="button button-lang" ref="ProductsRef"> EN </a>
+            <a class="button button-lang" ref="ProductsRef"> {{ showText }} </a>
             <el-popover
               ref="ProductsPopoverRef"
               popper-class="popper-menu"
@@ -86,7 +90,7 @@ const changeLang = async (lc: string) => {
                   class="dropdown-option"
                   v-for="(item, index) in options"
                   :key="index"
-                  @click="changeLang(item.href)"
+                  @click="changeLang(item)"
                 >
                   {{ item.text }}
                 </div>
@@ -188,7 +192,9 @@ const changeLang = async (lc: string) => {
           }
 
           &.button-lang {
-            width: 62px;
+            cursor: pointer;
+            padding: 0 5px;
+            min-width: 62px;
             height: 30px;
             border-radius: 15px;
             border: 1px solid #e6e6e6;

@@ -9,86 +9,48 @@
     "copyright": "2024 版权所有 © Gowaf Way d.o.o.",
     "hotlinks": [
       {
-        "label": "",
-        "link": ""
+        "label": "关于我们",
+        "link": "/resources/about"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "Gowaf 博客",
+        "link": "/resources/blog"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "Gowaf 职业生涯",
+        "link": "/resources/careers"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "实例探究",
+        "link": "/resources/caseStudiesDetails"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "联盟计划",
+        "link": "/AffiliateProgram"
       }
     ],
-    "hotlinks[0]": {
-      "label": "关于我们",
-      "link": "/资源/关于"
-    },
-    "hotlinks[1]": {
-      "label": "高瓦夫博客",
-      "link": "/资源/博客"
-    },
-    "hotlinks[2]": {
-      "label": "高瓦夫职业生涯",
-      "link": "/资源/职业"
-    },
-    "hotlinks[3]": {
-      "label": "实例探究",
-      "link": "/资源/案例研究详细信息"
-    },
-    "hotlinks[4]": {
-      "label": "联盟计划",
-      "link": "/联盟计划"
-    },
     "links": [
       {
-        "label": "",
-        "link": ""
+        "label": "服务条款",
+        "link": "#"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "可接受的使用",
+        "link": "#"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "通用数据保护条例",
+        "link": "#"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "隐私",
+        "link": "#"
       },
       {
-        "label": "",
-        "link": ""
+        "label": "报告滥用",
+        "link": "#"
       }
     ],
-    "links[0]": {
-      "label": "服务条款",
-      "link": ""
-    },
-    "links[1]": {
-      "label": "可接受的使用",
-      "link": ""
-    },
-    "links[2]": {
-      "label": "通用数据保护条例",
-      "link": ""
-    },
-    "links[3]": {
-      "label": "隐私"
-    },
-    "links[4]": {
-      "label": "报告滥用"
-    },
     "section1Content": "从事一个大项目？  \n让我们的专家帮助您。",
     "section1Title": "客流量大？\n与销售人员交谈",
     "section2Content": "在社交媒体上关注我们，了解特别促销活动和重要新闻。",
@@ -96,145 +58,80 @@
     "section3": "让互联网跳得更快！",
     "shortcuts": [
       {
+        "title": "产品",
         "items": [
           {
-            "href": "",
-            "label": ""
+            "label": "Gowaf CDN",
+            "href": "/Products/Cdn/Overview"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Gowaf Optimizer",
+            "href": "/Products/optimizer/Overview"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Gowaf Storage",
+            "href": "/Products/Storage/Asia"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Gowaf Stream",
+            "href": "/Products/Stream/Overview"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Gowaf DNS",
+            "href": "/Products/Cdn/Overview"
           }
-        ],
-        "title": ""
+        ]
       },
       {
+        "title": "开发者",
         "items": [
           {
-            "href": "",
-            "label": ""
+            "label": "Network Map",
+            "href": "/Network/Overview"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Gowaf Features",
+            "href": "/Products/Cdn/Features"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Network Tools",
+            "href": "/Network/Tools"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Developer Hub",
+            "href": "#"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "API Documentation",
+            "href": "#"
           }
-        ],
-        "title": ""
+        ]
       },
       {
+        "title": "支持",
         "items": [
           {
-            "href": "",
-            "label": ""
+            "label": "SLA",
+            "href": "/SLA"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Support HUB",
+            "href": "/SupportHUB"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Super Bunnies™",
+            "href": "/BookMeeting"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "Service Status",
+            "href": "#"
           },
           {
-            "href": "",
-            "label": ""
+            "label": "✉hello@bunny.net",
+            "href": "#"
           }
-        ],
-        "title": ""
+        ]
       }
-    ],
-    "shortcuts[0]": {
-      "items[0]": {
-        "href": "/产品/CDN/概述",
-        "label": "高瓦夫CDN"
-      },
-      "items[1]": {
-        "href": "/产品/优化器/概述",
-        "label": "高瓦夫优化器"
-      },
-      "items[2]": {
-        "href": "/产品/存储/亚洲",
-        "label": "高瓦夫存储"
-      },
-      "items[3]": {
-        "href": "/产品/流/概述",
-        "label": "戈瓦夫溪"
-      },
-      "items[4]": {
-        "href": "/产品/CDN/概述",
-        "label": "戈瓦夫域名系统"
-      },
-      "title": "产品"
-    },
-    "shortcuts[1]": {
-      "items[0]": {
-        "href": "/网络/概述",
-        "label": "网络地图"
-      },
-      "items[1]": {
-        "href": "/产品/CDN/功能",
-        "label": "高瓦夫特点"
-      },
-      "items[2]": {
-        "href": "/网络/工具",
-        "label": "网络工具"
-      },
-      "items[3]": {
-        "label": "开发者中心"
-      },
-      "items[4]": {
-        "label": "API文档"
-      },
-      "title": "开发商"
-    },
-    "shortcuts[2]": {
-      "items[0]": {
-        "href": "/SLA",
-        "label": "SLA"
-      },
-      "items[1]": {
-        "href": "/支持HUB",
-        "label": "支持集线器"
-      },
-      "items[2]": {
-        "href": "/预订会议",
-        "label": "超级兔子™"
-      },
-      "items[3]": {
-        "label": "服务状态"
-      },
-      "items[4]": {
-        "label": "✉hello@bunny.net"
-      },
-      "title": "支持"
-    }
+    ]
   }
 }

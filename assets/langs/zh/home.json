@@ -4,62 +4,34 @@
     "Collapse": {
       "list": [
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "Gowaf 联盟计划如何运作？"
         },
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "谁有资格参加 Gowaf 联盟计划？"
         },
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "我如何加入联盟计划？"
         },
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "每次推荐我能赚多少钱？"
         },
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "佣金有最高金额吗？"
         },
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "我什么时候能收到付款？"
         },
         {
-          "subtitle": "",
-          "title": ""
+          "subtitle": "任何拥有付费 Gowaf.net 帐户的人都可以加入联属计划。",
+          "title": "我可以创建自己的营销材料吗？"
         }
       ],
-      "list[0]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "Bunny 联盟计划如何运作？"
-      },
-      "list[1]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "谁有资格参加 Bunny 联盟计划？"
-      },
-      "list[2]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "我如何加入联盟计划？"
-      },
-      "list[3]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "每次推荐我能赚多少钱？"
-      },
-      "list[4]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "佣金有最高金额吗？"
-      },
-      "list[5]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "我什么时候能收到付款？"
-      },
-      "list[6]": {
-        "subtitle": "任何拥有付费 bunny.net 帐户的人都可以加入联属计划。",
-        "title": "我可以创建自己的营销材料吗？"
-      },
       "subtitle": "还有其他问题吗？\n我们准备了一份额外有用信息的列表！",
       "title": "经常问的问题"
     },
@@ -77,36 +49,21 @@
     "list1": {
       "items": [
         {
-          "content": "",
-          "icon": "",
-          "title": ""
+          "icon": "/images/home/affiliate_2_ic_1@2x.png",
+          "title": "只需为您使用的内容付费",
+          "content": "只需支付您转录的分钟数，没有最低经常性费用。"
         },
         {
-          "content": "",
-          "icon": "",
-          "title": ""
+          "icon": "/images/home/affiliate_2_ic_2@2x.png",
+          "title": "每月最低 1 美元",
+          "content": "开始免费试用 14 天，继续使用每月仅需 1 美元。"
         },
         {
-          "content": "",
-          "icon": "",
-          "title": ""
+          "icon": "/images/home/affiliate_2_ic_3@2x.png",
+          "title": "包含所有功能",
+          "content": "使用完整的 Transcribe AI 功能集，无需额外费用或隐藏成本。"
         }
       ],
-      "items[0]": {
-        "content": "只需支付您转录的分钟数，没有最低经常性费用。",
-        "icon": "/images/home/affiliate_2_ic_1@2x.png",
-        "title": "只需为您使用的内容付费"
-      },
-      "items[1]": {
-        "content": "开始免费试用 14 天，继续使用每月仅需 1 美元。",
-        "icon": "/images/home/affiliate_2_ic_2@2x.png",
-        "title": "每月最低 1 美元"
-      },
-      "items[2]": {
-        "content": "使用完整的 Transcribe AI 功能集，无需额外费用或隐藏成本。",
-        "icon": "/images/home/affiliate_2_ic_3@2x.png",
-        "title": "包含所有功能"
-      },
       "title1": "它是如何工作的？",
       "title2": "开始使用 Gowaf 联盟计划是免费且简单的。"
     },
@@ -116,60 +73,33 @@
     "neverHit": {
       "fulItems": [
         {
-          "alignType": "",
-          "content": "",
-          "contentAlign": "",
-          "height": "",
-          "icon": "",
-          "title": "",
-          "width": ""
+          "icon": "/images/home/affiliate_1_ic_1@2x.png",
+          "width": "80px",
+          "height": "80px",
+          "alignType": "center",
+          "title": "Register",
+          "content": "Create a paid account at Gowaf.net.",
+          "contentAlign": "center"
         },
         {
-          "alignType": "",
-          "content": "",
-          "contentAlign": "",
-          "height": "",
-          "icon": "",
-          "title": "",
-          "width": ""
+          "icon": "/images/home/affiliate_1_ic_2@2x.png",
+          "width": "80px",
+          "height": "80px",
+          "alignType": "center",
+          "title": "Share you link",
+          "content": "Share your unique link with the world.",
+          "contentAlign": "center"
         },
         {
-          "alignType": "",
-          "content": "",
-          "contentAlign": "",
-          "height": "",
-          "icon": "",
-          "title": "",
-          "width": ""
+          "icon": "/images/home/affiliate_1_ic_3@2x.png",
+          "width": "80px",
+          "height": "80px",
+          "alignType": "center",
+          "title": "Start making money",
+          "content": "Earn $20 for each paid signup.",
+          "contentAlign": "center"
         }
       ],
-      "fulItems[0]": {
-        "alignType": "中心",
-        "content": "在 Gowaf.net 创建付费帐户。",
-        "contentAlign": "中心",
-        "height": "80像素",
-        "icon": "/images/home/affiliate_1_ic_1@2x.png",
-        "title": "登记",
-        "width": "80像素"
-      },
-      "fulItems[1]": {
-        "alignType": "中心",
-        "content": "与世界分享您独特的联系。",
-        "contentAlign": "中心",
-        "height": "80像素",
-        "icon": "/images/home/affiliate_1_ic_2@2x.png",
-        "title": "分享您的链接",
-        "width": "80像素"
-      },
-      "fulItems[2]": {
-        "alignType": "中心",
-        "content": "每次付费注册可赚取 20 美元。",
-        "contentAlign": "中心",
-        "height": "80像素",
-        "icon": "/images/home/affiliate_1_ic_3@2x.png",
-        "title": "开始赚钱",
-        "width": "80像素"
-      },
       "subTitle": "只需 3 个简单步骤即可开始赚钱。",
       "title": "登记。\n分享。\n赚。"
     },
