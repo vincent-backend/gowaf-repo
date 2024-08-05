@@ -1,57 +1,142 @@
 {
+  "AffiliateProgram": {
+    "Collapse": {
+      "subtitle": "Got further questions? We prepared a list of additional helpful information!",
+      "title": "Frequently Asked Questions"
+    },
+    "btn": "Join Gowaf Affiliate Program",
+    "content": "Help us grow and earn money along the way. We help you make the most referrals  possible with resources to a library of global creative, ready-made education and  lead magnets.",
+    "fotad1": {
+      "btn": "Contract Sales",
+      "subTitle": "Working on a bigger project?  Let our Bunnies help you out!",
+      "title": "Hop ahead of the  competition!"
+    },
+    "fotad2": {
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Take Your Video  Security One Hop  Ahead!"
+    },
+    "hint": "A Gowaf.net account is needed to participate in the program.",
+    "listBtn": "Get Your Affiliate Code",
+    "mksubtitle": "Take advantage of pre-designed marketing materials. Choose from our extensive library of banner ads and find the ideal size for you.",
+    "mktitle": "Pre-built Marketing Materials",
+    "preTitle": "Gowaf Affiliate Program",
+    "title": "Join Gowaf Affiliate  program and help us  grow faster"
+  },
+  "ContactSales": {
+    "btn": "Send Inquiry",
+    "content": "Tell us about you project and we'll connect you with a CDN expert and tailor a perfect solution for you",
+    "preTitle": "Contact Sales",
+    "title": "Talk to a Gowaf expert"
+  },
+  "Locations": "Edge Locations",
+  "NetworkCapacity": "Network Capacity",
+  "ResetPassword": {
+    "BacktoLog In": "Back to Log In",
+    "loginbtn": "Reset Password",
+    "subtitle": "To reset your password, enter your bunny.net account email.",
+    "title": "Reset password"
+  },
+  "SLA": {
+    "ad2Container": {
+    },
+    "content": "Behind a cute name stands a furious beast. Thanks to redundancy on every step, we offer enterprise level stability in our core infrastructure.",
+    "preTitle": "Service Level Agreement",
+    "table": {
+      "preTitle": "In the event of monthly availability falling below our guarantees, your account will be  eligible for SLA credits based on your monthly usage.",
+      "title": "Outage Credits"
+    },
+    "title": "Stay online.  No matter what."
+  },
+  "SupportHUB": {
+    "subtitle": "Guides, troubleshooting and support requests to help you get started with Gowaf.net.",
+    "title": "How can we help you?"
+  },
+  "avgWorldwideLatency": "Avg. Worldwide Latency",
+  "featuresContent1": "Supercharge your content on a truly global scale.",
+  "featuresContent2": "Experience hot object storage,replicated around the world.",
+  "featuresContent3": "Take your video delivery to the next level.",
+  "featuresContent4": "Optimize your website with a click of a button.",
+  "featuresContent5": "Unlock the true power of DNS across your infrastructure.",
+  "featuresContent6": "Maximize application performance and scalability.",
+  "forgot": {
+    "head": "Supercharge your global delivery in under",
+    "loginbtn": "Create an Account",
+    "signUp": " Log In. ",
+    "subhead": "5 minutes",
+    "subheadlines": "Unparalleled performance without compromise.",
+    "subtitle": "You're just 5 minutes away from a faster website.",
+    "tips": "Already have an account?",
+    "title": "14-Day FREE Trial"
+  },
   "header": {
-    "title": "The Global Content Delivery Platform That Truly Hops",
-    "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. Gowaf makes lightning fast performance at any scale easier than ever before.",
-    "btn": "Try FREE for 14 days",
-    "hint": "Set-up in 5 minutes. No Credit Card required.",
     "bottom": {
+      "subTitle": "Our dedication to quality has won the trust of many well known brands in their industries.",
       "title1": "Join over",
       "title2": "1,000,000+",
       "title3": "websites already powered by Gowaf",
-      "subTitle": "Our dedication to quality has won the trust of many well known brands in their industries.",
       "weAreRated": "We're rated",
       "weAreRated2": "4.8 out of 5 based on 600+ reviews"
     },
     "bottom1": {
+      "subTitle": "Together we can create the internet everyone deservers - no matter where in the world they are.",
       "title1": "Join over",
       "title2": "40.000+",
       "title3": "customers already joined us in our mission",
-      "subTitle": "Together we can create the internet everyone deservers - no matter where in the world they are.",
       "weAreRated": "We're rated",
       "weAreRated2": "4.8 out of 5 based on 700+ reviews"
-    }
+    },
+    "btn": "Try FREE for 14 days",
+    "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. Gowaf makes lightning fast performance at any scale easier than ever before.",
+    "hint": "Set-up in 5 minutes. No Credit Card required.",
+    "title": "The Global Content Delivery Platform That Truly Hops"
+  },
+  "join1": {
+    "btn": "Try FREE for 14 days",
+    "info1": {
+      "content": "Hop on one of the fastest global networks in the world. Supercharge your website speeds beyond its limits and deliver the best possible experience for your visitors. Enterprise-grade performance at the most affordable price on the market!",
+      "title": "Amazing performance. Every single time."
+    },
+    "subTitle": "No credit card required – Get started in just a few clicks",
+    "title": "Join and start hopping at the speed of light"
+  },
+  "join2": {
+    "subTitle1": "We're rated",
+    "subTitle3": "Excellent 4.8",
+    "subTitle4": "out of 5 on",
+    "subTitle5": "Trustpilot",
+    "subTitle6": "- Based on 600+ reviews",
+    "title": "Join over 40.000+ happy customers"
   },
   "list1": {
     "title": "We've helped amazing companies hop faster!"
   },
   "list2": {
-    "title": "Hop to the edge and never look back",
-    "subTitle": "Experience unparalleled performance without compromise."
+    "subTitle": "Experience unparalleled performance without compromise.",
+    "title": "Hop to the edge and never look back"
   },
-  "join1": {
-    "title": "Join and start hopping at the speed of light",
-    "btn": "Try FREE for 14 days",
-    "subTitle": "No credit card required – Get started in just a few clicks",
-    "info1": {
-      "title": "Amazing performance. Every single time.",
-      "content": "Hop on one of the fastest global networks in the world. Supercharge your website speeds beyond its limits and deliver the best possible experience for your visitors. Enterprise-grade performance at the most affordable price on the market!"
-    }
+  "login": {
+    "Forgot": "Forgot password?",
+    "backtop": {
+      "sub": " Fluffee! ",
+      "title1": "You're talking with"
+    },
+    "divider": "Or continue with",
+    "loginbtn": "Log In",
+    "signUp": "Sign Up. ",
+    "subtitle": "Log into Gowaf account.",
+    "tips": "Don't have an account?",
+    "title": "Welcome back!"
   },
-  "join2": {
-    "title": "Join over 40.000+ happy customers",
-    "subTitle1": "We're rated",
-    "subTitle3": "Excellent 4.8",
-    "subTitle4": "out of 5 on",
-    "subTitle5": "Trustpilot",
-    "subTitle6": "- Based on 600+ reviews"
-  },
+  "requestsPerSecond": "Requests Per Second",
   "superCharge": {
-    "title": "Supercharge your internet presence",
-    "subTitle": "Next-Generation Solutions. Next-Level Performance.",
-    "websiteAcceleration": "Website Acceleration",
     "make-your-website-hop-like-a-gowaf": "Make your website hop like a Gowaf",
+    "subTitle": "Next-Generation Solutions. Next-Level Performance.",
     "text0": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
     "text1": "Supercharge Your Website",
+    "text10": "Dynamic Image Processing",
+    "text11": "Transform your images. On the fly.",
+    "text12": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+    "text13": "Optimize Your Images",
     "text2": "Video Delivery",
     "text3": "Reliable video CDN that truly hops",
     "text4": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
@@ -60,87 +145,7 @@
     "text7": "Deliver lightning fast downloads",
     "text8": "Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.",
     "text9": "Deliver Faster Downloads",
-    "text10": "Dynamic Image Processing",
-    "text11": "Transform your images. On the fly.",
-    "text12": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
-    "text13": "Optimize Your Images"
-  },
-  "login": {
-    "title": "Welcome back!",
-    "subtitle": "Log into Gowaf account.",
-    "Forgot": "Forgot password?",
-    "loginbtn": "Log In",
-    "divider": "Or continue with",
-    "tips": "Don't have an account?",
-    "signUp": "Sign Up. ",
-    "backtop": {
-      "title1": "You're talking with",
-      "sub": " Fluffee! "
-    }
-  },
-  "forgot": {
-    "title": "14-Day FREE Trial",
-    "subtitle": "You're just 5 minutes away from a faster website.",
-    "loginbtn": "Create an Account",
-    "head": "Supercharge your global delivery in under",
-    "subhead": "5 minutes",
-    "subheadlines": "Unparalleled performance without compromise.",
-    "tips": "Already have an account?",
-    "signUp": " Log In. "
-  },
-  "ResetPassword": {
-    "title": "Reset password",
-    "subtitle": "To reset your password, enter your bunny.net account email.",
-    "loginbtn": "Reset Password",
-    "BacktoLog In": "Back to Log In"
-  },
-  "ContactSales": {
-    "preTitle": "Contact Sales",
-    "title": "Talk to a Gowaf expert",
-    "content": "Tell us about you project and we'll connect you with a CDN expert and tailor a perfect solution for you",
-    "btn": "Send Inquiry"
-  },
-  "AffiliateProgram": {
-    "preTitle": "Gowaf Affiliate Program",
-    "title": "Join Gowaf Affiliate  program and help us  grow faster",
-    "content": "Help us grow and earn money along the way. We help you make the most referrals  possible with resources to a library of global creative, ready-made education and  lead magnets.",
-    "btn": "Join Gowaf Affiliate Program",
-    "hint": "A Gowaf.net account is needed to participate in the program.",
-    "listBtn": "Get Your Affiliate Code",
-    "mktitle": "Pre-built Marketing Materials",
-    "mksubtitle": "Take advantage of pre-designed marketing materials. Choose from our extensive library of banner ads and find the ideal size for you.",
-    "Collapse": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Got further questions? We prepared a list of additional helpful information!"
-    },
-    "fotad1": {
-      "title": "Hop ahead of the  competition!",
-      "subTitle": "Working on a bigger project?  Let our Bunnies help you out!",
-      "btn": "Contract Sales"
-    },
-    "fotad2": {
-      "title": "Take Your Video  Security One Hop  Ahead!",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime."
-    }
-  },
-  "SLA": {
-    "preTitle": "Service Level Agreement",
-    "title": "Stay online.  No matter what.",
-    "content": "Behind a cute name stands a furious beast. Thanks to redundancy on every step, we offer enterprise level stability in our core infrastructure.",
-    "ad2Container": {
-      "title": "",
-      "subTitle": ""
-    },
-    "table": {
-      "title": "Outage Credits",
-      "preTitle": "In the event of monthly availability falling below our guarantees, your account will be  eligible for SLA credits based on your monthly usage."
-    }
-  },
-  "SupportHUB": {
-    "title": "How can we help you?",
-    "subtitle": "Guides, troubleshooting and support requests to help you get started with Gowaf.net."
-  },
-  "coming-soon-0": "Coming Soon",
-  "coming-soon": "Coming Soon",
-  "coming-soo": "coming-soo"
+    "title": "Supercharge your internet presence",
+    "websiteAcceleration": "Website Acceleration"
+  }
 }

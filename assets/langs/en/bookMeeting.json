@@ -1,22 +1,20 @@
 {
-  "header": {
-    "title": "Book a Meeting with a gowaf Expert at Broadcast Asia 2024!",
-    "content": "Tell us about your project, needs, and availability at the Broadcast Asia in Singapore and we will schedule a one-on-one meeting with one of our gowaf experts."
-  },
   "form": {
-    "firstName": "Full Name",
-    "firstNameLabel": "Your last name",
-    "email": "Email",
-    "emailLabel": "Your Email",
+    "btn": "Book a Meeting",
     "companyName": "Company Name",
     "companyNameLabel": "You Company Name",
-    "meetupDate": "Preferred date for Broadcast Asia meetup",
-    "phoneNumber": "Phone Number",
-    "phoneLabel": "XXX-XXX-XXXX",
+    "email": "Email",
+    "emailLabel": "Your Email",
+    "firstName": "Full Name",
+    "firstNameLabel": "Your last name",
     "meetWith": "Who would you like to meet with?",
     "meetWithLabel": "Please input",
-    "message": "Message",
-    "messageLable": "Tell us about your project or what you'd like to discuss at Broadcast Asia meetup",
-    "btn": "Book a Meeting"
+    "meetupDate": "Preferred date for Broadcast Asia meetup",
+    "phoneLabel": "XXX-XXX-XXXX",
+    "phoneNumber": "Phone Number"
+  },
+  "header": {
+    "content": "Tell us about your project, needs, and availability at the Broadcast Asia in Singapore and we will schedule a one-on-one meeting with one of our gowaf experts.",
+    "title": "Book a Meeting with a gowaf Expert at Broadcast Asia 2024!"
   }
 }

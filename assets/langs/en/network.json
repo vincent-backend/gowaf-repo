@@ -1,89 +1,87 @@
 {
-  "breadCrumbs": {
-    "parent": "Network",
-    "overview": "Overview",
-    "ddosProtection": "DDoS Protection",
-    "smartEdge": "SmartEdge™",
-    "WebTools": "Web Tools",
-    "DNSLookur": "DNS Lookur",
-    "LatencyTest": "Latency Test",
-    "HTTPTest": "HTTP Test",
-    "Traceroute": "Traceroute",
-    "OtherTools": "Other Tools",
-    "DiagnosticReport": "Diagnostic Report"
-  },
-  "overview": {
-    "title0": "Gowaf CDN Network",
-    "title1": "150 Tbps+ at your fingertips",
-    "title2": "Supercharge your content with one of the fastest networks in the world.",
-    "flags": {
-      "title": "Your users are just a hop away",
-      "subTitle": "Hop on a global network that spans 6 continents and 77 countries."
-    },
-    "hop": {
-      "title": "Hop on the Fastest Global CDN Network",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
-    }
-  },
-  "ddos": {
-    "header": {
-      "preTitle": "DDoS Protection",
-      "title": "DDoS protection as standard",
-      "content": "Protect your website from DDoS Attacks. Ensure flawless uptime and never go down again. We take care of DDoS protection so you can focus on your product!",
-      "btn": "Start 14-Day FREE Trial",
-      "hint": "No credit card needed. Start in seconds."
-    },
-    "protectAtEdge": {
-      "title": "DDoS protection at the network edge",
-      "subTitle": "Stay protected at all times by mitigating attacks before they ever reach your servers, thanks to Edge AI."
-    },
-    "stayProtectAlways": {
-      "title": "Stay protected. Always!",
-      "subTitle": "Stay focused on your product and let us take care of your security.",
-      "btn": "Start 14-Day FREE Trial"
-    }
-  },
-  "smartEdge": {
-    "header": {
-      "preTitle": "DDoS Protection",
-      "title": "DDoS protection as standard",
-      "content": "Protect your website from DDoS Attacks. Ensure flawless uptime and never go down again. We take care of DDoS protection so you can focus on your product!",
-      "btn": "Start 14-Day FREE Trial",
-      "hint": "No credit card needed. Start in seconds."
-    },
-    "onProblem": {
-      "title": "One problem. One routing system.",
-      "content": "Traditionally, CDNs will route users with a single routing configuration which isn't always optimal. SmartEdge™ combines a pre-set global configuration with automatic performance metrics to intelligently select between anycast, GeoDNS, and latency-based routing for each region to maximize performance and routing quality for your specific use case."
-    }
-  },
   "WebTools": {
-    "bennerTitle": "Global Network Diagnostic Tools",
-    "bennerSubTitle": "Tools to help you optimize and get started with bunny.net and run network tests and diagnostics from over 120 locations around the world.",
-    "neverHit": {
-      "title": "Never hit your origin again",
-      "subTitle": "Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes."
-    },
     "DNSLookur": {
-      "title": "DNS Lookup Test",
-      "subtitle": "Enter the URL of your file or website to test connectivity from the Gowaf.net network to your server."
+      "subtitle": "Enter the URL of your file or website to test connectivity from the Gowaf.net network to your server.",
+      "title": "DNS Lookup Test"
     },
     "DiagnosticReport": {
       "btn": "Run Diagnostic Report",
-      "title": "Diagnostic Report",
-      "subtitle": "The diagnostic report will collect detailed information about your browser, internet and DNS configuration  that can be used for testing connectivity and troubleshooting issues."
+      "subtitle": "The diagnostic report will collect detailed information about your browser, internet and DNS configuration  that can be used for testing connectivity and troubleshooting issues.",
+      "title": "Diagnostic Report"
     },
     "OtherTools": {
-      "title": "Other Tools",
-      "subtitle": "SSL Check, GeoIP Lookup, and more!"
+      "subtitle": "SSL Check, GeoIP Lookup, and more!",
+      "title": "Other Tools"
     },
     "Traceroute": {
-      "title": "Global Traceroute Test",
-      "Host": "Host",
-      "PacketLoss": "Packet Loss",
       "Average": "Average",
       "Best": "Best",
-      "Worst": "Worst"
+      "Host": "Host",
+      "PacketLoss": "Packet Loss",
+      "Worst": "Worst",
+      "title": "Global Traceroute Test"
+    },
+    "bennerSubTitle": "Tools to help you optimize and get started with bunny.net and run network tests and diagnostics from over 120 locations around the world.",
+    "bennerTitle": "Global Network Diagnostic Tools",
+    "neverHit": {
+    }
+  },
+  "breadCrumbs": {
+    "DNSLookur": "DNS Lookur",
+    "DiagnosticReport": "Diagnostic Report",
+    "HTTPTest": "HTTP Test",
+    "LatencyTest": "Latency Test",
+    "OtherTools": "Other Tools",
+    "Traceroute": "Traceroute",
+    "WebTools": "Web Tools",
+    "ddosProtection": "DDoS Protection",
+    "overview": "Overview",
+    "parent": "Network",
+    "smartEdge": "SmartEdge™"
+  },
+  "ddos": {
+    "header": {
+      "btn": "Start 14-Day FREE Trial",
+      "content": "Protect your website from DDoS Attacks. Ensure flawless uptime and never go down again. We take care of DDoS protection so you can focus on your product!",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "DDoS Protection",
+      "title": "DDoS protection as standard"
+    },
+    "protectAtEdge": {
+      "subTitle": "Stay protected at all times by mitigating attacks before they ever reach your servers, thanks to Edge AI.",
+      "title": "DDoS protection at the network edge"
+    },
+    "stayProtectAlways": {
+      "btn": "Start 14-Day FREE Trial",
+      "subTitle": "Stay focused on your product and let us take care of your security.",
+      "title": "Stay protected. Always!"
+    }
+  },
+  "overview": {
+    "flags": {
+      "subTitle": "Hop on a global network that spans 6 continents and 77 countries.",
+      "title": "Your users are just a hop away"
+    },
+    "hop": {
+      "btn": "Start 14-Day FREE Trial",
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Hop on the Fastest Global CDN Network"
+    },
+    "title0": "Gowaf CDN Network",
+    "title1": "150 Tbps+ at your fingertips",
+    "title2": "Supercharge your content with one of the fastest networks in the world."
+  },
+  "smartEdge": {
+    "header": {
+      "btn": "Start 14-Day FREE Trial",
+      "content": "Protect your website from DDoS Attacks. Ensure flawless uptime and never go down again. We take care of DDoS protection so you can focus on your product!",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "DDoS Protection",
+      "title": "DDoS protection as standard"
+    },
+    "onProblem": {
+      "content": "Traditionally, CDNs will route users with a single routing configuration which isn't always optimal. SmartEdge™ combines a pre-set global configuration with automatic performance metrics to intelligently select between anycast, GeoDNS, and latency-based routing for each region to maximize performance and routing quality for your specific use case.",
+      "title": "One problem. One routing system."
     }
   }
 }

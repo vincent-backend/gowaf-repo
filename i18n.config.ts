@@ -18,6 +18,7 @@ for (const path in langFiles) {
     i18nResources[langCode][fileName] = langData;
   }
 }
+console.log("i18nResources", i18nResources)
 
 export default defineI18nConfig(() => ({
   legacy: false,

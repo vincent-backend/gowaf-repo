@@ -1,19 +1,88 @@
 {
-  "videoDelivery": {
-    "header": {
-      "preTitle": "Video Delivery CDN",
-      "title": "Reliable video CDN that truly hops",
-      "content": "Supercharge your video playback and high-quality VOD streaming through our global 150 Tbps+ network. Deliver the best video experience with no buffering and the lowest latency.",
-      "btn": "Try free for 14 days",
-      "hint": "No credit card needed. Start in seconds."
+  "securityCdn": {
+    "ad1": {
+      "btn": "Start 14-Day FREE Trial",
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Stay protected at all time!"
     },
+    "chart1": {
+      "subTitle": "150 Tbps+ network backbone that withstands any DDoS attack.",
+      "title": "A network edge that has your back"
+    },
+    "features2": {
+      "subTitle": "Stop DDoS attacks in their tracks before they even start causing damage.",
+      "title": "No more downtime. Ever."
+    },
+    "header": {
+      "btn": "Start 14-Day FREE Trial",
+      "content": "Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "WordPress CDN",
+      "title": "Supercharge your WordPress website"
+    }
+  },
+  "storageGame": {
+    "accelerate": {
+      "content": "Stop worrying about your infrastructure falling apart during updates. Focus on keeping gamers engaged while we make sure you stay online. Deliver the best gaming experience in the universe.",
+      "title": "Accelerate gaming on a global scale"
+    },
+    "ad1": {
+      "btn": "Start 14-Day FREE Trial",
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Delivery Next-Gen Gaming Experience"
+    },
+    "header": {
+      "btn": "Try free for 14 days",
+      "content": "Help players hop into your game faster. Level up your updates without worrying about scalability. Prevent DDoS attacks to keep gamers happy and engaged without breaking the bank.",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "Gaming CDN",
+      "title": "Level up your gaming experience"
+    }
+  },
+  "storageSoftware": {
+    "accelerate": {
+      "btn": "Explore Gowaf CDN",
+      "content": "Bring your content closer to your users anywhere in the world. Minimize latency and maximize your performance with the Gowaf global network. Take advantage of fully customized pricing and only pay for the bandwidth you actually use!",
+      "title": "Never worry about traffic peaks again"
+    },
+    "ad1": {
+      "btn": "Start 14-Day FREE Trial",
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Speed up your software distribution!"
+    },
+    "ad2": {
+      "btn": "Explore Gowaf Storage",
+      "content": "Fast downloads need fast storage. Forget slow cold starts by keeping your files ready around the world. Gowaf Edge Storage delivers up to 5X faster performance compared to traditional object storage and helps your users get your files faster.",
+      "title": "Fastest storage for fastest downloads"
+    },
+    "header": {
+      "btn": "Start 14-Day FREE Trial",
+      "content": "Supercharge your software downloads with one of the fastest global networks: experience high-throughput and always reliable downloads worldwide.",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "Software Distribution",
+      "title": "Deliver lightning fast downloads"
+    },
+    "map": {
+      "subTitle": "Never keep your users waiting again. Deliver updates in real-time and minimize downtime. Hop on one of the fastest global networks powered by 123 PoPs.",
+      "title": "Global network. For a global audience."
+    },
+    "supportPlan": {
+      "main": {
+        "btn": "Meet Our Super Gowaf",
+        "responseTime": "5min",
+        "responseTimeTitle": "FIRST RESPONSE TIME",
+        "solveTime": "3hrs",
+        "solveTimeTitle": "AVERAGE SOLVE TIME",
+        "subTitle": "No more waiting around for the support you need right now. We are here for you 24 hours a day, 7 days a week, 365 days a year. With an average 1st time response time under 5 minutes and average solve time under 3 hours, you are definitely in good hands (paws) with us!",
+        "title": "Trustworthy around the clock support"
+      },
+      "subTitle": "Forget support levels and get connected directly with an expert. Every single time.",
+      "title": "A support team that cares"
+    }
+  },
+  "videoDelivery": {
     "Calculate": {
       "ReplicationPoints": {
-        "title": "Replication points",
-        "label": "Price",
-        "value": "$0.01",
-        "unit": "/ Gigabyte",
-        "icon": "/images/products/stream/overview/common_price_right_wihte_ic2x.png",
         "list": [
           {
             "label": "One",
@@ -47,217 +116,159 @@
             "label": "Eight",
             "status": 0
           }
-        ]
+        ],
+        "list[0]": {
+        },
+        "list[1]": {
+        },
+        "list[2]": {
+        },
+        "list[3]": {
+        },
+        "list[4]": {
+        },
+        "list[5]": {
+        },
+        "list[6]": {
+        },
+        "list[7]": {
+        }
       }
     },
     "ad1": {
-      "title": "Deliver video without buffering!",
+      "btn": "Start 14-Day FREE Trial",
       "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
+      "title": "Deliver video without buffering!"
     },
-    "list2": {
-      "title1": "Packed with powerful features",
-      "title2": "Take advantage of powerful features specifically tailored to video delivery. Secure your streams using hotlinking protection and token authentication."
-    },
-    "map": {
-      "title": "Bring video delivery to the next level",
-      "subTitle": "The Gowaf network was explicitly designed for efficient video delivery. With strategically selected PoPs around the world, we assure a great price/performance ratio and an incredibly high cache hit rate."
-    },
-    "supportPlan": {
-      "title": "Simple, clean and customizable player",
-      "subTitle": "Take advantage of fully customizable bunny.net media player.",
-      "main": {
-        "title": "Make it your own",
-        "subTitle": "Maximize branding power by customizing every aspect of your player down to the CDN hostname.",
-        "btn": "Gowaf Media Player"
-      }
+    "header": {
+      "btn": "Try free for 14 days",
+      "content": "Supercharge your video playback and high-quality VOD streaming through our global 150 Tbps+ network. Deliver the best video experience with no buffering and the lowest latency.",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "Video Delivery CDN",
+      "title": "Reliable video CDN that truly hops"
     },
     "join1": {
-      "title": "Trusted by 40.000+ global customers",
       "person": {
-        "name": "Matthias Mauch",
-        "title": "Younity",
-        "content": "\"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don't need a lot of training.It's very streamlined.\""
       }
-    }
-  },
-  "storageGame": {
-    "header": {
-      "preTitle": "Gaming CDN",
-      "title": "Level up your gaming experience",
-      "content": "Help players hop into your game faster. Level up your updates without worrying about scalability. Prevent DDoS attacks to keep gamers happy and engaged without breaking the bank.",
-      "btn": "Try free for 14 days",
-      "hint": "No credit card needed. Start in seconds."
     },
-    "accelerate": {
-      "title": "Accelerate gaming on a global scale",
-      "content": "Stop worrying about your infrastructure falling apart during updates. Focus on keeping gamers engaged while we make sure you stay online. Deliver the best gaming experience in the universe."
-    },
-    "ad1": {
-      "title": "Delivery Next-Gen Gaming Experience",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
-    }
-  },
-  "storageSoftware": {
-    "header": {
-      "preTitle": "Software Distribution",
-      "title": "Deliver lightning fast downloads",
-      "content": "Supercharge your software downloads with one of the fastest global networks: experience high-throughput and always reliable downloads worldwide.",
-      "btn": "Start 14-Day FREE Trial",
-      "hint": "No credit card needed. Start in seconds."
-    },
-    "accelerate": {
-      "title": "Never worry about traffic peaks again",
-      "content": "Bring your content closer to your users anywhere in the world. Minimize latency and maximize your performance with the Gowaf global network. Take advantage of fully customized pricing and only pay for the bandwidth you actually use!",
-      "btn": "Explore Gowaf CDN"
-    },
-    "ad2": {
-      "title": "Fastest storage for fastest downloads",
-      "content": "Fast downloads need fast storage. Forget slow cold starts by keeping your files ready around the world. Gowaf Edge Storage delivers up to 5X faster performance compared to traditional object storage and helps your users get your files faster.",
-      "btn": "Explore Gowaf Storage"
+    "list2": {
     },
     "map": {
-      "title": "Global network. For a global audience.",
-      "subTitle": "Never keep your users waiting again. Deliver updates in real-time and minimize downtime. Hop on one of the fastest global networks powered by 123 PoPs."
-    },
-    "ad1": {
-      "title": "Speed up your software distribution!",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
+      "subTitle": "The Gowaf network was explicitly designed for efficient video delivery. With strategically selected PoPs around the world, we assure a great price/performance ratio and an incredibly high cache hit rate.",
+      "title": "Bring video delivery to the next level"
     },
     "supportPlan": {
-      "title": "A support team that cares",
-      "subTitle": "Forget support levels and get connected directly with an expert. Every single time.",
       "main": {
-        "title": "Trustworthy around the clock support",
-        "subTitle": "No more waiting around for the support you need right now. We are here for you 24 hours a day, 7 days a week, 365 days a year. With an average 1st time response time under 5 minutes and average solve time under 3 hours, you are definitely in good hands (paws) with us!",
-        "responseTime": "5min",
-        "responseTimeTitle": "FIRST RESPONSE TIME",
-        "solveTime": "3hrs",
-        "solveTimeTitle": "AVERAGE SOLVE TIME",
-        "btn": "Meet Our Super Gowaf"
-      }
+        "btn": "Gowaf Media Player",
+        "subTitle": "Maximize branding power by customizing every aspect of your player down to the CDN hostname.",
+        "title": "Make it your own"
+      },
+      "subTitle": "Take advantage of fully customizable bunny.net media player.",
+      "title": "Simple, clean and customizable player"
     }
   },
   "websiteAcceleration": {
-    "header": {
-      "preTitle": "Website Acceleration",
-      "title": "Make your website hop like a Gowaf",
-      "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website beyond the limits!",
+    "accelerate": {
+      "content": "Hop on one of the fastest global networks in the world. Supercharge your website speeds to the maximum and deliver the best possible experience for your visitors. Take advantage of enterprise-grade performance at the most affordable price on the market!",
+      "title": "Amazing performance. Every time."
+    },
+    "ad1": {
       "btn": "Start 14-Day FREE Trial",
-      "hint": "No credit card needed. Start in seconds."
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Hop on next-gen web acceleration!"
+    },
+    "ad2_1": {
+      "content": "Did you know that 40% of users abandon a page if it doesn’t load within 3 seconds? Speed up your website to decrease your bounce rate, increase conversions and maximize your profits!",
+      "title": "Decrease bounce rate. Improve conversion."
+    },
+    "ad2_2": {
+      "btn": "Learn More About Gowaf Optimizer",
+      "content": "Push your website performance to the speed of light with Gowaf Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Gowaf Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest！",
+      "title": "Reduce image size up to 80% with Gowaf Optimizer"
+    },
+    "closerToUser": {
+      "subTitle": "A shorter distance makes your website load faster. With our global network, your customers are always just a hop away.",
+      "title": "Bring your content closer to your users"
+    },
+    "header": {
+      "btn": "Start 14-Day FREE Trial",
+      "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website beyond the limits!",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "Website Acceleration",
+      "title": "Make your website hop like a Gowaf"
+    },
+    "logos": {
+      "btn": "Step By Step Integration Guides",
+      "subTitle": "Integrate with the most popular CMS systems in just a few clicks. Get started in under 5 minutes.",
+      "title": "Simple, fast, and easy integration with the majority of popular CMS systems"
     },
     "numbers": [
       {
-        "label": "1.000.000+",
-        "content": "Powered Websites"
+        "content": "Powered Websites",
+        "label": "1.000.000+"
       },
       {
-        "label": "Up to 5x",
-        "content": "Faster Load Times"
+        "content": "Faster Load Times",
+        "label": "Up to 5x"
       },
       {
-        "label": "123",
-        "content": "Global PoPs"
+        "content": "Global PoPs",
+        "label": "123"
       },
       {
-        "label": "40.000+",
-        "content": "Satisfied Customers"
+        "content": "Satisfied Customers",
+        "label": "40.000+"
       }
     ],
-    "closerToUser": {
-      "title": "Bring your content closer to your users",
-      "subTitle": "A shorter distance makes your website load faster. With our global network, your customers are always just a hop away."
+    "numbers[0]": {
     },
-    "accelerate": {
-      "title": "Amazing performance. Every time.",
-      "content": "Hop on one of the fastest global networks in the world. Supercharge your website speeds to the maximum and deliver the best possible experience for your visitors. Take advantage of enterprise-grade performance at the most affordable price on the market!"
+    "numbers[1]": {
     },
-    "ad1": {
-      "title": "Hop on next-gen web acceleration!",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
+    "numbers[2]": {
     },
-    "logos": {
-      "title": "Simple, fast, and easy integration with the majority of popular CMS systems",
-      "subTitle": "Integrate with the most popular CMS systems in just a few clicks. Get started in under 5 minutes.",
-      "btn": "Step By Step Integration Guides"
-    },
-    "ad2_1": {
-      "title": "Decrease bounce rate. Improve conversion.",
-      "content": "Did you know that 40% of users abandon a page if it doesn’t load within 3 seconds? Speed up your website to decrease your bounce rate, increase conversions and maximize your profits!"
-    },
-    "ad2_2": {
-      "title": "Reduce image size up to 80% with Gowaf Optimizer",
-      "content": "Push your website performance to the speed of light with Gowaf Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Gowaf Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest！",
-      "btn": "Learn More About Gowaf Optimizer"
+    "numbers[3]": {
     }
   },
   "websiteWordpress": {
-    "header": {
-      "preTitle": "WordPress CDN",
-      "title": "Supercharge your WordPress website",
-      "content": "Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!",
-      "btn": "Start 14-Day FREE Trial",
-      "hint": "No credit card needed. Start in seconds."
-    },
-    "closerToUser": {
-      "title": "Shorten distance. Improve website load time",
-      "subTitle": "Speed up your website by up to 80% with our global network by bringing the content closer to your visitors. By integrating Gowaf CDN, you’ll improve your loading speeds, reduce bounce rate, and increase conversions. Everything you need to stand out from the competition is just a few simple clicks away!"
-    },
     "accelerate": {
-      "title": "Experience website performance like never before",
-      "content": "Supercharge your WordPress Website with a simple 1-click plugin installation. Take advantage of next-gen WordPress CDN delivery packed with robust security features and backed by an 150 Tbps+ network. Stay focused on your product, and let us take care of everything else."
+      "content": "Supercharge your WordPress Website with a simple 1-click plugin installation. Take advantage of next-gen WordPress CDN delivery packed with robust security features and backed by an 150 Tbps+ network. Stay focused on your product, and let us take care of everything else.",
+      "title": "Experience website performance like never before"
+    },
+    "ad1": {
+      "btn": "Start 14-Day FREE Trial",
+      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
+      "title": "Hop on the best WordPress CDN!"
     },
     "ad2": {
-      "title": "Decrease bounce rate. Improve conversion.",
+      "btn": "WordPress Integration",
       "content": "Did you know that 40% of users abandon a page if it doesn’t load within 3 seconds? Speed up your website to decrease your bounce rate, increase conversions and maximize your profits!",
-      "btn": "WordPress Integration"
+      "title": "Decrease bounce rate. Improve conversion."
     },
-    "ad1": {
-      "title": "Hop on the best WordPress CDN!",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
-    },
-    "title1": "Not just faster but also safer",
-    "title2": "Improve security, protect your content, and stop vulnerabilities.",
     "ad2_1": {
-      "title": "Reduce image sizeup to 80%",
+      "btn": "Explore  Gowaf Optimizer",
       "content": "Push your website performance to the speed of light with Gowaf Optimizer. Reduce image file size up to 80% and change them to web-friendly WebP Format. Enabling Gowaf Optimizer will improve your website speed by up to 30% and truly make you stand out from the rest!",
-      "btn": "Explore  Gowaf Optimizer"
+      "title": "Reduce image sizeup to 80%"
     },
     "ad2_2": {
-      "title": "Protect your videos from being stolen",
+      "btn": "Explore Media Cage",
       "content": "Don’t want your video to be shared or downloaded? Media Cage locks your videos and prevents them from downloading or sharing outside your website. It is the perfect solution for online courses and videos you want to keep strictly on your site.",
-      "btn": "Explore Media Cage"
+      "title": "Protect your videos from being stolen"
+    },
+    "closerToUser": {
+      "subTitle": "Speed up your website by up to 80% with our global network by bringing the content closer to your visitors. By integrating Gowaf CDN, you’ll improve your loading speeds, reduce bounce rate, and increase conversions. Everything you need to stand out from the competition is just a few simple clicks away!",
+      "title": "Shorten distance. Improve website load time"
+    },
+    "header": {
+      "btn": "Start 14-Day FREE Trial",
+      "content": "Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!",
+      "hint": "No credit card needed. Start in seconds.",
+      "preTitle": "WordPress CDN",
+      "title": "Supercharge your WordPress website"
     },
     "logos": {
-      "title": "Seamless and easy integration with popular WordPress plugins",
+      "btn": "Step By Step Integration Guides",
       "subTitle": "Get the best experience possible by combing Gowaf with popular WordPress Plugins. It takes just a few clicks, and your website will work even faster and bring you better results!",
-      "btn": "Step By Step Integration Guides"
-    }
-  },
-  "securityCdn": {
-    "header": {
-      "preTitle": "WordPress CDN",
-      "title": "Supercharge your WordPress website",
-      "content": "Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!",
-      "btn": "Start 14-Day FREE Trial",
-      "hint": "No credit card needed. Start in seconds."
-    },
-    "features2": {
-      "title": "No more downtime. Ever.",
-      "subTitle": "Stop DDoS attacks in their tracks before they even start causing damage."
-    },
-    "ad1": {
-      "title": "Stay protected at all time!",
-      "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
-      "btn": "Start 14-Day FREE Trial"
-    },
-    "chart1": {
-      "title": "A network edge that has your back",
-      "subTitle": "150 Tbps+ network backbone that withstands any DDoS attack."
+      "title": "Seamless and easy integration with popular WordPress plugins"
     }
   }
 }

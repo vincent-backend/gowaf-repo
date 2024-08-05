@@ -6,19 +6,19 @@ const SuperCharge = computed<NumbersItem>(() => {
   return [
     {
       label: '123',
-      content: 'Edge Locations'
+      content: t('home.Locations')
     },
     {
       label: '650.000+',
-      content: 'Requests Per Second'
+      content: t('home.requestsPerSecond')
     },
     {
       label: '80 Tbps+',
-      content: 'Network Capacity'
+      content: t('home.NetworkCapacity')
     },
     {
       label: '24 ms',
-      content: 'Avg. Worldwide Latency'
+      content: t('home.avgWorldwideLatency')
     }
   ];
 });
@@ -27,32 +27,32 @@ const features = computed(() => {
     {
       icon: 'home_card_ic_1_nor',
       title: 'CDN',
-      content: 'Supercharge your content on a truly global scale.',
+      content: t('home.featuresContent1'),
     },
     {
       icon: 'home_card_ic_2_nor',
       title: 'Storage',
-      content: 'Experience hot object storage,replicated around the world.',
+      content: t('home.featuresContent2'),
     },
     {
       icon: 'home_card_ic_3_nor',
       title: 'Stream',
-      content: 'Take your video delivery to the next level.',
+      content: t('home.featuresContent3'),
     },
     {
       icon: 'home_card_ic_4_nor',
       title: 'Optimizer',
-      content: 'Optimize your website with a click of a button.',
+      content: t('home.featuresContent4'),
     },
     {
       icon: 'home_card_ic_5_nor',
       title: 'DNS',
-      content: 'Unlock the true power of DNS across your infrastructure.',
+      content: t('home.featuresContent5'),
     },
     {
       icon: 'home_card_ic_6_nor',
       title: 'Load Balancer',
-      content: 'Maximize application performance and scalability.',
+      content: t('home.featuresContent6'),
       comingSoon: 'comingSoon'
     }
   ];
@@ -63,10 +63,10 @@ const features = computed(() => {
   <div class="list2-container">
     <div class="page-container list2">
       <div class="title">
-        Hop to the edge and never look back
+        {{ $t('home.list2.title') }}
       </div>
       <div class="sub-title">
-        Experience unparalleled performance without compromise.
+        {{ $t('home.list2.subTitle') }}
       </div>
       <CommonNumbers
         is-row

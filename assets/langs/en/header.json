@@ -1,21 +1,19 @@
 {
   "alert": {
-    "text": "Gowaf are going to Broadcast Asia in Singapore! - Let's dive into your future success with Gowaf",
-    "btn": "Book a Meeting"
+    "btn": "Book a Meeting",
+    "text": "Gowaf are going to Broadcast Asia in Singapore! - Let's dive into your future success with Gowaf"
   },
+  "getStarted": "Get Started",
+  "login": "Login",
   "menus": {
     "network": "Network",
     "pricing": "Pricing",
     "products": "Products",
-    "solutions": "Solutions",
-    "resources": "Resources"
+    "resources": "Resources",
+    "solutions": "Solutions"
   },
   "solutionsMenu": {
     "footer": {
-      "title": "See how Gowaf helped other companies reach the next leve!.",
-      "btn": "Gowaf case studies"
     }
-  },
-  "login": "Login",
-  "getStarted": "Get Started"
+  }
 }
