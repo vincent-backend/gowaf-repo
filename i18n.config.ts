@@ -1,4 +1,5 @@
 const langFiles = import.meta.glob('./assets/langs/**/*.json');
+// import home from '~/assets/langs/en/home.json'
 
 // 创建一个空对象来存储语言包
 const i18nResources: any = {};
@@ -18,7 +19,6 @@ for (const path in langFiles) {
     i18nResources[langCode][fileName] = langData;
   }
 }
-console.log("i18nResources", i18nResources)
 
 export default defineI18nConfig(() => ({
   legacy: false,
