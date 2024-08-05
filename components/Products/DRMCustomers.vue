@@ -22,13 +22,13 @@ defineProps<{
       mheight: string;
     };
     list: {
-      title: string;
-      subTitle: string;
-      content: string;
+      title?: string;
+      subTitle?: string;
+      content?: string;
     };
-    items: Array<{
-      num: Number;
-      icon: string;
+    items?: Array<{
+      num?: Number;
+      icon?: string;
     }>;
   };
 }>();

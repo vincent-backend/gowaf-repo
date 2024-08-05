@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const props = withDefaults(
   defineProps<{
     title: string;
@@ -41,7 +41,63 @@ const localizedDefaults: any = computed(() => {
   const obj = {
     title: $t('resources.SuperPolyfill.author.title'),
     subTitle: $t('resources.SuperPolyfill.author.subTitle'),
-    list: tm('resources.SuperPolyfill.author.list') as any
+    list: [
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Max',
+        subtitle: 'Head of Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Benjamin',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Renz',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Tomas',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Sunil',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Jack',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Bruno',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Tilen',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Jesus',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Raul',
+        subtitle: 'Support'
+      },
+      {
+        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        title: 'Joseph',
+        subtitle: 'Support'
+      }
+    ]
   };
   return mergeWithDefaults(obj, props);
 });

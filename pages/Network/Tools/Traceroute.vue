@@ -154,7 +154,7 @@
 <script setup lang="ts">
 import { DArrowRight } from '@element-plus/icons-vue';
 import { CommonInputsubfix } from '#components';
-const { t, tm } = useI18n();
+const { t } = useI18n();
 const input = ref('');
 const show = ref(false);
 definePageMeta({
@@ -203,33 +203,33 @@ const i18ntext = computed(() => {
 const columnlist = [
   [
     {
-      title: t('nationalFlag.continentName[1]'),
+      title: t('nationalFlag.continentName1'),
       list: i18ntext.value.Europe
     }
   ],
   [
     {
-      title: t('nationalFlag.continentName[0]'),
+      title: t('nationalFlag.continentName0'),
       list: i18ntext.value.North_America
     }
   ],
   [
     {
-      title: t('nationalFlag.continentName[2]'),
+      title: t('nationalFlag.continentName2'),
       list: i18ntext.value.Asia
     }
   ],
   [
     {
-      title: t('nationalFlag.continentName[3]'),
+      title: t('nationalFlag.continentName3'),
       list: i18ntext.value.Oceania
     },
     {
-      title: t('nationalFlag.continentName[4]'),
+      title: t('nationalFlag.continentName4'),
       list: i18ntext.value.South_America
     },
     {
-      title: t('nationalFlag.continentName[5]'),
+      title: t('nationalFlag.continentName5'),
       list: i18ntext.value['Middle_East&Africa']
     }
   ]

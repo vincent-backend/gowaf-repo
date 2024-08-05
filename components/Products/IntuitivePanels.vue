@@ -1,7 +1,3 @@
-<script lang="ts" setup>
-const curTab = ref(0);
-</script>
-
 <template>
   <div class="intuitive-panels-container">
     <div class="intuitive-panels page-container">
@@ -44,6 +40,7 @@ const curTab = ref(0);
 </template>
 
 <script setup lang="ts">
+const curTab = ref(0);
 const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [

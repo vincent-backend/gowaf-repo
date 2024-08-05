@@ -69,7 +69,6 @@
         :content="item?.content"
         :content2="item?.content2"
         :content3="item?.content3"
-        :content4="item?.content4"
         :pic="item.pic"
         :m-pic="item.pic"
         :pic-width="item.width"
@@ -204,7 +203,6 @@ const i18ntext = computed(() => {
         content:
           '"Try them and use it.It\'s very, very simple: you need a CDN you use a CDN. The pricing and the quality are top notch - I would definitely recommend it as well."'
       },
-      items: null
     }
   };
 });

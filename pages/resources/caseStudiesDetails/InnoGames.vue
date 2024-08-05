@@ -209,7 +209,6 @@ const i18ntext = computed(() => {
         content:
           "I like that Gowaf CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."
       },
-      items: null
     }
   };
 });

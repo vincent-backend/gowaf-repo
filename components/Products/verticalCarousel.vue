@@ -47,7 +47,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const current: any = ref({});
 const props = withDefaults(
   defineProps<
@@ -74,9 +74,56 @@ const localizedDefaults: any = computed(() => {
     title: $t('products.optimizer.TransformAPI.verticalCarousel.title'),
     subTitle: $t('products.optimizer.TransformAPI.verticalCarousel.subTitle'),
     btnText: $t('products.optimizer.TransformAPI.verticalCarousel.btnText'),
-    sweperList: tm(
-      'products.optimizer.TransformAPI.verticalCarousel.sweperList'
-    ) as any
+    sweperList: [
+      {
+        icon: '/images/products/optimizer/TransformAPI/media_perfect_ic_1@2x.png',
+        aicon:
+          '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_1@2x.png',
+        iconw: '60px',
+        miconw: '3.75rem',
+        title: 'Resize & Crop',
+        bigPic:
+          '/images/products/optimizer/TransformAPI/Adjust Filters & Colors_img@2x.png',
+        bigpicW: '804px',
+        mbigpicW: ''
+      },
+      {
+        icon: '/images/products/optimizer/TransformAPI/media_perfect_ic_2@2x.png',
+        aicon:
+          '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_2@2x.png',
+        iconw: '60px',
+        miconw: '3.75rem',
+        title: 'Sharpen & Blur',
+        bigPic:
+          '/images/products/optimizer/TransformAPI/Convert & Optimize_img@2x.png',
+        bigpicW: '804px',
+        mbigpicW: ''
+      },
+      {
+        icon: '/images/products/optimizer/TransformAPI/media_perfect_ic_3@2x.png',
+        aicon:
+          '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_3@2x.png',
+        iconw: '51px',
+        miconw: '3.75rem',
+        title: 'Adjust Filters & Colors',
+        bigPic:
+          '/images/products/optimizer/TransformAPI/Resize & Crop_img@2x.png',
+        bigpicW: '804px',
+        mbigpicW: ''
+      },
+      {
+        icon: '/images/products/optimizer/TransformAPI/media_perfect_ic_4@2x.png',
+        aicon:
+          '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_4@2x.png',
+        iconw: '60px',
+        miconw: '3.75rem',
+        title: 'Convert & Optimize',
+        bigPic:
+          '/images/products/optimizer/TransformAPI/Sharpen & Blur_img@2x.png',
+        bigpicW: '804px',
+        mbigpicW: ''
+      }
+    ]
   };
   return mergeWithDefaults(obj, props);
 });

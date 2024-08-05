@@ -69,7 +69,6 @@
         :content="item?.content"
         :content2="item?.content2"
         :content3="item?.content3"
-        :content4="item?.content4"
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
@@ -213,7 +212,6 @@ const i18ntext = computed(() => {
         content:
           '"I like that Gowaf CDN\'s support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."'
       },
-      items: null
     }
   };
 });

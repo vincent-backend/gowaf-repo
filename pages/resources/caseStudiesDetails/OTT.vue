@@ -69,7 +69,6 @@
         :content="item?.content"
         :content2="item?.content2"
         :content3="item?.content3"
-        :content4="item?.content4"
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
@@ -213,7 +212,6 @@ const i18ntext = computed(() => {
         content:
           '"Gowaf adds a line of defense to our other CDN providers.I’m happy with the service - everything works."'
       },
-      items: null
     }
   };
 });

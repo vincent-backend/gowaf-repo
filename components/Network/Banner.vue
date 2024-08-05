@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const props = defineProps<{
   title0?: string;
   title1?: string;

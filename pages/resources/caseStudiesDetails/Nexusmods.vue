@@ -69,7 +69,6 @@
         :content="item?.content"
         :content2="item?.content2"
         :content3="item?.content3"
-        :content4="item?.content4"
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
@@ -208,7 +207,6 @@ const i18ntext = computed(() => {
         content:
           '“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”'
       },
-      items: null
     }
   };
 });

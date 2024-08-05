@@ -60,33 +60,37 @@ const { t } = useI18n();
 const i18ntext = computed(() => {
   return {
     leftList: [
-      t('home.join1.info1.leftList[0]'),
-      t('home.join1.info1.leftList[1]'),
+      'From $1/month',
+      'No Hidden Fees',
       'Perma-Caching',
-      t('home.join1.info1.leftList[3]'),
-      t('home.join1.info1.leftList[4]'),
-      t('home.join1.info1.leftList[5]')
+      'Real-Time Monitoring',
+      'DDoS Protection',
+      'Free SSL Certificate'
     ],
     rightList: [
       {
         icon: 'home_list_ic_design',
-        title: t('home.join1.info1.rightList[0].title'),
-        content: t('home.join1.info1.rightList[0].content')
+        title: 'Scalable By Design',
+        content:
+          'Maximize your growth and expansion without care with a 80 Tbps+ network.'
       },
       {
         icon: 'home_list_ic_Server',
-        title: t('home.join1.info1.rightList[1].title'),
-        content: t('home.join1.info1.rightList[1].content')
+        title: 'NVMe+ SSD Servers',
+        content:
+          'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.'
       },
       {
         icon: 'home_list_ic_network',
-        title: t('home.join1.info1.rightList[2].title'),
-        content: t('home.join1.info1.rightList[2].content')
+        title: 'Tier 1 Global Network',
+        content:
+          'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.'
       },
       {
         icon: 'home_list_ic_Protection',
-        title: t('home.join1.info1.rightList[3].title'),
-        content: t('home.join1.info1.rightList[3].content')
+        title: 'Stay Protected',
+        content:
+          'Stay safe and focused with a built-in next-generation DDoS protection that just works.'
       }
     ]
   };

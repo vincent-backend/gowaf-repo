@@ -5,20 +5,20 @@ const { t } = useI18n();
 const SuperCharge = computed<NumbersItem>(() => {
   return [
     {
-      label: t('home.list2.numbers[0].label'),
-      content: t('home.list2.numbers[0].content')
+      label: '123',
+      content: 'Edge Locations'
     },
     {
-      label: t('home.list2.numbers[1].label'),
-      content: t('home.list2.numbers[1].content')
+      label: '650.000+',
+      content: 'Requests Per Second'
     },
     {
-      label: t('home.list2.numbers[2].label'),
-      content: t('home.list2.numbers[2].content')
+      label: '80 Tbps+',
+      content: 'Network Capacity'
     },
     {
-      label: t('home.list2.numbers[3].label'),
-      content: t('home.list2.numbers[3].content')
+      label: '24 ms',
+      content: 'Avg. Worldwide Latency'
     }
   ];
 });
@@ -27,38 +27,33 @@ const features = computed(() => {
     {
       icon: 'home_card_ic_1_nor',
       title: 'CDN',
-      content: t('home.list2.features[0].content'),
-      comingSoon: ''
+      content: 'Supercharge your content on a truly global scale.',
     },
     {
       icon: 'home_card_ic_2_nor',
-      title: t('home.SupportHUB.list[2].title'),
-      content: t('home.list2.features[1].content'),
-      comingSoon: ''
+      title: 'Storage',
+      content: 'Experience hot object storage,replicated around the world.',
     },
     {
       icon: 'home_card_ic_3_nor',
-      title: t('home.SupportHUB.list[3].title'),
-      content: t('home.list2.features[2].content'),
-      comingSoon: ''
+      title: 'Stream',
+      content: 'Take your video delivery to the next level.',
     },
     {
       icon: 'home_card_ic_4_nor',
-      title: t('home.SupportHUB.list[4].title'),
-      content: t('home.list2.features[3].content'),
-      comingSoon: ''
+      title: 'Optimizer',
+      content: 'Optimize your website with a click of a button.',
     },
     {
       icon: 'home_card_ic_5_nor',
       title: 'DNS',
-      content: t('home.list2.features[4].content'),
-      comingSoon: ''
+      content: 'Unlock the true power of DNS across your infrastructure.',
     },
     {
       icon: 'home_card_ic_6_nor',
-      title: t('home.list2.features[5].title'),
-      content: t('home.list2.features[5].content'),
-      comingSoon: t('home.coming-soo')
+      title: 'Load Balancer',
+      content: 'Maximize application performance and scalability.',
+      comingSoon: 'comingSoon'
     }
   ];
 });
@@ -68,10 +63,10 @@ const features = computed(() => {
   <div class="list2-container">
     <div class="page-container list2">
       <div class="title">
-        {{ $t('home.list2.title') }}
+        Hop to the edge and never look back
       </div>
       <div class="sub-title">
-        {{ $t('home.list2.subTitle') }}
+        Experience unparalleled performance without compromise.
       </div>
       <CommonNumbers
         is-row

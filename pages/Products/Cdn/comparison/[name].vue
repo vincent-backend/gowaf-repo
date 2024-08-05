@@ -99,7 +99,6 @@
 <script setup lang="ts">
 const route = useRoute();
 const router = useRouter();
-const { tm } = useI18n();
 definePageMeta({
   title: 'Products'
 });

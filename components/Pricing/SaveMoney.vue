@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const props = withDefaults(
   defineProps<{
     title?: string;
@@ -54,7 +54,80 @@ const localizedDefaults: any = computed(() => {
     title: $t('pricing.overview.saveMoney.title'),
     subTitle: $t('pricing.overview.saveMoney.subTitle'),
     hint: $t('pricing.overview.saveMoney.hint'),
-    fItems: tm('pricing.overview.saveMoney.list') as any
+    fItems: [
+      {
+        title: 'Price For 5 Terabytes',
+        subTitle: '(Europe & North America)',
+        items: [
+          {
+            label: 'Gowaf',
+            value: '$50',
+            width: '21.25%'
+          },
+          {
+            label: 'CDN77',
+            value: '$165',
+            width: '31.875%'
+          },
+          {
+            label: 'StackPath',
+            value: '$170',
+            width: '35%'
+          },
+          {
+            label: 'KeyCDN',
+            value: '$200',
+            width: '38.125%'
+          },
+          {
+            label: 'CloudFront',
+            value: '$425+',
+            width: '77.5%'
+          },
+          {
+            label: 'Fastly',
+            value: '$600+',
+            width: '90%'
+          }
+        ]
+      },
+      {
+        title: 'Average Global Performance',
+        subTitle: '(Worldwide Median - Lower is better)',
+        items: [
+          {
+            label: 'Gowaf',
+            value: '24 ms',
+            width: '21.25%'
+          },
+          {
+            label: 'CDN77',
+            value: '31 ms',
+            width: '31.875%'
+          },
+          {
+            label: 'StackPath',
+            value: '36 ms',
+            width: '35%'
+          },
+          {
+            label: 'KeyCDN',
+            value: '39 ms',
+            width: '38.125%'
+          },
+          {
+            label: 'CloudFront',
+            value: '27 ms',
+            width: '77.5%'
+          },
+          {
+            label: 'Fastly',
+            value: '29ms',
+            width: '90%'
+          }
+        ]
+      }
+    ]
   };
   return mergeWithDefaults(obj, props);
 });

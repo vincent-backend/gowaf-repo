@@ -69,7 +69,6 @@
         :content="item?.content"
         :content2="item?.content2"
         :content3="item?.content3"
-        :content4="item?.content4"
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
@@ -214,7 +213,6 @@ const i18ntext = computed(() => {
         content:
           '"We tried several CDN providers before, and although they were more expensive, they didn\'t offer the same performance and reliability. After the switch to Gowaf, our users immediately noticed how fast and reliable the downloads became."'
       },
-      items: null
     }
   };
 });

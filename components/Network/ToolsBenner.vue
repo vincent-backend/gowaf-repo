@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const props = withDefaults(
   defineProps<{
     title?: string;

@@ -4,7 +4,7 @@ const props = defineProps<{
   isHidenTile?: boolean;
   bgColor?: string;
   btText?: string;
-  list?: [];
+  list?: string[];
   linkList?: Array<string>;
 }>();
 const imgs = obeyDevice(

@@ -86,28 +86,29 @@
         :list="i18ntext.North_America"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
-        :title="$t('nationalFlag.continentName[2]')"
+        :title="$t('nationalFlag.continentName2')"
         :list="i18ntext.Asia"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
-        :title="$t('nationalFlag.continentName[5]')"
-        :list="i18ntext.Africa"
+        :title="$t('nationalFlag.continentName5')"
+        :list="i18ntext['Middle_East&Africa']"
       ></NetworkNationalFlagList>
     </div>
     <div class="column">
       <NetworkNationalFlagList
-        :title="$t('nationalFlag.continentName[1]')"
+        :title="$t('nationalFlag.continentName1')"
         :list="i18ntext.Europe"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
-        :title="$t('nationalFlag.continentName[3]')"
+        :title="$t('nationalFlag.continentName3')"
         :list="i18ntext.Oceania"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
-        :title="$t('nationalFlag.continentName[4]')"
+        :title="$t('nationalFlag.continentName4')"
         :list="i18ntext.South_America"
       ></NetworkNationalFlagList>
     </div>
+  </div>
   <Footer :is-show-banner="false" />
 </template>
 

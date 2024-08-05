@@ -3,14 +3,14 @@ defineProps<{
   title: string;
   subTitle: string;
   items: {
-    icon: string;
-    icon2: string;
-    title: string;
-    subTitle: string;
-    content1: string;
-    content2: string;
-    content3: string;
-    content4: string;
+    icon?: string;
+    icon2?: string;
+    title?: string;
+    subTitle?: string;
+    content1?: string;
+    content2?: string;
+    content3?: string;
+    content4?: string;
   }[];
 }>();
 </script>

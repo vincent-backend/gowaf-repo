@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const props = withDefaults(
   defineProps<{
     title?: string;
@@ -47,7 +47,24 @@ const localizedDefaults: any = computed(() => {
     title: $t('products.stream.mediaCage.easyPowerful.title'),
     subTitle: $t('products.stream.mediaCage.easyPowerful.subTitle'),
     showNext: true,
-    fulItems: tm('products.stream.mediaCage.easyPowerful.items') as any
+    fulItems: [
+      {
+        icon: '/images/products/stream/media-cage/media_simple_ic_1@2x.png',
+        title: 'Upload',
+        content:
+          'Upload your media files using an HTTP API or web file manager.'
+      },
+      {
+        icon: '/images/products/stream/media-cage/media_simple_ic_2@2x.png',
+        title: 'Enable DRM',
+        content: 'Enable the Media Cage DRM system with a single click.'
+      },
+      {
+        icon: '/images/products/stream/media-cage/media_simple_ic_3@2x.png',
+        title: 'Deliver',
+        content: 'Deliver your videos safely via embed frame code.'
+      }
+    ]
   };
   return mergeWithDefaults(obj, props);
 });

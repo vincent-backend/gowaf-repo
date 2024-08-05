@@ -59,7 +59,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t, tm } = useI18n();
+const { t: $t } = useI18n();
 const props = withDefaults(
   defineProps<{
     title: string;
@@ -86,7 +86,48 @@ const localizedDefaults: any = computed(() => {
     subTitle: $t('resources.SuperPolyfill.leftImgRightTransform.subTitle'),
     img: '/images/resources/SuperPolyfill/super_polyfill_letslook_img@2x.png',
     imgw: '400px',
-    list: tm('resources.SuperPolyfill.leftImgRightTransform.list') as any
+    list: [
+      {
+        num: '9',
+        company: 'minutes',
+        icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_1_sele@2x.png',
+        iconActive:
+          '/images/resources/SuperPolyfill/cdn_overview_never_ic_1_sele@2x.png',
+        title: 'Time to',
+        boldtitle: 'first response',
+        content: '(average: August 2023)'
+      },
+      {
+        num: '35.6%',
+        company: '',
+        icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_2_nor@2x.png',
+        iconActive:
+          '/images/resources/SuperPolyfill/cdn_overview_never_ic_2_nor@2x.png',
+        title: 'Tickets solved in',
+        boldtitle: '1 response',
+        content: '(average: August 2023)'
+      },
+      {
+        num: '10',
+        company: 'minutes',
+        icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_3_nor@2x.png',
+        iconActive:
+          '/images/resources/SuperPolyfill/cdn_overview_never_ic_3_nor@2x.png',
+        title: 'Time for',
+        boldtitle: 'avg. reply',
+        content: '(average: August 2023)'
+      },
+      {
+        num: '5.797',
+        company: 'tickets',
+        icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_4_nor@2x.png',
+        iconActive:
+          '/images/resources/SuperPolyfill/cdn_overview_never_ic_4_nor@2x.png',
+        title: 'Successfully',
+        boldtitle: 'solved',
+        content: '(average: August 2023)'
+      }
+    ]
   };
   return mergeWithDefaults(obj, props);
 });
@@ -257,7 +298,7 @@ const localizedDefaults: any = computed(() => {
           display: flex;
           justify-content: center;
           align-items: center;
-          img{
+          img {
             width: 100% !important;
           }
         }
