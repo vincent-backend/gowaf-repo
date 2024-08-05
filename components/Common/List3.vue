@@ -2,15 +2,15 @@
 defineProps<{
   title1: string;
   title2: string;
-  title2Width: string;
-  layoutType: string;
-  items: {
+  title2Width?: string;
+  layoutType?: string;
+  items?: Partial<{
     icon: string;
     title: string;
     subTitle: string;
     content1: string;
     content2: string;
-  }[];
+  }>[];
 }>();
 
 const slotfull = !!useSlots().full;

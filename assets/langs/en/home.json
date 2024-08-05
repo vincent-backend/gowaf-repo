@@ -27,24 +27,6 @@
   "list2": {
     "title": "Hop to the edge and never look back",
     "subTitle": "Experience unparalleled performance without compromise.",
-    "numbers": [
-      {
-        "label": "123",
-        "content": "Edge Locations"
-      },
-      {
-        "label": "650.000+",
-        "content": "Requests Per Second"
-      },
-      {
-        "label": "80 Tbps+",
-        "content": "Network Capacity"
-      },
-      {
-        "label": "24 ms",
-        "content": "Avg. Worldwide Latency"
-      }
-    ],
     "features": [
       {
         "icon": "home_card_ic_1_nor",
@@ -82,7 +64,42 @@
         "content": "Maximize application performance and scalability.",
         "comingSoon": true
       }
-    ]
+    ],
+    "numbers[3]": {
+      "content": "Avg. Worldwide Latency",
+      "label": "24 ms"
+    },
+    "numbers[2]": {
+      "content": "Network Capacity",
+      "label": "80 Tbps+"
+    },
+    "numbers[1]": {
+      "label": "650.000+",
+      "content": "Requests Per Second"
+    },
+    "numbers[0]": {
+      "label": "123",
+      "content": "Edge Locations"
+    },
+    "features[5]": {
+      "content": "Maximize application performance and scalability.",
+      "title": "Load Balancer"
+    },
+    "features[4]": {
+      "content": "Unlock the true power of DNS across your infrastructure."
+    },
+    "features[3]": {
+      "content": "Optimize your website with a click of a button."
+    },
+    "features[2]": {
+      "content": "Take your video delivery to the next level."
+    },
+    "features[1]": {
+      "content": "Experience hot object storage, replicated around the world."
+    },
+    "features[0]": {
+      "content": "Supercharge your content on a truly global scale."
+    }
   },
   "join1": {
     "title": "Join and start hopping at the speed of light",
@@ -91,36 +108,27 @@
     "info1": {
       "title": "Amazing performance. Every single time.",
       "content": "Hop on one of the fastest global networks in the world. Supercharge your website speeds beyond its limits and deliver the best possible experience for your visitors. Enterprise-grade performance at the most affordable price on the market!",
-      "leftList": [
-        "From $1/month",
-        "No Hidden Fees",
-        "Perma-Caching",
-        "Real-Time Monitoring",
-        "DDoS Protection",
-        "Free SSL Certificate"
-      ],
-      "rightList": [
-        {
-          "icon": "home_list_ic_design",
-          "title": "Scalable By Design",
-          "content": "Maximize your growth and expansion without care with a 80 Tbps+ network."
-        },
-        {
-          "icon": "home_list_ic_Server",
-          "title": "NVMe+ SSD Servers",
-          "content": "Optimize delivery and reduce latency with top of the line AMD and NVMe hardware."
-        },
-        {
-          "icon": "home_list_ic_network",
-          "title": "Tier 1 Global Network",
-          "content": "Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere."
-        },
-        {
-          "icon": "home_list_ic_Protection",
-          "title": "Stay Protected",
-          "content": "Stay safe and focused with a built-in next-generation DDoS protection that just works."
-        }
-      ]
+      "rightList[3]": {
+        "content": "Stay safe and focused with a built-in next-generation DDoS protection that just works.",
+        "title": "Stay Protected"
+      },
+      "rightList[2]": {
+        "content": "Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.",
+        "title": "Tier 1 Global Network"
+      },
+      "rightList[1]": {
+        "content": "Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.",
+        "title": "NVMe+ SSD Servers"
+      },
+      "rightList[0]": {
+        "content": "Maximize your growth and expansion without care with a 80 Tbps+ network.",
+        "title": "Scalable By Design"
+      },
+      "leftList[5]": "Free SSL Certificate",
+      "leftList[4]": "DDoS Protection",
+      "leftList[3]": "Real-Time Monitoring",
+      "leftList[1]": "No Hidden Fees",
+      "leftList[0]": "From $1/month"
     }
   },
   "join2": {
@@ -129,102 +137,27 @@
     "subTitle3": "Excellent 4.8",
     "subTitle4": "out of 5 on",
     "subTitle5": "Trustpilot",
-    "subTitle6": "- Based on 600+ reviews",
-    "list": [
-      {
-        "avatar": "home_avatar_1",
-        "name": "Ben M",
-        "date": "Jun 5. 202*",
-        "title": "Absolutely love these guys",
-        "content": "Absolutely love these guys! hey are amazing with updates, giving the best pertormance of CDN at the most attordable price! They are innovative and solving more problems then l'c ever imagined! On-the-fly image compression Minify files cachina, vou name it!"
-      },
-      {
-        "avatar": "home_avatar_2",
-        "name": "Alex",
-        "date": "Dec 11. 2024",
-        "title": "Gowaf CDN is truly exceptional",
-        "content": "Gowaf CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
-      },
-      {
-        "avatar": "home_avatar_3",
-        "name": "Laurent Bertin",
-        "date": "Oct 22. 2021",
-        "title": "lf you hesitate. don't.",
-        "content": "Great price. Great service. Great suppon Migrated all my videos from vimeo and it work: better, and like 240 audios from AWS and It costs less and works tastel."
-      },
-      {
-        "avatar": "home_avatar_6",
-        "name": "Garry",
-        "date": "Feb 3, 2019",
-        "title": "Absolutely Amazing",
-        "content": "Absolutely Amazing! Easy to set up with just a tew clicks... Great overall pertormance and super cheap. What I like most is easy to Instal SSL certificate for the custom hostname which takes like 2 clicks. Using it for more than a year and nave nning negat to say."
-      },
-      {
-        "avatar": "home_avatar_7",
-        "name": "Alberto Baudacci",
-        "date": "Feb 16. 2021",
-        "title": "Getting better and better",
-        "content": "Getting better and better! Fast, reliable and best prices on the market, very nice and friendly Ul. Keep up the good iob guys."
-      }
-    ]
+    "subTitle6": "- Based on 600+ reviews"
   },
   "superCharge": {
     "title": "Supercharge your internet presence",
     "subTitle": "Next-Generation Solutions. Next-Level Performance.",
-    "tabs": [
-      {
-        "tab": "Website Acceleration",
-        "title": "Make your website hop like a Gowaf",
-        "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
-        "icon": "/images/home/home_bot_graph_Website@2x.png",
-        "iconWidth": "374px",
-        "iconHeight": "272px",
-        "btn": "Supercharge Your Website",
-        "href": "#",
-        "mIcon": "/mobile-images/home/home_bot_graph_Website@2x.png",
-        "mIconWidth": "24.13rem",
-        "mIconHeight": "18.19rem"
-      },
-      {
-        "tab": "Video Delivery",
-        "title": "Reliable video CDN that truly hops",
-        "content": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
-        "icon": "/images/home/home_bot_graph_video@2x.png",
-        "iconWidth": "386px",
-        "iconHeight": "291px",
-        "btn": "Unforgettable Video Experience",
-        "href": "#",
-        "mIcon": "/mobile-images/home/home_bot_graph_video@2x.png",
-        "mIconWidth": "23.38rem",
-        "mIconHeight": "17rem"
-      },
-      {
-        "tab": "Software Distribution",
-        "title": "Deliver lightning fast downloads",
-        "content": "Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.",
-        "icon": "/images/home/home_bot_graph_Software@2x.png",
-        "iconWidth": "392px",
-        "iconHeight": "294px",
-        "btn": "Deliver Faster Downloads",
-        "href": "#",
-        "mIcon": "/mobile-images/home/home_bot_graph_Software@2x.png",
-        "mIconWidth": "24.5rem",
-        "mIconHeight": "18.38rem"
-      },
-      {
-        "tab": "Dynamic Image Processing",
-        "title": "Transform your images. On the fly.",
-        "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
-        "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
-        "iconWidth": "360px",
-        "iconHeight": "266px",
-        "btn": "Optimize Your Images",
-        "href": "#",
-        "mIcon": "/mobile-images/home/home_bot_graph_Dynamic@2x.png",
-        "mIconWidth": "22.5rem",
-        "mIconHeight": "16.63rem"
-      }
-    ]
+    "websiteAcceleration": "Website Acceleration",
+    "make-your-website-hop-like-a-gowaf": "Make your website hop like a Gowaf",
+    "text0": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
+    "text1": "Supercharge Your Website",
+    "text2": "Video Delivery",
+    "text3": "Reliable video CDN that truly hops",
+    "text4": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
+    "text5": "Unforgettable Video Experience",
+    "text6": "Software Distribution",
+    "text7": "Deliver lightning fast downloads",
+    "text8": "Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.",
+    "text9": "Deliver Faster Downloads",
+    "text10": "Dynamic Image Processing",
+    "text11": "Transform your images. On the fly.",
+    "text12": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+    "text13": "Optimize Your Images"
   },
   "login": {
     "title": "Welcome back!",
@@ -260,37 +193,37 @@
     "title": "14-Day FREE Trial",
     "subtitle": "You're just 5 minutes away from a faster website.",
     "loginbtn": "Create an Account",
-    "agreement": [
-      "I agree to the",
-      " Terms of Service ",
-      ",",
-      " Acceptable Use Policy ",
-      " and confirm that I have read and understood the bunny.net ",
-      " Privacy Policy",
-      "."
-    ],
+    // "agreement": [
+    //   "I agree to the",
+    //   " Terms of Service ",
+    //   ",",
+    //   " Acceptable Use Policy ",
+    //   " and confirm that I have read and understood the bunny.net ",
+    //   " Privacy Policy",
+    //   "."
+    // ],
     "head": "Supercharge your global delivery in under",
     "subhead": "5 minutes",
     "subheadlines": "Unparalleled performance without compromise.",
-    "list": [
-      "120 global PoPs for sub 24ms worldwide latency.",
-      "Never go down again with 80 Tbps+ network backbone.",
-      "True around-the-clock support 24/7/365 inhouse technical support."
-    ],
-    "card": [
-      {
-        "img": "/images/home/polyfill_Sign Up_avatar_1@2x.png",
-        "name": "Ronei de Sousa Almeida",
-        "describe": "Great CDN Service",
-        "content": "I did the test, I liked it a lot and I'm using it. It has easy configuration, great features and affordable price. Very good!"
-      },
-      {
-        "img": "/images/home/polyfill_Sign Up_avatar_2@2x.png",
-        "name": "Jean Didier",
-        "describe": "Such an easy Cloudfront alternative",
-        "content": "Such a great, cost effective, complete and easy alternative for AWS Cloudfront. The DRM feature is such a huge service A"
-      }
-    ],
+    // "list": [
+    //   "120 global PoPs for sub 24ms worldwide latency.",
+    //   "Never go down again with 80 Tbps+ network backbone.",
+    //   "True around-the-clock support 24/7/365 inhouse technical support."
+    // ],
+    // "card": [
+    //   {
+    //     "img": "/images/home/polyfill_Sign Up_avatar_1@2x.png",
+    //     "name": "Ronei de Sousa Almeida",
+    //     "describe": "Great CDN Service",
+    //     "content": "I did the test, I liked it a lot and I'm using it. It has easy configuration, great features and affordable price. Very good!"
+    //   },
+    //   {
+    //     "img": "/images/home/polyfill_Sign Up_avatar_2@2x.png",
+    //     "name": "Jean Didier",
+    //     "describe": "Such an easy Cloudfront alternative",
+    //     "content": "Such a great, cost effective, complete and easy alternative for AWS Cloudfront. The DRM feature is such a huge service A"
+    //   }
+    // ],
     "tips": "Already have an account?",
     "signUp": " Log In. "
   },
@@ -299,38 +232,38 @@
     "subtitle": "To reset your password, enter your bunny.net account email.",
     "loginbtn": "Reset Password",
     "BacktoLog In": "Back to Log In",
-    "list": [
-      {
-        "img": "/images/home/log_icon_1@2x.png",
-        "title": "New Gowaf Dashboard is live!",
-        "content": "The easiest way to dynamically generate images and deliver them directly from the CDN."
-      },
-      {
-        "img": "/images/home/log_icon_2@2x.png",
-        "title": "Try out Gowaf AI Beta!",
-        "content": "Take web application performance to the next level on a true planet-scale level with Gowaf Storage Edge Tier."
-      },
-      {
-        "img": "/images/home/log_icon_3@2x.png",
-        "title": "The Next Generation Of Performance!",
-        "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
-      },
-      {
-        "img": "/images/home/log_icon_4@2x.png",
-        "title": "Gowaf DNS is now live!",
-        "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
-      }
-    ]
+    // "list": [
+    //   {
+    //     "img": "/images/home/log_icon_1@2x.png",
+    //     "title": "New Gowaf Dashboard is live!",
+    //     "content": "The easiest way to dynamically generate images and deliver them directly from the CDN."
+    //   },
+    //   {
+    //     "img": "/images/home/log_icon_2@2x.png",
+    //     "title": "Try out Gowaf AI Beta!",
+    //     "content": "Take web application performance to the next level on a true planet-scale level with Gowaf Storage Edge Tier."
+    //   },
+    //   {
+    //     "img": "/images/home/log_icon_3@2x.png",
+    //     "title": "The Next Generation Of Performance!",
+    //     "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
+    //   },
+    //   {
+    //     "img": "/images/home/log_icon_4@2x.png",
+    //     "title": "Gowaf DNS is now live!",
+    //     "content": "Unlock the true power of DNS and turn complex issues into simple solutions."
+    //   }
+    // ]
   },
   "ContactSales": {
     "preTitle": "Contact Sales",
     "title": "Talk to a Gowaf expert",
     "content": "Tell us about you project and we'll connect you with a CDN expert and tailor a perfect solution for you",
     "btn": "Send Inquiry",
-    "agreement": [
-      "I have read and agree to the Gowaf",
-      " Privacy Policy "
-    ]
+    // "agreement": [
+    //   "I have read and agree to the Gowaf",
+    //   " Privacy Policy "
+    // ]
   },
   "AffiliateProgram": {
     "preTitle": "Gowaf Affiliate Program",
@@ -338,96 +271,96 @@
     "content": "Help us grow and earn money along the way. We help you make the most referrals  possible with resources to a library of global creative, ready-made education and  lead magnets.",
     "btn": "Join Gowaf Affiliate Program",
     "hint": "A Gowaf.net account is needed to participate in the program.",
-    "neverHit": {
-      "title": "Register. Share. Earn.",
-      "subTitle": "Start earning money in 3 simple steps.",
-      "fulItems": [
-        {
-          "icon": "/images/home/affiliate_1_ic_1@2x.png",
-          "width": "80px",
-          "height": "80px",
-          "alignType": "center",
-          "title": "Register",
-          "content": "Create a paid account at Gowaf.net.",
-          "contentAlign": "center"
-        },
-        {
-          "icon": "/images/home/affiliate_1_ic_2@2x.png",
-          "width": "80px",
-          "height": "80px",
-          "alignType": "center",
-          "title": "Share you link",
-          "content": "Share your unique link with the world.",
-          "contentAlign": "center"
-        },
-        {
-          "icon": "/images/home/affiliate_1_ic_3@2x.png",
-          "width": "80px",
-          "height": "80px",
-          "alignType": "center",
-          "title": "Start making money",
-          "content": "Earn $20 for each paid signup.",
-          "contentAlign": "center"
-        }
-      ]
-    },
+    // "neverHit": {
+    //   "title": "Register. Share. Earn.",
+    //   "subTitle": "Start earning money in 3 simple steps.",
+    //   "fulItems": [
+    //     {
+    //       "icon": "/images/home/affiliate_1_ic_1@2x.png",
+    //       "width": "80px",
+    //       "height": "80px",
+    //       "alignType": "center",
+    //       "title": "Register",
+    //       "content": "Create a paid account at Gowaf.net.",
+    //       "contentAlign": "center"
+    //     },
+    //     {
+    //       "icon": "/images/home/affiliate_1_ic_2@2x.png",
+    //       "width": "80px",
+    //       "height": "80px",
+    //       "alignType": "center",
+    //       "title": "Share you link",
+    //       "content": "Share your unique link with the world.",
+    //       "contentAlign": "center"
+    //     },
+    //     {
+    //       "icon": "/images/home/affiliate_1_ic_3@2x.png",
+    //       "width": "80px",
+    //       "height": "80px",
+    //       "alignType": "center",
+    //       "title": "Start making money",
+    //       "content": "Earn $20 for each paid signup.",
+    //       "contentAlign": "center"
+    //     }
+    //   ]
+    // },
     "listBtn": "Get Your Affiliate Code",
-    "list1": {
-      "title1": "How does it work?",
-      "title2": "Getting started with the Gowaf Affiliate program is free and easy.",
-      "items": [
-        {
-          "icon": "/images/home/affiliate_2_ic_1@2x.png",
-          "title": "Pay Only For What You Use",
-          "content": "Only pay for the number of minutes you transcribe with no minimum recurring costs."
-        },
-        {
-          "icon": "/images/home/affiliate_2_ic_2@2x.png",
-          "title": "$1 Monthly Minimum",
-          "content": "Get started for free with a 14-day free trial, and continue for as little as $1 per month."
-        },
-        {
-          "icon": "/images/home/affiliate_2_ic_3@2x.png",
-          "title": "All Features Included",
-          "content": "Use the full Transcribe AI feature set with no extra charges or hidden costs."
-        }
-      ]
-    },
+    // "list1": {
+    //   "title1": "How does it work?",
+    //   "title2": "Getting started with the Gowaf Affiliate program is free and easy.",
+    //   "items": [
+    //     {
+    //       "icon": "/images/home/affiliate_2_ic_1@2x.png",
+    //       "title": "Pay Only For What You Use",
+    //       "content": "Only pay for the number of minutes you transcribe with no minimum recurring costs."
+    //     },
+    //     {
+    //       "icon": "/images/home/affiliate_2_ic_2@2x.png",
+    //       "title": "$1 Monthly Minimum",
+    //       "content": "Get started for free with a 14-day free trial, and continue for as little as $1 per month."
+    //     },
+    //     {
+    //       "icon": "/images/home/affiliate_2_ic_3@2x.png",
+    //       "title": "All Features Included",
+    //       "content": "Use the full Transcribe AI feature set with no extra charges or hidden costs."
+    //     }
+    //   ]
+    // },
     "mktitle": "Pre-built Marketing Materials",
     "mksubtitle": "Take advantage of pre-designed marketing materials. Choose from our extensive library of banner ads and find the ideal size for you.",
     "Collapse": {
       "title": "Frequently Asked Questions",
       "subtitle": "Got further questions? We prepared a list of additional helpful information!",
-      "list": [
-        {
-          "title": "How does the Bunny Affiliate program work?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
-        },
-        {
-          "title": "Who is eligible for the Bunny Affiliate program?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program.."
-        },
-        {
-          "title": "How do I join the affiliate program?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
-        },
-        {
-          "title": "How much do I earn per referral?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
-        },
-        {
-          "title": "Is there a maximum amount for commission?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
-        },
-        {
-          "title": "When will I get my payout?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
-        },
-        {
-          "title": "Can I create my own marketing materials?",
-          "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
-        }
-      ]
+      // "list": [
+      //   {
+      //     "title": "How does the Bunny Affiliate program work?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+      //   },
+      //   {
+      //     "title": "Who is eligible for the Bunny Affiliate program?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program.."
+      //   },
+      //   {
+      //     "title": "How do I join the affiliate program?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+      //   },
+      //   {
+      //     "title": "How much do I earn per referral?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+      //   },
+      //   {
+      //     "title": "Is there a maximum amount for commission?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+      //   },
+      //   {
+      //     "title": "When will I get my payout?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+      //   },
+      //   {
+      //     "title": "Can I create my own marketing materials?",
+      //     "subtitle": "Anyone who has a paid bunny.net account can join the affiliate program."
+      //   }
+      // ]
     },
     "fotad1": {
       "title": "Hop ahead of the  competition!",
@@ -446,50 +379,50 @@
     "ad2Container": {
       "title": "",
       "subTitle": "",
-      "items": [
-        {
-          "pic": "/images/home/Uptime_Guaran_img@2x.png",
-          "title": "99.99% Uptime Guarantee",
-          "content": "The Gowaf.net platform was designed with performance and stability in mind. Our system leverages automatic healing and failover in case of server failure using multiple methods of uptime and performance monitoring. On top of that, our team is working around the clock to prevent and minimize any disruptions and provide optimal performance around the globe.",
-          "width": "400px",
-          "height": "400px"
-        },
-        {
-          "pic": "/images/home/Redundant_Infrastructure_img@2x.png",
-          "title": "Redundant Infrastructure",
-          "content": "By utilizing a redundant architecture and intelligent BGP routing, we achieve automatic failover for our DNS system both in case of a hardware or network outage. We monitor our PoP edge servers in real-time to detect any network problems or performance degeneration and intelligently route around them.",
-          "width": "360px",
-          "height": "360px"
-        }
-      ]
+      // "items": [
+      //   {
+      //     "pic": "/images/home/Uptime_Guaran_img@2x.png",
+      //     "title": "99.99% Uptime Guarantee",
+      //     "content": "The Gowaf.net platform was designed with performance and stability in mind. Our system leverages automatic healing and failover in case of server failure using multiple methods of uptime and performance monitoring. On top of that, our team is working around the clock to prevent and minimize any disruptions and provide optimal performance around the globe.",
+      //     "width": "400px",
+      //     "height": "400px"
+      //   },
+      //   {
+      //     "pic": "/images/home/Redundant_Infrastructure_img@2x.png",
+      //     "title": "Redundant Infrastructure",
+      //     "content": "By utilizing a redundant architecture and intelligent BGP routing, we achieve automatic failover for our DNS system both in case of a hardware or network outage. We monitor our PoP edge servers in real-time to detect any network problems or performance degeneration and intelligently route around them.",
+      //     "width": "360px",
+      //     "height": "360px"
+      //   }
+      // ]
     },
     "table": {
-      "list": [
-        [
-          "Monthly Availability",
-          "99.98%",
-          "99.95%",
-          "99.70%",
-          "99.50%",
-          "99.00%"
-        ],
-        [
-          "Outage Time",
-          "10 – 59 minutes",
-          "1 – 2 hours",
-          "2 – 4 hours",
-          "4 – 7 hours",
-          "7+ hours"
-        ],
-        [
-          "Outage Time",
-          "12 hours",
-          "24 hours",
-          "48 hours",
-          "120 hours",
-          "240 hours"
-        ]
-      ],
+      // "list": [
+      //   [
+      //     "Monthly Availability",
+      //     "99.98%",
+      //     "99.95%",
+      //     "99.70%",
+      //     "99.50%",
+      //     "99.00%"
+      //   ],
+      //   [
+      //     "Outage Time",
+      //     "10 – 59 minutes",
+      //     "1 – 2 hours",
+      //     "2 – 4 hours",
+      //     "4 – 7 hours",
+      //     "7+ hours"
+      //   ],
+      //   [
+      //     "Outage Time",
+      //     "12 hours",
+      //     "24 hours",
+      //     "48 hours",
+      //     "120 hours",
+      //     "240 hours"
+      //   ]
+      // ],
       "title": "Outage Credits",
       "preTitle": "In the event of monthly availability falling below our guarantees, your account will be  eligible for SLA credits based on your monthly usage."
     }
@@ -497,223 +430,226 @@
   "SupportHUB": {
     "title": "How can we help you?",
     "subtitle": "Guides, troubleshooting and support requests to help you get started with Gowaf.net.",
-    "list": [
-      {
-        "title": "CDN",
-        "subtitle": "Gowaf CDN product documentation, integration guides, and troubleshooting help.",
-        "items": [
-          {
-            "title": "Getting Started",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Integration Guides",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Product Documentatio",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Technical Informatio",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Troubleshooting",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Edge Rules",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "DNS",
-        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
-        "items": [
-          {
-            "title": "Getting Started",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Product Documentatio",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Storage",
-        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
-        "items": [
-          {
-            "title": "Getting Started",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Product Documentatio",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Stream",
-        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
-        "items": [
-          {
-            "title": "Getting Started",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Product Documentatio",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Optimizer",
-        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
-        "items": [
-          {
-            "title": "Getting Started",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Product Documentatio",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Frequently Asked Questions (FAQ)",
-        "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
-        "items": [
-          {
-            "title": "Billing",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Pull Zones",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Edge Storage",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          },
-          {
-            "title": "Account",
-            "subtitle": [
-              "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
-              "The list of dynamic variables in the Edge Rule redirect URL",
-              "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
-              "How to correctly set up the Edge Rule trigger path",
-              "How to use Edge Rules to set a custom cache time for a file extension"
-            ]
-          }
-        ]
-      }
-    ]
-  }
+    // "list": [
+    //   {
+    //     "title": "CDN",
+    //     "subtitle": "Gowaf CDN product documentation, integration guides, and troubleshooting help.",
+    //     "items": [
+    //       {
+    //         "title": "Getting Started",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Integration Guides",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Product Documentatio",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Technical Informatio",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Troubleshooting",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Edge Rules",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "title": "DNS",
+    //     "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
+    //     "items": [
+    //       {
+    //         "title": "Getting Started",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Product Documentatio",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "title": "Storage",
+    //     "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
+    //     "items": [
+    //       {
+    //         "title": "Getting Started",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Product Documentatio",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "title": "Stream",
+    //     "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
+    //     "items": [
+    //       {
+    //         "title": "Getting Started",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Product Documentatio",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "title": "Optimizer",
+    //     "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
+    //     "items": [
+    //       {
+    //         "title": "Getting Started",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Product Documentatio",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "title": "Frequently Asked Questions (FAQ)",
+    //     "subtitle": "Gowaf DNS product documentation, integration guides, and troubleshooting help.",
+    //     "items": [
+    //       {
+    //         "title": "Billing",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Pull Zones",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Edge Storage",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Account",
+    //         "subtitle": [
+    //           "How to set up a direct IP origin URL with a custom hostname using Edge Rules",
+    //           "The list of dynamic variables in the Edge Rule redirect URL",
+    //           "How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules",
+    //           "How to correctly set up the Edge Rule trigger path",
+    //           "How to use Edge Rules to set a custom cache time for a file extension"
+    //         ]
+    //       }
+    //     ]
+    //   }
+    // ]
+  },
+  "coming-soon-0": "Coming Soon",
+  "coming-soon": "Coming Soon",
+  "coming-soo": "coming-soo"
 }

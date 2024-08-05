@@ -18,7 +18,7 @@
   />
   <div class="ad2-container" style="margin-bottom: 90px">
     <template
-      v-for="(item, index) in $tm('home.SLA.ad2Container.items')"
+      v-for="(item, index) in i18ntext.items"
       :key="index"
     >
       <SolutionsAd2
@@ -43,7 +43,7 @@
     <div class="table-body">
       <div
         class="col"
-        v-for="(items, index) in $tm('home.SLA.table.list')"
+        v-for="(items, index) in i18ntext.list"
         :key="index"
       >
         <div class="item" v-for="(item, indexs) in items" :key="indexs">
@@ -58,6 +58,55 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'SLA'
+});
+
+const i18ntext = computed<any>(() => {
+  return {
+    items: [
+      {
+        pic: '/images/home/Uptime_Guaran_img@2x.png',
+        title: '99.99% Uptime Guarantee',
+        content:
+          'The Gowaf.net platform was designed with performance and stability in mind. Our system leverages automatic healing and failover in case of server failure using multiple methods of uptime and performance monitoring. On top of that, our team is working around the clock to prevent and minimize any disruptions and provide optimal performance around the globe.',
+        width: '400px',
+        height: '400px'
+      },
+      {
+        pic: '/images/home/Redundant_Infrastructure_img@2x.png',
+        title: 'Redundant Infrastructure',
+        content:
+          'By utilizing a redundant architecture and intelligent BGP routing, we achieve automatic failover for our DNS system both in case of a hardware or network outage. We monitor our PoP edge servers in real-time to detect any network problems or performance degeneration and intelligently route around them.',
+        width: '360px',
+        height: '360px'
+      }
+    ],
+    list: [
+      [
+        'Monthly Availability',
+        '99.98%',
+        '99.95%',
+        '99.70%',
+        '99.50%',
+        '99.00%'
+      ],
+      [
+        'Outage Time',
+        '10 – 59 minutes',
+        '1 – 2 hours',
+        '2 – 4 hours',
+        '4 – 7 hours',
+        '7+ hours'
+      ],
+      [
+        'Outage Time',
+        '12 hours',
+        '24 hours',
+        '48 hours',
+        '120 hours',
+        '240 hours'
+      ]
+    ]
+  };
 });
 </script>
 <style lang="scss" scoped>

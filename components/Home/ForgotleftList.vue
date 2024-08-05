@@ -12,7 +12,7 @@
     <div class="ForgotList">
       <div
         class="home-item"
-        v-for="(item, index) in $tm('home.forgot.list')"
+        v-for="(item, index) in i18ntext.list"
         :key="index"
       >
         <div class="icon"></div>
@@ -20,11 +20,7 @@
       </div>
     </div>
     <div class="card-box">
-      <div
-        class="card"
-        v-for="(item, index) in $tm('home.forgot.card')"
-        :key="index"
-      >
+      <div class="card" v-for="(item, index) in i18ntext.card" :key="index">
         <div class="headPortrait-line">
           <img class="headPortrait" :src="item.img" />
           <div class="name">{{ item.name }}</div>
@@ -38,7 +34,34 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return {
+    card: [
+      {
+        img: '/images/home/polyfill_Sign Up_avatar_1@2x.png',
+        name: 'Ronei de Sousa Almeida',
+        describe: 'Great CDN Service',
+        content:
+          "I did the test, I liked it a lot and I'm using it. It has easy configuration, great features and affordable price. Very good!"
+      },
+      {
+        img: '/images/home/polyfill_Sign Up_avatar_2@2x.png',
+        name: 'Jean Didier',
+        describe: 'Such an easy Cloudfront alternative',
+        content:
+          'Such a great, cost effective, complete and easy alternative for AWS Cloudfront. The DRM feature is such a huge service A'
+      }
+    ],
+    list: [
+      '120 global PoPs for sub 24ms worldwide latency.',
+      'Never go down again with 80 Tbps+ network backbone.',
+      'True around-the-clock support 24/7/365 inhouse technical support.'
+    ]
+  };
+});
+</script>
 <style lang="scss" scoped>
 .left-list {
   width: 530px;

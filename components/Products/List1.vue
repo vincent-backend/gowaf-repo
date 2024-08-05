@@ -10,7 +10,7 @@
       <div class="list">
         <div
           class="item"
-          v-for="item in $tm('products.cdn.overview.pricingSimplified.items')"
+          v-for="item in i18ntext"
         >
           <div class="left">
             <div
@@ -40,6 +40,52 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_pricing_img_1@2x.png',
+      iconLabel: '114 PoPs',
+      title: 'Standard Network',
+      content:
+        'Hop on a lightning fast global network withregion based pricing.',
+      indicators: [
+        {
+          icon: '/images/products/cdn/overview/Products-CDN-overview_ic_rise@2x.png',
+          value: '46%',
+          label: 'FASTER LOAD TIME'
+        },
+        {
+          icon: '/images/products/cdn/overview/Products-CDN-overview_ic_earth@2x.png',
+          value: '26ms',
+          label: 'GLOBAL LATENCY'
+        }
+      ]
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_pricing_img_2@2x.png',
+      iconLabel: '10 PoPs',
+      title: 'Volume Network',
+      content:
+        'Hop on a lightning fast global network withregion based pricing.',
+      indicators: [
+        {
+          icon: '/images/products/cdn/overview/Products-CDN-overview_ic_rise@2x.png',
+          value: '75%',
+          label: 'MORE AFFORDABLE'
+        },
+        {
+          icon: '/images/products/cdn/overview/Products-CDN-overview_ic_USD@2x.png',
+          value: '$5',
+          label: 'PER TERABYTE'
+        }
+      ]
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .products-list1-container {

@@ -4,7 +4,7 @@
       <div class="list-container">
         <ul>
           <li
-            v-for="(item, index) in $tm('resources.contactUs.list')"
+            v-for="(item, index) in i18ntext"
             :key="index"
           >
             <img :src="item.icon" :alt="item.title" />
@@ -82,6 +82,28 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      title: 'Support',
+      subTitle: 'Get in touch with our Super Bunnies to get help.',
+      icon: '/images/resources/contact/Pricing_CDN_ic_Storage_2x.png'
+    },
+    {
+      title: 'Abuse',
+      subTitle: 'Report illegal or inappropriate content.',
+      icon: '/images/resources/contact/Pricing_CDN_ic_Optimizer_2x.png'
+    },
+    {
+      title: 'Billing',
+      subTitle: 'Get help with payment questions or billing issues.',
+      icon: '/images/resources/contact/Pricing_CDN_ic_Stream_2x.png'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .form-container {
@@ -209,7 +231,7 @@
           width: 100%;
           display: flex;
           align-items: center;
-          .content{
+          .content {
             display: flex;
             flex-direction: column;
           }

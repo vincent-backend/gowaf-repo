@@ -10,9 +10,7 @@
       <div class="content">
         <div
           class="item"
-          v-for="item in $tm(
-            'products.stream.mediaCage.protectYourVideos.items'
-          )"
+          v-for="item in i18ntext"
         >
           <div class="head">
             <div
@@ -28,7 +26,34 @@
     </div>
   </div>
 </template>
-
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/products/stream/media-cage/media_protect_ic_1@2x.png',
+      tip: '',
+      title: 'Prevent downloads',
+      content:
+        'Stop revenue loss, prevent users from downloading your videos, and stay in complete control of your content.'
+    },
+    {
+      icon: '/images/products/stream/media-cage/media_protect_ic_2@2x.png',
+      tip: 'Enterprise DRM',
+      title: 'Stop Screen Recorders',
+      content:
+        'Level up your security by preventing screen recorders & stopping even the most advanced users from re-distributing your content.'
+    },
+    {
+      icon: '/images/products/stream/media-cage/media_protect_ic_3@2x.png',
+      tip: 'Enterprise DRM',
+      title: 'Block Screenshots',
+      content:
+        'Take absolute control of our content and prevent viewers from even taking screenshots of your videos.'
+    }
+  ];
+});
+</script>
 <style lang="less" scoped>
 .protect-your-videos-container {
   margin-top: 120px;
@@ -137,7 +162,7 @@
           width: 100%;
           box-sizing: border-box;
           padding: 1.25rem;
-          border: 1px solid #E6E6E6;
+          border: 1px solid #e6e6e6;
           &:last-child {
             grid-column: 1/4;
           }

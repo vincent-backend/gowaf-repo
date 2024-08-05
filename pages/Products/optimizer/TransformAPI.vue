@@ -38,7 +38,9 @@
     }"
   />
   <ProductsVerticalCarousel />
-  <CommonSuperCharge v-bind="$tm('products.optimizer.TransformAPI.doNotLeave')" />
+  <CommonSuperCharge
+    v-bind="i18ntext.doNotLeave"
+  />
   <SolutionsAd1
     :title="$t('products.cdn.overview.ad1.title')"
     :sub-title="$t('products.cdn.overview.ad1.subTitle')"
@@ -55,7 +57,7 @@
   <SolutionsAd2
     :title="$t('products.optimizer.overview.website.title')"
     :content="$t('products.optimizer.overview.website.content')"
-    :list="$tm('products.optimizer.overview.website.list')"
+    :list="i18ntext.list"
     :btn="$t('products.optimizer.overview.website.btn')"
     :btnSubtext="$t('products.optimizer.overview.website.btnSubtext')"
     single-rowlist
@@ -105,7 +107,7 @@
     </div>
   </SolutionsAd2>
   <ProductsDRMCustomers
-    :drmCustomer="$tm('products.storage.LatinAmerica.drmCustomer')"
+    :drmCustomer="i18ntext.drmCustomer"
   />
 
   <Footer />
@@ -113,6 +115,119 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'Products'
+});
+const i18ntext = computed<any>(() => {
+  return {
+    doNotLeave: {
+      title: 'Say goodbye to slow loading images',
+      subTitle:
+        'Get pixel-perfect images, optimized, stored, and delivered around the world.',
+      tabs: [
+        {
+          tab: 'Simple & Fast API',
+          title: 'Streamline security. Protect your images.',
+          content:
+            "Ensure your full-size images remain secure and protected with automatic watermarking, token authentication, and image classes. Only display the formats you want without complex security or network permissions.\nHop ahead of the competition by utilizing Bunny Optimizer's robust security that you can set up in just a few clicks.",
+          icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img01@2x.png',
+          iconWidth: '400px',
+          iconHeight: '400px',
+          mIcon:
+            '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img01@2x.png',
+          mIconWidth: '25rem',
+          mIconHeight: '25rem'
+        },
+        {
+          tab: 'Cache Forever',
+          title: 'Transform once. Cache forever.',
+          content:
+            'Get rid of added latency caused by the dynamic transformation that slows down your load times. Only process images once, then permanently store them on the edge using Perma-Cache to deliver unparalleled performance.\nbunny.net helps you hop ahead by combining innovative technologies designed for absolute performance. For every request. Every time.',
+          icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img02@2x.png',
+          iconWidth: '400px',
+          iconHeight: '400px',
+          mIcon:
+            '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img02@2x.png',
+          mIconWidth: '25rem',
+          mIconHeight: '25rem'
+        },
+        {
+          tab: 'Simplify Development',
+          title: 'Simplify development.  Maximize productivity.',
+          content:
+            'Drastically reduce the development time of applications by not worrying about image management. Upload and store a single image file and use dynamic image transformation API to achieve pixel-perfect design for every device.\nAccelerate a single domain or your complete application to simplify development based on whatever works best for you.',
+          icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img03@2x.png',
+          iconWidth: '400px',
+          iconHeight: '400px',
+          mIcon:
+            '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img03@2x.png',
+          mIconWidth: '25rem',
+          mIconHeight: '25rem'
+        },
+        {
+          tab: 'Protect Original Images',
+          title: 'Streamline security. Protect your images.',
+          content:
+            "Ensure your full-size images remain secure and protected with automatic watermarking, token authentication, and image classes. Only display the formats you want without complex security or network permissions.\nHop ahead of the competition by utilizing Bunny Optimizer's robust security that you can set up in just a few clicks.",
+          icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img04@2x.png',
+          iconWidth: '400px',
+          iconHeight: '400px',
+          mIcon:
+            '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img04@2x.png',
+          mIconWidth: '25rem',
+          mIconHeight: '25rem'
+        }
+      ]
+    },
+    list: [
+      'Unlimited requests',
+      'Unlimited optimizations',
+      'Unlimited image transformations'
+    ],
+    drmCustomer: {
+      title: 'Join over 40.000+ happy customers',
+      contentPre: "We're rated ",
+      contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
+      contentMid: ' Excellent 4.8',
+      contentP: 'out of 5 on',
+      contentLink: 'Trustpilot',
+      contentLast: ' - Based on 600+ reviews',
+      isHiddenSubTitle: false,
+      faceImg: {
+        img: '/images/products/storage/latinamerica/Network_ddos_evaluate_character_2x.png',
+        top: '-3px',
+        right: '135px',
+        width: '438px',
+        height: '300px',
+        mtop: '11.81rem',
+        mright: '0',
+        mwidth: '27.38rem',
+        mheight: '18.75rem'
+      },
+      list: {
+        title: 'Pedro Dobrescu',
+        subTitle: 'ShortPixel',
+        content:
+          '"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
+      },
+      items: [
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png'
+        },
+        {
+          num: 4.4,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png'
+        },
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png'
+        },
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png'
+        }
+      ]
+    }
+  };
 });
 </script>
 <style lang="scss" scoped>

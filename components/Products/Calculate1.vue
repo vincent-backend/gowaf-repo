@@ -8,12 +8,13 @@ withDefaults(
     subs: {
       title: string;
       value: string;
-    };
+    }[];
     items: {
       title: string;
-      value: string;
+      value?: string;
+      num?: string;
       percent: number;
-    };
+    }[];
   }>(),
   {
     isShowTitle: true,
@@ -21,6 +22,53 @@ withDefaults(
     itemWidth: '270px'
   }
 );
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return {
+    tabs: [
+      {
+        tab: 'Gigabytes'
+      },
+      {
+        tab: 'Terabytes'
+      }
+    ],
+    list: [
+      {
+        label: 'One',
+        status: 1
+      },
+      {
+        label: 'Two',
+        status: 0
+      },
+      {
+        label: 'Three',
+        status: 0
+      },
+      {
+        label: 'Four',
+        status: 0
+      },
+      {
+        label: 'Five',
+        status: 0
+      },
+      {
+        label: 'Six',
+        status: 0
+      },
+      {
+        label: 'Six',
+        status: 0
+      },
+      {
+        label: 'Eight',
+        status: 0
+      }
+    ]
+  };
+});
 </script>
 
 <template>
@@ -32,10 +80,10 @@ withDefaults(
       <div class="title2" v-if="isShowTitle">
         {{ $t('pricing.cdn.calculator1.subTitle') }}
       </div>
-      <Line top="40px" v-if="isShowTitle" />
+      <Line top="40px" m-top="1rem" v-if="isShowTitle" />
 
       <CommonTabs
-        :tabs="$tm('pricing.cdn.calculator1.tabs')"
+        :tabs="i18ntext.tabs"
         v-model:cur-tab="curTab"
       />
       <div class="content">
@@ -70,9 +118,7 @@ withDefaults(
               <h4>Replication points</h4>
               <ul>
                 <li
-                  v-for="(item, index) in $tm(
-                    'products.stream.overview.Calculate.ReplicationPoints.list'
-                  )"
+                  v-for="(item, index) in i18ntext.list"
                   :key="index"
                 >
                   <span

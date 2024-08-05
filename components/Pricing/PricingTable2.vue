@@ -3,7 +3,7 @@
     <div class="pricing-table2 page-container">
       <div
         class="table-container"
-        v-for="(item, index) in $tm('pricing.stream.tables')"
+        v-for="(item, index) in i18ntext"
         :class="`table-${index}`"
       >
         <div class="header">{{ item.title }}</div>
@@ -23,6 +23,61 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return [
+    {
+      title: 'Traditional Cloud Provider',
+      items: [
+        {
+          title: '$0.02/minute+',
+          hint: 'Encoding'
+        },
+        {
+          title: 'From $0.02/GB',
+          hint: 'Storage'
+        },
+        {
+          title: 'From $0.085/GB',
+          hint: 'CDN'
+        }
+      ],
+      items2: [
+        'Expensive transcoding fees',
+        'Bring and integrate your own external player',
+        'Complex integration with additional charges',
+        'Centralized storage prone to bottlenecks'
+      ]
+    },
+    {
+      title: 'Bunny Stream',
+      items: [
+        {
+          title: 'FREE',
+          hint: 'Encoding'
+        },
+        {
+          title: 'From $0.01/GB',
+          hint: 'Storage'
+        },
+        {
+          title: 'From $0.005/GB',
+          hint: 'CDN'
+        }
+      ],
+      items2: [
+        'No security fees',
+        'No transcoding fees',
+        'Free player included',
+        'Distributed video storage',
+        'Extreme performance with 150 Tbps+ backbone'
+      ]
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .pricing-table2-container {

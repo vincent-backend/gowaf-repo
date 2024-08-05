@@ -15,6 +15,37 @@ withDefaults(
     showScores: true
   }
 );
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return {
+    subTitle: [
+      "We're rated",
+      '',
+      'Excellent 4.8',
+      ' out of 5 on ',
+      'Trustpilot',
+      ' - Based on 600+ reviews'
+    ],
+    ranks: [
+      {
+        score: '4.8',
+        icon: 'Network_Overview_mark_logo_1'
+      },
+      {
+        score: '4.4',
+        icon: 'Network_Overview_mark_logo_2'
+      },
+      {
+        score: '4.8',
+        icon: 'Network_Overview_mark_logo_3'
+      },
+      {
+        score: '4.8',
+        icon: 'Network_Overview_mark_logo_4'
+      }
+    ]
+  };
+});
 </script>
 
 <template>
@@ -22,12 +53,12 @@ withDefaults(
     <div class="join1 page-container">
       <div class="title">{{ title }}</div>
       <div class="sub-title">
-        <span class="s0">{{ $tm('network.overview.join1.subTitle')[0] }}</span>
+        <span class="s0">{{ i18ntext.subTitle[0] }}</span>
         <span class="s1"></span>
-        <span class="s2">{{ $tm('network.overview.join1.subTitle')[2] }}</span>
-        <span class="s3">{{ $tm('network.overview.join1.subTitle')[3] }}</span>
-        <a class="s4">{{ $tm('network.overview.join1.subTitle')[4] }}</a>
-        <span class="s5">{{ $tm('network.overview.join1.subTitle')[5] }}</span>
+        <span class="s2">{{ i18ntext.subTitle[2] }}</span>
+        <span class="s3">{{ i18ntext.subTitle[3] }}</span>
+        <a class="s4">{{ i18ntext.subTitle[4] }}</a>
+        <span class="s5">{{ i18ntext.subTitle[5] }}</span>
       </div>
       <div class="comment">
         <div
@@ -43,7 +74,7 @@ withDefaults(
         <div class="content">{{ person.content }}</div>
       </div>
       <div class="ranks-container" v-if="showScores">
-        <div class="rank" v-for="item in $tm('network.overview.join1.ranks')">
+        <div class="rank" v-for="item in i18ntext.ranks">
           <div class="star-container">
             <div class="star"></div>
             <div class="score">

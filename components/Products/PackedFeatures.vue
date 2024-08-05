@@ -10,7 +10,7 @@
       <div class="content">
         <div
           class="item"
-          v-for="item in $tm('products.stream.overview.packedFeatures.items')"
+          v-for="item in i18ntext"
         >
           <div
             class="icon"
@@ -22,6 +22,46 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_aicontest@2x.png',
+      title: 'AI Content Tagging'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_customizable@2x.png',
+      title: 'Customizable Player'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_api@2x.png',
+      title: 'Simple API'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_watermarking@2x.png',
+      title: 'Watermarking Player'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_hotlinking@2x.png',
+      title: 'Hotlinking Protection'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_hotlinking@2x.png',
+      title: 'Customizable Transcoding'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_drm@2x.png',
+      title: 'Enterprise DRM'
+    },
+    {
+      icon: '/images/products/stream/overview/stream_overview_ic_token@2x.png',
+      title: 'Token Authentication'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .packed-features-container {

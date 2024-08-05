@@ -1,17 +1,19 @@
 <script lang="ts" setup>
-defineProps<{
-  title: string;
-  subTitle: string;
-  btn: string;
-  href: string;
-  pic: string;
-  picWidth: string;
-  picHeight: string;
-  mPic: string;
-  mPicWidth: string;
-  reverse: Boolean;
-  mPicHeight: string;
-}>();
+defineProps<
+  Partial<{
+    title: string;
+    subTitle: string;
+    btn: string;
+    href: string;
+    pic: string;
+    picWidth: string;
+    picHeight: string;
+    mPic: string;
+    mPicWidth: string;
+    reverse: Boolean;
+    mPicHeight: string;
+  }>
+>();
 </script>
 
 <template>

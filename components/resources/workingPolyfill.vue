@@ -6,7 +6,7 @@
       <Line top="40px" m-top="3.13rem" />
       <div
         class="slide"
-        v-for="(item, index) in $tm('resources.careers.carouselList.items')"
+        v-for="(item, index) in i18ntext"
         :key="index"
         :class="currentSlide === index ? 'active' : ''"
       >
@@ -21,7 +21,7 @@
       <div class="controls">
         <ul class="num-ul">
           <li
-            v-for="(item, index) in $tm('resources.careers.carouselList.items')"
+            v-for="(item, index) in i18ntext"
             :key="index"
             :class="currentSlide === index ? 'circle-active' : ''"
           ></li>
@@ -64,7 +64,46 @@ defineProps<{
 
 const nextBtn: any = ref(null);
 const prevBtn: any = ref(null);
-
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      title: 'Building a Better Future.\nFor everyone.',
+      subTitle: 'Founder & CEO of Gowaf',
+      content:
+        "We're building towards a better future where amazing people help millions of others have a faster, safer, and more enjoyable internet experience everywhere and anywhere in the world.",
+      icon: '/images/resources/careers/Resources_Careers_graph_1_2x.png',
+      width: '334px',
+      height: '334px'
+    },
+    {
+      title: 'Dynamic and Fun Environment',
+      subTitle: 'Founder & CEO of Gowaf',
+      content:
+        'We have an ambitious mission that brings along a set of fun and challenging problems to solve. Technology is constantly changing and hopping along.Every day is filled with exciting new challenges.',
+      icon: '/images/resources/careers/Resources_Careers_graph_2_2x.png',
+      width: '334px',
+      height: '274px'
+    },
+    {
+      title: 'Embracing the Flex-Work Lifestyle',
+      subTitle: 'Founder & CEO of Gowaf',
+      content:
+        'We emphasize work-life balance with a fully flexible remote work approach. Our employees have full flexibility in time and location, enabling them to effortlessly incorporate work into their daily lives.',
+      icon: '/images/resources/careers/Resources_Careers_graph_3_2x.png',
+      width: '370px',
+      height: '250px'
+    },
+    {
+      title: 'Amazing Company Culture',
+      subTitle: 'Founder & CEO of Gowaf',
+      content:
+        'We put our Gowaf first and focus on building an inclusive, fun, and challenging environment while maintaining a very relaxed and fun team culture with the same values.',
+      icon: '/images/resources/careers/Resources_Careers_graph_4_2x.png',
+      width: '358px',
+      height: '296px'
+    }
+  ];
+});
 // tabs
 const curTab = ref(0);
 let currentSlide = ref(0);

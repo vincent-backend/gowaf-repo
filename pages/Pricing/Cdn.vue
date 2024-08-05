@@ -53,10 +53,10 @@
   />
 
   <div class="price-1-container">
-    <PricingTable :content="$tm('pricing.cdn.pricingTable')" />
+    <PricingTable :content="i18ntext.pricingTable" />
   </div>
 
-  <CommonList1 v-bind="$tm('pricing.overview.list1')" />
+  <CommonList1 v-bind="i18ntext.list1" />
 
   <PricingSupportPlan />
   <PricingHop />
@@ -71,6 +71,103 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'Pricing'
+});
+const i18ntext = computed<any>(() => {
+  return {
+    pricingTable: [
+      {
+        title: 'Standard Network',
+        titleEm: '123 PoPs',
+        subTitle:
+          'Hop on a lighting fast global network with region-based pricing.',
+        content: 'Serving more than 100TB per month?',
+        btn: 'Contact sales',
+        href: '#',
+        items: [
+          {
+            text: '$0.01 /GB',
+            hint: 'Europe & North America'
+          },
+          {
+            text: '$0.03 /GB',
+            hint: 'Asia & Oceania'
+          },
+          {
+            text: '$0.045 /GB',
+            hint: 'South America'
+          },
+          {
+            text: '$0.06 /GB',
+            hint: 'Middle East & Africa'
+          }
+        ]
+      },
+      {
+        title: 'Volume Network',
+        titleEm: '10 PoPs',
+        subTitle:
+          "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
+        content: 'Serving more than 1PB per month?',
+        btn: 'Contact sales',
+        href: '#',
+        items: [
+          {
+            text: '$0.005 /GB',
+            hint: 'First 500TB'
+          },
+          {
+            text: '$0.004 /GB',
+            hint: 'From 500TB-1PB'
+          },
+          {
+            text: '$0.002 /GB',
+            hint: 'From 1PB-2PB'
+          },
+          {
+            text: 'Contact Us',
+            hint: 'From 2PB+'
+          }
+        ]
+      }
+    ],
+    list1: {
+      title1: 'Powerful features. Amazing performance.',
+      title2:
+        'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+      items: [
+        {
+          icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
+          title: '$1 Monthly Minimum',
+          content: 'All features included for as little as $1 per month.'
+        },
+        {
+          icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
+          title: 'Toggle Zones ON/OFF',
+          content: 'Enable and disable regions with a click of a button.'
+        },
+        {
+          icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
+          title: 'No Request Fees',
+          content: 'Only pay for the bandwidth you actually use.'
+        },
+        {
+          icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
+          title: 'Multiple Payment Options',
+          content: 'Pay with PayPal, majority of credit cards as well as BTC.'
+        },
+        {
+          icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
+          title: 'All Features Included',
+          content: 'Use all of our unique features without any extra charges.'
+        },
+        {
+          icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
+          title: 'Overcharge Protection',
+          content: 'Protect your account with monthly bandwidth limits.'
+        }
+      ]
+    }
+  };
 });
 </script>
 

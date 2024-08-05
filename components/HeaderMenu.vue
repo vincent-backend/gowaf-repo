@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+const { t } = useI18n();
 import { ref, unref } from 'vue';
 const ProductsRef = ref();
 const solutionsRef = ref();
@@ -16,6 +17,65 @@ const mouseover = (type: string, obj: any) => {
     Resources.value = obj;
   }
 };
+const i18ntext = computed(() => {
+  return {
+    solutions: {
+      title: 'SOLUTIONS',
+      items: [
+        {
+          title: 'By Need',
+          icon: '/images/home/Solutions_nav_ic_need.png'
+        },
+        {
+          title: 'By Industry',
+          icon: '/images/home/Solutions_nav_ic_Industry.png'
+        }
+      ]
+    },
+    byNeed: {
+      title: 'BY NEED',
+      items: [
+        {
+          title: 'Video and Streaming',
+          icon: '/images/home/Solutions_nav_ic_video.png'
+        },
+        {
+          title: 'Storage and Delivery',
+          icon: '/images/home/Solutions_nav_ic_Storage.png'
+        },
+        {
+          title: 'Website Performance',
+          icon: '/images/home/Solutions_nav_ic_Website.png'
+        },
+        {
+          title: 'Security and Protection',
+          icon: '/images/home/Solutions_nav_ic_Security.png'
+        }
+      ]
+    },
+    videoAndStreaming: {
+      title: 'VIDEO AND STREAMING',
+      items: [
+        {
+          title: 'Video Delivery',
+          subTitle: 'Deliver the best video exoerience.'
+        },
+        {
+          title: 'Media Cage',
+          subTitle: 'Keep your videos secured and safe.'
+        },
+        {
+          title: 'Enterprise Multi-DRM',
+          subTitle: 'Hollywood grade video protection.'
+        },
+        {
+          title: 'Transcribe Al',
+          subTitle: 'Generate captions with a single click'
+        }
+      ]
+    }
+  };
+});
 </script>
 
 <template>
@@ -91,11 +151,11 @@ const mouseover = (type: string, obj: any) => {
         <div class="content">
           <template
             v-for="(item, index) in [
-              $tm('header.solutionsMenu.solutions'),
+              i18ntext.solutions,
               '|',
-              $tm('header.solutionsMenu.byNeed'),
+              i18ntext.byNeed,
               '|',
-              $tm('header.solutionsMenu.videoAndStreaming')
+              i18ntext.videoAndStreaming
             ]"
           >
             <div class="separator" v-if="item === '|'"></div>
@@ -346,8 +406,8 @@ const mouseover = (type: string, obj: any) => {
     border-right: 1px solid #e6e6e6;
     padding-right: 10px;
   }
-  &.menu-level-2{
-    .ul-menu{
+  &.menu-level-2 {
+    .ul-menu {
       border: none;
     }
   }

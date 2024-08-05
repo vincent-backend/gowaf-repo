@@ -19,7 +19,7 @@
     </el-form-item>
     <div class="agreement">
       <el-checkbox v-model="formLabelAlign.checked" size="large">
-        <template v-for="(item, index) in $tm('home.forgot.agreement')">
+        <template v-for="(item, index) in i18ntext">
           <font :class="{ green: [1, 3, 5].includes(index) }">{{ item }}</font>
         </template>
       </el-checkbox>
@@ -38,7 +38,18 @@ const formLabelAlign = reactive({
   Password: '',
   checked: false
 });
-
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return [
+    'I agree to the',
+    ' Terms of Service ',
+    ',',
+    ' Acceptable Use Policy ',
+    ' and confirm that I have read and understood the bunny.net ',
+    ' Privacy Policy',
+    '.'
+  ];
+});
 defineEmits(['toForgot']);
 </script>
 <style lang="scss" scoped>
@@ -101,13 +112,13 @@ defineEmits(['toForgot']);
   margin-bottom: 30px;
   .green {
     color: #0ebf6a;
-  } 
+  }
   :deep(.el-checkbox) {
     display: inline-flex;
     max-width: 100%;
     align-items: flex-start;
     height: fit-content;
-    .el-checkbox__input{
+    .el-checkbox__input {
       margin-top: 10px;
     }
     .el-checkbox__label {
@@ -122,7 +133,6 @@ defineEmits(['toForgot']);
     }
   }
 }
-@media (max-width: 767px){
-
+@media (max-width: 767px) {
 }
 </style>

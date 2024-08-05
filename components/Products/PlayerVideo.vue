@@ -16,14 +16,16 @@
 <script setup lang="ts">
 const { t: $t } = useI18n();
 const props = withDefaults(
-  defineProps<{
-    title: string;
-    subTitle: string;
-    icon: string;
-    btnText: string;
-    btnsubText: string;
-    isHidenList: boolean;
-  }>(),
+  defineProps<
+    Partial<{
+      title: string;
+      subTitle: string;
+      icon: string;
+      btnText: string;
+      btnsubText: string;
+      isHidenList: boolean;
+    }>
+  >(),
   {}
 );
 const slotDefault = !!useSlots().default;
@@ -34,7 +36,7 @@ const localizedDefaults: any = computed(() => {
     btnText: $t('products.stream.mediaCage.player2.btn'),
     icon: '/images/products/stream/player/player-1@2x.png'
   };
-  console.log("localizedDefaults:any -> props", props)
+  console.log('localizedDefaults:any -> props', props);
   return mergeWithDefaults(obj, props);
 });
 </script>

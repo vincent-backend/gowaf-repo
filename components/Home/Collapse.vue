@@ -41,7 +41,7 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    title?: boolean;
+    title?: string;
     subtitle?: string;
     list: Array<{
       title: string;

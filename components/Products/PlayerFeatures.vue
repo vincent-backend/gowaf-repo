@@ -1,5 +1,65 @@
 <script lang="ts" setup>
 const curTab = ref(0);
+
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      tab: 'Video Chapters',
+      pic: '/images/products/stream/player/player-1@2x.png',
+      mpicWidth: '100%',
+      mpicHeight: '24.25rem',
+      picWidth: '610px',
+      picHeight: '343px',
+      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+    },
+    {
+      tab: 'Captions and Subtitles',
+      pic: '/images/products/stream/player/player-1@2x.png',
+      picWidth: '610px',
+      picHeight: '343px',
+      mpicWidth: '100%',
+      mpicHeight: '24.25rem',
+      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+    },
+    {
+      tab: 'Adjustable Video Speed',
+      pic: '/images/products/stream/player/player-1@2x.png',
+      picWidth: '610px',
+      picHeight: '343px',
+      mpicWidth: '100%',
+      mpicHeight: '24.25rem',
+      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+    },
+    {
+      tab: 'Highlight Moments',
+      pic: '/images/products/stream/player/player-1@2x.png',
+      picWidth: '610px',
+      picHeight: '343px',
+      mpicWidth: '100%',
+      mpicHeight: '24.25rem',
+      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+    },
+    {
+      tab: 'Jump back and forward',
+      pic: '/images/products/stream/player/player-1@2x.png',
+      picWidth: '610px',
+      picHeight: '343px',
+      mpicWidth: '100%',
+      mpicHeight: '24.25rem',
+      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+    },
+    {
+      tab: 'Retention Graph',
+      pic: '/images/products/stream/player/player-1@2x.png',
+      picWidth: '610px',
+      picHeight: '343px',
+      mpicWidth: '100%',
+      mpicHeight: '24.25rem',
+      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+    }
+  ];
+});
 </script>
 
 <template>
@@ -14,13 +74,11 @@ const curTab = ref(0);
           {{ $t('products.stream.player.playerFeatures.subTitle') }}
         </div>
         <CommonTabs
-          :tabs="$tm('products.stream.player.playerFeatures.tabs')"
+          :tabs="i18ntext"
           v-model:cur-tab="curTab"
         />
         <template
-          v-for="(item, index) in $tm(
-            'products.stream.player.playerFeatures.tabs'
-          )"
+          v-for="(item, index) in i18ntext"
         >
           <div class="content" v-if="curTab === index">
             <div

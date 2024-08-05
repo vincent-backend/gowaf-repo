@@ -83,32 +83,31 @@
     <div class="column">
       <NetworkNationalFlagList
         :title="$t('network.WebTools.DNSLookur.title')"
-        :list="$tm('nationalFlag.North_America')"
+        :list="i18ntext.North_America"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
         :title="$t('nationalFlag.continentName[2]')"
-        :list="$tm('nationalFlag.Asia')"
+        :list="i18ntext.Asia"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
         :title="$t('nationalFlag.continentName[5]')"
-        :list="$tm('nationalFlag.Middle_East&Africa')"
+        :list="i18ntext.Africa"
       ></NetworkNationalFlagList>
     </div>
     <div class="column">
       <NetworkNationalFlagList
         :title="$t('nationalFlag.continentName[1]')"
-        :list="$tm('nationalFlag.Europe')"
+        :list="i18ntext.Europe"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
         :title="$t('nationalFlag.continentName[3]')"
-        :list="$tm('nationalFlag.Oceania')"
+        :list="i18ntext.Oceania"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
         :title="$t('nationalFlag.continentName[4]')"
-        :list="$tm('nationalFlag.South_America')"
+        :list="i18ntext.South_America"
       ></NetworkNationalFlagList>
     </div>
-  </div>
   <Footer :is-show-banner="false" />
 </template>
 
@@ -118,6 +117,10 @@ const input = ref('');
 const select = ref('1');
 definePageMeta({
   title: 'Web Tools'
+});
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return nationalFlag(t);
 });
 </script>
 <style lang="scss" scoped>

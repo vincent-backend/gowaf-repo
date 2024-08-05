@@ -14,270 +14,270 @@
       "title": "Use as you want. Pay as you go.",
       "content": "Simple and affordable pricing at any scale. $1 Monthly Minimum."
     },
-    "pricingTab": [
-      {
-        "tab": "Gowaf CDN",
-        "header": "Gowaf CDN Pricing",
-        "content": [
-          {
-            "title": "Standard Network",
-            "titleEm": "123 PoPs",
-            "subTitle": "Hop on a lighting fast global network with region-based pricing.",
-            "content": "Serving more than 100TB per month?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "$0.01 /GB",
-                "hint": "Europe & North America"
-              },
-              {
-                "text": "$0.03 /GB",
-                "hint": "Asia & Oceania"
-              },
-              {
-                "text": "$0.045 /GB",
-                "hint": "South America"
-              },
-              {
-                "text": "$0.06 /GB",
-                "hint": "Middle East & Africa"
-              }
-            ]
-          },
-          {
-            "title": "Volume Network",
-            "titleEm": "10 PoPs",
-            "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
-            "content": "Serving more than 1PB per month?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "$0.005 /GB",
-                "hint": "First 500TB"
-              },
-              {
-                "text": "$0.004 /GB",
-                "hint": "From 500TB-1PB"
-              },
-              {
-                "text": "$0.002 /GB",
-                "hint": "From 1PB-2PB"
-              },
-              {
-                "text": "Contact Us",
-                "hint": "From 2PB+"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Gowaf Stream",
-        "header": "Gowaf Stream Pricing",
-        "content": [
-          {
-            "title": "Simplified pricing. Up to 10x lower cost.",
-            "titleEm": "",
-            "subTitle": "Video player, transcoding, and security features are free of charge.",
-            "content": "Servina more than 40TB per month?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "FREE",
-                "hint": "Transcoding"
-              },
-              {
-                "text": "$0.1/minute*",
-                "hint": "Transcribing"
-              },
-              {
-                "text": "$0.01/GB",
-                "hint": "Storage"
-              },
-              {
-                "text": "$0.005/GB",
-                "hint": "CDN"
-              }
-            ],
-            "bottomList": [
-              "No security fees",
-              "No transcoding fees",
-              "Free laver included",
-              "Distributed video storage",
-              "150 Tbps+ backbone",
-              "* Transcribing is paid per minute per langauge."
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Gowaf Storage",
-        "header": "Gowaf Storage Pricing",
-        "content": [
-          {
-            "title": "Standard Tier",
-            "titleEm": "HDD",
-            "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
-            "content": "Storing more than 50TB per month?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "$0.01/GB",
-                "hint": "Single Region"
-              },
-              {
-                "text": "$0.02/GB",
-                "hint": "Two Regions"
-              },
-              {
-                "text": "$0.025/GB",
-                "hint": "Three Regions"
-              },
-              {
-                "text": "+$0.005/GB",
-                "hint": "Each Additional Region"
-              }
-            ],
-            "bottomList": [
-              "True Pay As you Go",
-              "$1 Monthly Minimum",
-              "Free Traffic to Bunny CDN",
-              "No API fees",
-              "Free API egress"
-            ]
-          },
-          {
-            "title": "Edge Tier",
-            "titleEm": "SSD",
-            "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
-            "content": "Storing more than 50TB per month?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "$0.02/GB",
-                "hint": "Single Region"
-              },
-              {
-                "text": "+$0.02/GB",
-                "hint": "Each additional Region"
-              }
-            ],
-            "bottomList": [
-              "True Pay As you Go",
-              "$1 Monthly Minimum",
-              "Free Traffic to Bunny CDN",
-              "No API fees",
-              "Free API egress"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Gowaf Optimizer",
-        "header": "Gowaf Optimizer Pricing",
-        "content": [
-          {
-            "title": "Excellent solution for any sized project",
-            "titleEm": "",
-            "subTitle": "Fixed monthly price regardless of your traffic and scale.",
-            "content": "Want to optimize over 20 websites?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "FREE",
-                "hint": "Unlimited Requests"
-              },
-              {
-                "text": "FREE",
-                "hint": "Unlimited Transformations"
-              },
-              {
-                "text": "FREE",
-                "hint": "Unlimited Optimizations"
-              },
-              {
-                "text": "$9.5/website",
-                "hint": "Simple Monthly Pricing"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Gowaf DNS",
-        "header": "Gowaf DNS Pricing",
-        "content": [
-          {
-            "title": "Pay per query. No hidden fees.",
-            "titleEm": "",
-            "subTitle": "Simple Pay As You Go pricing with a generous free plan.",
-            "content": "Serving more than a billion queries per month?",
-            "btn": "Contact sales",
-            "href": "#",
-            "items": [
-              {
-                "text": "FREE",
-                "hint": "Standard Queries (First 20 million)"
-              },
-              {
-                "text": "FREE",
-                "hint": "Smart Queries (First 1 million)"
-              },
-              {
-                "text": "$0.1/million",
-                "hint": "Standard Queries (After 20 million)"
-              },
-              {
-                "text": "$0.3/million",
-                "hint": "Smart Queries (After 1 million)"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "list1": {
-      "title1": "Powerful features. Amazing performance.",
-      "title2": "Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.",
-      "items": [
-        {
-          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_1.png",
-          "title": "$1 Monthly Minimum",
-          "content": "All features included for as little as $1 per month."
-        },
-        {
-          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_2.png",
-          "title": "Toggle Zones ON/OFF",
-          "content": "Enable and disable regions with a click of a button."
-        },
-        {
-          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_3.png",
-          "title": "No Request Fees",
-          "content": "Only pay for the bandwidth you actually use."
-        },
-        {
-          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_4.png",
-          "title": "Multiple Payment Options",
-          "content": "Pay with PayPal, majority of credit cards as well as BTC."
-        },
-        {
-          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_5.png",
-          "title": "All Features Included",
-          "content": "Use all of our unique features without any extra charges."
-        },
-        {
-          "icon": "/images/pricing/overview/Pricing_Overview_card_ic_6.png",
-          "title": "Overcharge Protection",
-          "content": "Protect your account with monthly bandwidth limits."
-        }
-      ]
-    },
+    // "pricingTab": [
+    //   {
+    //     "tab": "Gowaf CDN",
+    //     "header": "Gowaf CDN Pricing",
+    //     "content": [
+    //       {
+    //         "title": "Standard Network",
+    //         "titleEm": "123 PoPs",
+    //         "subTitle": "Hop on a lighting fast global network with region-based pricing.",
+    //         "content": "Serving more than 100TB per month?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "$0.01 /GB",
+    //             "hint": "Europe & North America"
+    //           },
+    //           {
+    //             "text": "$0.03 /GB",
+    //             "hint": "Asia & Oceania"
+    //           },
+    //           {
+    //             "text": "$0.045 /GB",
+    //             "hint": "South America"
+    //           },
+    //           {
+    //             "text": "$0.06 /GB",
+    //             "hint": "Middle East & Africa"
+    //           }
+    //         ]
+    //       },
+    //       {
+    //         "title": "Volume Network",
+    //         "titleEm": "10 PoPs",
+    //         "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
+    //         "content": "Serving more than 1PB per month?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "$0.005 /GB",
+    //             "hint": "First 500TB"
+    //           },
+    //           {
+    //             "text": "$0.004 /GB",
+    //             "hint": "From 500TB-1PB"
+    //           },
+    //           {
+    //             "text": "$0.002 /GB",
+    //             "hint": "From 1PB-2PB"
+    //           },
+    //           {
+    //             "text": "Contact Us",
+    //             "hint": "From 2PB+"
+    //           }
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "tab": "Gowaf Stream",
+    //     "header": "Gowaf Stream Pricing",
+    //     "content": [
+    //       {
+    //         "title": "Simplified pricing. Up to 10x lower cost.",
+    //         "titleEm": "",
+    //         "subTitle": "Video player, transcoding, and security features are free of charge.",
+    //         "content": "Servina more than 40TB per month?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "FREE",
+    //             "hint": "Transcoding"
+    //           },
+    //           {
+    //             "text": "$0.1/minute*",
+    //             "hint": "Transcribing"
+    //           },
+    //           {
+    //             "text": "$0.01/GB",
+    //             "hint": "Storage"
+    //           },
+    //           {
+    //             "text": "$0.005/GB",
+    //             "hint": "CDN"
+    //           }
+    //         ],
+    //         "bottomList": [
+    //           "No security fees",
+    //           "No transcoding fees",
+    //           "Free laver included",
+    //           "Distributed video storage",
+    //           "150 Tbps+ backbone",
+    //           "* Transcribing is paid per minute per langauge."
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "tab": "Gowaf Storage",
+    //     "header": "Gowaf Storage Pricing",
+    //     "content": [
+    //       {
+    //         "title": "Standard Tier",
+    //         "titleEm": "HDD",
+    //         "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
+    //         "content": "Storing more than 50TB per month?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "$0.01/GB",
+    //             "hint": "Single Region"
+    //           },
+    //           {
+    //             "text": "$0.02/GB",
+    //             "hint": "Two Regions"
+    //           },
+    //           {
+    //             "text": "$0.025/GB",
+    //             "hint": "Three Regions"
+    //           },
+    //           {
+    //             "text": "+$0.005/GB",
+    //             "hint": "Each Additional Region"
+    //           }
+    //         ],
+    //         "bottomList": [
+    //           "True Pay As you Go",
+    //           "$1 Monthly Minimum",
+    //           "Free Traffic to Bunny CDN",
+    //           "No API fees",
+    //           "Free API egress"
+    //         ]
+    //       },
+    //       {
+    //         "title": "Edge Tier",
+    //         "titleEm": "SSD",
+    //         "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
+    //         "content": "Storing more than 50TB per month?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "$0.02/GB",
+    //             "hint": "Single Region"
+    //           },
+    //           {
+    //             "text": "+$0.02/GB",
+    //             "hint": "Each additional Region"
+    //           }
+    //         ],
+    //         "bottomList": [
+    //           "True Pay As you Go",
+    //           "$1 Monthly Minimum",
+    //           "Free Traffic to Bunny CDN",
+    //           "No API fees",
+    //           "Free API egress"
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "tab": "Gowaf Optimizer",
+    //     "header": "Gowaf Optimizer Pricing",
+    //     "content": [
+    //       {
+    //         "title": "Excellent solution for any sized project",
+    //         "titleEm": "",
+    //         "subTitle": "Fixed monthly price regardless of your traffic and scale.",
+    //         "content": "Want to optimize over 20 websites?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "FREE",
+    //             "hint": "Unlimited Requests"
+    //           },
+    //           {
+    //             "text": "FREE",
+    //             "hint": "Unlimited Transformations"
+    //           },
+    //           {
+    //             "text": "FREE",
+    //             "hint": "Unlimited Optimizations"
+    //           },
+    //           {
+    //             "text": "$9.5/website",
+    //             "hint": "Simple Monthly Pricing"
+    //           }
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "tab": "Gowaf DNS",
+    //     "header": "Gowaf DNS Pricing",
+    //     "content": [
+    //       {
+    //         "title": "Pay per query. No hidden fees.",
+    //         "titleEm": "",
+    //         "subTitle": "Simple Pay As You Go pricing with a generous free plan.",
+    //         "content": "Serving more than a billion queries per month?",
+    //         "btn": "Contact sales",
+    //         "href": "#",
+    //         "items": [
+    //           {
+    //             "text": "FREE",
+    //             "hint": "Standard Queries (First 20 million)"
+    //           },
+    //           {
+    //             "text": "FREE",
+    //             "hint": "Smart Queries (First 1 million)"
+    //           },
+    //           {
+    //             "text": "$0.1/million",
+    //             "hint": "Standard Queries (After 20 million)"
+    //           },
+    //           {
+    //             "text": "$0.3/million",
+    //             "hint": "Smart Queries (After 1 million)"
+    //           }
+    //         ]
+    //       }
+    //     ]
+    //   }
+    // ],
+    // "list1": {
+    //   "title1": "Powerful features. Amazing performance.",
+    //   "title2": "Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.",
+    //   "items": [
+    //     {
+    //       "icon": "/images/pricing/overview/Pricing_Overview_card_ic_1.png",
+    //       "title": "$1 Monthly Minimum",
+    //       "content": "All features included for as little as $1 per month."
+    //     },
+    //     {
+    //       "icon": "/images/pricing/overview/Pricing_Overview_card_ic_2.png",
+    //       "title": "Toggle Zones ON/OFF",
+    //       "content": "Enable and disable regions with a click of a button."
+    //     },
+    //     {
+    //       "icon": "/images/pricing/overview/Pricing_Overview_card_ic_3.png",
+    //       "title": "No Request Fees",
+    //       "content": "Only pay for the bandwidth you actually use."
+    //     },
+    //     {
+    //       "icon": "/images/pricing/overview/Pricing_Overview_card_ic_4.png",
+    //       "title": "Multiple Payment Options",
+    //       "content": "Pay with PayPal, majority of credit cards as well as BTC."
+    //     },
+    //     {
+    //       "icon": "/images/pricing/overview/Pricing_Overview_card_ic_5.png",
+    //       "title": "All Features Included",
+    //       "content": "Use all of our unique features without any extra charges."
+    //     },
+    //     {
+    //       "icon": "/images/pricing/overview/Pricing_Overview_card_ic_6.png",
+    //       "title": "Overcharge Protection",
+    //       "content": "Protect your account with monthly bandwidth limits."
+    //     }
+    //   ]
+    // },
     "saveMoney": {
       "title": "Save money. Go faster.",
       "subTitle": "Performance is in our DNA. Speed is our passion. Affordable pricing is just a perk.",
@@ -357,40 +357,40 @@
       ],
       "hint": "Performance is based on independent real-world user data provided by CDNPerf and pricing from the public provider listing on July 2022."
     },
-    "join1": {
-      "title": "Join over 40.000+ happy customers",
-      "subTitle": [
-        "We're rated",
-        "",
-        "Excellent 4.8",
-        " out of 5 on ",
-        "Trustpilot",
-        " - Based on 600+ reviews"
-      ],
-      "person": {
-        "name": "Jerry Caloroso",
-        "title": "Chief Streaming Officer, OneStudio",
-        "content": "\"Finding Gowaf CDN is like finding a gold mine! It's like is this real? \""
-      },
-      "ranks": [
-        {
-          "score": "4.8",
-          "icon": "Network_Overview_mark_logo_1"
-        },
-        {
-          "score": "4.4",
-          "icon": "Network_Overview_mark_logo_2"
-        },
-        {
-          "score": "4.8",
-          "icon": "Network_Overview_mark_logo_3"
-        },
-        {
-          "score": "4.8",
-          "icon": "Network_Overview_mark_logo_4"
-        }
-      ]
-    }
+    // "join1": {
+    //   "title": "Join over 40.000+ happy customers",
+    //   "subTitle": [
+    //     "We're rated",
+    //     "",
+    //     "Excellent 4.8",
+    //     " out of 5 on ",
+    //     "Trustpilot",
+    //     " - Based on 600+ reviews"
+    //   ],
+    //   "person": {
+    //     "name": "Jerry Caloroso",
+    //     "title": "Chief Streaming Officer, OneStudio",
+    //     "content": "\"Finding Gowaf CDN is like finding a gold mine! It's like is this real? \""
+    //   },
+    //   "ranks": [
+    //     {
+    //       "score": "4.8",
+    //       "icon": "Network_Overview_mark_logo_1"
+    //     },
+    //     {
+    //       "score": "4.4",
+    //       "icon": "Network_Overview_mark_logo_2"
+    //     },
+    //     {
+    //       "score": "4.8",
+    //       "icon": "Network_Overview_mark_logo_3"
+    //     },
+    //     {
+    //       "score": "4.8",
+    //       "icon": "Network_Overview_mark_logo_4"
+    //     }
+    //   ]
+    // }
   },
   "cdn": {
     "header": {
@@ -398,103 +398,103 @@
       "title": "Fully flexible pay as you go CDN pricing",
       "content": "Choose between two simple pricing plans designed for any budget. Scale from a few gigabytes to hundreds of petabytes per month."
     },
-    "pricingTable": [
-      {
-        "title": "Standard Network",
-        "titleEm": "123 PoPs",
-        "subTitle": "Hop on a lighting fast global network with region-based pricing.",
-        "content": "Serving more than 100TB per month?",
-        "btn": "Contact sales",
-        "href": "#",
-        "items": [
-          {
-            "text": "$0.01 /GB",
-            "hint": "Europe & North America"
-          },
-          {
-            "text": "$0.03 /GB",
-            "hint": "Asia & Oceania"
-          },
-          {
-            "text": "$0.045 /GB",
-            "hint": "South America"
-          },
-          {
-            "text": "$0.06 /GB",
-            "hint": "Middle East & Africa"
-          }
-        ]
-      },
-      {
-        "title": "Volume Network",
-        "titleEm": "10 PoPs",
-        "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
-        "content": "Serving more than 1PB per month?",
-        "btn": "Contact sales",
-        "href": "#",
-        "items": [
-          {
-            "text": "$0.005 /GB",
-            "hint": "First 500TB"
-          },
-          {
-            "text": "$0.004 /GB",
-            "hint": "From 500TB-1PB"
-          },
-          {
-            "text": "$0.002 /GB",
-            "hint": "From 1PB-2PB"
-          },
-          {
-            "text": "Contact Us",
-            "hint": "From 2PB+"
-          }
-        ]
-      }
-    ],
+    // "pricingTable": [
+    //   {
+    //     "title": "Standard Network",
+    //     "titleEm": "123 PoPs",
+    //     "subTitle": "Hop on a lighting fast global network with region-based pricing.",
+    //     "content": "Serving more than 100TB per month?",
+    //     "btn": "Contact sales",
+    //     "href": "#",
+    //     "items": [
+    //       {
+    //         "text": "$0.01 /GB",
+    //         "hint": "Europe & North America"
+    //       },
+    //       {
+    //         "text": "$0.03 /GB",
+    //         "hint": "Asia & Oceania"
+    //       },
+    //       {
+    //         "text": "$0.045 /GB",
+    //         "hint": "South America"
+    //       },
+    //       {
+    //         "text": "$0.06 /GB",
+    //         "hint": "Middle East & Africa"
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     "title": "Volume Network",
+    //     "titleEm": "10 PoPs",
+    //     "subTitle": "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
+    //     "content": "Serving more than 1PB per month?",
+    //     "btn": "Contact sales",
+    //     "href": "#",
+    //     "items": [
+    //       {
+    //         "text": "$0.005 /GB",
+    //         "hint": "First 500TB"
+    //       },
+    //       {
+    //         "text": "$0.004 /GB",
+    //         "hint": "From 500TB-1PB"
+    //       },
+    //       {
+    //         "text": "$0.002 /GB",
+    //         "hint": "From 1PB-2PB"
+    //       },
+    //       {
+    //         "text": "Contact Us",
+    //         "hint": "From 2PB+"
+    //       }
+    //     ]
+    //   }
+    // ],
     "calculator1": {
       "title": "Calculate your monthly bill",
       "subTitle": "Enter your total traffic used each month to see estimated pricing.",
-      "tabs": [
-        {
-          "tab": "Gigabytes"
-        },
-        {
-          "tab": "Terabytes"
-        }
-      ],
-      "items": [
-        {
-          "title": "EU / NA",
-          "value": "200 GB",
-          "percent": 20
-        },
-        {
-          "title": "Asia / Oceania",
-          "value": "50GB",
-          "percent": 10
-        },
-        {
-          "title": "South America",
-          "value": "0 GB",
-          "percent": 0
-        },
-        {
-          "title": "ME & Africa",
-          "value": "0GB",
-          "percent": 0
-        }
-      ],
-      "subs": [
-        {
-          "title": "Standard Tier",
-          "value": "$3.5/month"
-        },
-        {
-          "title": "Volume Tier",
-          "value": "$1.25/month"
-        }
-      ],
+      // "tabs": [
+      //   {
+      //     "tab": "Gigabytes"
+      //   },
+      //   {
+      //     "tab": "Terabytes"
+      //   }
+      // ],
+      // "items": [
+      //   {
+      //     "title": "EU / NA",
+      //     "value": "200 GB",
+      //     "percent": 20
+      //   },
+      //   {
+      //     "title": "Asia / Oceania",
+      //     "value": "50GB",
+      //     "percent": 10
+      //   },
+      //   {
+      //     "title": "South America",
+      //     "value": "0 GB",
+      //     "percent": 0
+      //   },
+      //   {
+      //     "title": "ME & Africa",
+      //     "value": "0GB",
+      //     "percent": 0
+      //   }
+      // ],
+      // "subs": [
+      //   {
+      //     "title": "Standard Tier",
+      //     "value": "$3.5/month"
+      //   },
+      //   {
+      //     "title": "Volume Tier",
+      //     "value": "$1.25/month"
+      //   }
+      // ],
       "btn": "Start FREE 14-Day Trial"
     },
     "supportPlan": {
@@ -505,12 +505,12 @@
         "content": "Need a team on call 24/7 for your mission-critical applications? Take advantage of our enterprise support that is here for you 24/7 for all inquiries, not just incidents and problems.",
         "list": {
           "title": "What’s included?",
-          "items": [
-            "24/7 availability",
-            "Private Slack channel",
-            "Dedicated Account Manager",
-            "Direct communication with developers"
-          ]
+          // "items": [
+          //   "24/7 availability",
+          //   "Private Slack channel",
+          //   "Dedicated Account Manager",
+          //   "Direct communication with developers"
+          // ]
         },
         "btn": "Explore Gowaf Support"
       }
@@ -518,29 +518,29 @@
     "hop": {
       "title": "Hop ahead with Gowaf products",
       "subTitle": "Get all the tools you need to bring performance and security to the next level.",
-      "list": [
-        {
-          "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
-          "title": "Gowaf Storage",
-          "subTitle": "From $0.01 /GB",
-          "btn": "See pricing details",
-          "href": "#"
-        },
-        {
-          "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
-          "title": "Gowaf Optimizer",
-          "subTitle": "$9.50 /website",
-          "btn": "See pricing details",
-          "href": "#"
-        },
-        {
-          "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
-          "title": "Gowaf Stream",
-          "subTitle": "From $0.005 /GB",
-          "btn": "See pricing details",
-          "href": "#"
-        }
-      ]
+      // "list": [
+      //   {
+      //     "icon": "/images/pricing/cdn/Pricing_CDN_ic_Storage.png",
+      //     "title": "Gowaf Storage",
+      //     "subTitle": "From $0.01 /GB",
+      //     "btn": "See pricing details",
+      //     "href": "#"
+      //   },
+      //   {
+      //     "icon": "/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png",
+      //     "title": "Gowaf Optimizer",
+      //     "subTitle": "$9.50 /website",
+      //     "btn": "See pricing details",
+      //     "href": "#"
+      //   },
+      //   {
+      //     "icon": "/images/pricing/cdn/Pricing_CDN_ic_Stream.png",
+      //     "title": "Gowaf Stream",
+      //     "subTitle": "From $0.005 /GB",
+      //     "btn": "See pricing details",
+      //     "href": "#"
+      //   }
+      // ]
     },
     "getInTouch": {
       "title": "Get in Touch",
@@ -575,55 +575,55 @@
       "title": "Simplified pricing. Up to 10x lower cost.",
       "content": "Utilize video player, transcoding, and all security features completely free of charge. Only pay for the traffic you use!"
     },
-    "tables": [
-      {
-        "title": "Traditional Cloud Provider",
-        "items": [
-          {
-            "title": "$0.02/minute+",
-            "hint": "Encoding"
-          },
-          {
-            "title": "From $0.02/GB",
-            "hint": "Storage"
-          },
-          {
-            "title": "From $0.085/GB",
-            "hint": "CDN"
-          }
-        ],
-        "items2": [
-          "Expensive transcoding fees",
-          "Bring and integrate your own external player",
-          "Complex integration with additional charges",
-          "Centralized storage prone to bottlenecks"
-        ]
-      },
-      {
-        "title": "Bunny Stream",
-        "items": [
-          {
-            "title": "FREE",
-            "hint": "Encoding"
-          },
-          {
-            "title": "From $0.01/GB",
-            "hint": "Storage"
-          },
-          {
-            "title": "From $0.005/GB",
-            "hint": "CDN"
-          }
-        ],
-        "items2": [
-          "No security fees",
-          "No transcoding fees",
-          "Free player included",
-          "Distributed video storage",
-          "Extreme performance with 150 Tbps+ backbone"
-        ]
-      }
-    ]
+    // "tables": [
+    //   {
+    //     "title": "Traditional Cloud Provider",
+    //     "items": [
+    //       {
+    //         "title": "$0.02/minute+",
+    //         "hint": "Encoding"
+    //       },
+    //       {
+    //         "title": "From $0.02/GB",
+    //         "hint": "Storage"
+    //       },
+    //       {
+    //         "title": "From $0.085/GB",
+    //         "hint": "CDN"
+    //       }
+    //     ],
+    //     "items2": [
+    //       "Expensive transcoding fees",
+    //       "Bring and integrate your own external player",
+    //       "Complex integration with additional charges",
+    //       "Centralized storage prone to bottlenecks"
+    //     ]
+    //   },
+    //   {
+    //     "title": "Bunny Stream",
+    //     "items": [
+    //       {
+    //         "title": "FREE",
+    //         "hint": "Encoding"
+    //       },
+    //       {
+    //         "title": "From $0.01/GB",
+    //         "hint": "Storage"
+    //       },
+    //       {
+    //         "title": "From $0.005/GB",
+    //         "hint": "CDN"
+    //       }
+    //     ],
+    //     "items2": [
+    //       "No security fees",
+    //       "No transcoding fees",
+    //       "Free player included",
+    //       "Distributed video storage",
+    //       "Extreme performance with 150 Tbps+ backbone"
+    //     ]
+    //   }
+    // ]
   },
   "storage": {
     "header": {
@@ -631,66 +631,66 @@
       "title": "Surprisingly Affordable",
       "content": "Keep your costs to a minimum. Never sacrifice performance. No commitments are required."
     },
-    "pricingTable": [
-      {
-        "title": "Standard Tier",
-        "titleEm": "HDD",
-        "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
-        "content": "Storing more than 50TB per month?",
-        "btn": "Contact sales",
-        "href": "#",
-        "items": [
-          {
-            "text": "$0.01/GB",
-            "hint": "Single Region"
-          },
-          {
-            "text": "$0.02/GB",
-            "hint": "Two Regions"
-          },
-          {
-            "text": "$0.025/GB",
-            "hint": "Three Regions"
-          },
-          {
-            "text": "+$0.005/GB",
-            "hint": "Each Additional Region"
-          }
-        ],
-        "bottomList": [
-          "True Pay As you Go",
-          "$1 Monthly Minimum",
-          "Free Traffic to Bunny CDN",
-          "No API fees",
-          "Free API egress"
-        ]
-      },
-      {
-        "title": "Edge Tier",
-        "titleEm": "SSD",
-        "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
-        "content": "Storing more than 50TB per month?",
-        "btn": "Contact sales",
-        "href": "#",
-        "items": [
-          {
-            "text": "$0.02/GB",
-            "hint": "Single Region"
-          },
-          {
-            "text": "+$0.02/GB",
-            "hint": "Each additional Region"
-          }
-        ],
-        "bottomList": [
-          "True Pay As you Go",
-          "$1 Monthly Minimum",
-          "Free Traffic to Bunny CDN",
-          "No API fees",
-          "Free API egress"
-        ]
-      }
-    ],
+    // "pricingTable": [
+    //   {
+    //     "title": "Standard Tier",
+    //     "titleEm": "HDD",
+    //     "subTitle": "$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.",
+    //     "content": "Storing more than 50TB per month?",
+    //     "btn": "Contact sales",
+    //     "href": "#",
+    //     "items": [
+    //       {
+    //         "text": "$0.01/GB",
+    //         "hint": "Single Region"
+    //       },
+    //       {
+    //         "text": "$0.02/GB",
+    //         "hint": "Two Regions"
+    //       },
+    //       {
+    //         "text": "$0.025/GB",
+    //         "hint": "Three Regions"
+    //       },
+    //       {
+    //         "text": "+$0.005/GB",
+    //         "hint": "Each Additional Region"
+    //       }
+    //     ],
+    //     "bottomList": [
+    //       "True Pay As you Go",
+    //       "$1 Monthly Minimum",
+    //       "Free Traffic to Bunny CDN",
+    //       "No API fees",
+    //       "Free API egress"
+    //     ]
+    //   },
+    //   {
+    //     "title": "Edge Tier",
+    //     "titleEm": "SSD",
+    //     "subTitle": "$0.02/GB per each storage region. Up to 15 regions.",
+    //     "content": "Storing more than 50TB per month?",
+    //     "btn": "Contact sales",
+    //     "href": "#",
+    //     "items": [
+    //       {
+    //         "text": "$0.02/GB",
+    //         "hint": "Single Region"
+    //       },
+    //       {
+    //         "text": "+$0.02/GB",
+    //         "hint": "Each additional Region"
+    //       }
+    //     ],
+    //     "bottomList": [
+    //       "True Pay As you Go",
+    //       "$1 Monthly Minimum",
+    //       "Free Traffic to Bunny CDN",
+    //       "No API fees",
+    //       "Free API egress"
+    //     ]
+    //   }
+    // ],
     "map": {
       "title": "Global audience. Global storage.",
       "subTitle": "Store your content where you need it when you need it for maximum performance and compliance."
@@ -702,34 +702,34 @@
       "title": "Simple and affordable pricing",
       "content": "Reduce load times and increase conversion rates in just a few clicks without writing a single line of code."
     },
-    "pricingTable": [
-      {
-        "title": "Excellent solution for any sized project",
-        "titleEm": "",
-        "subTitle": "Fixed monthly price regardless of your traffic and scale.",
-        "content": "Want to optimize over 20 websites?",
-        "btn": "Contact sales",
-        "href": "#",
-        "items": [
-          {
-            "text": "FREE",
-            "hint": "Unlimited Requests"
-          },
-          {
-            "text": "FREE",
-            "hint": "Unlimited Transformations"
-          },
-          {
-            "text": "FREE",
-            "hint": "Unlimited Optimizations"
-          },
-          {
-            "text": "$9.5/website",
-            "hint": "Simple Monthly Pricing"
-          }
-        ]
-      }
-    ]
+    // "pricingTable": [
+    //   {
+    //     "title": "Excellent solution for any sized project",
+    //     "titleEm": "",
+    //     "subTitle": "Fixed monthly price regardless of your traffic and scale.",
+    //     "content": "Want to optimize over 20 websites?",
+    //     "btn": "Contact sales",
+    //     "href": "#",
+    //     "items": [
+    //       {
+    //         "text": "FREE",
+    //         "hint": "Unlimited Requests"
+    //       },
+    //       {
+    //         "text": "FREE",
+    //         "hint": "Unlimited Transformations"
+    //       },
+    //       {
+    //         "text": "FREE",
+    //         "hint": "Unlimited Optimizations"
+    //       },
+    //       {
+    //         "text": "$9.5/website",
+    //         "hint": "Simple Monthly Pricing"
+    //       }
+    //     ]
+    //   }
+    // ]
   },
   "dns": {
     "header": {

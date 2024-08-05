@@ -1,10 +1,6 @@
 <template>
   <div class="left-list">
-    <div
-      class="home-item"
-      v-for="(item, index) in $tm('home.ResetPassword.list')"
-      :key="index"
-    >
+    <div class="home-item" v-for="(item, index) in i18ntext" :key="index">
       <img class="img" :src="item.img" alt="" srcset="" />
       <div class="main">
         <div class="title">{{ item.title }}</div>
@@ -14,7 +10,37 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return [
+    {
+      img: '/images/home/log_icon_1@2x.png',
+      title: 'New Gowaf Dashboard is live!',
+      content:
+        'The easiest way to dynamically generate images and deliver them directly from the CDN.'
+    },
+    {
+      img: '/images/home/log_icon_2@2x.png',
+      title: 'Try out Gowaf AI Beta!',
+      content:
+        'Take web application performance to the next level on a true planet-scale level with Gowaf Storage Edge Tier.'
+    },
+    {
+      img: '/images/home/log_icon_3@2x.png',
+      title: 'The Next Generation Of Performance!',
+      content:
+        'Unlock the true power of DNS and turn complex issues into simple solutions.'
+    },
+    {
+      img: '/images/home/log_icon_4@2x.png',
+      title: 'Gowaf DNS is now live!',
+      content:
+        'Unlock the true power of DNS and turn complex issues into simple solutions.'
+    }
+  ];
+});
+</script>
 <style lang="scss" scoped>
 .left-list {
   width: 530px;

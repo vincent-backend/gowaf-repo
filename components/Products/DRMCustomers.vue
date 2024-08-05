@@ -1,15 +1,15 @@
 <script lang="ts" setup>
 defineProps<{
   drmCustomer: {
-    title: string;
-    contentPre: string;
-    contentImg: string;
-    contentMid: string;
-    contentP: string;
-    contentLink: string;
-    contentLast: string;
-    isShowSubTitle: boolean;
-    isHiddenSubTitle: boolean;
+    title?: string;
+    contentPre?: string;
+    contentImg?: string;
+    contentMid?: string;
+    contentP?: string;
+    contentLink?: string;
+    contentLast?: string;
+    isShowSubTitle?: boolean;
+    isHiddenSubTitle?: boolean;
     faceImg: {
       img: string;
       top: string;

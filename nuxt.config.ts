@@ -1,8 +1,13 @@
+import { fileURLToPath, URL } from 'url';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/common.css', '~/assets/css/global.less'],
   modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt',],
+  alias: {
+    '@types': fileURLToPath(new URL('./types', import.meta.url))
+  },
 
   i18n: {
     vueI18n: './i18n.config.ts'

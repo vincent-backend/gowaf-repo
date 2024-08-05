@@ -78,7 +78,7 @@
     <div class="BennerList" v-if="!show">
       <div
         class="item"
-        v-for="(item, index) in $tm('nationalFlag.BennerList')"
+        v-for="(item, index) in i18ntext.BennerList"
         :key="index"
       >
         <img class="nationalFlag" :src="item.img" alt="" />
@@ -121,7 +121,7 @@
       <div class="column">
         <div
           class="article-item"
-          v-for="(item, index) in $tm('network.WebTools.Traceroute.article1')"
+          v-for="(item, index) in itext.article1"
           :key="index"
         >
           <div class="title">{{ item.title }}</div>
@@ -135,7 +135,7 @@
       <div class="column">
         <div
           class="article-item"
-          v-for="(item, index) in $tm('network.WebTools.Traceroute.article2')"
+          v-for="(item, index) in itext.article2"
           :key="index"
         >
           <div class="title">{{ item.title }}</div>
@@ -153,7 +153,7 @@
 
 <script setup lang="ts">
 import { DArrowRight } from '@element-plus/icons-vue';
-import { CommonIconDropDown, CommonInputsubfix } from '#components';
+import { CommonInputsubfix } from '#components';
 const { t, tm } = useI18n();
 const input = ref('');
 const show = ref(false);
@@ -161,37 +161,76 @@ definePageMeta({
   title: 'Web Tools'
 });
 
+const itext = computed(() => {
+  return {
+    article1: [
+      {
+        title: 'What is a traceroute?',
+        content: [
+          'Traceroute is a network diagnostic tool used for diagnosing the path taken by a network packet to reach a destination IP. It shows the latency and packet loss between a source and destination network point as well as any network hops in between.'
+        ]
+      },
+      {
+        title: 'What is a traceroute used for?',
+        content: [
+          'Traceroutes are invaluable when debugging network issues. They allow us to diagnose suboptimal network routes, loops or packet loss while connecting between two points in a network. They can also be used to troubleshoot network failures and failed routes.',
+          'To get an accurate representation of a traceroute result, it is generally recommended to run a traceroute in both directions from the destination and source and vice versa.'
+        ]
+      }
+    ],
+    article2: [
+      {
+        title: 'How does a traceroute work?',
+        content: [
+          'A traceroute tool usually relies on ICMP messages to send echo packages. It then measures the response time between the time when the message was sent and the time we received a reply, which is called latency. This is calculated for each network hop to give as much visibility as possible into the network route. It is also possible to run a traceroute in TCP mode for situations where ICMP is unavailable, however, this is less common.'
+        ]
+      },
+      {
+        title: 'What does packet loss in a traceroute mean?',
+        content: [
+          'Packet loss in a traceroute means that a specific hop or destination address failed or refused to send a response message. This can be indicative of network congestion or other issues. However, it is important to understand that due to the nature of ICMP, it is often the case that particular hops between the source and destination will refuse to send a reply message.',
+          'It is not uncommon to see hops in the middle report packet loss by routers that are set to deprioritize or ignore ICMP packets. It is usually recommended to focus primarily on the packet loss on the last hop of the destination to get a more accurate understanding of a potential issue.'
+        ]
+      }
+    ]
+  };
+});
+
+const i18ntext = computed(() => {
+  return nationalFlag(t);
+});
+
 const columnlist = [
   [
     {
       title: t('nationalFlag.continentName[1]'),
-      list: tm('nationalFlag.Europe') as any
+      list: i18ntext.value.Europe
     }
   ],
   [
     {
       title: t('nationalFlag.continentName[0]'),
-      list: tm('nationalFlag.North_America') as any
+      list: i18ntext.value.North_America
     }
   ],
   [
     {
       title: t('nationalFlag.continentName[2]'),
-      list: tm('nationalFlag.Asia') as any
+      list: i18ntext.value.Asia
     }
   ],
   [
     {
       title: t('nationalFlag.continentName[3]'),
-      list: tm('nationalFlag.Oceania') as any
+      list: i18ntext.value.Oceania
     },
     {
       title: t('nationalFlag.continentName[4]'),
-      list: tm('nationalFlag.South_America') as any
+      list: i18ntext.value.South_America
     },
     {
       title: t('nationalFlag.continentName[5]'),
-      list: tm('nationalFlag.Middle_East&Africa') as any
+      list: i18ntext.value['Middle_East&Africa']
     }
   ]
 ];

@@ -50,20 +50,22 @@
 const { t: $t, tm } = useI18n();
 const current: any = ref({});
 const props = withDefaults(
-  defineProps<{
-    title: string;
-    subTitle: string;
-    btnText: string;
-    sweperList: Array<{
-      icon: string;
-      iconw: string;
-      miconw: string;
+  defineProps<
+    Partial<{
       title: string;
-      bigPic: string;
-      bigpicW: string;
-      mbigpicW: string;
-    }>;
-  }>(),
+      subTitle: string;
+      btnText: string;
+      sweperList: Array<{
+        icon: string;
+        iconw: string;
+        miconw: string;
+        title: string;
+        bigPic: string;
+        bigpicW: string;
+        mbigpicW: string;
+      }>;
+    }>
+  >(),
   {}
 );
 const slotDefault = !!useSlots().default;

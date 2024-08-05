@@ -10,7 +10,7 @@
       <div class="list">
         <div
           class="item"
-          v-for="item in $tm('products.cdn.overview.productsSuperCharge.items')"
+          v-for="item in i18ntext"
         >
           <div
             class="icon"
@@ -22,7 +22,36 @@
     </div>
   </div>
 </template>
-
+<script setup lang="ts">
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_supercharge_ic_1@2x.png',
+      title: 'Website CDN'
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_supercharge_ic_2@2x.png',
+      title: 'Image CDN'
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_supercharge_ic_3@2x.png',
+      title: 'Video CDN'
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_supercharge_ic_4@2x.png',
+      title: 'Gaming CDN'
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_supercharge_ic_5@2x.png',
+      title: 'Software Distribution'
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_supercharge_ic_6@2x.png',
+      title: 'WordPress CDN'
+    }
+  ];
+});
+</script>
 <style lang="less" scoped>
 .products-super-charge {
   margin-top: 87px;

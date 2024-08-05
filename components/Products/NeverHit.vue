@@ -4,25 +4,27 @@ defineProps<{
   neverHit: {
     title: string;
     subTitle: string;
-    list: {
+    list?: Partial<{
       icon: string;
       width: string;
       height: string;
       alignType: string;
       title: string;
       content: string;
-    }[];
-    items: Array<{
-      num: Number;
-      icon: string;
-      title: string;
-      width: string;
-      height: string;
-      content: string;
-      btn: string;
-      alignType: string;
-      contentAlign: string;
-    }>;
+    }>[];
+    items?: Array<
+      Partial<{
+        num: Number;
+        icon: string;
+        title: string;
+        width: string;
+        height: string;
+        content: string;
+        btn: string;
+        alignType?: string;
+        contentAlign?: string;
+      }>
+    >;
   };
 }>();
 </script>

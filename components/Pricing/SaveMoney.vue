@@ -37,12 +37,12 @@ const props = withDefaults(
     hint?: string;
     fItems?: Array<{
       title: string;
-      subTitle: string;
-      content: string;
+      subTitle?: string;
+      content?: string;
       items: Array<{
-        label: string;
-        value: string;
-        width: string;
+        label?: string;
+        value?: string;
+        width?: string;
       }>;
     }>;
   }>(),

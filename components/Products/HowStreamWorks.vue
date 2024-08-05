@@ -12,7 +12,7 @@
         <div class="list">
           <div
             class="item"
-            v-for="item in $tm('products.stream.overview.howStreamWorks.list')"
+            v-for="item in i18ntext"
           >
             <div class="title">
               <i class="icon"></i>
@@ -21,8 +21,8 @@
             <div class="works-items">
               <div
                 class="item"
-                :class="{ block: item2.block || isMobile }"
                 v-for="item2 in item.items"
+                :class="{ block: item2.block || isMobile }"
               >
                 <div class="title">{{ item2.title }}</div>
                 <div class="inner-list" :class="{ max: item2.max }">
@@ -55,6 +55,92 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      title: 'Media Ingress',
+      items: [
+        {
+          title: 'Upload',
+          block: true,
+          items: [
+            'Console',
+            'Upload Tool',
+            'Upload SDK',
+            'Upload API',
+            'Fetch by URL ',
+            'Live Recording'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Content Management System & Video Processing',
+      items: [
+        {
+          title: 'Upload',
+          block: true,
+          items: [
+            'Repackage',
+            'Video Encryption',
+            'Watermark',
+            'Multi-Res',
+            'H.264',
+            'Preview'
+          ]
+        }
+      ],
+      subList: {
+        title: 'Workflow',
+        items: [
+          {
+            title: 'Video / Audio Transcoding',
+            block: true,
+            items: [
+              'Repackage',
+              'Video Encryption',
+              'Watermark',
+              'Multi-Res',
+              'H.264',
+              'Preview'
+            ]
+          },
+          {
+            title: 'Video Sceenshot',
+            max: true,
+            items: ['Screenshot for the Cover Image']
+          },
+          {
+            title: 'Video Editor',
+            items: ['Trimming', 'Splicing']
+          }
+        ]
+      }
+    },
+    {
+      title: 'Media Egress & Delivery',
+      items: [
+        {
+          title: 'Upload',
+          items: ['Material Mgt.', 'Video Delete']
+        },
+        {
+          title: 'Copyright Protection',
+          items: ['Access Control', 'Anti Hot-Linking', 'Authorization']
+        },
+        {
+          title: 'Excellent Experience',
+          max: true,
+          items: ['CDN']
+        }
+      ]
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .how-stream-works-container {

@@ -59,11 +59,11 @@
   </div>
   <div class="page-container AllPosts">
     <CommonTabs
-      :tabs="$tm('resources.blog.CommonTabs')"
+      :tabs="i18ntext.CommonTabs"
       v-model:cur-tab="curTab"
     />
     <div class="Post-list">
-      <div class="Post-item" v-for="item in $tm('resources.blog.Post') as any">
+      <div class="Post-item" v-for="item in i18ntext.Post">
         <div
           class="img-box"
           :style="{
@@ -113,6 +113,65 @@
 const curTab = ref(0);
 definePageMeta({
   title: 'Resources'
+});
+
+const i18ntext = computed(() => {
+  return {
+    CommonTabs: [
+      {
+        tab: 'All Posts'
+      },
+      {
+        tab: 'AI'
+      },
+      {
+        tab: 'Networking'
+      },
+      {
+        tab: 'News'
+      },
+      {
+        tab: 'Performance'
+      },
+      {
+        tab: 'Privacy'
+      },
+      {
+        tab: 'Securitv'
+      },
+      {
+        tab: 'Tips And Tricks'
+      }
+    ],
+    Post: [
+      {
+        img: '/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png',
+        title: 'News',
+        content:
+          'Leading with smarter edge compute,Gowaf.net hopping at NAB 2024',
+        author: 'Raul Vecchione',
+        headPortrait: '',
+        time: 'April 26. 2024'
+      },
+      {
+        img: '',
+        title: 'News',
+        content: 'Now Creators Take Charge Using Gowaf Stream with Patreon',
+        author: 'Raul Vecchione',
+        headPortrait: '',
+        time: 'April 26. 2024'
+      },
+      {
+        img: '',
+        title: 'News',
+        content:
+          "We're Changing The WordPress Performance Game: Introducing The New bunny.net Plugin",
+        author: 'Raul Vecchione',
+        headPortrait: '',
+        time: 'April 26. 2024'
+      }
+    ]
+  };
 });
 </script>
 <style lang="scss" scoped>

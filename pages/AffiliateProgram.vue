@@ -18,12 +18,9 @@
       mh: '29.13rem'
     }"
   />
-  <ProductsEasyPowerful
-    :show-next="false"
-    v-bind="$tm('home.AffiliateProgram.neverHit')"
-  />
+  <ProductsEasyPowerful :show-next="false" v-bind="i18ntext.neverHit" />
   <VSpace h="100px" mh="6.25rem"></VSpace>
-  <CommonList1 v-bind="$tm('home.AffiliateProgram.list1')" />
+  <CommonList1 v-bind="i18ntext.list1" />
   <div class="btn-row page-container">
     <div class="btn">
       {{ $t('home.AffiliateProgram.listBtn') }}
@@ -84,7 +81,7 @@
     <HomeCollapse
       :title="$t('home.AffiliateProgram.Collapse.title')"
       :subtitle="$t('home.AffiliateProgram.Collapse.subtitle')"
-      :list="$tm('home.AffiliateProgram.Collapse.list')"
+      :list="i18ntext.list"
     ></HomeCollapse>
   </div>
   <VSpace h="100px" mh="6.25rem"></VSpace>
@@ -115,6 +112,106 @@ const list = ref([
   'Software Distribution',
   'DoS Protection'
 ]);
+
+const i18ntext = computed<any>(() => {
+  return {
+    neverHit: {
+      title: 'Register. Share. Earn.',
+      subTitle: 'Start earning money in 3 simple steps.',
+      fulItems: [
+        {
+          icon: '/images/home/affiliate_1_ic_1@2x.png',
+          width: '80px',
+          height: '80px',
+          alignType: 'center',
+          title: 'Register',
+          content: 'Create a paid account at Gowaf.net.',
+          contentAlign: 'center'
+        },
+        {
+          icon: '/images/home/affiliate_1_ic_2@2x.png',
+          width: '80px',
+          height: '80px',
+          alignType: 'center',
+          title: 'Share you link',
+          content: 'Share your unique link with the world.',
+          contentAlign: 'center'
+        },
+        {
+          icon: '/images/home/affiliate_1_ic_3@2x.png',
+          width: '80px',
+          height: '80px',
+          alignType: 'center',
+          title: 'Start making money',
+          content: 'Earn $20 for each paid signup.',
+          contentAlign: 'center'
+        }
+      ]
+    },
+    list1: {
+      title1: 'How does it work?',
+      title2:
+        'Getting started with the Gowaf Affiliate program is free and easy.',
+      items: [
+        {
+          icon: '/images/home/affiliate_2_ic_1@2x.png',
+          title: 'Pay Only For What You Use',
+          content:
+            'Only pay for the number of minutes you transcribe with no minimum recurring costs.'
+        },
+        {
+          icon: '/images/home/affiliate_2_ic_2@2x.png',
+          title: '$1 Monthly Minimum',
+          content:
+            'Get started for free with a 14-day free trial, and continue for as little as $1 per month.'
+        },
+        {
+          icon: '/images/home/affiliate_2_ic_3@2x.png',
+          title: 'All Features Included',
+          content:
+            'Use the full Transcribe AI feature set with no extra charges or hidden costs.'
+        }
+      ]
+    },
+    list: [
+      {
+        title: 'How does the Bunny Affiliate program work?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program.'
+      },
+      {
+        title: 'Who is eligible for the Bunny Affiliate program?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program..'
+      },
+      {
+        title: 'How do I join the affiliate program?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program.'
+      },
+      {
+        title: 'How much do I earn per referral?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program.'
+      },
+      {
+        title: 'Is there a maximum amount for commission?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program.'
+      },
+      {
+        title: 'When will I get my payout?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program.'
+      },
+      {
+        title: 'Can I create my own marketing materials?',
+        subtitle:
+          'Anyone who has a paid bunny.net account can join the affiliate program.'
+      }
+    ]
+  };
+});
 </script>
 <style lang="scss" scoped>
 .btn-row {

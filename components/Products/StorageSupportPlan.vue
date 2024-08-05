@@ -24,13 +24,9 @@
                   )
                 }}
               </div>
-              <Line top="30px" />
+              <Line top="30px" m-top="" />
               <ul class="super-plan-list">
-                <li
-                  v-for="(item, index) in $tm(
-                    'products.storage.Europe.storageSupportPlan.content.list'
-                  )"
-                >
+                <li v-for="(item, index) in i18ntext">
                   <h4>
                     <span>{{ item.num }}</span>
                     {{ item.unit }}
@@ -38,7 +34,7 @@
                   {{ item.title }}
                 </li>
               </ul>
-              <Line top="10px" />
+              <Line top="10px" m-top="" />
               <div class="title mt30">
                 {{
                   $t(
@@ -65,9 +61,7 @@
             </div>
           </div>
           <div class="right">
-            <div
-              class="pic"
-            >
+            <div class="pic">
               <img :src="localizedDefaults.icon" alt="" srcset="" />
             </div>
           </div>
@@ -81,13 +75,13 @@
 const { t: $t } = useI18n();
 const props = withDefaults(
   defineProps<{
-    title: string;
-    subTitle: string;
-    icon: string;
+    title?: string;
+    subTitle?: string;
+    icon?: string;
     btnText: string;
     btnsubText: string;
-    iconw: string;
-    isHidenList: boolean;
+    iconw?: string;
+    isHidenList?: boolean;
   }>(),
   {}
 );
@@ -100,6 +94,20 @@ const localizedDefaults: any = computed(() => {
     icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
   };
   return mergeWithDefaults(obj, props);
+});
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      num: '5',
+      unit: 'min',
+      title: 'FIRST RESPONSE TIME'
+    },
+    {
+      num: '3',
+      unit: 'hrs',
+      title: 'AVERAGE SOLVE TIME'
+    }
+  ];
 });
 </script>
 
@@ -263,7 +271,7 @@ const localizedDefaults: any = computed(() => {
           .pic {
             width: 312px;
             height: 312px;
-            img{
+            img {
               width: 100%;
             }
             // background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);

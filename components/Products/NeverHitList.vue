@@ -1,26 +1,28 @@
 <script lang="ts" setup>
 defineProps<{
   isShowTitle: boolean;
-  type: string;
+  type?: string;
   neverHit: {
     title: string;
     subTitle: string;
-    list: {
+    list?: Partial<{
       icon: string;
       width: string;
       height: string;
       alignType: string;
       title: string;
       content: string;
-    }[];
-    items: Array<{
-      num: Number;
-      icon: string;
-      title: string;
-      content: string;
-      alignType: string;
-      btn?: string;
-    }>;
+    }>[];
+    items?: Array<
+      Partial<{
+        num: Number;
+        icon: string;
+        title: string;
+        content: string;
+        alignType: string;
+        btn?: string;
+      }>
+    >;
   };
 }>();
 </script>

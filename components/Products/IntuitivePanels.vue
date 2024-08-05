@@ -13,13 +13,11 @@ const curTab = ref(0);
       </div>
       <Line top="30px" m-top="2.2rem" />
       <CommonTabs
-        :tabs="$tm('products.cdn.overview.intuitivePanels.tabs')"
+        :tabs="i18ntext"
         v-model:cur-tab="curTab"
       />
       <template
-        v-for="(tab, index) in $tm(
-          'products.cdn.overview.intuitivePanels.tabs'
-        )"
+        v-for="(tab, index) in i18ntext"
       >
         <div class="tab-content" v-if="index === curTab">
           <div class="content">{{ tab.content }}</div>
@@ -44,6 +42,54 @@ const curTab = ref(0);
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      tab: 'Easy Pull Zone Manager',
+      content:
+        'Make website management a breeze with an easy-to-use zone manager that just works.',
+      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    },
+    {
+      tab: 'Raw Log Explorer',
+      content:
+        'Get full raw insights into your traffic. Debug issues, and stay on top of security with full access to raw logging.',
+      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    },
+    {
+      tab: 'Security Features',
+      content:
+        'Make website management a breeze with an easy-to-use zone manager that just works.',
+      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    },
+    {
+      tab: 'Insightful Analytics',
+      content:
+        'Make website management a breeze with an easy-to-use zone manager that just works.',
+      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .intuitive-panels-container {

@@ -7,9 +7,7 @@
           <div class="row">
             <div
               class="cell"
-              v-for="item in $tm(
-                'products.stream.multiDRM.drmTable.table.header'
-              )"
+              v-for="item in i18ntext.header"
             >
               {{ item }}
             </div>
@@ -18,7 +16,7 @@
         <div class="body">
           <div
             class="row"
-            v-for="row in $tm('products.stream.multiDRM.drmTable.table.body')"
+            v-for="row in i18ntext.body"
           >
             <div class="cell" v-for="item in row">
               <span v-if="item === true" class="icon-true"></span>
@@ -31,9 +29,7 @@
           <div class="row">
             <div
               class="cell"
-              v-for="item in $tm(
-                'products.stream.multiDRM.drmTable.table.footer'
-              )"
+              v-for="item in i18ntext.footer"
             >
               {{ item }}
             </div>
@@ -52,6 +48,31 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return {
+    header: [
+      'DRM Comparison',
+      'MediaCage Basic DRM',
+      'MediaCage Enterprise DRM'
+    ],
+    body: [
+      ['Browser support(*)', true, true],
+      ['Native iOS, Android support(*)', false, true],
+      ['Fairplay, Widevine support', false, true],
+      ['ClearKey AES-128', true, false],
+      ['Pre-integrated player', true, true],
+      ['Secure key management', true, true],
+      ['Download protection', true, true],
+      ['Screen grab protection(**)', false, true],
+      ['Custom player support', false, true]
+    ],
+    footer: ['Pricing', 'Free', 'Starting at 99$']
+  };
+});
+</script>
 
 <style lang="less" scoped>
 .drm-table-container {

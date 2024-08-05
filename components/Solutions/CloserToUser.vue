@@ -3,6 +3,34 @@ const props = defineProps({
   title: String,
   subTitle: String
 });
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      header: 'Without CDN',
+      icon1:
+        '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time@2x.png',
+      number: '2.5',
+      unit: 'seconds',
+      label: 'Website Load Time',
+      icon2:
+        '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_left@2x.png',
+      content:
+        'Connecting your visitors directly to your server from worldwide is not a good thing. It increases the latency, slows down your website speed, and delivers a far worse user experience!'
+    },
+    {
+      header: 'With Gowaf CDN',
+      icon1:
+        '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_time2@2x.png',
+      number: '0.7',
+      unit: 'seconds',
+      label: 'Website Load Time',
+      icon2:
+        '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_graph_right@2x.png',
+      content:
+        'By bringing your content closer to your visitors you will minimize latency, maximize performance and reduce your bounce rate. With Bunny CDN, your website will hop as fast as a Gowaf!'
+    }
+  ];
+});
 </script>
 
 <template>
@@ -14,9 +42,7 @@ const props = defineProps({
         <div
           class="item"
           :class="[`item-${index}`]"
-          v-for="(item, index) in $tm(
-            'solutions.websiteAcceleration.closerToUser.items'
-          )"
+          v-for="(item, index) in i18ntext"
         >
           <div class="header">{{ item.header }}</div>
           <div class="head">

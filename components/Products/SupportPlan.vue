@@ -1,14 +1,16 @@
 <script lang="ts" setup>
 withDefaults(
-  defineProps<{
-    bigtitle: string;
-    subTitle: string;
-    icon: string;
-    isHidenList: boolean;
-    title: string;
-    itemsContent: string;
-    itemsContent1: string;
-  }>(),
+  defineProps<
+    Partial<{
+      bigtitle: string;
+      subTitle: string;
+      icon: string;
+      isHidenList: boolean;
+      title: string;
+      itemsContent: string;
+      itemsContent1: string;
+    }>
+  >(),
   {
     title: 'Save up to 80% on your content delivery costs',
     itemsContent:
@@ -18,6 +20,14 @@ withDefaults(
     icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
   }
 );
+const i18ntext = computed<any>(() => {
+  return [
+    'No Hidden Fees',
+    'DDoS Protection',
+    'Real-Time Monitoring',
+    'Perma-Caching'
+  ];
+});
 </script>
 <template>
   <div class="support-plan-container">
@@ -31,14 +41,9 @@ withDefaults(
             <div class="title">{{ title }}</div>
             <div class="content">{{ itemsContent }}</div>
             <div class="content">{{ itemsContent1 }}</div>
-            <Line top="30px" v-if="!isHidenList" />
+            <Line m-top="" top="30px" v-if="!isHidenList" />
             <div class="list" v-if="!isHidenList">
-              <div
-                class="item"
-                v-for="item in $tm(
-                  'products.storage.Europe.supportPlan.content.list.items'
-                )"
-              >
+              <div class="item" v-for="item in i18ntext">
                 <div class="icon"></div>
                 <div class="text">{{ item }}</div>
               </div>
@@ -52,7 +57,6 @@ withDefaults(
     </div>
   </div>
 </template>
-
 <style lang="less" scoped>
 .support-plan-container {
   margin-top: 120px;
@@ -227,7 +231,7 @@ withDefaults(
     }
     .support-plan {
       width: 100%;
-     
+
       > .title {
         font-weight: 500;
         font-size: 2.13rem;

@@ -21,7 +21,7 @@
           {{ $t('home.join1.info1.content') }}
         </div>
         <div class="list">
-          <div class="item" v-for="item in $tm('home.join1.info1.leftList')">
+          <div class="item" v-for="item in i18ntext.leftList">
             <div class="icon"></div>
             <div class="text">
               {{ item }}
@@ -31,7 +31,7 @@
       </div>
       <div class="right">
         <div class="list">
-          <div class="item" v-for="item in $tm('home.join1.info1.rightList')">
+          <div class="item" v-for="item in i18ntext.rightList">
             <div class="left">
               <div
                 class="icon"
@@ -54,6 +54,44 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return {
+    leftList: [
+      t('home.join1.info1.leftList[0]'),
+      t('home.join1.info1.leftList[1]'),
+      'Perma-Caching',
+      t('home.join1.info1.leftList[3]'),
+      t('home.join1.info1.leftList[4]'),
+      t('home.join1.info1.leftList[5]')
+    ],
+    rightList: [
+      {
+        icon: 'home_list_ic_design',
+        title: t('home.join1.info1.rightList[0].title'),
+        content: t('home.join1.info1.rightList[0].content')
+      },
+      {
+        icon: 'home_list_ic_Server',
+        title: t('home.join1.info1.rightList[1].title'),
+        content: t('home.join1.info1.rightList[1].content')
+      },
+      {
+        icon: 'home_list_ic_network',
+        title: t('home.join1.info1.rightList[2].title'),
+        content: t('home.join1.info1.rightList[2].content')
+      },
+      {
+        icon: 'home_list_ic_Protection',
+        title: t('home.join1.info1.rightList[3].title'),
+        content: t('home.join1.info1.rightList[3].content')
+      }
+    ]
+  };
+});
+</script>
 
 <style lang="less" scoped>
 .join-1-container {

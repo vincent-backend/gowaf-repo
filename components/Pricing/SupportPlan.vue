@@ -20,9 +20,7 @@
             <div class="list">
               <div
                 class="item"
-                v-for="item in $tm(
-                  'pricing.cdn.supportPlan.content.list.items'
-                )"
+                v-for="item in i18ntext"
               >
                 <div class="icon"></div>
                 <div class="text">{{ item }}</div>
@@ -42,6 +40,18 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    '24/7 availability',
+    'Private Slack channel',
+    'Dedicated Account Manager',
+    'Direct communication with developers'
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .support-plan-container {

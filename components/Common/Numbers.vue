@@ -1,12 +1,8 @@
 <script lang="ts" setup>
-import { computed } from 'vue';
+import type { NumbersItem } from '~/types/tabs';
 const props = defineProps<{
-  numbersTitle: string;
-  items: {
-    label: string;
-    label2: string;
-    content: string;
-  }[];
+  numbersTitle?: string;
+  items?: NumbersItem;
   type?: string;
   isRow?: boolean;
   isTwoRow?: boolean;

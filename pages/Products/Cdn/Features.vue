@@ -49,7 +49,7 @@
     </div>
 
     <template
-      v-for="(item, index) in $tm('products.cdn.features.ad2Container.items')"
+      v-for="(item, index) in i18ntext.items"
     >
       <SolutionsAd2
         :title="item.title"
@@ -74,6 +74,66 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'Products'
+});
+const i18ntext = computed<any>(() => {
+  return {
+    items: [
+      {
+        pic: '/images/products/cdn/features/cdnfeatures_performance_img@2x.png',
+        title: 'Performance',
+        content:
+          "Performance matters, and it's our goal to take it to the next level. bunny.net helps you supercharge your web presence with powerful features designed for efficient global caching and content optimization to squeezeout every last millisecond of performance.",
+        list: [
+          'Edge Rules',
+          'Image Optimization',
+          'Request Coalescing',
+          'perma-Cache',
+          'Customizable Caching'
+        ]
+      },
+      {
+        pic: '/images/products/cdn/features/cdnfeatures_network_img@2x.png',
+        title: 'Network',
+        content:
+          "Not all networks are crafted the same. Gowaf gives you a direct line to one of the fastest networks in the world, designed for a true planet-scale reach that's always just a hop away from your users.",
+        list: [
+          '150 Tbps+ Backbone',
+          '123 PoPs',
+          'Real-Time Monitoring',
+          'Automatic-Healing',
+          'SmartHop Engine',
+          '3000+ PNIs'
+        ]
+      },
+      {
+        pic: '/images/products/cdn/features/cdnfeatures_security_img@2x.png',
+        title: 'Security',
+        content:
+          'Take advantage of robust security features that allow you to control who, when, and for how long end-user can access your content. Stop bad bots and block attacks before they ever reach your server. bunny.net helps you stay safe at all times.',
+        list: [
+          'GEO Blocking',
+          'WAF (Coming Soon)',
+          'Network Limits',
+          'DoS Protection',
+          'Token Authentication',
+          'Hotlinking Protection'
+        ]
+      },
+      {
+        pic: '/images/products/cdn/features/cdnfeatures_reporting_img@2x.png',
+        title: 'Reporting',
+        content:
+          'Get the full insights into your traffic with a live monitoring map, real-time statistics, full logging, and reporting tools. Polyfll helps you spot bottlenecks, connectivity, or server issues and keep your infrastructure running smoothly at all times.',
+        list: [
+          'Live-Monitoring',
+          'Performance Metrics',
+          'Full Raw Logging',
+          'Real-Time Statistics',
+          'Traffic Reporting'
+        ]
+      }
+    ]
+  };
 });
 </script>
 

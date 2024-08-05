@@ -35,7 +35,7 @@
             <MenuItem
               v-for="item in ProductsMenu($t, $route.path)"
               :item="item"
-              :key="item.title"
+              :key="item.label"
             />
             <div class="tips">
               <div class="text">
@@ -68,9 +68,9 @@
           >
             <MenuItem
               v-for="item in [
-                $tm('header.solutionsMenu.solutions'),
-                $tm('header.solutionsMenu.byNeed'),
-                $tm('header.solutionsMenu.videoAndStreaming')
+                i18ntext.solutions,
+                i18ntext.byNeed,
+                i18ntext.videoAndStreaming
               ]"
               :item="item"
               :key="item.title"
@@ -106,7 +106,7 @@
             <MenuItem
               v-for="item in ResourcesMenu($t, $route.path)"
               :item="item"
-              :key="item.title"
+              :key="item.label"
             />
             <div class="tips">
               <div class="text">
@@ -132,6 +132,7 @@
 
 <script setup lang="ts">
 import { ClickOutside as vClickOutside } from 'element-plus';
+const { t } = useI18n();
 const emit = defineEmits(['update:show']);
 const model = defineModel('show', {
   type: Boolean,
@@ -166,6 +167,66 @@ watch(
     immediate: true
   }
 );
+
+const i18ntext = computed(() => {
+  return {
+    solutions: {
+      title: 'SOLUTIONS',
+      items: [
+        {
+          title: 'By Need',
+          icon: '/images/home/Solutions_nav_ic_need.png'
+        },
+        {
+          title: 'By Industry',
+          icon: '/images/home/Solutions_nav_ic_Industry.png'
+        }
+      ]
+    },
+    byNeed: {
+      title: 'BY NEED',
+      items: [
+        {
+          title: 'Video and Streaming',
+          icon: '/images/home/Solutions_nav_ic_video.png'
+        },
+        {
+          title: 'Storage and Delivery',
+          icon: '/images/home/Solutions_nav_ic_Storage.png'
+        },
+        {
+          title: 'Website Performance',
+          icon: '/images/home/Solutions_nav_ic_Website.png'
+        },
+        {
+          title: 'Security and Protection',
+          icon: '/images/home/Solutions_nav_ic_Security.png'
+        }
+      ]
+    },
+    videoAndStreaming: {
+      title: 'VIDEO AND STREAMING',
+      items: [
+        {
+          title: 'Video Delivery',
+          subTitle: 'Deliver the best video exoerience.'
+        },
+        {
+          title: 'Media Cage',
+          subTitle: 'Keep your videos secured and safe.'
+        },
+        {
+          title: 'Enterprise Multi-DRM',
+          subTitle: 'Hollywood grade video protection.'
+        },
+        {
+          title: 'Transcribe Al',
+          subTitle: 'Generate captions with a single click'
+        }
+      ]
+    }
+  };
+});
 </script>
 <style lang="scss" scoped>
 .fade-enter-active,

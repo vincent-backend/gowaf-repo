@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 defineProps<{
-  title1: string;
-  title2: string;
-  title2Width: String;
-  items: {
+  title1?: string;
+  title2?: string;
+  title2Width?: String;
+  items?: {
     icon: string;
     title: string;
     content?: string;

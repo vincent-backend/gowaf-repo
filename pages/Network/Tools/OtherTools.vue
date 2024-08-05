@@ -43,19 +43,19 @@
   </NetworkToolsBenner>
   <LgOnly>
     <ProductsNeverHit
-    class="NeverHit-box"
-    :isShowTitle="false"
-    :neverHit="$tm('network.WebTools.OtherTools.neverHit')"
-  />
+      class="NeverHit-box"
+      :isShowTitle="false"
+      :neverHit="i18ntext.neverHit"
+    />
   </LgOnly>
   <XsOnly>
     <ProductsNeverHitList
       :isShowTitle="false"
       type="card"
-      :neverHit="$tm('network.WebTools.OtherTools.neverHit')"
+      :neverHit="i18ntext.neverHit"
     />
   </XsOnly>
-  <VSpace :h="'145px'"></VSpace>
+  <VSpace :h="'145px'" mh=""></VSpace>
   <Footer :is-show-banner="false" />
 </template>
 
@@ -65,7 +65,36 @@ const select = ref('1');
 definePageMeta({
   title: 'Web Tools'
 });
-
+const i18ntext = computed<any>(() => {
+  return {
+    neverHit: {
+      items: [
+        {
+          icon: '/images/network/WebTools/other_tools_ic_1@2x.png',
+          width: '100px',
+          height: '100px',
+          alignType: 'center',
+          title: 'SSL Checker',
+          content:
+            'Verify whether your SSL certificate is correctly installed.',
+          contentAlign: 'center',
+          btn: 'SSL Checker'
+        },
+        {
+          icon: '/images/network/WebTools/diagnostic_report_ic_1@2x.png',
+          width: '100px',
+          height: '100px',
+          alignType: 'center',
+          title: 'IP Geolocation',
+          content:
+            'Check aproximately where an IP address is located (geolocation).',
+          contentAlign: 'center',
+          btn: 'GeolP Lookup'
+        }
+      ]
+    }
+  };
+});
 </script>
 <style lang="scss" scoped>
 .btnBox {

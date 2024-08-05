@@ -10,7 +10,7 @@
       <div class="step-container">
         <div
           class="step-item"
-          v-for="item in $tm('products.cdn.overview.readyToHop.items')"
+          v-for="item in i18ntext"
         >
           <div class="step">{{ item.step }}</div>
           <div class="title">{{ item.title }}</div>
@@ -20,6 +20,31 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      step: '01',
+      title: 'Create an Account',
+      content:
+        'Integrate the CDN into your web applicationand eniov a boost of speed. Need helo? Reachout to our Super Bunnies.'
+    },
+    {
+      step: '02',
+      title: 'Configure CDN Resources',
+      content: 'Connect a Pull Zone or upload our files directly to bunny.net. '
+    },
+    {
+      step: '03',
+      title: 'Supercharge!',
+      content:
+        'Integrate the CDN into your web application and eniov a boost of speed. Need helo? Reach out to our Super Bunnies.'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .ready-to-hop-container {

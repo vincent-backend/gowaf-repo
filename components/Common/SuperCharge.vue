@@ -1,32 +1,10 @@
 <script lang="ts" setup>
+import type { tabs } from '~/types/tabs'
 defineProps<{
-  title: string;
-  subTitle: string;
-  isList: boolean;
-  tabs: {
-    tab: string;
-    title: string;
-    titleTip?: string;
-    content: string;
-    btn: string;
-    href: string;
-
-    icon: string;
-    iconWidth: string;
-    iconHeight: string;
-
-    mIcon: string;
-    mIconWidth: string;
-    mIconHeight: string;
-    items: {
-      title: string;
-      content: string;
-      iconList: {
-        icon: string;
-        label: string;
-      };
-    }[];
-  }[];
+  title?: string;
+  subTitle?: string;
+  isList?: boolean;
+  tabs: tabs;
 }>();
 
 // tabs
@@ -74,7 +52,7 @@ const curTab = ref(0);
                 tab.titleTip
               }}</span>
             </div>
-            <div class="content">
+            <div class="content" v-if="tab.content">
               <p v-for="text in tab.content.split(/\r\n|\n/)">
                 {{ text }}
               </p>

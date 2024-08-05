@@ -65,7 +65,7 @@
         :class="{
           bold: index == 0
         }"
-        v-for="(item, index) in $tm('resources.WhatIsCDN.option')"
+        v-for="(item, index) in i18ntext.option"
         :key="index"
       >
         {{ item }}
@@ -77,7 +77,7 @@
       <div class="left">
         <div
           class="articleBlock"
-          v-for="(item, index) in $tm('resources.WhatIsCDN.articleList')"
+          v-for="(item, index) in i18ntext.articleList"
           :key="index"
         >
           <div class="title">
@@ -103,7 +103,7 @@
         </div>
         <div
           class="advertisement"
-          v-for="(item, index) in $tm('resources.WhatIsCDN.advertisement')"
+          v-for="(item, index) in i18ntext.advertisement"
           :key="index"
         >
           <div class="ad-title">
@@ -135,6 +135,55 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'Academy'
+});
+const i18ntext = computed(() => {
+  return {
+    option: ['What is CDN?', 'Content Acceleration', 'Reliability', 'Servers'],
+    articleList: [
+      {
+        title: 'About ParrotSec',
+        content:
+          '<p>A <b>Content Delivery Network (CDN)</b>, as the name implies, is a network of servers for the purpose of delivering website content. Although web servers are primarily responsible for serving a website’s content on the World Wide Web, a CDN can improve user experience by decreasing the distance between a user and the content (resulting in lower latency and improved throughput).</p><br/><p>CDNs are now very popular and used by websites with massive traffic such as Facebook and Amazon to provide a fast experience no matter the user’s geographical location.</p>'
+      },
+      {
+        title: 'Website experience without a CDN',
+        content:
+          '<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p>'
+      },
+      {
+        title: 'Website experience without a CDN',
+        content:
+          '<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p><br/><p><img src=\'/images/resources/WhatIsCDN/help_with@2x.png\' /></p><br/><p>This is roughly how CDNs work -- data is physically closer to end-users, much like a warehouse of products. This results in faster delivery times - or in the case of CDNs, faster page load times. There is a caveat: most CDNs do not have a "facility" - or edge server - in the same city as every user. So, users will have usually have to contend with data within a close proximity, but the general experience for users should still be improved.</p>'
+      },
+      {
+        title: 'Reducing bandwidth cost using a CDN',
+        content:
+          '<p>So far, the benefits of a CDN that have been discussed are from the users’ end. From the perspective of a website owner, other than providing a much better experience for the end user, a CDN also helps to reduce the overall cost of delivering content.</p><br/><p>For very popular websites, bandwidth on the origin server is a major expense. The origin server does not consume as much bandwidth since most of the content served to its end users uses the bandwidth of the edge servers. This reduces the cost of bandwidth on the origin server, which uses a much smaller amount of bandwidth to serve content to the edge servers (usually a single time). Therefore, by using a CDN, a popular website can serve the same number of users at a lower cost.</p>'
+      },
+      {
+        title: 'Security improvements using a Content Delivery Network',
+        content:
+          '<p>So far, the benefits of a CDN that have been discussed are from the users’ end. From the perspective of a website owner, other than providing a much better experience for the end user, a CDN also helps to reduce the overall cost of delivering content.</p><br/><p>For very popular websites, bandwidth on the origin server is a major expense. The origin server does not consume as much bandwidth since most of the content served to its end users uses the bandwidth of the edge servers. This reduces the cost of bandwidth on the origin server, which uses a much smaller amount of bandwidth to serve content to the edge servers (usually a single time). Therefore, by using a CDN, a popular website can serve the same number of users at a lower cost.</p>'
+      }
+    ],
+    advertisement: [
+      {
+        title: 'Edge Server',
+        content:
+          'An Edge Server is a server used as part of a global CDN or edge network. Usually an Edge Server is just one of hundreds of servers located around the world located in a close proximity to the end user.'
+      },
+      {
+        title: 'PoP',
+        content:
+          'PoP stands for Point of Presence and is usually referred to as a region where a company or service operates from.'
+      },
+      {
+        title: 'CDN',
+        content:
+          'A CDN, or "Content Delivery Network," is a network of servers (typically placed around the world) used to deliver content (such as videos, photos, and CSS).'
+      }
+    ]
+  };
 });
 </script>
 <style lang="scss" scoped>

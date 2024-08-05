@@ -4,7 +4,7 @@
       <div class="title">{{ $t('pricing.cdn.hop.title') }}</div>
       <div class="sub-title">{{ $t('pricing.cdn.hop.subTitle') }}</div>
       <div class="list">
-        <div class="item" v-for="item in $tm('pricing.cdn.hop.list')">
+        <div class="item" v-for="item in i18ntext">
           <div class="head">
             <div
               class="icon"
@@ -23,7 +23,34 @@
     </div>
   </div>
 </template>
-
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return [
+    {
+      icon: '/images/pricing/cdn/Pricing_CDN_ic_Storage.png',
+      title: 'Gowaf Storage',
+      subTitle: 'From $0.01 /GB',
+      btn: 'See pricing details',
+      href: '#'
+    },
+    {
+      icon: '/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png',
+      title: 'Gowaf Optimizer',
+      subTitle: '$9.50 /website',
+      btn: 'See pricing details',
+      href: '#'
+    },
+    {
+      icon: '/images/pricing/cdn/Pricing_CDN_ic_Stream.png',
+      title: 'Gowaf Stream',
+      subTitle: 'From $0.005 /GB',
+      btn: 'See pricing details',
+      href: '#'
+    }
+  ];
+});
+</script>
 <style lang="less" scoped>
 .hop-container {
   margin-top: 120px;

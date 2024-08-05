@@ -40,13 +40,13 @@
   <ProductsEasyPowerful
     :title="$t('products.optimizer.overview.EasyPowerful.title')"
     :sub-title="$t('products.optimizer.overview.EasyPowerful.subTitle')"
-    :ful-items="$tm('products.optimizer.overview.EasyPowerful.items')"
+    :ful-items="i18ntext.items"
   />
   <CommonNumbers
     is-row
     is-two-row
     style="margin-top: 80px"
-    :items="$tm('products.optimizer.overview.numbers')"
+    :items="i18ntext.numbers"
   />
 
   <SolutionsAd2
@@ -96,7 +96,7 @@
   <SolutionsAd2
     :title="$t('products.optimizer.overview.website.title')"
     :content="$t('products.optimizer.overview.website.content')"
-    :list="$tm('products.optimizer.overview.website.list')"
+    :list="i18ntext.list"
     :btn="$t('products.optimizer.overview.website.btn')"
     :btnSubtext="$t('products.optimizer.overview.website.btnSubtext')"
     single-rowlist
@@ -115,16 +115,10 @@
     </template>
   </SolutionsAd2>
   <LgOnly>
-    <ProductsNeverHit
-      :isShowTitle="true"
-      :neverHit="$tm('products.optimizer.overview.neverHit')"
-    />
+    <ProductsNeverHit :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </LgOnly>
   <XsOnly>
-    <ProductsNeverHitList
-      :isShowTitle="true"
-      :neverHit="$tm('products.optimizer.overview.neverHit')"
-    />
+    <ProductsNeverHitList :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </XsOnly>
   <SolutionsAd2
     :title="$t('products.optimizer.overview.Boost.title')"
@@ -140,15 +134,149 @@
     class="Boost"
   >
   </SolutionsAd2>
-  <ProductsDRMCustomers
-    :drmCustomer="$tm('products.storage.LatinAmerica.drmCustomer')"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
 
   <Footer />
 </template>
 <script setup lang="ts">
 definePageMeta({
   title: 'Products'
+});
+
+const i18ntext = computed<any>(() => {
+  return {
+    items: [
+      {
+        icon: '/images/products/optimizer/overview/media_simple_ic_1@2x.png',
+        title: 'Connect',
+        content:
+          'Easily connect your website to Bunny Optimizer with just a few clicks.'
+      },
+      {
+        icon: '/images/products/optimizer/overview/transcribe_1_ic_2@2x.png',
+        title: 'Transform API',
+        content:
+          'Resize, crop, and modify images on the fly with simple url query parameters.'
+      },
+      {
+        icon: '/images/products/optimizer/overview/stream_overview_ic_replicate@2x.png',
+        title: 'Optimize',
+        content:
+          'Automatically optimize images, and minify CSS & JavaScript files for maximum performance.'
+      },
+      {
+        icon: '/images/products/optimizer/overview/media_simple_ic_3@2x.png',
+        title: 'Deliver',
+        content:
+          'Deliver your website faster than ever before to anyone, anywhere, anytime!'
+      }
+    ],
+    numbers: [
+      {
+        label: 'Up to 80%',
+        content: 'Image Compression'
+      },
+      {
+        label: '97%',
+        content: 'Cache HIT Rate'
+      },
+      {
+        label: '40.000+',
+        content: 'Satisfied Customers'
+      },
+      {
+        label: '50 Billion+',
+        content: 'Optimized Images'
+      }
+    ],
+    list: [
+      'Unlimited requests',
+      'Unlimited optimizations',
+      'Unlimited image transformations'
+    ],
+    neverHit: {
+      title: 'Powerful optimization. One-click away.',
+      subTitle:
+        'Get hopping in less than 5 minutes without writing a single line of code.',
+      items: [
+        {
+          icon: '/images/products/optimizer/overview/SmartEdge™_ic_cache@2x.png',
+          width: '100px',
+          height: '100px',
+          alignType: 'flex-start',
+          title: 'Minify CSS & JavaScri',
+          content:
+            'Automatically compress and minify your CSS and JavaScript files to maximize website load speeds!',
+          contentAlign: 'left'
+        },
+        {
+          icon: '/images/products/optimizer/overview/SmartEdge™_ic_Monitoring@2x.png',
+          width: '100px',
+          height: '100px',
+          alignType: 'flex-start',
+          title: 'Smart Image Optimization',
+          content:
+            'Automatically adjust, resize and compress images based on the user’s device type in the most optimal way possible!',
+          contentAlign: 'left'
+        },
+        {
+          icon: '/images/products/optimizer/overview/SmartEdge™_ic_engine@2x.png',
+          width: '100px',
+          height: '100px',
+          alignType: 'flex-start',
+          title: 'Automatic WebP Compression',
+          content:
+            'Reduce your image sizes up to 80% by compressing them into a web-friendly and faster WebP format!',
+          contentAlign: 'left'
+        }
+      ]
+    },
+    drmCustomer: {
+      title: 'Join over 40.000+ happy customers',
+      contentPre: "We're rated ",
+      contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
+      contentMid: ' Excellent 4.8',
+      contentP: 'out of 5 on',
+      contentLink: 'Trustpilot',
+      contentLast: ' - Based on 600+ reviews',
+      isHiddenSubTitle: false,
+      faceImg: {
+        img: '/images/products/storage/latinamerica/Network_ddos_evaluate_character_2x.png',
+        top: '-3px',
+        right: '135px',
+        width: '438px',
+        height: '300px',
+        mtop: '11.81rem',
+        mright: '0',
+        mwidth: '27.38rem',
+        mheight: '18.75rem'
+      },
+      list: {
+        title: 'Pedro Dobrescu',
+        subTitle: 'ShortPixel',
+        content:
+          '"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
+      },
+      items: [
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png'
+        },
+        {
+          num: 4.4,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png'
+        },
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png'
+        },
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png'
+        }
+      ]
+    }
+  };
 });
 </script>
 

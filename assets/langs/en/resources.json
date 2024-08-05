@@ -33,93 +33,93 @@
     "perfectSolution": {
       "title": "Supercharging the internet since 2014",
       "content": "Gowaf started in 2014 with a simple idea of helping developers deliver content without breaking the bank. From there, it became a much more ambitious vision to help shape the internet.",
-      "items": [
-        {
-          "icon": "/images/resources/about/resources_about_ic_mission@2x.png",
-          "title": "Our Mission",
-          "content": "It’s our mission to help make the internet hop faster! By that, we mean building a faster, safer, and more reliable internet for billions of people worldwide."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_ic_vision@2x.png",
-          "title": "Our Vision",
-          "content": "To build a genuinely global network driven by constant innovation that helps companies hop ahead and developers to make the internet of tomorrow."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_ic_value@2x.png",
-          "title": "Our Main Core Value",
-          "content": "We are connected by 9 core values, but our main one is relentless innovation."
-        }
-      ]
+      // "items": [
+      //   {
+      //     "icon": "/images/resources/about/resources_about_ic_mission@2x.png",
+      //     "title": "Our Mission",
+      //     "content": "It’s our mission to help make the internet hop faster! By that, we mean building a faster, safer, and more reliable internet for billions of people worldwide."
+      //   },
+      //   {
+      //     "icon": "/images/resources/about/resources_about_ic_vision@2x.png",
+      //     "title": "Our Vision",
+      //     "content": "To build a genuinely global network driven by constant innovation that helps companies hop ahead and developers to make the internet of tomorrow."
+      //   },
+      //   {
+      //     "icon": "/images/resources/about/resources_about_ic_value@2x.png",
+      //     "title": "Our Main Core Value",
+      //     "content": "We are connected by 9 core values, but our main one is relentless innovation."
+      //   }
+      // ]
     },
-    "superCharge": {
-      "tab": "Website Acceleration",
-      "title": "Every ambitious vision has humble beginnings",
-      "content": "Every story, no matter how small or large, has a beginning. While our vision has changed and grown, our beginnings were quite humble. What hasn’t changed is our commitment to focus on solving problems, and always putting the customer first from the moment you sign up.",
-      "icon": "/images/resources/about/resources_about_graph_2@2x.png",
-      "iconWidth": "334px",
-      "iconHeight": "312px",
-      "btn": "Read Our Full Story",
-      "href": "#",
-      "mIcon": "/mobile-images/resources/about/resources_about_graph_2@2x.png",
-      "mIconWidth": "20.88rem",
-      "mIconHeight": "19.5rem"
-    },
-    "numbers": [
-      {
-        "label": "40.000+",
-        "content": "Active Customers"
-      },
-      {
-        "label": "1.000.000+",
-        "content": "Powered Websites"
-      },
-      {
-        "label": "650+ Billion",
-        "content": "Delivered Monthly Requests"
-      }
-    ],
-    "list2": {
-      "title1": "We hop by our core values",
-      "title2": "The Gowaf team is connected by 9 Gowaf values to help build a better tomorrow.",
-      "items": [
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_1@2x.png",
-          "title": "We relentlessly innovate."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_2@2x.png",
-          "title": "We operate with integrity."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_3@2x.png",
-          "title": "We disrupt and deliver impact."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_4@2x.png",
-          "title": "We believe great is not good enough."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_5@2x.png",
-          "title": "We embrace transparency and open communication."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_6@2x.png",
-          "title": "We’re kind and strive to make the world a better place."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_7@2x.png",
-          "title": "We learn and improve every day."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_8@2x.png",
-          "title": "We put customers first."
-        },
-        {
-          "icon": "/images/resources/about/resources_about_card_ic_9@2x.png",
-          "title": "We embrace diversity."
-        }
-      ]
-    },
+    // "superCharge": {
+    //   "tab": "Website Acceleration",
+    //   "title": "Every ambitious vision has humble beginnings",
+    //   "content": "Every story, no matter how small or large, has a beginning. While our vision has changed and grown, our beginnings were quite humble. What hasn’t changed is our commitment to focus on solving problems, and always putting the customer first from the moment you sign up.",
+    //   "icon": "/images/resources/about/resources_about_graph_2@2x.png",
+    //   "iconWidth": "334px",
+    //   "iconHeight": "312px",
+    //   "btn": "Read Our Full Story",
+    //   "href": "#",
+    //   "mIcon": "/mobile-images/resources/about/resources_about_graph_2@2x.png",
+    //   "mIconWidth": "20.88rem",
+    //   "mIconHeight": "19.5rem"
+    // },
+    // "numbers": [
+    //   {
+    //     "label": "40.000+",
+    //     "content": "Active Customers"
+    //   },
+    //   {
+    //     "label": "1.000.000+",
+    //     "content": "Powered Websites"
+    //   },
+    //   {
+    //     "label": "650+ Billion",
+    //     "content": "Delivered Monthly Requests"
+    //   }
+    // ],
+    // "list2": {
+    //   "title1": "We hop by our core values",
+    //   "title2": "The Gowaf team is connected by 9 Gowaf values to help build a better tomorrow.",
+    //   "items": [
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_1@2x.png",
+    //       "title": "We relentlessly innovate."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_2@2x.png",
+    //       "title": "We operate with integrity."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_3@2x.png",
+    //       "title": "We disrupt and deliver impact."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_4@2x.png",
+    //       "title": "We believe great is not good enough."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_5@2x.png",
+    //       "title": "We embrace transparency and open communication."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_6@2x.png",
+    //       "title": "We’re kind and strive to make the world a better place."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_7@2x.png",
+    //       "title": "We learn and improve every day."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_8@2x.png",
+    //       "title": "We put customers first."
+    //     },
+    //     {
+    //       "icon": "/images/resources/about/resources_about_card_ic_9@2x.png",
+    //       "title": "We embrace diversity."
+    //     }
+    //   ]
+    // },
     "map": {
       "title": "Stationed in Europe but present all around the world",
       "subTitle": "Gowaf was built by combining exceptional talent from all around the globe. While our home is in Europe, our warrens are present all around the world.Do you want to help make the internet hop faster? Join us."
@@ -133,39 +133,39 @@
     "list": {
       "title": "",
       "subTitle": "",
-      "list": [
-        {
-          "title": "1-Million Websites",
-          "subTitle": "A million sites hopping with Gowaf!",
-          "icon": "/images/resources/story/Resources_Story_card_bg_2x.png",
-          "content1": "The Gowaf are taking over the internet! In August 2022, over 1 million websites are now hopping with Gowaf and we're getting ready to grow even faster.",
-          "content2": "August 2022"
-        },
-        {
-          "title": "Gowaf Rebrand",
-          "subTitle": "A bigger vision under a new name to go along",
-          "content1": "A simple idea of building a great CDN turned into an ambitious new vision to truly help shape the future of the internet and make it hop faster.",
-          "content2": "January 2021"
-        },
-        {
-          "title": "100.000 Pull Zones",
-          "subTitle": "We reached 100.000+ active pull zones",
-          "content1": "It took a few years for things to take off, but we were growing at a nice pace. At the end of 2020, we reached the 1st major milestone of 100.000 Pull Zones!",
-          "content2": "December 2020"
-        },
-        {
-          "title": "Beta Launch",
-          "subTitle": "Gowaf CDN beta finally launched",
-          "content1": "The idea turned into a vision of disrupting the CDN market. After 3 years of hard work and sleepless nights, Gowaf CDN entered its first beta stage.",
-          "content2": "October 2015"
-        },
-        {
-          "title": "The Idea was Born",
-          "subTitle": "Idea of Gowaf CDN was first born",
-          "content1": "Struggling with CDN costs, our founder Dejan came up with the first idea of a fast, powerful, but affordable CDN to help others accelerate their content.",
-          "content2": "January 2012"
-        }
-      ]
+      // "list": [
+      //   {
+      //     "title": "1-Million Websites",
+      //     "subTitle": "A million sites hopping with Gowaf!",
+      //     "icon": "/images/resources/story/Resources_Story_card_bg_2x.png",
+      //     "content1": "The Gowaf are taking over the internet! In August 2022, over 1 million websites are now hopping with Gowaf and we're getting ready to grow even faster.",
+      //     "content2": "August 2022"
+      //   },
+      //   {
+      //     "title": "Gowaf Rebrand",
+      //     "subTitle": "A bigger vision under a new name to go along",
+      //     "content1": "A simple idea of building a great CDN turned into an ambitious new vision to truly help shape the future of the internet and make it hop faster.",
+      //     "content2": "January 2021"
+      //   },
+      //   {
+      //     "title": "100.000 Pull Zones",
+      //     "subTitle": "We reached 100.000+ active pull zones",
+      //     "content1": "It took a few years for things to take off, but we were growing at a nice pace. At the end of 2020, we reached the 1st major milestone of 100.000 Pull Zones!",
+      //     "content2": "December 2020"
+      //   },
+      //   {
+      //     "title": "Beta Launch",
+      //     "subTitle": "Gowaf CDN beta finally launched",
+      //     "content1": "The idea turned into a vision of disrupting the CDN market. After 3 years of hard work and sleepless nights, Gowaf CDN entered its first beta stage.",
+      //     "content2": "October 2015"
+      //   },
+      //   {
+      //     "title": "The Idea was Born",
+      //     "subTitle": "Idea of Gowaf CDN was first born",
+      //     "content1": "Struggling with CDN costs, our founder Dejan came up with the first idea of a fast, powerful, but affordable CDN to help others accelerate their content.",
+      //     "content2": "January 2012"
+      //   }
+      // ]
     }
   },
   "contact": {
@@ -202,67 +202,67 @@
     "list": {
       "title": "",
       "subTitle": "",
-      "list": [
-        {
-          "title": "2012",
-          "subTitle": "It all started with a simple problem",
-          "icon": "/images/resources/story/Resources_Story_card_bg_2x.png",
-          "content1": "In 2012 Dejan Grofelnik Pelzel faced a big problem - he had a website he was working on that was causing an ever-increasing traffic bill. A few terabytes of CDN costs were almost as high as his monthly paycheck, but he could never understand why.",
-          "content2": "Why were CDNs so expensive when network infrastructure was so affordable? CDNs were either grossly overpriced or didn’t work, but Dejan didn’t let that stop him. He always loved a challenge, and the solution was obvious."
-        },
-        {
-          "title": "2013",
-          "subTitle": "First concept of in-house CDN",
-          "content1": "Dejan went into action, and a few sleepless nights later, the first concept of a CDN with just 3 servers was born. He solved a problem and gave himself a pat on the back. As he was monitoring his website's performance, a light turned on in his head - “If I need this, surely there are others with the exact same problem!”.",
-          "content2": "The CDN market was a giant enterprise dinosaur focused on profits - not on creating value. Since Dejan always loved solving problems, he took it into his hands to build something extraordinary and fix the Content Delivery Network landscape for other developers."
-        },
-        {
-          "title": "2015",
-          "subTitle": "Gowaf CDN was born!",
-          "content1": "Before he knew it, Dejan became obsessed with building a service to disrupt the overpriced content delivery market. He focused on a product available to everyone - not just large enterprises.",
-          "content2": "Every beginning is hard, but that did not stop him - quite the opposite. It fueled his passion and dedication to building a world-class product and changing how people view content delivery. Without funding or a large team, the project grew, and finally, in 2015, Gowaf CDN was born with 8 PoPs worldwide and a strong focus on reducing content delivery costs."
-        },
-        {
-          "title": "2018",
-          "subTitle": "The first Gowaf Office opened",
-          "content1": "Developed as a side-project by a single person without any funding, it took a few years for the service to take off. But it was in 2018 when things turned - Gowaf CDN started growing rapidly! ",
-          "content2": "Thousands of new users every month began aligning with the service's vision and were fed up with the overpriced CDN market.With some help from his friends, Dejan could finally quit his job, focus full time on building the company and even open the first Gowaf Office.With more time on his hands, Dejan started focusing on bringing value and developing advanced features under a very simple interface that users really loved."
-        },
-        {
-          "title": "2021",
-          "subTitle": "The start of a new vision",
-          "content1": "The year 2021 is the year everything changed. After seeing the impact that Gowaf CDN had on the world and how many new problems it could solve, a much loftier goal was born in Dejan’s mind: to push the company and the internet itself to the next level. This marked the end of Gowaf CDN and the start of Gowaf with an ambitious new vision of truly making the internet a better place, focusing on relentless innovation, and making complex problems at scale as simple as a few clicks.",
-          "content2": "Today, our team of experts is working to help solve some of the most complex global challenges and help shape and power the internet of tomorrow. In short and simple: we're making the internet hop faster!"
-        }
-      ]
+      // "list": [
+      //   {
+      //     "title": "2012",
+      //     "subTitle": "It all started with a simple problem",
+      //     "icon": "/images/resources/story/Resources_Story_card_bg_2x.png",
+      //     "content1": "In 2012 Dejan Grofelnik Pelzel faced a big problem - he had a website he was working on that was causing an ever-increasing traffic bill. A few terabytes of CDN costs were almost as high as his monthly paycheck, but he could never understand why.",
+      //     "content2": "Why were CDNs so expensive when network infrastructure was so affordable? CDNs were either grossly overpriced or didn’t work, but Dejan didn’t let that stop him. He always loved a challenge, and the solution was obvious."
+      //   },
+      //   {
+      //     "title": "2013",
+      //     "subTitle": "First concept of in-house CDN",
+      //     "content1": "Dejan went into action, and a few sleepless nights later, the first concept of a CDN with just 3 servers was born. He solved a problem and gave himself a pat on the back. As he was monitoring his website's performance, a light turned on in his head - “If I need this, surely there are others with the exact same problem!”.",
+      //     "content2": "The CDN market was a giant enterprise dinosaur focused on profits - not on creating value. Since Dejan always loved solving problems, he took it into his hands to build something extraordinary and fix the Content Delivery Network landscape for other developers."
+      //   },
+      //   {
+      //     "title": "2015",
+      //     "subTitle": "Gowaf CDN was born!",
+      //     "content1": "Before he knew it, Dejan became obsessed with building a service to disrupt the overpriced content delivery market. He focused on a product available to everyone - not just large enterprises.",
+      //     "content2": "Every beginning is hard, but that did not stop him - quite the opposite. It fueled his passion and dedication to building a world-class product and changing how people view content delivery. Without funding or a large team, the project grew, and finally, in 2015, Gowaf CDN was born with 8 PoPs worldwide and a strong focus on reducing content delivery costs."
+      //   },
+      //   {
+      //     "title": "2018",
+      //     "subTitle": "The first Gowaf Office opened",
+      //     "content1": "Developed as a side-project by a single person without any funding, it took a few years for the service to take off. But it was in 2018 when things turned - Gowaf CDN started growing rapidly! ",
+      //     "content2": "Thousands of new users every month began aligning with the service's vision and were fed up with the overpriced CDN market.With some help from his friends, Dejan could finally quit his job, focus full time on building the company and even open the first Gowaf Office.With more time on his hands, Dejan started focusing on bringing value and developing advanced features under a very simple interface that users really loved."
+      //   },
+      //   {
+      //     "title": "2021",
+      //     "subTitle": "The start of a new vision",
+      //     "content1": "The year 2021 is the year everything changed. After seeing the impact that Gowaf CDN had on the world and how many new problems it could solve, a much loftier goal was born in Dejan’s mind: to push the company and the internet itself to the next level. This marked the end of Gowaf CDN and the start of Gowaf with an ambitious new vision of truly making the internet a better place, focusing on relentless innovation, and making complex problems at scale as simple as a few clicks.",
+      //     "content2": "Today, our team of experts is working to help solve some of the most complex global challenges and help shape and power the internet of tomorrow. In short and simple: we're making the internet hop faster!"
+      //   }
+      // ]
     },
-    "drmCustomer": {
-      "title": "Together we will build a better tomorrow",
-      "contentPre": "",
-      "contentImg": "",
-      "contentMid": "",
-      "contentP": "",
-      "contentLink": "",
-      "contentLast": "",
-      "isHiddenSubTitle": true,
-      "faceImg": {
-        "img": "/images/resources/story/Network_Overview_evaluate_character_2x.png",
-        "top": "-54px",
-        "right": "135px",
-        "width": "438px",
-        "height": "352px",
-        "mtop": "6.81rem",
-        "mright": "0",
-        "mwidth": "27.38rem",
-        "mheight": "18.75rem"
-      },
-      "list": {
-        "title": "Dejan Grofelnik Pelzel",
-        "subTitle": "Founder & CEO of Gowaf",
-        "content": "What started with trying to build a great CDN has grown into a passion to speed up the internet and really innovate the market."
-      },
-      "items": null
-    },
+    // "drmCustomer": {
+    //   "title": "Together we will build a better tomorrow",
+    //   "contentPre": "",
+    //   "contentImg": "",
+    //   "contentMid": "",
+    //   "contentP": "",
+    //   "contentLink": "",
+    //   "contentLast": "",
+    //   "isHiddenSubTitle": true,
+    //   "faceImg": {
+    //     "img": "/images/resources/story/Network_Overview_evaluate_character_2x.png",
+    //     "top": "-54px",
+    //     "right": "135px",
+    //     "width": "438px",
+    //     "height": "352px",
+    //     "mtop": "6.81rem",
+    //     "mright": "0",
+    //     "mwidth": "27.38rem",
+    //     "mheight": "18.75rem"
+    //   },
+    //   "list": {
+    //     "title": "Dejan Grofelnik Pelzel",
+    //     "subTitle": "Founder & CEO of Gowaf",
+    //     "content": "What started with trying to build a great CDN has grown into a passion to speed up the internet and really innovate the market."
+    //   },
+    //   "items": null
+    // },
     "list1": {
       "subTitle": "Hop ahead of the technology curve.",
       "title": "Everything you want and much more"
@@ -323,52 +323,52 @@
         }
       ]
     },
-    "list1": {
-      "title1": "Gowaf Values That Keep Us Hopping",
-      "title2": "Eight simple values that unite one amazing team.",
-      "items": [
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_1_2x.png",
-          "title": "We relentlessly innovate.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_2_2x.png",
-          "title": "We operate with integrity.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_3_2x.png",
-          "title": "We disrupt and deliver impact.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_4_2x.png",
-          "title": "We believe great is not good enough.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_5_2x.png",
-          "title": "We embrace transparency and open communication.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_6_2x.png",
-          "title": "We’re kind and strive to make the world a better place.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_7_2x.png",
-          "title": "We learn and improve every day.",
-          "content": ""
-        },
-        {
-          "icon": "/images/resources/careers/Resources_about_card_ic_9_2x.png",
-          "title": "We embrace diversity.",
-          "content": ""
-        }
-      ]
-    },
+    // "list1": {
+    //   "title1": "Gowaf Values That Keep Us Hopping",
+    //   "title2": "Eight simple values that unite one amazing team.",
+    //   "items": [
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_1_2x.png",
+    //       "title": "We relentlessly innovate.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_2_2x.png",
+    //       "title": "We operate with integrity.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_3_2x.png",
+    //       "title": "We disrupt and deliver impact.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_4_2x.png",
+    //       "title": "We believe great is not good enough.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_5_2x.png",
+    //       "title": "We embrace transparency and open communication.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_6_2x.png",
+    //       "title": "We’re kind and strive to make the world a better place.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_7_2x.png",
+    //       "title": "We learn and improve every day.",
+    //       "content": ""
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_about_card_ic_9_2x.png",
+    //       "title": "We embrace diversity.",
+    //       "content": ""
+    //     }
+    //   ]
+    // },
     "listPolyfill": {
       "title": "Why the name Polyfil",
       "subTitle": "The question everyone has been asking us",
@@ -382,797 +382,797 @@
     "carouselList": {
       "title": "Working at Gowaf",
       "subTitle": "Join a growing team of experts that’s constantly pushing for innovation.",
-      "items": [
-        {
-          "title": "Building a Better Future.\nFor everyone.",
-          "subTitle": "Founder & CEO of Gowaf",
-          "content": "We're building towards a better future where amazing people help millions of others have a faster, safer, and more enjoyable internet experience everywhere and anywhere in the world.",
-          "icon": "/images/resources/careers/Resources_Careers_graph_1_2x.png",
-          "width": "334px",
-          "height": "334px"
-        },
-        {
-          "title": "Dynamic and Fun Environment",
-          "subTitle": "Founder & CEO of Gowaf",
-          "content": "We have an ambitious mission that brings along a set of fun and challenging problems to solve. Technology is constantly changing and hopping along.Every day is filled with exciting new challenges.",
-          "icon": "/images/resources/careers/Resources_Careers_graph_2_2x.png",
-          "width": "334px",
-          "height": "274px"
-        },
-        {
-          "title": "Embracing the Flex-Work Lifestyle",
-          "subTitle": "Founder & CEO of Gowaf",
-          "content": "We emphasize work-life balance with a fully flexible remote work approach. Our employees have full flexibility in time and location, enabling them to effortlessly incorporate work into their daily lives.",
-          "icon": "/images/resources/careers/Resources_Careers_graph_3_2x.png",
-          "width": "370px",
-          "height": "250px"
-        },
-        {
-          "title": "Amazing Company Culture",
-          "subTitle": "Founder & CEO of Gowaf",
-          "content": "We put our Gowaf first and focus on building an inclusive, fun, and challenging environment while maintaining a very relaxed and fun team culture with the same values.",
-          "icon": "/images/resources/careers/Resources_Careers_graph_4_2x.png",
-          "width": "358px",
-          "height": "296px"
-        }
-      ]
+      // "items": [
+      //   {
+      //     "title": "Building a Better Future.\nFor everyone.",
+      //     "subTitle": "Founder & CEO of Gowaf",
+      //     "content": "We're building towards a better future where amazing people help millions of others have a faster, safer, and more enjoyable internet experience everywhere and anywhere in the world.",
+      //     "icon": "/images/resources/careers/Resources_Careers_graph_1_2x.png",
+      //     "width": "334px",
+      //     "height": "334px"
+      //   },
+      //   {
+      //     "title": "Dynamic and Fun Environment",
+      //     "subTitle": "Founder & CEO of Gowaf",
+      //     "content": "We have an ambitious mission that brings along a set of fun and challenging problems to solve. Technology is constantly changing and hopping along.Every day is filled with exciting new challenges.",
+      //     "icon": "/images/resources/careers/Resources_Careers_graph_2_2x.png",
+      //     "width": "334px",
+      //     "height": "274px"
+      //   },
+      //   {
+      //     "title": "Embracing the Flex-Work Lifestyle",
+      //     "subTitle": "Founder & CEO of Gowaf",
+      //     "content": "We emphasize work-life balance with a fully flexible remote work approach. Our employees have full flexibility in time and location, enabling them to effortlessly incorporate work into their daily lives.",
+      //     "icon": "/images/resources/careers/Resources_Careers_graph_3_2x.png",
+      //     "width": "370px",
+      //     "height": "250px"
+      //   },
+      //   {
+      //     "title": "Amazing Company Culture",
+      //     "subTitle": "Founder & CEO of Gowaf",
+      //     "content": "We put our Gowaf first and focus on building an inclusive, fun, and challenging environment while maintaining a very relaxed and fun team culture with the same values.",
+      //     "icon": "/images/resources/careers/Resources_Careers_graph_4_2x.png",
+      //     "width": "358px",
+      //     "height": "296px"
+      //   }
+      // ]
     },
-    "neverHit": {
-      "title": "Perks and benefits for days",
-      "subTitle": "We don't want you to just work here.We want you to belong.",
-      "items": [
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_1_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Competitive Salary",
-          "content": "You can expect above-average industry salaries.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_2_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Paid Time Off",
-          "content": "Love skiing or visiting the seaside? No problem – we offer 25 days paid vacation.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_3_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Flexible Working Hours",
-          "content": "Don’t like working in the morning? Choose your own working schedule.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_4_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Parental Leave",
-          "content": "Bonding with the little one is super important, so we offer parental leave and flexible scheduling to help you out.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_5_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Remote Work",
-          "content": "Work from the comfort of your home, neighborly coffee shop, or anywhere in the world.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_6_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Home Office Budget",
-          "content": "We believe that everyone is more efficient working in a comfortable office, and we’re happy to help with that.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_7_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Paid Sick Leave",
-          "content": "Feeling ill? Take time off and get back to 100% without worrying about your finances.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_8_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Mental Health",
-          "content": "Feeling down? We’ve got your back. bunny.net provides mental health resources and help via BetterHelp.com.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_9_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Annual Fluffle Building",
-          "content": "We're remote but not distant! Our annual fluffle building is where virtual high fives turn into real ones.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_10_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Health Care",
-          "content": "Release the stress of health uncertainties. Rest easy knowing your health care needs are always met.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_11_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Wellness budget",
-          "content": "Be it lifting weights, unwinding with a massage, or finding your zen in yoga, we're supporting your wellness journey.",
-          "contentAlign": "left"
-        },
-        {
-          "icon": "/images/resources/careers/Resources_Careers_ic_12_2x.png",
-          "width": "100px",
-          "height": "100px",
-          "alignType": "flex-start",
-          "title": "Educational Budget",
-          "content": "Dedicated yearly learning and educational budget for books, seminars, and online courses.",
-          "contentAlign": "left"
-        }
-      ]
-    },
-    "currentJob": {
-      "title": "Current Job Openings",
-      "subTitle": "Interested in a position and think we’ll be a good fit? Join an international team of amazing Gowaf!",
-      "tabs": [
-        {
-          "tab": "All",
-          "title": "Make your website hop like a Gowaf",
-          "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
-          "icon": "/images/home/home_bot_graph_Website@2x.png",
-          "iconWidth": "374px",
-          "iconHeight": "272px",
-          "btn": "Supercharge Your Website",
-          "href": "#",
-          "mIcon": "/mobile-images/home/home_bot_graph_Website@2x.png",
-          "mIconWidth": "24.13rem",
-          "mIconHeight": "18.19rem",
-          "items": [
-            {
-              "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Stream)",
-              "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "Engineering",
-          "title": "Reliable video CDN that truly hops",
-          "content": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
-          "icon": "/images/home/home_bot_graph_video@2x.png",
-          "iconWidth": "386px",
-          "iconHeight": "291px",
-          "btn": "Unforgettable Video Experience",
-          "href": "#",
-          "mIcon": "/mobile-images/home/home_bot_graph_video@2x.png",
-          "mIconWidth": "23.38rem",
-          "mIconHeight": "17rem",
-          "items": [
-            {
-              "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Stream)",
-              "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "Marketing",
-          "title": "Deliver lightning fast downloads",
-          "content": "Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.",
-          "icon": "/images/home/home_bot_graph_Software@2x.png",
-          "iconWidth": "392px",
-          "iconHeight": "294px",
-          "btn": "Deliver Faster Downloads",
-          "href": "#",
-          "mIcon": "/mobile-images/home/home_bot_graph_Software@2x.png",
-          "mIconWidth": "24.5rem",
-          "mIconHeight": "18.38rem",
-          "items": [
-            {
-              "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Stream)",
-              "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "Marketing",
-          "title": "Transform your images. On the fly.",
-          "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
-          "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
-          "iconWidth": "360px",
-          "iconHeight": "266px",
-          "btn": "Optimize Your Images",
-          "href": "#",
-          "mIcon": "/mobile-images/home/home_bot_graph_Dynamic@2x.png",
-          "mIconWidth": "22.5rem",
-          "mIconHeight": "16.63rem",
-          "items": [
-            {
-              "title": "CDN Support Engineer Il",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (CDN)",
-              "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Compute)",
-              "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Security)",
-              "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (Stream)",
-              "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Product Owner (DNS)",
-              "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Senior Engineer (Front End)",
-              "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            },
-            {
-              "title": "Technical Content Writer",
-              "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
-              "iconList": [
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
-                  "label": "Full-Time"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
-                  "label": "Remote"
-                },
-                {
-                  "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
-                  "label": "Flexible Hours"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    // "neverHit": {
+    //   "title": "Perks and benefits for days",
+    //   "subTitle": "We don't want you to just work here.We want you to belong.",
+    //   "items": [
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_1_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Competitive Salary",
+    //       "content": "You can expect above-average industry salaries.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_2_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Paid Time Off",
+    //       "content": "Love skiing or visiting the seaside? No problem – we offer 25 days paid vacation.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_3_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Flexible Working Hours",
+    //       "content": "Don’t like working in the morning? Choose your own working schedule.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_4_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Parental Leave",
+    //       "content": "Bonding with the little one is super important, so we offer parental leave and flexible scheduling to help you out.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_5_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Remote Work",
+    //       "content": "Work from the comfort of your home, neighborly coffee shop, or anywhere in the world.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_6_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Home Office Budget",
+    //       "content": "We believe that everyone is more efficient working in a comfortable office, and we’re happy to help with that.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_7_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Paid Sick Leave",
+    //       "content": "Feeling ill? Take time off and get back to 100% without worrying about your finances.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_8_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Mental Health",
+    //       "content": "Feeling down? We’ve got your back. bunny.net provides mental health resources and help via BetterHelp.com.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_9_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Annual Fluffle Building",
+    //       "content": "We're remote but not distant! Our annual fluffle building is where virtual high fives turn into real ones.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_10_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Health Care",
+    //       "content": "Release the stress of health uncertainties. Rest easy knowing your health care needs are always met.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_11_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Wellness budget",
+    //       "content": "Be it lifting weights, unwinding with a massage, or finding your zen in yoga, we're supporting your wellness journey.",
+    //       "contentAlign": "left"
+    //     },
+    //     {
+    //       "icon": "/images/resources/careers/Resources_Careers_ic_12_2x.png",
+    //       "width": "100px",
+    //       "height": "100px",
+    //       "alignType": "flex-start",
+    //       "title": "Educational Budget",
+    //       "content": "Dedicated yearly learning and educational budget for books, seminars, and online courses.",
+    //       "contentAlign": "left"
+    //     }
+    //   ]
+    // },
+    // "currentJob": {
+    //   "title": "Current Job Openings",
+    //   "subTitle": "Interested in a position and think we’ll be a good fit? Join an international team of amazing Gowaf!",
+    //   "tabs": [
+    //     {
+    //       "tab": "All",
+    //       "title": "Make your website hop like a Gowaf",
+    //       "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.",
+    //       "icon": "/images/home/home_bot_graph_Website@2x.png",
+    //       "iconWidth": "374px",
+    //       "iconHeight": "272px",
+    //       "btn": "Supercharge Your Website",
+    //       "href": "#",
+    //       "mIcon": "/mobile-images/home/home_bot_graph_Website@2x.png",
+    //       "mIconWidth": "24.13rem",
+    //       "mIconHeight": "18.19rem",
+    //       "items": [
+    //         {
+    //           "title": "CDN Support Engineer Il",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (CDN)",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Compute)",
+    //           "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Security)",
+    //           "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Stream)",
+    //           "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (DNS)",
+    //           "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Senior Engineer (Front End)",
+    //           "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Technical Content Writer",
+    //           "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "tab": "Engineering",
+    //       "title": "Reliable video CDN that truly hops",
+    //       "content": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
+    //       "icon": "/images/home/home_bot_graph_video@2x.png",
+    //       "iconWidth": "386px",
+    //       "iconHeight": "291px",
+    //       "btn": "Unforgettable Video Experience",
+    //       "href": "#",
+    //       "mIcon": "/mobile-images/home/home_bot_graph_video@2x.png",
+    //       "mIconWidth": "23.38rem",
+    //       "mIconHeight": "17rem",
+    //       "items": [
+    //         {
+    //           "title": "CDN Support Engineer Il",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (CDN)",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Compute)",
+    //           "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Security)",
+    //           "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Stream)",
+    //           "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (DNS)",
+    //           "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Senior Engineer (Front End)",
+    //           "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Technical Content Writer",
+    //           "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "tab": "Marketing",
+    //       "title": "Deliver lightning fast downloads",
+    //       "content": "Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.",
+    //       "icon": "/images/home/home_bot_graph_Software@2x.png",
+    //       "iconWidth": "392px",
+    //       "iconHeight": "294px",
+    //       "btn": "Deliver Faster Downloads",
+    //       "href": "#",
+    //       "mIcon": "/mobile-images/home/home_bot_graph_Software@2x.png",
+    //       "mIconWidth": "24.5rem",
+    //       "mIconHeight": "18.38rem",
+    //       "items": [
+    //         {
+    //           "title": "CDN Support Engineer Il",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (CDN)",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Compute)",
+    //           "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Security)",
+    //           "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Stream)",
+    //           "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (DNS)",
+    //           "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Senior Engineer (Front End)",
+    //           "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Technical Content Writer",
+    //           "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "tab": "Marketing",
+    //       "title": "Transform your images. On the fly.",
+    //       "content": "Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.",
+    //       "icon": "/images/home/home_bot_graph_Dynamic@2x.png",
+    //       "iconWidth": "360px",
+    //       "iconHeight": "266px",
+    //       "btn": "Optimize Your Images",
+    //       "href": "#",
+    //       "mIcon": "/mobile-images/home/home_bot_graph_Dynamic@2x.png",
+    //       "mIconWidth": "22.5rem",
+    //       "mIconHeight": "16.63rem",
+    //       "items": [
+    //         {
+    //           "title": "CDN Support Engineer Il",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (CDN)",
+    //           "content": "Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Compute)",
+    //           "content": "You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Security)",
+    //           "content": "You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (Stream)",
+    //           "content": "You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Product Owner (DNS)",
+    //           "content": "You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Senior Engineer (Front End)",
+    //           "content": "You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           "title": "Technical Content Writer",
+    //           "content": "You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.",
+    //           "iconList": [
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Time_2x.png",
+    //               "label": "Full-Time"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png",
+    //               "label": "Remote"
+    //             },
+    //             {
+    //               "icon": "/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png",
+    //               "label": "Flexible Hours"
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // }
   },
   "caseStudies": {
     "header": {
@@ -1183,141 +1183,141 @@
       "inputPlaceholder": "Enter your email",
       "hint": "I have read and agree to the Gowaf"
     },
-    "logoIconList": [
-      "/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png",
-      "/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png",
-      "/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png",
-      "/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png",
-      "/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png",
-      "/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png"
-    ],
+    // "logoIconList": [
+    //   "/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png",
+    //   "/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png",
+    //   "/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png",
+    //   "/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png",
+    //   "/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png",
+    //   "/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png"
+    // ],
     "logoIconListBtText": "Over 40.000 customers already trust us for a reason",
-    "list": {
-      "title": "",
-      "subTitle": "",
-      "items": [
-        {
-          "title": "HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_1_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW INNOGAMES FORGED A PATH TO SAVINGS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_2_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW YOUNITY STREAMED flow! summit TO 200,000 VIEWERS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_3_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_4_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW ESKIMI EXPANDED WITH Gowaf CDN",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_5_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_es_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_6_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_ti_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW VALNET SCALED 250% WHILE SAVING",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_7_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_8_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_ot_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW PARROTSEC IMPROVED THEIR SECURITY AND RELIABILITY",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_9_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW PULSE BOOSTED SERVICE AND IMPROVED USER EXPERIENCE",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_10_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_pu_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW LAUNCH CDN BOOSTED SERVICE AND SAVED ON COSTS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_11_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_la_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW REDD.TUBE GREW FROM A FEW THOUSAND TO SEVERAL MILLION USERS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_12_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_dd_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW SAMSUNG FOOD UTILIZED 5-STAR IMAGE OPTIMIZATION",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_13_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_sa_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW SYSTEM76 STREAMLINED THEIR GLOBAL CONTENT DELIVERY",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_14_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_Case_card_logo_innogames_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW FILMMUSIC.IO PARTNERED WITH Gowaf TO SHARE MUSIC WITH THE WORLD",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_15_2x.png",
-          "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_fi_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        }
-      ]
-    }
+    // "list": {
+    //   "title": "",
+    //   "subTitle": "",
+    //   "items": [
+    //     {
+    //       "title": "HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_1_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW INNOGAMES FORGED A PATH TO SAVINGS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_2_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW YOUNITY STREAMED flow! summit TO 200,000 VIEWERS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_3_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_4_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW ESKIMI EXPANDED WITH Gowaf CDN",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_5_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_es_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_6_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_ti_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW VALNET SCALED 250% WHILE SAVING",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_7_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_8_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_ot_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW PARROTSEC IMPROVED THEIR SECURITY AND RELIABILITY",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_9_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW PULSE BOOSTED SERVICE AND IMPROVED USER EXPERIENCE",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_10_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_pu_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW LAUNCH CDN BOOSTED SERVICE AND SAVED ON COSTS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_11_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_la_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW REDD.TUBE GREW FROM A FEW THOUSAND TO SEVERAL MILLION USERS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_12_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_dd_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW SAMSUNG FOOD UTILIZED 5-STAR IMAGE OPTIMIZATION",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_13_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_sa_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW SYSTEM76 STREAMLINED THEIR GLOBAL CONTENT DELIVERY",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_14_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_Case_card_logo_innogames_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW FILMMUSIC.IO PARTNERED WITH Gowaf TO SHARE MUSIC WITH THE WORLD",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies/Resources_CaseStudies_pic_15_2x.png",
+    //       "icon2": "/images/resources/case-studies/Resources_CaseStudies_card_logo_fi_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     }
+    //   ]
+    // }
   },
   "caseStudiesDetailsInnoGames": {
     "header": {
@@ -1333,118 +1333,118 @@
       "hint": "1"
     },
     "numbersTitle": "Quick Overview",
-    "numbers": [
-      {
-        "label": "Fewer",
-        "label2": "errors",
-        "content": "at comparable speeds"
-      },
-      {
-        "label": "More",
-        "label2": "cost-effective",
-        "content": "price with no commitment"
-      },
-      {
-        "label": "24/7",
-        "label2": "support",
-        "content": "access via private Slack"
-      }
-    ],
+    // "numbers": [
+    //   {
+    //     "label": "Fewer",
+    //     "label2": "errors",
+    //     "content": "at comparable speeds"
+    //   },
+    //   {
+    //     "label": "More",
+    //     "label2": "cost-effective",
+    //     "content": "price with no commitment"
+    //   },
+    //   {
+    //     "label": "24/7",
+    //     "label2": "support",
+    //     "content": "access via private Slack"
+    //   }
+    // ],
     "ad2Container": {
       "title": "",
       "subTitle": "",
-      "items": [
-        {
-          "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_1_2x.png",
-          "title": "About InnoGames",
-          "content": "InnoGames was founded in 2007, when a little browser game called Tribal Wars, a hobby project conceived by three young guys in 2003, evolved into a full-fledged game studio. Now, the Hamburg-based developer is a heavy hitter in the online gaming world, crafting award-winning free-to-play titles for gamers around the globe. They’re best known for titles like Tribal Wars, Elvenar, and Forge of Empires - the last of which grossed over 1 billion EUR in lifetime revenue.",
-          "content2": "The most recent additions to the InnoGames portfolio were Rise of Cultures and Sunrise Village, two mobile-first games that were released in early 2022. Whether its strategy-based builders or cozy farming sims, InnoGames has carved out the frontier of mobile gaming.",
-          "width": "320px",
-          "height": "320px",
-          "mwidth": "19.98rem",
-          "mheight": "19.98rem"
-        },
-        {
-          "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_2_2x.png",
-          "title": "The Challenges",
-          "content": "Although InnoGames wanted to do as much in-house as possible, there were some things they couldn’t do. InnoGames needed to distribute updates for 10 different games in countries all over the world, with a localized version of each game in every country. This amounted to over 500 terabytes per month of bandwidth.",
-          "content2": "InnoGames needed a CDN. But their first CDN provider had some issues: A confusing pricing plan that required InnoGames to purchase a minimum bandwidth commitment - or pay extra. A support ticket system that left InnoGames waiting days for answers.",
-          "width": "346px",
-          "height": "288px",
-          "mwidth": "21.63rem",
-          "mheight": "18rem"
-        },
-        {
-          "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_3_2x.png",
-          "title": "The Solution",
-          "content": "After investigating a few different CDN providers, InnoGames eventually chose Gowaf. Aside from the technical features, they said they liked the name. Us too. Once they started using Gowaf, they saw improvements right away. We didn’t require InnoGames to commit to a certain bandwidth just to get a fair price. We set them up with a pricing and bandwidth plan that fit their needs right out the gate.",
-          "content2": "Finally, we gave them 24/7 access to our Super Gowaf support and set up a private Slack channel. InnoGames was already using Slack, so they loved the convenience. InnoGames wanted to switch from their previous CDN because the support was too slow. Our Super Gowaf never kept them waiting. Whenever they had a question, we answered fast - usually the same day.",
-          "width": "400px",
-          "height": "334px",
-          "mwidth": "25rem",
-          "mheight": "20.88rem"
-        },
-        {
-          "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_4_2x.png",
-          "title": "The Results",
-          "content": "Although InnoGames came for the cute name, Gowaf quickly impressed them with our offerings. Gowaf CDN spoke for itself, with PoPs all over the world granting high speeds. The Super Gowaf never left InnoGames waiting more than a day for answers - so the InnoGames team enjoyed friendly service right when they needed it.",
-          "content2": "Our pricing was clear from the start, free of microtransactions and hidden fees. InnoGames paid just for what they needed, no more. Not to mention, they saved by switching to Gowaf.",
-          "width": "364px",
-          "height": "269px",
-          "mwidth": "22.75rem",
-          "mheight": "16.88rem"
-        }
-      ]
+      // "items": [
+      //   {
+      //     "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_1_2x.png",
+      //     "title": "About InnoGames",
+      //     "content": "InnoGames was founded in 2007, when a little browser game called Tribal Wars, a hobby project conceived by three young guys in 2003, evolved into a full-fledged game studio. Now, the Hamburg-based developer is a heavy hitter in the online gaming world, crafting award-winning free-to-play titles for gamers around the globe. They’re best known for titles like Tribal Wars, Elvenar, and Forge of Empires - the last of which grossed over 1 billion EUR in lifetime revenue.",
+      //     "content2": "The most recent additions to the InnoGames portfolio were Rise of Cultures and Sunrise Village, two mobile-first games that were released in early 2022. Whether its strategy-based builders or cozy farming sims, InnoGames has carved out the frontier of mobile gaming.",
+      //     "width": "320px",
+      //     "height": "320px",
+      //     "mwidth": "19.98rem",
+      //     "mheight": "19.98rem"
+      //   },
+      //   {
+      //     "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_2_2x.png",
+      //     "title": "The Challenges",
+      //     "content": "Although InnoGames wanted to do as much in-house as possible, there were some things they couldn’t do. InnoGames needed to distribute updates for 10 different games in countries all over the world, with a localized version of each game in every country. This amounted to over 500 terabytes per month of bandwidth.",
+      //     "content2": "InnoGames needed a CDN. But their first CDN provider had some issues: A confusing pricing plan that required InnoGames to purchase a minimum bandwidth commitment - or pay extra. A support ticket system that left InnoGames waiting days for answers.",
+      //     "width": "346px",
+      //     "height": "288px",
+      //     "mwidth": "21.63rem",
+      //     "mheight": "18rem"
+      //   },
+      //   {
+      //     "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_3_2x.png",
+      //     "title": "The Solution",
+      //     "content": "After investigating a few different CDN providers, InnoGames eventually chose Gowaf. Aside from the technical features, they said they liked the name. Us too. Once they started using Gowaf, they saw improvements right away. We didn’t require InnoGames to commit to a certain bandwidth just to get a fair price. We set them up with a pricing and bandwidth plan that fit their needs right out the gate.",
+      //     "content2": "Finally, we gave them 24/7 access to our Super Gowaf support and set up a private Slack channel. InnoGames was already using Slack, so they loved the convenience. InnoGames wanted to switch from their previous CDN because the support was too slow. Our Super Gowaf never kept them waiting. Whenever they had a question, we answered fast - usually the same day.",
+      //     "width": "400px",
+      //     "height": "334px",
+      //     "mwidth": "25rem",
+      //     "mheight": "20.88rem"
+      //   },
+      //   {
+      //     "pic": "/images/resources/case-studies-details-inno-games/Resources_Case_Studies_details_graph_4_2x.png",
+      //     "title": "The Results",
+      //     "content": "Although InnoGames came for the cute name, Gowaf quickly impressed them with our offerings. Gowaf CDN spoke for itself, with PoPs all over the world granting high speeds. The Super Gowaf never left InnoGames waiting more than a day for answers - so the InnoGames team enjoyed friendly service right when they needed it.",
+      //     "content2": "Our pricing was clear from the start, free of microtransactions and hidden fees. InnoGames paid just for what they needed, no more. Not to mention, they saved by switching to Gowaf.",
+      //     "width": "364px",
+      //     "height": "269px",
+      //     "mwidth": "22.75rem",
+      //     "mheight": "16.88rem"
+      //   }
+      // ]
     },
-    "list": {
-      "title": "",
-      "subTitle": "",
-      "items": [
-        {
-          "title": "HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_pic_4_2x.png",
-          "icon2": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_card_logo_ne_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_pic_6_2x.png",
-          "icon2": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_card_logo_ti_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        }
-      ]
-    },
-    "drmCustomer": {
-      "title": "",
-      "contentPre": "",
-      "contentImg": "",
-      "contentMid": "",
-      "contentP": "",
-      "contentLink": "",
-      "contentLast": "",
-      "isHiddenSubTitle": true,
-      "faceImg": {
-        "img": "/images/resources/story/Network_Overview_evaluate_character@2x.png",
-        "top": "-54px",
-        "right": "135px",
-        "width": "438px",
-        "height": "352px",
-        "mtop": "0",
-        "mright": "0",
-        "mwidth": "27.38rem",
-        "mheight": "18.75rem"
-      },
-      "list": {
-        "title": "Bernhard Schrader",
-        "subTitle": "Lead Sys Admin",
-        "content": "I like that Gowaf CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."
-      },
-      "items": null
-    }
+    // "list": {
+    //   "title": "",
+    //   "subTitle": "",
+    //   "items": [
+    //     {
+    //       "title": "HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_pic_4_2x.png",
+    //       "icon2": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_card_logo_ne_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_pic_6_2x.png",
+    //       "icon2": "/images/resources/case-studies-details-inno-games/Resources_CaseStudies_card_logo_ti_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     }
+    //   ]
+    // },
+    // "drmCustomer": {
+    //   "title": "",
+    //   "contentPre": "",
+    //   "contentImg": "",
+    //   "contentMid": "",
+    //   "contentP": "",
+    //   "contentLink": "",
+    //   "contentLast": "",
+    //   "isHiddenSubTitle": true,
+    //   "faceImg": {
+    //     "img": "/images/resources/story/Network_Overview_evaluate_character@2x.png",
+    //     "top": "-54px",
+    //     "right": "135px",
+    //     "width": "438px",
+    //     "height": "352px",
+    //     "mtop": "0",
+    //     "mright": "0",
+    //     "mwidth": "27.38rem",
+    //     "mheight": "18.75rem"
+    //   },
+    //   "list": {
+    //     "title": "Bernhard Schrader",
+    //     "subTitle": "Lead Sys Admin",
+    //     "content": "I like that Gowaf CDN's support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."
+    //   },
+    //   "items": null
+    // }
   },
   "caseStudiesDetailsNexusmods": {
     "header": {
@@ -1846,85 +1846,85 @@
       "hint": "1"
     },
     "numbersTitle": "Quick Overview",
-    "numbers": [
-      {
-        "label": "Easy",
-        "label2": "implementation",
-        "content": "with Gowaf products"
-      },
-      {
-        "label": "24/7",
-        "label2": "support",
-        "content": "with fast and quality responses"
-      },
-      {
-        "label": "Fair",
-        "label2": "price",
-        "content": "with pay-as-you-go pricing model"
-      }
-    ],
+    // "numbers": [
+    //   {
+    //     "label": "Easy",
+    //     "label2": "implementation",
+    //     "content": "with Gowaf products"
+    //   },
+    //   {
+    //     "label": "24/7",
+    //     "label2": "support",
+    //     "content": "with fast and quality responses"
+    //   },
+    //   {
+    //     "label": "Fair",
+    //     "label2": "price",
+    //     "content": "with pay-as-you-go pricing model"
+    //   }
+    // ],
     "ad2Container": {
       "title": "",
       "subTitle": "",
-      "items": [
-        {
-          "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_1_2x.png",
-          "title": "About Eskimi",
-          "content": "Eskimi is a supply-side service AdTech provider that serves advertisements to audiences all over the world. They distribute hundreds of thousands of media requests options in seconds and determine which ads to show to end users when they visit a website.",
-          "content2": "Eskimi serves static and dynamic content, including image and video content. In just 100 milliseconds, Eskimi’s platform receives a request, matches it with the most relevant ads, and responds. Although their data centers are located in Europe, they serve ads all over the world. To Eskimi, a fast CDN is a vital part of their business.",
-          "width": "368px",
-          "height": "290px"
-        },
-        {
-          "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_2_2x.png",
-          "title": "The Challenges",
-          "content": "In the fast-paced AdTech world, every millisecond counts. To get ads in view of potential customers, Eskimi needs to process and serve requests as fast as possible. Eskimi receives multiple requests every time a customer lands on a site using their platform, which creates an unexpected expense. Other CDNs charged by the number of requests served, which inflated their in addition to the unreasonably high price, Eskimi couldn’t afford delays from a slow network.",
-          "content2": "Even a few seconds of downtime meant customers’ ads wouldn’t be seen. Eskimi needed to keep their platform spinning out ads 24/7, at top speeds. Eskimi’s last CDN provider had servers in just two regions to distribute traffic around the world. It wasn’t enough to support their client base.",
-          "content3": "",
-          "width": "396px",
-          "height": "324px"
-        },
-        {
-          "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_3_2x.png",
-          "title": "The Solution",
-          "content": "Eskimi read about Gowaf in an article in Hacker News. They liked what they heard, and decided to give us a try. First, we had to settle the pricing. The per-request fee structure other CDNs had offered Eskimi wasn’t feasible for their business, so we devised a pricing model that met their needs. Thanks to Gowaf CDN’s wider network, Eskimi gained access to more PoPs around the world.Through their internal reports, Eskimi promptly noticed latency and network errors drop off.",
-          "content2": "Lastly, we supported Eskimi through every network hop. Our Super Gowaf support answered Eskimi’s support tickets in no time flat: usually the same day they were submitted. We blew Eskimi away with our delivery speeds, intuitive user interface, and Super Gowaf support.",
-          "content3": "",
-          "width": "422px",
-          "height": "320px"
-        },
-        {
-          "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_4_2x.png",
-          "title": "The Results",
-          "content": "Switching to Gowaf was a game-changer for Eskimi. Their old provider nearly locked them down with an expensive pricing plan, but our custom pricing plan slashed monthly overhead. Not only did we cut costs, but Gowaf CDN kept Eskimi’s platform spinning out ads without delay. From the moment they moved their platform, they saw errors and latency fall, further increasing revenue. Eskimi didn’t just cut costs - they grew.",
-          "content2": "The Eskimi team watched in real-time as Gowaf CDN served requests all over the globe, thanks to our dashboard’s traffic map. We gave them the reliable service and high speeds they needed at a price they could afford.",
-          "width": "346px",
-          "height": "348px"
-        }
-      ]
+      // "items": [
+      //   {
+      //     "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_1_2x.png",
+      //     "title": "About Eskimi",
+      //     "content": "Eskimi is a supply-side service AdTech provider that serves advertisements to audiences all over the world. They distribute hundreds of thousands of media requests options in seconds and determine which ads to show to end users when they visit a website.",
+      //     "content2": "Eskimi serves static and dynamic content, including image and video content. In just 100 milliseconds, Eskimi’s platform receives a request, matches it with the most relevant ads, and responds. Although their data centers are located in Europe, they serve ads all over the world. To Eskimi, a fast CDN is a vital part of their business.",
+      //     "width": "368px",
+      //     "height": "290px"
+      //   },
+      //   {
+      //     "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_2_2x.png",
+      //     "title": "The Challenges",
+      //     "content": "In the fast-paced AdTech world, every millisecond counts. To get ads in view of potential customers, Eskimi needs to process and serve requests as fast as possible. Eskimi receives multiple requests every time a customer lands on a site using their platform, which creates an unexpected expense. Other CDNs charged by the number of requests served, which inflated their in addition to the unreasonably high price, Eskimi couldn’t afford delays from a slow network.",
+      //     "content2": "Even a few seconds of downtime meant customers’ ads wouldn’t be seen. Eskimi needed to keep their platform spinning out ads 24/7, at top speeds. Eskimi’s last CDN provider had servers in just two regions to distribute traffic around the world. It wasn’t enough to support their client base.",
+      //     "content3": "",
+      //     "width": "396px",
+      //     "height": "324px"
+      //   },
+      //   {
+      //     "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_3_2x.png",
+      //     "title": "The Solution",
+      //     "content": "Eskimi read about Gowaf in an article in Hacker News. They liked what they heard, and decided to give us a try. First, we had to settle the pricing. The per-request fee structure other CDNs had offered Eskimi wasn’t feasible for their business, so we devised a pricing model that met their needs. Thanks to Gowaf CDN’s wider network, Eskimi gained access to more PoPs around the world.Through their internal reports, Eskimi promptly noticed latency and network errors drop off.",
+      //     "content2": "Lastly, we supported Eskimi through every network hop. Our Super Gowaf support answered Eskimi’s support tickets in no time flat: usually the same day they were submitted. We blew Eskimi away with our delivery speeds, intuitive user interface, and Super Gowaf support.",
+      //     "content3": "",
+      //     "width": "422px",
+      //     "height": "320px"
+      //   },
+      //   {
+      //     "pic": "/images/resources/case-studies-details-eskimi/Resources_Case_Studies_details_Eskimi_graph_4_2x.png",
+      //     "title": "The Results",
+      //     "content": "Switching to Gowaf was a game-changer for Eskimi. Their old provider nearly locked them down with an expensive pricing plan, but our custom pricing plan slashed monthly overhead. Not only did we cut costs, but Gowaf CDN kept Eskimi’s platform spinning out ads without delay. From the moment they moved their platform, they saw errors and latency fall, further increasing revenue. Eskimi didn’t just cut costs - they grew.",
+      //     "content2": "The Eskimi team watched in real-time as Gowaf CDN served requests all over the globe, thanks to our dashboard’s traffic map. We gave them the reliable service and high speeds they needed at a price they could afford.",
+      //     "width": "346px",
+      //     "height": "348px"
+      //   }
+      // ]
     },
-    "list": {
-      "title": "",
-      "subTitle": "",
-      "items": [
-        {
-          "title": "HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_pic_8_2x.png",
-          "icon2": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_ot_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        },
-        {
-          "title": "HOW VALNET SCALED 250% WHILE SAVING",
-          "subTitle": "",
-          "icon": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_pic_7_2x.png",
-          "icon2": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_va_2x.png",
-          "content1": "Read the case study",
-          "content2": ""
-        }
-      ]
-    },
+    // "list": {
+    //   "title": "",
+    //   "subTitle": "",
+    //   "items": [
+    //     {
+    //       "title": "HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_pic_8_2x.png",
+    //       "icon2": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_ot_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     },
+    //     {
+    //       "title": "HOW VALNET SCALED 250% WHILE SAVING",
+    //       "subTitle": "",
+    //       "icon": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_pic_7_2x.png",
+    //       "icon2": "/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_va_2x.png",
+    //       "content1": "Read the case study",
+    //       "content2": ""
+    //     }
+    //   ]
+    // },
     "drmCustomer": {
       "title": "",
       "contentPre": "",
@@ -2469,23 +2469,23 @@
   },
   "contactUs": {
     "header": {},
-    "list": [
-      {
-        "title": "Support",
-        "subTitle": "Get in touch with our Super Bunnies to get help.",
-        "icon": "/images/resources/contact/Pricing_CDN_ic_Storage_2x.png"
-      },
-      {
-        "title": "Abuse",
-        "subTitle": "Report illegal or inappropriate content.",
-        "icon": "/images/resources/contact/Pricing_CDN_ic_Optimizer_2x.png"
-      },
-      {
-        "title": "Billing",
-        "subTitle": "Get help with payment questions or billing issues.",
-        "icon": "/images/resources/contact/Pricing_CDN_ic_Stream_2x.png"
-      }
-    ],
+    // "list": [
+    //   {
+    //     "title": "Support",
+    //     "subTitle": "Get in touch with our Super Bunnies to get help.",
+    //     "icon": "/images/resources/contact/Pricing_CDN_ic_Storage_2x.png"
+    //   },
+    //   {
+    //     "title": "Abuse",
+    //     "subTitle": "Report illegal or inappropriate content.",
+    //     "icon": "/images/resources/contact/Pricing_CDN_ic_Optimizer_2x.png"
+    //   },
+    //   {
+    //     "title": "Billing",
+    //     "subTitle": "Get help with payment questions or billing issues.",
+    //     "icon": "/images/resources/contact/Pricing_CDN_ic_Stream_2x.png"
+    //   }
+    // ],
     "form": {
       "firstName": "First Name",
       "firstNameLabel": "Your first name",
@@ -2615,128 +2615,128 @@
     "accelerate": {
       "title": "No need to panic - if anything goes wrong. We’ve got your paws.",
       "content": "You never have to worry about anything! Our Super Bunnies are here 24 hours a day, every day of the week, including weekends and holidays. Working on a bigger project? Check out all our premium support features!",
-      "list1": [
-        "24/7 Customer Support",
-        "Technically Smart",
-        "Customer Management",
-        "In-House Team"
-      ],
-      "list2": [
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png",
-          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon1@2x.png",
-          "title": "Scalable By Design",
-          "content": "Maximize your growth and expansion without care with a 150 Tbps+ network."
-        },
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon2_nor@2x.png",
-          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon2_sel@2x.png",
-          "title": "Tier 1 Global Network",
-          "content": "Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere."
-        },
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon3_nor@2x.png",
-          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon3_sel@2x.png",
-          "title": "NVMe+ SSD Servers",
-          "content": "Optimize delivery and reduce latency with top of the line AMD and NVMe hardware."
-        },
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon4_nor@2x.png",
-          "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon4_sel@2x.png",
-          "title": "Stay Protected",
-          "content": "Stay safe and focused with a built-in next-generation DoS protection that just works."
-        }
-      ]
+      // "list1": [
+      //   "24/7 Customer Support",
+      //   "Technically Smart",
+      //   "Customer Management",
+      //   "In-House Team"
+      // ],
+      // "list2": [
+      //   {
+      //     "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png",
+      //     "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon1@2x.png",
+      //     "title": "Scalable By Design",
+      //     "content": "Maximize your growth and expansion without care with a 150 Tbps+ network."
+      //   },
+      //   {
+      //     "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon2_nor@2x.png",
+      //     "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon2_sel@2x.png",
+      //     "title": "Tier 1 Global Network",
+      //     "content": "Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere."
+      //   },
+      //   {
+      //     "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon3_nor@2x.png",
+      //     "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon3_sel@2x.png",
+      //     "title": "NVMe+ SSD Servers",
+      //     "content": "Optimize delivery and reduce latency with top of the line AMD and NVMe hardware."
+      //   },
+      //   {
+      //     "icon": "/images/resources/SuperPolyfill/polyfill_noneed_icon4_nor@2x.png",
+      //     "iconActive": "/images/resources/SuperPolyfill/polyfill_noneed_icon4_sel@2x.png",
+      //     "title": "Stay Protected",
+      //     "content": "Stay safe and focused with a built-in next-generation DoS protection that just works."
+      //   }
+      // ]
     },
-    "numbers": [
-      {
-        "label": "24/7",
-        "content": "Availability"
-      },
-      {
-        "label": "5 minutes",
-        "content": "Avg. Response Time"
-      },
-      {
-        "label": "3 hours",
-        "content": "Avg. Solve Time"
-      },
-      {
-        "label": "100.000+",
-        "content": "Tickets Solved"
-      }
-    ],
-    "goFaster": {
-      "title": "True around-the-clock support",
-      "subTitle": "No more waiting around for support you need right now! We are here for you 24 hours a day, 7 days a week, 365 days a year!",
-      "tabs": [
-        {
-          "tab": "Technically Knowledgeable",
-          "title": "Keeping you happy is our priority",
-          "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
-          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
-          "iconWidth": "360px",
-          "iconHeight": "360px",
-          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
-          "mIconWidth": "22.5rem",
-          "mIconHeight": "22.5rem"
-        },
-        {
-          "tab": "Fastest in the Business",
-          "title": "Get your issue fixed with the speed of light",
-          "content": "At bunny.net, we live and breathe performance. This extends to the Super Bunny team as well. Our ticket support averages unparalleled sub 5 minutes first response and 3 hours solve time. We are ready and waiting behind the keyboard to help you solve any and all problems!",
-          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img2.png",
-          "iconWidth": "360px",
-          "iconHeight": "360px",
-          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img2.png",
-          "mIconWidth": "22.5rem",
-          "mIconHeight": "22.5rem"
-        },
-        {
-          "tab": "Impressively Efficient",
-          "title": "We aren’t called Super Polyfill for nothing",
-          "content": "It might seem unbelievable, but at bunny.net, our Super Bunnies are ready and waiting to help you 24/7. So no need to worry about much tapping of your fingers and waiting for your issue to be fixed. We’re working around the clock to ensure your experience is as pleasant as possible!",
-          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img3.png",
-          "iconWidth": "360px",
-          "iconHeight": "360px",
-          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img3.png",
-          "mIconWidth": "22.5rem",
-          "mIconHeight": "22.5rem"
-        },
-        {
-          "tab": "99% Customer Satisfaction",
-          "title": "Keeping you happy is our priority",
-          "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
-          "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img4.png",
-          "iconWidth": "360px",
-          "iconHeight": "360px",
-          "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img4.png",
-          "mIconWidth": "22.5rem",
-          "mIconHeight": "22.5rem"
-        }
-      ]
-    },
-    "list1": {
-      "title1": "Gowaf Knowledge Center",
-      "title2": "Just looking for some quick information? Check out our Frequently Asked Questions.",
-      "items": [
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img1@2x.png",
-          "title": "Support HUB",
-          "content": "Guides, Troubleshooting, and Support Requests to help you get started with bunny.net."
-        },
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img2@2x.png",
-          "title": "Developer HUB",
-          "content": "Collection of information and documentation to make configuration as easy as possible."
-        },
-        {
-          "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img3@2x.png",
-          "title": "API Reference",
-          "content": "Learn about everything you can do with the bunny.net account and all other Bunny products."
-        }
-      ]
-    }
+    // "numbers": [
+    //   {
+    //     "label": "24/7",
+    //     "content": "Availability"
+    //   },
+    //   {
+    //     "label": "5 minutes",
+    //     "content": "Avg. Response Time"
+    //   },
+    //   {
+    //     "label": "3 hours",
+    //     "content": "Avg. Solve Time"
+    //   },
+    //   {
+    //     "label": "100.000+",
+    //     "content": "Tickets Solved"
+    //   }
+    // ],
+    // "goFaster": {
+    //   "title": "True around-the-clock support",
+    //   "subTitle": "No more waiting around for support you need right now! We are here for you 24 hours a day, 7 days a week, 365 days a year!",
+    //   "tabs": [
+    //     {
+    //       "tab": "Technically Knowledgeable",
+    //       "title": "Keeping you happy is our priority",
+    //       "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
+    //       "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+    //       "iconWidth": "360px",
+    //       "iconHeight": "360px",
+    //       "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img1@2x.png",
+    //       "mIconWidth": "22.5rem",
+    //       "mIconHeight": "22.5rem"
+    //     },
+    //     {
+    //       "tab": "Fastest in the Business",
+    //       "title": "Get your issue fixed with the speed of light",
+    //       "content": "At bunny.net, we live and breathe performance. This extends to the Super Bunny team as well. Our ticket support averages unparalleled sub 5 minutes first response and 3 hours solve time. We are ready and waiting behind the keyboard to help you solve any and all problems!",
+    //       "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img2.png",
+    //       "iconWidth": "360px",
+    //       "iconHeight": "360px",
+    //       "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img2.png",
+    //       "mIconWidth": "22.5rem",
+    //       "mIconHeight": "22.5rem"
+    //     },
+    //     {
+    //       "tab": "Impressively Efficient",
+    //       "title": "We aren’t called Super Polyfill for nothing",
+    //       "content": "It might seem unbelievable, but at bunny.net, our Super Bunnies are ready and waiting to help you 24/7. So no need to worry about much tapping of your fingers and waiting for your issue to be fixed. We’re working around the clock to ensure your experience is as pleasant as possible!",
+    //       "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img3.png",
+    //       "iconWidth": "360px",
+    //       "iconHeight": "360px",
+    //       "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img3.png",
+    //       "mIconWidth": "22.5rem",
+    //       "mIconHeight": "22.5rem"
+    //     },
+    //     {
+    //       "tab": "99% Customer Satisfaction",
+    //       "title": "Keeping you happy is our priority",
+    //       "content": "Your problems are our problems. We don't only look at answering your questions; we make sure to solve the problem. Super Bunnies are always doing their best to make your experience as pleasant as possible. Focus on what you do best without being held back by any issues!",
+    //       "icon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img4.png",
+    //       "iconWidth": "360px",
+    //       "iconHeight": "360px",
+    //       "mIcon": "/images/resources/SuperPolyfill/super_polyfill_truearound_img4.png",
+    //       "mIconWidth": "22.5rem",
+    //       "mIconHeight": "22.5rem"
+    //     }
+    //   ]
+    // },
+    // "list1": {
+    //   "title1": "Gowaf Knowledge Center",
+    //   "title2": "Just looking for some quick information? Check out our Frequently Asked Questions.",
+    //   "items": [
+    //     {
+    //       "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img1@2x.png",
+    //       "title": "Support HUB",
+    //       "content": "Guides, Troubleshooting, and Support Requests to help you get started with bunny.net."
+    //     },
+    //     {
+    //       "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img2@2x.png",
+    //       "title": "Developer HUB",
+    //       "content": "Collection of information and documentation to make configuration as easy as possible."
+    //     },
+    //     {
+    //       "icon": "/images/resources/SuperPolyfill/polyfill_knowledge_img3@2x.png",
+    //       "title": "API Reference",
+    //       "content": "Learn about everything you can do with the bunny.net account and all other Bunny products."
+    //     }
+    //   ]
+    // }
   },
   "blog": {
     "header": {
@@ -2744,58 +2744,58 @@
       "title": "Hopping Ahead: Polyfikk.net ranks as the #1 Fastest CDN in 2023",
       "content": "We're on a mission to make the internet hop faster globally. We're thrilled to share how we hopped ahead in 2023, becoming the world's fastest CDN, and the journey that got us ther..."
     },
-    "CommonTabs": [
-      {
-        "tab": "All Posts"
-      },
-      {
-        "tab": "AI"
-      },
-      {
-        "tab": "Networking"
-      },
-      {
-        "tab": "News"
-      },
-      {
-        "tab": "Performance"
-      },
-      {
-        "tab": "Privacy"
-      },
-      {
-        "tab": "Securitv"
-      },
-      {
-        "tab": "Tips And Tricks"
-      }
-    ],
-    "Post": [
-      {
-        "img": "/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png",
-        "title": "News",
-        "content": "Leading with smarter edge compute,Gowaf.net hopping at NAB 2024",
-        "author": "Raul Vecchione",
-        "headPortrait": "",
-        "time": "April 26. 2024"
-      },
-      {
-        "img": "",
-        "title": "News",
-        "content": "Now Creators Take Charge Using Gowaf Stream with Patreon",
-        "author": "Raul Vecchione",
-        "headPortrait": "",
-        "time": "April 26. 2024"
-      },
-      {
-        "img": "",
-        "title": "News",
-        "content": "We're Changing The WordPress Performance Game: Introducing The New bunny.net Plugin",
-        "author": "Raul Vecchione",
-        "headPortrait": "",
-        "time": "April 26. 2024"
-      }
-    ],
+    // "CommonTabs": [
+    //   {
+    //     "tab": "All Posts"
+    //   },
+    //   {
+    //     "tab": "AI"
+    //   },
+    //   {
+    //     "tab": "Networking"
+    //   },
+    //   {
+    //     "tab": "News"
+    //   },
+    //   {
+    //     "tab": "Performance"
+    //   },
+    //   {
+    //     "tab": "Privacy"
+    //   },
+    //   {
+    //     "tab": "Securitv"
+    //   },
+    //   {
+    //     "tab": "Tips And Tricks"
+    //   }
+    // ],
+    // "Post": [
+    //   {
+    //     "img": "/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png",
+    //     "title": "News",
+    //     "content": "Leading with smarter edge compute,Gowaf.net hopping at NAB 2024",
+    //     "author": "Raul Vecchione",
+    //     "headPortrait": "",
+    //     "time": "April 26. 2024"
+    //   },
+    //   {
+    //     "img": "",
+    //     "title": "News",
+    //     "content": "Now Creators Take Charge Using Gowaf Stream with Patreon",
+    //     "author": "Raul Vecchione",
+    //     "headPortrait": "",
+    //     "time": "April 26. 2024"
+    //   },
+    //   {
+    //     "img": "",
+    //     "title": "News",
+    //     "content": "We're Changing The WordPress Performance Game: Introducing The New bunny.net Plugin",
+    //     "author": "Raul Vecchione",
+    //     "headPortrait": "",
+    //     "time": "April 26. 2024"
+    //   }
+    // ],
     "paging1": "Showing",
     "paging2": "out of",
     "paging3": "posts"
@@ -2805,49 +2805,49 @@
       "title": "What is a Content  Delivery Network (CDN)?",
       "content": "Why are CDNs used for serving media and static files? How can they help your website?"
     },
-    "option": [
-      "What is CDN?",
-      "Content Acceleration",
-      "Reliability",
-      "Servers"
-    ],
+    // "option": [
+    //   "What is CDN?",
+    //   "Content Acceleration",
+    //   "Reliability",
+    //   "Servers"
+    // ],
     "rightTitle": "Glossary",
-    "articleList": [
-      {
-        "title": "About ParrotSec",
-        "content": "<p>A <b>Content Delivery Network (CDN)</b>, as the name implies, is a network of servers for the purpose of delivering website content. Although web servers are primarily responsible for serving a website’s content on the World Wide Web, a CDN can improve user experience by decreasing the distance between a user and the content (resulting in lower latency and improved throughput).</p><br/><p>CDNs are now very popular and used by websites with massive traffic such as Facebook and Amazon to provide a fast experience no matter the user’s geographical location.</p>"
-      },
-      {
-        "title": "Website experience without a CDN",
-        "content": "<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p>"
-      },
-      {
-        "title": "Website experience without a CDN",
-        "content": "<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p><br/><p><img src='/images/resources/WhatIsCDN/help_with@2x.png' /></p><br/><p>This is roughly how CDNs work -- data is physically closer to end-users, much like a warehouse of products. This results in faster delivery times - or in the case of CDNs, faster page load times. There is a caveat: most CDNs do not have a \"facility\" - or edge server - in the same city as every user. So, users will have usually have to contend with data within a close proximity, but the general experience for users should still be improved.</p>"
-      },
-      {
-        "title": "Reducing bandwidth cost using a CDN",
-        "content": "<p>So far, the benefits of a CDN that have been discussed are from the users’ end. From the perspective of a website owner, other than providing a much better experience for the end user, a CDN also helps to reduce the overall cost of delivering content.</p><br/><p>For very popular websites, bandwidth on the origin server is a major expense. The origin server does not consume as much bandwidth since most of the content served to its end users uses the bandwidth of the edge servers. This reduces the cost of bandwidth on the origin server, which uses a much smaller amount of bandwidth to serve content to the edge servers (usually a single time). Therefore, by using a CDN, a popular website can serve the same number of users at a lower cost.</p>"
-      },
-      {
-        "title": "Security improvements using a Content Delivery Network",
-        "content": "<p>So far, the benefits of a CDN that have been discussed are from the users’ end. From the perspective of a website owner, other than providing a much better experience for the end user, a CDN also helps to reduce the overall cost of delivering content.</p><br/><p>For very popular websites, bandwidth on the origin server is a major expense. The origin server does not consume as much bandwidth since most of the content served to its end users uses the bandwidth of the edge servers. This reduces the cost of bandwidth on the origin server, which uses a much smaller amount of bandwidth to serve content to the edge servers (usually a single time). Therefore, by using a CDN, a popular website can serve the same number of users at a lower cost.</p>"
-      }
-    ],
-    "advertisement": [
-      {
-        "title": "Edge Server",
-        "content": "An Edge Server is a server used as part of a global CDN or edge network. Usually an Edge Server is just one of hundreds of servers located around the world located in a close proximity to the end user."
-      },
-      {
-        "title": "PoP",
-        "content": "PoP stands for Point of Presence and is usually referred to as a region where a company or service operates from."
-      },
-      {
-        "title": "CDN",
-        "content": "A CDN, or \"Content Delivery Network,\" is a network of servers (typically placed around the world) used to deliver content (such as videos, photos, and CSS)."
-      }
-    ],
+    // "articleList": [
+    //   {
+    //     "title": "About ParrotSec",
+    //     "content": "<p>A <b>Content Delivery Network (CDN)</b>, as the name implies, is a network of servers for the purpose of delivering website content. Although web servers are primarily responsible for serving a website’s content on the World Wide Web, a CDN can improve user experience by decreasing the distance between a user and the content (resulting in lower latency and improved throughput).</p><br/><p>CDNs are now very popular and used by websites with massive traffic such as Facebook and Amazon to provide a fast experience no matter the user’s geographical location.</p>"
+    //   },
+    //   {
+    //     "title": "Website experience without a CDN",
+    //     "content": "<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p>"
+    //   },
+    //   {
+    //     "title": "Website experience without a CDN",
+    //     "content": "<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p><br/><p><img src='/images/resources/WhatIsCDN/help_with@2x.png' /></p><br/><p>This is roughly how CDNs work -- data is physically closer to end-users, much like a warehouse of products. This results in faster delivery times - or in the case of CDNs, faster page load times. There is a caveat: most CDNs do not have a \"facility\" - or edge server - in the same city as every user. So, users will have usually have to contend with data within a close proximity, but the general experience for users should still be improved.</p>"
+    //   },
+    //   {
+    //     "title": "Reducing bandwidth cost using a CDN",
+    //     "content": "<p>So far, the benefits of a CDN that have been discussed are from the users’ end. From the perspective of a website owner, other than providing a much better experience for the end user, a CDN also helps to reduce the overall cost of delivering content.</p><br/><p>For very popular websites, bandwidth on the origin server is a major expense. The origin server does not consume as much bandwidth since most of the content served to its end users uses the bandwidth of the edge servers. This reduces the cost of bandwidth on the origin server, which uses a much smaller amount of bandwidth to serve content to the edge servers (usually a single time). Therefore, by using a CDN, a popular website can serve the same number of users at a lower cost.</p>"
+    //   },
+    //   {
+    //     "title": "Security improvements using a Content Delivery Network",
+    //     "content": "<p>So far, the benefits of a CDN that have been discussed are from the users’ end. From the perspective of a website owner, other than providing a much better experience for the end user, a CDN also helps to reduce the overall cost of delivering content.</p><br/><p>For very popular websites, bandwidth on the origin server is a major expense. The origin server does not consume as much bandwidth since most of the content served to its end users uses the bandwidth of the edge servers. This reduces the cost of bandwidth on the origin server, which uses a much smaller amount of bandwidth to serve content to the edge servers (usually a single time). Therefore, by using a CDN, a popular website can serve the same number of users at a lower cost.</p>"
+    //   }
+    // ],
+    // "advertisement": [
+    //   {
+    //     "title": "Edge Server",
+    //     "content": "An Edge Server is a server used as part of a global CDN or edge network. Usually an Edge Server is just one of hundreds of servers located around the world located in a close proximity to the end user."
+    //   },
+    //   {
+    //     "title": "PoP",
+    //     "content": "PoP stands for Point of Presence and is usually referred to as a region where a company or service operates from."
+    //   },
+    //   {
+    //     "title": "CDN",
+    //     "content": "A CDN, or \"Content Delivery Network,\" is a network of servers (typically placed around the world) used to deliver content (such as videos, photos, and CSS)."
+    //   }
+    // ],
     "bot": {
       "title": "Prove your Knowledge. Earn a bunny diploma.",
       "btntxt": "Start the Quiz"

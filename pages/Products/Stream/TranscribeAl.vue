@@ -24,19 +24,13 @@
   <ProductsEasyPowerful
     :title="$t('products.Stream.TranscribeAI.EasyPowerful.title')"
     :sub-title="$t('products.Stream.TranscribeAI.EasyPowerful.subTitle')"
-    :ful-items="$tm('products.Stream.TranscribeAI.EasyPowerful.items')"
+    :ful-items="i18ntext.items"
   />
   <LgOnly>
-    <ProductsNeverHit
-      :isShowTitle="true"
-      :neverHit="$tm('products.Stream.TranscribeAI.neverHit')"
-    />
+    <ProductsNeverHit :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </LgOnly>
   <XsOnly>
-    <ProductsNeverHitList
-      :isShowTitle="true"
-      :neverHit="$tm('products.Stream.TranscribeAI.neverHit')"
-    />
+    <ProductsNeverHitList :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </XsOnly>
   <SolutionsAd1
     :title="$t('products.Stream.TranscribeAI.ad1.title')"
@@ -53,7 +47,7 @@
   <CommonList1
     :title1="$t('products.Stream.TranscribeAI.list1.title')"
     :title2="$t('products.Stream.TranscribeAI.list1.subTitle')"
-    :items="$tm('products.Stream.TranscribeAI.list1.items')"
+    :items="i18ntext.items1"
   />
   <ProductsStorageSupportPlan
     title=""
@@ -65,7 +59,7 @@
     <div class="Planlist">
       <div
         class="row-item"
-        v-for="item in $tm('products.Stream.TranscribeAI.SupportPlan.list')"
+        v-for="item in i18ntext.list"
       >
         <div class="left-title">
           <span class="hit">{{ item.hin }}</span>
@@ -80,9 +74,7 @@
         <div class="Checklist">
           <div
             class="CheckTheBox"
-            v-for="(item, index) in $tm(
-              'products.Stream.TranscribeAI.SupportPlan.included.list'
-            )"
+            v-for="(item, index) in i18ntext.list1"
             :key="index"
           >
             <div class="icon"></div>
@@ -94,10 +86,10 @@
       </div>
     </div>
   </ProductsStorageSupportPlan>
-  <CommonSuperCharge v-bind="$tm('products.Stream.TranscribeAI.doNotLeave')" />
+  <CommonSuperCharge v-bind="i18ntext.doNotLeave" />
   <ProductsPlayerVideo />
   <ProductsDRMCustomers
-    :drmCustomer="$tm('products.stream.multiDRM.drmCustomer')"
+    :drmCustomer="i18ntext.drmCustomer"
   />
   <Footer />
 </template>
@@ -105,6 +97,175 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'Products'
+});
+
+const i18ntext = computed(() => {
+  return {
+    items: [
+      {
+        icon: '/images/products/stream/TranscribeAI/media_simple_ic_1@2x.png',
+        title: 'Upload',
+        content:
+          'Upload your media files using an HTTP API or web file manager.'
+      },
+      {
+        icon: '/images/products/stream/TranscribeAI/transcribe_1_ic_2@2x.png',
+        title: 'Transcribe',
+        content:
+          'Transcribe Al automatically transcribes and captions your videos during transcoding.'
+      },
+      {
+        icon: '/images/products/stream/TranscribeAI/transcribe_1_ic_3@2x.png',
+        title: 'Deliver and Build',
+        content:
+          'Deliver your captioned videos to new audiences, or access the raw transcriptions through the ApI'
+      }
+    ],
+    neverHit: {
+      title: 'The next era of video intelligence.',
+      subTitle:
+        'Provide valuable business insights, or enhance your user experience.',
+      items: [
+        {
+          icon: '/images/products/stream/TranscribeAI/transcribe_2_ic_1@2x.png',
+          width: '80px',
+          height: '80px',
+          alignType: 'center',
+          title: 'Create Subtitles',
+          content:
+            'Reach a broader audience by removing the language barriers with automated translations to up to 57 languages available in just a few clicks.'
+        },
+        {
+          icon: '/images/products/stream/TranscribeAI/transcribe_2_ic_2@2x.png',
+          width: '80px',
+          height: '80px',
+          alignType: 'center',
+          title: 'Generate Meeting Notes',
+          content:
+            'Accurately transcribe meetinas and generate summaries and titles to quickly categorize and capture the meetings that help teams succeed.'
+        },
+        {
+          icon: '/images/products/stream/TranscribeAI/transcribe_2_ic_3@2x.png',
+          width: '80px',
+          height: '80px',
+          alignType: 'center',
+          title: 'Get Powerful Video Insights',
+          content:
+            'Extract insights from meetings, customer conversations, or customer engagement and enrich your workflow experience.'
+        }
+      ]
+    },
+    items1: [
+      {
+        icon: '/images/products/stream/TranscribeAI/Pricing_Overview_card_ic_4@2x.png',
+        title: 'Pay Only For What You Use',
+        content:
+          'Only pay for the number of minutes you transcribe with no minimum recurring costs.'
+      },
+      {
+        icon: '/images/products/stream/TranscribeAI/Pricing_Overview_card_ic_1@2x.png',
+        title: '$1 Monthly Minimum',
+        content:
+          'Get started for free with a 14-day free trial, and continue for as little as $1 per month.'
+      },
+      {
+        icon: '/images/products/stream/TranscribeAI/Beautiful_Video_Player@2x.png',
+        title: 'All Features Included',
+        content:
+          'Use the full Transcribe AI feature set with no extra charges or hidden costs.'
+      }
+    ],
+    list: [
+      {
+        title: '/per minute of video*',
+        hin: '$0.1',
+        content:
+          'Eliminate expensive transcribing fees and start utilizing Bunny AI with simple and affordable pricing. Excellent solution that scales with project size.'
+      }
+    ],
+    list1: [
+      'Transcriptions in 56 languages',
+      'All Features',
+      'Full API Support'
+    ],
+    doNotLeave: {
+      title: 'Hop faster with AI that just works.',
+      subTitle:
+        'Reduce the complexity of video processing and managing multiple APIs with an end-to-end system that just works.',
+      tabs: [
+        {
+          tab: 'Simplify Workflow',
+          title: 'Simplify your video workflow',
+          content:
+            'Replace multiple complicated APIs with a simple, end-to-end solution. Transcribe AI integrates directly into your existing Bunny Stream workflow to reduce complexity and help you hop aster. Just upload your videos, and Bunny Stream will automatically encode, tag, and transcribe any speech into organized and timestamped captions available in just a few minutes.',
+          icon: '/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png',
+          iconWidth: '378px',
+          iconHeight: '389px',
+          mIcon:
+            '/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png',
+          mIconWidth: '23.63rem',
+          mIconHeight: '24.31rem'
+        },
+        {
+          tab: 'Reduce Costs',
+          title: 'Amazing performance and unparalleled reliability',
+          content:
+            'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
+          icon: '/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png',
+          iconWidth: '378px',
+          iconHeight: '389px',
+          mIcon:
+            '/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png',
+          mIconWidth: '23.63rem',
+          mIconHeight: '24.31rem'
+        }
+      ]
+    },
+    drmCustomer: {
+      title: 'Trusted by 40.000+ global customers',
+      contentPre: "We're rated ",
+      contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
+      contentMid: ' Excellent 4.8',
+      contentP: 'out of 5 on',
+      contentLink: 'Trustpilot',
+      contentLast: ' - Based on 600+ reviews',
+      faceImg: {
+        img: '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
+        top: '-3px',
+        right: '135px',
+        width: '438px',
+        height: '300px',
+        mtop: '11.81rem',
+        mright: '0',
+        mwidth: '27.38rem',
+        mheight: '18.75rem'
+      },
+      list: {
+        title: 'Matthias Mauch',
+        subTitle: 'Younity',
+        content:
+          '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."'
+      },
+      items: [
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_1_2x.png'
+        },
+        {
+          num: 4.4,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_2_2x.png'
+        },
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_3_2x.png'
+        },
+        {
+          num: 4.8,
+          icon: '/images/products/stream/multi-drm/Network_Overview_mark_logo_4_2x.png'
+        }
+      ]
+    }
+  };
 });
 </script>
 <style lang="scss" scoped>

@@ -1,8 +1,7 @@
 <script lang="ts" setup>
+import type { tabs } from '~/types/tabs'
 defineProps<{
-  tabs: {
-    tab: string;
-  }[];
+  tabs: tabs;
   curTab: number;
 }>();
 

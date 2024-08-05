@@ -21,9 +21,7 @@
             <div class="list">
               <div
                 class="item"
-                v-for="item in $tm(
-                  'solutions.videoDelivery.supportPlan.main.list'
-                )"
+                v-for="item in i18ntext"
               >
                 <div
                   class="icon"
@@ -49,6 +47,25 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Color.png',
+      title: 'Choose your Color',
+      content:
+        'Customize the video player color scheme to match the design of your website perfectly.'
+    },
+    {
+      icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Controls.png',
+      title: 'Customize your Controls',
+      content:
+        'Add or remove player controls to make it a perfect fit for your users’ experience.'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .support-plan-container {

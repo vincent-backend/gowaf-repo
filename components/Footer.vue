@@ -14,6 +14,133 @@ withDefaults(
     showbotFoot: true
   }
 );
+
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return {
+    hotlinks: [
+      {
+        label: 'About Us',
+        link: '/resources/about'
+      },
+      {
+        label: 'Gowaf Blog',
+        link: '/resources/blog'
+      },
+      {
+        label: 'Gowaf Careers',
+        link: '/resources/careers'
+      },
+      {
+        label: 'Case Studies',
+        link: '/resources/caseStudiesDetails'
+      },
+      {
+        label: 'Affiliate Program',
+        link: '/AffiliateProgram'
+      }
+    ],
+    shortcuts: [
+      {
+        title: 'Products',
+        items: [
+          {
+            label: 'Gowaf CDN',
+            href: '/Products/Cdn/Overview'
+          },
+          {
+            label: 'Gowaf Optimizer',
+            href: '/Products/optimizer/Overview'
+          },
+          {
+            label: 'Gowaf Storage',
+            href: '/Products/Storage/Asia'
+          },
+          {
+            label: 'Gowaf Stream',
+            href: '/Products/Stream/Overview'
+          },
+          {
+            label: 'Gowaf DNS',
+            href: '/Products/Cdn/Overview'
+          }
+        ]
+      },
+      {
+        title: 'Developers',
+        items: [
+          {
+            label: 'Network Map',
+            href: '/Network/Overview'
+          },
+          {
+            label: 'Gowaf Features',
+            href: '/Products/Cdn/Features'
+          },
+          {
+            label: 'Network Tools',
+            href: '/Network/Tools'
+          },
+          {
+            label: 'Developer Hub',
+            href: '#'
+          },
+          {
+            label: 'API Documentation',
+            href: '#'
+          }
+        ]
+      },
+      {
+        title: 'Support',
+        items: [
+          {
+            label: 'SLA',
+            href: '/SLA'
+          },
+          {
+            label: 'Support HUB',
+            href: '/SupportHUB'
+          },
+          {
+            label: 'Super Bunnies™',
+            href: '/BookMeeting'
+          },
+          {
+            label: 'Service Status',
+            href: '#'
+          },
+          {
+            label: '✉hello@bunny.net',
+            href: '#'
+          }
+        ]
+      }
+    ],
+    links: [
+      {
+        label: 'Terms Of Service',
+        link: '#'
+      },
+      {
+        label: 'Acceptable Use',
+        link: '#'
+      },
+      {
+        label: 'GDPR',
+        link: '#'
+      },
+      {
+        label: 'Privacy & Data Policy',
+        link: '#'
+      },
+      {
+        label: 'Report Abuse',
+        link: '#'
+      }
+    ]
+  };
+});
 </script>
 <template>
   <footer
@@ -51,7 +178,7 @@ withDefaults(
         <div class="left">
           <div class="hot-links">
             <a
-              v-for="item in $tm('footer.footer2.hotlinks')"
+              v-for="item in i18ntext.hotlinks"
               :href="item.link"
               class="link"
             >
@@ -61,7 +188,7 @@ withDefaults(
           <div class="shortcuts-container">
             <dl
               class="shortcuts"
-              v-for="item in $tm('footer.footer2.shortcuts')"
+              v-for="item in i18ntext.shortcuts"
             >
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
@@ -74,7 +201,7 @@ withDefaults(
           <!-- laptop only -->
           <LgOnly>
             <div class="links">
-              <a v-for="item in $tm('footer.footer2.links')" :href="item.link">
+              <a v-for="item in i18ntext.links" :href="item.link">
                 {{ item.label }}
               </a>
             </div>
@@ -125,12 +252,10 @@ withDefaults(
           <div class="section-3">
             {{ $t('footer.footer2.section3') }}
           </div>
-
-          <!-- mobile only -->
           <XsOnly>
             <Line top="0" m-top="3.13rem" />
             <div class="links">
-              <a v-for="item in $tm('footer.footer2.links')" :href="item.link">
+              <a v-for="item in i18ntext.links" :href="item.link">
                 {{ item.label }}
               </a>
             </div>

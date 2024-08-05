@@ -1,6 +1,51 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
 const curTab = ref(0);
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return {
+    tabs: [
+      {
+        tab: 'Gigabytes'
+      },
+      {
+        tab: 'Terabytes'
+      }
+    ],
+    items: [
+      {
+        title: 'EU / NA',
+        value: '200 GB',
+        percent: 20
+      },
+      {
+        title: 'Asia / Oceania',
+        value: '50GB',
+        percent: 10
+      },
+      {
+        title: 'South America',
+        value: '0 GB',
+        percent: 0
+      },
+      {
+        title: 'ME & Africa',
+        value: '0GB',
+        percent: 0
+      }
+    ],
+    subs: [
+      {
+        title: 'Standard Tier',
+        value: '$3.5/month'
+      },
+      {
+        title: 'Volume Tier',
+        value: '$1.25/month'
+      }
+    ]
+  };
+});
 </script>
 
 <template>
@@ -11,7 +56,7 @@ const curTab = ref(0);
       <Line top="40px" m-top="1.87rem" />
 
       <CommonTabs
-        :tabs="$tm('pricing.cdn.calculator1.tabs')"
+        :tabs="i18ntext.tabs"
         v-model:cur-tab="curTab"
       />
       <div class="content">
@@ -22,7 +67,7 @@ const curTab = ref(0);
           <div class="list">
             <div
               class="item"
-              v-for="item in $tm('pricing.cdn.calculator1.items')"
+              v-for="item in i18ntext.items"
             >
               <div class="left">
                 <div class="title">{{ item.title }}</div>
@@ -36,7 +81,7 @@ const curTab = ref(0);
           <div class="list2">
             <div
               class="item"
-              v-for="item in $tm('pricing.cdn.calculator1.subs')"
+              v-for="item in i18ntext.subs"
             >
               <div class="left">
                 <span class="title">{{ item.title }}</span>

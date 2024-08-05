@@ -10,9 +10,7 @@
       <div class="content">
         <div
           :class="['column', `column-${index}`]"
-          v-for="(item, index) in $tm(
-            'products.stream.overview.simplifiedPricing.columns'
-          )"
+          v-for="(item, index) in i18ntext"
         >
           <div class="head">{{ item.head }}</div>
           <div class="items" :class="`items-${index}`">
@@ -32,6 +30,61 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      head: 'Traditional Cloud Provider',
+      items: [
+        {
+          title: '$0.02/minute+',
+          subTitle: 'Encoding'
+        },
+        {
+          title: 'From $0.02/GB',
+          subTitle: 'Storage'
+        },
+        {
+          title: 'From $0.085/GB',
+          subTitle: 'CDN'
+        }
+      ],
+      items2: [
+        'Expensive transcoding fees',
+        'Bring and integrate your own external player',
+        'Complex integration with additional charges',
+        'Centralized storage prone to bottlenecks'
+      ]
+    },
+    {
+      head: 'Gowaf Stream',
+      items: [
+        {
+          title: 'FREE',
+          subTitle: 'Encoding'
+        },
+        {
+          title: 'From $0.01/GB',
+          subTitle: 'Storage'
+        },
+        {
+          title: 'From $0.005/GB',
+          subTitle: 'CDN'
+        }
+      ],
+      items2: [
+        'No security fees',
+        'No transcoding fees',
+        'Free player included',
+        'Distributed video storage',
+        'Extreme performance with 150 Tbps+ backbone'
+      ]
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .simplified-pricing-container {
@@ -237,7 +290,7 @@
             top: 0;
             width: 100%;
             height: 5.25rem;
-            border-radius:0.88rem 0.88rem 0rem 0rem;
+            border-radius: 0.88rem 0.88rem 0rem 0rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -318,7 +371,7 @@
 
             > .head {
               background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
-              border-radius:0.88rem 0.88rem 0rem 0rem;
+              border-radius: 0.88rem 0.88rem 0rem 0rem;
             }
 
             > .items {

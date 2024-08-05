@@ -13,7 +13,7 @@
         <span class="s-6">{{ $t('home.join2.subTitle6') }}</span>
       </div>
       <div class="list">
-        <div class="item" v-for="item in $tm('home.join2.list')">
+        <div class="item" v-for="item in i18ntext">
           <div class="person">
             <div class="left">
               <div
@@ -50,6 +50,54 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return [
+    {
+      avatar: 'home_avatar_1',
+      name: 'Ben M',
+      date: 'Jun 5. 202*',
+      title: 'Absolutely love these guys',
+      content:
+        "Absolutely love these guys! hey are amazing with updates, giving the best pertormance of CDN at the most attordable price! They are innovative and solving more problems then l'c ever imagined! On-the-fly image compression Minify files cachina, vou name it!"
+    },
+    {
+      avatar: 'home_avatar_2',
+      name: 'Alex',
+      date: 'Dec 11. 2024',
+      title: 'Gowaf CDN is truly exceptional',
+      content:
+        "Gowaf CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
+    },
+    {
+      avatar: 'home_avatar_3',
+      name: 'Laurent Bertin',
+      date: 'Oct 22. 2021',
+      title: "lf you hesitate. don't.",
+      content:
+        'Great price. Great service. Great suppon Migrated all my videos from vimeo and it work: better, and like 240 audios from AWS and It costs less and works tastel.'
+    },
+    {
+      avatar: 'home_avatar_6',
+      name: 'Garry',
+      date: 'Feb 3, 2019',
+      title: 'Absolutely Amazing',
+      content:
+        'Absolutely Amazing! Easy to set up with just a tew clicks... Great overall pertormance and super cheap. What I like most is easy to Instal SSL certificate for the custom hostname which takes like 2 clicks. Using it for more than a year and nave nning negat to say.'
+    },
+    {
+      avatar: 'home_avatar_7',
+      name: 'Alberto Baudacci',
+      date: 'Feb 16. 2021',
+      title: 'Getting better and better',
+      content:
+        'Getting better and better! Fast, reliable and best prices on the market, very nice and friendly Ul. Keep up the good iob guys.'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .join2-container {

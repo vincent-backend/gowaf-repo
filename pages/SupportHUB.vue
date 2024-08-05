@@ -18,7 +18,7 @@
   <div class="page-container fold">
     <div
       class="row"
-      v-for="(item, index) in $tm('home.SupportHUB.list')"
+      v-for="(item, index) in i18ntext"
       :key="index"
     >
       <div class="title">{{ item.title }}</div>
@@ -39,6 +39,233 @@ import { ref } from 'vue';
 const input = ref('');
 definePageMeta({
   title: 'SupportHUB'
+});
+
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      title: 'CDN',
+      subtitle:
+        'Gowaf CDN product documentation, integration guides, and troubleshooting help.',
+      items: [
+        {
+          title: 'Getting Started',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Integration Guides',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Product Documentatio',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Technical Informatio',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Troubleshooting',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Edge Rules',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'DNS',
+      subtitle:
+        'Gowaf DNS product documentation, integration guides, and troubleshooting help.',
+      items: [
+        {
+          title: 'Getting Started',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Product Documentatio',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Storage',
+      subtitle:
+        'Gowaf DNS product documentation, integration guides, and troubleshooting help.',
+      items: [
+        {
+          title: 'Getting Started',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Product Documentatio',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Stream',
+      subtitle:
+        'Gowaf DNS product documentation, integration guides, and troubleshooting help.',
+      items: [
+        {
+          title: 'Getting Started',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Product Documentatio',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Optimizer',
+      subtitle:
+        'Gowaf DNS product documentation, integration guides, and troubleshooting help.',
+      items: [
+        {
+          title: 'Getting Started',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Product Documentatio',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Frequently Asked Questions (FAQ)',
+      subtitle:
+        'Gowaf DNS product documentation, integration guides, and troubleshooting help.',
+      items: [
+        {
+          title: 'Billing',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Pull Zones',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Edge Storage',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        },
+        {
+          title: 'Account',
+          subtitle: [
+            'How to set up a direct IP origin URL with a custom hostname using Edge Rules',
+            'The list of dynamic variables in the Edge Rule redirect URL',
+            'How to redirect your b-cdn.net hostname to your custom CDN hostname using edge rules',
+            'How to correctly set up the Edge Rule trigger path',
+            'How to use Edge Rules to set a custom cache time for a file extension'
+          ]
+        }
+      ]
+    }
+  ];
 });
 </script>
 <style lang="scss" scoped>
@@ -87,7 +314,7 @@ definePageMeta({
       .box-item {
         /* flex: 1; */
         :deep(.el-collapse-item__header) {
-          background: linear-gradient(0deg, #46CF3A 0%, #36CFBC 100%);
+          background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }

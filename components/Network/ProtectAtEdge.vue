@@ -9,7 +9,7 @@
       <div class="features">
         <div
           class="item"
-          v-for="item in $tm('network.ddos.protectAtEdge.items')"
+          v-for="item in i18ntext"
         >
           <span class="icon"></span>
           {{ item }}
@@ -18,7 +18,18 @@
     </div>
   </div>
 </template>
-
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed(() => {
+  return [
+    'UDP Flood',
+    'ICMP Flood',
+    'NTP Amplification',
+    'DNS Amplification',
+    'SYN Flood'
+  ];
+});
+</script>
 <style lang="less" scoped>
 .protect-at-edge-container {
   margin-top: 80px;

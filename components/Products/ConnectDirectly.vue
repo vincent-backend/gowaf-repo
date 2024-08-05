@@ -19,12 +19,7 @@
             {{ $t('products.cdn.overview.connectDirectly.content.content1') }}
           </div>
           <div class="item-container">
-            <div
-              class="item"
-              v-for="item in $tm(
-                'products.cdn.overview.connectDirectly.content.items'
-              )"
-            >
+            <div class="item" v-for="item in i18ntext">
               <div class="head">
                 <div
                   class="icon"
@@ -51,6 +46,24 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_connect_ic_1@2x.png',
+      value: '5min',
+      label: 'FIRST RESPONSE TIME'
+    },
+    {
+      icon: '/images/products/cdn/overview/cdn_overview_connect_ic_2@2x.png',
+      value: '3hrs',
+      label: 'AVERAGE SOLVE TIME'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .connect-directly-container {

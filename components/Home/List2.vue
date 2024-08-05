@@ -1,4 +1,68 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import type { NumbersItem } from '~/types/tabs';
+
+const { t } = useI18n();
+const SuperCharge = computed<NumbersItem>(() => {
+  return [
+    {
+      label: t('home.list2.numbers[0].label'),
+      content: t('home.list2.numbers[0].content')
+    },
+    {
+      label: t('home.list2.numbers[1].label'),
+      content: t('home.list2.numbers[1].content')
+    },
+    {
+      label: t('home.list2.numbers[2].label'),
+      content: t('home.list2.numbers[2].content')
+    },
+    {
+      label: t('home.list2.numbers[3].label'),
+      content: t('home.list2.numbers[3].content')
+    }
+  ];
+});
+const features = computed(() => {
+  return [
+    {
+      icon: 'home_card_ic_1_nor',
+      title: 'CDN',
+      content: t('home.list2.features[0].content'),
+      comingSoon: ''
+    },
+    {
+      icon: 'home_card_ic_2_nor',
+      title: t('home.SupportHUB.list[2].title'),
+      content: t('home.list2.features[1].content'),
+      comingSoon: ''
+    },
+    {
+      icon: 'home_card_ic_3_nor',
+      title: t('home.SupportHUB.list[3].title'),
+      content: t('home.list2.features[2].content'),
+      comingSoon: ''
+    },
+    {
+      icon: 'home_card_ic_4_nor',
+      title: t('home.SupportHUB.list[4].title'),
+      content: t('home.list2.features[3].content'),
+      comingSoon: ''
+    },
+    {
+      icon: 'home_card_ic_5_nor',
+      title: 'DNS',
+      content: t('home.list2.features[4].content'),
+      comingSoon: ''
+    },
+    {
+      icon: 'home_card_ic_6_nor',
+      title: t('home.list2.features[5].title'),
+      content: t('home.list2.features[5].content'),
+      comingSoon: t('home.coming-soo')
+    }
+  ];
+});
+</script>
 
 <template>
   <div class="list2-container">
@@ -13,10 +77,10 @@
         is-row
         is-two-row
         style="margin-top: 60px"
-        :items="$tm('home.list2.numbers')"
+        :items="SuperCharge"
       />
       <div class="features">
-        <div class="feature" v-for="item in $tm('home.list2.features')">
+        <div class="feature" v-for="item in features">
           <div class="left">
             <div
               class="icon"
@@ -26,7 +90,7 @@
             ></div>
             <XsOnly>
               <span class="coming-soon" v-if="item.comingSoon">
-                Coming Soon
+                {{ item.comingSoon }}
               </span>
             </XsOnly>
           </div>
@@ -35,7 +99,7 @@
               {{ item.title }}
               <LgOnly>
                 <span class="coming-soon" v-if="item.comingSoon">
-                  Coming Soon
+                  {{ item.comingSoon }}
                 </span>
               </LgOnly>
             </div>

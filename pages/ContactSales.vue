@@ -104,9 +104,7 @@
 
         <div class="agreement">
           <el-checkbox v-model="formLabelAlign.checked" size="large">
-            <template
-              v-for="(item, index) in $tm('home.ContactSales.agreement')"
-            >
+            <template v-for="(item, index) in i18ntext">
               <font :class="{ green: [1].includes(index) }">{{ item }}</font>
             </template>
           </el-checkbox>
@@ -146,6 +144,10 @@ const list = ref([
   'Software Distribution',
   'DoS Protection'
 ]);
+
+const i18ntext = computed<any>(() => {
+  return ['I have read and agree to the Gowaf', ' Privacy Policy '];
+});
 </script>
 <style lang="scss" scoped>
 .form-body {

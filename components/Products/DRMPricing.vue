@@ -27,12 +27,7 @@
               {{ $t('products.stream.multiDRM.drmPricing.section1.content2') }}
             </div>
             <div class="list">
-              <div
-                class="item"
-                v-for="item in $tm(
-                  'products.stream.multiDRM.drmPricing.section1.list'
-                )"
-              >
+              <div class="item" v-for="item in i18ntext.list">
                 <div class="icon"></div>
                 <div class="label">{{ item.label }}</div>
                 <div class="text">{{ item.content }}</div>
@@ -82,12 +77,7 @@
             </p>
             <div class="pic" v-if="isMobile"></div>
             <ul>
-              <li
-                v-for="(item, index) in $tm(
-                  'products.stream.multiDRM.drmPricing.section2.list'
-                )"
-                :key="index"
-              >
+              <li v-for="(item, index) in i18ntext.list1" :key="index">
                 <img :src="item.icon" :alt="item.title" />
                 <div>
                   <h4>{{ item.title }}</h4>
@@ -101,6 +91,52 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return {
+    list: [
+      {
+        label: '0-20k:',
+        content: '$0.005/month per license'
+      },
+      {
+        label: '20k-100k:',
+        content: '$0.005/month per license'
+      },
+      {
+        label: '100k - 500k:',
+        content: '$0.003/month per license'
+      },
+      {
+        label: '500k+:',
+        content: 'Custom pricing'
+      }
+    ],
+    list1: [
+      {
+        title: 'Prevent downloads',
+        icon: '/images/products/stream/multi-drm/media_perfect_ic_1@2x.png',
+        content:
+          'Stop losing subscribers to piracy and stream media content on your terms.'
+      },
+      {
+        title: 'Online Courses',
+        icon: '/images/products/stream/multi-drm/media_perfect_ic_2@2x.png',
+        content:
+          'Take complete control of our content and limit access to courses or specific videos as you see fit.'
+      },
+      {
+        title: 'Prevent downloads',
+        icon: '/images/products/stream/multi-drm/media_perfect_ic_3@2x.png',
+        content:
+          'Stop piracy before it happens and ensure your content stays available only to your subscribers.'
+      }
+    ]
+  };
+});
+</script>
 
 <style lang="less" scoped>
 .drm-pricing-container {

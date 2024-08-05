@@ -5,10 +5,7 @@
         <h3>{{ $t('products.stream.multiDRM.email.title') }}</h3>
         <h3>{{ $t('products.stream.multiDRM.email.subTitle') }}</h3>
         <ul>
-          <li
-            v-for="(item, index) in $tm('products.stream.multiDRM.email.list')"
-            :key="index"
-          >
+          <li v-for="(item, index) in i18ntext" :key="index">
             <img :src="item.icon" :alt="item.content" />
             <p>{{ item.content }}</p>
           </li>
@@ -22,6 +19,28 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n();
+const i18ntext = computed<any>(() => {
+  return [
+    {
+      icon: '/images/products/stream/multi-drm/stream_multi_7_ic_1_2x.png',
+      content:
+        'End-to-end DRM protection with browser, native iOS, and Android support.'
+    },
+    {
+      icon: '/images/products/stream/multi-drm/stream_multi_7_ic_2_2x.png',
+      content: 'Pre-integrated, and custom integration player.'
+    },
+    {
+      icon: '/images/products/stream/multi-drm/stream_multi_7_ic_3_2x.png',
+      content:
+        'Unlimited media transcoding up to 4k. Completely free of charge.'
+    }
+  ];
+});
+</script>
 
 <style lang="less" scoped>
 .drm-email-container {
