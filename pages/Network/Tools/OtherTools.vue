@@ -60,6 +60,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 const input = ref('');
 const select = ref('1');
 definePageMeta({
@@ -74,22 +75,20 @@ const i18ntext = computed<any>(() => {
           width: '100px',
           height: '100px',
           alignType: 'center',
-          title: 'SSL Checker',
-          content:
-            'Verify whether your SSL certificate is correctly installed.',
+          title: t('qQ-ZvIBWftvfO5WPa-sv9'),
+          content: t('eKO6Lf0Oc_hA9qm-isL25'),
           contentAlign: 'center',
-          btn: 'SSL Checker'
+          btn: t('mYvpozfrPGJDMf7G6clS0')
         },
         {
           icon: '/images/network/WebTools/diagnostic_report_ic_1@2x.png',
           width: '100px',
           height: '100px',
           alignType: 'center',
-          title: 'IP Geolocation',
-          content:
-            'Check aproximately where an IP address is located (geolocation).',
+          title: t('1KncVVp4lX8S6Ku1dLsyD'),
+          content: t('E6-WOFWC37nW0SwSJmZ4y'),
           contentAlign: 'center',
-          btn: 'GeolP Lookup'
+          btn: t('p6QBcvl_McVRkjzwr-PSx')
         }
       ]
     }

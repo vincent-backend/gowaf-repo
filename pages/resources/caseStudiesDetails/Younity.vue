@@ -31,9 +31,9 @@
     ]"
   />
   <CommonHeader1
-    :logo="$t('resources.caseStudiesDetailsYounity.header.logo')"
-    :logoWidth="$t('resources.caseStudiesDetailsYounity.header.logoWidth')"
-    :logoHeight="$t('resources.caseStudiesDetailsYounity.header.logoHeight')"
+    logo="/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_yo_2x.png"
+    logoHeight="42px"
+    logoWidth="123px"
     :title="$t('resources.caseStudiesDetailsYounity.header.title')"
     :content="$t('resources.caseStudiesDetailsYounity.header.content')"
     :btn="$t('resources.caseStudiesDetailsYounity.header.btn')"
@@ -90,6 +90,7 @@
 }
 </style>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -97,29 +98,27 @@ const i18ntext = computed(() => {
   return {
     numbers: [
       {
-        label: 'Bigger',
+        label: t('DwvSslnuKTfQ7pVyqDBaB'),
         label2: 'network',
-        content: 'powered by 120+ PoPs and 80 Tbps backbone'
+        content: t('kaxylTM8WsnZRDAo-y4U8')
       },
       {
-        label: 'Super',
+        label: t('MGcR-FgpfeGIFr8pyM3HK'),
         label2: 'support',
-        content: 'working with them 24/7 during the event'
+        content: t('enVaqi4U9IZqCus6YiWAH')
       },
       {
         label: '66%',
-        label2: 'cost saved',
-        content: 'compared to their original provider'
+        label2: t('N4J-ikTHwvkmdhSH6Q-kN'),
+        content: t('5zIDoM0_4FmpQHU1TQ4N1')
       }
     ],
     items: [
       {
         pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_1_2x.png',
-        title: 'About Younity',
-        content:
-          'With a vision to empower people to find fulfillment, Younity wanted to bring topics like self-development and mental health to a broader audience. In 2015, Younity set out on a journey as an online company, building its own spirituality and coaching platform and running online events like flow! summit to connect viewers with a renowned network of speakers and experts.',
-        content2:
-          'They host lectures and seminars about personal growth, self-development, meditation, and much more. Since its foundation, Younity has made growth content accessible to anyone, anywhere since they launched flow! summit in 2017, viewers have tuned in from all over the world to listen and learn. These days, Younity hosts virtual events in more than 15 languages.',
+        title: t('ckb1WnA3Cv-t1NXOR2AMD'),
+        content: t('cuIb36AC5s1I2pOz8Ewfu'),
+        content2: t('62kb_UhofiOTD2W68Jtsa'),
         width: '336px',
         height: '252px',
         mwidth: '21rem',
@@ -127,11 +126,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_2_2x.png',
-        title: 'The Challenges',
-        content:
-          'To host online courses and lectures, Younity needed a virtual streaming platform. But once they started hosting summits, they had nothing but problems. The old platform couldn’t handle the traffic. Viewers complained about frequent crashes, and the crashes prevented the Younity team from seeing their analytics.',
-        content2:
-          'Even worse, their old provider’s support couldn’t answer their questions before tech issues ruined the viewer experience. Plus, Younity’s last streaming service closed their account without warning, had trouble processing payments, and was difficult to contact. At such a high price and with such unreliable service, the old provider was more of an obstacle to flow! summit than a facilitator.',
+        title: t('4TyOIjs-7w2mFWI5-KHX0'),
+        content: t('t3bIVO-BgFOJmGc9hZZTG'),
+        content2: t('2LO4TcVk0zPzqxYZ000FF'),
         content3: '',
         width: '350px',
         height: '274px',
@@ -140,11 +137,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_3_2x.png',
-        title: 'The Solution',
-        content:
-          "Younity stumbled upon Gowaf by chance. They realized Gowaf offered more than just basic streaming solutions. Gowaf Stream's captioning and translation features instantly caught their attention.Younity immediately saw the potential to ease access for its international audience.",
-        content2:
-          'So Younity decided to give Gowaf a try. The Gowaf Stream video player delivered a seamless live stream - free of buffering and crashes. We knew Younity needed quick answers to keep flow! summit running smoothly, so we gave them rapid-fire, 24/7 Slack support to support them every step of the way. Lastly, Younity moved their websites to Gowaf CDN to improve image quality and reduce page load times.',
+        title: t('BL0AfQMV8wX85i8gKFgjU'),
+        content: t('86ZgVCR-bMbwusaAH7hHo'),
+        content2: t('v7yT3xgPMpesJG2PT3n4a'),
         content3: '',
         width: '318px',
         height: '318px',
@@ -153,11 +148,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-younity/Resources_Case_Studies_details_younity_graph_4_2x.png',
-        title: 'The Results',
-        content:
-          'For the first time since launching flow! summit in 2017, Younity held the event with zero crashes. Every year prior, viewers left comments on videos saying something wasn’t working. In the March 2023 flow! summit, there were no complaints at all.',
-        content2:
-          'Integrating Gowaf was easy: the transition and preparation for the summit took less than a month. Younity was so happy with our service that they decided to use BunnyCDN to speed up their website as well.',
+        title: t('g7GEGMogKYzk-eZWZZiWl'),
+        content: t('HMaAEwSmL8y5DZJ5de5iI'),
+        content2: t('1j4g7xj19iRpzAwKczlny'),
         width: '374px',
         height: '256px',
         mwidth: '23.38rem',
@@ -169,21 +162,21 @@ const i18ntext = computed(() => {
       subTitle: '',
       items: [
         {
-          title: 'HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY',
+          title: t('JP2jF17Uoo5ZhF84MzRzT'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-younity/Resources_CaseStudies_pic_8_2x.png',
           icon2:
             '/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_ot_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW ESKIMI EXPANDED WITH Gowaf CDN',
+          title: t('ssxqht_qY2s7p8B_-GjDS'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-younity/Resources_CaseStudies_pic_5_2x.png',
           icon2:
             '/images/resources/case-studies-details-younity/Resources_CaseStudies_card_logo_es_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         }
       ]
@@ -209,11 +202,10 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Matthias Mauch',
-        subTitle: 'Younity',
-        content:
-          '"We had a flow! summit without a single complaint.I think, overall, bunny.net is just a very complete solution.Handling videos is so easy with Bunny - you don\'t need a lot of training. It\'s very streamlined."'
-      },
+        title: t('1BywE0gMMmHqYbpuYRGyW'),
+        subTitle: t('10KCWD0ValnrFobaa19fG'),
+        content: t('bqdP31P6kwehm-KZVgWJG')
+      }
     }
   };
 });

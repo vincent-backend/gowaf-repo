@@ -80,6 +80,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Solutions'
 });
@@ -88,31 +89,29 @@ const i18ntext = computed(() => {
     numbers: [
       {
         label: '1.000.000+',
-        content: 'Powered Websites'
+        content: t('ailUpetGngG-Iu1SAPP1Z')
       },
       {
-        label: 'Up to 5x',
-        content: 'Faster Load Times'
+        label: t('zL_N5pvniQimxTom0ni_7'),
+        content: t('42XfFYOriwEO3d5a0USlJ')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
         label: '$1/month',
-        content: 'As low as'
+        content: t('23Ew9lfpb1dymnhr6h363')
       }
     ],
     superCharge: {
-      title: 'Fast network meets unbeatable pricing',
-      subTitle:
-        'With 123 PoPs worldwide and an 150 Tbps+ network backbone, Gowaf guarantees smooth video playback no matter where your users are.',
+      title: t('L91LhQcRe7PJIq9NYLFeB'),
+      subTitle: t('-fWw-gpzgYeOZ-b3mZpi3'),
       tabs: [
         {
-          tab: 'Extreme Performance',
-          title: 'No more buffering. Ever again.',
-          content:
-            'Enjoy smooth playback thanks to one of the fastest global networks backed by NVMe-based hardware and a smart routing engine. Deliver the best video experience by bringing the content just a hop away from your visitors.',
+          tab: t('S4vwJiH864rdMjOWiYn6r'),
+          title: t('sMWQ-yVPtmI9VCu6_vvqU'),
+          content: t('3EvUgtbKhsp8L-WaE3mxY'),
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Extreme@2x.png',
           iconWidth: '334px',
           iconHeight: '276px',
@@ -124,10 +123,9 @@ const i18ntext = computed(() => {
           mIconHeight: '17.25rem'
         },
         {
-          tab: 'Distruptive Pricing',
-          title: 'Save up to 80% on your content delivery billing',
-          content:
-            'Don’t overpay for your Content Delivery ever again. At Gowaf, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!',
+          tab: t('KB2o5qPgAWHfaaxMj0NAA'),
+          title: t('is4cEGRTs7H1BGTueHdfd'),
+          content: t('ijlEWLgd26EspQzkP6OAy'),
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Distruptive@2x.png',
           iconWidth: '274px',
           iconHeight: '268px',
@@ -140,9 +138,8 @@ const i18ntext = computed(() => {
         },
         {
           tab: 'Perma-Cache',
-          title: 'Transform once. Cache and accelerate forever.',
-          content:
-            'Permanently store videos on the CDN with Perma-Cache to reduce origin egress fees and keep your infrastructure hopping faster. Increase performance and reliability by automatically distributing content worldwide for lightning-fast access times.',
+          title: t('zLirF4FLhdthkSGao07n5'),
+          content: t('3AtqNGJcatrduTOxPNrXp'),
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Perma@2x.png',
           iconWidth: '316px',
           iconHeight: '246px',
@@ -154,10 +151,9 @@ const i18ntext = computed(() => {
           mIconHeight: '15.38rem'
         },
         {
-          tab: 'Media Protection',
-          title: 'Enterprise video protection. At no extra charge.',
-          content:
-            'Enjoy enterprise-grade DRM security without the massive costs or technical hurdles. Protect your video content from piracy, stop downloads, screenshots, and prevent hotlinking with a single click of a button with Media Cage.',
+          tab: t('uaCI9u0EUz8YLN_rifW0M'),
+          title: t('ph07x1Ill1L7f67V-RYR1'),
+          content: t('yS4VAkK_64Wo2KguR0JEo'),
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_graph_Media@2x.png',
           iconWidth: '300px',
           iconHeight: '243px',
@@ -171,111 +167,106 @@ const i18ntext = computed(() => {
       ]
     },
     list2: {
-      title1: 'Packed with powerful features',
-      title2:
-        'Take advantage of powerful features specifically tailored to video delivery. Secure your streams using hotlinking protection and token authentication.',
+      title1: t('products.stream.overview.packedFeatures.title'),
+      title2: t('cvHPsOhIl4Z4snu0uMHrt'),
       items: [
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png',
-          title: 'Origin Shield'
+          title: t('aDZVh0hBbHvyzr0RO8wNn')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png',
-          title: 'Raw Logging'
+          title: t('0QElMptG4qUTaM1ye3cge')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_3.png',
-          title: 'Edge Storage'
+          title: t('clYAYTqj82UHJoHFnPqKx')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_4.png',
-          title: 'Real Time Statistics'
+          title: t('W_6o7EfGL09HJjuazh2My')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_5.png',
-          title: 'Hotlinking Protection'
+          title: t('PVuK0XsZri8h-6ZKXJvG_')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_6.png',
-          title: 'Token Authentication'
+          title: t('feQGdTJI4u6AoECQxK1bI')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_7.png',
-          title: 'Media Optimized Caching'
+          title: t('f--l29ErsBRnGZ2u1ZOtE')
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_8.png',
-          title: 'Fully Customizable Player'
+          title: t('44_Xddy0jUer9Jtahmvy-')
         }
       ]
     },
     features: [
       {
         icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Replicated.png',
-        title: 'Replicated Cloud Storage',
-        content:
-          'Replicate your media library around the world with our Geo-Replicated cloud storage for never before seen performance.'
+        title: t('sGF6iy7TuyAE92V4ku5qX'),
+        content: t('oyP5qoWX82XybIYRofh2L')
       },
       {
         icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Redundant.png',
-        title: 'Redundant Infrastructure',
-        content:
-          'Without a single point of failure, Gowaf provides enterprise-level reliability, making sure you always stay online.'
+        title: t('home.home.SLAtitle1'),
+        content: t('GI8Rnu0qiRfm02_y5cqtN')
       },
       {
         icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_NVMe.png',
-        title: 'NVMe + SSD Powered Servers',
-        content:
-          'Our servers are powered by NVMe and SSD technology to ensure millisecond latencies when delivering your media files.'
+        title: t('pWyG81JLneSvfg99OFxPt'),
+        content: t('ZnEshUMJAWS6OMwMS_1OT')
       }
     ],
     list: [
       {
-        title: 'Upload video size',
+        title: t('sbOiygI3foMFl8zGTpMBq'),
         value: '300GB',
         percent: 45
       },
       {
-        title: 'Monthly Traffic',
+        title: t('O0LtcVv3bua7bkwommOFs'),
         value: '50GB',
         percent: 15
       }
     ],
     subs: [
       {
-        title: 'Standard Tier',
+        title: t('pjO0SL6mKVQoWvd1QsWNv'),
         value: '$4.5/month'
       },
       {
-        title: 'Volume Tier',
+        title: t('1I8BKYX1kjYtmXOn_E9xF'),
         value: '$3.25/month'
       }
     ],
     join1: {
-      title: 'Trusted by 40.000+ global customers',
+      title: t('g_tXejmNur2f2uDrDvSd-'),
       person: {
-        name: 'Matthias Mauch',
-        title: 'Younity',
-        content:
-          '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."'
+        name: t('1BywE0gMMmHqYbpuYRGyW'),
+        title: t('10KCWD0ValnrFobaa19fG'),
+        content: t('hVZvyVFQZA1hXV83roW7e')
       }
     },
     numbers2: [
       {
         label: '123',
-        content: 'Edge Locations'
+        content: t('home.Locations')
       },
       {
         label: '650.000+',
-        content: 'Requests Per Second'
+        content: t('home.requestsPerSecond')
       },
       {
-        label: '150 Tbps+',
-        content: 'Network Capacity'
+        label: t('PEUMLcb-JhVhbuvaFkWuP'),
+        content: t('home.NetworkCapacity')
       },
       {
-        label: '24 ms',
-        content: 'Avg. Global Latency'
+        label: t('q1ufRx9wOX_bkNPJGQmN1'),
+        content: t('RDF-FK0HEbcFR8RsEIV6H')
       }
     ]
   };

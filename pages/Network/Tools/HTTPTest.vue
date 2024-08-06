@@ -91,7 +91,7 @@
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
         :title="$t('nationalFlag.continentName5')"
-        :list="i18ntext.Africa"
+        :list="i18ntext['Middle_East&Africa']"
       ></NetworkNationalFlagList>
     </div>
     <div class="column">

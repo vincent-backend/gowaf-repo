@@ -31,9 +31,9 @@
     ]"
   />
   <CommonHeader1
-    :logo="$t('resources.caseStudiesDetailsValnet.header.logo')"
-    :logoWidth="$t('resources.caseStudiesDetailsValnet.header.logoWidth')"
-    :logoHeight="$t('resources.caseStudiesDetailsValnet.header.logoHeight')"
+    logo="/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_va_2x.png"
+    logoHeight="42px"
+    logoWidth="168px"
     :title="$t('resources.caseStudiesDetailsValnet.header.title')"
     :content="$t('resources.caseStudiesDetailsValnet.header.content')"
     :btn="$t('resources.caseStudiesDetailsValnet.header.btn')"
@@ -90,6 +90,7 @@
 }
 </style>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -97,29 +98,27 @@ const i18ntext = computed(() => {
   return {
     numbers: [
       {
-        label: 'Fast',
+        label: t('XrVJYMHLH4RjtlcWg1hyG'),
         label2: 'migration',
-        content: 'taking only a few days'
+        content: t('u_ylKsZJ4rwuTxtqr0JDI')
       },
       {
-        label: 'Immediate',
+        label: t('YfbUDxgRaZvXlAj7ayM1b'),
         label2: 'savings',
-        content: 'that allowed Valnet to scale'
+        content: t('RmZVoEzmJMg8N6eKvKXrQ')
       },
       {
-        label: 'Curated',
+        label: t('0ddzNPRJBdy9-yY9hEZ89'),
         label2: 'delivery',
-        content: 'between Volume & Standard Networks'
+        content: t('fld-WA-6KGqACqkeH0XmI')
       }
     ],
     items: [
       {
         pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_1_2x.png',
-        title: 'About Valnet',
-        content:
-          'With a varied portfolio, including over 30 renowned brands like Screen Rant, Game Rant, and How-to-Geek, Valnet is one of the leading content investment firms. This media giant serves content to users all over the world. Across their offerings, they receive more than 15 million daily website visits and have an average of more than 30 million hours of watch time per month.',
-        content2:
-          'In recent years, Valnet has expanded, acquiring additional verticals and building their own AdTech and monetization platforms. Valnet came to Gowaf seeking a scalable solution that would integrate smoothly with their newly developed video platform, and their experience exceeded expectations.',
+        title: t('Z5TBaWVfObIc9y6qZvU3g'),
+        content: t('sNu2378eaq8VvryijFGmD'),
+        content2: t('818C-G4jWw-Po4uCOYOG3'),
         width: '440px',
         height: '322px',
         mwidth: '27.5rem',
@@ -127,11 +126,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_2_2x.png',
-        title: 'The Challenges',
-        content:
-          'Valnet had plans to expand quickly, but a few obstacles prevented them from scaling. Valnet needed a well-rounded technical solution that would fit the unique delivery needs of each of their 30+ verticals. Video content proved expensive to distribute. Valnet’s bandwidth needs were high, surpassing 5,000 terabytes per month. Their options were to build a new CDN from scratch, which would delay their growth, or to find a CDN provider. They chose the latter.',
-        content2:
-          'Since Valnet was developing their own video platform, it needed a solution that could integrate quickly at a competitive rate. They also needed quick access to data usage metrics so they could chart their expansion. After a bit of research, Gowaf was an obvious choice.',
+        title: t('4TyOIjs-7w2mFWI5-KHX0'),
+        content: t('yF1Ml4r1xSvIPcPP2IGoF'),
+        content2: t('l9qU9TsB8CKdnpb13l9qH'),
         content3: '',
         width: '402px',
         height: '354px',
@@ -140,11 +137,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_3_2x.png',
-        title: 'The Solution',
-        content:
-          'Valnet immediately realized that Gowaf could give them the independence they needed to scale. We agreed, so we devised a first-class tech stack that met their needs. Gowaf CDN integrated seamlessly with Valnet’s new video player, with Gowaf Stream acting as a backup to maximize uptime. It also supported every type of content they served right from the dashboard.',
-        content2:
-          'Reducing the costs of video delivery was a necessity for Valnet, so we devised a two-tier pricing model that made sense for their business. Additionally, our dashboard’s analytics made it easy to track bandwidth usage - without calling a representative. Finally, as usual, our Super Gowaf stood by to support Valnet any time.',
+        title: t('BL0AfQMV8wX85i8gKFgjU'),
+        content: t('ULMtgFyuIrpst1orkGVCl'),
+        content2: t('mynwnkq_X-2RRXo531CID'),
         content3: '',
         width: '366px',
         height: '316px',
@@ -153,11 +148,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-valnet/Resources_Case_Studies_details_Valnet_graph_4_2x.png',
-        title: 'The Results',
-        content:
-          'From the moment Valnet found Gowaf, they knew we were the solution. They made us a key part of their growth strategy. Migrating to Gowaf took just a few days, which in turn cut four months from their original deployment schedule.',
-        content2:
-          'After the switch, Valnet saw an immediate return on investment. Not only did they hit the ground running with a speedy deployment, but they paid a fraction of the price of comparable CDNs. Switching to Gowaf freed a giant up to grow even further. Valnet continued their growth plan and increased distribution by over 250%.',
+        title: t('g7GEGMogKYzk-eZWZZiWl'),
+        content: t('Ut95PVWf3ODO90ncOpEgV'),
+        content2: t('52GXWZHd4bhZnbJkLpBY-'),
         width: '406px',
         height: '252px',
         mwidth: '25.38rem',
@@ -169,21 +162,21 @@ const i18ntext = computed(() => {
       subTitle: '',
       items: [
         {
-          title: 'HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS',
+          title: t('ku6UdeyhcsiarrIkFc3f3'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_pic_1_2x.png',
           icon2:
             '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_nz_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW ESKIMI EXPANDED WITH Gowaf CDN',
+          title: t('ssxqht_qY2s7p8B_-GjDS'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-valnet/Resources_CaseStudies_pic_5_2x.png',
           icon2:
             '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_es_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         }
       ]
@@ -209,11 +202,10 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Ji Kim',
-        subTitle: 'Director of Marketing',
-        content:
-          '"With our last provider, expansion wasn’t feasible.Switching to Gowaf brought our ROI calculations to the levels we were looking for.We started seeing ROI as soon as we switched over, and the transition was very, very quick.”'
-      },
+        title: t('wBsXqRNlcWJMLAgt8qiaN'),
+        subTitle: t('TO9u9sT-Lh_EhhGZKP5nL'),
+        content: t('zDG6G6mQigtXgKAI4T-Cu')
+      }
     }
   };
 });

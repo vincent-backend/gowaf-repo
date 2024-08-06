@@ -89,6 +89,7 @@
 </template>
 <script setup lang="ts">
 import VSpace from './../components/VSpace.vue';
+const { t } = useI18n();
 definePageMeta({
   title: 'AffiliateProgram'
 });
@@ -105,27 +106,27 @@ const formLabelAlign = reactive({
 });
 const activt = ref(0);
 const list = ref([
-  'Content Delivery',
-  'Content Delivery',
-  'Content Delivery',
-  'Online Storage',
-  'Software Distribution',
-  'DoS Protection'
+  t('aBftC0NbhkPUijTrsMnBe'),
+  t('aBftC0NbhkPUijTrsMnBe'),
+  t('aBftC0NbhkPUijTrsMnBe'),
+  t('uLYOzWAiNHHdOADYCEqMl'),
+  t('solutions.storageSoftware.header.preTitle'),
+  t('MiD8TA8CBSTQcgl2doZJo')
 ]);
 
 const i18ntext = computed<any>(() => {
   return {
     neverHit: {
-      title: 'Register. Share. Earn.',
-      subTitle: 'Start earning money in 3 simple steps.',
+      title: t('PccBHTvHxK3lRC1racW2R'),
+      subTitle: t('uEPU8EcifF9lNg8jQyYbC'),
       fulItems: [
         {
           icon: '/images/home/affiliate_1_ic_1@2x.png',
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Register',
-          content: 'Create a paid account at Gowaf.net.',
+          title: t('pJ_8Zv6cNrp6egWd9bhPb'),
+          content: t('aQp4wlCR46UGTpq-bttzc'),
           contentAlign: 'center'
         },
         {
@@ -133,8 +134,8 @@ const i18ntext = computed<any>(() => {
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Share you link',
-          content: 'Share your unique link with the world.',
+          title: t('cNmcs6letMxAM2ZMOWLhS'),
+          content: t('ULjhWzDk3587GTPFOFueQ'),
           contentAlign: 'center'
         },
         {
@@ -142,72 +143,61 @@ const i18ntext = computed<any>(() => {
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Start making money',
-          content: 'Earn $20 for each paid signup.',
+          title: t('M5m30wl1mKYbS7ZHpnvO2'),
+          content: t('RMtoWMEIRCHXmuRpKsUZW'),
           contentAlign: 'center'
         }
       ]
     },
     list1: {
-      title1: 'How does it work?',
-      title2:
-        'Getting started with the Gowaf Affiliate program is free and easy.',
+      title1: t('oz-pRtpd3kGrQi7zgpi49'),
+      title2: t('vg6Pv_9yCRssGB9s4hTT9'),
       items: [
         {
           icon: '/images/home/affiliate_2_ic_1@2x.png',
-          title: 'Pay Only For What You Use',
-          content:
-            'Only pay for the number of minutes you transcribe with no minimum recurring costs.'
+          title: t('sQoVKK1ZNIe38NAQUpBWF'),
+          content: t('gLFFsTqpI-cI1tGW1LcXm')
         },
         {
           icon: '/images/home/affiliate_2_ic_2@2x.png',
-          title: '$1 Monthly Minimum',
-          content:
-            'Get started for free with a 14-day free trial, and continue for as little as $1 per month.'
+          title: t('-JIMxMV5mP5YTkoE1MK4W'),
+          content: t('xfDW3DuWU9eAZnb9QUKlZ')
         },
         {
           icon: '/images/home/affiliate_2_ic_3@2x.png',
-          title: 'All Features Included',
-          content:
-            'Use the full Transcribe AI feature set with no extra charges or hidden costs.'
+          title: t('6Dn0HsX6tOsS6PHaG2drl'),
+          content: t('MGERblUH_TqG5zikZVgbk')
         }
       ]
     },
     list: [
       {
-        title: 'How does the Bunny Affiliate program work?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program.'
+        title: t('9mUnTWb-ERh3qaoibA55F'),
+        subtitle: t('-nSt6fpcwhN56IrCz5MGy')
       },
       {
-        title: 'Who is eligible for the Bunny Affiliate program?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program..'
+        title: t('rHeiGtFjUDdXqCjXaJ9XU'),
+        subtitle: t('VIkO3GosI8TvChwX2gPur')
       },
       {
-        title: 'How do I join the affiliate program?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program.'
+        title: t('H6LflLcy2c0_UuTyOsBh8'),
+        subtitle: t('Cc46_snoC79VqvDpV-d3v')
       },
       {
-        title: 'How much do I earn per referral?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program.'
+        title: t('MoD632gtQOm-6a-MazjUe'),
+        subtitle: t('ytEIiU3g20E3EhGoEh7uC')
       },
       {
-        title: 'Is there a maximum amount for commission?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program.'
+        title: t('39IIb89OuqNoyVWT70y2J'),
+        subtitle: t('xuhhXaeMcukdlheazq5g3')
       },
       {
-        title: 'When will I get my payout?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program.'
+        title: t('78eUxk5VkqMv9mI86132Z'),
+        subtitle: t('nFU7aNLJGX1L2St2iXwTJ')
       },
       {
-        title: 'Can I create my own marketing materials?',
-        subtitle:
-          'Anyone who has a paid bunny.net account can join the affiliate program.'
+        title: t('GpO2Nt06xw67z2R7XT9We'),
+        subtitle: t('GEKglXFurhYZq9nPKB--U')
       }
     ]
   };

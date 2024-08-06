@@ -69,14 +69,14 @@
           <span class="numt">12%</span>
           <span class="numic"></span>
         </div>
-        <div class="sub-title">IMPROVED PERFORMANCE</div>
+        <div class="sub-title">{{ $t('7D4DGDH9D5LoMEYKbu-rW') }}</div>
       </div>
       <div class="percentage-item">
         <div class="num yellow">
           <span class="numt">80%</span>
           <span class="numic"></span>
         </div>
-        <div class="sub-title">LOWER ORIGIN TRAFFIC</div>
+        <div class="sub-title">{{ $t('1eXREt5ktD5HhGhrl4nUN') }}</div>
       </div>
     </div>
   </SolutionsAd2>
@@ -139,74 +139,68 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
-
 const i18ntext = computed<any>(() => {
   return {
     items: [
       {
         icon: '/images/products/optimizer/overview/media_simple_ic_1@2x.png',
-        title: 'Connect',
-        content:
-          'Easily connect your website to Bunny Optimizer with just a few clicks.'
+        title: t('HhNVqIvXp1OSNuaXlPmSD'),
+        content: t('w_0CTW9td1O55hjl3gkBi')
       },
       {
         icon: '/images/products/optimizer/overview/transcribe_1_ic_2@2x.png',
-        title: 'Transform API',
-        content:
-          'Resize, crop, and modify images on the fly with simple url query parameters.'
+        title: t('X_AtStB2EM8l87q7hSmrl'),
+        content: t('AcAYuiFX_y09QxD_DsBk6')
       },
       {
         icon: '/images/products/optimizer/overview/stream_overview_ic_replicate@2x.png',
-        title: 'Optimize',
-        content:
-          'Automatically optimize images, and minify CSS & JavaScript files for maximum performance.'
+        title: t('rayrj03uH-m2vXSngj-Xk'),
+        content: t('YyRTZdcmpDkITkRyL_Ioe')
       },
       {
         icon: '/images/products/optimizer/overview/media_simple_ic_3@2x.png',
-        title: 'Deliver',
-        content:
-          'Deliver your website faster than ever before to anyone, anywhere, anytime!'
+        title: t('PsY4eSLZYT5QoWo78sD9Z'),
+        content: t('f9jKdZapbbi65Pm2x6Whh')
       }
     ],
     numbers: [
       {
-        label: 'Up to 80%',
-        content: 'Image Compression'
+        label: t('hUH0ITeVjxgiPVk8N8WXq'),
+        content: t('J_5uvUvOXWGTYi3UqBus9')
       },
       {
         label: '97%',
-        content: 'Cache HIT Rate'
+        content: t('lts6C5IiKQaFaZSJrNPlH')
       },
       {
         label: '40.000+',
-        content: 'Satisfied Customers'
+        content: t('DqXjS0SA1aWVzOjBF1X1f')
       },
       {
-        label: '50 Billion+',
-        content: 'Optimized Images'
+        label: t('_OWD39-7wbYUPit83Auv7'),
+        content: t('zNmxbvcjfE2RGwp0THvbu')
       }
     ],
     list: [
-      'Unlimited requests',
-      'Unlimited optimizations',
-      'Unlimited image transformations'
+      t('nwKVtAfLhgvsDIimpKg3T'),
+      t('H4TCHfibhmWX94jV2iHEq'),
+      t('Q6943t0hb3eNqXYGK1bJ1')
     ],
     neverHit: {
-      title: 'Powerful optimization. One-click away.',
-      subTitle:
-        'Get hopping in less than 5 minutes without writing a single line of code.',
+      title: t('9NbZcmz4DXKajeXsQ4Ikk'),
+      subTitle: t('yryJ8d5hEobyDD8F6NZYB'),
       items: [
         {
           icon: '/images/products/optimizer/overview/SmartEdge™_ic_cache@2x.png',
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Minify CSS & JavaScri',
-          content:
-            'Automatically compress and minify your CSS and JavaScript files to maximize website load speeds!',
+          title: t('KSRRbtf6jpMcWCBT-ZYIu'),
+          content: t('H_LIKVDkNiJ570oySl7z2'),
           contentAlign: 'left'
         },
         {
@@ -214,9 +208,8 @@ const i18ntext = computed<any>(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Smart Image Optimization',
-          content:
-            'Automatically adjust, resize and compress images based on the user’s device type in the most optimal way possible!',
+          title: t('6-3aEVwbIseFo_A95CoPO'),
+          content: t('_mt3uU0id58yxeb4UeZJG'),
           contentAlign: 'left'
         },
         {
@@ -224,21 +217,20 @@ const i18ntext = computed<any>(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Automatic WebP Compression',
-          content:
-            'Reduce your image sizes up to 80% by compressing them into a web-friendly and faster WebP format!',
+          title: t('Qhl7zPLqM3EowEfudf5Ho'),
+          content: t('fK6ghPWcKby3NN06KBrxk'),
           contentAlign: 'left'
         }
       ]
     },
     drmCustomer: {
-      title: 'Join over 40.000+ happy customers',
-      contentPre: "We're rated ",
+      title: t('home.join2.title'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       isHiddenSubTitle: false,
       faceImg: {
         img: '/images/products/storage/latinamerica/Network_ddos_evaluate_character_2x.png',
@@ -252,10 +244,9 @@ const i18ntext = computed<any>(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Pedro Dobrescu',
+        title: t('PDEs3nnGBfog1j0r5jgw9'),
         subTitle: 'ShortPixel',
-        content:
-          '"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
+        content: t('W4FDTntcVs2yotM9mfnuj')
       },
       items: [
         {

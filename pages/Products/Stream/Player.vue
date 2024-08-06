@@ -62,13 +62,12 @@
     </div>
     <div class="pic"></div>
   </div>
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -76,38 +75,34 @@ definePageMeta({
 const i18ntext = computed(() => {
   return {
     list1: {
-      title1: 'Make it your own',
-      title2:
-        'Maximize branding power by customizing every aspect of your player down to the CDN hostname.',
+      title1: t('solutions.videoDelivery.supportPlan.main.title'),
+      title2: t('solutions.videoDelivery.supportPlan.main.subTitle'),
       items: [
         {
           icon: '/images/products/stream/player/cdnperma_get_ic_1@2x.png',
-          title: 'Choose Your Color',
-          content:
-            'Customize the video player color scheme to match the design of your website perfectly.'
+          title: t('qx_i_km91v5MZJbiLtulD'),
+          content: t('Dg3GgFWWOqNwSns82c1Ua')
         },
         {
           icon: '/images/products/stream/player/stream_player_1_ic_language@2x.png',
-          title: 'Adjust Your Language',
-          content:
-            'Select between over 30 different languages for the Ul of the player.'
+          title: t('ptblEMXHNun22eJxjWeX4'),
+          content: t('xpiPTwycqE3W9-h2BEdg8')
         },
         {
           icon: '/images/products/stream/player/cdnperma_get_ic_3@2x.png',
-          title: 'Customize Your Controls',
-          content:
-            "Add or remove laver controls to make it a perfect fit for your users' experience."
+          title: t('N281L68l0s1Ahfxks6wOS'),
+          content: t('c7cXqsgMXIR6hNMFLExUv')
         }
       ]
     },
     drmCustomer: {
-      title: 'Trusted by 40.000+ global customers',
-      contentPre: "We're rated ",
+      title: t('g_tXejmNur2f2uDrDvSd-'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       faceImg: {
         img: '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
         top: '-3px',
@@ -120,10 +115,9 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Matthias Mauch',
-        subTitle: 'Younity',
-        content:
-          '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."'
+        title: t('1BywE0gMMmHqYbpuYRGyW'),
+        subTitle: t('10KCWD0ValnrFobaa19fG'),
+        content: t('hVZvyVFQZA1hXV83roW7e')
       },
       items: [
         {

@@ -69,6 +69,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Pricing'
 });
@@ -76,94 +77,91 @@ const i18ntext = computed<any>(() => {
   return {
     pricingTable: [
       {
-        title: 'Standard Network',
-        titleEm: '123 PoPs',
-        subTitle:
-          'Hop on a lighting fast global network with region-based pricing.',
-        content: 'Serving more than 100TB per month?',
-        btn: 'Contact sales',
+        title: t('86gYMIwtitK4qCc9qFhN2'),
+        titleEm: t('jfz7nyYwHDI2EGBQSfYaI'),
+        subTitle: t('ZMnHhcZ9_sCx3p0Hps14R'),
+        content: t('KV7WJ2klCpERjTKZgf2MV'),
+        btn: t('vCyatgYi22iOeAKniCizq'),
         href: '#',
         items: [
           {
             text: '$0.01 /GB',
-            hint: 'Europe & North America'
+            hint: t('TXHZSBcsKkFAG_y-tqYdK')
           },
           {
             text: '$0.03 /GB',
-            hint: 'Asia & Oceania'
+            hint: t('5RI4Xp0hmpyXxpwOR9R-H')
           },
           {
             text: '$0.045 /GB',
-            hint: 'South America'
+            hint: t('nationalFlag.continentName5')
           },
           {
             text: '$0.06 /GB',
-            hint: 'Middle East & Africa'
+            hint: t('eZQYGIi05MT2RTOFaHD6n')
           }
         ]
       },
       {
-        title: 'Volume Network',
-        titleEm: '10 PoPs',
-        subTitle:
-          "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
-        content: 'Serving more than 1PB per month?',
-        btn: 'Contact sales',
+        title: t('yfjfFQ5dHd72oOu_hc0lM'),
+        titleEm: t('Tie1pPniQdN-d0GNf1w7x'),
+        subTitle: t('P3E9iwgU2bZ3gJE1oyTva'),
+        content: t('gEuc1uFeP_PSprdd06wor'),
+        btn: t('xRaKd_mBKE6hQHRxQBAia'),
         href: '#',
         items: [
           {
             text: '$0.005 /GB',
-            hint: 'First 500TB'
+            hint: t('ggziNIgX5vxUd8flQ2dn0')
           },
           {
             text: '$0.004 /GB',
-            hint: 'From 500TB-1PB'
+            hint: t('yKvIrNrh2glyW9v0y3UTs')
           },
           {
             text: '$0.002 /GB',
-            hint: 'From 1PB-2PB'
+            hint: t('ZRzt7XiKMI4sjX5rITk3m')
           },
           {
             text: 'Contact Us',
-            hint: 'From 2PB+'
+            hint: t('_bf7TLQyQvr-tR93vqtql')
           }
         ]
       }
     ],
     list1: {
-      title1: 'Powerful features. Amazing performance.',
-      title2:
-        'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+      title1: t('_jbsQ3YagWjE8dP8_twAD'),
+      title2: t('xDSG8IL6DGm5dHgQ74eyH'),
       items: [
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
-          title: '$1 Monthly Minimum',
-          content: 'All features included for as little as $1 per month.'
+          title: t('-JIMxMV5mP5YTkoE1MK4W'),
+          content: t('iLkw-MtVvaYcZPpvQZvCL')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
-          title: 'Toggle Zones ON/OFF',
-          content: 'Enable and disable regions with a click of a button.'
+          title: t('DES-6GlDV7vlKF9Zvqqei'),
+          content: t('nu0OPuoV5iaFC6q7AJwlx')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
-          title: 'No Request Fees',
-          content: 'Only pay for the bandwidth you actually use.'
+          title: t('GcclDblqwcyIvh3-1XsM5'),
+          content: t('LuQgxsbvPltPrVzPVlwIW')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
-          title: 'Multiple Payment Options',
-          content: 'Pay with PayPal, majority of credit cards as well as BTC.'
+          title: t('S2WPugMYPn7ok2pZ7KlvC'),
+          content: t('bEL9MzgceVXxpdWMwB2MT')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
-          title: 'All Features Included',
-          content: 'Use all of our unique features without any extra charges.'
+          title: t('6Dn0HsX6tOsS6PHaG2drl'),
+          content: t('h6dA06N7k-iQLuThPWBCm')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
-          title: 'Overcharge Protection',
-          content: 'Protect your account with monthly bandwidth limits.'
+          title: t('pgzzkYeXmnRHksXr2ivIX'),
+          content: t('ThmmgWXys6Lcgkq-UEfua')
         }
       ]
     }

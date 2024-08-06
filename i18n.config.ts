@@ -1,27 +1,43 @@
-const langFiles = import.meta.glob('./assets/langs/**/*.json');
-// import home from '~/assets/langs/en/home.json'
+import en from './assets/langs/en.json'
+import de from './assets/langs/de.json'
+import enAu from './assets/langs/en-au.json'
+import enCa from './assets/langs/en-ca.json'
+import enGb from './assets/langs/en-gb.json'
+import enin from './assets/langs/en-in.json'
+import es from './assets/langs/es.json'
+import esla from './assets/langs/es-la.json'
+import fr from './assets/langs/fr.json'
+import it from './assets/langs/it.json'
+import ja from './assets/langs/ja.json'
+import ko from './assets/langs/ko.json'
+import pl from './assets/langs/pl.json'
+import ptbr from './assets/langs/pt-br.json'
+import ru from './assets/langs/ru.json'
+import zhtw from './assets/langs/zh-tw.json'
+import zh from './assets/langs/zh.json'
 
-// 创建一个空对象来存储语言包
-const i18nResources: any = {};
 
-// 遍历所有匹配的文件，并导入它们
-for (const path in langFiles) {
-  // 去除路径中的前缀和扩展名，得到语言代码和文件名
-  const match = path.match(/\.\/assets\/langs\/(.+)\/(.+)\.json$/);
-  if (match) {
-    const [, langCode, fileName] = match;
-    // 导入文件内容
-    const langData = await langFiles[path]();
-    // 将文件内容存储到i18nResources对象中
-    if (!i18nResources[langCode]) {
-      i18nResources[langCode] = {};
-    }
-    i18nResources[langCode][fileName] = langData;
-  }
-}
 
 export default defineI18nConfig(() => ({
   legacy: false,
   locale: 'en',
-  messages: i18nResources
+  messages: {
+    de,
+    'en-au': enAu,
+    'en-ca': enCa,
+    'en-gb': enGb,
+    'en-in': enin,
+    en,
+    "es-la": esla,
+    es,
+    fr,
+    it,
+    ja,
+    ko,
+    pl,
+    'pt-br': ptbr,
+    ru,
+    'zh-tw': zhtw,
+    zh
+  }
 }));

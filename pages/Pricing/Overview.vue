@@ -71,63 +71,62 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Pricing'
 });
 const i18ntext = computed<any>(() => {
   return {
     list1: {
-      title1: 'Powerful features. Amazing performance.',
-      title2:
-        'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+      title1: t('_jbsQ3YagWjE8dP8_twAD'),
+      title2: t('xDSG8IL6DGm5dHgQ74eyH'),
       items: [
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
-          title: '$1 Monthly Minimum',
-          content: 'All features included for as little as $1 per month.'
+          title: t('-JIMxMV5mP5YTkoE1MK4W'),
+          content: t('iLkw-MtVvaYcZPpvQZvCL')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
-          title: 'Toggle Zones ON/OFF',
-          content: 'Enable and disable regions with a click of a button.'
+          title: t('DES-6GlDV7vlKF9Zvqqei'),
+          content: t('nu0OPuoV5iaFC6q7AJwlx')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
-          title: 'No Request Fees',
-          content: 'Only pay for the bandwidth you actually use.'
+          title: t('GcclDblqwcyIvh3-1XsM5'),
+          content: t('LuQgxsbvPltPrVzPVlwIW')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
-          title: 'Multiple Payment Options',
-          content: 'Pay with PayPal, majority of credit cards as well as BTC.'
+          title: t('S2WPugMYPn7ok2pZ7KlvC'),
+          content: t('bEL9MzgceVXxpdWMwB2MT')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
-          title: 'All Features Included',
-          content: 'Use all of our unique features without any extra charges.'
+          title: t('6Dn0HsX6tOsS6PHaG2drl'),
+          content: t('h6dA06N7k-iQLuThPWBCm')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
-          title: 'Overcharge Protection',
-          content: 'Protect your account with monthly bandwidth limits.'
+          title: t('pgzzkYeXmnRHksXr2ivIX'),
+          content: t('ThmmgWXys6Lcgkq-UEfua')
         }
       ]
     },
     join1: {
-      title: 'Join over 40.000+ happy customers',
+      title: t('home.join2.title'),
       subTitle: [
-        "We're rated",
+        t('home.header.bottom.weAreRated'),
         '',
-        'Excellent 4.8',
-        ' out of 5 on ',
-        'Trustpilot',
-        ' - Based on 600+ reviews'
+        t('home.join2.subTitle3'),
+        t('home.join2.subTitle4'),
+        t('home.join2.subTitle5'),
+        t('home.join2.subTitle6')
       ],
       person: {
-        name: 'Jerry Caloroso',
-        title: 'Chief Streaming Officer, OneStudio',
-        content:
-          '"Finding Gowaf CDN is like finding a gold mine! It\'s like is this real? "'
+        name: t('ZKkMV4DOuwXM2oIbSQ376'),
+        title: t('nKW0THu6D57T52EAqvke4'),
+        content: t('exNQEWWBs2CoPXFgG2vVd')
       },
       ranks: [
         {

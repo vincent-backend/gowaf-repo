@@ -41,10 +41,7 @@
 
   <NetworkAlwaysSafe v-bind="i18ntext.alwaysSafe" />
 
-  <CommonNumbers
-    style="margin-top: 40px"
-    :items="i18ntext.numbers"
-  />
+  <CommonNumbers style="margin-top: 40px" :items="i18ntext.numbers" />
 
   <LgOnly>
     <Line top="80px" m-top="0" />
@@ -69,6 +66,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Network'
 });
@@ -76,109 +74,96 @@ const i18ntext = computed<any>(() => {
   return {
     numbers: [
       {
-        label: '150 Tbps+',
-        content: 'Network Backbone'
+        label: t('PEUMLcb-JhVhbuvaFkWuP'),
+        content: t('x3EHuylv_KnlDWqsBwbDK')
       },
       {
         label: '650.000+',
-        content: 'Requests Per Second'
+        content: t('home.requestsPerSecond')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
         label: '40.000+',
-        content: 'Satisfied Customers'
+        content: t('DqXjS0SA1aWVzOjBF1X1f')
       }
     ],
     alwaysSafe: {
-      title: 'Always safe. Always on.',
-      subTitle:
-        'Stay protected with Gowaf DDoS mitigation system that detects and prevents attacks in less than 10 seconds.',
+      title: t('18SwiVJSQJQ1B2Sh-6eXj'),
+      subTitle: t('9oqvnxDH7yEj5bObiLEq1'),
       rows: [
         [
           {
             icon: '/images/network/ddos/Network_DDoS_ic_Detection@2x.png',
-            title: 'Detection',
-            content:
-              'The system continuously monitors and detects any abnormal traffic patterns.'
+            title: t('RpDZ4CJSEqoUk1Y-Hi7yy'),
+            content: t('yxcdhKgg5TOJGLDhoN9ic')
           },
           {
             icon: '/images/network/ddos/Network_DDoS_ic_Filtering@2x.png',
-            title: 'Filtering',
-            content:
-              'Dedicated DoS filtering hardware and software block out malicious traffic.'
+            title: t('RSsHH0FpfgrAGtk5So-Cz'),
+            content: t('GXk6Kg5MkUOvJ8MUZHJb5')
           }
         ],
         [
           {
             icon: '/images/network/ddos/Network_DDoS_ic_Routing@2x.png',
-            title: 'Routing',
-            content:
-              'Routing is optimized and guided throughout our data centers to absorb the traffic.'
+            title: t('zktKnjpYUHv5ey1dcmDK_'),
+            content: t('xvEw3SHyp5TWLNA8QiKbo')
           },
           {
             icon: '/images/network/ddos/Network_DDoS_ic_Post@2x.png',
             title: 'Post-Analysis',
-            content:
-              'Attack logs are analyzed to improve future mitigation and security.'
+            content: t('YFTltyo1jF6I5U1JVhNia')
           }
         ]
       ]
     },
     list1: {
-      title1: 'Built for performance. Optimized for perfection.',
-      title2:
-        'Join a global network that is carefully optimized and tuned down to the TCP level.',
+      title1: t('EZjTn4xNx8ViDGg0Ky5lg'),
+      title2: t('52hwj5YF8lqRr_O_8SbuU'),
       items: [
         {
           icon: '/images/network/Network_DDoS_card_ic_1.png',
-          title: 'Tier 1 Network Partners',
-          content:
-            'Hop on a network powered by carefully selected providers in top-tier data centers.'
+          title: t('A5qfPmkAC_G8pOuAfgmOf'),
+          content: t('P2zHLMRmwKGbTmaMO4rLq')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_2.png',
-          title: 'Massive Network Backbone',
-          content:
-            'Scale with ease by leveraging a massive 150 Tbps+ global network backbone.'
+          title: t('BdCWHf3m-XxvJDp3YIVfZ'),
+          content: t('zMggdMNSJ1953ZZBYv7y8')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_3.png',
-          title: 'SmartEdge Routing',
-          content:
-            'Route users where it matters with a smart routing engine optimized for your specific content.'
+          title: t('O-A8j1V1E_91ifsO6oFbM'),
+          content: t('sQcNoG7ExLzrxwMPpZryA')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_4.png',
-          title: 'Sub 24 ms Average Global Latency',
-          content:
-            'Reach your customer in less than 24 ms in most areas anywhere in the world.'
+          title: t('dQtaflIHc0DNBB_rRZLvH'),
+          content: t('9Rq3LrZInXYj8Cw2gYFZa')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_5.png',
-          title: 'NVMe + SSD Powered Servers',
-          content:
-            'Deliver content at maximum speed and minimal latency with NVMe and SSD servers.'
+          title: t('pWyG81JLneSvfg99OFxPt'),
+          content: t('jvLkZLwjU3jPlXslzXfTm')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_6.png',
-          title: 'Optimized for Static and Media Content',
-          content:
-            'Deliver higher cache hit rates for small and large files with a CDN optimized for efficient caching.'
+          title: t('vsLph3iedSwHFbbnqGnUx'),
+          content: t('m5pxn1FDItnXoxvGNYwTV')
         }
       ]
     },
     doNotLeave: {
-      title: 'Don’t leave uptime to chance',
-      subTitle: 'Stay protected 24/7 and never go down again ',
+      title: t('IESm8IRf_oSUV04tdT9yN'),
+      subTitle: t('9yIstBZGt1n-_8oRveWaq'),
       tabs: [
         {
-          tab: '150 Tbps+ Network',
-          title: 'Massive network backbone for 100% uptime',
-          content:
-            'Hop on our 150 Tbps+ network backbone and never worry about going down again. Our global network can absorb attacks of any size and stop them before they ever reach your server. Stay protected and focus on what you do best, while we make sure you stay online.',
+          tab: t('t4esPvsTu5dOCYycY--jp'),
+          title: t('RSUN-pUdeJe1jj9mxXPBB'),
+          content: t('sBAMJ3JROqoZ5qHVQD-rE'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_3@2x.png',
           iconWidth: '384px',
           iconHeight: '288px',
@@ -188,10 +173,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '18rem'
         },
         {
-          tab: 'mil Real-Time Monitoring',
-          title: 'Hop smoother with real-time threat monitoring',
-          content:
-            'Never worry about threats again thanks to an automatic real-time monitoring and alerting system. Gain complete visibility into your security to stay safe and stop attackers from ever reaching your servers. We help you with detection so that you never need the cure.',
+          tab: t('5lJM-plZzJdKCiVF9JxmE'),
+          title: t('kP82qDeKyi_SEC_IX50jX'),
+          content: t('85SbuHVxrsfHUep5zYDSV'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png',
           iconWidth: '294px',
           iconHeight: '294px',
@@ -201,10 +185,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '18.38rem'
         },
         {
-          tab: 'Upload Protection',
-          title: 'Stop inappropriate content and help keep internet safe',
-          content:
-            "Keep the internet friendlier by stopping inappropriate uploads with smart edge upload filtering powered by machine learning and a real-time block list. We help you control users' malicious, abusive and inappropriate uploads, so you don't have to lose time removing them.",
+          tab: t('44-lXIykO02GWvsS25cqY'),
+          title: t('BADn6wzXcYO1vYMs0RxWd'),
+          content: t('AotqB1uZwuX7P6t28qLCc'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png',
           iconWidth: '334px',
           iconHeight: '279px',
@@ -216,12 +199,11 @@ const i18ntext = computed<any>(() => {
       ]
     },
     join1: {
-      title: 'Join over 40.000+ customers who already put their trust in Gowaf',
+      title: t('O3X1IOZm6-KlH1N74XLo3'),
       person: {
-        name: 'Periklis',
-        title: 'VitrinaBox, Senior Software Engineer',
-        content:
-          '"Gowaf is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers."'
+        name: t('6YXncMQRwii8ofZw6I7zu'),
+        title: t('SoGw4y79_hLJBGeIlu_vm'),
+        content: t('G0_N_-Z_TIkrK4n6jTtBQ')
       }
     }
   };

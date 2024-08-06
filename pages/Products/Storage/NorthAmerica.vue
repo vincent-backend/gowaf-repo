@@ -31,10 +31,8 @@
     :content="
       $t('products.storage.NorthAmerica.exceptionalPerformance.content')
     "
-    :markerColor="
-      $t('products.storage.NorthAmerica.exceptionalPerformance.markerColor')
-    "
-    :img="$t('products.storage.NorthAmerica.exceptionalPerformance.img')"
+    markerColor="#F9C22F"
+    img="/images/products/storage/northamerica/map_na.png"
   />
   <LgOnly>
     <ProductsNeverHit :isShowTitle="false" :neverHit="i18ntext.neverHit" />

@@ -133,11 +133,7 @@ const i18ntext = computed<any>(() => {
                 $t('products.stream.overview.Calculate.ReplicationPoints.label')
               }}</span>
               <img
-                :src="
-                  $t(
-                    'products.stream.overview.Calculate.ReplicationPoints.icon'
-                  )
-                "
+                src="/images/products/stream/overview/common_price_right_wihte_ic2x.png"
                 alt=""
               />
               <strong>{{

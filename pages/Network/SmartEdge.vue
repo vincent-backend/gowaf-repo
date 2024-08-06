@@ -62,6 +62,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Network'
 });
@@ -71,64 +72,58 @@ const i18ntext = computed<any>(() => {
     numbers: [
       {
         label: '1.000.000+',
-        content: 'Powered Websites'
+        content: t('ailUpetGngG-Iu1SAPP1Z')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
-        label: 'Up to 5x',
-        content: 'Faster Load Times'
+        label: t('zL_N5pvniQimxTom0ni_7'),
+        content: t('42XfFYOriwEO3d5a0USlJ')
       },
       {
         label: '40,000+',
-        content: 'Satisfied Customers'
+        content: t('DqXjS0SA1aWVzOjBF1X1f')
       }
     ],
     yourNeeds: {
-      title: 'Global network tailored for your needs',
-      subTitle:
-        'Stop making compromises when delivering your content. SmartEdge™ consistently tailors a massive global network based on your needs.',
+      title: t('9ibS-GKVn9uPte8F0Ih4i'),
+      subTitle: t('Z5bK5LIEsl82cw1MXpBZr'),
       items: [
         {
-          title: 'Unparalleled Caching',
-          content:
-            'Efficiently deliver content with automatic caching optimizations that ensure the most efficient data distribution around the globe.',
+          title: t('uQwLZVMoto0b1Rgevjq6f'),
+          content: t('lsaSRAESuNk_Ad20attKx'),
           icon: '/images/network/smart-edge/SmartEdge™_ic_cache.png',
           mIcon: ''
         },
         {
-          title: 'Built-in Health Monitoring',
-          content:
-            'Avoid downtime and prevent revenue loss by utilizing a real-time health monitoring system built directly into the routing system.',
+          title: t('-aJDxMbRyYuDfa23Et8OD'),
+          content: t('LUdbHNncl4JMqN_uJSxoS'),
           icon: '/images/network/smart-edge/SmartEdge™_ic_Monitoring.png',
           mIcon: ''
         },
         {
-          title: 'Content-Aware Routing Engine',
-          content:
-            'Enjoy maximum performance for your specific type of content with automatic optimizations based on your files.',
+          title: t('Zx6On0tWC7wQIwEEQnbqn'),
+          content: t('A33GELU4QS0S3xs7A_hsV'),
           icon: '/images/network/smart-edge/SmartEdge™_ic_engine.png',
           mIcon: ''
         }
       ]
     },
     join1: {
-      title: 'Join over 40.000+ happy customers',
+      title: t('home.join2.title'),
       person: {
-        name: 'Pedro Dobrescu',
+        name: t('PDEs3nnGBfog1j0r5jgw9'),
         title: 'ShortPixel',
-        content:
-          '“It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!”'
+        content: t('fbmZzb76944f7qay46lDB')
       }
     },
     maxPerformance: {
-      title: 'Maximize performance with global routing',
-      content:
-        'Achieve up to 30% improved cache hit rates and a massive boost in global performance thanks to optimized routing based on your specific content. Reduce cache MISS requests that destroy performance and hop ahead of the competition.',
-      numberHint1: 'IMPROVED PERFORMANCE',
-      numberHint2: 'LOWER ORIGIN TRAFFIC'
+      title: t('WyFlKMEvY5fxY4a9FXN0o'),
+      content: t('kGU9I5u8KwkuvxDXvxlxh'),
+      numberHint1: t('7D4DGDH9D5LoMEYKbu-rW'),
+      numberHint2: t('1eXREt5ktD5HhGhrl4nUN')
     }
   };
 });

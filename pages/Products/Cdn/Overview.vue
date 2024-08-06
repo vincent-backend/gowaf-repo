@@ -83,160 +83,146 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
 const i18ntext = computed<any>(() => {
   return {
     list1: [
-      '24/7 Customer Support',
-      'Flexible Pricing',
-      'Advanced Caching',
-      'Real-Time Monitoring',
-      'Edge Rules',
-      'Optimized for Video'
+      t('1PAn6q6oGb2yDA5_-NNHC'),
+      t('fb2mCvcpcC7_M-DK0hIt7'),
+      t('gxZpkAWdQ53ujsKcAeARU'),
+      t('uRao7VE1b0JinEkTtLiy9'),
+      t('IYJQsg9Hd3Q4FKJACLC5Z'),
+      t('TXNWhrx6PIBqZnrUkhmZN')
     ],
     list2: [
       {
         icon: '/images/products/cdn/overview/cdn_overview_never_ic_1_nor@2x.png',
         iconActive:
           '/images/products/cdn/overview/cdn_overview_never_ic_1_sele@2x.png',
-        title: 'Scalable By Design',
-        content:
-          'Maximize your growth and expansion without care with a 150 Tbps+ network.'
+        title: t('wSBlPFt1ZYzF5piinJo8-'),
+        content: t('fpuwe-Puowa7fKh2uOvLN')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_never_ic_2_nor@2x.png',
         iconActive:
           '/images/products/cdn/overview/cdn_overview_never_ic_2_sele@2x.png',
-        title: 'Tier 1 Global Network',
-        content:
-          'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.'
+        title: t('2VSWM5fA9jcXRtLFnvGl6'),
+        content: t('jFljO5tXwK84zrW6Zl5Hl')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_never_ic_3_nor@2x.png',
         iconActive:
           '/images/products/cdn/overview/cdn_overview_never_ic_3_sele@2x.png',
-        title: 'NVMe+ SSD Servers',
-        content:
-          'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.'
+        title: t('saVbtL2cUjd5F2Al1K0Hf'),
+        content: t('2Ld9EoNBSDa-XPRDw7c1o')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_never_ic_4_nor@2x.png',
         iconActive:
           '/images/products/cdn/overview/cdn_overview_never_ic_4_sele@2x.png',
-        title: 'Stay Protected',
-        content:
-          'Stay safe and focused with a built-in next-generation DoS protection that just works.'
+        title: t('09wUFOVxktQu_onbJaRqA'),
+        content: t('-jUfNg7g1yNifTfR4KwA6')
       }
     ],
     list3: {
-      title1: 'Build faster with a toolbox on the edge',
-      title2: 'Hop ahead of the technology curve.',
+      title1: t('2LoHMPVMBXgMetMUiQJh9'),
+      title2: t('products.storage.AfriceMiddleEast.list1.subTitle'),
       items: [
         {
           icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_1@2x.png',
-          title: "Easy Let's Encrypt SSL",
-          content:
-            'Take advantage of a free SSL certificate with a single click of a button.'
+          title: t('053LltWUAiQWo44G-qciW'),
+          content: t('oS8i8X6PgBlY6DHf6uVzZ')
         },
         {
           icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_2@2x.png',
-          title: 'Instant Cache Purging',
-          content:
-            'Clearing cache has never been so easy and fast. Keep your content always up to date.'
+          title: t('hC-unQx-5bnwrQemWAq2h'),
+          content: t('LhgzkM8jkivVfzRqHMJdE')
         },
         {
           icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_3@2x.png',
-          title: 'Real-Time Log Forwarding',
-          content:
-            'Gain complete visibility into your content and make data-driven business decisions.'
+          title: t('a9Mv9dtLYM0n_adNbbyjt'),
+          content: t('1iDB7T5Sz7kTjro2oN7EY')
         },
         {
           icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_4@2x.png',
-          title: 'Real-Time Monitoring',
-          content:
-            'Reach your customer in less than 24 ms in most areas anywhere in the world.'
+          title: t('uRao7VE1b0JinEkTtLiy9'),
+          content: t('9Rq3LrZInXYj8Cw2gYFZa')
         },
         {
           icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_5@2x.png',
-          title: 'Edge Rules',
-          content:
-            'Define custom rules to control delivery, security, routing, and much more directly on the edge.'
+          title: t('IYJQsg9Hd3Q4FKJACLC5Z'),
+          content: t('HssgPf8qStJZTKqs_aJle')
         },
         {
           icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_6@2x.png',
-          title: 'Powerful Security',
-          content:
-            'Stay protected from any and all attacks with state-of-the-art DoS mitigation security.'
+          title: t('tI0-aRMh-hmf3-kaL5dCL'),
+          content: t('mp0dUZFG6uyPEsUofdQGZ')
         }
       ]
     },
     numbers: [
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
-        label: '150 Tbps+',
-        content: 'Network Capacity'
+        label: t('PEUMLcb-JhVhbuvaFkWuP'),
+        content: t('home.NetworkCapacity')
       },
       {
-        label: '24 ms',
-        content: 'Avg. Global Latency'
+        label: t('q1ufRx9wOX_bkNPJGQmN1'),
+        content: t('RDF-FK0HEbcFR8RsEIV6H')
       },
       {
         label: '40.000+',
-        content: 'Satisfied Customers'
+        content: t('DqXjS0SA1aWVzOjBF1X1f')
       }
     ],
     goFaster: {
-      title: 'Supercharged with powerful features',
-      subTitle:
-        'Gain a competitive advantage with next-generation features at no additional cost.',
+      title: t('7l0O9Lt7dsbXZe4DG56cA'),
+      subTitle: t('tI4sLKkIYy_DwVzlztI2C'),
       tabs: [
         {
           tab: 'Perma-Cache',
-          title: 'Deliver your content faster than ever before',
-          content:
-            'Store your files permanently on Edge Storage and take advantage of the 100% cache HIT ratio.Supercharge your web delivery speed worldwide.',
+          title: t('NDbhLim71QNaIXOte9ulQ'),
+          content: t('QNNyCsg_vuBomcptrbWiq'),
           icon: '/images/products/cdn/overview/cdn_overview_supercharged_img@2x.png',
           iconWidth: '305px',
           iconHeight: '314px',
-          btn: 'Start Caching Now',
+          btn: t('VEjyXC8EDvcupdbfuONz4'),
           href: '#'
         },
         {
           tab: 'SmartEdge™',
-          title: 'Bring your users to the closest server',
-          content:
-            'Take advantage of real-time analytics to deliver your users to the most optimal locations. Maximize performance and minimize latency!',
+          title: t('xXZVbIrb4TgUhywFYezl2'),
+          content: t('KVwMXAZvPYH0_-I_TSNMD'),
           icon: '/images/products/cdn/overview/cdn_overview_supercharged2_img@2x.png',
           iconWidth: '360px',
           iconHeight: '360px',
-          btn: 'Improve Routing System',
+          btn: t('_3NlIECsW-_UbHPOLU-_-'),
           href: '#'
         },
         {
-          tab: 'DoS Protection',
-          title: 'Quality DDoS protection. For quality service.',
-          content:
-            'Protect yourself from DDoS attacks. Ensure flawless uptime and never go down again. We take care of DDoS mitigation so you can focus on your product!',
+          tab: t('MiD8TA8CBSTQcgl2doZJo'),
+          title: t('LK4bq0cZLdvWewzjM1kil'),
+          content: t('aH7DYlEg8sXK4g3iobd1O'),
           icon: '/images/products/cdn/overview/cdn_overview_supercharged3_img@2x.png',
           iconWidth: '360px',
           iconHeight: '360px',
-          btn: 'Protect Your Website',
+          btn: t('cJ9ot_IVA01sygSCEAroy'),
           href: '#'
         },
         {
           tab: 'SafeHop™',
-          title: 'Reduce origin errors and maximize uptime!',
-          content:
-            'Protect yourself from DDoS attacks. Ensure flawless uptime and never go down again. We take care of DDoS mitigation so you can focus on your product!',
+          title: t('DB5Kb_VS2xW0yaeS4E-RC'),
+          content: t('hMP2244AATW07Xill9Nnk'),
           icon: '/images/products/cdn/overview/cdn_overview_supercharged4_img@2x.png',
           iconWidth: '360px',
           iconHeight: '360px',
-          btn: 'Protect Your Website',
+          btn: t('Gzq0MUUSheXojnRdz0wkE'),
           href: '#'
         }
       ]

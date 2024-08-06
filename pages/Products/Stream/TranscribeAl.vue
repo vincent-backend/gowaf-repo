@@ -57,10 +57,7 @@
     :btnsubText="$t('products.Stream.TranscribeAI.SupportPlan.btnsubText')"
   >
     <div class="Planlist">
-      <div
-        class="row-item"
-        v-for="item in i18ntext.list"
-      >
+      <div class="row-item" v-for="item in i18ntext.list">
         <div class="left-title">
           <span class="hit">{{ item.hin }}</span>
           {{ item.title }}
@@ -88,13 +85,12 @@
   </ProductsStorageSupportPlan>
   <CommonSuperCharge v-bind="i18ntext.doNotLeave" />
   <ProductsPlayerVideo />
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -104,100 +100,87 @@ const i18ntext = computed(() => {
     items: [
       {
         icon: '/images/products/stream/TranscribeAI/media_simple_ic_1@2x.png',
-        title: 'Upload',
-        content:
-          'Upload your media files using an HTTP API or web file manager.'
+        title: t('Kopqg2Wm-g2B0j4EW4W8q'),
+        content: t('AEF85-2gFBZU1qxwBCAEh')
       },
       {
         icon: '/images/products/stream/TranscribeAI/transcribe_1_ic_2@2x.png',
-        title: 'Transcribe',
-        content:
-          'Transcribe Al automatically transcribes and captions your videos during transcoding.'
+        title: t('jXnhnTw6oRhbClwq0ET6y'),
+        content: t('YkHnJRq3AcoWAUhZClp-j')
       },
       {
         icon: '/images/products/stream/TranscribeAI/transcribe_1_ic_3@2x.png',
-        title: 'Deliver and Build',
-        content:
-          'Deliver your captioned videos to new audiences, or access the raw transcriptions through the ApI'
+        title: t('y1ykhQuV88bn8q8Y4-3gO'),
+        content: t('-v3qp9g_j4QTkmtm42mN7')
       }
     ],
     neverHit: {
-      title: 'The next era of video intelligence.',
-      subTitle:
-        'Provide valuable business insights, or enhance your user experience.',
+      title: t('dHE0rxLhyh-Z5sd14dTwZ'),
+      subTitle: t('lWK1ZvCIuVOiVPvhJIkOJ'),
       items: [
         {
           icon: '/images/products/stream/TranscribeAI/transcribe_2_ic_1@2x.png',
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Create Subtitles',
-          content:
-            'Reach a broader audience by removing the language barriers with automated translations to up to 57 languages available in just a few clicks.'
+          title: t('R4tgeoCb8a3Yqut3AX5cq'),
+          content: t('eAVA4bTn_t_rfSDrnfsRZ')
         },
         {
           icon: '/images/products/stream/TranscribeAI/transcribe_2_ic_2@2x.png',
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Generate Meeting Notes',
-          content:
-            'Accurately transcribe meetinas and generate summaries and titles to quickly categorize and capture the meetings that help teams succeed.'
+          title: t('ARHzbRZdh2enM9EYeuy4P'),
+          content: t('lTyq24tSCXSUkFKctoVGu')
         },
         {
           icon: '/images/products/stream/TranscribeAI/transcribe_2_ic_3@2x.png',
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Get Powerful Video Insights',
-          content:
-            'Extract insights from meetings, customer conversations, or customer engagement and enrich your workflow experience.'
+          title: t('FbSGkUqHrCFtjmLgh42fs'),
+          content: t('5cdTCyR--9mUIhGd0k622')
         }
       ]
     },
     items1: [
       {
         icon: '/images/products/stream/TranscribeAI/Pricing_Overview_card_ic_4@2x.png',
-        title: 'Pay Only For What You Use',
-        content:
-          'Only pay for the number of minutes you transcribe with no minimum recurring costs.'
+        title: t('sQoVKK1ZNIe38NAQUpBWF'),
+        content: t('gLFFsTqpI-cI1tGW1LcXm')
       },
       {
         icon: '/images/products/stream/TranscribeAI/Pricing_Overview_card_ic_1@2x.png',
-        title: '$1 Monthly Minimum',
-        content:
-          'Get started for free with a 14-day free trial, and continue for as little as $1 per month.'
+        title: t('-JIMxMV5mP5YTkoE1MK4W'),
+        content: t('xfDW3DuWU9eAZnb9QUKlZ')
       },
       {
         icon: '/images/products/stream/TranscribeAI/Beautiful_Video_Player@2x.png',
-        title: 'All Features Included',
-        content:
-          'Use the full Transcribe AI feature set with no extra charges or hidden costs.'
+        title: t('6Dn0HsX6tOsS6PHaG2drl'),
+        content: t('MGERblUH_TqG5zikZVgbk')
       }
     ],
     list: [
       {
-        title: '/per minute of video*',
+        title: t('bT3myQXncy-vTSXFI2Cpr'),
         hin: '$0.1',
-        content:
-          'Eliminate expensive transcribing fees and start utilizing Bunny AI with simple and affordable pricing. Excellent solution that scales with project size.'
+        content: t('jrYy7qwj6Tfq0UtL2nMNH')
       }
     ],
     list1: [
-      'Transcriptions in 56 languages',
-      'All Features',
-      'Full API Support'
+      t('PmmcVhjSe0ixIVOISCW2b'),
+      t('aT0yUcJjL1Qo6GT1TfQl9'),
+      t('bC5YEbjm90dkv5RI-lAaX')
     ],
     doNotLeave: {
-      title: 'Hop faster with AI that just works.',
-      subTitle:
-        'Reduce the complexity of video processing and managing multiple APIs with an end-to-end system that just works.',
+      title: t('Q-eWZocC4ddu6dZGNhWFr'),
+      subTitle: t('m3PJqjKlrrExPCI9ZiHl8'),
       tabs: [
         {
-          tab: 'Simplify Workflow',
-          title: 'Simplify your video workflow',
-          content:
-            'Replace multiple complicated APIs with a simple, end-to-end solution. Transcribe AI integrates directly into your existing Bunny Stream workflow to reduce complexity and help you hop aster. Just upload your videos, and Bunny Stream will automatically encode, tag, and transcribe any speech into organized and timestamped captions available in just a few minutes.',
+          tab: t('IrtXr-7Z0F9aV8Ez05Fjm'),
+          title: t('Rb3Rh-IHGvUiNEBesqDaa'),
+          content: t('rY42Su00-RZnCjeWnAlf4'),
           icon: '/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png',
           iconWidth: '378px',
           iconHeight: '389px',
@@ -207,10 +190,9 @@ const i18ntext = computed(() => {
           mIconHeight: '24.31rem'
         },
         {
-          tab: 'Reduce Costs',
-          title: 'Amazing performance and unparalleled reliability',
-          content:
-            'Deliver unparalleled performance and reliability to your users by powering your video with a state-of-the-art CDN system. With a network backbone of 150 Tbps+ and 123+ global PoPs, Bunny Streams ensures that your customers get an excellent experience for every request. Every time.',
+          tab: t('h65iQSDjOfejf_nYJhAlA'),
+          title: t('kkr1ENX9FjJ8XI6ZVDvDH'),
+          content: t('b5-T98I8UvCwHTRmG1239'),
           icon: '/images/products/stream/TranscribeAI/cdnsafehop_save_img@2x.png',
           iconWidth: '378px',
           iconHeight: '389px',
@@ -222,13 +204,13 @@ const i18ntext = computed(() => {
       ]
     },
     drmCustomer: {
-      title: 'Trusted by 40.000+ global customers',
-      contentPre: "We're rated ",
+      title: t('g_tXejmNur2f2uDrDvSd-'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       faceImg: {
         img: '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
         top: '-3px',
@@ -241,10 +223,9 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Matthias Mauch',
-        subTitle: 'Younity',
-        content:
-          '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."'
+        title: t('1BywE0gMMmHqYbpuYRGyW'),
+        subTitle: t('10KCWD0ValnrFobaa19fG'),
+        content: t('hVZvyVFQZA1hXV83roW7e')
       },
       items: [
         {

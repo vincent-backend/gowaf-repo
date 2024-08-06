@@ -39,6 +39,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Network'
 });
@@ -48,78 +49,69 @@ const i18ntext = computed<any>(() => {
     numbers: [
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
-        label: '24 ms',
-        content: 'Avg. Global Latency'
+        label: t('q1ufRx9wOX_bkNPJGQmN1'),
+        content: t('RDF-FK0HEbcFR8RsEIV6H')
       },
       {
         label: '95%',
-        content: 'Avg. Cache Hit Ratio'
+        content: t('Ejm59YqIljRelJXhZ1LYn')
       },
       {
         label: '1.000.000+',
-        content: 'Powered Websites'
+        content: t('ailUpetGngG-Iu1SAPP1Z')
       }
     ],
     list1: {
-      title1: 'Built for performance. Optimized for perfection.',
-      title2:
-        'Join a global network that is carefully optimized and tuned down to the TCP level.',
+      title1: t('EZjTn4xNx8ViDGg0Ky5lg'),
+      title2: t('52hwj5YF8lqRr_O_8SbuU'),
       items: [
         {
           icon: '/images/network/Network_DDoS_card_ic_1.png',
-          title: 'Tier 1 Network Partners',
-          content:
-            'Hop on a network powered by carefully selected providers in top-tier data centers.'
+          title: t('A5qfPmkAC_G8pOuAfgmOf'),
+          content: t('P2zHLMRmwKGbTmaMO4rLq')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_2.png',
-          title: 'Massive Network Backbone',
-          content:
-            'Scale with ease by leveraging a massive 150 Tbps+ global network backbone.'
+          title: t('BdCWHf3m-XxvJDp3YIVfZ'),
+          content: t('zMggdMNSJ1953ZZBYv7y8')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_3.png',
-          title: 'SmartEdge Routing',
-          content:
-            'Route users where it matters with a smart routing engine optimized for your specific content.'
+          title: t('O-A8j1V1E_91ifsO6oFbM'),
+          content: t('sQcNoG7ExLzrxwMPpZryA')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_4.png',
-          title: 'Sub 24 ms Average Global Latency',
-          content:
-            'Reach your customer in less than 24 ms in most areas anywhere in the world.'
+          title: t('dQtaflIHc0DNBB_rRZLvH'),
+          content: t('9Rq3LrZInXYj8Cw2gYFZa')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_5.png',
-          title: 'NVMe + SSD Powered Servers',
-          content:
-            'Deliver content at maximum speed and minimal latency with NVMe and SSD servers.'
+          title: t('pWyG81JLneSvfg99OFxPt'),
+          content: t('jvLkZLwjU3jPlXslzXfTm')
         },
         {
           icon: '/images/network/Network_DDoS_card_ic_6.png',
-          title: 'Optimized for Static and Media Content',
-          content:
-            'Deliver higher cache hit rates for small and large files with a CDN optimized for efficient caching.'
+          title: t('vsLph3iedSwHFbbnqGnUx'),
+          content: t('m5pxn1FDItnXoxvGNYwTV')
         }
       ]
     },
     goFaster: {
-      title: 'Go faster globally - and locally',
-      subTitle:
-        'Minimize latency and increase resiliency with a network powered strictly by Tier 1 transit providers and direct access to over 3000+ ISPs.',
+      title: t('azWJFm5ozSZ3yMqRtq6Oz'),
+      subTitle: t('w-nnCU_jOAxnpOTO5RtJB'),
       tabs: [
         {
-          tab: 'Europe',
-          title: 'CDN Europe',
-          content:
-            'Hop on the #1 content delivery network in Europe. Connect to all major ISPs with local connectivity in most major European cities. Powered by a network with a 19 ms latency, your users will never have to wait again.',
+          tab: t('nationalFlag.continentName2'),
+          title: t('products.storage.Europe.header.preTitle'),
+          content: t('9FKrXHuSFfEarUf5ZU2R4'),
           icon: '/images/network/Network_Overview_nation_Europe@2x.png',
           iconWidth: '374px',
           iconHeight: '310px',
-          btn: 'Learn More',
+          btn: t('piKsTQ6gNo0W87KKmN9vl'),
           href: '#',
           mIcon:
             '/mobile-images/network/overview/Network_Overview_nation_Europe@2x.png',
@@ -127,14 +119,13 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '19.38rem'
         },
         {
-          tab: 'North America',
-          title: 'CDN North America',
-          content:
-            'Deliver impeccable performance to the largest economy in the world. With 22 PoPs strategically placed through major cities in the US and direct connections to major ISPs such as Comcast, you can reach most internet users in less than 27 ms.',
+          tab: t('nationalFlag.continentName1'),
+          title: t('products.storage.NorthAmerica.header.preTitle'),
+          content: t('zebCIyIY6ULFedrIi73GP'),
           icon: '/images/network/Network_Overview_nation_North_America@2x.png',
           iconWidth: '320px',
           iconHeight: '268px',
-          btn: 'Learn More',
+          btn: t('wUXrA7frpfOs0VD2ZmJOl'),
           href: '#',
           mIcon:
             '/mobile-images/network/overview/Network_Overview_nation_North_America@2x.png',
@@ -142,14 +133,13 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '16.75rem'
         },
         {
-          tab: 'Latin America',
-          title: 'CDN Latin America',
-          content:
-            'Deliver maximum performance throughout South and Latin America with the fastest network in the region. Connect directly to most major ISPs and bring your content just a hop away from your visitors throughout LATAM.',
+          tab: t('products.cdn.breadCrumbs.Latin_America'),
+          title: t('NuYtsLkM6vWHZz2zVUH2B'),
+          content: t('iisMyBRMbFLiIb2rqHGhc'),
           icon: '/images/network/Network_Overview_nation_Latin_America@2x.png',
           iconWidth: '272px',
           iconHeight: '316px',
-          btn: 'Learn More',
+          btn: t('MLyM5hmvvus3wZwVf0k_z'),
           href: '#',
           mIcon:
             '/mobile-images/network/overview/Network_Overview_nation_Latin_America@2x.png',
@@ -157,14 +147,13 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '19.75rem'
         },
         {
-          tab: 'Asia',
-          title: 'CDN Asia',
-          content:
-            'Reach users with direct local connectivity throughout Asia. Gowaf is positioned in all key centers to deliver unparalleled performance in the region, including emerging markets through strategic local partnerships.',
+          tab: t('nationalFlag.continentName3'),
+          title: t('products.storage.Asia.header.preTitle'),
+          content: t('hGQ0fw-RfyTC8zryyBqmx'),
           icon: '/images/network/Network_Overview_nation_Asia@2x.png',
           iconWidth: '330px',
           iconHeight: '272px',
-          btn: 'Learn More',
+          btn: t('2EbtqclTM3hHqkd4wBujx'),
           href: '#',
           mIcon:
             '/mobile-images/network/overview/Network_Overview_nation_Asia@2x.png',
@@ -172,14 +161,13 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '17rem'
         },
         {
-          tab: 'Australia',
-          title: 'CDN Australia & Oceania',
-          content:
-            'each users in milliseconds across Oceania through a locally built and optimized anycast network. Positioned in 6 key major cities across Australia and New Zealand, Gowaf helps you deliver exceptional performance for every request.',
+          tab: t('products.cdn.breadCrumbs.Australia'),
+          title: t('HBUntRfYK4t8O9zFRVkIF'),
+          content: t('Zsw9Nk5Nlgypf2-KFaCn9'),
           icon: '/images/network/Network_Overview_nation_Australia@2x.png',
           iconWidth: '330px',
           iconHeight: '241px',
-          btn: 'Learn More',
+          btn: t('CtnpIM5Mx0nKoWm6IuUop'),
           href: '#',
           mIcon:
             '/mobile-images/network/overview/Network_Overview_nation_Australia@2x.png',
@@ -187,14 +175,13 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '15rem'
         },
         {
-          tab: 'Middle East & Africa',
-          title: 'CDN Africa & Middle East',
-          content:
-            'Gowaf helps you deliver a consistent experience around the world. With local connectivity in multiple African countries, we help your customers get to your content faster, regardless if they’re from Kenya or Cape Town.',
+          tab: t('eZQYGIi05MT2RTOFaHD6n'),
+          title: t('products.storage.AfriceMiddleEast.header.preTitle'),
+          content: t('L-6h4F9X_3tTrp6ZdFA9f'),
           icon: '/images/network/Network_Overview_nation_Middle_East@2x.png',
           iconWidth: '338px',
           iconHeight: '242px',
-          btn: 'Learn More',
+          btn: t('d2MmrtaAOblk4P2E93XPQ'),
           href: '#',
           mIcon:
             '/mobile-images/network/overview/Network_Overview_nation_Middle_East@2x.png',
@@ -204,20 +191,19 @@ const i18ntext = computed<any>(() => {
       ]
     },
     join1: {
-      title: 'Join over 40.000+ global customers',
+      title: t('8Exj7XGIsGwCmEwgDTN4F'),
       subTitle: [
-        "We're rated",
+        t('home.header.bottom.weAreRated'),
         '',
-        'Excellent 4.8',
-        ' out of 5 on ',
-        'Trustpilot',
-        ' - Based on 600+ reviews'
+        t('home.join2.subTitle3'),
+        t('home.join2.subTitle4'),
+        t('home.join2.subTitle5'),
+        t('home.join2.subTitle6')
       ],
       person: {
-        name: 'Tom Mason',
-        title: 'Nexus Mods',
-        content:
-          '“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”'
+        name: t('ZeeSZ52uudWny1Fk6BsKG'),
+        title: t('VVzzamDY3fj2RpKojAPGd'),
+        content: t('OmSew8mun8sNwyQTiAUuz')
       },
       ranks: [
         {

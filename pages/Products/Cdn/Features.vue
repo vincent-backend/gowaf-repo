@@ -48,9 +48,7 @@
       {{ $t('products.cdn.features.ad2Container.subTitle') }}
     </div>
 
-    <template
-      v-for="(item, index) in i18ntext.items"
-    >
+    <template v-for="(item, index) in i18ntext.items">
       <SolutionsAd2
         :title="item.title"
         :content="item.content"
@@ -72,6 +70,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -80,56 +79,52 @@ const i18ntext = computed<any>(() => {
     items: [
       {
         pic: '/images/products/cdn/features/cdnfeatures_performance_img@2x.png',
-        title: 'Performance',
-        content:
-          "Performance matters, and it's our goal to take it to the next level. bunny.net helps you supercharge your web presence with powerful features designed for efficient global caching and content optimization to squeezeout every last millisecond of performance.",
+        title: t('resources.breadCrumbs.Performance'),
+        content: t('WuXsIoHUAmrfgEFeol18D'),
         list: [
-          'Edge Rules',
-          'Image Optimization',
-          'Request Coalescing',
+          t('IYJQsg9Hd3Q4FKJACLC5Z'),
+          t('AK1pQc4KfyFxect6tcZqx'),
+          t('2rOEwKaZ4CQbV5JtrkFYK'),
           'perma-Cache',
-          'Customizable Caching'
+          t('6rOgj1q6f3qo96Lv5kl5c')
         ]
       },
       {
         pic: '/images/products/cdn/features/cdnfeatures_network_img@2x.png',
-        title: 'Network',
-        content:
-          "Not all networks are crafted the same. Gowaf gives you a direct line to one of the fastest networks in the world, designed for a true planet-scale reach that's always just a hop away from your users.",
+        title: t('network.breadCrumbs.parent'),
+        content: t('0C9T3vVAckKKv1JR70LNm'),
         list: [
-          '150 Tbps+ Backbone',
-          '123 PoPs',
-          'Real-Time Monitoring',
+          t('TapgWeXg7dOtRJI4LfCTs'),
+          t('jfz7nyYwHDI2EGBQSfYaI'),
+          t('uRao7VE1b0JinEkTtLiy9'),
           'Automatic-Healing',
-          'SmartHop Engine',
-          '3000+ PNIs'
+          t('SnjQNoEy1rQkq77c2NNTW'),
+          t('zsppIhtq9QaDs27lSg4yr')
         ]
       },
       {
         pic: '/images/products/cdn/features/cdnfeatures_security_img@2x.png',
-        title: 'Security',
-        content:
-          'Take advantage of robust security features that allow you to control who, when, and for how long end-user can access your content. Stop bad bots and block attacks before they ever reach your server. bunny.net helps you stay safe at all times.',
+        title: t('resources.breadCrumbs.Security'),
+        content: t('FC-7JC3tB-1N3m7TKembi'),
         list: [
-          'GEO Blocking',
-          'WAF (Coming Soon)',
-          'Network Limits',
-          'DoS Protection',
-          'Token Authentication',
-          'Hotlinking Protection'
+          t('yvI1VPLH5eGAO7pvLdfFH'),
+          t('RGWJ6H6-DCT1LmSCHc6sB'),
+          t('iC0u_ZEzQliyyTzwBkRRA'),
+          t('MiD8TA8CBSTQcgl2doZJo'),
+          t('feQGdTJI4u6AoECQxK1bI'),
+          t('PVuK0XsZri8h-6ZKXJvG_')
         ]
       },
       {
         pic: '/images/products/cdn/features/cdnfeatures_reporting_img@2x.png',
-        title: 'Reporting',
-        content:
-          'Get the full insights into your traffic with a live monitoring map, real-time statistics, full logging, and reporting tools. Polyfll helps you spot bottlenecks, connectivity, or server issues and keep your infrastructure running smoothly at all times.',
+        title: t('Vecq3as4AAjmDwX24TdR2'),
+        content: t('nYCZb0lCdzb5yUsSZElVI'),
         list: [
           'Live-Monitoring',
-          'Performance Metrics',
-          'Full Raw Logging',
-          'Real-Time Statistics',
-          'Traffic Reporting'
+          t('nbE_5Qve4xjPx676aWVrn'),
+          t('oYJ0eVjz48Lg1gV1tYEj4'),
+          t('6bqG3cqW9P-GEOZLiDooK'),
+          t('lgtjhwhLuTTFTHuEFOa3f')
         ]
       }
     ]

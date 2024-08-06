@@ -31,9 +31,9 @@
     ]"
   />
   <CommonHeader1
-    :logo="$t('resources.caseStudiesDetailsParrotSec.header.logo')"
-    :logoWidth="$t('resources.caseStudiesDetailsParrotSec.header.logoWidth')"
-    :logoHeight="$t('resources.caseStudiesDetailsParrotSec.header.logoHeight')"
+    logo="/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_pa_2x.png"
+    logoHeight="42px"
+    logoWidth="224px"
     :title="$t('resources.caseStudiesDetailsParrotSec.header.title')"
     :content="$t('resources.caseStudiesDetailsParrotSec.header.content')"
     :btn="$t('resources.caseStudiesDetailsParrotSec.header.btn')"
@@ -60,10 +60,7 @@
     :numbersTitle="$t('resources.caseStudiesDetailsParrotSec.numbersTitle')"
   />
   <div class="ad2-container" style="margin-bottom: 90px">
-    <template
-      v-for="(item, index) in i18ntext.items"
-      :key="index"
-    >
+    <template v-for="(item, index) in i18ntext.items" :key="index">
       <SolutionsAd2
         :title="item.title"
         :content="item?.content"
@@ -93,33 +90,32 @@
 }
 </style>
 <script setup lang="ts">
+const { t } = useI18n();
 const i18ntext = computed(() => {
   return {
     numbers: [
       {
-        label: 'Better',
+        label: t('bGE-kMPuEL9XXFVX0YF3V'),
         label2: ' security',
-        content: 'by ditching their old mirror network'
+        content: t('W90ZhOTYA6jEZEwOIYBiZ')
       },
       {
-        label: 'Improved',
+        label: t('MBGRzF6t3ObMODssFdXOz'),
         label2: 'performance',
-        content: 'by accelerating asset fetching'
+        content: t('dQQ5XWkPUlsLhzTQ6eMHI')
       },
       {
         label: '80%',
-        label2: 'lower costs',
-        content: 'by setting up a unique pricing model'
+        label2: t('WiMrDBg9yHpiOGu2LLWSP'),
+        content: t('D_FMjj-BbCJbChrLe6OBH')
       }
     ],
     items: [
       {
         pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_1_2x.png',
-        title: 'About ParrotSec',
-        content:
-          "Parrot Security OS is a free, open-source GNU/Linux distribution based on Debian, designed for security experts, developers, and privacy-aware people. It's a practical toolkit for cybersecurity specialists and a friendly companion for people who want to get closer to the cybersecurity world.",
-        content2:
-          'Unlike similar operating systems, it comes pre-installed with coding tools and regularly updates to support popular software. The project started in 2013 as a small, homemade OS, but it quickly saw its base skyrocket to over 200 thousand users.',
+        title: t('qmm5oOyXiNaMM3otnAIwq'),
+        content: t('zu7BVO-bGj-n94kBdAEh1'),
+        content2: t('oajJxX0E9RApFezpSSP0M'),
         width: '386px',
         height: '318px',
         mwidth: '24.13rem',
@@ -127,11 +123,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_2_2x.png',
-        title: 'The Challenges',
-        content:
-          'Parrot needed to support 9000+ downloads – over 102 gigabytes. At first, Parrot relied on volunteer mirror providers to increase their availability. But the mirror provider system created security problems: third parties could overwrite any download, and the Parrot team couldn’t do anything to stop it. Parrot’s bandwidth issue had evolved into a security issue.',
-        content2:
-          'Parrot decided to use a CDN, but their early attempts were unsatisfactory. Traditional CDNs were expensive and inefficient. Some couldn’t comply with GDPR. Parrot needed a solution that wouldn’t lock them into costly enterprise pricing while still providing secure, fast, efficient downloads.',
+        title: t('4TyOIjs-7w2mFWI5-KHX0'),
+        content: t('FEgY_ny5IuVY_0y8ZBeQa'),
+        content2: t('dwuRKBJ6Uh5U06uWiqnbV'),
         width: '368px',
         height: '312px',
         mwidth: '23rem',
@@ -139,11 +133,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_3_2x.png',
-        title: 'The Solution',
-        content:
-          'Enter Gowaf! We worked with ParrotSec to build an affordable platform to host all of their architectures. With our custom pricing model, ParrotSec saved 80% on delivery costs. Other CDN networks tried to charge ParrotSec enterprise rates for features they didn’t use, but Gowaf offered them a plan built for their unique circumstances at an affordable rate.',
-        content2:
-          'ParrotSec needed to host 5 different versions of ParrotOS, so we switched them over to Gowaf CDN and Gowaf Storage. We put them on a pay-as-you-go rate and only charged them for the service they used. Finally, we created a private Slack channel to give ParrotSec direct 24/7 access to our Super Gowaf support team to make sure their service really flew.',
+        title: t('BL0AfQMV8wX85i8gKFgjU'),
+        content: t('Mv2IT3J5shRvZPHC7_ECI'),
+        content2: t('1xdJk9ni8uvNWU0cvKi2y'),
         content3: '',
         width: '422px',
         height: '324px',
@@ -152,11 +144,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-parrotsec/Resources_Case_Studies_details_ParrotSec_graph_4_2x.png',
-        title: 'The Results',
-        content:
-          'Once Parrot switched to Gowaf, the team never looked back. Their users quickly noticed improved service and faster downloads. Complaints about security risks dropped off.',
-        content2:
-          'We surprised ParrotSec with faster service on a single Gowaf server than their previous CDN gave them on six. At a fraction of the price. ParrotSec wasn’t being served by major providers - so Gowaf stepped in to fill the gap.',
+        title: t('g7GEGMogKYzk-eZWZZiWl'),
+        content: t('-vuFa3qJ-RsaBzUMWnuBV'),
+        content2: t('l5wrlIvNDzGR3rHtnPIsa'),
         width: '378px',
         height: '322px',
         mwidth: '23.63rem',
@@ -168,21 +158,21 @@ const i18ntext = computed(() => {
       subTitle: '',
       items: [
         {
-          title: 'HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS',
+          title: t('ku6UdeyhcsiarrIkFc3f3'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_pic_1_2x.png',
           icon2:
             '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_nz_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW LAUNCH CDN BOOSTED SERVICE AND SAVED ON COSTS',
+          title: t('5kGGRVwrgqIDMEOCy2tFe'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_pic_11_2x.png',
           icon2:
             '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_la_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         }
       ]
@@ -208,11 +198,10 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Lorenzo Faletra',
+        title: t('slC1dTteLCeaA7xERJn-K'),
         subTitle: 'CEO',
-        content:
-          '"We tried several CDN providers before, and although they were more expensive, they didn\'t offer the same performance and reliability. After the switch to Gowaf, our users immediately noticed how fast and reliable the downloads became."'
-      },
+        content: t('JlDpy2j6XveEWp-HAJDm3')
+      }
     }
   };
 });

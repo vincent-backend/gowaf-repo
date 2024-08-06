@@ -21,7 +21,7 @@
       <el-form label-position="top" :model="formLabelAlign" size="large">
         <el-row :gutter="20">
           <el-col :span="12" :xs="24">
-            <el-form-item label="Full Name">
+            <el-form-item :label="$t('bookMeeting.form.firstName')">
               <el-input
                 v-model="formLabelAlign.name"
                 placeholder="you@company.com"
@@ -29,7 +29,7 @@
             </el-form-item>
           </el-col>
           <el-col :span="12" :xs="24">
-            <el-form-item label="Email">
+            <el-form-item :label="$t('bookMeeting.form.email')">
               <el-input
                 v-model="formLabelAlign.Email"
                 placeholder="you@company.com"
@@ -39,25 +39,27 @@
         </el-row>
         <el-row :gutter="20">
           <el-col :span="12" :xs="24">
-            <el-form-item label="Company">
+            <el-form-item :label="$t('julCA-wYBln_3hd-CXD1x')">
               <el-input
                 v-model="formLabelAlign.Company"
-                placeholder="Your Company Name"
+                :placeholder="$t('gDMESIucrKAY1dP2SDmtw')"
               />
             </el-form-item>
           </el-col>
           <el-col :span="12" :xs="24">
-            <el-form-item label="Website">
+            <el-form-item :label="$t('uvaBuP8EnBwWVql2Ynbl9')">
               <el-input
                 v-model="formLabelAlign.Website"
-                placeholder="Your website link"
+                :placeholder="$t('tRSXC4HoRK4zUekLKR6_D')"
               />
             </el-form-item>
           </el-col>
         </el-row>
         <el-row :gutter="20">
           <el-col :span="12" :xs="24">
-            <el-form-item label="Phone">
+            <el-form-item
+              :label="$t('products.stream.multiDRM.email.form.phone')"
+            >
               <el-input
                 v-model="formLabelAlign.Phone"
                 placeholder="XXX-XXX-XXXX"
@@ -65,28 +67,34 @@
             </el-form-item>
           </el-col>
           <el-col :span="12" :xs="24">
-            <el-form-item label="Your website link">
+            <el-form-item :label="$t('V_IPWjfJ-sBGR9n_wPXhW')">
               <el-input
                 v-model="formLabelAlign.link"
-                placeholder="I don't know"
+                :placeholder="
+                  $t('pricing.cdn.getInTouch.form.placeholderEstimatedTraffic')
+                "
               />
             </el-form-item>
           </el-col>
         </el-row>
         <el-row :gutter="20">
           <el-col :span="24">
-            <el-form-item label="Message">
+            <el-form-item
+              :label="$t('pricing.cdn.getInTouch.form.labelMessage')"
+            >
               <el-input
                 type="textarea"
                 v-model="formLabelAlign.Message"
-                placeholder="Tell us about your project and how bunny.net can help you."
+                placeholder="$t('hJ3T-p3qQf7PgrqS___dW')"
               />
             </el-form-item>
           </el-col>
         </el-row>
         <el-row :gutter="20">
           <el-col :span="24">
-            <el-form-item label="Message">
+            <el-form-item
+              :label="$t('pricing.cdn.getInTouch.form.labelMessage')"
+            >
               <div class="Message-list">
                 <div
                   class="item"
@@ -121,6 +129,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -137,16 +146,19 @@ const formLabelAlign = reactive({
 });
 const activt = ref(0);
 const list = ref([
-  'Content Delivery',
-  'Content Delivery',
-  'Content Delivery',
-  'Online Storage',
-  'Software Distribution',
-  'DoS Protection'
+  t('aBftC0NbhkPUijTrsMnBe'),
+  t('rdI5DzifSOJQFhOQKXHLt'),
+  t('ox63H4b0g7BmPkvezLtWP'),
+  t('uLYOzWAiNHHdOADYCEqMl'),
+  t('solutions.storageSoftware.header.preTitle'),
+  t('MiD8TA8CBSTQcgl2doZJo')
 ]);
 
 const i18ntext = computed<any>(() => {
-  return ['I have read and agree to the Gowaf', ' Privacy Policy '];
+  return [
+    t('resources.caseStudies.header.hint'),
+    t('pricing.cdn.getInTouch.form.agreeLink')
+  ];
 });
 </script>
 <style lang="scss" scoped>

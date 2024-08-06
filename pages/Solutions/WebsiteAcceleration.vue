@@ -111,6 +111,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Solutions'
 });
@@ -120,125 +121,113 @@ const i18ntext = computed(() => {
     numbers: [
       {
         label: '1.000.000+',
-        content: 'Powered Websites'
+        content: t('ailUpetGngG-Iu1SAPP1Z')
       },
       {
-        label: 'Up to 5x',
-        content: 'Faster Load Times'
+        label: t('zL_N5pvniQimxTom0ni_7'),
+        content: t('42XfFYOriwEO3d5a0USlJ')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
         label: '40.000+',
-        content: 'Satisfied Customers'
+        content: t('DqXjS0SA1aWVzOjBF1X1f')
       }
     ],
     list1: [
-      'From $1/month',
-      'Real-Time Monitoring',
-      'No Hidden Fees',
-      'DDoS Protection',
+      t('HWOK2UItHhoG1jpcUllz5'),
+      t('uRao7VE1b0JinEkTtLiy9'),
+      t('UyW_8wt9a6R_vyi2j1EaV'),
+      t('network.breadCrumbs.ddosProtection'),
       'Perma-Caching',
-      'Free SSL Certificate'
+      t('WNltSFgIXwNMPL6RL6IsC')
     ],
     list2: [
       {
         icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_nor@2x.png',
         iconActive:
           '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_1_sel@2x.png',
-        title: 'Boost Performance',
-        content:
-          'Keep your content on the edge, get closer to your users and hop ahead of the competition.'
+        title: t('pzVZvT_6U8-8IQATIFtK2'),
+        content: t('oYfDZVf96qjgDq_XtJx0Z')
       },
       {
         icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_nor@2x.png',
         iconActive:
           '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_2_sel@2x.png',
-        title: 'Win User Experience',
-        content:
-          'Delight your visitors with an unforgettable user experience thanks to faster website load times.'
+        title: t('8vKwNMedMPRXtvw4Qdsg3'),
+        content: t('ZrqBv1aNdpYjmNwo6qOu3')
       },
       {
         icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_nor@2x.png',
         iconActive:
           '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_3_sel@2x.png',
-        title: 'Reduce Costs',
-        content:
-          'Eliminate enormous costs for high volume downloads with a simple pay-as-you-go pricing.'
+        title: t('h65iQSDjOfejf_nYJhAlA'),
+        content: t('v-1-C550JBTA1-25COkFY')
       },
       {
         icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_nor@2x.png',
         iconActive:
           '/images/solutions/website-acceleration/Solutions_Website_acceleration_ic_4_sel@2x.png',
-        title: 'Stay Protected',
-        content:
-          'Stay safe and focused with a built-in next-generation DDoS protection that just works.'
+        title: t('09wUFOVxktQu_onbJaRqA'),
+        content: t('T5wGJhUJMdUWlVqxEHN0J')
       }
     ],
     slist1: {
-      title1: 'Not just faster but also safer',
-      title2:
-        'Improve security, protect your content, and stop vulnerabilities.',
+      title1: t('PFjZxGwx9t4yJtG1BKm7m'),
+      title2: t('jheNHTub91P5E0UJWfwm-'),
       items: [
         {
           icon: '/images/solutions/website-acceleration/cdn_overview_bulid_ic_1@3x.png',
-          title: 'Free SSL',
-          content:
-            'Take advantage of a free SSL certificate with a single button click.'
+          title: t('Bc-aiaAY-PUKjyvfT0jnX'),
+          content: t('wXiKxjwkgfTmobSZJDp89')
         },
         {
           icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_2@3x.png',
-          title: '123 Global PoPs',
-          content:
-            'Supercharge your website delivery with strategically placed global PoPs.'
+          title: t('EQtYT7hlfwxa4IltERWkQ'),
+          content: t('M-oQAn77HXKNeKMGpJFd3')
         },
         {
           icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_3@3x.png',
-          title: 'Tier 1 Network',
-          content:
-            'Join a network powered by carefully selected providers with top-tier data centers.'
+          title: t('fi8ZLqDrvP3x4xN9ChR-V'),
+          content: t('_S-zyb2WIL-Ii5O4eKkTF')
         },
         {
           icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_4@3x.png',
-          title: 'Hotlinking Protection',
-          content:
-            'Easily protect your images from being shared on other websites with domain protection.'
+          title: t('PVuK0XsZri8h-6ZKXJvG_'),
+          content: t('MitbZ03rrb46v2Uw7MXrr')
         },
         {
           icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_5@3x.png',
-          title: 'Smart Routing',
-          content:
-            'Route your users where it matters based on your content with the SmartEdge™ routing engine.'
+          title: t('wKWbPX0ZkLuXM6ZtC0zrI'),
+          content: t('xnI9os10_Gk_6SRrEKhfF')
         },
         {
           icon: '/images/solutions/website-acceleration/Solutions_Website_acceleration_card_ic_6@3x.png',
-          title: 'Gowaf Optimizer',
-          content:
-            'Optimize your images and minify your CSS/JS files for maximum performance.'
+          title: t('products.optimizer.overview.header.preTitle'),
+          content: t('eOwg7zhZbx3fnE0to7OTR')
         }
       ]
     },
     adlist: [
-      'Decrease Bounce Rate',
-      'Improve SEO',
-      'Increase Conversions',
-      'Improve User Experience'
+      t('dNqiGl8bDzfG839_Skbto'),
+      t('peXjEx-4UeGmcETiqqvHY'),
+      t('KBPy3XUmJP6XVIIURLr_B'),
+      t('Ov-ndR5mHoH_vrI6Zz3ej')
     ],
     ad2list: [
-      'Decrease Bounce Rate',
-      'Improve SEO',
-      'Increase Conversions',
-      'Improve User Experience'
+      t('-53p9_8WlIaKZinvPK6oq'),
+      t('pbfeFCWooDtwysvAhfTV4'),
+      t('CVdf-9w5jeHaomovkzipM'),
+      t('qxgO5QPmiwphlyC7EuQMj')
     ],
     join1: {
-      title: 'Join over 40.000+ happy customers',
+      title: t('home.join2.title'),
       person: {
-        name: 'Jerry Caloroso',
-        title: 'Chief Streaming Officer, OneStudio',
-        content:
-          '"Finding Gowaf CDN is like finding a gold mine! It\'s like is this real? "'
+        name: t('ZKkMV4DOuwXM2oIbSQ376'),
+        title: t('nKW0THu6D57T52EAqvke4'),
+        content: t('exNQEWWBs2CoPXFgG2vVd')
       }
     }
   };

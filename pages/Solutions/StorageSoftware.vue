@@ -89,6 +89,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Solutions'
 });
@@ -96,30 +97,30 @@ const i18ntext = computed(() => {
   return {
     numbers: [
       {
-        label: '40 Gbps',
-        content: 'Uplink Per Server'
+        label: t('vI-vXhn9brN3cl5LkbU0V'),
+        content: t('l4_VWVit0HbCJ8_VAWsXA')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
-        label: '150 Tbps+',
-        content: 'Network Backbone'
+        label: t('PEUMLcb-JhVhbuvaFkWuP'),
+        content: t('x3EHuylv_KnlDWqsBwbDK')
       },
       {
         label: '99.99%',
-        content: 'Availability SLA'
+        content: t('HIOHON9Z5SKdA4RAot3E4')
       }
     ],
     upDown: {
       up: {
         value: '40%',
-        title: 'FASTER LOAD TIME'
+        title: t('ohid8KwORcR1vZawcZDM_')
       },
       down: {
         value: '30%',
-        title: 'LOWER BILLING'
+        title: t('017JPyg08xayp8cwtU1o4')
       }
     },
     list2: [
@@ -127,73 +128,64 @@ const i18ntext = computed(() => {
         icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_1_nor@2x.png',
         iconActive:
           '/images/solutions/storage-software/Solutions_Storage_Software_ic_1_sel@2x.png',
-        title: 'Scalable By Design',
-        content:
-          'Maximize your growth and expansion without care with a 80+ Tbps network.'
+        title: t('wSBlPFt1ZYzF5piinJo8-'),
+        content: t('eHz3-F5sN77Xh5IBCxI0x')
       },
       {
         icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_2_nor@2x.png',
         iconActive:
           '/images/solutions/storage-software/Solutions_Storage_Software_ic_2_sel@2x.png',
-        title: 'Tier 1 Global Network',
-        content:
-          'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.'
+        title: t('2VSWM5fA9jcXRtLFnvGl6'),
+        content: t('jFljO5tXwK84zrW6Zl5Hl')
       },
       {
         icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_3_nor@2x.png',
         iconActive:
           '/images/solutions/storage-software/Solutions_Storage_Software_ic_3_sel@2x.png',
-        title: 'NVMe+ SSD Servers',
-        content:
-          'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.'
+        title: t('saVbtL2cUjd5F2Al1K0Hf'),
+        content: t('2Ld9EoNBSDa-XPRDw7c1o')
       },
       {
         icon: '/images/solutions/storage-software/Solutions_Storage_Software_ic_4_nor@2x.png',
         iconActive:
           '/images/solutions/storage-software/Solutions_Storage_Software_ic_4_sel@2x.png',
-        title: 'Stay Protected',
-        content:
-          'Stay safe and focused with a built-in next-generation DDoS protection that just works.'
+        title: t('09wUFOVxktQu_onbJaRqA'),
+        content: t('T5wGJhUJMdUWlVqxEHN0J')
       }
     ],
     list: [
-      '5X Faster Downloads',
-      'Automatic Geo-Failover',
-      '8 Storage Regions',
-      '99.99% SLA'
+      t('uPTz_RjuaXCjiShtIVksL'),
+      t('ttxFBv5UR8C_GgOJLbGIk'),
+      t('0v-a3Od5AIIFUSlzYkZdt'),
+      t('vdJ-cTnYOHpor8_zHwIal')
     ],
     list1: {
-      title1: 'Lightning fast. Features packed.',
-      title2:
-        'Raise the bar with robust security, reporting, and management feature.',
+      title1: t('H4nvRWWsE9a2pvyy_0Efb'),
+      title2: t('B--P9gjvy3k40mMBe3EWj'),
       items: [
         {
           icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_1@3x.png',
-          title: 'Token Authentication',
-          content:
-            'Take full control of who and for how long they can access your content.'
+          title: t('feQGdTJI4u6AoECQxK1bI'),
+          content: t('SOU8aCWoqDn5IJAkSTyAi')
         },
         {
           icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_2@3x.png',
-          title: 'Origin Protection',
-          content:
-            'Protect your origin from attacks and traffic surges with the bunny.net origin shield.'
+          title: t('oHyyxzj2TsYqF8hW35jd7'),
+          content: t('DTnbzSWUAnBnfF-7btCit')
         },
         {
           icon: '/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3@3x.png',
-          title: 'Logging & Statistics',
-          content:
-            'Get complete insight into your content delivery with valuable insights and customer metrics.'
+          title: t('CPQq26El083VjTaU_3Vtw'),
+          content: t('SP6573CVMm_Ch9O012nHg')
         }
       ]
     },
     join1: {
-      title: 'Join over 40.000+ happy customers',
+      title: t('home.join2.title'),
       person: {
-        name: 'Tom Mason',
-        title: 'Nexus Mods',
-        content:
-          '“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”'
+        name: t('ZeeSZ52uudWny1Fk6BsKG'),
+        title: t('VVzzamDY3fj2RpKojAPGd'),
+        content: t('OmSew8mun8sNwyQTiAUuz')
       }
     }
   };

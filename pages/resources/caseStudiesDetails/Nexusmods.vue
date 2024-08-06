@@ -31,9 +31,9 @@
     ]"
   />
   <CommonHeader1
-    :logo="$t('resources.caseStudiesDetailsNexusmods.header.logo')"
-    :logoWidth="$t('resources.caseStudiesDetailsNexusmods.header.logoWidth')"
-    :logoHeight="$t('resources.caseStudiesDetailsNexusmods.header.logoHeight')"
+    logo="/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_ne_2x.png"
+    logoHeight="42px"
+    logoWidth="176px"
     :title="$t('resources.caseStudiesDetailsNexusmods.header.title')"
     :content="$t('resources.caseStudiesDetailsNexusmods.header.content')"
     :btn="$t('resources.caseStudiesDetailsNexusmods.header.btn')"
@@ -60,10 +60,7 @@
     :numbersTitle="$t('resources.caseStudiesDetailsNexusmods.numbersTitle')"
   />
   <div class="ad2-container" style="margin-bottom: 90px">
-    <template
-      v-for="(item, index) in i18ntext.items"
-      :key="index"
-    >
+    <template v-for="(item, index) in i18ntext.items" :key="index">
       <SolutionsAd2
         :title="item.title"
         :content="item?.content"
@@ -77,12 +74,11 @@
     </template>
   </div>
   <CommonList4 v-bind="i18ntext.list" />
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -90,29 +86,27 @@ const i18ntext = computed(() => {
   return {
     numbers: [
       {
-        label: 'Flawless',
+        label: t('64kaGo8Q-IMrLXSnfhEAV'),
         label2: 'delivery',
-        content: 'with faster download speeds'
+        content: t('tGPYDajiw_v19NoTuLLWr')
       },
       {
-        label: 'Improved',
+        label: t('MBGRzF6t3ObMODssFdXOz'),
         label2: 'UX',
-        content: "by reducing user's complaints"
+        content: t('V9oHNFRO59r-4Z0QLhkx5')
       },
       {
         label: '30%',
-        label2: 'lower costs',
-        content: 'on a monthly basis'
+        label2: t('WiMrDBg9yHpiOGu2LLWSP'),
+        content: t('EAN8XJjWOR7XWvHEmn3S-')
       }
     ],
     items: [
       {
         pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_1_2x.png',
-        title: 'About NexusMods',
-        content:
-          'Nexus Mods is not only one of the most highly trafficked UK-based websites but one of the most popular gaming websites out there. For over 19 years, they have made it their mission to provide the best platform for gamers around the world to share their mods and tools, free for everyone to enjoy.',
-        content2:
-          'Gamers can modify their games repeatedly by downloading mods that other users upload to the website or by using the Nexus Mods desktop app, Vortex, which helps automate the process. Nexus Mods supports a 50-terabyte mod library.',
+        title: t('22s3dW9qMQdvUd71NXF4m'),
+        content: t('Rc1HBpTMs9MONl8ivQi8r'),
+        content2: t('-0FzboFI1PStgMKrVsa1G'),
         width: '389px',
         height: '258px',
         mwidth: '21.63rem',
@@ -120,11 +114,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_2_2x.png',
-        title: 'The Challenges',
-        content:
-          'The main challenge facing Nexus Mods was delivering files to a global userbase with sufficient speeds. They first built their own CDN with 30+ servers around the world. However, the delivery speeds for users in Australia, East Asia, and South America were subpar, for which they routinely received complaints.',
-        content2:
-          'Nexus Mods tried working with other CDN solutions, but the pricing model wasn’t realistic. Their last provider employed a 95th percentile pricing model that caused significant overage bills due to weekend traffic spikes. Nexus Mods wanted to maintain its status as a cost-conscious, community-based, and community-funded website. On top of this, their traffic requirements were too high for standard pricing but not high enough for enterprise pricing.',
+        title: t('4TyOIjs-7w2mFWI5-KHX0'),
+        content: t('lh3qrnIWhbR4bVpFpsclu'),
+        content2: t('2vqxogg6BndAZW3yigv6_'),
         width: '358px',
         height: '334px',
         mwidth: '21.63rem',
@@ -132,13 +124,10 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_3_2x.png',
-        title: 'The Solution',
-        content:
-          'To help Nexus Mods solve these challenges, we worked together to find a solution that offered excellent performance while adhering to a very tight budget. The most significant factor behind their performance issues was a low cache hit rate. With their massive library of mods, their old CDN struggled to keep files in cache. It had to pull files from cold storage halfway across the world.',
-        content2:
-          'We helped Nexus Mods migrate their 50 TB content library to our Edge Storage platform as a drop-in replacement. Edge Storage let them seamlessly replicate their files to 5 regions worldwide, guaranteeing consistent excellent performance. Next, we designed a custom CDN plan optimized for the best global efficiency and affordable pricing. We were able to offer significantly reduced pricing compared to their own CDN.',
-        content3:
-          'Finally, we created a private Slack channel to help Nexus Mods smooth migration and give them direct 24/7 access to our Super Gowaf support team.',
+        title: t('BL0AfQMV8wX85i8gKFgjU'),
+        content: t('ShbqWVfcI1wt5_KcLMIhQ'),
+        content2: t('snqQ-vrkD9jb5LNxq_vNa'),
+        content3: t('uWkaDMMn_kcpK_WcmXGbi'),
         width: '340px',
         height: '296px',
         mwidth: '21.63rem',
@@ -146,11 +135,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-nexusmods/Resources_Case_Studies_details_nexusmods_graph_4_2x.png',
-        title: 'The Results',
-        content:
-          'The final results of Nexus Mods’ move to Gowaf were fantastic. We supercharged their download speeds, enabling flawless, stable delivery - even in remote places. With better delivery, their user experience and satisfaction improved drastically.',
-        content2:
-          'Prior to switching to Gowaf, Nexus Mods received up to 10 complaints a day about slow download speed. Post-switch, these complaints disappeared entirely. To top it off, we lowered the total monthly delivery cost by 30%.',
+        title: t('g7GEGMogKYzk-eZWZZiWl'),
+        content: t('JA0ZC2ZWwwpuLiDz1ZHLh'),
+        content2: t('LCjPEKBbSCn7skFnzWX-g'),
         width: '396px',
         height: '292px',
         mwidth: '21.63rem',
@@ -162,21 +149,21 @@ const i18ntext = computed(() => {
       subTitle: '',
       items: [
         {
-          title: 'HOW INNOGAMES FORGED A PATH TO SAVINGS',
+          title: t('YL_xWZKCbWP8CvYQ2yYis'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_pic_2_2x.png',
           icon2:
             '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_in_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS',
+          title: t('fjLt025Xl02MMSD2wv3kv'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_pic_6_2x.png',
           icon2:
             '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_ti_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         }
       ]
@@ -202,11 +189,10 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Tom Mason',
-        subTitle: 'Head of Development',
-        content:
-          '“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”'
-      },
+        title: t('ZeeSZ52uudWny1Fk6BsKG'),
+        subTitle: t('OZQ4MIAhrEJcp3Bb0QdPf'),
+        content: t('OmSew8mun8sNwyQTiAUuz')
+      }
     }
   };
 });

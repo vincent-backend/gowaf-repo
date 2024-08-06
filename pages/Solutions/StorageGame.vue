@@ -68,6 +68,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Solutions'
 });
@@ -76,73 +77,67 @@ const i18ntext = computed(() => {
     numbers: [
       {
         label: '80%',
-        content: 'Lower Costs'
+        content: t('keltIF1Ff--W9BkdZlY8T')
       },
       {
-        label: '24 ms',
-        content: 'Avg. Global Latency'
+        label: t('q1ufRx9wOX_bkNPJGQmN1'),
+        content: t('RDF-FK0HEbcFR8RsEIV6H')
       },
       {
-        label: 'Up to 5x',
-        content: 'Faster Download Times'
+        label: t('zL_N5pvniQimxTom0ni_7'),
+        content: t('wiNwuCWHYmlRPGm_V7Ptr')
       },
       {
-        label: '150 Tbps+',
-        content: 'Network Backbone'
+        label: t('PEUMLcb-JhVhbuvaFkWuP'),
+        content: t('x3EHuylv_KnlDWqsBwbDK')
       }
     ],
     list1: [
-      'Better Download Speeds',
-      'Lower Costs',
-      '24/7 Customer Support',
-      'DDoS Protection',
-      'Real-Time Monitoring',
-      'Customized Pricing'
+      t('mSdyZsOF07JwdEoi5a592'),
+      t('SWUm65-BFFQ5yMVHKB4L2'),
+      t('1PAn6q6oGb2yDA5_-NNHC'),
+      t('network.breadCrumbs.ddosProtection'),
+      t('uRao7VE1b0JinEkTtLiy9'),
+      t('00cjBG9btnajqzHHnAf7p')
     ],
     list2: [
       {
         icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_1_nor@2x.png',
         iconActive:
           '/images/solutions/storage-game/Solutions_Storage_game_ic_1_sel@2x.png',
-        title: 'Unlimited Scalability',
-        content:
-          'Turn your game into a global success. Reach your players worldwide with 123 global PoPs.'
+        title: t('T7pZavGAUgmxpFLhKbdo-'),
+        content: t('ho3vWZBdPW2C77v7qQ6Ht')
       },
       {
         icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_2_nor@2x.png',
         iconActive:
           '/images/solutions/storage-game/Solutions_Storage_game_ic_2_sel@2x.png',
-        title: 'Faster Downloads',
-        content:
-          'Level up your download speeds, up to 5x without any strain on your network!'
+        title: t('VesXI9t4UMcKu0oXUPodx'),
+        content: t('iP0eD4Fz4dQo7jyJ_ee8e')
       },
       {
         icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_3_nor@2x.png',
         iconActive:
           '/images/solutions/storage-game/Solutions_Storage_game_ic_3_sel@2x.png',
-        title: 'DDoS Protection',
-        content:
-          'Stay protected from DDoS Attacks at all times. Run your game uninterrupted 24/7!'
+        title: t('network.breadCrumbs.ddosProtection'),
+        content: t('55O27hGsGilLgPC6GKcFn')
       },
       {
         icon: '/images/solutions/storage-game/Solutions_Storage_game_ic_4_nor@2x.png',
         iconActive:
           '/images/solutions/storage-game/Solutions_Storage_game_ic_4_sel@2x.png',
-        title: 'Reduce Costs',
-        content:
-          'Eliminate enormous costs for high volume downloads with flexible pay-as-you-go pricing.'
+        title: t('h65iQSDjOfejf_nYJhAlA'),
+        content: t('Jes4YFrZDJ4Ilg8eNZi2b')
       }
     ],
     goFaster: {
-      title: 'Best gaming experience. Every time.',
-      subTitle:
-        'Take advantage of the next-generation content delivery network for all of your gaming needs.',
+      title: t('LHTTNc8nwNjHeW9kt9Vwb'),
+      subTitle: t('-Aas4QTz8cz66TKJ-x5SR'),
       tabs: [
         {
-          tab: 'Mobile Games',
-          title: 'Join the new era of mobile gaming',
-          content:
-            'Deliver in-game content and updates smoothly to your global audience. Take advantage of our 123 global PoPs and maximize download speeds anywhere in the world up to 5x times.\nStand out from the competition with the fastest delivery of patches as well as pre and post-game updates!',
+          tab: t('plXKLZeIrUR0M6432ADUk'),
+          title: t('_wmEtwcwDFqwsPgBngykt'),
+          content: t('P3kO7erNECSDydaD2ccxO'),
           icon: '/images/solutions/storage-game/Solutions_Storage_game_Media_graph_Mobile@2x.png',
           iconWidth: '330px',
           iconHeight: '280px',
@@ -152,10 +147,9 @@ const i18ntext = computed(() => {
           mIconHeight: '17.5rem'
         },
         {
-          tab: 'VR Gaming',
-          title: 'Make your Virtual Reality experience flawless',
-          content:
-            'Keep your players engaged with seamless VR sessions. Deliver content faster - don’t disappoint with slow loading and unnecessary lag. Take advantage of a next-gen CDN system designed to keep gamers gaming.\nWith a sub 24 ms global latency, your virtual world will load faster than the real one.',
+          tab: t('aXtm569GloIHL9oZvB_Er'),
+          title: t('ojyhj24VUb69E__9EGDZC'),
+          content: t('6tggdKB2u_DF3V2_9z7UZ'),
           icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_VR@2x.png',
           iconWidth: '338px',
           iconHeight: '314px',
@@ -165,10 +159,9 @@ const i18ntext = computed(() => {
           mIconHeight: '17.5rem'
         },
         {
-          tab: 'Browser-Based Games',
-          title: 'Faster load times for a better gaming experience',
-          content:
-            'Keep players coming back. Accelerate your gaming assets and eliminate unnecessary loading times. Prevent DDoS attacks, stop bots and make sure your games stay online at all times.\nLower costs with a high volume tier and deliver dynamic ads without compromising the gaming experience.',
+          tab: t('phM4efB08OzHKjyloS4GX'),
+          title: t('cHTiZdoCqDUguV36E_FnL'),
+          content: t('7tJlBBdMSkTmR5ALJyk47'),
           icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Browser@2x.png',
           iconWidth: '324px',
           iconHeight: '246px',
@@ -178,10 +171,9 @@ const i18ntext = computed(() => {
           mIconHeight: '17.5rem'
         },
         {
-          tab: 'Download Delivery',
-          title: 'Help gamers hop into your game faster',
-          content:
-            'Keep scalability issues in the past, traffic spikes in check, and never leave anything to chance again. Deliver downloads and updates faster than your competition while keeping your costs at bay. \nTake advantage of Pay As You Go pricing & a global 150 Tbps+ network to ensure gamers keep coming back.',
+          tab: t('7w3tGMNLMEHsPTBwADbh0'),
+          title: t('z7wJ6DPMKl82nC9mX_njg'),
+          content: t('Ak7wdrl0CWjOl8dFn2Yyo'),
           icon: '/images/solutions/storage-game/Solutions_Storage_game_graph_Download@2x.png',
           iconWidth: '288px',
           iconHeight: '282px',
@@ -193,54 +185,47 @@ const i18ntext = computed(() => {
       ]
     },
     slist1: {
-      title1: 'Hop ahead of the technology curve',
-      title2: 'Leverage powerful features. At no additional cost.',
+      title1: t('rbr4C7W5WZwbHByYII8hS'),
+      title2: t('Sv_0YLF3YgUxUqz_XIoD-'),
       items: [
         {
           icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_1@3x.png',
-          title: 'Powerful Security',
-          content:
-            'Stay protected from any and all attacks with state-of-the-art DDoS mitigation security.'
+          title: t('tI0-aRMh-hmf3-kaL5dCL'),
+          content: t('nMNBy7Bh1_a6U2F4SDgXP')
         },
         {
           icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_2@3x.png',
-          title: 'Faster Downloads',
-          content:
-            'Say goodbye to slowdowns with a network designed for maximum throughput.'
+          title: t('4wmHr4guOFtTAqHsBHOd9'),
+          content: t('GHzzq2xNfIYhjwBcfkm_f')
         },
         {
           icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_3@3x.png',
-          title: 'SSL/TLS Encryption',
-          content:
-            'Take advantage of a free SSL certificate with a single click of a button.'
+          title: t('Ewv8V3Te3xMdqW84zBLxi'),
+          content: t('oS8i8X6PgBlY6DHf6uVzZ')
         },
         {
           icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_4@3x.png',
-          title: 'Minimize Latency',
-          content:
-            'Keep your global latency at bay and deliver your content to everyone within sub 24 ms.'
+          title: t('Qs_OaLsUq7mCnQYu1Ha5K'),
+          content: t('x3r7ZVSgtUdLW28vEqDec')
         },
         {
           icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_5@3x.png',
-          title: 'Origin Protection',
-          content:
-            'Leverage a multi-layer caching system, and don’t let traffic spikes affect your infrastructure.'
+          title: t('oHyyxzj2TsYqF8hW35jd7'),
+          content: t('oYqLKTE5hrIW6QPnwdpiU')
         },
         {
           icon: '/images/solutions/storage-game/Solutions_Storage_game_card_ic_6@3x.png',
-          title: 'Real-Time Statistics',
-          content:
-            'Get complete insight into your games with real-time traffic statistics and logging.'
+          title: t('6bqG3cqW9P-GEOZLiDooK'),
+          content: t('am2IzRTu_VlNWxHqELz2Q')
         }
       ]
     },
     join1: {
-      title: '40.000+ customers already trust us',
+      title: t('uuWeXln9J1DWUMvM1zbac'),
       person: {
-        name: 'Tom Mason',
-        title: 'Nexus Mods',
-        content:
-          '“Working with Gowaf has been a breath of fresh air. Their team has been helpful, responsive, and knowledgeable. The service exceeded our expectations every step of the way.”'
+        name: t('ZeeSZ52uudWny1Fk6BsKG'),
+        title: t('VVzzamDY3fj2RpKojAPGd'),
+        content: t('OmSew8mun8sNwyQTiAUuz')
       }
     }
   };

@@ -66,6 +66,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -84,140 +85,140 @@ const i18ntext = computed(() => {
       subTitle: '',
       items: [
         {
-          title: 'HOW NZXT IMPROVED UPDATE DEPLOYMENT AND SAVED ON COSTS',
+          title: t('ku6UdeyhcsiarrIkFc3f3'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_1_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_logo_nz_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW INNOGAMES FORGED A PATH TO SAVINGS',
+          title: t('YL_xWZKCbWP8CvYQ2yYis'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_2_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_logo_in_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW YOUNITY STREAMED flow! summit TO 200,000 VIEWERS',
+          title: t('GTiRsKcTRW--Qxcx7BBRh'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_3_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_logo_yo_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY',
+          title: t('gKGDRGbI5hC7TAgjznT9G'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_4_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_logo_ne_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW ESKIMI EXPANDED WITH Gowaf CDN',
+          title: t('ssxqht_qY2s7p8B_-GjDS'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_5_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_es_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW TIMBO JIMBO SCALED THEIR GAME TO 4 MILLION PLAYERS',
+          title: t('fjLt025Xl02MMSD2wv3kv'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_6_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_ti_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW VALNET SCALED 250% WHILE SAVING',
+          title: t('7wLJAGYMPrZTh81b5WsPY'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_7_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_logo_va_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW OTT SOLUTIONS BOOSTED SPEED AND AVAILABILITY',
+          title: t('JP2jF17Uoo5ZhF84MzRzT'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_8_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_ot_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW PARROTSEC IMPROVED THEIR SECURITY AND RELIABILITY',
+          title: t('LowpLxaH6sYUxTF2Oc8Rd'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_9_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_logo_pa_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW PULSE BOOSTED SERVICE AND IMPROVED USER EXPERIENCE',
+          title: t('6WABPi6NTfLwpxrxYQhoa'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_10_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_pu_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW LAUNCH CDN BOOSTED SERVICE AND SAVED ON COSTS',
+          title: t('5kGGRVwrgqIDMEOCy2tFe'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_11_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_la_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
           title:
-            'HOW REDD.TUBE GREW FROM A FEW THOUSAND TO SEVERAL MILLION USERS',
+            t('gZMN04hAzHGjyfnfHwY7U'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_12_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_dd_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW SAMSUNG FOOD UTILIZED 5-STAR IMAGE OPTIMIZATION',
+          title: t('ppE5wlTXkXcl737cFB86U'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_13_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_sa_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW SYSTEM76 STREAMLINED THEIR GLOBAL CONTENT DELIVERY',
+          title: t('ENl3GOc0HfgJMQ57bCh2e'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_14_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_Case_card_logo_innogames_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
           title:
-            'HOW FILMMUSIC.IO PARTNERED WITH Gowaf TO SHARE MUSIC WITH THE WORLD',
+            t('PpaZUmbkZNryu6Tdwx21g'),
           subTitle: '',
           icon: '/images/resources/case-studies/Resources_CaseStudies_pic_15_2x.png',
           icon2:
             '/images/resources/case-studies/Resources_CaseStudies_card_logo_fi_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         }
       ]

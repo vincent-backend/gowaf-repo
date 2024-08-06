@@ -37,16 +37,10 @@
     }"
   />
   <LgOnly>
-    <ProductsNeverHit
-      :isShowTitle="true"
-      :neverHit="i18ntext.neverHit"
-    />
+    <ProductsNeverHit :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </LgOnly>
   <XsOnly>
-    <ProductsNeverHitList
-      :isShowTitle="true"
-      :neverHit="i18ntext.neverHit"
-    />
+    <ProductsNeverHitList :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </XsOnly>
   <ProductsDNStitleAndimg :dnsCustomer="i18ntext.dnsCustomer" />
   <SolutionsAd1
@@ -76,56 +70,52 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
 const i18ntext = computed<any>(() => {
   return {
     neverHit: {
-      title: 'Build faster. Hop faster.',
-      subTitle:
-        'Get started in less than 5 minutes and take your web presence to the next level.',
+      title: t('WJHmAMsXmlojmRDHcQ_OG'),
+      subTitle: t('fRdFfyFHIXit1g4MS3mtt'),
       items: [
         {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_1@2x.png',
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Simplify CDN Integration',
-          content:
-            'Connect your domains to Gowaf CDN with a click of a button to supercharge and protect your applications in seconds.'
+          title: t('1CVuVjmUdquGG22hYgaum'),
+          content: t('5TC1fx7C4DmF0CPhY2xPC')
         },
         {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_2@2x.png',
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Script Your Way Around Complexity',
-          content:
-            'Simplify deployments, deliver complex global logic, or automate your infrastructure with scriptable DNS records.'
+          title: t('XHnKKeCyYPYFCVAgSO6_9'),
+          content: t('PvAjfdCLqkDq9UiVREY70')
         },
         {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_3@2x.png',
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Massive Scalability',
-          content:
-            'Power projects at scale without worry with a DNS system that already backs one of the busiest CDN platforms on the planet.'
+          title: t('sFUQCUTWE-506BF7mhHcs'),
+          content: t('y-hSUbi0MvnOjTNTr-NKv')
         }
       ]
     },
     dnsCustomer: {
-      title: 'DNS platform for the next-gen of web apps',
-      subTitle:
-        'Make intelligent routing decisions and build smart network services with just a few lines of code. Interconnect your applications and get complete control of your network behavior.',
+      title: t('RrhuU5NcDv5v12JsrWEns'),
+      subTitle: t('JPda4h1CBSBmwg_rJ4a6y'),
       items: [
-        'Load Balancing',
-        'Domain Mapping',
-        'SEO Optimization',
-        'Multi-Cloud Solutions',
-        'Service Discovery',
-        'Geographical Routing'
+        t('MyV9Wv0kRbJBx3TbE3zfC'),
+        t('m3R2gqfe2IIcK-MlTzmEe'),
+        t('Gmi2fUczSyXKiFpzHwy4z'),
+        t('sWcgRSdqOv_WLP1TiQa-C'),
+        t('pEkzrY3d0QSsJo_B1JruS'),
+        t('rB7xy6rXKM-P-2UgGETyb')
       ],
       contentImg: '/images/products/DNS/cdnfeatures_reporting_img@2x.png',
       imgw: '400px',
@@ -134,39 +124,34 @@ const i18ntext = computed<any>(() => {
       mimgh: '25rem'
     },
     list1: {
-      title1: 'Stay online. Stay fast.',
-      title2:
-        'Leverage a massively redundant global infrastructure engineered for 100% uptime and lightning-fast performance.',
+      title1: t('8arwySvMnx7W-eJJ8Z4wl'),
+      title2: t('t-ktFd-1h8YBJSicLc96b'),
       items: [
         {
           icon: '/images/products/DNS/Network_DDoS_card_ic_2@2x.png',
-          title: 'Global Anycast',
-          content:
-            'Keep latency to users below 20ms in most regions worldwide, thanks to 36+ global DNS PoPs.'
+          title: t('5SPf0ynl57zByfg7yIbIx'),
+          content: t('FrkcgvBtzXmx04IJzbb9A')
         },
         {
           icon: '/images/products/DNS/Network_DDoS_card_ic_5@2x.png',
-          title: 'Redundant Networks',
-          content:
-            'Stay online thanks to a redundant network that prevents single points of failure.'
+          title: t('sIawGX7yaW1HwDm2TAQv7'),
+          content: t('bELjCuJ_qp_0JvwztDEeP')
         },
         {
           icon: '/images/products/DNS/cdn_overview_bulid_ic_6@2x.png',
-          title: 'Powerful DDoS Protection',
-          content:
-            'Keep peace of mind with built-in security features and DDoS protection.'
+          title: t('b5LkG8zD6L78RYVMjmh3D'),
+          content: t('_1KU6D90IMmbw-p6Wc7N_')
         }
       ]
     },
     doNotLeave: {
-      title: 'Key features designed to help you hop ahead',
-      subTitle: 'DNS packed with powerful solutions.',
+      title: t('GGlIuYWgBOiG7sSc4fbde'),
+      subTitle: t('bE38HQ4P9HZO7yG05kZMH'),
       tabs: [
         {
-          tab: 'Custom Nameservers',
-          title: 'Keep your brand in your own hands',
-          content:
-            'Keep your brand in the spotlight on every step of your web presence. Easily set up custom nameservers on your own custom domain with just a few clicks and no extra cost. Unlock internal delegations for administrative benefits without managing your network.',
+          tab: t('6JetIHbuzsX-gcTT9uCfV'),
+          title: t('cqoxLSSYJwhLrMwjNhevJ'),
+          content: t('n9PeQRJ-8iY0KnSyq2O3O'),
           icon: '/images/products/DNS/cdnfeatures_security_img@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -175,10 +160,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '25rem'
         },
         {
-          tab: 'mil Real-Time Monitoring',
-          title: 'Hop smoother with real-time threat monitoring',
-          content:
-            'Never worry about threats again thanks to an automatic real-time monitoring and alerting system. Gain complete visibility into your security to stay safe and stop attackers from ever reaching your servers. We help you with detection so that you never need the cure.',
+          tab: t('5lJM-plZzJdKCiVF9JxmE'),
+          title: t('kP82qDeKyi_SEC_IX50jX'),
+          content: t('85SbuHVxrsfHUep5zYDSV'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png',
           iconWidth: '294px',
           iconHeight: '294px',
@@ -188,10 +172,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '18.38rem'
         },
         {
-          tab: 'Upload Protection',
-          title: 'Stop inappropriate content and help keep internet safe',
-          content:
-            "Keep the internet friendlier by stopping inappropriate uploads with smart edge upload filtering powered by machine learning and a real-time block list. We help you control users' malicious, abusive and inappropriate uploads, so you don't have to lose time removing them.",
+          tab: t('44-lXIykO02GWvsS25cqY'),
+          title: t('BADn6wzXcYO1vYMs0RxWd'),
+          content: t('AotqB1uZwuX7P6t28qLCc'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png',
           iconWidth: '334px',
           iconHeight: '279px',
@@ -203,7 +186,7 @@ const i18ntext = computed<any>(() => {
       ]
     },
     drmCustomer: {
-      title: 'Trusted by over 40.000+ Customers',
+      title: t('KVG9Mia-x-Zo_lYpWf-1X'),
       contentPre: '',
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
       contentMid: ' ',
@@ -225,8 +208,7 @@ const i18ntext = computed<any>(() => {
       list: {
         title: 'MuslimCentral',
         subTitle: '',
-        content:
-          '"We find the bunny.net service to be resplendent. The excellent user interface, well priced, and superb support turnaround times. One of the best online service providers we dealt with."'
+        content: t('v6IIRsugMFA9Gx5mSHkFU')
       },
       items: [
         {
@@ -270,7 +252,7 @@ const i18ntext = computed<any>(() => {
       margin-top: 64px;
       width: 1242px;
       height: 766px;
-      background: url(/images/products/DNS/Take full control of your DNS@2x.png);
+      background: url('/images/products/DNS/Take full control of your DNS@2x.png');
       background-size: 1242px 766px;
     }
   }

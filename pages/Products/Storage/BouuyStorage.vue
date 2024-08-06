@@ -95,11 +95,12 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
 
-const i18ntext = computed<any>(() => {
+const i18ntext = computed(() => {
   return {
     items: [
       {

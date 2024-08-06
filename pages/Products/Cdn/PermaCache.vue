@@ -29,10 +29,7 @@
     :items="i18ntext.numbers"
   />
 
-  <ProductsNeverHit
-    :isShowTitle="true"
-    :neverHit="i18ntext.neverHit"
-  />
+  <ProductsNeverHit :isShowTitle="true" :neverHit="i18ntext.neverHit" />
 
   <CommonSuperCharge v-bind="i18ntext.superCharge" />
 
@@ -72,6 +69,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -80,25 +78,24 @@ const i18ntext = computed<any>(() => {
     numbers: [
       {
         label: '14',
-        content: 'Global Regions'
+        content: t('o71Q2Zf35IBMtNKNLlUoZ')
       },
       {
-        label: '26 ms',
-        content: 'Storage Latency'
+        label: t('7fTQhbYbj7Oj38yMHUtoH'),
+        content: t('C_CVNQDyeqTEDdxyicU9G')
       },
       {
         label: '90%+',
-        content: 'Lower Origin Traffic'
+        content: t('T335Sf0D1kS3b9OfS2o_E')
       },
       {
-        label: '10x Faster',
-        content: 'Uncached Performance'
+        label: t('z8H7o0qW48Ans4JSHx813'),
+        content: t('CpWTflTXUJ2WObLQ8PWYJ')
       }
     ],
     neverHit: {
-      title: 'Never hit your origin again',
-      subTitle:
-        'Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.',
+      title: t('tqA9tM3WudJ_zOi3gg6uV'),
+      subTitle: t('3BL5RppaAEV0sCREu-bWk'),
       items: [
         {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_1@2x.png',
@@ -106,7 +103,7 @@ const i18ntext = computed<any>(() => {
           height: '80px',
           alignType: 'center',
           title: 'CDN',
-          content: 'Requests an uncached file from the CDN'
+          content: t('9Ph1dSnwOknhqaG0CD5bR')
         },
         {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_2@2x.png',
@@ -114,30 +111,27 @@ const i18ntext = computed<any>(() => {
           height: '80px',
           alignType: 'center',
           title: 'Perma-Cache',
-          content: 'Deliver files from the Edge Storage'
+          content: t('d4Pe44itYVnHQfYKi7AhY')
         },
         {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_3@2x.png',
           width: '80px',
           height: '80px',
           alignType: 'center',
-          title: 'Origin',
-          content: 'The request never hits your server.'
+          title: t('GcZzFwiBUGnTfDSUpRpTH'),
+          content: t('oD5Y2vqdvnUmTM8UW_LO6')
         }
       ]
     },
     superCharge: {
-      title: 'Save money. Hop faster.',
-      subTitle:
-        'Leverage next-generation caching to help hop ahead of the competition.',
+      title: t('IlAO7QiByLkLpSl_4TIp8'),
+      subTitle: t('aWX7R14-2pEPDJOiU51Fu'),
       tabs: [
         {
-          tab: 'Maximize Performance',
-          subTitle:
-            'Explore our dashboard full of powerful features wrapped in a fantastic user experience.',
-          title: 'Make uncached requests feel like cached',
-          content:
-            'Deliver optimal performance for every request, at all times, by keeping even uncached CDN files distributed up to 14 ultra-fast SSD storage regions. Perma-Cache ensures your users are always just a hop away. Regardless of their location.\nDeliver optimal performance for every request, at all times, by keeping even uncached CDN files distributed up to 14 ultra-fast SSD storage regions. Perma-Cache ensures your users are always just a hop away. Regardless of their location.',
+          tab: t('X7Wg7oRcDNYE16Jxa8nJ_'),
+          subTitle: t('products.cdn.overview.intuitivePanels.subTitle'),
+          title: t('BoujQJH0ec-bGz8d6ix3J'),
+          content: t('a1TJ5sMVHgUtNdsrzHoQf'),
           icon: '/images/products/cdn/perma-cache/cdn_permacache_graph_Maximize.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -147,12 +141,10 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '22.22rem'
         },
         {
-          tab: 'Reduce Origin Traffic',
-          subTitle:
-            'Explore our dashboard full of powerful features wrapped in a fantastic user experience.',
-          title: 'Never hit your origin again and lower your bills',
-          content:
-            'Stop the CDN from slamming your infrastructure with uncached requests. Keep your servers hopping fast and efficient. Drastically reduce bandwidth costs and say goodbye to ridiculous S3 bills while simultaneously improving performance.\nCombine the best of both worlds - minimize load times while maximizing profits. Stop worrying about infrastructure load and focus on your product.',
+          tab: t('ZuTIgnFaTgUR_gFGn5b2x'),
+          subTitle: t('products.cdn.overview.intuitivePanels.subTitle'),
+          title: t('QFJFAKIiVa_HPE9d0kh3x'),
+          content: t('QMsKAQAcOykobjHg_3FCC'),
           icon: '/images/products/cdn/perma-cache/cdn_permacache_graph_Maximizedd.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -162,12 +154,10 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '22.22rem'
         },
         {
-          tab: 'Improve Reliability',
-          subTitle:
-            'Explore our dashboard full of powerful features wrapped in a fantastic user experience.',
-          title: 'Improve reliability with automatic region failover',
-          content:
-            'Reduce website downtime and failed requests by up to 80% by utilizing bunny.net region failovers. Stop data center failures from affecting your deliverability or uptime with real-time global replication and instant smart traffic re-routing.\nNever leave uptime to chance again. Edge Storage redundantly replicates your files worldwide and makes sure your content is accessible at all times.',
+          tab: t('UegTq88bPEGus_-tQgzG6'),
+          subTitle: t('products.cdn.overview.intuitivePanels.subTitle'),
+          title: t('oQX7kR4FWTBkisi10MGby'),
+          content: t('_IlRm7s-EC6vRD5mg8Z8M'),
           icon: '/images/products/cdn/perma-cache/cdn_permacache_graph_Improve@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -177,12 +167,10 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '22.22rem'
         },
         {
-          tab: 'Store Optimized Files',
-          subTitle:
-            'Explore our dashboard full of powerful features wrapped in a fantastic user experience.',
-          title: 'Optimize images once. Store them forever.',
-          content:
-            'Connect Bunny Optimizer with Perma-Cache to keep your TTFB low and eliminate dynamic image transformation latency from slowing down your requests. Optimize and transform images once, and permanently store them on the edge.\nCombine the benefits of pre-optimized images with the simplicity and power of dynamic image transformation to hop ahead of the competition.',
+          tab: t('o4WB5pqJqswsZQhERQQP7'),
+          subTitle: t('products.cdn.overview.intuitivePanels.subTitle'),
+          title: t('vVU1neFY52IssKwvMRQyr'),
+          content: t('htWvYoJ1KV-NUsKCHXCSx'),
           icon: '/images/products/cdn/perma-cache/cdn_permacache_graph_store@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -194,12 +182,11 @@ const i18ntext = computed<any>(() => {
       ]
     },
     join1: {
-      title: 'Join over 40.000+ customers who already put their trust in Gowaf',
+      title: t('O3X1IOZm6-KlH1N74XLo3'),
       person: {
-        name: 'Periklis',
-        title: 'VitrinaBox, Senior Software Engineer',
-        content:
-          '"Gowaf is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers."'
+        name: t('6YXncMQRwii8ofZw6I7zu'),
+        title: t('SoGw4y79_hLJBGeIlu_vm'),
+        content: t('G0_N_-Z_TIkrK4n6jTtBQ')
       }
     }
   };

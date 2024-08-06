@@ -34,19 +34,20 @@
   <Footer :is-show-banner="false" />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
 const i18ntext = computed(() => {
   return {
     drmCustomer: {
-      title: 'Trusted by 40.000+ global customers',
-      contentPre: "We're rated ",
+      title: t('g_tXejmNur2f2uDrDvSd-'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       faceImg: {
         img: '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
         top: '-3px',
@@ -59,10 +60,9 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Matthias Mauch',
-        subTitle: 'Younity',
-        content:
-          '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."'
+        title: t('1BywE0gMMmHqYbpuYRGyW'),
+        subTitle: t('10KCWD0ValnrFobaa19fG'),
+        content: t('hVZvyVFQZA1hXV83roW7e')
       },
       items: [
         {

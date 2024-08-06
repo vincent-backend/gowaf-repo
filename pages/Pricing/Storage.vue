@@ -74,6 +74,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Pricing'
 });
@@ -81,99 +82,97 @@ const i18ntext = computed<any>(() => {
   return {
     pricingTable: [
       {
-        title: 'Standard Tier',
+        title: t('pjO0SL6mKVQoWvd1QsWNv'),
         titleEm: 'HDD',
-        subTitle:
-          '$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.',
-        content: 'Storing more than 50TB per month?',
-        btn: 'Contact sales',
+        subTitle: t('b3at__Jw1vs1ZNTyWnFMz'),
+        content: t('oj7yQuZ4WMCFmyyZHFi4s'),
+        btn: t('vCyatgYi22iOeAKniCizq'),
         href: '#',
         items: [
           {
             text: '$0.01/GB',
-            hint: 'Single Region'
+            hint: t('kq75-qn-tLF5pB0G9eyBO')
           },
           {
             text: '$0.02/GB',
-            hint: 'Two Regions'
+            hint: t('lHyG0f_acNtivER5KyJpS')
           },
           {
             text: '$0.025/GB',
-            hint: 'Three Regions'
+            hint: t('0Qu0t80LoAeCv9evsNe6D')
           },
           {
             text: '+$0.005/GB',
-            hint: 'Each Additional Region'
+            hint: t('vyAl3W-j1UGhIGMTAjN2F')
           }
         ],
         bottomList: [
-          'True Pay As you Go',
-          '$1 Monthly Minimum',
-          'Free Traffic to Bunny CDN',
-          'No API fees',
-          'Free API egress'
+          t('4pt5tyLGNQp5FIlTgTvDu'),
+          t('-JIMxMV5mP5YTkoE1MK4W'),
+          t('hLuaGmDFFCnuRTMGA2FxO'),
+          t('jQDZ5OEAJiY17zjnuoh1z'),
+          t('JqmOlz7w0iQYQOzSputiR')
         ]
       },
       {
-        title: 'Edge Tier',
+        title: t('GC3jHHiOVraz_2lYG7nUX'),
         titleEm: 'SSD',
-        subTitle: '$0.02/GB per each storage region. Up to 15 regions.',
-        content: 'Storing more than 50TB per month?',
-        btn: 'Contact sales',
+        subTitle: t('CCKDinWPUMGQMvwBgqdlX'),
+        content: t('3kxEw7odatuVDPym3DtmZ'),
+        btn: t('vCyatgYi22iOeAKniCizq'),
         href: '#',
         items: [
           {
             text: '$0.02/GB',
-            hint: 'Single Region'
+            hint: t('TEZlazu6G6F6SFqBln0ty')
           },
           {
             text: '+$0.02/GB',
-            hint: 'Each additional Region'
+            hint: t('pqxtDBY44jmwt1A5fsKqY')
           }
         ],
         bottomList: [
-          'True Pay As you Go',
-          '$1 Monthly Minimum',
-          'Free Traffic to Bunny CDN',
-          'No API fees',
-          'Free API egress'
+          t('mWsYKvqZ10cqekcsra6eq'),
+          t('-JIMxMV5mP5YTkoE1MK4W'),
+          t('XZhL1rlR1e6SeAK8UGzWZ'),
+          t('OL5ABcsqtoZs5uIKOKRdd'),
+          t('dDOql7MbgjflmgO_4bcfX')
         ]
       }
     ],
     list1: {
-      title1: 'Powerful features. Amazing performance.',
-      title2:
-        'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+      title1: t('_jbsQ3YagWjE8dP8_twAD'),
+      title2: t('xDSG8IL6DGm5dHgQ74eyH'),
       items: [
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
-          title: '$1 Monthly Minimum',
-          content: 'All features included for as little as $1 per month.'
+          title: t('-JIMxMV5mP5YTkoE1MK4W'),
+          content: t('iLkw-MtVvaYcZPpvQZvCL')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
-          title: 'Toggle Zones ON/OFF',
-          content: 'Enable and disable regions with a click of a button.'
+          title: t('DES-6GlDV7vlKF9Zvqqei'),
+          content: t('nu0OPuoV5iaFC6q7AJwlx')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
-          title: 'No Request Fees',
-          content: 'Only pay for the bandwidth you actually use.'
+          title: t('GcclDblqwcyIvh3-1XsM5'),
+          content: t('LuQgxsbvPltPrVzPVlwIW')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
-          title: 'Multiple Payment Options',
-          content: 'Pay with PayPal, majority of credit cards as well as BTC.'
+          title: t('S2WPugMYPn7ok2pZ7KlvC'),
+          content: t('bEL9MzgceVXxpdWMwB2MT')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
-          title: 'All Features Included',
-          content: 'Use all of our unique features without any extra charges.'
+          title: t('6Dn0HsX6tOsS6PHaG2drl'),
+          content: t('h6dA06N7k-iQLuThPWBCm')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
-          title: 'Overcharge Protection',
-          content: 'Protect your account with monthly bandwidth limits.'
+          title: t('pgzzkYeXmnRHksXr2ivIX'),
+          content: t('ThmmgWXys6Lcgkq-UEfua')
         }
       ]
     }

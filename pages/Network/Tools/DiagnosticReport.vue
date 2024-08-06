@@ -61,6 +61,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 const input = ref('');
 const select = ref('1');
 definePageMeta({
@@ -74,9 +75,8 @@ const i18ntext = computed<any>(() => {
         width: '100px',
         height: '100px',
         alignType: 'center',
-        title: 'IP Address',
-        content:
-          'Your IP address will be collected and mapped to a country and geographical location result.',
+        title: t('3bUv7mtz1AuA-DP3mdhA1'),
+        content: t('Ruh6Nls4bP_tVTR_gk10I'),
         contentAlign: 'center'
       },
       {
@@ -84,9 +84,8 @@ const i18ntext = computed<any>(() => {
         width: '100px',
         height: '100px',
         alignType: 'center',
-        title: 'DNS Information',
-        content:
-          'The IP of your DNS provider will be collected and mapped to a country and longitude/latitude location.',
+        title: t('_Bgb1KMtzmgHEYu9LHB3k'),
+        content: t('0q45xMm-Fo2WuB9IEiP8c'),
         contentAlign: 'center'
       },
       {
@@ -94,9 +93,8 @@ const i18ntext = computed<any>(() => {
         width: '100px',
         height: '100px',
         alignType: 'center',
-        title: 'Operating System',
-        content:
-          "The name and version of your computer's operating system will be collected.",
+        title: t('9QWgadRj_AJNY1dAC0QWx'),
+        content: t('MADtlax4rOnUYfBM3o1YQ'),
         contentAlign: 'center'
       },
       {
@@ -104,9 +102,8 @@ const i18ntext = computed<any>(() => {
         width: '100px',
         height: '100px',
         alignType: 'center',
-        title: 'Browser Information',
-        content:
-          'The name, version and user agent of your web browser will be collected.',
+        title: t('T2AMMLf8fFyKJB3AO1qU7'),
+        content: t('ghWbE749_cSegdVCdoxbs'),
         contentAlign: 'center'
       }
     ]

@@ -60,11 +60,11 @@
     <div class="percentage">
       <div class="percentage-item">
         <div class="num">40%</div>
-        <div class="sub-title">FASTER LOAD TIME</div>
+        <div class="sub-title">{{ $t('ohid8KwORcR1vZawcZDM_') }}</div>
       </div>
       <div class="percentage-item">
         <div class="num">80%</div>
-        <div class="sub-title">IMAGE SIZE REDUCTION</div>
+        <div class="sub-title">{{ $t('UnvrBD6XoGKaWae32rPHd') }}</div>
       </div>
     </div>
   </SolutionsAd2>
@@ -97,6 +97,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 const route = useRoute();
 const router = useRouter();
 definePageMeta({
@@ -106,86 +107,82 @@ const i18ntext = computed(() => {
   return {
     list: [
       {
-        title: '100% Customer Focused',
-        content:
-          'From our affordable pricing and innovative product ecosystem to our industry-leading Super Bunny™ 24/7 technical support. It’s our mission to provide you with the best experience possible at every hop of the way.'
+        title: t('-2QZljReuuOeRLOEqvJJE'),
+        content: t('bITZwiXtgQvS-QUUWqfse')
       },
       {
-        title: 'Amazing Performance',
-        content:
-          'We don’t just talk performance. We show it. Bunny network offers unparallel performance with a sub 29 ms average global latency. Forget enterprise plans. With bunny.net, your web applications will hop at the speed of light regardless of your scale.'
+        title: t('ZCQkLwIg0F29avPuu3dRC'),
+        content: t('kcvRkBuOq5CgaWZ0Yo01Z')
       }
     ],
     numbers: [
       {
-        label: '150 Tbps+',
-        content: 'Network Backbone'
+        label: t('PEUMLcb-JhVhbuvaFkWuP'),
+        content: t('x3EHuylv_KnlDWqsBwbDK')
       },
       {
         label: '650.000+',
-        content: 'Requests Per Second'
+        content: t('home.requestsPerSecond')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
         label: '40.000+',
-        content: 'Satisfied Customers'
+        content: t('DqXjS0SA1aWVzOjBF1X1f')
       }
     ],
     alwaysSafe: {
-      title: 'Next-generation solutions for today’s problems',
-      subTitle: 'Deliver next-generation performance without compromise.',
+      title: t('f-_IELZFCmaPz_aNGdBw3'),
+      subTitle: t('r1LMEZHLEo5jRNjMd4Oju'),
       rows: [
         [
           {
             icon: '/images/products/stream/overview/stream_overview_ic_upload@2x.png',
-            title: 'Website Acceleration',
-            content: 'Speed up your website with a single click of a button.'
+            title: t('solutions.websiteAcceleration.header.preTitle'),
+            content: t('-lZ6RpmClevC2t9pCL1mN')
           },
           {
             icon: '/images/products/stream/overview/stream_overview_ic_transcode@2x.png',
-            title: 'Software Distribution',
-            content: 'Experience high-throughput and reliable downloads.'
+            title: t('solutions.storageSoftware.header.preTitle'),
+            content: t('j7PnM8ntL5BA1hp2iyfIQ')
           }
         ],
         [
           {
             icon: '/images/products/stream/overview/stream_overview_ic_replicate@2x.png',
-            title: 'Image Processing',
-            content: 'Resize, crop, sharpen, and transform images on the fly.'
+            title: t('X4O7ksNH2UIMXKz5ss0oG'),
+            content: t('gx28gj_npWa5AjwLVYe3C')
           },
           {
             icon: '/images/products/stream/overview/stream_overview_ic_supercharge@2x.png',
-            title: 'DDoS Protection',
-            content:
-              'Stay protected by mitigating attacks before they reach you.'
+            title: t('network.breadCrumbs.ddosProtection'),
+            content: t('eb_uUVoAWHDLff4bwkmfI')
           }
         ],
         [
           {
             icon: '/images/products/stream/overview/stream_overview_ic_replicate@2x.png',
-            title: 'Video Delivery',
-            content: 'Deliver smooth playback and high-quality VOD streaming.'
+            title: t('home.superCharge.text2'),
+            content: t('N33mLUc5Udca12SF0ep1M')
           },
           {
             icon: '/images/products/stream/overview/stream_overview_ic_supercharge@2x.png',
             title: 'Perma-Cache',
-            content: 'Maximize application performance and scalability.'
+            content: t('home.featuresContent6')
           }
         ]
       ]
     },
     doNotLeave: {
-      title: 'Key features designed to help you hop ahead',
-      subTitle: 'DNS packed with powerful solutions.',
+      title: t('GGlIuYWgBOiG7sSc4fbde'),
+      subTitle: t('bE38HQ4P9HZO7yG05kZMH'),
       tabs: [
         {
-          tab: 'Custom Nameservers',
-          title: 'Keep your brand in your own hands',
-          content:
-            'Keep your brand in the spotlight on every step of your web presence. Easily set up custom nameservers on your own custom domain with just a few clicks and no extra cost. Unlock internal delegations for administrative benefits without managing your network.',
+          tab: t('6JetIHbuzsX-gcTT9uCfV'),
+          title: t('cqoxLSSYJwhLrMwjNhevJ'),
+          content: t('n9PeQRJ-8iY0KnSyq2O3O'),
           icon: '/images/products/DNS/cdnfeatures_security_img@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -194,10 +191,9 @@ const i18ntext = computed(() => {
           mIconHeight: '25rem'
         },
         {
-          tab: 'mil Real-Time Monitoring',
-          title: 'Hop smoother with real-time threat monitoring',
-          content:
-            'Never worry about threats again thanks to an automatic real-time monitoring and alerting system. Gain complete visibility into your security to stay safe and stop attackers from ever reaching your servers. We help you with detection so that you never need the cure.',
+          tab: t('5lJM-plZzJdKCiVF9JxmE'),
+          title: t('kP82qDeKyi_SEC_IX50jX'),
+          content: t('85SbuHVxrsfHUep5zYDSV'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_mil@2x.png',
           iconWidth: '294px',
           iconHeight: '294px',
@@ -207,10 +203,9 @@ const i18ntext = computed(() => {
           mIconHeight: '18.38rem'
         },
         {
-          tab: 'Upload Protection',
-          title: 'Stop inappropriate content and help keep internet safe',
-          content:
-            "Keep the internet friendlier by stopping inappropriate uploads with smart edge upload filtering powered by machine learning and a real-time block list. We help you control users' malicious, abusive and inappropriate uploads, so you don't have to lose time removing them.",
+          tab: t('44-lXIykO02GWvsS25cqY'),
+          title: t('BADn6wzXcYO1vYMs0RxWd'),
+          content: t('AotqB1uZwuX7P6t28qLCc'),
           icon: '/images/network/ddos/Network_DDoS_banner_graph_Upload@2x.png',
           iconWidth: '334px',
           iconHeight: '279px',
@@ -222,16 +217,15 @@ const i18ntext = computed(() => {
       ]
     },
     dnsCustomer: {
-      title: 'DNS platform for the next-gen of web apps',
-      subTitle:
-        'Make intelligent routing decisions and build smart network services with just a few lines of code. Interconnect your applications and get complete control of your network behavior.',
+      title: t('RrhuU5NcDv5v12JsrWEns'),
+      subTitle: t('JPda4h1CBSBmwg_rJ4a6y'),
       items: [
-        'Load Balancing',
-        'Domain Mapping',
-        'SEO Optimization',
-        'Multi-Cloud Solutions',
-        'Service Discovery',
-        'Geographical Routing'
+        t('MyV9Wv0kRbJBx3TbE3zfC'),
+        t('m3R2gqfe2IIcK-MlTzmEe'),
+        t('Gmi2fUczSyXKiFpzHwy4z'),
+        t('sWcgRSdqOv_WLP1TiQa-C'),
+        t('pEkzrY3d0QSsJo_B1JruS'),
+        t('rB7xy6rXKM-P-2UgGETyb')
       ],
       contentImg: '/images/products/DNS/cdnfeatures_reporting_img@2x.png',
       imgw: '400px',
@@ -240,13 +234,13 @@ const i18ntext = computed(() => {
       mimgh: '25rem'
     },
     drmCustomer: {
-      title: 'Join over 40.000+ happy customers',
-      contentPre: "We're rated ",
+      title: t('home.join2.title'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 700+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('wQfx4yskPcy47o87qpB6j'),
       isHiddenSubTitle: false,
       faceImg: {
         img: '/images/products/cdn/comparison/Network_ddos_evaluate_character@2x.png',
@@ -260,10 +254,9 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Lorenzo Faletra',
-        subTitle: 'CEO, Parrot Security',
-        content:
-          '"We tried several CDN providers before, and although being more expensive, they didn\'t offer the same performance and reliability. After the switch to bunny.net, our users immediately noticed how fast and reliable the downloads became."'
+        title: t('slC1dTteLCeaA7xERJn-K'),
+        subTitle: t('Jp0_APSokfXIEsGQOaNym'),
+        content: t('6Vx2TaI6GYZewcSwEzy2u')
       },
       items: [
         {
@@ -291,25 +284,25 @@ const i18ntext = computed(() => {
         items: [
           '64',
           '29ms',
-          'Enterprise Level Pricing',
+          t('d0riLfwxNjGrnKKqKHNav'),
           '100%',
-          [true, 'Email & 9-5 Chat Sup'],
+          [true, t('Dc3fCUkW_oaCKAcSa5a50')],
           [true],
-          [true, 'Zone, URL & Director'],
-          [true],
-          [true],
-          [false],
+          [true, t('FyQvjI7xav4zhP49V1Y3m')],
           [true],
           [true],
           [false],
           [true],
           [true],
+          [false],
+          [true],
+          [true],
           [true],
           [true],
           [true],
           [false],
           [true],
-          'Token Authentication,Geo/IP Blocking & Hotlink protection'
+          t('cpa89BoatqE7NdxxlcB3g')
         ]
       },
       {
@@ -321,23 +314,23 @@ const i18ntext = computed(() => {
           '27ms',
           '$425',
           '100%',
-          [true, 'Extra Cost'],
+          [true, t('uxV9j-9FlBu60BP-NIrrA')],
           [true],
-          [true, 'Zone, URL, Directory & File-type Wildcard'],
+          [true, t('-2btkHSHL3vfor5ICE04I')],
           [true],
-          [true, 'Globally Replicated'],
-          [true],
-          [true],
+          [true, t('ICFmALr60Q5k7pQ-XP53t')],
           [true],
           [true],
           [true],
           [true],
           [true],
-          [false],
+          [true],
           [true],
           [false],
+          [true],
           [false],
-          'Token Authentication, Geo/IP Blocking & Hotlink protection'
+          [false],
+          t('zLd6n4A8P8Uqtk_9sqwGC')
         ]
       },
       {
@@ -348,23 +341,23 @@ const i18ntext = computed(() => {
           '31ms',
           '$165',
           '99.99%',
-          [true, 'Email & 9-5 Chat Sup'],
+          [true, t('8KdjRa-q-5mB-FSMoPV9w')],
           [true],
-          [true, 'Zone, URL'],
+          [true, t('pjZMjBx6u_xLAT8zb09kd')],
           [true],
-          [true, 'Single Location'],
-          [true],
-          [true],
+          [true, t('2LsOtWLQXkXCcTONfchIe')],
           [true],
           [true],
           [true],
           [true],
           [true],
-          [false],
+          [true],
           [true],
           [false],
           [true],
-          'Token Authentication,Geo/IP Blocking & Hotlink protection'
+          [false],
+          [true],
+          t('ygzU9ETzHNK3iBqXGx7og')
         ]
       },
       {
@@ -375,78 +368,78 @@ const i18ntext = computed(() => {
           '270+',
           '28ms',
           '$2000+',
-          'Plan Dependent',
-          [true, 'Email & Phone'],
+          t('x_CzUcbrfLoMzLHLN_2dP'),
+          [true, t('27XtoYTd8rQGpFqzh6Xkp')],
           [true],
-          [true, 'Zone, URL, Hostname, Tag & Prefix'],
+          [true, t('rCZ4mwRhc0e4t39jfk2zr')],
           [true],
-          [true, 'Globally Replicated'],
-          [true],
-          [true],
+          [true, t('XqiQHdK1YbTenfDq9eGaf')],
           [true],
           [true],
           [true],
           [true],
           [true],
-          [false],
+          [true],
           [true],
           [false],
           [true],
-          'Token Authentication,Geo/IP Blocking & Hotlink protection'
+          [false],
+          [true],
+          t('0Ph-qJsPCXAg4p9JbveN4')
         ]
       },
       {
-        key: 'Fastly',
+        key: t('products.cdn.breadCrumbs.fastly'),
         comparisonIcon: '/images/products/cdn/comparison/Fastly_logo@2x.png',
         items: [
           '98',
           '29ms',
           '$600+',
           '99.99%',
-          [true, 'Email, Ticket, Slack & Phone'],
+          [true, t('LqrVY7I6V_6tQobTY1fUl')],
           [true],
-          [true, 'Zone, URL, Regex, Tag & Wildcard'],
+          [true, t('WBJe3pMejW1VAJCka26Bn')],
           [true],
-          [true, 'Globally Replicated'],
-          [true],
-          [true],
-          [false],
-          [true],
-          [true],
+          [true, t('qWoFrXHtGZ2LClCSmmuFA')],
           [true],
           [true],
           [false],
           [true],
+          [true],
+          [true],
+          [true],
           [false],
           [true],
-          'Token Authentication,Geo/IP Blocking & Hotlink protection'
+          [false],
+          [true],
+          t('p1tYg4UQh4XIHQi_tNXs3')
         ]
       },
       {
-        key: 'Akamai',
+        key: t('products.cdn.breadCrumbs.vsakamai'),
         comparisonIcon: '/images/products/cdn/comparison/akamai_logo@2x.png',
         items: [
           '135',
           '29ms',
-          'Enterprise Level Pricing',
+          t('iBkvbrOt1Rsmuz7owRarZ'),
           '100%',
-          [true, 'Email, Ticket & Phone'],
+          [true, t('7VR8ogzy7t_FPWygIByKA')],
           [true],
-          [true, 'Zone, URL, Hostname, Tag & Prefix'],
+          [true, t('L3UOjB8d3CwlKqzN0UpEK')],
           [true],
-          [true, 'Globally Replicated'],
-          [true],
-          [true],
+          [true, t('4jJP8-kWbSqD2ybSlwHNC')],
           [true],
           [true],
           [true],
           [true],
           [true],
-          [false],
+          [true],
           [true],
           [false],
           [true],
-          'Token Authentication,Geo/IP Blocking & Hotlink protection'
+          [false],
+          [true],
+          t('V3uuMs1bgB8XVpX9jNBFJ')
         ]
       }
     ]
@@ -454,12 +447,12 @@ const i18ntext = computed(() => {
 });
 
 const NameMap: any = {
-  aws: 'CloudFront AWS',
+  aws: t('products.cdn.breadCrumbs.AWS'),
   cacheFly: 'CacheFly',
   CDN77: 'CDN77',
   cloudFlare: 'CloudFlare',
-  fastly: 'Fastly',
-  vsakamai: 'Akamai'
+  fastly: t('products.cdn.breadCrumbs.fastly'),
+  vsakamai: t('products.cdn.breadCrumbs.vsakamai')
 };
 onMounted(() => {
   console.log('route.params.name', route.params.name);
@@ -484,7 +477,9 @@ const comparisonList = computed(() => {
   return i18ntext.value.comparisonList.filter(el => {
     return (
       el.key ==
-      (contrastName.value === 'CloudFront AWS' ? 'AWS' : contrastName.value)
+      (contrastName.value === t('products.cdn.breadCrumbs.AWS')
+        ? 'AWS'
+        : contrastName.value)
     );
   });
 });

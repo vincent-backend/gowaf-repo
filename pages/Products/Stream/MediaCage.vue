@@ -72,12 +72,11 @@
 
   <ProductsPlayerVideo />
 
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -85,38 +84,34 @@ definePageMeta({
 const i18ntext = computed(() => {
   return {
     list1: {
-      title1: 'Powerful security. On any device.',
-      title2:
-        'Get secure playback on any device with a powerful multi-DRM system just a click away.',
+      title1: t('BD0pwFvU4enBVbBIUEm28'),
+      title2: t('2V0w8uGIRgRwb4z56QDgD'),
       items: [
         {
           icon: '/images/products/stream/media-cage/media_poerful_ic_1@3x.png',
-          title: 'AES-128 Encryption',
-          content:
-            'Keep content safe with powerful AES-128 encryption and rotating keys.'
+          title: t('1UQyb2cFLB-Dk1pWpQ6bf'),
+          content: t('1vBlFpjzHo6d5pyyyxXKY')
         },
         {
           icon: '/images/products/stream/media-cage/media_poerful_ic_2@3x.png',
-          title: 'Widevine + FairPlay',
-          content:
-            'Simplify cross-device security with a multi-DRM solution built into a single platform.'
+          title: t('3B6AXLe3xNI5DLH3ES7W1'),
+          content: t('B4qHRHWkUnPYCfTz5pcy8')
         },
         {
           icon: '/images/products/stream/media-cage/media_poerful_ic_3@3x.png',
-          title: 'Beautiful Video Player',
-          content:
-            'Easily integrate MediaCage with a beautiful built-in plaver or integrate directly using HLS.'
+          title: t('SzQCfuB6Hd-YQA7-ItdkA'),
+          content: t('AdV3X_h8HKGxoLrzksjEI')
         }
       ]
     },
     drmCustomer: {
-      title: 'Join over 40.000+ happy customers',
-      contentPre: "We're rated ",
+      title: t('home.join2.title'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       isHiddenSubTitle: false,
       faceImg: {
         img: '/images/products/storage/asia/SmartEdge™__evaluate_character_2x.png',
@@ -130,10 +125,9 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Pedro Dobrescu',
+        title: t('PDEs3nnGBfog1j0r5jgw9'),
         subTitle: 'ShortPixel',
-        content:
-          '"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
+        content: t('W4FDTntcVs2yotM9mfnuj')
       },
       items: [
         {

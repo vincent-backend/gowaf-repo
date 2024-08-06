@@ -94,6 +94,7 @@
   />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -103,32 +104,28 @@ const i18ntext = computed(() => {
     items: [
       {
         icon: '/images/resources/about/resources_about_ic_mission@2x.png',
-        title: 'Our Mission',
-        content:
-          'It’s our mission to help make the internet hop faster! By that, we mean building a faster, safer, and more reliable internet for billions of people worldwide.'
+        title: t('QeNT2zbblwiKP29mOCC_T'),
+        content: t('zXurA6wUXJc4H9OB4caqg')
       },
       {
         icon: '/images/resources/about/resources_about_ic_vision@2x.png',
-        title: 'Our Vision',
-        content:
-          'To build a genuinely global network driven by constant innovation that helps companies hop ahead and developers to make the internet of tomorrow.'
+        title: t('OrZy5AGY7lusmuYCSTESD'),
+        content: t('muDdQm-82gQmW7XnTYw7Q')
       },
       {
         icon: '/images/resources/about/resources_about_ic_value@2x.png',
-        title: 'Our Main Core Value',
-        content:
-          'We are connected by 9 core values, but our main one is relentless innovation.'
+        title: t('Z8Q4KQOTYaH6gbiwH6_pJ'),
+        content: t('IkAC5PZzuunDZqSOlKS_G')
       }
     ],
     superCharge: {
-      tab: 'Website Acceleration',
-      title: 'Every ambitious vision has humble beginnings',
-      content:
-        'Every story, no matter how small or large, has a beginning. While our vision has changed and grown, our beginnings were quite humble. What hasn’t changed is our commitment to focus on solving problems, and always putting the customer first from the moment you sign up.',
+      tab: t('solutions.websiteAcceleration.header.preTitle'),
+      title: t('J1Wqgop6EuP8jmBWrZyIM'),
+      content: t('jFXbLUVdmqNta6UUzUrN3'),
       icon: '/images/resources/about/resources_about_graph_2@2x.png',
       iconWidth: '334px',
       iconHeight: '312px',
-      btn: 'Read Our Full Story',
+      btn: t('Z5qnybQpsROXRBzJuDoCd'),
       href: '#',
       mIcon: '/mobile-images/resources/about/resources_about_graph_2@2x.png',
       mIconWidth: '20.88rem',
@@ -137,96 +134,90 @@ const i18ntext = computed(() => {
     numbers: [
       {
         label: '40.000+',
-        content: 'Active Customers'
+        content: t('ajOjrAzouliAAupFa4BKT')
       },
       {
         label: '1.000.000+',
-        content: 'Powered Websites'
+        content: t('ailUpetGngG-Iu1SAPP1Z')
       },
       {
-        label: '650+ Billion',
-        content: 'Delivered Monthly Requests'
+        label: t('mXfERHmd0uc26vAOFwL8o'),
+        content: t('-U07cLKDBL8TKel8GLwW-')
       }
     ],
     list2: {
-      title1: 'We hop by our core values',
-      title2:
-        'The Gowaf team is connected by 9 Gowaf values to help build a better tomorrow.',
+      title1: t('C3J04BNkPwHMBPz2UGt_B'),
+      title2: t('VfOq3EQQsmDnSXQnGdTSD'),
       items: [
         {
           icon: '/images/resources/about/resources_about_card_ic_1@2x.png',
-          title: 'We relentlessly innovate.'
+          title: t('Rr21xw7EXtF5cgVCViy5s')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_2@2x.png',
-          title: 'We operate with integrity.'
+          title: t('FFDN6H37XkEoYsAiMeCJk')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_3@2x.png',
-          title: 'We disrupt and deliver impact.'
+          title: t('Of4q5G6edu0X3vVWOtcrT')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_4@2x.png',
-          title: 'We believe great is not good enough.'
+          title: t('UMWqIFFjNZPS34wM4Rqy1')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_5@2x.png',
-          title: 'We embrace transparency and open communication.'
+          title: t('wc5AAkeqEjpC4X_F_RtPz')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_6@2x.png',
-          title: 'We’re kind and strive to make the world a better place.'
+          title: t('lnilk-DDa1Ciyd6-c291I')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_7@2x.png',
-          title: 'We learn and improve every day.'
+          title: t('Xfg5ZjPl7YjUU9GJ8tFoB')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_8@2x.png',
-          title: 'We put customers first.'
+          title: t('3fM3a9Ilrm_uKJ4qn-ZDZ')
         },
         {
           icon: '/images/resources/about/resources_about_card_ic_9@2x.png',
-          title: 'We embrace diversity.'
+          title: t('HzA2dbK98VTmj5EQGFTTa')
         }
       ]
     },
     list: [
       {
-        title: '1-Million Websites',
-        subTitle: 'A million sites hopping with Gowaf!',
+        title: t('VN5OPrjZinkM0mxUG3WiS'),
+        subTitle: t('qILB_kCYp2_lvQvRw_HmW'),
         icon: '/images/resources/story/Resources_Story_card_bg_2x.png',
-        content1:
-          "The Gowaf are taking over the internet! In August 2022, over 1 million websites are now hopping with Gowaf and we're getting ready to grow even faster.",
-        content2: 'August 2022'
+        content1: t('qG9i5qykhFlNvOfDcwcFH'),
+        content2: t('KeFTdtLFL3kETY8pOz0J9')
       },
       {
-        title: 'Gowaf Rebrand',
-        subTitle: 'A bigger vision under a new name to go along',
-        content1:
-          'A simple idea of building a great CDN turned into an ambitious new vision to truly help shape the future of the internet and make it hop faster.',
-        content2: 'January 2021'
+        title: t('FZWhtR8W_u4R5YRyJtYg0'),
+        subTitle: t('Fv2cvAws6VZEVpITrQ5vA'),
+        content1: t('I-89XcO_7UHu8KmoaZ8EB'),
+        content2: t('K2InW6rhtLPKeRa5SHR3n')
       },
       {
-        title: '100.000 Pull Zones',
-        subTitle: 'We reached 100.000+ active pull zones',
-        content1:
-          'It took a few years for things to take off, but we were growing at a nice pace. At the end of 2020, we reached the 1st major milestone of 100.000 Pull Zones!',
-        content2: 'December 2020'
+        title: t('hw6EmgePUAUvvdMFoS2yc'),
+        subTitle: t('TOhNHlm5tIWit5OvZ-Ld6'),
+        content1: t('Q0Gktvpt93TnMEJsRTKys'),
+        content2: t('M_3EM4fm4eXpWUCY86jzy')
       },
       {
-        title: 'Beta Launch',
-        subTitle: 'Gowaf CDN beta finally launched',
-        content1:
-          'The idea turned into a vision of disrupting the CDN market. After 3 years of hard work and sleepless nights, Gowaf CDN entered its first beta stage.',
-        content2: 'October 2015'
+        title: t('pyzWDSNU5-pzNRT_GYUa7'),
+        subTitle: t('ITvgTJgeWTCV0IAooc9gg'),
+        content1: t('IQDdkbWOJCX-Ofm60-X1K'),
+        content2: t('oTHizvnPwIx-Rvn0PeZYt')
       },
       {
-        title: 'The Idea was Born',
-        subTitle: 'Idea of Gowaf CDN was first born',
-        content1:
-          'Struggling with CDN costs, our founder Dejan came up with the first idea of a fast, powerful, but affordable CDN to help others accelerate their content.',
-        content2: 'January 2012'
+        title: t('gBK3houTse0mdwSOSrAvJ'),
+        subTitle: t('oA9cFHyN3cFk9QpCAIEOD'),
+        content1: t('UnXQ8dM78U41E_-F2HB09'),
+        content2: t('ZNd7TmONy7xKNnGzD1etg')
       }
     ]
   };

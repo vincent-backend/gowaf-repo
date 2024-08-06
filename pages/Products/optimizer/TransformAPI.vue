@@ -38,9 +38,7 @@
     }"
   />
   <ProductsVerticalCarousel />
-  <CommonSuperCharge
-    v-bind="i18ntext.doNotLeave"
-  />
+  <CommonSuperCharge v-bind="i18ntext.doNotLeave" />
   <SolutionsAd1
     :title="$t('products.cdn.overview.ad1.title')"
     :sub-title="$t('products.cdn.overview.ad1.subTitle')"
@@ -95,39 +93,36 @@
           <span class="numt">12%</span>
           <span class="numic"></span>
         </div>
-        <div class="sub-title">IMPROVED PERFORMANCE</div>
+        <div class="sub-title">{{ $t('7D4DGDH9D5LoMEYKbu-rW') }}</div>
       </div>
       <div class="percentage-item">
         <div class="num yellow">
           <span class="numt">80%</span>
           <span class="numic"></span>
         </div>
-        <div class="sub-title">LOWER ORIGIN TRAFFIC</div>
+        <div class="sub-title">{{ $t('1eXREt5ktD5HhGhrl4nUN') }}</div>
       </div>
     </div>
   </SolutionsAd2>
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
 
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
 const i18ntext = computed<any>(() => {
   return {
     doNotLeave: {
-      title: 'Say goodbye to slow loading images',
-      subTitle:
-        'Get pixel-perfect images, optimized, stored, and delivered around the world.',
+      title: t('Gq9v0fAY2Sat5Cx5yqTYl'),
+      subTitle: t('Q5DsNDLJR3jI7kEr7r7t_'),
       tabs: [
         {
-          tab: 'Simple & Fast API',
-          title: 'Streamline security. Protect your images.',
-          content:
-            "Ensure your full-size images remain secure and protected with automatic watermarking, token authentication, and image classes. Only display the formats you want without complex security or network permissions.\nHop ahead of the competition by utilizing Bunny Optimizer's robust security that you can set up in just a few clicks.",
+          tab: t('cPpznBwOVqhCn2S8IsrCf'),
+          title: t('r74FZL1HCsl4Q0_ykG9hn'),
+          content: t('1f7EJA1BX9s44DNRwWI9D'),
           icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img01@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -137,10 +132,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '25rem'
         },
         {
-          tab: 'Cache Forever',
-          title: 'Transform once. Cache forever.',
-          content:
-            'Get rid of added latency caused by the dynamic transformation that slows down your load times. Only process images once, then permanently store them on the edge using Perma-Cache to deliver unparalleled performance.\nbunny.net helps you hop ahead by combining innovative technologies designed for absolute performance. For every request. Every time.',
+          tab: t('f9jihTXqjExCV65PwD3kM'),
+          title: t('y-T00230YfBk98DWZb3hs'),
+          content: t('J_okZ_adtd8hbTuvq8PEe'),
           icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img02@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -150,10 +144,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '25rem'
         },
         {
-          tab: 'Simplify Development',
-          title: 'Simplify development.  Maximize productivity.',
-          content:
-            'Drastically reduce the development time of applications by not worrying about image management. Upload and store a single image file and use dynamic image transformation API to achieve pixel-perfect design for every device.\nAccelerate a single domain or your complete application to simplify development based on whatever works best for you.',
+          tab: t('CjT50E2EmUQSe8C727MEl'),
+          title: t('PnSIhuroMnQjdZzfpETkx'),
+          content: t('5WYX1wfZdgFa_g3_TUFMr'),
           icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img03@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -163,10 +156,9 @@ const i18ntext = computed<any>(() => {
           mIconHeight: '25rem'
         },
         {
-          tab: 'Protect Original Images',
-          title: 'Streamline security. Protect your images.',
-          content:
-            "Ensure your full-size images remain secure and protected with automatic watermarking, token authentication, and image classes. Only display the formats you want without complex security or network permissions.\nHop ahead of the competition by utilizing Bunny Optimizer's robust security that you can set up in just a few clicks.",
+          tab: t('0lH-zxqdk88pC91zP47rl'),
+          title: t('Mpwyj_jGI6PWK4CA2Zs48'),
+          content: t('nEOHAHwLSsGi0mc3bkQcf'),
           icon: '/images/products/optimizer/TransformAPI/optimizer_transformapi_3_img04@2x.png',
           iconWidth: '400px',
           iconHeight: '400px',
@@ -178,18 +170,18 @@ const i18ntext = computed<any>(() => {
       ]
     },
     list: [
-      'Unlimited requests',
-      'Unlimited optimizations',
-      'Unlimited image transformations'
+      t('nwKVtAfLhgvsDIimpKg3T'),
+      t('H4TCHfibhmWX94jV2iHEq'),
+      t('Q6943t0hb3eNqXYGK1bJ1')
     ],
     drmCustomer: {
-      title: 'Join over 40.000+ happy customers',
-      contentPre: "We're rated ",
+      title: t('home.join2.title'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       isHiddenSubTitle: false,
       faceImg: {
         img: '/images/products/storage/latinamerica/Network_ddos_evaluate_character_2x.png',
@@ -203,10 +195,9 @@ const i18ntext = computed<any>(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Pedro Dobrescu',
+        title: t('PDEs3nnGBfog1j0r5jgw9'),
         subTitle: 'ShortPixel',
-        content:
-          '"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
+        content: t('W4FDTntcVs2yotM9mfnuj')
       },
       items: [
         {

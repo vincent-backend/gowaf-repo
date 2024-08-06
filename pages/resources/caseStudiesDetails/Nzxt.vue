@@ -31,9 +31,9 @@
     ]"
   />
   <CommonHeader1
-    :logo="$t('resources.caseStudiesDetailsNzxt.header.logo')"
-    :logoWidth="$t('resources.caseStudiesDetailsNzxt.header.logoWidth')"
-    :logoHeight="$t('resources.caseStudiesDetailsNzxt.header.logoHeight')"
+    logo="/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_nz_2x.png"
+    logoHeight="42px"
+    logoWidth="120px"
     :title="$t('resources.caseStudiesDetailsNzxt.header.title')"
     :content="$t('resources.caseStudiesDetailsNzxt.header.content')"
     :btn="$t('resources.caseStudiesDetailsNzxt.header.btn')"
@@ -60,10 +60,7 @@
     :numbersTitle="$t('resources.caseStudiesDetailsNzxt.numbersTitle')"
   />
   <div class="ad2-container" style="margin-bottom: 90px">
-    <template
-      v-for="(item, index) in i18ntext.items"
-      :key="index"
-    >
+    <template v-for="(item, index) in i18ntext.items" :key="index">
       <SolutionsAd2
         :title="item.title"
         :content="item?.content"
@@ -87,6 +84,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
@@ -94,29 +92,27 @@ const i18ntext = computed(() => {
   return {
     numbers: [
       {
-        label: 'Fewer',
+        label: t('4ydN16Cw6v0bq0jaOKoWy'),
         label2: ' downloads',
-        content: 'in various regions worldwide'
+        content: t('kSO101FnARb7zC9M8weZj')
       },
       {
-        label: 'Better',
+        label: t('bGE-kMPuEL9XXFVX0YF3V'),
         label2: 'price',
-        content: 'on bandwidth and storage'
+        content: t('XqBTV_vfr3JqwrS3v6LY9')
       },
       {
         label: '24/7',
         label2: 'support',
-        content: 'access via private Slack'
+        content: t('bdi63-Fdu1BggHT3XA6z8')
       }
     ],
     items: [
       {
         pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_1_2x.png',
-        title: 'About NZXT',
-        content:
-          'NZXT is a leading manufacturer in the gaming hardware industry, specializing in high-performance gaming PCs and essential peripherals such as mice, keyboards, and microphones. We’re huge fans. Some of the Gowaf team own more than two NZXT gaming rigs.',
-        content2:
-          'So why does a PC manufacturer use Gowaf? To keep those cool gaming rigs spinning, NZXT delivers monthly optimization updates to their 1 million users using their CAM software. NZXT came to Gowaf in early 2023 looking for a better monthly distribution rate, but got so much more.',
+        title: t('26U3siaxID0c-Wak7QnMr'),
+        content: t('NSy91tav1UoXMECW_aDxd'),
+        content2: t('aQEJxqzMMh5E7t0GXixMY'),
         width: '368px',
         height: '300px',
         mwidth: '23rem',
@@ -124,13 +120,10 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_2_2x.png',
-        title: 'The Challenges',
-        content:
-          'To keep those cool custom gaming rigs running crisp, lag-free games, NZXT releases monthly software updates to users around the globe. These deployments became expensive under their old CDN. NZXT needed to deploy 30-100 megabytes of data per installer. That amounted to more than 30 terabytes of data every month.',
-        content2:
-          'NZXT first reduced the bandwidth load, deploying differential updates - or only updating the differences between the new and old versions - but even with reduced bandwidth, deployment costs remained a significant issue. Despite the costs, the NZXT team wasn’t willing to sacrifice their product’s quality to cut costs.',
-        content3:
-          'Whatever change NZXT made, they needed something that could handle the traffic and wouldn’t affect customer experience.',
+        title: t('4TyOIjs-7w2mFWI5-KHX0'),
+        content: t('oGrB9Q0hGS9VMkhgRiYnl'),
+        content2: t('t6OdkK0t62aCbitiHBxph'),
+        content3: t('cgtBrsv9lAuQIDYMjpQiL'),
         width: '346px',
         height: '288px',
         mwidth: '21.63rem',
@@ -138,11 +131,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_nzxt_graph_3_2x.png',
-        title: 'The Solution',
-        content:
-          'NZXT came to Gowaf in 2023. We made the switch easy for them. Once they switched, the NZXT team was pleased by how easy our dashboard was to use. Integrating Gowaf with their update platform was so easy that NZXT configured Gowaf CDN in a few minutes.',
-        content2:
-          'Plus, our dashboard helped them level up their deployments with useful metrics that NZXT incorporated into their deployment validation. NZXT rarely had an issue that required a call to tech support, but our Super Gowaf support stayed on standby to make the switch even easier.',
+        title: t('BL0AfQMV8wX85i8gKFgjU'),
+        content: t('qaaCZSpj9zaQcLXH93GRm'),
+        content2: t('2cbN2_PlTvAmhvG-CDRxZ'),
         content3: '',
         width: '340px',
         height: '333px',
@@ -151,11 +142,9 @@ const i18ntext = computed(() => {
       },
       {
         pic: '/images/resources/case-studies-details-nzxt/Resources_Case_Studies_details_graph_4_2x.png',
-        title: 'The Results',
-        content:
-          'NZXT came to Gowaf to save on monthly overhead and stayed for the great service. NZXT could have integrated Gowaf CDN and forgotten about it. Instead, they found a cool new power-up: our dashboard became a useful monitoring tool, helping the NZXT team to verify the success of each deployment.',
-        content2:
-          'Now, in addition to delivering software updates, they use us to track their beta releases. We impressed them with our service, and, of course, we saved them more than 50% on monthly fees.',
+        title: t('g7GEGMogKYzk-eZWZZiWl'),
+        content: t('TSMsbvOv2nWSQYQ8Phbkb'),
+        content2: t('4Bv7Z6APjfibMBN-BiLKo'),
         width: '364px',
         height: '270px',
         mwidth: '22.75rem',
@@ -167,21 +156,21 @@ const i18ntext = computed(() => {
       subTitle: '',
       items: [
         {
-          title: 'HOW NEXUS MODS IMPROVED DOWNLOAD SPEEDS AND STABILITY',
+          title: t('gKGDRGbI5hC7TAgjznT9G'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_pic_4_2x.png',
           icon2:
             '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_ne_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         },
         {
-          title: 'HOW PARROTSEC IMPROVED THEIR SECURITY AND RELIABILITY',
+          title: t('LowpLxaH6sYUxTF2Oc8Rd'),
           subTitle: '',
           icon: '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_pic_9_2x.png',
           icon2:
             '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_pa_2x.png',
-          content1: 'Read the case study',
+          content1: t('EUGThsatAhT5WnoupuXm8'),
           content2: ''
         }
       ]
@@ -207,11 +196,10 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Bernhard Schrader',
-        subTitle: 'Lead Sys Admin',
-        content:
-          '"I like that Gowaf CDN\'s support works with real people, in a real chat, with quick solutions. It’s important to know that a human has looked at the problem."'
-      },
+        title: t('P7bp6JcQC_JniuXmywCB8'),
+        subTitle: t('_wkprpSwTc2oeQbKoEmEo'),
+        content: t('SrFA7UxBrpoD0x2Wfz9-l')
+      }
     }
   };
 });

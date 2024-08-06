@@ -58,10 +58,7 @@
     <div class="header-img"></div>
   </div>
   <div class="page-container AllPosts">
-    <CommonTabs
-      :tabs="i18ntext.CommonTabs"
-      v-model:cur-tab="curTab"
-    />
+    <CommonTabs :tabs="i18ntext.CommonTabs" v-model:cur-tab="curTab" />
     <div class="Post-list">
       <div class="Post-item" v-for="item in i18ntext.Post">
         <div
@@ -104,12 +101,13 @@
         <div></div>
         <div></div>
       </div>
-      <div class="LoadMore">Load more</div>
+      <div class="LoadMore">{{ $t('uNB_zIiRW-rdUvudDpXbl') }}</div>
     </div>
   </div>
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 const curTab = ref(0);
 definePageMeta({
   title: 'Resources'
@@ -119,56 +117,54 @@ const i18ntext = computed(() => {
   return {
     CommonTabs: [
       {
-        tab: 'All Posts'
+        tab: t('resources.breadCrumbs.allPosts')
       },
       {
         tab: 'AI'
       },
       {
-        tab: 'Networking'
+        tab: t('resources.breadCrumbs.Networking')
       },
       {
-        tab: 'News'
+        tab: t('resources.breadCrumbs.News')
       },
       {
-        tab: 'Performance'
+        tab: t('resources.breadCrumbs.Performance')
       },
       {
-        tab: 'Privacy'
+        tab: t('resources.breadCrumbs.Privacy')
       },
       {
-        tab: 'Securitv'
+        tab: t('BgxlODCsRpQ25O_NgcKQQ')
       },
       {
-        tab: 'Tips And Tricks'
+        tab: t('3dVjohKiaID5Dt69TN1mi')
       }
     ],
     Post: [
       {
         img: '/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png',
-        title: 'News',
-        content:
-          'Leading with smarter edge compute,Gowaf.net hopping at NAB 2024',
-        author: 'Raul Vecchione',
+        title: t('resources.breadCrumbs.News'),
+        content: t('2RI94fhrzv2xLqF6TuNAe'),
+        author: t('rdkUAYjyLcEIGNuM4YEEC'),
         headPortrait: '',
-        time: 'April 26. 2024'
+        time: t('shg7Xvb7BRiPQqt6_N51J')
       },
       {
         img: '',
-        title: 'News',
-        content: 'Now Creators Take Charge Using Gowaf Stream with Patreon',
-        author: 'Raul Vecchione',
+        title: t('resources.breadCrumbs.News'),
+        content: t('Iuqe0KgecPlnVxVAHoP_l'),
+        author: t('5FykVWsVTdx6DZdZqqeey'),
         headPortrait: '',
-        time: 'April 26. 2024'
+        time: t('ExIzjrVACNkkiphKH-Dt7')
       },
       {
         img: '',
-        title: 'News',
-        content:
-          "We're Changing The WordPress Performance Game: Introducing The New bunny.net Plugin",
-        author: 'Raul Vecchione',
+        title: t('resources.breadCrumbs.News'),
+        content: t('KJYNNOm9KiW7EiCKx3_Sp'),
+        author: t('OSPXAfY6FR8_yhm0E7QqN'),
         headPortrait: '',
-        time: 'April 26. 2024'
+        time: t('WpTDNzbASQwn09-EV9wpR')
       }
     ]
   };

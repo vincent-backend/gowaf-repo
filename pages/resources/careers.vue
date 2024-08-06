@@ -53,89 +53,79 @@
   <CommonList2 v-bind="i18ntext.list1" />
   <ResourcesWorkingPolyfill />
   <LgOnly>
-    <ProductsNeverHit
-      :isShowTitle="false"
-      :neverHit="i18ntext.neverHit"
-    />
+    <ProductsNeverHit :isShowTitle="false" :neverHit="i18ntext.neverHit" />
   </LgOnly>
   <XsOnly>
-    <ProductsNeverHitList
-      :isShowTitle="false"
-      :neverHit="i18ntext.neverHit"
-    />
+    <ProductsNeverHitList :isShowTitle="false" :neverHit="i18ntext.neverHit" />
   </XsOnly>
-  <CommonSuperCharge
-    v-bind="i18ntext.currentJob"
-    :isList="true"
-  />
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <CommonSuperCharge v-bind="i18ntext.currentJob" :isList="true" />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Resources'
 });
 const i18ntext = computed(() => {
   return {
     list1: {
-      title1: 'Gowaf Values That Keep Us Hopping',
-      title2: 'Eight simple values that unite one amazing team.',
+      title1: t('IeBYH24y5d9aR7-eulX8D'),
+      title2: t('48W7-T1lco50uauPr14rf'),
       items: [
         {
           icon: '/images/resources/careers/Resources_about_card_ic_1_2x.png',
-          title: 'We relentlessly innovate.',
+          title: t('Rr21xw7EXtF5cgVCViy5s'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_2_2x.png',
-          title: 'We operate with integrity.',
+          title: t('FFDN6H37XkEoYsAiMeCJk'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_3_2x.png',
-          title: 'We disrupt and deliver impact.',
+          title: t('Of4q5G6edu0X3vVWOtcrT'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_4_2x.png',
-          title: 'We believe great is not good enough.',
+          title: t('UMWqIFFjNZPS34wM4Rqy1'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_5_2x.png',
-          title: 'We embrace transparency and open communication.',
+          title: t('wc5AAkeqEjpC4X_F_RtPz'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_6_2x.png',
-          title: 'We’re kind and strive to make the world a better place.',
+          title: t('lnilk-DDa1Ciyd6-c291I'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_7_2x.png',
-          title: 'We learn and improve every day.',
+          title: t('Xfg5ZjPl7YjUU9GJ8tFoB'),
           content: ''
         },
         {
           icon: '/images/resources/careers/Resources_about_card_ic_9_2x.png',
-          title: 'We embrace diversity.',
+          title: t('HzA2dbK98VTmj5EQGFTTa'),
           content: ''
         }
       ]
     },
     neverHit: {
-      title: 'Perks and benefits for days',
-      subTitle: "We don't want you to just work here.We want you to belong.",
+      title: t('lIBFTjyWzmFbn_MBbs1A0'),
+      subTitle: t('W-eFlFt59mURkqdsXRfiN'),
       items: [
         {
           icon: '/images/resources/careers/Resources_Careers_ic_1_2x.png',
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Competitive Salary',
-          content: 'You can expect above-average industry salaries.',
+          title: t('PlcIpvLh19QExvOmNrv84'),
+          content: t('4efQGXiXGROnIIo6IMJRf'),
           contentAlign: 'left'
         },
         {
@@ -143,9 +133,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Paid Time Off',
-          content:
-            'Love skiing or visiting the seaside? No problem – we offer 25 days paid vacation.',
+          title: t('03bXmmfYgtaVEdWiNyoKF'),
+          content: t('1U8UvxTOsucyOjkMmR4o-'),
           contentAlign: 'left'
         },
         {
@@ -153,9 +142,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Flexible Working Hours',
-          content:
-            'Don’t like working in the morning? Choose your own working schedule.',
+          title: t('x0erS6wG9hevDHqXiES39'),
+          content: t('k_RztUth-JCSMuaEO-iN6'),
           contentAlign: 'left'
         },
         {
@@ -163,9 +151,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Parental Leave',
-          content:
-            'Bonding with the little one is super important, so we offer parental leave and flexible scheduling to help you out.',
+          title: t('y06v0cTVSTdpC3XKYA5Yx'),
+          content: t('5-pSyqP3Cu__l65BOi3WF'),
           contentAlign: 'left'
         },
         {
@@ -173,9 +160,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Remote Work',
-          content:
-            'Work from the comfort of your home, neighborly coffee shop, or anywhere in the world.',
+          title: t('p4-wHQVxn-9w4Nt-E1xJi'),
+          content: t('BiktZBK7F-EJcgl_UiWbX'),
           contentAlign: 'left'
         },
         {
@@ -183,9 +169,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Home Office Budget',
-          content:
-            'We believe that everyone is more efficient working in a comfortable office, and we’re happy to help with that.',
+          title: t('5bZdFyCrHFkdfao1Np6Mm'),
+          content: t('_8Fq37vVZNUigZkbwWH6l'),
           contentAlign: 'left'
         },
         {
@@ -193,9 +178,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Paid Sick Leave',
-          content:
-            'Feeling ill? Take time off and get back to 100% without worrying about your finances.',
+          title: t('fYXKTrDDI8kXJfmWohV25'),
+          content: t('wXe4ZM_BKzqKSN2CXDooT'),
           contentAlign: 'left'
         },
         {
@@ -203,9 +187,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Mental Health',
-          content:
-            'Feeling down? We’ve got your back. bunny.net provides mental health resources and help via BetterHelp.com.',
+          title: t('UJkLd-hho7JlpcYr13Vyi'),
+          content: t('w9_3eBNSANekf81IcGICG'),
           contentAlign: 'left'
         },
         {
@@ -213,9 +196,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Annual Fluffle Building',
-          content:
-            "We're remote but not distant! Our annual fluffle building is where virtual high fives turn into real ones.",
+          title: t('x0ck-54XyJmeLWMpHzEx4'),
+          content: t('vEPYfz2ajDr0shMCrtwKQ'),
           contentAlign: 'left'
         },
         {
@@ -223,9 +205,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Health Care',
-          content:
-            'Release the stress of health uncertainties. Rest easy knowing your health care needs are always met.',
+          title: t('vUxN7DQRE7awXxffz6xH3'),
+          content: t('E3TI8Fcm4J7mvJ1phj1LN'),
           contentAlign: 'left'
         },
         {
@@ -233,9 +214,8 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Wellness budget',
-          content:
-            "Be it lifting weights, unwinding with a massage, or finding your zen in yoga, we're supporting your wellness journey.",
+          title: t('B494Xyyin9SRuHY1i-kjM'),
+          content: t('3_pJ40S85-OKgq1Rli2Yz'),
           contentAlign: 'left'
         },
         {
@@ -243,36 +223,32 @@ const i18ntext = computed(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Educational Budget',
-          content:
-            'Dedicated yearly learning and educational budget for books, seminars, and online courses.',
+          title: t('E7vFAILKStGObIzpLCZL9'),
+          content: t('FWXQSw3E38Hni5YgyqSip'),
           contentAlign: 'left'
         }
       ]
     },
     currentJob: {
-      title: 'Current Job Openings',
-      subTitle:
-        'Interested in a position and think we’ll be a good fit? Join an international team of amazing Gowaf!',
+      title: t('XEMX8GL23dsiR19NdVrGR'),
+      subTitle: t('Kw4rnr5l1OWgu02-WZzu5'),
       tabs: [
         {
-          tab: 'All',
-          title: 'Make your website hop like a Gowaf',
-          content:
-            'Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website and hop ahead of the competition.',
+          tab: t('cFolfSO_s6zZx7IcWnHvf'),
+          title: t('solutions.websiteAcceleration.header.title'),
+          content: t('home.superCharge.text0'),
           icon: '/images/home/home_bot_graph_Website@2x.png',
           iconWidth: '374px',
           iconHeight: '272px',
-          btn: 'Supercharge Your Website',
+          btn: t('home.superCharge.text1'),
           href: '#',
           mIcon: '/mobile-images/home/home_bot_graph_Website@2x.png',
           mIconWidth: '24.13rem',
           mIconHeight: '18.19rem',
           items: [
             {
-              title: 'CDN Support Engineer Il',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('HW6X182EOfkpL6CO1d7kN'),
+              content: t('fA9WzhA9_76w-PmbANH49'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -280,18 +256,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('9UU9RnNNG5nQRi_0oTStc')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('xfaRQuRfFVJGmjhr4c3Zs')
                 }
               ]
             },
             {
-              title: 'Product Owner (CDN)',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('UYlUaB-GFGjI2Cuw1zTYR'),
+              content: t('5I3S4ci8bccZ0cU6gYiTx'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -299,18 +274,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('yGWPCYtXWc31WMnSsfXRX')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('_9jeOA8gD6T0YKmNysdoW')
                 }
               ]
             },
             {
-              title: 'Product Owner (Compute)',
-              content:
-                'You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-',
+              title: t('saoYbbCSVugJCTq9rbLw2'),
+              content: t('G7hQDX81srhbuGYw-tzV9'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -318,18 +292,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('QWez0Gv6c8mqNZQ1FnWrJ')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('4cl7jp5kRZt2meuLXXizt')
                 }
               ]
             },
             {
-              title: 'Product Owner (Security)',
-              content:
-                'You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the',
+              title: t('KzTRe_MtQd9ZfkQlge0-p'),
+              content: t('o1qj1S86eYu-XL2sCXPEy'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -337,18 +310,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('-Xvu5XRhZNZ3BN6SM9aE_')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('WBosyyLWnfOzJQ1Velbz4')
                 }
               ]
             },
             {
-              title: 'Product Owner (Stream)',
-              content:
-                'You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.',
+              title: t('rZ_NxrGZlVx10BVv3hYEj'),
+              content: t('CfUwvCXw-ShlADQLCV5hi'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -356,18 +328,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('cve0abNN8TaZuoCttZ9Oj')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('OXpwmNVmFgKUWr9Xrnmy_')
                 }
               ]
             },
             {
-              title: 'Product Owner (DNS)',
-              content:
-                'You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.',
+              title: t('ChaMmhphxkrCemPlYmAG5'),
+              content: t('FvJcddCxN-gaf1LexV5Iq'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -375,18 +346,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('-XYYWnzfACvqmnorhhjdC')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('W93j_RakdLAvTaHfDtYfW')
                 }
               ]
             },
             {
-              title: 'Senior Engineer (Front End)',
-              content:
-                'You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.',
+              title: t('a6tAnOiM5n8ZJ4ScxkARf'),
+              content: t('EaSXQBpCjzJe6UyqMRk2j'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -394,18 +364,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('1wNS-8Oq8j8A-Fnh-x6Aj')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('a1rei1ov-CPkldNWCShQt')
                 }
               ]
             },
             {
-              title: 'Technical Content Writer',
-              content:
-                'You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.',
+              title: t('MQ8WE26g7LcETzojr3W2R'),
+              content: t('v7OInaCmuaKc5DP0C3Gdp'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -413,34 +382,32 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('NcwgB49v3BKUyHyIki0D2')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('DGiGntW9hVNhzM1SkRsKT')
                 }
               ]
             }
           ]
         },
         {
-          tab: 'Engineering',
-          title: 'Reliable video CDN that truly hops',
-          content:
-            'Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!',
+          tab: t('7tgk8meST8goVEoPgBaTL'),
+          title: t('solutions.videoDelivery.header.title'),
+          content: t('products.stream.overview.header.content'),
           icon: '/images/home/home_bot_graph_video@2x.png',
           iconWidth: '386px',
           iconHeight: '291px',
-          btn: 'Unforgettable Video Experience',
+          btn: t('home.superCharge.text5'),
           href: '#',
           mIcon: '/mobile-images/home/home_bot_graph_video@2x.png',
           mIconWidth: '23.38rem',
           mIconHeight: '17rem',
           items: [
             {
-              title: 'CDN Support Engineer Il',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('VwjGbMswersuuQ8lj6IhS'),
+              content: t('WCR-lfMSStF18BsPShZ05'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -448,18 +415,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('rAF2Fd6sIkI4DYftv1OPG')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('aEhq8Nss4NPPtIB8lSe79')
                 }
               ]
             },
             {
-              title: 'Product Owner (CDN)',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('c-hGt9Nm5OjdMnQ1JYGHS'),
+              content: t('Km-EIheJ2WjgV5WrM7Vwt'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -467,18 +433,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('PVvKVE020DSsZh_jIjZy3')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('9AWS8zhoyGcnmkg3cp1md')
                 }
               ]
             },
             {
-              title: 'Product Owner (Compute)',
-              content:
-                'You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-',
+              title: t('7iutBqpkvJg1lp41cNaWa'),
+              content: t('pPQAfHkGbsdsxSvXQ84he'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -486,18 +451,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('Ulb1dQXalUUmMoZ4kwApM')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('ULOgPTcbbM2Ypjtd4VfcR')
                 }
               ]
             },
             {
-              title: 'Product Owner (Security)',
-              content:
-                'You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the',
+              title: t('DpV521sB674nTSiGwYsE2'),
+              content: t('UcvR347GRy9sltvDH9hh9'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -505,18 +469,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('Xaaf2IPZlyyUwJSONGE71')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('Zh4C_3ujgyPwCGJbOjf8c')
                 }
               ]
             },
             {
-              title: 'Product Owner (Stream)',
-              content:
-                'You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.',
+              title: t('aAVbicSCCnnTzjPBh2fld'),
+              content: t('vd6PKemIEyNkUa6KR5I_X'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -524,18 +487,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('M7KWW_cBx5HK7PWURA9gj')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('J67BW68lSEQ8cZnlFDFHv')
                 }
               ]
             },
             {
-              title: 'Product Owner (DNS)',
-              content:
-                'You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.',
+              title: t('mtuiKcuwXGCRESx4B2m-v'),
+              content: t('p0rk-NHUrQm2-Av3WKUBq'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -543,18 +505,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('QkLk0YHXV9lSVfD7dGx_Q')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('IviIV2hBkkYQCBXvnuKd2')
                 }
               ]
             },
             {
-              title: 'Senior Engineer (Front End)',
-              content:
-                'You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.',
+              title: t('sc4BIe8UdbbwzyxDlE_9I'),
+              content: t('IaypfBF4wufaz-UbGj21_'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -562,18 +523,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('3qUzN4h-DLYkSqx4-WEpb')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('XPBze061hZrYzgNedTb7I')
                 }
               ]
             },
             {
-              title: 'Technical Content Writer',
-              content:
-                'You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.',
+              title: t('R_22SECZ7kC8pRBJ61NIP'),
+              content: t('hqmITDq9zew30HdH2fhos'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -581,34 +541,32 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('Nx42eHTwfbM85m81w69GX')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('GWnyT3fJCUssvubfgKW2q')
                 }
               ]
             }
           ]
         },
         {
-          tab: 'Marketing',
-          title: 'Deliver lightning fast downloads',
-          content:
-            'Supercharge your software downloads worldwide with one of the fastest global networks. Experience high throughput by bringing your content closer to your users anywhere.',
+          tab: t('pQE8mFYkAXRGsbbz7PPL_'),
+          title: t('solutions.storageSoftware.header.title'),
+          content: t('home.superCharge.text8'),
           icon: '/images/home/home_bot_graph_Software@2x.png',
           iconWidth: '392px',
           iconHeight: '294px',
-          btn: 'Deliver Faster Downloads',
+          btn: t('home.superCharge.text9'),
           href: '#',
           mIcon: '/mobile-images/home/home_bot_graph_Software@2x.png',
           mIconWidth: '24.5rem',
           mIconHeight: '18.38rem',
           items: [
             {
-              title: 'CDN Support Engineer Il',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('0MqBP3as_aczBd9_67tWS'),
+              content: t('8qBJFdvvbKRMOMGgrDvIt'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -616,18 +574,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('8TkzeXHGH1tFQwd_rqVoc')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('rxpVhbJ4iM2BCuB4HKErM')
                 }
               ]
             },
             {
-              title: 'Product Owner (CDN)',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('r5DtZSJiQMKxGWKjggjQZ'),
+              content: t('IxWyPyt7b_uPDsfdCrFK4'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -635,18 +592,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('02NZDFjopH5muOYZ1aG9a')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('YsQ4kmEmdfXu2EIKj96Y2')
                 }
               ]
             },
             {
-              title: 'Product Owner (Compute)',
-              content:
-                'You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-',
+              title: t('p7eXDxo9kDlrKPRwHa0me'),
+              content: t('0lZtqN6KTVZopBIgdv6iL'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -654,18 +610,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('MIKMAKFvzRUlCTQZSXl_Q')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('n5JKplN_j3qilT03prTA7')
                 }
               ]
             },
             {
-              title: 'Product Owner (Security)',
-              content:
-                'You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the',
+              title: t('vOWOwoBmsjm_Iub1SNurg'),
+              content: t('_j3J0xQWNnBlQSHJj9X3V'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -673,18 +628,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('-Gm2ASv8lNzKV7V0p9sTf')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('hzu2xlUxnAmJHQUIzgx3m')
                 }
               ]
             },
             {
-              title: 'Product Owner (Stream)',
-              content:
-                'You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.',
+              title: t('kufRUYxQfJ8LDSbtIUj0U'),
+              content: t('s8qvYn-tiJljyD7J62CA-'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -692,18 +646,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('pcql_-TTF-ivY2f6kxnl5')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('RGoDixyldapHr6gaEeDpd')
                 }
               ]
             },
             {
-              title: 'Product Owner (DNS)',
-              content:
-                'You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.',
+              title: t('xjkYw3pGCoCl8gj8Zi_8f'),
+              content: t('53fju3noCMuxqHuhYxeLb'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -711,18 +664,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('LZGKLf0msmG8yx9Wm4242')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('KaxpLGptKR0G8ucEmlnrl')
                 }
               ]
             },
             {
-              title: 'Senior Engineer (Front End)',
-              content:
-                'You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.',
+              title: t('HPTZhbGXnQ_zCxEqpkFZ_'),
+              content: t('gA1Oi7TBKO-4ujLpW6N-e'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -730,18 +682,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('PZRyiqlBuddLUFlsibleJ')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('i5T2b0lykTBZnBm4dLBCE')
                 }
               ]
             },
             {
-              title: 'Technical Content Writer',
-              content:
-                'You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.',
+              title: t('kAUNYcdfQ-HEZ42DgvLPK'),
+              content: t('KIoy0v3A969pTYAwErar6'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -749,34 +700,32 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('MCzMrYDDBRw5UoJn4hxyU')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('xVkZsYL1z7_c3TyeaOnN_')
                 }
               ]
             }
           ]
         },
         {
-          tab: 'Marketing',
-          title: 'Transform your images. On the fly.',
-          content:
-            'Resize, crop, sharpen, and transform images on the fly with an ultra-fast processing engine Gowaf on 123 datacenters worldwide. Simplify development & optimize SEO by reducing image size by up to 80%.',
+          tab: t('mURYcgQh2niEUqdC3NKyj'),
+          title: t('home.superCharge.text11'),
+          content: t('home.superCharge.text12'),
           icon: '/images/home/home_bot_graph_Dynamic@2x.png',
           iconWidth: '360px',
           iconHeight: '266px',
-          btn: 'Optimize Your Images',
+          btn: t('home.superCharge.text13'),
           href: '#',
           mIcon: '/mobile-images/home/home_bot_graph_Dynamic@2x.png',
           mIconWidth: '22.5rem',
           mIconHeight: '16.63rem',
           items: [
             {
-              title: 'CDN Support Engineer Il',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('zfNzFGI1Pf4Bs1XcA-V9d'),
+              content: t('QqhlbNzw7pnkusJ4q_HCc'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -784,18 +733,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('qPBcEB28bIgJKj5M5iPpd')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('S_TiMemkVNGRoxGiE-270')
                 }
               ]
             },
             {
-              title: 'Product Owner (CDN)',
-              content:
-                'Spearhead the development and management of the flagship Gowaf CDN product line, guiding a continually evolving vision to continue improving',
+              title: t('fFh40rslqc9LBQMg2BlIn'),
+              content: t('Ldc4W4w3syt5o_f5B5Gx3'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -803,18 +751,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('ASdO306xaVvS9Cn3qrTac')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('zVf72ucyhSyna-SRULgbC')
                 }
               ]
             },
             {
-              title: 'Product Owner (Compute)',
-              content:
-                'You will spearhead the development and management of the Gowaf Edge Compute product line, guiding and developing a forward-',
+              title: t('l5k01Kb9lhN02YXSLoGUB'),
+              content: t('byTMDh4RDFdG0FU7Gp1OT'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -822,18 +769,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('AnVocCr6OXyrIQeZxhMy-')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('mw0Pjkb-bP6bQH3I59nt9')
                 }
               ]
             },
             {
-              title: 'Product Owner (Security)',
-              content:
-                'You will spearhead the development and management of the Gowaf Security product line, driving a continuously evolving vision for the',
+              title: t('lfiZgrf5Ccl-SnmcCEE07'),
+              content: t('gperqtLzRT_Xj_ANC6yYV'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -841,18 +787,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('YV510pxn6i6kmL4Wy0m04')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('MElPOWVE83Jmwfb3xmA_o')
                 }
               ]
             },
             {
-              title: 'Product Owner (Stream)',
-              content:
-                'You will work with the engineering, marketing, leadership, and customer-facing teams to build a cutting-edge video delivery platform.',
+              title: t('pCFkrQeYZH4M39Xnr6YND'),
+              content: t('8lwraUmRiqtgadZqSv8ay'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -860,18 +805,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('64IlFVvqsbPgms3N_6Tj2')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('fRPzo3xKmy7CN9FY6WWgz')
                 }
               ]
             },
             {
-              title: 'Product Owner (DNS)',
-              content:
-                'You will spearhead the development and management of the Gowaf DNS product line, guiding a continually evolving vision.',
+              title: t('6TolsipSOydidMv_kCTH6'),
+              content: t('ntVaDM0uzf5JuMjrzPgNE'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -879,18 +823,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('PKazSMtCKx1kCX3p2CXwm')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('zDTZzK_EOaw0enT8YGqVp')
                 }
               ]
             },
             {
-              title: 'Senior Engineer (Front End)',
-              content:
-                'You will help with the interface of Gowaf products, ensuring our customers have intuitive and efficient access to our solutions.',
+              title: t('95nyHfyFPA9_DDVedZV8N'),
+              content: t('8lNlory_H1kp7rOb3xKJv'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -898,18 +841,17 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('f-6tbpEhtTR1Pns5rkLVI')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('dmZDy1Yv8bwux9oDR4UWJ')
                 }
               ]
             },
             {
-              title: 'Technical Content Writer',
-              content:
-                'You will simplify complex networking concepts into engaging Gowaf Academy articles, work on case studies, and user guides for our dashboard.',
+              title: t('JpLJkBcQ0BL5Juh1vAo87'),
+              content: t('0zAabL09KZzWv2wctz0d0'),
               iconList: [
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Time_2x.png',
@@ -917,11 +859,11 @@ const i18ntext = computed(() => {
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Remote_2x.png',
-                  label: 'Remote'
+                  label: t('PbV3mlKii46cqdt9RNtMO')
                 },
                 {
                   icon: '/images/resources/careers/Resources_Careers_card_ic_Shifts_2x.png',
-                  label: 'Flexible Hours'
+                  label: t('cOnvmg11LGWyxEatZYrWt')
                 }
               ]
             }
@@ -930,13 +872,13 @@ const i18ntext = computed(() => {
       ]
     },
     drmCustomer: {
-      title: 'Trusted by 40.000+ global customers',
-      contentPre: "We're rated ",
+      title: t('g_tXejmNur2f2uDrDvSd-'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       faceImg: {
         img: '/images/products/stream/multi-drm/Network_Overview_evaluate_character_2x.png',
         top: '-3px',
@@ -949,10 +891,9 @@ const i18ntext = computed(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Matthias Mauch',
-        subTitle: 'Younity',
-        content:
-          '"We had a flow! summit without a single complaint. I think, overall, bunny.net is just a very complete solution. Handling videos is so easy with Bunny - you don\'t need a lot of training.It\'s very streamlined."'
+        title: t('1BywE0gMMmHqYbpuYRGyW'),
+        subTitle: t('10KCWD0ValnrFobaa19fG'),
+        content: t('hVZvyVFQZA1hXV83roW7e')
       },
       items: [
         {

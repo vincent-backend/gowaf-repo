@@ -34,10 +34,8 @@
     :content="
       $t('products.storage.LatinAmerica.exceptionalPerformance.content')
     "
-    :markerColor="
-      $t('products.storage.LatinAmerica.exceptionalPerformance.markerColor')
-    "
-    :img="$t('products.storage.LatinAmerica.exceptionalPerformance.img')"
+    markerColor="#65D2ED"
+    img="/images/products/storage/LatinAmerica/map_latinamerica.png"
   />
   <LgOnly>
     <ProductsNeverHit

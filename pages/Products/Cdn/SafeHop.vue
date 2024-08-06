@@ -39,6 +39,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -46,41 +47,37 @@ const i18ntext = computed<any>(() => {
   return {
     safeHop: {
       header: {
-        preTitle: 'Gowaf SafeHop™',
-        title: 'Maximize uptime. Reduce origin errors.',
-        content:
-          'Reduce origin errors and maximize uptime! SafeHop allows you to easily configure timeouts, delays and request retries to your origin to work around any potential network issues.',
-        btn: 'Start 14-Day FREE Trial',
-        hint: 'No credit card needed. Start in seconds.'
+        preTitle: t('Gia40aoRdVSGCcErYFbLd'),
+        title: t('LNpEOyIL0-eKWQjaW0n3O'),
+        content: t('v_zpIp8lAUGMl6lM9eJlb'),
+        btn: t('solutions.securityCdn.ad1.btn'),
+        hint: t('solutions.securityCdn.header.hint')
       },
       reduceError: {
-        title: 'Reduce origin errors by up to 80%',
-        subTitle:
-          'Improve reliability with a click of a button by reducing origin error rates by up to 80%. Easily work around software restarts, network hiccups, or hardware issues.',
+        title: t('TMJaokFXMwUGXGHMs9Xne'),
+        subTitle: t('FM0mdlS6Iekj7iYz3Iaqm'),
         picL: {
           title: 'CDN',
-          content: 'Request an uncached file from the CDN.'
+          content: t('Ufmpf1_cbCWT-bQ14I5lh')
         },
         picRT: {
-          title: 'Origin Server 1',
-          content: 'Connection failed'
+          title: t('NZC2X8xxar0BjJx357fb0'),
+          content: t('Q7A3xk5WCclIog1SurB_B')
         },
         picRB: {
-          title: 'Origin Server 2',
-          content: 'Request automatically retried.'
+          title: t('LJaqt5mptUslZKk6Cnn_2'),
+          content: t('Ci89qa6ZLlKOab3a5PcfJ')
         },
-        hint: 'With SafeHop, a failed request to the origin is automatically sent to the next server or re-sent to the same one after the configured delay.'
+        hint: t('WytoBo2Hamit6anAsjl2M')
       },
       goFaster: {
-        title: 'Save Requests. On your Terms.',
-        subTitle:
-          'SafeHop™ helps you configure timeouts and retry mechanisms for your specific application.',
+        title: t('-vd5RV7OSIIq3cazybRsw'),
+        subTitle: t('zz366p82L8ZI-aTXpyZX-'),
         tabs: [
           {
-            tab: 'Retry Failed Requests',
-            title: 'Automatically retry failed requests to maximize uptime',
-            content:
-              'Stop bad connections from reducing your uptime. Automatically retry requests to single or multiple servers. SmartHop will intelligently learn which server to prioritize in case of errors to maintain excellent performance.',
+            tab: t('YlOgzt1rcl-xSfFGHEmKl'),
+            title: t('Ee7QcKzfvlJg0aIaMmldV'),
+            content: t('F1IhSEE44_CcFrlB1x_0P'),
             icon: '/images/products/cdn/safe-hop/cdnsafehop_save_img1@2x.png',
             iconWidth: '400px',
             iconHeight: '400px',
@@ -89,10 +86,9 @@ const i18ntext = computed<any>(() => {
             mIconHeight: '22.22rem'
           },
           {
-            tab: 'Configure Response Timeouts',
-            title: 'Complete control with custom response timeouts',
-            content:
-              'Gain full control of the origin connection by configuring how long bunny.net should wait for a response before giving up. Fail faster if needed or wait up to 60 seconds or longer to match the needs of your application.',
+            tab: t('n4M6S0vrjMWerjayKihSn'),
+            title: t('CZNANDz3Lq5utMEAweILb'),
+            content: t('HrycskULB2hiFLKSzSDDJ'),
             icon: '/images/products/cdn/safe-hop/cdnsafehop_save_img2@2x.png',
             iconWidth: '400px',
             iconHeight: '400px',
@@ -101,10 +97,9 @@ const i18ntext = computed<any>(() => {
             mIconHeight: '22.22rem'
           },
           {
-            tab: 'Specify Retry Reasons',
-            title: 'Complete control with custom response timeouts',
-            content:
-              'Gain full control of the origin connection by configuring how long bunny.net should wait for a response before giving up. Fail faster if needed or wait up to 60 seconds or longer to match the needs of your application.',
+            tab: t('IuX_smb11VEeaZ6rUqYLA'),
+            title: t('CZNANDz3Lq5utMEAweILb'),
+            content: t('HrycskULB2hiFLKSzSDDJ'),
             icon: '/images/products/cdn/safe-hop/cdnsafehop_save_img@2x.png',
             iconWidth: '400px',
             iconHeight: '400px',
@@ -113,10 +108,9 @@ const i18ntext = computed<any>(() => {
             mIconHeight: '22.22rem'
           },
           {
-            tab: 'Delay Retries',
-            title: 'Delay requests between failures to maximize success',
-            content:
-              'Survive software restarts or temporary network glitches with a configurable retry delay. Set up to 10 seconds of delay between retried requests and give your software stack the time to get back online without origin errors.',
+            tab: t('DEXG2EHxynCynnHX6nJMa'),
+            title: t('bHo6C5WWjlSxPZzVLaKG_'),
+            content: t('NOwctDqZnzGsM6SvGeNtW'),
             icon: '/images/products/cdn/safe-hop/cdnsafehop_save_img@2x.png',
             iconWidth: '400px',
             iconHeight: '400px',
@@ -127,12 +121,11 @@ const i18ntext = computed<any>(() => {
         ]
       },
       join1: {
-        title: 'Trusted by over 40.000+ Customers',
+        title: t('KVG9Mia-x-Zo_lYpWf-1X'),
         person: {
-          name: 'Ken Schadler',
+          name: t('8zdIc4rPP1IPedTA08Vyc'),
           title: 'Schaken-Mods',
-          content:
-            '“So far we are loving the service. We can not even think of anything to complain about!”'
+          content: t('I4fVNlHklluhjTwDOFuzb')
         }
       }
     }

@@ -133,6 +133,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Solutions'
 });
@@ -141,111 +142,102 @@ const i18ntext = computed(() => {
     numbers: [
       {
         label: '1.000.000+',
-        content: 'Powered Websites'
+        content: t('ailUpetGngG-Iu1SAPP1Z')
       },
       {
-        label: 'Up to 5x',
-        content: 'Faster Load Times'
+        label: t('zL_N5pvniQimxTom0ni_7'),
+        content: t('42XfFYOriwEO3d5a0USlJ')
       },
       {
         label: '123',
-        content: 'Global PoPs'
+        content: t('BiENYYMJiCVxIk4uYqDTW')
       },
       {
         label: '$1/month',
-        content: 'As low as'
+        content: t('23Ew9lfpb1dymnhr6h363')
       }
     ],
     list1: [
-      'Simple Installation',
-      'DDoS Protection',
-      'From $1/month',
-      'No Hidden Fees',
-      'Up to 5x Faster Website',
-      '123 Global PoPs'
+      t('A1kQs7wjeedrU-cND7tiI'),
+      t('network.breadCrumbs.ddosProtection'),
+      t('HWOK2UItHhoG1jpcUllz5'),
+      t('UyW_8wt9a6R_vyi2j1EaV'),
+      t('o-q_TlCZQu4CpJvqCC3-W'),
+      t('EQtYT7hlfwxa4IltERWkQ')
     ],
     list2: [
       {
         icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_nor@2x.png',
         iconActive:
           '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_1_sel@2x.png',
-        title: 'Best WordPress CDN on the market',
-        content:
-          'Maximize your growth and expansion without care with our 150 Tbps+ network.'
+        title: t('9YVRNO6BIvXqjjflIKj0G'),
+        content: t('HMe7Sdf1ygI6-7fpxH_VE')
       },
       {
         icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_nor@2x.png',
         iconActive:
           '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_2_sel@2x.png',
-        title: 'Tier 1 Global Network',
-        content:
-          'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.'
+        title: t('2VSWM5fA9jcXRtLFnvGl6'),
+        content: t('jFljO5tXwK84zrW6Zl5Hl')
       },
       {
         icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_nor@2x.png',
         iconActive:
           '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_3_sel@2x.png',
-        title: 'NVMe+ SSD Servers',
-        content:
-          'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.'
+        title: t('saVbtL2cUjd5F2Al1K0Hf'),
+        content: t('2Ld9EoNBSDa-XPRDw7c1o')
       },
       {
         icon: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_nor@2x.png',
         iconActive:
           '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_ic_4_sel@2x.png',
-        title: 'Stay Protected',
-        content:
-          'Stay safe and focused with a built-in next-generation DDoS protection that just works.'
+        title: t('09wUFOVxktQu_onbJaRqA'),
+        content: t('T5wGJhUJMdUWlVqxEHN0J')
       }
     ],
     items: [
       {
         value: '5min',
-        label: 'SETUP TIME'
+        label: t('6D9kxz3kgEEVxdwzgh535')
       },
       {
         value: '5x',
-        label: 'FASTER LOAD TIME'
+        label: t('ohid8KwORcR1vZawcZDM_')
       }
     ],
     slist1: {
-      title1: 'Not just faster but also safer',
-      title2:
-        'Improve security, protect your content, and stop vulnerabilities.',
+      title1: t('PFjZxGwx9t4yJtG1BKm7m'),
+      title2: t('jheNHTub91P5E0UJWfwm-'),
       items: [
         {
           icon: '/images/solutions/website-wordpress/cdn_overview_bulid_ic_1@2x.png',
-          title: 'Free SSL Encryption',
-          content:
-            'Utilize free SSL Encryption for all of your Websites and Files hosted on Gowaf network.'
+          title: t('ka0ZkKxOlkTrc2yzXO1Mr'),
+          content: t('y5-WpS_HvVDLxZ0p37Ukk')
         },
         {
           icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_2@2x.png',
-          title: 'Image Watermark Protection',
-          content:
-            'Protect your images from hotlinking or being shared without credit.'
+          title: t('9NdLL9malGBjYK2RzNvca'),
+          content: t('ScRETUQ-AMa_0o2qyVqIO')
         },
         {
           icon: '/images/solutions/website-wordpress/Solutions_Website_acceleration_card_ic_3@2x.png',
-          title: 'Prevent Video Downloading',
-          content:
-            'Enable Media Cage to prevent your video from being shared or downloaded.'
+          title: t('BrfnbUovA34T5tnE2eNEE'),
+          content: t('YHRy1-xLcrNtF4d6rOd-_')
         }
       ]
     },
     ad2list: [
-      '80% Reduce Image Size',
-      'Up to 30% Faster',
-      'WeBP Transformation',
-      'Minimize Load Time'
+      t('komvpj_RETkhoTQKkQmXu'),
+      t('4RUjAk1m0aFBM2iLPMn0e'),
+      t('08TJ4XLLtfdfhO4SVnddO'),
+      t('Bwus9KXAX-BXqN9iR9EXC')
     ],
     join1: {
-      title: 'Join over 40.000+ global customers',
+      title: t('8Exj7XGIsGwCmEwgDTN4F'),
       person: {
-        name: 'James Cantoni',
-        title: 'Co-Founder, WP Compress',
-        content:
-          "“We're constantly impressed with the performance, ease of use, and outstanding support that Gowaf offers us and our clients!”"
+        name: t('D-oyXa0WrbPTAZ8FJFkpL'),
+        title: t('PFn9Jz4oEpBOU1NWirjn1'),
+        content: t('qxP_Wkmo9R0Hv1iqtnPZl')
       }
     }
   };

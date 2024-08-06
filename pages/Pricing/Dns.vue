@@ -64,6 +64,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Pricing'
 });
@@ -71,66 +72,65 @@ const i18ntext = computed<any>(() => {
   return {
     pricingTable: [
       {
-        title: 'Pay per query. No hidden fees.',
+        title: t('47jNpoVCsqMI2G89DV7hS'),
         titleEm: '',
-        subTitle: 'Simple Pay As You Go pricing with a generous free plan.',
-        content: 'Serving more than a billion queries per month?',
-        btn: 'Contact sales',
+        subTitle: t('E8H9I22fYAEywUyRthGKY'),
+        content: t('9kehjd3uWlKyYE8aaK9mn'),
+        btn: t('vCyatgYi22iOeAKniCizq'),
         href: '#',
         items: [
           {
             text: 'FREE',
-            hint: 'Standard Queries (First 20 million)'
+            hint: t('ZV647z_lx-qR0DiF3O6LI')
           },
           {
             text: 'FREE',
-            hint: 'Smart Queries (First 1 million)'
+            hint: t('H5N6gAqbXEC3JOI-8LvrB')
           },
           {
             text: '$0.1/million',
-            hint: 'Standard Queries (After 20 million)'
+            hint: t('inmAWNu-WZLXdwC3fs0Nw')
           },
           {
             text: '$0.3/million',
-            hint: 'Smart Queries (After 1 million)'
+            hint: t('9gSxDlulht2DXcygIorOT')
           }
         ]
       }
     ],
     list1: {
-      title1: 'Powerful features. Amazing performance.',
-      title2:
-        'Get lightning fast-performance, robust security, and unlimited scalability. Everything you need to hop faster.',
+      title1: t('_jbsQ3YagWjE8dP8_twAD'),
+      title2: t('xDSG8IL6DGm5dHgQ74eyH'),
       items: [
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_1.png',
-          title: '$1 Monthly Minimum',
-          content: 'All features included for as little as $1 per month.'
+          title: t('-JIMxMV5mP5YTkoE1MK4W'),
+          content: t('iLkw-MtVvaYcZPpvQZvCL')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_2.png',
-          title: 'Toggle Zones ON/OFF',
-          content: 'Enable and disable regions with a click of a button.'
+          title: t('DES-6GlDV7vlKF9Zvqqei'),
+          content: t('nu0OPuoV5iaFC6q7AJwlx')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_3.png',
-          title: 'No Request Fees',
-          content: 'Only pay for the bandwidth you actually use.'
+          title: t('GcclDblqwcyIvh3-1XsM5'),
+          content: t('LuQgxsbvPltPrVzPVlwIW')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_4.png',
-          title: 'Multiple Payment Options',
-          content: 'Pay with PayPal, majority of credit cards as well as BTC.'
+          title: t('S2WPugMYPn7ok2pZ7KlvC'),
+          content: t('bEL9MzgceVXxpdWMwB2MT')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_5.png',
-          title: 'All Features Included',
-          content: 'Use all of our unique features without any extra charges.'
+          title: t('6Dn0HsX6tOsS6PHaG2drl'),
+          content: t('h6dA06N7k-iQLuThPWBCm')
         },
         {
           icon: '/images/pricing/overview/Pricing_Overview_card_ic_6.png',
-          title: 'Overcharge Protection',
-          content: 'Protect your account with monthly bandwidth limits.'
+          title: t('pgzzkYeXmnRHksXr2ivIX'),
+          content: t('ThmmgWXys6Lcgkq-UEfua')
         }
       ]
     }
