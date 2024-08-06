@@ -5,19 +5,13 @@
         <div v-if="isMobile" class="shadow"></div>
         <div class="header">
           <div class="row">
-            <div
-              class="cell"
-              v-for="item in i18ntext.header"
-            >
+            <div class="cell" v-for="item in i18ntext.header">
               {{ item }}
             </div>
           </div>
         </div>
         <div class="body">
-          <div
-            class="row"
-            v-for="row in i18ntext.body"
-          >
+          <div class="row" v-for="row in i18ntext.body">
             <div class="cell" v-for="item in row">
               <span v-if="item === true" class="icon-true"></span>
               <span v-else-if="item === false" class="icon-false"></span>
@@ -27,10 +21,7 @@
         </div>
         <div class="footer">
           <div class="row">
-            <div
-              class="cell"
-              v-for="item in i18ntext.footer"
-            >
+            <div class="cell" v-for="item in i18ntext.footer">
               {{ item }}
             </div>
           </div>
@@ -54,22 +45,26 @@ const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return {
     header: [
-      'DRM Comparison',
-      'MediaCage Basic DRM',
-      'MediaCage Enterprise DRM'
+      t('gxNsdI2APtM7wsmyZZ04M'),
+      t('49YjH5jze25UJRNUzr_gE'),
+      t('D8xnGicy4STE45OjEw8sD')
     ],
     body: [
-      ['Browser support(*)', true, true],
-      ['Native iOS, Android support(*)', false, true],
-      ['Fairplay, Widevine support', false, true],
-      ['ClearKey AES-128', true, false],
-      ['Pre-integrated player', true, true],
-      ['Secure key management', true, true],
-      ['Download protection', true, true],
-      ['Screen grab protection(**)', false, true],
-      ['Custom player support', false, true]
+      [t('tjq_oqilm3gHYa7aGBFnS'), true, true],
+      [t('0tu1QgytvC1Rpsf4X5_QP'), false, true],
+      [t('x-rAP3VEF1yYz0lHO1JSO'), false, true],
+      [t('FYCogGWvBpp4H7cqTN4FF'), true, false],
+      [t('-xknnXqjlHWZvXXEAY4v5'), true, true],
+      [t('9WX51zXtKRT3fOug9w7rB'), true, true],
+      [t('xim7PcLIiwdKO5t_iPBnT'), true, true],
+      [t('CJ_fVtlfO6BeiKwlae9wZ'), false, true],
+      [t('7OzZzHfo7Qq4_JAuqtVl0'), false, true]
     ],
-    footer: ['Pricing', 'Free', 'Starting at 99$']
+    footer: [
+      t('pricing.breadCrumbs.parent'),
+      t('POwpvpakqxWvRUATLyt5l'),
+      t('nH_CSdx1bvsnNVFWOQp05')
+    ]
   };
 });
 </script>

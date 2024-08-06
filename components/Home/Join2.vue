@@ -57,43 +57,38 @@ const i18ntext = computed(() => {
   return [
     {
       avatar: 'home_avatar_1',
-      name: 'Ben M',
-      date: 'Jun 5. 202*',
-      title: 'Absolutely love these guys',
-      content:
-        "Absolutely love these guys! hey are amazing with updates, giving the best pertormance of CDN at the most attordable price! They are innovative and solving more problems then l'c ever imagined! On-the-fly image compression Minify files cachina, vou name it!"
+      name: t('WJlZ-IbbbUW727RvF9OR2'),
+      date: t('xWmhGjnWK2L08lg0kx7_7'),
+      title: t('X4umXmk7_ZYQ49yLOGEa4'),
+      content: t('Zf3y7iKnDSqwC9u0itLND')
     },
     {
       avatar: 'home_avatar_2',
-      name: 'Alex',
-      date: 'Dec 11. 2024',
-      title: 'Gowaf CDN is truly exceptional',
-      content:
-        "Gowaf CDN is truly exceptional. It outperforms famous CDN providers in speed, and it's cheaper."
+      name: t('mpnqQ5VFhWKrb-qDcLP4w'),
+      date: t('TA3ZPJ7J2opFV7X-fUq8b'),
+      title: t('yzhWacMx4Ku1MdQ1WgjYk'),
+      content: t('PiOEw2dVaUodRXPXsJ7Y9')
     },
     {
       avatar: 'home_avatar_3',
-      name: 'Laurent Bertin',
-      date: 'Oct 22. 2021',
-      title: "lf you hesitate. don't.",
-      content:
-        'Great price. Great service. Great suppon Migrated all my videos from vimeo and it work: better, and like 240 audios from AWS and It costs less and works tastel.'
+      name: t('IxMJ0AYUiiwiWVrAfQbjy'),
+      date: t('C-pHeDYJ4qUhhYWoVEaGK'),
+      title: t('kGzTygEzY2AGcGf75B382'),
+      content: t('vyOcf00U0e9YOdmlkraVQ')
     },
     {
       avatar: 'home_avatar_6',
-      name: 'Garry',
-      date: 'Feb 3, 2019',
-      title: 'Absolutely Amazing',
-      content:
-        'Absolutely Amazing! Easy to set up with just a tew clicks... Great overall pertormance and super cheap. What I like most is easy to Instal SSL certificate for the custom hostname which takes like 2 clicks. Using it for more than a year and nave nning negat to say.'
+      name: t('jb5YJf46ylwCFTOU61MzN'),
+      date: t('EeXP7aJOZjjAU6tRDakV9'),
+      title: t('yeb7j4GYWQRC-cO0qEJor'),
+      content: t('jA-hkYt5VFFOCE5QcKI25')
     },
     {
       avatar: 'home_avatar_7',
-      name: 'Alberto Baudacci',
-      date: 'Feb 16. 2021',
-      title: 'Getting better and better',
-      content:
-        'Getting better and better! Fast, reliable and best prices on the market, very nice and friendly Ul. Keep up the good iob guys.'
+      name: t('ODOZbi1Je5p-D9Wr3WP4G'),
+      date: t('9KoVkpfbHWsocGC_z4j3k'),
+      title: t('XAAMhg1cREnTVF7ChiwRW'),
+      content: t('HNR2sQVeIZpVmDt50WWF4')
     }
   ];
 });

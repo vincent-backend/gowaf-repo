@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+const { t } = useI18n();
 withDefaults(
   defineProps<{
     markerColor: string;
@@ -7,9 +8,8 @@ withDefaults(
     img: string;
   }>(),
   {
-    title: 'Exceptional performance.For every request.Every time.',
-    content:
-      'Deliver fantastic experience with 36 PoPs around Europe.Reach users in most major cities in under 10ms.',
+    title: t('r6y3-cOGjfG4n1d-2y1lG'),
+    content: t('products.storage.Europe.exceptionalPerformance.content'),
     markerColor: '#3F59FF'
   }
 );
@@ -32,7 +32,7 @@ withDefaults(
             isMobile
               ? {
                   left: item * (Math.floor(Math.random() * 4) + 5) + 'px',
-                  top: item * (Math.floor(Math.random() * 11)) + 'px'
+                  top: item * Math.floor(Math.random() * 11) + 'px'
                 }
               : {
                   left: item * (Math.floor(Math.random() * 4) + 20) + 'px',

@@ -19,12 +19,12 @@ const { t } = useI18n();
 const i18ntext = computed(() => {
   return {
     subTitle: [
-      "We're rated",
+      t('home.header.bottom.weAreRated'),
       '',
-      'Excellent 4.8',
-      ' out of 5 on ',
-      'Trustpilot',
-      ' - Based on 600+ reviews'
+      t('home.join2.subTitle3'),
+      t('home.join2.subTitle4'),
+      t('home.join2.subTitle5'),
+      t('home.join2.subTitle6')
     ],
     ranks: [
       {

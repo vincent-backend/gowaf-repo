@@ -100,12 +100,12 @@ const i18ntext = computed<any>(() => {
     {
       num: '5',
       unit: 'min',
-      title: 'FIRST RESPONSE TIME'
+      title: t('solutions.storageSoftware.supportPlan.main.responseTimeTitle')
     },
     {
       num: '3',
       unit: 'hrs',
-      title: 'AVERAGE SOLVE TIME'
+      title: t('solutions.storageSoftware.supportPlan.main.solveTimeTitle')
     }
   ];
 });

@@ -26,17 +26,15 @@ const i18ntext = computed<any>(() => {
   return [
     {
       icon: '/images/products/stream/multi-drm/stream_multi_7_ic_1_2x.png',
-      content:
-        'End-to-end DRM protection with browser, native iOS, and Android support.'
+      content: t('wp8pf2SviM0aV3tIQOOPK')
     },
     {
       icon: '/images/products/stream/multi-drm/stream_multi_7_ic_2_2x.png',
-      content: 'Pre-integrated, and custom integration player.'
+      content: t('rHrq8Zp00vSY6TfwTap73')
     },
     {
       icon: '/images/products/stream/multi-drm/stream_multi_7_ic_3_2x.png',
-      content:
-        'Unlimited media transcoding up to 4k. Completely free of charge.'
+      content: t('tirdRGF6CEgpjmjHKzVtW')
     }
   ];
 });

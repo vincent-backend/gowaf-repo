@@ -19,10 +19,7 @@
             </div>
             <Line top="30px" m-top="2.5rem" />
             <div class="list">
-              <div
-                class="item"
-                v-for="item in i18ntext"
-              >
+              <div class="item" v-for="item in i18ntext">
                 <div
                   class="icon"
                   :style="{ backgroundImage: `url(${item.icon})` }"
@@ -49,19 +46,18 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
       icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Color.png',
-      title: 'Choose your Color',
-      content:
-        'Customize the video player color scheme to match the design of your website perfectly.'
+      title: t('1mw38tlXHVt0dpFXXcL73'),
+      content: t('Dg3GgFWWOqNwSns82c1Ua')
     },
     {
       icon: '/images/solutions/video-delivery/Solutions_Video_Delivery_ic_Controls.png',
-      title: 'Customize your Controls',
-      content:
-        'Add or remove player controls to make it a perfect fit for your users’ experience.'
+      title: t('jSnXDVst51v5GCuXQCCga'),
+      content: t('Gu-1xVA_rUMAYy5Dx56KS')
     }
   ];
 });

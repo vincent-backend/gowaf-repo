@@ -6,41 +6,41 @@ const i18ntext = computed(() => {
   return {
     tabs: [
       {
-        tab: 'Gigabytes'
+        tab: t('AXii60hnsbUHSlXPcDi-e')
       },
       {
-        tab: 'Terabytes'
+        tab: t('52y6SnZt-jC9v8Hn8Ld3k')
       }
     ],
     items: [
       {
-        title: 'EU / NA',
-        value: '200 GB',
+        title: t('FRyMaifWCuSavbEsrvSTs'),
+        value: t('R-G_YQLWg2AyNNdByunix'),
         percent: 20
       },
       {
-        title: 'Asia / Oceania',
+        title: t('S5oeEAcNu7sUNObIJJEcs'),
         value: '50GB',
         percent: 10
       },
       {
-        title: 'South America',
-        value: '0 GB',
+        title: t('nationalFlag.continentName5'),
+        value: t('uUs-S8_jCrVbE4TV-bnwB'),
         percent: 0
       },
       {
-        title: 'ME & Africa',
+        title: t('_3om_T0affkVqse-Fp1nH'),
         value: '0GB',
         percent: 0
       }
     ],
     subs: [
       {
-        title: 'Standard Tier',
+        title: t('pjO0SL6mKVQoWvd1QsWNv'),
         value: '$3.5/month'
       },
       {
-        title: 'Volume Tier',
+        title: t('1I8BKYX1kjYtmXOn_E9xF'),
         value: '$1.25/month'
       }
     ]
@@ -55,20 +55,14 @@ const i18ntext = computed(() => {
       <div class="title2">{{ $t('pricing.cdn.calculator1.subTitle') }}</div>
       <Line top="40px" m-top="1.87rem" />
 
-      <CommonTabs
-        :tabs="i18ntext.tabs"
-        v-model:cur-tab="curTab"
-      />
+      <CommonTabs :tabs="i18ntext.tabs" v-model:cur-tab="curTab" />
       <div class="content">
         <div class="left">
           <div class="pic"></div>
         </div>
         <div class="right">
           <div class="list">
-            <div
-              class="item"
-              v-for="item in i18ntext.items"
-            >
+            <div class="item" v-for="item in i18ntext.items">
               <div class="left">
                 <div class="title">{{ item.title }}</div>
                 <div class="value">{{ item.value }}</div>
@@ -79,10 +73,7 @@ const i18ntext = computed(() => {
             </div>
           </div>
           <div class="list2">
-            <div
-              class="item"
-              v-for="item in i18ntext.subs"
-            >
+            <div class="item" v-for="item in i18ntext.subs">
               <div class="left">
                 <span class="title">{{ item.title }}</span>
                 <span class="icon"></span>

@@ -8,10 +8,7 @@
         {{ $t('products.cdn.overview.pricingSimplified.subTitle') }}
       </div>
       <div class="list">
-        <div
-          class="item"
-          v-for="item in i18ntext"
-        >
+        <div class="item" v-for="item in i18ntext">
           <div class="left">
             <div
               class="icon"
@@ -47,39 +44,37 @@ const i18ntext = computed<any>(() => {
   return [
     {
       icon: '/images/products/cdn/overview/cdn_overview_pricing_img_1@2x.png',
-      iconLabel: '114 PoPs',
-      title: 'Standard Network',
-      content:
-        'Hop on a lightning fast global network withregion based pricing.',
+      iconLabel: t('AyxauOhdnQgkdN4WUCwdS'),
+      title: t('86gYMIwtitK4qCc9qFhN2'),
+      content: t('8C3VKpPqnCHIvfoImDCKx'),
       indicators: [
         {
           icon: '/images/products/cdn/overview/Products-CDN-overview_ic_rise@2x.png',
           value: '46%',
-          label: 'FASTER LOAD TIME'
+          label: t('ohid8KwORcR1vZawcZDM_')
         },
         {
           icon: '/images/products/cdn/overview/Products-CDN-overview_ic_earth@2x.png',
           value: '26ms',
-          label: 'GLOBAL LATENCY'
+          label: t('e2FsI_4zv0oGjv7NURJlr')
         }
       ]
     },
     {
       icon: '/images/products/cdn/overview/cdn_overview_pricing_img_2@2x.png',
-      iconLabel: '10 PoPs',
-      title: 'Volume Network',
-      content:
-        'Hop on a lightning fast global network withregion based pricing.',
+      iconLabel: t('Tie1pPniQdN-d0GNf1w7x'),
+      title: t('yfjfFQ5dHd72oOu_hc0lM'),
+      content: t('ejXQwYKfVk-_bANiskfSr'),
       indicators: [
         {
           icon: '/images/products/cdn/overview/Products-CDN-overview_ic_rise@2x.png',
           value: '75%',
-          label: 'MORE AFFORDABLE'
+          label: t('OZBFEeLwvEAEi-xqp3OdF')
         },
         {
           icon: '/images/products/cdn/overview/Products-CDN-overview_ic_USD@2x.png',
           value: '$5',
-          label: 'PER TERABYTE'
+          label: t('rKmY2Sf9IUdfmDXpwoVRw')
         }
       ]
     }

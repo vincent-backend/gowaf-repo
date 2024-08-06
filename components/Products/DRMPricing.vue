@@ -99,39 +99,36 @@ const i18ntext = computed<any>(() => {
     list: [
       {
         label: '0-20k:',
-        content: '$0.005/month per license'
+        content: t('5Yp5cpeCsWoPLWKxVSUwS')
       },
       {
         label: '20k-100k:',
-        content: '$0.005/month per license'
+        content: t('JK3s2nEF-ELll99a_1byH')
       },
       {
-        label: '100k - 500k:',
-        content: '$0.003/month per license'
+        label: t('o2P3yje9GF8ryOc_Hak9g'),
+        content: t('41qZgBrZE7Ao0Im6fIESS')
       },
       {
         label: '500k+:',
-        content: 'Custom pricing'
+        content: t('2znnZhbdPAS1hkEPsnlSf')
       }
     ],
     list1: [
       {
-        title: 'Prevent downloads',
+        title: t('uVV4nXkQzBxFBEbK6iDWn'),
         icon: '/images/products/stream/multi-drm/media_perfect_ic_1@2x.png',
-        content:
-          'Stop losing subscribers to piracy and stream media content on your terms.'
+        content: t('SIE9QitriZYkHNMayKtxQ')
       },
       {
-        title: 'Online Courses',
+        title: t('NENo6KyBvySZGQnhIWXai'),
         icon: '/images/products/stream/multi-drm/media_perfect_ic_2@2x.png',
-        content:
-          'Take complete control of our content and limit access to courses or specific videos as you see fit.'
+        content: t('XIo706yCeK8HEpR6dANbe')
       },
       {
-        title: 'Prevent downloads',
+        title: t('4uPwOuuRL_HeEv8GrETdR'),
         icon: '/images/products/stream/multi-drm/media_perfect_ic_3@2x.png',
-        content:
-          'Stop piracy before it happens and ensure your content stays available only to your subscribers.'
+        content: t('WadTAE5zyz0Q2IqaSw3UH')
       }
     ]
   };

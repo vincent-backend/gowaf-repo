@@ -16,27 +16,23 @@ const i18ntext = computed(() => {
   return [
     {
       img: '/images/home/log_icon_1@2x.png',
-      title: 'New Gowaf Dashboard is live!',
-      content:
-        'The easiest way to dynamically generate images and deliver them directly from the CDN.'
+      title: t('HNvqXE6c0Y9z7XOtmaI55'),
+      content: t('ooCSA30bIst8lrne1ovsq')
     },
     {
       img: '/images/home/log_icon_2@2x.png',
-      title: 'Try out Gowaf AI Beta!',
-      content:
-        'Take web application performance to the next level on a true planet-scale level with Gowaf Storage Edge Tier.'
+      title: t('TSJDS8bUnSytfW0snO8aU'),
+      content: t('zB38vTPDaRqlPwCmXvg7R')
     },
     {
       img: '/images/home/log_icon_3@2x.png',
-      title: 'The Next Generation Of Performance!',
-      content:
-        'Unlock the true power of DNS and turn complex issues into simple solutions.'
+      title: t('eyR9BMltWEh2J6Ctm5Lht'),
+      content: t('7n5D6hiYKoW_Pzd6pePuA')
     },
     {
       img: '/images/home/log_icon_4@2x.png',
-      title: 'Gowaf DNS is now live!',
-      content:
-        'Unlock the true power of DNS and turn complex issues into simple solutions.'
+      title: t('TKZxaXw1T12K8BOzP40yh'),
+      content: t('7n5D6hiYKoW_Pzd6pePuA')
     }
   ];
 });

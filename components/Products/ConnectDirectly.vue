@@ -54,12 +54,12 @@ const i18ntext = computed<any>(() => {
     {
       icon: '/images/products/cdn/overview/cdn_overview_connect_ic_1@2x.png',
       value: '5min',
-      label: 'FIRST RESPONSE TIME'
+      label: t('solutions.storageSoftware.supportPlan.main.responseTimeTitle')
     },
     {
       icon: '/images/products/cdn/overview/cdn_overview_connect_ic_2@2x.png',
       value: '3hrs',
-      label: 'AVERAGE SOLVE TIME'
+      label: t('solutions.storageSoftware.supportPlan.main.solveTimeTitle')
     }
   ];
 });

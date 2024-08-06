@@ -3,10 +3,7 @@
     <div class="page-container my-form">
       <div class="list-container">
         <ul>
-          <li
-            v-for="(item, index) in i18ntext"
-            :key="index"
-          >
+          <li v-for="(item, index) in i18ntext" :key="index">
             <img :src="item.icon" :alt="item.title" />
             <div class="content">
               <h3>{{ item.title }}</h3>
@@ -61,10 +58,7 @@
               <FormItem>
                 <FormCheckbox name="agree" value="1">
                   <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-                  <a
-                    class="agree-link"
-                    href="#"
-                  >
+                  <a class="agree-link" href="#">
                     {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
                   </a>
                 </FormCheckbox>
@@ -84,21 +78,22 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
-      title: 'Support',
-      subTitle: 'Get in touch with our Super Bunnies to get help.',
+      title: t('DatncyiDVR-hTrqFFKx4v'),
+      subTitle: t('ZPcFxviEYLx3mAXSxFo63'),
       icon: '/images/resources/contact/Pricing_CDN_ic_Storage_2x.png'
     },
     {
-      title: 'Abuse',
-      subTitle: 'Report illegal or inappropriate content.',
+      title: t('XLI3eTKvrp8TutpqX7kyC'),
+      subTitle: t('lJl0QI7eX_BllaCA0IroX'),
       icon: '/images/resources/contact/Pricing_CDN_ic_Optimizer_2x.png'
     },
     {
-      title: 'Billing',
-      subTitle: 'Get help with payment questions or billing issues.',
+      title: t('zOMCr63VkDfyxYgbgeyOS'),
+      subTitle: t('bCJKoKuULKDUaDXaLev2C'),
       icon: '/images/resources/contact/Pricing_CDN_ic_Stream_2x.png'
     }
   ];

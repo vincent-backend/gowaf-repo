@@ -81,9 +81,8 @@ const localizedDefaults: any = computed(() => {
           '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_1@2x.png',
         iconw: '60px',
         miconw: '3.75rem',
-        title: 'Resize & Crop',
-        bigPic:
-          '/images/products/optimizer/TransformAPI/Adjust Filters & Colors_img@2x.png',
+        title: $t('uFAZV-CZM_9iZ7Y2RkjI4'),
+        bigPic: $t('ZuCUxJlw8WRfgkmkDvTkh'),
         bigpicW: '804px',
         mbigpicW: ''
       },
@@ -93,9 +92,8 @@ const localizedDefaults: any = computed(() => {
           '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_2@2x.png',
         iconw: '60px',
         miconw: '3.75rem',
-        title: 'Sharpen & Blur',
-        bigPic:
-          '/images/products/optimizer/TransformAPI/Convert & Optimize_img@2x.png',
+        title: $t('wOcKmUzdFOOLO2HHSFwGe'),
+        bigPic: $t('uiHviYfgafHCTdCxOg1kK'),
         bigpicW: '804px',
         mbigpicW: ''
       },
@@ -105,9 +103,8 @@ const localizedDefaults: any = computed(() => {
           '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_3@2x.png',
         iconw: '51px',
         miconw: '3.75rem',
-        title: 'Adjust Filters & Colors',
-        bigPic:
-          '/images/products/optimizer/TransformAPI/Resize & Crop_img@2x.png',
+        title: $t('C_X4pOVZrKmyCFauwaLng'),
+        bigPic: $t('h2MzrdxNnFDaVAW8qmsSO'),
         bigpicW: '804px',
         mbigpicW: ''
       },
@@ -117,9 +114,8 @@ const localizedDefaults: any = computed(() => {
           '/images/products/optimizer/TransformAPI/ative_media_perfect_ic_4@2x.png',
         iconw: '60px',
         miconw: '3.75rem',
-        title: 'Convert & Optimize',
-        bigPic:
-          '/images/products/optimizer/TransformAPI/Sharpen & Blur_img@2x.png',
+        title: $t('oOcj1Ca84Rsd-zzH0abkT'),
+        bigPic: $t('LLVlHMQwMVEy_3EdNizwZ'),
         bigpicW: '804px',
         mbigpicW: ''
       }

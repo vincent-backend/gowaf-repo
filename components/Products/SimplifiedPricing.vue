@@ -36,50 +36,50 @@ const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
-      head: 'Traditional Cloud Provider',
+      head: t('cqhA2tcT6NsyIsEAgLf4Q'),
       items: [
         {
           title: '$0.02/minute+',
-          subTitle: 'Encoding'
+          subTitle: t('36-yE0ncsokmiWpSpjnan')
         },
         {
-          title: 'From $0.02/GB',
-          subTitle: 'Storage'
+          title: t('SKM2dGXd3cBo3A4Vo1OmS'),
+          subTitle: t('products.storage.breadCrumbs.parent')
         },
         {
-          title: 'From $0.085/GB',
+          title: t('aOFJoAoDmYUZHdOawQFpG'),
           subTitle: 'CDN'
         }
       ],
       items2: [
-        'Expensive transcoding fees',
-        'Bring and integrate your own external player',
-        'Complex integration with additional charges',
-        'Centralized storage prone to bottlenecks'
+        t('b9pcpJ6zbf-WQt9W55k9T'),
+        t('mwe3clv8fPIAfnPLGkvgG'),
+        t('urwASiMFk_MK2AZn1nIoP'),
+        t('0GoTm7k5IlkGRIHdW35zk')
       ]
     },
     {
-      head: 'Gowaf Stream',
+      head: t('products.stream.overview.header.preTitle'),
       items: [
         {
           title: 'FREE',
-          subTitle: 'Encoding'
+          subTitle: t('36-yE0ncsokmiWpSpjnan')
         },
         {
-          title: 'From $0.01/GB',
-          subTitle: 'Storage'
+          title: t('oI3sbZm9bx5fkanZ1lvkR'),
+          subTitle: t('products.storage.breadCrumbs.parent')
         },
         {
-          title: 'From $0.005/GB',
+          title: t('k5ndsst-Dyj30Jx6Xss2z'),
           subTitle: 'CDN'
         }
       ],
       items2: [
-        'No security fees',
-        'No transcoding fees',
-        'Free player included',
-        'Distributed video storage',
-        'Extreme performance with 150 Tbps+ backbone'
+        t('tQQn78CbmvvZriUsVoWCy'),
+        t('JI1hCGJvet6sTZ-ULmgXU'),
+        t('I95zwzNTObfd0TcMURfZ5'),
+        t('fQ6eLjc_pSpmuoL6gtemc'),
+        t('bNi6wzv8Oz5le7m22bKxg')
       ]
     }
   ];

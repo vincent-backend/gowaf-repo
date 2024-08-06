@@ -39,9 +39,9 @@
             />
             <div class="tips">
               <div class="text">
-                See how Gowaf helped other companies reach the next leve!
+                {{ $t('gXCpxTqfzNLZXGiJ8xq2A') }}
               </div>
-              <div class="btn">Gowaf case studies</div>
+              <div class="btn">{{ $t('2S7mKWjVBIPvrShcajZNe') }}</div>
             </div>
           </el-menu>
         </transition>
@@ -77,9 +77,9 @@
             />
             <div class="tips">
               <div class="text">
-                See how Gowaf helped other companies reach the next leve!
+                {{ $t('85rmjeUnWjmARIPLF29xY') }}
               </div>
-              <div class="btn">Gowaf case studies</div>
+              <div class="btn">{{ $t('7PxsJ4g1lv634-yp_BnPT') }}</div>
             </div>
           </el-menu>
         </transition>
@@ -110,9 +110,9 @@
             />
             <div class="tips">
               <div class="text">
-                See how Gowaf helped other companies reach the next leve!
+                {{ $t('tPXv_JZFieY9H8lqVM39K') }}
               </div>
-              <div class="btn">Gowaf case studies</div>
+              <div class="btn">{{ $t('mOWw2v3WMQVt98uaQ8S05') }}</div>
             </div>
           </el-menu>
         </transition>
@@ -174,54 +174,54 @@ const i18ntext = computed(() => {
       title: 'SOLUTIONS',
       items: [
         {
-          title: 'By Need',
+          title: t('vQza8PI2dLkT-pw8XStiv'),
           icon: '/images/home/Solutions_nav_ic_need.png'
         },
         {
-          title: 'By Industry',
+          title: t('F4LoWXNjG-f_XXq5aV2ca'),
           icon: '/images/home/Solutions_nav_ic_Industry.png'
         }
       ]
     },
     byNeed: {
-      title: 'BY NEED',
+      title: t('rAA781Hhq1icdC0eU55pv'),
       items: [
         {
-          title: 'Video and Streaming',
+          title: t('uBq4nhvqnT9bU0iYDRonw'),
           icon: '/images/home/Solutions_nav_ic_video.png'
         },
         {
-          title: 'Storage and Delivery',
+          title: t('Hgi82bl59NCKKC4ZTU41R'),
           icon: '/images/home/Solutions_nav_ic_Storage.png'
         },
         {
-          title: 'Website Performance',
+          title: t('LWBf-k4Lfu_Sy6FeMbbet'),
           icon: '/images/home/Solutions_nav_ic_Website.png'
         },
         {
-          title: 'Security and Protection',
+          title: t('aYoP5UH-vLL9wACCz2Iim'),
           icon: '/images/home/Solutions_nav_ic_Security.png'
         }
       ]
     },
     videoAndStreaming: {
-      title: 'VIDEO AND STREAMING',
+      title: t('ynTEckGbfgsU_lodhHb5s'),
       items: [
         {
-          title: 'Video Delivery',
-          subTitle: 'Deliver the best video exoerience.'
+          title: t('home.superCharge.text2'),
+          subTitle: t('phOTUSZQIOZRGvIxbjvFd')
         },
         {
-          title: 'Media Cage',
-          subTitle: 'Keep your videos secured and safe.'
+          title: t('products.stream.breadCrumbs.mediaCage'),
+          subTitle: t('vmmnc0_a4O5hLAszldDtC')
         },
         {
-          title: 'Enterprise Multi-DRM',
-          subTitle: 'Hollywood grade video protection.'
+          title: t('Fp3x4jHcDc0l_hRLTPHhE'),
+          subTitle: t('_XEg-P2n-k25_2Mp6k_04')
         },
         {
-          title: 'Transcribe Al',
-          subTitle: 'Generate captions with a single click'
+          title: t('products.Stream.TranscribeAI.header.preTitle'),
+          subTitle: t('wqXBSJgi4VPuxjkT9JLmw')
         }
       ]
     }

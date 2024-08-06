@@ -56,11 +56,11 @@ const localizedDefaults: any = computed(() => {
     hint: $t('pricing.overview.saveMoney.hint'),
     fItems: [
       {
-        title: 'Price For 5 Terabytes',
-        subTitle: '(Europe & North America)',
+        title: t('iyOwWAra_HaTi2BxHppvS'),
+        subTitle: t('76CiD8-t_TnOjq0YxduAu'),
         items: [
           {
-            label: 'Gowaf',
+            label: t('jwjvPYxK3dMuRy-sMe-AW'),
             value: '$50',
             width: '21.25%'
           },
@@ -85,43 +85,43 @@ const localizedDefaults: any = computed(() => {
             width: '77.5%'
           },
           {
-            label: 'Fastly',
+            label: t('products.cdn.breadCrumbs.fastly'),
             value: '$600+',
             width: '90%'
           }
         ]
       },
       {
-        title: 'Average Global Performance',
-        subTitle: '(Worldwide Median - Lower is better)',
+        title: t('NvdW0Aa4BdLFXn-lhkQ_T'),
+        subTitle: t('mz7bbjPgNZiJb8YM-HBT6'),
         items: [
           {
-            label: 'Gowaf',
-            value: '24 ms',
+            label: t('Wq_vptFMpeS5cAlNdyWlG'),
+            value: t('q1ufRx9wOX_bkNPJGQmN1'),
             width: '21.25%'
           },
           {
             label: 'CDN77',
-            value: '31 ms',
+            value: t('csCIFW8TY9zpb3yNL8fKY'),
             width: '31.875%'
           },
           {
             label: 'StackPath',
-            value: '36 ms',
+            value: t('YpZw6fU9DR6QpLNz24rZy'),
             width: '35%'
           },
           {
             label: 'KeyCDN',
-            value: '39 ms',
+            value: t('vxXVgoOv8_IzqgKmBVjtv'),
             width: '38.125%'
           },
           {
             label: 'CloudFront',
-            value: '27 ms',
+            value: t('UDMIK9G-HME1LWziILgn2'),
             width: '77.5%'
           },
           {
-            label: 'Fastly',
+            label: t('products.cdn.breadCrumbs.fastly'),
             value: '29ms',
             width: '90%'
           }

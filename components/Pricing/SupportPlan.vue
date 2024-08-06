@@ -45,10 +45,10 @@
 const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
-    '24/7 availability',
-    'Private Slack channel',
-    'Dedicated Account Manager',
-    'Direct communication with developers'
+    t('FVKMVwnlG-zuH2eYQWRG2'),
+    t('MoeTRf8UsMxd4C3Ae9paR'),
+    t('Xbb8H3oe3t9PoplkIiZyb'),
+    t('RlvMM4rSwCm0QgIHwo7KM')
   ];
 });
 </script>

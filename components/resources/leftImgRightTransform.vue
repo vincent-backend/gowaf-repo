@@ -93,9 +93,9 @@ const localizedDefaults: any = computed(() => {
         icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_1_sele@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/cdn_overview_never_ic_1_sele@2x.png',
-        title: 'Time to',
-        boldtitle: 'first response',
-        content: '(average: August 2023)'
+        title: $t('x5R614Lt1GTKNYWPj4yYk'),
+        boldtitle: $t('m85X8soxbmu_pu5GECdIj'),
+        content: $t('NAJW1mqePntndGi61wW66')
       },
       {
         num: '35.6%',
@@ -103,9 +103,9 @@ const localizedDefaults: any = computed(() => {
         icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_2_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/cdn_overview_never_ic_2_nor@2x.png',
-        title: 'Tickets solved in',
-        boldtitle: '1 response',
-        content: '(average: August 2023)'
+        title: $t('U1RTKXsrd5tEEB1SEmcCb'),
+        boldtitle: $t('E6IgrP_iWuQB8waZ_3LFb'),
+        content: $t('yN7IfqN_o35G79E92ap8y')
       },
       {
         num: '10',
@@ -113,9 +113,9 @@ const localizedDefaults: any = computed(() => {
         icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_3_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/cdn_overview_never_ic_3_nor@2x.png',
-        title: 'Time for',
-        boldtitle: 'avg. reply',
-        content: '(average: August 2023)'
+        title: $t('rgEfwPELjHr-30DuvOQO0'),
+        boldtitle: $t('hCERlwzgenWvSFo_eHfMu'),
+        content: $t('eONm2SJHOGFv_2vSIKID6')
       },
       {
         num: '5.797',
@@ -123,9 +123,9 @@ const localizedDefaults: any = computed(() => {
         icon: '/images/resources/SuperPolyfill/cdn_overview_never_ic_4_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/cdn_overview_never_ic_4_nor@2x.png',
-        title: 'Successfully',
+        title: $t('W1xdfjz0OdGg1O4nO7oeO'),
         boldtitle: 'solved',
-        content: '(average: August 2023)'
+        content: $t('iUVBFtB7Ps4e56O1YDuzj')
       }
     ]
   };

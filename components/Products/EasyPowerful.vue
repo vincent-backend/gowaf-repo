@@ -50,19 +50,18 @@ const localizedDefaults: any = computed(() => {
     fulItems: [
       {
         icon: '/images/products/stream/media-cage/media_simple_ic_1@2x.png',
-        title: 'Upload',
-        content:
-          'Upload your media files using an HTTP API or web file manager.'
+        title: t('Kopqg2Wm-g2B0j4EW4W8q'),
+        content: t('AEF85-2gFBZU1qxwBCAEh')
       },
       {
         icon: '/images/products/stream/media-cage/media_simple_ic_2@2x.png',
-        title: 'Enable DRM',
-        content: 'Enable the Media Cage DRM system with a single click.'
+        title: t('4POsOXzgofM3MEyJ3Po9C'),
+        content: t('CbXqkvUVIP7gXy7WAg69r')
       },
       {
         icon: '/images/products/stream/media-cage/media_simple_ic_3@2x.png',
-        title: 'Deliver',
-        content: 'Deliver your videos safely via embed frame code.'
+        title: t('PsY4eSLZYT5QoWo78sD9Z'),
+        content: t('ATn2TFR65b5AWTsA0ptH0')
       }
     ]
   };

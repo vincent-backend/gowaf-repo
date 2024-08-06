@@ -60,37 +60,33 @@ const { t } = useI18n();
 const i18ntext = computed(() => {
   return {
     leftList: [
-      'From $1/month',
-      'No Hidden Fees',
+      t('HWOK2UItHhoG1jpcUllz5'),
+      t('UyW_8wt9a6R_vyi2j1EaV'),
       'Perma-Caching',
-      'Real-Time Monitoring',
-      'DDoS Protection',
-      'Free SSL Certificate'
+      t('uRao7VE1b0JinEkTtLiy9'),
+      t('network.breadCrumbs.ddosProtection'),
+      t('WNltSFgIXwNMPL6RL6IsC')
     ],
     rightList: [
       {
         icon: 'home_list_ic_design',
-        title: 'Scalable By Design',
-        content:
-          'Maximize your growth and expansion without care with a 80 Tbps+ network.'
+        title: t('wSBlPFt1ZYzF5piinJo8-'),
+        content: t('vvxDsPYVOrTj3oDFLkQdG')
       },
       {
         icon: 'home_list_ic_Server',
-        title: 'NVMe+ SSD Servers',
-        content:
-          'Optimize delivery and reduce latency with top of the line AMD and NVMe hardware.'
+        title: t('saVbtL2cUjd5F2Al1K0Hf'),
+        content: t('2Ld9EoNBSDa-XPRDw7c1o')
       },
       {
         icon: 'home_list_ic_network',
-        title: 'Tier 1 Global Network',
-        content:
-          'Connect directly to your users with over 3000 ISPs and 14 Tier 1 transit providers. Anywhere.'
+        title: t('2VSWM5fA9jcXRtLFnvGl6'),
+        content: t('jFljO5tXwK84zrW6Zl5Hl')
       },
       {
         icon: 'home_list_ic_Protection',
-        title: 'Stay Protected',
-        content:
-          'Stay safe and focused with a built-in next-generation DDoS protection that just works.'
+        title: t('09wUFOVxktQu_onbJaRqA'),
+        content: t('T5wGJhUJMdUWlVqxEHN0J')
       }
     ]
   };

@@ -41,26 +41,22 @@
               src="/public/images/home/chat_ic_reset_nor@2x.png"
               alt=""
             />
-            Reset
+            {{ $t('llPaodyWXzkjGvbc1-gXM') }}
           </div>
         </div>
       </div>
     </template>
     <div class="main">
       <div class="dialogBox">
-        <div class="bold">Hi there!</div>
+        <div class="bold">{{ $t('he4pY-_sfjylaV3hu4P5I') }}</div>
         <div class="ordinary">
-          My name is Fluffee. I am your new next-generation bunny.net virtual
-          assistant.
+          {{ $t('52u8oRFmnPwliIw0v4gTu') }}
         </div>
         <div class="ordinary">
-          You can ask me anything related to Gowaf, your account, and I can
-          even help you troubleshoot issues. To get started, simply send me a
-          message!
+          {{ $t('Ph0sp9NBscLxHmF_LVh3y') }}
         </div>
         <div class="ordinary">
-          I'm still an experimental AI, so please go easy on me, but I'm
-          learning quickly and will keep getting better with time!
+          {{ $t('f59kVHTIgFUHE_5kwrs6w') }}
         </div>
       </div>
       <div class="dialogueInput">
@@ -69,7 +65,7 @@
           style="width: 100%"
           :rows="4"
           type="textarea"
-          placeholder="Ask me anything …"
+          :placeholder="$t('ReewjMMktc4CpBJjJqaMD')"
         ></el-input>
         <div class="send"></div>
       </div>

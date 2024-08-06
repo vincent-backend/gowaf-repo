@@ -8,10 +8,7 @@
         {{ $t('products.stream.mediaCage.protectYourVideos.subTitle') }}
       </div>
       <div class="content">
-        <div
-          class="item"
-          v-for="item in i18ntext"
-        >
+        <div class="item" v-for="item in i18ntext">
           <div class="head">
             <div
               class="icon"
@@ -33,23 +30,20 @@ const i18ntext = computed<any>(() => {
     {
       icon: '/images/products/stream/media-cage/media_protect_ic_1@2x.png',
       tip: '',
-      title: 'Prevent downloads',
-      content:
-        'Stop revenue loss, prevent users from downloading your videos, and stay in complete control of your content.'
+      title: t('4uPwOuuRL_HeEv8GrETdR'),
+      content: t('YgE8RXYVNVqFFAMZekifO')
     },
     {
       icon: '/images/products/stream/media-cage/media_protect_ic_2@2x.png',
-      tip: 'Enterprise DRM',
-      title: 'Stop Screen Recorders',
-      content:
-        'Level up your security by preventing screen recorders & stopping even the most advanced users from re-distributing your content.'
+      tip: t('0wjNlaVulFXkFzXdpDrqc'),
+      title: t('Bne_8e7KTiGpioW7lg-bJ'),
+      content: t('VtR7U0TGRu7sMsQ2yHsQR')
     },
     {
       icon: '/images/products/stream/media-cage/media_protect_ic_3@2x.png',
-      tip: 'Enterprise DRM',
-      title: 'Block Screenshots',
-      content:
-        'Take absolute control of our content and prevent viewers from even taking screenshots of your videos.'
+      tip: t('0wjNlaVulFXkFzXdpDrqc'),
+      title: t('JGM-WIxswlB0Fu0oMz8SU'),
+      content: t('FQbG3Pjb_dLXszkDWnaMN')
     }
   ];
 });

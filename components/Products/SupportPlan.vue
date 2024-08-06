@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+const { t } = useI18n();
 withDefaults(
   defineProps<
     Partial<{
@@ -12,19 +13,17 @@ withDefaults(
     }>
   >(),
   {
-    title: 'Save up to 80% on your content delivery costs',
-    itemsContent:
-      'Don’t overpay for your Content Delivery ever again. At bunny.net, you’ll always only pay for the bandwidth you use and nothing else. We focus on optimizing our costs and passing the savings down to you!',
-    itemsContent1:
-      'Take advantage of two simple pay-as-you-go pricing designed for any budget starting at just $0.02/GB.',
+    title: t('uVLepi2MEpLLZfIfvAVGl'),
+    itemsContent: t('5xhrq9_th9JuyE1lOh4Im'),
+    itemsContent1: t('hdyE1v9Ss1JUbDZnHpuwb'),
     icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
   }
 );
 const i18ntext = computed<any>(() => {
   return [
-    'No Hidden Fees',
-    'DDoS Protection',
-    'Real-Time Monitoring',
+    t('UyW_8wt9a6R_vyi2j1EaV'),
+    t('network.breadCrumbs.ddosProtection'),
+    t('uRao7VE1b0JinEkTtLiy9'),
     'Perma-Caching'
   ];
 });

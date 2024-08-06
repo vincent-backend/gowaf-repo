@@ -23,89 +23,86 @@ const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
-      tab: 'Gowaf CDN',
-      header: 'Gowaf CDN Pricing',
+      tab: t('products.cdn.breadCrumbs.gowaf'),
+      header: t('XiYg0386NBKOn04hmL4zH'),
       content: [
         {
-          title: 'Standard Network',
-          titleEm: '123 PoPs',
-          subTitle:
-            'Hop on a lighting fast global network with region-based pricing.',
-          content: 'Serving more than 100TB per month?',
-          btn: 'Contact sales',
+          title: t('86gYMIwtitK4qCc9qFhN2'),
+          titleEm: t('jfz7nyYwHDI2EGBQSfYaI'),
+          subTitle: t('ZMnHhcZ9_sCx3p0Hps14R'),
+          content: t('KV7WJ2klCpERjTKZgf2MV'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
-              text: '$0.01 /GB',
-              hint: 'Europe & North America'
+              text: t('NjxDeRbS8Yh6CPYoGhtIy'),
+              hint: t('TXHZSBcsKkFAG_y-tqYdK')
             },
             {
-              text: '$0.03 /GB',
-              hint: 'Asia & Oceania'
+              text: t('Q5YtfVL9lf2B_B2JiCjpR'),
+              hint: t('5RI4Xp0hmpyXxpwOR9R-H')
             },
             {
-              text: '$0.045 /GB',
-              hint: 'South America'
+              text: t('rmhNv-qFBLEvbiCKCNbeM'),
+              hint: t('nationalFlag.continentName5')
             },
             {
-              text: '$0.06 /GB',
-              hint: 'Middle East & Africa'
+              text: t('NTEisdaelNp_X1Jm15Up3'),
+              hint: t('eZQYGIi05MT2RTOFaHD6n')
             }
           ]
         },
         {
-          title: 'Volume Network',
-          titleEm: '10 PoPs',
-          subTitle:
-            "Take advantage of the world's most cost-effective pricing for high bandwidth projects with a single global rate.",
-          content: 'Serving more than 1PB per month?',
-          btn: 'Contact sales',
+          title: t('yfjfFQ5dHd72oOu_hc0lM'),
+          titleEm: t('Tie1pPniQdN-d0GNf1w7x'),
+          subTitle: t('P3E9iwgU2bZ3gJE1oyTva'),
+          content: t('gEuc1uFeP_PSprdd06wor'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
-              text: '$0.005 /GB',
-              hint: 'First 500TB'
+              text: t('0BuqKG6p870d1U55wx18H'),
+              hint: t('ggziNIgX5vxUd8flQ2dn0')
             },
             {
-              text: '$0.004 /GB',
-              hint: 'From 500TB-1PB'
+              text: t('Q0t7VwOOsk3vG4Xnaxbz-'),
+              hint: t('yKvIrNrh2glyW9v0y3UTs')
             },
             {
-              text: '$0.002 /GB',
-              hint: 'From 1PB-2PB'
+              text: t('mAzGzh4FHxXDbvPrH3ebz'),
+              hint: t('ZRzt7XiKMI4sjX5rITk3m')
             },
             {
-              text: 'Contact Us',
-              hint: 'From 2PB+'
+              text: t('Onu78XvTgkLCBunkIt4gu'),
+              hint: t('_bf7TLQyQvr-tR93vqtql')
             }
           ]
         }
       ]
     },
     {
-      tab: 'Gowaf Stream',
-      header: 'Gowaf Stream Pricing',
+      tab: t('products.stream.overview.header.preTitle'),
+      header: t('pricing.stream.header.preTitle'),
       content: [
         {
-          title: 'Simplified pricing. Up to 10x lower cost.',
+          title: t('products.stream.overview.simplifiedPricing.title'),
           titleEm: '',
-          subTitle:
-            'Video player, transcoding, and security features are free of charge.',
-          content: 'Servina more than 40TB per month?',
-          btn: 'Contact sales',
+          subTitle: t('2xS2haYmDOZ82G4aqjlxX'),
+          content: t('sp0t4ox0VDAlrZNFbCYhM'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
               text: 'FREE',
-              hint: 'Transcoding'
+              hint: t('MhDttb6PyyValtrIXk1BT')
             },
             {
               text: '$0.1/minute*',
-              hint: 'Transcribing'
+              hint: t('5Ma4gjGQsul3Dl-SnPuJM')
             },
             {
               text: '$0.01/GB',
-              hint: 'Storage'
+              hint: t('products.storage.breadCrumbs.parent')
             },
             {
               text: '$0.005/GB',
@@ -113,140 +110,139 @@ const i18ntext = computed<any>(() => {
             }
           ],
           bottomList: [
-            'No security fees',
-            'No transcoding fees',
-            'Free laver included',
-            'Distributed video storage',
-            '150 Tbps+ backbone',
-            '* Transcribing is paid per minute per langauge.'
+            t('tQQn78CbmvvZriUsVoWCy'),
+            t('JI1hCGJvet6sTZ-ULmgXU'),
+            t('uYkxEydIsMZf7lXIU_4Z5'),
+            t('fQ6eLjc_pSpmuoL6gtemc'),
+            t('QTpqDHXnvaqAYzcOL4fhh'),
+            t('4zy4kwV5L7xesmuqtiqVu')
           ]
         }
       ]
     },
     {
-      tab: 'Gowaf Storage',
-      header: 'Gowaf Storage Pricing',
+      tab: t('products.storage.BouuyStorage.header.preTitle'),
+      header: t('pricing.storage.header.preTitle'),
       content: [
         {
-          title: 'Standard Tier',
+          title: t('pjO0SL6mKVQoWvd1QsWNv'),
           titleEm: 'HDD',
-          subTitle:
-            '$0.01/GB per storage region for up to two regions. $0.005/GB per additional region. Up to 9 regions.',
-          content: 'Storing more than 50TB per month?',
-          btn: 'Contact sales',
+          subTitle: t('b3at__Jw1vs1ZNTyWnFMz'),
+          content: t('3kxEw7odatuVDPym3DtmZ'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
               text: '$0.01/GB',
-              hint: 'Single Region'
+              hint: t('TEZlazu6G6F6SFqBln0ty')
             },
             {
               text: '$0.02/GB',
-              hint: 'Two Regions'
+              hint: t('lHyG0f_acNtivER5KyJpS')
             },
             {
               text: '$0.025/GB',
-              hint: 'Three Regions'
+              hint: t('0Qu0t80LoAeCv9evsNe6D')
             },
             {
               text: '+$0.005/GB',
-              hint: 'Each Additional Region'
+              hint: t('vyAl3W-j1UGhIGMTAjN2F')
             }
           ],
           bottomList: [
-            'True Pay As you Go',
-            '$1 Monthly Minimum',
-            'Free Traffic to Bunny CDN',
-            'No API fees',
-            'Free API egress'
+            t('4pt5tyLGNQp5FIlTgTvDu'),
+            t('-JIMxMV5mP5YTkoE1MK4W'),
+            t('XZhL1rlR1e6SeAK8UGzWZ'),
+            t('OL5ABcsqtoZs5uIKOKRdd'),
+            t('JqmOlz7w0iQYQOzSputiR')
           ]
         },
         {
-          title: 'Edge Tier',
+          title: t('GC3jHHiOVraz_2lYG7nUX'),
           titleEm: 'SSD',
-          subTitle: '$0.02/GB per each storage region. Up to 15 regions.',
-          content: 'Storing more than 50TB per month?',
-          btn: 'Contact sales',
+          subTitle: t('CCKDinWPUMGQMvwBgqdlX'),
+          content: t('3kxEw7odatuVDPym3DtmZ'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
               text: '$0.02/GB',
-              hint: 'Single Region'
+              hint: t('TEZlazu6G6F6SFqBln0ty')
             },
             {
               text: '+$0.02/GB',
-              hint: 'Each additional Region'
+              hint: t('pqxtDBY44jmwt1A5fsKqY')
             }
           ],
           bottomList: [
-            'True Pay As you Go',
-            '$1 Monthly Minimum',
-            'Free Traffic to Bunny CDN',
-            'No API fees',
-            'Free API egress'
+            t('4pt5tyLGNQp5FIlTgTvDu'),
+            t('-JIMxMV5mP5YTkoE1MK4W'),
+            t('XZhL1rlR1e6SeAK8UGzWZ'),
+            t('OL5ABcsqtoZs5uIKOKRdd'),
+            t('JqmOlz7w0iQYQOzSputiR')
           ]
         }
       ]
     },
     {
-      tab: 'Gowaf Optimizer',
-      header: 'Gowaf Optimizer Pricing',
+      tab: t('products.optimizer.overview.header.preTitle'),
+      header: t('pricing.optimizer.header.preTitle'),
       content: [
         {
-          title: 'Excellent solution for any sized project',
+          title: t('qwUQaUzUuuM9oUwoV3B1E'),
           titleEm: '',
-          subTitle: 'Fixed monthly price regardless of your traffic and scale.',
-          content: 'Want to optimize over 20 websites?',
-          btn: 'Contact sales',
+          subTitle: t('uLsLJni0W2wsbOIe0slA_'),
+          content: t('LpAFMj3g2K1CRilEL3yBi'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
               text: 'FREE',
-              hint: 'Unlimited Requests'
+              hint: t('CsUDaUmODj4HijmbXqtpy')
             },
             {
               text: 'FREE',
-              hint: 'Unlimited Transformations'
+              hint: t('sJSzj8k3IZilQq_J9tv_P')
             },
             {
               text: 'FREE',
-              hint: 'Unlimited Optimizations'
+              hint: t('Erkvti6CL9nq-W64rOO-T')
             },
             {
               text: '$9.5/website',
-              hint: 'Simple Monthly Pricing'
+              hint: t('rFQXDg78C9Rz8dvsoHL7i')
             }
           ]
         }
       ]
     },
     {
-      tab: 'Gowaf DNS',
-      header: 'Gowaf DNS Pricing',
+      tab: t('products.DNS.multiDRM.header.preTitle'),
+      header: t('pricing.dns.header.preTitle'),
       content: [
         {
-          title: 'Pay per query. No hidden fees.',
+          title: t('47jNpoVCsqMI2G89DV7hS'),
           titleEm: '',
-          subTitle: 'Simple Pay As You Go pricing with a generous free plan.',
-          content: 'Serving more than a billion queries per month?',
-          btn: 'Contact sales',
+          subTitle: t('E8H9I22fYAEywUyRthGKY'),
+          content: t('9kehjd3uWlKyYE8aaK9mn'),
+          btn: t('vCyatgYi22iOeAKniCizq'),
           href: '#',
           items: [
             {
               text: 'FREE',
-              hint: 'Standard Queries (First 20 million)'
+              hint: t('ZV647z_lx-qR0DiF3O6LI')
             },
             {
               text: 'FREE',
-              hint: 'Smart Queries (First 1 million)'
+              hint: t('H5N6gAqbXEC3JOI-8LvrB')
             },
             {
               text: '$0.1/million',
-              hint: 'Standard Queries (After 20 million)'
+              hint: t('inmAWNu-WZLXdwC3fs0Nw')
             },
             {
               text: '$0.3/million',
-              hint: 'Smart Queries (After 1 million)'
+              hint: t('9gSxDlulht2DXcygIorOT')
             }
           ]
         }

@@ -8,10 +8,7 @@
         {{ $t('products.stream.overview.packedFeatures.subTitle') }}
       </div>
       <div class="content">
-        <div
-          class="item"
-          v-for="item in i18ntext"
-        >
+        <div class="item" v-for="item in i18ntext">
           <div
             class="icon"
             :style="{ backgroundImage: `url(${item.icon})` }"
@@ -29,35 +26,35 @@ const i18ntext = computed<any>(() => {
   return [
     {
       icon: '/images/products/stream/overview/stream_overview_ic_aicontest@2x.png',
-      title: 'AI Content Tagging'
+      title: t('fz29n_i9nbI6u7Uoe5Tm1')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_customizable@2x.png',
-      title: 'Customizable Player'
+      title: t('ziYu7Ks3l88tJs1u77iHS')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_api@2x.png',
-      title: 'Simple API'
+      title: t('KAUULoapiPZM1cD-R2hIV')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_watermarking@2x.png',
-      title: 'Watermarking Player'
+      title: t('HxYScINx9E0AOjdUTbq5g')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_hotlinking@2x.png',
-      title: 'Hotlinking Protection'
+      title: t('PVuK0XsZri8h-6ZKXJvG_')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_hotlinking@2x.png',
-      title: 'Customizable Transcoding'
+      title: t('i-Oum0134WeFacrakba43')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_drm@2x.png',
-      title: 'Enterprise DRM'
+      title: t('0wjNlaVulFXkFzXdpDrqc')
     },
     {
       icon: '/images/products/stream/overview/stream_overview_ic_token@2x.png',
-      title: 'Token Authentication'
+      title: t('feQGdTJI4u6AoECQxK1bI')
     }
   ];
 });

@@ -8,13 +8,8 @@
         {{ $t('products.cdn.overview.intuitivePanels.subTitle') }}
       </div>
       <Line top="30px" m-top="2.2rem" />
-      <CommonTabs
-        :tabs="i18ntext"
-        v-model:cur-tab="curTab"
-      />
-      <template
-        v-for="(tab, index) in i18ntext"
-      >
+      <CommonTabs :tabs="i18ntext" v-model:cur-tab="curTab" />
+      <template v-for="(tab, index) in i18ntext">
         <div class="tab-content" v-if="index === curTab">
           <div class="content">{{ tab.content }}</div>
           <div
@@ -45,9 +40,8 @@ const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
-      tab: 'Easy Pull Zone Manager',
-      content:
-        'Make website management a breeze with an easy-to-use zone manager that just works.',
+      tab: t('tH1lXAaLYgRyEQSvJaAcN'),
+      content: t('ddlCZufTsX4BEKX3YzB2K'),
       pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
       picWidth: '760px',
       picHeight: '480px',
@@ -55,9 +49,8 @@ const i18ntext = computed<any>(() => {
       mpicHeight: '24.44rem'
     },
     {
-      tab: 'Raw Log Explorer',
-      content:
-        'Get full raw insights into your traffic. Debug issues, and stay on top of security with full access to raw logging.',
+      tab: t('gzfSWwGIJzFT-bIUZoEtQ'),
+      content: t('0buAGSOd1EtlxA7uG6y3c'),
       pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
       picWidth: '760px',
       picHeight: '480px',
@@ -65,9 +58,8 @@ const i18ntext = computed<any>(() => {
       mpicHeight: '24.44rem'
     },
     {
-      tab: 'Security Features',
-      content:
-        'Make website management a breeze with an easy-to-use zone manager that just works.',
+      tab: t('mC_E6AGWntvPccYLCjx0U'),
+      content: t('Y43wQu1zLlL_sjReUkI9R'),
       pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
       picWidth: '760px',
       picHeight: '480px',
@@ -75,9 +67,8 @@ const i18ntext = computed<any>(() => {
       mpicHeight: '24.44rem'
     },
     {
-      tab: 'Insightful Analytics',
-      content:
-        'Make website management a breeze with an easy-to-use zone manager that just works.',
+      tab: t('7vxHpe4sfv4-cvDaS0NpM'),
+      content: t('bKc5OsHYwh5tU3ggL64S0'),
       pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
       picWidth: '760px',
       picHeight: '480px',

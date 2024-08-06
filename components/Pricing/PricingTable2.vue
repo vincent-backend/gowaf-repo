@@ -29,50 +29,50 @@ const { t } = useI18n();
 const i18ntext = computed(() => {
   return [
     {
-      title: 'Traditional Cloud Provider',
+      title: t('cqhA2tcT6NsyIsEAgLf4Q'),
       items: [
         {
           title: '$0.02/minute+',
-          hint: 'Encoding'
+          hint: t('36-yE0ncsokmiWpSpjnan')
         },
         {
-          title: 'From $0.02/GB',
-          hint: 'Storage'
+          title: t('SKM2dGXd3cBo3A4Vo1OmS'),
+          hint: t('products.storage.breadCrumbs.parent')
         },
         {
-          title: 'From $0.085/GB',
+          title: t('aOFJoAoDmYUZHdOawQFpG'),
           hint: 'CDN'
         }
       ],
       items2: [
-        'Expensive transcoding fees',
-        'Bring and integrate your own external player',
-        'Complex integration with additional charges',
-        'Centralized storage prone to bottlenecks'
+        t('b9pcpJ6zbf-WQt9W55k9T'),
+        t('mwe3clv8fPIAfnPLGkvgG'),
+        t('urwASiMFk_MK2AZn1nIoP'),
+        t('0GoTm7k5IlkGRIHdW35zk')
       ]
     },
     {
-      title: 'Bunny Stream',
+      title: t('w-OVcDvSqpeWHy3Z0F5Tc'),
       items: [
         {
           title: 'FREE',
-          hint: 'Encoding'
+          hint: t('yey9SO93ySUjsmW7aqgqI')
         },
         {
-          title: 'From $0.01/GB',
-          hint: 'Storage'
+          title: t('oI3sbZm9bx5fkanZ1lvkR'),
+          hint: t('products.storage.breadCrumbs.parent')
         },
         {
-          title: 'From $0.005/GB',
+          title: t('k5ndsst-Dyj30Jx6Xss2z'),
           hint: 'CDN'
         }
       ],
       items2: [
-        'No security fees',
-        'No transcoding fees',
-        'Free player included',
-        'Distributed video storage',
-        'Extreme performance with 150 Tbps+ backbone'
+        t('tQQn78CbmvvZriUsVoWCy'),
+        t('JI1hCGJvet6sTZ-ULmgXU'),
+        t('I95zwzNTObfd0TcMURfZ5'),
+        t('fQ6eLjc_pSpmuoL6gtemc'),
+        t('bNi6wzv8Oz5le7m22bKxg')
       ]
     }
   ];

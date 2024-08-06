@@ -47,6 +47,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
 defineProps<{
   ptlist: Array<{
     comparisonIcon: string;
@@ -54,30 +55,30 @@ defineProps<{
   }>;
 }>();
 const comparisonName = [
-  'CDN Edge PoPs',
-  'Average Global Latency',
-  ['Traffic Pricing', '5 TB-Europe / North America'],
-  'Uptime SLA',
-  '24/7 Support',
-  'DDoS Protection',
-  'Instant Cache Purge',
-  'Image Optimization',
-  'Storage',
+  t('WPhL2C1pe1LecireD67V5'),
+  t('gC0bnOaoQXFL4E8IF81vN'),
+  [t('GU0g3DOglrv9refv1riBk'), t('x89ZMEWMfddib6gdA8zOQ')],
+  t('YJvMrxcxNvjmbhSRdAjLN'),
+  t('hwhw48dVM8CgDfWOy1Nlg'),
+  t('network.breadCrumbs.ddosProtection'),
+  t('omNO2TsnfEgaY8K48FnL-'),
+  t('AK1pQc4KfyFxect6tcZqx'),
+  t('products.storage.breadCrumbs.parent'),
   'WAF',
-  'Origin Shield',
-  'Free One-Click SSL',
-  'Edge Rules',
-  'Wildcard SSL Support',
-  'Raw Access Logs',
-  'Realtime Statistics',
-  'Realtime Traffic Map',
+  t('aDZVh0hBbHvyzr0RO8wNn'),
+  t('2hIuv1-x-Jks9zYYrXJJK'),
+  t('IYJQsg9Hd3Q4FKJACLC5Z'),
+  t('zVN5je5sI8ffxBNM71Uox'),
+  t('0T_6e8gXvV4bHvM146rLB'),
+  t('E4_zDerSkb9d8UzJ_cE9S'),
+  t('6yK5j0GeA3kKRT9I8Q8DR'),
   'API',
-  'Scriptable DNS',
-  'Private CDN',
-  'Security Settings'
+  t('FHMrcofbmuq3Re--vQwJ3'),
+  t('TSoq-QMPvp6XR34h-4Tew'),
+  t('iEvrwBonVOIXORw6AqF-n')
 ];
 const selflist = {
-  comparisonIcon: '/images/home/Gowaf_logo+文字.png',
+  comparisonIcon: t('TQRz1S_WpekrrSe5IHeCQ'),
   items: [
     '123',
     '24ms',
@@ -87,8 +88,8 @@ const selflist = {
     [true],
     [true, 'Zone,URL.Wildcard,Tag'],
     [true],
-    [true, 'Globally Replicated'],
-    [true, 'Coming Soon'],
+    [true, t('4jJP8-kWbSqD2ybSlwHNC')],
+    [true, t('jPGUk_KPaq6pxAhRiGzLb')],
     [true],
     [true],
     [true],
@@ -99,7 +100,7 @@ const selflist = {
     [true],
     [true],
     [true],
-    'Token Authentication,Geo/IP Blocking & Hotlink protection'
+    t('0Ph-qJsPCXAg4p9JbveN4')
   ]
 };
 </script>
@@ -389,7 +390,9 @@ const selflist = {
             height: 11.5rem !important;
             box-sizing: content-box;
           }
-          &:nth-child(4),&:nth-child(13),&:nth-child(18) {
+          &:nth-child(4),
+          &:nth-child(13),
+          &:nth-child(18) {
             height: 2.5rem !important;
             box-sizing: content-box;
           }
@@ -431,7 +434,9 @@ const selflist = {
             box-sizing: content-box;
             height: 11.5rem !important;
           }
-          &:nth-child(5),&:nth-child(14),&:nth-child(19) {
+          &:nth-child(5),
+          &:nth-child(14),
+          &:nth-child(19) {
             height: 2.5rem !important;
             box-sizing: content-box;
           }

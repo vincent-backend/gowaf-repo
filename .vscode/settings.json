@@ -1,3 +1,10 @@
 {
-  "i18n-ally.extract.autoDetect": false
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.extract.ignoredByFiles": {
+    "utils\\nationalFlag.ts": [
+      "Europe",
+      "Oceania",
+      "Asia",
+    ]
+  }
 }

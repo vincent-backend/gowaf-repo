@@ -27,43 +27,43 @@ const i18ntext = computed<any>(() => {
   return {
     tabs: [
       {
-        tab: 'Gigabytes'
+        tab: t('AXii60hnsbUHSlXPcDi-e')
       },
       {
-        tab: 'Terabytes'
+        tab: t('52y6SnZt-jC9v8Hn8Ld3k')
       }
     ],
     list: [
       {
-        label: 'One',
+        label: t('x1Aj32G48_cLF5AlZQLNN'),
         status: 1
       },
       {
-        label: 'Two',
+        label: t('cfwydZE0uKFDCrfyAGVGD'),
         status: 0
       },
       {
-        label: 'Three',
+        label: t('UO7ON8-WyIM3NrgAvL7JC'),
         status: 0
       },
       {
-        label: 'Four',
+        label: t('gKrLCdUTq2EBkuq0WyShW'),
         status: 0
       },
       {
-        label: 'Five',
+        label: t('zOt_wKJ52ymVM559zMQ15'),
         status: 0
       },
       {
-        label: 'Six',
+        label: t('1wAmidobDITGap6X_rLQo'),
         status: 0
       },
       {
-        label: 'Six',
+        label: t('4-liLDPiRimCTJCxvBi1j'),
         status: 0
       },
       {
-        label: 'Eight',
+        label: t('GjPtCi1RBb22Hvul55jsL'),
         status: 0
       }
     ]
@@ -82,10 +82,7 @@ const i18ntext = computed<any>(() => {
       </div>
       <Line top="40px" m-top="1rem" v-if="isShowTitle" />
 
-      <CommonTabs
-        :tabs="i18ntext.tabs"
-        v-model:cur-tab="curTab"
-      />
+      <CommonTabs :tabs="i18ntext.tabs" v-model:cur-tab="curTab" />
       <div class="content">
         <div class="left">
           <div class="pic"></div>
@@ -115,12 +112,9 @@ const i18ntext = computed<any>(() => {
             v-if="isShowReplicationPoints"
           >
             <div class="row">
-              <h4>Replication points</h4>
+              <h4>{{ $t('CMj4-WLTY3xvPS3krLoZB') }}</h4>
               <ul>
-                <li
-                  v-for="(item, index) in i18ntext.list"
-                  :key="index"
-                >
+                <li v-for="(item, index) in i18ntext.list" :key="index">
                   <span
                     :class="item.status ? 'big-circle' : 'sm-circle'"
                   ></span>

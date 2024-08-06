@@ -29,23 +29,23 @@ const i18ntext = computed(() => {
   return [
     {
       icon: '/images/pricing/cdn/Pricing_CDN_ic_Storage.png',
-      title: 'Gowaf Storage',
-      subTitle: 'From $0.01 /GB',
-      btn: 'See pricing details',
+      title: t('products.storage.BouuyStorage.header.preTitle'),
+      subTitle: t('wEuI5M1pBidFkqfhVPfN2'),
+      btn: t('sBbFyxscbqCRIi8T8sMNJ'),
       href: '#'
     },
     {
       icon: '/images/pricing/cdn/Pricing_CDN_ic_Optimizer.png',
-      title: 'Gowaf Optimizer',
-      subTitle: '$9.50 /website',
-      btn: 'See pricing details',
+      title: t('products.optimizer.overview.header.preTitle'),
+      subTitle: t('fgkyC0-EEhCgpvgar57vu'),
+      btn: t('fuv-tw4T52MSoUEp5UGF4'),
       href: '#'
     },
     {
       icon: '/images/pricing/cdn/Pricing_CDN_ic_Stream.png',
-      title: 'Gowaf Stream',
-      subTitle: 'From $0.005 /GB',
-      btn: 'See pricing details',
+      title: t('products.stream.overview.header.preTitle'),
+      subTitle: t('11OEys1e0zSy9jhkIkoye'),
+      btn: t('vWzUYi2WEpTbRE2ENr1Oi'),
       href: '#'
     }
   ];

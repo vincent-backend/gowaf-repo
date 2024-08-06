@@ -10,10 +10,7 @@
           {{ $t('products.stream.overview.howStreamWorks.subTitle') }}
         </div>
         <div class="list">
-          <div
-            class="item"
-            v-for="item in i18ntext"
-          >
+          <div class="item" v-for="item in i18ntext">
             <div class="title">
               <i class="icon"></i>
               {{ item.title }}
@@ -61,78 +58,78 @@ const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
-      title: 'Media Ingress',
+      title: t('xRSpv0PiFB8-aq0N9IcIj'),
       items: [
         {
-          title: 'Upload',
+          title: t('Kopqg2Wm-g2B0j4EW4W8q'),
           block: true,
           items: [
-            'Console',
-            'Upload Tool',
-            'Upload SDK',
-            'Upload API',
-            'Fetch by URL ',
-            'Live Recording'
+            t('9MyqdJE26tKVK6ck7-aHT'),
+            t('DCs49ImKTS-sU9znHJ_7u'),
+            t('GIErHPH9Yn98Yz67iVoPq'),
+            t('VVZw1SNnDR03beR36DQTe'),
+            t('SSAsxWUZfXtpUlM9_6YV6'),
+            t('_tltl9i6bUud9eKSDIBzK')
           ]
         }
       ]
     },
     {
-      title: 'Content Management System & Video Processing',
+      title: t('BacclUJ065kTN7-_j3F1t'),
       items: [
         {
-          title: 'Upload',
+          title: t('Kopqg2Wm-g2B0j4EW4W8q'),
           block: true,
           items: [
-            'Repackage',
-            'Video Encryption',
-            'Watermark',
+            t('s7IsyK0ww9n6ah45T2GAS'),
+            t('FrnCYoeoeAF7kePFcTwQX'),
+            t('products.stream.multiDRM.endlessSecurity.content.watermark'),
             'Multi-Res',
             'H.264',
-            'Preview'
+            t('4rtAy_7gBc1uY23qRGUm8')
           ]
         }
       ],
       subList: {
-        title: 'Workflow',
+        title: t('jU6QKNdUlNbquMPR0n8qQ'),
         items: [
           {
-            title: 'Video / Audio Transcoding',
+            title: t('w32iySanS0KFULmHnSnb5'),
             block: true,
             items: [
-              'Repackage',
-              'Video Encryption',
-              'Watermark',
+              t('ziHICWhZqvQGo-zI2gB9g'),
+              t('utcAfnAadBCKyHFQoOqb3'),
+              t('products.stream.multiDRM.endlessSecurity.content.watermark'),
               'Multi-Res',
               'H.264',
-              'Preview'
+              t('hlaW0onMtUaeY5FjVapRs')
             ]
           },
           {
-            title: 'Video Sceenshot',
+            title: t('teAWNISiEfh3uGiU2MBCG'),
             max: true,
-            items: ['Screenshot for the Cover Image']
+            items: [t('rvmLYrJ4t3ZqXthlwFkvs')]
           },
           {
-            title: 'Video Editor',
-            items: ['Trimming', 'Splicing']
+            title: t('uBdjJ70FLlA_p88_5ZaSi'),
+            items: [t('qHqE7QNMQXtKahzo9Umm_'), t('zcd39rv9-HLYcsfQTJ5Io')]
           }
         ]
       }
     },
     {
-      title: 'Media Egress & Delivery',
+      title: t('CoGBKEjuK0uMj7zsxnG2g'),
       items: [
         {
-          title: 'Upload',
-          items: ['Material Mgt.', 'Video Delete']
+          title: t('Kopqg2Wm-g2B0j4EW4W8q'),
+          items: [t('xcXjRkNsPvTfJ6pxiZlyg'), t('LncS1NcDD6IQLShQDlNgZ')]
         },
         {
-          title: 'Copyright Protection',
-          items: ['Access Control', 'Anti Hot-Linking', 'Authorization']
+          title: t('fVbQOInnRgflrAq9fIKVO'),
+          items: [t('McUF7sDKCrL8bvJo7N57P'), t('5_tagZCc5w_BA_4n1iC7O'), t('O8uEcSp1L5E-g4e7y1bom')]
         },
         {
-          title: 'Excellent Experience',
+          title: t('tdvLjJi1w8irFe9kTHPp_'),
           max: true,
           items: ['CDN']
         }

@@ -954,7 +954,11 @@ const dotlist = computed(() => {
 
 const { t } = useI18n();
 const i18ntext = computed(() => {
-  return ['Standard Network', 'Volume Network', 'ISP Network'];
+  return [
+    t('jX2VH-xj0sza5eQJ7y2X0'),
+    t('yfjfFQ5dHd72oOu_hc0lM'),
+    t('ZAFDdK2x6AncqyhphDH9w')
+  ];
 });
 </script>
 

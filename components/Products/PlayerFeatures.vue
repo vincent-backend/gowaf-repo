@@ -5,58 +5,58 @@ const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
     {
-      tab: 'Video Chapters',
+      tab: t('SRErWC047dGzs1OQy-8k9'),
       pic: '/images/products/stream/player/player-1@2x.png',
       mpicWidth: '100%',
       mpicHeight: '24.25rem',
       picWidth: '610px',
       picHeight: '343px',
-      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+      hint: t('UN1xdDD2SZpiBTUgEI0Mi')
     },
     {
-      tab: 'Captions and Subtitles',
+      tab: t('g5if7890vWsiiEu2V3Mo5'),
       pic: '/images/products/stream/player/player-1@2x.png',
       picWidth: '610px',
       picHeight: '343px',
       mpicWidth: '100%',
       mpicHeight: '24.25rem',
-      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+      hint: t('PkbQt_aNZup3G_fStOr6T')
     },
     {
-      tab: 'Adjustable Video Speed',
+      tab: t('ShlO2o5-hxiE3A8ezcyU1'),
       pic: '/images/products/stream/player/player-1@2x.png',
       picWidth: '610px',
       picHeight: '343px',
       mpicWidth: '100%',
       mpicHeight: '24.25rem',
-      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+      hint: t('o2la-S4kDY-DUJybo0gJT')
     },
     {
-      tab: 'Highlight Moments',
+      tab: t('TmeMHfFR7pGh0e_hIP_2i'),
       pic: '/images/products/stream/player/player-1@2x.png',
       picWidth: '610px',
       picHeight: '343px',
       mpicWidth: '100%',
       mpicHeight: '24.25rem',
-      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+      hint: t('jSTY3_tI4giT7AR0Az9VL')
     },
     {
-      tab: 'Jump back and forward',
+      tab: t('EynL-zwIxXCRaa9LNMSix'),
       pic: '/images/products/stream/player/player-1@2x.png',
       picWidth: '610px',
       picHeight: '343px',
       mpicWidth: '100%',
       mpicHeight: '24.25rem',
-      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+      hint: t('DTVJ6GUcjmjM2nzHKY08D')
     },
     {
-      tab: 'Retention Graph',
+      tab: t('-TLlW7kFrWRhznrTpAPCo'),
       pic: '/images/products/stream/player/player-1@2x.png',
       picWidth: '610px',
       picHeight: '343px',
       mpicWidth: '100%',
       mpicHeight: '24.25rem',
-      hint: 'Add video chapters to your videos to allow viewers to navigate through the video more easily.'
+      hint: t('sgfB_yrvgeJKF3xlSqpaZ')
     }
   ];
 });
