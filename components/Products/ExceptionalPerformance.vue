@@ -1,24 +1,25 @@
 <script lang="ts" setup>
 const { t } = useI18n();
-withDefaults(
-  defineProps<{
-    markerColor: string;
-    title: string;
-    content: string;
-    img: string;
-  }>(),
-  {
+const props = defineProps<{
+  markerColor: string;
+  title: string;
+  content: string;
+  img: string;
+}>();
+const localizedDefaults: any = computed(() => {
+  const obj = {
     title: t('r6y3-cOGjfG4n1d-2y1lG'),
     content: t('products.storage.Europe.exceptionalPerformance.content'),
     markerColor: '#3F59FF'
-  }
-);
+  };
+  return mergeWithDefaults(obj, props);
+});
 </script>
 <template>
   <div class="exceptional-performance-container">
     <div class="never-hit page-container">
-      <div class="title">{{ title }}</div>
-      <div class="sub-title">{{ content }}</div>
+      <div class="title">{{ localizedDefaults.title }}</div>
+      <div class="sub-title">{{ localizedDefaults.content }}</div>
     </div>
     <div class="img">
       <ul class="position-container">
@@ -43,16 +44,16 @@ withDefaults(
           <div class="circle">
             <div
               class="big-circle"
-              :style="{ background: `${markerColor}` }"
+              :style="{ background: `${localizedDefaults.markerColor}` }"
             ></div>
             <div
               class="small-circle"
-              :style="{ background: `${markerColor}` }"
+              :style="{ background: `${localizedDefaults.markerColor}` }"
             ></div>
           </div>
         </li>
       </ul>
-      <img :src="img" alt="exceptional-performance" />
+      <img :src="localizedDefaults.img" alt="exceptional-performance" />
     </div>
   </div>
 </template>

@@ -20,94 +20,94 @@ const i18ntext = computed(() => {
   return {
     hotlinks: [
       {
-        label: 'About Us',
+        label: t('iel4wvDVxDtYpCp0Kmj0c'),
         link: '/resources/about'
       },
       {
-        label: 'Gowaf Blog',
+        label: t('Z8_dfRA8k0ubujjwt9aub'),
         link: '/resources/blog'
       },
       {
-        label: 'Gowaf Careers',
+        label: t('resources.careers.header.preTitle'),
         link: '/resources/careers'
       },
       {
-        label: 'Case Studies',
+        label: t('resources.breadCrumbs.caseStudies'),
         link: '/resources/caseStudiesDetails'
       },
       {
-        label: 'Affiliate Program',
+        label: t('J2qqgq-Hiv84l1lFqK2ay'),
         link: '/AffiliateProgram'
       }
     ],
     shortcuts: [
       {
-        title: 'Products',
+        title: t('header.menus.products'),
         items: [
           {
-            label: 'Gowaf CDN',
+            label: t('products.cdn.breadCrumbs.gowaf'),
             href: '/Products/Cdn/Overview'
           },
           {
-            label: 'Gowaf Optimizer',
+            label: t('products.optimizer.overview.header.preTitle'),
             href: '/Products/optimizer/Overview'
           },
           {
-            label: 'Gowaf Storage',
+            label: t('products.storage.BouuyStorage.header.preTitle'),
             href: '/Products/Storage/Asia'
           },
           {
-            label: 'Gowaf Stream',
+            label: t('products.stream.overview.header.preTitle'),
             href: '/Products/Stream/Overview'
           },
           {
-            label: 'Gowaf DNS',
+            label: t('products.DNS.multiDRM.header.preTitle'),
             href: '/Products/Cdn/Overview'
           }
         ]
       },
       {
-        title: 'Developers',
+        title: t('eV9_CH_QH2k9pszEVQmz0'),
         items: [
           {
-            label: 'Network Map',
+            label: t('aVsg8L3Z9Y5IbfjwP5CtV'),
             href: '/Network/Overview'
           },
           {
-            label: 'Gowaf Features',
+            label: t('05n379hA1Mgm8myY0n37B'),
             href: '/Products/Cdn/Features'
           },
           {
-            label: 'Network Tools',
+            label: t('HN1RxYCLGJ5DawUit6GYr'),
             href: '/Network/Tools'
           },
           {
-            label: 'Developer Hub',
+            label: t('aPb8E6Yk7hQYmz9MvnLzp'),
             href: '#'
           },
           {
-            label: 'API Documentation',
+            label: t('xpt836mV8sUbNb_V6wctW'),
             href: '#'
           }
         ]
       },
       {
-        title: 'Support',
+        title: t('DatncyiDVR-hTrqFFKx4v'),
         items: [
           {
             label: 'SLA',
             href: '/SLA'
           },
           {
-            label: 'Support HUB',
+            label: t('3kl0FglXxLti4w6lNs80V'),
             href: '/SupportHUB'
           },
           {
-            label: 'Super Bunnies™',
+            label: t('DdqZuHF6WD_99dzH8-o_q'),
             href: '/BookMeeting'
           },
           {
-            label: 'Service Status',
+            label: t('vGM6PVGty61xM9JUR-fOS'),
             href: '#'
           },
           {
@@ -119,11 +119,11 @@ const i18ntext = computed(() => {
     ],
     links: [
       {
-        label: 'Terms Of Service',
+        label: t('-6YVE_WEiVr9F14y2Y1fH'),
         link: '#'
       },
       {
-        label: 'Acceptable Use',
+        label: t('d92bjdYH9U7f3wxcYguP3'),
         link: '#'
       },
       {
@@ -131,11 +131,11 @@ const i18ntext = computed(() => {
         link: '#'
       },
       {
-        label: 'Privacy & Data Policy',
+        label: t('-acsM5DRwC1wi7mvWm-pG'),
         link: '#'
       },
       {
-        label: 'Report Abuse',
+        label: t('bHKl1j8fqOHjWwujqTFRg'),
         link: '#'
       }
     ]
@@ -177,19 +177,12 @@ const i18ntext = computed(() => {
       <div class="content">
         <div class="left">
           <div class="hot-links">
-            <a
-              v-for="item in i18ntext.hotlinks"
-              :href="item.link"
-              class="link"
-            >
+            <a v-for="item in i18ntext.hotlinks" :href="item.link" class="link">
               {{ item.label }}
             </a>
           </div>
           <div class="shortcuts-container">
-            <dl
-              class="shortcuts"
-              v-for="item in i18ntext.shortcuts"
-            >
+            <dl class="shortcuts" v-for="item in i18ntext.shortcuts">
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
                 <a :href="item2.href">{{ item2.label }}</a>
@@ -230,7 +223,9 @@ const i18ntext = computed(() => {
                 </a>
               </div>
               <div class="btn-container">
-                <a href="#" class="trail-btn">Contact Sales</a>
+                <a href="#" class="trail-btn">{{
+                  $t('resources.caseStudiesDetailsEskimi.header.btn')
+                }}</a>
               </div>
             </div>
           </div>

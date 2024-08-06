@@ -1,24 +1,26 @@
 <script lang="ts" setup>
 const { t } = useI18n();
-withDefaults(
-  defineProps<
-    Partial<{
-      bigtitle: string;
-      subTitle: string;
-      icon: string;
-      isHidenList: boolean;
-      title: string;
-      itemsContent: string;
-      itemsContent1: string;
-    }>
-  >(),
-  {
+const props = defineProps<
+  Partial<{
+    bigtitle: string;
+    subTitle: string;
+    icon: string;
+    isHidenList: boolean;
+    title: string;
+    itemsContent: string;
+    itemsContent1: string;
+  }>
+>();
+
+const localizedDefaults: any = computed(() => {
+  const obj = {
     title: t('uVLepi2MEpLLZfIfvAVGl'),
     itemsContent: t('5xhrq9_th9JuyE1lOh4Im'),
     itemsContent1: t('hdyE1v9Ss1JUbDZnHpuwb'),
     icon: '/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png'
-  }
-);
+  };
+  return mergeWithDefaults(obj, props);
+});
 const i18ntext = computed<any>(() => {
   return [
     t('UyW_8wt9a6R_vyi2j1EaV'),
@@ -30,18 +32,18 @@ const i18ntext = computed<any>(() => {
 </script>
 <template>
   <div class="support-plan-container">
-    <h2 v-if="title">{{ bigtitle }}</h2>
-    <h5 v-if="subTitle">{{ subTitle }}</h5>
+    <h2 v-if="title">{{ localizedDefaults.bigtitle }}</h2>
+    <h5 v-if="subTitle">{{ localizedDefaults.subTitle }}</h5>
     <div class="support-plan page-container">
       <div class="content">
         <div class="line"></div>
         <div class="main">
           <div class="left">
-            <div class="title">{{ title }}</div>
-            <div class="content">{{ itemsContent }}</div>
-            <div class="content">{{ itemsContent1 }}</div>
-            <Line m-top="" top="30px" v-if="!isHidenList" />
-            <div class="list" v-if="!isHidenList">
+            <div class="title">{{ localizedDefaults.title }}</div>
+            <div class="content">{{ localizedDefaults.itemsContent }}</div>
+            <div class="content">{{ localizedDefaults.itemsContent1 }}</div>
+            <Line m-top="" top="30px" v-if="!localizedDefaults.isHidenList" />
+            <div class="list" v-if="!localizedDefaults.isHidenList">
               <div class="item" v-for="item in i18ntext">
                 <div class="icon"></div>
                 <div class="text">{{ item }}</div>
@@ -49,7 +51,7 @@ const i18ntext = computed<any>(() => {
             </div>
           </div>
           <div class="right">
-            <div class="pic" :style="{ background: `url(${icon})` }"></div>
+            <div class="pic" :style="{ background: `url(${localizedDefaults.icon})` }"></div>
           </div>
         </div>
       </div>

@@ -22,11 +22,11 @@
 const { t } = useI18n();
 const i18ntext = computed(() => {
   return [
-    'UDP Flood',
-    'ICMP Flood',
-    'NTP Amplification',
-    'DNS Amplification',
-    'SYN Flood'
+    t('i0JbhmSg5DxKA27fxGnwZ'),
+    t('Mq2oYwHuy8d0lTT68s3Yc'),
+    t('cKUXvvRXSOIvkf5ILaPAD'),
+    t('dRVUsQYzQJXzq7-pueoEP'),
+    t('OE3RE-ArbLCJtQjtNiwsg')
   ];
 });
 </script>
