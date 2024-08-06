@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t } = useI18n();
+const { t } = useI18n();
 const props = withDefaults(
   defineProps<{
     title?: string;
@@ -51,9 +51,9 @@ const props = withDefaults(
 const slotDefault = !!useSlots().default;
 const localizedDefaults: any = computed(() => {
   const obj = {
-    title: $t('pricing.overview.saveMoney.title'),
-    subTitle: $t('pricing.overview.saveMoney.subTitle'),
-    hint: $t('pricing.overview.saveMoney.hint'),
+    title: t('pricing.overview.saveMoney.title'),
+    subTitle: t('pricing.overview.saveMoney.subTitle'),
+    hint: t('pricing.overview.saveMoney.hint'),
     fItems: [
       {
         title: t('iyOwWAra_HaTi2BxHppvS'),

@@ -32,10 +32,11 @@ const options = [
   { text: '简体中文', href: 'zh' }
 ];
 const changeLang = async (item: any) => {
-  console.log('locales', messages.value);
   showText.value = item.text;
+  locale.value = item.href
   setLocale(item.href);
-  console.log('changeLang -> locale', locale.value);
+  const nuxtData = useNuxtApp();
+  nuxtData.$i18n.setLocaleCookie(item.href);
   ProductsPopoverRef.value.hide();
 };
 

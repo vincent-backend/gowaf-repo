@@ -33,7 +33,7 @@
   "02NZDFjopH5muOYZ1aG9a": "偏僻的",
   "03bXmmfYgtaVEdWiNyoKF": "带薪休假",
   "053LltWUAiQWo44G-qciW": "轻松加密 SSL",
-  "05n379hA1Mgm8myY0n37B": "高瓦夫特点",
+  "05n379hA1Mgm8myY0n37B": "Gowaf Features",
   "08TJ4XLLtfdfhO4SVnddO": "韦伯转型",
   "09wUFOVxktQu_onbJaRqA": "受到保护",
   "0BuqKG6p870d1U55wx18H": "0.005 美元/GB",
@@ -1931,7 +1931,7 @@
         "header": {
           "btn": "开始 14 天免费试用",
           "content": "跃上超快的 DNS 平台，旨在为下一代应用程序提供支持。\n通过利用可编写脚本的记录，Gowaf DNS 可以帮助您释放 DNS 的真正威力，并将复杂的问题转化为简单的解决方案。",
-          "preTitle": "戈瓦夫域名系统",
+          "preTitle": "Gowaf DNS",
           "title": "释放真正的力量"
         }
       }
@@ -1984,7 +1984,7 @@
         "dns": "域名系统",
         "fastly": "快速",
         "features": "特征",
-        "gowaf": "高瓦夫CDN",
+        "gowaf": "Gowaf CDN",
         "overview": "概述",
         "parent": "CDN",
         "permaCache": "永久缓存",
@@ -2120,7 +2120,7 @@
         },
         "header": {
           "content": "提高您的网站性能和用户体验。\n只需点击几下即可减少加载时间并提高转化率。\n无需编写任何代码，只需 5 分钟即可上手。",
-          "preTitle": "高瓦夫优化器",
+          "preTitle": "Gowaf Optimizer",
           "title": "更快的网站。  \n变得简单。"
         },
         "website": {
@@ -2227,7 +2227,7 @@
         "header": {
           "btn": "开始 14 天免费试用",
           "content": "忘掉缓慢的对象存储吧，以无与伦比的性能让您的客户惊叹不已。  \n在全球范围内自动复制您的文件，以最大限度地减少延迟并最大限度地提高文件的吞吐量。\n对于每一个请求。\n到处。",
-          "preTitle": "高瓦夫存储",
+          "preTitle": "Gowaf Storage",
           "title": "复制到边缘的最快对象存储"
         }
       },
@@ -2461,7 +2461,7 @@
           "btn": "开始 14 天免费试用",
           "content": "通过将转码、存储、安全性和视频播放器打包到一个功能强大但简单的软件包中，解决视频传输的麻烦。\n随处流式传输。\n没有缓冲！",
           "hint": "无需信用卡。\n几秒钟内开始。",
-          "preTitle": "戈瓦夫溪",
+          "preTitle": "Gowaf Stream",
           "title": "提供在线视频的更好方式"
         },
         "howStreamWorks": {

@@ -1807,7 +1807,7 @@
         "header": {
           "btn": "Inizia la prova GRATUITA di 14 giorni",
           "content": "Scegli una piattaforma DNS ultraveloce progettata per potenziare la prossima generazione di applicazioni. \nUtilizzando record scriptabili, Gowaf DNS ti aiuta a sbloccare il vero potere del DNS e trasformare problemi complessi in soluzioni semplici.",
-          "preTitle": "DNS Gowaf",
+          "preTitle": "Gowaf DNS",
           "title": "Sblocca il vero potere"
         }
       }
@@ -1996,7 +1996,7 @@
         },
         "header": {
           "content": "Migliora le prestazioni del tuo sito web e l'esperienza utente. \nRiduci i tempi di caricamento e aumenta i tassi di conversione in pochi clic. \nInizia a saltare in meno di 5 minuti senza scrivere una sola riga di codice.",
-          "preTitle": "Ottimizzatore Gowaf",
+          "preTitle": "Gowaf Optimizer",
           "title": "Sito web più veloce.  \nReso semplice."
         },
         "website": {
@@ -2103,7 +2103,7 @@
         "header": {
           "btn": "Inizia la prova GRATUITA di 14 giorni",
           "content": "Dimentica lo storage lento degli oggetti e stupisci i tuoi clienti con prestazioni senza precedenti.  \nReplica automaticamente i tuoi file in tutto il mondo per ridurre al minimo la latenza e massimizzare la velocità effettiva dei tuoi file. \nPer ogni richiesta. \nOvunque.",
-          "preTitle": "Deposito Gowaf",
+          "preTitle": "Gowaf Storage",
           "title": "Lo storage di oggetti più veloce replicato sull'edge"
         }
       },
@@ -2337,7 +2337,7 @@
           "btn": "Inizia la prova GRATUITA di 14 giorni",
           "content": "Risolvi il problema della distribuzione dei video racchiudendo transcodifica, archiviazione, sicurezza e lettore video in un pacchetto potente ma semplice. \nTrasmetti in streaming ovunque. \nSenza buffering!",
           "hint": "Non è necessaria alcuna carta di credito. \nInizia in pochi secondi.",
-          "preTitle": "Flusso Gowaf",
+          "preTitle": "Gowaf Stream",
           "title": "Un modo migliore per distribuire video online"
         },
         "howStreamWorks": {
@@ -3078,7 +3078,7 @@
   "zz366p82L8ZI-aTXpyZX-": "SafeHop™ ti aiuta a configurare i timeout e i meccanismi di ripetizione per la tua applicazione specifica.",
   "-6YVE_WEiVr9F14y2Y1fH": "Termini di servizio",
   "-acsM5DRwC1wi7mvWm-pG": "Privacy",
-  "05n379hA1Mgm8myY0n37B": "Caratteristiche di Gowaf",
+  "05n379hA1Mgm8myY0n37B": "Gowaf Features",
   "0WNJ9bHRVw6Wd5QAYc9vj": "Mosca",
   "0onqLpibPAYH88CHA-_pA": "Fenice",
   "14RMsejOIl5S_7FRiKAQO": "Baku",

@@ -15,12 +15,18 @@ import ptbr from './assets/langs/pt-br.json'
 import ru from './assets/langs/ru.json'
 import zhtw from './assets/langs/zh-tw.json'
 import zh from './assets/langs/zh.json'
+import Cookies from 'js-cookie'
 
 
 
-export default defineI18nConfig(() => ({
+export default {
   legacy: false,
-  locale: 'en',
+  locale: Cookies.get('lang') || 'en',
+  fallbackLocale: 'en',
+  detectBrowserLanguage: {
+    useCookie: true,
+    alwaysredirect: false,
+  },
   messages: {
     de,
     'en-au': enAu,
@@ -40,4 +46,4 @@ export default defineI18nConfig(() => ({
     'zh-tw': zhtw,
     zh
   }
-}));
+};

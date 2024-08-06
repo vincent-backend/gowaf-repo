@@ -1807,7 +1807,7 @@
         "header": {
           "btn": "14일 무료 평가판 시작",
           "content": "차세대 애플리케이션을 지원하도록 설계된 초고속 DNS 플랫폼을 이용해 보세요. \nGowaf DNS는 스크립팅 가능한 레코드를 활용하여 DNS의 진정한 힘을 활용하고 복잡한 문제를 간단한 솔루션으로 전환하도록 도와줍니다.",
-          "preTitle": "고와프 DNS",
+          "preTitle": "Gowaf DNS",
           "title": "진정한 힘을 잠금 해제하세요"
         }
       }
@@ -1860,7 +1860,7 @@
         "dns": "DNS",
         "fastly": "빠르게",
         "features": "특징",
-        "gowaf": "고와프 CDN",
+        "gowaf": "Gowaf CDN",
         "overview": "개요",
         "parent": "CDN",
         "permaCache": "영구 캐시",
@@ -1996,7 +1996,7 @@
         },
         "header": {
           "content": "웹사이트 성능과 사용자 경험을 개선하세요. \n몇 번의 클릭만으로 로드 시간을 줄이고 전환율을 높일 수 있습니다. \n코드 한 줄도 작성하지 않고도 5분 안에 뛰어들 수 있습니다.",
-          "preTitle": "고와프 옵티마이저",
+          "preTitle": "Gowaf Optimizer",
           "title": "더 빠른 웹사이트.  \n간단하게 만들어졌습니다."
         },
         "website": {
@@ -2103,7 +2103,7 @@
         "header": {
           "btn": "14일 무료 평가판 시작",
           "content": "느린 객체 스토리지는 잊어버리고 비교할 수 없는 성능으로 고객을 놀라게 하십시오.  \n전 세계적으로 파일을 자동으로 복제하여 대기 시간을 최소화하고 파일 처리량을 최대화합니다. \n모든 요청에 ​​대해. \n어디에나.",
-          "preTitle": "고와프 스토리지",
+          "preTitle": "Gowaf Storage",
           "title": "엣지에 복제된 가장 빠른 객체 스토리지"
         }
       },
@@ -2337,7 +2337,7 @@
           "btn": "14일 무료 평가판 시작",
           "content": "트랜스코딩, 스토리지, 보안, 비디오 플레이어를 강력하면서도 간단한 패키지에 담아 비디오 전송의 번거로움을 해결하세요. \n어디서나 스트리밍하세요. \n버퍼링 없이!",
           "hint": "신용 카드가 필요하지 않습니다. \n몇 초 만에 시작하세요.",
-          "preTitle": "고와프 스트림",
+          "preTitle": "Gowaf Stream",
           "title": "온라인 비디오를 전달하는 더 나은 방법"
         },
         "howStreamWorks": {
@@ -3078,7 +3078,7 @@
   "zz366p82L8ZI-aTXpyZX-": "SafeHop™은 특정 애플리케이션에 대한 시간 초과 및 재시도 메커니즘을 구성하는 데 도움이 됩니다.",
   "-6YVE_WEiVr9F14y2Y1fH": "서비스 약관",
   "-acsM5DRwC1wi7mvWm-pG": "은둔",
-  "05n379hA1Mgm8myY0n37B": "고와프 기능",
+  "05n379hA1Mgm8myY0n37B": "Gowaf Features",
   "0WNJ9bHRVw6Wd5QAYc9vj": "모스크바",
   "0onqLpibPAYH88CHA-_pA": "불사조",
   "14RMsejOIl5S_7FRiKAQO": "바쿠",

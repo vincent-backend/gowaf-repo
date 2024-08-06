@@ -1807,7 +1807,7 @@
         "header": {
           "btn": "Comience la prueba GRATUITA de 14 días",
           "content": "Súbase a una plataforma DNS ultrarrápida diseñada para impulsar la próxima generación de aplicaciones. \nAl utilizar registros programables, Gowaf DNS lo ayuda a desbloquear el verdadero poder del DNS y convertir problemas complejos en soluciones simples.",
-          "preTitle": "Buen DNS",
+          "preTitle": "Gowaf DNS",
           "title": "Desbloquea el verdadero poder"
         }
       }
@@ -1860,7 +1860,7 @@
         "dns": "DNS",
         "fastly": "Rapidamente",
         "features": "Características",
-        "gowaf": "CDN",
+        "gowaf": "Gowaf CDN",
         "overview": "Descripción general",
         "parent": "CDN",
         "permaCache": "caché permanente",
@@ -1996,7 +1996,7 @@
         },
         "header": {
           "content": "Mejore el rendimiento de su sitio web y la experiencia del usuario. \nReduzca los tiempos de carga y aumente las tasas de conversión con solo unos pocos clics. \nSalta en menos de 5 minutos sin escribir una sola línea de código.",
-          "preTitle": "Optimizador de Gowaf",
+          "preTitle": "Gowaf Optimizer",
           "title": "Sitio web más rápido.  \nHecho simple."
         },
         "website": {
@@ -2103,7 +2103,7 @@
         "header": {
           "btn": "Comience la prueba GRATUITA de 14 días",
           "content": "Olvídese del almacenamiento lento de objetos y sorprenda a sus clientes con un rendimiento incomparable.  \nReplica automáticamente tus archivos en todo el mundo para minimizar tu latencia y maximizar el rendimiento de tus archivos. \nPara cada solicitud. \nEn todos lados.",
-          "preTitle": "Almacenamiento de gowaf",
+          "preTitle": "Gowaf Storage",
           "title": "El almacenamiento de objetos más rápido replicado hasta el borde"
         }
       },
@@ -2337,7 +2337,7 @@
           "btn": "Comience la prueba GRATUITA de 14 días",
           "content": "Resuelva la molestia de la entrega de vídeo integrando la transcodificación, el almacenamiento, la seguridad y el reproductor de vídeo en un paquete potente pero sencillo. \nTransmita en cualquier lugar. \n¡Sin almacenamiento en búfer!",
           "hint": "No se necesita tarjeta de crédito. \nComience en segundos.",
-          "preTitle": "Corriente de Gowaf",
+          "preTitle": "Gowaf Stream",
           "title": "Una mejor manera de entregar videos en línea"
         },
         "howStreamWorks": {
@@ -3078,7 +3078,7 @@
   "zz366p82L8ZI-aTXpyZX-": "SafeHop™ le ayuda a configurar tiempos de espera y mecanismos de reintento para su aplicación específica.",
   "-6YVE_WEiVr9F14y2Y1fH": "Términos de servicio",
   "-acsM5DRwC1wi7mvWm-pG": "Privacidad",
-  "05n379hA1Mgm8myY0n37B": "Características de Gowaf",
+  "05n379hA1Mgm8myY0n37B": "Gowaf Features",
   "0WNJ9bHRVw6Wd5QAYc9vj": "Moscú",
   "0onqLpibPAYH88CHA-_pA": "Fénix",
   "14RMsejOIl5S_7FRiKAQO": "Bakú",
