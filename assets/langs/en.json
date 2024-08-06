@@ -1360,7 +1360,6 @@
       "getInTouch": {
         "form": {
           "agree": "I have read and agree to the Gowaf",
-          "agreeHref": "#",
           "agreeLink": "Privacy Policy",
           "btnSubmit": "Lets Talk",
           "hint1": "Working on a big project?",
@@ -2198,7 +2197,6 @@
         "btn": "Contact Sales",
         "btn2": "Download Case Study",
         "content": "By leveraging Edge Storage & Gowaf CDN, Nexus Mods significantly boosted global delivery performance. Seamless integration and 24/7 Slack support, made the transition smooth and effortless.",
-        "hint": "1",
         "title": "How NexusMods improved download speeds & stability"
       },
       "numbersTitle": "Quick Overview"

@@ -58,7 +58,7 @@
             <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
             <a
               class="agree-link"
-              :href="$t('pricing.cdn.getInTouch.form.agreeHref')"
+              href="#"
             >
               {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
             </a>

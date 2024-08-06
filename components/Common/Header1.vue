@@ -86,10 +86,7 @@ withDefaults(
         </div>
         <FormCheckbox name="agree" value="1" v-if="isHidenLinkHit">
           <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-          <a
-            class="agree-link"
-            :href="$t('pricing.cdn.getInTouch.form.agreeHref')"
-          >
+          <a class="agree-link" href="#">
             {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
           </a>
         </FormCheckbox>
