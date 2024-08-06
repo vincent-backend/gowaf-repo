@@ -32,9 +32,9 @@
         :text="$t('products.stream.multiDRM.drmTable.hint')"
       />
       <div class="btn-container">
-        <a href="#" class="trail-btn">{{
+        <NuxtLink href="#" class="trail-btn">{{
           $t('products.stream.multiDRM.drmTable.btn')
-        }}</a>
+        }}</NuxtLink>
       </div>
     </div>
   </div>

@@ -34,15 +34,15 @@
               </div>
             </div>
             <div class="btn-container">
-              <a href="#" class="trail-btn">
+              <NuxtLink href="#" class="trail-btn">
                 {{ $t('products.stream.multiDRM.drmPricing.section1.btn') }}
-              </a>
+              </NuxtLink>
             </div>
             <div class="hint">
               {{ $t('products.stream.multiDRM.drmPricing.section1.hint') }}
-              <a href="#">{{
+              <NuxtLink href="#">{{
                 $t('products.stream.multiDRM.drmPricing.section1.document')
-              }}</a>
+              }}</NuxtLink>
             </div>
           </div>
           <div class="right">

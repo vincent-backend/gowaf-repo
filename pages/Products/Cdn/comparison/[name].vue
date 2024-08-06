@@ -31,10 +31,10 @@
     m-pic-height="18.72rem"
   />
   <ProductsStorageSupportPlan
-    :title="$t('products.cdn.comparison.SupportPlan.title')"
-    :sub-title="$t('products.cdn.comparison.SupportPlan.subTitle')"
-    :btn-text="$t('products.cdn.comparison.SupportPlan.btnText')"
-    :btnsub-text="$t('products.cdn.comparison.SupportPlan.btnsubText')"
+    :title="$t('k-nZkJYyPG4n2wJkwfWa3')"
+    :sub-title="$t('uGl5Gn6wQT0HB1zHyhERe')"
+    :btn-text="$t('a9f1rhEwslTmRosGmC1YS')"
+    :btnsub-text="$t('gEhA0iwr2mZJG_nBmI--A')"
   >
     <div class="Planlist">
       <div class="row-item" v-for="item in i18ntext.list">
@@ -447,12 +447,12 @@ const i18ntext = computed(() => {
 });
 
 const NameMap: any = {
-  aws: t('products.cdn.breadCrumbs.AWS'),
+  aws: 'CloudFront AWS',
   cacheFly: 'CacheFly',
   CDN77: 'CDN77',
   cloudFlare: 'CloudFlare',
-  fastly: t('products.cdn.breadCrumbs.fastly'),
-  vsakamai: t('products.cdn.breadCrumbs.vsakamai')
+  fastly: 'Fastly',
+  vsakamai: 'Akamai'
 };
 onMounted(() => {
   console.log('route.params.name', route.params.name);
@@ -477,9 +477,7 @@ const comparisonList = computed(() => {
   return i18ntext.value.comparisonList.filter(el => {
     return (
       el.key ==
-      (contrastName.value === t('products.cdn.breadCrumbs.AWS')
-        ? 'AWS'
-        : contrastName.value)
+      (contrastName.value === 'CloudFront AWS' ? 'AWS' : contrastName.value)
     );
   });
 });

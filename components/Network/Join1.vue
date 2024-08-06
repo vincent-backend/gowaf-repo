@@ -57,7 +57,7 @@ const i18ntext = computed(() => {
         <span class="s1"></span>
         <span class="s2">{{ i18ntext.subTitle[2] }}</span>
         <span class="s3">{{ i18ntext.subTitle[3] }}</span>
-        <a class="s4">{{ i18ntext.subTitle[4] }}</a>
+        <NuxtLink class="s4">{{ i18ntext.subTitle[4] }}</NuxtLink>
         <span class="s5">{{ i18ntext.subTitle[5] }}</span>
       </div>
       <div class="comment">

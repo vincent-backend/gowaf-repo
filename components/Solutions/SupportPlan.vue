@@ -31,9 +31,9 @@
               </div>
             </div>
             <div class="btn-container">
-              <a href="#" class="trail-btn">
+              <NuxtLink href="#" class="trail-btn">
                 {{ $t('solutions.videoDelivery.supportPlan.main.btn') }}
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <div class="right">

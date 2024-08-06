@@ -150,9 +150,9 @@ const i18ntext = computed<any>(() => {
             </div>
           </div>
           <div class="btn-container">
-            <a class="trail-btn" href="#">
+            <NuxtLink class="trail-btn" href="#">
               {{ $t('pricing.cdn.calculator1.btn') }}
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>

@@ -3,12 +3,16 @@
     <div class="collapse" v-if="show" v-click-outside="onClickOutside">
       <div class="menu">
         <div class="menu-item">
-          <a href="/network/overview">{{ $t('header.menus.network') }}</a>
+          <NuxtLink to="/network/overview">{{
+            $t('header.menus.network')
+          }}</NuxtLink>
         </div>
 
         <!-- Pricing -->
         <div class="menu-item">
-          <a href="/pricing/overview">{{ $t('header.menus.pricing') }}</a>
+          <NuxtLink to="/pricing/overview">{{
+            $t('header.menus.pricing')
+          }}</NuxtLink>
         </div>
 
         <!-- Products -->
@@ -18,7 +22,7 @@
           @click="activation = activation == 'Products' ? '' : 'Products'"
         >
           <div class="name">
-            <a href="#">{{ $t('header.menus.products') }}</a>
+            <NuxtLink>{{ $t('header.menus.products') }}</NuxtLink>
             <i class="icon"></i>
           </div>
         </div>
@@ -52,7 +56,7 @@
           @click="activation = activation == 'solutions' ? '' : 'solutions'"
         >
           <div class="name">
-            <a href="#">{{ $t('header.menus.solutions') }}</a>
+            <NuxtLink>{{ $t('header.menus.solutions') }}</NuxtLink>
             <i class="icon"></i>
           </div>
         </div>
@@ -89,7 +93,7 @@
           @click="activation = activation == 'resources' ? '' : 'resources'"
         >
           <div class="name">
-            <a href="#">{{ $t('header.menus.resources') }}</a>
+            <NuxtLink>{{ $t('header.menus.resources') }}</NuxtLink>
             <i class="icon"></i>
           </div>
         </div>

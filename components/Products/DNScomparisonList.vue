@@ -54,55 +54,59 @@ defineProps<{
     items: any[];
   }>;
 }>();
-const comparisonName = [
-  t('WPhL2C1pe1LecireD67V5'),
-  t('gC0bnOaoQXFL4E8IF81vN'),
-  [t('GU0g3DOglrv9refv1riBk'), t('x89ZMEWMfddib6gdA8zOQ')],
-  t('YJvMrxcxNvjmbhSRdAjLN'),
-  t('hwhw48dVM8CgDfWOy1Nlg'),
-  t('network.breadCrumbs.ddosProtection'),
-  t('omNO2TsnfEgaY8K48FnL-'),
-  t('AK1pQc4KfyFxect6tcZqx'),
-  t('products.storage.breadCrumbs.parent'),
-  'WAF',
-  t('aDZVh0hBbHvyzr0RO8wNn'),
-  t('2hIuv1-x-Jks9zYYrXJJK'),
-  t('IYJQsg9Hd3Q4FKJACLC5Z'),
-  t('zVN5je5sI8ffxBNM71Uox'),
-  t('0T_6e8gXvV4bHvM146rLB'),
-  t('E4_zDerSkb9d8UzJ_cE9S'),
-  t('6yK5j0GeA3kKRT9I8Q8DR'),
-  'API',
-  t('FHMrcofbmuq3Re--vQwJ3'),
-  t('TSoq-QMPvp6XR34h-4Tew'),
-  t('iEvrwBonVOIXORw6AqF-n')
-];
-const selflist = {
-  comparisonIcon: t('TQRz1S_WpekrrSe5IHeCQ'),
-  items: [
-    '123',
-    '24ms',
-    '$50',
-    '99.99%',
-    [true, 'Emall,Tickets.Slack,Chat'],
-    [true],
-    [true, 'Zone,URL.Wildcard,Tag'],
-    [true],
-    [true, t('4jJP8-kWbSqD2ybSlwHNC')],
-    [true, t('jPGUk_KPaq6pxAhRiGzLb')],
-    [true],
-    [true],
-    [true],
-    [true],
-    [true],
-    [true],
-    [true],
-    [true],
-    [true],
-    [true],
-    t('0Ph-qJsPCXAg4p9JbveN4')
-  ]
-};
+const comparisonName = computed(() => {
+  return [
+    t('WPhL2C1pe1LecireD67V5'),
+    t('gC0bnOaoQXFL4E8IF81vN'),
+    [t('GU0g3DOglrv9refv1riBk'), t('x89ZMEWMfddib6gdA8zOQ')],
+    t('YJvMrxcxNvjmbhSRdAjLN'),
+    t('hwhw48dVM8CgDfWOy1Nlg'),
+    t('network.breadCrumbs.ddosProtection'),
+    t('omNO2TsnfEgaY8K48FnL-'),
+    t('AK1pQc4KfyFxect6tcZqx'),
+    t('products.storage.breadCrumbs.parent'),
+    'WAF',
+    t('aDZVh0hBbHvyzr0RO8wNn'),
+    t('2hIuv1-x-Jks9zYYrXJJK'),
+    t('IYJQsg9Hd3Q4FKJACLC5Z'),
+    t('zVN5je5sI8ffxBNM71Uox'),
+    t('0T_6e8gXvV4bHvM146rLB'),
+    t('E4_zDerSkb9d8UzJ_cE9S'),
+    t('6yK5j0GeA3kKRT9I8Q8DR'),
+    'API',
+    t('FHMrcofbmuq3Re--vQwJ3'),
+    t('TSoq-QMPvp6XR34h-4Tew'),
+    t('iEvrwBonVOIXORw6AqF-n')
+  ];
+});
+const selflist = computed(() => {
+  return {
+    comparisonIcon: '/images/home/Gowaf_logo+文字.png',
+    items: [
+      '123',
+      '24ms',
+      '$50',
+      '99.99%',
+      [true, 'Emall,Tickets.Slack,Chat'],
+      [true],
+      [true, 'Zone,URL.Wildcard,Tag'],
+      [true],
+      [true, t('4jJP8-kWbSqD2ybSlwHNC')],
+      [true, t('jPGUk_KPaq6pxAhRiGzLb')],
+      [true],
+      [true],
+      [true],
+      [true],
+      [true],
+      [true],
+      [true],
+      [true],
+      [true],
+      [true],
+      t('0Ph-qJsPCXAg4p9JbveN4')
+    ]
+  };
+});
 </script>
 
 <style lang="less" scoped>

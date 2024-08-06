@@ -38,7 +38,7 @@ defineProps<{
               {{ item.content }}
             </div>
             <div class="btn-container">
-              <a :href="item.href" class="trail-btn">{{ item.btn }}</a>
+              <NuxtLink :to="item.href" class="trail-btn">{{ item.btn }}</NuxtLink>
             </div>
           </div>
           <div class="right">

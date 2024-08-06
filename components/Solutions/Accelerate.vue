@@ -55,7 +55,7 @@ const hovered = ref(-1);
         </div>
 
         <div class="btn-container" v-if="props.btn">
-          <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
+          <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
         </div>
       </div>
       <div class="right">

@@ -9,9 +9,9 @@
           {{ $t('network.overview.hop.subTitle') }}
         </div>
         <div>
-          <a href="#" class="trail-btn">
+          <NuxtLink href="#" class="trail-btn">
             {{ $t('network.overview.hop.btn') }}
-          </a>
+          </NuxtLink>
         </div>
       </div>
       <div class="right">

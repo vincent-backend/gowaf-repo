@@ -14,8 +14,8 @@
           <img :src="item.icon" alt="" :style="getStyles(item)" />
         </div>
         <div>
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.content }}</p>
+          <h3 v-html="item.title"></h3>
+          <p v-html="item.content"></p>
         </div>
       </div>
       <div class="controls">

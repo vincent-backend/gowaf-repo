@@ -159,9 +159,9 @@ const i18ntext = computed(() => {
       </div>
       <div class="right">
         <div class="btn-container">
-          <a href="#" class="btn">
+          <NuxtLink class="btn">
             {{ $t('footer.footer1.btn') }}
-          </a>
+          </NuxtLink>
         </div>
         <div class="btn-hint">
           {{ $t('footer.footer1.hint') }}
@@ -177,15 +177,19 @@ const i18ntext = computed(() => {
       <div class="content">
         <div class="left">
           <div class="hot-links">
-            <a v-for="item in i18ntext.hotlinks" :href="item.link" class="link">
+            <NuxtLink
+              v-for="item in i18ntext.hotlinks"
+              :to="item.link"
+              class="link"
+            >
               {{ item.label }}
-            </a>
+            </NuxtLink>
           </div>
           <div class="shortcuts-container">
             <dl class="shortcuts" v-for="item in i18ntext.shortcuts">
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
-                <a :href="item2.href">{{ item2.label }}</a>
+                <NuxtLink :to="item2.href">{{ item2.label }}</NuxtLink>
               </dd>
             </dl>
           </div>
@@ -194,9 +198,9 @@ const i18ntext = computed(() => {
           <!-- laptop only -->
           <LgOnly>
             <div class="links">
-              <a v-for="item in i18ntext.links" :href="item.link">
+              <NuxtLink v-for="item in i18ntext.links" :to="item.link">
                 {{ item.label }}
-              </a>
+              </NuxtLink>
             </div>
             <div class="copyright">
               {{ $t('footer.footer2.copyright') }}
@@ -213,19 +217,19 @@ const i18ntext = computed(() => {
                 {{ $t('footer.footer2.section1Content') }}
               </div>
               <div class="contacts">
-                <a href="#" class="contact">
+                <NuxtLink class="contact">
                   <span class="icon icon-email"></span>
                   sales@Gowaf
-                </a>
-                <a href="#" class="contact">
+                </NuxtLink>
+                <NuxtLink class="contact">
                   <span class="icon icon-phone"></span>
                   +1-339-300-4270
-                </a>
+                </NuxtLink>
               </div>
               <div class="btn-container">
-                <a href="#" class="trail-btn">{{
+                <NuxtLink class="trail-btn">{{
                   $t('resources.caseStudiesDetailsEskimi.header.btn')
-                }}</a>
+                }}</NuxtLink>
               </div>
             </div>
           </div>
@@ -238,9 +242,9 @@ const i18ntext = computed(() => {
                 {{ $t('footer.footer2.section2Content') }}
               </div>
               <div class="social-icons">
-                <a href="#" class="social-icon social-icon-1"></a>
-                <a href="#" class="social-icon social-icon-2"></a>
-                <a href="#" class="social-icon social-icon-3"></a>
+                <NuxtLink class="social-icon social-icon-1"></NuxtLink>
+                <NuxtLink class="social-icon social-icon-2"></NuxtLink>
+                <NuxtLink class="social-icon social-icon-3"></NuxtLink>
               </div>
             </div>
           </div>
@@ -250,9 +254,9 @@ const i18ntext = computed(() => {
           <XsOnly>
             <Line top="0" m-top="3.13rem" />
             <div class="links">
-              <a v-for="item in i18ntext.links" :href="item.link">
+              <NuxtLink v-for="item in i18ntext.links" :to="item.link">
                 {{ item.label }}
-              </a>
+              </NuxtLink>
             </div>
             <div class="copyright">
               {{ $t('footer.footer2.copyright') }}

@@ -27,9 +27,9 @@
               </div>
             </div>
             <div class="btn-container">
-              <a href="#" class="trail-btn">
+              <NuxtLink href="#" class="trail-btn">
                 {{ $t('pricing.cdn.supportPlan.content.btn') }}
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <div class="right">

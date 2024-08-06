@@ -42,7 +42,7 @@ defineProps<{
         <img :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
         <span class="clolorFA9B3B">{{ drmCustomer.contentMid }}</span>
         {{ drmCustomer.contentP }}
-        <a href="#">{{ drmCustomer.contentLink }}</a>
+        <NuxtLink href="#">{{ drmCustomer.contentLink }}</NuxtLink>
         {{ drmCustomer.contentLast }}
       </p>
       <div class="list">

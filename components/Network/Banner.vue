@@ -966,14 +966,13 @@ const i18ntext = computed(() => {
   <div class="banner-container">
     <div class="page-container banner">
       <div class="tabs">
-        <a
-          href="#"
+        <NuxtLink
           v-for="(tab, index) in i18ntext"
           :class="{ current: index === curTab }"
           @click.prevent="curTab = index"
         >
           {{ tab }}
-        </a>
+        </NuxtLink>
       </div>
       <div class="content">
         <div class="title-0">

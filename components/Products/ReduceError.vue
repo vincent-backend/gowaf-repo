@@ -1,39 +1,27 @@
 <template>
   <div class="reduce-error-container">
     <div class="reduce-error page-container">
-      <div class="title">
-        {{ $t('products.cdn.safeHop.reduceError.title') }}
-      </div>
+      <div class="title">{{ $t('TMJaokFXMwUGXGHMs9Xne') }}</div>
       <div class="sub-title">
-        {{ $t('products.cdn.safeHop.reduceError.subTitle') }}
+        {{ $t('V4FquxBF0-Qxi2PVN4hdI') }}
       </div>
       <div class="content">
         <div class="pic-l">
-          <div class="title">
-            {{ $t('products.cdn.safeHop.reduceError.picL.title') }}
-          </div>
-          <div class="sub-title">
-            {{ $t('products.cdn.safeHop.reduceError.picL.content') }}
-          </div>
+          <div class="title">CDN</div>
+          <div class="sub-title">{{ $t('Ufmpf1_cbCWT-bQ14I5lh') }}</div>
         </div>
         <div class="label-1">
-          <div class="title">
-            {{ $t('products.cdn.safeHop.reduceError.picRT.title') }}
-          </div>
-          <div class="sub-title">
-            {{ $t('products.cdn.safeHop.reduceError.picRT.content') }}
-          </div>
+          <div class="title">{{ $t('NZC2X8xxar0BjJx357fb0') }}</div>
+          <div class="sub-title">{{ $t('Q7A3xk5WCclIog1SurB_B') }}</div>
         </div>
         <div class="label-2">
-          <div class="title">
-            {{ $t('products.cdn.safeHop.reduceError.picRB.title') }}
-          </div>
-          <div class="sub-title">
-            {{ $t('products.cdn.safeHop.reduceError.picRB.content') }}
-          </div>
+          <div class="title">{{ $t('LJaqt5mptUslZKk6Cnn_2') }}</div>
+          <div class="sub-title">{{ $t('Ci89qa6ZLlKOab3a5PcfJ') }}</div>
         </div>
       </div>
-      <div class="hint">{{ $t('products.cdn.safeHop.reduceError.hint') }}</div>
+      <div class="hint">
+        {{ $t('sWsZrHWTWa9SrBq64cr0z') }}
+      </div>
     </div>
   </div>
 </template>

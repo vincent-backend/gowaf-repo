@@ -9,9 +9,9 @@
           {{ $t('network.ddos.stayProtectAlways.subTitle') }}
         </div>
         <div class="btn-container">
-          <a href="#" class="trail-btn">{{
+          <NuxtLink href="#" class="trail-btn">{{
             $t('network.ddos.stayProtectAlways.btn')
-          }}</a>
+          }}</NuxtLink>
         </div>
       </div>
       <div class="right">

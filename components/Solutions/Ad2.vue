@@ -42,7 +42,7 @@ const props = defineProps({
         ></div>
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
-          <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
+          <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
           <div class="btn-sub">{{ props.btnSubtext }}</div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const props = defineProps({
 
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
-          <a :href="props.href" class="trail-btn">{{ props.btn }}</a>
+          <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
           <div class="btn-sub">{{ props.btnSubtext }}</div>
         </div>
       </div>

@@ -57,7 +57,7 @@ const curTab = ref(0);
                 {{ text }}
               </p>
             </div>
-            <a href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</a>
+            <NuxtLink class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLink>
           </div>
           <div class="job-items-list" v-if="isList">
             <ul>

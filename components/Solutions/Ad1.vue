@@ -23,7 +23,7 @@ defineProps<
         <div class="title">{{ title }}</div>
         <div class="sub-title">{{ subTitle }}</div>
         <div class="btn-container">
-          <a :href="href" class="trail-btn" v-if="btn">{{ btn }}</a>
+          <NuxtLink :to="href" class="trail-btn" v-if="btn">{{ btn }}</NuxtLink>
         </div>
       </div>
       <div class="right">

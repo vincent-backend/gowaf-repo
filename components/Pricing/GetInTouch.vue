@@ -88,12 +88,12 @@
             <FormItem>
               <FormCheckbox name="agree" value="1">
                 <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-                <a
+                <NuxtLink
                   class="agree-link"
                   href="#"
                 >
                   {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
-                </a>
+                </NuxtLink>
               </FormCheckbox>
             </FormItem>
           </FormRow>
@@ -109,9 +109,9 @@
           <span class="hint1">{{
             $t('pricing.cdn.getInTouch.form.hint1')
           }}</span>
-          <a href="#" class="hint2">{{
+          <NuxtLink href="#" class="hint2">{{
             $t('pricing.cdn.getInTouch.form.hint2')
-          }}</a>
+          }}</NuxtLink>
         </div>
       </div>
     </div>

@@ -57,24 +57,26 @@ withDefaults(
         <div class="content" v-if="content">{{ content }}</div>
         <div class="header1-input-container" v-if="inputPlaceholder">
           <FormInput name="email" :placeholder="inputPlaceholder" />
-          <a
-            :href="href"
+          <NuxtLink
+            :to="href"
             class="trail-btn"
             v-if="btn"
             style="margin-top: 0; margin-left: 14px"
-            >{{ btn }}</a
           >
+            {{ btn }}
+          </NuxtLink>
         </div>
         <div v-else>
-          <a
-            :href="href"
+          <NuxtLink
+            :to="href"
             class="trail-btn"
             v-if="btn2"
             style="margin-right: 10px"
-            >{{ btn2 }}</a
           >
-          <a
-            :href="href"
+            {{ btn2 }}
+          </NuxtLink>
+          <NuxtLink
+            :to="href"
             class="trail-btn"
             v-if="btn"
             :style="
@@ -82,13 +84,13 @@ withDefaults(
             "
           >
             {{ btn }}
-          </a>
+          </NuxtLink>
         </div>
         <FormCheckbox name="agree" value="1" v-if="isHidenLinkHit">
           <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-          <a class="agree-link" href="#">
+          <NuxtLink class="agree-link">
             {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
-          </a>
+          </NuxtLink>
         </FormCheckbox>
         <div class="hint" v-if="hint && !isHidenLinkHit">{{ hint }}</div>
       </div>

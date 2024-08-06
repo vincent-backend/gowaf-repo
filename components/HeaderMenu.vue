@@ -11,7 +11,7 @@ const Product = ref<any>({});
 const Resources = ref<any>({});
 
 const mouseover = (type: string, obj: any) => {
-  if (type == t('cSbtp8sH6sW9lDGR7FDj3')) {
+  if (type == 'Product') {
     Product.value = obj;
   } else {
     Resources.value = obj;
@@ -82,17 +82,21 @@ const i18ntext = computed(() => {
   <div class="menu">
     <!-- Network -->
     <div class="menu-item">
-      <a href="/network/overview">{{ $t('header.menus.network') }}</a>
+      <NuxtLink to="/network/overview">{{
+        $t('header.menus.network')
+      }}</NuxtLink>
     </div>
 
     <!-- Pricing -->
     <div class="menu-item">
-      <a href="/pricing/overview">{{ $t('header.menus.pricing') }}</a>
+      <NuxtLink to="/pricing/overview">{{
+        $t('header.menus.pricing')
+      }}</NuxtLink>
     </div>
 
     <!-- Products -->
     <div class="menu-item" ref="ProductsRef">
-      <a href="#">{{ $t('header.menus.products') }}</a>
+      <NuxtLink>{{ $t('header.menus.products') }}</NuxtLink>
       <i class="icon"></i>
     </div>
     <el-popover
@@ -107,35 +111,34 @@ const i18ntext = computed(() => {
       <div class="menu-level-1">
         <div class="ul-menu">
           <div class="submenu-title">{{ $t('header.menus.products') }}</div>
-          <a
+          <NuxtLink
             class="item-level-1"
             v-for="(item, index) in ProductsMenu($t, $route.path)"
             :key="index"
             @mouseover="mouseover('Product', item)"
             :class="{ 'is-active': item.label == Product.label }"
-            href="#"
           >
             {{ item.label }}
             <div class="arrow-icon"></div>
-          </a>
+          </NuxtLink>
         </div>
         <div class="current-menu">
           <div class="submenu-title">{{ Product.label }}</div>
-          <a
+          <NuxtLink
             v-for="(p, index) in Product.children"
             :key="index"
-            :href="p.href"
+            :to="p.href"
             class="item-level-1"
           >
             {{ p.label }}
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </el-popover>
 
     <!-- Solutions -->
     <div class="menu-item" ref="solutionsRef">
-      <a href="#">{{ $t('header.menus.solutions') }}</a>
+      <NuxtLink>{{ $t('header.menus.solutions') }}</NuxtLink>
       <i class="icon"></i>
     </div>
     <el-popover
@@ -165,7 +168,7 @@ const i18ntext = computed(() => {
               </div>
               <div class="list">
                 <template v-for="item2 in item.items">
-                  <a href="#" class="item-with-icon" v-if="item2.icon">
+                  <NuxtLink class="item-with-icon" v-if="item2.icon">
                     <div
                       class="icon"
                       :style="{ backgroundImage: `url(${item2.icon})` }"
@@ -174,15 +177,15 @@ const i18ntext = computed(() => {
                       {{ item2.title }}
                     </div>
                     <div class="arrow-icon"></div>
-                  </a>
-                  <a href="#" class="item-without-icon" v-else>
+                  </NuxtLink>
+                  <NuxtLink class="item-without-icon" v-else>
                     <div class="title">
                       {{ item2.title }}
                     </div>
                     <div class="sub-title">
                       {{ item2.subTitle }}
                     </div>
-                  </a>
+                  </NuxtLink>
                 </template>
               </div>
             </div>
@@ -197,7 +200,7 @@ const i18ntext = computed(() => {
 
     <!-- Resources -->
     <div class="menu-item" ref="ResourcesRef">
-      <a href="#">{{ $t('header.menus.resources') }}</a>
+      <NuxtLink>{{ $t('header.menus.resources') }}</NuxtLink>
       <i class="icon"></i>
     </div>
     <el-popover
@@ -212,17 +215,17 @@ const i18ntext = computed(() => {
       <div class="menu-level-1 menu-level-2">
         <div class="ul-menu">
           <div class="submenu-title">{{ $t('header.menus.resources') }}</div>
-          <a
+          <NuxtLink
             class="item-level-1"
             v-for="(item, index) in ResourcesMenu($t, $route.path)"
             :key="index"
             @mouseover="mouseover('Resources', item)"
             :class="{ 'is-active': item.label == Resources.label }"
-            :href="item.href"
+            :to="item.href"
           >
             {{ item.label }}
             <div class="arrow-icon"></div>
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </el-popover>

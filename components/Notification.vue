@@ -4,7 +4,7 @@ const visible = ref(true);
 
 <template>
   <div class="notification-container" v-if="visible">
-    <a href="#" class="close" @click="visible = false"></a>
+    <NuxtLink class="close" @click="visible = false"></NuxtLink>
     <div class="logo-container">
       <div class="logo"></div>
     </div>
@@ -31,8 +31,7 @@ const visible = ref(true);
   width: 269px;
   height: 122px;
 
-  background:
-    url(/public/images/home/suspension_bg_team.png) left no-repeat,
+  background: url(/public/images/home/suspension_bg_team.png) left no-repeat,
     linear-gradient(
       180deg,
       #59cfcf 0%,

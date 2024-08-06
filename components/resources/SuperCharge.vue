@@ -49,9 +49,9 @@ const curTab = ref(0);
           <div class="content">
             <p>{{ tab.content }}</p>
           </div>
-          <a v-if="!isMobile && tab.btn" href="#" class="trail-btn">{{
+          <NuxtLink v-if="!isMobile && tab.btn" href="#" class="trail-btn">{{
             tab.btn
-          }}</a>
+          }}</NuxtLink>
           <div v-else class="btn-pic">
             <div
               class="icon"
@@ -61,7 +61,7 @@ const curTab = ref(0);
                 height: tab.mIconHeight
               }"
             ></div>
-            <a href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</a>
+            <NuxtLink href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLink>
           </div>
         </div>
       </div>

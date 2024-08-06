@@ -9,7 +9,7 @@
         <span class="s-2"></span>
         <span class="s-3">{{ $t('home.join2.subTitle3') }}</span>
         <span class="s-4">{{ $t('home.join2.subTitle4') }}</span>
-        <a href="#" class="s-5">{{ $t('home.join2.subTitle5') }}</a>
+        <NuxtLink class="s-5">{{ $t('home.join2.subTitle5') }}</NuxtLink>
         <span class="s-6">{{ $t('home.join2.subTitle6') }}</span>
       </div>
       <div class="list">

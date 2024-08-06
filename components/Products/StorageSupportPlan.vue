@@ -52,9 +52,9 @@
             </template>
             <slot></slot>
             <div class="btn-container">
-              <a href="#" class="trail-btn">
+              <NuxtLink href="#" class="trail-btn">
                 {{ localizedDefaults.btnText }}
-              </a>
+              </NuxtLink>
               <span v-if="localizedDefaults.btnsubText" class="btn-subtxt">{{
                 localizedDefaults.btnsubText
               }}</span>
@@ -100,12 +100,12 @@ const i18ntext = computed<any>(() => {
     {
       num: '5',
       unit: 'min',
-      title: t('solutions.storageSoftware.supportPlan.main.responseTimeTitle')
+      title: $t('solutions.storageSoftware.supportPlan.main.responseTimeTitle')
     },
     {
       num: '3',
       unit: 'hrs',
-      title: t('solutions.storageSoftware.supportPlan.main.solveTimeTitle')
+      title: $t('solutions.storageSoftware.supportPlan.main.solveTimeTitle')
     }
   ];
 });

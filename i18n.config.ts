@@ -15,17 +15,18 @@ import ptbr from './assets/langs/pt-br.json'
 import ru from './assets/langs/ru.json'
 import zhtw from './assets/langs/zh-tw.json'
 import zh from './assets/langs/zh.json'
-import Cookies from 'js-cookie'
 
 
 
 export default {
   legacy: false,
-  locale: Cookies.get('lang') || 'en',
+  locale: 'en',
   fallbackLocale: 'en',
   detectBrowserLanguage: {
     useCookie: true,
-    alwaysredirect: false,
+    alwaysRedirect: true,
+    cookieKey: 'i18n_redirected',
+    redirectOn: 'all' // recommended
   },
   messages: {
     de,

@@ -4,14 +4,13 @@
     :title="$t('products.cdn.breadCrumbs.parent')"
     :items="CDNenu($t, $route.path)"
   />
-
   <CommonHeader1
-    :pre-title="$t('products.cdn.safeHop.header.preTitle')"
-    :title="$t('products.cdn.safeHop.header.title')"
-    :content="$t('products.cdn.safeHop.header.content')"
-    :btn="$t('products.cdn.safeHop.header.btn')"
+    :pre-title="$t('wT7iUrvi0AKfHfyYzJP7w')"
+    :title="$t('LNpEOyIL0-eKWQjaW0n3O')"
+    :content="$t('v_zpIp8lAUGMl6lM9eJlb')"
+    btn="Start 14-Day FREE Trial"
     href="#"
-    :hint="$t('products.cdn.safeHop.header.hint')"
+    hint="No credit card needed. Start in seconds."
     :pic="{
       src: '/images/products/cdn/safe-hop/cdnsafehop_banner_graph@2x.png',
       w: '390px',

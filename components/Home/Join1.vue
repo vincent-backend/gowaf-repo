@@ -4,9 +4,9 @@
       <div class="title">
         {{ $t('home.join1.title') }}
       </div>
-      <a href="#" class="trail-btn">
+      <NuxtLink class="trail-btn">
         {{ $t('home.join1.btn') }}
-      </a>
+      </NuxtLink>
       <div class="sub-title">
         {{ $t('home.join1.subTitle') }}
       </div>

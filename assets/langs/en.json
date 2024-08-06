@@ -298,7 +298,7 @@
   "9TzdslRNiBFUIyjUgZCbU": "Bangalore, IN",
   "9UU9RnNNG5nQRi_0oTStc": "Remote",
   "9VhYAnF_F5xuBa2IlXAyo": "IP & Geo Blocking",
-  "9W56U9jxdGAGR604wEasb": "Building a Better Future.\\nFor everyone.",
+  "9W56U9jxdGAGR604wEasb": "Building a Better Future. \nFor everyone.",
   "9WRQ-H_ECOJ4e4RHTbOq0": "for regular game updates",
   "9WX51zXtKRT3fOug9w7rB": "Secure key management",
   "9XBLkAzQzJsnmuFVLmgzU": "Bahrain, BH",
@@ -856,7 +856,6 @@
   "TO3GC9EHGD09686dKK2fK": "Lagos",
   "TO9u9sT-Lh_EhhGZKP5nL": "Director of Marketing",
   "TOhNHlm5tIWit5OvZ-Ld6": "We reached 100.000+ active pull zones",
-  "TQRz1S_WpekrrSe5IHeCQ": "/images/home/Gowaf_logo+文字.png",
   "TRmqoLD07ZQjTD0cTsHrv": "Montreal, CA",
   "TSJDS8bUnSytfW0snO8aU": "Try out Gowaf AI Beta!",
   "TSMsbvOv2nWSQYQ8Phbkb": "NZXT came to Gowaf to save on monthly overhead and stayed for the great service. NZXT could have integrated Gowaf CDN and forgotten about it. Instead, they found a cool new power-up: our dashboard became a useful monitoring tool, helping the NZXT team to verify the success of each deployment.",
@@ -2269,8 +2268,7 @@
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop on the #1 CDN in South America"
         },
-        "calculator1": {
-        },
+        "calculator1": {},
         "exceptionalPerformance": {
           "content": "Deliver fantastic experience with 17 PoPs around Latin America.Reach users in most major cities in under 10ms.",
           "title": "Exceptional performance. For every request. Every time."
@@ -3218,5 +3216,12 @@
   "zsppIhtq9QaDs27lSg4yr": "3000+ PNIs",
   "zu7BVO-bGj-n94kBdAEh1": "Parrot Security OS is a free, open-source GNU/Linux distribution based on Debian, designed for security experts, developers, and privacy-aware people. It's a practical toolkit for cybersecurity specialists and a friendly companion for people who want to get closer to the cybersecurity world.",
   "zvDvWKvk-f38pgoYtXCWB": "Amsterdam, NL",
-  "zz366p82L8ZI-aTXpyZX-": "SafeHop™ helps you configure timeouts and retry mechanisms for your specific application."
+  "zz366p82L8ZI-aTXpyZX-": "SafeHop™ helps you configure timeouts and retry mechanisms for your specific application.",
+  "wT7iUrvi0AKfHfyYzJP7w": "Polyfill SafeHop™",
+  "sWsZrHWTWa9SrBq64cr0z": "With SafeHop, a failed request to the origin is automatically sent to the next server or re-sent to the same one after the configured delay.",
+  "V4FquxBF0-Qxi2PVN4hdI": "Improve reliability with a click of a button by reducing origin error rates by up to 80%. Easily work around software restarts, network hiccups, or hardware issues.",
+  "k-nZkJYyPG4n2wJkwfWa3": "Why bunny.net is a better choice",
+  "uGl5Gn6wQT0HB1zHyhERe": "There is a reason why over 40.000+customers already love bunny.net.",
+  "a9f1rhEwslTmRosGmC1YS": "Start 14 - day FREE Trial",
+  "gEhA0iwr2mZJG_nBmI--A": "No credit card required – Get started in seconds."
 }

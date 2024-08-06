@@ -6,9 +6,9 @@
     </div>
     <div class="pic"></div>
     <div class="btn-container">
-      <a href="#" class="trail-btn">
+      <NuxtLink href="#" class="trail-btn">
         {{ localizedDefaults.btnText }}
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>

@@ -37,9 +37,9 @@
             {{ $t('products.cdn.overview.connectDirectly.content.content2') }}
           </div>
           <div class="btn-container">
-            <a href="#" class="trail-btn">{{
+            <NuxtLink href="#" class="trail-btn">{{
               $t('products.cdn.overview.connectDirectly.content.btn')
-            }}</a>
+            }}</NuxtLink>
           </div>
         </div>
       </div>

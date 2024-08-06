@@ -29,23 +29,23 @@ defineProps<{
       </LgOnly>
       <div class="links">
         <template v-for="item in items">
-          <a
+          <NuxtLink
             v-if="!item.children"
-            :href="item.href"
+            :to="item.href"
             :class="{ dropdownCurrent: item.current }"
           >
             {{ item.label }}
-          </a>
+          </NuxtLink>
           <el-dropdown v-else>
-            <a class="dropdown-link" :class="{ dropdownCurrent: item.current }">
+            <NuxtLink class="dropdown-link" :class="{ dropdownCurrent: item.current }">
               {{ item.label }} <el-icon size="12"><ArrowDown /></el-icon>
-            </a>
+            </NuxtLink>
             <template #dropdown>
               <el-dropdown-menu>
                 <el-dropdown-item v-for="(d, i) in item.children" :key="i">
-                  <a :href="d.href" :class="{ dropdownCurrent: d.current }">
+                  <NuxtLink :to="d.href" :class="{ dropdownCurrent: d.current }">
                     {{ d.label }}
-                  </a>
+                  </NuxtLink>
                 </el-dropdown-item>
               </el-dropdown-menu>
             </template>

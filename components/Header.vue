@@ -5,7 +5,7 @@ const isHome = route.path === '/';
 const alertVisible = ref(isHome);
 const ProductsPopoverRef = ref();
 const show = ref(false);
-const { locale, messages, setLocale } = useI18n();
+const { locale, messages, setLocale, setLocaleCookie } = useI18n();
 
 const handleBack = () => {
   window.history.back();
@@ -33,10 +33,9 @@ const options = [
 ];
 const changeLang = async (item: any) => {
   showText.value = item.text;
-  locale.value = item.href
+  locale.value = item.href;
   setLocale(item.href);
-  const nuxtData = useNuxtApp();
-  nuxtData.$i18n.setLocaleCookie(item.href);
+  setLocaleCookie(item.href);
   ProductsPopoverRef.value.hide();
 };
 
@@ -49,15 +48,15 @@ const showText = ref<string>('EN');
     <div class="header page-container">
       <LgOnly>
         <div class="left">
-          <a href="/" class="logo"></a>
+          <NuxtLink to="/" class="logo"></NuxtLink>
         </div>
       </LgOnly>
       <XsOnly>
         <div class="left" v-if="isHome">
-          <a href="/" class="logo"></a>
+          <NuxtLink to="/" class="logo"></NuxtLink>
         </div>
         <div class="left" v-else>
-          <a href="#" class="back" @click.prevent="handleBack"></a>
+          <NuxtLink class="back" @click.prevent="handleBack"></NuxtLink>
         </div>
         <div class="home-title-text">
           {{ $route.meta.title }}
@@ -70,13 +69,15 @@ const showText = ref<string>('EN');
         <div class="right">
           <HeaderMenu />
           <div class="buttons-container">
-            <a href="/login" class="button button-login">
+            <NuxtLink to="/login" class="button button-login">
               {{ $t('header.login') }}
-            </a>
-            <a href="/forgot" class="button button-get-started">
+            </NuxtLink>
+            <NuxtLink to="/forgot" class="button button-get-started">
               {{ $t('header.getStarted') }}
-            </a>
-            <a class="button button-lang" ref="ProductsRef"> {{ showText }} </a>
+            </NuxtLink>
+            <NuxtLink class="button button-lang" ref="ProductsRef">
+              {{ showText }}
+            </NuxtLink>
             <el-popover
               ref="ProductsPopoverRef"
               popper-class="popper-menu"
@@ -104,7 +105,7 @@ const showText = ref<string>('EN');
       <!-- for mobile -->
       <XsOnly>
         <div class="right">
-          <a href="#" class="menu-icon" @click="show = !show"></a>
+          <NuxtLink class="menu-icon" @click="show = !show"></NuxtLink>
         </div>
       </XsOnly>
     </div>
@@ -116,12 +117,15 @@ const showText = ref<string>('EN');
           {{ $t('header.alert.text') }}
         </span>
         <span class="rocket"></span>
-        <a href="/bookmeeting" class="btn">
+        <NuxtLink to="/bookmeeting" class="btn">
           {{ $t('header.alert.btn') }}
-        </a>
+        </NuxtLink>
       </div>
       <div class="right">
-        <a href="#" class="close" @click.prevent="alertVisible = false"></a>
+        <NuxtLink
+          class="close"
+          @click.prevent="alertVisible = false"
+        ></NuxtLink>
       </div>
     </div>
   </div>
