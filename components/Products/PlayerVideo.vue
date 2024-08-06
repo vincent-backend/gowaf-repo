@@ -36,7 +36,6 @@ const localizedDefaults: any = computed(() => {
     btnText: $t('products.stream.mediaCage.player2.btn'),
     icon: '/images/products/stream/player/player-1@2x.png'
   };
-  console.log('localizedDefaults:any -> props', props);
   return mergeWithDefaults(obj, props);
 });
 </script>
