@@ -61,7 +61,7 @@ withDefaults(
       .map {
         width: 896px;
         height: 512px;
-        background: url(/public/images/pricing/storage/home_map.png);
+        background: url(/images/pricing/storage/home_map.png);
         background-size: 100% 100%;
         position: relative;
 

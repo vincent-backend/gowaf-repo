@@ -92,7 +92,7 @@
       margin-top: 60px;
 
       height: 1041px;
-      background: url(/public/images/products/stream/multi-drm/stream_mulitdrm_3_img@2x.png)
+      background: url(/images/products/stream/multi-drm/stream_mulitdrm_3_img@2x.png)
         center;
       background-size: 1508px 1041px;
       position: relative;

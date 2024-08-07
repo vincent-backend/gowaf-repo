@@ -6,9 +6,9 @@
     </div>
     <div class="pic"></div>
     <div class="btn-container">
-      <NuxtLink href="#" class="trail-btn">
+      <NuxtLinkLocale href="#" class="trail-btn">
         {{ localizedDefaults.btnText }}
-      </NuxtLink>
+      </NuxtLinkLocale>
     </div>
   </div>
 </template>
@@ -107,7 +107,7 @@ const localizedDefaults: any = computed(() => {
       margin: 3rem auto 0;
       width: 100%;
       height: 24.25rem;
-      background: url(/public/images/products/stream/player/player-1@2x.png);
+      background: url(/images/products/stream/player/player-1@2x.png);
     }
 
     > .btn-container {

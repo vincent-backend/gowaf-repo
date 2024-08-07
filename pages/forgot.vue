@@ -3,7 +3,7 @@
     <LgOnly>
       <div class="page-container">
         <div class="logo-header">
-          <img src="/public/images/home/Gowaf_logo+文字.png" alt="" />
+          <img src="/images/home/Gowaf_logo+文字.png" alt="" />
         </div>
         <div class="body">
           <HomeForgotleftList />
@@ -57,7 +57,7 @@ const showType = ref('login');
 .bg {
   width: 100vw;
   height: 100vh;
-  background: url('/public/images/home/home_banner_bg@2x.png');
+  background: url('/images/home/home_banner_bg@2x.png');
   background-size: 1920px 800px;
   .page-container {
     height: 100%;

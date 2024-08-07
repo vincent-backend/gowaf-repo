@@ -15,14 +15,14 @@ defineModel('curTab', {
 <template>
   <div class="tabs-container">
     <div class="tabs">
-      <NuxtLink
+      <NuxtLinkLocale
         v-for="(tab, index) in tabs"
         class="tab"
         :class="{ current: index === curTab }"
         @click.prevent="$emit('update:curTab', index)"
       >
         {{ tab.tab }}
-      </NuxtLink>
+      </NuxtLinkLocale>
     </div>
   </div>
 </template>

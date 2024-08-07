@@ -42,7 +42,7 @@ defineProps<{
         <img :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
         <span class="clolorFA9B3B">{{ drmCustomer.contentMid }}</span>
         {{ drmCustomer.contentP }}
-        <NuxtLink href="#">{{ drmCustomer.contentLink }}</NuxtLink>
+        <NuxtLinkLocale href="#">{{ drmCustomer.contentLink }}</NuxtLinkLocale>
         {{ drmCustomer.contentLast }}
       </p>
       <div class="list">
@@ -118,7 +118,7 @@ defineProps<{
       left: 0;
       width: 148px;
       height: 70px;
-      background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
+      background: url(/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
         no-repeat 0 0;
       background-size: 148px 70px;
     }
@@ -129,7 +129,7 @@ defineProps<{
       right: 1px;
       width: 148px;
       height: 70px;
-      background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
+      background: url(/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
         no-repeat 0 0;
       background-size: 148px 70px;
       z-index: 0;
@@ -248,7 +248,7 @@ defineProps<{
         .star {
           width: 36px;
           height: 36px;
-          background: url(/public/images/network/Network_Overview_ic_star.png);
+          background: url(/images/network/Network_Overview_ic_star.png);
         }
         span {
           display: block;
@@ -305,7 +305,7 @@ defineProps<{
         left: 0;
         width: 9.25rem;
         height: 4.38rem;
-        background: url(/public/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
+        background: url(/images/products/stream/multi-drm/Network_Overview_evaluate_bg_point_1@2x.png)
           no-repeat 0 0;
         background-size: 9.25rem 4.38rem;
         z-index: 10;
@@ -428,7 +428,7 @@ defineProps<{
           .star {
             width: 2.5rem;
             height: 2.5rem;
-            background: url(/public/images/network/Network_Overview_ic_star.png);
+            background: url(/images/network/Network_Overview_ic_star.png);
           }
           span {
             display: block;

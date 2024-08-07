@@ -161,7 +161,7 @@ const i18ntext = computed(() => {
     display: block;
     width: 15.38rem;
     height: 9rem;
-    background: url(/public/images/resources/story/Resources_Story_card_bg_2x.png);
+    background: url(/images/resources/story/Resources_Story_card_bg_2x.png);
     background-size: 100% 100%;
   }
   h4 {

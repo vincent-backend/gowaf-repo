@@ -33,7 +33,7 @@ definePageMeta({
 .header-container {
   height: 350px;
   min-width: 1200px;
-  background: url(/public/images/book-meeting/banner.png) no-repeat center;
+  background: url(/images/book-meeting/banner.png) no-repeat center;
   background-size: 1920px 350px;
 
   .header {
@@ -48,7 +48,7 @@ definePageMeta({
       .logo {
         width: 112px;
         height: 32px;
-        background: url(/public/images/book-meeting/logo.png);
+        background: url(/images/book-meeting/logo.png);
       }
     }
 

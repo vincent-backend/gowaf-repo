@@ -80,7 +80,7 @@ defineProps<{
       .item {
         width: 330px;
         height: 380px;
-        background: url(/public/images/network/Network_DDoS_card_bg.png)
+        background: url(/images/network/Network_DDoS_card_bg.png)
             no-repeat top,
           #ffffff;
         background-size: 330px 200px !important;

@@ -65,7 +65,7 @@ defineProps<{
         width: 330px;
         height: 200px;
         background:
-          url(/public/images/network/Network_DDoS_card_bg.png) no-repeat top,
+          url(/images/network/Network_DDoS_card_bg.png) no-repeat top,
           #ffffff;
         box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;

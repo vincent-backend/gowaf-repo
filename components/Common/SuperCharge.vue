@@ -57,7 +57,7 @@ const curTab = ref(0);
                 {{ text }}
               </p>
             </div>
-            <NuxtLink class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLink>
+            <NuxtLinkLocale class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLinkLocale>
           </div>
           <div class="job-items-list" v-if="isList">
             <ul>
@@ -132,7 +132,7 @@ const curTab = ref(0);
 
             width: 138px;
             height: 28px;
-            background-image: url(/public/images/solutions/security-cdn/home_card_tag_bg@2x.png);
+            background-image: url(/images/solutions/security-cdn/home_card_tag_bg@2x.png);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -298,7 +298,7 @@ const curTab = ref(0);
               margin-left: 0;
               width: 9.38rem;
               height: 1.88rem;
-              background-image: url(/public/images/solutions/security-cdn/home_card_tag_bg@2x.png);
+              background-image: url(/images/solutions/security-cdn/home_card_tag_bg@2x.png);
               background-size: cover;
               display: flex;
               align-items: center;

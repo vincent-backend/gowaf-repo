@@ -88,12 +88,12 @@
         <FormItem>
           <FormCheckbox name="agree" value="1">
             <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-            <NuxtLink
+            <NuxtLinkLocale
               class="agree-link"
               href="#"
             >
               {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
-            </NuxtLink>
+            </NuxtLinkLocale>
           </FormCheckbox>
         </FormItem>
       </FormRow>

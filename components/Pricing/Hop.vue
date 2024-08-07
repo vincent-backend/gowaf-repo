@@ -16,7 +16,7 @@
             </div>
           </div>
           <div class="btn-container">
-            <NuxtLink :href="item.href" class="trail-btn">{{ item.btn }}</NuxtLink>
+            <NuxtLinkLocale :href="item.href" class="trail-btn">{{ item.btn }}</NuxtLinkLocale>
           </div>
         </div>
       </div>

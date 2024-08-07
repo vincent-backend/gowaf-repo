@@ -150,9 +150,9 @@ const i18ntext = computed<any>(() => {
             </div>
           </div>
           <div class="btn-container">
-            <NuxtLink class="trail-btn" href="#">
+            <NuxtLinkLocale class="trail-btn" href="#">
               {{ $t('pricing.cdn.calculator1.btn') }}
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
         </div>
       </div>
@@ -201,7 +201,7 @@ const i18ntext = computed<any>(() => {
           margin-top: 40px;
           width: 406px;
           height: 239px;
-          background: url(/public/images/pricing/cdn/cdn_overview_calculate_img.png);
+          background: url(/images/pricing/cdn/cdn_overview_calculate_img.png);
         }
       }
 
@@ -410,7 +410,7 @@ const i18ntext = computed<any>(() => {
 
                 width: 24px;
                 height: 24px;
-                background: url(/public/images/pricing/cdn/common_price_right_wihte_ic.png);
+                background: url(/images/pricing/cdn/common_price_right_wihte_ic.png);
               }
             }
 
@@ -483,7 +483,7 @@ const i18ntext = computed<any>(() => {
             margin-top: 0;
             width: 25.38rem;
             height: 14.94rem;
-            background: url(/public/images/pricing/cdn/cdn_overview_calculate_img.png);
+            background: url(/images/pricing/cdn/cdn_overview_calculate_img.png);
           }
         }
 

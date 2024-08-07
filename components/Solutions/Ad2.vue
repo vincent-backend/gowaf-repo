@@ -42,7 +42,7 @@ const props = defineProps({
         ></div>
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
-          <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
+          <NuxtLinkLocale :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLinkLocale>
           <div class="btn-sub">{{ props.btnSubtext }}</div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const props = defineProps({
 
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
-          <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
+          <NuxtLinkLocale :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLinkLocale>
           <div class="btn-sub">{{ props.btnSubtext }}</div>
         </div>
       </div>
@@ -132,7 +132,7 @@ const props = defineProps({
             .icon-img {
               width: 100%;
               height: 100%;
-              background: url(/public/images/solutions/storage-software/home_Text_list_ic_tick@2x.png);
+              background: url(/images/solutions/storage-software/home_Text_list_ic_tick@2x.png);
             }
           }
 

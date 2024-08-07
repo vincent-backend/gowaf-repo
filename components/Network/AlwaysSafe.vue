@@ -56,7 +56,7 @@ defineProps<{
       flex-direction: column;
       height: 535px;
       gap: 20px;
-      background: url(/public/images/network/ddos/Network_DDoS_graph_2@2x.png)
+      background: url(/images/network/ddos/Network_DDoS_graph_2@2x.png)
         no-repeat bottom center;
 
       > .row {

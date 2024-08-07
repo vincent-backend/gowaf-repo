@@ -67,7 +67,7 @@
           <el-button>
             <img
               class="btn"
-              src="/public/images/network/WebTools/common_link_more@2x.png"
+              src="/images/network/WebTools/common_link_more@2x.png"
               alt=""
               srcset=""
             />

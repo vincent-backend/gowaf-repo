@@ -88,12 +88,12 @@
             <FormItem>
               <FormCheckbox name="agree" value="1">
                 <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-                <NuxtLink
+                <NuxtLinkLocale
                   class="agree-link"
                   href="#"
                 >
                   {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
-                </NuxtLink>
+                </NuxtLinkLocale>
               </FormCheckbox>
             </FormItem>
           </FormRow>
@@ -109,9 +109,9 @@
           <span class="hint1">{{
             $t('pricing.cdn.getInTouch.form.hint1')
           }}</span>
-          <NuxtLink href="#" class="hint2">{{
+          <NuxtLinkLocale href="#" class="hint2">{{
             $t('pricing.cdn.getInTouch.form.hint2')
-          }}</NuxtLink>
+          }}</NuxtLinkLocale>
         </div>
       </div>
     </div>
@@ -144,7 +144,7 @@
       > .pic {
         width: 555px;
         height: 518px;
-        background: url(/public/images/pricing/cdn/Pricing_CDN_connection_graph.png);
+        background: url(/images/pricing/cdn/Pricing_CDN_connection_graph.png);
       }
     }
 

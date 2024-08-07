@@ -34,15 +34,15 @@
               </div>
             </div>
             <div class="btn-container">
-              <NuxtLink href="#" class="trail-btn">
+              <NuxtLinkLocale href="#" class="trail-btn">
                 {{ $t('products.stream.multiDRM.drmPricing.section1.btn') }}
-              </NuxtLink>
+              </NuxtLinkLocale>
             </div>
             <div class="hint">
               {{ $t('products.stream.multiDRM.drmPricing.section1.hint') }}
-              <NuxtLink href="#">{{
+              <NuxtLinkLocale href="#">{{
                 $t('products.stream.multiDRM.drmPricing.section1.document')
-              }}</NuxtLink>
+              }}</NuxtLinkLocale>
             </div>
           </div>
           <div class="right">
@@ -250,7 +250,7 @@ const i18ntext = computed<any>(() => {
               > .icon {
                 width: 18px;
                 height: 18px;
-                background: url(/public/images/products/stream/multi-drm/multi_Text_list_ic_tick_forbidden@2x.png);
+                background: url(/images/products/stream/multi-drm/multi_Text_list_ic_tick_forbidden@2x.png);
                 background-size: 18px 18px;
               }
 
@@ -308,7 +308,7 @@ const i18ntext = computed<any>(() => {
           .pic {
             width: 582px;
             height: 582px;
-            background: url(/public/images/products/stream/multi-drm/multi_drmprcing_img@2x.png)
+            background: url(/images/products/stream/multi-drm/multi_drmprcing_img@2x.png)
               no-repeat 0 0;
             background-size: contain;
           }
@@ -324,7 +324,7 @@ const i18ntext = computed<any>(() => {
           .pic {
             width: 582px;
             height: 632px;
-            background: url(/public/images/products/stream/multi-drm/media_perfect_img@2x.png)
+            background: url(/images/products/stream/multi-drm/media_perfect_img@2x.png)
               no-repeat 0 40px;
             background-size: contain;
           }
@@ -503,7 +503,7 @@ const i18ntext = computed<any>(() => {
                 > .icon {
                   width: 2.25rem;
                   height: 2.25rem;
-                  background: url(/public/images/products/stream/multi-drm/multi_Text_list_ic_tick_forbidden@2x.png);
+                  background: url(/images/products/stream/multi-drm/multi_Text_list_ic_tick_forbidden@2x.png);
                   background-size: 2.25rem 2.25rem;
                 }
 
@@ -564,7 +564,7 @@ const i18ntext = computed<any>(() => {
             .pic {
               width: 36.38rem;
               height: 36.38rem;
-              background: url(/public/images/products/stream/multi-drm/multi_drmprcing_img@2x.png)
+              background: url(/images/products/stream/multi-drm/multi_drmprcing_img@2x.png)
                 no-repeat 0 0;
               background-size: contain;
             }
@@ -580,7 +580,7 @@ const i18ntext = computed<any>(() => {
             margin: 0 auto;
             width: 28.75rem;
             height: 30rem;
-            background: url(/public/images/products/stream/multi-drm/media_perfect_img@2x.png)
+            background: url(/images/products/stream/multi-drm/media_perfect_img@2x.png)
               no-repeat -2rem 1rem;
             background-size: contain;
           }

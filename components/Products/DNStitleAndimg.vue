@@ -100,7 +100,7 @@ defineProps<{
           .icon {
             width: 18px;
             height: 18px;
-            background: url(/public/images/home/home_Text_list_ic_tick.png)
+            background: url(/images/home/home_Text_list_ic_tick.png)
               no-repeat;
           }
           .text {
@@ -171,7 +171,7 @@ defineProps<{
             .icon {
               width: 1.75rem;
               height: 1.75rem;
-              background: url(/public/images/home/home_Text_list_ic_tick.png)
+              background: url(/images/home/home_Text_list_ic_tick.png)
                 no-repeat;
             }
             .text {

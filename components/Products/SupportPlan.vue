@@ -111,7 +111,7 @@ const i18ntext = computed<any>(() => {
       > .line {
         width: 1200px;
         height: 8px;
-        background: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        background: url(/images/pricing/cdn/Pricing_CDN_card_top_line.png);
       }
 
       > .main {
@@ -172,7 +172,7 @@ const i18ntext = computed<any>(() => {
                   content: '';
                   width: 14px;
                   height: 14px;
-                  background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                  background: url(/images/pricing/cdn/home_Text_list_ic_tick.png);
                 }
               }
 
@@ -198,7 +198,7 @@ const i18ntext = computed<any>(() => {
           .pic {
             width: 400px;
             height: 312px;
-            background: url(/public/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png)
+            background: url(/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png)
               no-repeat 0 0px;
             background-size: 400px 312px !important;
           }
@@ -319,7 +319,7 @@ const i18ntext = computed<any>(() => {
                     content: '';
                     width: 1.25rem;
                     height: 1.25rem;
-                    background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                    background: url(/images/pricing/cdn/home_Text_list_ic_tick.png);
                   }
                 }
 
@@ -344,7 +344,7 @@ const i18ntext = computed<any>(() => {
             .pic {
               width: 24.63rem;
               height: 19.5rem;
-              background: url(/public/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png)
+              background: url(/images/products/storage/europe/Pricing_Overview_banner_graph_2x.png)
                 no-repeat 0 0px;
               background-size: 24.63rem 19.5rem !important;
             }

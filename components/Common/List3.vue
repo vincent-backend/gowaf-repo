@@ -127,7 +127,7 @@ const slotfull = !!useSlots().full;
         clear: both;
         width: 561px;
         height: auto;
-        background: url(/public/images/resources/story/Resources_Story_card_bg_2x.png)
+        background: url(/images/resources/story/Resources_Story_card_bg_2x.png)
             no-repeat left top,
           #ffffff;
         background-size: 246px 144px !important;
@@ -171,7 +171,7 @@ const slotfull = !!useSlots().full;
             -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
             background: #fafafa
-              url(/public/images/resources/story/Resources_Story_node_2x.png)
+              url(/images/resources/story/Resources_Story_node_2x.png)
               no-repeat left 0;
             background-size: 18px 18px !important;
             margin-top: -25px;
@@ -256,7 +256,7 @@ const slotfull = !!useSlots().full;
           -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
           background: #fafafa
-            url(/public/images/resources/story/Resources_Story_node_2x.png)
+            url(/images/resources/story/Resources_Story_node_2x.png)
             no-repeat left 0;
           background-size: 18px 18px !important;
         }
@@ -413,7 +413,7 @@ const slotfull = !!useSlots().full;
             -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
             background: #fafafa
-              url(/public/images/resources/story/Resources_Story_node_2x.png)
+              url(/images/resources/story/Resources_Story_node_2x.png)
               no-repeat left 0;
             background-size: 1.13rem 1.13rem !important;
           }

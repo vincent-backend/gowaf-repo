@@ -27,9 +27,9 @@
               </div>
             </div>
             <div class="btn-container">
-              <NuxtLink href="#" class="trail-btn">
+              <NuxtLinkLocale href="#" class="trail-btn">
                 {{ $t('pricing.cdn.supportPlan.content.btn') }}
-              </NuxtLink>
+              </NuxtLinkLocale>
             </div>
           </div>
           <div class="right">
@@ -87,7 +87,7 @@ const i18ntext = computed<any>(() => {
         // width: 1200px;
         width: 100%;
         height: 8px;
-        background-image: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line@2x.png);
+        background-image: url(/images/pricing/cdn/Pricing_CDN_card_top_line@2x.png);
       }
 
       > .main {
@@ -146,7 +146,7 @@ const i18ntext = computed<any>(() => {
                   content: '';
                   width: 14px;
                   height: 14px;
-                  background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                  background: url(/images/pricing/cdn/home_Text_list_ic_tick.png);
                 }
               }
 
@@ -172,7 +172,7 @@ const i18ntext = computed<any>(() => {
             width: 312px;
             height: 312px;
 
-            background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
+            background: url(/images/pricing/cdn/Pricing_CDN_card_graph.png);
           }
         }
       }

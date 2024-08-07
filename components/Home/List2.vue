@@ -163,7 +163,7 @@ const features = computed(() => {
             .coming-soon {
               width: 100px;
               height: 24px;
-              background-image: url(/public/images/home/home_card_tag_bg.png);
+              background-image: url(/images/home/home_card_tag_bg.png);
               display: flex;
               align-items: center;
               justify-content: center;
@@ -228,7 +228,7 @@ const features = computed(() => {
 
               width: 9.38rem;
               height: 1.88rem;
-              background-image: url(/public/images/home/home_card_tag_bg@2x.png);
+              background-image: url(/images/home/home_card_tag_bg@2x.png);
 
               font-size: 1.25rem;
               line-height: 1.75rem;

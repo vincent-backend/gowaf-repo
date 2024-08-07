@@ -14,7 +14,7 @@
           {{ item.title }}
           <img
             class="header-icon"
-            src="/public/images/home/common_up_nor@2x.png"
+            src="/images/home/common_up_nor@2x.png"
             alt=""
             srcset=""
           />

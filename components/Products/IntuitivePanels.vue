@@ -82,7 +82,7 @@ const i18ntext = computed<any>(() => {
 <style lang="less" scoped>
 .intuitive-panels-container {
   margin-top: 90px;
-  background: url(/public/images/products/cdn/overview/cdn_overview_9_bg.png);
+  background: url(/images/products/cdn/overview/cdn_overview_9_bg.png);
   background-size: 1920px 951px;
   height: 951px;
 

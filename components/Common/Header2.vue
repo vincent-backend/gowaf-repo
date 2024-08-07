@@ -24,7 +24,7 @@ withDefaults(
   height: 710px;
   max-width: 1920px;
   margin: 0 auto;
-  background: url(/public/images/home/home_banner_bg@2x.png);
+  background: url(/images/home/home_banner_bg@2x.png);
   background-size: 1920px 800px;
   background-position: center;
   position: relative;

@@ -966,13 +966,13 @@ const i18ntext = computed(() => {
   <div class="banner-container">
     <div class="page-container banner">
       <div class="tabs">
-        <NuxtLink
+        <NuxtLinkLocale
           v-for="(tab, index) in i18ntext"
           :class="{ current: index === curTab }"
           @click.prevent="curTab = index"
         >
           {{ tab }}
-        </NuxtLink>
+        </NuxtLinkLocale>
       </div>
       <div class="content">
         <div class="title-0">
@@ -1024,7 +1024,7 @@ const i18ntext = computed(() => {
 .banner-container {
   height: 840px;
   min-width: 1200px;
-  background: url(/public/images/network/Network_Overview_map.png) no-repeat
+  background: url(/images/network/Network_Overview_map.png) no-repeat
     center;
   background-size: 1920px 840px;
 
@@ -1099,32 +1099,32 @@ const i18ntext = computed(() => {
         color: rgb(242, 32, 136);
 
         &.dot-blue {
-          background: url(/public/images/network/Network_Overview_banner_map_Europe.png)
+          background: url(/images/network/Network_Overview_banner_map_Europe.png)
             no-repeat;
         }
 
         &.dot-cyanogen {
-          background: url(/public/images/network/Network_Overview_banner_map_LATAM.png)
+          background: url(/images/network/Network_Overview_banner_map_LATAM.png)
             no-repeat;
         }
 
         &.dot-orange {
-          background: url(/public/images/network/Network_Overview_banner_map_Oceania.png)
+          background: url(/images/network/Network_Overview_banner_map_Oceania.png)
             no-repeat;
         }
 
         &.dot-green {
-          background: url(/public/images/network/Network_Overview_banner_map_Asia.png)
+          background: url(/images/network/Network_Overview_banner_map_Asia.png)
             no-repeat;
         }
 
         &.dot-yellow {
-          background: url(/public/images/network/Network_Overview_banner_map_North.png)
+          background: url(/images/network/Network_Overview_banner_map_North.png)
             no-repeat;
         }
 
         &.dot-pink {
-          background: url(/public/images/network/Network_Overview_banner_map_Middle.png)
+          background: url(/images/network/Network_Overview_banner_map_Middle.png)
             no-repeat;
         }
       }
@@ -1154,27 +1154,27 @@ const i18ntext = computed(() => {
           height: 14px;
 
           &.icon-blue {
-            background: url(/public/images/network/Network_Overview_banner_node_Europe.png);
+            background: url(/images/network/Network_Overview_banner_node_Europe.png);
           }
 
           &.icon-cyanogen {
-            background: url(/public/images/network/Network_Overview_banner_node_LATAM.png);
+            background: url(/images/network/Network_Overview_banner_node_LATAM.png);
           }
 
           &.icon-orange {
-            background: url(/public/images/network/Network_Overview_banner_node_Oceania.png);
+            background: url(/images/network/Network_Overview_banner_node_Oceania.png);
           }
 
           &.icon-green {
-            background: url(/public/images/network/Network_Overview_banner_node_Asia.png);
+            background: url(/images/network/Network_Overview_banner_node_Asia.png);
           }
 
           &.icon-yellow {
-            background: url(/public/images/network/Network_Overview_banner_node_North.png);
+            background: url(/images/network/Network_Overview_banner_node_North.png);
           }
 
           &.icon-pink {
-            background: url(/public/images/network/Network_Overview_banner_node_Middle.png);
+            background: url(/images/network/Network_Overview_banner_node_Middle.png);
           }
         }
 
@@ -1253,32 +1253,32 @@ const i18ntext = computed(() => {
         height: 72%;
         .dot {
           &.dot-blue {
-            background: url(/public/images/network/Network_Overview_banner_map_Europe.png)
+            background: url(/images/network/Network_Overview_banner_map_Europe.png)
               no-repeat;
           }
 
           &.dot-cyanogen {
-            background: url(/public/images/network/Network_Overview_banner_map_LATAM.png)
+            background: url(/images/network/Network_Overview_banner_map_LATAM.png)
               no-repeat;
           }
 
           &.dot-orange {
-            background: url(/public/images/network/Network_Overview_banner_map_Oceania.png)
+            background: url(/images/network/Network_Overview_banner_map_Oceania.png)
               no-repeat;
           }
 
           &.dot-green {
-            background: url(/public/images/network/Network_Overview_banner_map_Asia.png)
+            background: url(/images/network/Network_Overview_banner_map_Asia.png)
               no-repeat;
           }
 
           &.dot-yellow {
-            background: url(/public/images/network/Network_Overview_banner_map_North.png)
+            background: url(/images/network/Network_Overview_banner_map_North.png)
               no-repeat;
           }
 
           &.dot-pink {
-            background: url(/public/images/network/Network_Overview_banner_map_Middle.png)
+            background: url(/images/network/Network_Overview_banner_map_Middle.png)
               no-repeat;
           }
         }
@@ -1306,27 +1306,27 @@ const i18ntext = computed(() => {
             min-width: 1.31rem;
 
             &.icon-blue {
-              background: url(/public/images/network/Network_Overview_banner_node_Europe.png);
+              background: url(/images/network/Network_Overview_banner_node_Europe.png);
             }
 
             &.icon-cyanogen {
-              background: url(/public/images/network/Network_Overview_banner_node_LATAM.png);
+              background: url(/images/network/Network_Overview_banner_node_LATAM.png);
             }
 
             &.icon-orange {
-              background: url(/public/images/network/Network_Overview_banner_node_Oceania.png);
+              background: url(/images/network/Network_Overview_banner_node_Oceania.png);
             }
 
             &.icon-green {
-              background: url(/public/images/network/Network_Overview_banner_node_Asia.png);
+              background: url(/images/network/Network_Overview_banner_node_Asia.png);
             }
 
             &.icon-yellow {
-              background: url(/public/images/network/Network_Overview_banner_node_North.png);
+              background: url(/images/network/Network_Overview_banner_node_North.png);
             }
 
             &.icon-pink {
-              background: url(/public/images/network/Network_Overview_banner_node_Middle.png);
+              background: url(/images/network/Network_Overview_banner_node_Middle.png);
             }
           }
 

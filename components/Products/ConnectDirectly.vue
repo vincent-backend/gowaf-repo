@@ -37,9 +37,9 @@
             {{ $t('products.cdn.overview.connectDirectly.content.content2') }}
           </div>
           <div class="btn-container">
-            <NuxtLink href="#" class="trail-btn">{{
+            <NuxtLinkLocale href="#" class="trail-btn">{{
               $t('products.cdn.overview.connectDirectly.content.btn')
-            }}</NuxtLink>
+            }}</NuxtLinkLocale>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@ const i18ntext = computed<any>(() => {
           width: 504px;
           height: 549px;
 
-          background-image: url(/public/images/products/cdn/overview/cdn_overview_connect_img@2x.png);
+          background-image: url(/images/products/cdn/overview/cdn_overview_connect_img@2x.png);
         }
       }
 

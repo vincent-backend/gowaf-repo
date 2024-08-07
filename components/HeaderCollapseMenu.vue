@@ -3,16 +3,16 @@
     <div class="collapse" v-if="show" v-click-outside="onClickOutside">
       <div class="menu">
         <div class="menu-item">
-          <NuxtLink to="/network/overview">{{
+          <NuxtLinkLocale to="/network/overview">{{
             $t('header.menus.network')
-          }}</NuxtLink>
+          }}</NuxtLinkLocale>
         </div>
 
         <!-- Pricing -->
         <div class="menu-item">
-          <NuxtLink to="/pricing/overview">{{
+          <NuxtLinkLocale to="/pricing/overview">{{
             $t('header.menus.pricing')
-          }}</NuxtLink>
+          }}</NuxtLinkLocale>
         </div>
 
         <!-- Products -->
@@ -22,7 +22,7 @@
           @click="activation = activation == 'Products' ? '' : 'Products'"
         >
           <div class="name">
-            <NuxtLink>{{ $t('header.menus.products') }}</NuxtLink>
+            <NuxtLinkLocale>{{ $t('header.menus.products') }}</NuxtLinkLocale>
             <i class="icon"></i>
           </div>
         </div>
@@ -56,7 +56,7 @@
           @click="activation = activation == 'solutions' ? '' : 'solutions'"
         >
           <div class="name">
-            <NuxtLink>{{ $t('header.menus.solutions') }}</NuxtLink>
+            <NuxtLinkLocale>{{ $t('header.menus.solutions') }}</NuxtLinkLocale>
             <i class="icon"></i>
           </div>
         </div>
@@ -89,7 +89,7 @@
           @click="activation = activation == 'resources' ? '' : 'resources'"
         >
           <div class="name">
-            <NuxtLink>{{ $t('header.menus.resources') }}</NuxtLink>
+            <NuxtLinkLocale>{{ $t('header.menus.resources') }}</NuxtLinkLocale>
             <i class="icon"></i>
           </div>
         </div>
@@ -408,7 +408,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
   margin-left: 0.63rem;
   width: 1.75rem;
   height: 1.75rem;
-  background: url(/public/images/home/nav_ic_arrow_an.png);
+  background: url(/images/home/nav_ic_arrow_an.png);
 }
 .collapse {
   z-index: 100;
@@ -449,7 +449,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
         margin-left: 0.63rem;
         width: 1.75rem;
         height: 1.75rem;
-        background: url(/public/images/home/nav_ic_arrow_up.png);
+        background: url(/images/home/nav_ic_arrow_up.png);
       }
     }
     .menu-main {
@@ -506,7 +506,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
   margin-left: -1.18rem;
   margin-bottom: -1.18rem;
   height: 6.25rem;
-  background: url(/public/images/home/nav_popup_bot_bg@2x.png);
+  background: url(/images/home/nav_popup_bot_bg@2x.png);
   display: flex;
   background-size: 100% 100%;
   align-items: center;

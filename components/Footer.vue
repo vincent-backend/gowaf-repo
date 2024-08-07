@@ -159,9 +159,9 @@ const i18ntext = computed(() => {
       </div>
       <div class="right">
         <div class="btn-container">
-          <NuxtLink class="btn">
+          <NuxtLinkLocale class="btn">
             {{ $t('footer.footer1.btn') }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
         <div class="btn-hint">
           {{ $t('footer.footer1.hint') }}
@@ -177,19 +177,19 @@ const i18ntext = computed(() => {
       <div class="content">
         <div class="left">
           <div class="hot-links">
-            <NuxtLink
+            <NuxtLinkLocale
               v-for="item in i18ntext.hotlinks"
               :to="item.link"
               class="link"
             >
               {{ item.label }}
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
           <div class="shortcuts-container">
             <dl class="shortcuts" v-for="item in i18ntext.shortcuts">
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
-                <NuxtLink :to="item2.href">{{ item2.label }}</NuxtLink>
+                <NuxtLinkLocale :to="item2.href">{{ item2.label }}</NuxtLinkLocale>
               </dd>
             </dl>
           </div>
@@ -198,9 +198,9 @@ const i18ntext = computed(() => {
           <!-- laptop only -->
           <LgOnly>
             <div class="links">
-              <NuxtLink v-for="item in i18ntext.links" :to="item.link">
+              <NuxtLinkLocale v-for="item in i18ntext.links" :to="item.link">
                 {{ item.label }}
-              </NuxtLink>
+              </NuxtLinkLocale>
             </div>
             <div class="copyright">
               {{ $t('footer.footer2.copyright') }}
@@ -217,19 +217,19 @@ const i18ntext = computed(() => {
                 {{ $t('footer.footer2.section1Content') }}
               </div>
               <div class="contacts">
-                <NuxtLink class="contact">
+                <NuxtLinkLocale class="contact">
                   <span class="icon icon-email"></span>
                   sales@Gowaf
-                </NuxtLink>
-                <NuxtLink class="contact">
+                </NuxtLinkLocale>
+                <NuxtLinkLocale class="contact">
                   <span class="icon icon-phone"></span>
                   +1-339-300-4270
-                </NuxtLink>
+                </NuxtLinkLocale>
               </div>
               <div class="btn-container">
-                <NuxtLink class="trail-btn">{{
+                <NuxtLinkLocale class="trail-btn" to="/ContactSales">{{
                   $t('resources.caseStudiesDetailsEskimi.header.btn')
-                }}</NuxtLink>
+                }}</NuxtLinkLocale>
               </div>
             </div>
           </div>
@@ -242,9 +242,9 @@ const i18ntext = computed(() => {
                 {{ $t('footer.footer2.section2Content') }}
               </div>
               <div class="social-icons">
-                <NuxtLink class="social-icon social-icon-1"></NuxtLink>
-                <NuxtLink class="social-icon social-icon-2"></NuxtLink>
-                <NuxtLink class="social-icon social-icon-3"></NuxtLink>
+                <NuxtLinkLocale class="social-icon social-icon-1"></NuxtLinkLocale>
+                <NuxtLinkLocale class="social-icon social-icon-2"></NuxtLinkLocale>
+                <NuxtLinkLocale class="social-icon social-icon-3"></NuxtLinkLocale>
               </div>
             </div>
           </div>
@@ -254,9 +254,9 @@ const i18ntext = computed(() => {
           <XsOnly>
             <Line top="0" m-top="3.13rem" />
             <div class="links">
-              <NuxtLink v-for="item in i18ntext.links" :to="item.link">
+              <NuxtLinkLocale v-for="item in i18ntext.links" :to="item.link">
                 {{ item.label }}
-              </NuxtLink>
+              </NuxtLinkLocale>
             </div>
             <div class="copyright">
               {{ $t('footer.footer2.copyright') }}
@@ -275,7 +275,7 @@ const i18ntext = computed(() => {
 
   .footer-1 {
     height: 100%;
-    background: url(/public/images/home/home_bot_banner_bg_dot@2x.png) no-repeat
+    background: url(/images/home/home_bot_banner_bg_dot@2x.png) no-repeat
       left center;
     background-size: 1018px 190px;
     display: flex;
@@ -341,7 +341,7 @@ const i18ntext = computed(() => {
       .logo {
         width: 114px;
         height: 44px;
-        background: url(/public/images/home/Gowaf_logo+文字.png) no-repeat;
+        background: url(/images/home/Gowaf_logo+文字.png) no-repeat;
       }
     }
 
@@ -441,12 +441,12 @@ const i18ntext = computed(() => {
                   margin-right: 10px;
 
                   &.icon-email {
-                    background: url(/public/images/home/bot_ic_email@2x.png)
+                    background: url(/images/home/bot_ic_email@2x.png)
                       no-repeat;
                   }
 
                   &.icon-phone {
-                    background: url(/public/images/home/bot_ic_phone@2x.png)
+                    background: url(/images/home/bot_ic_phone@2x.png)
                       no-repeat;
                   }
                 }
@@ -485,17 +485,17 @@ const i18ntext = computed(() => {
                 height: 24px;
 
                 &.social-icon-1 {
-                  background: url(/public/images/home/bot_logo_twitter@2x.png)
+                  background: url(/images/home/bot_logo_twitter@2x.png)
                     no-repeat;
                 }
 
                 &.social-icon-2 {
-                  background: url(/public/images/home/bot_logo_face@2x.png)
+                  background: url(/images/home/bot_logo_face@2x.png)
                     no-repeat;
                 }
 
                 &.social-icon-3 {
-                  background: url(/public/images/home/nav_logo_in@2x.png)
+                  background: url(/images/home/nav_logo_in@2x.png)
                     no-repeat;
                 }
               }
@@ -574,7 +574,7 @@ const i18ntext = computed(() => {
         .logo {
           width: 10.69rem;
           height: 4.13rem;
-          background: url(/public/images/home/Gowaf_logo+文字.png) no-repeat;
+          background: url(/images/home/Gowaf_logo+文字.png) no-repeat;
         }
       }
 

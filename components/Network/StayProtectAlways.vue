@@ -9,9 +9,9 @@
           {{ $t('network.ddos.stayProtectAlways.subTitle') }}
         </div>
         <div class="btn-container">
-          <NuxtLink href="#" class="trail-btn">{{
+          <NuxtLinkLocale href="#" class="trail-btn">{{
             $t('network.ddos.stayProtectAlways.btn')
-          }}</NuxtLink>
+          }}</NuxtLinkLocale>
         </div>
       </div>
       <div class="right">
@@ -56,7 +56,7 @@
       .pic {
         width: 238px;
         height: 242px;
-        background: url(/public/images/network/ddos/Network_DDoS_banner_graph_2.png);
+        background: url(/images/network/ddos/Network_DDoS_banner_graph_2.png);
       }
     }
   }

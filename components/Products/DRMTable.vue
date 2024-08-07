@@ -32,9 +32,9 @@
         :text="$t('products.stream.multiDRM.drmTable.hint')"
       />
       <div class="btn-container">
-        <NuxtLink href="#" class="trail-btn">{{
+        <NuxtLinkLocale href="#" class="trail-btn">{{
           $t('products.stream.multiDRM.drmTable.btn')
-        }}</NuxtLink>
+        }}</NuxtLinkLocale>
       </div>
     </div>
   </div>
@@ -124,11 +124,11 @@ const i18ntext = computed<any>(() => {
             }
 
             .icon-true {
-              background-image: url(/public/images/products/stream/multi-drm/home_Text_list_ic_tick@2x.png);
+              background-image: url(/images/products/stream/multi-drm/home_Text_list_ic_tick@2x.png);
             }
 
             .icon-false {
-              background-image: url(/public/images/products/stream/multi-drm/home_Text_list_ic_close@2x.png);
+              background-image: url(/images/products/stream/multi-drm/home_Text_list_ic_close@2x.png);
             }
           }
         }
@@ -237,11 +237,11 @@ const i18ntext = computed<any>(() => {
               }
 
               .icon-true {
-                background-image: url(/public/images/products/stream/multi-drm/home_Text_list_ic_tick@2x.png);
+                background-image: url(/images/products/stream/multi-drm/home_Text_list_ic_tick@2x.png);
               }
 
               .icon-false {
-                background-image: url(/public/images/products/stream/multi-drm/home_Text_list_ic_close@2x.png);
+                background-image: url(/images/products/stream/multi-drm/home_Text_list_ic_close@2x.png);
               }
             }
           }

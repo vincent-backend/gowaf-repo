@@ -53,15 +53,15 @@ const showText = computed(() => {
     <div class="header page-container">
       <LgOnly>
         <div class="left">
-          <NuxtLink to="/" class="logo"></NuxtLink>
+          <NuxtLinkLocale to="/" class="logo"></NuxtLinkLocale>
         </div>
       </LgOnly>
       <XsOnly>
         <div class="left" v-if="isHome">
-          <NuxtLink to="/" class="logo"></NuxtLink>
+          <NuxtLinkLocale to="/" class="logo"></NuxtLinkLocale>
         </div>
         <div class="left" v-else>
-          <NuxtLink class="back" @click.prevent="handleBack"></NuxtLink>
+          <NuxtLinkLocale class="back" @click.prevent="handleBack"></NuxtLinkLocale>
         </div>
         <div class="home-title-text">
           {{ $route.meta.title }}
@@ -74,15 +74,15 @@ const showText = computed(() => {
         <div class="right">
           <HeaderMenu />
           <div class="buttons-container">
-            <NuxtLink to="/login" class="button button-login">
+            <NuxtLinkLocale to="/login" class="button button-login">
               {{ $t('header.login') }}
-            </NuxtLink>
-            <NuxtLink to="/forgot" class="button button-get-started">
+            </NuxtLinkLocale>
+            <NuxtLinkLocale to="/forgot" class="button button-get-started">
               {{ $t('header.getStarted') }}
-            </NuxtLink>
-            <NuxtLink class="button button-lang" ref="ProductsRef">
+            </NuxtLinkLocale>
+            <NuxtLinkLocale class="button button-lang" ref="ProductsRef">
               {{ showText }}
-            </NuxtLink>
+            </NuxtLinkLocale>
             <el-popover
               ref="ProductsPopoverRef"
               popper-class="popper-menu"
@@ -110,7 +110,7 @@ const showText = computed(() => {
       <!-- for mobile -->
       <XsOnly>
         <div class="right">
-          <NuxtLink class="menu-icon" @click="show = !show"></NuxtLink>
+          <NuxtLinkLocale class="menu-icon" @click="show = !show"></NuxtLinkLocale>
         </div>
       </XsOnly>
     </div>
@@ -122,15 +122,15 @@ const showText = computed(() => {
           {{ $t('header.alert.text') }}
         </span>
         <span class="rocket"></span>
-        <NuxtLink to="/bookmeeting" class="btn">
+        <NuxtLinkLocale to="/bookmeeting" class="btn">
           {{ $t('header.alert.btn') }}
-        </NuxtLink>
+        </NuxtLinkLocale>
       </div>
       <div class="right">
-        <NuxtLink
+        <NuxtLinkLocale
           class="close"
           @click.prevent="alertVisible = false"
-        ></NuxtLink>
+        ></NuxtLinkLocale>
       </div>
     </div>
   </div>
@@ -163,7 +163,7 @@ const showText = computed(() => {
         display: block;
         width: 114px;
         height: 44px;
-        background: url(/public/images/home/Gowaf_logo+文字.png);
+        background: url(/images/home/Gowaf_logo+文字.png);
       }
     }
 
@@ -276,7 +276,7 @@ const showText = computed(() => {
 
         width: 34px;
         height: 34px;
-        background: url(/public/images/home/top_popup_ic_rocket.png);
+        background: url(/images/home/top_popup_ic_rocket.png);
       }
 
       .btn {
@@ -300,7 +300,7 @@ const showText = computed(() => {
       .close {
         width: 20px;
         height: 20px;
-        background: url(/public/images/home/top_popup_ic_close_w_nor.png);
+        background: url(/images/home/top_popup_ic_close_w_nor.png);
       }
     }
   }

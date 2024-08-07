@@ -35,10 +35,10 @@ const checked = ref(false);
   .checkbox {
     width: 20px;
     height: 20px;
-    background: url(/public/images/pricing/cdn/connection_ic_cb_nor.png);
+    background: url(/images/pricing/cdn/connection_ic_cb_nor.png);
 
     &.checked {
-      background: url(/public/images/pricing/cdn/connection_ic_cb_sel.png);
+      background: url(/images/pricing/cdn/connection_ic_cb_sel.png);
     }
   }
 

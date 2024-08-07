@@ -181,7 +181,7 @@ const i18ntext = computed(() => {
         .list-2 {
           .item {
             .icon {
-              background: url(/public/images/pricing/stream/home_Text_list_ic_tick_bl.png);
+              background: url(/images/pricing/stream/home_Text_list_ic_tick_bl.png);
             }
           }
         }
@@ -207,7 +207,7 @@ const i18ntext = computed(() => {
         .list-2 {
           .item {
             .icon {
-              background: url(/public/images/pricing/stream/home_Text_list_ic_tick4.png);
+              background: url(/images/pricing/stream/home_Text_list_ic_tick4.png);
             }
           }
         }

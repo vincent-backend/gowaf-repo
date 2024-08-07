@@ -57,9 +57,9 @@
               </div>
             </div>
             <div class="btn-container">
-              <NuxtLink href="#" class="trail-btn">
+              <NuxtLinkLocale href="#" class="trail-btn">
                 {{ $t('solutions.storageSoftware.supportPlan.main.btn') }}
-              </NuxtLink>
+              </NuxtLinkLocale>
             </div>
           </div>
           <div class="right">
@@ -116,7 +116,7 @@
         width: 100%;
         height: 8px;
 
-        background: url(/public/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
+        background: url(/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
       }
 
       > .content {
@@ -179,7 +179,7 @@
 
             .response-time {
               .icon {
-                background: url(/public/images/solutions/storage-software/Solutions_Storage_Software_card_ic_5min@2x.png);
+                background: url(/images/solutions/storage-software/Solutions_Storage_Software_card_ic_5min@2x.png);
               }
 
               .right {
@@ -193,7 +193,7 @@
 
             .solve-time {
               .icon {
-                background: url(/public/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3hrs@2x.png);
+                background: url(/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3hrs@2x.png);
               }
 
               .right {
@@ -216,7 +216,7 @@
             width: 312px;
             height: 312px;
 
-            background: url(/public/images/solutions/storage-software/Pricing_CDN_card_graph@2x.png);
+            background: url(/images/solutions/storage-software/Pricing_CDN_card_graph@2x.png);
           }
         }
       }
@@ -268,7 +268,7 @@
           width: 100%;
           height: 0.6rem;
 
-          background: url(/public/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
+          background: url(/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
         }
 
         > .content {
@@ -338,7 +338,7 @@
               .response-time {
                 flex-direction: column;
                 .icon {
-                  background: url(/public/images/solutions/storage-software/Solutions_Storage_Software_card_ic_5min@2x.png);
+                  background: url(/images/solutions/storage-software/Solutions_Storage_Software_card_ic_5min@2x.png);
                 }
 
                 .right {
@@ -352,7 +352,7 @@
 
               .solve-time {
                 .icon {
-                  background: url(/public/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3hrs@2x.png);
+                  background: url(/images/solutions/storage-software/Solutions_Storage_Software_card_ic_3hrs@2x.png);
                 }
 
                 .right {
@@ -376,7 +376,7 @@
               width: 19.5rem;
               height: 19.5rem;
 
-              background: url(/public/images/solutions/storage-software/Pricing_CDN_card_graph@2x.png);
+              background: url(/images/solutions/storage-software/Pricing_CDN_card_graph@2x.png);
             }
           }
         }

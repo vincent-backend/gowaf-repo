@@ -82,7 +82,7 @@ const localizedDefaults: any = computed(() => {
         iconw: '60px',
         miconw: '3.75rem',
         title: $t('uFAZV-CZM_9iZ7Y2RkjI4'),
-        bigPic: $t('ZuCUxJlw8WRfgkmkDvTkh'),
+        bigPic: '/images/products/optimizer/TransformAPI/bigPic1.png',
         bigpicW: '804px',
         mbigpicW: ''
       },
@@ -93,7 +93,7 @@ const localizedDefaults: any = computed(() => {
         iconw: '60px',
         miconw: '3.75rem',
         title: $t('wOcKmUzdFOOLO2HHSFwGe'),
-        bigPic: $t('uiHviYfgafHCTdCxOg1kK'),
+        bigPic: '/images/products/optimizer/TransformAPI/bigPic2.png',
         bigpicW: '804px',
         mbigpicW: ''
       },
@@ -104,7 +104,7 @@ const localizedDefaults: any = computed(() => {
         iconw: '51px',
         miconw: '3.75rem',
         title: $t('C_X4pOVZrKmyCFauwaLng'),
-        bigPic: $t('h2MzrdxNnFDaVAW8qmsSO'),
+        bigPic: '/images/products/optimizer/TransformAPI/bigPic3.png',
         bigpicW: '804px',
         mbigpicW: ''
       },
@@ -115,7 +115,7 @@ const localizedDefaults: any = computed(() => {
         iconw: '60px',
         miconw: '3.75rem',
         title: $t('oOcj1Ca84Rsd-zzH0abkT'),
-        bigPic: $t('LLVlHMQwMVEy_3EdNizwZ'),
+        bigPic: '/images/products/optimizer/TransformAPI/bigPic4.png',
         bigpicW: '804px',
         mbigpicW: ''
       }

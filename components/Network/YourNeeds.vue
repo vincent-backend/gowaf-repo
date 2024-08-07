@@ -174,11 +174,11 @@ defineProps<{
                 margin-left: 10px;
 
                 &.icon-up {
-                  background: url(/public/images/network/smart-edge/SmartEdge™_ic_rise.png);
+                  background: url(/images/network/smart-edge/SmartEdge™_ic_rise.png);
                 }
 
                 &.icon-down {
-                  background: url(/public/images/network/smart-edge/SmartEdge™_ic_descend.png);
+                  background: url(/images/network/smart-edge/SmartEdge™_ic_descend.png);
                 }
               }
             }
@@ -195,7 +195,7 @@ defineProps<{
         .pic {
           width: 400px;
           height: 270px;
-          background: url(/public/images/network/smart-edge/SmartEdge™_graph_1.png);
+          background: url(/images/network/smart-edge/SmartEdge™_graph_1.png);
         }
       }
     }
@@ -209,7 +209,7 @@ defineProps<{
         .pic {
           width: 400px;
           height: 270px;
-          background: url(/public/images/network/smart-edge/SmartEdge™_graph_2.png);
+          background: url(/images/network/smart-edge/SmartEdge™_graph_2.png);
         }
       }
 

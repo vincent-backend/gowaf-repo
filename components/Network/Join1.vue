@@ -57,7 +57,7 @@ const i18ntext = computed(() => {
         <span class="s1"></span>
         <span class="s2">{{ i18ntext.subTitle[2] }}</span>
         <span class="s3">{{ i18ntext.subTitle[3] }}</span>
-        <NuxtLink class="s4">{{ i18ntext.subTitle[4] }}</NuxtLink>
+        <NuxtLinkLocale class="s4">{{ i18ntext.subTitle[4] }}</NuxtLinkLocale>
         <span class="s5">{{ i18ntext.subTitle[5] }}</span>
       </div>
       <div class="comment">
@@ -128,7 +128,7 @@ const i18ntext = computed(() => {
         display: inline-block;
         width: 20px;
         height: 20px;
-        background: url(/public/images/network/home_title_star.png);
+        background: url(/images/network/home_title_star.png);
         margin: 0 6px;
       }
 
@@ -171,7 +171,7 @@ const i18ntext = computed(() => {
         width: 148px;
         height: 70px;
         position: absolute;
-        background: url(/public/images/network/Network_Overview_evaluate_bg_point_1.png);
+        background: url(/images/network/Network_Overview_evaluate_bg_point_1.png);
         left: -93px;
         top: -42px;
       }
@@ -235,7 +235,7 @@ const i18ntext = computed(() => {
           .star {
             width: 36px;
             height: 36px;
-            background: url(/public/images/network/Network_Overview_ic_star.png);
+            background: url(/images/network/Network_Overview_ic_star.png);
           }
 
           .score {

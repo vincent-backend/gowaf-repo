@@ -59,7 +59,7 @@ const i18ntext = computed(() => {
       left: 48px;
       width: 5px;
       height: 26px;
-      background: url('/public/images/home/log_schedule@2x.png');
+      background: url('/images/home/log_schedule@2x.png');
       background-size: 100% 100%;
     }
     &:last-child {

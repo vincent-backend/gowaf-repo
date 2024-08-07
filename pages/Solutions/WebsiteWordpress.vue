@@ -58,7 +58,7 @@
       </div>
       <div class="pic" v-if="isMobile">
         <img
-          src="/public/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_2.png"
+          src="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_2.png"
         />
       </div>
     </div>

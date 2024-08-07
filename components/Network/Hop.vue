@@ -9,9 +9,9 @@
           {{ $t('network.overview.hop.subTitle') }}
         </div>
         <div>
-          <NuxtLink href="#" class="trail-btn">
+          <NuxtLinkLocale href="#" class="trail-btn">
             {{ $t('network.overview.hop.btn') }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </div>
       <div class="right">
@@ -57,7 +57,7 @@
       .pic {
         width: 300px;
         height: 300px;
-        background: url(/public/images/network/Network_Overview_banner_graph.png);
+        background: url(/images/network/Network_Overview_banner_graph.png);
       }
     }
   }

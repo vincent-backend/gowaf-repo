@@ -55,7 +55,7 @@ const i18ntext = computed(() => {
 
       width: 1102px;
       height: 368px;
-      background: url(/public/images/network/ddos/Network_DDoS_flow.png)
+      background: url(/images/network/ddos/Network_DDoS_flow.png)
         no-repeat;
     }
 
@@ -86,7 +86,7 @@ const i18ntext = computed(() => {
             content: '';
             width: 14px;
             height: 14px;
-            background: url(/public/images/network/ddos/home_Text_list_ic_tick@2x.png);
+            background: url(/images/network/ddos/home_Text_list_ic_tick@2x.png);
             background-size: cover;
           }
         }

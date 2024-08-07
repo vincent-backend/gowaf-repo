@@ -33,7 +33,7 @@
     <div class="mkt-img" v-if="!isMobile">
       <img
         class="mkt-img"
-        src="/public/images/home/编组_178@2x.png"
+        src="/images/home/编组_178@2x.png"
         alt=""
         srcset=""
       />

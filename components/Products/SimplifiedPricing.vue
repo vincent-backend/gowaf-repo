@@ -210,7 +210,7 @@ const i18ntext = computed<any>(() => {
           > .items-2 {
             > .item {
               .icon {
-                background: url(/public/images/products/stream/overview/home_Text_list_ic_tick_forbidden@2x.png);
+                background: url(/images/products/stream/overview/home_Text_list_ic_tick_forbidden@2x.png);
               }
             }
           }
@@ -237,7 +237,7 @@ const i18ntext = computed<any>(() => {
           > .items-2 {
             > .item {
               .icon {
-                background: url(/public/images/products/stream/overview/home_Text_list_ic_tick@2x.png);
+                background: url(/images/products/stream/overview/home_Text_list_ic_tick@2x.png);
               }
             }
           }
@@ -360,7 +360,7 @@ const i18ntext = computed<any>(() => {
             > .items-2 {
               > .item {
                 .icon {
-                  background: url(/public/images/products/stream/overview/home_Text_list_ic_tick_forbidden@2x.png);
+                  background: url(/images/products/stream/overview/home_Text_list_ic_tick_forbidden@2x.png);
                 }
               }
             }
@@ -387,7 +387,7 @@ const i18ntext = computed<any>(() => {
             > .items-2 {
               > .item {
                 .icon {
-                  background: url(/public/images/products/stream/overview/home_Text_list_ic_tick@2x.png);
+                  background: url(/images/products/stream/overview/home_Text_list_ic_tick@2x.png);
                 }
               }
             }

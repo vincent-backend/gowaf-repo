@@ -198,7 +198,7 @@ const i18ntext = computed<any>(() => {
               margin-right: 12px;
               width: 44px;
               height: 44px;
-              background: url(/public/images/products/stream/overview/stream_overview_ic_media@2x.png);
+              background: url(/images/products/stream/overview/stream_overview_ic_media@2x.png);
             }
           }
 
@@ -323,7 +323,7 @@ const i18ntext = computed<any>(() => {
                 margin-right: 1rem;
                 width: 4.13rem;
                 height: 4.13rem;
-                background: url(/public/images/products/stream/overview/stream_overview_ic_media@2x.png);
+                background: url(/images/products/stream/overview/stream_overview_ic_media@2x.png);
               }
             }
 

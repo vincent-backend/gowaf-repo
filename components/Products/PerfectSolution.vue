@@ -157,7 +157,7 @@ withDefaults(
       > .pic {
         width: 460px;
         height: 480px;
-        // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+        // background-image: url(/images/products/stream/media-cage/media_perfect_img@2x.png);
       }
     }
   }
@@ -182,7 +182,7 @@ withDefaults(
           margin: 0 auto;
           width: 28.75rem;
           height: 30rem;
-          // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+          // background-image: url(/images/products/stream/media-cage/media_perfect_img@2x.png);
         }
         > .content {
           margin-top: 1rem;
@@ -234,7 +234,7 @@ withDefaults(
         > .pic {
           width: 28.75rem;
           height: 30rem;
-          // background-image: url(/public/images/products/stream/media-cage/media_perfect_img@2x.png);
+          // background-image: url(/images/products/stream/media-cage/media_perfect_img@2x.png);
         }
       }
     }

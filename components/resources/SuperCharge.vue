@@ -49,9 +49,9 @@ const curTab = ref(0);
           <div class="content">
             <p>{{ tab.content }}</p>
           </div>
-          <NuxtLink v-if="!isMobile && tab.btn" href="#" class="trail-btn">{{
+          <NuxtLinkLocale v-if="!isMobile && tab.btn" href="#" class="trail-btn">{{
             tab.btn
-          }}</NuxtLink>
+          }}</NuxtLinkLocale>
           <div v-else class="btn-pic">
             <div
               class="icon"
@@ -61,7 +61,7 @@ const curTab = ref(0);
                 height: tab.mIconHeight
               }"
             ></div>
-            <NuxtLink href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLink>
+            <NuxtLinkLocale href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLinkLocale>
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@ const curTab = ref(0);
 
             width: 138px;
             height: 28px;
-            background-image: url(/public/images/solutions/security-cdn/home_card_tag_bg@2x.png);
+            background-image: url(/images/solutions/security-cdn/home_card_tag_bg@2x.png);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -218,7 +218,7 @@ const curTab = ref(0);
               margin-left: 0;
               width: 9.38rem;
               height: 1.88rem;
-              background-image: url(/public/images/solutions/security-cdn/home_card_tag_bg@2x.png);
+              background-image: url(/images/solutions/security-cdn/home_card_tag_bg@2x.png);
               background-size: cover;
               display: flex;
               align-items: center;

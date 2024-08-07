@@ -169,7 +169,7 @@ const i18ntext = computed(() => {
 
     width: 782px;
     height: 440px;
-    background: url(/public/images/products/stream/player/player-1@2x.png);
+    background: url(/images/products/stream/player/player-1@2x.png);
   }
 }
 @media (max-width: 767px) {
@@ -198,7 +198,7 @@ const i18ntext = computed(() => {
       margin: 2.5rem auto 0;
       width: 100%;
       height: 24.25rem;
-      background: url(/public/images/products/stream/player/player-1@2x.png);
+      background: url(/images/products/stream/player/player-1@2x.png);
     }
   }
 }

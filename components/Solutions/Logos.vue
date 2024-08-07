@@ -19,7 +19,7 @@ const props = defineProps({
         </div>
       </div>
       <div class="btn-container" v-if="props.btn">
-        <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
+        <NuxtLinkLocale :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLinkLocale>
       </div>
     </div>
   </div>

@@ -128,7 +128,7 @@ const i18ntext = computed(() => {
           content: '';
           width: 14px;
           height: 14px;
-          background: url(/public/images/network/ddos/home_Text_list_ic_tick@2x.png);
+          background: url(/images/network/ddos/home_Text_list_ic_tick@2x.png);
           background-size: cover;
         }
       }

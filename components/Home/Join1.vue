@@ -4,9 +4,9 @@
       <div class="title">
         {{ $t('home.join1.title') }}
       </div>
-      <NuxtLink class="trail-btn">
+      <NuxtLinkLocale class="trail-btn">
         {{ $t('home.join1.btn') }}
-      </NuxtLink>
+      </NuxtLinkLocale>
       <div class="sub-title">
         {{ $t('home.join1.subTitle') }}
       </div>
@@ -97,7 +97,7 @@ const i18ntext = computed(() => {
 .join-1-container {
   margin-top: 150px;
   overflow: hidden;
-  background: url(/public/images/home/join1-bg.png) no-repeat top;
+  background: url(/images/home/join1-bg.png) no-repeat top;
   background-size: 1920px 350px;
 
   .join-1 {
@@ -125,7 +125,7 @@ const i18ntext = computed(() => {
       position: absolute;
       width: 950px;
       height: 830px;
-      background: url(/public/images/home/home_graph_rocket.png);
+      background: url(/images/home/home_graph_rocket.png);
       left: 505px;
       top: 22px;
     }
@@ -166,7 +166,7 @@ const i18ntext = computed(() => {
           .icon {
             width: 18px;
             height: 18px;
-            background: url(/public/images/home/home_Text_list_ic_tick.png)
+            background: url(/images/home/home_Text_list_ic_tick.png)
               no-repeat;
           }
 

@@ -52,7 +52,7 @@
             <el-button>
               <img
                 class="btn"
-                src="/public/images/network/WebTools/common_link_more@2x.png"
+                src="/images/network/WebTools/common_link_more@2x.png"
                 alt=""
                 srcset=""
               />
@@ -64,7 +64,7 @@
         <el-button class="xs-btn">
           <img
             class="btn"
-            src="/public/images/network/WebTools/common_link_more@2x.png"
+            src="/images/network/WebTools/common_link_more@2x.png"
             alt=""
             srcset=""
           />
@@ -75,7 +75,7 @@
   <div class="map">
     <img
       class="img"
-      src="/public/images/network/WebTools/dnslookuptest_earth_img@2x.png"
+      src="/images/network/WebTools/dnslookuptest_earth_img@2x.png"
       alt=""
     />
   </div>

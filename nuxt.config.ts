@@ -8,13 +8,34 @@ export default defineNuxtConfig({
   alias: {
     '@types': fileURLToPath(new URL('./types', import.meta.url))
   },
-
+  // experimental: {
+  //   scanPageMeta: true,
+  // },
   i18n: {
-    strategy: 'no_prefix',
+    strategy: 'prefix_except_default',
+    // strategy: 'no_prefix',
     defaultLocale: 'en',
+    locales: [
+      'de',
+      'en-au',
+      'en-ca',
+      'en-gb',
+      'en-in',
+      'en',
+      "es-la",
+      'es',
+      'fr',
+      'it',
+      'ja',
+      'ko',
+      'pl',
+      'pt-br',
+      'ru',
+      'zh-tw',
+      'zh'
+    ],
     detectBrowserLanguage: {
       useCookie: true,
-      alwaysRedirect: true,
       cookieKey: 'i18n_redirected',
       redirectOn: 'root' // recommended
     },
@@ -49,20 +70,27 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-07-09',
+  routeRules: {
+    '/*': { swr: 3600 }
+  },
   nitro: {
     output: {
       publicDir: "./dist/public",
       dir: "./dist",
       serverDir: "./dist/server",
     },
-  },
-  head: {
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { 'http-equiv': 'Cache-Control', content: 'no-cache, no-store, must-revalidate' },
-      { 'http-equiv': 'Pragma', content: 'no-cache' },
-      { 'http-equiv': 'Expires', content: '0' }
-    ]
+    compressPublicAssets: true,
+    // publicAssets: [
+    //   {
+    //     baseURL: "images",
+    //     dir: "public/images",
+    //     maxAge: 604800, // 7 days
+    //   },
+    //   {
+    //     baseURL: "_nuxt",
+    //     dir: "public/_nuxt",
+    //     maxAge: 60 * 60, // 7 days
+    //   },
+    // ]
   }
 });

@@ -57,25 +57,25 @@ withDefaults(
         <div class="content" v-if="content">{{ content }}</div>
         <div class="header1-input-container" v-if="inputPlaceholder">
           <FormInput name="email" :placeholder="inputPlaceholder" />
-          <NuxtLink
+          <NuxtLinkLocale
             :to="href"
             class="trail-btn"
             v-if="btn"
             style="margin-top: 0; margin-left: 14px"
           >
             {{ btn }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
         <div v-else>
-          <NuxtLink
+          <NuxtLinkLocale
             :to="href"
             class="trail-btn"
             v-if="btn2"
             style="margin-right: 10px"
           >
             {{ btn2 }}
-          </NuxtLink>
-          <NuxtLink
+          </NuxtLinkLocale>
+          <NuxtLinkLocale
             :to="href"
             class="trail-btn"
             v-if="btn"
@@ -84,13 +84,13 @@ withDefaults(
             "
           >
             {{ btn }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
         <FormCheckbox name="agree" value="1" v-if="isHidenLinkHit">
           <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-          <NuxtLink class="agree-link">
+          <NuxtLinkLocale class="agree-link">
             {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </FormCheckbox>
         <div class="hint" v-if="hint && !isHidenLinkHit">{{ hint }}</div>
       </div>
@@ -168,7 +168,7 @@ withDefaults(
   height: 800px;
   max-width: 1920px;
   margin: 0 auto;
-  background: url(/public/images/home/home_banner_bg@2x.png);
+  background: url(/images/home/home_banner_bg@2x.png);
   background-size: 1920px 800px;
   background-position: center;
   position: relative;
@@ -243,7 +243,7 @@ withDefaults(
   .bottom {
     width: 1232px;
     height: 132px;
-    background: url(/public/images/home/home_banner_bot_bg.png);
+    background: url(/images/home/home_banner_bot_bg.png);
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -300,7 +300,7 @@ withDefaults(
         .rate-item {
           width: 28px;
           height: 28px;
-          background: url(/public/images/home/home_banner_ic_star.png);
+          background: url(/images/home/home_banner_ic_star.png);
         }
       }
 

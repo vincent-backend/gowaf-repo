@@ -249,21 +249,21 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
   <div class="menu">
     <!-- Network -->
     <div class="menu-item">
-      <NuxtLink to="/network/overview">{{
+      <NuxtLinkLocale to="/network/overview">{{
         $t('header.menus.network')
-      }}</NuxtLink>
+      }}</NuxtLinkLocale>
     </div>
 
     <!-- Pricing -->
     <div class="menu-item">
-      <NuxtLink to="/pricing/overview">{{
+      <NuxtLinkLocale to="/pricing/overview">{{
         $t('header.menus.pricing')
-      }}</NuxtLink>
+      }}</NuxtLinkLocale>
     </div>
 
     <!-- Products -->
     <div class="menu-item" ref="ProductsRef">
-      <NuxtLink>{{ $t('header.menus.products') }}</NuxtLink>
+      <NuxtLinkLocale>{{ $t('header.menus.products') }}</NuxtLinkLocale>
       <i class="icon"></i>
     </div>
     <el-popover
@@ -278,7 +278,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
       <div class="menu-level-1">
         <div class="ul-menu">
           <div class="submenu-title">{{ $t('header.menus.products') }}</div>
-          <NuxtLink
+          <NuxtLinkLocale
             class="item-level-1"
             v-for="(item, index) in ProductsMenu($t, $route.path)"
             :key="index"
@@ -287,25 +287,25 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
           >
             {{ item.label }}
             <div class="arrow-icon"></div>
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
         <div class="current-menu">
           <div class="submenu-title">{{ Product.label }}</div>
-          <NuxtLink
+          <NuxtLinkLocale
             v-for="(p, index) in Product.children"
             :key="index"
             :to="p.href"
             class="item-level-1"
           >
             {{ p.label }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </div>
     </el-popover>
 
     <!-- Solutions -->
     <div class="menu-item" ref="solutionsRef">
-      <NuxtLink>{{ $t('header.menus.solutions') }}</NuxtLink>
+      <NuxtLinkLocale>{{ $t('header.menus.solutions') }}</NuxtLinkLocale>
       <i class="icon"></i>
     </div>
     <el-popover
@@ -333,7 +333,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
               </div>
               <div class="list">
                 <template v-for="(item2, index2) in item.items">
-                  <NuxtLink
+                  <NuxtLinkLocale
                     class="item-with-icon"
                     :class="{
                       atvBtn:
@@ -351,8 +351,8 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
                       {{ item2.title }}
                     </div>
                     <div class="arrow-icon"></div>
-                  </NuxtLink>
-                  <NuxtLink
+                  </NuxtLinkLocale>
+                  <NuxtLinkLocale
                     class="item-without-icon"
                     :to="item2.href"
                     :class="{
@@ -367,7 +367,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
                     <div class="sub-title">
                       {{ item2.subTitle }}
                     </div>
-                  </NuxtLink>
+                  </NuxtLinkLocale>
                 </template>
               </div>
             </div>
@@ -383,7 +383,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
 
     <!-- Resources -->
     <div class="menu-item" ref="ResourcesRef">
-      <NuxtLink>{{ $t('header.menus.resources') }}</NuxtLink>
+      <NuxtLinkLocale>{{ $t('header.menus.resources') }}</NuxtLinkLocale>
       <i class="icon"></i>
     </div>
     <el-popover
@@ -398,7 +398,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
       <div class="menu-level-1 menu-level-2">
         <div class="ul-menu">
           <div class="submenu-title">{{ $t('header.menus.resources') }}</div>
-          <NuxtLink
+          <NuxtLinkLocale
             class="item-level-1"
             v-for="(item, index) in ResourcesMenu($t, $route.path)"
             :key="index"
@@ -408,7 +408,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
           >
             {{ item.label }}
             <div class="arrow-icon"></div>
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </div>
     </el-popover>
@@ -436,7 +436,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
 
       width: 14px;
       height: 14px;
-      background: url(/public/images/home/nav_ic_arrow_an.png);
+      background: url(/images/home/nav_ic_arrow_an.png);
     }
 
     &.open {
@@ -445,7 +445,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
       }
 
       .icon {
-        background: url(/public/images/home/nav_ic_arrow_up.png);
+        background: url(/images/home/nav_ic_arrow_up.png);
       }
 
       .sub-menu {
@@ -523,7 +523,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
             .arrow-icon {
               width: 14px;
               height: 14px;
-              background: url(/public/images/home/nav_ic_arrow_right_nor.png);
+              background: url(/images/home/nav_ic_arrow_right_nor.png);
             }
 
             &:hover,
@@ -536,7 +536,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
               }
 
               .arrow-icon {
-                background: url(/public/images/home/nav_ic_arrow_right_sel.png);
+                background: url(/images/home/nav_ic_arrow_right_sel.png);
               }
             }
           }
@@ -633,14 +633,14 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
         width: 14px;
         margin-left: auto;
         height: 14px;
-        background: url(/public/images/home/nav_ic_arrow_right_nor.png);
+        background: url(/images/home/nav_ic_arrow_right_nor.png);
       }
       &:hover {
         background: rgba(70, 207, 58, 0.06);
         font-weight: 500;
         color: #46cf3a;
         .arrow-icon {
-          background: url(/public/images/home/nav_ic_arrow_right_sel.png);
+          background: url(/images/home/nav_ic_arrow_right_sel.png);
         }
       }
       &.is-active {
@@ -649,7 +649,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
         color: #46cf3a;
 
         .arrow-icon {
-          background: url(/public/images/home/nav_ic_arrow_right_sel.png);
+          background: url(/images/home/nav_ic_arrow_right_sel.png);
         }
       }
     }

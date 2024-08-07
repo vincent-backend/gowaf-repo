@@ -3,7 +3,7 @@
     <img
       class="backtop"
       @click="dialogVisible = true"
-      src="/public/images/home/suspension_btn_nor@2x.png"
+      src="/images/home/suspension_btn_nor@2x.png"
       alt=""
     />
   </el-backtop>
@@ -15,7 +15,7 @@
     <template #title>
       <div class="dialog-top">
         <div class="talking">
-          <img class="dialog-logo" src="/public/images/home/Gowaf_logo_1.png" />
+          <img class="dialog-logo" src="/images/home/Gowaf_logo_1.png" />
           <div class="dialog-row">
             <div class="title">
               {{ $t('home.login.backtop.title1') }}
@@ -27,18 +27,18 @@
         <div class="btn-row">
           <img
             class="img"
-            src="/public/images/home/chat_ic_praise_nor@2x.png"
+            src="/images/home/chat_ic_praise_nor@2x.png"
             alt=""
           />
           <img
             class="img"
-            src="/public/images/home/chat_ic_oppose_nor@2x.png"
+            src="/images/home/chat_ic_oppose_nor@2x.png"
             alt=""
           />
           <div class="reset">
             <img
               class="img"
-              src="/public/images/home/chat_ic_reset_nor@2x.png"
+              src="/images/home/chat_ic_reset_nor@2x.png"
               alt=""
             />
             {{ $t('llPaodyWXzkjGvbc1-gXM') }}
@@ -120,7 +120,7 @@ const textarea = ref('');
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/public/images/home/home_card_tag_bg@2x.png');
+    background: url('/images/home/home_card_tag_bg@2x.png');
     background-size: 100% 100%;
   }
   .btn-row {
@@ -185,7 +185,7 @@ const textarea = ref('');
     bottom: 8px;
     width: 40px;
     height: 40px;
-    background: url('/public/images/home/chat_ic_send@2x.png') no-repeat;
+    background: url('/images/home/chat_ic_send@2x.png') no-repeat;
     background-size: 100% 100%;
   }
 }
@@ -235,7 +235,7 @@ const textarea = ref('');
       justify-content: center;
       font-size: 1.5rem;
       color: #ffffff;
-      background: url('/public/images/home/home_card_tag_bg@2x.png');
+      background: url('/images/home/home_card_tag_bg@2x.png');
       background-size: 100% 100%;
     }
     .btn-row {
@@ -307,7 +307,7 @@ const textarea = ref('');
     z-index: 0;
     width: 680px;
     height: 172px;
-    background: url('/public/images/home/chat_top@2x.png') no-repeat !important;
+    background: url('/images/home/chat_top@2x.png') no-repeat !important;
     background-position: top left;
     background-size: 680px 172px !important;
   }
@@ -334,7 +334,7 @@ const textarea = ref('');
       z-index: 0;
       width: 43.13rem;
       height: 19rem;
-      background: url('/public/images/home/chat_top@2x.png') no-repeat !important;
+      background: url('/images/home/chat_top@2x.png') no-repeat !important;
       background-position: top left;
       background-size: 43.13rem 19rem !important;
     }

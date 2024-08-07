@@ -31,9 +31,9 @@
               </div>
             </div>
             <div class="btn-container">
-              <NuxtLink href="#" class="trail-btn">
+              <NuxtLinkLocale href="#" class="trail-btn">
                 {{ $t('solutions.videoDelivery.supportPlan.main.btn') }}
-              </NuxtLink>
+              </NuxtLinkLocale>
             </div>
           </div>
           <div class="right">
@@ -101,7 +101,7 @@ const i18ntext = computed<any>(() => {
         left: 0;
         width: 100%;
         height: 8px;
-        background: url(/public/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
+        background: url(/images/solutions/video-delivery/Pricing_CDN_card_top_line.png);
       }
 
       > .content {
@@ -171,7 +171,7 @@ const i18ntext = computed<any>(() => {
             width: 338px;
             height: 270px;
 
-            background: url(/public/images/solutions/video-delivery/Solutions_Video_Delivery_graph_3.png);
+            background: url(/images/solutions/video-delivery/Solutions_Video_Delivery_graph_3.png);
           }
         }
       }

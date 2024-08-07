@@ -52,7 +52,7 @@
       margin-top: 53px;
       width: 628px;
       height: 354px;
-      background: url(/public/images/products/cdn/safe-hop/cdnsafehop_reduce_graph@2x.png)
+      background: url(/images/products/cdn/safe-hop/cdnsafehop_reduce_graph@2x.png)
         left;
       background-size: 628px 354px;
       position: relative;

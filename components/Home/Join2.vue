@@ -9,7 +9,7 @@
         <span class="s-2"></span>
         <span class="s-3">{{ $t('home.join2.subTitle3') }}</span>
         <span class="s-4">{{ $t('home.join2.subTitle4') }}</span>
-        <NuxtLink class="s-5">{{ $t('home.join2.subTitle5') }}</NuxtLink>
+        <NuxtLinkLocale class="s-5">{{ $t('home.join2.subTitle5') }}</NuxtLinkLocale>
         <span class="s-6">{{ $t('home.join2.subTitle6') }}</span>
       </div>
       <div class="list">
@@ -122,7 +122,7 @@ const i18ntext = computed(() => {
         display: block;
         width: 20px;
         height: 20px;
-        background: url(/public/images/home/home_title_star.png) no-repeat;
+        background: url(/images/home/home_title_star.png) no-repeat;
         margin: 0 10px;
       }
 
@@ -214,7 +214,7 @@ const i18ntext = computed(() => {
               content: '';
               width: 16px;
               height: 16px;
-              background: url(/public/images/home/home_title_star.png) no-repeat;
+              background: url(/images/home/home_title_star.png) no-repeat;
               background-size: 100%;
             }
           }

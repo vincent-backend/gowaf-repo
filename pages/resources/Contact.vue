@@ -56,7 +56,7 @@ definePageMeta({
 .header-container {
   height: 350px;
   min-width: 1200px;
-  background: url(/public/images/resources/contact/banner-bg.png) no-repeat
+  background: url(/images/resources/contact/banner-bg.png) no-repeat
     center;
   background-size: 1920px 350px;
 
@@ -111,7 +111,7 @@ definePageMeta({
     width: 100%;
     height: 21.88rem;
     min-width: auto;
-    background: url(/public/images/resources/contact/banner-bg.png) no-repeat
+    background: url(/images/resources/contact/banner-bg.png) no-repeat
       center;
     background-size: 100% 100%;
 

@@ -38,7 +38,7 @@ defineProps<{
               {{ item.content }}
             </div>
             <div class="btn-container">
-              <NuxtLink :to="item.href" class="trail-btn">{{ item.btn }}</NuxtLink>
+              <NuxtLinkLocale :to="item.href" class="trail-btn">{{ item.btn }}</NuxtLinkLocale>
             </div>
           </div>
           <div class="right">
@@ -112,7 +112,7 @@ defineProps<{
               display: flex;
               align-items: center;
               justify-content: center;
-              background: url(/public/images/pricing/overview/home_card_tag_bg.png);
+              background: url(/images/pricing/overview/home_card_tag_bg.png);
               font-family: PingFang-SC, PingFang-SC;
               font-weight: bold;
               font-size: 18px;
@@ -201,7 +201,7 @@ defineProps<{
 
             width: 18px;
             height: 18px;
-            background-image: url(/public/images/pricing/storage/home_Text_list_ic_tick.png);
+            background-image: url(/images/pricing/storage/home_Text_list_ic_tick.png);
           }
         }
       }

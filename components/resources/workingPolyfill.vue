@@ -31,13 +31,13 @@
     <div class="btn-container">
       <div id="prevBtn" @click="showSlide(currentSlide - 1)">
         <img
-          src="/public/images/resources/careers/home_Slide_left_2x.png"
+          src="/images/resources/careers/home_Slide_left_2x.png"
           alt=""
         />
       </div>
       <div id="nextBtn" @click="showSlide(currentSlide + 1)">
         <img
-          src="/public/images/resources/careers/home_Slide_right_2x.png"
+          src="/images/resources/careers/home_Slide_right_2x.png"
           alt=""
         />
       </div>

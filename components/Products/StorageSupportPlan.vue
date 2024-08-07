@@ -52,9 +52,9 @@
             </template>
             <slot></slot>
             <div class="btn-container">
-              <NuxtLink href="#" class="trail-btn">
+              <NuxtLinkLocale href="#" class="trail-btn">
                 {{ localizedDefaults.btnText }}
-              </NuxtLink>
+              </NuxtLinkLocale>
               <span v-if="localizedDefaults.btnsubText" class="btn-subtxt">{{
                 localizedDefaults.btnsubText
               }}</span>
@@ -146,7 +146,7 @@ const i18ntext = computed<any>(() => {
       > .line {
         width: 1200px;
         height: 8px;
-        background: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        background: url(/images/pricing/cdn/Pricing_CDN_card_top_line.png);
       }
 
       > .main {
@@ -168,7 +168,7 @@ const i18ntext = computed<any>(() => {
               margin-right: 30px;
               color: #4e4e4e;
               h4 {
-                background: url(/public/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png)
+                background: url(/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png)
                   no-repeat 0 3px;
                 background-size: 18px 18px !important;
                 text-indent: 29px;
@@ -229,7 +229,7 @@ const i18ntext = computed<any>(() => {
                   content: '';
                   width: 14px;
                   height: 14px;
-                  background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                  background: url(/images/pricing/cdn/home_Text_list_ic_tick.png);
                 }
               }
 
@@ -274,7 +274,7 @@ const i18ntext = computed<any>(() => {
             img {
               width: 100%;
             }
-            // background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
+            // background: url(/images/pricing/cdn/Pricing_CDN_card_graph.png);
           }
         }
       }
@@ -312,7 +312,7 @@ const i18ntext = computed<any>(() => {
         > .line {
           width: 100%;
           height: 0.5rem;
-          background: url(/public/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+          background: url(/images/pricing/cdn/Pricing_CDN_card_top_line.png);
         }
 
         > .main {
@@ -341,7 +341,7 @@ const i18ntext = computed<any>(() => {
                 width: 50%;
                 white-space: nowrap;
                 h4 {
-                  background: url(/public/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png)
+                  background: url(/images/products/storage/europe/home_Text_list_ic_tick_2x_5.png)
                     no-repeat 0 3px;
                   background-size: 2.25rem 2.25rem !important;
                   text-indent: 3.35rem;
@@ -399,7 +399,7 @@ const i18ntext = computed<any>(() => {
                     content: '';
                     width: 14px;
                     height: 14px;
-                    background: url(/public/images/pricing/cdn/home_Text_list_ic_tick.png);
+                    background: url(/images/pricing/cdn/home_Text_list_ic_tick.png);
                   }
                 }
 
@@ -427,7 +427,7 @@ const i18ntext = computed<any>(() => {
               width: 19.5rem;
               height: 19.5rem;
 
-              background: url(/public/images/pricing/cdn/Pricing_CDN_card_graph.png);
+              background: url(/images/pricing/cdn/Pricing_CDN_card_graph.png);
             }
           }
         }

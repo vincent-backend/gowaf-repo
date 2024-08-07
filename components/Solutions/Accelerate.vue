@@ -55,7 +55,7 @@ const hovered = ref(-1);
         </div>
 
         <div class="btn-container" v-if="props.btn">
-          <NuxtLink :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLink>
+          <NuxtLinkLocale :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLinkLocale>
         </div>
       </div>
       <div class="right">
@@ -125,7 +125,7 @@ const hovered = ref(-1);
           .icon {
             width: 18px;
             height: 18px;
-            background: url(/public/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
+            background: url(/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
           }
 
           .title {
@@ -183,7 +183,7 @@ const hovered = ref(-1);
             }
 
             .icon {
-              background: url(/public/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
+              background: url(/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
             }
           }
         }
@@ -197,7 +197,7 @@ const hovered = ref(-1);
             }
 
             .icon {
-              background: url(/public/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
+              background: url(/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
             }
           }
         }
@@ -299,7 +299,7 @@ const hovered = ref(-1);
             .icon {
               width: 1.75rem;
               height: 1.75rem;
-              background: url(/public/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
+              background: url(/images/solutions/storage-game/home_Text_list_ic_tick@2x.png);
             }
 
             .title {
@@ -355,7 +355,7 @@ const hovered = ref(-1);
               }
 
               .icon {
-                background: url(/public/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
+                background: url(/images/solutions/storage-software/SmartEdge™_ic_rise@2x.png);
               }
             }
           }
@@ -369,7 +369,7 @@ const hovered = ref(-1);
               }
 
               .icon {
-                background: url(/public/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
+                background: url(/images/solutions/storage-software/SmartEdge™_ic_descend@2x.png);
               }
             }
           }
