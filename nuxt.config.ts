@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       useCookie: true,
       alwaysRedirect: true,
       cookieKey: 'i18n_redirected',
-      redirectOn: 'all' // recommended
+      redirectOn: 'root' // recommended
     },
     vueI18n: './i18n.config.ts'
   },

@@ -44,7 +44,7 @@ const props = defineProps({
 });
 const itemClick = item => {
   if (item.href && item.href !== '#') {
-    router.push({ path: item.href });
+    navigateTo(item.href)
   }
 };
 </script>

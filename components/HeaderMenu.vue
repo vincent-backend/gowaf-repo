@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import type { menuItem } from '~/types/headerMenuItem';
 const { t } = useI18n();
 import { ref, unref } from 'vue';
 const ProductsRef = ref();
@@ -9,6 +10,16 @@ const ResourcesRef = ref();
 const ResourcesPopoverRef = ref();
 const Product = ref<any>({});
 const Resources = ref<any>({});
+const secondIndex = ref('byNeed');
+const threeLevelIndex = ref('videoAndStreaming');
+const lastatv = ref(0);
+
+const secondLevel = computed<any>(() => {
+  return i18ntext.value[secondIndex.value] || {};
+});
+const threeLevel = computed<any>(() => {
+  return i18ntext.value[threeLevelIndex.value] || {};
+});
 
 const mouseover = (type: string, obj: any) => {
   if (type == 'Product') {
@@ -17,60 +28,216 @@ const mouseover = (type: string, obj: any) => {
     Resources.value = obj;
   }
 };
-const i18ntext = computed(() => {
+const changeNext = async (level: number, key: string, itemIndex: number) => {
+  if (level == 0) {
+    secondIndex.value = key;
+    await nextTick();
+    threeLevelIndex.value = secondLevel.value.items[0].key;
+    lastatv.value = 0;
+  } else if (level == 1) {
+    threeLevelIndex.value = key;
+    lastatv.value = 0;
+  } else {
+    lastatv.value = itemIndex;
+  }
+};
+const i18ntext = computed<Record<string, menuItem>>(() => {
   return {
     solutions: {
       title: 'SOLUTIONS',
       items: [
         {
           title: t('vQza8PI2dLkT-pw8XStiv'),
-          icon: '/images/home/Solutions_nav_ic_need.png'
+          icon: '/images/home/Solutions_nav_ic_need.png',
+          key: 'byNeed'
         },
         {
           title: t('F4LoWXNjG-f_XXq5aV2ca'),
-          icon: '/images/home/Solutions_nav_ic_Industry.png'
+          icon: '/images/home/Solutions_nav_ic_Industry.png',
+          key: 'byIndustry'
         }
       ]
     },
     byNeed: {
       title: t('rAA781Hhq1icdC0eU55pv'),
+      key: 'byNeed',
       items: [
         {
           title: t('uBq4nhvqnT9bU0iYDRonw'),
-          icon: '/images/home/Solutions_nav_ic_video.png'
+          icon: '/images/home/Solutions_nav_ic_video.png',
+          key: 'videoAndStreaming'
         },
         {
           title: t('Hgi82bl59NCKKC4ZTU41R'),
-          icon: '/images/home/Solutions_nav_ic_Storage.png'
+          icon: '/images/home/Solutions_nav_ic_Storage.png',
+          key: 'storageAndDelivery'
         },
         {
           title: t('LWBf-k4Lfu_Sy6FeMbbet'),
-          icon: '/images/home/Solutions_nav_ic_Website.png'
+          icon: '/images/home/Solutions_nav_ic_Website.png',
+          key: 'websitePerformance'
         },
         {
           title: t('aYoP5UH-vLL9wACCz2Iim'),
-          icon: '/images/home/Solutions_nav_ic_Security.png'
+          icon: '/images/home/Solutions_nav_ic_Security.png',
+          key: 'securityAndProtection'
+        }
+      ]
+    },
+    byIndustry: {
+      title: t('kYrpd0RZOvL91Zr0z4BHA'),
+      key: 'byIndustry',
+      items: [
+        {
+          title: t('resources.breadCrumbs.Streaming'),
+          icon: '/images/home/Solutions_nav_ic_video.png',
+          key: 'Streaming'
+        },
+        {
+          title: t('1lJVE5HeTjURTciDYGuK3'),
+          icon: '/images/home/Solutions_nav_ic_Storage.png',
+          key: 'Ecommerce'
+        },
+        {
+          title: 'Gaming',
+          icon: '/images/home/Solutions_nav_ic_Website.png',
+          key: 'Gaming'
         }
       ]
     },
     videoAndStreaming: {
       title: t('ynTEckGbfgsU_lodhHb5s'),
+      key: 'videoAndStreaming',
       items: [
         {
           title: t('home.superCharge.text2'),
-          subTitle: t('phOTUSZQIOZRGvIxbjvFd')
+          subTitle: t('phOTUSZQIOZRGvIxbjvFd'),
+          href: '/Solutions/VideoDelivery'
         },
         {
           title: t('products.stream.breadCrumbs.mediaCage'),
-          subTitle: t('vmmnc0_a4O5hLAszldDtC')
+          subTitle: t('vmmnc0_a4O5hLAszldDtC'),
+          href: '/Products/Stream/MediaCage'
         },
         {
           title: t('Fp3x4jHcDc0l_hRLTPHhE'),
-          subTitle: t('_XEg-P2n-k25_2Mp6k_04')
+          subTitle: t('_XEg-P2n-k25_2Mp6k_04'),
+          href: '/Products/Stream/MultiDRM'
         },
         {
           title: t('products.Stream.TranscribeAI.header.preTitle'),
-          subTitle: t('wqXBSJgi4VPuxjkT9JLmw')
+          subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
+          href: '/Products/Stream/TranscribeAl'
+        }
+      ]
+    },
+    storageAndDelivery: {
+      title: t('cQjvtd8drC9cHTRiD2PSq'),
+      items: [
+        {
+          title: t('E6zQla74VM0bjbV2LHvJR'),
+          subTitle: t('4zdb1OqkQiGrVzdqYf7Uq'),
+          href: '/Solutions/StorageGame'
+        },
+        {
+          title: t('solutions.storageSoftware.header.preTitle'),
+          subTitle: t('jFcfWlXQeQtI6pPjS0yXS'),
+          href: '/Solutions/StorageSoftware'
+        }
+      ]
+    },
+    websitePerformance: {
+      title: t('unUfNXygufUxTKSLtfWIn'),
+      items: [
+        {
+          title: t('solutions.websiteAcceleration.header.preTitle'),
+          subTitle: t('R_0012db-U-csa-HLM2HF'),
+          href: '/Solutions/WebsiteAcceleration'
+        },
+        {
+          title: t('KhWElwN6SphgMZHxZ_F3U'),
+          subTitle: t('LDK9urT1thv-G0kXwMwZZ'),
+          href: '/Products/Cdn/PermaCache'
+        },
+        {
+          title: t('products.optimizer.TransformAPI.header.preTitle'),
+          subTitle: t('Gq9v0fAY2Sat5Cx5yqTYl'),
+          href: '/Products/optimizer/TransformAPI'
+        },
+        {
+          title: t('ePEhvR4jTK-D1hexokK1R'),
+          subTitle: t('5HbGO-720R94SAgDJoKio'),
+          href: '/Solutions/WebsiteWordpress'
+        }
+      ]
+    },
+    securityAndProtection: {
+      title: t('97LUlEOLrLkAgiWGGaW3Z'),
+      items: [
+        {
+          title: t('E2GIwsnt9KqNp41nyR3we'),
+          subTitle: t('sb2j1HH1vvhJCgHtQT2Ae'),
+          href: '/Solutions/SecurityCdn'
+        },
+        {
+          title: t('network.breadCrumbs.ddosProtection'),
+          subTitle: t('B2Wf2gGLTIJp-8raiXieu'),
+          href: '/Network/Ddos'
+        }
+      ]
+    },
+    Streaming: {
+      title: 'STREAMING',
+      items: [
+        {
+          title: t('home.superCharge.text2'),
+          subTitle: t('Pn1Ck3MEQwT-g61zVOtp6'),
+          href: '/Solutions/VideoDelivery'
+        },
+        {
+          title: t('products.Stream.TranscribeAI.header.preTitle'),
+          subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
+          href: '/Products/Stream/TranscribeAl'
+        }
+      ]
+    },
+    Ecommerce: {
+      title: 'ECOMMERCE',
+      items: [
+        {
+          title: t('solutions.websiteAcceleration.header.preTitle'),
+          subTitle: t('Qn7K6FrW0nTvnQGy1xHSY'),
+          href: '/Solutions/WebsiteAcceleration'
+        },
+        {
+          title: t('AK1pQc4KfyFxect6tcZqx'),
+          subTitle: t('l42NSMQ4n5tEY-ccYisZC'),
+          href: '/Products/optimizer/TransformAPI'
+        },
+        {
+          title: t('solutions.securityCdn.header.preTitle'),
+          subTitle: t('x0Z2-ogDmOyMsKLPlm0O0'),
+          href: '/Solutions/WebsiteWordpress'
+        },
+        {
+          title: t('D5vgCmCvXQ0jLJIIZIZ08'),
+          subTitle: t('zgbdYFDnlOmzo9cexKai6'),
+          href: '/Solutions/SecurityCdn'
+        }
+      ]
+    },
+    Gaming: {
+      title: 'GAMING',
+      items: [
+        {
+          title: t('solutions.storageGame.header.preTitle'),
+          subTitle: t('ODjJHLiW9O4S3pTbdTegM'),
+          href: '/Solutions/StorageGame'
+        },
+        {
+          title: t('solutions.storageSoftware.header.preTitle'),
+          subTitle: t('al2HMDjHTjtRcfg0mNoZG'),
+          href: '/Solutions/StorageSoftware'
         }
       ]
     }
@@ -155,20 +322,27 @@ const i18ntext = computed(() => {
           <template
             v-for="(item, index) in [
               i18ntext.solutions,
-              '|',
-              i18ntext.byNeed,
-              '|',
-              i18ntext.videoAndStreaming
+              secondLevel,
+              threeLevel
             ]"
           >
-            <div class="separator" v-if="item === '|'"></div>
-            <div class="column" :class="['column-' + index]" v-else>
+            <div class="separator" v-if="index % 2 != 0"></div>
+            <div class="column" :class="['column-' + index]">
               <div class="title">
                 {{ item.title }}
               </div>
               <div class="list">
-                <template v-for="item2 in item.items">
-                  <NuxtLink class="item-with-icon" v-if="item2.icon">
+                <template v-for="(item2, index2) in item.items">
+                  <NuxtLink
+                    class="item-with-icon"
+                    :class="{
+                      atvBtn:
+                        item2.key === secondIndex ||
+                        item2.key === threeLevelIndex
+                    }"
+                    v-if="item2.icon"
+                    @mouseover="changeNext(index, item2.key, index2)"
+                  >
                     <div
                       class="icon"
                       :style="{ backgroundImage: `url(${item2.icon})` }"
@@ -178,7 +352,15 @@ const i18ntext = computed(() => {
                     </div>
                     <div class="arrow-icon"></div>
                   </NuxtLink>
-                  <NuxtLink class="item-without-icon" v-else>
+                  <NuxtLink
+                    class="item-without-icon"
+                    :to="item2.href"
+                    :class="{
+                      atvBtn: index2 === lastatv
+                    }"
+                    v-else
+                    @mouseover="changeNext(index, item2.key, index2)"
+                  >
                     <div class="title">
                       {{ item2.title }}
                     </div>
@@ -189,6 +371,7 @@ const i18ntext = computed(() => {
                 </template>
               </div>
             </div>
+            <div class="separator" v-if="index % 2 != 0"></div>
           </template>
         </div>
         <div class="footer">
@@ -343,7 +526,8 @@ const i18ntext = computed(() => {
               background: url(/public/images/home/nav_ic_arrow_right_nor.png);
             }
 
-            &:hover {
+            &:hover,
+            &.atvBtn {
               background: rgba(70, 207, 58, 0.06);
 
               .title {
@@ -360,6 +544,7 @@ const i18ntext = computed(() => {
           .item-without-icon {
             border-radius: 4px;
             padding: 10px;
+            cursor: pointer;
 
             .title {
               font-size: 12px;
@@ -373,7 +558,8 @@ const i18ntext = computed(() => {
               line-height: 14px;
             }
 
-            &:hover {
+            &:hover,
+            &.atvBtn {
               background: rgba(70, 207, 58, 0.06);
 
               .title {

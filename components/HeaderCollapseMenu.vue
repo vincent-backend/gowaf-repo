@@ -71,11 +71,7 @@
             text-color="#000"
           >
             <MenuItem
-              v-for="item in [
-                i18ntext.solutions,
-                i18ntext.byNeed,
-                i18ntext.videoAndStreaming
-              ]"
+              v-for="item in [i18ntext.solutions, secondLevel, threeLevel]"
               :item="item"
               :key="item.title"
             />
@@ -135,6 +131,7 @@
 </template>
 
 <script setup lang="ts">
+import type { menuItem } from '~/types/headerMenuItem';
 import { ClickOutside as vClickOutside } from 'element-plus';
 const { t } = useI18n();
 const emit = defineEmits(['update:show']);
@@ -143,13 +140,35 @@ const model = defineModel('show', {
   default: false
 });
 const activation = ref('');
+const secondIndex = ref('byNeed');
+const threeLevelIndex = ref('videoAndStreaming');
+const lastatv = ref(0);
+
+const secondLevel = computed<any>(() => {
+  return i18ntext.value[secondIndex.value] || {};
+});
+const threeLevel = computed<any>(() => {
+  return i18ntext.value[threeLevelIndex.value] || {};
+});
 
 const popoverRef = ref();
 const onClickOutside = () => {
   emit('update:show', false);
   // unref(popoverRef).popperRef?.delayHide?.()
 };
-
+const changeNext = async (level: number, key: string, itemIndex: number) => {
+  if (level == 0) {
+    secondIndex.value = key;
+    await nextTick();
+    threeLevelIndex.value = secondLevel.value.items[0].key;
+    lastatv.value = 0;
+  } else if (level == 1) {
+    threeLevelIndex.value = key;
+    lastatv.value = 0;
+  } else {
+    lastatv.value = itemIndex;
+  }
+};
 watch(
   () => model.value,
   val => {
@@ -172,60 +191,203 @@ watch(
   }
 );
 
-const i18ntext = computed(() => {
+const i18ntext = computed<Record<string, menuItem>>(() => {
   return {
     solutions: {
       title: 'SOLUTIONS',
       items: [
         {
           title: t('vQza8PI2dLkT-pw8XStiv'),
-          icon: '/images/home/Solutions_nav_ic_need.png'
+          icon: '/images/home/Solutions_nav_ic_need.png',
+          key: 'byNeed'
         },
         {
           title: t('F4LoWXNjG-f_XXq5aV2ca'),
-          icon: '/images/home/Solutions_nav_ic_Industry.png'
+          icon: '/images/home/Solutions_nav_ic_Industry.png',
+          key: 'byIndustry'
         }
       ]
     },
     byNeed: {
       title: t('rAA781Hhq1icdC0eU55pv'),
+      key: 'byNeed',
       items: [
         {
           title: t('uBq4nhvqnT9bU0iYDRonw'),
-          icon: '/images/home/Solutions_nav_ic_video.png'
+          icon: '/images/home/Solutions_nav_ic_video.png',
+          key: 'videoAndStreaming'
         },
         {
           title: t('Hgi82bl59NCKKC4ZTU41R'),
-          icon: '/images/home/Solutions_nav_ic_Storage.png'
+          icon: '/images/home/Solutions_nav_ic_Storage.png',
+          key: 'storageAndDelivery'
         },
         {
           title: t('LWBf-k4Lfu_Sy6FeMbbet'),
-          icon: '/images/home/Solutions_nav_ic_Website.png'
+          icon: '/images/home/Solutions_nav_ic_Website.png',
+          key: 'websitePerformance'
         },
         {
           title: t('aYoP5UH-vLL9wACCz2Iim'),
-          icon: '/images/home/Solutions_nav_ic_Security.png'
+          icon: '/images/home/Solutions_nav_ic_Security.png',
+          key: 'securityAndProtection'
+        }
+      ]
+    },
+    byIndustry: {
+      title: t('kYrpd0RZOvL91Zr0z4BHA'),
+      key: 'byIndustry',
+      items: [
+        {
+          title: t('resources.breadCrumbs.Streaming'),
+          icon: '/images/home/Solutions_nav_ic_video.png',
+          key: 'Streaming'
+        },
+        {
+          title: t('1lJVE5HeTjURTciDYGuK3'),
+          icon: '/images/home/Solutions_nav_ic_Storage.png',
+          key: 'Ecommerce'
+        },
+        {
+          title: 'Gaming',
+          icon: '/images/home/Solutions_nav_ic_Website.png',
+          key: 'Gaming'
         }
       ]
     },
     videoAndStreaming: {
       title: t('ynTEckGbfgsU_lodhHb5s'),
+      key: 'videoAndStreaming',
       items: [
         {
           title: t('home.superCharge.text2'),
-          subTitle: t('phOTUSZQIOZRGvIxbjvFd')
+          subTitle: t('phOTUSZQIOZRGvIxbjvFd'),
+          href: '/Solutions/VideoDelivery'
         },
         {
           title: t('products.stream.breadCrumbs.mediaCage'),
-          subTitle: t('vmmnc0_a4O5hLAszldDtC')
+          subTitle: t('vmmnc0_a4O5hLAszldDtC'),
+          href: '/Products/Stream/MediaCage'
         },
         {
           title: t('Fp3x4jHcDc0l_hRLTPHhE'),
-          subTitle: t('_XEg-P2n-k25_2Mp6k_04')
+          subTitle: t('_XEg-P2n-k25_2Mp6k_04'),
+          href: '/Products/Stream/MultiDRM'
         },
         {
           title: t('products.Stream.TranscribeAI.header.preTitle'),
-          subTitle: t('wqXBSJgi4VPuxjkT9JLmw')
+          subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
+          href: '/Products/Stream/TranscribeAl'
+        }
+      ]
+    },
+    storageAndDelivery: {
+      title: t('cQjvtd8drC9cHTRiD2PSq'),
+      items: [
+        {
+          title: t('E6zQla74VM0bjbV2LHvJR'),
+          subTitle: t('4zdb1OqkQiGrVzdqYf7Uq'),
+          href: '/Solutions/StorageGame'
+        },
+        {
+          title: t('solutions.storageSoftware.header.preTitle'),
+          subTitle: t('jFcfWlXQeQtI6pPjS0yXS'),
+          href: '/Solutions/StorageSoftware'
+        }
+      ]
+    },
+    websitePerformance: {
+      title: t('unUfNXygufUxTKSLtfWIn'),
+      items: [
+        {
+          title: t('solutions.websiteAcceleration.header.preTitle'),
+          subTitle: t('R_0012db-U-csa-HLM2HF'),
+          href: '/Solutions/WebsiteAcceleration'
+        },
+        {
+          title: t('KhWElwN6SphgMZHxZ_F3U'),
+          subTitle: t('LDK9urT1thv-G0kXwMwZZ'),
+          href: '/Products/Cdn/PermaCache'
+        },
+        {
+          title: t('products.optimizer.TransformAPI.header.preTitle'),
+          subTitle: t('Gq9v0fAY2Sat5Cx5yqTYl'),
+          href: '/Products/optimizer/TransformAPI'
+        },
+        {
+          title: t('ePEhvR4jTK-D1hexokK1R'),
+          subTitle: t('5HbGO-720R94SAgDJoKio'),
+          href: '/Solutions/WebsiteWordpress'
+        }
+      ]
+    },
+    securityAndProtection: {
+      title: t('97LUlEOLrLkAgiWGGaW3Z'),
+      items: [
+        {
+          title: t('E2GIwsnt9KqNp41nyR3we'),
+          subTitle: t('sb2j1HH1vvhJCgHtQT2Ae'),
+          href: '/Solutions/SecurityCdn'
+        },
+        {
+          title: t('network.breadCrumbs.ddosProtection'),
+          subTitle: t('B2Wf2gGLTIJp-8raiXieu'),
+          href: '/Network/Ddos'
+        }
+      ]
+    },
+    Streaming: {
+      title: 'STREAMING',
+      items: [
+        {
+          title: t('home.superCharge.text2'),
+          subTitle: t('Pn1Ck3MEQwT-g61zVOtp6'),
+          href: '/Solutions/VideoDelivery'
+        },
+        {
+          title: t('products.Stream.TranscribeAI.header.preTitle'),
+          subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
+          href: '/Products/Stream/TranscribeAl'
+        }
+      ]
+    },
+    Ecommerce: {
+      title: 'ECOMMERCE',
+      items: [
+        {
+          title: t('solutions.websiteAcceleration.header.preTitle'),
+          subTitle: t('Qn7K6FrW0nTvnQGy1xHSY'),
+          href: '/Solutions/WebsiteAcceleration'
+        },
+        {
+          title: t('AK1pQc4KfyFxect6tcZqx'),
+          subTitle: t('l42NSMQ4n5tEY-ccYisZC'),
+          href: '/Products/optimizer/TransformAPI'
+        },
+        {
+          title: t('solutions.securityCdn.header.preTitle'),
+          subTitle: t('x0Z2-ogDmOyMsKLPlm0O0'),
+          href: '/Solutions/WebsiteWordpress'
+        },
+        {
+          title: t('D5vgCmCvXQ0jLJIIZIZ08'),
+          subTitle: t('zgbdYFDnlOmzo9cexKai6'),
+          href: '/Solutions/SecurityCdn'
+        }
+      ]
+    },
+    Gaming: {
+      title: 'GAMING',
+      items: [
+        {
+          title: t('solutions.storageGame.header.preTitle'),
+          subTitle: t('ODjJHLiW9O4S3pTbdTegM'),
+          href: '/Solutions/StorageGame'
+        },
+        {
+          title: t('solutions.storageSoftware.header.preTitle'),
+          subTitle: t('al2HMDjHTjtRcfg0mNoZG'),
+          href: '/Solutions/StorageSoftware'
         }
       ]
     }
