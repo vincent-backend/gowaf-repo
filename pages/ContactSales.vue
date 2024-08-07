@@ -85,7 +85,7 @@
               <el-input
                 type="textarea"
                 v-model="formLabelAlign.Message"
-                placeholder="$t('hJ3T-p3qQf7PgrqS___dW')"
+                :placeholder="$t('hJ3T-p3qQf7PgrqS___dW')"
               />
             </el-form-item>
           </el-col>

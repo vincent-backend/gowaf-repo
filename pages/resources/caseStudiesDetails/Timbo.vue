@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsTimbo.header.title')"
     :content="$t('resources.caseStudiesDetailsTimbo.header.content')"
     :btn="$t('resources.caseStudiesDetailsTimbo.header.btn')"
-    href="#"
+    href="/ContactSales"
     :hint="$t('resources.caseStudiesDetailsTimbo.header.hint')"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"

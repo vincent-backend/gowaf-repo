@@ -34,17 +34,20 @@
   </template>
 </template>
 <script setup name="MenuItem">
-import { Aim } from '@element-plus/icons-vue';
+// import { Aim } from '@element-plus/icons-vue';
 const router = useRouter();
 const props = defineProps({
   item: {
     type: Object,
     default: () => {}
+  },
+  pindex: {
+    type: Number
   }
 });
 const itemClick = item => {
   if (item.href && item.href !== '#') {
-    navigateTo(item.href)
+    navigateTo(item.href);
   }
 };
 </script>

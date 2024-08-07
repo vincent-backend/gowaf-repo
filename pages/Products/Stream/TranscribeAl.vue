@@ -10,7 +10,7 @@
     :title="$t('products.Stream.TranscribeAI.header.title')"
     :content="$t('products.Stream.TranscribeAI.header.content')"
     :btn="$t('products.cdn.overview.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('products.cdn.overview.header.hint')"
     :pic="{
       src: '/images/products/Stream/TranscribeAI/stream_transcribe_banner_graph@2x.png',
@@ -36,7 +36,7 @@
     :title="$t('products.Stream.TranscribeAI.ad1.title')"
     :sub-title="$t('products.Stream.TranscribeAI.ad1.subTitle')"
     :btn="$t('products.cdn.overview.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"

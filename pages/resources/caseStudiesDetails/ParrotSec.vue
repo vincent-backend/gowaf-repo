@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsParrotSec.header.title')"
     :content="$t('resources.caseStudiesDetailsParrotSec.header.content')"
     :btn="$t('resources.caseStudiesDetailsParrotSec.header.btn')"
-    href="#"
+    href="/ContactSales"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"

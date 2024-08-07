@@ -6,7 +6,7 @@
     :title="$t('solutions.securityCdn.header.title')"
     :content="$t('solutions.securityCdn.header.content')"
     :btn="$t('solutions.securityCdn.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('solutions.securityCdn.header.hint')"
     :pic="{
       src: '/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_banner_graph_1@2x.png',
@@ -34,7 +34,7 @@
     :title="$t('solutions.securityCdn.ad1.title')"
     :sub-title="$t('solutions.securityCdn.ad1.subTitle')"
     :btn="$t('solutions.securityCdn.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/solutions/security-cdn/Network_DDoS_banner_graph_2@2x.png"
     pic-width="238px"
     pic-height="242px"

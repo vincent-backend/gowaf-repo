@@ -26,7 +26,7 @@
     :content="$t('products.storage.SSDStorage.header.content')"
     :btn="$t('products.storage.BouuyStorage.header.btn')"
     :hint="$t('products.storage.SSDStorage.header.hint')"
-    href="#"
+    href="/forgot"
     :pic="{
       src: '/images/products/storage/SSDStorage/stream_transcribe_banner_graph@2x.png',
       w: '346px',

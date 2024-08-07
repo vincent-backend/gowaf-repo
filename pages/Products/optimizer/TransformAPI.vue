@@ -26,7 +26,7 @@
     :content="$t('products.optimizer.TransformAPI.header.content')"
     :btn="$t('products.storage.BouuyStorage.header.btn')"
     :hint="$t('products.storage.SSDStorage.header.hint')"
-    href="#"
+    href="/forgot"
     :pic="{
       src: '/images/products/optimizer/TransformAPI/Network_DDoS_banner_graph_1@2x@2x.png',
       w: '470px',
@@ -43,7 +43,7 @@
     :title="$t('products.cdn.overview.ad1.title')"
     :sub-title="$t('products.cdn.overview.ad1.subTitle')"
     :btn="$t('products.cdn.overview.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"

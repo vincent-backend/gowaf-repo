@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsOTT.header.title')"
     :content="$t('resources.caseStudiesDetailsOTT.header.content')"
     :btn="$t('resources.caseStudiesDetailsOTT.header.btn')"
-    href="#"
+    href="/ContactSales"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"

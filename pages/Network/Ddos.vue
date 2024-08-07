@@ -26,7 +26,7 @@
     :title="$t('network.ddos.header.title')"
     :content="$t('network.ddos.header.content')"
     :btn="$t('network.ddos.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('network.ddos.header.hint')"
     :pic="{
       src: '/images/network/ddos/Network_DDoS_banner_graph_1@2x.png',

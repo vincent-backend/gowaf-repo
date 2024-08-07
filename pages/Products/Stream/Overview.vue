@@ -10,7 +10,7 @@
     :title="$t('products.stream.overview.header.title')"
     :content="$t('products.stream.overview.header.content')"
     :btn="$t('products.stream.overview.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('products.stream.overview.header.hint')"
     :pic="{
       src: '/images/products/stream/overview/stream_overview_banner_graph@2x.png',

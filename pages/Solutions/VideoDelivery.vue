@@ -6,7 +6,7 @@
     :title="$t('solutions.videoDelivery.header.title')"
     :content="$t('solutions.videoDelivery.header.content')"
     :btn="$t('solutions.videoDelivery.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('solutions.videoDelivery.header.hint')"
     :show-foot="false"
     :pic="{
@@ -34,7 +34,7 @@
       title: $t('solutions.videoDelivery.ad1.title'),
       subTitle: $t('solutions.videoDelivery.ad1.subTitle'),
       btn: $t('solutions.videoDelivery.ad1.btn'),
-      href: '#',
+      href: '/forgot',
       pic: '/images/solutions/video-delivery/Solutions_Video_Delivery_banner_graph_2@2x.png',
       picWidth: '300px',
       picHeight: '264px',

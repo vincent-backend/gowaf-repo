@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsNzxt.header.title')"
     :content="$t('resources.caseStudiesDetailsNzxt.header.content')"
     :btn="$t('resources.caseStudiesDetailsNzxt.header.btn')"
-    href="#"
+    href="/ContactSales"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"

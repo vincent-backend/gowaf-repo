@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsNexusmods.header.title')"
     :content="$t('resources.caseStudiesDetailsNexusmods.header.content')"
     :btn="$t('resources.caseStudiesDetailsNexusmods.header.btn')"
-    href="#"
+    href="/ContactSales"
     hint="1"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"

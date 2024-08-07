@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsValnet.header.title')"
     :content="$t('resources.caseStudiesDetailsValnet.header.content')"
     :btn="$t('resources.caseStudiesDetailsValnet.header.btn')"
-    href="#"
+    href="/ContactSales"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"

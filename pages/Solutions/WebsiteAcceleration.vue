@@ -7,7 +7,7 @@
       :title="$t('solutions.websiteAcceleration.header.title')"
       :content="$t('solutions.websiteAcceleration.header.content')"
       :btn="$t('solutions.websiteAcceleration.header.btn')"
-      href="#"
+      href="/forgot"
       :hint="$t('solutions.websiteAcceleration.header.hint')"
       :show-foot="false"
       :pic="{
@@ -45,7 +45,7 @@
       :title="$t('solutions.websiteAcceleration.ad1.title')"
       :sub-title="$t('solutions.websiteAcceleration.ad1.subTitle')"
       :btn="$t('solutions.websiteAcceleration.ad1.btn')"
-      href="#"
+      href="/forgot"
       pic="/images/solutions/website-acceleration/Network_Overview_banner_graph@2x.png"
       pic-width="300px"
       pic-height="300px"

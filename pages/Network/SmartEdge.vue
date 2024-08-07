@@ -26,7 +26,7 @@
     :title="$t('network.smartEdge.header.title')"
     :content="$t('network.smartEdge.header.content')"
     :btn="$t('network.smartEdge.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('network.smartEdge.header.hint')"
     :show-foot="false"
     :pic="{

@@ -9,7 +9,7 @@
     :title="$t('products.cdn.permaCache.header.title')"
     :content="$t('products.cdn.permaCache.header.content')"
     :btn="$t('products.cdn.permaCache.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('products.cdn.permaCache.header.hint')"
     :show-foot="false"
     :pic="{
@@ -37,7 +37,7 @@
     :title="$t('products.cdn.permaCache.ad1.title')"
     :sub-title="$t('products.cdn.permaCache.ad1.subTitle')"
     :btn="$t('products.cdn.permaCache.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/products/cdn/perma-cache/Network_Overview_banner_graph@2x.png"
     m-pic="/images/products/cdn/perma-cache/Network_Overview_banner_graph@2x.png"
     pic-width="300px"

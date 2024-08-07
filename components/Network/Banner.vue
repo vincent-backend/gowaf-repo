@@ -985,26 +985,24 @@ const i18ntext = computed(() => {
           {{ localizedDefaults.subtitle }}
         </div>
       </div>
-      <div class="dots">
-        <div
-          class="dot"
-          v-for="item in dotlist"
-          :style="item.popStyle"
-          :class="{
-            'dot-blue': item.label.style == 'rgb(254, 198, 62)',
-            'dot-cyanogen': item.label.style == 'rgb(255, 157, 100)',
-            'dot-green': item.label.style == 'rgb(241, 138, 217)',
-            'dot-yellow': item.label.style == 'rgb(242, 32, 136)',
-            'dot-orange': item.label.style == 'rgb(149, 251, 253)',
-            'dot-pink': item.label.style == 'rgb(132, 252, 187)'
-          }"
-        ></div>
-        <!-- <div class="dot dot-cyanogen"></div>
-        <div class="dot dot-orange"></div>
-        <div class="dot dot-green"></div>
-        <div class="dot dot-yellow"></div>
-        <div class="dot dot-pink"></div> -->
+      <div class="dots-content">
+        <div class="dots">
+          <div
+            class="dot"
+            v-for="item in dotlist"
+            :style="item.popStyle"
+            :class="{
+              'dot-blue': item.label.style == 'rgb(254, 198, 62)',
+              'dot-cyanogen': item.label.style == 'rgb(255, 157, 100)',
+              'dot-green': item.label.style == 'rgb(241, 138, 217)',
+              'dot-yellow': item.label.style == 'rgb(242, 32, 136)',
+              'dot-orange': item.label.style == 'rgb(149, 251, 253)',
+              'dot-pink': item.label.style == 'rgb(132, 252, 187)'
+            }"
+          ></div>
+        </div>
       </div>
+
       <div class="legend-container">
         <div
           class="legend-item"
@@ -1083,8 +1081,12 @@ const i18ntext = computed(() => {
         color: #4e4e4e;
       }
     }
-
-    > .dots {
+    .dots-content{
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    .dots {
       position: relative;
       top: 76px;
       left: 168px;
@@ -1196,11 +1198,13 @@ const i18ntext = computed(() => {
 @media (max-width: 767px) {
   .banner-container {
     height: 53.13rem;
+    text-align: center;
     min-width: auto;
     background: url(/public/mobile-images/network/overview/map@2x.png);
 
     .banner {
       overflow: visible;
+      width: 100%;
 
       > .tabs {
         padding-top: 1.87rem;
@@ -1241,7 +1245,12 @@ const i18ntext = computed(() => {
         }
       }
 
-      > .dots {
+      .dots {
+        position: relative;
+        top: 2rem;
+        left: -8rem;
+        width: 160%;
+        height: 72%;
         .dot {
           &.dot-blue {
             background: url(/public/images/network/Network_Overview_banner_map_Europe.png)
@@ -1277,11 +1286,12 @@ const i18ntext = computed(() => {
 
       > .legend-container {
         bottom: -8.81rem;
-
         width: 43.13rem;
+        left: 50%;
         flex-wrap: wrap;
         flex-direction: row;
         gap: 1.25rem 0;
+        transform: translate(-50%, 10px);
 
         .legend-item {
           width: 50%;

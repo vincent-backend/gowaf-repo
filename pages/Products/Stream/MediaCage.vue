@@ -9,7 +9,7 @@
     :title="$t('products.stream.mediaCage.header.title')"
     :content="$t('products.stream.mediaCage.header.content')"
     :btn="$t('products.stream.mediaCage.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('products.stream.mediaCage.header.hint')"
     :pic="{
       src: '/images/products/stream/media-cage/stream_media_banner_graph@2x.png',
@@ -28,7 +28,7 @@
     :title="$t('products.stream.mediaCage.ad1.title')"
     :sub-title="$t('products.stream.mediaCage.ad1.subTitle')"
     :btn="$t('products.stream.mediaCage.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/products/stream/media-cage/video_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"

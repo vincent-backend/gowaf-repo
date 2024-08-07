@@ -6,7 +6,7 @@
     :title="$t('solutions.storageSoftware.header.title')"
     :content="$t('solutions.storageSoftware.header.content')"
     :btn="$t('solutions.storageSoftware.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('solutions.storageSoftware.header.hint')"
     :show-foot="false"
     :pic="{
@@ -62,7 +62,7 @@
     :title="$t('solutions.storageSoftware.ad1.title')"
     :sub-title="$t('solutions.storageSoftware.ad1.subTitle')"
     :btn="$t('solutions.storageSoftware.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/solutions/storage-software/Solutions_Storage_Software_banner_graph_2@2x.png"
     pic-width="312px"
     pic-height="330px"

@@ -37,7 +37,7 @@
     :title="$t('resources.caseStudiesDetailsYounity.header.title')"
     :content="$t('resources.caseStudiesDetailsYounity.header.content')"
     :btn="$t('resources.caseStudiesDetailsYounity.header.btn')"
-    href="#"
+    href="/ContactSales"
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
     :containerStyle="{ height: '590px' }"
     :showFoot="false"

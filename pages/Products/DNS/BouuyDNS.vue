@@ -25,7 +25,7 @@
     :title="$t('products.DNS.multiDRM.header.title')"
     :content="$t('products.DNS.multiDRM.header.content')"
     :btn="$t('products.DNS.multiDRM.header.btn')"
-    href="#"
+    href="/forgot"
     :pic="{
       src: '/images/products/DNS/stream_transcribe_banner_graph@2x.png',
       w: '346px',
@@ -47,7 +47,7 @@
     :title="$t('products.cdn.overview.ad1.title')"
     :sub-title="$t('products.cdn.overview.ad1.subTitle')"
     :btn="$t('products.cdn.overview.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"

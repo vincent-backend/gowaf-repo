@@ -8,9 +8,9 @@
     :pre-title="$t('wT7iUrvi0AKfHfyYzJP7w')"
     :title="$t('LNpEOyIL0-eKWQjaW0n3O')"
     :content="$t('v_zpIp8lAUGMl6lM9eJlb')"
-    btn="Start 14-Day FREE Trial"
-    href="#"
-    hint="No credit card needed. Start in seconds."
+    :btn="$t('products.cdn.permaCache.header.btn')"
+    href="/forgot"
+    :hint="$t('products.cdn.permaCache.header.hint')"
     :pic="{
       src: '/images/products/cdn/safe-hop/cdnsafehop_banner_graph@2x.png',
       w: '390px',

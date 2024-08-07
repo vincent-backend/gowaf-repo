@@ -55,5 +55,14 @@ export default defineNuxtConfig({
       dir: "./dist",
       serverDir: "./dist/server",
     },
+  },
+  head: {
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { 'http-equiv': 'Cache-Control', content: 'no-cache, no-store, must-revalidate' },
+      { 'http-equiv': 'Pragma', content: 'no-cache' },
+      { 'http-equiv': 'Expires', content: '0' }
+    ]
   }
 });

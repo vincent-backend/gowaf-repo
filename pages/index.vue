@@ -4,7 +4,7 @@
     :title="$t('home.header.title')"
     :content="$t('home.header.content')"
     :btn="$t('home.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('home.header.hint')"
     :pic="{
       src: '/images/home/home_banner_graph@2x.png',

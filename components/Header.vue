@@ -6,6 +6,7 @@ const alertVisible = ref(isHome);
 const ProductsPopoverRef = ref();
 const show = ref(false);
 const { locale, messages, setLocale, setLocaleCookie } = useI18n();
+const cookie = useCookie('i18n_redirected');
 
 const handleBack = () => {
   window.history.back();
@@ -32,14 +33,18 @@ const options = [
   { text: '简体中文', href: 'zh' }
 ];
 const changeLang = async (item: any) => {
-  showText.value = item.text;
   locale.value = item.href;
   setLocale(item.href);
   setLocaleCookie(item.href);
   ProductsPopoverRef.value.hide();
 };
 
-const showText = ref<string>('EN');
+const showText = computed(() => {
+  const item = options.find(el => {
+    return el.href === cookie.value;
+  });
+  return item ? item.text : 'EN';
+});
 </script>
 
 <template>

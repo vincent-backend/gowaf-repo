@@ -26,7 +26,7 @@
       :title="$t('products.cdn.features.header.title')"
       :content="$t('products.cdn.features.header.content')"
       :btn="$t('products.cdn.overview.header.btn')"
-      href="#"
+      href="/forgot"
       :hint="$t('products.cdn.overview.header.hint')"
       :show-foot="false"
       :pic="{

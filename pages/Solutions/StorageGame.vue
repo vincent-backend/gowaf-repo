@@ -6,7 +6,7 @@
     :title="$t('solutions.storageGame.header.title')"
     :content="$t('solutions.storageGame.header.content')"
     :btn="$t('solutions.storageGame.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('solutions.storageGame.header.hint')"
     :show-foot="false"
     :pic="{
@@ -43,7 +43,7 @@
     :title="$t('solutions.storageGame.ad1.title')"
     :sub-title="$t('solutions.storageGame.ad1.subTitle')"
     :btn="$t('solutions.storageGame.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/solutions/storage-game/Solutions_Storage_game_Media_banner_graph_2@2x.png"
     pic-width="450px"
     pic-height="330px"

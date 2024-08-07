@@ -6,7 +6,7 @@
     :title="$t('solutions.websiteWordpress.header.title')"
     :content="$t('solutions.websiteWordpress.header.content')"
     :btn="$t('solutions.websiteWordpress.header.btn')"
-    href="#"
+    href="/forgot"
     :hint="$t('solutions.websiteWordpress.header.hint')"
     :show-foot="false"
     :pic="{
@@ -68,7 +68,7 @@
     :title="$t('solutions.websiteWordpress.ad1.title')"
     :sub-title="$t('solutions.websiteWordpress.ad1.subTitle')"
     :btn="$t('solutions.websiteWordpress.ad1.btn')"
-    href="#"
+    href="/forgot"
     pic="/images/solutions/website-wordpress/Network_Overview_banner_graph@2x.png"
     pic-width="300px"
     pic-height="300px"
