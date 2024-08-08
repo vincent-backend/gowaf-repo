@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div class="collapse" v-if="show" v-click-outside="onClickOutside">
+    <div class="collapse" v-if="show">
       <div class="menu">
         <div class="menu-item">
           <NuxtLinkLocale to="/network/overview">{{
@@ -115,12 +115,12 @@
         </transition>
       </div>
       <div class="btn-row">
-        <div class="login" @click="$router.push({ path: '/login' })">
+        <NuxtLinkLocale class="login" to="/login">
           {{ $t('header.login') }}
-        </div>
-        <div class="get" @click="$router.push({ path: '/forgot' })">
+        </NuxtLinkLocale>
+        <NuxtLinkLocale class="get" to="/forgot">
           {{ $t('header.getStarted') }}
-        </div>
+        </NuxtLinkLocale>
         <div class="language">EN <i class="icon"></i></div>
       </div>
     </div>
@@ -128,8 +128,6 @@
 </template>
 
 <script setup lang="ts">
-import type { menuItem } from '~/types/headerMenuItem';
-import { ClickOutside as vClickOutside } from 'element-plus';
 const { t } = useI18n();
 const emit = defineEmits(['update:show']);
 const model = defineModel('show', {
@@ -137,9 +135,6 @@ const model = defineModel('show', {
   default: false
 });
 const activation = ref('');
-const secondIndex = ref('byNeed');
-const threeLevelIndex = ref('videoAndStreaming');
-const lastatv = ref(0);
 
 const popoverRef = ref();
 const onClickOutside = () => {
@@ -400,7 +395,7 @@ const i18ntext = computed<any>(() => {
       background: #ffffff;
       border-radius: 0.88rem;
       border: 0.06rem solid #e6e6e6;
-      padding: 1.25rem;
+      padding:0 1.25rem;
     }
   }
 }

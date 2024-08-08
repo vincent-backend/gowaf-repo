@@ -114,8 +114,8 @@ const showText = computed(() => {
       <XsOnly>
         <div class="right">
           <NuxtLinkLocale
-            class="menu-icon"
-            @click="show = !show"
+            :class="show ? 'close-icon' : 'menu-icon'"
+            @click.stop="show = !show"
           ></NuxtLinkLocale>
         </div>
       </XsOnly>
@@ -135,7 +135,7 @@ const showText = computed(() => {
       <div class="right">
         <NuxtLinkLocale
           class="close"
-          @click.prevent="alertVisible = false"
+          @click.prevent.stop="alertVisible = false"
         ></NuxtLinkLocale>
       </div>
     </div>
@@ -353,6 +353,14 @@ const showText = computed(() => {
           width: 5.5rem;
           height: 5.5rem;
           background-image: url(/public/mobile-images/home/home_menu@2x.png);
+        }
+        .close-icon {
+          width: 5.5rem;
+          height: 5.5rem;
+          background-image: url(/public/mobile-images/home/home_close_menu.png);
+        }
+        .buttons-container {
+          display: none;
         }
       }
     }
