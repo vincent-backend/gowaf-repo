@@ -16,6 +16,7 @@ const publicAssets = isPord ? [
 ] : []
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   devtools: { enabled: true },
   css: ['~/assets/css/common.css', '~/assets/css/global.less'],
   modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt',],

@@ -12,17 +12,24 @@ export function detectMobileDevice() {
   return isMobile;
 }
 
+declare global {
+  interface Window {
+    isMobile: boolean;
+  }
+}
 // is mobile
 // export const isMobile = ref(detectMobileDevice());
-export const isMobile = ref(false);
+export const isMobile = ref(window.isMobile);
+// isMobile.value = window.isMobile
 
 onNuxtReady(() => {
   isMobile.value = detectMobileDevice();
-
+  window.isMobile = detectMobileDevice();
   setInterval(() => {
     const newValue = detectMobileDevice();
     if (isMobile.value != newValue) {
       isMobile.value = newValue;
+      window.isMobile = newValue;
     }
   }, 200);
 });

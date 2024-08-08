@@ -12,16 +12,27 @@ const props = defineProps<{
 <template>
   <div class="numbers-container">
     <h3 v-if="numbersTitle">{{ numbersTitle }}</h3>
-    <template v-if="!isRow || !isMobile">
-      <div
-        class="numbers page-container"
-        :class="{ aboutType: type ? true : false }"
-      >
+    <LgOnly>
+      <template v-if="!isRow || !isMobile">
         <div
-          v-for="(item, index) in items"
-          :key="index"
-          :class="['number', 'n-' + index]"
+          class="numbers page-container"
+          :class="{ aboutType: type ? true : false }"
         >
+          <div
+            v-for="(item, index) in items"
+            :key="index"
+            :class="['number', 'n-' + index]"
+          >
+            <div class="number-title">
+              <h5>{{ item.label }}</h5>
+              <span v-if="item.label2">{{ item.label2 }}</span>
+            </div>
+            <div class="number-content">{{ item.content }}</div>
+          </div>
+        </div>
+      </template>
+      <div class="rowList" :class="{ twoRows: isTwoRow }" v-else>
+        <div v-for="(item, index) in items" :key="index" class="row-item">
           <div class="number-title">
             <h5>{{ item.label }}</h5>
             <span v-if="item.label2">{{ item.label2 }}</span>
@@ -29,16 +40,18 @@ const props = defineProps<{
           <div class="number-content">{{ item.content }}</div>
         </div>
       </div>
-    </template>
-    <div class="rowList" :class="{ twoRows: isTwoRow }" v-else>
-      <div v-for="(item, index) in items" :key="index" class="row-item">
-        <div class="number-title">
-          <h5>{{ item.label }}</h5>
-          <span v-if="item.label2">{{ item.label2 }}</span>
+    </LgOnly>
+    <XsOnly>
+      <div class="rowList" :class="{ twoRows: isTwoRow }">
+        <div v-for="(item, index) in items" :key="index" class="row-item">
+          <div class="number-title">
+            <h5>{{ item.label }}</h5>
+            <span v-if="item.label2">{{ item.label2 }}</span>
+          </div>
+          <div class="number-content">{{ item.content }}</div>
         </div>
-        <div class="number-content">{{ item.content }}</div>
       </div>
-    </div>
+    </XsOnly>
   </div>
 </template>
 

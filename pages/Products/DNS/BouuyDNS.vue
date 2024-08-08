@@ -5,12 +5,12 @@
     :items="[
       {
         label: $t('products.DNS.breadCrumbs.overview'),
-        href: '#',
+        href: '/Products/DNS/BouuyDNS',
         current: true
       },
       {
         label: $t('products.DNS.breadCrumbs.pricing'),
-        href: '#',
+        href: '/Pricing/Overview',
         current: false
       },
       {

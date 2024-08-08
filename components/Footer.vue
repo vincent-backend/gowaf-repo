@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 withDefaults(
   defineProps<{
-    isShowBanner: boolean;
+    isShowBanner?: boolean;
     type?: {
       page: string;
     };

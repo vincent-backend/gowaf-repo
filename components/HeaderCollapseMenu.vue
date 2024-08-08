@@ -121,26 +121,57 @@
         <NuxtLinkLocale class="get" to="/forgot">
           {{ $t('header.getStarted') }}
         </NuxtLinkLocale>
-        <div class="language">EN <i class="icon"></i></div>
+        <div class="language" @click="c">
+          {{ showText }} <i class="icon"></i>
+        </div>
       </div>
+      <CommonPopup v-model:show="showPopUp" title="language">
+        <div
+          class="option-item"
+          :class="{ topatv: showText == item.text }"
+          v-for="(item, index) in options"
+          :key="index"
+          @click="changeLang(item)"
+        >
+          {{ item.text }}
+          <el-icon v-if="showText == item.text" size="2.5rem" color="#46cf3a">
+            <Select />
+          </el-icon>
+        </div>
+      </CommonPopup>
     </div>
   </transition>
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n();
+import { Select } from '@element-plus/icons-vue';
+const { locale, messages, setLocale, setLocaleCookie, t } = useI18n();
+const cookie = useCookie('i18n_redirected');
+import { options } from '~/consts/lang';
 const emit = defineEmits(['update:show']);
 const model = defineModel('show', {
   type: Boolean,
   default: false
 });
 const activation = ref('');
-
-const popoverRef = ref();
-const onClickOutside = () => {
-  emit('update:show', false);
-  // unref(popoverRef).popperRef?.delayHide?.()
+const showPopUp = ref(false);
+const c = () => {
+  console.log('c -> c');
+  showPopUp.value = true;
 };
+const changeLang = async (item: any) => {
+  locale.value = item.href;
+  setLocale(item.href);
+  setLocaleCookie(item.href);
+  // ProductsPopoverRef.value.hide();
+};
+
+const showText = computed(() => {
+  const item = options.find(el => {
+    return el.href === cookie.value;
+  });
+  return item ? item.text : 'EN';
+});
 
 watch(
   () => model.value,
@@ -346,7 +377,7 @@ const i18ntext = computed<any>(() => {
   margin-left: 0.63rem;
   width: 1.75rem;
   height: 1.75rem;
-  background: url(/images/home/nav_ic_arrow_an.png);
+  background: url('/images/home/nav_ic_arrow_an.png');
 }
 .collapse {
   z-index: 100;
@@ -387,7 +418,7 @@ const i18ntext = computed<any>(() => {
         margin-left: 0.63rem;
         width: 1.75rem;
         height: 1.75rem;
-        background: url(/images/home/nav_ic_arrow_up.png);
+        background: url('/images/home/nav_ic_arrow_up.png');
       }
     }
     .menu-main {
@@ -395,7 +426,7 @@ const i18ntext = computed<any>(() => {
       background: #ffffff;
       border-radius: 0.88rem;
       border: 0.06rem solid #e6e6e6;
-      padding:0 1.25rem;
+      padding: 0 1.25rem;
     }
   }
 }
@@ -444,7 +475,7 @@ const i18ntext = computed<any>(() => {
   margin-left: -1.18rem;
   margin-bottom: -1.18rem;
   height: 6.25rem;
-  background: url(/images/home/nav_popup_bot_bg@2x.png);
+  background: url('/images/home/nav_popup_bot_bg@2x.png');
   display: flex;
   background-size: 100% 100%;
   align-items: center;
@@ -470,6 +501,27 @@ const i18ntext = computed<any>(() => {
     line-height: 2.31rem;
     text-align: left;
     font-style: normal;
+  }
+}
+.option-item {
+  width: 100%;
+  height: 5.44rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  font-family: PingFangSC, PingFang SC;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #4e4e4e;
+  line-height: 2rem;
+  text-align: left;
+  font-style: normal;
+  &.topatv {
+    background: rgba(70, 207, 58, 0.06);
+    color: #46cf3a !important;
   }
 }
 </style>
