@@ -2,7 +2,7 @@
   <template v-if="item">
     <el-sub-menu
       :index="item.title || item.label"
-      :key="item.title"
+      :key="item.key || item.title"
       v-if="item?.items?.length > 0 || item?.children?.length > 0"
     >
       <template #title>

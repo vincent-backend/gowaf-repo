@@ -206,4 +206,159 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+@media (max-width: 767px) {
+  .products-list1-container {
+    margin-top: 6.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1.63rem;
+
+    .products-list1 {
+      box-sizing: border-box;
+      width: 100%;
+
+      > .title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+
+      > .sub-title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        box-sizing: border-box;
+        width: 100%;
+        word-break: break-all;
+        color: #4e4e4e;
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+
+      > .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+        gap: 2.5rem;
+
+        > .item {
+          display: flex;
+          width: 100%;
+
+          > .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            > .icon {
+              width: 16.25rem;
+              height: 16.25rem;
+            }
+
+            > .icon-label {
+              margin-top: 2.3rem;
+
+              width: 15.24rem;
+              height: 3.75rem;
+              background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
+              border-radius: 1.88rem;
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              color: #ffffff;
+              font-size: 1.75rem;
+              line-height: 1.25rem;
+            }
+          }
+
+          > .right {
+            margin-left: 2.3rem;
+
+            > .title {
+              padding-top: 10px;
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 500;
+              font-size: 2.13rem;
+              color: #000000;
+              line-height: 3rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+
+            > .content {
+              margin-top: 0.6rem;
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 400;
+              font-size: 1.75rem;
+              color: #4e4e4e;
+              line-height: 2.38rem;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+
+            > .indicator-container {
+              margin-top: 0.75rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+
+              > .indicator {
+                > .head {
+                  display: flex;
+                  align-items: center;
+
+                  > .icon {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                  }
+
+                  > .value {
+                    margin-left: 0.75rem;
+                    font-family: Mont, Mont;
+                    font-weight: 600;
+                    font-size: 3rem;
+                    color: #000000;
+                    line-height: 4rem;
+                    text-align: left;
+                    font-style: normal;
+                    text-transform: none;
+                    background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  }
+                }
+
+                > .label {
+                  margin-top: 0.75rem;
+                  font-family: PingFangSC, PingFang SC;
+                  font-weight: 400;
+                  font-size: 1.75rem;
+                  color: #4e4e4e;
+                  line-height: 2.38rem;
+                  text-align: left;
+                  font-style: normal;
+                  text-transform: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 </style>

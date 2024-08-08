@@ -61,7 +61,10 @@ const showText = computed(() => {
           <NuxtLinkLocale to="/" class="logo"></NuxtLinkLocale>
         </div>
         <div class="left" v-else>
-          <NuxtLinkLocale class="back" @click.prevent="handleBack"></NuxtLinkLocale>
+          <NuxtLinkLocale
+            class="back"
+            @click.prevent="handleBack"
+          ></NuxtLinkLocale>
         </div>
         <div class="home-title-text">
           {{ $route.meta.title }}
@@ -110,7 +113,10 @@ const showText = computed(() => {
       <!-- for mobile -->
       <XsOnly>
         <div class="right">
-          <NuxtLinkLocale class="menu-icon" @click="show = !show"></NuxtLinkLocale>
+          <NuxtLinkLocale
+            class="menu-icon"
+            @click="show = !show"
+          ></NuxtLinkLocale>
         </div>
       </XsOnly>
     </div>
@@ -342,10 +348,10 @@ const showText = computed(() => {
       }
 
       .right {
+        padding-right: 1.88rem;
         .menu-icon {
           width: 5.5rem;
           height: 5.5rem;
-          margin-right: 1.88rem;
           background-image: url(/public/mobile-images/home/home_menu@2x.png);
         }
       }

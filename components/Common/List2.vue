@@ -64,8 +64,7 @@ defineProps<{
       .item {
         width: 330px;
         height: 200px;
-        background:
-          url(/images/network/Network_DDoS_card_bg.png) no-repeat top,
+        background: url(/images/network/Network_DDoS_card_bg.png) no-repeat top,
           #ffffff;
         box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
@@ -123,6 +122,7 @@ defineProps<{
         > .item {
           width: 20.9rem;
           min-height: 18.25rem;
+          height: auto;
           box-sizing: border-box;
           padding: 0.63rem 1.25rem 1.25rem 1.25rem;
 
@@ -133,9 +133,14 @@ defineProps<{
 
           .title {
             margin-top: 1.88rem;
+            font-family: PingFangSC, PingFang SC;
+            font-weight: 500;
             font-size: 2.13rem;
+            color: #000000;
             line-height: 3.13rem;
             text-align: left;
+            font-style: normal;
+            text-transform: none;
           }
         }
       }

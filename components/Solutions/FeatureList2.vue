@@ -134,6 +134,8 @@ const props = defineProps({
           position: relative;
           padding-left: 5.38rem;
           margin-top: 2.5rem;
+          width: 100%;
+          box-sizing: border-box;
 
           .header {
             position: absolute;

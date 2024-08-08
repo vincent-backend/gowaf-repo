@@ -1,5 +1,19 @@
 import { fileURLToPath, URL } from 'url';
 
+const isPord = process.env.NUXT_ENVIRONMENT === 'production'
+console.log("当前环境是否为 Pord", isPord)
+const publicAssets = isPord ? [
+  {
+    baseURL: "images",
+    dir: "public/images",
+    maxAge: 3600, // 7 days
+  },
+  {
+    baseURL: "_nuxt",
+    dir: "public/_nuxt",
+    maxAge: 3600, // 7 days
+  },
+] : []
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -70,9 +84,9 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-07-09',
-  routeRules: {
-    '/*': { swr: 3600 }
-  },
+  // routeRules: {
+  //   '/_nuxt/*': { cache: { maxAge: 60 * 60 } }
+  // },
   nitro: {
     output: {
       publicDir: "./dist/public",
@@ -80,17 +94,6 @@ export default defineNuxtConfig({
       serverDir: "./dist/server",
     },
     compressPublicAssets: true,
-    // publicAssets: [
-    //   {
-    //     baseURL: "images",
-    //     dir: "public/images",
-    //     maxAge: 604800, // 7 days
-    //   },
-    //   {
-    //     baseURL: "_nuxt",
-    //     dir: "public/_nuxt",
-    //     maxAge: 60 * 60, // 7 days
-    //   },
-    // ]
+    publicAssets: publicAssets
   }
 });

@@ -192,6 +192,9 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/cdn/overview/cdn_overview_supercharged_img@2x.png',
           iconWidth: '305px',
           iconHeight: '314px',
+          mIcon: '/images/products/cdn/overview/cdn_overview_supercharged_img@2x.png',
+          mIconWidth: '19.06rem',
+          mIconHeight: '19.63rem',
           btn: t('VEjyXC8EDvcupdbfuONz4'),
           href: '#'
         },
@@ -202,6 +205,9 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/cdn/overview/cdn_overview_supercharged2_img@2x.png',
           iconWidth: '360px',
           iconHeight: '360px',
+          mIcon: '/images/products/cdn/overview/cdn_overview_supercharged_img@2x.png',
+          mIconWidth: '19.06rem',
+          mIconHeight: '19.63rem',
           btn: t('_3NlIECsW-_UbHPOLU-_-'),
           href: '#'
         },
@@ -213,6 +219,9 @@ const i18ntext = computed<any>(() => {
           iconWidth: '360px',
           iconHeight: '360px',
           btn: t('cJ9ot_IVA01sygSCEAroy'),
+          mIcon: '/images/products/cdn/overview/cdn_overview_supercharged_img@2x.png',
+          mIconWidth: '19.06rem',
+          mIconHeight: '19.63rem',
           href: '#'
         },
         {
@@ -222,6 +231,9 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/cdn/overview/cdn_overview_supercharged4_img@2x.png',
           iconWidth: '360px',
           iconHeight: '360px',
+          mIcon: '/images/products/cdn/overview/cdn_overview_supercharged_img@2x.png',
+          mIconWidth: '19.06rem',
+          mIconHeight: '19.63rem',
           btn: t('Gzq0MUUSheXojnRdz0wkE'),
           href: '#'
         }
@@ -256,6 +268,44 @@ const i18ntext = computed<any>(() => {
 
   .map-container {
     margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .map-container {
+    width: 100%;
+    margin-top: 6.25rem;
+
+    > .title {
+      width: 100%;
+      box-sizing: border-box;
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 2.5rem;
+      color: #000000;
+      line-height: 3.5rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      padding: 0 1.63rem;
+    }
+
+    > .sub-title {
+      box-sizing: border-box;
+      width: 100%;
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      line-height: 2.38rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      padding: 0 1.63rem;
+    }
+
+    .map-container {
+      margin-top: 2rem;
+    }
   }
 }
 </style>

@@ -54,6 +54,8 @@
     <NetworkBanner class="map-container" />
   </div>
 
+  <VSpace mh="6.25rem" h="0"></VSpace>
+
   <CommonNumbers
     is-row
     is-two-row
@@ -172,7 +174,7 @@ const i18ntext = computed(() => {
       items: [
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_1.png',
-          title: t('aDZVh0hBbHvyzr0RO8wNn')
+          title: t('aDZVh0hBbHvyzr0RO8wNn'),
         },
         {
           icon: '/images/solutions/video-delivery/Solutions_Video_Delivery__card_ic_2.png',

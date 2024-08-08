@@ -10,7 +10,6 @@
       src: '/images/home/home_banner_graph@2x.png',
       w: '424px',
       h: '466px',
-
       msrc: '/mobile-images/home/home_banner_graph@2x.png',
       mw: '26.5rem',
       mh: '29.13rem'
