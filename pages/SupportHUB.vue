@@ -313,4 +313,62 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+@media (max-width: 767px) {
+  .inputBox {
+    width: 100%;
+  }
+  .input-with-select {
+    height: 4.13rem;
+    :deep(.el-input__inner) {
+      width: 100%;
+      height: 4.13rem;
+      background: #ffffff;
+    }
+    :deep(.el-input__wrapper) {
+      box-sizing: border-box;
+      border-radius: 0.75rem;
+    }
+  }
+  .fold {
+    margin: 6.25rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25rem;
+    .row {
+      .title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+      .subtitle {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+      .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem 2rem;
+        .box-item {
+          /* flex: 1; */
+          :deep(.el-collapse-item__header) {
+            background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

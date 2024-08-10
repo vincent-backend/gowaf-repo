@@ -56,10 +56,7 @@
         <FormItem>
           <FormCheckbox name="agree" value="1">
             <span>{{ $t('pricing.cdn.getInTouch.form.agree') }}</span>
-            <NuxtLinkLocale
-              class="agree-link"
-              href="#"
-            >
+            <NuxtLinkLocale class="agree-link" href="#">
               {{ $t('pricing.cdn.getInTouch.form.agreeLink') }}
             </NuxtLinkLocale>
           </FormCheckbox>
@@ -106,9 +103,7 @@
   .hint {
     margin-top: 6px;
 
-    font-family:
-      PingFangSC,
-      PingFang SC;
+    font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 14px;
     color: #4e4e4e;
@@ -123,6 +118,56 @@
     .hint2 {
       margin-left: 6px;
       text-decoration: underline;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .email-form-container {
+    width: 100%;
+    flex: 1;
+    .agree-link {
+      margin-left: 1rem;
+      color: #0ebf6a;
+    }
+
+    .btn-container {
+      margin-top: 3rem;
+
+      .btn-submit {
+        box-sizing: border-box;
+
+        width: 100%;
+        height: 4.63rem;
+        background: #ffffff;
+        border-radius: 2.31rem;
+        border: 0.13rem solid #46cf3a;
+
+        font-family: Mont, Mont;
+        font-weight: 600;
+        font-size: 1.63rem;
+        color: #000000;
+      }
+    }
+
+    .hint {
+      margin-top: 1.88rem;
+
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.63rem;
+      color: #4e4e4e;
+      line-height: 2.31rem;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+
+      .hint1 {
+      }
+
+      .hint2 {
+        margin-left: 1rem;
+        text-decoration: underline;
+      }
     }
   }
 }
