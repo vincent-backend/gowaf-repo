@@ -40,7 +40,7 @@
     }"
   />
   <VSpace h="80px" mh="3.13rem" />
-  <CommonNumbers :items="i18ntext.numbers" />
+  <CommonNumbers is-row is-two-row :items="i18ntext.numbers" />
 
   <NetworkYourNeeds
     v-bind="{

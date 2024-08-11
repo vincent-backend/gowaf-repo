@@ -305,6 +305,9 @@ defineProps<{
 
             > .item {
               width: 50%;
+              display: flex;
+              align-items: center;
+              flex-direction: column;
 
               .number {
                 font-size: 3.13rem;
@@ -331,6 +334,7 @@ defineProps<{
               .hint {
                 font-size: 1.5rem;
                 line-height: 2.06rem;
+                width: 10rem;
               }
             }
           }

@@ -31,10 +31,48 @@
       </FormRow>
       <FormRow>
         <FormItem :label="$t('bookMeeting.form.phoneNumber')">
-          <FormInput
+          <el-input
+            v-model="form.phone"
+            :placeholder="$t('bookMeeting.form.phoneLabel')"
+            class="input-with-select"
+          >
+            <template #prefix>
+              <Vue3CountryIntl
+                id="mesDiv-Country"
+                style="width: 30px"
+                modal-class="modal-class"
+                :listZIndex="5000"
+                v-model:visible="schemaModalVisible.default"
+                v-model="schemaModal.default"
+                schema="popover"
+                placeholder=""
+                :searchAble="false"
+                :showAreaCode="true"
+                :onlyValue="false"
+                @change="change"
+              >
+                <div
+                  class="national"
+                  @click.stop="
+                    schemaModalVisible.default = !schemaModalVisible.default
+                  "
+                >
+                  <!-- <Vue3CountryFlag :value="schemaModal.flag"></Vue3CountryFlag> -->
+                  <Vue3CountryFlag :value="schemaModal.default">
+                    <template v-slot="{ country }">
+                      <span class="slot-span">
+                        +{{ schemaModal.default }}
+                      </span>
+                    </template>
+                  </Vue3CountryFlag>
+                </div>
+              </Vue3CountryIntl>
+            </template>
+          </el-input>
+          <!-- <FormInput
             name="phone-number"
             :placeholder="$t('bookMeeting.form.phoneLabel')"
-          />
+          /> -->
         </FormItem>
         <FormItem :label="$t('bookMeeting.form.meetWith')">
           <FormInput
@@ -71,6 +109,30 @@
     </Form>
   </div>
 </template>
+
+<script setup lang="ts">
+import Vue3CountryIntl from 'vue3-country-intl';
+
+// 引入css
+import 'vue3-country-intl/lib/vue3-country-flag.css';
+import 'vue3-country-intl/lib/vue3-country-intl.css';
+//@ts-ni
+
+const schemaModalVisible = ref({
+  default: false
+});
+const schemaModal = ref({
+  default: '86',
+  flag: 'CN'
+});
+const form = reactive({
+  phone: ''
+});
+const change = (val: any) => {
+  console.log('change -> val', val);
+  schemaModal.value.flag = val.iso2;
+};
+</script>
 
 <style lang="less" scoped>
 .email-form-container {
@@ -118,6 +180,25 @@
     .hint2 {
       margin-left: 6px;
       text-decoration: underline;
+    }
+  }
+}
+.input-with-select {
+  height: 54px;
+  :deep(.el-input__prefix-inner > :last-child) {
+    margin: 0;
+  }
+  .vue-country-intl-schema-popover {
+    height: 100%;
+    cursor: pointer;
+  }
+  .national {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .slot-span {
+      margin-left: 5px;
     }
   }
 }
@@ -169,6 +250,49 @@
         text-decoration: underline;
       }
     }
+  }
+}
+</style>
+<style lang="less">
+.search-input-box {
+  display: none;
+}
+@media (max-width: 767px) {
+  .vue-country-intl-popover {
+    width: 32rem;
+  }
+}
+.vue-country-item .selected-text {
+  margin-left: 10px;
+  width: fit-content;
+  position: relative;
+  top: auto;
+  right: auto;
+  transform: none;
+}
+
+.country-intl-input-wrap {
+  width: 50px;
+}
+.vue-country-list-wrap {
+  box-sizing: border-box;
+}
+.vue-country-list {
+  width: 100%;
+  box-sizing: border-box;
+  .vue-country-item {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    box-sizing: border-box;
+  }
+}
+
+.vue-country-intl-inputer {
+  .country-intl-input {
+    cursor: pointer;
+    border: none;
+    padding: 0;
   }
 }
 </style>

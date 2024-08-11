@@ -1,4 +1,6 @@
 import { fileURLToPath, URL } from 'url';
+import ViteRequireContext from '@originjs/vite-plugin-require-context';
+import path from 'path';
 
 const isPord = process.env.NUXT_ENVIRONMENT === 'production'
 console.log("当前环境是否为 Pord", isPord)
@@ -21,7 +23,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/common.css', '~/assets/css/global.less'],
   modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt',],
   alias: {
-    '@types': fileURLToPath(new URL('./types', import.meta.url))
+    '@types': fileURLToPath(new URL('./types', import.meta.url)),
+    'vue3-country-flag': path.resolve(__dirname, 'node_modules/vue3-country-intl/lib/vue3CountryFlag.esm.min.js'),
   },
   // experimental: {
   //   scanPageMeta: true,
@@ -56,8 +59,6 @@ export default defineNuxtConfig({
     },
     vueI18n: './i18n.config.ts'
   },
-
-
   vite: {
     css: {
       preprocessorOptions: {
@@ -66,6 +67,18 @@ export default defineNuxtConfig({
         },
       },
     },
+    plugins: [
+      ViteRequireContext(),
+    ],
+    build: {
+      assetsInlineLimit:  0,
+    },
+    resolve: {
+      alias: {
+        // 添加别名，将导入路径映射到实际路径
+        'vue3-country-flag': path.resolve(__dirname, 'node_modules/vue3-country-intl/lib/vue3CountryFlag.esm.min.js'),
+      }
+    }
   },
 
   elementPlus: {

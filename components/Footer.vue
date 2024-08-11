@@ -525,6 +525,7 @@ const i18ntext = computed(() => {
     .footer-1 {
       flex-direction: column;
       justify-content: center;
+      align-items: flex-start;
 
       .left {
         .title {
@@ -534,7 +535,6 @@ const i18ntext = computed(() => {
 
         .content {
           margin-top: 1.25rem;
-
           font-size: 1.63rem;
           line-height: 2.38rem;
         }

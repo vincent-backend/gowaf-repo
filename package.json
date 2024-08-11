@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build --dotenv .env.production",
-    "dev": "nuxt dev --port=3002  --dotenv .env.development",
+    "dev": "nuxt dev --dotenv .env.development",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -21,10 +21,12 @@
     "sass": "^1.77.6",
     "tailwindcss": "^3.4.3",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vue3-country-intl": "^2.0.5"
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.9",
+    "@originjs/vite-plugin-require-context": "^1.0.9",
     "@types/js-cookie": "^3.0.6",
     "@vueuse/core": "^10.11.0",
     "@vueuse/nuxt": "^10.11.0",

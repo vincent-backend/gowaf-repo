@@ -290,6 +290,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    padding-left: 2.6rem;
     box-sizing: border-box;
     gap: 0;
     .row-item {

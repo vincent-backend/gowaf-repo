@@ -32,7 +32,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('ZMnHhcZ9_sCx3p0Hps14R'),
           content: t('KV7WJ2klCpERjTKZgf2MV'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: t('NjxDeRbS8Yh6CPYoGhtIy'),
@@ -58,7 +58,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('P3E9iwgU2bZ3gJE1oyTva'),
           content: t('gEuc1uFeP_PSprdd06wor'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: t('0BuqKG6p870d1U55wx18H'),
@@ -90,7 +90,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('2xS2haYmDOZ82G4aqjlxX'),
           content: t('sp0t4ox0VDAlrZNFbCYhM'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: 'FREE',
@@ -130,7 +130,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('b3at__Jw1vs1ZNTyWnFMz'),
           content: t('3kxEw7odatuVDPym3DtmZ'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: '$0.01/GB',
@@ -163,7 +163,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('CCKDinWPUMGQMvwBgqdlX'),
           content: t('3kxEw7odatuVDPym3DtmZ'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: '$0.02/GB',
@@ -194,7 +194,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('uLsLJni0W2wsbOIe0slA_'),
           content: t('LpAFMj3g2K1CRilEL3yBi'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: 'FREE',
@@ -226,7 +226,7 @@ const i18ntext = computed<any>(() => {
           subTitle: t('E8H9I22fYAEywUyRthGKY'),
           content: t('9kehjd3uWlKyYE8aaK9mn'),
           btn: t('vCyatgYi22iOeAKniCizq'),
-          href: '#',
+          href: '/ContactSales',
           items: [
             {
               text: 'FREE',

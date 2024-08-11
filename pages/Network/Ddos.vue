@@ -41,7 +41,7 @@
 
   <NetworkAlwaysSafe v-bind="i18ntext.alwaysSafe" />
 
-  <CommonNumbers style="margin-top: 40px" :items="i18ntext.numbers" />
+  <CommonNumbers is-row is-two-row style="margin-top: 40px" :items="i18ntext.numbers" />
 
   <LgOnly>
     <Line top="80px" m-top="0" />

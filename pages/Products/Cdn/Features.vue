@@ -59,7 +59,7 @@
         pic-height="400px"
         m-pic-width="22.22rem"
         m-pic-height="22.22rem"
-        :reverse="index % 2 === 0"
+        :reverse="isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>

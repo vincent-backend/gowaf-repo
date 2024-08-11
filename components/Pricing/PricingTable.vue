@@ -276,11 +276,13 @@ defineProps<{
 
             .list {
               justify-content: space-between;
-              gap: 0.63rem 0;
+              gap: 0.63rem 0.3rem;
 
               .item {
-                width: 50%;
+                width: calc(50% - 0.3rem);
                 height: 8.63rem;
+                padding: 1.5rem;
+                box-sizing: border-box;
 
                 .text {
                   white-space: nowrap;
