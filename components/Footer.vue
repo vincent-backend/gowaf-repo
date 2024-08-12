@@ -111,7 +111,7 @@ const i18ntext = computed(() => {
             href: '#'
           },
           {
-            label: '✉hello@bunny.net',
+            label: '✉ hello@Gowaf.net',
             href: '#'
           }
         ]

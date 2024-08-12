@@ -1767,7 +1767,7 @@
     "overview": {
       "header": {
         "content": "どの規模でもシンプルかつ手頃な価格設定。\n月額最低 $1。",
-        "preTitle": "ゴワフの価格",
+        "preTitle": "Gowaf 価格",
         "title": "必要に応じて使用してください。\n使った分だけ。"
       },
       "saveMoney": {
@@ -1855,10 +1855,10 @@
         "North_America": "北米",
         "apiDocs": "APIドキュメント",
         "cacheFly": "キャッシュフライ",
-        "cloudFlare": "クラウドフレア",
+        "cloudFlare": "CloudFlare",
         "comparison": "比較",
         "dns": "DNS",
-        "fastly": "早く",
+        "fastly": "Fastly",
         "features": "特徴",
         "gowaf": "Gowaf CDN",
         "overview": "概要",

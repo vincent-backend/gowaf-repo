@@ -462,7 +462,7 @@
   "FjoLLyFdQNz2Vzp7aJ5QZ": "在不犧牲功能或安全性的情況下降低視訊傳輸的複雜性。",
   "FkU17412SRmgiZK-qDcqb": "阻止惡意機器人或 DDoS 腳本使您的伺服器過載。 \nGowaf 使用不斷學習的 AI 安全系統自動偵測並封鎖惡意 HTTP 要求，協助您保持安全。\n我們會在威脅到達您的源頭之前幾秒鐘將其阻止。",
   "FonPgCf2Eu_86aTUbd55_": "阿姆斯特丹",
-  "Fp3x4jHcDc0l_hRLTPHhE": "企業多DRM",
+  "Fp3x4jHcDc0l_hRLTPHhE": "企業Multi-DRM",
   "FrkcgvBtzXmx04IJzbb9A": "由於 36 個全球 DNS PoP，全球大多數地區的用戶延遲都保持在 20 毫秒以下。",
   "FrnCYoeoeAF7kePFcTwQX": "視訊加密",
   "Fu_FQ_Wlh942RX3FuGIfx": "每週每天 24 小時提供服務。",
@@ -1819,7 +1819,7 @@
       "overview": "概述",
       "parent": "價錢",
       "storage": "貯存",
-      "stream": "溪流"
+      "stream": "Stream"
     },
     "cdn": {
       "calculator1": {
@@ -1891,7 +1891,7 @@
     "overview": {
       "header": {
         "content": "任何規模的簡單且實惠的定價。\n每月最低 1 美元。",
-        "preTitle": "高瓦夫定價",
+        "preTitle": "Gowaf 定價",
         "title": "隨心所欲地使用。\n現收現付。"
       },
       "saveMoney": {
@@ -1903,7 +1903,7 @@
     "storage": {
       "header": {
         "content": "將您的成本降至最低。\n永遠不要犧牲性能。\n無需做出任何承諾。",
-        "preTitle": "Gowaf 儲存定價",
+        "preTitle": "Gowaf Storage 定價",
         "title": "令人驚訝的實惠"
       },
       "map": {
@@ -1914,7 +1914,7 @@
     "stream": {
       "header": {
         "content": "完全免費使用影片播放器、轉碼和所有安全功能。\n只需為您使用的流量付費！",
-        "preTitle": "Gowaf 流定價",
+        "preTitle": "Gowaf Stream 定價",
         "title": "簡化定價。\n成本降低多達 10 倍。"
       }
     }
@@ -1955,7 +1955,7 @@
         },
         "header": {
           "content": "自動偵測視訊中的語音並將其轉換為文字。\n產生超過 57 種語言的字幕和翻譯。\n擴大您的全球影響力並探索新水平的視訊見解。",
-          "preTitle": "轉錄阿爾",
+          "preTitle": "Transcribe Al",
           "title": "將您的影片轉化為有價值的見解"
         },
         "list1": {
@@ -1969,7 +1969,7 @@
         "title": "完全控制您的 DNS"
       },
       "breadCrumbs": {
-        "AWS": "雲前AWS",
+        "AWS": "CloudFront AWS",
         "AfriceMiddleEast": "非洲",
         "Asia": "亞洲",
         "Australia": "澳洲",
@@ -1979,10 +1979,10 @@
         "North_America": "北美洲",
         "apiDocs": "API文件",
         "cacheFly": "緩存飛",
-        "cloudFlare": "雲耀光",
+        "cloudFlare": "CloudFlare",
         "comparison": "比較",
         "dns": "域名系統",
-        "fastly": "快速",
+        "fastly": "Fastly",
         "features": "特徵",
         "gowaf": "Gowaf CDN",
         "overview": "概述",
@@ -1990,7 +1990,7 @@
         "permaCache": "永久緩存",
         "regions": "地區",
         "safehop": "安全跳",
-        "vsakamai": "阿卡邁"
+        "vsakamai": "Akamai"
       },
       "comparison": {
         "ad2": {
@@ -2338,19 +2338,19 @@
       },
       "breadCrumbs": {
         "SSDStorage": "固態硬碟存儲",
-        "TransformAPI": "轉換API",
-        "parent": "貯存"
+        "TransformAPI": "TransformAPI",
+        "parent": "Storage"
       }
     },
     "stream": {
       "breadCrumbs": {
         "apiDocs": "API文件",
-        "mediaCage": "媒體籠",
-        "multiDRM": "多重DRM",
+        "mediaCage": "Media Cage",
+        "multiDRM": "Multi-DRM",
         "overview": "概述",
-        "parent": "溪流",
-        "player": "玩家",
-        "transcribeAI": "轉錄阿爾"
+        "parent": "Stream",
+        "player": "Player",
+        "transcribeAI": "Transcribe Al"
       },
       "mediaCage": {
         "ad1": {
@@ -3182,7 +3182,7 @@
   "ye3rjqdGDsvXvlKn0fMEh": "支援",
   "yeb7j4GYWQRC-cO0qEJor": "非常精彩",
   "yey9SO93ySUjsmW7aqgqI": "編碼",
-  "yfjfFQ5dHd72oOu_hc0lM": "卷網",
+  "yfjfFQ5dHd72oOu_hc0lM": "Volume Network",
   "ygzU9ETzHNK3iBqXGx7og": "令牌認證、地理/IP 阻止",
   "ynTEckGbfgsU_lodhHb5s": "視訊和串流媒體",
   "yoB7LwqS6GGNf_kLySKlt": "直覺的儀表板和\\n簡單明了的文檔",
