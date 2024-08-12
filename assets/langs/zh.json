@@ -1955,7 +1955,7 @@
         },
         "header": {
           "content": "自动检测视频中的语音并将其转换为文本。\n生成超过 57 种语言的字幕和翻译。\n扩大您的全球影响力并探索新水平的视频见解。",
-          "preTitle": "转录阿尔",
+          "preTitle": "Transcribe AI",
           "title": "将您的视频转化为有价值的见解"
         },
         "list1": {
@@ -1982,7 +1982,7 @@
         "cloudFlare": "云耀光",
         "comparison": "比较",
         "dns": "域名系统",
-        "fastly": "快速",
+        "fastly": "fastly",
         "features": "特征",
         "gowaf": "Gowaf CDN",
         "overview": "概述",
@@ -2346,11 +2346,11 @@
       "breadCrumbs": {
         "apiDocs": "API文档",
         "mediaCage": "媒体笼",
-        "multiDRM": "多重DRM",
+        "multiDRM": "multi-DRM",
         "overview": "概述",
         "parent": "stream",
         "player": "玩家",
-        "transcribeAI": "转录阿尔"
+        "transcribeAI": "Transcribe AI"
       },
       "mediaCage": {
         "ad1": {
