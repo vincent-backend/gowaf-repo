@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "Deje de comprometer la calidad de la red. \nSúbete a una red premium con tránsito de primer nivel proporcionado por los principales proveedores de datos de LATAM.",
           "title": "Operadores líderes y socios peering"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "Ahorre hasta un 80% en los costos de entrega de su contenido"
+          }
         }
       },
       "NorthAmerica": {

@@ -64,7 +64,10 @@
     :items="i18ntext.citems"
     :subs="i18ntext.csubs"
   />
-  <ProductsStorageSupportPlan />
+  <ProductsStorageSupportPlan
+    iconw="312px"
+    icon="/images/pricing/cdn/Pricing_CDN_card_graph.png"
+  />
   <ProductsStorageList1
     :list="i18ntext.imgPcList"
     :subTitle="$t('products.storage.Europe.partnerList.subTitle')"

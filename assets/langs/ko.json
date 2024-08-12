@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "네트워크 품질 저하를 중단하세요. \nLATAM의 주요 데이터 통신업체가 제공하는 최고의 Tier 1 대중교통을 갖춘 프리미엄 네트워크를 이용하세요.",
           "title": "주요 통신사 및 피어링 파트너"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "콘텐츠 전송 비용을 최대 80% 절감하세요"
+          }
         }
       },
       "NorthAmerica": {

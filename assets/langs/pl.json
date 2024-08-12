@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "Przestań iść na kompromis w kwestii jakości sieci. \nSkorzystaj z sieci premium z najlepszym tranzytem poziomu 1 zapewnianym przez wiodących przewoźników danych w LATAM.",
           "title": "Wiodący przewoźnicy i partnerzy peeringowi"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "Zaoszczędź do 80% na kosztach dostarczania treści"
+          }
         }
       },
       "NorthAmerica": {

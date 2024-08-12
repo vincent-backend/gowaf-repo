@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "Pare de comprometer a qualidade da rede. \nEntre em uma rede premium com trânsito de primeira linha fornecido pelas principais operadoras de dados da América Latina.",
           "title": "Operadoras líderes e parceiros peering"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "Economize até 80% em seus custos de entrega de conteúdo"
+          }
         }
       },
       "NorthAmerica": {

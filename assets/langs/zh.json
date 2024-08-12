@@ -2287,6 +2287,11 @@
         "partnerList": {
           "subTitle": "停止影响网络质量。\n搭乘由拉丁美洲领先数据运营商提供的顶级 1 级传输的优质网络。",
           "title": "领先的运营商和对等合作伙伴"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "节省高达 80% 的内容交付成本"
+          }
         }
       },
       "NorthAmerica": {

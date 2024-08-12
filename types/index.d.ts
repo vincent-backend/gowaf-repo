@@ -4,7 +4,7 @@
 // };
 
 declare module 'vue3-country-flag' {
-  import { defineComponent, Component } from 'vue';
+  import { defineComponent, Plugin } from 'vue';
 
   // 定义组件的props接口
   interface Vue3CountryFlagProps {
@@ -23,7 +23,7 @@ declare module 'vue3-country-flag' {
   }
 
   // 定义组件接口
-  interface Vue3CountryFlagComponent extends Component {
+  interface Vue3CountryFlagComponent extends Plugin {
     props: Vue3CountryFlagProps;
     methods: {
       getCountry: (code: string) => object; // 假设getCountry返回一个对象

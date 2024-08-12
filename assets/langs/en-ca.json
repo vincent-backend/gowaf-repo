@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "Stop compromising on network quality. Hop on a premium network with top Tier 1 transit provided by leading data carriers in LATAM.",
           "title": "Leading carriers and peering partners"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "Save up to 80% on your content delivery costs"
+          }
         }
       },
       "NorthAmerica": {

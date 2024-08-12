@@ -29,7 +29,6 @@ const list: any = []
 
 for (const path in modules) {
   modules[path]().then((mod: any) => {
-    console.log(path, mod)
     list.push({
       default: mod
     })

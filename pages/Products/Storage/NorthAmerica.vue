@@ -66,15 +66,16 @@
     :items="i18ntext.citems"
     :subs="i18ntext.csubs"
   />
-  <ProductsStorageSupportPlan />
+  <ProductsStorageSupportPlan
+    iconw="312px"
+    icon="/images/pricing/cdn/Pricing_CDN_card_graph.png"
+  />
   <ProductsStorageList1
     :list="i18ntext.imgPcList"
     :title="$t('products.storage.NorthAmerica.partnerList.title')"
     :subTitle="$t('products.storage.NorthAmerica.partnerList.subTitle')"
   />
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 <script setup lang="ts">

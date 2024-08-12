@@ -68,7 +68,10 @@
     :items="i18ntext.c1items"
     :subs="i18ntext.c1subs"
   />
-  <ProductsStorageSupportPlan />
+  <ProductsStorageSupportPlan
+    iconw="312px"
+    icon="/images/pricing/cdn/Pricing_CDN_card_graph.png"
+  />
   <ProductsStorageList1
     :subTitle="$t('products.storage.AfriceMiddleEast.partnerList.subTitle')"
     :title="$t('products.storage.AfriceMiddleEast.partnerList.title')"

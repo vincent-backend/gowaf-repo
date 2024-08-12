@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "Smetti di scendere a compromessi sulla qualità della rete. \nSali su una rete premium con transito di primo livello fornito dai principali vettori dati in LATAM.",
           "title": "Operatori leader e partner peering"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "Risparmia fino all'80% sui costi di consegna dei contenuti"
+          }
         }
       },
       "NorthAmerica": {

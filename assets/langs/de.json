@@ -2163,6 +2163,11 @@
         "partnerList": {
           "subTitle": "Machen Sie keine Kompromisse mehr bei der Netzwerkqualität. \nNutzen Sie ein Premium-Netzwerk mit erstklassigem Tier-1-Transit, bereitgestellt von führenden Datenanbietern in LATAM.",
           "title": "Führende Carrier und Peering-Partner"
+        },
+        "supportPlan": {
+          "content": {
+            "title": "Sparen Sie bis zu 80 % der Kosten für die Bereitstellung Ihrer Inhalte"
+          }
         }
       },
       "NorthAmerica": {

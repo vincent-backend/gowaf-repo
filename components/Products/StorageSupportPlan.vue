@@ -78,8 +78,8 @@ const props = withDefaults(
     title?: string;
     subTitle?: string;
     icon?: string;
-    btnText: string;
-    btnsubText: string;
+    btnText?: string;
+    btnsubText?: string;
     iconw?: string;
     isHidenList?: boolean;
   }>(),
@@ -427,7 +427,7 @@ const i18ntext = computed<any>(() => {
               width: 19.5rem;
               height: 19.5rem;
 
-              background: url(/images/pricing/cdn/Pricing_CDN_card_graph.png);
+              // background: url(/images/pricing/cdn/Pricing_CDN_card_graph.png);
             }
           }
         }

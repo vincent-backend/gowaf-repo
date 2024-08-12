@@ -25,10 +25,7 @@
       mh: '29.63rem'
     }"
   />
-  <CommonNumbers
-    style="margin-top: 80px"
-    :items="i18ntext.numbers"
-  />
+  <CommonNumbers style="margin-top: 80px" :items="i18ntext.numbers" />
   <ProductsExceptionalPerformance
     :title="$t('products.storage.LatinAmerica.exceptionalPerformance.title')"
     :content="
@@ -38,16 +35,10 @@
     img="/images/products/storage/LatinAmerica/map_latinamerica.png"
   />
   <LgOnly>
-    <ProductsNeverHit
-      :isShowTitle="false"
-      :neverHit="i18ntext.neverHit"
-    />
+    <ProductsNeverHit :isShowTitle="false" :neverHit="i18ntext.neverHit" />
   </LgOnly>
   <XsOnly>
-    <ProductsNeverHitList
-      :isShowTitle="false"
-      :neverHit="i18ntext.neverHit"
-    />
+    <ProductsNeverHitList :isShowTitle="false" :neverHit="i18ntext.neverHit" />
   </XsOnly>
   <HomeList1 />
   <SolutionsAd1
@@ -77,15 +68,16 @@
     :items="i18ntext.citems"
     :subs="i18ntext.csubs"
   />
-  <ProductsStorageSupportPlan />
+  <ProductsStorageSupportPlan
+    iconw="312px"
+    icon="/images/pricing/cdn/Pricing_CDN_card_graph.png"
+  />
   <ProductsStorageList1
     :subTitle="$t('products.storage.LatinAmerica.partnerList.subTitle')"
     :title="$t('products.storage.LatinAmerica.partnerList.title')"
     :list="i18ntext.imgPcList"
   />
-  <ProductsDRMCustomers
-    :drmCustomer="i18ntext.drmCustomer"
-  />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>
 <script setup lang="ts">
