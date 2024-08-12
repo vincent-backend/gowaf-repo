@@ -121,7 +121,7 @@
         <NuxtLinkLocale class="get" to="/forgot">
           {{ $t('header.getStarted') }}
         </NuxtLinkLocale>
-        <div class="language" @click="c">
+        <div class="language" @click="changeLanguage">
           {{ showText }} <i class="icon"></i>
         </div>
       </div>
@@ -155,8 +155,7 @@ const model = defineModel('show', {
 });
 const activation = ref('');
 const showPopUp = ref(false);
-const c = () => {
-  console.log('c -> c');
+const changeLanguage = () => {
   showPopUp.value = true;
 };
 const changeLang = async (item: any) => {

@@ -1,12 +1,13 @@
 <script lang="ts" setup>
 import { options } from '~/consts/lang';
 const route = useRoute();
+const { locale, messages, setLocale, setLocaleCookie } = useI18n();
+const localePath = useLocalePath();
 
-const isHome = route.path === '/';
+const isHome = route.path === localePath('/');
 const alertVisible = ref(isHome);
 const ProductsPopoverRef = ref();
 const show = ref(false);
-const { locale, messages, setLocale, setLocaleCookie } = useI18n();
 const cookie = useCookie('i18n_redirected');
 
 const handleBack = () => {
