@@ -1404,7 +1404,7 @@
         "title1": "加入过来",
         "title2": "1,000,000",
         "title3": "网站已由 Gowaf 提供支持",
-        "weAreRated": "We're rated",
+        "weAreRated": "我们被评为",
         "weAreRated2": "4.8 分（满分 5 分）基于 600 条评论"
       },
       "bottom1": {
@@ -3056,7 +3056,7 @@
   "uaCI9u0EUz8YLN_rifW0M": "媒体保护",
   "uiHviYfgafHCTdCxOg1kK": "/图像/产品/优化器/TransformAPI/Convert",
   "ul-vX2U3pW1I3djCaFhA6": "<p>在 CDN 流行之前，万维网上的内容主要由托管网站的同一物理 Web 服务器提供。\n该服务器也称为源服务器，因为网站的所有内容都源自该服务器。\n如果没有 CDN，无论请求是来自中国、意大利还是巴西的网络浏览器，网站的所有内容都将从源服务器提供。</p><br/><p>网站体验\n不同最终用户的情况因位置而异。\n例如，如果网站的源服务器位于罗马，意大利网络用户将体验到延迟减少和网页加载时间更快。\n中国和巴西的用户将遇到高延迟和网页加载速度变慢的情况，因为数据传输距离要长得多。</p><br/><p><img src=\\'/images/resources/WhatIsCDN/ \nhelp_with@2x.png\\' /></p><br/><p>这就是 CDN 的大致工作方式——数据在物理上更接近最终用户，就像产品仓库一样。\n这会导致更快的交付时间 - 或者对于 CDN，更快的页面加载时间。\n有一个警告：大多数 CDN 没有与每个用户位于同一城市的“设施”或边缘服务器。\n因此，用户通常不得不处理近距离的数据，但用户的总体体验仍应得到改善。</p>",
-  "ulPyJg2au7ZojSp6wLSB8": "Make use of the next-generation real-time monitoring dashboard and get full traffic insights.",
+  "ulPyJg2au7ZojSp6wLSB8": "利用下一代实时监控仪表板并获得完整的流量洞察。",
   "upu4FATCc3Co5coASNZjg": "快点",
   "urwASiMFk_MK2AZn1nIoP": "复杂的集成需要额外费用",
   "utcAfnAadBCKyHFQoOqb3": "视频加密",
