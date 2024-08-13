@@ -225,7 +225,7 @@ const i18ntext = computed<any>(() => {
         title: 'Pedro Dobrescu',
         subTitle: 'ShortPixel',
         content:
-          '"It is a pleasure to work with the bunny.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
+          '"It is a pleasure to work with the Gowaf.net team! Even before we switched to their excellent CDN network, they added some features we needed for the transition. And after that, they were so quick to add new features or solve any problem we had! A true long-term partner that we really appreciate!"'
       },
       items: [
         {

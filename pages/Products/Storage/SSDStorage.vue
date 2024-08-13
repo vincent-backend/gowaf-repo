@@ -126,17 +126,17 @@ const i18ntext = computed(() => {
         subTitle: '(Milliseconds - Lower is better)',
         items: [
           {
-            label: 'Bunny Edge Tier (15 regions)',
+            label: 'Gowaf Edge Tier (15 regions)',
             value: '26',
             width: '21.25%'
           },
           {
-            label: 'Bunny Standard Tier (8 regions)',
+            label: 'Gowaf Standard Tier (8 regions)',
             value: '45',
             width: '31.875%'
           },
           {
-            label: 'Bunny Storage SSD (London)',
+            label: 'Gowaf Storage SSD (London)',
             value: '127',
             width: '40%'
           },
@@ -167,17 +167,17 @@ const i18ntext = computed(() => {
         subTitle: '(Milliseconds - Lower is better)',
         items: [
           {
-            label: 'Bunny Edge Tier (15 regions)',
+            label: 'Gowaf Edge Tier (15 regions)',
             value: '193',
             width: '21.25%'
           },
           {
-            label: 'Bunny Standard Tier (8 regions)',
+            label: 'Gowaf Standard Tier (8 regions)',
             value: '349',
             width: '31.875%'
           },
           {
-            label: 'Bunny Storage SSD (London)',
+            label: 'Gowaf Storage SSD (London)',
             value: '500',
             width: '40%'
           },
