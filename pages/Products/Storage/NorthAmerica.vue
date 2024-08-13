@@ -79,6 +79,7 @@
   <Footer />
 </template>
 <script setup lang="ts">
+const { t } = useI18n();
 definePageMeta({
   title: 'Products'
 });
@@ -91,31 +92,29 @@ const i18ntext = computed<any>(() => {
         content: 'PoPs'
       },
       {
-        label: '27 ms',
-        content: 'Avg Latency'
+        label: t('UDMIK9G-HME1LWziILgn2'),
+        content: t('NQivWCq6kk2EQMOxoKgLv')
       },
       {
         label: '15',
-        content: 'Transit Providers'
+        content: t('D5dV_AMg3Hmcil_zwJmR5')
       },
       {
         label: '151.000',
-        content: 'Peak Request/Second'
+        content: t('bFwCHK8hg4hqa_z9YzMpf')
       }
     ],
     neverHit: {
-      title: 'Never hit your origin again',
-      subTitle:
-        'Minimize traffic to your origin and lower costs by serving files directly from Perma-Cache. Gowaf keeps your infrastructure hopping, regardless of scale or traffic spikes.',
+      title: t('tqA9tM3WudJ_zOi3gg6uV'),
+      subTitle: t('3BL5RppaAEV0sCREu-bWk'),
       items: [
         {
           icon: '/images/products/storage/europe/SmartEdge™_ic_engine_2x.png',
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Scalable by Design',
-          content:
-            'Maximize your growth and delivery all across North America.',
+          title: t('FOPJ1aRqjYy9kYkHltacY'),
+          content: t('95KNp_8IoUrtC89t7OYkD'),
           contentAlign: 'left'
         },
         {
@@ -123,8 +122,8 @@ const i18ntext = computed<any>(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: '24/7 Support',
-          content: 'Available 24 hours a day, every day of the week.',
+          title: t('hwhw48dVM8CgDfWOy1Nlg'),
+          content: t('Fu_FQ_Wlh942RX3FuGIfx'),
           contentAlign: 'left'
         },
         {
@@ -132,8 +131,8 @@ const i18ntext = computed<any>(() => {
           width: '100px',
           height: '100px',
           alignType: 'flex-start',
-          title: 'Transparent Pricing',
-          content: 'Only pay for the bandwidth you use and cancel anytime.',
+          title: t('e6ehWsWT_Gfg_VJdwAzFy'),
+          content: t('3K7ipdtN9nVg1YXpg69m7'),
           contentAlign: 'left'
         }
       ]
@@ -141,55 +140,49 @@ const i18ntext = computed<any>(() => {
     items: [
       {
         icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_1@2x.png',
-        title: "Easy Let's Encrypt SSL",
-        content:
-          'Take advantage of a free SSL certificate with a single click of a button.'
+        title: t('053LltWUAiQWo44G-qciW'),
+        content: t('oS8i8X6PgBlY6DHf6uVzZ')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_2@2x.png',
-        title: 'Instant Cache Purging',
-        content:
-          'Clearing cache has never been so easy and fast. Keep your content always up to date.'
+        title: t('hC-unQx-5bnwrQemWAq2h'),
+        content: t('LhgzkM8jkivVfzRqHMJdE')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_3@2x.png',
-        title: 'Real-Time Log Forwarding',
-        content:
-          'Gain complete visibility into your content and make data-driven business decisions.'
+        title: t('a9Mv9dtLYM0n_adNbbyjt'),
+        content: t('1iDB7T5Sz7kTjro2oN7EY')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_4@2x.png',
-        title: 'Real-Time Monitoring',
-        content:
-          'Make use of the next-generation real-time monitoring dashboard and get full traffic insights.'
+        title: t('uRao7VE1b0JinEkTtLiy9'),
+        content: t('ulPyJg2au7ZojSp6wLSB8')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_5@2x.png',
-        title: 'Edge Rules',
-        content:
-          'Define custom rules to control delivery, security, routing, and much more directly on the edge.'
+        title: t('IYJQsg9Hd3Q4FKJACLC5Z'),
+        content: t('HssgPf8qStJZTKqs_aJle')
       },
       {
         icon: '/images/products/cdn/overview/cdn_overview_bulid_ic_6@2x.png',
-        title: 'Powerful Security',
-        content:
-          'Stay protected from any and all attacks with state-of-the-art DoS mitigation security.'
+        title: t('tI0-aRMh-hmf3-kaL5dCL'),
+        content: t('mp0dUZFG6uyPEsUofdQGZ')
       }
     ],
     citems: [
       {
-        title: 'EU / NA',
-        value: '200 GB',
+        title: t('FRyMaifWCuSavbEsrvSTs'),
+        value: t('R-G_YQLWg2AyNNdByunix'),
         percent: 45
       }
     ],
     csubs: [
       {
-        title: 'Standard Tier',
+        title: t('pjO0SL6mKVQoWvd1QsWNv'),
         value: '$2/month'
       },
       {
-        title: 'Volume Tier',
+        title: t('1I8BKYX1kjYtmXOn_E9xF'),
         value: '$1/month'
       }
     ],
@@ -204,13 +197,13 @@ const i18ntext = computed<any>(() => {
       '/images/products/storage/northamerica/home_logo_8_2x.png'
     ],
     drmCustomer: {
-      title: 'Join over 40.000+ customers who already put their trust in Gowaf',
-      contentPre: "We're rated ",
+      title: t('O3X1IOZm6-KlH1N74XLo3'),
+      contentPre: t('home.header.bottom.weAreRated'),
       contentImg: '/images/products/stream/multi-drm/home_title_star2x.png',
-      contentMid: ' Excellent 4.8',
-      contentP: 'out of 5 on',
-      contentLink: 'Trustpilot',
-      contentLast: ' - Based on 600+ reviews',
+      contentMid: t('home.join2.subTitle3'),
+      contentP: t('home.join2.subTitle4'),
+      contentLink: t('home.join2.subTitle5'),
+      contentLast: t('home.join2.subTitle6'),
       faceImg: {
         img: '/images/products/storage/northamerica/Network_ddos_evaluate_character_2x.png',
         top: '-3px',
@@ -223,10 +216,9 @@ const i18ntext = computed<any>(() => {
         mheight: '18.75rem'
       },
       list: {
-        title: 'Periklis',
-        subTitle: 'VitrinaBox, Senior Software Engineer',
-        content:
-          '"Gowaf is easy to use, offers competitive pricing, and excellent value for money. Technology is super efficient while new features are introduced every month. Customer-centric while offering a number of growth opportunities for the customers."'
+        title: t('6YXncMQRwii8ofZw6I7zu'),
+        subTitle: t('SoGw4y79_hLJBGeIlu_vm'),
+        content: t('G0_N_-Z_TIkrK4n6jTtBQ')
       },
       items: [
         {
