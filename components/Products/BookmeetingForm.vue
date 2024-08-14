@@ -58,7 +58,7 @@
                   "
                 >
                   <!-- <Vue3CountryFlag :value="schemaModal.flag"></Vue3CountryFlag> -->
-                  <Vue3CountryFlag :value="schemaModal.default">
+                  <Vue3CountryFlag :value="schemaModal.flag">
                     <template v-slot="{ country }">
                       <span class="slot-span">
                         +{{ schemaModal.default }}
@@ -123,13 +123,12 @@ const schemaModalVisible = ref({
 });
 const schemaModal = ref({
   default: '86',
-  flag: 'CN'
+  flag: 'cn'
 });
 const form = reactive({
   phone: ''
 });
 const change = (val: any) => {
-  console.log('change -> val', val);
   schemaModal.value.flag = val.iso2;
 };
 </script>

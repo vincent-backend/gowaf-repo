@@ -5,7 +5,7 @@ import Vue3CountryFlag from 'vue3-country-flag';
 //   true,
 //   /\.svg$/
 // );
-const modules: any = import.meta.glob(`../public/flags/*.svg`, { as: 'url' });
+const modules: any = import.meta.glob(`/public/flags/*.svg`, { query: '?url', eager: true });
 
 // let svgs = require.context(
 //   '../public/flags',
@@ -28,11 +28,7 @@ const modules: any = import.meta.glob(`../public/flags/*.svg`, { as: 'url' });
 const list: any = []
 
 for (const path in modules) {
-  modules[path]().then((mod: any) => {
-    list.push({
-      default: mod
-    })
-  })
+  list.push(modules[path])
 }
 // console.log(svgPathObj);
 

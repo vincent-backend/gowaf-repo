@@ -1,5 +1,4 @@
 import { fileURLToPath, URL } from 'url';
-import ViteRequireContext from '@originjs/vite-plugin-require-context';
 import path from 'path';
 
 const isPord = process.env.NUXT_ENVIRONMENT === 'production'
@@ -26,9 +25,6 @@ export default defineNuxtConfig({
     '@types': fileURLToPath(new URL('./types', import.meta.url)),
     'vue3-country-flag': path.resolve(__dirname, 'node_modules/vue3-country-intl/lib/vue3CountryFlag.esm.min.js'),
   },
-  // experimental: {
-  //   scanPageMeta: true,
-  // },
   i18n: {
     strategy: 'prefix_except_default',
     // strategy: 'no_prefix',
@@ -67,12 +63,21 @@ export default defineNuxtConfig({
         },
       },
     },
-    plugins: [
-      ViteRequireContext(),
-    ],
-    build: {
-      assetsInlineLimit:  0,
-    },
+    // build: {
+    //   assetsInlineLimit: 0,
+    //   rollupOptions: {
+    //     output: {
+    //       manualChunks: (id) => {
+    //         console.log("id", id)
+    //         if (id.includes('element-plus')) {
+    //           return 'componentUi';
+    //         } else if (id.includes('@vueuse')) {
+    //           return '@vueuse';
+    //         }
+    //       }
+    //     }
+    //   }
+    // },
     resolve: {
       alias: {
         // 添加别名，将导入路径映射到实际路径
@@ -99,12 +104,9 @@ export default defineNuxtConfig({
   },
   devServer: {
     port: 8004,
-    host: ['0.0.0.0','localhost'],
+    host: ['0.0.0.0', 'localhost'],
   },
   compatibilityDate: '2024-07-09',
-  // routeRules: {
-  //   '/_nuxt/*': { cache: { maxAge: 60 * 60 } }
-  // },
   nitro: {
     output: {
       publicDir: "./dist/public",
@@ -113,5 +115,5 @@ export default defineNuxtConfig({
     },
     compressPublicAssets: true,
     publicAssets: publicAssets
-  }
+  },
 });
