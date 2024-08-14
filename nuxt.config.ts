@@ -99,7 +99,7 @@ export default defineNuxtConfig({
   },
   devServer: {
     port: 8004,
-    host: '0.0.0.0',
+    host: ['0.0.0.0','localhost'],
   },
   compatibilityDate: '2024-07-09',
   // routeRules: {
