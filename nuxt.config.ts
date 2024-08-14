@@ -17,13 +17,17 @@ const publicAssets = isPord ? [
 ] : []
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
+  // ssr: false,
   devtools: { enabled: true },
   css: ['~/assets/css/common.css', '~/assets/css/global.less'],
-  modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt',],
+  modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt', '@nuxtjs/device'],
   alias: {
     '@types': fileURLToPath(new URL('./types', import.meta.url)),
     'vue3-country-flag': path.resolve(__dirname, 'node_modules/vue3-country-intl/lib/vue3CountryFlag.esm.min.js'),
+  },
+  device: {
+    defaultUserAgent: 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Mobile Safari/537.36',
+    refreshOnResize: true
   },
   i18n: {
     strategy: 'prefix_except_default',

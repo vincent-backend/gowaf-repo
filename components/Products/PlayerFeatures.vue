@@ -85,8 +85,8 @@ const i18ntext = computed<any>(() => {
               class="pic"
               :style="{
                 backgroundImage: `url(${item.pic})`,
-                width: isMobile ? item.mpicWidth : item.picWidth,
-                height: isMobile ? item.mpicHeight : item.picHeight
+                width: $device.isMobile ? item.mpicWidth : item.picWidth,
+                height: $device.isMobile ? item.mpicHeight : item.picHeight
               }"
             ></div>
             <div v-if="item.hint" class="hint">{{ item.hint }}</div>

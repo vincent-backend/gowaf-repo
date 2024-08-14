@@ -2,7 +2,7 @@
   <div class="drm-table-container">
     <div class="drm-table page-container">
       <div class="table">
-        <div v-if="isMobile" class="shadow"></div>
+        <div v-if="$device.isMobile" class="shadow"></div>
         <div class="header">
           <div class="row">
             <div class="cell" v-for="item in i18ntext.header">

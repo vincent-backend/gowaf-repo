@@ -53,7 +53,7 @@
   <CommonList3
     title1=""
     title2=""
-    :layoutType="isMobile ? 'full' : ''"
+    :layoutType="$device.isMobile ? 'full' : ''"
     :items="i18ntext.list"
   >
     <template #full="{ item }">

@@ -51,11 +51,11 @@
         </div>
 
         <div class="section-2">
-          <div class="left" v-if="!isMobile">
+          <div class="left" v-if="!$device.isMobile">
             <div class="pic"></div>
           </div>
           <div class="right">
-            <template v-if="isMobile">
+            <template v-if="$device.isMobile">
               <h3>
                 {{ $t('products.stream.multiDRM.drmPricing.section2.title') }}
                 {{ $t('products.stream.multiDRM.drmPricing.section2.title2') }}
@@ -75,7 +75,7 @@
             <p>
               {{ $t('products.stream.multiDRM.drmPricing.section2.content1') }}
             </p>
-            <div class="pic" v-if="isMobile"></div>
+            <div class="pic" v-if="$device.isMobile"></div>
             <ul>
               <li v-for="(item, index) in i18ntext.list1" :key="index">
                 <img :src="item.icon" :alt="item.title" />

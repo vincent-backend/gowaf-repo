@@ -30,7 +30,7 @@
   <div class="page-container Marketing">
     <div class="mk-title">{{ $t('home.AffiliateProgram.mktitle') }}</div>
     <div class="mk-subtitle">{{ $t('home.AffiliateProgram.mksubtitle') }}</div>
-    <div class="mkt-img" v-if="!isMobile">
+    <div class="mkt-img" v-if="!$device.isMobile">
       <img
         class="mkt-img"
         src="/images/home/编组_178@2x.png"

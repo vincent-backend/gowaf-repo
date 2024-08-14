@@ -15,7 +15,7 @@
           <div
             class="pic"
             :style="
-              isMobile
+              $device.isMobile
                 ? {
                     backgroundImage: `url(${tab.pic})`,
                     width: tab.mpicWidth,

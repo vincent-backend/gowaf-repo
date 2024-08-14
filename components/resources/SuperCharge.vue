@@ -28,7 +28,7 @@ const curTab = ref(0);
           <div
             class="icon"
             :style="
-              isMobile
+              $device.isMobile
                 ? {
                     backgroundImage: `url(${tab?.mIcon})`,
                     width: tab.mIconWidth,
@@ -49,7 +49,7 @@ const curTab = ref(0);
           <div class="content">
             <p>{{ tab.content }}</p>
           </div>
-          <NuxtLinkLocale v-if="!isMobile && tab.btn" href="#" class="trail-btn">{{
+          <NuxtLinkLocale v-if="!$device.isMobile && tab.btn" href="#" class="trail-btn">{{
             tab.btn
           }}</NuxtLinkLocale>
           <div v-else class="btn-pic">

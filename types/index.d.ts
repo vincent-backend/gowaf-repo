@@ -107,6 +107,15 @@ declare module 'vue3-country-flag' {
   export default Vue3CountryFlag;
 }
 
+
+
 declare module Window {
   export const __vue3_country_flag_files_path_obj: any;
+}
+declare module 'vue' {
+  import Vue, { CreateElement } from 'vue';
+
+  interface Vue {
+    $device: any; // 这里定义你的 $device 类型，any 只是一个占位符
+  }
 }

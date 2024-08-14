@@ -46,6 +46,7 @@
 </template>
 <script lang="ts" setup>
 const { t } = useI18n();
+const { isMobile } = useDevice();
 defineProps<{
   tab: {
     title: string;

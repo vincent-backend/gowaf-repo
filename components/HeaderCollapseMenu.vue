@@ -27,27 +27,29 @@
           </div>
         </div>
         <transition name="fade">
-          <el-menu
-            v-if="activation == 'Products'"
-            class="menu-main"
-            index="title"
-            unique-opened
-            background-color="#fff"
-            style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
-            text-color="#000"
-          >
-            <MenuItem
-              v-for="item in ProductsMenu($t, $route.path)"
-              :item="item"
-              :key="item.label"
-            />
-            <div class="tips">
-              <div class="text">
-                {{ $t('gXCpxTqfzNLZXGiJ8xq2A') }}
+          <client-only>
+            <el-menu
+              v-if="activation == 'Products'"
+              class="menu-main"
+              index="title"
+              unique-opened
+              background-color="#fff"
+              style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
+              text-color="#000"
+            >
+              <MenuItem
+                v-for="item in ProductsMenu($t, $route.path)"
+                :item="item"
+                :key="item.label"
+              />
+              <div class="tips">
+                <div class="text">
+                  {{ $t('gXCpxTqfzNLZXGiJ8xq2A') }}
+                </div>
+                <div class="btn">{{ $t('2S7mKWjVBIPvrShcajZNe') }}</div>
               </div>
-              <div class="btn">{{ $t('2S7mKWjVBIPvrShcajZNe') }}</div>
-            </div>
-          </el-menu>
+            </el-menu>
+          </client-only>
         </transition>
 
         <div
@@ -61,23 +63,25 @@
           </div>
         </div>
         <transition name="fade">
-          <el-menu
-            v-if="activation == 'solutions'"
-            class="menu-main"
-            index="title"
-            unique-opened
-            background-color="#fff"
-            style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
-            text-color="#000"
-          >
-            <MenuItem v-for="item in i18ntext" :item="item" :key="item.key" />
-            <div class="tips">
-              <div class="text">
-                {{ $t('85rmjeUnWjmARIPLF29xY') }}
+          <client-only>
+            <el-menu
+              v-if="activation == 'solutions'"
+              class="menu-main"
+              index="title"
+              unique-opened
+              background-color="#fff"
+              style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
+              text-color="#000"
+            >
+              <MenuItem v-for="item in i18ntext" :item="item" :key="item.key" />
+              <div class="tips">
+                <div class="text">
+                  {{ $t('85rmjeUnWjmARIPLF29xY') }}
+                </div>
+                <div class="btn">{{ $t('7PxsJ4g1lv634-yp_BnPT') }}</div>
               </div>
-              <div class="btn">{{ $t('7PxsJ4g1lv634-yp_BnPT') }}</div>
-            </div>
-          </el-menu>
+            </el-menu>
+          </client-only>
         </transition>
 
         <div
@@ -91,27 +95,29 @@
           </div>
         </div>
         <transition name="fade">
-          <el-menu
-            v-if="activation == 'resources'"
-            class="menu-main"
-            index="title"
-            unique-opened
-            background-color="#fff"
-            style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
-            text-color="#000"
-          >
-            <MenuItem
-              v-for="item in ResourcesMenu($t, $route.path)"
-              :item="item"
-              :key="item.label"
-            />
-            <div class="tips">
-              <div class="text">
-                {{ $t('tPXv_JZFieY9H8lqVM39K') }}
+          <client-only>
+            <el-menu
+              v-if="activation == 'resources'"
+              class="menu-main"
+              index="title"
+              unique-opened
+              background-color="#fff"
+              style="--el-menu-hover-bg-color: 'rgba(70,207,58,0.06)'"
+              text-color="#000"
+            >
+              <MenuItem
+                v-for="item in ResourcesMenu($t, $route.path)"
+                :item="item"
+                :key="item.label"
+              />
+              <div class="tips">
+                <div class="text">
+                  {{ $t('tPXv_JZFieY9H8lqVM39K') }}
+                </div>
+                <div class="btn">{{ $t('mOWw2v3WMQVt98uaQ8S05') }}</div>
               </div>
-              <div class="btn">{{ $t('mOWw2v3WMQVt98uaQ8S05') }}</div>
-            </div>
-          </el-menu>
+            </el-menu>
+          </client-only>
         </transition>
       </div>
       <div class="btn-row">
@@ -167,7 +173,7 @@ const changeLang = async (item: any) => {
 
 const showText = computed(() => {
   const item = options.find(el => {
-    return el.href === cookie.value;
+    return el.href === cookie?.value;
   });
   return item ? item.text : 'EN';
 });

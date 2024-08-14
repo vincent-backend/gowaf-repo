@@ -28,7 +28,7 @@ withDefaults(
         <div
           class="title"
           v-if="title"
-          :style="{ width: isMobile ? '100%' : titleWidth }"
+          :style="{ width: $device.isMobile ? '100%' : titleWidth }"
         >
           {{ title }}
         </div>

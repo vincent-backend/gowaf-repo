@@ -52,7 +52,9 @@ const showText = computed(() => {
         <div class="home-title-text">
           {{ $route.meta.title }}
         </div>
-        <HeaderCollapseMenu v-model:show="show" />
+        <client-only>
+          <HeaderCollapseMenu v-model:show="show" />
+        </client-only>
       </XsOnly>
 
       <!-- for laptop -->

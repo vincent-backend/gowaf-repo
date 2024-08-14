@@ -46,7 +46,7 @@ withDefaults(
             :src="logo"
             alt=""
             :style="
-              !isMobile && logoWidth
+              !$device.isMobile && logoWidth
                 ? { width: logoWidth, height: logoHeight }
                 : ''
             "

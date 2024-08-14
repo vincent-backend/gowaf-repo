@@ -30,7 +30,7 @@
         :pic-height="item.height"
         m-pic-width="24.75rem"
         m-pic-height="20.25rem"
-        :reverse="isMobile ? true : index % 2 === 0"
+        :reverse="$device.isMobile ? true : index % 2 === 0"
       />
     </template>
   </div>

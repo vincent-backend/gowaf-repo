@@ -31,7 +31,7 @@ const curTab = ref(0);
             <div
               class="icon"
               :style="
-                isMobile
+                $device.isMobile
                   ? {
                       backgroundImage: `url(${tab.mIcon})`,
                       width: tab.mIconWidth,

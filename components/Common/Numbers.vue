@@ -13,7 +13,7 @@ const props = defineProps<{
   <div class="numbers-container">
     <h3 v-if="numbersTitle">{{ numbersTitle }}</h3>
     <LgOnly>
-      <template v-if="!isRow || !isMobile">
+      <template v-if="!isRow || !$device.isMobile">
         <div
           class="numbers page-container"
           :class="{ aboutType: type ? true : false }"

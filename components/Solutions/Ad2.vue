@@ -27,7 +27,7 @@ const props = defineProps({
         <div
           class="pic"
           :style="
-            isMobile
+            $device.isMobile
               ? {
                   backgroundImage: `url(${mPic})`,
                   width: mPicWidth,

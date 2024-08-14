@@ -39,7 +39,7 @@
     m-pic-height="25rem"
     m-pic-width="25rem"
     v-bind="
-      isMobile
+      $device.isMobile
         ? {
             style: {
               marginTop: '6.25rem'
