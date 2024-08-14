@@ -97,7 +97,10 @@ export default defineNuxtConfig({
       viewport: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0'
     }
   },
-
+  devServer: {
+    port: 8004,
+    host: '0.0.0.0',
+  },
   compatibilityDate: '2024-07-09',
   // routeRules: {
   //   '/_nuxt/*': { cache: { maxAge: 60 * 60 } }

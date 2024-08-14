@@ -41,6 +41,7 @@
 <script setup name="MenuItem">
 // import { Aim } from '@element-plus/icons-vue';
 const router = useRouter();
+const localeRoute = useLocaleRoute();
 const props = defineProps({
   item: {
     type: Object,
@@ -52,7 +53,7 @@ const props = defineProps({
 });
 const itemClick = item => {
   if (item.href && item.href !== '#') {
-    navigateTo(item.href);
+    navigateTo(localeRoute(item.href));
   }
 };
 </script>
@@ -99,7 +100,7 @@ const itemClick = item => {
     border-radius: 0.88rem;
   }
 }
-.el-sub-menu{
+.el-sub-menu {
   margin: 1.25rem 0 !important;
 }
 .el-menu-item {

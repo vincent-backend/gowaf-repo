@@ -383,11 +383,12 @@ const i18ntext = computed<any>(() => {
   width: 100vw;
   height: calc(100vh - 5.5rem);
   position: fixed;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
   top: 5.5rem;
   left: 0;
   background: rgba(255, 255, 255, 1);
-  padding-bottom: 23.18rem;
+  /* padding-bottom: 23.18rem; */
   /* backdrop-filter: blur(40px); */
   .menu {
     width: 100%;
@@ -431,13 +432,15 @@ const i18ntext = computed<any>(() => {
 }
 .btn-row {
   width: 100vw;
-  height: 23.18rem;
+  height: 40.18rem;
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.88rem;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
   .login {
     width: 33.75rem;
     height: 5rem;

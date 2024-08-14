@@ -38,6 +38,9 @@ defineProps<{
   .CommonPopup-body {
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
     .CommonPopup-title {
       width: 100%;
       height: 7rem;

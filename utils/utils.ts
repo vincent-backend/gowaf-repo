@@ -20,16 +20,18 @@ export function mergeWithDefaults(obj: any, tager: any) {
 }
 
 export function matchBreadCrumbs(breadcrumbs: any, path: any) {
+  const localePath = useLocalePath();
+  const locpath = localePath(path)
   for (let i = 0; i < breadcrumbs.length; i++) {
     const item = breadcrumbs[i];
-    let isMatch = item.href === path;
+    let isMatch = localePath(item.href) === locpath;
 
     // 如果当前项匹配，或者在子项中找到匹配项，则设置 current 为 true
-    if (isMatch || (item.children && item.children.some(child => child.href === path))) {
+    if (isMatch || (item.children && item.children.some((child: any) => localePath(child.href) === locpath))) {
       item.current = true;
       if (item.children) {
-        item.children.forEach(i => {
-          if (i.href === path) {
+        item.children.forEach((i: any) => {
+          if (localePath(i.href) === locpath) {
             i.current = true
           }
         });

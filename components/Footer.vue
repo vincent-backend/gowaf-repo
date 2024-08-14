@@ -111,7 +111,8 @@ const i18ntext = computed(() => {
             href: '#'
           },
           {
-            label: '✉ hello@Gowaf.net',
+            label: 'hello@Gowaf.net',
+            key: 'email',
             href: '#'
           }
         ]
@@ -189,7 +190,16 @@ const i18ntext = computed(() => {
             <dl class="shortcuts" v-for="item in i18ntext.shortcuts">
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
-                <NuxtLinkLocale :to="item2.href">{{ item2.label }}</NuxtLinkLocale>
+                <NuxtLinkLocale :to="item2.href">
+                  <img
+                    v-if="item2.key && item2.key == 'email'"
+                    src="/images/home/bot_ic_email_2@2x.png"
+                    class="img"
+                    alt=""
+                    srcset=""
+                  />
+                  {{ item2.label }}
+                </NuxtLinkLocale>
               </dd>
             </dl>
           </div>
@@ -242,9 +252,15 @@ const i18ntext = computed(() => {
                 {{ $t('footer.footer2.section2Content') }}
               </div>
               <div class="social-icons">
-                <NuxtLinkLocale class="social-icon social-icon-1"></NuxtLinkLocale>
-                <NuxtLinkLocale class="social-icon social-icon-2"></NuxtLinkLocale>
-                <NuxtLinkLocale class="social-icon social-icon-3"></NuxtLinkLocale>
+                <NuxtLinkLocale
+                  class="social-icon social-icon-1"
+                ></NuxtLinkLocale>
+                <NuxtLinkLocale
+                  class="social-icon social-icon-2"
+                ></NuxtLinkLocale>
+                <NuxtLinkLocale
+                  class="social-icon social-icon-3"
+                ></NuxtLinkLocale>
               </div>
             </div>
           </div>
@@ -275,8 +291,8 @@ const i18ntext = computed(() => {
 
   .footer-1 {
     height: 100%;
-    background: url(/images/home/home_bot_banner_bg_dot@2x.png) no-repeat
-      left center;
+    background: url('/images/home/home_bot_banner_bg_dot@2x.png') no-repeat left
+      center;
     background-size: 1018px 190px;
     display: flex;
     align-items: center;
@@ -341,7 +357,7 @@ const i18ntext = computed(() => {
       .logo {
         width: 114px;
         height: 44px;
-        background: url(/images/home/Gowaf_logo+文字.png) no-repeat;
+        background: url('/images/home/Gowaf_logo+文字.png') no-repeat;
       }
     }
 
@@ -382,6 +398,10 @@ const i18ntext = computed(() => {
                 color: #4e4e4e;
                 line-height: 20px;
               }
+            }
+            .img {
+              width: 16px;
+              height: 16px;
             }
           }
         }
@@ -441,13 +461,11 @@ const i18ntext = computed(() => {
                   margin-right: 10px;
 
                   &.icon-email {
-                    background: url(/images/home/bot_ic_email@2x.png)
-                      no-repeat;
+                    background: url('/images/home/bot_ic_email@2x.png') no-repeat;
                   }
 
                   &.icon-phone {
-                    background: url(/images/home/bot_ic_phone@2x.png)
-                      no-repeat;
+                    background: url('/images/home/bot_ic_phone@2x.png') no-repeat;
                   }
                 }
               }
@@ -485,18 +503,16 @@ const i18ntext = computed(() => {
                 height: 24px;
 
                 &.social-icon-1 {
-                  background: url(/images/home/bot_logo_twitter@2x.png)
+                  background: url('/images/home/bot_logo_twitter@2x.png')
                     no-repeat;
                 }
 
                 &.social-icon-2 {
-                  background: url(/images/home/bot_logo_face@2x.png)
-                    no-repeat;
+                  background: url('/images/home/bot_logo_face@2x.png') no-repeat;
                 }
 
                 &.social-icon-3 {
-                  background: url(/images/home/nav_logo_in@2x.png)
-                    no-repeat;
+                  background: url('/images/home/nav_logo_in@2x.png') no-repeat;
                 }
               }
             }
@@ -574,7 +590,7 @@ const i18ntext = computed(() => {
         .logo {
           width: 10.69rem;
           height: 4.13rem;
-          background: url(/images/home/Gowaf_logo+文字.png) no-repeat;
+          background: url('/images/home/Gowaf_logo+文字.png') no-repeat;
         }
       }
 
@@ -603,16 +619,19 @@ const i18ntext = computed(() => {
 
               dt {
                 margin-bottom: 1.25rem;
-
                 font-size: 1.5rem;
+                font-weight: 600;
               }
 
               dd {
                 margin-top: 1.25rem;
-
                 a {
                   font-size: 1.5rem;
                 }
+              }
+              .img {
+                width: 1.5rem;
+                height: 1.5rem;
               }
             }
           }
@@ -635,6 +654,7 @@ const i18ntext = computed(() => {
             > .title {
               font-size: 1.5rem;
               line-height: 2.06rem;
+              font-weight: 600;
             }
 
             > .content {
@@ -679,6 +699,7 @@ const i18ntext = computed(() => {
             .title {
               font-size: 1.5rem;
               line-height: 2.06rem;
+              font-weight: 600;
             }
 
             .content {
@@ -698,17 +719,17 @@ const i18ntext = computed(() => {
                   height: 2.25rem;
 
                   &.social-icon-1 {
-                    background: url(/public/mobile-images/home/bot_logo_twitter@2x.png)
+                    background: url('/mobile-images/home/bot_logo_twitter@2x.png')
                       no-repeat;
                   }
 
                   &.social-icon-2 {
-                    background: url(/public/mobile-images/home/bot_logo_face@2x.png)
+                    background: url('/mobile-images/home/bot_logo_face@2x.png')
                       no-repeat;
                   }
 
                   &.social-icon-3 {
-                    background: url(/public/mobile-images/home/nav_logo_in@2x.png)
+                    background: url('/mobile-images/home/nav_logo_in@2x.png')
                       no-repeat;
                   }
                 }
