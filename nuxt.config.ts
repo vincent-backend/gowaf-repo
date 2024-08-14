@@ -67,21 +67,21 @@ export default defineNuxtConfig({
         },
       },
     },
-    // build: {
-    //   assetsInlineLimit: 0,
-    //   rollupOptions: {
-    //     output: {
-    //       manualChunks: (id) => {
-    //         console.log("id", id)
-    //         if (id.includes('element-plus')) {
-    //           return 'componentUi';
-    //         } else if (id.includes('@vueuse')) {
-    //           return '@vueuse';
-    //         }
-    //       }
-    //     }
-    //   }
-    // },
+    build: {
+      assetsInlineLimit: 0,
+      // rollupOptions: {
+      //   output: {
+      //     manualChunks: (id) => {
+      //       console.log("id", id)
+      //       if (id.includes('element-plus')) {
+      //         return 'componentUi';
+      //       } else if (id.includes('@vueuse')) {
+      //         return '@vueuse';
+      //       }
+      //     }
+      //   }
+      // }
+    },
     resolve: {
       alias: {
         // 添加别名，将导入路径映射到实际路径

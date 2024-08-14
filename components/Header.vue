@@ -11,7 +11,8 @@ const show = ref(false);
 const cookie = useCookie('i18n_redirected');
 
 const handleBack = () => {
-  window.history.back();
+  // window.history.back();
+  useRouter().back()
 };
 const ProductsRef = ref();
 

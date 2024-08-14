@@ -37,36 +37,41 @@
             class="input-with-select"
           >
             <template #prefix>
-              <Vue3CountryIntl
-                id="mesDiv-Country"
-                style="width: 30px"
-                modal-class="modal-class"
-                :listZIndex="5000"
-                v-model:visible="schemaModalVisible.default"
-                v-model="schemaModal.default"
-                schema="popover"
-                placeholder=""
-                :searchAble="false"
-                :showAreaCode="true"
-                :onlyValue="false"
-                @change="change"
-              >
-                <div
-                  class="national"
-                  @click.stop="
-                    schemaModalVisible.default = !schemaModalVisible.default
-                  "
+              <ClientOnly>
+                <Vue3CountryIntl
+                  id="mesDiv-Country"
+                  style="width: 30px"
+                  modal-class="modal-class"
+                  :listZIndex="5000"
+                  v-model:visible="schemaModalVisible.default"
+                  v-model="schemaModal.default"
+                  :iso2="schemaModal.flag"
+                  schema="popover"
+                  placeholder=""
+                  :searchAble="false"
+                  :showAreaCode="true"
+                  :onlyValue="false"
+                  @change="change"
                 >
-                  <!-- <Vue3CountryFlag :value="schemaModal.flag"></Vue3CountryFlag> -->
-                  <Vue3CountryFlag :value="schemaModal.flag">
-                    <template v-slot="{ country }">
-                      <span class="slot-span">
-                        +{{ schemaModal.default }}
-                      </span>
-                    </template>
-                  </Vue3CountryFlag>
-                </div>
-              </Vue3CountryIntl>
+                  <div
+                    class="national"
+                    @click.stop="
+                      schemaModalVisible.default = !schemaModalVisible.default
+                    "
+                  >
+                    <Vue3CountryFlag
+                      :value="`+${schemaModal.default}`"
+                      :iso2="schemaModal.flag"
+                    >
+                      <template v-slot="{ country }">
+                        <span class="slot-span">
+                          +{{ schemaModal.default }}
+                        </span>
+                      </template>
+                    </Vue3CountryFlag>
+                  </div>
+                </Vue3CountryIntl>
+              </ClientOnly>
             </template>
           </el-input>
           <!-- <FormInput
@@ -129,6 +134,7 @@ const form = reactive({
   phone: ''
 });
 const change = (val: any) => {
+  console.log("change -> val", val)
   schemaModal.value.flag = val.iso2;
 };
 </script>
