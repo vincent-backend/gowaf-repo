@@ -420,8 +420,7 @@ const i18ntext = computed(() => {
 
         .copyright {
           margin-top: 10px;
-
-          color: #4e4e4e;
+          color: rgba(78, 78, 78, 0.5);
           line-height: 20px;
         }
       }
@@ -760,9 +759,8 @@ const i18ntext = computed(() => {
 
           > .copyright {
             margin-top: 1.88rem;
-
             font-size: 1.5rem;
-            color: #4e4e4e;
+            color: rgba(78, 78, 78, 0.5);
             line-height: 2.06rem;
             opacity: 0.5;
           }
