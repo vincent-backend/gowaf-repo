@@ -4,15 +4,19 @@ const route = useRoute();
 const { locale, messages, setLocale, setLocaleCookie } = useI18n();
 const localePath = useLocalePath();
 
-const isHome = route.path === localePath('/');
-const alertVisible = ref(isHome);
+const isHome = computed(() => {
+  const homePath = [localePath('/'), localePath('/tos')];
+  return homePath.includes(route.path);
+});
+console.log('isHome -> isHome', isHome.value);
+const alertVisible = ref(isHome.value);
 const ProductsPopoverRef = ref();
 const show = ref(false);
 const cookie = useCookie('i18n_redirected');
 
 const handleBack = () => {
   // window.history.back();
-  useRouter().back()
+  useRouter().back();
 };
 const ProductsRef = ref();
 

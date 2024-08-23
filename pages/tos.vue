@@ -6,53 +6,63 @@
     content="You agree that our continued provision of services to you, and your continued use of them, represent your agreement to be bound by the ToS."
     href="#"
   />
-  <div class="ad2-container" style="margin-bottom: 90px">
-    <template v-for="(item, index) in i18ntext.items" :key="index">
-      <SolutionsAd2
-        :title="item.title"
-        :content="item?.content"
-        :content2="item?.content2"
-        :content3="item?.content3"
-        :content4="item?.content4"
-        :pic="item.pic"
-        :m-pic="item.pic"
-        :pic-width="item.width"
-        :pic-height="item.height"
-        m-pic-width="24.75rem"
-        m-pic-height="20.25rem"
-        :reverse="$device.isMobile ? true : index % 2 === 0"
-      />
-    </template>
-  </div>
+  <SolutionsAd2
+    :title="i18ntext.item.title"
+    :content="i18ntext.item?.content"
+    :content2="i18ntext.item?.content2"
+    :content3="i18ntext.item?.content3"
+    :content4="i18ntext.item?.content4"
+    :pic="i18ntext.item.pic"
+    :m-pic="i18ntext.item.pic"
+    :pic-width="i18ntext.item.width"
+    :pic-height="i18ntext.item.height"
+    m-pic-width="22.63rem"
+    m-pic-height="19.88rem"
+    :reverse="true"
+  />
   <div class="page-container">
     <div class="content-container">
-      <div class="title"></div>
-      <div class="content"></div>
+      <div
+        class="block"
+        v-for="(item, index) in i18ntext.blockText"
+        :key="index"
+      >
+        <div class="title">{{ item.title }}</div>
+        <div class="content">{{ item.content }}</div>
+      </div>
     </div>
   </div>
-  <div class="page-container">
-    <div class=""></div>
+  <div class="page-container blockli-container">
+    <div class="blockli" v-for="(item, index) in i18ntext.blockli" :key="index">
+      <div class="title">{{ item.title }}</div>
+      <div class="content">{{ item.content }}</div>
+      <div class="subtitle">{{ item.subtitle }}</div>
+      <div class="blockul">
+        <div class="li-text" v-for="(li, index) in item.list" :key="index">
+          <img src="/images/home/Resources_about_node@2x.png" alt="" />
+          <div>{{ li }}</div>
+        </div>
+      </div>
+    </div>
   </div>
   <Footer />
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n();
-definePageMeta({
-  title: 'SLA'
-});
 
 const i18ntext = computed<any>(() => {
   return {
-    items: [
-      {
-        pic: '/images/home/Uptime_Guaran_img@2x.png',
-        title: t('home.guarantee'),
-        content: t('home.SLAcontent1'),
-        width: '362px',
-        height: '318px'
-      }
-    ],
+    item: {
+      pic: '/images/home/TermsOfService_graph@2x.png',
+      title: 'Easy to understand. Simple to follow.',
+      content:
+        'Our Terms of Services (ToS) are designed to be read and understood by the average person. Before using our service, please read them carefully and make sure you understand everything they say. Our Terms of Service are a legally binding contract between Polyfill and you.',
+      content2:
+        "Referred hereinafter as 'Polyfill', 'our', 'we' and 'us'; is a content delivery network service provider. All customers using our service are subject to the terms and conditions described in this document as well as the Acceptable Use Policy described here. We reserve the right to make alterations to these documents whenever required. It is the client's sole responsibility to check for updates on a regular basis.",
+      width: '362px',
+      height: '318px'
+    },
     blockText: [
       {
         title: 'Privacy & Data Policy',
@@ -91,11 +101,121 @@ const i18ntext = computed<any>(() => {
           'Errors, mistakes, or inaccuracies of content',
           'Any unauthorized access to our secure servers and/or any personal information stored therein',
           'Any interruption of the service',
-          'Failure of the products to perform',
+          'Failure of the products to perform'
+        ]
+      },
+      {
+        title: 'DMCA',
+        subtitle:
+          'For your complaint to be valid under the DMCA, you must provide the following information in writing:',
+        content:
+          'We respect artist and content owner rights and are not a platform for distributing copyrighted content. You must do the same. In accordance with the Digital Millennium Copyright Act (DMCA), we have adopted a policy to terminate the accounts of customers found to be repeatedly violating of copyright without the right to a refund.',
+        list: [
+          'An electronic or physical signature of a person authorized to act on behalf of the copyright owner',
+          'Identification of the copyrighted work that you claim has been infringed',
+          'Identification of the material that is claimed to be infringing and where it is located on the Service Information reasonably sufficient to permit Polyfill to contact you, such as your address, telephone number, and, email address',
+          'A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or law',
+          'A statement, made under penalty of perjury, that the above information is accurate, and that you are the copyright owner or are authorized to act on behalf of the owner'
         ]
       }
     ]
   };
 });
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.tops-ad2-container {
+  :deep(.ad2) {
+    width: 1200px;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  .title {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 20px;
+  }
+  .content {
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+  }
+}
+.blockli-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  .blockli {
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 30px;
+      color: #000000;
+      line-height: 42px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      margin-bottom: 20px;
+    }
+    .content {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4e4e4e;
+      line-height: 24px;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      margin-bottom: 14px;
+    }
+    .subtitle {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000000;
+      line-height: 24px;
+      text-align: left;
+      font-style: normal;
+      margin-bottom: 14px;
+      text-transform: none;
+    }
+    .blockul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .li-text {
+        display: flex;
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4e4e4e;
+        line-height: 24px;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        img {
+          width: 10px;
+          height: 10px;
+          margin-right: 7px;
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+}
+</style>
