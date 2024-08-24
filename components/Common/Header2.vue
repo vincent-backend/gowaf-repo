@@ -43,7 +43,7 @@ withDefaults(
       text-align: center;
       font-style: normal;
       text-transform: none;
-      margin: 28px 0 68px 0;
+      margin: 28px 0 38px 0;
     }
     .subTitle {
       font-family: Mont, Mont;
@@ -60,7 +60,7 @@ withDefaults(
       font-weight: 400;
       font-size: 30px;
       color: #4e4e4e;
-      line-height: 24px;
+      line-height: 32px;
       text-align: center;
       font-style: normal;
       text-transform: none;

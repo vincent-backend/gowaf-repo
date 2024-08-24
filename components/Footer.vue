@@ -121,7 +121,7 @@ const i18ntext = computed(() => {
     links: [
       {
         label: t('-6YVE_WEiVr9F14y2Y1fH'),
-        link: '#'
+        link: '/tos'
       },
       {
         label: t('d92bjdYH9U7f3wxcYguP3'),
@@ -129,7 +129,7 @@ const i18ntext = computed(() => {
       },
       {
         label: 'GDPR',
-        link: '#'
+        link: '/GDPR'
       },
       {
         label: t('-acsM5DRwC1wi7mvWm-pG'),

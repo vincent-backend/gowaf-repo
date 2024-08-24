@@ -9,5 +9,6 @@
     "pages\\Products\\Storage\\NorthAmerica.vue": [
       "Products"
     ]
-  }
+  },
+  "gutterpreview.sourceFolder": "public"
 }

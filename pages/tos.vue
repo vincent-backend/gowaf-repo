@@ -7,6 +7,7 @@
     href="#"
   />
   <SolutionsAd2
+    class="tops-ad2-container"
     :title="i18ntext.item.title"
     :content="i18ntext.item?.content"
     :content2="i18ntext.item?.content2"
@@ -20,16 +21,10 @@
     m-pic-height="19.88rem"
     :reverse="true"
   />
-  <div class="page-container">
-    <div class="content-container">
-      <div
-        class="block"
-        v-for="(item, index) in i18ntext.blockText"
-        :key="index"
-      >
-        <div class="title">{{ item.title }}</div>
-        <div class="content">{{ item.content }}</div>
-      </div>
+  <div class="page-container content-container">
+    <div class="block" v-for="(item, index) in i18ntext.blockText" :key="index">
+      <div class="title">{{ item.title }}</div>
+      <div class="content">{{ item.content }}</div>
     </div>
   </div>
   <div class="page-container blockli-container">
@@ -133,6 +128,7 @@ const i18ntext = computed<any>(() => {
   display: flex;
   flex-direction: column;
   gap: 85px;
+  margin-top: 80px;
   .title {
     font-family: PingFangSC, PingFang SC;
     font-weight: 500;
@@ -156,7 +152,7 @@ const i18ntext = computed<any>(() => {
   }
 }
 .blockli-container {
-  margin-top: 80px;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
   gap: 80px;
