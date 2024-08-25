@@ -9,7 +9,9 @@
   <div class="page-container content-container">
     <div class="block" v-for="(item, index) in i18ntext.blockText" :key="index">
       <div class="title">{{ item.title }}</div>
-      <div class="content" v-html="item.content"></div>
+      <ClientOnly>
+        <div class="content" v-html="item.content"></div>
+      </ClientOnly>
     </div>
   </div>
   <Footer />

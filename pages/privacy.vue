@@ -48,11 +48,13 @@
           <div class="content">{{ item.content }}</div>
         </div>
       </div>
-      <div class="bottom">
-        {{ $t('0lxiKybNRCrm3z9CzWtdT') }}<br />
-        {{ $t('vNLhCwTo3nX0EA-GQJMyq') }}<br />
-        {{ $t('MhSI7iWjafmlQ-IBy4mF-') }}
-      </div>
+      <ClientOnly>
+        <div class="bottom">
+          {{ $t('0lxiKybNRCrm3z9CzWtdT') }}<br />
+          {{ $t('vNLhCwTo3nX0EA-GQJMyq') }}<br />
+          {{ $t('MhSI7iWjafmlQ-IBy4mF-') }}
+        </div>
+      </ClientOnly>
     </div>
   </div>
 
