@@ -5,7 +5,14 @@ const { locale, messages, setLocale, setLocaleCookie } = useI18n();
 const localePath = useLocalePath();
 
 const isHome = computed(() => {
-  const homePath = [localePath('/'), localePath('/tos')];
+  const homePath = [
+    localePath('/'),
+    localePath('/tos'),
+    localePath('/acceptableUse'),
+    localePath('/GDPR'),
+    localePath('/privacy'),
+    localePath('/abuse'),
+  ];
   return homePath.includes(route.path);
 });
 const alertVisible = ref(isHome.value);

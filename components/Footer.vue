@@ -125,7 +125,7 @@ const i18ntext = computed(() => {
       },
       {
         label: t('d92bjdYH9U7f3wxcYguP3'),
-        link: '#'
+        link: '/acceptableUse'
       },
       {
         label: 'GDPR',
@@ -133,11 +133,11 @@ const i18ntext = computed(() => {
       },
       {
         label: t('-acsM5DRwC1wi7mvWm-pG'),
-        link: '#'
+        link: '/privacy'
       },
       {
         label: t('bHKl1j8fqOHjWwujqTFRg'),
-        link: '#'
+        link: '/abuse'
       }
     ]
   };

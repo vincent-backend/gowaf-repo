@@ -2,7 +2,7 @@
   <Header />
   <CommonHeader2
     title="Terms of Service"
-    sub-title="Thank you for using Polyfill"
+    sub-title="Thank you for using Gowaf"
     content="You agree that our continued provision of services to you, and your continued use of them, represent your agreement to be bound by the ToS."
     href="#"
   />
@@ -52,9 +52,9 @@ const i18ntext = computed<any>(() => {
       pic: '/images/home/TermsOfService_graph@2x.png',
       title: 'Easy to understand. Simple to follow.',
       content:
-        'Our Terms of Services (ToS) are designed to be read and understood by the average person. Before using our service, please read them carefully and make sure you understand everything they say. Our Terms of Service are a legally binding contract between Polyfill and you.',
+        'Our Terms of Services (ToS) are designed to be read and understood by the average person. Before using our service, please read them carefully and make sure you understand everything they say. Our Terms of Service are a legally binding contract between Gowaf and you.',
       content2:
-        "Referred hereinafter as 'Polyfill', 'our', 'we' and 'us'; is a content delivery network service provider. All customers using our service are subject to the terms and conditions described in this document as well as the Acceptable Use Policy described here. We reserve the right to make alterations to these documents whenever required. It is the client's sole responsibility to check for updates on a regular basis.",
+        "Referred hereinafter as 'Gowaf', 'our', 'we' and 'us'; is a content delivery network service provider. All customers using our service are subject to the terms and conditions described in this document as well as the Acceptable Use Policy described here. We reserve the right to make alterations to these documents whenever required. It is the client's sole responsibility to check for updates on a regular basis.",
       width: '362px',
       height: '318px'
     },
@@ -62,17 +62,17 @@ const i18ntext = computed<any>(() => {
       {
         title: 'Privacy & Data Policy',
         content:
-          'Polyfill is committed to complete transparency in how we handle your data. We have prepared a complete a detailed, but easy to understand privacy and data policy. By using our service, you agree that you have read and accepted the terms outlined in the policy.'
+          'Gowaf is committed to complete transparency in how we handle your data. We have prepared a complete a detailed, but easy to understand privacy and data policy. By using our service, you agree that you have read and accepted the terms outlined in the policy.'
       },
       {
         title: 'Pricing',
         content:
-          'Polyfill service costs and pricing may be changed from time to time at Polyfill sole discretion. All the payments are paid in advance and not refundable. All the prices stated by us are subject to change and may be changed from time to time at Polyfill sole discretion.'
+          'Gowaf service costs and pricing may be changed from time to time at Gowaf sole discretion. All the payments are paid in advance and not refundable. All the prices stated by us are subject to change and may be changed from time to time at Gowaf sole discretion.'
       },
       {
         title: 'Account Termination',
         content:
-          'You agree that Polyfill might, under certain circumstances and without prior notice terminate your account and restrict access to our service. Causes for this include but are not limited to: violations of the Terms of Service and Acceptable Use Policy, requests by law enforcement or other government agencies and/or having provided false information as part of your account. All terminations will be made in Polyfill sole discretion and we will not be liable for any disruption or damage to you or your service that such a termination might cause. Once your account has been terminated we reserve the right to delete all the data associated with it without the option to restore it.'
+          'You agree that Gowaf might, under certain circumstances and without prior notice terminate your account and restrict access to our service. Causes for this include but are not limited to: violations of the Terms of Service and Acceptable Use Policy, requests by law enforcement or other government agencies and/or having provided false information as part of your account. All terminations will be made in Gowaf sole discretion and we will not be liable for any disruption or damage to you or your service that such a termination might cause. Once your account has been terminated we reserve the right to delete all the data associated with it without the option to restore it.'
       },
       {
         title: 'Content Hosting',
@@ -82,16 +82,16 @@ const i18ntext = computed<any>(() => {
       {
         title: 'Service Level Agreement',
         content:
-          'Polyfill will use all possible efforts to keep your service Polyfill 24 hours a day, 7 days a week as long as you abide by our Terms Of Service. We are aiming for at least a 99.995% monthly uptime for our content delivery service, however sometimes for a number of reasons, it may be unavailable to you. You recognize and acknowledge that occasional unavailability of the services will occur. We make no warranty or assurance that the service will be Polyfill uninterrupted. We do not guarantee to provide support outside of normal business hours unless specifically stated by us.'
+          'Gowaf will use all possible efforts to keep your service Gowaf 24 hours a day, 7 days a week as long as you abide by our Terms Of Service. We are aiming for at least a 99.995% monthly uptime for our content delivery service, however sometimes for a number of reasons, it may be unavailable to you. You recognize and acknowledge that occasional unavailability of the services will occur. We make no warranty or assurance that the service will be Gowaf uninterrupted. We do not guarantee to provide support outside of normal business hours unless specifically stated by us.'
       }
     ],
     blockli: [
       {
         title: 'Limitation of liability',
         subtitle:
-          'To the extent allowed by applicable law, in no event shall Polyfill or its affiliates, directors, or employees be liable for the following:',
+          'To the extent allowed by applicable law, in no event shall Gowaf or its affiliates, directors, or employees be liable for the following:',
         content:
-          'To the extent allowed by applicable law, in no event, shall Polyfill, its affiliates, directors, or employees be liable for any damages whatsoever, including without limitation, any loss of profits, loss of business, loss of use or data, interruption of business, or for direct, indirect, special, incidental or consequential damages of any kind.',
+          'To the extent allowed by applicable law, in no event, shall Gowaf, its affiliates, directors, or employees be liable for any damages whatsoever, including without limitation, any loss of profits, loss of business, loss of use or data, interruption of business, or for direct, indirect, special, incidental or consequential damages of any kind.',
         list: [
           'Errors, mistakes, or inaccuracies of content',
           'Any unauthorized access to our secure servers and/or any personal information stored therein',
@@ -108,7 +108,7 @@ const i18ntext = computed<any>(() => {
         list: [
           'An electronic or physical signature of a person authorized to act on behalf of the copyright owner',
           'Identification of the copyrighted work that you claim has been infringed',
-          'Identification of the material that is claimed to be infringing and where it is located on the Service Information reasonably sufficient to permit Polyfill to contact you, such as your address, telephone number, and, email address',
+          'Identification of the material that is claimed to be infringing and where it is located on the Service Information reasonably sufficient to permit Gowaf to contact you, such as your address, telephone number, and, email address',
           'A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or law',
           'A statement, made under penalty of perjury, that the above information is accurate, and that you are the copyright owner or are authorized to act on behalf of the owner'
         ]
@@ -123,7 +123,6 @@ const i18ntext = computed<any>(() => {
     width: 1200px;
   }
 }
-
 .content-container {
   display: flex;
   flex-direction: column;
@@ -209,6 +208,103 @@ const i18ntext = computed<any>(() => {
           height: 10px;
           margin-right: 7px;
           margin-top: 7px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .tops-ad2-container {
+    :deep(.ad2) {
+      width: 100%;
+    }
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.13rem;
+    margin-top: 6.25rem;
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 2.5rem;
+      color: #000000;
+      line-height: 3.5rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      margin-bottom: 1rem;
+    }
+    .content {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      line-height: 2.38rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+  .blockli-container {
+    margin: 3.13rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.13rem;
+    .blockli {
+      .title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        margin-bottom: 1rem;
+      }
+      .content {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: #4e4e4e;
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+        margin-bottom: 1rem;
+      }
+      .subtitle {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 1.75rem;
+        color: #000000;
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        margin-bottom: 1rem;
+        text-transform: none;
+      }
+      .blockul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .li-text {
+          display: flex;
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 400;
+          font-size: 1.75rem;
+          color: #4e4e4e;
+          line-height: 2.38rem;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          img {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 0.87rem;
+            margin-top: 0.87rem;
+          }
         }
       }
     }

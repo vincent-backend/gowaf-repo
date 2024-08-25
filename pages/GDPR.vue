@@ -3,7 +3,7 @@
   <CommonHeader2
     title="General Data Protection Regulation "
     sub-title="GDPR"
-    content="Polyfill is fully committed to complying and helping you comply with the GDPR."
+    content="Gowaf is fully committed to complying and helping you comply with the GDPR."
     href="#"
   />
   <div class="page-container whiteBoard">
@@ -18,9 +18,9 @@
       </div>
       <div class="title">Does it apply to me?</div>
       <div class="content">
-        Due to the global nature of Polyfill, GDPR will likely affect you in
+        Due to the global nature of Gowaf, GDPR will likely affect you in
         some way, so we advise all of our users to thoroughly study new GDPR
-        regulations. Polyfill is fully committed to helping you with compliance,
+        regulations. Gowaf is fully committed to helping you with compliance,
         so we are rolling out anonymity features before May 25th, 2018, ensuring
         no user-identifiable data is collected or processed whenever possible.
       </div>
@@ -62,60 +62,60 @@ const i18ntext = computed<any>(() => {
   return {
     blockText: [
       {
-        title: 'Data Processor (Polyfill)',
+        title: 'Data Processor (Gowaf)',
         content:
-          'Polyfill CDN and all other services may be used only for lawful purposes. Transmission, distribution, or storage of any material in violation of any applicable law or regulation is prohibited. This includes, without limitation, any material protected by copyright, trademark, trade secret, or other intellectual property right used without proper authorization, and material that is obscene, defamatory, constitutes an illegal threat or violates export control laws.',
+          'Gowaf CDN and all other services may be used only for lawful purposes. Transmission, distribution, or storage of any material in violation of any applicable law or regulation is prohibited. This includes, without limitation, any material protected by copyright, trademark, trade secret, or other intellectual property right used without proper authorization, and material that is obscene, defamatory, constitutes an illegal threat or violates export control laws.',
         ad2: [
           {
             title: 'Abuse of Our Service',
             content:
-              'Polyfill typically acts as a data processor, meaning we process data on your behalf. Polyfill allows you to gather and temporarily store visitor log information such as anonymized IP, web address, country code, and user agent for the purpose of analyzing, processing, testing, and security. Additionally, our system stores either temporarily or permanently file obtained from your website by our system manually uploaded by you.',
+              'Gowaf typically acts as a data processor, meaning we process data on your behalf. Gowaf allows you to gather and temporarily store visitor log information such as anonymized IP, web address, country code, and user agent for the purpose of analyzing, processing, testing, and security. Additionally, our system stores either temporarily or permanently file obtained from your website by our system manually uploaded by you.',
             content2:
-              'In most cases, the data held and collected by Polyfill does not contain any user-identifiable data. However, in some cases, depending on how you use Polyfill and how your website is structured, personal data may be collected from your users. Such information includes hosting user-uploaded content and personal data that might be transmitted in the URL, User-Agent, or Referer headers of the HTTP protocol.',
+              'In most cases, the data held and collected by Gowaf does not contain any user-identifiable data. However, in some cases, depending on how you use Gowaf and how your website is structured, personal data may be collected from your users. Such information includes hosting user-uploaded content and personal data that might be transmitted in the URL, User-Agent, or Referer headers of the HTTP protocol.',
             pic: '/images/home/GDPR_graph_2@2x.png',
             width: '452px',
             height: '344px',
-            mw: '',
-            mh: ''
+            mw: '28.25rem',
+            mh: '21.5rem'
           },
           {
             title: 'Data Controller (You)',
             content:
-              'As a customer of Polyfill, you typically act as a data controller. This means you determine if, why, and for how long data will be stored on our system. Our system provides ways to process, store and aggregate the stored information. If you are storing personal data on Polyfill, it is your duty as a controller to demonstrate the same level of GDPR compliance.',
+              'As a customer of Gowaf, you typically act as a data controller. This means you determine if, why, and for how long data will be stored on our system. Our system provides ways to process, store and aggregate the stored information. If you are storing personal data on Gowaf, it is your duty as a controller to demonstrate the same level of GDPR compliance.',
             content2:
               'While uncommon, bunny.net also provides a way to block users from the EU from accessing your content altogether by using our traffic manager tools if you do not wish to serve users from the European Union.',
             pic: '/images/home/GDPR_graph_3@2x.png',
             width: '374px',
             height: '282px',
-            mw: '',
-            mh: ''
+            mw: '23.38rem',
+            mh: '17.63rem'
           }
         ]
       },
       {
         title: 'Data Processing Agreement (DPA)',
         content:
-          'Typically, Polyfill does not collect, store or distribute information that could be used in any way to identify a user or contain their personal information. If you believe that you process personal data on the Polyfill platform, this qualifies you as a data processor, and you will be required by law to complete a Data Processing Agreement (DPA). You can easily locate the DPA within your Polyfill panel.',
+          'Typically, Gowaf does not collect, store or distribute information that could be used in any way to identify a user or contain their personal information. If you believe that you process personal data on the Gowaf platform, this qualifies you as a data processor, and you will be required by law to complete a Data Processing Agreement (DPA). You can easily locate the DPA within your Gowaf panel.',
         ad2: [
           {
-            title: 'How does Polyfill comply with GDPR?',
+            title: 'How does Gowaf comply with GDPR?',
             content:
-              'Polyfill is fully committed to complying with the GDPR. We have overhauled our user Privacy & Data policy and taken steps to ensure no personally identifiable data is stored from your users that access your services through Polyfill by anonymizing any data that could be used to directly or indirectly identify a user. We are also signing the Data Processing Agreements with our partners and carefully overviewing that they take the required privacy measures over the data shared or stored on their platforms.',
+              'Gowaf is fully committed to complying with the GDPR. We have overhauled our user Privacy & Data policy and taken steps to ensure no personally identifiable data is stored from your users that access your services through Gowaf by anonymizing any data that could be used to directly or indirectly identify a user. We are also signing the Data Processing Agreements with our partners and carefully overviewing that they take the required privacy measures over the data shared or stored on their platforms.',
             pic: '/images/home/GDPR_graph_4@2x.png',
             width: '472px',
             height: '310px',
-            mw: '',
-            mh: ''
+            mw: '29.5rem',
+            mh: '19.38rem'
           },
           {
-            title: 'Polyfill Stream',
+            title: 'Gowaf Stream',
             content:
-              'Polyfill Stream does not process or store permanently identifiable information. However, it can send back information about the stream quality, errors, buffering metrics, etc., to ensure good performance. Additionally, the iframe might ping various Polyfill CDN servers globally anonymously to collect performance statistics which are used to automatically adjust routing logic and optimize performance.',
+              'Gowaf Stream does not process or store permanently identifiable information. However, it can send back information about the stream quality, errors, buffering metrics, etc., to ensure good performance. Additionally, the iframe might ping various Gowaf CDN servers globally anonymously to collect performance statistics which are used to automatically adjust routing logic and optimize performance.',
             pic: '/images/home/GDPR_graph_5@2x.png',
             width: '384px',
             height: '308px',
-            mw: '',
-            mh: ''
+            mw: '24rem',
+            mh: '19.25rem'
           }
         ]
       }
@@ -129,7 +129,6 @@ const i18ntext = computed<any>(() => {
     width: 1200px;
   }
 }
-
 .content-container {
   display: flex;
   flex-direction: column;
@@ -157,7 +156,6 @@ const i18ntext = computed<any>(() => {
     text-transform: none;
   }
 }
-
 .whiteBoard {
   width: 1200px;
   margin-top: -60px;
@@ -206,6 +204,95 @@ const i18ntext = computed<any>(() => {
     img {
       width: 368px;
       height: 298px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .tops-ad2-container {
+    :deep(.ad2) {
+      width: 100%;
+    }
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 6.25rem;
+    .title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 2.5rem;
+      color: #000000;
+      line-height: 3.5rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+      margin-bottom: 1rem;
+    }
+    .content {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 1.75rem;
+      color: #4e4e4e;
+      line-height: 2.38rem;
+      text-align: left;
+      font-style: normal;
+      text-transform: none;
+    }
+  }
+  .whiteBoard {
+    width: 43.13rem;
+    margin-top: -3.13px;
+    z-index: 9;
+    position: relative;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(166, 183, 183, 0.1);
+    border-radius: 1.5rem;
+    border: 0.06rem solid #e6e6e6;
+    padding: 3.13rem 1.88rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 3.13rem;
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1.13rem;
+      .title {
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #000000;
+        line-height: 3.5rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+      .content {
+        .grend {
+          color: #0ebf6a;
+        }
+        font-family: PingFangSC, PingFang SC;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: rgba(78, 78, 78, 1);
+        line-height: 2.38rem;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    .right {
+      flex-shrink: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 23rem;
+        height: 18.63rem;
+      }
     }
   }
 }

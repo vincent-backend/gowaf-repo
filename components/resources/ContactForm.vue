@@ -1,7 +1,7 @@
 <template>
   <div class="form-container">
     <div class="page-container my-form">
-      <div class="list-container">
+      <div class="list-container" v-if="isShowList">
         <ul>
           <li v-for="(item, index) in i18ntext" :key="index">
             <img :src="item.icon" :alt="item.title" />
@@ -78,6 +78,14 @@
 </template>
 
 <script setup lang="ts">
+const props = withDefaults(
+  defineProps<{
+    isShowList: boolean;
+  }>(),
+  {
+    isShowList: true
+  }
+);
 const { t } = useI18n();
 const i18ntext = computed<any>(() => {
   return [
