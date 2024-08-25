@@ -1,42 +1,33 @@
 <template>
   <Header />
   <CommonHeader2
-    title="Terms of Service"
-    sub-title="Thank you for using Gowaf"
-    content="You agree that our continued provision of services to you, and your continued use of them, represent your agreement to be bound by the ToS."
+    :title="$t('1odgklmiVXVJuTnfe-F3R')"
+    :sub-title="$t('Z6StJCEytrddWIjXU3rnT')"
+    :content="$t('hSsxdIzS57bDBSGxqszNQ')"
     href="#"
   />
   <div class="page-container content-container">
-    <div class="title">Abuse Policy</div>
+    <div class="title">{{ $t('51yoJohWUWY7G8xMyvcgu') }}</div>
     <div class="content">
-      Gowaf offers content delivery solutions to our users that includes
-      hosting and delivery of users' files. We do not actively monitor content
-      delivered by our users.
+      {{ $t('6VLU4wAcBGdvmNAOknxT2') }}
     </div>
     <div class="content">
-      If you are a copyright holder or would like to report illegal or
-      inappropriate content found to be delivered by Gowaf, you can send us
-      an abuse report with the form on this page.
+      {{ $t('va6znUKoXSg9TEbkgD4SU') }}
     </div>
   </div>
   <div class="page-container report">
     <div class="left">
-      <div class="title">What can you report?</div>
+      <div class="title">{{ $t('KxgWslHfY39pIT_rI28Nd') }}</div>
       <div class="list">
         <div class="item" v-for="(item, index) in i18ntext.list" :key="index">
           {{ item }}
         </div>
       </div>
-      <div class="title">What can we do?</div>
+      <div class="title">{{ $t('RqPH7IyHzV_oOb3dGqXo1') }}</div>
       <div class="content">
-        After validating a report, we will forward substantially complete abuse
-        messages to the responsible users. If no action is taken or if we
-        identify repeated offenders, under appropriate circumstances, Gowaf
-        will disable access to the content.
       </div>
       <div class="content">
-        Please include as much information as possible when submitting a report,
-        or your request might be rejected.
+        {{ $t('iSHwEi74jZaSfuLmd2TWi') }}
       </div>
     </div>
     <div class="right">
@@ -50,16 +41,16 @@
 </template>
 
 <script setup lang="ts">
-const { t: $t } = useI18n();
+const { t } = useI18n();
 
 const i18ntext = computed<any>(() => {
   return {
     list: [
-      'Illegal content',
-      'Child pornography',
-      'Phishing & malware',
-      'Violent threats and harassment',
-      'Violent threats and harassment'
+      t('a8BdQyRjY2--lUrbcR-uP'),
+      t('GstQQaEuoruxcKdQdPhgq'),
+      t('HPRzf2qTMdRyUiCJAwySN'),
+      t('XizJ_7rq1qKDYUa-sj_ar'),
+      t('zBWmlhM45oPCN-ZIOVGZS')
     ]
   };
 });

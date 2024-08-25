@@ -1,28 +1,20 @@
 <template>
   <Header />
   <CommonHeader2
-    title="General Data Protection Regulation "
+    :title="$t('kOUBuAKSEA4hynIbMTFgN') "
     sub-title="GDPR"
-    content="Gowaf is fully committed to complying and helping you comply with the GDPR."
+    :content="$t('luzUHxY7k2_XXvn67DOEj')"
     href="#"
   />
   <div class="page-container whiteBoard">
     <div class="left">
-      <div class="title">What is GDPR?</div>
+      <div class="title">{{ $t('CGoMSO_x_AN4FQDniuZW3') }}</div>
       <div class="content">
-        <span class="grend">General Data Protection Regulation (GDPR)</span> is
-        a new EU regulation designed to harmonize data privacy laws across
-        Europe and enforce significantly stricter privacy regulations. It was
-        designed to protect user privacy better and reshape how organizations
-        handle personal data.
+        <span class="grend">{{ $t('5w5IbVszJ_7G7_kEZ8val') }}</span> {{ $t('2Q-3DAEBmuLnwswlDooQ3') }}
       </div>
-      <div class="title">Does it apply to me?</div>
+      <div class="title">{{ $t('aLwzlVdlLSaM0ZLeWAuCi') }}</div>
       <div class="content">
-        Due to the global nature of Gowaf, GDPR will likely affect you in
-        some way, so we advise all of our users to thoroughly study new GDPR
-        regulations. Gowaf is fully committed to helping you with compliance,
-        so we are rolling out anonymity features before May 25th, 2018, ensuring
-        no user-identifiable data is collected or processed whenever possible.
+        {{ $t('5jB4DgMmpDWxWtTGZ2ZEI') }}
       </div>
     </div>
     <div class="right">
@@ -62,16 +54,16 @@ const i18ntext = computed<any>(() => {
   return {
     blockText: [
       {
-        title: 'Data Processor (Gowaf)',
+        title: t('OR-INRFKCjZe2tGXdol2E'),
         content:
-          'Gowaf CDN and all other services may be used only for lawful purposes. Transmission, distribution, or storage of any material in violation of any applicable law or regulation is prohibited. This includes, without limitation, any material protected by copyright, trademark, trade secret, or other intellectual property right used without proper authorization, and material that is obscene, defamatory, constitutes an illegal threat or violates export control laws.',
+          t('ZfPRM31cTlSgrU_09SIYD'),
         ad2: [
           {
-            title: 'Abuse of Our Service',
+            title: t('VfKruvAUzL_YGS0J5hEtm'),
             content:
-              'Gowaf typically acts as a data processor, meaning we process data on your behalf. Gowaf allows you to gather and temporarily store visitor log information such as anonymized IP, web address, country code, and user agent for the purpose of analyzing, processing, testing, and security. Additionally, our system stores either temporarily or permanently file obtained from your website by our system manually uploaded by you.',
+              t('47CS9IwlC3Vhk_0loQbWy'),
             content2:
-              'In most cases, the data held and collected by Gowaf does not contain any user-identifiable data. However, in some cases, depending on how you use Gowaf and how your website is structured, personal data may be collected from your users. Such information includes hosting user-uploaded content and personal data that might be transmitted in the URL, User-Agent, or Referer headers of the HTTP protocol.',
+              t('qgDHHclZ9RU06mmZpfydt'),
             pic: '/images/home/GDPR_graph_2@2x.png',
             width: '452px',
             height: '344px',
@@ -79,11 +71,11 @@ const i18ntext = computed<any>(() => {
             mh: '21.5rem'
           },
           {
-            title: 'Data Controller (You)',
+            title: t('1fuImIjMGTQfymMndwZBG'),
             content:
-              'As a customer of Gowaf, you typically act as a data controller. This means you determine if, why, and for how long data will be stored on our system. Our system provides ways to process, store and aggregate the stored information. If you are storing personal data on Gowaf, it is your duty as a controller to demonstrate the same level of GDPR compliance.',
+              t('AVGC8_FK2c7RCJtzqxGDP'),
             content2:
-              'While uncommon, bunny.net also provides a way to block users from the EU from accessing your content altogether by using our traffic manager tools if you do not wish to serve users from the European Union.',
+              t('yxy6lNiKvmXwWj33wfMTT'),
             pic: '/images/home/GDPR_graph_3@2x.png',
             width: '374px',
             height: '282px',
@@ -93,14 +85,14 @@ const i18ntext = computed<any>(() => {
         ]
       },
       {
-        title: 'Data Processing Agreement (DPA)',
+        title: t('coHhv4FwXLnGMBRXAYLcV'),
         content:
-          'Typically, Gowaf does not collect, store or distribute information that could be used in any way to identify a user or contain their personal information. If you believe that you process personal data on the Gowaf platform, this qualifies you as a data processor, and you will be required by law to complete a Data Processing Agreement (DPA). You can easily locate the DPA within your Gowaf panel.',
+          t('sLkYb0oL9nAkXkbFWxidJ'),
         ad2: [
           {
-            title: 'How does Gowaf comply with GDPR?',
+            title: t('xto8x5_D9MTE09XrELTuS'),
             content:
-              'Gowaf is fully committed to complying with the GDPR. We have overhauled our user Privacy & Data policy and taken steps to ensure no personally identifiable data is stored from your users that access your services through Gowaf by anonymizing any data that could be used to directly or indirectly identify a user. We are also signing the Data Processing Agreements with our partners and carefully overviewing that they take the required privacy measures over the data shared or stored on their platforms.',
+              t('jhyt0fSC1TTo-UYiGR3r-'),
             pic: '/images/home/GDPR_graph_4@2x.png',
             width: '472px',
             height: '310px',
@@ -108,9 +100,9 @@ const i18ntext = computed<any>(() => {
             mh: '19.38rem'
           },
           {
-            title: 'Gowaf Stream',
+            title: t('products.stream.overview.header.preTitle'),
             content:
-              'Gowaf Stream does not process or store permanently identifiable information. However, it can send back information about the stream quality, errors, buffering metrics, etc., to ensure good performance. Additionally, the iframe might ping various Gowaf CDN servers globally anonymously to collect performance statistics which are used to automatically adjust routing logic and optimize performance.',
+              t('OhWd8P329w1gPiob4Jna2'),
             pic: '/images/home/GDPR_graph_5@2x.png',
             width: '384px',
             height: '308px',

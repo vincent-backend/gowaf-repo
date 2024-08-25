@@ -1,9 +1,9 @@
 <template>
   <Header />
   <CommonHeader2
-    title="How to use Gowaf?"
-    sub-title="Acceptable Use Policy"
-    content="By using our service you agree to comply with our policies defined below."
+    :title="$t('ZjFP_WFHzl7qIqOd5k0L7')"
+    :sub-title="$t('5TS2ubBi4W9Oui2wUSqaT')"
+    :content="$t('c9_1jaWAFvwZGfP-1ttt5')"
     href="#"
   />
   <div class="page-container content-container">
@@ -22,39 +22,32 @@ const i18ntext = computed<any>(() => {
   return {
     blockText: [
       {
-        title: 'Gowaf Guidelines',
-        content:
-          'Gowaf feels obligated to provide a high-quality service to all our clients. To ensure this, we have defined a set of guidelines to ensure an optimal operation of our service for everyone. our service, you agree that you have read and accepted the terms outlined in the policy.'
+        title: t('9SNWu_MrjuAmuJ8-9FCiN'),
+        content: t('wzYrM6p0NjvDXzfzzY5gG')
       },
       {
-        title: 'General Agreement',
-        content:
-          'Gowaf CDN and all other services may be used only for lawful purposes. Transmission, distribution, or storage of any material in violation of any applicable law or regulation is prohibited. This includes, without limitation, any material protected by copyright, trademark, trade secret, or other intellectual property right used without proper authorization, and material that is obscene, defamatory, constitutes an illegal threat or violates export control laws.'
+        title: t('hKKtidHY_AZexY_cj79kB'),
+        content: t('ZfPRM31cTlSgrU_09SIYD')
       },
       {
-        title: 'Abuse of Our Service',
-        content:
-          'Any actions intended to abuse or harm our service or lower the quality of service in any way will result in an immediate termination of your account without a refund. Complaints regarding suspected Illegal Use or System or Network Security issues should be sent to support@Gowaf. <br/> Gowaf provides a file optimization service called Gowaf Optimizer that helps reduce bandwidth usage. Any automated and excessive use of this service in a way of only using it for file optimization is not allowed as it is harming the service for other users.'
+        title: t('VfKruvAUzL_YGS0J5hEtm'),
+        content: t('oDQhuZwE7v-dzMaRp0r0X')
       },
       {
-        title: 'Copyright Infringement & Illegal Content',
-        content:
-          'Gowaf does not actively monitor files stored on our network and servers and all content distributed by your account is the sole responsibility of you, the client. Under no circumstances will Gowaf be responsible for the behaviour of our clients or their users when found to be distributing protected or illegal content. If contacted by an authority in the event of an illegal situation regarding any of the above, we will fully cooperate with any investigations they decide to make against clients found to be breaking the law.'
+        title: t('YxF2A-zkVW7uQH6lwmq4f'),
+        content: t('VHbqpqxdDjhzrXScerqUA')
       },
       {
-        title: 'Live Streaming',
-        content:
-          'Using Gowaf for any kind of live video streaming of short events is not allowed without prior written consent. We reserve the right to terminate accounts with live streaming videos that were not approved by Gowaf.'
+        title: t('dhoCkzNjZ_QZ5qmnIiNY-'),
+        content: t('qaYV-lAovivkvUCPkslhJ')
       },
       {
-        title: 'Adult Content',
-        content:
-          'Gowaf accepts our service to be used for providers of "adult content", as long as the content is legal under the laws of Slovenia, each of the 50 States of the Union providers, and abides by all other Terms of Service at all times.'
+        title: t('ZT81I0zn-ZmjQnkhFlba7'),
+        content: t('BKV1GBoiao1Qglry8zs_k')
       },
       {
-        title: 'Illegal Use',
-        content:
-          'Some examples of illegal use as described above include sites distributing spyware, adware, spam, scams, illegal, racist, child pornography, or any other un-sociable material. We take any violations of our acceptable use policy very seriously and in case we discover any inappropriate material we reserve the right to immediately disable your account without a refund, depending on the severity of the issue.'
+        title: t('oEG5he8RYAVJUnKWx13Tx'),
+        content: t('TWS3aDdwVvObjYWAZRkj3')
       }
     ]
   };

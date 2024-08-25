@@ -1,9 +1,9 @@
 <template>
   <Header />
   <CommonHeader2
-    title="Terms of Service"
-    sub-title="Thank you for using Gowaf"
-    content="You agree that our continued provision of services to you, and your continued use of them, represent your agreement to be bound by the ToS."
+    :title="$t('guXMwembC8fcebTH6d2Eg')"
+    :sub-title="$t('bDz0lCZydb57RNCM89MyP')"
+    :content="$t('Hpw5uun-gh0lKZMXo2UYU')"
     href="#"
   />
   <SolutionsAd2
@@ -50,67 +50,67 @@ const i18ntext = computed<any>(() => {
   return {
     item: {
       pic: '/images/home/TermsOfService_graph@2x.png',
-      title: 'Easy to understand. Simple to follow.',
+      title: t('ohNQlDnre9CFXuef_R5vb'),
       content:
-        'Our Terms of Services (ToS) are designed to be read and understood by the average person. Before using our service, please read them carefully and make sure you understand everything they say. Our Terms of Service are a legally binding contract between Gowaf and you.',
+        t('OItBg89nm6ldinVgKGK-S'),
       content2:
-        "Referred hereinafter as 'Gowaf', 'our', 'we' and 'us'; is a content delivery network service provider. All customers using our service are subject to the terms and conditions described in this document as well as the Acceptable Use Policy described here. We reserve the right to make alterations to these documents whenever required. It is the client's sole responsibility to check for updates on a regular basis.",
+        t('pRbh3-UtY1I88sGE19Gl_'),
       width: '362px',
       height: '318px'
     },
     blockText: [
       {
-        title: 'Privacy & Data Policy',
+        title: t('-acsM5DRwC1wi7mvWm-pG'),
         content:
-          'Gowaf is committed to complete transparency in how we handle your data. We have prepared a complete a detailed, but easy to understand privacy and data policy. By using our service, you agree that you have read and accepted the terms outlined in the policy.'
+          t('fSKM8d1pwDKYj6-qy_D18')
       },
       {
-        title: 'Pricing',
+        title: t('pricing.breadCrumbs.parent'),
         content:
-          'Gowaf service costs and pricing may be changed from time to time at Gowaf sole discretion. All the payments are paid in advance and not refundable. All the prices stated by us are subject to change and may be changed from time to time at Gowaf sole discretion.'
+          t('tNP6sUYK5CW0uEqeeKW1Z')
       },
       {
-        title: 'Account Termination',
+        title: t('ptBZPLE7J9OK91KzJR3dB'),
         content:
-          'You agree that Gowaf might, under certain circumstances and without prior notice terminate your account and restrict access to our service. Causes for this include but are not limited to: violations of the Terms of Service and Acceptable Use Policy, requests by law enforcement or other government agencies and/or having provided false information as part of your account. All terminations will be made in Gowaf sole discretion and we will not be liable for any disruption or damage to you or your service that such a termination might cause. Once your account has been terminated we reserve the right to delete all the data associated with it without the option to restore it.'
+          t('EfKrYfMiGa1Ule1YDlWdL')
       },
       {
-        title: 'Content Hosting',
+        title: t('M4DCVb63Au6gcRG_dvxAm'),
         content:
-          'In order for us to distribute your content on our network, it is necessary for our servers to make and store copies of your files. By using our service you acknowledge that these copies are being made and give us permission to maintain them and distribute them to users on the internet. This does not give us any ownership of your content, you still retain all ownership and any intellectual property rights.'
+          t('rmsHHZqx9CXkctDkAWprJ')
       },
       {
-        title: 'Service Level Agreement',
+        title: t('home.SLA.preTitle'),
         content:
-          'Gowaf will use all possible efforts to keep your service Gowaf 24 hours a day, 7 days a week as long as you abide by our Terms Of Service. We are aiming for at least a 99.995% monthly uptime for our content delivery service, however sometimes for a number of reasons, it may be unavailable to you. You recognize and acknowledge that occasional unavailability of the services will occur. We make no warranty or assurance that the service will be Gowaf uninterrupted. We do not guarantee to provide support outside of normal business hours unless specifically stated by us.'
+          t('obztK2ViPLygZRizN4Qe7')
       }
     ],
     blockli: [
       {
-        title: 'Limitation of liability',
+        title: t('eIRF1uvSrRGIEZvFvzcI6'),
         subtitle:
-          'To the extent allowed by applicable law, in no event shall Gowaf or its affiliates, directors, or employees be liable for the following:',
+          t('eBo7rNaWpwFrlgHY9g5-r'),
         content:
-          'To the extent allowed by applicable law, in no event, shall Gowaf, its affiliates, directors, or employees be liable for any damages whatsoever, including without limitation, any loss of profits, loss of business, loss of use or data, interruption of business, or for direct, indirect, special, incidental or consequential damages of any kind.',
+          t('UQe_-CU_laf77nQk8xJJ9'),
         list: [
-          'Errors, mistakes, or inaccuracies of content',
-          'Any unauthorized access to our secure servers and/or any personal information stored therein',
-          'Any interruption of the service',
-          'Failure of the products to perform'
+          t('YOCdEWkYV7_7x43gW9sfv'),
+          t('GG6DxurgA3OnXhTPOwnlV'),
+          t('uO-mWe0nkGCKVvFEDjK8C'),
+          t('yec6bD-ZhcZB9doriMycY')
         ]
       },
       {
         title: 'DMCA',
         subtitle:
-          'For your complaint to be valid under the DMCA, you must provide the following information in writing:',
+          t('MSx9R1nspShLxcgxnjySx'),
         content:
-          'We respect artist and content owner rights and are not a platform for distributing copyrighted content. You must do the same. In accordance with the Digital Millennium Copyright Act (DMCA), we have adopted a policy to terminate the accounts of customers found to be repeatedly violating of copyright without the right to a refund.',
+          t('6HoGheBnfrwzLUrmaB3Fw'),
         list: [
-          'An electronic or physical signature of a person authorized to act on behalf of the copyright owner',
-          'Identification of the copyrighted work that you claim has been infringed',
-          'Identification of the material that is claimed to be infringing and where it is located on the Service Information reasonably sufficient to permit Gowaf to contact you, such as your address, telephone number, and, email address',
-          'A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or law',
-          'A statement, made under penalty of perjury, that the above information is accurate, and that you are the copyright owner or are authorized to act on behalf of the owner'
+          t('P00FB90YVU1Lc2XAv0K_I'),
+          t('wCAoPZW5d6aktlYS5Cu5y'),
+          t('clqDKiDjKZM9SsIxJOETc'),
+          t('zjto6y_9ThX8WflB5f0UM'),
+          t('CMG4v2noZbevDW1z4c7W8')
         ]
       }
     ]
