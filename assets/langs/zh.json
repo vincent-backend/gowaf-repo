@@ -2549,7 +2549,7 @@
   "rbr4C7W5WZwbHByYII8hS": "引领技术潮流",
   "rdI5DzifSOJQFhOQKXHLt": "内容交付",
   "rdkUAYjyLcEIGNuM4YEEC": "劳尔·韦基奥内",
-  "re9LxJaspziMjcSxJjsH4": "“Gowaf 确实有效。我们能够在一个下午将我们的主 CDN 替换为 Gowaf，这要归功于他们的 Pull Zone 功能，并且对我们的后端进行了最小的更改。与我们原来的 CDN 相比，Gowaf 为我们节省了数千美元。我们\n很高兴我们给了戈瓦夫一个机会！戈瓦夫",
+  "re9LxJaspziMjcSxJjsH4": "“Gowaf 确实有效。我们能够在一个下午将我们的主 CDN 替换为 Gowaf，这要归功于他们的 Pull Zone 功能，并且对我们的后端进行了最小的更改。与我们原来的 CDN 相比，Gowaf 为我们节省了数千美元。我们\n很高兴我们给了Gowaf一个机会！Gowaf",
   "resources": {
     "SuperPolyfill": {
       "accelerate": {
@@ -2585,7 +2585,7 @@
       },
       "header": {
         "content": "我们的使命是帮助构建和加速未来的互联网。\n我们专注于客户体验，努力不断创新，旨在帮助企业和开发者构建更快、更安全、更可靠的互联网。",
-        "preTitle": "戈瓦夫使命",
+        "preTitle": "Gowaf使命",
         "title": "使互联网跳跃更快"
       },
       "map": {
@@ -2738,7 +2738,7 @@
       "header": {
         "content": "我们的 Super Gowaf 24/7 全天候为您服务",
         "subTitle": "我们该怎样帮助你？",
-        "title": "戈瓦夫联系方式"
+        "title": "Gowaf联系方式"
       }
     },
     "contactUs": {
@@ -2768,7 +2768,7 @@
         "items": {
           "content": "我们的使命是在一个简单的软件包中提供具有企业级功能的企业级服务，该软件包对任何人来说都是平易近人且负担得起的。没有偷偷摸摸的合同，没有复杂的功能，只有一个充满激情的团队试图为每个人构建出色的服务\n使用。",
           "content1": "尽管我们的愿景多年来不断变化，但我们的热情和核心价值观始终保持不变。\n作为地球上最可爱、速度最快的动物之一，对我们来说，Gowaf正是这些核心价值观的象征。\n和我们的团队一样，这是一个时髦且非传统的品牌，但却是一个我们深信不疑的品牌。此外，谁不喜欢 Gowaf？",
-          "title": "为什么是戈瓦夫？\n为什么不使用 QuickEnterpriseCDN？ \n\n答案很简单。"
+          "title": "为什么是Gowaf？\n为什么不使用 QuickEnterpriseCDN？ \n\n答案很简单。"
         },
         "subTitle": "每个人都在问我们的问题",
         "title": "为什么叫 Polyfil"
@@ -3269,7 +3269,7 @@
   "6VLU4wAcBGdvmNAOknxT2": "Gowaf 为我们的用户提供内容交付解决方案，包括托管和交付用户文件。\n我们不会主动监控用户提供的内容。",
   "9GteHxS8KFpJM4e0xrGA7": "当您向我们注册帐户时，Active Campaign 将收到您的个人、账单和帐户消费信息，包括区域数量和使用情况等详细信息以及其他相关指标。\n但是，我们不会分享任何有关区域配置的信息或与您的最终客户相关的数据。",
   "9Kx0QnrZCsBUBzy363SW9": "我们保留您的数据多久",
-  "9SNWu_MrjuAmuJ8-9FCiN": "戈瓦夫指南",
+  "9SNWu_MrjuAmuJ8-9FCiN": "Gowaf指南",
   "9gI4CTS5QaTkx8VNstIqW": "我们如何保护您的数据",
   "AVGC8_FK2c7RCJtzqxGDP": "作为 Gowaf 的客户，您通常充当数据控制者。\n这意味着您可以确定数据是否、为何以及在我们的系统上存储多久。\n我们的系统提供了处理、存储和聚合所存储信息的方法。\n如果您在 Gowaf 上存储个人数据，作为控制者，您有责任证明同等水平的 GDPR 合规性。",
   "AiDFcDvPqw9P56FVcWoS3": "匿名非个人数据政策",
