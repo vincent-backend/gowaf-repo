@@ -1151,7 +1151,7 @@
       "btn": "Rozpocznij darmowy okres próbny",
       "content": "Doładuj swoje aplikacje internetowe i wyprzedź konkurencję.",
       "hint": "Karta kredytowa nie jest wymagana – pełna rejestracja w mniej niż 2 minuty.",
-      "title": "Rozpocznij 14-dniowy bezpłatny okres próbny"
+      "title": "Trwałe darmowe użycie"
     },
     "footer2": {
       "copyright": "2024 Wszelkie prawa zastrzeżone © Gowaf Way d.o.o.",
@@ -1569,7 +1569,7 @@
     },
     "ddos": {
       "header": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "content": "Chroń swoją witrynę przed atakami DDoS. \nZapewnij bezbłędny czas pracy i nigdy więcej nie zepsuj się. \nDbamy o ochronę DDoS, abyś mógł skupić się na swoim produkcie!",
         "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
         "preTitle": "Ochrona DDoS",
@@ -1580,7 +1580,7 @@
         "title": "Ochrona DDoS na brzegu sieci"
       },
       "stayProtectAlways": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Skoncentruj się na swoim produkcie, a my zadbamy o Twoje bezpieczeństwo.",
         "title": "Bądź chroniony. \nZawsze!"
       }
@@ -1591,7 +1591,7 @@
         "title": "Twoi użytkownicy są w zasięgu ręki"
       },
       "hop": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Wskocz do najszybszej globalnej sieci CDN"
       },
@@ -1601,7 +1601,7 @@
     },
     "smartEdge": {
       "header": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "content": "Chroń swoją witrynę przed atakami DDoS. \nZapewnij bezbłędny czas pracy i nigdy więcej nie zepsuj się. \nDbamy o ochronę DDoS, abyś mógł skupić się na swoim produkcie!",
         "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
         "preTitle": "Ochrona DDoS",
@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Skorzystaj z ultraszybkiej platformy DNS zaprojektowanej z myślą o obsłudze aplikacji nowej generacji. \nWykorzystując rekordy skryptowalne, Gowaf DNS pomaga odblokować prawdziwą moc DNS i przekształcić złożone problemy w proste rozwiązania.",
           "preTitle": "Gowaf DNS",
           "title": "Odblokuj prawdziwą moc"
@@ -1893,12 +1893,12 @@
           "title": "Nigdy więcej nie każ użytkownikowi czekać"
         },
         "ad1": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Wskocz do najszybszej globalnej sieci CDN"
         },
         "ad1_2": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Wskocz do najszybszej globalnej sieci CDN"
         },
@@ -1914,7 +1914,7 @@
           "title": "Połącz się bezpośrednio z Super Gowafem. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Skorzystaj z błyskawicznej, globalnej sieci dostarczania treści i wzmocnij swoją obecność w Internecie. Zapewnij każdemu spójne doświadczenie, niezależnie od tego, gdzie się znajduje!",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Gowaf CDN",
@@ -1943,7 +1943,7 @@
       },
       "permaCache": {
         "ad1": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej.",
           "title": "Pliki pamięci podręcznej Perma w CDN!"
         },
@@ -1952,7 +1952,7 @@
           "title": "Zmniejsz ruch pochodzenia. \nZmniejsz miesięczne rachunki."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Trwale przechowuj swoje pliki na urządzeniu brzegowym dzięki Gowaf Storage, aby uzyskać 100% współczynnik HIT pamięci podręcznej. \nGwarantuj doskonałą wydajność przy każdym żądaniu i za każdym razem i unikaj wysokich rachunków za ruch początkowy.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Stała pamięć podręczna CDN",
@@ -2006,7 +2006,7 @@
     "storage": {
       "AfriceMiddleEast": {
         "HopList": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Najszybszy CDN w Afryce"
         },
@@ -2015,7 +2015,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Gowaf.com pomaga zapewnić spójne doświadczenia na całym świecie. \nDzięki lokalnej łączności w wielu krajach Afryki i Bliskiego Wschodu pomagamy Twoim klientom szybciej uzyskać dostęp do Twoich treści, niezależnie od tego, czy pochodzą z Kenii, czy z Kapsztadu.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Afryka",
@@ -2032,7 +2032,7 @@
       },
       "Asia": {
         "HopList": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Wskocz na"
         },
@@ -2041,7 +2041,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Docieraj do użytkowników dzięki bezpośredniej łączności lokalnej w całej Azji. \nGowaf.com jest umiejscowiony we wszystkich kluczowych ośrodkach, aby zapewnić niezrównaną wydajność w regionie, w tym na rynkach wschodzących, dzięki strategicznym partnerstwom lokalnym.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Azja",
@@ -2058,7 +2058,7 @@
       },
       "Australia": {
         "HopList": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Wskocz z"
         },
@@ -2067,7 +2067,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Docieraj do użytkowników w całej Oceanii w ciągu milisekund za pośrednictwem lokalnie zbudowanej i zoptymalizowanej sieci anycast. Gowaf.com, zlokalizowany w 6 kluczowych dużych miastach Australii i Nowej Zelandii, pomaga zapewnić wyjątkową wydajność dla każdego żądania.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Australia",
@@ -2097,7 +2097,7 @@
           "title": "Porozmawiajmy o liczbach"
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Zapomnij o wolnej pamięci obiektowej i zachwyć swoich klientów niezrównaną wydajnością.  \nAutomatycznie replikuj swoje pliki na całym świecie, aby zminimalizować opóźnienia i zmaksymalizować przepustowość plików. \nNa każdą prośbę. \nWszędzie.",
           "preTitle": "Gowaf Storage",
           "title": "Najszybsza pamięć obiektowa replikowana na brzeg"
@@ -2109,7 +2109,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Wskocz na",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Europa",
@@ -2137,7 +2137,7 @@
       },
       "LatinAmerica": {
         "HopList": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Wskocz na"
         },
@@ -2146,7 +2146,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Zapewnij maksymalną wydajność w całej Ameryce Południowej i Łacińskiej dzięki najszybszej sieci w regionie. Połącz się bezpośrednio z większością głównych dostawców usług internetowych i udostępniaj treści w zasięgu ręki odwiedzającym w całym regionie LATAM.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN LATAM",
@@ -2168,7 +2168,7 @@
       },
       "NorthAmerica": {
         "HopList": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Wskocz na"
         },
@@ -2177,7 +2177,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Zapewnij nienaganną wydajność największej gospodarce na świecie. \nDzięki 22 punktom PoP strategicznie rozmieszczonym w głównych miastach USA i bezpośrednim połączeniom z głównymi dostawcami usług internetowych, takimi jak Comcast, możesz dotrzeć do większości użytkowników Internetu w czasie krótszym niż 27 ms.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Ameryka Północna",
@@ -2226,7 +2226,7 @@
       },
       "mediaCage": {
         "ad1": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
           "title": "Zapewnij bezpieczeństwo wideo o jeden krok do przodu!"
         },
@@ -2235,7 +2235,7 @@
           "title": "Proste, łatwe"
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Chroń swoje treści wideo przed piractwem. \nZatrzymaj pobieranie i zapobiegnij hotlinkom. \nPrzejmij kontrolę nad swoimi treściami dzięki potężnemu szyfrowaniu za pomocą jednego kliknięcia przycisku.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Klatka medialna",
@@ -2335,7 +2335,7 @@
           "title": "Przesyłaj szybciej dzięki wznawianemu interfejsowi API"
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Rozwiąż problemy związane z dostarczaniem wideo, łącząc transkodowanie, przechowywanie, bezpieczeństwo i odtwarzacz wideo w potężny, ale prosty pakiet. \nPrzesyłaj strumieniowo w dowolnym miejscu. \nBez buforowania!",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Gowaf Stream",
@@ -2361,7 +2361,7 @@
           "title": "Chroń filmy przed kradzieżą"
         },
         "header": {
-          "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+          "btn": "Trwałe darmowe użycie",
           "content": "Zapewnij doskonałe wrażenia wideo dzięki w pełni konfigurowalnemu odtwarzaczowi wideo. \nWyposażony w zaawansowane funkcje, doskonałe rozwiązania i prostą implementację.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Odtwarzacz CDN",
@@ -2684,7 +2684,7 @@
   "solutions": {
     "securityCdn": {
       "ad1": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Bądź chroniony przez cały czas!"
       },
@@ -2697,7 +2697,7 @@
         "title": "Nigdy więcej przestojów. \nKiedykolwiek."
       },
       "header": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "content": "Skróć czas ładowania swojej witryny nawet o 80% i zapewnij lepsze doświadczenia użytkownikom na całym świecie. \nSpraw, aby Twoja witryna WordPress działała szybciej za pomocą jednego kliknięcia przycisku!",
         "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
         "preTitle": "CDN WordPressa",
@@ -2710,7 +2710,7 @@
         "title": "Przyspiesz granie na skalę globalną"
       },
       "ad1": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Dostawa wrażeń z gier nowej generacji"
       },
@@ -2729,7 +2729,7 @@
         "title": "Nigdy więcej nie martw się o szczyty ruchu"
       },
       "ad1": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Przyspiesz dystrybucję oprogramowania!"
       },
@@ -2739,7 +2739,7 @@
         "title": "Najszybsza pamięć do najszybszych pobrań"
       },
       "header": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "content": "Zwiększ swoje pobieranie oprogramowania za pomocą jednej z najszybszych sieci globalnych: ciesz się wysoką przepustowością i zawsze niezawodnym pobieraniem na całym świecie.",
         "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
         "preTitle": "dystrybucja oprogramowania",
@@ -2765,7 +2765,7 @@
     },
     "videoDelivery": {
       "ad1": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Dostarczaj wideo bez buforowania!"
       },
@@ -2796,7 +2796,7 @@
         "title": "Niezwykłe wykonanie. \nZa każdym razem."
       },
       "ad1": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Skorzystaj z akceleracji sieci nowej generacji!"
       },
@@ -2814,7 +2814,7 @@
         "title": "Przybliż swoje treści użytkownikom"
       },
       "header": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "content": "Zmień swoją witrynę ze ślimaka w gofa. \nZapewnij swoim użytkownikom najlepszą możliwą obsługę dzięki naszej globalnej usłudze CDN i optymalizatorowi. \nPrzyspiesz swoją stronę internetową ponad limity!",
         "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
         "preTitle": "Przyspieszenie strony internetowej",
@@ -2832,7 +2832,7 @@
         "title": "Doświadcz wydajności witryny internetowej jak nigdy dotąd"
       },
       "ad1": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Wskocz na najlepszy CDN WordPress!"
       },
@@ -2856,7 +2856,7 @@
         "title": "Skróć dystans. \nPopraw czas ładowania witryny"
       },
       "header": {
-        "btn": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+        "btn": "Trwałe darmowe użycie",
         "content": "Skróć czas ładowania swojej witryny nawet o 80% i zapewnij lepsze doświadczenia użytkownikom na całym świecie. \nSpraw, aby Twoja witryna WordPress działała szybciej za pomocą jednego kliknięcia przycisku!",
         "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
         "preTitle": "CDN WordPressa",
@@ -3219,7 +3219,7 @@
   "zd50sRM_hTHpd2zN6tt8w": "Yangon",
   "wT7iUrvi0AKfHfyYzJP7w": "Gowaf SafeHop™",
   "V4FquxBF0-Qxi2PVN4hdI": "Zwiększ niezawodność jednym kliknięciem, zmniejszając liczbę błędów pochodzenia nawet o 80%. \nZ łatwością rozwiąż problemy związane z ponownym uruchamianiem oprogramowania, czkawką w sieci lub problemami ze sprzętem.",
-  "a9f1rhEwslTmRosGmC1YS": "Rozpocznij 14-dniowy BEZPŁATNY okres próbny",
+  "a9f1rhEwslTmRosGmC1YS": "Trwałe darmowe użycie",
   "gEhA0iwr2mZJG_nBmI--A": "Karta kredytowa nie jest wymagana — rozpocznij pracę w kilka sekund.",
   "k-nZkJYyPG4n2wJkwfWa3": "Dlaczego Gowaf.com jest lepszym wyborem",
   "sWsZrHWTWa9SrBq64cr0z": "Dzięki SafeHop nieudane żądanie do źródła jest automatycznie wysyłane do następnego serwera lub ponownie wysyłane do tego samego serwera po skonfigurowanym opóźnieniu.",
