@@ -43,7 +43,7 @@
     <div class="inputBox">
       <el-input
         v-model="input"
-        placeholder="Gowaf.net"
+        placeholder="Gowaf.com"
         :prefix-icon="CommonInputsubfix"
         class="input-with-select"
       >
