@@ -37,45 +37,53 @@
 <script setup lang="ts">
 const curTab = ref(0);
 const { t } = useI18n();
+const props = defineProps({
+  list: {
+    type: Array,
+    default: () => []
+  }
+});
 const i18ntext = computed<any>(() => {
-  return [
-    {
-      tab: t('tH1lXAaLYgRyEQSvJaAcN'),
-      content: t('ddlCZufTsX4BEKX3YzB2K'),
-      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
-      picWidth: '760px',
-      picHeight: '480px',
-      mpicWidth: '38.72rem',
-      mpicHeight: '24.44rem'
-    },
-    {
-      tab: t('gzfSWwGIJzFT-bIUZoEtQ'),
-      content: t('0buAGSOd1EtlxA7uG6y3c'),
-      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
-      picWidth: '760px',
-      picHeight: '480px',
-      mpicWidth: '38.72rem',
-      mpicHeight: '24.44rem'
-    },
-    {
-      tab: t('mC_E6AGWntvPccYLCjx0U'),
-      content: t('Y43wQu1zLlL_sjReUkI9R'),
-      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
-      picWidth: '760px',
-      picHeight: '480px',
-      mpicWidth: '38.72rem',
-      mpicHeight: '24.44rem'
-    },
-    {
-      tab: t('7vxHpe4sfv4-cvDaS0NpM'),
-      content: t('bKc5OsHYwh5tU3ggL64S0'),
-      pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
-      picWidth: '760px',
-      picHeight: '480px',
-      mpicWidth: '38.72rem',
-      mpicHeight: '24.44rem'
-    }
-  ];
+  return props.list
+    ? props.list
+    : [
+        {
+          tab: t('tH1lXAaLYgRyEQSvJaAcN'),
+          content: t('ddlCZufTsX4BEKX3YzB2K'),
+          pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+          picWidth: '760px',
+          picHeight: '480px',
+          mpicWidth: '38.72rem',
+          mpicHeight: '24.44rem'
+        },
+        {
+          tab: t('gzfSWwGIJzFT-bIUZoEtQ'),
+          content: t('0buAGSOd1EtlxA7uG6y3c'),
+          pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+          picWidth: '760px',
+          picHeight: '480px',
+          mpicWidth: '38.72rem',
+          mpicHeight: '24.44rem'
+        },
+        {
+          tab: t('mC_E6AGWntvPccYLCjx0U'),
+          content: t('Y43wQu1zLlL_sjReUkI9R'),
+          pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+          picWidth: '760px',
+          picHeight: '480px',
+          mpicWidth: '38.72rem',
+          mpicHeight: '24.44rem'
+        },
+        {
+          tab: t('7vxHpe4sfv4-cvDaS0NpM'),
+          content: t('bKc5OsHYwh5tU3ggL64S0'),
+          pic: '/images/products/cdn/overview/cdn_overview_mockup@2x.png',
+          picWidth: '760px',
+          picHeight: '480px',
+          mpicWidth: '38.72rem',
+          mpicHeight: '24.44rem'
+        }
+      ];
 });
 </script>
 

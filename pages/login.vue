@@ -3,7 +3,9 @@
     <LgOnly>
       <div class="page-container">
         <div class="logo-header">
-          <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+          <NuxtLinkLocale :to="localePath('/')">
+            <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+          </NuxtLinkLocale>
         </div>
         <div class="body">
           <HomeLoginleftList />
@@ -19,9 +21,9 @@
             </div>
             <div class="tips">
               {{ $t('home.login.tips') }}
-              <span class="hit" @click="$router.push({ path: '/forgot' })">
+              <NuxtLinkLocale :to="localePath('/forgot')">
                 {{ $t('home.login.signUp') }}
-              </span>
+              </NuxtLinkLocale>
             </div>
           </div>
         </div>
@@ -40,9 +42,9 @@
         </div>
         <div class="tips">
           {{ $t('home.login.tips') }}
-          <span class="hit" @click="$router.push({ path: '/forgot' })">
+          <NuxtLinkLocale :to="localePath('/forgot')">
             {{ $t('home.login.signUp') }}
-          </span>
+          </NuxtLinkLocale>
         </div>
       </div>
     </XsOnly>
@@ -51,6 +53,8 @@
 </template>
 
 <script setup lang="ts">
+import type { NuxtLinkLocale } from '#build/components';
+
 const showType = ref('login');
 </script>
 <style lang="scss" scoped>

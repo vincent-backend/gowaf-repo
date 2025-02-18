@@ -3,7 +3,9 @@
     <LgOnly>
       <div class="page-container">
         <div class="logo-header">
-          <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+          <NuxtLinkLocale :to="localePath('/')">
+            <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+          </NuxtLinkLocale>
         </div>
         <div class="body">
           <HomeForgotleftList />
@@ -19,9 +21,9 @@
             </div>
             <div class="tips">
               {{ $t('home.forgot.tips') }}
-              <span class="hit" @click="$router.push({ path: '/login' })">
+              <NuxtLinkLocale :to="localePath('/login')">
                 {{ $t('home.forgot.signUp') }}
-              </span>
+              </NuxtLinkLocale>
             </div>
           </div>
         </div>
@@ -40,9 +42,9 @@
         </div>
         <div class="tips">
           {{ $t('home.forgot.tips') }}
-          <span class="hit" @click="$router.push({ path: '/login' })">
+          <NuxtLinkLocale :to="localePath('/login')">
             {{ $t('home.forgot.signUp') }}
-          </span>
+          </NuxtLinkLocale>
         </div>
       </div>
     </XsOnly>
