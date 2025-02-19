@@ -164,17 +164,19 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_nz_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Nzxt'
         },
-        {
-          title: t('5kGGRVwrgqIDMEOCy2tFe'),
-          subTitle: '',
-          icon: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_pic_11_2x.png',
-          icon2:
-            '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_la_2x.png',
-          content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
-        }
+        // {
+        //   title: t('5kGGRVwrgqIDMEOCy2tFe'),
+        //   subTitle: '',
+        //   icon: '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_pic_11_2x.png',
+        //   icon2:
+        //     '/images/resources/case-studies-details-parrotsec/Resources_CaseStudies_card_logo_la_2x.png',
+        //   content1: t('EUGThsatAhT5WnoupuXm8'),
+        //   content2: '',
+        //   link: '/resources/caseStudiesDetails/ParrotSec'
+        // }
       ]
     },
     drmCustomer: {

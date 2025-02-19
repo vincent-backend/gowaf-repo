@@ -162,7 +162,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_ne_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Nexusmods'
         },
         {
           title: t('LowpLxaH6sYUxTF2Oc8Rd'),
@@ -171,7 +172,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-nzxt/Resources_CaseStudies_card_logo_pa_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/ParrotSec'
         }
       ]
     },

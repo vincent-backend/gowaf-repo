@@ -155,7 +155,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_in_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/InnoGames'
         },
         {
           title: t('fjLt025Xl02MMSD2wv3kv'),
@@ -164,7 +165,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-nexusmods/Resources_CaseStudies_card_logo_ti_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Timbo'
         }
       ]
     },

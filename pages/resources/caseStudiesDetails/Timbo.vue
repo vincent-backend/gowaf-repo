@@ -170,7 +170,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-timbo/Resources_CaseStudies_card_logo_in_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/InnoGames'
         },
         {
           title: t('gKGDRGbI5hC7TAgjznT9G'),
@@ -179,7 +180,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-timbo/Resources_CaseStudies_card_logo_ne_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Nexusmods'
         }
       ]
     },

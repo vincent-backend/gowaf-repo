@@ -168,7 +168,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_nz_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Nzxt'
         },
         {
           title: t('ssxqht_qY2s7p8B_-GjDS'),
@@ -177,7 +178,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-valnet/Resources_CaseStudies_card_logo_es_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Eskimi'
         }
       ]
     },

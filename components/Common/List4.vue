@@ -11,6 +11,7 @@ defineProps<{
     content2?: string;
     content3?: string;
     content4?: string;
+    link?: string;
   }[];
 }>();
 </script>
@@ -24,7 +25,11 @@ defineProps<{
         <img :src="item.icon" :alt="item.title" />
         <span><img :src="item.icon2" :alt="item.title" /></span>
         <h5>{{ item.title }}</h5>
-        <p><label></label>{{ item.content1 }}</p>
+        <p>
+          <NuxtLinkLocale :to="item.link" class="content1">
+            <label></label>{{ item.content1 }}
+          </NuxtLinkLocale>
+        </p>
       </li>
     </ul>
   </div>

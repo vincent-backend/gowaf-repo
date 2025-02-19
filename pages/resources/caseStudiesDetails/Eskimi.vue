@@ -154,7 +154,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_ot_2x.png',
           content1: t('EUGThsatAhT5WnoupuXm8'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/OTT'
         },
         {
           title: t('7wLJAGYMPrZTh81b5WsPY'),
@@ -163,7 +164,8 @@ const i18ntext = computed(() => {
           icon2:
             '/images/resources/case-studies-details-eskimi/Resources_CaseStudies_card_logo_va_2x.png',
           content1: t('azywX-MWuoZYNq9p-NtOt'),
-          content2: ''
+          content2: '',
+          link: '/resources/caseStudiesDetails/Valnet'
         }
       ]
     },
