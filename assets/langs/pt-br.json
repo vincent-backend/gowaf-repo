@@ -1295,7 +1295,7 @@
       "subheadlines": "Desempenho incomparável sem compromisso.",
       "subtitle": "Você está a apenas 5 minutos de um site mais rápido.",
       "tips": "já tem uma conta?",
-      "title": "Teste GRATUITO de 14 dias"
+      "title": "Livre para uso permanente"
     },
     "guarantee": "Garantia de tempo de atividade de 99,99%",
     "header": {
@@ -1315,7 +1315,7 @@
         "weAreRated": "Estamos avaliados",
         "weAreRated2": "4,8 de 5 com base em 700 avaliações"
       },
-      "btn": "Experimente GRATUITAMENTE por 14 dias",
+      "btn": "Livre para uso permanente",
       "content": "Acelere seu conteúdo com nossos serviços de CDN, armazenamento de borda e otimização de última geração. \nGowaf torna o desempenho extremamente rápido em qualquer escala mais fácil do que nunca.",
       "hint": "Configuração em 5 minutos. \nNão é necessário cartão de crédito.",
       "title": "A plataforma global de entrega de conteúdo que realmente prospera"
@@ -1324,7 +1324,7 @@
       "SLAtitle1": "Infraestrutura Redundante"
     },
     "join1": {
-      "btn": "Experimente GRATUITAMENTE por 14 dias",
+      "btn": "Livre para uso permanente",
       "info1": {
         "content": "Entre em uma das redes globais mais rápidas do mundo. \nAumente a velocidade do seu site além dos limites e ofereça a melhor experiência possível aos visitantes. \nDesempenho de nível empresarial ao preço mais acessível do mercado!",
         "title": "Incrível performance. \nTodas as vezes."
@@ -1569,7 +1569,7 @@
     },
     "ddos": {
       "header": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "content": "Proteja seu site contra ataques DDoS. \nGaranta um tempo de atividade perfeito e nunca mais caia. \nCuidamos da proteção DDoS para que você possa se concentrar no seu produto!",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "Proteção DDoS",
@@ -1580,7 +1580,7 @@
         "title": "Proteção DDoS na borda da rede"
       },
       "stayProtectAlways": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Mantenha o foco no seu produto e deixe-nos cuidar da sua segurança.",
         "title": "Fique protegido. \nSempre!"
       }
@@ -1591,7 +1591,7 @@
         "title": "Seus usuários estão a apenas um passo de distância"
       },
       "hop": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Entre na rede CDN global mais rápida"
       },
@@ -1601,7 +1601,7 @@
     },
     "smartEdge": {
       "header": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "content": "Proteja seu site contra ataques DDoS. \nGaranta um tempo de atividade perfeito e nunca mais caia. \nCuidamos da proteção DDoS para que você possa se concentrar no seu produto!",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "Proteção DDoS",
@@ -1695,7 +1695,7 @@
     },
     "cdn": {
       "calculator1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Insira o tráfego total usado a cada mês para ver o preço estimado.",
         "title": "Calcule sua fatura mensal"
       },
@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Entre em uma plataforma DNS ultrarrápida projetada para potencializar a próxima geração de aplicativos. \nAo utilizar registros programáveis, o Gowaf DNS ajuda você a desbloquear o verdadeiro poder do DNS e a transformar problemas complexos em soluções simples.",
           "preTitle": "Gowaf DNS",
           "title": "Desbloqueie o verdadeiro poder"
@@ -1831,7 +1831,7 @@
           "title": "Transforme seus vídeos em insights valiosos"
         },
         "list1": {
-          "subTitle": "Comece em minutos, com uma avaliação gratuita de 14 dias e preços simples de pagamento conforme o uso.",
+          "subTitle": "Comece em minutos, com uma avaliação gratuita e preços simples de pagamento conforme o uso.",
           "title": "Possibilidades ilimitadas. \nA um preço acessível."
         }
       }
@@ -1893,12 +1893,12 @@
           "title": "Nunca faça seu usuário esperar novamente"
         },
         "ad1": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Entre na rede CDN global mais rápida"
         },
         "ad1_2": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Entre na rede CDN global mais rápida"
         },
@@ -1914,7 +1914,7 @@
           "title": "Conecte-se diretamente com um Super Gowaf. \nTodas as vezes."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Entre em uma rede de distribuição de conteúdo global extremamente rápida e potencialize sua presença na web. Ofereça uma experiência consistente a todos, não importa onde estejam!",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "Gowaf CDN",
@@ -1943,7 +1943,7 @@
       },
       "permaCache": {
         "ad1": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito.",
           "title": "Arquivos de cache permanente no CDN!"
         },
@@ -1952,7 +1952,7 @@
           "title": "Reduza o tráfego de origem. \nReduza as contas mensais."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Armazene permanentemente seus arquivos no edge com Gowaf Storage para uma taxa de Cache HIT de 100%. \nGaranta excelente desempenho para cada solicitação, sempre, e evite pesadas contas de tráfego de origem.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "Cache permanente CDN",
@@ -2006,7 +2006,7 @@
     "storage": {
       "AfriceMiddleEast": {
         "HopList": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "CDN mais rápido da África"
         },
@@ -2015,7 +2015,7 @@
           "title": "Desempenho excepcional. \nPara cada solicitação. \nToda vez."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Gowaf.com ajuda você a oferecer uma experiência consistente em todo o mundo. \nCom conectividade local em vários países de África e do Médio Oriente, ajudamos os seus clientes a aceder ao seu conteúdo mais rapidamente, independentemente de serem do Quénia ou da Cidade do Cabo.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "CDN África",
@@ -2032,7 +2032,7 @@
       },
       "Asia": {
         "HopList": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Suba no"
         },
@@ -2041,7 +2041,7 @@
           "title": "Desempenho excepcional. \nPara cada solicitação. \nToda vez."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Alcance usuários com conectividade local direta em toda a Ásia. \nGowaf.com está posicionada em todos os principais centros para oferecer um desempenho incomparável na região, incluindo mercados emergentes através de parcerias locais estratégicas.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "CDN Ásia",
@@ -2058,7 +2058,7 @@
       },
       "Australia": {
         "HopList": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Pule com"
         },
@@ -2067,7 +2067,7 @@
           "title": "Desempenho excepcional. \nPara cada solicitação. \nToda vez."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Alcance usuários em milissegundos em toda a Oceania por meio de uma rede anycast construída localmente e otimizada. Posicionado em seis grandes cidades da Austrália e da Nova Zelândia, o Gowaf.com ajuda você a oferecer um desempenho excepcional para cada solicitação.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "CDN Austrália",
@@ -2097,7 +2097,7 @@
           "title": "Vamos falar de números"
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Esqueça o armazenamento lento de objetos e impressione seus clientes com desempenho incomparável.  \nReplique automaticamente seus arquivos em todo o mundo para minimizar a latência e maximizar o rendimento dos seus arquivos. \nPara cada solicitação. \nEm todos os lugares.",
           "preTitle": "Gowaf Storage",
           "title": "O armazenamento de objetos mais rápido replicado até a borda"
@@ -2109,7 +2109,7 @@
           "title": "Desempenho excepcional. \nPara cada solicitação. \nToda vez."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Suba no",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "CDN Europa",
@@ -2137,7 +2137,7 @@
       },
       "LatinAmerica": {
         "HopList": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Suba no"
         },
@@ -2146,7 +2146,7 @@
           "title": "Desempenho excepcional. \nPara cada solicitação. \nToda vez."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Ofereça desempenho máximo em toda a América do Sul e Latina com a rede mais rápida da região. Conecte-se diretamente à maioria dos principais ISPs e leve seu conteúdo a apenas um salto de distância de seus visitantes em toda a América Latina.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "CDN LATAM",
@@ -2168,7 +2168,7 @@
       },
       "NorthAmerica": {
         "HopList": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Suba no"
         },
@@ -2177,7 +2177,7 @@
           "title": "Desempenho excepcional. \nPara cada solicitação. \nToda vez."
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Ofereça desempenho impecável à maior economia do mundo. \nCom 22 PoPs estrategicamente localizados nas principais cidades dos EUA e conexões diretas com os principais ISPs, como a Comcast, você pode alcançar a maioria dos usuários da Internet em menos de 27 ms.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "CDN América do Norte",
@@ -2226,7 +2226,7 @@
       },
       "mediaCage": {
         "ad1": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
           "title": "Leve sua segurança de vídeo um salto à frente!"
         },
@@ -2235,7 +2235,7 @@
           "title": "Simples, fácil"
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Proteja seu conteúdo de vídeo contra pirataria. \nPare os downloads e evite hotlinks. \nAssuma o controle do seu conteúdo com criptografia poderosa com um único clique de um botão.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "Gaiola de mídia",
@@ -2335,7 +2335,7 @@
           "title": "Faça upload mais rápido por meio de uma API recuperável"
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Resolva o incômodo da entrega de vídeo reunindo transcodificação, armazenamento, segurança e reprodutor de vídeo em um pacote poderoso, mas simples. \nTransmita em qualquer lugar. \nSem buffer!",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "Gowaf Stream",
@@ -2361,7 +2361,7 @@
           "title": "Proteja vídeos contra roubo"
         },
         "header": {
-          "btn": "Comece o teste GRATUITO de 14 dias",
+          "btn": "Comece o Livre para uso permanente",
           "content": "Ofereça uma experiência de vídeo perfeita com um reprodutor de vídeo totalmente personalizável. \nRepleto de recursos poderosos, soluções excelentes e implementação simples.",
           "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
           "preTitle": "Leitor CDN",
@@ -2684,7 +2684,7 @@
   "solutions": {
     "securityCdn": {
       "ad1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Fique protegido o tempo todo!"
       },
@@ -2697,7 +2697,7 @@
         "title": "Não há mais tempo de inatividade. \nSempre."
       },
       "header": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "content": "Melhore o tempo de carregamento do seu site em até 80% e proporcione uma melhor experiência aos seus usuários em todo o mundo. \nFaça o seu site WordPress ficar mais rápido com um simples clique de um botão!",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "CDN do WordPress",
@@ -2710,12 +2710,12 @@
         "title": "Acelere os jogos em escala global"
       },
       "ad1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Entregando experiência de jogo de última geração"
       },
       "header": {
-        "btn": "Experimente gratuitamente por 14 dias",
+        "btn": "Livre para uso permanente",
         "content": "Ajude os jogadores a entrar no jogo mais rapidamente. \nAumente o nível de suas atualizações sem se preocupar com a escalabilidade. \nEvite ataques DDoS para manter os jogadores felizes e engajados sem gastar muito.",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "CDN de jogos",
@@ -2729,7 +2729,7 @@
         "title": "Nunca mais se preocupe com picos de tráfego"
       },
       "ad1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Acelere sua distribuição de software!"
       },
@@ -2739,7 +2739,7 @@
         "title": "Armazenamento mais rápido para downloads mais rápidos"
       },
       "header": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "content": "Turbine seus downloads de software com uma das redes globais mais rápidas: experimente downloads de alto rendimento e sempre confiáveis ​​em todo o mundo.",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "Distribuição de Software",
@@ -2765,12 +2765,12 @@
     },
     "videoDelivery": {
       "ad1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Entregue vídeo sem buffer!"
       },
       "header": {
-        "btn": "Experimente gratuitamente por 14 dias",
+        "btn": "Livre para uso permanente",
         "content": "Aprimore sua reprodução de vídeo e streaming VOD de alta qualidade por meio de nossa rede global de 150 Tbps. \nOfereça a melhor experiência de vídeo sem buffer e com a menor latência.",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "CDN de entrega de vídeo",
@@ -2796,7 +2796,7 @@
         "title": "Incrível performance. \nToda vez."
       },
       "ad1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Aproveite a aceleração da web de última geração!"
       },
@@ -2814,7 +2814,7 @@
         "title": "Aproxime seu conteúdo de seus usuários"
       },
       "header": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "content": "Transforme seu site de um caracol em um Gowaf. \nOfereça a melhor experiência possível aos seus usuários com nosso serviço global de CDN e otimizador. \nAcelere seu site além dos limites!",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "Aceleração do site",
@@ -2832,7 +2832,7 @@
         "title": "Experimente o desempenho do site como nunca antes"
       },
       "ad1": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "subTitle": "Comece em segundos. \nNão é necessário cartão de crédito. \nCancele a qualquer momento.",
         "title": "Entre no melhor CDN do WordPress!"
       },
@@ -2856,7 +2856,7 @@
         "title": "Encurtar distância. \nMelhore o tempo de carregamento do site"
       },
       "header": {
-        "btn": "Comece o teste GRATUITO de 14 dias",
+        "btn": "Comece o Livre para uso permanente",
         "content": "Melhore o tempo de carregamento do seu site em até 80% e proporcione uma melhor experiência aos seus usuários em todo o mundo. \nFaça o seu site WordPress ficar mais rápido com um simples clique de um botão!",
         "hint": "Não é necessário cartão de crédito. \nComece em segundos.",
         "preTitle": "CDN do WordPress",
@@ -3010,7 +3010,7 @@
   "x__KNtGKlbXS7cWpjnMhY": "O mercado de CDN era um dinossauro empresarial gigante focado nos lucros – e não na criação de valor. \nComo Dejan sempre adorou resolver problemas, ele decidiu construir algo extraordinário e consertar o cenário da Content Delivery Network para outros desenvolvedores.",
   "xcJ-KHHtn5_JhiXHBMWpN": "Documentação do Produto",
   "xcXjRkNsPvTfJ6pxiZlyg": "Gerenciamento de materiais",
-  "xfDW3DuWU9eAZnb9QUKlZ": "Comece gratuitamente com uma avaliação gratuita de 14 dias e continue por apenas US$ 1 por mês.",
+  "xfDW3DuWU9eAZnb9QUKlZ": "Comece gratuitamente com uma avaliação gratuita e continue por apenas US$ 1 por mês.",
   "xfaRQuRfFVJGmjhr4c3Zs": "Horas flexíveis",
   "xim7PcLIiwdKO5t_iPBnT": "Proteção de download",
   "xjkYw3pGCoCl8gj8Zi_8f": "Proprietário do Produto (DNS)",
@@ -3219,7 +3219,7 @@
   "zd50sRM_hTHpd2zN6tt8w": "Rangum",
   "wT7iUrvi0AKfHfyYzJP7w": "Gowaf SafeHop™",
   "V4FquxBF0-Qxi2PVN4hdI": "Melhore a confiabilidade com o clique de um botão, reduzindo as taxas de erro de origem em até 80%. \nResolva facilmente reinicializações de software, problemas de rede ou problemas de hardware.",
-  "a9f1rhEwslTmRosGmC1YS": "Comece o teste GRATUITO de 14 dias",
+  "a9f1rhEwslTmRosGmC1YS": "Comece o Livre para uso permanente",
   "gEhA0iwr2mZJG_nBmI--A": "Não é necessário cartão de crédito – comece em segundos.",
   "k-nZkJYyPG4n2wJkwfWa3": "Por que Gowaf.com é a melhor escolha",
   "sWsZrHWTWa9SrBq64cr0z": "Com o SafeHop, uma solicitação com falha à origem é enviada automaticamente para o próximo servidor ou reenviada para o mesmo após o atraso configurado.",

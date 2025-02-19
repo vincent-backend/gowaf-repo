@@ -1295,7 +1295,7 @@
       "subheadlines": "Beispiellose Leistung ohne Kompromisse.",
       "subtitle": "Sie sind nur 5 Minuten von einer schnelleren Website entfernt.",
       "tips": "Sie haben bereits ein Konto?",
-      "title": "14-tägige KOSTENLOSE Testversion"
+      "title": "Für immer kostenlos zu verwenden"
     },
     "guarantee": "99,99 % Verfügbarkeitsgarantie",
     "header": {
@@ -1315,7 +1315,7 @@
         "weAreRated": "Wir sind bewertet",
         "weAreRated2": "4,8 von 5 basierend auf 700 Bewertungen"
       },
-      "btn": "Testen Sie es 14 Tage lang KOSTENLOS",
+      "btn": "Für immer kostenlos zu verwenden",
       "content": "Beschleunigen Sie Ihre Inhalte mit unseren CDN-, Edge-Storage- und Optimierungsdiensten der nächsten Generation. \nGowaf macht blitzschnelle Leistung in jeder Größenordnung einfacher als je zuvor.",
       "hint": "Aufbau in 5 Minuten. \nKeine Kreditkarte benötigt.",
       "title": "Die globale Content-Delivery-Plattform, die wirklich begeistert"
@@ -1324,7 +1324,7 @@
       "SLAtitle1": "Redundante Infrastruktur"
     },
     "join1": {
-      "btn": "Testen Sie es 14 Tage lang KOSTENLOS",
+      "btn": "Für immer kostenlos zu verwenden",
       "info1": {
         "content": "Steigen Sie in eines der schnellsten globalen Netzwerke der Welt ein. \nErhöhen Sie die Geschwindigkeit Ihrer Website über ihre Grenzen hinaus und bieten Sie Ihren Besuchern das bestmögliche Erlebnis. \nLeistung auf Unternehmensniveau zum günstigsten Preis auf dem Markt!",
         "title": "Wunderbar Derbietung. \nJedes Mal."
@@ -1569,7 +1569,7 @@
     },
     "ddos": {
       "header": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "content": "Schützen Sie Ihre Website vor DDoS-Angriffen. \nStellen Sie eine einwandfreie Betriebszeit sicher und sorgen Sie dafür, dass es nie wieder zu Ausfällen kommt. \nWir kümmern uns um den DDoS-Schutz, damit Sie sich auf Ihr Produkt konzentrieren können!",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "DDoS-Schutz",
@@ -1580,7 +1580,7 @@
         "title": "DDoS-Schutz am Netzwerkrand"
       },
       "stayProtectAlways": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Konzentrieren Sie sich auf Ihr Produkt und lassen Sie uns für Ihre Sicherheit sorgen.",
         "title": "Bleiben Sie geschützt. \nStets!"
       }
@@ -1591,7 +1591,7 @@
         "title": "Ihre Benutzer sind nur einen Katzensprung entfernt"
       },
       "hop": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Steigen Sie in das schnellste globale CDN-Netzwerk ein"
       },
@@ -1601,7 +1601,7 @@
     },
     "smartEdge": {
       "header": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "content": "Schützen Sie Ihre Website vor DDoS-Angriffen. \nStellen Sie eine einwandfreie Betriebszeit sicher und sorgen Sie dafür, dass es nie wieder zu Ausfällen kommt. \nWir kümmern uns um den DDoS-Schutz, damit Sie sich auf Ihr Produkt konzentrieren können!",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "DDoS-Schutz",
@@ -1695,7 +1695,7 @@
     },
     "cdn": {
       "calculator1": {
-        "btn": "Starten Sie die KOSTENLOSE 14-Tage-Testversion",
+        "btn": "Für immer kostenlos zu verwenden",
         "subTitle": "Geben Sie Ihren gesamten monatlichen Traffic ein, um die geschätzten Preise anzuzeigen.",
         "title": "Berechnen Sie Ihre monatliche Rechnung"
       },
@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Nutzen Sie eine ultraschnelle DNS-Plattform, die für Anwendungen der nächsten Generation entwickelt wurde. \nDurch die Verwendung skriptfähiger Datensätze hilft Ihnen Gowaf DNS dabei, die wahre Leistungsfähigkeit von DNS auszuschöpfen und komplexe Probleme in einfache Lösungen umzuwandeln.",
           "preTitle": "Gowaf DNS",
           "title": "Schalte die wahre Kraft frei"
@@ -1893,12 +1893,12 @@
           "title": "Lassen Sie Ihren Benutzer nie wieder warten"
         },
         "ad1": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Steigen Sie in das schnellste globale CDN-Netzwerk ein"
         },
         "ad1_2": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Steigen Sie in das schnellste globale CDN-Netzwerk ein"
         },
@@ -1914,7 +1914,7 @@
           "title": "Verbinden Sie sich direkt mit einem Super Gowaf. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Nutzen Sie ein blitzschnelles globales Content-Delivery-Netzwerk und optimieren Sie Ihre Webpräsenz. Bieten Sie jedem ein einheitliches Erlebnis, egal wo er sich befindet!",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "Gowaf CDN",
@@ -1943,7 +1943,7 @@
       },
       "permaCache": {
         "ad1": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt.",
           "title": "Perma-Cache-Dateien im CDN!"
         },
@@ -1952,7 +1952,7 @@
           "title": "Reduzieren Sie den Ursprungsverkehr. \nReduzieren Sie die monatlichen Rechnungen."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Speichern Sie Ihre Dateien dauerhaft am Edge mit Gowaf Storage für eine Cache-HIT-Rate von 100 %. \nGewährleisten Sie jederzeit eine hervorragende Leistung bei jeder Anfrage und vermeiden Sie hohe Kosten für den Ursprungsverkehr.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Perma-Cache",
@@ -2006,7 +2006,7 @@
     "storage": {
       "AfriceMiddleEast": {
         "HopList": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Schnellstes CDN in Afrika"
         },
@@ -2015,7 +2015,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Gowaf.com hilft Ihnen, weltweit ein einheitliches Erlebnis zu bieten. \nMit lokaler Konnektivität in mehreren Ländern Afrikas und des Nahen Ostens helfen wir Ihren Kunden, schneller auf Ihre Inhalte zuzugreifen, unabhängig davon, ob sie aus Kenia oder Kapstadt kommen.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Afrika",
@@ -2032,7 +2032,7 @@
       },
       "Asia": {
         "HopList": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Steigen Sie ein"
         },
@@ -2041,7 +2041,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Erreichen Sie Benutzer mit direkter lokaler Konnektivität in ganz Asien. \nGowaf.com ist in allen wichtigen Zentren positioniert, um durch strategische lokale Partnerschaften eine beispiellose Leistung in der Region, einschließlich der Schwellenländer, zu liefern.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Asien",
@@ -2058,7 +2058,7 @@
       },
       "Australia": {
         "HopList": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Hop mit"
         },
@@ -2067,7 +2067,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Erreichen Sie Benutzer in Millisekunden in ganz Ozeanien über ein lokal aufgebautes und optimiertes Anycast-Netzwerk. Gowaf.com ist in sechs wichtigen Großstädten in Australien und Neuseeland vertreten und hilft Ihnen dabei, außergewöhnliche Leistung für jede Anfrage zu liefern.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Australien",
@@ -2097,7 +2097,7 @@
           "title": "Reden wir über Zahlen"
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Vergessen Sie langsame Objektspeicherung und begeistern Sie Ihre Kunden mit beispielloser Leistung.  \nReplizieren Sie Ihre Dateien automatisch weltweit, um Ihre Latenz zu minimieren und den Durchsatz für Ihre Dateien zu maximieren. \nFür jeden Wunsch. \nÜberall.",
           "preTitle": "Gowaf-Speicher",
           "title": "Der schnellste Objektspeicher, der an den Rand repliziert wird"
@@ -2109,7 +2109,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Steigen Sie ein",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Europa",
@@ -2137,7 +2137,7 @@
       },
       "LatinAmerica": {
         "HopList": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Steigen Sie ein"
         },
@@ -2146,7 +2146,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Bieten Sie maximale Leistung in ganz Süd- und Lateinamerika mit dem schnellsten Netzwerk in der Region. Stellen Sie eine direkte Verbindung zu den meisten großen ISPs her und bringen Sie Ihre Inhalte in ganz LATAM nur einen Katzensprung von Ihren Besuchern entfernt.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN LATAM",
@@ -2168,7 +2168,7 @@
       },
       "NorthAmerica": {
         "HopList": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Steigen Sie ein"
         },
@@ -2177,7 +2177,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Erbringen Sie tadellose Leistungen für die größte Volkswirtschaft der Welt. \nMit 22 PoPs, die strategisch über große Städte in den USA verteilt sind, und direkten Verbindungen zu großen ISPs wie Comcast können Sie die meisten Internetnutzer in weniger als 27 ms erreichen.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Nordamerika",
@@ -2226,7 +2226,7 @@
       },
       "mediaCage": {
         "ad1": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
           "title": "Bringen Sie Ihre Videosicherheit einen Schritt voraus!"
         },
@@ -2235,7 +2235,7 @@
           "title": "Einfach, leicht"
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Schützen Sie Ihre Videoinhalte vor Piraterie. \nStoppen Sie Downloads und verhindern Sie Hotlinks. \nÜbernehmen Sie mit einem einzigen Klick die Kontrolle über Ihre Inhalte mit leistungsstarker Verschlüsselung.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "Medienkäfig",
@@ -2335,7 +2335,7 @@
           "title": "Schnelleres Hochladen über eine fortsetzbare API"
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Lösen Sie den Aufwand der Videobereitstellung, indem Sie Transkodierung, Speicherung, Sicherheit und Videoplayer in einem leistungsstarken, aber unkomplizierten Paket packen. \nÜberall streamen. \nOhne Pufferung!",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "Gowaf-Stream",
@@ -2361,7 +2361,7 @@
           "title": "Schützen Sie Videos vor Diebstahl"
         },
         "header": {
-          "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
           "content": "Bieten Sie ein einwandfreies Videoerlebnis mit einem vollständig anpassbaren Videoplayer. \nVollgepackt mit leistungsstarken Funktionen, hervorragenden Lösungen und einfacher Implementierung.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN-Player",
@@ -2684,7 +2684,7 @@
   "solutions": {
     "securityCdn": {
       "ad1": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Bleiben Sie jederzeit geschützt!"
       },
@@ -2697,7 +2697,7 @@
         "title": "Keine Ausfallzeiten mehr. \nImmer."
       },
       "header": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "content": "Verbessern Sie die Ladezeiten Ihrer Website um bis zu 80 % und bieten Sie Ihren Benutzern weltweit ein besseres Erlebnis. \nMachen Sie Ihre WordPress-Website mit einem einfachen Klick schneller!",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "WordPress-CDN",
@@ -2710,12 +2710,12 @@
         "title": "Beschleunigen Sie das Spielen auf globaler Ebene"
       },
       "ad1": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Bereitstellung eines Gaming-Erlebnisses der nächsten Generation"
       },
       "header": {
-        "btn": "14 Tage lang kostenlos testen",
+        "btn": "Für immer kostenlos zu verwenden",
         "content": "Helfen Sie Spielern, schneller in Ihr Spiel einzusteigen. \nVerbessern Sie Ihre Updates, ohne sich Gedanken über die Skalierbarkeit machen zu müssen. \nVerhindern Sie DDoS-Angriffe, um die Spieler zufrieden und engagiert zu halten, ohne Ihr Budget zu sprengen.",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "Gaming-CDN",
@@ -2729,7 +2729,7 @@
         "title": "Machen Sie sich nie wieder Sorgen über Verkehrsspitzen"
       },
       "ad1": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Beschleunigen Sie Ihre Softwareverteilung!"
       },
@@ -2739,7 +2739,7 @@
         "title": "Schnellster Speicher für schnellste Downloads"
       },
       "header": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "content": "Beschleunigen Sie Ihre Software-Downloads mit einem der schnellsten globalen Netzwerke: Erleben Sie weltweit einen hohen Durchsatz und immer zuverlässige Downloads.",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "Softwareverteilung",
@@ -2765,12 +2765,12 @@
     },
     "videoDelivery": {
       "ad1": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Liefern Sie Videos ohne Pufferung!"
       },
       "header": {
-        "btn": "14 Tage lang kostenlos testen",
+        "btn": "Für immer kostenlos zu verwenden",
         "content": "Optimieren Sie Ihre Videowiedergabe und hochwertiges VOD-Streaming über unser globales 150-Tbit/s-Netzwerk. \nBieten Sie das beste Videoerlebnis ohne Pufferung und mit der geringsten Latenz.",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "Videobereitstellungs-CDN",
@@ -2796,7 +2796,7 @@
         "title": "Wunderbar Derbietung. \nJedes Mal."
       },
       "ad1": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Steigen Sie auf die Webbeschleunigung der nächsten Generation!"
       },
@@ -2814,7 +2814,7 @@
         "title": "Bringen Sie Ihre Inhalte Ihren Nutzern näher"
       },
       "header": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "content": "Verwandeln Sie Ihre Website von einer Schnecke in einen Gowaf. \nBieten Sie Ihren Benutzern das bestmögliche Erlebnis mit unserem globalen CDN- und Optimierungsservice. \nBeschleunigen Sie Ihre Website über die Grenzen hinaus!",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "Website-Beschleunigung",
@@ -2832,7 +2832,7 @@
         "title": "Erleben Sie Website-Performance wie nie zuvor"
       },
       "ad1": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "subTitle": "Legen Sie in Sekundenschnelle los. \nKeine Kreditkarte benötigt. \nJederzeit kündbar.",
         "title": "Steigen Sie auf das beste WordPress-CDN!"
       },
@@ -2856,7 +2856,7 @@
         "title": "Distanz verkürzen. \nVerbessern Sie die Ladezeit Ihrer Website"
       },
       "header": {
-        "btn": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+        "btn": "Starten Sie die Für immer kostenlos zu verwenden",
         "content": "Verbessern Sie die Ladezeiten Ihrer Website um bis zu 80 % und bieten Sie Ihren Benutzern weltweit ein besseres Erlebnis. \nMachen Sie Ihre WordPress-Website mit einem einfachen Klick schneller!",
         "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
         "preTitle": "WordPress-CDN",
@@ -3010,7 +3010,7 @@
   "x__KNtGKlbXS7cWpjnMhY": "Der CDN-Markt war ein riesiger Unternehmensdinosaurier, der sich auf Gewinne konzentrierte – nicht auf die Schaffung von Werten. \nDa Dejan es immer liebte, Probleme zu lösen, nahm er es in die Hand, etwas Außergewöhnliches zu schaffen und die Content Delivery Network-Landschaft für andere Entwickler zu verbessern.",
   "xcJ-KHHtn5_JhiXHBMWpN": "Produktdokumentation",
   "xcXjRkNsPvTfJ6pxiZlyg": "Materialverwaltung",
-  "xfDW3DuWU9eAZnb9QUKlZ": "Beginnen Sie kostenlos mit einer 14-tägigen kostenlosen Testversion und fahren Sie für nur 1 US-Dollar pro Monat fort.",
+  "xfDW3DuWU9eAZnb9QUKlZ": "Beginnen Sie kostenlos mit einer kostenlosen Testversion und fahren Sie für nur 1 US-Dollar pro Monat fort.",
   "xfaRQuRfFVJGmjhr4c3Zs": "Flexible Arbeitszeiten",
   "xim7PcLIiwdKO5t_iPBnT": "Downloadschutz",
   "xjkYw3pGCoCl8gj8Zi_8f": "Produktinhaber (DNS)",
@@ -3219,7 +3219,7 @@
   "zd50sRM_hTHpd2zN6tt8w": "Yangon",
   "wT7iUrvi0AKfHfyYzJP7w": "Gowaf SafeHop™",
   "V4FquxBF0-Qxi2PVN4hdI": "Verbessern Sie die Zuverlässigkeit mit nur einem Klick, indem Sie die Ursprungsfehlerquote um bis zu 80 % reduzieren. \nBeheben Sie problemlos Software-Neustarts, Netzwerkprobleme oder Hardwareprobleme.",
-  "a9f1rhEwslTmRosGmC1YS": "Starten Sie die 14-tägige KOSTENLOSE Testversion",
+  "a9f1rhEwslTmRosGmC1YS": "Starten Sie die Für immer kostenlos zu verwenden",
   "gEhA0iwr2mZJG_nBmI--A": "Keine Kreditkarte erforderlich – Legen Sie in Sekundenschnelle los.",
   "k-nZkJYyPG4n2wJkwfWa3": "Warum Gowaf.com die bessere Wahl ist",
   "sWsZrHWTWa9SrBq64cr0z": "Mit SafeHop wird eine fehlgeschlagene Anfrage an den Ursprung automatisch an den nächsten Server gesendet oder nach der konfigurierten Verzögerung erneut an denselben Server gesendet.",

@@ -1295,7 +1295,7 @@
       "subheadlines": "Unparalleled performance without compromise.",
       "subtitle": "You're just 5 minutes away from a faster website.",
       "tips": "Already have an account?",
-      "title": "14-Day FREE Trial"
+      "title": "Forever free to use"
     },
     "guarantee": "99.99% Uptime Guarantee",
     "header": {
@@ -1315,7 +1315,7 @@
         "weAreRated": "We're rated",
         "weAreRated2": "4.8 out of 5 based on 700  reviews"
       },
-      "btn": "Try FREE for 14 days",
+      "btn": "Forever free to use",
       "content": "Speed up your content with our next-generation CDN, Edge Storage and Optimization Services. Gowaf makes lightning fast performance at any scale easier than ever before.",
       "hint": "Set-up in 5 minutes. No Credit Card required.",
       "title": "The Global Content Delivery Platform That Truly Hops"
@@ -1324,7 +1324,7 @@
       "SLAtitle1": "Redundant Infrastructure"
     },
     "join1": {
-      "btn": "Try FREE for 14 days",
+      "btn": "Forever free to use",
       "info1": {
         "content": "Hop on one of the fastest global networks in the world. Supercharge your website speeds beyond its limits and deliver the best possible experience for your visitors. Enterprise-grade performance at the most affordable price on the market!",
         "title": "Amazing performance. Every single time."
@@ -1569,7 +1569,7 @@
     },
     "ddos": {
       "header": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "content": "Protect your website from DDoS Attacks. Ensure flawless uptime and never go down again. We take care of DDoS protection so you can focus on your product!",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "DDoS Protection",
@@ -1580,7 +1580,7 @@
         "title": "DDoS protection at the network edge"
       },
       "stayProtectAlways": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Stay focused on your product and let us take care of your security.",
         "title": "Stay protected. Always!"
       }
@@ -1591,7 +1591,7 @@
         "title": "Your users are just a hop away"
       },
       "hop": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Hop on the Fastest Global CDN Network"
       },
@@ -1601,7 +1601,7 @@
     },
     "smartEdge": {
       "header": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "content": "Protect your website from DDoS Attacks. Ensure flawless uptime and never go down again. We take care of DDoS protection so you can focus on your product!",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "DDoS Protection",
@@ -1695,7 +1695,7 @@
     },
     "cdn": {
       "calculator1": {
-        "btn": "Start FREE 14-Day Trial",
+        "btn": "Forever free to use",
         "subTitle": "Enter your total traffic used each month to see estimated pricing.",
         "title": "Calculate your monthly bill"
       },
@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Hop on an ultra-fast DNS platform designed to power the next-generation of applications. By utilizing scriptable records, Gowaf DNS helps you unlock the true power of DNS and turn complex issues into simple solutions.",
           "preTitle": "Gowaf DNS",
           "title": "Unlock the true powe"
@@ -1831,7 +1831,7 @@
           "title": "Turn your videos into  valuable insights"
         },
         "list1": {
-          "subTitle": "Get started in minutes, with a 14-day free trial and simple pay-as-you-use pricing.",
+          "subTitle": "Get started in minutes, with a Forever free to use and simple pay-as-you-use pricing.",
           "title": "Unlimited possibilities. At an affordable price."
         }
       }
@@ -1893,12 +1893,12 @@
           "title": "Never make your user wait again"
         },
         "ad1": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop on the Fastest Global CDN Network"
         },
         "ad1_2": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop on the Fastest Global CDN Network"
         },
@@ -1914,7 +1914,7 @@
           "title": "Connect directly with a Super Gowaf. Every single time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Hop on a lightning fast global content delivery network and supercharge your web presence.Deliver consistent experience to everyone, nomatter where they are!",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "Gowaf CDN",
@@ -1943,7 +1943,7 @@
       },
       "permaCache": {
         "ad1": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required.",
           "title": "Perma cache files on the CDN!"
         },
@@ -1952,7 +1952,7 @@
           "title": "Reduce origin traffic. Reduce monthly bills."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Permanently store your files on the edge with Gowaf Storage for a 100% Cache HIT rate. Guarantee excellent performance for every request, every time, and avoid hefty origin traffic bills.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN Perma-Cache",
@@ -2006,7 +2006,7 @@
     "storage": {
       "AfriceMiddleEast": {
         "HopList": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Fastest CDN in Africa"
         },
@@ -2015,7 +2015,7 @@
           "title": "Exceptional performance. For every request. Every time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Gowaf.com helps you deliver a consistent experience around the world. With local connectivity in multiple African and Middle East countries, we help your customers get to your content faster, regardless if they're from Kenya or Cape Town.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN Africa",
@@ -2032,7 +2032,7 @@
       },
       "Asia": {
         "HopList": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop on the"
         },
@@ -2041,7 +2041,7 @@
           "title": "Exceptional performance. For every request. Every time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Reach users with direct local connectivity throughout Asia. Gowaf.com is positioned in all key centers to deliver unparalleled performance in the region, including emerging markets through strategic local partnerships.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN Asia",
@@ -2058,7 +2058,7 @@
       },
       "Australia": {
         "HopList": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop with"
         },
@@ -2067,7 +2067,7 @@
           "title": "Exceptional performance. For every request. Every time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Reach users in milliseconds across Oceania through a locally built and optimized anycast network.Positioned in 6 key major cities across Australia and New Zealand, Gowaf.com helps you deliver exceptional performance for every request.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN Australia",
@@ -2097,7 +2097,7 @@
           "title": "Let’s talk numbers"
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Forget slow object storage and WOW your customers with unparalleled performance.  Automatically replicate your files worldwide to minimize your latency and maximize throughput for your files. For every request. Everywhere.",
           "preTitle": "Gowaf Storage",
           "title": "The fastest object storage replicated to the edge"
@@ -2109,7 +2109,7 @@
           "title": "Exceptional performance. For every request. Every time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Hop on the",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN Europe",
@@ -2137,7 +2137,7 @@
       },
       "LatinAmerica": {
         "HopList": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop on the"
         },
@@ -2146,7 +2146,7 @@
           "title": "Exceptional performance. For every request. Every time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Deliver maximum performance throughout South and Latin America with the fastest network in the region.Connect directly to most major ISPs and bring your content just a hop away from your visitors throughout LATAM.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN LATAM",
@@ -2168,7 +2168,7 @@
       },
       "NorthAmerica": {
         "HopList": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Hop on the"
         },
@@ -2177,7 +2177,7 @@
           "title": "Exceptional performance. For every request. Every time."
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Deliver impeccable performance to the largest economy in the world. With 22 PoPs strategically placed through major cities in the USA and direct connections to major ISPs such as Comcast, you can reach most internet users in less than 27 ms.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN North America",
@@ -2226,7 +2226,7 @@
       },
       "mediaCage": {
         "ad1": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
           "title": "Take Your Video Security One Hop Ahead!"
         },
@@ -2235,7 +2235,7 @@
           "title": "Simple, Easy"
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Protect your video content from piracy. Stop downloads and prevent hotlinking. Take control of your content with powerful encryption with a single click of a button.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "Media Cage",
@@ -2335,7 +2335,7 @@
           "title": "Upload faster via a resumable API"
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Solve the hassle of video delivery by packing transcoding, storage, security, and video player into a powerful but straightforward package. Stream anywhere. Without buffering!",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "Gowaf Stream",
@@ -2361,7 +2361,7 @@
           "title": "Protect videos from being stolen"
         },
         "header": {
-          "btn": "Start 14-Day FREE Trial",
+          "btn": "Start Forever free to use",
           "content": "Deliver flawless video experience with a fully customizable video player. Packed with powerful features, excellent solutions and straightforward implementation.",
           "hint": "No credit card needed. Start in seconds.",
           "preTitle": "CDN Player",
@@ -2684,7 +2684,7 @@
   "solutions": {
     "securityCdn": {
       "ad1": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Stay protected at all time!"
       },
@@ -2697,7 +2697,7 @@
         "title": "No more downtime. Ever."
       },
       "header": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "content": "Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "WordPress CDN",
@@ -2710,12 +2710,12 @@
         "title": "Accelerate gaming on a global scale"
       },
       "ad1": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Delivery Next-Gen Gaming Experience"
       },
       "header": {
-        "btn": "Try free for 14 days",
+        "btn": "Forever free to use",
         "content": "Help players hop into your game faster. Level up your updates without worrying about scalability. Prevent DDoS attacks to keep gamers happy and engaged without breaking the bank.",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "Gaming CDN",
@@ -2729,7 +2729,7 @@
         "title": "Never worry about traffic peaks again"
       },
       "ad1": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Speed up your software distribution!"
       },
@@ -2739,7 +2739,7 @@
         "title": "Fastest storage for fastest downloads"
       },
       "header": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "content": "Supercharge your software downloads with one of the fastest global networks: experience high-throughput and always reliable downloads worldwide.",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "Software Distribution",
@@ -2765,12 +2765,12 @@
     },
     "videoDelivery": {
       "ad1": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Deliver video without buffering!"
       },
       "header": {
-        "btn": "Try free for 14 days",
+        "btn": "Forever free to use",
         "content": "Supercharge your video playback and high-quality VOD streaming through our global 150 Tbps  network. Deliver the best video experience with no buffering and the lowest latency.",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "Video Delivery CDN",
@@ -2796,7 +2796,7 @@
         "title": "Amazing performance. Every time."
       },
       "ad1": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Hop on next-gen web acceleration!"
       },
@@ -2814,7 +2814,7 @@
         "title": "Bring your content closer to your users"
       },
       "header": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "content": "Turn your website from a snail into a Gowaf. Deliver the best possible experience to your users with our global CDN and optimizer service. Speed up your website beyond the limits!",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "Website Acceleration",
@@ -2832,7 +2832,7 @@
         "title": "Experience website performance like never before"
       },
       "ad1": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "subTitle": "Get started in seconds. No Credit Card Required. Cancel anytime.",
         "title": "Hop on the best WordPress CDN!"
       },
@@ -2856,7 +2856,7 @@
         "title": "Shorten distance. Improve website load time"
       },
       "header": {
-        "btn": "Start 14-Day FREE Trial",
+        "btn": "Start Forever free to use",
         "content": "Improve your website loading times up to 80% and deliver a better experience to your users worldwide. Make your WordPress website hop faster with a simple click of a button!",
         "hint": "No credit card needed. Start in seconds.",
         "preTitle": "WordPress CDN",
@@ -3010,7 +3010,7 @@
   "x__KNtGKlbXS7cWpjnMhY": "The CDN market was a giant enterprise dinosaur focused on profits - not on creating value. Since Dejan always loved solving problems, he took it into his hands to build something extraordinary and fix the Content Delivery Network landscape for other developers.",
   "xcJ-KHHtn5_JhiXHBMWpN": "Product Documentatio",
   "xcXjRkNsPvTfJ6pxiZlyg": "Material Mgt.",
-  "xfDW3DuWU9eAZnb9QUKlZ": "Get started for free with a 14-day free trial, and continue for as little as $1 per month.",
+  "xfDW3DuWU9eAZnb9QUKlZ": "Get started for free with a Forever free to use, and continue for as little as $1 per month.",
   "xfaRQuRfFVJGmjhr4c3Zs": "Flexible Hours",
   "xim7PcLIiwdKO5t_iPBnT": "Download protection",
   "xjkYw3pGCoCl8gj8Zi_8f": "Product Owner (DNS)",
@@ -3219,7 +3219,7 @@
   "zd50sRM_hTHpd2zN6tt8w": "Yangon",
   "wT7iUrvi0AKfHfyYzJP7w": "Gowaf SafeHop™",
   "V4FquxBF0-Qxi2PVN4hdI": "Improve reliability with a click of a button by reducing origin error rates by up to 80%. Easily work around software restarts, network hiccups, or hardware issues.",
-  "a9f1rhEwslTmRosGmC1YS": "Start 14 - day FREE Trial",
+  "a9f1rhEwslTmRosGmC1YS": "Forever free to use",
   "gEhA0iwr2mZJG_nBmI--A": "No credit card required – Get started in seconds.",
   "k-nZkJYyPG4n2wJkwfWa3": "Why Gowaf.com is a better choice",
   "sWsZrHWTWa9SrBq64cr0z": "With SafeHop, a failed request to the origin is automatically sent to the next server or re-sent to the same one after the configured delay.",
