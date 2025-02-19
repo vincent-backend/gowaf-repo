@@ -60,7 +60,18 @@
     <div class="sub-title">
       {{ $t('products.stream.player.player2.subTitle') }}
     </div>
-    <div class="pic"></div>
+    <div class="pic">
+      <video
+        class="video-player"
+        controls
+        width="800"
+        height="450"
+        poster="/images/products/stream/player/player-1@2x.png"
+      >
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签。
+      </video>
+    </div>
   </div>
   <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
@@ -169,7 +180,7 @@ const i18ntext = computed(() => {
 
     width: 782px;
     height: 440px;
-    background: url(/images/products/stream/player/player-1@2x.png);
+    // background: url(/images/products/stream/player/player-1@2x.png);
   }
 }
 @media (max-width: 767px) {

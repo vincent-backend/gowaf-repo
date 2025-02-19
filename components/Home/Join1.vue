@@ -4,7 +4,7 @@
       <div class="title">
         {{ $t('home.join1.title') }}
       </div>
-      <NuxtLinkLocale class="trail-btn">
+      <NuxtLinkLocale class="trail-btn" to="/login">
         {{ $t('home.join1.btn') }}
       </NuxtLinkLocale>
       <div class="sub-title">

@@ -3,14 +3,16 @@
     <LgOnly>
       <div class="page-container">
         <div class="logo-header">
-          <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+          <NuxtLinkLocale :to="localePath('/')">
+            <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+          </NuxtLinkLocale>
         </div>
         <div class="body">
           <HomeResetleftList />
           <div class="login-body">
             <HomeResetPasswordform />
             <div class="tips">
-              <span class="hit" @click="$router.push({ path: '/login' })">
+              <span class="hit" @click="navigateTo(localePath('/login'))">
                 {{ $t('home.ResetPassword.BacktoLog In') }}
               </span>
             </div>
@@ -22,7 +24,7 @@
       <div class="xs-login-body">
         <HomeResetPasswordform />
         <div class="tips">
-          <span class="hit" @click="$router.push({ path: '/login' })">
+          <span class="hit" @click="navigateTo(localePath('/login'))">
             {{ $t('home.ResetPassword.BacktoLog In') }}
           </span>
         </div>

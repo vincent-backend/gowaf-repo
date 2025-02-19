@@ -160,7 +160,7 @@ const i18ntext = computed(() => {
       </div>
       <div class="right">
         <div class="btn-container">
-          <NuxtLinkLocale class="btn">
+          <NuxtLinkLocale class="btn" to="/login">
             {{ $t('footer.footer1.btn') }}
           </NuxtLinkLocale>
         </div>

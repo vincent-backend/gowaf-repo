@@ -73,22 +73,31 @@ const i18ntext = computed<any>(() => {
         <div class="sub-title">
           {{ $t('products.stream.player.playerFeatures.subTitle') }}
         </div>
-        <CommonTabs
-          :tabs="i18ntext"
-          v-model:cur-tab="curTab"
-        />
-        <template
-          v-for="(item, index) in i18ntext"
-        >
+        <CommonTabs :tabs="i18ntext" v-model:cur-tab="curTab" />
+        <template v-for="(item, index) in i18ntext">
           <div class="content" v-if="curTab === index">
             <div
               class="pic"
               :style="{
-                backgroundImage: `url(${item.pic})`,
+                // backgroundImage: `url(${item.pic})`,
                 width: $device.isMobile ? item.mpicWidth : item.picWidth,
                 height: $device.isMobile ? item.mpicHeight : item.picHeight
               }"
-            ></div>
+            >
+              <video
+                class="video-player"
+                controls
+                width="800"
+                height="450"
+                :poster="item.pic"
+              >
+                <source
+                  src="https://www.w3schools.com/html/movie.mp4"
+                  type="video/mp4"
+                />
+                您的浏览器不支持 video 标签。
+              </video>
+            </div>
             <div v-if="item.hint" class="hint">{{ item.hint }}</div>
           </div>
         </template>

@@ -10,7 +10,7 @@
         <div class="body">
           <HomeLoginleftList />
           <div class="login-body">
-            <home-loginform @to-forgot="showType = 'forgot'" />
+            <home-loginform @to-forgot="navigateTo(localePath('/ResetPassword'))" />
             <el-divider>
               {{ $t('home.login.divider') }}
             </el-divider>
@@ -31,7 +31,7 @@
     </LgOnly>
     <XsOnly>
       <div class="xs-login-body">
-        <home-loginform @to-forgot="showType = 'forgot'" />
+        <home-loginform @to-forgot="navigateTo(localePath('/ResetPassword'))" />
         <el-divider>
           {{ $t('home.login.divider') }}
         </el-divider>

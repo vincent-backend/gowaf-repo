@@ -5,7 +5,6 @@
     :title="$t('home.AffiliateProgram.title')"
     :content="$t('home.AffiliateProgram.content')"
     :show-foot="false"
-    :btn="$t('home.AffiliateProgram.btn')"
     :hint="$t('home.AffiliateProgram.hint')"
     href="#"
     :pic="{
@@ -21,13 +20,13 @@
   <ProductsEasyPowerful :show-next="false" v-bind="i18ntext.neverHit" />
   <VSpace h="100px" mh="6.25rem"></VSpace>
   <CommonList1 v-bind="i18ntext.list1" />
-  <div class="btn-row page-container">
+  <!-- <div class="btn-row page-container">
     <div class="btn">
       {{ $t('home.AffiliateProgram.listBtn') }}
     </div>
-  </div>
-  <VSpace h="100px" mh="6.25rem"></VSpace>
-  <div class="page-container Marketing">
+  </div> -->
+  <!-- <VSpace h="100px" mh="6.25rem"></VSpace> -->
+  <!-- <div class="page-container Marketing">
     <div class="mk-title">{{ $t('home.AffiliateProgram.mktitle') }}</div>
     <div class="mk-subtitle">{{ $t('home.AffiliateProgram.mksubtitle') }}</div>
     <div class="mkt-img" v-if="!$device.isMobile">
@@ -38,7 +37,7 @@
         srcset=""
       />
     </div>
-  </div>
+  </div> -->
   <XsOnly>
     <Footer :showbot-foot="false" />
     <SolutionsAd1
@@ -70,11 +69,11 @@
   </XsOnly>
   <LgOnly>
     <VSpace h="40px" mh="6.25rem"></VSpace>
-    <div class="btn-row page-container">
+    <!-- <div class="btn-row page-container">
       <div class="btn">
         {{ $t('home.AffiliateProgram.listBtn') }}
       </div>
-    </div>
+    </div> -->
   </LgOnly>
   <VSpace h="100px" mh="3.25rem"></VSpace>
   <div class="page-container">
