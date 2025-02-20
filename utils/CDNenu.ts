@@ -100,7 +100,7 @@ export default function ($t: any, path: string) {
     },
     {
       label: $t('products.cdn.breadCrumbs.apiDocs'),
-      href: '#',
+      href: '/docs/api',
       current: false
     }
   ]
