@@ -1,5 +1,4 @@
-import { readFileSync } from 'fs';
-import { resolve } from 'path';
+import rpclist from '../../rpc.json';
 
 interface Message {
   name: string;
@@ -39,9 +38,7 @@ interface RpcData {
 export default defineEventHandler(async event => {
   try {
     // 读取rpc.json文件
-    const rpcPath = resolve('./server/rpc.json');
-    const rpcContent = readFileSync(rpcPath, 'utf-8');
-    const rpcData = JSON.parse(rpcContent) as RpcData;
+    const rpcData = rpclist as RpcData;
 
     // 获取请求参数中的role
     const query = getQuery(event);
