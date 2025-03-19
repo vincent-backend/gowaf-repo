@@ -23,7 +23,7 @@
 
   <ProductsReduceError />
 
-  <CommonSuperCharge v-bind="i18ntext.safeHop" />
+  <CommonSuperCharge v-bind="i18ntext.safeHop.goFaster" />
 
   <NetworkJoin1
     v-bind="{
