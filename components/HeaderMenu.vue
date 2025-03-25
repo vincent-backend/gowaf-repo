@@ -49,195 +49,165 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
         {
           title: t('vQza8PI2dLkT-pw8XStiv'),
           icon: '/images/home/Solutions_nav_ic_need.png',
-          key: 'byNeed'
+          key: 'byNeed',
+          items: [
+            {
+              title: t('uBq4nhvqnT9bU0iYDRonw'),
+              icon: '/images/home/Solutions_nav_ic_video.png',
+              key: 'videoAndStreaming',
+              items: [
+                {
+                  title: t('home.superCharge.text2'),
+                  subTitle: t('phOTUSZQIOZRGvIxbjvFd'),
+                  href: '/Solutions/VideoDelivery'
+                },
+                {
+                  title: t('products.stream.breadCrumbs.mediaCage'),
+                  subTitle: t('vmmnc0_a4O5hLAszldDtC'),
+                  href: '/Products/Stream/MediaCage'
+                },
+                {
+                  title: t('Fp3x4jHcDc0l_hRLTPHhE'),
+                  subTitle: t('_XEg-P2n-k25_2Mp6k_04'),
+                  href: '/Products/Stream/MultiDRM'
+                },
+                {
+                  title: t('products.Stream.TranscribeAI.header.preTitle'),
+                  subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
+                  href: '/Products/Stream/TranscribeAl'
+                }
+              ]
+            },
+            {
+              title: t('Hgi82bl59NCKKC4ZTU41R'),
+              icon: '/images/home/Solutions_nav_ic_Storage.png',
+              key: 'storageAndDelivery',
+              items: [
+                {
+                  title: t('E6zQla74VM0bjbV2LHvJR'),
+                  subTitle: t('4zdb1OqkQiGrVzdqYf7Uq'),
+                  href: '/Solutions/StorageGame'
+                },
+                {
+                  title: t('solutions.storageSoftware.header.preTitle'),
+                  subTitle: t('jFcfWlXQeQtI6pPjS0yXS'),
+                  href: '/Solutions/StorageSoftware'
+                }
+              ]
+            },
+            {
+              title: t('LWBf-k4Lfu_Sy6FeMbbet'),
+              icon: '/images/home/Solutions_nav_ic_Website.png',
+              key: 'websitePerformance',
+              items: [
+                {
+                  title: t('solutions.websiteAcceleration.header.preTitle'),
+                  subTitle: t('R_0012db-U-csa-HLM2HF'),
+                  href: '/Solutions/WebsiteAcceleration'
+                },
+                {
+                  title: t('KhWElwN6SphgMZHxZ_F3U'),
+                  subTitle: t('LDK9urT1thv-G0kXwMwZZ'),
+                  href: '/Products/Cdn/PermaCache'
+                },
+                {
+                  title: t('products.optimizer.TransformAPI.header.preTitle'),
+                  subTitle: t('Gq9v0fAY2Sat5Cx5yqTYl'),
+                  href: '/Products/optimizer/TransformAPI'
+                },
+                {
+                  title: t('ePEhvR4jTK-D1hexokK1R'),
+                  subTitle: t('5HbGO-720R94SAgDJoKio'),
+                  href: '/Solutions/WebsiteWordpress'
+                }
+              ]
+            },
+            {
+              title: t('aYoP5UH-vLL9wACCz2Iim'),
+              icon: '/images/home/Solutions_nav_ic_Security.png',
+              key: 'securityAndProtection',
+              items: [
+                {
+                  title: t('E2GIwsnt9KqNp41nyR3we'),
+                  subTitle: t('sb2j1HH1vvhJCgHtQT2Ae'),
+                  href: '/Solutions/SecurityCdn'
+                },
+                {
+                  title: t('network.breadCrumbs.ddosProtection'),
+                  subTitle: t('B2Wf2gGLTIJp-8raiXieu'),
+                  href: '/Network/Ddos'
+                }
+              ]
+            }
+          ]
         },
         {
           title: t('F4LoWXNjG-f_XXq5aV2ca'),
           icon: '/images/home/Solutions_nav_ic_Industry.png',
-          key: 'byIndustry'
-        }
-      ]
-    },
-    byNeed: {
-      title: t('rAA781Hhq1icdC0eU55pv'),
-      key: 'byNeed',
-      items: [
-        {
-          title: t('uBq4nhvqnT9bU0iYDRonw'),
-          icon: '/images/home/Solutions_nav_ic_video.png',
-          key: 'videoAndStreaming'
-        },
-        {
-          title: t('Hgi82bl59NCKKC4ZTU41R'),
-          icon: '/images/home/Solutions_nav_ic_Storage.png',
-          key: 'storageAndDelivery'
-        },
-        {
-          title: t('LWBf-k4Lfu_Sy6FeMbbet'),
-          icon: '/images/home/Solutions_nav_ic_Website.png',
-          key: 'websitePerformance'
-        },
-        {
-          title: t('aYoP5UH-vLL9wACCz2Iim'),
-          icon: '/images/home/Solutions_nav_ic_Security.png',
-          key: 'securityAndProtection'
-        }
-      ]
-    },
-    byIndustry: {
-      title: t('kYrpd0RZOvL91Zr0z4BHA'),
-      key: 'byIndustry',
-      items: [
-        {
-          title: t('resources.breadCrumbs.Streaming'),
-          icon: '/images/home/Solutions_nav_ic_video.png',
-          key: 'Streaming'
-        },
-        {
-          title: t('1lJVE5HeTjURTciDYGuK3'),
-          icon: '/images/home/Solutions_nav_ic_Storage.png',
-          key: 'Ecommerce'
-        },
-        {
-          title: 'Gaming',
-          icon: '/images/home/Solutions_nav_ic_Website.png',
-          key: 'Gaming'
-        }
-      ]
-    },
-    videoAndStreaming: {
-      title: t('ynTEckGbfgsU_lodhHb5s'),
-      key: 'videoAndStreaming',
-      items: [
-        {
-          title: t('home.superCharge.text2'),
-          subTitle: t('phOTUSZQIOZRGvIxbjvFd'),
-          href: '/Solutions/VideoDelivery'
-        },
-        {
-          title: t('products.stream.breadCrumbs.mediaCage'),
-          subTitle: t('vmmnc0_a4O5hLAszldDtC'),
-          href: '/Products/Stream/MediaCage'
-        },
-        {
-          title: t('Fp3x4jHcDc0l_hRLTPHhE'),
-          subTitle: t('_XEg-P2n-k25_2Mp6k_04'),
-          href: '/Products/Stream/MultiDRM'
-        },
-        {
-          title: t('products.Stream.TranscribeAI.header.preTitle'),
-          subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
-          href: '/Products/Stream/TranscribeAl'
-        }
-      ]
-    },
-    storageAndDelivery: {
-      title: t('cQjvtd8drC9cHTRiD2PSq'),
-      items: [
-        {
-          title: t('E6zQla74VM0bjbV2LHvJR'),
-          subTitle: t('4zdb1OqkQiGrVzdqYf7Uq'),
-          href: '/Solutions/StorageGame'
-        },
-        {
-          title: t('solutions.storageSoftware.header.preTitle'),
-          subTitle: t('jFcfWlXQeQtI6pPjS0yXS'),
-          href: '/Solutions/StorageSoftware'
-        }
-      ]
-    },
-    websitePerformance: {
-      title: t('unUfNXygufUxTKSLtfWIn'),
-      items: [
-        {
-          title: t('solutions.websiteAcceleration.header.preTitle'),
-          subTitle: t('R_0012db-U-csa-HLM2HF'),
-          href: '/Solutions/WebsiteAcceleration'
-        },
-        {
-          title: t('KhWElwN6SphgMZHxZ_F3U'),
-          subTitle: t('LDK9urT1thv-G0kXwMwZZ'),
-          href: '/Products/Cdn/PermaCache'
-        },
-        {
-          title: t('products.optimizer.TransformAPI.header.preTitle'),
-          subTitle: t('Gq9v0fAY2Sat5Cx5yqTYl'),
-          href: '/Products/optimizer/TransformAPI'
-        },
-        {
-          title: t('ePEhvR4jTK-D1hexokK1R'),
-          subTitle: t('5HbGO-720R94SAgDJoKio'),
-          href: '/Solutions/WebsiteWordpress'
-        }
-      ]
-    },
-    securityAndProtection: {
-      title: t('97LUlEOLrLkAgiWGGaW3Z'),
-      items: [
-        {
-          title: t('E2GIwsnt9KqNp41nyR3we'),
-          subTitle: t('sb2j1HH1vvhJCgHtQT2Ae'),
-          href: '/Solutions/SecurityCdn'
-        },
-        {
-          title: t('network.breadCrumbs.ddosProtection'),
-          subTitle: t('B2Wf2gGLTIJp-8raiXieu'),
-          href: '/Network/Ddos'
-        }
-      ]
-    },
-    Streaming: {
-      title: 'STREAMING',
-      items: [
-        {
-          title: t('home.superCharge.text2'),
-          subTitle: t('Pn1Ck3MEQwT-g61zVOtp6'),
-          href: '/Solutions/VideoDelivery'
-        },
-        {
-          title: t('products.Stream.TranscribeAI.header.preTitle'),
-          subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
-          href: '/Products/Stream/TranscribeAl'
-        }
-      ]
-    },
-    Ecommerce: {
-      title: 'ECOMMERCE',
-      items: [
-        {
-          title: t('solutions.websiteAcceleration.header.preTitle'),
-          subTitle: t('Qn7K6FrW0nTvnQGy1xHSY'),
-          href: '/Solutions/WebsiteAcceleration'
-        },
-        {
-          title: t('AK1pQc4KfyFxect6tcZqx'),
-          subTitle: t('l42NSMQ4n5tEY-ccYisZC'),
-          href: '/Products/optimizer/TransformAPI'
-        },
-        {
-          title: t('solutions.securityCdn.header.preTitle'),
-          subTitle: t('x0Z2-ogDmOyMsKLPlm0O0'),
-          href: '/Solutions/WebsiteWordpress'
-        },
-        {
-          title: t('D5vgCmCvXQ0jLJIIZIZ08'),
-          subTitle: t('zgbdYFDnlOmzo9cexKai6'),
-          href: '/Solutions/SecurityCdn'
-        }
-      ]
-    },
-    Gaming: {
-      title: 'GAMING',
-      items: [
-        {
-          title: t('solutions.storageGame.header.preTitle'),
-          subTitle: t('ODjJHLiW9O4S3pTbdTegM'),
-          href: '/Solutions/StorageGame'
-        },
-        {
-          title: t('solutions.storageSoftware.header.preTitle'),
-          subTitle: t('al2HMDjHTjtRcfg0mNoZG'),
-          href: '/Solutions/StorageSoftware'
+          key: 'byIndustry',
+          items: [
+            {
+              title: t('resources.breadCrumbs.Streaming'),
+              icon: '/images/home/Solutions_nav_ic_video.png',
+              key: 'Streaming',
+              items: [
+                {
+                  title: t('home.superCharge.text2'),
+                  subTitle: t('Pn1Ck3MEQwT-g61zVOtp6'),
+                  href: '/Solutions/VideoDelivery'
+                },
+                {
+                  title: t('products.Stream.TranscribeAI.header.preTitle'),
+                  subTitle: t('wqXBSJgi4VPuxjkT9JLmw'),
+                  href: '/Products/Stream/TranscribeAl'
+                }
+              ]
+            },
+            {
+              title: t('1lJVE5HeTjURTciDYGuK3'),
+              icon: '/images/home/Solutions_nav_ic_Storage.png',
+              key: 'Ecommerce',
+              items: [
+                {
+                  title: t('solutions.websiteAcceleration.header.preTitle'),
+                  subTitle: t('Qn7K6FrW0nTvnQGy1xHSY'),
+                  href: '/Solutions/WebsiteAcceleration'
+                },
+                {
+                  title: t('AK1pQc4KfyFxect6tcZqx'),
+                  subTitle: t('l42NSMQ4n5tEY-ccYisZC'),
+                  href: '/Products/optimizer/TransformAPI'
+                },
+                {
+                  title: t('solutions.securityCdn.header.preTitle'),
+                  subTitle: t('x0Z2-ogDmOyMsKLPlm0O0'),
+                  href: '/Solutions/WebsiteWordpress'
+                },
+                {
+                  title: t('D5vgCmCvXQ0jLJIIZIZ08'),
+                  subTitle: t('zgbdYFDnlOmzo9cexKai6'),
+                  href: '/Solutions/SecurityCdn'
+                }
+              ]
+            },
+            {
+              title: 'Gaming',
+              icon: '/images/home/Solutions_nav_ic_Website.png',
+              key: 'Gaming',
+              items: [
+                {
+                  title: t('solutions.storageGame.header.preTitle'),
+                  subTitle: t('ODjJHLiW9O4S3pTbdTegM'),
+                  href: '/Solutions/StorageGame'
+                },
+                {
+                  title: t('solutions.storageSoftware.header.preTitle'),
+                  subTitle: t('al2HMDjHTjtRcfg0mNoZG'),
+                  href: '/Solutions/StorageSoftware'
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -275,7 +245,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
       :offset="20"
       virtual-triggering
     >
-      <div class="menu-expanded">
+      <div class="menu-products">
         <div
           v-for="(items, index) in ProductsMenu($t, $route.path)"
           :key="index"
@@ -321,66 +291,39 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
       width="auto"
       virtual-triggering
     >
-      <div class="sub-menu solutions-sub-menu">
-        <div class="content">
-          <template
-            v-for="(item, index) in [
-              i18ntext.solutions,
-              secondLevel,
-              threeLevel
-            ]"
-          >
-            <div class="separator" v-if="index % 2 != 0"></div>
-            <div class="column" :class="['column-' + index]">
-              <div class="title">
-                {{ item.title }}
+      <div class="menu-solutions">
+        <div
+          v-for="(firstLevelItem, index) in i18ntext.solutions.items"
+          class="menu-solutions-items"
+          :key="index"
+        >
+          <div class="items-title">
+            {{firstLevelItem.title}}
+          </div>
+          <div class="h-separator"/>
+          <div class="items-group">
+            <div
+              v-for="(secondLevelItem, index) in firstLevelItem.items"
+              :key="index"
+              class="items-sub-group"
+            >
+              <div class="sub-group-header">
+                <img :src="secondLevelItem.icon"/>
+                <div>
+                  {{ secondLevelItem.title }}
+                </div>
               </div>
-              <div class="list">
-                <template v-for="(item2, index2) in item.items">
-                  <NuxtLinkLocale
-                    class="item-with-icon"
-                    :class="{
-                      atvBtn:
-                        item2.key === secondIndex ||
-                        item2.key === threeLevelIndex
-                    }"
-                    v-if="item2.icon"
-                    @mouseover="changeNext(index, item2.key, index2)"
-                  >
-                    <div
-                      class="icon"
-                      :style="{ backgroundImage: `url(${item2.icon})` }"
-                    ></div>
-                    <div class="title">
-                      {{ item2.title }}
-                    </div>
-                    <div class="arrow-icon"></div>
-                  </NuxtLinkLocale>
-                  <NuxtLinkLocale
-                    class="item-without-icon"
-                    :to="item2.href"
-                    :class="{
-                      atvBtn: index2 === lastatv
-                    }"
-                    v-else
-                    @mouseover="changeNext(index, item2.key, index2)"
-                  >
-                    <div class="title">
-                      {{ item2.title }}
-                    </div>
-                    <div class="sub-title">
-                      {{ item2.subTitle }}
-                    </div>
-                  </NuxtLinkLocale>
-                </template>
+              <div class="sub-group-content">
+                <div
+                  v-for="(thirdLevelItem, index) in secondLevelItem.items"
+                  :key="index"
+                  class="item"
+                >
+                  {{ thirdLevelItem.title }}
+                </div>
               </div>
             </div>
-            <div class="separator" v-if="index % 2 != 0"></div>
-          </template>
-        </div>
-        <div class="footer">
-          <div class="left"></div>
-          <div class="right"></div>
+          </div>
         </div>
       </div>
     </el-popover>
@@ -458,135 +401,6 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
     }
   }
 }
-.sub-menu {
-  width: fit-content;
-  // display: none;
-  // position: absolute;
-  // left: 0;
-  // top: 40px;
-
-  &.solutions-sub-menu {
-    left: -160px;
-    background: #ffffff;
-    border-radius: 8px;
-    border: 1px solid #e6e6e6;
-
-    padding: 20px 16px 10px;
-
-    > .content {
-      display: flex;
-
-      > .column {
-        &.column-0 {
-          min-width: 144px;
-        }
-
-        &.column-2 {
-          min-width: 212px;
-        }
-
-        &.column-4 {
-          min-width: 192px;
-        }
-
-        > .title {
-          font-weight: 600;
-
-          line-height: 16px;
-
-          text-transform: uppercase;
-        }
-
-        > .list {
-          margin-top: 16px;
-          display: flex;
-          flex-direction: column;
-          gap: 6px;
-
-          .item-with-icon {
-            border-radius: 4px;
-
-            display: flex;
-            align-items: center;
-            padding: 4px 6px 4px 10px;
-
-            .icon {
-              width: 24px;
-              height: 24px;
-            }
-
-            .title {
-              margin-left: 6px;
-              flex: 1;
-
-              font-size: 12px;
-
-              line-height: 16px;
-            }
-
-            .arrow-icon {
-              width: 14px;
-              height: 14px;
-              background: url(/images/home/nav_ic_arrow_right_nor.png);
-            }
-
-            &:hover,
-            &.atvBtn {
-              background: rgba(70, 207, 58, 0.06);
-
-              .title {
-                font-weight: 500;
-                color: #46cf3a;
-              }
-
-              .arrow-icon {
-                background: url(/images/home/nav_ic_arrow_right_sel.png);
-              }
-            }
-          }
-
-          .item-without-icon {
-            border-radius: 4px;
-            padding: 10px;
-            cursor: pointer;
-
-            .title {
-              font-size: 12px;
-              color: #2c1717;
-              line-height: 18px;
-            }
-
-            .sub-title {
-              font-size: 10px;
-              color: #4e4e4e;
-              line-height: 14px;
-            }
-
-            &:hover,
-            &.atvBtn {
-              background: rgba(70, 207, 58, 0.06);
-
-              .title {
-                font-weight: 500;
-                color: #46cf3a;
-              }
-            }
-          }
-        }
-      }
-
-      > .separator {
-        width: 1px;
-        background: #e6e6e6;
-        margin: 0 16px;
-      }
-    }
-
-    > .footer {
-      margin-top: 17px;
-    }
-  }
-}
 .menu-level-1 {
   width: fit-content;
   display: flex;
@@ -659,7 +473,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
     }
   }
 }
-.menu-expanded {
+.menu-products {
   min-width: 582px;
   display: flex;
   flex-direction: column;
@@ -695,9 +509,73 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
         &:hover {
           background: rgba(70, 207, 58, 0.06);
           color: #46cf3a;
+          border-radius: 4px;
           font-weight: 500;
         }
       }
+    }
+  }
+}
+.menu-solutions {
+  display: flex;
+  flex-direction: column;
+  min-width: 908px;
+  padding: 36px;
+  gap: 36px;
+  .menu-solutions-items {
+    width: 100%;
+    .items-title {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 500;
+      font-size: 14px;
+      color: #000000;
+      line-height: 16px;
+      text-align: left;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+    .items-group {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      .items-sub-group {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        .sub-group-header {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin: 0px 12px 11px 12px;
+          gap: 12px;
+        }
+        .sub-group-content {
+          display: flex;
+          flex-direction: column;
+          .item {
+            padding: 7px 12px;
+            font-weight: 400;
+            font-size: 12px;
+            color: #000000;
+            line-height: 16px;
+            text-align: left;
+            font-style: normal;
+            &:hover {
+              background: rgba(70, 207, 58, 0.06);
+              color: #46cf3a;
+              font-weight: 500;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .h-separator {
+      height: 1px;
+      background: #E6E6E6;
+      margin-top: 16px;
+      margin-bottom: 16px;
     }
   }
 }
