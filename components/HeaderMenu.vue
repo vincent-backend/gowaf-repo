@@ -314,13 +314,14 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
                 </div>
               </div>
               <div class="sub-group-content">
-                <div
+                <NuxtLinkLocale
                   v-for="(thirdLevelItem, index) in secondLevelItem.items"
                   :key="index"
+                  :to="thirdLevelItem.href"
                   class="item"
                 >
                   {{ thirdLevelItem.title }}
-                </div>
+                </NuxtLinkLocale>
               </div>
             </div>
           </div>
