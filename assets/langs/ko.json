@@ -2376,6 +2376,11 @@
           "title": "비디오 경험을 향상시키세요"
         }
       }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "글꼴"
+      }
     }
   },
   "ptblEMXHNun22eJxjWeX4": "언어를 조정하세요",

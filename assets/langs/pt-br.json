@@ -2376,6 +2376,11 @@
           "title": "Eleve sua experiência de vídeo"
         }
       }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "Fontes"
+      }
     }
   },
   "ptblEMXHNun22eJxjWeX4": "Ajuste seu idioma",

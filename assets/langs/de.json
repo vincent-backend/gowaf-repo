@@ -1862,7 +1862,8 @@
         "permaCache": "Perma-Cache",
         "regions": "Regionen",
         "safehop": "Safehop",
-        "vsakamai": "Akamai"
+        "vsakamai": "Akamai",
+        "font": ""
       },
       "comparison": {
         "ad2": {
@@ -2375,6 +2376,11 @@
           "subTitle": "Bieten Sie das beste Videoerlebnis mit einem Videoplayer der nächsten Generation voller leistungsstarker Funktionen.",
           "title": "Steigern Sie Ihr Videoerlebnis"
         }
+      }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "Schriftarten"
       }
     }
   },

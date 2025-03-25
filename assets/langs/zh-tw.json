@@ -2500,6 +2500,11 @@
           "title": "提升您的視訊體驗"
         }
       }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "字體"
+      }
     }
   },
   "ptblEMXHNun22eJxjWeX4": "調整你的語言",

@@ -2376,6 +2376,11 @@
           "title": "Podnieś jakość swoich wrażeń wideo"
         }
       }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "Czcionki"
+      }
     }
   },
   "ptblEMXHNun22eJxjWeX4": "Dostosuj swój język",

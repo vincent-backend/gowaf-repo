@@ -2500,6 +2500,11 @@
           "title": "提升您的视频体验"
         }
       }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "字体"
+      }
     }
   },
   "ptblEMXHNun22eJxjWeX4": "调整你的语言",

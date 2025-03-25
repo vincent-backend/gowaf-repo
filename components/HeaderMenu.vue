@@ -275,29 +275,33 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
       :offset="20"
       virtual-triggering
     >
-      <div class="menu-level-1">
-        <div class="ul-menu">
-          <div class="submenu-title">{{ $t('header.menus.products') }}</div>
+      <div class="menu-expanded">
+        <div
+          v-for="(items, index) in ProductsMenu($t, $route.path)"
+          :key="index"
+          class="items-row"
+        >
           <NuxtLinkLocale
-            class="item-level-1"
-            v-for="(item, index) in ProductsMenu($t, $route.path)"
+            class="items-group"
+            v-for="(item, index) in items"
             :key="index"
-            @mouseover="mouseover('Product', item)"
-            :class="{ 'is-active': item.label == Product.label }"
           >
-            {{ item.label }}
-            <div class="arrow-icon"></div>
-          </NuxtLinkLocale>
-        </div>
-        <div class="current-menu">
-          <div class="submenu-title">{{ Product.label }}</div>
-          <NuxtLinkLocale
-            v-for="(p, index) in Product.children"
-            :key="index"
-            :to="p.href"
-            class="item-level-1"
-          >
-            {{ p.label }}
+            <div class="items-group-header">
+              <img :src="item.icon"/>
+              <div>
+                {{ item.label }}
+              </div>
+            </div>
+            <NuxtLinkLocale
+              v-for="(p, index) in item.children"
+              :key="index"
+              :to="p.href"
+              @mouseover="mouseover('Product', item)"
+              class="items-group-content"
+              :class="{ 'is-active': item.label == Product.label }"
+            >
+              {{ p.label }}
+            </NuxtLinkLocale>
           </NuxtLinkLocale>
         </div>
       </div>
@@ -650,6 +654,48 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
 
         .arrow-icon {
           background: url(/images/home/nav_ic_arrow_right_sel.png);
+        }
+      }
+    }
+  }
+}
+.menu-expanded {
+  min-width: 582px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  padding: 36px;
+  gap: 36px;
+  .items-row {
+    display: flex;
+    flex-direction: row;
+    gap:36px;
+    width: 100%;
+    .items-group-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0px 12px 11px 12px;
+    }
+    .items-group {
+      width: 33.33%;
+      margin-bottom: 17px;
+      .items-group-content {
+        display: flex;
+        flex-direction: row;
+        padding: 7px 12px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+        line-height: 16px;
+        text-align: left;
+        font-style: normal;
+        &:hover {
+          background: rgba(70, 207, 58, 0.06);
+          color: #46cf3a;
+          font-weight: 500;
         }
       }
     }

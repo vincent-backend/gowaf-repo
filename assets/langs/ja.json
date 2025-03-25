@@ -2376,6 +2376,11 @@
           "title": "ビデオ体験を向上させる"
         }
       }
+    },
+    "fonts": {
+      "breadCrumbs": {
+        "parent": "フォント"
+      }
     }
   },
   "ptblEMXHNun22eJxjWeX4": "言語を調整する",
