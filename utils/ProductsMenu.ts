@@ -1,8 +1,8 @@
 import { matchBreadCrumbs } from './utils'
 
-export default function ($t: any, path: string) {
+export default function ($t: any, path: string, mode: 'web'|'mobile') {
 
-  var items = [
+  var items : any = [
     [
       {
         label: $t('products.cdn.breadCrumbs.parent'),
@@ -144,10 +144,15 @@ export default function ($t: any, path: string) {
     ]
   ]
 
-  items = items.map((subItems: any) => {
-    matchBreadCrumbs(subItems, path)
-    return subItems;
-  });
+  if (mode === 'mobile') {
+    items = [...items[0], ...items[1]];
+  } else if (mode === 'web') {
+    items = items.map((subItems: any) => {
+      matchBreadCrumbs(subItems, path)
+      return subItems;
+    });
+  }
+
 
   return items
 };

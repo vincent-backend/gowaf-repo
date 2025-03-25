@@ -247,7 +247,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
     >
       <div class="menu-products">
         <div
-          v-for="(items, index) in ProductsMenu($t, $route.path)"
+          v-for="(items, index) in ProductsMenu($t, $route.path, 'web')"
           :key="index"
           class="items-row"
         >

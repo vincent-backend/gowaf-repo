@@ -38,7 +38,7 @@
               text-color="#000"
             >
               <MenuItem
-                v-for="item in ProductsMenu($t, $route.path)"
+                v-for="item in ProductsMenu($t, $route.path, 'mobile')"
                 :item="item"
                 :key="item.label"
               />
