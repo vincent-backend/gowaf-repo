@@ -355,7 +355,6 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
             :to="item.href"
           >
             {{ item.label }}
-            <div class="arrow-icon"></div>
           </NuxtLinkLocale>
         </div>
       </div>

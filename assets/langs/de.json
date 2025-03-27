@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Nutzen Sie eine ultraschnelle DNS-Plattform, die für Anwendungen der nächsten Generation entwickelt wurde. \nDurch die Verwendung skriptfähiger Datensätze hilft Ihnen Gowaf DNS dabei, die wahre Leistungsfähigkeit von DNS auszuschöpfen und komplexe Probleme in einfache Lösungen umzuwandeln.",
           "preTitle": "Gowaf DNS",
           "title": "Schalte die wahre Kraft frei"
@@ -1915,7 +1915,7 @@
           "title": "Verbinden Sie sich direkt mit einem Super Gowaf. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Nutzen Sie ein blitzschnelles globales Content-Delivery-Netzwerk und optimieren Sie Ihre Webpräsenz. Bieten Sie jedem ein einheitliches Erlebnis, egal wo er sich befindet!",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "Gowaf CDN",
@@ -1953,7 +1953,7 @@
           "title": "Reduzieren Sie den Ursprungsverkehr. \nReduzieren Sie die monatlichen Rechnungen."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Speichern Sie Ihre Dateien dauerhaft am Edge mit Gowaf Storage für eine Cache-HIT-Rate von 100 %. \nGewährleisten Sie jederzeit eine hervorragende Leistung bei jeder Anfrage und vermeiden Sie hohe Kosten für den Ursprungsverkehr.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Perma-Cache",
@@ -2016,7 +2016,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Gowaf.com hilft Ihnen, weltweit ein einheitliches Erlebnis zu bieten. \nMit lokaler Konnektivität in mehreren Ländern Afrikas und des Nahen Ostens helfen wir Ihren Kunden, schneller auf Ihre Inhalte zuzugreifen, unabhängig davon, ob sie aus Kenia oder Kapstadt kommen.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Afrika",
@@ -2042,7 +2042,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Erreichen Sie Benutzer mit direkter lokaler Konnektivität in ganz Asien. \nGowaf.com ist in allen wichtigen Zentren positioniert, um durch strategische lokale Partnerschaften eine beispiellose Leistung in der Region, einschließlich der Schwellenländer, zu liefern.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Asien",
@@ -2068,7 +2068,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Erreichen Sie Benutzer in Millisekunden in ganz Ozeanien über ein lokal aufgebautes und optimiertes Anycast-Netzwerk. Gowaf.com ist in sechs wichtigen Großstädten in Australien und Neuseeland vertreten und hilft Ihnen dabei, außergewöhnliche Leistung für jede Anfrage zu liefern.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Australien",
@@ -2098,7 +2098,7 @@
           "title": "Reden wir über Zahlen"
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Vergessen Sie langsame Objektspeicherung und begeistern Sie Ihre Kunden mit beispielloser Leistung.  \nReplizieren Sie Ihre Dateien automatisch weltweit, um Ihre Latenz zu minimieren und den Durchsatz für Ihre Dateien zu maximieren. \nFür jeden Wunsch. \nÜberall.",
           "preTitle": "Gowaf-Speicher",
           "title": "Der schnellste Objektspeicher, der an den Rand repliziert wird"
@@ -2110,7 +2110,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Steigen Sie ein",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Europa",
@@ -2147,7 +2147,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Bieten Sie maximale Leistung in ganz Süd- und Lateinamerika mit dem schnellsten Netzwerk in der Region. Stellen Sie eine direkte Verbindung zu den meisten großen ISPs her und bringen Sie Ihre Inhalte in ganz LATAM nur einen Katzensprung von Ihren Besuchern entfernt.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN LATAM",
@@ -2178,7 +2178,7 @@
           "title": "Außergewöhnliche Leistung. \nFür jeden Wunsch. \nJedes Mal."
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Erbringen Sie tadellose Leistungen für die größte Volkswirtschaft der Welt. \nMit 22 PoPs, die strategisch über große Städte in den USA verteilt sind, und direkten Verbindungen zu großen ISPs wie Comcast können Sie die meisten Internetnutzer in weniger als 27 ms erreichen.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN Nordamerika",
@@ -2236,7 +2236,7 @@
           "title": "Einfach, leicht"
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Schützen Sie Ihre Videoinhalte vor Piraterie. \nStoppen Sie Downloads und verhindern Sie Hotlinks. \nÜbernehmen Sie mit einem einzigen Klick die Kontrolle über Ihre Inhalte mit leistungsstarker Verschlüsselung.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "Medienkäfig",
@@ -2336,7 +2336,7 @@
           "title": "Schnelleres Hochladen über eine fortsetzbare API"
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Lösen Sie den Aufwand der Videobereitstellung, indem Sie Transkodierung, Speicherung, Sicherheit und Videoplayer in einem leistungsstarken, aber unkomplizierten Paket packen. \nÜberall streamen. \nOhne Pufferung!",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "Gowaf-Stream",
@@ -2362,7 +2362,7 @@
           "title": "Schützen Sie Videos vor Diebstahl"
         },
         "header": {
-          "btn": "Starten Sie die Für immer kostenlos zu verwenden",
+          "btn": "Starten Sie eine 14-tägige kostenlose Testversion",
           "content": "Bieten Sie ein einwandfreies Videoerlebnis mit einem vollständig anpassbaren Videoplayer. \nVollgepackt mit leistungsstarken Funktionen, hervorragenden Lösungen und einfacher Implementierung.",
           "hint": "Keine Kreditkarte erforderlich. \nStarten Sie in Sekundenschnelle.",
           "preTitle": "CDN-Player",

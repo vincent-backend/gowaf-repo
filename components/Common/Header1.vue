@@ -221,6 +221,9 @@ withDefaults(
       }
       .trail-btn {
         margin-top: 40px;
+        background: linear-gradient(132deg, #46cf3a 0%, #36cfbc 100%);
+        color: white;
+        border: none;
       }
 
       .hint {

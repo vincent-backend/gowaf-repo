@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Skorzystaj z ultraszybkiej platformy DNS zaprojektowanej z myślą o obsłudze aplikacji nowej generacji. \nWykorzystując rekordy skryptowalne, Gowaf DNS pomaga odblokować prawdziwą moc DNS i przekształcić złożone problemy w proste rozwiązania.",
           "preTitle": "Gowaf DNS",
           "title": "Odblokuj prawdziwą moc"
@@ -1914,7 +1914,7 @@
           "title": "Połącz się bezpośrednio z Super Gowafem. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Skorzystaj z błyskawicznej, globalnej sieci dostarczania treści i wzmocnij swoją obecność w Internecie. Zapewnij każdemu spójne doświadczenie, niezależnie od tego, gdzie się znajduje!",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Gowaf CDN",
@@ -1952,7 +1952,7 @@
           "title": "Zmniejsz ruch pochodzenia. \nZmniejsz miesięczne rachunki."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Trwale przechowuj swoje pliki na urządzeniu brzegowym dzięki Gowaf Storage, aby uzyskać 100% współczynnik HIT pamięci podręcznej. \nGwarantuj doskonałą wydajność przy każdym żądaniu i za każdym razem i unikaj wysokich rachunków za ruch początkowy.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Stała pamięć podręczna CDN",
@@ -2015,7 +2015,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Gowaf.com pomaga zapewnić spójne doświadczenia na całym świecie. \nDzięki lokalnej łączności w wielu krajach Afryki i Bliskiego Wschodu pomagamy Twoim klientom szybciej uzyskać dostęp do Twoich treści, niezależnie od tego, czy pochodzą z Kenii, czy z Kapsztadu.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Afryka",
@@ -2041,7 +2041,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Docieraj do użytkowników dzięki bezpośredniej łączności lokalnej w całej Azji. \nGowaf.com jest umiejscowiony we wszystkich kluczowych ośrodkach, aby zapewnić niezrównaną wydajność w regionie, w tym na rynkach wschodzących, dzięki strategicznym partnerstwom lokalnym.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Azja",
@@ -2067,7 +2067,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Docieraj do użytkowników w całej Oceanii w ciągu milisekund za pośrednictwem lokalnie zbudowanej i zoptymalizowanej sieci anycast. Gowaf.com, zlokalizowany w 6 kluczowych dużych miastach Australii i Nowej Zelandii, pomaga zapewnić wyjątkową wydajność dla każdego żądania.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Australia",
@@ -2097,7 +2097,7 @@
           "title": "Porozmawiajmy o liczbach"
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Zapomnij o wolnej pamięci obiektowej i zachwyć swoich klientów niezrównaną wydajnością.  \nAutomatycznie replikuj swoje pliki na całym świecie, aby zminimalizować opóźnienia i zmaksymalizować przepustowość plików. \nNa każdą prośbę. \nWszędzie.",
           "preTitle": "Gowaf Storage",
           "title": "Najszybsza pamięć obiektowa replikowana na brzeg"
@@ -2109,7 +2109,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Wskocz na",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Europa",
@@ -2146,7 +2146,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Zapewnij maksymalną wydajność w całej Ameryce Południowej i Łacińskiej dzięki najszybszej sieci w regionie. Połącz się bezpośrednio z większością głównych dostawców usług internetowych i udostępniaj treści w zasięgu ręki odwiedzającym w całym regionie LATAM.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN LATAM",
@@ -2177,7 +2177,7 @@
           "title": "Wyjątkowe przedstawienie. \nNa każdą prośbę. \nZa każdym razem."
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Zapewnij nienaganną wydajność największej gospodarce na świecie. \nDzięki 22 punktom PoP strategicznie rozmieszczonym w głównych miastach USA i bezpośrednim połączeniom z głównymi dostawcami usług internetowych, takimi jak Comcast, możesz dotrzeć do większości użytkowników Internetu w czasie krótszym niż 27 ms.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Ameryka Północna",
@@ -2235,7 +2235,7 @@
           "title": "Proste, łatwe"
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Chroń swoje treści wideo przed piractwem. \nZatrzymaj pobieranie i zapobiegnij hotlinkom. \nPrzejmij kontrolę nad swoimi treściami dzięki potężnemu szyfrowaniu za pomocą jednego kliknięcia przycisku.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Klatka medialna",
@@ -2335,7 +2335,7 @@
           "title": "Przesyłaj szybciej dzięki wznawianemu interfejsowi API"
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Rozwiąż problemy związane z dostarczaniem wideo, łącząc transkodowanie, przechowywanie, bezpieczeństwo i odtwarzacz wideo w potężny, ale prosty pakiet. \nPrzesyłaj strumieniowo w dowolnym miejscu. \nBez buforowania!",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Gowaf Stream",
@@ -2361,7 +2361,7 @@
           "title": "Chroń filmy przed kradzieżą"
         },
         "header": {
-          "btn": "Trwałe darmowe użycie",
+          "btn": "Rozpocznij 14-dniowy bezpłatny proces",
           "content": "Zapewnij doskonałe wrażenia wideo dzięki w pełni konfigurowalnemu odtwarzaczowi wideo. \nWyposażony w zaawansowane funkcje, doskonałe rozwiązania i prostą implementację.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "Odtwarzacz CDN",

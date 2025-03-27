@@ -1801,7 +1801,7 @@
       },
       "multiDRM": {
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Montez sur une plate-forme DNS ultra-rapide conçue pour alimenter la nouvelle génération d'applications. \nEn utilisant des enregistrements scriptables, Gowaf DNS vous aide à libérer la véritable puissance du DNS et à transformer des problèmes complexes en solutions simples.",
           "preTitle": "Gowaf DNS",
           "title": "Libérez le vrai pouvoir"
@@ -1914,7 +1914,7 @@
           "title": "Connectez-vous directement avec un Super Gowaf. \nA chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Accédez à un réseau mondial de diffusion de contenu ultra-rapide et dynamisez votre présence sur le Web. Offrez une expérience cohérente à chacun, peu importe où il se trouve !",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "Gowaf CDN",
@@ -1952,7 +1952,7 @@
           "title": "Réduisez le trafic d’origine. \nRéduisez vos factures mensuelles."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Stockez en permanence vos fichiers en périphérie avec Gowaf Storage pour un taux de Cache HIT de 100 %. \nGarantissez d’excellentes performances pour chaque demande, à chaque fois, et évitez de lourdes factures de trafic d’origine.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "Cache permanent CDN",
@@ -2015,7 +2015,7 @@
           "title": "Performance exceptionnelle. \nPour chaque demande. \nÀ chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Gowaf.com vous aide à offrir une expérience cohérente dans le monde entier. \nGrâce à une connectivité locale dans plusieurs pays d'Afrique et du Moyen-Orient, nous aidons vos clients à accéder plus rapidement à votre contenu, qu'ils soient du Kenya ou du Cap.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "CDN Afrique",
@@ -2041,7 +2041,7 @@
           "title": "Performance exceptionnelle. \nPour chaque demande. \nÀ chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Atteignez les utilisateurs avec une connectivité locale directe dans toute l’Asie. \nGowaf.com est positionné dans tous les centres clés pour offrir des performances inégalées dans la région, y compris sur les marchés émergents grâce à des partenariats locaux stratégiques.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "CDN Asie",
@@ -2067,7 +2067,7 @@
           "title": "Performance exceptionnelle. \nPour chaque demande. \nÀ chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Atteignez les utilisateurs en quelques millisecondes dans toute l'Océanie grâce à un réseau anycast construit et optimisé localement. Positionné dans 6 grandes villes clés d'Australie et de Nouvelle-Zélande, Gowaf.com vous aide à offrir des performances exceptionnelles pour chaque demande.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "CDN Australie",
@@ -2097,7 +2097,7 @@
           "title": "Parlons chiffres"
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Oubliez le stockage objet lent et épatez vos clients avec des performances inégalées.  \nRépliquez automatiquement vos fichiers dans le monde entier pour minimiser votre latence et maximiser le débit de vos fichiers. \nPour chaque demande. \nPartout.",
           "preTitle": "Gowaf Storage",
           "title": "Le stockage d'objets le plus rapide répliqué vers la périphérie"
@@ -2109,7 +2109,7 @@
           "title": "Performance exceptionnelle. \nPour chaque demande. \nÀ chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Montez à bord du",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "CDN Europe",
@@ -2146,7 +2146,7 @@
           "title": "Performance exceptionnelle. \nPour chaque demande. \nÀ chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Offrez des performances maximales dans toute l'Amérique du Sud et l'Amérique latine avec le réseau le plus rapide de la région. Connectez-vous directement à la plupart des principaux FAI et apportez votre contenu à quelques pas de vos visiteurs dans toute l'Amérique latine.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "CDN LATAM",
@@ -2177,7 +2177,7 @@
           "title": "Performance exceptionnelle. \nPour chaque demande. \nÀ chaque fois."
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Offrez des performances impeccables à la plus grande économie du monde. \nAvec 22 PoP stratégiquement placés dans les principales villes des États-Unis et des connexions directes aux principaux FAI tels que Comcast, vous pouvez atteindre la plupart des internautes en moins de 27 ms.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "CDN Amérique du Nord",
@@ -2235,7 +2235,7 @@
           "title": "Simple, facile"
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Protégez votre contenu vidéo du piratage. \nArrêtez les téléchargements et empêchez les hotlinks. \nPrenez le contrôle de votre contenu grâce à un cryptage puissant d'un simple clic sur un bouton.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "Cage multimédia",
@@ -2335,7 +2335,7 @@
           "title": "Téléchargez plus rapidement via une API avec reprise"
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Résolvez les problèmes liés à la diffusion vidéo en regroupant le transcodage, le stockage, la sécurité et le lecteur vidéo dans un package puissant mais simple. \nDiffusez n’importe où. \nSans mise en mémoire tampon !",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "Gowaf Stream",
@@ -2361,7 +2361,7 @@
           "title": "Protéger les vidéos contre le vol"
         },
         "header": {
-          "btn": "Commencez un Utilisation gratuite permanente",
+          "btn": "Démarrer l'essai gratuit de 14 jours",
           "content": "Offrez une expérience vidéo impeccable avec un lecteur vidéo entièrement personnalisable. \nDoté de fonctionnalités puissantes, d'excellentes solutions et d'une mise en œuvre simple.",
           "hint": "Aucune carte de crédit nécessaire. \nCommencez en quelques secondes.",
           "preTitle": "Lecteur CDN",

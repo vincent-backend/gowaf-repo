@@ -27,6 +27,16 @@ export default function ($t: any, path: string) {
       label: $t('resources.breadCrumbs.contact'),
       href: '/resources/contact',
       current: false
+    },
+    {
+      label: $t('resources.breadCrumbs.WhatIsCDN'),
+      href: '/resources/WhatIsCDN',
+      current: false
+    },
+    {
+      label: $t('resources.breadCrumbs.SuperPolyfill'),
+      href: '/resources/SuperPolyfill',
+      current: false
     }
   ]
   matchBreadCrumbs(items, path)
