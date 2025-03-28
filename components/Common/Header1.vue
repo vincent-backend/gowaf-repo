@@ -315,7 +315,7 @@ withDefaults(
   }
 
   &.hide-foot {
-    height: 650px;
+    height: 458px;
 
     .bottom {
       display: none;

@@ -29,13 +29,8 @@ export default function ($t: any, path: string) {
       current: false
     },
     {
-      label: $t('resources.breadCrumbs.WhatIsCDN'),
-      href: '/resources/WhatIsCDN',
-      current: false
-    },
-    {
-      label: $t('resources.breadCrumbs.SuperPolyfill'),
-      href: '/resources/SuperPolyfill',
+      label: $t('resources.breadCrumbs.Academy'),
+      href: '/resources/academy/cdn',
       current: false
     }
   ]

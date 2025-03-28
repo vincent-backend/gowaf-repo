@@ -2652,6 +2652,50 @@
         "subTitle": "Pytanie, które zadają nam wszyscy",
         "title": "Skąd nazwa Gowaf"
       }
+    },
+    "academy": {
+      "cdn": {
+        "header": {
+          "title": "Co to jest sieć dostarczania treści (CDN)?",
+          "content": "Dlaczego CDN są używane do obsługi plików medialnych i statycznych? \nJak mogą pomóc Twojej witrynie?"
+        }
+      },
+      "computing": {
+        "header": {
+          "title": "Co to jest przetwarzanie krawędzi?",
+          "content": "Co to jest przetwarzanie krawędzi i jak je stosujemy?"
+        }
+      },
+      "dns": {
+        "header": {
+          "title": "Jaki jest system nazwy domeny (DNS)",
+          "content": "Serwery DNS i Resicvers w pigułce."
+        }
+      },
+      "http": {
+        "header": {
+          "title": "Protokół transferu hipertekstu (HTTP)",
+          "content": "Co HTTP jest - i robi - dla sieci na całym świecie."
+        }
+      },
+      "networking": {
+        "header": {
+          "title": "Co to są sieci? \nCo to jest Internet?",
+          "content": "Co to są sieci? \nJak działają?"
+        }
+      },
+      "security": {
+        "header": {
+          "title": "Co to jest bezpieczeństwo cybernetyczne?",
+          "content": "Co to jest bezpieczeństwo cybernetyczne?"
+        }
+      },
+      "streaming": {
+        "header": {
+          "title": "Co to są streaming Dash i HLS?",
+          "content": "Jakie są DASH/HLS i jak dostarczają na żywo, adaptacyjne treści użytkownikom."
+        }
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Jak używać reguł Edge, aby ustawić niestandardowy czas pamięci podręcznej dla rozszerzenia pliku",
@@ -2926,7 +2970,7 @@
   "u_PHZN1sLlqIss6TP1vIY": "Zagrzeb, HR",
   "u_ylKsZJ4rwuTxtqr0JDI": "zajmie tylko kilka dni",
   "uaCI9u0EUz8YLN_rifW0M": "Ochrona mediów",
-  "ul-vX2U3pW1I3djCaFhA6": "<p>Zanim sieci CDN stały się popularne, treści w sieci WWW były przeważnie udostępniane z tego samego fizycznego serwera internetowego, na którym hostowana była witryna internetowa. \nSerwer ten nazywany jest także serwerem pochodzenia, ponieważ cała zawartość witryny internetowej pochodzi z tego serwera. \nBez CDN cała zawartość witryny będzie udostępniana z serwera źródłowego, niezależnie od tego, czy żądanie pochodzi z przeglądarki internetowej w Chinach, Włoszech czy Brazylii.</p><br/><p>Doświadczenie witryny \nróżnych użytkowników końcowych różni się w zależności od ich lokalizacji. \nNa przykład, jeśli serwer źródłowy witryny internetowej znajduje się w Rzymie, włoscy użytkownicy Internetu odczują mniejsze opóźnienia i szybsze ładowanie strony internetowej. \nUżytkownicy w Chinach i Brazylii odczują duże opóźnienia i wolniejsze ładowanie stron internetowych, ponieważ dane muszą być przesyłane na znacznie większą odległość.</p><br/><p><img src=\\'/images/resources/WhatIsCDN/ \nhelp_with@2x.png\\' /></p><br/><p>Tak mniej więcej działają sieci CDN — dane są fizycznie bliżej użytkowników końcowych, podobnie jak magazyn produktów. \nSkutkuje to krótszym czasem dostawy – lub, w przypadku sieci CDN, szybszym czasem ładowania strony. \nIstnieje zastrzeżenie: większość sieci CDN nie ma „obiektu” – ani serwera brzegowego – w tym samym mieście, w którym znajduje się każdy użytkownik. \nDlatego użytkownicy zazwyczaj będą musieli zmagać się z danymi w bliskiej odległości, ale ogólne wrażenia użytkowników powinny jeszcze zostać poprawione.</p>",
+  "ul-vX2U3pW1I3djCaFhA6": "<p>Zanim sieci CDN stały się popularne, treści w sieci WWW były przeważnie udostępniane z tego samego fizycznego serwera internetowego, na którym hostowana była witryna internetowa. \nSerwer ten nazywany jest także serwerem pochodzenia, ponieważ cała zawartość witryny internetowej pochodzi z tego serwera. \nBez CDN cała zawartość witryny będzie udostępniana z serwera źródłowego, niezależnie od tego, czy żądanie pochodzi z przeglądarki internetowej w Chinach, Włoszech czy Brazylii.</p><br/><p>Doświadczenie witryny \nróżnych użytkowników końcowych różni się w zależności od ich lokalizacji. \nNa przykład, jeśli serwer źródłowy witryny internetowej znajduje się w Rzymie, włoscy użytkownicy Internetu odczują mniejsze opóźnienia i szybsze ładowanie strony internetowej. \nUżytkownicy w Chinach i Brazylii odczują duże opóźnienia i wolniejsze ładowanie stron internetowych, ponieważ dane muszą być przesyłane na znacznie większą odległość.</p><br/><p><img src='/images/resources/academy/help_with@2x.png' /></p><br/><p>Tak mniej więcej działają sieci CDN — dane są fizycznie bliżej użytkowników końcowych, podobnie jak magazyn produktów. \nSkutkuje to krótszym czasem dostawy – lub, w przypadku sieci CDN, szybszym czasem ładowania strony. \nIstnieje zastrzeżenie: większość sieci CDN nie ma „obiektu” – ani serwera brzegowego – w tym samym mieście, w którym znajduje się każdy użytkownik. \nDlatego użytkownicy zazwyczaj będą musieli zmagać się z danymi w bliskiej odległości, ale ogólne wrażenia użytkowników powinny jeszcze zostać poprawione.</p>",
   "ulPyJg2au7ZojSp6wLSB8": "Skorzystaj z panelu monitorowania nowej generacji w czasie rzeczywistym i uzyskaj pełny wgląd w ruch.",
   "upu4FATCc3Co5coASNZjg": "Szybciej",
   "urwASiMFk_MK2AZn1nIoP": "Kompleksowa integracja z dodatkowymi opłatami",

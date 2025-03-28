@@ -2652,6 +2652,50 @@
         "subTitle": "The question everyone has been asking us",
         "title": "Why the name Gowaf"
       }
+    },
+    "academy": {
+      "cdn": {
+        "header": {
+          "title": "What is a Content  Delivery Network (CDN)?",
+          "content": "Why are CDNs used for serving media and static files? How can they help your website?"
+        }
+      },
+      "computing": {
+        "header": {
+          "title": "What is Edge Computing?",
+          "content": "What is edge computing and how do we employ it?"
+        }
+      },
+      "dns": {
+        "header": {
+          "title": "What is the Domain Name System (DNS)",
+          "content": "DNS servers and resolvers in a nutshell."
+        }
+      },
+      "http": {
+        "header": {
+          "title": "The Hypertext Transfer Protocol (HTTP)",
+          "content": "What HTTP is — and does — for the World Wide Web."
+        }
+      },
+      "networking": {
+        "header": {
+          "title": "What are Networks? What is the Internet?",
+          "content": "What are networks? How do they work?"
+        }
+      },
+      "security": {
+        "header": {
+          "title": "What is Cybersecurity?",
+          "content": "What is Cybersecurity?"
+        }
+      },
+      "streaming": {
+        "header": {
+          "title": "What are DASH and HLS Streaming?",
+          "content": "What DASH/HLS are and how they deliver live, adaptive content to users."
+        }
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "How to use Edge Rules to set a custom cache time for a file extension",
@@ -2926,7 +2970,7 @@
   "u_PHZN1sLlqIss6TP1vIY": "Zagreb, HR",
   "u_ylKsZJ4rwuTxtqr0JDI": "taking only a few days",
   "uaCI9u0EUz8YLN_rifW0M": "Media Protection",
-  "ul-vX2U3pW1I3djCaFhA6": "<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p><br/><p><img src=\\'/images/resources/WhatIsCDN/help_with@2x.png\\' /></p><br/><p>This is roughly how CDNs work -- data is physically closer to end-users, much like a warehouse of products. This results in faster delivery times - or in the case of CDNs, faster page load times. There is a caveat: most CDNs do not have a \"facility\" - or edge server - in the same city as every user. So, users will have usually have to contend with data within a close proximity, but the general experience for users should still be improved.</p>",
+  "ul-vX2U3pW1I3djCaFhA6": "<p>Before CDNs became popular, content on the World Wide Web was mostly served from the same physical web server which a website was hosted on. This server is also called the origin server, because all the content of a website originates from this server. Without a CDN, all the content of a website will be served out of the origin server regardless of whether the request comes from a web browser in China, Italy, or Brazil.</p><br/><p>The website experience of different end users differs depending on their location. For example, if the origin server of a website is located in Rome, Italian web users will experience decreased latency and faster web page loading times. Users in China and Brazil will experience high latency and slower web page loading because data has to be transmitted over a much longer distance.</p><br/><p><img src='/images/resources/academy/help_with@2x.png' /></p><br/><p>This is roughly how CDNs work -- data is physically closer to end-users, much like a warehouse of products. This results in faster delivery times - or in the case of CDNs, faster page load times. There is a caveat: most CDNs do not have a \"facility\" - or edge server - in the same city as every user. So, users will have usually have to contend with data within a close proximity, but the general experience for users should still be improved.</p>",
   "ulPyJg2au7ZojSp6wLSB8": "Make use of the next-generation real-time monitoring dashboard and get full traffic insights.",
   "upu4FATCc3Co5coASNZjg": "Faster",
   "urwASiMFk_MK2AZn1nIoP": "Complex integration with additional charges",

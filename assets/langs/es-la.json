@@ -2652,6 +2652,50 @@
         "subTitle": "La pregunta que todos nos han estado haciendo",
         "title": "¿Por qué el nombre Gowaf?"
       }
+    },
+    "academy": {
+      "cdn": {
+        "header": {
+          "title": "¿Qué es una red de entrega de contenido (CDN)?",
+          "content": "¿Por qué se usan CDN para servir medios y archivos estáticos? \n¿Cómo pueden ayudar a su sitio web?"
+        }
+      },
+      "computing": {
+        "header": {
+          "title": "¿Qué es la computación de borde?",
+          "content": "¿Qué es la computación de borde y cómo la empleamos?"
+        }
+      },
+      "dns": {
+        "header": {
+          "title": "¿Cuál es el sistema de nombres de dominio (DNS)?",
+          "content": "Servidores DNS y solucionadores en pocas palabras."
+        }
+      },
+      "http": {
+        "header": {
+          "title": "El protocolo de transferencia de hipertexto (HTTP)",
+          "content": "Lo que HTTP es, y hace, para la World Wide Web."
+        }
+      },
+      "networking": {
+        "header": {
+          "title": "¿Qué son las redes? \n¿Qué es Internet?",
+          "content": "¿Qué son las redes? \n¿Cómo funcionan?"
+        }
+      },
+      "security": {
+        "header": {
+          "title": "¿Qué es la ciberseguridad?",
+          "content": "¿Qué es la ciberseguridad?"
+        }
+      },
+      "streaming": {
+        "header": {
+          "title": "¿Qué son la transmisión de Dash y HLS?",
+          "content": "¿Qué son Dash/HLS y cómo ofrecen contenido adaptativo en vivo a los usuarios?"
+        }
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Cómo utilizar Edge Rules para establecer un tiempo de caché personalizado para una extensión de archivo",
@@ -2926,7 +2970,7 @@
   "u_PHZN1sLlqIss6TP1vIY": "Zagreb, HR",
   "u_ylKsZJ4rwuTxtqr0JDI": "tomando solo unos dias",
   "uaCI9u0EUz8YLN_rifW0M": "Protección de medios",
-  "ul-vX2U3pW1I3djCaFhA6": "<p>Antes de que las CDN se hicieran populares, el contenido de la World Wide Web se servía principalmente desde el mismo servidor web físico en el que estaba alojado un sitio web. \nEste servidor también se denomina servidor de origen, porque todo el contenido de un sitio web se origina en este servidor. \nSin una CDN, todo el contenido de un sitio web se entregará desde el servidor de origen, independientemente de si la solicitud proviene de un navegador web en China, Italia o Brasil.</p><br/><p>La experiencia del sitio web \nde diferentes usuarios finales difiere dependiendo de su ubicación. \nPor ejemplo, si el servidor de origen de un sitio web está ubicado en Roma, los usuarios web italianos experimentarán una latencia reducida y tiempos de carga de páginas web más rápidos. \nLos usuarios de China y Brasil experimentarán una alta latencia y una carga de páginas web más lenta porque los datos deben transmitirse a una distancia mucho mayor.</p><br/><p><img src=\\'/images/resources/WhatIsCDN/ \nhelp_with@2x.png\\' /></p><br/><p>Así es aproximadamente como funcionan las CDN: los datos están físicamente más cerca de los usuarios finales, como un almacén de productos. \nEsto da como resultado tiempos de entrega más rápidos o, en el caso de las CDN, tiempos de carga de página más rápidos. \nHay una advertencia: la mayoría de las CDN no tienen una \"instalación\" (o servidor perimetral) en la misma ciudad que cada usuario. \nPor lo tanto, los usuarios normalmente tendrán que lidiar con datos muy próximos, pero la experiencia general para los usuarios aún debe mejorarse.</p>",
+  "ul-vX2U3pW1I3djCaFhA6": "<p>Antes de que las CDN se hicieran populares, el contenido de la World Wide Web se servía principalmente desde el mismo servidor web físico en el que estaba alojado un sitio web. \nEste servidor también se denomina servidor de origen, porque todo el contenido de un sitio web se origina en este servidor. \nSin una CDN, todo el contenido de un sitio web se entregará desde el servidor de origen, independientemente de si la solicitud proviene de un navegador web en China, Italia o Brasil.</p><br/><p>La experiencia del sitio web \nde diferentes usuarios finales difiere dependiendo de su ubicación. \nPor ejemplo, si el servidor de origen de un sitio web está ubicado en Roma, los usuarios web italianos experimentarán una latencia reducida y tiempos de carga de páginas web más rápidos. \nLos usuarios de China y Brasil experimentarán una alta latencia y una carga de páginas web más lenta porque los datos deben transmitirse a una distancia mucho mayor.</p><br/><p><img src='/images/resources/academy/help_with@2x.png' /></p><br/><p>Así es aproximadamente como funcionan las CDN: los datos están físicamente más cerca de los usuarios finales, como un almacén de productos. \nEsto da como resultado tiempos de entrega más rápidos o, en el caso de las CDN, tiempos de carga de página más rápidos. \nHay una advertencia: la mayoría de las CDN no tienen una \"instalación\" (o servidor perimetral) en la misma ciudad que cada usuario. \nPor lo tanto, los usuarios normalmente tendrán que lidiar con datos muy próximos, pero la experiencia general para los usuarios aún debe mejorarse.</p>",
   "ulPyJg2au7ZojSp6wLSB8": "Utilice el panel de monitoreo en tiempo real de próxima generación y obtenga información completa sobre el tráfico.",
   "upu4FATCc3Co5coASNZjg": "Más rápido",
   "urwASiMFk_MK2AZn1nIoP": "Integración compleja con cargos adicionales",

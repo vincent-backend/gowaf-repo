@@ -2778,6 +2778,50 @@
         "subTitle": "每個人都在問我們的問題",
         "title": "為什麼叫 Gowaf"
       }
+    },
+    "academy": {
+      "cdn": {
+        "header": {
+          "title": "什麼是內容輸送網絡（CDN）？",
+          "content": "為什麼使用CDN用於服務媒體和靜態文件？他們如何幫助您的網站？"
+        }
+      },
+      "computing": {
+        "header": {
+          "title": "什麼是邊緣計算？",
+          "content": "什麼是邊緣計算，我們如何使用它？"
+        }
+      },
+      "dns": {
+        "header": {
+          "title": "什麼是域名系統（DNS）",
+          "content": "簡而言之的DNS服務器和解析器。"
+        }
+      },
+      "http": {
+        "header": {
+          "title": "超文本傳輸​​協議（HTTP）",
+          "content": "HTTP是全球網絡的http。"
+        }
+      },
+      "networking": {
+        "header": {
+          "title": "什麼是網絡？什麼是互聯網？",
+          "content": "什麼是網絡？他們如何工作？"
+        }
+      },
+      "security": {
+        "header": {
+          "title": "什麼是網絡安全？",
+          "content": "什麼是網絡安全？"
+        }
+      },
+      "streaming": {
+        "header": {
+          "title": "什麼是DASH和HLS流？",
+          "content": "什麼是破折號/HLS，以及它們如何為用戶提供現場自適應內容。"
+        }
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "如何使用邊緣規則為檔案副檔名設定自訂快取時間",

@@ -2,60 +2,24 @@
   <Header />
   <BreadCrumbs
     :title="$t('resources.breadCrumbs.Academy')"
-    :items="[
-      {
-        label: $t('resources.breadCrumbs.CDN'),
-        href: '/resources/WhatIsCDN',
-        current: true
-      },
-      {
-        label: $t('resources.breadCrumbs.DNS'),
-        href: '',
-        current: false
-      },
-      {
-        label: $t('resources.breadCrumbs.Networking'),
-        href: '',
-        current: false
-      },
-      {
-        label: $t('resources.breadCrumbs.Security'),
-        href: '',
-        current: false
-      },
-      {
-        label: $t('resources.breadCrumbs.HTTP'),
-        href: '',
-        current: false
-      },
-      {
-        label: $t('resources.breadCrumbs.Streaming'),
-        href: '',
-        current: false
-      },
-      {
-        label: $t('resources.breadCrumbs.Computing'),
-        href: '',
-        current: false
-      }
-    ]"
+    :items="AcademyMenu($t, $route.path)"
   />
   <CommonHeader1
-    :title="$t('resources.WhatIsCDN.header.title')"
-    :content="$t('resources.WhatIsCDN.header.content')"
+    :title="$t('resources.academy.cdn.header.title')"
+    :content="$t('resources.academy.cdn.header.content')"
     href="#"
     hint=""
     :rightStyle="{ 'margin-top': '30px', 'margin-right': '90px' }"
-    :containerStyle="{ height: '590px' }"
+    :containerStyle="{ height: '398px' }"
     :showFoot="false"
     :pic="{
-      src: '/images/resources/WhatIsCDN/cdn_overview_banner_graph@2x.png',
-      w: '381px',
-      h: '371px',
+      src: '/images/resources/academy/cdn_overview_banner_graph@2x.png',
+      w: '290px',
+      h: '282px',
 
-      msrc: '/images/resources/WhatIsCDN/cdn_overview_banner_graph@2x.png',
-      mw: '23.81rem',
-      mh: '23.19rem'
+      msrc: '/images/resources/academy/cdn_overview_banner_graph@2x.png',
+      mw: '18.12rem',
+      mh: '17.62rem'
     }"
   />
   <div class="bottom-header">
@@ -120,7 +84,7 @@
             {{ $t('resources.WhatIsCDN.bot.btntxt') }}
             <img
               class="img"
-              src="/images/resources/WhatIsCDN/common_price_right_wihte_ic@2x.png"
+              src="/images/resources/academy/common_price_right_wihte_ic@2x.png"
               alt=""
               srcset=""
             />

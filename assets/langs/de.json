@@ -2653,6 +2653,49 @@
         "subTitle": "Die Frage, die uns jeder gestellt hat",
         "title": "Warum der Name Gowaf"
       }
+    },
+    "academy": {
+      "cdn": {
+        "header": {
+          "title": "Was ist ein Content Delivery Network (CDN)?",
+          "content": "Warum werden CDNs zum Servieren von Medien und statischen Dateien verwendet? \nWie können sie Ihrer Website helfen?"
+        }
+      },
+      "computing": {
+        "header": {
+          "title": "Was ist Edge Computing?"
+        }
+      },
+      "dns": {
+        "header": {
+          "title": "Was ist das Domainnamen -System (DNS)",
+          "content": "DNS -Server und Resolver auf den Punkt gebracht."
+        }
+      },
+      "http": {
+        "header": {
+          "title": "Das Hypertext -Transferprotokoll (HTTP)",
+          "content": "Was HTTP für das World Wide Web ist - und tut es -."
+        }
+      },
+      "networking": {
+        "header": {
+          "title": "Was sind Netzwerke? \nWas ist das Internet?",
+          "content": "Was sind Netzwerke? \nWie funktionieren sie?"
+        }
+      },
+      "security": {
+        "header": {
+          "title": "Was ist Cybersicherheit?",
+          "content": "Was ist Cybersicherheit?"
+        }
+      },
+      "streaming": {
+        "header": {
+          "title": "Was streamen Dash und HLS?",
+          "content": "Was DASH/HLS ist und wie sie Live -Inhalte an adaptive Inhalte liefern."
+        }
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
@@ -2927,7 +2970,7 @@
   "u_PHZN1sLlqIss6TP1vIY": "Zagreb, HR",
   "u_ylKsZJ4rwuTxtqr0JDI": "dauert nur ein paar Tage",
   "uaCI9u0EUz8YLN_rifW0M": "Medienschutz",
-  "ul-vX2U3pW1I3djCaFhA6": "<p>Bevor CDNs populär wurden, wurden Inhalte im World Wide Web größtenteils von demselben physischen Webserver bereitgestellt, auf dem eine Website gehostet wurde. \nDieser Server wird auch Ursprungsserver genannt, da alle Inhalte einer Website von diesem Server stammen. \nOhne ein CDN wird der gesamte Inhalt einer Website vom Ursprungsserver bereitgestellt, unabhängig davon, ob die Anfrage von einem Webbrowser in China, Italien oder Brasilien kommt.</p><br/><p>Das Website-Erlebnis \nunterschiedlicher Endbenutzer unterscheidet sich je nach Standort. \nWenn sich beispielsweise der Ursprungsserver einer Website in Rom befindet, erleben italienische Webbenutzer eine geringere Latenz und schnellere Ladezeiten der Webseiten. \nBenutzer in China und Brasilien werden eine hohe Latenz und ein langsameres Laden von Webseiten erleben, da Daten über eine viel längere Distanz übertragen werden müssen.</p><br/><p><img src=\\'/images/resources/WhatIsCDN/ \nhelp_with@2x.png\\' /></p><br/><p>Das ist in etwa die Funktionsweise von CDNs – Daten sind physisch näher am Endbenutzer, ähnlich wie ein Produktlager. \nDies führt zu schnelleren Lieferzeiten – oder im Fall von CDNs zu schnelleren Seitenladezeiten. \nEs gibt eine Einschränkung: Die meisten CDNs verfügen nicht über eine „Einrichtung“ – oder Edge-Server – in derselben Stadt wie jeder Benutzer. \nDaher müssen sich Benutzer normalerweise mit Daten in unmittelbarer Nähe auseinandersetzen, aber das allgemeine Erlebnis für Benutzer sollte dennoch verbessert werden.</p>",
+  "ul-vX2U3pW1I3djCaFhA6": "<p>Bevor CDNs populär wurden, wurden Inhalte im World Wide Web größtenteils von demselben physischen Webserver bereitgestellt, auf dem eine Website gehostet wurde. \nDieser Server wird auch Ursprungsserver genannt, da alle Inhalte einer Website von diesem Server stammen. \nOhne ein CDN wird der gesamte Inhalt einer Website vom Ursprungsserver bereitgestellt, unabhängig davon, ob die Anfrage von einem Webbrowser in China, Italien oder Brasilien kommt.</p><br/><p>Das Website-Erlebnis \nunterschiedlicher Endbenutzer unterscheidet sich je nach Standort. \nWenn sich beispielsweise der Ursprungsserver einer Website in Rom befindet, erleben italienische Webbenutzer eine geringere Latenz und schnellere Ladezeiten der Webseiten. \nBenutzer in China und Brasilien werden eine hohe Latenz und ein langsameres Laden von Webseiten erleben, da Daten über eine viel längere Distanz übertragen werden müssen.</p><br/><p><img src='/images/resources/academy/help_with@2x.png' /></p><br/><p>Das ist in etwa die Funktionsweise von CDNs – Daten sind physisch näher am Endbenutzer, ähnlich wie ein Produktlager. \nDies führt zu schnelleren Lieferzeiten – oder im Fall von CDNs zu schnelleren Seitenladezeiten. \nEs gibt eine Einschränkung: Die meisten CDNs verfügen nicht über eine „Einrichtung“ – oder Edge-Server – in derselben Stadt wie jeder Benutzer. \nDaher müssen sich Benutzer normalerweise mit Daten in unmittelbarer Nähe auseinandersetzen, aber das allgemeine Erlebnis für Benutzer sollte dennoch verbessert werden.</p>",
   "ulPyJg2au7ZojSp6wLSB8": "Nutzen Sie das Echtzeit-Überwachungs-Dashboard der nächsten Generation und erhalten Sie umfassende Einblicke in den Datenverkehr.",
   "upu4FATCc3Co5coASNZjg": "Schneller",
   "urwASiMFk_MK2AZn1nIoP": "Komplexe Integration mit zusätzlichen Kosten",
