@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import gsap from 'gsap';
 withDefaults(
   defineProps<{
     preTitle?: string;
@@ -29,6 +30,24 @@ withDefaults(
     showFoot: true
   }
 );
+
+const ctx = ref();
+
+onMounted(() => {
+  ctx.value = gsap.context(() => {
+      const tl = gsap.timeline();
+
+      tl.fromTo(
+        ".home-banner",
+        { y: 20, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.5, delay: 0.6 }
+      )
+    });
+});
+onUnmounted(() => {
+  ctx.value.revert();
+});
+
 </script>
 
 <template>
@@ -176,7 +195,7 @@ withDefaults(
   .home-banner {
     display: flex;
     justify-content: space-between;
-
+    opacity: 0;
     > .left {
       margin-top: 180px;
 
@@ -315,7 +334,7 @@ withDefaults(
   }
 
   &.hide-foot {
-    height: 458px;
+    height: 590px;
 
     .bottom {
       display: none;

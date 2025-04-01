@@ -1,5 +1,7 @@
 <script lang="ts" setup>
 import type { tabs } from '~/types/tabs'
+import gsap from 'gsap';
+
 defineProps<{
   title?: string;
   subTitle?: string;
@@ -9,6 +11,15 @@ defineProps<{
 
 // tabs
 const curTab = ref(0);
+
+watch(curTab, (newCurTab) => {
+    gsap.fromTo(
+      ".tabs-content",
+      { y: 20, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.5, delay: 0.6 }
+    );
+})
+
 </script>
 
 <template>
@@ -21,15 +32,17 @@ const curTab = ref(0);
       <template v-for="(tab, index) in tabs">
         <div
           class="tabs-content"
-          v-if="index === curTab"
-          :style="isList ? { width: '1200px' } : {}"
+          :style="{
+            width: isList ? '1200px' : undefined,
+            display: index === curTab ? undefined : 'none'
+          }"
         >
           <div class="left" v-if="!isList">
             <XsOnly>
               <div class="left-sub-title">{{ tab.subTitle }}</div>
             </XsOnly>
             <div
-              class="icon"
+              class="icon left-image"
               :style="
                 $device.isMobile
                   ? {
@@ -99,7 +112,6 @@ const curTab = ref(0);
 
     > .tabs-content {
       margin: 45px auto 0;
-
       width: 974px;
       display: flex;
       justify-content: space-between;
@@ -261,7 +273,6 @@ const curTab = ref(0);
 
       > .tabs-content {
         margin-top: 4.25rem;
-
         width: auto;
         flex-direction: column;
 
@@ -279,7 +290,8 @@ const curTab = ref(0);
             line-height: 2.11rem;
             text-align: left;
           }
-          .icon {
+          .left-image {
+            opacity: 0;
           }
         }
 
