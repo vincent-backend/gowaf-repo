@@ -1316,7 +1316,7 @@
     "menus": {
       "network": "网络",
       "pricing": "价钱",
-      "products": "Products",
+      "products": "产品",
       "resources": "资源",
       "solutions": "解决方案"
     }
@@ -2335,7 +2335,7 @@
       "breadCrumbs": {
         "SSDStorage": "SSD Storage",
         "TransformAPI": "TransformAPI",
-        "parent": "Storage"
+        "parent": "贮存"
       }
     },
     "stream": {
@@ -2344,7 +2344,7 @@
         "mediaCage": "Media Cage",
         "multiDRM": "multi-DRM",
         "overview": "概述",
-        "parent": "stream",
+        "parent": "溪流",
         "player": "Player",
         "transcribeAI": "Transcribe AI"
       },
@@ -2895,7 +2895,8 @@
         "hint": "无需信用卡。\n几秒钟内开始。",
         "preTitle": "游戏CDN",
         "title": "提升您的游戏体验"
-      }
+      },
+      "title": "赌博"
     },
     "storageSoftware": {
       "accelerate": {

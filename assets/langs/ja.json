@@ -2769,7 +2769,8 @@
         "hint": "クレジットカードは必要ありません。\n数秒で開始します。",
         "preTitle": "ゲーム CDN",
         "title": "ゲーム体験をレベルアップ"
-      }
+      },
+      "title": "ゲーム"
     },
     "storageSoftware": {
       "accelerate": {

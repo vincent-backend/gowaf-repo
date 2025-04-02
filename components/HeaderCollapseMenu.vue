@@ -347,7 +347,7 @@ const i18ntext = computed<any>(() => {
           ]
         },
         {
-          title: 'Gaming',
+          title: t('solutions.storageGame.title'),
           icon: '/images/home/Solutions_nav_ic_Website.png',
           key: 'Gaming',
           items: [

@@ -2785,43 +2785,43 @@
     "academy": {
       "cdn": {
         "header": {
-          "title": "What is a Content  Delivery Network (CDN)?", 
+          "title": "What is a Content  Delivery Network (CDN)?",
           "content": "Why are CDNs used for serving media and static files? How can they help your website?"
         }
       },
       "dns": {
         "header": {
-          "title": "What is the Domain Name System (DNS)", 
+          "title": "What is the Domain Name System (DNS)",
           "content": "DNS servers and resolvers in a nutshell."
         }
       },
       "networking": {
         "header": {
-          "title": "What are Networks? What is the Internet?", 
+          "title": "What are Networks? What is the Internet?",
           "content": "What are networks? How do they work?"
         }
       },
       "security": {
         "header": {
-          "title": "What is Cybersecurity?", 
+          "title": "What is Cybersecurity?",
           "content": "What is Cybersecurity?"
         }
       },
       "http": {
         "header": {
-          "title": "The Hypertext Transfer Protocol (HTTP)", 
+          "title": "The Hypertext Transfer Protocol (HTTP)",
           "content": "What HTTP is — and does — for the World Wide Web."
         }
       },
       "streaming": {
         "header": {
-          "title": "What are DASH and HLS Streaming?", 
+          "title": "What are DASH and HLS Streaming?",
           "content": "What DASH/HLS are and how they deliver live, adaptive content to users."
         }
       },
       "computing": {
         "header": {
-          "title": "What is Edge Computing?", 
+          "title": "What is Edge Computing?",
           "content": "What is edge computing and how do we employ it?"
         }
       }
@@ -2883,6 +2883,7 @@
       }
     },
     "storageGame": {
+      "title": "Gaming",
       "accelerate": {
         "content": "Stop worrying about your infrastructure falling apart during updates. Focus on keeping gamers engaged while we make sure you stay online. Deliver the best gaming experience in the universe.",
         "title": "Accelerate gaming on a global scale"

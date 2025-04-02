@@ -2335,7 +2335,7 @@
       "breadCrumbs": {
         "SSDStorage": "SSD Storage",
         "TransformAPI": "TransformAPI",
-        "parent": "Storage"
+        "parent": "貯存"
       }
     },
     "stream": {
@@ -2344,7 +2344,7 @@
         "mediaCage": "Media Cage",
         "multiDRM": "Multi-DRM",
         "overview": "概述",
-        "parent": "Stream",
+        "parent": "溪流",
         "player": "Player",
         "transcribeAI": "Transcribe Al"
       },
@@ -2895,7 +2895,8 @@
         "hint": "無需信用卡。\n幾秒鐘內開始。",
         "preTitle": "遊戲CDN",
         "title": "提升您的遊戲體驗"
-      }
+      },
+      "title": "賭博"
     },
     "storageSoftware": {
       "accelerate": {
