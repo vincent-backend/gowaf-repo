@@ -213,7 +213,7 @@ const i18ntext = computed(() => {
               </NuxtLinkLocale>
             </div>
             <div class="copyright">
-              {{ $t('footer.footer2.copyright') }}
+              {{(new Date()).getFullYear()}} All Rights Reserved © Gowaf Way d.o.o.
             </div>
           </LgOnly>
         </div>
@@ -275,7 +275,7 @@ const i18ntext = computed(() => {
               </NuxtLinkLocale>
             </div>
             <div class="copyright">
-              {{ $t('footer.footer2.copyright') }}
+              {{(new Date()).getFullYear()}} All Rights Reserved © Gowaf Way d.o.o.
             </div>
           </XsOnly>
         </div>
