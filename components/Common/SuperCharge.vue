@@ -12,6 +12,14 @@ defineProps<{
 // tabs
 const curTab = ref(0);
 
+onMounted(() => {
+  gsap.fromTo(
+      ".left-image",
+      { y: 20, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.5, delay: 0.6 }
+    );
+})
+
 watch(curTab, (newCurTab) => {
     gsap.fromTo(
       ".left-image",
