@@ -294,7 +294,7 @@ const columnlist = [
   flex-wrap: wrap;
   width: 100%;
   margin-top: 40px;
-  gap: 40px;
+  gap: 20px;
   .item {
     display: flex;
     align-items: center;
