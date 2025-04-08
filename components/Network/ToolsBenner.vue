@@ -69,7 +69,7 @@ const localizedDefaults: any = computed(() => {
 @media (max-width: 767px) {
   .benner {
     width: 100%;
-    height: 45.13rem;
+    height: 65rem;
     background: linear-gradient(322deg, #207af7 0%, #12e599 100%);
     .page-container {
       height: 100%;

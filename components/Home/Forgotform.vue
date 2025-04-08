@@ -45,7 +45,7 @@ const i18ntext = computed(() => {
     ' Terms of Service ',
     ',',
     ' Acceptable Use Policy ',
-    ' and confirm that I have read and understood the Gowaf.com ',
+    ' and confirm that I have read and understood the gowaf.com ',
     ' Privacy Policy',
     '.'
   ];

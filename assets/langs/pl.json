@@ -93,7 +93,7 @@
   "2Ld9EoNBSDa-XPRDw7c1o": "Zoptymalizuj dostarczanie i zmniejsz opóźnienia dzięki najwyższej klasy sprzętowi AMD i NVMe.",
   "2LoHMPVMBXgMetMUiQJh9": "Buduj szybciej dzięki przybornikowi na krawędzi",
   "2LsOtWLQXkXCcTONfchIe": "Pojedyncza lokalizacja",
-  "2RI94fhrzv2xLqF6TuNAe": "Lider w zakresie inteligentniejszych obliczeń brzegowych, Gowaf.com skacze na NAB 2024",
+  "2RI94fhrzv2xLqF6TuNAe": "Lider w zakresie inteligentniejszych obliczeń brzegowych, gowaf.com skacze na NAB 2024",
   "2RRbwoKJL59sQmOew_8JW": "Jak poprawnie skonfigurować ścieżkę wyzwalacza reguły krawędzi",
   "2S7mKWjVBIPvrShcajZNe": "Studia przypadków Gowafa",
   "2V0w8uGIRgRwb4z56QDgD": "Uzyskaj bezpieczne odtwarzanie na dowolnym urządzeniu dzięki potężnemu systemowi multi-DRM jednym kliknięciem.",
@@ -162,7 +162,7 @@
   "50PtDmC0oWtmlfK2ghlyM": "Adelajda, Australia",
   "52GXWZHd4bhZnbJkLpBY-": "Po zmianie firma Valnet odnotowała natychmiastowy zwrot z inwestycji. \nNie tylko szybko wdrożyli rozwiązania, ale zapłacili ułamek ceny porównywalnych sieci CDN. \nPrzejście na Gowaf uwolniło giganta i pozwolił mu jeszcze bardziej się rozwijać. \nValnet kontynuował swój plan rozwoju i zwiększył dystrybucję o ponad 250%.",
   "52hwj5YF8lqRr_O_8SbuU": "Dołącz do globalnej sieci, która jest starannie zoptymalizowana i dostrojona do poziomu TCP.",
-  "52u8oRFmnPwliIw0v4gTu": "Nazywam się Fluffee. \nJestem Twoją nową wirtualną asystentką Gowaf.com nowej generacji.",
+  "52u8oRFmnPwliIw0v4gTu": "Nazywam się Fluffee. \nJestem Twoją nową wirtualną asystentką gowaf.com nowej generacji.",
   "52y6SnZt-jC9v8Hn8Ld3k": "Terabajty",
   "53fju3noCMuxqHuhYxeLb": "Będziesz kierować rozwojem i zarządzaniem linią produktów Gowaf DNS, kierując stale rozwijającą się wizją.",
   "55O27hGsGilLgPC6GKcFn": "Zawsze bądź chroniony przed atakami DDoS. \nUruchom swoją grę nieprzerwanie 24 godziny na dobę, 7 dni w tygodniu!",
@@ -187,7 +187,7 @@
   "5kP6_bL1htOUv-LHL8nS5": "Ałmaty, KZ",
   "5lJM-plZzJdKCiVF9JxmE": "mil Monitorowanie w czasie rzeczywistym",
   "5r1xq4u6wxhRr7Y4JSdiV": "Dokumentacja produktu Gowaf DNS, przewodniki integracji i pomoc w rozwiązywaniu problemów.",
-  "5xhrq9_th9JuyE1lOh4Im": "Nigdy więcej nie przepłacaj za dostarczanie treści. \nNa Gowaf.com zawsze płacisz tylko za przepustowość, z której korzystasz i nic więcej. \nKoncentrujemy się na optymalizacji naszych kosztów i przekazywaniu oszczędności Tobie!",
+  "5xhrq9_th9JuyE1lOh4Im": "Nigdy więcej nie przepłacaj za dostarczanie treści. \nNa gowaf.com zawsze płacisz tylko za przepustowość, z której korzystasz i nic więcej. \nKoncentrujemy się na optymalizacji naszych kosztów i przekazywaniu oszczędności Tobie!",
   "5ydDPlcYd9-w9N4pvL1HX": "Jak przekierować nazwę hosta b-cdn.net na niestandardową nazwę hosta CDN przy użyciu reguł brzegowych",
   "5yjsY5XQ12zAbPG1PWxS_": "Ateny, GR",
   "5zIDoM0_4FmpQHU1TQ4N1": "w porównaniu z pierwotnym dostawcą",
@@ -201,13 +201,13 @@
   "6IL0aWNQ8k0YAVCNiLYac": "3 godziny",
   "6JetIHbuzsX-gcTT9uCfV": "Niestandardowe serwery nazw",
   "6TolsipSOydidMv_kCTH6": "Właściciel produktu (DNS)",
-  "6Vx2TaI6GYZewcSwEzy2u": "„Wypróbowaliśmy już kilku dostawców CDN i chociaż byli drożsi, nie oferowali tej samej wydajności i niezawodności. Po przejściu na Gowaf.com nasi użytkownicy natychmiast zauważyli, jak szybkie i niezawodne stało się pobieranie”.",
+  "6Vx2TaI6GYZewcSwEzy2u": "„Wypróbowaliśmy już kilku dostawców CDN i chociaż byli drożsi, nie oferowali tej samej wydajności i niezawodności. Po przejściu na gowaf.com nasi użytkownicy natychmiast zauważyli, jak szybkie i niezawodne stało się pobieranie”.",
   "6W0yhROf2eKyzQOEEU9nd": "<p>Zanim sieci CDN stały się popularne, treści w sieci WWW były przeważnie udostępniane z tego samego fizycznego serwera internetowego, na którym hostowana była witryna internetowa. \nSerwer ten nazywany jest także serwerem pochodzenia, ponieważ cała zawartość witryny internetowej pochodzi z tego serwera. \nBez CDN cała zawartość witryny będzie udostępniana z serwera źródłowego, niezależnie od tego, czy żądanie pochodzi z przeglądarki internetowej w Chinach, Włoszech czy Brazylii.</p><br/><p>Doświadczenie witryny \nróżnych użytkowników końcowych różni się w zależności od ich lokalizacji. \nNa przykład, jeśli serwer źródłowy witryny internetowej znajduje się w Rzymie, włoscy użytkownicy Internetu odczują mniejsze opóźnienia i szybsze ładowanie strony internetowej. \nUżytkownicy w Chinach i Brazylii odczują duże opóźnienia i wolniejsze ładowanie stron internetowych, ponieważ dane muszą być przesyłane na znacznie większą odległość.</p>",
   "6WABPi6NTfLwpxrxYQhoa": "W JAKI SPOSÓB PULSE ZWIĘKSZYŁ OBSŁUGĘ I POPRAWIŁ DOŚWIADCZENIE UŻYTKOWNIKA",
   "6YO0_ldiVhETYscjT5Eu1": "Zminimalizuj liczbę fałszywych alarmów i przestań denerwować użytkowników dzięki inteligentnemu systemowi unikania fałszywych alarmów.",
   "6YXncMQRwii8ofZw6I7zu": "Periklis",
   "6bqG3cqW9P-GEOZLiDooK": "Statystyki w czasie rzeczywistym",
-  "6fgKkwjS7tDhc1FI4-rnQ": "Przewodniki, rozwiązywanie problemów i prośby o wsparcie, które pomogą Ci rozpocząć korzystanie z Gowaf.com.",
+  "6fgKkwjS7tDhc1FI4-rnQ": "Przewodniki, rozwiązywanie problemów i prośby o wsparcie, które pomogą Ci rozpocząć korzystanie z gowaf.com.",
   "6n7WqQC2MQht-svplEeVN": "Blokuj złośliwe żądania atakujące Twoje aplikacje w warstwie oprogramowania. \nGowaf WAF pomaga zachować bezpieczeństwo, blokując typowe luki w zabezpieczeniach i zestaw reguł reagowania krytycznego w czasie rzeczywistym, utrzymywany przez zespół Gowaf Security, aby być na bieżąco z nowymi zagrożeniami.",
   "6rOgj1q6f3qo96Lv5kl5c": "Konfigurowalne buforowanie",
   "6tggdKB2u_DF3V2_9z7UZ": "Utrzymuj zaangażowanie graczy dzięki płynnym sesjom VR. \nDostarczaj treści szybciej – nie rozczaruj się powolnym ładowaniem i niepotrzebnymi opóźnieniami. \nSkorzystaj z systemu CDN nowej generacji zaprojektowanego, aby zapewnić graczom możliwość grania.\\nDzięki globalnemu opóźnieniu poniżej 24 ms Twój wirtualny świat będzie ładować się szybciej niż rzeczywisty.",
@@ -225,7 +225,7 @@
   "7UqHlSkOKXcDJx7qVcRl6": "Jak poprawnie skonfigurować ścieżkę wyzwalacza reguły krawędzi",
   "7VR8ogzy7t_FPWygIByKA": "E-mail, bilet",
   "7VRwuAX2M14yywvS21CWU": "Przewodniki integracyjne",
-  "7_KzKMPufyAXmPOzghBfH": "Dowiedz się o wszystkim, co możesz zrobić z kontem Gowaf.com i wszystkimi innymi produktami Gowaf.",
+  "7_KzKMPufyAXmPOzghBfH": "Dowiedz się o wszystkim, co możesz zrobić z kontem gowaf.com i wszystkimi innymi produktami Gowaf.",
   "7fTQhbYbj7Oj38yMHUtoH": "26 ms",
   "7iutBqpkvJg1lp41cNaWa": "Właściciel produktu (obliczenia)",
   "7l0O9Lt7dsbXZe4DG56cA": "Doładowany potężnymi funkcjami",
@@ -302,7 +302,7 @@
   "AdV3X_h8HKGxoLrzksjEI": "Z łatwością zintegruj MediaCage z piękną wbudowaną płytką brukową lub zintegruj bezpośrednio za pomocą HLS.",
   "AiPKnYD_Z7fcefenkHDR3": "Ulepszenia bezpieczeństwa dzięki sieci dostarczania treści",
   "Ak7wdrl0CWjOl8dFn2Yyo": "Miej problemy ze skalowalnością w przeszłości, skoki ruchu pod kontrolą i nigdy więcej nie zostawiaj niczego przypadkowi. \nDostarczaj pliki do pobrania i aktualizacje szybciej niż konkurencja, utrzymując koszty na dystans. \n\\nSkorzystaj z cennika płatności zgodnie z rzeczywistym użyciem",
-  "AkilyeERXgKcftbm1H0mM": "Przeszukaj bazę wiedzy Gowaf.com",
+  "AkilyeERXgKcftbm1H0mM": "Przeszukaj bazę wiedzy gowaf.com",
   "AnVocCr6OXyrIQeZxhMy-": "Zdalny",
   "AotqB1uZwuX7P6t28qLCc": "Zadbaj o bardziej przyjazny internet, powstrzymując nieodpowiednie przesyłanie dzięki inteligentnemu filtrowaniu przesyłanych plików na brzegu sieci, opartemu na uczeniu maszynowym i liście blokowania w czasie rzeczywistym. \nPomagamy Ci kontrolować złośliwe, obraźliwe i nieodpowiednie pliki przesyłane przez użytkowników, dzięki czemu nie musisz tracić czasu na ich usuwanie.",
   "AyxauOhdnQgkdN4WUCwdS": "114 punktów PoP",
@@ -347,7 +347,7 @@
   "C_CVNQDyeqTEDdxyicU9G": "Opóźnienie przechowywania",
   "C_X4pOVZrKmyCFauwaLng": "Dostosuj filtry",
   "CbXqkvUVIP7gXy7WAg69r": "Włącz system Media Cage DRM jednym kliknięciem.",
-  "Cc46_snoC79VqvDpV-d3v": "Potrzebujesz ważnego konta Gowaf.com, które nie jest objęte bezpłatną wersją próbną. \nMożesz zapisać się do programu partnerskiego w panelu kontrolnym lub poprzez link tutaj.",
+  "Cc46_snoC79VqvDpV-d3v": "Potrzebujesz ważnego konta gowaf.com, które nie jest objęte bezpłatną wersją próbną. \nMożesz zapisać się do programu partnerskiego w panelu kontrolnym lub poprzez link tutaj.",
   "CfUwvCXw-ShlADQLCV5hi": "Będziesz współpracować z zespołami inżynieryjnymi, marketingowymi, kierowniczymi i zajmującymi się obsługą klienta, aby zbudować najnowocześniejszą platformę dostarczania wideo.",
   "ChaMmhphxkrCemPlYmAG5": "Właściciel produktu (DNS)",
   "Ci89qa6ZLlKOab3a5PcfJ": "Żądanie zostało automatycznie ponowione.",
@@ -365,7 +365,7 @@
   "DEXG2EHxynCynnHX6nJMa": "Opóźnij ponowne próby",
   "DGiGntW9hVNhzM1SkRsKT": "Elastyczne godziny",
   "DTVJ6GUcjmjM2nzHKY08D": "Dodaj rozdziały wideo do swoich filmów, aby umożliwić widzom łatwiejsze poruszanie się po filmie.",
-  "DTnbzSWUAnBnfF-7btCit": "Chroń swoje źródło przed atakami i gwałtownymi wzrostami ruchu za pomocą osłony pochodzenia Gowaf.com.",
+  "DTnbzSWUAnBnfF-7btCit": "Chroń swoje źródło przed atakami i gwałtownymi wzrostami ruchu za pomocą osłony pochodzenia gowaf.com.",
   "DWujQ5fELrS4sOeG1yZkr": "Nowy Jork",
   "DXVilzKPh3zcV_Zc-70go": "Sydney, SYD",
   "D_FMjj-BbCJbChrLe6OBH": "poprzez ustanowienie unikalnego modelu cenowego",
@@ -409,7 +409,7 @@
   "F3KDjJCV6CRgXoEKYnHlm": "InnoGames potrzebowało CDN. \nJednak ich pierwszy dostawca CDN miał pewne problemy: mylący plan cenowy, który wymagał od InnoGames wykupienia minimalnej wymaganej przepustowości lub dodatkowej zapłaty. \nSystem zgłoszeń do pomocy technicznej, w wyniku którego InnoGames czekało całymi dniami na odpowiedzi.",
   "F4LoWXNjG-f_XXq5aV2ca": "Według branży",
   "F6vBLTiQcX7HgExQRpeE3": "Praga, CZ",
-  "FC-7JC3tB-1N3m7TKembi": "Skorzystaj z solidnych funkcji bezpieczeństwa, które pozwalają kontrolować, kto, kiedy i jak długo użytkownik końcowy może uzyskać dostęp do Twoich treści. \nZatrzymaj złe boty i blokuj ataki, zanim dotrą one do Twojego serwera. \nGowaf.com pomaga Ci zachować bezpieczeństwo przez cały czas.",
+  "FC-7JC3tB-1N3m7TKembi": "Skorzystaj z solidnych funkcji bezpieczeństwa, które pozwalają kontrolować, kto, kiedy i jak długo użytkownik końcowy może uzyskać dostęp do Twoich treści. \nZatrzymaj złe boty i blokuj ataki, zanim dotrą one do Twojego serwera. \ngowaf.com pomaga Ci zachować bezpieczeństwo przez cały czas.",
   "FEgY_ny5IuVY_0y8ZBeQa": "Parrot musiał obsłużyć 9000 pobrań – ponad 102 gigabajty. \nPoczątkowo firma Parrot polegała na ochotniczych dostawcach serwerów lustrzanych, aby zwiększyć ich dostępność. \nJednak system dostawcy kopii lustrzanych stwarzał problemy związane z bezpieczeństwem: osoby trzecie mogły nadpisać każdy pobrany plik, a zespół Parrot nie mógł nic zrobić, aby to zatrzymać. \nProblem z przepustowością Parrot przekształcił się w problem bezpieczeństwa.",
   "FFDN6H37XkEoYsAiMeCJk": "Działamy uczciwie.",
   "FH2oLkErv4x_-fYOiySrB": "Keflavik, IS",
@@ -439,7 +439,7 @@
   "G1OwJOq2NFHCRtMy1uMkV": "Porto Alegre, BR",
   "G7hQDX81srhbuGYw-tzV9": "Będziesz kierować rozwojem i zarządzaniem linią produktów Gowaf Edge Compute, kierując i rozwijając przyszłościową",
   "GC3jHHiOVraz_2lYG7nUX": "Poziom krawędzi",
-  "GEKglXFurhYZq9nPKB--U": "Oferujemy obszerną bibliotekę materiałów marketingowych Gowaf.com, ale zawsze możesz stworzyć własną. \nProsimy jedynie o przestrzeganie naszych wytycznych.",
+  "GEKglXFurhYZq9nPKB--U": "Oferujemy obszerną bibliotekę materiałów marketingowych gowaf.com, ale zawsze możesz stworzyć własną. \nProsimy jedynie o przestrzeganie naszych wytycznych.",
   "GGlIuYWgBOiG7sSc4fbde": "Kluczowe funkcje zaprojektowane, aby pomóc Ci przeskoczyć do przodu",
   "GHzzq2xNfIYhjwBcfkm_f": "Pożegnaj spowolnienia dzięki sieci zaprojektowanej z myślą o maksymalnej przepustowości.",
   "GI8Rnu0qiRfm02_y5cqtN": "Bez pojedynczego punktu awarii Gowaf zapewnia niezawodność na poziomie przedsiębiorstwa, dzięki czemu zawsze będziesz online.",
@@ -486,7 +486,7 @@
   "Hi1nX0G0COynee1uG_OP9": "Ochrona wolumetryczna",
   "HnN9clFUJHy68MohIiR9b": "Lizbona, Portugalia",
   "Ho-fe0HZG8dOM5THUYVwC": "Sasza Zurkić",
-  "HrycskULB2hiFLKSzSDDJ": "Uzyskaj pełną kontrolę nad połączeniem Origin, konfigurując czas oczekiwania Gowaf.com na odpowiedź, zanim się podda. \nW razie potrzeby awaria może nastąpić szybciej lub poczekać do 60 sekund lub dłużej, aby dopasować ją do potrzeb aplikacji.",
+  "HrycskULB2hiFLKSzSDDJ": "Uzyskaj pełną kontrolę nad połączeniem Origin, konfigurując czas oczekiwania gowaf.com na odpowiedź, zanim się podda. \nW razie potrzeby awaria może nastąpić szybciej lub poczekać do 60 sekund lub dłużej, aby dopasować ją do potrzeb aplikacji.",
   "HssgPf8qStJZTKqs_aJle": "Zdefiniuj niestandardowe reguły, aby kontrolować dostarczanie, bezpieczeństwo, routing i wiele więcej bezpośrednio na brzegu.",
   "HuBsF5QP585VVXuzmb3Ts": "Pierwsze kroki",
   "HxYScINx9E0AOjdUTbq5g": "Gracz ze znakiem wodnym",
@@ -529,7 +529,7 @@
   "JTWywD9jaObywvIjFoqFu": "Nairobi, Ke",
   "JZWX5oGOxo7VjVINny10W": "Razem zbudujemy lepsze jutro",
   "J_5uvUvOXWGTYi3UqBus9": "Kompresja obrazu",
-  "J_okZ_adtd8hbTuvq8PEe": "Pozbądź się dodatkowych opóźnień spowodowanych dynamiczną transformacją, która spowalnia czas ładowania. \nPrzetwarzaj obrazy tylko raz, a następnie trwale przechowuj je na krawędzi za pomocą Perma-Cache, aby zapewnić niezrównaną wydajność.\\nGowaf.com pomaga Ci skoczyć do przodu, łącząc innowacyjne technologie zaprojektowane z myślą o absolutnej wydajności. \nNa każdą prośbę. \nZa każdym razem.",
+  "J_okZ_adtd8hbTuvq8PEe": "Pozbądź się dodatkowych opóźnień spowodowanych dynamiczną transformacją, która spowalnia czas ładowania. \nPrzetwarzaj obrazy tylko raz, a następnie trwale przechowuj je na krawędzi za pomocą Perma-Cache, aby zapewnić niezrównaną wydajność.\\ngowaf.com pomaga Ci skoczyć do przodu, łącząc innowacyjne technologie zaprojektowane z myślą o absolutnej wydajności. \nNa każdą prośbę. \nZa każdym razem.",
   "Ja9WCSQMZHUawKskCQ7xs": "Wsparcie",
   "Jes4YFrZDJ4Ilg8eNZi2b": "Wyeliminuj ogromne koszty pobierania dużej liczby plików dzięki elastycznym cenom płatności zgodnie z rzeczywistym użyciem.",
   "JlDpy2j6XveEWp-HAJDm3": "„Wypróbowaliśmy już kilku dostawców CDN i chociaż byli drożsi, nie oferowali tej samej wydajności i niezawodności. Po przejściu na Gowaf nasi użytkownicy natychmiast zauważyli, jak szybkie i niezawodne stało się pobieranie”.",
@@ -544,7 +544,7 @@
   "KB2o5qPgAWHfaaxMj0NAA": "Zaburzające ceny",
   "KBPy3XUmJP6XVIIURLr_B": "Zwiększ konwersje",
   "KIoy0v3A969pTYAwErar6": "Uprościsz złożone koncepcje sieciowe, angażując artykuły Akademii Gowaf, pracując nad studiami przypadków i przewodnikami użytkownika dla naszego dashboardu.",
-  "KJYNNOm9KiW7EiCKx3_Sp": "Zmieniamy grę wydajnościową WordPress: Przedstawiamy nową wtyczkę Gowaf.com",
+  "KJYNNOm9KiW7EiCKx3_Sp": "Zmieniamy grę wydajnościową WordPress: Przedstawiamy nową wtyczkę gowaf.com",
   "KJZtJNAs4obZKKAWYBDWu": "Jak poprawnie skonfigurować ścieżkę wyzwalacza reguły krawędzi",
   "KPxgrA7C1vxgTC_oCQFMP": "Dokumentacja produktu Gowaf DNS, przewodniki integracji i pomoc w rozwiązywaniu problemów.",
   "KSRRbtf6jpMcWCBT-ZYIu": "Zminimalizuj CSS",
@@ -833,7 +833,7 @@
   "V9oHNFRO59r-4Z0QLhkx5": "poprzez redukcję skarg użytkowników",
   "VEjyXC8EDvcupdbfuONz4": "Rozpocznij buforowanie teraz",
   "VIhtCnAYPxvSXFfMj93dY": "Pierwsza koncepcja własnego CDN",
-  "VIkO3GosI8TvChwX2gPur": "Do programu partnerskiego może przystąpić każdy, kto posiada płatne konto Gowaf.com.",
+  "VIkO3GosI8TvChwX2gPur": "Do programu partnerskiego może przystąpić każdy, kto posiada płatne konto gowaf.com.",
   "VL5HyKzaBevi8GnrdMRxH": "Jak skonfigurować bezpośredni adres URL źródła adresu IP z niestandardową nazwą hosta za pomocą reguł Edge",
   "VN5OPrjZinkM0mxUG3WiS": "1-milion stron internetowych",
   "VNf9rm66LHZ_5L54rOR0-": "Moskwa, RU",
@@ -852,7 +852,7 @@
   "VyJg-p56OLii0yWmWO843": "Jak poprawnie skonfigurować ścieżkę wyzwalacza reguły krawędzi",
   "W-eFlFt59mURkqdsXRfiN": "Nie chcemy, żebyś tu po prostu pracował. Chcemy, żebyś należał.",
   "W1xdfjz0OdGg1O4nO7oeO": "Z powodzeniem",
-  "W4FDTntcVs2yotM9mfnuj": "„Praca z zespołem Gowaf.com to przyjemność! Jeszcze zanim przeszliśmy na ich doskonałą sieć CDN, dodali kilka funkcji, których potrzebowaliśmy do przejścia. A potem bardzo szybko dodali nowe funkcje lub rozwiązali każdy problem \nmieliśmy prawdziwego, długoterminowego partnera, którego naprawdę doceniamy!”",
+  "W4FDTntcVs2yotM9mfnuj": "„Praca z zespołem gowaf.com to przyjemność! Jeszcze zanim przeszliśmy na ich doskonałą sieć CDN, dodali kilka funkcji, których potrzebowaliśmy do przejścia. A potem bardzo szybko dodali nowe funkcje lub rozwiązali każdy problem \nmieliśmy prawdziwego, długoterminowego partnera, którego naprawdę doceniamy!”",
   "W4gWVYZ6aPrMJitL8D2_a": "Ogden, Utah",
   "W6LiYOmeh2u28WLrQXA0W": "Melbourne, Australia",
   "W90ZhOTYA6jEZEwOIYBiZ": "porzucając starą sieć lustrzaną",
@@ -874,7 +874,7 @@
   "WpTDNzbASQwn09-EV9wpR": "26 kwietnia 2024",
   "Wq_vptFMpeS5cAlNdyWlG": "Gowaf",
   "Wsk2AgEKw9sxOnadqLNv8": "Nasz cennik był od początku jasny, wolny od mikrotransakcji i ukrytych opłat. \nInnoGames płaciło tylko za to, czego potrzebowało, nic więcej. \nNie wspominając, że zaoszczędzili, przechodząc na Gowaf.",
-  "WuXsIoHUAmrfgEFeol18D": "Wydajność ma znaczenie, a naszym celem jest przeniesienie jej na wyższy poziom. \nGowaf.com pomaga doładować Twoją obecność w sieci dzięki zaawansowanym funkcjom zaprojektowanym z myślą o wydajnym globalnym buforowaniu i optymalizacji treści, aby wycisnąć każdą ostatnią milisekundę wydajności.",
+  "WuXsIoHUAmrfgEFeol18D": "Wydajność ma znaczenie, a naszym celem jest przeniesienie jej na wyższy poziom. \ngowaf.com pomaga doładować Twoją obecność w sieci dzięki zaawansowanym funkcjom zaprojektowanym z myślą o wydajnym globalnym buforowaniu i optymalizacji treści, aby wycisnąć każdą ostatnią milisekundę wydajności.",
   "WyFlKMEvY5fxY4a9FXN0o": "Maksymalizuj wydajność dzięki routingowi globalnemu",
   "WytoBo2Hamit6anAsjl2M": "Dzięki SafeHop nieudane żądanie do źródła jest automatycznie wysyłane do następnego serwera lub ponownie wysyłane do tego samego serwera po skonfigurowanym opóźnieniu.",
   "X4O7ksNH2UIMXKz5ss0oG": "Przetwarzanie obrazu",
@@ -948,7 +948,7 @@
   "ZrqBv1aNdpYjmNwo6qOu3": "Zachwyć swoich gości niezapomnianym doświadczeniem dzięki szybszemu czasowi ładowania witryny.",
   "Zsw9Nk5Nlgypf2-KFaCn9": "każdego użytkownika w milisekundach w całej Oceanii za pośrednictwem lokalnie zbudowanej i zoptymalizowanej sieci anycast. \nFirma Gowaf, zlokalizowana w 6 kluczowych dużych miastach Australii i Nowej Zelandii, pomaga zapewnić wyjątkową wydajność w każdym przypadku.",
   "ZuTIgnFaTgUR_gFGn5b2x": "Zmniejsz ruch początkowy",
-  "Zx21tsbworl9vdhuUH5BL": "W Gowaf.com żyjemy i oddychamy wydajnością. \nDotyczy to również zespołu Super Gowaf. \nNasze wsparcie w zakresie zgłoszeń zapewnia niezrównany czas pierwszej odpowiedzi poniżej 5 minut i czas rozwiązania wynoszący 3 godziny. \nJesteśmy gotowi i czekamy za klawiaturą, aby pomóc Ci rozwiązać każdy problem!",
+  "Zx21tsbworl9vdhuUH5BL": "W gowaf.com żyjemy i oddychamy wydajnością. \nDotyczy to również zespołu Super Gowaf. \nNasze wsparcie w zakresie zgłoszeń zapewnia niezrównany czas pierwszej odpowiedzi poniżej 5 minut i czas rozwiązania wynoszący 3 godziny. \nJesteśmy gotowi i czekamy za klawiaturą, aby pomóc Ci rozwiązać każdy problem!",
   "Zx6On0tWC7wQIwEEQnbqn": "Silnik routingu uwzględniający zawartość",
   "_0PiRSQb6j-WZdBheStVS": "HUB programisty",
   "_1KU6D90IMmbw-p6Wc7N_": "Zachowaj spokój ducha dzięki wbudowanym funkcjom zabezpieczeń i ochronie przed atakami DDoS.",
@@ -959,7 +959,7 @@
   "_9jeOA8gD6T0YKmNysdoW": "Elastyczne godziny",
   "_AQtApLT79qgBUfLu40Sk": "Zespół Gowaf nie zawiódł. \nStworzyliśmy sieć zapewniającą szybkie i niezawodne połączenie z siecią zapasową typu peer-to-peer, która wyeliminowała buforowanie w godzinach szczytu. \nFirma OTT Solutions zauważyła również, że w niektórych regionach Gowaf był szybszy niż inne sieci CDN. \nDzięki naszej bibliotece wsparcia wdrożenie Gowaf CDN było tak szybkie, jak przeskok Gowaf.",
   "_Bgb1KMtzmgHEYu9LHB3k": "Informacje DNS",
-  "_IlRm7s-EC6vRD5mg8Z8M": "Zredukuj przestoje witryny i nieudane żądania nawet o 80%, wykorzystując przełączanie awaryjne regionu Gowaf.com. \nPowstrzymaj awarie centrów danych przed wpływem na dostarczalność i czas pracy dzięki globalnej replikacji w czasie rzeczywistym i natychmiastowemu inteligentnemu przekierowywaniu ruchu.\\nNigdy więcej nie zostawiaj czasu pracy przypadkowi. \nEdge Storage nadmiarowo replikuje Twoje pliki na całym świecie i gwarantuje, że Twoje treści będą zawsze dostępne.",
+  "_IlRm7s-EC6vRD5mg8Z8M": "Zredukuj przestoje witryny i nieudane żądania nawet o 80%, wykorzystując przełączanie awaryjne regionu gowaf.com. \nPowstrzymaj awarie centrów danych przed wpływem na dostarczalność i czas pracy dzięki globalnej replikacji w czasie rzeczywistym i natychmiastowemu inteligentnemu przekierowywaniu ruchu.\\nNigdy więcej nie zostawiaj czasu pracy przypadkowi. \nEdge Storage nadmiarowo replikuje Twoje pliki na całym świecie i gwarantuje, że Twoje treści będą zawsze dostępne.",
   "_O2oA9FjRMAVo4Byu7SWE": "Helsinki, FI",
   "_OWD39-7wbYUPit83Auv7": "50 miliardów",
   "_S-zyb2WIL-Ii5O4eKkTF": "Dołącz do sieci obsługiwanej przez starannie wybranych dostawców z najwyższej klasy centrami danych.",
@@ -980,7 +980,7 @@
   "a1rei1ov-CPkldNWCShQt": "Elastyczne godziny",
   "a2P_clQ6hvkeUueExxab-": "Uszczęśliwienie Cię jest naszym priorytetem",
   "a6tAnOiM5n8ZJ4ScxkARf": "Starszy inżynier (front-end)",
-  "a9MikvGlls2ayw3Gsjf6R": "Podłącz Strefę Pull lub prześlij nasze pliki bezpośrednio na Gowaf.com.",
+  "a9MikvGlls2ayw3Gsjf6R": "Podłącz Strefę Pull lub prześlij nasze pliki bezpośrednio na gowaf.com.",
   "a9Mv9dtLYM0n_adNbbyjt": "Przesyłanie logów w czasie rzeczywistym",
   "aAVbicSCCnnTzjPBh2fld": "Właściciel produktu (strumień)",
   "aBftC0NbhkPUijTrsMnBe": "Dostarczanie zawartości",
@@ -991,7 +991,7 @@
   "aKd6fPOGJdiLq-c0yL7gu": "Pierwsze kroki",
   "aOFJoAoDmYUZHdOawQFpG": "Od 0,085 USD/GB",
   "aQEJxqzMMh5E7t0GXixMY": "Dlaczego więc producent komputerów PC korzysta z Gowaf? \nAby utrzymać te fajne platformy do gier, NZXT co miesiąc dostarcza aktualizacje optymalizacyjne milionowi użytkowników korzystających z oprogramowania CAM. \nNZXT przybył do Gowaf na początku 2023 r. w poszukiwaniu lepszej miesięcznej stawki dystrybucji, ale otrzymał o wiele więcej.",
-  "aQp4wlCR46UGTpq-bttzc": "Utwórz płatne konto w Gowaf.com.",
+  "aQp4wlCR46UGTpq-bttzc": "Utwórz płatne konto w gowaf.com.",
   "aT0yUcJjL1Qo6GT1TfQl9": "Wszystkie funkcje",
   "aWX7R14-2pEPDJOiU51Fu": "Wykorzystaj pamięć podręczną nowej generacji, aby wyprzedzić konkurencję.",
   "aXtm569GloIHL9oZvB_Er": "Gry VR",
@@ -1049,7 +1049,7 @@
       "title": "Zarezerwuj spotkanie z ekspertem gowaf na Broadcast Asia 2024!"
     }
   },
-  "bqdP31P6kwehm-KZVgWJG": "„Szczyt przebiegł sprawnie! bez ani jednej skargi. Ogólnie rzecz biorąc, Gowaf.com to po prostu bardzo kompletne rozwiązanie. Obsługa filmów dzięki Gowaf jest niezwykle łatwa – nie potrzebujesz dużo szkolenia. \nbardzo usprawnione.”",
+  "bqdP31P6kwehm-KZVgWJG": "„Szczyt przebiegł sprawnie! bez ani jednej skargi. Ogólnie rzecz biorąc, gowaf.com to po prostu bardzo kompletne rozwiązanie. Obsługa filmów dzięki Gowaf jest niezwykle łatwa – nie potrzebujesz dużo szkolenia. \nbardzo usprawnione.”",
   "btusbPEqeOEQkyYlmlLnY": "Lagos, NG",
   "byTMDh4RDFdG0FU7Gp1OT": "Będziesz kierować rozwojem i zarządzaniem linią produktów Gowaf Edge Compute, kierując i rozwijając przyszłościową",
   "c-hGt9Nm5OjdMnQ1JYGHS": "Właściciel produktu (CDN)",
@@ -1136,7 +1136,7 @@
   "fYXKTrDDI8kXJfmWohV25": "Płatne zwolnienie lekarskie",
   "f_R3P9HNP5ltE8ETwL4Ej": "Jak używać reguł Edge, aby ustawić niestandardowy czas pamięci podręcznej dla rozszerzenia pliku",
   "fb2mCvcpcC7_M-DK0hIt7": "Elastyczne ceny",
-  "fbmZzb76944f7qay46lDB": "„Praca z zespołem Gowaf.com to przyjemność! \nJeszcze zanim przeszliśmy na ich doskonałą sieć CDN, dodali kilka funkcji, których potrzebowaliśmy do przejścia. \nA potem tak szybko dodali nowe funkcje lub rozwiązali każdy nasz problem! \nPrawdziwy długoterminowy partner, którego naprawdę doceniamy!”",
+  "fbmZzb76944f7qay46lDB": "„Praca z zespołem gowaf.com to przyjemność! \nJeszcze zanim przeszliśmy na ich doskonałą sieć CDN, dodali kilka funkcji, których potrzebowaliśmy do przejścia. \nA potem tak szybko dodali nowe funkcje lub rozwiązali każdy nasz problem! \nPrawdziwy długoterminowy partner, którego naprawdę doceniamy!”",
   "feQGdTJI4u6AoECQxK1bI": "Uwierzytelnianie tokenem",
   "fgYPbHczHgnELGGyRuZ0m": "Doświadczenie strony internetowej bez CDN",
   "fgkyC0-EEhCgpvgar57vu": "9,50 $ / strona internetowa",
@@ -1200,12 +1200,12 @@
   "hC-unQx-5bnwrQemWAq2h": "Natychmiastowe czyszczenie pamięci podręcznej",
   "hCERlwzgenWvSFo_eHfMu": "śr. \nodpowiedź",
   "hGQ0fw-RfyTC8zryyBqmx": "Docieraj do użytkowników dzięki bezpośredniej łączności lokalnej w całej Azji. \nGowaf jest umiejscowiony we wszystkich kluczowych ośrodkach, aby zapewniać niezrównane wyniki w regionie, w tym na rynkach wschodzących, dzięki strategicznym partnerstwom lokalnym.",
-  "hJ3T-p3qQf7PgrqS___dW": "Opowiedz nam o swoim projekcie i o tym, jak Gowaf.com może Ci pomóc.",
+  "hJ3T-p3qQf7PgrqS___dW": "Opowiedz nam o swoim projekcie i o tym, jak gowaf.com może Ci pomóc.",
   "hLuaGmDFFCnuRTMGA2FxO": "Bezpłatny ruch do Gowaf CDN",
   "hMP2244AATW07Xill9Nnk": "Chroń się przed atakami DDoS. \nZapewnij bezbłędny czas pracy i nigdy więcej nie zepsuj się. \nDbamy o minimalizację DDoS, abyś mógł skupić się na swoim produkcie!",
   "hRh8DtkzLCT80okinhCXT": "Jako mały zespół Timbo Jimbo był pomijany przez innych dostawców CDN. \nGowaf umożliwił im rozpalenie ich pasji w projekcie. \nPo przejściu na króliczka Timbo Jimbo pobiegł na stronę główną App Store.",
   "hUH0ITeVjxgiPVk8N8WXq": "Do 80%",
-  "hVZvyVFQZA1hXV83roW7e": "„Odbyliśmy szczyt flow! bez ani jednej skargi. Ogólnie rzecz biorąc, Gowaf.com to po prostu bardzo kompletne rozwiązanie. Obsługa filmów z Gowaf jest niezwykle łatwa – nie potrzebujesz dużo szkolenia. \nbardzo usprawnione.”",
+  "hVZvyVFQZA1hXV83roW7e": "„Odbyliśmy szczyt flow! bez ani jednej skargi. Ogólnie rzecz biorąc, gowaf.com to po prostu bardzo kompletne rozwiązanie. Obsługa filmów z Gowaf jest niezwykle łatwa – nie potrzebujesz dużo szkolenia. \nbardzo usprawnione.”",
   "hZp5HvQYV-Fx5qU32tSN1": "Jak poprawnie skonfigurować ścieżkę wyzwalacza reguły krawędzi",
   "hdyE1v9Ss1JUbDZnHpuwb": "Skorzystaj z dwóch prostych cen typu „pay-as-you-go”, dostosowanych do każdego budżetu, już od 0,02 USD/GB.",
   "he4pY-_sfjylaV3hu4P5I": "Cześć!",
@@ -1244,7 +1244,7 @@
         "subTitle": "Rozpocznij w ciągu kilku sekund. \nNie wymagamy karty kredytowej. \nAnuluj w dowolnym momencie.",
         "title": "Zapewnij bezpieczeństwo wideo o jeden krok do przodu!"
       },
-      "hint": "Aby wziąć udział w programie, wymagane jest konto Gowaf.com.",
+      "hint": "Aby wziąć udział w programie, wymagane jest konto gowaf.com.",
       "listBtn": "Zdobądź swój kod partnerski",
       "mksubtitle": "Skorzystaj z gotowych materiałów marketingowych. \nWybierz z naszej obszernej biblioteki banerów reklamowych i znajdź idealny rozmiar dla siebie.",
       "mktitle": "Gotowe materiały marketingowe",
@@ -1262,7 +1262,7 @@
     "ResetPassword": {
       "BacktoLog In": "Powrót do logowania",
       "loginbtn": "Zresetuj hasło",
-      "subtitle": "Aby zresetować hasło, wpisz adres e-mail swojego konta Gowaf.com.",
+      "subtitle": "Aby zresetować hasło, wpisz adres e-mail swojego konta gowaf.com.",
       "title": "Zresetuj hasło"
     },
     "SLA": {
@@ -1274,10 +1274,10 @@
       },
       "title": "Zostań online.  \nNieważne co."
     },
-    "SLAcontent1": "Platforma Gowaf.com została zaprojektowana z myślą o wydajności i stabilności. \nNasz system wykorzystuje automatyczne leczenie i przełączanie awaryjne w przypadku awarii serwera, korzystając z wielu metod monitorowania czasu pracy i wydajności. \nCo więcej, nasz zespół pracuje przez całą dobę, aby zapobiegać i minimalizować wszelkie zakłócenia oraz zapewniać optymalną wydajność na całym świecie.",
+    "SLAcontent1": "Platforma gowaf.com została zaprojektowana z myślą o wydajności i stabilności. \nNasz system wykorzystuje automatyczne leczenie i przełączanie awaryjne w przypadku awarii serwera, korzystając z wielu metod monitorowania czasu pracy i wydajności. \nCo więcej, nasz zespół pracuje przez całą dobę, aby zapobiegać i minimalizować wszelkie zakłócenia oraz zapewniać optymalną wydajność na całym świecie.",
     "SLAcontent2": "Wykorzystując redundantną architekturę i inteligentny routing BGP, osiągamy automatyczne przełączanie awaryjne dla naszego systemu DNS zarówno w przypadku awarii sprzętu lub sieci. \nMonitorujemy nasze serwery brzegowe PoP w czasie rzeczywistym, aby wykryć wszelkie problemy z siecią lub pogorszenie wydajności i inteligentnie obejść je.",
     "SupportHUB": {
-      "subtitle": "Przewodniki, rozwiązywanie problemów i prośby o pomoc, które pomogą Ci rozpocząć korzystanie z Gowaf.com.",
+      "subtitle": "Przewodniki, rozwiązywanie problemów i prośby o pomoc, które pomogą Ci rozpocząć korzystanie z gowaf.com.",
       "title": "Jak możemy ci pomóc?"
     },
     "avgWorldwideLatency": "Śr. \nOgólnoświatowe opóźnienie",
@@ -1389,7 +1389,7 @@
   "huW9ePnAVZHOK-rSCJYxJ": "Nierzadko zdarza się, że przeskoki w środku zgłaszają utratę pakietów przez routery, które są ustawione tak, aby tracić priorytety lub ignorować pakiety ICMP. \nZwykle zaleca się skupienie się przede wszystkim na utracie pakietów w ostatnim przeskoku miejsca docelowego, aby uzyskać dokładniejsze zrozumienie potencjalnego problemu.",
   "hw6EmgePUAUvvdMFoS2yc": "100 000 stref ściągania",
   "hwhw48dVM8CgDfWOy1Nlg": "Wsparcie 24/7",
-  "hxHlxIC5DlozfTMF-GW6d": "Może się to wydawać niewiarygodne, ale w Gowaf.com nasze Super Króliczki są gotowe i czekają, aby Ci pomóc 24 godziny na dobę, 7 dni w tygodniu. \nNie musisz się więc martwić częstym stukaniem palcami i oczekiwaniem na rozwiązanie problemu. \nPracujemy przez całą dobę, aby zapewnić Ci jak największą przyjemność!",
+  "hxHlxIC5DlozfTMF-GW6d": "Może się to wydawać niewiarygodne, ale w gowaf.com nasze Super Króliczki są gotowe i czekają, aby Ci pomóc 24 godziny na dobę, 7 dni w tygodniu. \nNie musisz się więc martwić częstym stukaniem palcami i oczekiwaniem na rozwiązanie problemu. \nPracujemy przez całą dobę, aby zapewnić Ci jak największą przyjemność!",
   "hzu2xlUxnAmJHQUIzgx3m": "Elastyczne godziny",
   "i-Oum0134WeFacrakba43": "Konfigurowalne transkodowanie",
   "i5T2b0lykTBZnBm4dLBCE": "Elastyczne godziny",
@@ -1449,7 +1449,7 @@
   "k_RztUth-JCSMuaEO-iN6": "Nie lubisz pracować rano? \nWybierz swój własny harmonogram pracy.",
   "ka0ZkKxOlkTrc2yzXO1Mr": "Bezpłatne szyfrowanie SSL",
   "kaxylTM8WsnZRDAo-y4U8": "zasilany przez sieć szkieletową 120 PoP i 80 Tbps",
-  "kcvRkBuOq5CgaWZ0Yo01Z": "Nie mówimy tylko o wydajności. \nPokazujemy to. \nSieć Gowaf oferuje niezrównaną wydajność przy średnim globalnym opóźnieniu poniżej 29 ms. \nZapomnij o planach korporacyjnych. \nDzięki Gowaf.com Twoje aplikacje internetowe będą działać z prędkością światła, niezależnie od skali.",
+  "kcvRkBuOq5CgaWZ0Yo01Z": "Nie mówimy tylko o wydajności. \nPokazujemy to. \nSieć Gowaf oferuje niezrównaną wydajność przy średnim globalnym opóźnieniu poniżej 29 ms. \nZapomnij o planach korporacyjnych. \nDzięki gowaf.com Twoje aplikacje internetowe będą działać z prędkością światła, niezależnie od skali.",
   "keltIF1Ff--W9BkdZlY8T": "Niższe koszty",
   "kkr1ENX9FjJ8XI6ZVDvDH": "Niesamowita wydajność i niezrównana niezawodność",
   "kmPbeiV65cWBGJfnUzfYc": "Jak przekierować nazwę hosta b-cdn.net na niestandardową nazwę hosta CDN przy użyciu reguł brzegowych",
@@ -1511,9 +1511,9 @@
   "n5JKplN_j3qilT03prTA7": "Elastyczne godziny",
   "n9PeQRJ-8iY0KnSyq2O3O": "Utrzymuj swoją markę w centrum uwagi na każdym etapie swojej obecności w Internecie. \nZ łatwością skonfiguruj niestandardowe serwery nazw we własnej domenie niestandardowej za pomocą zaledwie kilku kliknięć i bez dodatkowych kosztów. \nOdblokuj wewnętrzne delegacje, aby uzyskać korzyści administracyjne bez zarządzania siecią.",
   "nEOHAHwLSsGi0mc3bkQcf": "Upewnij się, że Twoje pełnowymiarowe obrazy pozostają bezpieczne i chronione dzięki automatycznemu znakowaniu wodnemu, uwierzytelnianiu tokenem i klasom obrazów. \nWyświetlaj tylko te formaty, które chcesz, bez skomplikowanych zabezpieczeń i uprawnień sieciowych.\\nWyprzedź konkurencję, korzystając z solidnych zabezpieczeń Gowaf Optimizer, które możesz skonfigurować kilkoma kliknięciami.",
-  "nFU7aNLJGX1L2St2iXwTJ": "Zarobione saldo możesz wypłacić w dowolnym momencie na swoje konto Gowaf.com.",
+  "nFU7aNLJGX1L2St2iXwTJ": "Zarobione saldo możesz wypłacić w dowolnym momencie na swoje konto gowaf.com.",
   "nH_CSdx1bvsnNVFWOQp05": "Zaczynając od 99 dolarów",
-  "nIplQ4i_lTFLgIdHFOOze": "Uzyskaj pełną kontrolę nad połączeniem Origin, konfigurując czas oczekiwania Gowaf.com na odpowiedź, zanim się podda. \nW razie potrzeby awaria może nastąpić szybciej lub poczekać do 60 sekund lub dłużej, aby dopasować ją do potrzeb aplikacji.",
+  "nIplQ4i_lTFLgIdHFOOze": "Uzyskaj pełną kontrolę nad połączeniem Origin, konfigurując czas oczekiwania gowaf.com na odpowiedź, zanim się podda. \nW razie potrzeby awaria może nastąpić szybciej lub poczekać do 60 sekund lub dłużej, aby dopasować ją do potrzeb aplikacji.",
   "nJlk9_nyC4gHonEJrtCR0": "Perth, Australia",
   "nKW0THu6D57T52EAqvke4": "Dyrektor ds. transmisji strumieniowej w OneStudio",
   "nMNBy7Bh1_a6U2F4SDgXP": "Chroń się przed wszelkimi atakami dzięki najnowocześniejszym zabezpieczeniom łagodzącym ataki DDoS.",
@@ -1531,7 +1531,7 @@
   "network": {
     "WebTools": {
       "DNSLookur": {
-        "subtitle": "Wprowadź adres URL swojego pliku lub witryny internetowej, aby przetestować połączenie z sieci Gowaf.com do swojego serwera.",
+        "subtitle": "Wprowadź adres URL swojego pliku lub witryny internetowej, aby przetestować połączenie z sieci gowaf.com do swojego serwera.",
         "title": "Test wyszukiwania DNS"
       },
       "DiagnosticReport": {
@@ -1551,7 +1551,7 @@
         "Worst": "Najgorszy",
         "title": "Globalny test Traceroute"
       },
-      "bennerSubTitle": "Narzędzia, które pomogą Ci zoptymalizować i rozpocząć korzystanie z Gowaf.com oraz przeprowadzić testy i diagnostykę sieci z ponad 120 lokalizacji na całym świecie.",
+      "bennerSubTitle": "Narzędzia, które pomogą Ci zoptymalizować i rozpocząć korzystanie z gowaf.com oraz przeprowadzić testy i diagnostykę sieci z ponad 120 lokalizacji na całym świecie.",
       "bennerTitle": "Globalne narzędzia diagnostyczne sieci"
     },
     "breadCrumbs": {
@@ -1882,7 +1882,7 @@
           "title": "Wyobrażasz to sobie. \nPomożemy Ci go zbudować."
         },
         "header": {
-          "content": "Poznaj zaawansowane funkcje Gowaf CDN, które pomogą Ci przenieść aplikacje internetowe na wyższy poziom. \nGowaf.com zapewnia wszystko, czego potrzebujesz, aby zwiększyć swoją obecność w Internecie i zapewnić bezpieczne i płynne działanie aplikacji internetowych przez cały czas.",
+          "content": "Poznaj zaawansowane funkcje Gowaf CDN, które pomogą Ci przenieść aplikacje internetowe na wyższy poziom. \ngowaf.com zapewnia wszystko, czego potrzebujesz, aby zwiększyć swoją obecność w Internecie i zapewnić bezpieczne i płynne działanie aplikacji internetowych przez cały czas.",
           "preTitle": "Funkcje CDN",
           "title": "CDN pełen zaawansowanych funkcji"
         }
@@ -2016,7 +2016,7 @@
         },
         "header": {
           "btn": "Rozpocznij 14-dniowy bezpłatny proces",
-          "content": "Gowaf.com pomaga zapewnić spójne doświadczenia na całym świecie. \nDzięki lokalnej łączności w wielu krajach Afryki i Bliskiego Wschodu pomagamy Twoim klientom szybciej uzyskać dostęp do Twoich treści, niezależnie od tego, czy pochodzą z Kenii, czy z Kapsztadu.",
+          "content": "gowaf.com pomaga zapewnić spójne doświadczenia na całym świecie. \nDzięki lokalnej łączności w wielu krajach Afryki i Bliskiego Wschodu pomagamy Twoim klientom szybciej uzyskać dostęp do Twoich treści, niezależnie od tego, czy pochodzą z Kenii, czy z Kapsztadu.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Afryka",
           "title": "Minimalizuj opóźnienia. \n\nGdziekolwiek.Awalis."
@@ -2042,7 +2042,7 @@
         },
         "header": {
           "btn": "Rozpocznij 14-dniowy bezpłatny proces",
-          "content": "Docieraj do użytkowników dzięki bezpośredniej łączności lokalnej w całej Azji. \nGowaf.com jest umiejscowiony we wszystkich kluczowych ośrodkach, aby zapewnić niezrównaną wydajność w regionie, w tym na rynkach wschodzących, dzięki strategicznym partnerstwom lokalnym.",
+          "content": "Docieraj do użytkowników dzięki bezpośredniej łączności lokalnej w całej Azji. \ngowaf.com jest umiejscowiony we wszystkich kluczowych ośrodkach, aby zapewnić niezrównaną wydajność w regionie, w tym na rynkach wschodzących, dzięki strategicznym partnerstwom lokalnym.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Azja",
           "title": "Dostarczaj bez zarzutu \n\ndoświadczenie w Azji"
@@ -2068,7 +2068,7 @@
         },
         "header": {
           "btn": "Rozpocznij 14-dniowy bezpłatny proces",
-          "content": "Docieraj do użytkowników w całej Oceanii w ciągu milisekund za pośrednictwem lokalnie zbudowanej i zoptymalizowanej sieci anycast. Gowaf.com, zlokalizowany w 6 kluczowych dużych miastach Australii i Nowej Zelandii, pomaga zapewnić wyjątkową wydajność dla każdego żądania.",
+          "content": "Docieraj do użytkowników w całej Oceanii w ciągu milisekund za pośrednictwem lokalnie zbudowanej i zoptymalizowanej sieci anycast. gowaf.com, zlokalizowany w 6 kluczowych dużych miastach Australii i Nowej Zelandii, pomaga zapewnić wyjątkową wydajność dla każdego żądania.",
           "hint": "Nie potrzeba karty kredytowej. \nZacznij w kilka sekund.",
           "preTitle": "CDN Australia",
           "title": "Mały Kontynent. \n\nDuża wydajność."
@@ -2092,7 +2092,7 @@
           "title": "Zaskakująco przystępne"
         },
         "SaveMoney": {
-          "hint": "Testowano w 14 lokalizacjach Gowaf.com w Europie, Ameryce Północnej, Azji, Ameryce Południowej, Australii i Republice Południowej Afryki.",
+          "hint": "Testowano w 14 lokalizacjach gowaf.com w Europie, Ameryce Północnej, Azji, Ameryce Południowej, Australii i Republice Południowej Afryki.",
           "subTitle": "Wyprzedź konkurencję.",
           "title": "Porozmawiajmy o liczbach"
         },
@@ -2281,7 +2281,7 @@
           "hint": "(*) Obsługuje główne przeglądarki"
         },
         "email": {
-          "content1": "Podczas przejścia na Gowaf.com uznaliśmy usługę za wzorową – na każdym etapie procesu byli gotowi pomóc i bardzo to ułatwili. Teraz, gdy jesteśmy już w pełni przełączeni, nie moglibyśmy być szczęśliwsi – wszystko jest",
+          "content1": "Podczas przejścia na gowaf.com uznaliśmy usługę za wzorową – na każdym etapie procesu byli gotowi pomóc i bardzo to ułatwili. Teraz, gdy jesteśmy już w pełni przełączeni, nie moglibyśmy być szczęśliwsi – wszystko jest",
           "content2": "Poliyfill dodaje linię obrony innym naszym dostawcom CDN. Jestem zadowolony z usługi - wszystko działa.",
           "form": {
             "btn": "Wysłać email",
@@ -2480,7 +2480,7 @@
       "header": {
         "content": "Naszą misją jest przyspieszenie działania Internetu na całym świecie. \nJesteśmy podekscytowani możliwością podzielenia się tym, jak posunęliśmy się do przodu w 2023 r., stając się najszybszą siecią CDN na świecie, oraz podróżą, która nas tam doprowadziła…",
         "preTitle": "Wiadomości z bloga Gowaf",
-        "title": "Hopping Ahead: Gowaf.com zajmuje pierwsze miejsce"
+        "title": "Hopping Ahead: gowaf.com zajmuje pierwsze miejsce"
       },
       "paging1": "Seans",
       "paging2": "poza",
@@ -2836,7 +2836,7 @@
           "subTitle": "Zmaksymalizuj siłę marki, dostosowując każdy aspekt odtwarzacza aż do nazwy hosta CDN.",
           "title": "Zrób to po swojemu"
         },
-        "subTitle": "Skorzystaj z w pełni konfigurowalnego odtwarzacza multimedialnego Gowaf.com.",
+        "subTitle": "Skorzystaj z w pełni konfigurowalnego odtwarzacza multimedialnego gowaf.com.",
         "title": "Prosty, czysty i konfigurowalny odtwarzacz"
       }
     },
@@ -2982,7 +2982,7 @@
   "uzHsIUF-eiDvKDM6SwEHU": "Kair, EG",
   "v-1-C550JBTA1-25COkFY": "Wyeliminuj ogromne koszty pobierania dużej liczby plików dzięki prostemu cennikowi typu „pay-as-you-go”.",
   "v5xd8sz7gg9qxrvMjEbRG": "Jak używać reguł Edge, aby ustawić niestandardowy czas pamięci podręcznej dla rozszerzenia pliku",
-  "v6IIRsugMFA9Gx5mSHkFU": "„Uważamy, że usługa Gowaf.com jest znakomita. Doskonały interfejs użytkownika, dobra cena i doskonałe wsparcie techniczne. Jeden z najlepszych dostawców usług online, z jakim mieliśmy do czynienia.”",
+  "v6IIRsugMFA9Gx5mSHkFU": "„Uważamy, że usługa gowaf.com jest znakomita. Doskonały interfejs użytkownika, dobra cena i doskonałe wsparcie techniczne. Jeden z najlepszych dostawców usług online, z jakim mieliśmy do czynienia.”",
   "v7OInaCmuaKc5DP0C3Gdp": "Uprościsz złożone koncepcje sieciowe, angażując artykuły Akademii Gowaf, pracując nad studiami przypadków i przewodnikami użytkownika dla naszego dashboardu.",
   "v7yT3xgPMpesJG2PT3n4a": "Więc Younity postanowił spróbować Gowafa. \nOdtwarzacz wideo Gowaf Stream zapewnia płynną transmisję na żywo – bez buforowania i awarii. \nWiedzieliśmy, że Younity potrzebuje szybkich odpowiedzi, aby utrzymać płynność! \nSzczyt przebiegł sprawnie, dlatego zapewniliśmy im szybkie wsparcie Slack 24 godziny na dobę, 7 dni w tygodniu, aby wspierać ich na każdym kroku. \nWreszcie Younity przeniosło swoje strony internetowe do Gowaf CDN, aby poprawić jakość obrazu i skrócić czas ładowania strony.",
   "vCyatgYi22iOeAKniCizq": "Skontaktuj się ze sprzedażą",
@@ -3012,7 +3012,7 @@
   "w2fiKGHRh7aMk7FdQ3nyE": "Lista zmiennych dynamicznych w adresie URL przekierowania reguły granicznej",
   "w32iySanS0KFULmHnSnb5": "Transkodowanie wideo/audio",
   "w4DuueNYdpS27g4jPFEEp": "Narzędzie traceroute zwykle wykorzystuje komunikaty ICMP do wysyłania pakietów echa. \nNastępnie mierzy czas odpowiedzi pomiędzy momentem wysłania wiadomości a momentem otrzymania odpowiedzi, co nazywa się opóźnieniem. \nWartość ta jest obliczana dla każdego przeskoku sieci, aby zapewnić jak największy wgląd w trasę sieci. \nMożliwe jest również uruchomienie trasy trasowanej w trybie TCP w sytuacjach, gdy ICMP jest niedostępny, jednak jest to mniej powszechne.",
-  "w9_3eBNSANekf81IcGICG": "Czuje się gorzej? \nWspieramy Cię. \nGowaf.com zapewnia zasoby i pomoc w zakresie zdrowia psychicznego za pośrednictwem BetterHelp.com.",
+  "w9_3eBNSANekf81IcGICG": "Czuje się gorzej? \nWspieramy Cię. \ngowaf.com zapewnia zasoby i pomoc w zakresie zdrowia psychicznego za pośrednictwem BetterHelp.com.",
   "wBH5KWfLNOTRuu4QNxg-m": "Lista zmiennych dynamicznych w adresie URL przekierowania reguły granicznej",
   "wBcabXJsct5yZsZUA4LUf": "Jak skonfigurować bezpośredni adres URL źródła adresu IP z niestandardową nazwą hosta za pomocą reguł Edge",
   "wBsXqRNlcWJMLAgt8qiaN": "Ji Kima",
@@ -3066,7 +3066,7 @@
   "xjkYw3pGCoCl8gj8Zi_8f": "Właściciel produktu (DNS)",
   "xnI9os10_Gk_6SRrEKhfF": "Kieruj użytkowników tam, gdzie jest to istotne, w oparciu o treść za pomocą mechanizmu routingu SmartEdge™.",
   "xpiPTwycqE3W9-h2BEdg8": "Wybierz spośród ponad 30 różnych języków dla Ul odtwarzacza.",
-  "xsA5VI_t6Qhu2HZKdIplT": "„Odbyliśmy szczyt flow! bez ani jednej skargi. Ogólnie rzecz biorąc, Gowaf.com to po prostu bardzo kompletne rozwiązanie. Obsługa filmów z Gowaf jest niezwykle łatwa – nie potrzebujesz dużo szkolenia. \nbardzo usprawnione.”",
+  "xsA5VI_t6Qhu2HZKdIplT": "„Odbyliśmy szczyt flow! bez ani jednej skargi. Ogólnie rzecz biorąc, gowaf.com to po prostu bardzo kompletne rozwiązanie. Obsługa filmów z Gowaf jest niezwykle łatwa – nie potrzebujesz dużo szkolenia. \nbardzo usprawnione.”",
   "xuhhXaeMcukdlheazq5g3": "Nie. Oferujemy nieograniczone prowizje – co oznacza, że ​​zawsze zarobisz 20 $ na płacącym kliencie.",
   "xvEw3SHyp5TWLNA8QiKbo": "Trasowanie jest zoptymalizowane i prowadzone w naszych centrach danych, aby absorbować ruch.",
   "xyPfFCVuxYF6_x60WPmLJ": "Pokaż wszystko",
@@ -3271,9 +3271,9 @@
   "V4FquxBF0-Qxi2PVN4hdI": "Zwiększ niezawodność jednym kliknięciem, zmniejszając liczbę błędów pochodzenia nawet o 80%. \nZ łatwością rozwiąż problemy związane z ponownym uruchamianiem oprogramowania, czkawką w sieci lub problemami ze sprzętem.",
   "a9f1rhEwslTmRosGmC1YS": "Trwałe darmowe użycie",
   "gEhA0iwr2mZJG_nBmI--A": "Karta kredytowa nie jest wymagana — rozpocznij pracę w kilka sekund.",
-  "k-nZkJYyPG4n2wJkwfWa3": "Dlaczego Gowaf.com jest lepszym wyborem",
+  "k-nZkJYyPG4n2wJkwfWa3": "Dlaczego gowaf.com jest lepszym wyborem",
   "sWsZrHWTWa9SrBq64cr0z": "Dzięki SafeHop nieudane żądanie do źródła jest automatycznie wysyłane do następnego serwera lub ponownie wysyłane do tego samego serwera po skonfigurowanym opóźnieniu.",
-  "uGl5Gn6wQT0HB1zHyhERe": "Nie bez powodu ponad 40 000 klientów pokochało już Gowaf.com.",
+  "uGl5Gn6wQT0HB1zHyhERe": "Nie bez powodu ponad 40 000 klientów pokochało już gowaf.com.",
   "5HbGO-720R94SAgDJoKio": "Wordpress CDN na rynku",
   "1lJVE5HeTjURTciDYGuK3": "Handel elektroniczny",
   "4zdb1OqkQiGrVzdqYf7Uq": "Najlepsze wrażenia z gier na dowolną skalę.",

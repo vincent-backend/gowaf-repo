@@ -44,7 +44,7 @@
     <div class="inputBox">
       <el-input
         v-model="input"
-        placeholder="Gowaf.com"
+        placeholder="gowaf.com"
         :prefix-icon="CommonInputsubfix"
         class="input-with-select"
       >
@@ -226,11 +226,14 @@ const columnlist = [
 ];
 </script>
 <style lang="scss" scoped>
+.inputBox {
+  width: 100%;
+}
 .input-with-select {
   height: 66px;
   :deep(.el-input__inner) {
     height: 66px;
-    width: 690px;
+    width: 100%;
   }
   :deep(.el-input__wrapper) {
     box-sizing: border-box;
@@ -288,6 +291,8 @@ const columnlist = [
 }
 .BennerList {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   margin-top: 40px;
   gap: 40px;
   .item {
@@ -312,6 +317,7 @@ const columnlist = [
 }
 .more {
   cursor: pointer;
+  margin-top: 15px;
   font-family: PingFangSC, PingFang SC;
   font-weight: 500;
   font-size: 16px;
@@ -336,9 +342,10 @@ const columnlist = [
   }
 }
 .allNations {
-  margin-top: 120px;
+  margin-top: 50px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   .column {
     display: flex;
@@ -363,7 +370,7 @@ const columnlist = [
 .article {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
+  padding: 100px 0px;
   background: #fafafa;
   .article-nav {
     display: flex;
@@ -436,6 +443,96 @@ const columnlist = [
             text-align: left;
             font-style: normal;
             text-transform: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    padding: 0px;
+    .article-nav {
+      display: flex;
+      flex-direction: row;
+      gap:30px;
+      padding: 24px 0px;
+      border-bottom: 1px solid #d8d8d8;
+      .left {
+        margin-right: auto;
+        display: flex;
+        gap: 30px;
+        width: 50%;
+        flex-direction: row;
+        .item {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 14px;
+          color: #000000;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+      }
+      .right {
+        margin-left: auto;
+        display: flex;
+        gap:30px;
+        width: 50%;
+        flex-direction: row;
+        .item {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 500;
+          font-size: 14px;
+          color: #000000;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+      }
+    }
+    .list {
+      margin: 50px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+      .column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        .article-item {
+          flex-direction: column;
+          gap: 16px;
+          display: flex;
+          .title {
+            font-family: Mont, Mont;
+            font-weight: bold;
+            font-size: 30px;
+            color: #000000;
+            line-height: 40px;
+            text-align: left;
+            font-style: normal;
+            text-transform: none;
+          }
+          .content {
+            display: flex;
+            gap: 16px;
+            flex-direction: column;
+            p {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 400;
+              font-size: 16px;
+              color: #4E4E4E;
+              line-height: 26px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
           }
         }
       }

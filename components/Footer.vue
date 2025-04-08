@@ -111,7 +111,7 @@ const i18ntext = computed(() => {
             href: '#'
           },
           {
-            label: 'hello@Gowaf.com',
+            label: 'hello@gowaf.com',
             key: 'email',
             href: '#'
           }
@@ -229,7 +229,7 @@ const i18ntext = computed(() => {
               <div class="contacts">
                 <NuxtLinkLocale class="contact">
                   <span class="icon icon-email"></span>
-                  sales@Gowaf
+                  sales@gowaf.com
                 </NuxtLinkLocale>
                 <NuxtLinkLocale class="contact">
                   <span class="icon icon-phone"></span>
