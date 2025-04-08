@@ -471,6 +471,7 @@ const i18ntext = computed<any>(() => {
   .language {
     width: 33.75rem;
     height: 5rem;
+    margin-bottom: 2rem;
     border-radius: 2.5rem;
     border: 0.13rem solid #e6e6e6;
     display: flex;

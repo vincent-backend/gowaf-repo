@@ -465,7 +465,7 @@ const columnlist = [
       .left {
         margin-right: auto;
         display: flex;
-        gap: 30px;
+        gap: 20px;
         width: 50%;
         flex-direction: row;
         .item {
@@ -481,7 +481,7 @@ const columnlist = [
       .right {
         margin-left: auto;
         display: flex;
-        gap:30px;
+        gap:20px;
         width: 50%;
         flex-direction: row;
         .item {
