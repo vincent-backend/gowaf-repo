@@ -398,7 +398,7 @@ const i18ntext = computed<any>(() => {
   /* backdrop-filter: blur(40px); */
   .menu {
     width: 100%;
-    height: calc(100% - 23.18rem);
+    height: calc(100% - 35rem);
     overflow-y: auto;
     padding-top: 5rem;
     padding: 5rem 1.88rem 0;
