@@ -59,28 +59,27 @@
           </el-select>
         </XsOnly>
         <el-input
-          v-model="input"
+          v-model="domain"
           placeholder="gowaf.com"
           :prefix-icon="CommonInputsubfix"
           class="input-with-select"
         >
           <template #prepend>
             <el-select
-              v-model="select"
-              placeholder=""
+              v-model="dnsType"
               :suffix-icon="CommonIconDropDown"
             >
-              <el-option label="A" value="1" />
-              <el-option label="CNAME" value="2" />
-              <el-option label="MX" value="3" />
-              <el-option label="AAAA" value="4" />
-              <el-option label="TXT" value="5" />
-              <el-option label="NS" value="6" />
-              <el-option label="SRV" value="7" />
+              <el-option label="A" value="A" />
+              <el-option label="CNAME" value="CNAME" />
+              <el-option label="MX" value="MX" />
+              <el-option label="AAAA" value="AAAA" />
+              <el-option label="TXT" value="TXT" />
+              <el-option label="NS" value="NS" />
+              <el-option label="SRV" value="SRV" />
             </el-select>
           </template>
           <template #append>
-            <el-button>
+            <el-button @click="findDns">
               <img
                 class="btn"
                 src="/images/network/WebTools/common_link_more@2x.png"
@@ -103,12 +102,8 @@
       </client-only>
     </div>
   </NetworkToolsBenner>
-  <div class="map">
-    <img
-      class="img"
-      src="/images/network/WebTools/dnslookuptest_earth_img@2x.png"
-      alt=""
-    />
+  <div class="google-map">
+    <NetworkGoogleMap :node-list="nodeList"/>
   </div>
   <div class="page-container NationalFlagList">
     <div class="column">
@@ -145,8 +140,12 @@
 
 <script setup lang="ts">
 import { CommonIconDropDown, CommonInputsubfix } from '#components';
-const input = ref('');
-const select = ref('1');
+import axios from 'axios';
+import countryCode from '../../../utils/country.json';
+const isp_global = countryCode.map(c=>c.zh).join(',');
+const dnsType = ref('A');
+const domain = ref('');
+const nodeList = ref([]);
 definePageMeta({
   title: 'Web Tools'
 });
@@ -154,6 +153,61 @@ const { t } = useI18n();
 const i18ntext = computed(() => {
   return nationalFlag(t);
 });
+
+const findDns = async () => {
+
+  const nodesData = await axios.get('https://test.api.aicesu.com/api/node/get_node?type=geolocation');
+  const nodes = nodesData.data.data;
+
+  const GLOBAL_PING_BASEURL = "https://test.api.aicesu.com/api/speed/speed_control";
+  const dnsPing = await axios.post(GLOBAL_PING_BASEURL, {
+    "action": "dns",
+    "dns": "8.8.8.8",
+    "record": dnsType.value,
+    "isp": isp_global,
+    "target": domain.value
+  })
+
+  if (dnsPing.data.status === false) {
+    nodeList.value = [];
+  }
+
+  const jobid = dnsPing.data.data.jobid;
+
+  // Wait for 6 seconds
+  await new Promise(resolve => setTimeout(resolve, 1000));
+
+  const dnsData = await axios.get(GLOBAL_PING_BASEURL, {
+      params: {
+      "jobid": jobid,
+      "action": "dns",
+      "remain_time": 0,
+      "target": domain.value
+    }
+  })
+
+  if (dnsData.data) {
+      const measure_result= dnsData.data.data.checkpoints.slice(0, Math.max(parseInt(100), 1)).map(checkpoint => {
+        let region = countryCode.find(c => c.zh.includes(checkpoint.node_isp));
+        let lat = 0;
+        let lng = 0;
+        if (nodes !== null) {
+          let node = nodes[checkpoint.node_id];
+          lat = node.latitude;
+          lng = node.longitude;
+        }
+
+        if (region) {
+          return {...checkpoint, code: region.value.toLowerCase(), lat: lat, lng: lng};
+        } else {
+          return {...checkpoint, code: "", lat: lat, lng: lng};
+        }
+      });
+
+      nodeList.value = measure_result;
+    }
+
+}
 </script>
 <style lang="scss" scoped>
 .input-with-select {
@@ -215,10 +269,10 @@ const i18ntext = computed(() => {
     }
   }
 }
-.map {
+.google-map {
   width: 100%;
-  height: 840px;
-  background: #cad6d7;
+  height: 500px;
+  // background: #cad6d7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +303,7 @@ const i18ntext = computed(() => {
     align-items: center;
     gap: 6.25rem;
   }
-  .map {
+  .google-map {
     width: 100%;
     height: 39.81rem;
     background: #cad6d7;
