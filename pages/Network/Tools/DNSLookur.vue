@@ -79,7 +79,7 @@
             </el-select>
           </template>
           <template #append>
-            <el-button @click="findDns">
+            <el-button @click="lookupDns">
               <img
                 class="btn"
                 src="/images/network/WebTools/common_link_more@2x.png"
@@ -90,7 +90,7 @@
           </template>
         </el-input>
         <XsOnly>
-          <el-button class="xs-btn">
+          <el-button @click="lookupDns" class="xs-btn">
             <img
               class="btn"
               src="/images/network/WebTools/common_link_more@2x.png"
@@ -140,74 +140,29 @@
 
 <script setup lang="ts">
 import { CommonIconDropDown, CommonInputsubfix } from '#components';
-import axios from 'axios';
-import countryCode from '../../../utils/country.json';
-const isp_global = countryCode.map(c=>c.zh).join(',');
+import { runMeasure } from '../../../api/networkTest';
+
 const dnsType = ref('A');
 const domain = ref('');
 const nodeList = ref([]);
+
 definePageMeta({
   title: 'Web Tools'
 });
+
 const { t } = useI18n();
 const i18ntext = computed(() => {
   return nationalFlag(t);
 });
 
-const findDns = async () => {
-
-  const nodesData = await axios.get('https://test.api.aicesu.com/api/node/get_node?type=geolocation');
-  const nodes = nodesData.data.data;
-
-  const GLOBAL_PING_BASEURL = "https://test.api.aicesu.com/api/speed/speed_control";
-  const dnsPing = await axios.post(GLOBAL_PING_BASEURL, {
-    "action": "dns",
-    "dns": "8.8.8.8",
-    "record": dnsType.value,
-    "isp": isp_global,
-    "target": domain.value
+const lookupDns = async () => {
+  nodeList.value = await runMeasure('dns', {
+    domain: domain.value,
+    dnsType: dnsType.value
   })
-
-  if (dnsPing.data.status === false) {
-    nodeList.value = [];
-  }
-
-  const jobid = dnsPing.data.data.jobid;
-
-  // Wait for 6 seconds
-  await new Promise(resolve => setTimeout(resolve, 1000));
-
-  const dnsData = await axios.get(GLOBAL_PING_BASEURL, {
-      params: {
-      "jobid": jobid,
-      "action": "dns",
-      "remain_time": 0,
-      "target": domain.value
-    }
-  })
-
-  if (dnsData.data) {
-      const measure_result= dnsData.data.data.checkpoints.slice(0, Math.max(parseInt(100), 1)).map(checkpoint => {
-        let region = countryCode.find(c => c.zh.includes(checkpoint.node_isp));
-        let lat = 0;
-        let lng = 0;
-        if (nodes !== null) {
-          let node = nodes[checkpoint.node_id];
-          lat = node.latitude;
-          lng = node.longitude;
-        }
-
-        if (region) {
-          return {...checkpoint, code: region.value.toLowerCase(), lat: lat, lng: lng};
-        } else {
-          return {...checkpoint, code: "", lat: lat, lng: lng};
-        }
-      });
-
-      nodeList.value = measure_result;
-    }
-
+  console.log('nodelist', nodeList.value);
 }
+
 </script>
 <style lang="scss" scoped>
 .input-with-select {

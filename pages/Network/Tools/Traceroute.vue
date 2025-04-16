@@ -43,7 +43,7 @@
   >
     <div class="inputBox">
       <el-input
-        v-model="input"
+        v-model="domain"
         placeholder="gowaf.com"
         :prefix-icon="CommonInputsubfix"
         class="input-with-select"
@@ -64,7 +64,7 @@
           </el-select>
         </template> -->
         <template #append>
-          <el-button>
+          <el-button @click="testTraceRoute">
             <img
               class="btn"
               src="/images/network/WebTools/common_link_more@2x.png"
@@ -103,6 +103,9 @@
       <el-icon class="icon" color="#fff" ize="16"><DArrowRight /></el-icon>
     </div>
   </NetworkToolsBenner>
+  <div class="google-map">
+    <NetworkGoogleMap :node-list="nodeList"/>
+  </div>
   <div class="page-container article">
     <div class="article-nav">
       <div class="left">
@@ -153,13 +156,24 @@
 
 <script setup lang="ts">
 import { DArrowRight } from '@element-plus/icons-vue';
+import { runMeasure } from '../../../api/networkTest';
 import { CommonInputsubfix } from '#components';
+
 const { t } = useI18n();
-const input = ref('');
+const domain = ref('');
+const nodeList = ref([]);
+
 const show = ref(false);
 definePageMeta({
   title: 'Web Tools'
 });
+
+const testTraceRoute = async () => {
+  nodeList.value = runMeasure('traceroute', {
+    domain: domain.value
+  })
+}
+
 
 const itext = computed(() => {
   return {
@@ -226,6 +240,17 @@ const columnlist = [
 ];
 </script>
 <style lang="scss" scoped>
+.google-map {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 1075px;
+      height: 626px;
+    }
+  }
 .inputBox {
   width: 100%;
 }
@@ -451,6 +476,18 @@ const columnlist = [
 }
 
 @media (max-width: 767px) {
+  .google-map {
+    width: 100%;
+    height: 39.81rem;
+    background: #cad6d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 100%;
+      height: 27.25rem;
+    }
+  }
   .article {
     display: flex;
     flex-direction: column;

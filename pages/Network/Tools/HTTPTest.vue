@@ -42,14 +42,14 @@
   >
     <div class="inputBox">
       <el-input
-        v-model="input"
+        v-model="domain"
         placeholder="gowaf.com"
         :prefix-icon="CommonInputsubfix"
         class="input-with-select"
       >
         <template #append>
           <LgOnly>
-            <el-button>
+            <el-button @click="testHttp">
               <img
                 class="btn"
                 src="/images/network/WebTools/common_link_more@2x.png"
@@ -61,7 +61,7 @@
         </template>
       </el-input>
       <XsOnly>
-        <el-button class="xs-btn">
+        <el-button @click="testHttp" class="xs-btn">
           <img
             class="btn"
             src="/images/network/WebTools/common_link_more@2x.png"
@@ -72,12 +72,8 @@
       </XsOnly>
     </div>
   </NetworkToolsBenner>
-  <div class="map">
-    <img
-      class="img"
-      src="/images/network/WebTools/dnslookuptest_earth_img@2x.png"
-      alt=""
-    />
+  <div class="google-map">
+    <NetworkGoogleMap :node-list="nodeList"/>
   </div>
   <div class="page-container NationalFlagList">
     <div class="column">
@@ -113,16 +109,26 @@
 </template>
 
 <script setup lang="ts">
-import { CommonIconDropDown, CommonInputsubfix } from '#components';
-const input = ref('');
-const select = ref('1');
+import { CommonInputsubfix } from '#components';
+import { runMeasure } from '../../../api/networkTest';
+
+const domain = ref('');
+const nodeList = ref([]);
+
 definePageMeta({
   title: 'Web Tools'
 });
+
 const { t } = useI18n();
 const i18ntext = computed(() => {
   return nationalFlag(t);
 });
+
+const testHttp = async () => {
+  nodeList.value = await runMeasure('http', {
+    domain: domain.value
+  })
+}
 
 </script>
 <style lang="scss" scoped>
@@ -186,10 +192,9 @@ const i18ntext = computed(() => {
     }
   }
 }
-.map {
+.google-map {
   width: 100%;
-  height: 840px;
-  background: #cad6d7;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,6 +210,18 @@ const i18ntext = computed(() => {
   margin-bottom: 100px;
 }
 @media (max-width: 767px) {
+  .google-map {
+    width: 100%;
+    height: 39.81rem;
+    background: #cad6d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 100%;
+      height: 27.25rem;
+    }
+  }
   .NationalFlagList {
     display: flex;
     gap: 6.25rem;

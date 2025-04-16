@@ -11,7 +11,7 @@
             lng: parseFloat(pos.lng)
         } }">
             <div class="marker" >
-                {{pos.lat}}
+                {{pos.node_location}}
             </div>
         </CustomMarker>
     </div>
@@ -39,7 +39,7 @@
     }
 
     .marker {
-        width: 60px;
+        width: 150px;
         height: 30px;
         position: absolute;
         top: 0;

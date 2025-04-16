@@ -42,14 +42,14 @@
   >
     <div class="inputBox">
       <el-input
-        v-model="input"
+        v-model="domain"
         placeholder="gowaf.com"
         :prefix-icon="CommonInputsubfix"
         class="input-with-select"
       >
         <template #append>
           <LgOnly>
-            <el-button>
+            <el-button @click="testLatency">
               <img
                 class="btn"
                 src="/images/network/WebTools/common_link_more@2x.png"
@@ -61,7 +61,7 @@
         </template>
       </el-input>
       <XsOnly>
-        <el-button class="xs-btn">
+        <el-button @click="testLatency" class="xs-btn">
           <img
             class="btn"
             src="/images/network/WebTools/common_link_more@2x.png"
@@ -72,12 +72,8 @@
       </XsOnly>
     </div>
   </NetworkToolsBenner>
-  <div class="map">
-    <img
-      class="img"
-      src="/images/network/WebTools/dnslookuptest_earth_img@2x.png"
-      alt=""
-    />
+  <div class="google-map">
+    <NetworkGoogleMap :node-list="nodeList"/>
   </div>
   <div class="page-container NationalFlagList">
     <div class="column">
@@ -114,8 +110,10 @@
 
 <script setup lang="ts">
 import { CommonIconDropDown, CommonInputsubfix } from '#components';
-const input = ref('');
-const select = ref('1');
+import { runMeasure } from '../../../api/networkTest';
+
+const domain = ref('');
+const nodeList = ref([]);
 definePageMeta({
   title: 'Web Tools'
 });
@@ -123,6 +121,12 @@ const { t } = useI18n();
 const i18ntext = computed(() => {
   return nationalFlag(t);
 });
+
+const testLatency = async () => {
+  nodeList.value = runMeasure('ping', {
+    domain: domain.value
+  })
+}
 </script>
 <style lang="scss" scoped>
 .input-with-select {
@@ -203,7 +207,30 @@ const i18ntext = computed(() => {
   background: #fafafa;
   margin-bottom: 100px;
 }
+.google-map {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img {
+    width: 1075px;
+    height: 626px;
+  }
+}
 @media (max-width: 767px) {
+  .google-map {
+    width: 100%;
+    height: 39.81rem;
+    background: #cad6d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 100%;
+      height: 27.25rem;
+    }
+  }
   .NationalFlagList {
     display: flex;
     gap: 6.25rem;
@@ -219,18 +246,7 @@ const i18ntext = computed(() => {
     align-items: center;
     gap: 6.25rem;
   }
-  .map {
-    width: 100%;
-    height: 39.81rem;
-    background: #cad6d7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .img {
-      width: 100%;
-      height: 27.25rem;
-    }
-  }
+  
   .input-with-select {
     height: 4.13rem;
     :deep(.el-input__inner) {
