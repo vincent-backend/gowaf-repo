@@ -1530,7 +1530,7 @@
   "nbE_5Qve4xjPx676aWVrn": "Leistungskennzahlen",
   "network": {
     "WebTools": {
-      "DNSLookur": {
+      "DNSLookup": {
         "subtitle": "Geben Sie die URL Ihrer Datei oder Website ein, um die Konnektivität vom gowaf.com-Netzwerk zu Ihrem Server zu testen.",
         "title": "DNS-Suchtest"
       },
@@ -1555,7 +1555,7 @@
       "bennerTitle": "Globale Netzwerkdiagnosetools"
     },
     "breadCrumbs": {
-      "DNSLookur": "DNS-Lookur",
+      "DNSLookup": "DNS Lookup",
       "DiagnosticReport": "Diagnosebericht",
       "HTTPTest": "HTTP-Test",
       "LatencyTest": "Latenztest",

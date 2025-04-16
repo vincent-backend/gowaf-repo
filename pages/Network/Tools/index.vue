@@ -4,8 +4,8 @@
     :title="$t('network.breadCrumbs.WebTools')"
     :items="[
       {
-        label: $t('network.breadCrumbs.DNSLookur'),
-        href: '/Network/Tools/DNSLookur',
+        label: $t('network.breadCrumbs.DNSLookup'),
+        href: '/Network/Tools/DNSLookup',
         current: false
       },
       {

@@ -1530,7 +1530,7 @@
   "nbE_5Qve4xjPx676aWVrn": "Показатели эффективности",
   "network": {
     "WebTools": {
-      "DNSLookur": {
+      "DNSLookup": {
         "subtitle": "Введите URL-адрес вашего файла или веб-сайта, чтобы проверить подключение сети gowaf.com к вашему серверу.",
         "title": "Тест поиска DNS"
       },
@@ -1555,7 +1555,7 @@
       "bennerTitle": "Инструменты диагностики глобальной сети"
     },
     "breadCrumbs": {
-      "DNSLookur": "DNS-поиск",
+      "DNSLookup": "DNS-поиск",
       "DiagnosticReport": "Диагностический отчет",
       "HTTPTest": "HTTP-тест",
       "LatencyTest": "Тест задержки",

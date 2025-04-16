@@ -4,8 +4,8 @@
     :title="$t('network.breadCrumbs.WebTools')"
     :items="[
       {
-        label: $t('network.breadCrumbs.DNSLookur'),
-        href: '/Network/Tools/DNSLookur',
+        label: $t('network.breadCrumbs.DNSLookup'),
+        href: '/Network/Tools/DNSLookup',
         current: false
       },
       {
@@ -36,9 +36,9 @@
     ]"
   />
   <NetworkToolsBenner
-    :title="$t('network.WebTools.DNSLookur.title')"
+    :title="$t('network.WebTools.DNSLookup.title')"
     :sub-width="'658px'"
-    :sub-title="$t('network.WebTools.DNSLookur.subtitle')"
+    :sub-title="$t('network.WebTools.DNSLookup.subtitle')"
   >
     <div class="inputBox">
       <el-input
@@ -78,7 +78,7 @@
   <div class="page-container NationalFlagList">
     <div class="column">
       <NetworkNationalFlagList
-        :title="$t('network.WebTools.DNSLookur.title')"
+        :title="$t('network.WebTools.DNSLookup.title')"
         :list="i18ntext.North_America"
       ></NetworkNationalFlagList>
       <NetworkNationalFlagList
@@ -123,7 +123,7 @@ const i18ntext = computed(() => {
 });
 
 const testLatency = async () => {
-  nodeList.value = runMeasure('ping', {
+  nodeList.value = await runMeasure('ping', {
     domain: domain.value
   })
 }

@@ -4,8 +4,8 @@
     :title="$t('network.breadCrumbs.WebTools')"
     :items="[
       {
-        label: $t('network.breadCrumbs.DNSLookur'),
-        href: '/Network/Tools/DNSLookur',
+        label: $t('network.breadCrumbs.DNSLookup'),
+        href: '/Network/Tools/DNSLookup',
         current: false
       },
       {
@@ -39,7 +39,7 @@
     :title="$t('network.WebTools.Traceroute.title')"
     :sub-width="'658px'"
     :class="{ maxheight: show }"
-    :sub-title="$t('network.WebTools.DNSLookur.subtitle')"
+    :sub-title="$t('network.WebTools.DNSLookup.subtitle')"
   >
     <div class="inputBox">
       <el-input
@@ -169,7 +169,7 @@ definePageMeta({
 });
 
 const testTraceRoute = async () => {
-  nodeList.value = runMeasure('traceroute', {
+  nodeList.value = await runMeasure('traceroute', {
     domain: domain.value
   })
 }

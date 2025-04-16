@@ -1530,7 +1530,7 @@
   "nbE_5Qve4xjPx676aWVrn": "성능 지표",
   "network": {
     "WebTools": {
-      "DNSLookur": {
+      "DNSLookup": {
         "subtitle": "gowaf.com 네트워크에서 서버로의 연결을 테스트하려면 파일 또는 웹 사이트의 URL을 입력하십시오.",
         "title": "DNS 조회 테스트"
       },
@@ -1555,7 +1555,7 @@
       "bennerTitle": "글로벌 네트워크 진단 도구"
     },
     "breadCrumbs": {
-      "DNSLookur": "DNS 조회",
+      "DNSLookup": "DNS 조회",
       "DiagnosticReport": "진단 보고서",
       "HTTPTest": "HTTP 테스트",
       "LatencyTest": "대기 시간 테스트",

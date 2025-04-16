@@ -24,7 +24,7 @@ export const runMeasure = async ( measureType: string, payload: any ) => {
         const jobid = dnsPing.data.data.jobid;
 
         // Wait for 6 seconds
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 6000));
 
         const dnsData = await axios.get(GLOBAL_PING_BASEURL, {
             params: {
@@ -70,7 +70,7 @@ export const runMeasure = async ( measureType: string, payload: any ) => {
         const jobid = ping.data.data.jobid;
 
         // Wait for 6 seconds
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 6000));
 
         const pingData = await axios.get(GLOBAL_PING_BASEURL, {
             params: {
@@ -116,7 +116,7 @@ export const runMeasure = async ( measureType: string, payload: any ) => {
         const jobid = tracePing.data.data.jobid;
 
         // Wait for 6 seconds
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 6000));
 
         const traceData = await axios.get(GLOBAL_PING_BASEURL, {
             params: {

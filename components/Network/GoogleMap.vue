@@ -11,7 +11,7 @@
             lng: parseFloat(pos.lng)
         } }">
             <div class="marker" >
-                {{pos.node_location}}
+                {{pos.avg}}
             </div>
         </CustomMarker>
     </div>
@@ -39,7 +39,7 @@
     }
 
     .marker {
-        width: 150px;
+        width: 60px;
         height: 30px;
         position: absolute;
         top: 0;

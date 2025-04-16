@@ -1648,7 +1648,7 @@
   "nbE_5Qve4xjPx676aWVrn": "性能指标",
   "network": {
     "WebTools": {
-      "DNSLookur": {
+      "DNSLookup": {
         "subtitle": "输入文件或网站的 URL 以测试从 gowaf.com 网络到服务器的连接。",
         "title": "DNS 查找测试"
       },
@@ -1673,7 +1673,7 @@
       "bennerTitle": "全球网络诊断工具"
     },
     "breadCrumbs": {
-      "DNSLookur": "DNS查询",
+      "DNSLookup": "DNS查询",
       "DiagnosticReport": "诊断报告",
       "HTTPTest": "HTTP测试",
       "LatencyTest": "延迟测试",

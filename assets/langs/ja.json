@@ -1530,7 +1530,7 @@
   "nbE_5Qve4xjPx676aWVrn": "パフォーマンス指標",
   "network": {
     "WebTools": {
-      "DNSLookur": {
+      "DNSLookup": {
         "subtitle": "ファイルまたは Web サイトの URL を入力して、gowaf.com ネットワークからサーバーへの接続をテストします。",
         "title": "DNSルックアップテスト"
       },
@@ -1555,7 +1555,7 @@
       "bennerTitle": "グローバルネットワーク診断ツール"
     },
     "breadCrumbs": {
-      "DNSLookur": "DNS ルックア",
+      "DNSLookup": "DNS ルックア",
       "DiagnosticReport": "診断レポート",
       "HTTPTest": "HTTPテスト",
       "LatencyTest": "遅延テスト",
