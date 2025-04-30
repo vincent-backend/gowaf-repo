@@ -82,8 +82,8 @@ const slotDefault = !!useSlots().default;
 const hovered = ref(0);
 const localizedDefaults: any = computed(() => {
   const obj = {
-    title: $t('resources.SuperPolyfill.leftImgRightTransform.title'),
-    subTitle: $t('resources.SuperPolyfill.leftImgRightTransform.subTitle'),
+    title: $t('resources.SuperGowaf.leftImgRightTransform.title'),
+    subTitle: $t('resources.SuperGowaf.leftImgRightTransform.subTitle'),
     img: '/images/resources/SuperPolyfill/super_polyfill_letslook_img@2x.png',
     imgw: '400px',
     list: [

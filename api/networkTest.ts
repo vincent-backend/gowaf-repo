@@ -2,13 +2,13 @@ import countryCode from '../utils/country.json';
 import axios from 'axios';
 
 export const runMeasure = async ( measureType: string, payload: any ) => {
-    const nodesData = await axios.get('https://test.api.aicesu.com/api/node/get_node?type=geolocation');
+    const nodesData = await axios.get('http://20.78.13.194:8000/api/node/get_node?type=geolocation');
     const nodes = nodesData.data.data;
     
     const isp_global = countryCode.map(c=>c.zh).join(',');
 
     if (measureType === 'dns') {
-        const GLOBAL_PING_BASEURL = "https://test.api.aicesu.com/api/speed/speed_control";
+        const GLOBAL_PING_BASEURL = "http://20.78.13.194:8000/api/speed/speed_control";
         const dnsPing = await axios.post(GLOBAL_PING_BASEURL, {
             "action": "dns",
             "dns": "8.8.8.8",
@@ -56,7 +56,7 @@ export const runMeasure = async ( measureType: string, payload: any ) => {
             return measure_result;
         }
     } else if (measureType === 'ping') {
-        const GLOBAL_PING_BASEURL = "https://test.api.aicesu.com/api/speed/speed_control";
+        const GLOBAL_PING_BASEURL = "http://20.78.13.194:8000/api/speed/speed_control";
         const ping = await axios.post(GLOBAL_PING_BASEURL, {
             "action": "ping",
             "isp": isp_global,
@@ -102,7 +102,7 @@ export const runMeasure = async ( measureType: string, payload: any ) => {
             return measure_result;
         }
     } else if (measureType === 'traceroute') {
-        const GLOBAL_PING_BASEURL = "https://test.api.aicesu.com/api/speed/speed_control";
+        const GLOBAL_PING_BASEURL = "http://20.78.13.194:8000/api/speed/speed_control";
         const tracePing = await axios.post(GLOBAL_PING_BASEURL, {
             "action": "route",
             "isp": Object.keys(nodes).join(','),
@@ -148,7 +148,7 @@ export const runMeasure = async ( measureType: string, payload: any ) => {
             return measure_result;
         }
     } else if (measureType === 'http') {
-        const GLOBAL_PING_BASEURL = "https://test.api.aicesu.com/api/speed/speed_control";
+        const GLOBAL_PING_BASEURL = "http://20.78.13.194:8000/api/speed/speed_control";
         const httpPing = await axios.post(GLOBAL_PING_BASEURL, {
             "action": "http",
             "isp": isp_global   ,

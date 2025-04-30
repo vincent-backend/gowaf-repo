@@ -39,8 +39,8 @@ const props = withDefaults(
 const slotDefault = !!useSlots().default;
 const localizedDefaults: any = computed(() => {
   const obj = {
-    title: $t('resources.SuperPolyfill.author.title'),
-    subTitle: $t('resources.SuperPolyfill.author.subTitle'),
+    title: $t('resources.SuperGowaf.author.title'),
+    subTitle: $t('resources.SuperGowaf.author.subTitle'),
     list: [
       {
         img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',

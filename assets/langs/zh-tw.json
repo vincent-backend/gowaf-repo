@@ -2633,7 +2633,9 @@
       "caseStudies": "實例探究",
       "contact": "接觸",
       "parent": "資源",
-      "story": "故事"
+      "story": "故事",
+      "SuperPolyfill": "Superpolyfill",
+      "SuperGowaf": "Supergowaf"
     },
     "careers": {
       "carouselList": {

@@ -2507,7 +2507,9 @@
       "caseStudies": "사례 연구",
       "contact": "연락하다",
       "parent": "자원",
-      "story": "이야기"
+      "story": "이야기",
+      "SuperPolyfill": "슈퍼 폴리 필",
+      "SuperGowaf": "Supergowaf"
     },
     "careers": {
       "carouselList": {

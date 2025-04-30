@@ -2507,7 +2507,9 @@
       "caseStudies": "Тематические исследования",
       "contact": "Контакт",
       "parent": "Ресурсы",
-      "story": "История"
+      "story": "История",
+      "SuperPolyfill": "Superpolyfill",
+      "SuperGowaf": "Суперговаф"
     },
     "careers": {
       "carouselList": {

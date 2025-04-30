@@ -2507,7 +2507,9 @@
       "caseStudies": "ケーススタディ",
       "contact": "接触",
       "parent": "リソース",
-      "story": "話"
+      "story": "話",
+      "SuperPolyfill": "スーパーポリフィル",
+      "SuperGowaf": "Supergowaf"
     },
     "careers": {
       "carouselList": {

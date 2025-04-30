@@ -9,6 +9,16 @@ export default function ($t: any, path: string) {
       current: true
     },
     {
+      label: $t('resources.breadCrumbs.blog'),
+      href: '/resources/blog',
+      current: true
+    },
+    {
+      label: $t('resources.breadCrumbs.SuperGowaf'),
+      href: '/resources/SuperGowaf',
+      current: true
+    },
+    {
       label: $t('resources.breadCrumbs.story'),
       href: '/resources/story',
       current: false

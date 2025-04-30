@@ -2507,7 +2507,9 @@
       "caseStudies": "Estudios de caso",
       "contact": "Contacto",
       "parent": "Recursos",
-      "story": "Historia"
+      "story": "Historia",
+      "SuperPolyfill": "Superpolyfill",
+      "SuperGowaf": "Supergowaf"
     },
     "careers": {
       "carouselList": {

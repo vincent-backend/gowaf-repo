@@ -1,25 +1,22 @@
 <template>
   <Header />
   <CommonHeader1
-    :pre-title="$t('products.cdn.overview.header.preTitle')"
-    :title="$t('products.cdn.overview.header.title')"
-    :content="$t('products.cdn.overview.header.content')"
-    :btn="$t('products.cdn.overview.header.btn')"
-    href="/forgot"
-    :hint="$t('products.cdn.overview.header.hint')"
+    :pre-title="$t('resources.SuperGowaf.header.preTitle')"
+    :title="$t('resources.SuperGowaf.header.title')"
+    :content="$t('resources.SuperGowaf.header.description')"
     :pic="{
-      src: '/images/products/cdn/overview/cdn_overview_banner_graph@2x.png',
-      w: '381px',
-      h: '371px',
-      msrc: '/images/products/cdn/overview/cdn_overview_banner_graph@2x.png',
-      mw: '23.81rem',
-      mh: '23.19rem'
+      src: '/images/resources/SuperGowaf/supergowaf_banner_graph.png',
+      w: '423px',
+      h: '466px',
+      msrc: '/images/resources/SuperGowaf/supergowaf_banner_graph@2x.png',
+      mw: '26.43rem',
+      mh: '29.12rem'
     }"
   />
 
   <SolutionsAccelerate
-    :title="$t('resources.SuperPolyfill.accelerate.title')"
-    :content="$t('resources.SuperPolyfill.accelerate.content')"
+    :title="$t('resources.SuperGowaf.accelerate.title')"
+    :content="$t('resources.SuperGowaf.accelerate.content')"
     :list1="i18ntext.list1"
     :list2="i18ntext.list2"
   />
@@ -69,29 +66,29 @@ const i18ntext = computed(() => {
         icon: '/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/polyfill_noneed_icon1@2x.png',
-        title: t('wSBlPFt1ZYzF5piinJo8-'),
-        content: t('fpuwe-Puowa7fKh2uOvLN')
+        title: t('resources.SuperGowaf.accelerate.list.available.title'),
+        content: t('resources.SuperGowaf.accelerate.list.available.content')
       },
       {
         icon: '/images/resources/SuperPolyfill/polyfill_noneed_icon2_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/polyfill_noneed_icon2_sel@2x.png',
-        title: t('2VSWM5fA9jcXRtLFnvGl6'),
-        content: t('jFljO5tXwK84zrW6Zl5Hl')
+          title: t('resources.SuperGowaf.accelerate.list.knowledgeable.title'),
+        content: t('resources.SuperGowaf.accelerate.list.knowledgeable.content')
       },
       {
         icon: '/images/resources/SuperPolyfill/polyfill_noneed_icon3_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/polyfill_noneed_icon3_sel@2x.png',
-        title: t('saVbtL2cUjd5F2Al1K0Hf'),
-        content: t('2Ld9EoNBSDa-XPRDw7c1o')
+          title: t('resources.SuperGowaf.accelerate.list.responsive.title'),
+        content: t('resources.SuperGowaf.accelerate.list.responsive.content')
       },
       {
         icon: '/images/resources/SuperPolyfill/polyfill_noneed_icon4_nor@2x.png',
         iconActive:
           '/images/resources/SuperPolyfill/polyfill_noneed_icon4_sel@2x.png',
-        title: t('09wUFOVxktQu_onbJaRqA'),
-        content: t('-jUfNg7g1yNifTfR4KwA6')
+        title: t('resources.SuperGowaf.accelerate.list.effective.title'),
+        content: t('resources.SuperGowaf.accelerate.list.effective.content')
       }
     ],
     numbers: [
