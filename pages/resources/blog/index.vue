@@ -55,7 +55,11 @@
         {{ $t('resources.blog.header.content') }}
       </div>
     </div>
-    <div class="header-img"></div>
+    <div class="header-img"
+    :style="{
+            backgroundImage: `url('/images/resources/blog/top_pic.png');`
+          }"
+    ></div>
   </div>
   <div class="page-container AllPosts">
     <CommonTabs :tabs="i18ntext.CommonTabs" v-model:cur-tab="curTab" />
@@ -143,7 +147,7 @@ const i18ntext = computed(() => {
     ],
     Post: [
       {
-        img: '/images/resources/SuperPolyfill/polyfill_noneed_icon1_nor@2x.png',
+        img: '/images/resources/blog/pic_1.png',
         title: t('resources.breadCrumbs.News'),
         content: t('2RI94fhrzv2xLqF6TuNAe'),
         author: t('rdkUAYjyLcEIGNuM4YEEC'),
@@ -151,7 +155,7 @@ const i18ntext = computed(() => {
         time: t('shg7Xvb7BRiPQqt6_N51J')
       },
       {
-        img: '',
+        img: '/images/resources/blog/pic_2.png',
         title: t('resources.breadCrumbs.News'),
         content: t('Iuqe0KgecPlnVxVAHoP_l'),
         author: t('5FykVWsVTdx6DZdZqqeey'),
@@ -159,7 +163,7 @@ const i18ntext = computed(() => {
         time: t('ExIzjrVACNkkiphKH-Dt7')
       },
       {
-        img: '',
+        img: '/images/resources/blog/pic_3.png',
         title: t('resources.breadCrumbs.News'),
         content: t('KJYNNOm9KiW7EiCKx3_Sp'),
         author: t('OSPXAfY6FR8_yhm0E7QqN'),

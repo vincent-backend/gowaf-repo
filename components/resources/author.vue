@@ -10,7 +10,7 @@
       <div class="content">
         <div v-for="item in localizedDefaults.list" class="author-item">
           <div class="bg">
-            <img :src="item.img" alt="" />
+            <img :src="item.img" height="100%" width="100%" alt="" />
           </div>
           <div class="title-box">
             <div class="title">{{ item.title }}</div>
@@ -43,57 +43,57 @@ const localizedDefaults: any = computed(() => {
     subTitle: $t('resources.SuperGowaf.author.subTitle'),
     list: [
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_1@2x.png',
         title: $t('R4lUfB4acIvhP8mOTf4CY'),
         subtitle: $t('rCVlYn_DGw9h8ASaGKvTb')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_2@2x.png',
         title: $t('fXXI14XoIiBvkI7CcAnK_'),
         subtitle: $t('ye3rjqdGDsvXvlKn0fMEh')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_3@2x.png',
         title: $t('I8jH_G_YgI4vWM7fzEf34'),
         subtitle: $t('ZUtSMMfhXJBKtLHl-5yGx')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_4@2x.png',
         title: $t('pEuywjZWHT-XzK7eHCKE3'),
         subtitle: $t('m9YUmb15Sk1YKvKhphtXm')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_5@2x.png',
         title: $t('1-Hg2H7zOz3h8Z195pbbC'),
         subtitle: $t('DatncyiDVR-hTrqFFKx4v')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_6@2x.png',
         title: $t('f0frDwUjeERXV8AmIQgpI'),
         subtitle: $t('hoDAtVVKhoKiddVIv643A')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_7@2x.png',
         title: $t('3roXpgualj-ytQ6YijT0P'),
         subtitle: $t('Ja9WCSQMZHUawKskCQ7xs')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_8@2x.png',
         title: $t('pnqmsWFq8GQ2yYJJIGpPF'),
         subtitle: $t('QqoodMEwPpua8T2NYqMZJ')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_9@2x.png',
         title: $t('RTP73PAf4kSPy9KiZFb2g'),
         subtitle: $t('EPV_qTUungoR76LMDbiQV')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_10@2x.png',
         title: $t('L-oyMRl0rMAN1jWFwhSEb'),
         subtitle: $t('YgQbeeMFSUDU-S0Xkit6n')
       },
       {
-        img: '/images/resources/SuperPolyfill/Network_Overview_evaluate_character@2x.png',
+        img: '/images/resources/SuperGowaf/Profile_11@2x.png',
         title: $t('3Fj00E6dtPp9sglLcUdGb'),
         subtitle: $t('fKO6FLOlVr7-hYsbUMaYL')
       }
