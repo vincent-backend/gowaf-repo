@@ -2698,6 +2698,38 @@
           "content": "Cosa sono i Dash/HLS e il modo in cui forniscono contenuti vivi e adattivi agli utenti."
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "Il miglior supporto nel settore CDN",
+        "description": "Non tutti i supereroi indossano mantelle: i nostri Super Bunnies ™ indossano un auricolare. \nSono qui per aiutarti con tutto ciò di cui potresti aver bisogno o desiderare! \nDimentica i livelli di supporto e mettiti in contatto direttamente con un esperto. \nOgni. \nSeparare. \nTempo."
+      },
+      "accelerate": {
+        "content": "Non devi mai preoccuparti di niente! \nI nostri super coniglietti sono qui 24 ore al giorno, ogni giorno della settimana, compresi fine settimana e vacanze. \nLavorando su un progetto più grande? \nDai un'occhiata a tutte le nostre funzionalità di supporto premium!",
+        "list": {
+          "available": {
+            "title": "Super disponibile",
+            "content": "Contattaci con eventuali problemi che potresti avere. \nSiamo qui per te. \nSempre!"
+          },
+          "knowledgeable": {
+            "title": "Super ben informato",
+            "content": "Odio essere spostato da una persona all'altra? \nTi colleghiamo direttamente con il nostro specialista!"
+          },
+          "responsive": {
+            "title": "Super reattivo",
+            "content": "Hai bisogno di aiuto con una domanda rapida o un problema minore? \nUsa il nostro chat live e ottieni una risposta entro 5 minuti!"
+          },
+          "effective": {
+            "title": "Super efficace",
+            "content": "Stanco di aspettare che i bug e i problemi vengano risolti? \nIl nostro tempo di risoluzione dei biglietti medio è inferiore a 3 ore."
+          }
+        }
+      },
+      "author": {
+        "title": "Diamo un'occhiata ai numeri.",
+        "subTitle": "Non solo crederci, controlla i nostri numeri Zendesk."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Come utilizzare le regole Edge per impostare un tempo di cache personalizzato per un'estensione di file",

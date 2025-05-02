@@ -2698,6 +2698,39 @@
           "content": "O que são DASH/HLS e como eles entregam conteúdo ao vivo e adaptável aos usuários."
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "O melhor apoio no negócio da CDN",
+        "description": "Nem todos os super -heróis usam capas - nosso Super Bunnies ™ usa um fone de ouvido. \nEles estão aqui para ajudá -lo com qualquer coisa que você precise ou querer! \nEsqueça os níveis de suporte e se conecte diretamente com um especialista. \nTodo. \nSolteiro. \nTempo."
+      },
+      "accelerate": {
+        "title": "Não há necessidade de entrar em pânico - se algo der errado. \nTemos suas patas.",
+        "content": "Você nunca precisa se preocupar com nada! \nNossos Super Bunnies estão aqui 24 horas por dia, todos os dias da semana, incluindo fins de semana e férias. \nTrabalhando em um projeto maior? \nConfira todos os nossos recursos de suporte premium!",
+        "list": {
+          "available": {
+            "title": "Super disponível",
+            "content": "Entre em contato conosco com quaisquer problemas que você possa ter. \nEstamos aqui para você. \nSempre!"
+          },
+          "knowledgeable": {
+            "title": "Super conhecedor",
+            "content": "Odeio ser movido de uma pessoa para outra? \nNós conectamos diretamente você com nosso especialista!"
+          },
+          "responsive": {
+            "title": "Super responsivo",
+            "content": "Precisa de ajuda com uma pergunta rápida ou um pequeno problema? \nUse nosso bate-papo e receba uma resposta dentro de 5 minutos!"
+          },
+          "effective": {
+            "title": "Super eficaz",
+            "content": "Cansado de esperar que bugs e problemas sejam corrigidos? \nNosso tempo médio de resolução de ingressos é inferior a 3 horas."
+          }
+        }
+      },
+      "author": {
+        "title": "Vejamos os números.",
+        "subTitle": "Não aceite apenas nossa palavra - confira nossos números de Zendesk."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Como usar regras de borda para definir um tempo de cache personalizado para uma extensão de arquivo",

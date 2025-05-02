@@ -2698,6 +2698,38 @@
           "content": "¿Qué son Dash/HLS y cómo ofrecen contenido adaptativo en vivo a los usuarios?"
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "El mejor soporte en el negocio de CDN",
+        "description": "No todas las superhéroes usan capas: nuestros Super Bunnies ™ usan auriculares. \n¡Están aquí para ayudarte con cualquier cosa que puedas necesitar o desear! \nOlvida los niveles de soporte y conectarse directamente con un experto. \nCada. \nSoltero. \nTiempo."
+      },
+      "accelerate": {
+        "title": "No es necesario entrar en pánico, si algo sale mal. \nTenemos tus patas.",
+        "content": "¡Nunca tienes que preocuparte por nada! \nNuestros súper conejitos están aquí las 24 horas del día, todos los días de la semana, incluidos los fines de semana y las vacaciones. \n¿Trabajando en un proyecto más grande? \n¡Mira todas nuestras funciones de soporte premium!",
+        "list": {
+          "available": {
+            "title": "Super disponible"
+          },
+          "knowledgeable": {
+            "title": "Super conocedor",
+            "content": "¿Odio ser trasladado de una persona a otra? \n¡Te conectamos directamente con nuestro especialista!"
+          },
+          "responsive": {
+            "title": "Súper sensible",
+            "content": "¿Necesita ayuda con una pregunta rápida o un problema menor? \n¡Use nuestro chat en vivo y obtenga una respuesta en 5 minutos!"
+          },
+          "effective": {
+            "title": "Súper efectivo",
+            "content": "¿Cansado de esperar a que se solucionen los insectos y los problemas? \nNuestro tiempo de resolución de boletos promedio es de menos de 3 horas."
+          }
+        }
+      },
+      "author": {
+        "title": "Veamos los números.",
+        "subTitle": "No solo tome nuestra palabra: consulte nuestros números de Zendesk."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Cómo utilizar Edge Rules para establecer un tiempo de caché personalizado para una extensión de archivo",

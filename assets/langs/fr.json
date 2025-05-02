@@ -2698,6 +2698,38 @@
           "content": "Ce que Dash / HLS sont et comment ils livrent du contenu adaptatif en direct aux utilisateurs."
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "Le meilleur soutien de l'entreprise CDN",
+        "description": "Tous les super-héros ne portent pas de capes - nos Super Bunnies ™ portent un casque. \nIls sont là pour vous aider avec tout ce dont vous pourriez avoir besoin ou souhaiter! \nOubliez les niveaux de soutien et vous connectez directement avec un expert. \nChaque. \nCélibataire. \nTemps."
+      },
+      "accelerate": {
+        "title": "Pas besoin de paniquer - si quelque chose ne va pas. \nNous avons vos pattes.",
+        "content": "Vous n'avez jamais à vous soucier de rien! \nNos super lapins sont là 24 heures par jour, tous les jours de la semaine, y compris les week-ends et les vacances. \nVous travaillez sur un projet plus grand? \nDécouvrez toutes nos fonctionnalités de support premium!",
+        "list": {
+          "available": {
+            "title": "Super disponible"
+          },
+          "knowledgeable": {
+            "title": "Super compétent",
+            "content": "Vous détestez être déplacé d'une personne à une autre? \nNous vous connectons directement avec notre spécialiste!"
+          },
+          "responsive": {
+            "title": "Super réactif",
+            "content": "Besoin d'aide pour une question rapide ou un problème mineur? \nUtilisez notre chat en direct et obtenez une réponse dans les 5 minutes!"
+          },
+          "effective": {
+            "title": "Super efficace",
+            "content": "Vous en avez assez d'attendre que les bugs et les problèmes soient résolus? \nNotre temps de résolution de billets moyen est inférieur à 3 heures."
+          }
+        }
+      },
+      "author": {
+        "title": "Regardons les chiffres.",
+        "subTitle": "Ne vous contentez pas de nous croire sur parole - consultez nos numéros Zendesk."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Comment utiliser les règles Edge pour définir une durée de cache personnalisée pour une extension de fichier",

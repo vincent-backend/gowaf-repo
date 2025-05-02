@@ -2698,6 +2698,39 @@
           "content": "Jakie są DASH/HLS i jak dostarczają na żywo, adaptacyjne treści użytkownikom."
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "Najlepsze wsparcie w branży CDN",
+        "description": "Nie wszyscy superbohaterowie noszą peleryny - nasze Super Bunnies ™ noszą zestaw słuchawkowy. \nSą tutaj, aby pomóc ci w wszystkim, czego możesz potrzebować lub chcesz! \nZapomnij o poziomach wsparcia i połącz się bezpośrednio z ekspertem. \nKażdy. \nPojedynczy. \nCzas."
+      },
+      "accelerate": {
+        "title": "Nie musisz panikować - jeśli coś pójdzie nie tak. \nMamy twoje łapy.",
+        "content": "Nigdy nie musisz się o nic martwić! \nNasze super króliczki są tu 24 godziny na dobę, każdego dnia tygodnia, w tym weekendy i święta. \nPracujesz nad większym projektem? \nSprawdź wszystkie nasze funkcje wsparcia premium!",
+        "list": {
+          "available": {
+            "title": "Super dostępne",
+            "content": "Skontaktuj się z nami z wszelkimi problemami. \nJesteśmy tu dla Ciebie. \nZawsze!"
+          },
+          "knowledgeable": {
+            "title": "Super kompetentna",
+            "content": "Nienawidzisz się z jednej osoby do drugiej? \nBezpośrednio łączymy Cię z naszym specjalistą!"
+          },
+          "responsive": {
+            "title": "Super responsywny",
+            "content": "Potrzebujesz pomocy z szybkim pytaniem lub drobnym problemem? \nUżyj naszego na żywo i otrzymaj odpowiedź w ciągu 5 minut!"
+          },
+          "effective": {
+            "title": "Super skuteczne",
+            "content": "Masz dość oczekiwania na błędy i problemy? \nNasz średni czas rozwiązania biletu wynosi mniej niż 3 godziny."
+          }
+        }
+      },
+      "author": {
+        "title": "Spójrzmy na liczby.",
+        "subTitle": "Nie wierz po prostu na słowo - sprawdź nasze numery Zendesk."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "Jak używać reguł Edge, aby ustawić niestandardowy czas pamięci podręcznej dla rozszerzenia pliku",

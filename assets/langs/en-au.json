@@ -2697,6 +2697,39 @@
           "content": "What DASH/HLS are and how they deliver live, adaptive content to users."
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "The Best Support in the CDN business",
+        "description": "Not all superheroes wear capes – our Super Bunnies™ wear a headset. They are here to help you with anything you might need or want! Forget support levels and get connected directly with an expert. Every. Single. Time."
+      },
+      "accelerate": {
+        "title": "No need to panic - if anything goes wrong. We’ve got your paws.",
+        "content": "You never have to worry about anything! Our Super Bunnies are here 24 hours a day, every day of the week, including weekends and holidays. Working on a bigger project? Check out all our premium support features!",
+        "list": {
+          "available": {
+            "title": "Super Available",
+            "content": "Reach out to us with any problems you might have. We are here for you. Always!"
+          },
+          "knowledgeable": {
+            "title": "Super Knowledgeable",
+            "content": "Hate being moved from one person to another? We directly connect you with our specialist!"
+          },
+          "responsive": {
+            "title": "Super Responsive",
+            "content": "Need help with a quick question or a minor problem? Use our Live-Chat and get a reply within 5 minutes!"
+          },
+          "effective": {
+            "title": "Super Effective",
+            "content": "Tired of waiting for bugs and issues to be fixed? Our average ticket solve time is under 3 hours."
+          }
+        }
+      },
+      "author": {
+        "title": "Let's look at the numbers.",
+        "subTitle": "Don't just take our word for it - check out our ZenDesk numbers."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "How to use Edge Rules to set a custom cache time for a file extension",

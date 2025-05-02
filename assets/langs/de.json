@@ -2698,6 +2698,39 @@
           "content": "Was DASH/HLS ist und wie sie Live -Inhalte an adaptive Inhalte liefern."
         }
       }
+    },
+    "SuperGowaf": {
+      "header": {
+        "preTitle": "Super Gowaf",
+        "title": "Die beste Unterstützung im CDN -Geschäft",
+        "description": "Nicht alle Superhelden tragen Umhänge - unsere Super Bunnies ™ tragen ein Headset. \nSie sind hier, um Ihnen bei allem zu helfen, was Sie möglicherweise brauchen oder wollen! \nVergessen Sie die Unterstützungsstufen und verbinden Sie sich direkt mit einem Experten. \nJeder. \nEinzel. \nZeit."
+      },
+      "accelerate": {
+        "title": "Keine Notwendigkeit zu in Panik - wenn etwas schief geht. \nWir haben Ihre Pfoten.",
+        "content": "Sie müssen sich nie um irgendetwas Sorgen machen! \nUnsere Superhasen sind an jedem Tag der Woche 24 Stunden am Tag hier, einschließlich Wochenenden und Feiertagen. \nArbeiten an einem größeren Projekt? \nSchauen Sie sich alle unsere Premium -Support -Funktionen an!",
+        "list": {
+          "available": {
+            "title": "Super verfügbar",
+            "content": "Wenden Sie sich mit allen Problemen, die Sie haben könnten. \nWir sind für Sie da. \nStets!"
+          },
+          "knowledgeable": {
+            "title": "Super kenntnisreich",
+            "content": "Hassen Sie es, von einer Person in eine andere umgezogen zu werden? \nWir verbinden Sie direkt mit unserem Spezialisten!"
+          },
+          "responsive": {
+            "title": "Super reaktionsschnell",
+            "content": "Benötigen Sie Hilfe bei einer kurzen Frage oder einem kleinen Problem? \nVerwenden Sie unseren Live-Chat und erhalten Sie innerhalb von 5 Minuten eine Antwort!"
+          },
+          "effective": {
+            "title": "Super effektiv",
+            "content": "Sind Sie es leid, auf Fehler und Probleme zu warten, die behoben werden sollen? \nUnsere durchschnittliche Ticket -Lösungszeit beträgt weniger als 3 Stunden."
+          }
+        }
+      },
+      "author": {
+        "title": "Schauen wir uns die Zahlen an.",
+        "subTitle": "Nehmen Sie nicht nur unser Wort dafür - schauen Sie sich unsere Zendesk -Nummern an."
+      }
     }
   },
   "rf-60oXV_6Hz6h0HwPbv2": "So verwenden Sie Edge-Regeln, um eine benutzerdefinierte Cache-Zeit für eine Dateierweiterung festzulegen",
