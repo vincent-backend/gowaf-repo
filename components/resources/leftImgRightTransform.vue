@@ -9,7 +9,7 @@
       </div>
       <div class="content">
         <div class="left">
-          <img
+          <NuxtImg
             :src="localizedDefaults.img"
             :style="{
               width: localizedDefaults.imgw

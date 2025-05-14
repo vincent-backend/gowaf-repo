@@ -61,7 +61,7 @@ onUnmounted(() => {
       <div class="left">
         <div class="pre-title" v-if="preTitle">{{ preTitle }}</div>
         <div class="pre-logo" v-if="logo">
-          <img
+          <NuxtImg
             :src="logo"
             alt=""
             :style="

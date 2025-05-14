@@ -22,7 +22,7 @@
     <div class="card-box">
       <div class="card" v-for="(item, index) in i18ntext.card" :key="index">
         <div class="headPortrait-line">
-          <img class="headPortrait" :src="item.img" />
+          <NuxtImg class="headPortrait" :src="item.img" />
           <div class="name">{{ item.name }}</div>
         </div>
         <div class="describe">{{ item.describe }}</div>

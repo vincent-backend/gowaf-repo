@@ -72,7 +72,7 @@
     </div>
     <div class="img-bg">
       <XsOnly>
-        <img
+        <NuxtImg
           class="mimg"
           src="/mobile-images/products/storage/SSDStorage/storage_img@2x.png"
           alt=""
@@ -80,7 +80,7 @@
         />
       </XsOnly>
       <LgOnly>
-        <img
+        <NuxtImg
           class="img"
           src="/images/products/storage/SSDStorage/Hop Beyond Latency_img@2x.png"
           alt=""

@@ -1,7 +1,7 @@
 <template>
   <div class="left-list">
     <div class="home-item" v-for="(item, index) in i18ntext" :key="index">
-      <img class="img" :src="item.img" alt="" srcset="" />
+      <NuxtImgtImg class="img" :src="item.img" alt="" srcset="" />
       <div class="main">
         <div class="icon"></div>
         <div class="text-content">

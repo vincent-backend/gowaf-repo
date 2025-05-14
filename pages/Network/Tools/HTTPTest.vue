@@ -50,7 +50,7 @@
         <template #append>
           <LgOnly>
             <el-button @click="testHttp">
-              <img
+              <NuxtImg
                 class="btn"
                 src="/images/network/WebTools/common_link_more@2x.png"
                 alt=""
@@ -62,7 +62,7 @@
       </el-input>
       <XsOnly>
         <el-button @click="testHttp" class="xs-btn">
-          <img
+          <NuxtImg
             class="btn"
             src="/images/network/WebTools/common_link_more@2x.png"
             alt=""

@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="right">
-        <img
+        <NuxtImg
           :src="dnsCustomer.contentImg"
           :style="
             obeyDevice(

@@ -1,6 +1,6 @@
 <template>
   <el-backtop :bottom="40" :right="50" :visibility-height="0">
-    <img
+    <NuxtImg
       class="backtop"
       @click="dialogVisible = true"
       src="/images/home/suspension_btn_nor@2x.png"
@@ -15,7 +15,7 @@
     <template #title>
       <div class="dialog-top">
         <div class="talking">
-          <img class="dialog-logo" src="/images/home/Gowaf_logo_1.png" />
+          <NuxtImg class="dialog-logo" src="/images/home/Gowaf_logo_1.png" />
           <div class="dialog-row">
             <div class="title">
               {{ $t('home.login.backtop.title1') }}
@@ -25,18 +25,18 @@
           </div>
         </div>
         <div class="btn-row">
-          <img
+          <NuxtImg
             class="img"
             src="/images/home/chat_ic_praise_nor@2x.png"
             alt=""
           />
-          <img
+          <NuxtImg
             class="img"
             src="/images/home/chat_ic_oppose_nor@2x.png"
             alt=""
           />
           <div class="reset">
-            <img
+            <NuxtImg
               class="img"
               src="/images/home/chat_ic_reset_nor@2x.png"
               alt=""

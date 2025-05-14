@@ -39,7 +39,7 @@ defineProps<{
       <h3>{{ drmCustomer.title }}</h3>
       <p :class="{ isHiddenSubTitle: drmCustomer.isHiddenSubTitle }">
         {{ drmCustomer.contentPre }}
-        <img :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
+        <NuxtImg :src="drmCustomer.contentImg" :alt="drmCustomer.contentImg" />
         <span class="clolorFA9B3B">{{ drmCustomer.contentMid }}</span>
         {{ drmCustomer.contentP }}
         <NuxtLinkLocale href="#">{{ drmCustomer.contentLink }}</NuxtLinkLocale>
@@ -75,7 +75,7 @@ defineProps<{
         <li v-for="(item, index) in drmCustomer.items" :key="index">
           <div class="star"></div>
           <span>{{ item.num }}</span>
-          <img :src="item.icon" />
+          <NuxtImg :src="item.icon" />
         </li>
       </ul>
     </div>

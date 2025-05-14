@@ -12,7 +12,7 @@
       >
         <template #title>
           {{ item.title }}
-          <img
+          <NuxtImg
             class="header-icon"
             src="/images/home/common_up_nor@2x.png"
             alt=""

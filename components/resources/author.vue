@@ -10,7 +10,7 @@
       <div class="content">
         <div v-for="item in localizedDefaults.list" class="author-item">
           <div class="bg">
-            <img :src="item.img" height="100%" width="100%" alt="" />
+            <NuxtImg :src="item.img" height="100%" width="100%" alt="" />
           </div>
           <div class="title-box">
             <div class="title">{{ item.title }}</div>

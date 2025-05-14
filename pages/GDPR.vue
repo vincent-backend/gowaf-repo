@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="right">
-      <img src="/images/home/GDPR_graph_1@2x.png" />
+      <NuxtImg src="/images/home/GDPR_graph_1@2x.png" />
     </div>
   </div>
   <div class="page-container content-container">

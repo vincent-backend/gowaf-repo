@@ -4,7 +4,7 @@
       <div class="list-container" v-if="isShowList">
         <ul>
           <li v-for="(item, index) in i18ntext" :key="index">
-            <img :src="item.icon" :alt="item.title" />
+            <NuxtImg :src="item.icon" :alt="item.title" />
             <div class="content">
               <h3>{{ item.title }}</h3>
               <p>{{ item.subTitle }}</p>

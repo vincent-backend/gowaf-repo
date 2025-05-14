@@ -15,7 +15,7 @@
         </div>
         <div class="row" v-for="li in ptlist">
           <div class="item">
-            <img class="Icon" :src="li.comparisonIcon" alt="" srcset="" />
+            <NuxtImg class="Icon" :src="li.comparisonIcon" alt="" srcset="" />
           </div>
           <div class="item" v-for="item in li.items">
             <template v-if="typeof item == 'string'">
@@ -29,7 +29,7 @@
         </div>
         <div class="oneself">
           <div class="item">
-            <img class="Icon" :src="selflist.comparisonIcon" alt="" srcset="" />
+            <NuxtImg class="Icon" :src="selflist.comparisonIcon" alt="" srcset="" />
           </div>
           <div v-for="sitem in selflist.items" class="item">
             <template v-if="typeof sitem == 'string'">

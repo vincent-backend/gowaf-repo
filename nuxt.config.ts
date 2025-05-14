@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   // ssr: false,
   devtools: { enabled: true },
   css: ['~/assets/css/common.css', '~/assets/css/global.less'],
-  modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt', '@nuxtjs/device'],
+  modules: ['@nuxtjs/i18n', '@element-plus/nuxt', '@vueuse/nuxt', '@nuxtjs/device', '@nuxt/image-edge'],
   alias: {
     '@types': fileURLToPath(new URL('./types', import.meta.url)),
     'vue3-country-flag': path.resolve(__dirname, 'node_modules/vue3-country-intl/lib/vue3CountryFlag.esm.min.js'),

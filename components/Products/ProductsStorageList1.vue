@@ -34,7 +34,7 @@ const props = defineProps({
       </div>
       <div class="list">
         <div class="item" v-for="img in list">
-          <img :src="img" />
+          <NuxtImg :src="img" />
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@
         <h3>{{ $t('products.stream.multiDRM.email.subTitle') }}</h3>
         <ul>
           <li v-for="(item, index) in i18ntext" :key="index">
-            <img :src="item.icon" :alt="item.content" />
+            <NuxtImg :src="item.icon" :alt="item.content" />
             <p>{{ item.content }}</p>
           </li>
         </ul>

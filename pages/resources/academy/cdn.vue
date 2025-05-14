@@ -82,7 +82,7 @@
           <div class="bot-img"></div>
           <div class="bot-btn">
             {{ $t('resources.WhatIsCDN.bot.btntxt') }}
-            <img
+            <NuxtImg
               class="img"
               src="/images/resources/academy/common_price_right_wihte_ic@2x.png"
               alt=""

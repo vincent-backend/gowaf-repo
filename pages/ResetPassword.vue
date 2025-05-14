@@ -4,7 +4,7 @@
       <div class="page-container">
         <div class="logo-header">
           <NuxtLinkLocale :to="localePath('/')">
-            <img src="/images/home/Gowaf_logo+文字.png" alt="" />
+            <NuxtImg src="/images/home/Gowaf_logo+文字.png" alt="" />
           </NuxtLinkLocale>
         </div>
         <div class="body">

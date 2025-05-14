@@ -4,7 +4,7 @@
     :title="useTitle ? eleTitle : null"
     @click="$emit('click', country.value)"
   >
-    <img class="country-flag-img" :src="countryFlagPath" :alt="value" />
+    <NuxtImg class="country-flag-img" :src="countryFlagPath" :alt="value" />
     <slot :country="country.value"></slot>
   </div>
 </template>

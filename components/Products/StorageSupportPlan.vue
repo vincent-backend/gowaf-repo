@@ -62,7 +62,7 @@
           </div>
           <div class="right">
             <div class="pic">
-              <img :src="localizedDefaults.icon" alt="" srcset="" />
+              <NuxtImg :src="localizedDefaults.icon" alt="" srcset="" />
             </div>
           </div>
         </div>

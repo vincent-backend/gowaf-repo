@@ -34,7 +34,7 @@
       <div class="subtitle">{{ item.subtitle }}</div>
       <div class="blockul">
         <div class="li-text" v-for="(li, index) in item.list" :key="index">
-          <img src="/images/home/Resources_about_node@2x.png" alt="" />
+          <NuxtImg src="/images/home/Resources_about_node@2x.png" alt="" />
           <div>{{ li }}</div>
         </div>
       </div>

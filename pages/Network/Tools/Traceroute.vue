@@ -65,7 +65,7 @@
         </template> -->
         <template #append>
           <el-button @click="testTraceRoute">
-            <img
+            <NuxtImg
               class="btn"
               src="/images/network/WebTools/common_link_more@2x.png"
               alt=""
@@ -81,7 +81,7 @@
         v-for="(item, index) in i18ntext.BennerList"
         :key="index"
       >
-        <img class="nationalFlag" :src="item.img" alt="" />
+        <NuxtImg class="nationalFlag" :src="item.img" alt="" />
         <div class="name">{{ item.name }}</div>
       </div>
     </div>

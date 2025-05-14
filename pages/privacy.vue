@@ -44,7 +44,7 @@
           v-for="(item, index) in i18ntext.personaList"
           :key="index"
         >
-          <img class="icon" :src="item.icon" alt="" srcset="" />
+          <NuxtImg class="icon" :src="item.icon" alt="" srcset="" />
           <div class="content">{{ item.content }}</div>
         </div>
       </div>

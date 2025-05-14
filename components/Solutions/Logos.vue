@@ -15,7 +15,7 @@ const props = defineProps({
       <div class="sub-title">{{ props.subTitle }}</div>
       <div class="list">
         <div class="item" v-for="img in props.imgs">
-          <img :src="img" />
+          <NuxtImg :src="img" />
         </div>
       </div>
       <div class="btn-container" v-if="props.btn">
