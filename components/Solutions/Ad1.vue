@@ -28,22 +28,11 @@ defineProps<
       </div>
       <div class="right">
         <div
-          class="pic"
-          :style="
-            obeyDevice(
-              {
-                backgroundImage: `url(${pic})`,
-                width: picWidth,
-                height: picHeight
-              },
-              {
-                backgroundImage: `url(${mPic})`,
-                width: mPicWidth,
-                height: mPicHeight
-              }
-            ).value
-          "
-        ></div>
+          
+        >
+        <img class="pic" v-if="$device.isMobile" :height="mPicHeight" :src="mPic" />
+        <img class="pic" v-if="!$device.isMobile" :height="picHeight" :src="pic" />
+      </div>
       </div>
     </div>
   </div>

@@ -25,21 +25,11 @@ const props = defineProps({
     <div class="ad2 page-container" :class="{ reverse: props.reverse }">
       <div class="left">
         <div
-          class="pic"
-          :style="
-            $device.isMobile
-              ? {
-                  backgroundImage: `url(${mPic})`,
-                  width: mPicWidth,
-                  height: mPicHeight
-                }
-              : {
-                  backgroundImage: `url(${pic})`,
-                  width: picWidth,
-                  height: picHeight
-                }
-          "
-        ></div>
+          
+        >
+        <img class="pic" v-if="$device.isMobile" :height="mPicHeight" :src="mPic" />
+        <img class="pic" v-if="!$device.isMobile" :height="picHeight" :src="pic" />
+      </div>
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">
           <NuxtLinkLocale :to="props.href" class="trail-btn">{{ props.btn }}</NuxtLinkLocale>

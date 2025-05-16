@@ -10,9 +10,10 @@ const props = defineProps({
       <div class="list">
         <div class="item" v-for="item in props.items">
           <div
-            class="icon"
-            :style="{ backgroundImage: `url(${item.icon})` }"
-          ></div>
+           
+          >
+          <img class="icon" :src="item.icon" />
+        </div>
           <div class="title">{{ item.title }}</div>
           <div class="content">{{ item.content }}</div>
         </div>

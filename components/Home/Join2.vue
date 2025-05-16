@@ -17,11 +17,10 @@
           <div class="person">
             <div class="left">
               <div
-                class="avatar"
-                :style="{
-                  backgroundImage: `url(/images/home/${item.avatar}.png)`
-                }"
-              ></div>
+                
+              >
+              <img class="avatar" :src="`/images/home/${item.avatar}.png`" />
+            </div>
             </div>
             <div class="right">
               <div class="name">

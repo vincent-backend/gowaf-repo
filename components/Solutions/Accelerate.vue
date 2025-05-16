@@ -68,12 +68,9 @@ const hovered = ref(-1);
             @mouseleave="hovered = -1"
           >
             <div class="head">
-              <div
-                class="icon"
-                :style="{
-                  backgroundImage: `url(${hovered === index ? item.iconActive : item.icon})`
-                }"
-              ></div>
+              <div>
+                <img class="icon" :src="`${hovered === index ? item.iconActive : item.icon}`" />
+            </div>
               <div class="title">{{ item.title }}</div>
             </div>
             <div class="content">{{ item.content }}</div>

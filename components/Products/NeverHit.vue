@@ -40,13 +40,10 @@ defineProps<{
           :style="{ alignItems: `${item.alignType}` }"
         >
           <div
-            class="icon"
-            :style="{
-              backgroundImage: `url(${item.icon})`,
-              width: `${item.width}`,
-              height: `${item.height}`
-            }"
-          ></div>
+            
+          >
+            <img class="icon" :src="item.icon" :width="item.width" :height="item.height" />
+        </div>
           <div class="title">{{ item.title }}</div>
           <div class="content" :style="{ textAlign: `${item.contentAlign}` }">
             {{ item.content }}

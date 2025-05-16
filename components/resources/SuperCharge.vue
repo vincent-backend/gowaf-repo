@@ -26,21 +26,11 @@ const curTab = ref(0);
       <div class="tabs-content">
         <div class="left">
           <div
-            class="icon"
-            :style="
-              $device.isMobile
-                ? {
-                    backgroundImage: `url(${tab?.mIcon})`,
-                    width: tab.mIconWidth,
-                    height: tab.mIconHeight
-                  }
-                : {
-                    backgroundImage: `url(${tab.icon})`,
-                    width: tab.iconWidth,
-                    height: tab.iconHeight
-                  }
-            "
-          ></div>
+            
+          >
+            <img class="icon" v-if="$device.isMobile" :src="tab?.mIcon" :width="tab.mIconWidth"  :height="tab.mIconHeight"/>
+            <img class="icon" v-if="!$device.isMobile" :src="tab?.icon" :width="tab.iconWidth"  :height="tab.iconHeight"/>
+        </div>
         </div>
         <div class="right">
           <div class="title">
@@ -54,13 +44,10 @@ const curTab = ref(0);
           }}</NuxtLinkLocale>
           <div v-else class="btn-pic">
             <div
-              class="icon"
-              :style="{
-                backgroundImage: `url(${tab?.mIcon})`,
-                width: tab.mIconWidth,
-                height: tab.mIconHeight
-              }"
-            ></div>
+              
+            >
+              <img class="icon" :src="tab?.mIcon" :width="tab.mIconWidth" :height="tab.mIconHeight"/>
+          </div>
             <NuxtLinkLocale href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLinkLocale>
           </div>
         </div>

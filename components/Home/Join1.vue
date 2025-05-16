@@ -34,11 +34,10 @@
           <div class="item" v-for="item in i18ntext.rightList">
             <div class="left">
               <div
-                class="icon"
-                :style="{
-                  backgroundImage: `url(/images/home/${item.icon}.png)`
-                }"
-              ></div>
+                
+              >
+              <img class="icon" :src="`/images/home/${item.icon}.png`" />
+            </div>
             </div>
             <div class="right">
               <div class="title">

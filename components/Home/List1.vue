@@ -65,7 +65,7 @@ const imgclick = (index: number) => {
           v-for="(img, index) in list || imgs"
           @click="imgclick(index)"
         >
-          <NuxtImg :src="img" />
+          <img :src="img" />
         </div>
       </div>
     </div>

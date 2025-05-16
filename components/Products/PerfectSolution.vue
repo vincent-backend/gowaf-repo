@@ -36,20 +36,18 @@ withDefaults(
         <XsOnly>
           <div
             v-if="picPosition === 'top'"
-            class="pic"
-            :style="{
-              backgroundImage: `url(${pic?.url})`,
-              width: pic?.mwidth,
-              height: pic?.mheight
-            }"
-          ></div>
+            
+          >
+            <img class="pic" :src="pic?.url" :width="pic?.mwidth" :height="pic?.mheight" />
+        </div>
         </XsOnly>
         <div class="list">
           <div class="item" v-if="items.length > 0" v-for="item in items">
             <div
-              class="icon"
-              :style="{ backgroundImage: `url(${item.icon})` }"
-            ></div>
+               
+            >
+            <img class="icon" :src="item.icon" />
+          </div>
             <div class="right">
               <div class="title">{{ item.title }}</div>
               <div class="content">{{ item.content }}</div>
@@ -59,26 +57,22 @@ withDefaults(
         <XsOnly>
           <div
             v-if="picPosition !== 'top'"
-            class="pic"
+            
             :style="{
-              backgroundImage: `url(${pic?.url})`,
-              width: pic?.mwidth,
-              height: pic?.mheight,
               marginTop: '3.13rem'
             }"
-          ></div>
+          >
+            <img class="pic" :src="pic?.url" :width="pic?.mwidth" :height="pic?.mheight"
+        </div>
         </XsOnly>
       </div>
       <LgOnly>
         <div class="right">
           <div
-            class="pic"
-            :style="{
-              backgroundImage: `url(${pic?.url})`,
-              width: pic?.width + 'px',
-              height: pic?.height + 'px'
-            }"
-          ></div>
+            
+          >
+            <img class="pic" :src="pic?.url" :width="pic?.width + 'px'" :height="pic?.height + 'px'" />
+        </div>
         </div>
       </LgOnly>
     </div>

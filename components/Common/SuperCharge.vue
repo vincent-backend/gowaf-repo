@@ -50,21 +50,11 @@ watch(curTab, (newCurTab) => {
               <div class="left-sub-title">{{ tab.subTitle }}</div>
             </XsOnly>
             <div
-              class="icon left-image"
-              :style="
-                $device.isMobile
-                  ? {
-                      backgroundImage: `url(${tab.mIcon})`,
-                      width: tab.mIconWidth,
-                      height: tab.mIconHeight
-                    }
-                  : {
-                      backgroundImage: `url(${tab.icon})`,
-                      width: tab.iconWidth,
-                      height: tab.iconHeight
-                    }
-              "
-            ></div>
+              
+            >
+              <img class="icon left-image" v-if="$device.isMobile" :src="tab.mIcon" :width="tab.mIconWidth" :height="tab.mIconHeight"/>
+              <img class="icon left-image" v-if="!$device.isMobile" :src="tab.icon" :width="tab.iconWidth" :height="tab.iconHeight"/>
+          </div>
           </div>
           <div class="right" v-if="!isList">
             <div class="title">

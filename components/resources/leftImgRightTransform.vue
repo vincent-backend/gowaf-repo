@@ -29,13 +29,12 @@
             >
               <div class="head">
                 <div
-                  class="icon"
-                  :style="{
-                    backgroundImage: `url(${
+                  
+                >
+                <img class="icon" :src="`${
                       hovered === index ? item.iconActive : item.icon
-                    })`
-                  }"
-                ></div>
+                    }`" />
+              </div>
                 <div class="num-box">
                   <span class="num">
                     {{ item.num }}

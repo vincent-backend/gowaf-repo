@@ -8,9 +8,9 @@
       <template #title>
         <div
           v-if="item.icon"
-          class="icon"
-          :style="{ backgroundImage: `url(${item.icon})` }"
-        ></div>
+        >
+          <img class="icon" :src="item.icon" />
+        </div>
         <span>{{ item.title || item.label }}</span>
       </template>
       <MenuItem
@@ -25,10 +25,11 @@
       @click="itemClick(item)"
     >
       <div
-        class="icon"
+        
         v-if="item.icon"
-        :style="{ backgroundImage: `url(${item.icon})` }"
-      ></div>
+      >
+        <img class="icon" :src="item.icon" />
+      </div>
       <div class="menu-content">
         <div class="title">{{ item.title || item.label }}</div>
         <div class="subTitle" v-if="item.subTitle">

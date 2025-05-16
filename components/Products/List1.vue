@@ -11,9 +11,10 @@
         <div class="item" v-for="item in i18ntext">
           <div class="left">
             <div
-              class="icon"
-              :style="{ backgroundImage: `url(${item.icon})` }"
-            ></div>
+              
+            >
+            <img class="icon" :src="item.icon" />
+          </div>
             <div class="icon-label">{{ item.iconLabel }}</div>
           </div>
           <div class="right">
@@ -23,9 +24,10 @@
               <div class="indicator" v-for="indicator in item.indicators">
                 <div class="head">
                   <div
-                    class="icon"
-                    :style="{ backgroundImage: `url(${indicator.icon})` }"
-                  ></div>
+                    
+                  >
+                  <img class="icon" :src="indicator.icon" />
+                </div>
                   <div class="value">{{ indicator.value }}</div>
                 </div>
                 <div class="label">{{ indicator.label }}</div>

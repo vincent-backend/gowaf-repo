@@ -13,21 +13,11 @@
         <div class="tab-content" v-if="index === curTab">
           <div class="content">{{ tab.content }}</div>
           <div
-            class="pic"
-            :style="
-              $device.isMobile
-                ? {
-                    backgroundImage: `url(${tab.pic})`,
-                    width: tab.mpicWidth,
-                    height: tab.mpicHeight
-                  }
-                : {
-                    backgroundImage: `url(${tab.pic})`,
-                    width: tab.picWidth,
-                    height: tab.picHeight
-                  }
-            "
-          ></div>
+            
+          >
+            <img class="pic" v-if="$device.isMobile" :src="tab.pic" :width="tab.mpicWidth"  :height="tab.mpicHeight"/>
+            <img class="pic" v-if="!$device.isMobile" :src="tab.pic" :width="tab.picWidth"  :height="tab.picHeight"/>
+        </div>
         </div>
       </template>
     </div>

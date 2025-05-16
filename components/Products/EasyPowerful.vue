@@ -13,7 +13,8 @@
           :class="{ showNext }"
           v-for="(item, index) in localizedDefaults.fulItems"
         >
-          <div class="icon" :style="{ backgroundImage: `url(${item.icon})` }">
+          <div >
+            <img class="icon" :src="item.icon" />
             <div class="index">
               {{ (index + 1).toString().padStart(2, '0') }}
             </div>

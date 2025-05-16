@@ -115,14 +115,11 @@ onUnmounted(() => {
       </div>
       <div class="right">
         <div
-          class="pic"
+          
           v-if="pic"
-          :style="{
-            backgroundImage: `url(${obeyDevice(pic.src, pic.msrc).value})`,
-            width: obeyDevice(pic.w, pic.mw).value,
-            height: obeyDevice(pic.h, pic.mh).value
-          }"
-        ></div>
+        >
+          <img class="pic" :src="obeyDevice(pic.src, pic.msrc).value" :width="obeyDevice(pic.w, pic.mw).value" :height="obeyDevice(pic.h, pic.mh).value" />
+      </div>
       </div>
     </div>
     <div class="bottom" v-if="!page">

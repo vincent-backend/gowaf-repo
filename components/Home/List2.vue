@@ -78,11 +78,10 @@ const features = computed(() => {
         <div class="feature" v-for="item in features">
           <div class="left">
             <div
-              class="icon"
-              :style="{
-                backgroundImage: `url(/images/home/${item.icon}.png)`
-              }"
-            ></div>
+              
+            >
+            <img class="icon" :src="`/images/home/${item.icon}.png`" />
+          </div>
             <XsOnly>
               <span class="coming-soon" v-if="item.comingSoon">
                 {{ item.comingSoon }}

@@ -15,19 +15,11 @@ const props = defineProps({
       <div class="title" v-if="props.title">{{ props.title }}</div>
       <div class="sub-title" v-if="props.subTitle">{{ props.subTitle }}</div>
       <div
-        class="pic"
-        :style="
-          $device.isMobile
-            ? {
-                backgroundImage: `url(${mPic})`,
-                height: mPicHeight
-              }
-            : {
-                backgroundImage: `url(${pic})`,
-                height: picHeight
-              }
-        "
-      ></div>
+        
+      >
+        <img class="pic" v-if="$device.isMobile" :height="mPicHeight" :src="mPic" />
+        <img class="pic" v-if="!$device.isMobile" :height="picHeight" :src="pic" />
+    </div>
     </div>
   </div>
 </template>

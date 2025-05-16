@@ -21,9 +21,10 @@
             <div class="list">
               <div class="item" v-for="item in i18ntext">
                 <div
-                  class="icon"
-                  :style="{ backgroundImage: `url(${item.icon})` }"
-                ></div>
+                  
+                >
+                <img class="icon" :src="item.icon" />
+              </div>
                 <div class="right">
                   <div class="title">{{ item.title }}</div>
                   <div class="content">{{ item.content }}</div>

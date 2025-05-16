@@ -62,11 +62,10 @@ const i18ntext = computed(() => {
       </div>
       <div class="comment">
         <div
-          class="avatar"
-          :style="{
-            backgroundImage: `url(${obeyDevice(avatar, mAvatar).value})`
-          }"
-        ></div>
+          
+        >
+        <img class="avatar" :src="obeyDevice(avatar, mAvatar).value" />
+      </div>
         <div class="decoration-1"></div>
         <div class="name">{{ person.name }}</div>
         <div class="title">{{ person.title }}</div>
@@ -83,10 +82,9 @@ const i18ntext = computed(() => {
           </div>
           <div
             class="icon"
-            :style="{
-              backgroundImage: `url(/images/network/${item.icon}.png)`
-            }"
-          ></div>
+          >
+          <img :src="`/images/network/${item.icon}.png)`" />
+        </div>
         </div>
       </div>
     </div>

@@ -55,22 +55,20 @@
         {{ $t('resources.blog.header.content') }}
       </div>
     </div>
-    <div class="header-img"
-    :style="{
-            backgroundImage: `url('/images/resources/blog/top_pic.png');`
-          }"
-    ></div>
+    <div 
+    >
+    <img class="header-img" :src="`/images/resources/blog/top_pic.png`" />
+  </div>
   </div>
   <div class="page-container AllPosts">
     <CommonTabs :tabs="i18ntext.CommonTabs" v-model:cur-tab="curTab" />
     <div class="Post-list">
       <div class="Post-item" v-for="item in i18ntext.Post">
         <div
-          class="img-box"
-          :style="{
-            backgroundImage: `url(${item.img});`
-          }"
-        ></div>
+          
+        >
+        <img class="img-box" :src="item.img" />
+      </div>
         <div class="title-list">
           <div class="title">{{ item.title }}</div>
           <div class="Post-content">
@@ -78,11 +76,10 @@
           </div>
           <div class="authorIntroduction">
             <div
-              class="headPortrait"
-              :style="{
-                backgroundImage: `url(${item.headPortrait});`
-              }"
-            ></div>
+              
+            >
+            <img class="headPortrait" :src="item.headPortrait" />
+          </div>
             <div class="author">{{ item.author }}</div>
             <div class="author-time">
               {{ item.time }}

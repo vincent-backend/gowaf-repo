@@ -15,9 +15,10 @@ const props = defineProps({
         <div class="item" v-for="item in props.items">
           <div class="header">
             <div
-              class="icon"
-              :style="{ backgroundImage: `url(${item.icon})` }"
-            ></div>
+              
+            >
+            <img class="icon" :src="item.icon" />
+          </div>
             <div class="tip" v-if="item.tip">{{ item.tip }}</div>
           </div>
           <div class="title">

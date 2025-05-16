@@ -46,9 +46,10 @@ const i18ntext = computed<any>(() => {
           <div class="header">{{ item.header }}</div>
           <div class="head">
             <div
-              class="icon-1"
-              :style="{ backgroundImage: `url(${item.icon1})` }"
-            ></div>
+              
+            >
+            <img class="icon-1" :src="item.icon1" />
+          </div>
             <div class="time-container">
               <div class="time">{{ item.number }}</div>
               <div class="right">
@@ -57,9 +58,10 @@ const i18ntext = computed<any>(() => {
               </div>
             </div>
             <div
-              class="icon-2"
-              :style="{ backgroundImage: `url(${item.icon2})` }"
-            ></div>
+               
+            >
+            <img class="icon-2"  :src="item.icon2" />
+          </div>
           </div>
           <div class="content">
             {{ item.content }}
