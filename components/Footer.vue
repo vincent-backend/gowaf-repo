@@ -191,7 +191,7 @@ const i18ntext = computed(() => {
               <dt>{{ item.title }}</dt>
               <dd v-for="item2 in item.items">
                 <NuxtLinkLocale :to="item2.href">
-                  <NuxtImg
+                  <img
                     v-if="item2.key && item2.key == 'email'"
                     src="/images/home/bot_ic_email_2@2x.png"
                     class="img"

@@ -76,7 +76,7 @@ watch(curTab, (newCurTab) => {
                 <h3><span></span>{{ item.title }}</h3>
                 <p>{{ item.content }}</p>
                 <dl v-for="(val, i) in item.iconList" :key="i">
-                  <dt><NuxtImg :src="val.icon" alt="" /></dt>
+                  <dt><img :src="val.icon" alt="" /></dt>
                   <dd>{{ val.label }}</dd>
                 </dl>
               </li>

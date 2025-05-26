@@ -80,7 +80,7 @@
           </template>
           <template #append>
             <el-button @click="lookupDns">
-              <NuxtImg
+              <img
                 class="btn"
                 src="/images/network/WebTools/common_link_more@2x.png"
                 alt=""
@@ -91,7 +91,7 @@
         </el-input>
         <XsOnly>
           <el-button @click="lookupDns" class="xs-btn">
-            <NuxtImg
+            <img
               class="btn"
               src="/images/network/WebTools/common_link_more@2x.png"
               alt=""

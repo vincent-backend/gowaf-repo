@@ -22,8 +22,8 @@ defineProps<{
     <h4 v-if="subTitle">{{ subTitle }}</h4>
     <ul>
       <li v-for="(item, index) in items" :key="index">
-        <NuxtImg :src="item.icon" :alt="item.title" />
-        <span><NuxtImg :src="item.icon2" :alt="item.title" /></span>
+        <img :src="item.icon" :alt="item.title" />
+        <span><img :src="item.icon2" :alt="item.title" /></span>
         <h5>{{ item.title }}</h5>
         <p>
           <NuxtLinkLocale :to="item.link" class="content1">

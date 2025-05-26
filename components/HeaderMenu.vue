@@ -257,7 +257,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
             :key="index"
           >
             <div class="items-group-header">
-              <NuxtImg :src="item.icon"/>
+              <img :src="item.icon"/>
               <div>
                 {{ item.label }}
               </div>
@@ -308,7 +308,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
               class="items-sub-group"
             >
               <div class="sub-group-header">
-                <NuxtImg :src="secondLevelItem.icon"/>
+                <img :src="secondLevelItem.icon"/>
                 <div>
                   {{ secondLevelItem.title }}
                 </div>

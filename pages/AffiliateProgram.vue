@@ -30,7 +30,7 @@
     <div class="mk-title">{{ $t('home.AffiliateProgram.mktitle') }}</div>
     <div class="mk-subtitle">{{ $t('home.AffiliateProgram.mksubtitle') }}</div>
     <div class="mkt-img" v-if="!$device.isMobile">
-      <NuxtImg
+      <img
         class="mkt-img"
         src="/images/home/编组_178@2x.png"
         alt=""

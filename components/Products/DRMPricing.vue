@@ -78,7 +78,7 @@
             <div class="pic" v-if="$device.isMobile"></div>
             <ul>
               <li v-for="(item, index) in i18ntext.list1" :key="index">
-                <NuxtImg :src="item.icon" :alt="item.title" />
+                <img :src="item.icon" :alt="item.title" />
                 <div>
                   <h4>{{ item.title }}</h4>
                   {{ item.content }}

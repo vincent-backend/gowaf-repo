@@ -3,7 +3,7 @@
     <div class="title">{{ title }}</div>
     <div class="list">
       <div class="item" v-for="(item, index) in list" :key="index">
-        <NuxtImg class="nationalFlag" :src="item.img" alt="" srcset="" />
+        <img class="nationalFlag" :src="item.img" alt="" srcset="" />
         <div class="name">{{ item.name }}</div>
         <div class="more"></div>
       </div>
@@ -13,7 +13,7 @@
     <div class="title">{{ title }}</div>
     <div class="list">
       <div class="item" v-for="(item, index) in list" :key="index">
-        <NuxtImg class="nationalFlag" :src="item.img" alt="" srcset="" />
+        <img class="nationalFlag" :src="item.img" alt="" srcset="" />
         <div class="name">{{ item.name }}</div>
       </div>
     </div>

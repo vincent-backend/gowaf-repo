@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="right">
-      <NuxtImg src="/images/home/Report Abuse_graph@2x.png" alt="" srcset="" />
+      <img src="/images/home/Report Abuse_graph@2x.png" alt="" srcset="" />
     </div>
   </div>
   <VSpace h="80px"></VSpace>

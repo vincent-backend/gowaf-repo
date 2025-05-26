@@ -1,7 +1,7 @@
 <template>
   <!-- input输入框icon 可替换 -->
   <div class="sub-icon">
-    <NuxtImg class="img" :src="src" alt="" />
+    <img class="img" :src="src" alt="" />
   </div>
 </template>
 

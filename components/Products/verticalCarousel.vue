@@ -14,7 +14,7 @@
             v-for="item in localizedDefaults.sweperList"
             :class="{ Active: item.title === current.title }"
           >
-            <NuxtImg
+            <img
               class="icon"
               :src="item.title === current.title ? item.aicon : item.icon"
               :style="{
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="right">
-          <NuxtImg
+          <img
             :src="current.bigPic"
             :style="{
               width: $device.isMobile ? '100%' : current.bigpicW

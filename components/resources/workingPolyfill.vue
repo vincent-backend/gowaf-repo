@@ -11,7 +11,7 @@
         :class="currentSlide === index ? 'active' : ''"
       >
         <div class="img1" :style="getStyles(item)">
-          <NuxtImg :src="item.icon" alt="" :style="getStyles(item)" />
+          <img :src="item.icon" alt="" :style="getStyles(item)" />
         </div>
         <div>
           <h3 v-html="item.title"></h3>
@@ -30,13 +30,13 @@
     </div>
     <div class="btn-container">
       <div id="prevBtn" @click="showSlide(currentSlide - 1)">
-        <NuxtImg
+        <img
           src="/images/resources/careers/home_Slide_left_2x.png"
           alt=""
         />
       </div>
       <div id="nextBtn" @click="showSlide(currentSlide + 1)">
-        <NuxtImg
+        <img
           src="/images/resources/careers/home_Slide_right_2x.png"
           alt=""
         />

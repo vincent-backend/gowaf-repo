@@ -126,7 +126,7 @@ const i18ntext = computed<any>(() => {
               <span>{{
                 $t('products.stream.overview.Calculate.ReplicationPoints.label')
               }}</span>
-              <NuxtImg
+              <img
                 src="/images/products/stream/overview/common_price_right_wihte_ic2x.png"
                 alt=""
               />

@@ -53,7 +53,7 @@ const localizedDefaults: any = computed(() => {
           </div>
         </li>
       </ul>
-      <NuxtImg :src="localizedDefaults.img" alt="exceptional-performance" />
+      <img :src="localizedDefaults.img" alt="exceptional-performance" />
     </div>
   </div>
 </template>

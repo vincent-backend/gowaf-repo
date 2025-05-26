@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="pic" v-if="$device.isMobile">
-        <NuxtImg
+        <img
           src="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_2.png"
         />
       </div>
