@@ -28,7 +28,7 @@
     :hint="$t('products.storage.SSDStorage.header.hint')"
     href="/forgot"
     :pic="{
-      src: '/images/products/optimizer/TransformAPI/Network_DDoS_banner_graph_1@2x@2x.png',
+      src: '/images/products/optimizer/TransformAPI/Network_DDoS_banner_graph_1@2x.png',
       w: '470px',
       h: '470px',
 
