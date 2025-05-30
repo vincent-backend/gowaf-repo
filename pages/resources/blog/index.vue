@@ -78,7 +78,7 @@
             <div
               
             >
-            <img class="headPortrait" :src="item.headPortrait" />
+            <img class="headPortrait" :src="item.img" />
           </div>
             <div class="author">{{ item.author }}</div>
             <div class="author-time">
