@@ -1,3 +1,6 @@
+import { useNuxtApp } from '#imports';
+import type { Device } from './types';
+
 // detect mobile
 // export function detectMobileDevice() {
 //   const userAgent =
@@ -35,6 +38,6 @@ declare global {
 // });
 
 export function obeyDevice<T>(laptopValue: T, mobileValue: T) {
-  const { isMobile } = useDevice();
-  return computed(() => (isMobile ? mobileValue : laptopValue));
+  const device: Device = useNuxtApp().$device;
+  return computed(() => ( device.isMobile ? mobileValue : laptopValue));
 }

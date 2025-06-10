@@ -120,4 +120,12 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
     publicAssets: publicAssets
   },
+  imports: {
+    presets: [
+      {
+        from: '~/utils/',
+        imports: ['obeyDevice', 'nationalFlags', 'ProductsMenu', 'ResourcesMenu', 'StreamMenu']
+      },
+    ],
+  }
 });

@@ -10,5 +10,8 @@
       "Products"
     ]
   },
-  "gutterpreview.sourceFolder": "public"
+  "gutterpreview.sourceFolder": "public",
+  "i18n-ally.localesPaths": [
+    "assets/langs"
+  ]
 }
