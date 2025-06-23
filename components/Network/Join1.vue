@@ -61,14 +61,12 @@ const i18ntext = computed(() => {
         <span class="s5">{{ i18ntext.subTitle[5] }}</span>
       </div>
       <div class="comment">
-        <div
-          
-        >
-        <img class="avatar" :src="obeyDevice(avatar, mAvatar).value" />
-      </div>
         <div class="decoration-1"></div>
         <div class="name">{{ person.name }}</div>
         <div class="title">{{ person.title }}</div>
+        <div class="avatar-container">
+          <img class="avatar" :src="obeyDevice(avatar, mAvatar).value" />
+        </div>
         <Line top="20px" m-top="1.88rem" />
         <div class="content">{{ person.content }}</div>
       </div>
@@ -80,11 +78,9 @@ const i18ntext = computed(() => {
               {{ item.score }}
             </div>
           </div>
-          <div
-            class="icon"
-          >
-          <img :src="`/images/network/${item.icon}.png)`" />
-        </div>
+          <div class="icon">
+            <img :src="`/images/network/${item.icon}.png`" width="100%"/>
+          </div>
         </div>
       </div>
     </div>
@@ -93,7 +89,7 @@ const i18ntext = computed(() => {
 
 <style lang="less" scoped>
 .join1-container {
-  height: 846px;
+  // height: 846px;
 
   &.no-ranks {
     height: 521px;
@@ -150,7 +146,7 @@ const i18ntext = computed(() => {
 
     > .comment {
       width: 100%;
-      margin-top: 100px;
+      // margin-top: 100px;
       position: relative;
       background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 24px;
@@ -254,7 +250,7 @@ const i18ntext = computed(() => {
 
         .icon {
           margin-top: 8px;
-
+          
           width: 180px;
           height: 50px;
         }
@@ -273,7 +269,7 @@ const i18ntext = computed(() => {
     height: auto;
 
     &.no-ranks {
-      height: 45.94rem;
+      height: auto;
     }
 
     .join1 {
@@ -318,11 +314,17 @@ const i18ntext = computed(() => {
       }
 
       > .comment {
-        margin-top: 13rem;
+        // margin-top: 13rem;
         border-radius: 0.88rem;
         padding: 1.87rem;
+        position: static;
+
+        .avatar-container {
+          text-align: center;
+        }
 
         .avatar {
+          position: static;
           width: 27.38rem;
           height: 18.75rem;
           right: -0.63rem;
@@ -392,8 +394,8 @@ const i18ntext = computed(() => {
           .icon {
             margin-top: 0;
 
-            width: 11.25rem;
-            height: 3.13rem;
+            width: 100px;
+            height: 25px;
           }
         }
       }

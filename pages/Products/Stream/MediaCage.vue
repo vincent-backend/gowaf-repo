@@ -17,7 +17,7 @@
       h: '336px',
       msrc: '/images/products/stream/media-cage/stream_media_banner_graph@2x.png',
       mw: '28.5rem',
-      mh: '17.38rem'
+      mh: '26.6rem'
     }"
   />
 

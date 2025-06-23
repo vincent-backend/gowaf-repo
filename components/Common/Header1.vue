@@ -118,7 +118,7 @@ onUnmounted(() => {
           
           v-if="pic"
         >
-          <img class="pic" :src="obeyDevice(pic.src, pic.msrc).value" :width="obeyDevice(pic.w, pic.mw).value" :height="obeyDevice(pic.h, pic.mh).value" />
+          <img class="pic" :src="obeyDevice(pic.src, pic.msrc).value" :width="obeyDevice(pic.w, remToPixel(pic.mw)).value" :height="obeyDevice(pic.h, remToPixel(pic.mh)).value" />
       </div>
       </div>
     </div>

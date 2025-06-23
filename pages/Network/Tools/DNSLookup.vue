@@ -44,18 +44,18 @@
       <client-only>
         <XsOnly>
           <el-select
-            v-model="select"
+            v-model="dnsType"
             style="width: 16.25rem"
             placeholder=""
             :suffix-icon="CommonIconDropDown"
           >
-            <el-option label="A" value="1" />
-            <el-option label="CNAME" value="2" />
-            <el-option label="MX" value="3" />
-            <el-option label="AAAA" value="4" />
-            <el-option label="TXT" value="5" />
-            <el-option label="NS" value="6" />
-            <el-option label="SRV" value="7" />
+            <el-option label="A" value="A" />
+            <el-option label="CNAME" value="CNAME" />
+            <el-option label="MX" value="MX" />
+            <el-option label="AAAA" value="AAAA" />
+            <el-option label="TXT" value="TXT" />
+            <el-option label="NS" value="NS" />
+            <el-option label="SRV" value="SRV" />
           </el-select>
         </XsOnly>
         <el-input
@@ -330,6 +330,7 @@ const lookupDns = async () => {
     }
   }
   .inputBox {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

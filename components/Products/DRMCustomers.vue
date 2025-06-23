@@ -49,12 +49,10 @@ defineProps<{
         <div class="header-list">
           <h4><span></span>{{ drmCustomer.list.title }}</h4>
           <span>{{ drmCustomer.list.subTitle }}</span>
-          <div
-            
-          >
+          <div>
             <img class="face-img" v-if="$device.isMobile" :src="drmCustomer.faceImg.img" :width="drmCustomer.faceImg.mwidth"  :height="drmCustomer.faceImg.mheight"/>
             <img class="face-img" v-if="!$device.isMobile" :src="drmCustomer.faceImg.img" :width="drmCustomer.faceImg.width"  :height="drmCustomer.faceImg.height"/>
-        </div>
+          </div>
         </div>
         <p>
           {{ drmCustomer.list.content }}
@@ -87,7 +85,7 @@ defineProps<{
       padding-bottom: 144px;
     }
     .header-list {
-      position: relative;
+      // position: relative;
       .face-img {
         position: absolute;
         width: 438px;
@@ -270,20 +268,22 @@ defineProps<{
     .drm-customer-content-container {
       width: 100%;
       margin: 0 auto;
-      position: relative;
+      position: static;
       .isHiddenSubTitle {
         display: block;
         padding-bottom: 5rem;
       }
       .header-list {
-        position: relative;
+        position: static;
         .face-img {
-          position: absolute;
+          position: static;
+          width: 100%;
+          height: auto;
           background-position: right 0;
           background-repeat: no-repeat;
           background-size: cover !important;
-          right: 0;
-          bottom: 0;
+          // right: 0;
+          // bottom: 0;
         }
       }
       &::before {
@@ -325,7 +325,7 @@ defineProps<{
         font-style: normal;
         text-transform: none;
         display: table-cell;
-        padding-bottom: 11rem;
+        // padding-bottom: 11rem;
         .clolorFA9B3B {
           color: #fa9b3b;
         }
@@ -344,6 +344,7 @@ defineProps<{
         position: relative;
         box-sizing: border-box;
         padding: 1.88rem;
+        padding-bottom: 0px;
         width: 100%;
         min-height: 24.81rem;
         background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);

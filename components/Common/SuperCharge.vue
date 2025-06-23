@@ -52,7 +52,7 @@ watch(curTab, (newCurTab) => {
             <div
               
             >
-              <img class="icon left-image" v-if="$device.isMobile" :src="tab.mIcon" :width="tab.mIconWidth" :height="tab.mIconHeight"/>
+              <img class="icon left-image" v-if="$device.isMobile" :src="tab.mIcon" :width="remToPixel(tab.mIconWidth)" :height="remToPixel(tab.mIconHeight)"/>
               <img class="icon left-image" v-if="!$device.isMobile" :src="tab.icon" :width="tab.iconWidth" :height="tab.iconHeight"/>
           </div>
           </div>

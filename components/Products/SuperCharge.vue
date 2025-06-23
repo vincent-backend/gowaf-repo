@@ -12,11 +12,7 @@
           class="item"
           v-for="item in i18ntext"
         >
-          <div
-            
-          >
-          <img class="icon" :src="item.icon" />
-        </div>
+          <img class="icon" :width="obeyDevice('88px', '66px').value" :src="item.icon" />
           <div class="title">{{ item.title }}</div>
         </div>
       </div>
@@ -80,15 +76,19 @@ const i18ntext = computed<any>(() => {
       > .item {
         width: 33.3%;
         box-sizing: border-box;
-        height: 162px;
-        padding-top: 42px;
-        padding-left: 44px;
+        // height: 162px;
+        // padding-top: 42px;
+        // padding-left: 44px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 22px;
+        padding-bottom: 22px;
         border: 1px solid #e6e6e6;
 
-        > .icon {
-          width: 44px;
-          height: 44px;
-        }
+        // > .icon {
+        //   width: 44px;
+        //   height: 44px;
+        // }
 
         > .title {
           margin-top: 14px;

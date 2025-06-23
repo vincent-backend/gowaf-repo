@@ -10,11 +10,9 @@
       <div class="list">
         <div class="item" v-for="item in i18ntext">
           <div class="left">
-            <div
-              
-            >
-            <img class="icon" :src="item.icon" />
-          </div>
+            <div>
+              <img class="icon" :width="obeyDevice('296px', '222px').value" :src="item.icon" />
+            </div>
             <div class="icon-label">{{ item.iconLabel }}</div>
           </div>
           <div class="right">
@@ -23,11 +21,9 @@
             <div class="indicator-container">
               <div class="indicator" v-for="indicator in item.indicators">
                 <div class="head">
-                  <div
-                    
-                  >
-                  <img class="icon" :src="indicator.icon" />
-                </div>
+                  <div>
+                    <img class="icon" :width="obeyDevice('80px', '60px').value" :src="indicator.icon" />
+                  </div>
                   <div class="value">{{ indicator.value }}</div>
                 </div>
                 <div class="label">{{ indicator.label }}</div>
@@ -123,10 +119,10 @@ const i18ntext = computed<any>(() => {
           flex-direction: column;
           align-items: center;
 
-          > .icon {
+          /*> .icon {
             width: 148px;
             height: 148px;
-          }
+          }*/
 
           > .icon-label {
             margin-top: 4px;
@@ -262,10 +258,10 @@ const i18ntext = computed<any>(() => {
             align-items: center;
             justify-content: center;
 
-            > .icon {
+            /*> .icon {
               width: 16.25rem;
               height: 16.25rem;
-            }
+            }*/
 
             > .icon-label {
               margin-top: 2.3rem;

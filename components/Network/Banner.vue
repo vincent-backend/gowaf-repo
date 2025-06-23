@@ -1038,6 +1038,8 @@ const i18ntext = computed(() => {
       display: flex;
       justify-content: center;
       gap: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
 
       a {
         background: rgba(255, 255, 255, 0.3);

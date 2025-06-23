@@ -18,7 +18,7 @@
       h: '369px',
       msrc: '/images/products/Stream/TranscribeAI/stream_transcribe_banner_graph@2x.png',
       mw: '23.81rem',
-      mh: '23.19rem'
+      mh: '17.71rem'
     }"
   />
   <ProductsEasyPowerful
