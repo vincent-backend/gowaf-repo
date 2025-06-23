@@ -124,7 +124,16 @@ export default defineNuxtConfig({
     presets: [
       {
         from: '~/utils/',
-        imports: ['obeyDevice', 'nationalFlags', 'ProductsMenu', 'ResourcesMenu', 'StreamMenu']
+        imports: [
+          'obeyDevice',
+          'nationalFlags',
+          'ProductsMenu',
+          'ResourcesMenu',
+          'StreamMenu',
+          'CDNenu',
+          'AcademyMenu',
+          'remToPixel',
+        ]
       },
     ],
   }

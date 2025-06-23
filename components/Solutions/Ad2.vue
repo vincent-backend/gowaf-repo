@@ -78,8 +78,6 @@ const props = defineProps({
     justify-content: space-between;
 
     > .left {
-      .pic {
-      }
 
       > .btn-container {
         display: none;
@@ -178,9 +176,6 @@ const props = defineProps({
 
       > .left {
         margin-top: 3.13rem;
-
-        .pic {
-        }
 
         > .btn-container {
           margin-top: 3.6rem;
