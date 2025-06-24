@@ -133,6 +133,7 @@ export default defineNuxtConfig({
           'CDNenu',
           'AcademyMenu',
           'remToPixel',
+          'mergeWithDefaults',
         ]
       },
     ],

@@ -30,7 +30,7 @@ defineProps<
         <div
           
         >
-        <img class="pic" v-if="$device.isMobile" :height="mPicHeight" :src="mPic" />
+        <img class="pic" v-if="$device.isMobile" :height="remToPixel(mPicHeight)" :src="mPic" />
         <img class="pic" v-if="!$device.isMobile" :height="picHeight" :src="pic" />
       </div>
       </div>

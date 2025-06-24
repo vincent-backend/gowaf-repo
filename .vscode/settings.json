@@ -13,5 +13,6 @@
   "gutterpreview.sourceFolder": "public",
   "i18n-ally.localesPaths": [
     "assets/langs"
-  ]
+  ],
+  "i18n-ally.keystyle": "nested"
 }

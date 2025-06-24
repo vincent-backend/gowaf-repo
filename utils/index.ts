@@ -5,6 +5,7 @@ import { default as StreamMenu } from './StreamMenu';
 import { obeyDevice } from './isMobile';
 import { default as AcademyMenu } from './AcademyMenu';
 import { default as CDNenu } from './CDNenu';
+import { mergeWithDefaults } from './utils';
 
 const remToPixel = (rem: any) => {
     if (rem === undefined || rem === "") {
@@ -24,4 +25,5 @@ export {
     CDNenu,
     AcademyMenu,
     remToPixel,
+    mergeWithDefaults,
 };
