@@ -16,11 +16,11 @@
     :containerStyle="{ height: '590px' }"
     :showFoot="false"
     :pic="{
-      src: '/images/products/storage/Australia/Network_Overview_nation_Australia_2x.png',
+      src: '/images/products/storage/australia/Network_Overview_nation_Australia_2x.png',
       w: '524px',
       h: '434px',
 
-      msrc: '/images/products/storage/Australia/Network_Overview_nation_Australia_2x.png',
+      msrc: '/images/products/storage/australia/Network_Overview_nation_Australia_2x.png',
       mw: '32.75rem',
       mh: '27.13rem'
     }"
