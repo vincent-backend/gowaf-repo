@@ -60,7 +60,18 @@
   <div class="topimg-container">
     <div class="page-container directly">
       <div class="title">{{ $t('products.cdn.BouuyDNS.title') }}</div>
-      <div class="img"></div>
+      <img
+        v-if="!$device.isMobile"
+        class="img"
+        width="1242px"
+        src="/images/products/DNS/Take Full control of your DNS@2x.png"
+      />
+      <img
+        v-if="$device.isMobile"
+        class="img"
+        width="100%"
+        src="/images/products/DNS/Take Full control of your DNS@2x.png"
+      />
     </div>
   </div>
   <ProductsDRMCustomers
@@ -250,10 +261,6 @@ const i18ntext = computed<any>(() => {
     }
     .img {
       margin-top: 64px;
-      width: 1242px;
-      height: 766px;
-      background: url('/images/products/DNS/Take full control of your DNS@2x.png');
-      background-size: 1242px 766px;
     }
   }
 }
@@ -262,6 +269,9 @@ const i18ntext = computed<any>(() => {
     :deep(.isHiddenSubTitle) {
       padding-bottom: 9rem !important;
     }
+  }
+  .img {
+    margin-top: 16px !important;
   }
 }
 </style>
