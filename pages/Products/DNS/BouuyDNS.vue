@@ -70,7 +70,7 @@
         v-if="$device.isMobile"
         class="img"
         width="100%"
-        src="/images/products/DNS/Take Full control of your DNS@2x.png"
+        src="/images/products/DNS/Take full control of your DNS@2x.png"
       />
     </div>
   </div>
