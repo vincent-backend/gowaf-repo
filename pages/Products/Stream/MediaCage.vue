@@ -66,7 +66,9 @@
     :pic="{
       url: '/images/products/stream/media-cage/media_perfect_img@2x.png',
       width: 460,
-      height: 480
+      height: 480,
+      mwidth: '100%',
+      mheight: 'auto'
     }"
   />
 

@@ -348,4 +348,10 @@ const i18ntext = computed(() => {
     }
   }
 }
+
+@media (max-width: 767px) {
+  .Checklist {
+    flex-direction: column;
+  }
+}
 </style>
