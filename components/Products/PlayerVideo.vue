@@ -8,8 +8,8 @@
       <video
         class="video-player"
         controls
-        width="800"
-        height="450"
+        width="100%"
+        height="auto"
         poster="/images/products/stream/player/player-1@2x.png"
       >
         <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
@@ -77,7 +77,7 @@ const localizedDefaults: any = computed(() => {
     margin: 40px auto 0;
 
     width: 782px;
-    height: 440px;
+    // height: 440px;
     // background: url(/images/products/stream/player/player-1@2x.png);
   }
 
@@ -99,6 +99,7 @@ const localizedDefaults: any = computed(() => {
     box-sizing: border-box;
     padding: 0 1.88rem;
     margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
 
     > .title {
       font-weight: 500;
@@ -116,9 +117,9 @@ const localizedDefaults: any = computed(() => {
 
     > .pic {
       margin: 3rem auto 0;
-      width: 100%;
-      height: 24.25rem;
-      background: url(/images/products/stream/player/player-1@2x.png);
+      width: 100% !important;
+      // height: 24.25rem;
+      // background: url(/images/products/stream/player/player-1@2x.png);
     }
 
     > .btn-container {

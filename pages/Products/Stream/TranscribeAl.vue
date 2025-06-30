@@ -13,10 +13,10 @@
     href="/forgot"
     :hint="$t('products.cdn.overview.header.hint')"
     :pic="{
-      src: '/images/products/Stream/TranscribeAI/stream_transcribe_banner_graph@2x.png',
+      src: '/images/products/stream/TranscribeAI/stream_transcribe_banner_graph@2x.png',
       w: '496px',
       h: '369px',
-      msrc: '/images/products/Stream/TranscribeAI/stream_transcribe_banner_graph@2x.png',
+      msrc: '/images/products/stream/TranscribeAI/stream_transcribe_banner_graph@2x.png',
       mw: '23.81rem',
       mh: '17.71rem'
     }"
@@ -350,8 +350,13 @@ const i18ntext = computed(() => {
 }
 
 @media (max-width: 767px) {
-  .Checklist {
-    flex-direction: column;
+  .Planlist {
+    .included {
+      .Checklist {
+        flex-direction: column;
+        width: 100%;
+      }
+    }
   }
 }
 </style>
