@@ -28,26 +28,26 @@ withDefaults(
         <div
           class="title"
           v-if="title"
-          :style="{ width: $device.isMobile ? '100%' : titleWidth }"
+          :style="{ width: isMobile() ? '100%' : titleWidth }"
         >
           {{ title }}
         </div>
         <div class="content" v-if="content">{{ content }}</div>
         <XsOnly>
-          <div
-            v-if="picPosition === 'top'"
-            
-          >
-            <img class="pic" :src="pic?.url" :width="pic?.mwidth" :height="pic?.mheight" />
-        </div>
+          <div v-if="picPosition === 'top'" class="pic-container">
+            <img
+              class="pic"
+              :src="pic?.url"
+              :width="remToPixel(pic?.mwidth)"
+              :height="remToPixel(pic?.mheight)"
+            />
+          </div>
         </XsOnly>
         <div class="list">
           <div class="item" v-if="items.length > 0" v-for="item in items">
-            <div
-               
-            >
-            <img class="icon" :src="item.icon" />
-          </div>
+            <div class="icon-container">
+              <img class="icon" :src="item.icon" />
+            </div>
             <div class="right">
               <div class="title">{{ item.title }}</div>
               <div class="content">{{ item.content }}</div>
@@ -55,24 +55,26 @@ withDefaults(
           </div>
         </div>
         <XsOnly>
-          <div
-            v-if="picPosition !== 'top'"
-            
-            :style="{
-              marginTop: '3.13rem'
-            }"
-          >
-            <img class="pic" :src="pic?.url" :width="pic?.mwidth" :height="pic?.mheight"
-        </div>
+          <div v-if="picPosition !== 'top'" class="pic-container">
+            <img
+              class="pic"
+              :src="pic?.url"
+              :width="remToPixel(pic?.mwidth)"
+              :height="remToPixel(pic?.mheight)"
+            />
+          </div>
         </XsOnly>
       </div>
       <LgOnly>
         <div class="right">
-          <div
-            
-          >
-            <img class="pic" :src="pic?.url" :width="pic?.width + 'px'" :height="pic?.height + 'px'" />
-        </div>
+          <div class="pic-container">
+            <img
+              class="pic"
+              :src="pic?.url"
+              :width="pic?.width + 'px'"
+              :height="pic?.height + 'px'"
+            />
+          </div>
         </div>
       </LgOnly>
     </div>
@@ -117,9 +119,11 @@ withDefaults(
         > .item {
           display: flex;
 
-          > .icon {
-            width: 60px;
-            height: 60px;
+          > .icon-container {
+            > .icon {
+              width: 120px;
+              height: 120px;
+            }
           }
 
           > .right {
@@ -146,13 +150,7 @@ withDefaults(
     }
 
     > .right {
-      padding-top: 101px;
-
-      > .pic {
-        width: 460px;
-        height: 480px;
-        // background-image: url(/images/products/stream/media-cage/media_perfect_img@2x.png);
-      }
+      margin: auto 0;
     }
   }
 }
@@ -172,11 +170,9 @@ withDefaults(
           font-size: 2.5rem;
           line-height: 3.5rem;
         }
-        > .pic {
-          margin: 0 auto;
-          width: 28.75rem;
-          height: 30rem;
-          // background-image: url(/images/products/stream/media-cage/media_perfect_img@2x.png);
+        > .pic-container {
+          margin-top: 3.13rem;
+          text-align: center;
         }
         > .content {
           margin-top: 1rem;
@@ -194,10 +190,12 @@ withDefaults(
           > .item {
             display: flex;
             flex-direction: column;
-
-            > .icon {
-              width: 7.5rem;
-              height: 7.5rem;
+            > .icon-container {
+              text-align: center;
+              > .icon {
+                width: 15rem;
+                height: 15rem;
+              }
             }
 
             > .right {
@@ -224,12 +222,6 @@ withDefaults(
 
       > .right {
         padding-top: 2.5rem;
-
-        > .pic {
-          width: 28.75rem;
-          height: 30rem;
-          // background-image: url(/images/products/stream/media-cage/media_perfect_img@2x.png);
-        }
       }
     }
   }

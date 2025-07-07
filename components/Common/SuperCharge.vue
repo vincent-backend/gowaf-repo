@@ -41,7 +41,7 @@ watch(curTab, (newCurTab) => {
         <div
           class="tabs-content"
           :style="{
-            width: isList ? '1200px' : undefined,
+            // width: isList ? '1200px' : undefined,
             display: index === curTab ? undefined : 'none'
           }"
         >
@@ -52,8 +52,8 @@ watch(curTab, (newCurTab) => {
             <div
               
             >
-              <img class="icon left-image" v-if="$device.isMobile" :src="tab.mIcon" :width="remToPixel(tab.mIconWidth)" :height="remToPixel(tab.mIconHeight)"/>
-              <img class="icon left-image" v-if="!$device.isMobile" :src="tab.icon" :width="tab.iconWidth" :height="tab.iconHeight"/>
+              <img class="icon left-image" v-if="isMobile()" :src="tab.mIcon" :width="remToPixel(tab.mIconWidth)" :height="remToPixel(tab.mIconHeight)"/>
+              <img class="icon left-image" v-if="isMobile()" :src="tab.icon" :width="tab.iconWidth" :height="tab.iconHeight"/>
           </div>
           </div>
           <div class="right" v-if="!isList">
@@ -110,7 +110,6 @@ watch(curTab, (newCurTab) => {
 
     > .tabs-content {
       margin: 45px auto 0;
-      width: 974px;
       display: flex;
       justify-content: space-between;
 
@@ -271,8 +270,6 @@ watch(curTab, (newCurTab) => {
 
       > .tabs-content {
         margin-top: 4.25rem;
-        width: auto;
-        flex-direction: column;
 
         .left {
           display: flex;

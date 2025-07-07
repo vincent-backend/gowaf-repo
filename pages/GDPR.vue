@@ -40,7 +40,7 @@
         :pic-height="ad2.height"
         :m-pic-width="ad2.mw"
         :m-pic-height="ad2.mh"
-        :reverse="$device.isMobile ? true : index % 2 === 0"
+        :reverse="isMobile() ? true : index % 2 === 0"
       />
     </div>
   </div>

@@ -76,19 +76,12 @@ const i18ntext = computed<any>(() => {
         <CommonTabs :tabs="i18ntext" v-model:cur-tab="curTab" />
         <template v-for="(item, index) in i18ntext">
           <div class="content" v-if="curTab === index">
-            <div
-              class="pic"
-              :style="{
-                // backgroundImage: `url(${item.pic})`,
-                width: $device.isMobile ? item.mpicWidth : item.picWidth,
-                height: $device.isMobile ? item.mpicHeight : item.picHeight
-              }"
-            >
+            <div class="pic">
               <video
                 class="video-player"
                 controls
-                width="800"
-                height="450"
+                width="100%"
+                height="auto"
                 :poster="item.pic"
               >
                 <source

@@ -18,11 +18,7 @@ defineProps<{
       <div class="content-container">
         <div class="row" v-for="row in rows">
           <div class="content-item" v-for="item in row">
-            <div
-              
-            >
             <img class="icon" :src="item.icon" />
-          </div>
             <div class="title">{{ item.title }}</div>
             <div class="content">{{ item.content }}</div>
           </div>
@@ -131,6 +127,7 @@ defineProps<{
             min-height: auto;
             padding: 1.25rem;
             padding-bottom: 3.44rem;
+            text-align: center;
 
             .icon {
               width: 4.25rem;

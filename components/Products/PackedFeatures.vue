@@ -9,11 +9,7 @@
       </div>
       <div class="content">
         <div class="item" v-for="item in i18ntext">
-          <div
-            
-          >
           <img class="icon" :src="item.icon" />
-        </div>
           <div class="title">{{ item.title }}</div>
         </div>
       </div>
@@ -144,7 +140,7 @@ const i18ntext = computed<any>(() => {
           box-sizing: border-box;
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
+          align-items: center;
           justify-content: center;
           border: 1px solid #e6e6e6;
           margin-right: -1px;
@@ -161,7 +157,7 @@ const i18ntext = computed<any>(() => {
             font-weight: 500;
             width: 100%;
             white-space: wrap;
-            text-align: left;
+            text-align: center;
           }
         }
       }

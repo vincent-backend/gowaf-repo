@@ -18,7 +18,7 @@
               class="icon"
               :src="item.title === current.title ? item.aicon : item.icon"
               :style="{
-                width: $device.isMobile ? item.miconw : item.iconw
+                width: isMobile() ? item.miconw : item.iconw
               }"
               alt=""
               srcset=""
@@ -30,7 +30,7 @@
           <img
             :src="current.bigPic"
             :style="{
-              width: $device.isMobile ? '100%' : current.bigpicW
+              width: isMobile() ? '100%' : current.bigpicW
             }"
             alt=""
             srcset=""

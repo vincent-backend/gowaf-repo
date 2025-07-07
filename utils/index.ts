@@ -6,6 +6,7 @@ import { obeyDevice } from './isMobile';
 import { default as AcademyMenu } from './AcademyMenu';
 import { default as CDNenu } from './CDNenu';
 import { mergeWithDefaults } from './utils';
+import { isMobile } from './isMobile';
 
 const remToPixel = (rem: any) => {
     if (rem === undefined || rem === "") {
@@ -26,4 +27,5 @@ export {
     AcademyMenu,
     remToPixel,
     mergeWithDefaults,
+    isMobile,
 };

@@ -17,18 +17,14 @@ defineProps<{
       <div class="title1" v-if="title1">{{ title1 }}</div>
       <div
         class="title2"
-        :style="{ width: $device.isMobile ? '100%' : title2Width }"
+        :style="{ width: isMobile() ? '100%' : title2Width }"
         v-if="title2"
       >
         {{ title2 }}
       </div>
       <div class="list">
         <div class="item" v-for="item in items">
-          <div
-            
-          >
           <img class="icon" :src="item.icon" />
-        </div>
           <div class="title">
             {{ item.title }}
           </div>
@@ -149,12 +145,14 @@ defineProps<{
           width: 20.94rem;
           height: auto;
 
-          background-size: 20.94rem 12.5rem !important;
+          background-size: 20.94rem 18.5rem !important;
           padding: 0.63rem 1.25rem 2rem;
 
+          text-align: center;
+
           .icon {
-            width: 8.25rem;
-            height: 8.25rem;
+            width: 8rem;
+            height: 8rem;
           }
 
           .title {

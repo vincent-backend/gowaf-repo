@@ -46,7 +46,6 @@
 </template>
 <script lang="ts" setup>
 const { t } = useI18n();
-const { isMobile } = useDevice();
 defineProps<{
   tab: {
     title: string;
@@ -111,7 +110,7 @@ const showSlide = (index: number) => {
   currentSlide.value = index >= 4 ? 0 : index < 0 ? 3 : index;
 };
 const getStyles = (item: any) => {
-  return isMobile
+  return isMobile()
     ? {}
     : {
         width: `${item.width}`,

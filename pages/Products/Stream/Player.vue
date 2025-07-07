@@ -39,7 +39,7 @@
     m-pic-height="25rem"
     m-pic-width="25rem"
     v-bind="
-      $device.isMobile
+      isMobile()
         ? {
             style: {
               marginTop: '6.25rem'
@@ -64,8 +64,8 @@
       <video
         class="video-player"
         controls
-        width="800"
-        height="450"
+        width="100%"
+        height="auto"
         poster="/images/products/stream/player/player-1@2x.png"
       >
         <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
@@ -179,7 +179,7 @@ const i18ntext = computed(() => {
     margin: 40px auto 0;
 
     width: 782px;
-    height: 440px;
+    // height: 440px;
     // background: url(/images/products/stream/player/player-1@2x.png);
   }
 }
@@ -208,8 +208,8 @@ const i18ntext = computed(() => {
     > .pic {
       margin: 2.5rem auto 0;
       width: 100%;
-      height: 24.25rem;
-      background: url(/images/products/stream/player/player-1@2x.png);
+      // height: 24.25rem;
+      // background: url(/images/products/stream/player/player-1@2x.png);
     }
   }
 }

@@ -41,3 +41,8 @@ export function obeyDevice<T>(laptopValue: T, mobileValue: T) {
   const device: Device = useNuxtApp().$device;
   return computed(() => ( device.isMobile ? mobileValue : laptopValue));
 }
+
+export function isMobile() {
+  const device: Device = useNuxtApp().$device;
+  return device.isMobile;
+}

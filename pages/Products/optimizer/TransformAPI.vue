@@ -66,7 +66,7 @@
     m-pic="/images/products/optimizer/overview/multi_drmprcing_img@2x.png"
     m-pic-height="36.38rem"
     m-pic-width="36.38rem"
-    :reverse="$device.isMobile"
+    :reverse="isMobile()"
     class="website"
   >
     <template #title>

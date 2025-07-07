@@ -19,7 +19,7 @@
               <div
                 class="item"
                 v-for="item2 in item.items"
-                :class="{ block: item2.block || $device.isMobile }"
+                :class="{ block: item2.block || isMobile() }"
               >
                 <div class="title">{{ item2.title }}</div>
                 <div class="inner-list" :class="{ max: item2.max }">
@@ -34,7 +34,7 @@
               <div class="works-items">
                 <div
                   class="item"
-                  :class="{ block: item2.block || $device.isMobile }"
+                  :class="{ block: item2.block || isMobile() }"
                   v-for="item2 in item.subList.items"
                 >
                   <div class="title">{{ item2.title }}</div>

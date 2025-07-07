@@ -60,7 +60,7 @@
     m-pic="/images/products/optimizer/overview/SmartEdge™_graph_1@2x.png"
     m-pic-height="18.88rem"
     m-pic-width="27.94rem"
-    :reverse="$device.isMobile"
+    :reverse="isMobile()"
     class="Minimize"
   >
     <div class="percentage">
@@ -107,7 +107,7 @@
     m-pic="/images/products/optimizer/overview/multi_drmprcing_img@2x.png"
     m-pic-height="36.38rem"
     m-pic-width="36.38rem"
-    :reverse="$device.isMobile"
+    :reverse="isMobile()"
     class="website"
   >
     <template #title>
@@ -130,7 +130,7 @@
     m-pic="/images/products/optimizer/overview/stream_overview_banner_graph@2x.png"
     m-pic-height="17.38rem"
     m-pic-width="28.5rem"
-    :reverse="$device.isMobile"
+    :reverse="isMobile()"
     class="Boost"
   >
   </SolutionsAd2>

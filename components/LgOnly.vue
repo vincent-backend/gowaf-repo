@@ -1,6 +1,6 @@
 <template>
-  <!-- <div v-if="!$device.isMobile">
+  <!-- <div v-if="!isMobile()">
     <slot></slot>
   </div> -->
-  <slot v-if="!$device.isMobile" />
+  <slot v-if="!isMobile()" />
 </template>

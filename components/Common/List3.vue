@@ -393,7 +393,7 @@ const slotfull = !!useSlots().full;
           width: 1px; /* 设置元素的宽度为100% */
         }
         .full-item {
-          width: 40.75rem;
+          width: calc(100% - 38px);
           height: fit-content;
           background: #ffffff;
           box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;

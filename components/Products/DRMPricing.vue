@@ -51,11 +51,11 @@
         </div>
 
         <div class="section-2">
-          <div class="left" v-if="!$device.isMobile">
+          <div class="left" v-if="!isMobile()">
             <div class="pic"></div>
           </div>
           <div class="right">
-            <template v-if="$device.isMobile">
+            <template v-if="isMobile()">
               <h3>
                 {{ $t('products.stream.multiDRM.drmPricing.section2.title') }}
                 {{ $t('products.stream.multiDRM.drmPricing.section2.title2') }}
@@ -75,7 +75,7 @@
             <p>
               {{ $t('products.stream.multiDRM.drmPricing.section2.content1') }}
             </p>
-            <div class="pic" v-if="$device.isMobile"></div>
+            <div class="pic" v-if="isMobile()"></div>
             <ul>
               <li v-for="(item, index) in i18ntext.list1" :key="index">
                 <img :src="item.icon" :alt="item.title" />
@@ -564,6 +564,8 @@ const i18ntext = computed<any>(() => {
             .pic {
               width: 36.38rem;
               height: 36.38rem;
+              margin-left: auto;
+              margin-right: auto;
               background: url(/images/products/stream/multi-drm/multi_drmprcing_img@2x.png)
                 no-repeat 0 0;
               background-size: contain;
@@ -624,6 +626,7 @@ const i18ntext = computed<any>(() => {
                 font-style: normal;
                 text-transform: none;
                 margin-bottom: 2.5rem;
+                align-items: center;
                 img {
                   width: 7.5rem;
                   height: 7.5rem;

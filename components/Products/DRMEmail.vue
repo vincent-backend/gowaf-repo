@@ -141,6 +141,7 @@ const i18ntext = computed<any>(() => {
             display: flex;
             flex-direction: column;
             margin-bottom: 2.5rem;
+            align-items: center;
             p {
               padding-top: 10px;
               font-family: PingFangSC, PingFang SC;
@@ -156,7 +157,7 @@ const i18ntext = computed<any>(() => {
             img {
               width: 7.5rem;
               height: 7.5rem;
-              margin-right: auto;
+              margin-right: 0px;
             }
           }
         }

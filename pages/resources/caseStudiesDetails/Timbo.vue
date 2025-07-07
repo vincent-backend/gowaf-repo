@@ -74,7 +74,7 @@
         :m-pic="item.pic"
         :m-pic-width="item.mwidth"
         :m-pic-height="item.mheight"
-        :reverse="$device.isMobile ? true : index % 2 === 0"
+        :reverse="isMobile() ? true : index % 2 === 0"
       />
     </template>
   </div>

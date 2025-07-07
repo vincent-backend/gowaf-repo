@@ -16,11 +16,7 @@ defineProps<{
       <div class="title2" v-if="title2">{{ title2 }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
-          <div
-            
-          >
           <img class="icon" :src="item.icon" />
-        </div>
           <div class="title">
             {{ item.title }}
           </div>
@@ -65,8 +61,7 @@ defineProps<{
       .item {
         width: 330px;
         height: 200px;
-        background: url(/images/network/Network_DDoS_card_bg.png) no-repeat top,
-          #ffffff;
+        background: url(/images/network/Network_DDoS_card_bg.png) no-repeat top, #ffffff;
         box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
         border: 1px solid #e6e6e6;
@@ -126,6 +121,7 @@ defineProps<{
           height: auto;
           box-sizing: border-box;
           padding: 0.63rem 1.25rem 1.25rem 1.25rem;
+          text-align: center;
 
           .icon {
             width: 8.25rem;
@@ -139,7 +135,7 @@ defineProps<{
             font-size: 2.13rem;
             color: #000000;
             line-height: 3.13rem;
-            text-align: left;
+            // text-align: left;
             font-style: normal;
             text-transform: none;
           }

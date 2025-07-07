@@ -25,11 +25,9 @@ const curTab = ref(0);
     <div class="page-container super-charge">
       <div class="tabs-content">
         <div class="left">
-          <div
-            
-          >
-            <img class="icon" v-if="$device.isMobile" :src="tab?.mIcon" :width="tab.mIconWidth"  :height="tab.mIconHeight"/>
-            <img class="icon" v-if="!$device.isMobile" :src="tab?.icon" :width="tab.iconWidth"  :height="tab.iconHeight"/>
+          <div>
+            <img class="icon" v-if="isMobile()" :src="tab?.mIcon" :width="remToPixel(tab.mIconWidth)"  :height="remToPixel(tab.mIconHeight)"/>
+            <img class="icon" v-if="!isMobile()" :src="tab?.icon" :width="tab.iconWidth"  :height="tab.iconHeight"/>
         </div>
         </div>
         <div class="right">
@@ -39,15 +37,13 @@ const curTab = ref(0);
           <div class="content">
             <p>{{ tab.content }}</p>
           </div>
-          <NuxtLinkLocale v-if="!$device.isMobile && tab.btn" href="#" class="trail-btn">{{
+          <NuxtLinkLocale v-if="!isMobile() && tab.btn" href="#" class="trail-btn">{{
             tab.btn
           }}</NuxtLinkLocale>
           <div v-else class="btn-pic">
-            <div
-              
-            >
-              <img class="icon" :src="tab?.mIcon" :width="tab.mIconWidth" :height="tab.mIconHeight"/>
-          </div>
+            <div>
+              <img class="icon" :src="tab?.mIcon" :width="remToPixel(tab.mIconWidth)" :height="remToPixel(tab.mIconHeight)"/>
+            </div>
             <NuxtLinkLocale href="#" class="trail-btn" v-if="tab.btn">{{ tab.btn }}</NuxtLinkLocale>
           </div>
         </div>

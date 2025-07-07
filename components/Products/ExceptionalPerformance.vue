@@ -30,7 +30,7 @@ const localizedDefaults: any = computed(() => {
           ]"
           :key="index"
           :style="
-            $device.isMobile
+            isMobile()
               ? {
                   left: item * (Math.floor(Math.random() * 4) + 5) + 'px',
                   top: item * Math.floor(Math.random() * 11) + 'px'

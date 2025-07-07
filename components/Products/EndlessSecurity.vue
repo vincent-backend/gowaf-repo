@@ -7,7 +7,7 @@
       <div class="sub-title">
         {{ $t('products.stream.multiDRM.endlessSecurity.subTitle') }}
       </div>
-      <div class="content" v-if="!$device.isMobile">
+      <div class="content" v-if="!isMobile()">
         <CommonMultiLine
           class="tag tag-1"
           :text="

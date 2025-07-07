@@ -55,7 +55,7 @@
     m-pic="/images/products/cdn/comparison/cdn_overview_supercharged_img@2x.png"
     m-pic-width="22.19rem"
     m-pic-height="23.25rem"
-    :reverse="$device.isMobile"
+    :reverse="isMobile()"
   >
     <div class="percentage">
       <div class="percentage-item">

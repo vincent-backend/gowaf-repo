@@ -50,8 +50,8 @@ defineProps<{
           <h4><span></span>{{ drmCustomer.list.title }}</h4>
           <span>{{ drmCustomer.list.subTitle }}</span>
           <div>
-            <img class="face-img" v-if="$device.isMobile" :src="drmCustomer.faceImg.img" :width="drmCustomer.faceImg.mwidth"  :height="drmCustomer.faceImg.mheight"/>
-            <img class="face-img" v-if="!$device.isMobile" :src="drmCustomer.faceImg.img" :width="drmCustomer.faceImg.width"  :height="drmCustomer.faceImg.height"/>
+            <img class="face-img" v-if="isMobile()" :src="drmCustomer.faceImg.img" :width="drmCustomer.faceImg.mwidth"  :height="drmCustomer.faceImg.mheight"/>
+            <img class="face-img" v-if="!isMobile()" :src="drmCustomer.faceImg.img" :width="drmCustomer.faceImg.width"  :height="drmCustomer.faceImg.height"/>
           </div>
         </div>
         <p>

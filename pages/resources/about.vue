@@ -127,7 +127,7 @@ const i18ntext = computed(() => {
       iconHeight: '312px',
       btn: t('Z5qnybQpsROXRBzJuDoCd'),
       href: '#',
-      mIcon: '/mobile-images/resources/about/resources_about_graph_2@2x.png',
+      mIcon: '/mobile-images/resources/about/Resources_about_graph_2@2x.png',
       mIconWidth: '20.88rem',
       mIconHeight: '19.5rem'
     },

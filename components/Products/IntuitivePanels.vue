@@ -15,8 +15,8 @@
           <div
             
           >
-            <img class="pic" v-if="$device.isMobile" :src="tab.pic" width="100%"/>
-            <img class="pic" v-if="!$device.isMobile" :src="tab.pic" :width="tab.picWidth"  :height="tab.picHeight"/>
+            <img class="pic" v-if="isMobile()" :src="tab.pic" width="100%"/>
+            <img class="pic" v-if="!isMobile()" :src="tab.pic" :width="tab.picWidth"  :height="tab.picHeight"/>
         </div>
         </div>
       </template>

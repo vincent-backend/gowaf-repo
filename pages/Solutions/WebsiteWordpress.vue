@@ -56,7 +56,7 @@
           <div class="label">{{ item.label }}</div>
         </div>
       </div>
-      <div class="pic" v-if="$device.isMobile">
+      <div class="pic" v-if="isMobile()">
         <img
           src="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_2.png"
         />

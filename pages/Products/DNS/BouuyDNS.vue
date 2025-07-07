@@ -61,13 +61,13 @@
     <div class="page-container directly">
       <div class="title">{{ $t('products.cdn.BouuyDNS.title') }}</div>
       <img
-        v-if="!$device.isMobile"
+        v-if="!isMobile()"
         class="img"
         width="1242px"
         src="/images/products/DNS/Take Full control of your DNS@2x.png"
       />
       <img
-        v-if="$device.isMobile"
+        v-if="isMobile()"
         class="img"
         width="100%"
         src="/images/products/DNS/Take full control of your DNS@2x.png"

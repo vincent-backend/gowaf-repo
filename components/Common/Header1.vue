@@ -65,7 +65,7 @@ onUnmounted(() => {
             :src="logo"
             alt=""
             :style="
-              !$device.isMobile && logoWidth
+              !isMobile() && logoWidth
                 ? { width: logoWidth, height: logoHeight }
                 : ''
             "

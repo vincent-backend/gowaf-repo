@@ -9,7 +9,7 @@
   </el-backtop>
   <el-dialog
     v-model="dialogVisible"
-    :width="$device.isMobile ? '43.13rem' : '680'"
+    :width="isMobile() ? '43.13rem' : '680'"
     class="custom-dialog"
   >
     <template #title>

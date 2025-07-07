@@ -27,8 +27,8 @@ const props = defineProps({
         <div
           
         >
-        <img class="pic" v-if="$device.isMobile" :height="remToPixel(mPicHeight)" :src="mPic" />
-        <img class="pic" v-if="!$device.isMobile" :height="picHeight" :src="pic" />
+        <img class="pic" v-if="isMobile()" :height="remToPixel(mPicHeight)" :src="mPic" />
+        <img class="pic" v-if="!isMobile()" :height="picHeight" :src="pic" />
       </div>
         <!-- btn -->
         <div class="btn-container" v-if="props.btn">

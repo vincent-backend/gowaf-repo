@@ -134,6 +134,7 @@ export default defineNuxtConfig({
           'AcademyMenu',
           'remToPixel',
           'mergeWithDefaults',
+          'isMobile',
         ]
       },
     ],

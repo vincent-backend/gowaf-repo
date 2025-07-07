@@ -17,8 +17,8 @@ const props = defineProps({
       <div
         
       >
-        <img class="pic" v-if="$device.isMobile" :height="mPicHeight" :src="mPic" />
-        <img class="pic" v-if="!$device.isMobile" :height="picHeight" :src="pic" />
+        <img class="pic" v-if="isMobile()" :height="mPicHeight" :src="mPic" />
+        <img class="pic" v-if="!isMobile()" :height="picHeight" :src="pic" />
     </div>
     </div>
   </div>
