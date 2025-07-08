@@ -250,7 +250,6 @@ const i18ntext = computed(() => {
 
         .icon {
           margin-top: 8px;
-          
           width: 180px;
           height: 50px;
         }

@@ -114,12 +114,9 @@ onUnmounted(() => {
         <div class="hint" v-if="hint && !isHidenLinkHit">{{ hint }}</div>
       </div>
       <div class="right">
-        <div
-          
-          v-if="pic"
-        >
+        <div v-if="pic">
           <img class="pic" :src="obeyDevice(pic.src, pic.msrc).value" :width="obeyDevice(pic.w, remToPixel(pic.mw)).value" :height="obeyDevice(pic.h, remToPixel(pic.mh)).value" />
-      </div>
+        </div>
       </div>
     </div>
     <div class="bottom" v-if="!page">

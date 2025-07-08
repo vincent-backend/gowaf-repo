@@ -27,7 +27,7 @@ defineProps<{
         <h5>{{ item.title }}</h5>
         <p>
           <NuxtLinkLocale :to="item.link" class="content1">
-            <label></label>{{ item.content1 }}
+            {{ item.content1 }}<label></label>
           </NuxtLinkLocale>
         </p>
       </li>
@@ -80,13 +80,17 @@ defineProps<{
         text-align: left;
         font-style: normal;
         text-transform: none;
-        label {
-          float: right;
-          width: 16px;
-          height: 16px;
-          background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png)
-            no-repeat 0 0;
-          background-size: 16px 16px !important;
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          label {
+            width: 16px;
+            height: 16px;
+            background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png)
+              no-repeat 0 0;
+            background-size: 16px 16px !important;
+          }
         }
       }
       span {
@@ -111,6 +115,7 @@ defineProps<{
   .list-container {
     width: 100%;
     padding: 1.88rem;
+    padding-right: 0.63rem;
     box-sizing: border-box;
     margin: 6.25rem auto;
 
@@ -151,13 +156,15 @@ defineProps<{
           display: flex;
           align-items: center;
           flex-direction: row-reverse;
-          label {
-            width: 1.25rem;
-            height: 1.25rem;
-            background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png)
-              no-repeat 0 0;
-            background-size: 1.25rem 1.25rem !important;
-            margin-left: auto;
+          a {
+            label {
+              width: 1.25rem;
+              height: 1.25rem;
+              background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png)
+                no-repeat 0 0;
+              background-size: 1.25rem 1.25rem !important;
+              margin-left: auto;
+            }
           }
         }
         span {

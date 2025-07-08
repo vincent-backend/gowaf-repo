@@ -69,7 +69,10 @@
         :pic="item.pic"
         :pic-width="item.width"
         :pic-height="item.height"
-        :reverse="index % 2 === 0"
+        :reverse="isMobile() ? true : index % 2 === 0"
+        :m-pic="item.pic"
+        :m-pic-width="item.mwidth"
+        :m-pic-height="item.mheight"
       />
     </template>
   </div>

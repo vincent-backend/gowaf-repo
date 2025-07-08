@@ -739,7 +739,6 @@ loadApis();
           align-items: center;
           gap: 1rem;
           padding: 1rem 0;
-          
           .name {
             font-size: 1.375rem;
             color: #333;

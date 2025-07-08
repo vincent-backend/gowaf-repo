@@ -64,11 +64,9 @@
     <CommonTabs :tabs="i18ntext.CommonTabs" v-model:cur-tab="curTab" />
     <div class="Post-list">
       <div class="Post-item" v-for="item in i18ntext.Post">
-        <div
-          
-        >
-        <img class="img-box" :src="item.img" />
-      </div>
+        <div>
+          <img class="img-box" :src="item.img" />
+        </div>
         <div class="title-list">
           <div class="title">{{ item.title }}</div>
           <div class="Post-content">

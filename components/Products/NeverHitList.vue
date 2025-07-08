@@ -37,11 +37,9 @@ defineProps<{
         :class="{ isNotCard: type }"
         :style="{ alignItems: `${item.alignType}` }"
       >
-        <div
-          
-        >
+        <div>
           <img class="icon" :src="item.icon" />
-      </div>
+        </div>
         <div class="text-row">
           <div class="title">{{ item.title }}</div>
           <div class="sub-title">

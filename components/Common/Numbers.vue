@@ -160,7 +160,7 @@ h3 {
     margin: 6.25rem auto 2.5rem;
   }
   .numbers-container {
-    padding: 0 1.88rem;
+    padding: 0 5.25rem;
   }
   .numbers {
     height: 20.81rem;
