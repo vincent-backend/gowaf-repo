@@ -89,7 +89,7 @@ const i18ntext = computed(() => {
 
 <style lang="less" scoped>
 .join1-container {
-  // height: 846px;
+  height: 846px;
 
   &.no-ranks {
     height: 521px;

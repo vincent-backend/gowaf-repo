@@ -49,12 +49,10 @@ watch(curTab, (newCurTab) => {
             <XsOnly>
               <div class="left-sub-title">{{ tab.subTitle }}</div>
             </XsOnly>
-            <div
-              
-            >
+            <div>
               <img class="icon left-image" v-if="isMobile()" :src="tab.mIcon" :width="remToPixel(tab.mIconWidth)" :height="remToPixel(tab.mIconHeight)"/>
-              <img class="icon left-image" v-if="isMobile()" :src="tab.icon" :width="tab.iconWidth" :height="tab.iconHeight"/>
-          </div>
+              <img class="icon left-image" v-if="!isMobile()" :src="tab.icon" :width="tab.iconWidth" :height="tab.iconHeight"/>
+            </div>
           </div>
           <div class="right" v-if="!isList">
             <div class="title">

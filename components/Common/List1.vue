@@ -86,19 +86,21 @@ defineProps<{
         border: 1px solid #e6e6e6;
         box-sizing: border-box;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         .icon {
           width: 88px;
           height: 88px;
-          margin: 0 auto;
         }
 
         .title {
           margin-top: 60px;
-
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
+          width: 100%;
         }
 
         .content {
@@ -147,8 +149,6 @@ defineProps<{
 
           background-size: 20.94rem 18.5rem !important;
           padding: 0.63rem 1.25rem 2rem;
-
-          text-align: center;
 
           .icon {
             width: 8rem;

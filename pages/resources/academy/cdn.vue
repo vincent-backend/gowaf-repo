@@ -245,11 +245,11 @@ const i18ntext = computed(() => {
           .no {
             width: 100px;
             height: 100px;
-            background: url('/images//resources/WhatIsCDN/Thumbs_up@2x.png');
+            background: url('/images//resources/academy/Thumbs_up@2x.png');
             background-size: 100% 100%;
           }
           .no {
-            background: url('/images//resources/WhatIsCDN/Thumbs_down@2x.png');
+            background: url('/images//resources/academy/Thumbs_down@2x.png');
           }
         }
         .tips {
@@ -336,7 +336,7 @@ const i18ntext = computed(() => {
         .bot-img {
           width: 220px;
           height: 266px;
-          background: url('/images//resources/WhatIsCDN/service_women_img@2x.png');
+          background: url('/images//resources/academy/service_women_img@2x.png');
           background-size: 100% 100%;
         }
         .bot-btn {
@@ -464,11 +464,11 @@ const i18ntext = computed(() => {
             .no {
               width: 6.25rem;
               height: 6.25rem;
-              background: url('/images//resources/WhatIsCDN/Thumbs_up@2x.png');
+              background: url('/images//resources/academy/Thumbs_up@2x.png');
               background-size: 100% 100%;
             }
             .no {
-              background: url('/images//resources/WhatIsCDN/Thumbs_down@2x.png');
+              background: url('/images//resources/academy/Thumbs_down@2x.png');
             }
           }
           .tips {
