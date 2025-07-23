@@ -16,11 +16,7 @@
         <div class="item" v-for="item in i18ntext">
           <div class="person">
             <div class="left">
-              <div
-                
-              >
               <img class="avatar" :src="`/images/home/${item.avatar}.png`" />
-            </div>
             </div>
             <div class="right">
               <div class="name">
@@ -166,6 +162,7 @@ const i18ntext = computed(() => {
           display: flex;
 
           .left {
+            display: flex;
             .avatar {
               width: 60px;
               height: 60px;

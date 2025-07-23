@@ -159,9 +159,6 @@ h3 {
     text-transform: none;
     margin: 6.25rem auto 2.5rem;
   }
-  .numbers-container {
-    padding: 0 5.25rem;
-  }
   .numbers {
     height: 20.81rem;
     .n-0,
@@ -291,11 +288,11 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding-left: 2.6rem;
+    // padding-left: 2.6rem;
     box-sizing: border-box;
-    gap: 0;
+    // gap: 0;
     .row-item {
-      width: calc(50% - 0.63rem);
+      width: calc(50% - 2rem);
       box-sizing: border-box;
       display: flex;
       flex-direction: column;

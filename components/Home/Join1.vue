@@ -180,7 +180,6 @@ const i18ntext = computed(() => {
     }
 
     > .right {
-      padding-top: 130px;
       margin-left: 164px;
 
       .list {

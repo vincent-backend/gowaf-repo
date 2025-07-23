@@ -46,8 +46,8 @@ const SuperCharge = computed<tabs>(() => {
       btn: t('home.superCharge.text1'),
       href: '#',
       mIcon: '/mobile-images/home/home_bot_graph_Website@2x.png',
-      mIconWidth: '24.13rem',
-      mIconHeight: '18.19rem'
+      mIconWidth: '18rem',
+      mIconHeight: '13.1rem'
     },
     {
       tab: t('home.superCharge.text2'),
@@ -59,8 +59,8 @@ const SuperCharge = computed<tabs>(() => {
       btn: t('home.superCharge.text5'),
       href: '#',
       mIcon: '/mobile-images/home/home_bot_graph_video@2x.png',
-      mIconWidth: '23.38rem',
-      mIconHeight: '17rem'
+      mIconWidth: '18rem',
+      mIconHeight: '13.57rem'
     },
     {
       tab: t('home.superCharge.text6'),
@@ -72,8 +72,8 @@ const SuperCharge = computed<tabs>(() => {
       btn: t('home.superCharge.text9'),
       href: '#',
       mIcon: '/mobile-images/home/home_bot_graph_Software@2x.png',
-      mIconWidth: '24.5rem',
-      mIconHeight: '18.38rem'
+      mIconWidth: '18rem',
+      mIconHeight: '13.5rem'
     },
     {
       tab: t('home.superCharge.text10'),

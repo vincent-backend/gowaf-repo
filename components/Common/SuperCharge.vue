@@ -110,6 +110,7 @@ watch(curTab, (newCurTab) => {
       margin: 45px auto 0;
       display: flex;
       justify-content: space-between;
+      gap: 16px;
 
       .left {
         .icon {
