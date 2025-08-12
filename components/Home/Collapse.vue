@@ -105,13 +105,14 @@ const activeNames = ref(['1']);
         &.is-active {
           border-bottom: 1px solid #d8d8d8;
           .header-icon {
-            transform: rotate(180deg);
+            transform: rotate(0deg) !important;
           }
         }
         .header-icon {
           width: 34px;
           height: 34px;
           margin-left: auto;
+          transform: rotate(180deg);
           transition: all 0.3s;
         }
       }

@@ -152,6 +152,10 @@ const localizedDefaults: any = computed(() => {
           }
         }
 
+        .index {
+          text-align: center;
+        }
+
         > .title {
           margin-top: 22px;
 

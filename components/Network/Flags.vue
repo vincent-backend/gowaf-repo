@@ -10,21 +10,15 @@
       <div class="flag-groups">
         <div class="flag-group" v-for="group in i18ntext">
           <div class="title">
-            <div
-              
-            >
             <img class="icon" :src="`/images/network/${group.icon}@2x.png`" />
-          </div>
             <div class="text">{{ group.region }}</div>
           </div>
           <Line top="16px" m-top="1.25rem" />
           <div class="content">
             <div class="flag" v-for="flag in group.items">
-              <div
-                
-              >
-              <img class="icon" :src="`/images/network/${flag.img}@2x.png`" />
-            </div>
+              <div>
+                <img class="icon" :src="`/images/network/${flag.img}@2x.png`" />
+              </div>
               <div class="text">{{ flag.label }}</div>
             </div>
           </div>

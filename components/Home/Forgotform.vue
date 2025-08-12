@@ -116,11 +116,8 @@ defineEmits(['toForgot']);
   :deep(.el-checkbox) {
     display: inline-flex;
     max-width: 100%;
-    align-items: flex-start;
+    align-items: center;
     height: fit-content;
-    .el-checkbox__input {
-      margin-top: 10px;
-    }
     .el-checkbox__label {
       white-space: break-spaces;
       /* display: inline-flex;

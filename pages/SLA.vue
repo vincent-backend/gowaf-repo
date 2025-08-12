@@ -121,7 +121,7 @@ const i18ntext = computed<any>(() => {
     font-size: 30px;
     color: #000000;
     line-height: 42px;
-    text-align: center;
+    // text-align: center;
     font-style: normal;
     text-transform: none;
     margin-bottom: 20px;
@@ -129,13 +129,13 @@ const i18ntext = computed<any>(() => {
   }
   .sub-title {
     width: 600px;
-    margin: 0 auto;
+    // margin: 0 auto;
     font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 16px;
     color: #4e4e4e;
     line-height: 24px;
-    text-align: center;
+    // text-align: center;
     font-style: normal;
     text-transform: none;
     z-index: 11;
@@ -187,19 +187,19 @@ const i18ntext = computed<any>(() => {
       font-size: 2.5rem;
       color: #000000;
       line-height: 3.5rem;
-      text-align: center;
+      // text-align: center;
       font-style: normal;
       z-index: 11;
     }
     .sub-title {
       width: 37.5rem;
-      margin: 0 auto;
+      // margin: 0 auto;
       font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 1.75rem;
       color: #4e4e4e;
       line-height: 2.38rem;
-      text-align: center;
+      // text-align: center;
       font-style: normal;
       text-transform: none;
       z-index: 11;

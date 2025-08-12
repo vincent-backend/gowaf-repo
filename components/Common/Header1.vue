@@ -350,7 +350,7 @@ onUnmounted(() => {
       flex-direction: column;
       box-sizing: border-box;
       padding-top: 3.75rem;
-      padding-bottom: 5.38rem;
+      // padding-bottom: 5.38rem;
 
       > .left {
         margin-top: 0;
