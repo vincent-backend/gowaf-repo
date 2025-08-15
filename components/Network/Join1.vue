@@ -67,7 +67,7 @@ const i18ntext = computed(() => {
         <div class="avatar-container">
           <img class="avatar" :src="obeyDevice(avatar, mAvatar).value" />
         </div>
-        <Line top="20px" m-top="1.88rem" />
+        <Line calss="separate-line" top="20px" />
         <div class="content">{{ person.content }}</div>
       </div>
       <div class="ranks-container" v-if="showScores">
@@ -168,6 +168,10 @@ const i18ntext = computed(() => {
         background: url(/images/network/Network_Overview_evaluate_bg_point_1.png);
         left: -93px;
         top: -42px;
+      }
+
+      .separate-line {
+        margin-top: 1.88rem;
       }
 
       .name {
@@ -320,6 +324,8 @@ const i18ntext = computed(() => {
 
         .avatar-container {
           text-align: center;
+          display: flex;
+          justify-content: center;
         }
 
         .avatar {
@@ -333,6 +339,10 @@ const i18ntext = computed(() => {
         .decoration-1 {
           width: 9.25rem;
           height: 4.38rem;
+        }
+
+        .separate-line {
+          margin-top: 0;
         }
 
         .name {
