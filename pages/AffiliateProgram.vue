@@ -11,7 +11,6 @@
       src: '/images/home/affiliate_program_banner_graph@2x.png',
       w: '559px',
       h: '453px',
-
       msrc: '/images/home/affiliate_program_banner_graph@2x.png',
       mw: '32.61rem',
       mh: '29.13rem'

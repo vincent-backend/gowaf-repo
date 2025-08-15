@@ -21,8 +21,12 @@ const show = ref(false);
 const cookie = useCookie('i18n_redirected');
 
 const handleBack = () => {
-  // window.history.back();
-  useRouter().back();
+  const prev = document.referrer
+  if (prev && prev !== window.location.href) {
+    useRouter().back()
+  } else {
+    useRouter().push(localePath('/'))
+  }
 };
 const ProductsRef = ref();
 
