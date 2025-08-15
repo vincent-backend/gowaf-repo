@@ -21,8 +21,7 @@ const show = ref(false);
 const cookie = useCookie('i18n_redirected');
 
 const handleBack = () => {
-  const prev = document.referrer
-  if (prev && prev !== window.location.href) {
+  if (window.history.state && window.history.state.back) {
     useRouter().back()
   } else {
     useRouter().push(localePath('/'))
