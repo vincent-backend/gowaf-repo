@@ -289,9 +289,11 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    // padding-left: 2.6rem;
     box-sizing: border-box;
-    // gap: 0;
+    width: 43rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
     .row-item {
       width: calc(50% - 2rem);
       box-sizing: border-box;

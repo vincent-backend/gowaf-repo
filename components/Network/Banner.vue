@@ -1209,10 +1209,11 @@ const i18ntext = computed(() => {
       width: 100%;
 
       > .tabs {
+        padding: 0;
         padding-top: 1.87rem;
         justify-content: space-between;
-        margin-top: 0;
         gap: 0;
+        margin: 0 calc((100% - 43rem) / 2);
 
         a {
           padding: 0.81rem 1.1rem;
@@ -1240,8 +1241,8 @@ const i18ntext = computed(() => {
         }
 
         .title-2 {
-          margin-top: 0.63rem;
-
+          margin: 0.63rem auto;
+          width: 43rem;
           font-size: 1.75rem;
           line-height: 2.81rem;
         }

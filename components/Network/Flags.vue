@@ -683,9 +683,13 @@ const i18ntext = computed(() => {
             .flag {
               width: 33.3%;
 
-              .icon {
-                width: 2.88rem;
-                height: 1.88rem;
+              div {
+                display: flex;;
+
+                .icon {
+                  width: 2.88rem;
+                  height: 1.88rem;
+                }
               }
 
               .text {

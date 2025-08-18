@@ -67,12 +67,10 @@
 @media (max-width: 767px) {
   .hop-container {
     margin-top: 6.25rem;
-
     height: 28rem;
 
     .hop {
-      width: 100%;
-      padding-left: 1.88rem;
+      width: 43rem;
 
       .left {
         .title {

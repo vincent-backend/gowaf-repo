@@ -266,7 +266,6 @@ const i18ntext = computed(() => {
 @media (max-width: 767px) {
   .join1-container {
     width: 100%;
-    margin-top: 9.38rem;
     padding: 0 1.88rem;
     box-sizing: border-box;
     height: auto;
@@ -277,7 +276,6 @@ const i18ntext = computed(() => {
 
     .join1 {
       display: block;
-      padding-top: 3.13rem;
 
       > .title {
         width: auto;
@@ -317,7 +315,6 @@ const i18ntext = computed(() => {
       }
 
       > .comment {
-        // margin-top: 13rem;
         border-radius: 0.88rem;
         padding: 1.87rem;
         position: static;
