@@ -124,7 +124,6 @@ const i18ntext = computed<any>(() => {
 @media (max-width: 767px) {
   .intuitive-panels-container {
     height: fit-content;
-    margin-bottom: 7.8rem;
     .intuitive-panels {
       > .title {
         margin-top: 0;

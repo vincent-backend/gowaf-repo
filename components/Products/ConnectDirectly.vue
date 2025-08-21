@@ -206,6 +206,7 @@ const i18ntext = computed<any>(() => {
           .pic {
             width: 31.5rem;
             height: 34.31rem;
+            margin-bottom: 2rem;
             background-image: url(/images/products/cdn/overview/cdn_overview_connect_img@2x.png);
           }
         }

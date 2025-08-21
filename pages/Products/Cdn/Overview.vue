@@ -278,6 +278,8 @@ const i18ntext = computed<any>(() => {
 
     > .title {
       width: 100%;
+      max-width: 43rem;
+      margin: 0 auto;
       box-sizing: border-box;
       font-family: PingFangSC, PingFang SC;
       font-weight: 500;
@@ -287,12 +289,12 @@ const i18ntext = computed<any>(() => {
       text-align: left;
       font-style: normal;
       text-transform: none;
-      padding: 0 1.63rem;
     }
 
     > .sub-title {
       box-sizing: border-box;
       width: 100%;
+      max-width: 43rem;
       font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 1.75rem;
@@ -301,7 +303,6 @@ const i18ntext = computed<any>(() => {
       text-align: left;
       font-style: normal;
       text-transform: none;
-      padding: 0 1.63rem;
     }
 
     .map-container {

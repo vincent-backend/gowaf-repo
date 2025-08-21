@@ -207,8 +207,8 @@ const i18ntext = computed<any>(() => {
 
 @media (max-width: 767px) {
   .products-list1-container {
-    margin-top: 6.25rem;
-    width: 100%;
+    margin: 6.25rem auto 0;
+    width: 43rem;
     box-sizing: border-box;
     padding: 0 1.63rem;
 
@@ -258,10 +258,10 @@ const i18ntext = computed<any>(() => {
             align-items: center;
             justify-content: center;
 
-            /*> .icon {
+            .icon {
               width: 16.25rem;
               height: 16.25rem;
-            }*/
+            }
 
             > .icon-label {
               margin-top: 2.3rem;

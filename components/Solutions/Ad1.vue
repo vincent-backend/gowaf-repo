@@ -85,17 +85,12 @@ defineProps<
   .ad1-container {
     margin-top: 0;
     padding-top: 6.25rem;
-
     height: 28rem;
 
     .ad1 {
-      width: 100%;
+      width: 43rem;
       height: 100%;
-      gap: 3.38rem;
-
       box-sizing: border-box;
-      padding-left: 1.87rem;
-      padding-right: 0.63rem;
 
       > .left {
         flex: 1;

@@ -57,13 +57,11 @@ const i18ntext = computed<any>(() => {
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
     }
@@ -76,28 +74,35 @@ const i18ntext = computed<any>(() => {
       > .item {
         width: 33.3%;
         box-sizing: border-box;
-        // height: 162px;
-        // padding-top: 42px;
-        // padding-left: 44px;
         text-align: center;
         vertical-align: middle;
         padding-top: 22px;
         padding-bottom: 22px;
         border: 1px solid #e6e6e6;
 
-        // > .icon {
-        //   width: 44px;
-        //   height: 44px;
-        // }
-
         > .title {
           margin-top: 14px;
-
           font-weight: 500;
           font-size: 16px;
-
           line-height: 22px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .products-super-charge {
+    margin-top: 3rem;
+
+    .products-super {
+    > .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+      }
+
+      > .sub-title {
+        font-size: 1.75rem;
       }
     }
   }
