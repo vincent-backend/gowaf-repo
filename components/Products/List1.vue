@@ -210,7 +210,6 @@ const i18ntext = computed<any>(() => {
     margin: 6.25rem auto 0;
     width: 43rem;
     box-sizing: border-box;
-    padding: 0 1.63rem;
 
     .products-list1 {
       box-sizing: border-box;

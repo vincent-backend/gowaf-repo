@@ -291,8 +291,7 @@ const i18ntext = computed(() => {
 
   .footer-1 {
     height: 100%;
-    background: url('/images/home/home_bot_banner_bg_dot@2x.png') no-repeat left
-      center;
+    background: url('/images/home/home_bot_banner_bg_dot@2x.png') no-repeat left center;
     background-size: 1018px 190px;
     display: flex;
     align-items: center;
@@ -308,7 +307,6 @@ const i18ntext = computed(() => {
 
       .content {
         margin-top: 10px;
-
         font-size: 16px;
         color: #ffffff;
       }
@@ -337,7 +335,6 @@ const i18ntext = computed(() => {
 
       .btn-hint {
         margin-top: 13px;
-
         font-size: 12px;
         color: #ffffff;
         line-height: 17px;
@@ -602,9 +599,6 @@ const i18ntext = computed(() => {
             margin-top: 1.81rem;
             flex-wrap: wrap;
             gap: 1.25rem 2.5rem;
-
-            .link {
-            }
           }
 
           .shortcuts-container {
@@ -626,6 +620,12 @@ const i18ntext = computed(() => {
                 margin-top: 1.25rem;
                 a {
                   font-size: 1.5rem;
+                  display: flex;
+                  align-items: center;
+
+                  img {
+                    margin-right: 5px;
+                  }
                 }
               }
               .img {

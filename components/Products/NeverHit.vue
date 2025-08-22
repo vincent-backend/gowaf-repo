@@ -156,7 +156,7 @@ defineProps<{
     margin-top: 10.56rem;
     padding: 0 1.67rem;
     .never-hit {
-      width: fit-content;
+      width: 43rem;
 
       > .title {
         font-weight: 500;
@@ -167,7 +167,6 @@ defineProps<{
 
       > .sub-title {
         margin-top: 0.9rem;
-        width: 38.33rem;
         font-weight: 400;
         font-size: 1.56rem;
         line-height: 2.11rem;

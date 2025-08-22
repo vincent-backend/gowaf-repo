@@ -180,17 +180,14 @@ const intuitivePanelsList = computed<any>(() => {
   > .title {
     font-weight: 500;
     font-size: 30px;
-
     line-height: 42px;
     text-align: center;
   }
 
   > .sub-title {
     margin-top: 20px;
-
     font-size: 16px;
     color: #4e4e4e;
-
     text-align: center;
   }
 }
@@ -200,11 +197,14 @@ const intuitivePanelsList = computed<any>(() => {
     > .title {
       font-size: 2.22rem;
       line-height: 3.11rem;
+      width: 43rem;
+      text-align: left;
+      margin: 0 auto;
     }
 
     > .sub-title {
       text-align: left;
-      width: 38.33rem;
+      width: 43rem;
       margin: 0 auto;
       margin-top: 0.89rem;
       font-size: 1.56rem;

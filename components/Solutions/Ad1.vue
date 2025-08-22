@@ -26,7 +26,7 @@ defineProps<
           <NuxtLinkLocale :to="href" class="trail-btn" v-if="btn">{{ btn }}</NuxtLinkLocale>
         </div>
       </div>
-      <div class="right">
+      <div class="right max-w-50">
         <div>
           <img class="pic" v-if="isMobile()" :height="remToPixel(mPicHeight)" :src="mPic" />
           <img class="pic" v-if="!isMobile()" :height="picHeight" :src="pic" />
@@ -75,7 +75,6 @@ defineProps<
     }
     &.reverse {
       flex-direction: row-reverse;
-      // flex-direction: column-reverse;
     }
   }
 }
@@ -113,11 +112,13 @@ defineProps<
       }
 
       > .right {
+        &.max-w-50 {
+          max-width: 50%;   
+        }
         .pic {
         }
       }
       &.reverse {
-        // flex-direction: row-reverse;
         flex-direction: column-reverse;
       }
     }

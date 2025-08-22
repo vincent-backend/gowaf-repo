@@ -52,7 +52,7 @@
     pic="/images/products/cdn/perma-cache/chart-1@2x.png"
     mPic="/images/products/cdn/perma-cache/chart-1@2x.png"
     pic-height="432px"
-    mPicHeight="24rem"
+    mPicHeight="fit-content"
   />
 
   <NetworkJoin1

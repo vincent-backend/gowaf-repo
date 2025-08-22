@@ -14,12 +14,10 @@ const props = defineProps({
     <div class="chart1 page-container">
       <div class="title" v-if="props.title">{{ props.title }}</div>
       <div class="sub-title" v-if="props.subTitle">{{ props.subTitle }}</div>
-      <div
-        
-      >
+      <div>
         <img class="pic" v-if="isMobile()" :height="mPicHeight" :src="mPic" />
         <img class="pic" v-if="!isMobile()" :height="picHeight" :src="pic" />
-    </div>
+      </div>
     </div>
   </div>
 </template>
@@ -79,16 +77,15 @@ const props = defineProps({
         padding-bottom: 1.88rem;
       }
 
-      > .pic {
-        margin-top: 3.8rem;
+      > div > .pic {
+        margin: 3.8rem 0;
         background-size: 40.63rem 37rem !important;
         background-color: #fff;
         background-position: center center;
         background-repeat: no-repeat;
         box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(173, 173, 173, 0.14);
         border-radius: 0.88rem;
-        width: 43.43rem;
-        height: 39rem;
+        width: 100%;
       }
     }
   }

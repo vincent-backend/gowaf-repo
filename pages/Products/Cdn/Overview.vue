@@ -60,7 +60,7 @@
   </div>
 
   <ProductsReadyToHop />
-  <ProductsIntuitivePanels />
+  <ProductsIntuitivePanels :list="intuitivePanelsList" />
 
   <SolutionsAd1
     style="margin-top: 0"
@@ -241,6 +241,47 @@ const i18ntext = computed<any>(() => {
       ]
     }
   };
+});
+
+const intuitivePanelsList = computed<any>(() => {
+  return [
+    {
+      tab: t('uKR96V7fJQ9hdwTxe338u'),
+      content: t('Y43wQu1zLlL_sjReUkI9R'),
+      pic: '/images/products/cdn/features/cdn_features_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    },
+    {
+      tab: t('gzfSWwGIJzFT-bIUZoEtQ'),
+      content: t('0buAGSOd1EtlxA7uG6y3c'),
+      pic: '/images/products/cdn/features/cdn_features_mockup_2@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    },
+    {
+      tab: t('mC_E6AGWntvPccYLCjx0U'),
+      content: t('X91ca7DJZbrsuNCF0KKAP'),
+      pic: '/images/products/cdn/features/cdn_features_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    },
+    {
+      tab: t('7vxHpe4sfv4-cvDaS0NpM'),
+      content: t('nfrCpiIosotDhPh4vad7e'),
+      pic: '/images/products/cdn/features/cdn_features_mockup@2x.png',
+      picWidth: '760px',
+      picHeight: '480px',
+      mpicWidth: '38.72rem',
+      mpicHeight: '24.44rem'
+    }
+  ];
 });
 </script>
 
