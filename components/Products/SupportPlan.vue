@@ -209,8 +209,8 @@ const i18ntext = computed<any>(() => {
 }
 @media (max-width: 767px) {
   .support-plan-container {
-    margin-top: 6.25rem;
-    padding: 0 1.88rem;
+    margin: 6.25rem auto 0;
+    max-width: 43rem;
     h2 {
       text-align: left;
       font-weight: 500;

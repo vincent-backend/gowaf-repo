@@ -109,9 +109,9 @@
     margin-top: 5.5rem;
 
     .reduce-error {
-      width: 100%;
+      width: 43rem;
       box-sizing: border-box;
-      padding: 0 1.67rem;
+      margin: 0 auto;
 
       > .title {
         font-weight: 500;
@@ -182,10 +182,7 @@
         > .label-2 {
           left: 28rem;
           top: 28rem;
-          width: 18rem;
-          // .sub-title {
-          //   white-space: nowrap;
-          // }
+          width: 16rem;
         }
       }
 

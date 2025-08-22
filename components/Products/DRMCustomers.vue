@@ -85,7 +85,6 @@ defineProps<{
       padding-bottom: 144px;
     }
     .header-list {
-      // position: relative;
       .face-img {
         position: absolute;
         width: 438px;
@@ -261,9 +260,10 @@ defineProps<{
 @media (max-width: 767px) {
   .drm-customer-container {
     margin: 0 auto;
-    padding: 4rem 1.88rem;
+    padding: 4rem 0;
     box-sizing: border-box;
     width: 100%;
+    max-width: 43rem;
     background: #fff;
     .drm-customer-content-container {
       width: 100%;
@@ -282,8 +282,6 @@ defineProps<{
           background-position: right 0;
           background-repeat: no-repeat;
           background-size: cover !important;
-          // right: 0;
-          // bottom: 0;
         }
       }
       &::before {
@@ -325,7 +323,7 @@ defineProps<{
         font-style: normal;
         text-transform: none;
         display: table-cell;
-        // padding-bottom: 11rem;
+        padding-bottom: 1rem;
         .clolorFA9B3B {
           color: #fa9b3b;
         }

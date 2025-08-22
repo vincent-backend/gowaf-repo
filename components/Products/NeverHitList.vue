@@ -144,4 +144,12 @@ defineProps<{
     }
   }
 }
+
+@media (max-width: 767px) {
+  .never-list {
+    max-width: 43rem;
+    margin: 6.5rem auto 0;
+    padding: 0;
+  }
+}
 </style>

@@ -85,7 +85,7 @@ const props = defineProps({
 // For mobile devices
 @media (max-width: 767px) {
   .list1-container {
-    padding-top: 6.25rem;
+    padding: 6.25rem 0;
 
     .list1 {
       > .title {
@@ -97,6 +97,8 @@ const props = defineProps({
         margin-top: 2.5rem;
         justify-content: space-between;
         gap: 0.88rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
         > .item {
           width: 13.75rem;

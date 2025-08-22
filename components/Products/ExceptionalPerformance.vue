@@ -235,10 +235,12 @@ const localizedDefaults: any = computed(() => {
         text-align: left;
         font-style: normal;
         text-transform: none;
+        max-width: 43rem;
+        margin: 0 auto;
       }
 
       > .sub-title {
-        margin-top: 1rem;
+        margin: 1rem auto;
         font-family: PingFangSC, PingFang SC;
         font-weight: 400;
         font-size: 1.75rem;
@@ -247,6 +249,7 @@ const localizedDefaults: any = computed(() => {
         text-align: left;
         font-style: normal;
         text-transform: none;
+        max-width: 43rem;
       }
     }
   }
