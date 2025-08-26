@@ -260,7 +260,7 @@ defineProps<{
 @media (max-width: 767px) {
   .drm-customer-container {
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 4rem 1.88rem;
     box-sizing: border-box;
     width: 100%;
     max-width: 43rem;
@@ -272,17 +272,6 @@ defineProps<{
       .isHiddenSubTitle {
         display: block;
         padding-bottom: 5rem;
-      }
-      .header-list {
-        position: static;
-        .face-img {
-          position: static;
-          width: 100%;
-          height: auto;
-          background-position: right 0;
-          background-repeat: no-repeat;
-          background-size: cover !important;
-        }
       }
       &::before {
         display: none;
@@ -393,6 +382,22 @@ defineProps<{
             text-align: left;
             font-style: normal;
             text-transform: none;
+          }
+        }
+        .header-list {
+          position: static;
+          padding-bottom: 0;
+
+          > div {
+            display: flex;
+            .face-img {
+              position: static;
+              width: 100%;
+              height: auto;
+              background-position: right 0;
+              background-repeat: no-repeat;
+              background-size: cover !important;
+            }
           }
         }
       }

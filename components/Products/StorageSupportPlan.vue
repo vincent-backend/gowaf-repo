@@ -17,7 +17,7 @@
                   $t('products.storage.Europe.storageSupportPlan.content.title')
                 }}
               </div>
-              <div class="content">
+              <div class="content mb-4">
                 {{
                   $t(
                     'products.storage.Europe.storageSupportPlan.content.content'
@@ -365,6 +365,10 @@ const i18ntext = computed<any>(() => {
               margin-top: 1rem;
               font-size: 1.63rem;
               color: #4e4e4e;
+            }
+
+            .mb-4 {
+              margin-bottom: 2rem;
             }
 
             > .title2 {
