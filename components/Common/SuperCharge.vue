@@ -268,13 +268,14 @@ watch(curTab, (newCurTab) => {
       }
 
       > .tabs-content {
-        margin-top: 4.25rem;
+        margin-top: 3rem;
 
         .left {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
+          max-width: 45%;
 
           .left-sub-title {
             margin-bottom: 2.78rem;
@@ -286,12 +287,14 @@ watch(curTab, (newCurTab) => {
           }
           .left-image {
             opacity: 0;
+            width: 100%;
           }
         }
 
         .right {
           margin: 0;
           position: relative;
+          max-width: 55%;
           .title {
             margin-top: 3.75rem;
 

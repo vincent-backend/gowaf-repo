@@ -237,17 +237,17 @@ const selflist = computed(() => {
   .DNScomparisonList {
     position: relative;
     z-index: 11;
-    margin: 0;
+    margin: 100px 2rem 60px;
     .comparison-list {
       width: 100%;
       display: flex;
-      // height: 1856px;
       background: #ffffff;
       box-shadow: 0rem 0rem 1.88rem 0rem rgba(173, 173, 173, 0.14);
       border-radius: 1.5rem;
       border: 1px solid #e6e6e6;
       padding-top: 1rem;
       gap: 1rem;
+      justify-content: center;
       .item {
         width: 11.25rem;
         height: fit-content;

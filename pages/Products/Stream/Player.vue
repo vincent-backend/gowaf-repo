@@ -161,23 +161,19 @@ const i18ntext = computed(() => {
   > .title {
     font-weight: 500;
     font-size: 30px;
-
     line-height: 42px;
     text-align: center;
   }
 
   > .sub-title {
     margin-top: 18px;
-
     font-size: 16px;
     color: #4e4e4e;
-
     text-align: center;
   }
 
   > .pic {
     margin: 40px auto 0;
-
     width: 782px;
     // height: 440px;
     // background: url(/images/products/stream/player/player-1@2x.png);
@@ -185,10 +181,9 @@ const i18ntext = computed(() => {
 }
 @media (max-width: 767px) {
   .player2-container {
-    padding: 0 1.88rem;
     box-sizing: border-box;
-    margin-top: 6.25rem;
-    margin-bottom: 10rem;
+    margin: 6.25rem auto;
+    width: 43rem;
 
     > .title {
       font-weight: 500;

@@ -562,6 +562,7 @@ const comparisonList = computed(() => {
 @media (max-width: 767px) {
   .percentage {
     display: flex;
+    justify-content: space-between;
     gap: 7rem;
     margin-top: 3.13rem;
     &-item {
@@ -580,6 +581,7 @@ const comparisonList = computed(() => {
       background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      text-align: center;
     }
     .sub-title {
       font-family: PingFangSC, PingFang SC;
