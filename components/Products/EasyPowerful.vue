@@ -181,8 +181,8 @@ const localizedDefaults: any = computed(() => {
 }
 @media (max-width: 767px) {
   .easy-powerful-container {
-    margin-top: 6.25rem;
-    padding: 0 1.88rem;
+    margin: 6.25rem auto 3rem;
+    width: 43rem;
 
     .easy-powerful {
       width: 100%;

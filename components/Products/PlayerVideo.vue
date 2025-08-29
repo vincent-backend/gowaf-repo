@@ -59,7 +59,6 @@ const localizedDefaults: any = computed(() => {
   > .title {
     font-weight: 500;
     font-size: 30px;
-
     line-height: 42px;
     text-align: center;
   }
@@ -69,13 +68,11 @@ const localizedDefaults: any = computed(() => {
 
     font-size: 16px;
     color: #4e4e4e;
-
     text-align: center;
   }
 
   > .pic {
     margin: 40px auto 0;
-
     width: 782px;
     // height: 440px;
     // background: url(/images/products/stream/player/player-1@2x.png);
@@ -95,11 +92,9 @@ const localizedDefaults: any = computed(() => {
 }
 @media (max-width: 767px) {
   .player2-container {
-    width: 100%;
+    width: 43rem;
     box-sizing: border-box;
-    padding: 0 1.88rem;
-    margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
+    margin: 6.25rem auto 6.25rem;
 
     > .title {
       font-weight: 500;

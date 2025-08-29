@@ -278,7 +278,7 @@ const i18ntext = computed<any>(() => {
 }
 @media (max-width: 767px) {
   .how-stream-works-container {
-    // margin: 6.63rem 0;
+    margin: 6.63rem 0;
 
     .how-stream-works {
       padding-top: 0;

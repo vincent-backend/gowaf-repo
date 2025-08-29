@@ -173,6 +173,11 @@ withDefaults(
         > .pic-container {
           margin-top: 3.13rem;
           text-align: center;
+
+          > img.pic {
+            width: fit-content;
+            max-width: 70%;
+          }
         }
         > .content {
           margin-top: 1rem;

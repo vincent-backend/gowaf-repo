@@ -10,11 +10,9 @@
       <div class="content">
         <div class="item" v-for="item in i18ntext">
           <div class="head">
-            <div
-              
-            >
-            <img class="icon" :src="item.icon" />
-          </div>
+            <div>
+              <img class="icon" :src="item.icon" />
+            </div>
             <div class="tip" v-if="item.tip">{{ item.tip }}</div>
           </div>
           <div class="title">{{ item.title }}</div>
@@ -128,8 +126,8 @@ const i18ntext = computed<any>(() => {
 }
 @media (max-width: 767px) {
   .protect-your-videos-container {
-    margin-top: 6rem;
-    padding: 0 1.88rem;
+    margin: 6rem auto 3rem;
+    width: 43rem;
 
     .protect-your-videos {
       width: 100%;
