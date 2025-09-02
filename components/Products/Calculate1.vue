@@ -601,6 +601,7 @@ const i18ntext = computed<any>(() => {
             display: flex;
             flex-wrap: wrap;
             gap: 1.2rem;
+            justify-content: space-between;
             width: 100%;
             > .item {
               width: 48% !important;

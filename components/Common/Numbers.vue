@@ -56,6 +56,9 @@ const props = defineProps<{
 </template>
 
 <style lang="less" scoped>
+.numbers-container {
+  margin-top: 80px;
+}
 h3 {
   font-weight: 500;
   font-size: 30px;
@@ -146,6 +149,9 @@ h3 {
 
 // For mobile devices
 @media (max-width: 767px) {
+  .numbers-container {
+    margin-top: 6.25rem;
+  }
   h3 {
     font-family: PingFangSC, PingFang SC;
     font-weight: 500;

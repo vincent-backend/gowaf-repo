@@ -455,13 +455,13 @@ const i18ntext = computed(() => {
     margin-bottom: 6.25rem;
   }
   .price-1-container {
-    margin-top: 6.25rem;
-    width: 100%;
+    margin: 6.25rem auto 0;
+    width: 43rem;
+    padding: 1.25rem;
     height: fit-content;
     background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
     border-radius: 1.5rem;
-    padding: 1.25rem;
     box-sizing: border-box;
     .title-box {
       width: 100%;

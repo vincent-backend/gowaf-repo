@@ -46,7 +46,6 @@
   <CommonNumbers
     is-row
     is-two-row
-    style="margin-top: 80px"
     :items="i18ntext.numbers"
   />
   <PricingSaveMoney
