@@ -75,7 +75,6 @@ const i18ntext = computed<any>(() => {
 
   .drm-table {
     width: 1000px;
-
     padding: 10px 30px 40px;
     background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
@@ -88,7 +87,6 @@ const i18ntext = computed<any>(() => {
 
         .cell {
           flex: 1;
-
           display: flex;
           align-items: center;
           justify-content: center;
@@ -104,7 +102,6 @@ const i18ntext = computed<any>(() => {
           .cell {
             font-weight: 600;
             font-size: 18px;
-
             line-height: 25px;
           }
         }
@@ -114,7 +111,6 @@ const i18ntext = computed<any>(() => {
         .row {
           .cell {
             font-weight: 500;
-
             line-height: 20px;
 
             .icon-true,
@@ -146,16 +142,13 @@ const i18ntext = computed<any>(() => {
 
     > .hint {
       margin-top: 40px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
     > .btn-container {
       margin-top: 20px;
-
       display: flex;
       justify-content: center;
     }
@@ -163,11 +156,11 @@ const i18ntext = computed<any>(() => {
 }
 @media (max-width: 767px) {
   .drm-table-container {
-    margin-top: 6.25rem;
+    margin-top: 0;
 
     .drm-table {
-      width: 100%;
-      padding: 1.63rem 1.88rem;
+      width: 43rem;
+      padding: 1.63rem 0;
       box-sizing: border-box;
       background: #ffffff;
       box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
@@ -180,8 +173,8 @@ const i18ntext = computed<any>(() => {
           right: 0;
           top: -1.63rem;
           z-index: 0;
-          width: 15rem;
-          height: 100%;
+          width: 33%;
+          height: calc(100% + 2rem);
           background: linear-gradient(
             180deg,
             #e6edfc 0%,
@@ -263,6 +256,7 @@ const i18ntext = computed<any>(() => {
         font-size: 1.75rem;
         color: #4e4e4e;
         text-align: left;
+        padding: 0 1rem;
       }
 
       > .btn-container {

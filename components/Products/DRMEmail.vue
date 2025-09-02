@@ -114,10 +114,9 @@ const i18ntext = computed<any>(() => {
     width: 100%;
     background: #fafafa;
     .drm-email-content-container {
-      width: 100%;
+      width: 43rem;
       margin: 0 auto;
       box-sizing: border-box;
-      padding: 0 1.88rem;
       display: flex;
       flex-direction: column;
       .left {
@@ -143,6 +142,7 @@ const i18ntext = computed<any>(() => {
             margin-bottom: 2.5rem;
             align-items: center;
             p {
+              width: 100%;
               padding-top: 10px;
               font-family: PingFangSC, PingFang SC;
               font-weight: 400;
