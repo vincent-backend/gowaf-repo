@@ -267,11 +267,22 @@ const i18ntext = computed<any>(() => {
 @media (max-width: 767px) {
   .BouuyDNS-ProductsDRMCustomers {
     :deep(.isHiddenSubTitle) {
-      padding-bottom: 9rem !important;
+      padding-bottom: 9rem;
     }
   }
   .img {
     margin-top: 16px !important;
+  }
+
+  .topimg-container {
+    padding: 0 0 5rem;
+    .directly {
+      .title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        text-align: left;
+      }
+    }
   }
 }
 </style>

@@ -444,5 +444,9 @@ defineProps<{
       }
     }
   }
+
+  .BouuyDNS-ProductsDRMCustomers.drm-customer-container .drm-customer-content-container p.isHiddenSubTitle {
+    padding-bottom: 0;
+  }
 }
 </style>
