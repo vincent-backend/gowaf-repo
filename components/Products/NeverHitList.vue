@@ -151,5 +151,9 @@ defineProps<{
     margin: 6.5rem auto 0;
     padding: 0;
   }
+
+  .transcribe-pane.never-list {
+    margin-bottom: 6.5rem;
+  }
 }
 </style>

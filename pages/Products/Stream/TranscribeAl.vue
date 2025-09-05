@@ -30,7 +30,7 @@
     <ProductsNeverHit :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </LgOnly>
   <XsOnly>
-    <ProductsNeverHitList :isShowTitle="true" :neverHit="i18ntext.neverHit" />
+    <ProductsNeverHitList class="transcribe-pane" :isShowTitle="true" :neverHit="i18ntext.neverHit" />
   </XsOnly>
   <SolutionsAd1
     :title="$t('products.Stream.TranscribeAI.ad1.title')"
@@ -351,7 +351,23 @@ const i18ntext = computed(() => {
 
 @media (max-width: 767px) {
   .Planlist {
+  > .row-item {
+      .left-title {
+        font-size: 2.5rem;
+
+        .hit {
+          font-size: 4rem;
+        }
+      }
+
+      .content {
+        font-size: 1.75rem;
+      }
+    }
     .included {
+      .top-title {
+        font-size: 2.5rem;
+      }
       .Checklist {
         flex-direction: column;
         width: 100%;

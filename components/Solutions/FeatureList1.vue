@@ -9,11 +9,9 @@ const props = defineProps({
     <div class="feature-list page-container">
       <div class="list">
         <div class="item" v-for="item in props.items">
-          <div
-           
-          >
-          <img class="icon" :src="item.icon" />
-        </div>
+          <div class="img-pane">
+            <img class="icon" :src="item.icon" />
+          </div>
           <div class="title">{{ item.title }}</div>
           <div class="content">{{ item.content }}</div>
         </div>
@@ -39,7 +37,6 @@ const props = defineProps({
 
         .title {
           margin-top: 20px;
-
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
@@ -47,7 +44,6 @@ const props = defineProps({
 
         .content {
           margin-top: 10px;
-
           font-size: 16px;
           color: #4e4e4e;
         }
@@ -67,14 +63,16 @@ const props = defineProps({
         gap: 2.5rem;
 
         .item {
-          .icon {
-            width: 9.38rem;
-            height: 9.38rem;
+          .img-pane {
+            text-align: center;
+            .icon {
+              width: 9.38rem;
+              height: 9.38rem;
+            }
           }
 
           .title {
             margin-top: 1.25rem;
-
             font-size: 2.13rem;
             color: #000000;
             line-height: 3rem;

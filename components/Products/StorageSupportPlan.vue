@@ -328,6 +328,7 @@ const i18ntext = computed<any>(() => {
           > .left {
             width: 100%;
             margin-left: 0;
+
             .mt30 {
               margin-top: 1.88rem;
             }

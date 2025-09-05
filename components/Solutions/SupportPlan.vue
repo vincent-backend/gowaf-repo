@@ -183,7 +183,7 @@ const i18ntext = computed<any>(() => {
 // For mobile devices
 @media (max-width: 767px) {
   .support-plan-container {
-    margin-top: 6.25rem;
+    margin: 6.25rem 0;
 
     .support-plan {
       > .title {

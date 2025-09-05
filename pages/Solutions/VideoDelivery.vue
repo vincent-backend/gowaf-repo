@@ -306,20 +306,20 @@ const i18ntext = computed(() => {
     margin-top: 6.25rem;
 
     > .title {
+      width: 43rem;
       font-size: 2.5rem;
       line-height: 3.5rem;
       text-align: left;
-      padding-left: 1.87rem;
+      margin: 0 auto;
     }
 
     > .sub-title {
-      margin-top: 1rem;
-
-      width: auto;
+      margin: 1rem auto 0;
+      width: 43rem;
       font-size: 1.75rem;
       line-height: 2.38rem;
       text-align: left;
-      padding-left: 1.87rem;
+      margin: 0 auto;
     }
 
     .map-container {
