@@ -39,6 +39,7 @@
       :list1="i18ntext.list1"
       :list2="i18ntext.list2"
       mobileListLayoutType="wrap"
+      class="mb-md-5"
     />
 
     <SolutionsAd1

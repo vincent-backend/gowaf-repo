@@ -69,6 +69,26 @@ const props = defineProps({
 .ad2-container {
   margin-top: 120px;
 
+  &.no-img {
+    .ad2 {
+      > .left {
+        margin-top: 0;
+
+        > div:first-child {
+          display: none;
+        }
+
+        .btn-container {
+          margin-top: 0;
+          margin-bottom: 3rem;
+        }
+      }
+      > .right {
+        width: 100%;
+      }
+    }  
+  }
+
   .ad2 {
     width: 1100px;
     display: flex;

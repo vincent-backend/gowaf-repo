@@ -68,9 +68,9 @@ const hovered = ref(-1);
             @mouseleave="hovered = -1"
           >
             <div class="head">
-              <div>
+              <div class="img-pane">
                 <img class="icon" :src="`${hovered === index ? item.iconActive : item.icon}`" />
-            </div>
+              </div>
               <div class="title">{{ item.title }}</div>
             </div>
             <div class="content">{{ item.content }}</div>
@@ -263,6 +263,9 @@ const hovered = ref(-1);
   .accelerate-container {
     margin-top: 5rem;
 
+    &.mb-md-5 {
+      margin-bottom: 5rem;
+    }
     .accelerate {
       display: flex;
       flex-direction: column;
@@ -402,9 +405,13 @@ const hovered = ref(-1);
               flex-direction: column;
               align-items: flex-start;
 
-              .icon {
-                width: 5rem;
-                height: 5rem;
+              .img-pane {
+                width: 100%;
+                text-align: center;
+                .icon {
+                  width: 5rem;
+                  height: 5rem;
+                }
               }
 
               .title {

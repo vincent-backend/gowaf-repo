@@ -48,6 +48,7 @@
     pic="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_2.png"
     pic-width="406px"
     pic-height="288px"
+    class="no-img mb-ad2-list"
   >
     <div class="ad2-list">
       <div class="ad2-list-container">
@@ -295,11 +296,8 @@ const i18ntext = computed(() => {
         font-family: Mont, Mont;
         font-weight: 600;
         font-size: 3.13rem;
-
         line-height: 1.6;
-
         background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
-
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
@@ -307,6 +305,18 @@ const i18ntext = computed(() => {
       .label {
         font-size: 1.5rem;
         color: #4e4e4e;
+      }
+    }
+  }
+
+  .ad2-container.mb-ad2-list {
+    .ad2 {
+      .right {
+        .ad2-list {
+          .pic {
+            margin-bottom: 3.13rem;
+          }
+        }
       }
     }
   }
