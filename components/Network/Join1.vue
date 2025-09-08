@@ -279,14 +279,14 @@ const i18ntext = computed(() => {
 
       > .title {
         width: auto;
-
         font-size: 2.5rem;
         line-height: 3.5rem;
+        margin-top: 2.6rem;
       }
 
       > .sub-title {
         margin-top: 1rem;
-
+        margin-bottom: 2.6rem;
         display: block;
         font-size: 1.75rem;
         line-height: 2.38rem;

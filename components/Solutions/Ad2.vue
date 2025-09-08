@@ -69,6 +69,10 @@ const props = defineProps({
 .ad2-container {
   margin-top: 120px;
 
+  &.pb-md-6 {
+    padding-bottom: 120px;
+  }
+
   &.no-img {
     .ad2 {
       > .left {
@@ -187,6 +191,14 @@ const props = defineProps({
   .ad2-container {
     margin-top: 6rem;
 
+    &.mb-md-5 {
+      margin-bottom: 6rem;
+    }
+
+    &.pb-md-6 {
+      padding-bottom: 4.8rem;
+    }
+
     .ad2 {
       width: 43.13rem;
       display: flex;
@@ -194,6 +206,7 @@ const props = defineProps({
 
       > .left {
         margin-top: 3.13rem;
+        margin-bottom: 2rem;
 
         > .btn-container {
           margin-top: 3.6rem;

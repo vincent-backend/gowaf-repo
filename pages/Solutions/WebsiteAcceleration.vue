@@ -95,6 +95,7 @@
       m-pic-width="26.63rem"
       m-pic-height="16.88rem"
       m-pic="/images/solutions/website-acceleration/Solutions_Website_acceleration_graph_2.png"
+      class="mb-md-5"
     />
 
     <NetworkJoin1

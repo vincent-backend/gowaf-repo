@@ -102,10 +102,10 @@
     pic="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_4.png"
     pic-width="416px"
     pic-height="284px"
-    style="padding-bottom: 120px"
     m-pic-width="26rem"
     m-pic-height="17.75rem"
     m-pic="/images/solutions/website-wordpress/Solutions_Website_wordpress_cdn_graph_4.png"
+    class="pb-md-6"
   />
 
   <SolutionsLogos
