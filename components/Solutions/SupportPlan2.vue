@@ -306,29 +306,29 @@
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
+                text-align: center;
 
                 .icon {
                   width: 5.63rem;
                   height: 5.63rem;
+                  margin: 0 auto;
                 }
 
                 .right {
                   margin-left: 0;
+                  width: 100%;
 
                   .time {
                     margin-top: 0.8rem;
                     font-family: Mont, Mont;
                     font-weight: 600;
                     font-size: 1.88rem;
-
                     line-height: 1.6;
                   }
 
                   .title {
                     margin-top: 6px;
-
                     font-size: 1.5rem;
-
                     color: #4e4e4e;
                     line-height: 20px;
                   }

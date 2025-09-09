@@ -323,13 +323,12 @@ const hovered = ref(-1);
             > .content {
               display: flex;
               align-items: center;
-              justify-content: flex-start;
+              justify-content: center;
 
               .value {
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 3.13rem;
-
                 line-height: 1.4;
               }
 
@@ -343,6 +342,7 @@ const hovered = ref(-1);
             .title {
               font-size: 1.5rem;
               color: #4e4e4e;
+              text-align: center;
             }
           }
 

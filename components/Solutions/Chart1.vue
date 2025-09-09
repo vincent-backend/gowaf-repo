@@ -30,23 +30,19 @@ const props = defineProps({
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
     > .pic {
       margin-top: 80px;
-
       width: 1200px;
       box-shadow: 0px 10px 30px 0px rgba(173, 173, 173, 0.14);
       border-radius: 14px;
@@ -68,10 +64,8 @@ const props = defineProps({
 
       > .sub-title {
         margin-top: 1rem;
-
         font-size: 1.75rem;
         color: #4e4e4e;
-
         text-align: left;
         border-bottom: 0.06rem solid #e6e6e6;
         padding-bottom: 1.88rem;
@@ -86,6 +80,7 @@ const props = defineProps({
         box-shadow: 0rem 0.63rem 1.88rem 0rem rgba(173, 173, 173, 0.14);
         border-radius: 0.88rem;
         width: 100%;
+        height: auto;
       }
     }
   }

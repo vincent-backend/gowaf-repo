@@ -227,20 +227,17 @@ const i18ntext = computed(() => {
     > .title {
       font-weight: 500;
       font-size: 2.5rem;
-      padding: 0 1.8rem;
       line-height: 1.6;
       text-align: left;
+      width: 43rem;
+      margin: 0 auto;
     }
 
     > .sub-title {
+      width: 43rem;
       margin: 1rem auto 0;
-
-      width: auto;
-      padding: 0 1.8rem;
-
       font-size: 1.75rem;
       color: #4e4e4e;
-
       text-align: left;
     }
 
