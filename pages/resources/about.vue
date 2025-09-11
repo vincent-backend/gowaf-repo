@@ -236,10 +236,8 @@ const i18ntext = computed(() => {
     margin: 6.25rem 0;
   }
   .about-CommonList {
-    margin-bottom: 6.3rem;
-  }
-  .Touch {
-    margin-bottom: 6.25rem;
+    width: 43rem;
+    margin: 0 auto 6.3rem;
   }
 }
 </style>

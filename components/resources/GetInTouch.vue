@@ -158,7 +158,9 @@
 // For mobile devices
 @media (max-width: 767px) {
   .get-in-touch-container {
-    margin-top: 3.13rem;
+    margin-top: 0;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
 
     .get-in-touch {
       padding: 0;

@@ -339,7 +339,6 @@ const slotfull = !!useSlots().full;
     .list1 {
       margin-top: 3.13rem;
       width: 100%;
-      padding: 0 1.88rem;
 
       > .list {
         margin-top: 3.13rem;
@@ -379,9 +378,7 @@ const slotfull = !!useSlots().full;
           content: '';
           position: absolute;
           top: 10.88rem;
-          left: 0.2rem;
-          // width: 4px;
-          // border-left:2px dashed #E6E6E6;
+          left: 0.7rem;
           background: repeating-linear-gradient(
             to bottom,
             #ccc,
@@ -393,7 +390,7 @@ const slotfull = !!useSlots().full;
           width: 1px; /* 设置元素的宽度为100% */
         }
         .full-item {
-          width: calc(100% - 38px);
+          width: 100%;
           height: fit-content;
           background: #ffffff;
           box-shadow: 0rem 0.25rem 0.63rem 0rem #f1f1f1;
@@ -409,7 +406,7 @@ const slotfull = !!useSlots().full;
             width: 1.13rem;
             height: 1.13rem;
             top: 50%;
-            left: -3.25rem;
+            left: -2.85rem;
             -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
             background: #fafafa
