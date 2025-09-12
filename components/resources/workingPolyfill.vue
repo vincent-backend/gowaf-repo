@@ -268,11 +268,10 @@ const getStyles = (item: any) => {
     width: 100%;
     margin: 6.25rem auto;
     .container {
-      width: 100%;
+      width: 43rem;
       margin: 0 auto;
       overflow: hidden;
       position: relative;
-      padding: 0 1.88rem;
       box-sizing: border-box;
     }
     h2 {

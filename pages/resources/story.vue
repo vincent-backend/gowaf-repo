@@ -55,6 +55,7 @@
     title2=""
     :layoutType="isMobile() ? 'full' : ''"
     :items="i18ntext.list"
+    class="story-CommonList"
   >
     <template #full="{ item }">
       <div class="title">
@@ -68,7 +69,7 @@
     </template>
   </CommonList3>
 
-  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
+  <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" class="hidden-subtitle" />
   <ProductsSupportPlan
     :bigtitle="$t('resources.story.listPolyfill.title')"
     :subTitle="$t('resources.story.listPolyfill.subTitle')"
@@ -203,6 +204,13 @@ const i18ntext = computed(() => {
       font-style: normal;
       text-transform: none;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .story-CommonList {
+    width: 43rem;
+    margin: 0 auto 5.5rem;
   }
 }
 </style>

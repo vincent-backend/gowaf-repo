@@ -58,7 +58,7 @@
   <XsOnly>
     <ProductsNeverHitList :isShowTitle="false" :neverHit="i18ntext.neverHit" />
   </XsOnly>
-  <CommonSuperCharge v-bind="i18ntext.currentJob" :isList="true" />
+  <CommonSuperCharge v-bind="i18ntext.currentJob" :isList="true" class="mb-0" />
   <ProductsDRMCustomers :drmCustomer="i18ntext.drmCustomer" />
   <Footer />
 </template>

@@ -89,16 +89,6 @@ const slotfull = !!useSlots().full;
       margin-top: 80px;
       width: 1200px;
       overflow: hidden;
-
-      // display: flex;
-      // flex-wrap: wrap;
-      // justify-content: space-between;
-      // align-items: flex-start;
-      // gap: 50px;
-
-      // display: flex;
-      // flex-wrap: wrap;
-      // justify-content: space-between;
       position: relative;
       &::before {
         content: '';
@@ -107,8 +97,6 @@ const slotfull = !!useSlots().full;
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        // width: 4px;
-        // border-left:2px dashed #E6E6E6;
         background: repeating-linear-gradient(
           to bottom,
           #ccc,

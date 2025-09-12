@@ -90,6 +90,10 @@ watch(curTab, (newCurTab) => {
 .super-charge-container {
   margin-top: 156px;
 
+  &.mb-0 {
+    margin-bottom: 0;
+  }
+
   .super-charge {
     > .title {
       font-weight: 500;

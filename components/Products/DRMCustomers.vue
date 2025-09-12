@@ -331,7 +331,6 @@ defineProps<{
         position: relative;
         box-sizing: border-box;
         padding: 1.88rem;
-        padding-bottom: 0px;
         width: 100%;
         min-height: 24.81rem;
         background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
@@ -446,6 +445,9 @@ defineProps<{
   }
 
   .BouuyDNS-ProductsDRMCustomers.drm-customer-container .drm-customer-content-container p.isHiddenSubTitle {
+    padding-bottom: 0;
+  }
+  .hidden-subtitle.drm-customer-container .drm-customer-content-container p.isHiddenSubTitle {
     padding-bottom: 0;
   }
 }
