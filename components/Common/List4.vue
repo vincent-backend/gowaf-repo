@@ -163,7 +163,7 @@ defineProps<{
               background: url(/images/resources/case-studies/nav_ic_arrow_right_nor_2x.png)
                 no-repeat 0 0;
               background-size: 1.25rem 1.25rem !important;
-              margin-left: auto;
+              margin-left: 3px;
             }
           }
         }

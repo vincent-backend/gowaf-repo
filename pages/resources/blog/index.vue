@@ -64,20 +64,18 @@
     <CommonTabs :tabs="i18ntext.CommonTabs" v-model:cur-tab="curTab" />
     <div class="Post-list">
       <div class="Post-item" v-for="item in i18ntext.Post">
-        <div>
+        <div class="d-flex">
           <img class="img-box" :src="item.img" />
         </div>
         <div class="title-list">
           <div class="title">{{ item.title }}</div>
-          <div class="Post-content">
+          <div class="Post-content clamp-2">
             {{ item.content }}
           </div>
           <div class="authorIntroduction">
-            <div
-              
-            >
-            <img class="headPortrait" :src="item.img" />
-          </div>
+            <div class="d-flex">
+              <img class="headPortrait" :src="item.img" />
+            </div>
             <div class="author">{{ item.author }}</div>
             <div class="author-time">
               {{ item.time }}
@@ -170,6 +168,15 @@ const i18ntext = computed(() => {
 });
 </script>
 <style lang="scss" scoped>
+.d-flex {
+  display: flex;
+}
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 .header {
   position: relative;
   display: flex;

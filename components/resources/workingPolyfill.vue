@@ -300,7 +300,7 @@ const getStyles = (item: any) => {
       display: none;
       h3 {
         font-weight: 500;
-        font-size: 2.13rem;
+        font-size: 2.5rem;
         color: #000000;
         line-height: 3rem;
         text-align: left;
