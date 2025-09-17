@@ -199,6 +199,10 @@ const props = defineProps({
       padding-bottom: 4.8rem;
     }
 
+    &.mt-1 {
+      margin-top: 1rem;
+    }
+
     .ad2 {
       width: 43.13rem;
       display: flex;

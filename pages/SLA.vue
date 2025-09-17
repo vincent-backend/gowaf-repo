@@ -16,7 +16,7 @@
       mh: '29.13rem'
     }"
   />
-  <div class="ad2-container" style="margin-bottom: 90px">
+  <div class="ad2-container mb-md-90 pt-4">
     <template v-for="(item, index) in i18ntext.items" :key="index">
       <SolutionsAd2
         :title="item.title"
@@ -31,6 +31,7 @@
         m-pic-width="24.75rem"
         m-pic-height="20.25rem"
         :reverse="isMobile() ? true : index % 2 === 0"
+        class="mt-1"
       />
     </template>
   </div>
@@ -102,26 +103,17 @@ const i18ntext = computed<any>(() => {
 });
 </script>
 <style lang="scss" scoped>
+.mb-md-90 {
+  margin-bottom: 90px;
+}
 .table {
   position: relative;
-  /* &::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    background: linear-gradient(180deg, #e6edfc 0%, #fafafa 100%);
-  } */
   .title {
     font-family: PingFangSC, PingFang SC;
     font-weight: 500;
     font-size: 30px;
     color: #000000;
     line-height: 42px;
-    // text-align: center;
     font-style: normal;
     text-transform: none;
     margin-bottom: 20px;
@@ -129,13 +121,11 @@ const i18ntext = computed<any>(() => {
   }
   .sub-title {
     width: 600px;
-    // margin: 0 auto;
     font-family: PingFangSC, PingFang SC;
     font-weight: 400;
     font-size: 16px;
     color: #4e4e4e;
     line-height: 24px;
-    // text-align: center;
     font-style: normal;
     text-transform: none;
     z-index: 11;
@@ -179,6 +169,12 @@ const i18ntext = computed<any>(() => {
   }
 }
 @media (max-width: 767px) {
+  .mb-md-90 {
+    margin-bottom: 20px;
+  }
+  .pt-4 {
+    padding-top: 4rem;
+  }
   .table {
     position: relative;
     .title {
@@ -187,19 +183,16 @@ const i18ntext = computed<any>(() => {
       font-size: 2.5rem;
       color: #000000;
       line-height: 3.5rem;
-      // text-align: center;
       font-style: normal;
       z-index: 11;
     }
     .sub-title {
       width: 37.5rem;
-      // margin: 0 auto;
       font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 1.75rem;
       color: #4e4e4e;
       line-height: 2.38rem;
-      // text-align: center;
       font-style: normal;
       text-transform: none;
       z-index: 11;

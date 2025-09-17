@@ -99,6 +99,7 @@ const activeNames = ref(['1']);
         text-align: left;
         font-style: normal;
         text-transform: none;
+        border-bottom: 0px;
         .el-collapse-item__arrow {
           display: none;
         }
@@ -199,6 +200,9 @@ const activeNames = ref(['1']);
             transition: all 0.3s;
           }
         }
+        :deep(.el-collapse-item__wrap) {
+          border-bottom: unset;
+        }
         .text {
           padding: 1.25rem 0;
           font-family: PingFangSC, PingFang SC;
@@ -213,6 +217,10 @@ const activeNames = ref(['1']);
         .text-arr {
           padding: 1.25rem 0;
           border-bottom: 1px solid #eaeaea;
+
+          &:last-child {
+            border-bottom: unset;
+          }
         }
       }
     }
