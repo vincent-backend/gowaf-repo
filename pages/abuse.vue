@@ -220,6 +220,7 @@ const i18ntext = computed<any>(() => {
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 30px 0;
       img {
         width: 25.75rem;
       }

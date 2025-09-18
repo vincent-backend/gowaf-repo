@@ -8,7 +8,7 @@
     :content="$t('13THZsm4_FXqwP1-DYJOi')"
     href="#"
   />
-  <div class="ad2-container" style="margin-bottom: 80px">
+  <div class="ad2-container mb-80">
     <template v-for="(item, index) in i18ntext.items" :key="index">
       <SolutionsAd2
         :title="item.title"
@@ -181,6 +181,9 @@ const i18ntext = computed<any>(() => {
 });
 </script>
 <style lang="scss" scoped>
+.mb-80 {
+  margin-bottom: 80px;
+}
 .privacy_Plan {
   margin-bottom: 80px;
   margin-top: 0;
@@ -251,6 +254,9 @@ const i18ntext = computed<any>(() => {
   }
 }
 @media (max-width: 767px) {
+  .mb-80 {
+    margin-bottom: 40px;
+  }
   .privacy_Plan {
     margin-bottom: 80px;
     margin-top: 0;
@@ -278,6 +284,7 @@ const i18ntext = computed<any>(() => {
       text-align: left;
       font-style: normal;
       text-transform: none;
+      padding: 50px 0 2rem;
     }
     .personalist {
       display: grid;

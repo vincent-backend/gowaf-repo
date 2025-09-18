@@ -26,6 +26,7 @@
       <div class="row row-message"></div>
     </div>
   </div>
+  <Footer />
 </template>
 <script setup lang="ts">
 definePageMeta({
