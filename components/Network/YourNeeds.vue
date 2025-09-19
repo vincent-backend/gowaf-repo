@@ -22,11 +22,9 @@ defineProps<{
       <div class="sub-title">{{ subTitle }}</div>
       <div class="list">
         <div class="item" v-for="item in items">
-          <div
-            
-          >
-          <img class="icon" :src="item.icon" />
-        </div>
+          <div>
+            <img class="icon" :src="item.icon" />
+          </div>
           <div class="title">{{ item.title }}</div>
           <div class="content">{{ item.content }}</div>
         </div>
@@ -98,6 +96,10 @@ defineProps<{
       gap: 90px;
 
       .item {
+        > div:first-child {
+          display: flex;
+          justify-content: center;
+        }
         .icon {
           width: 100px;
           height: 100px;
@@ -105,17 +107,17 @@ defineProps<{
 
         .title {
           margin-top: 20px;
-
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
+          text-align: center;
         }
 
         .content {
           margin-top: 10px;
-
           font-size: 16px;
           color: #4e4e4e;
+          text-align: center;
         }
       }
     }
@@ -261,6 +263,10 @@ defineProps<{
         gap: 2.5rem;
 
         .item {
+          > div:first-child {
+            display: flex;
+            justify-content: center;
+          }
           .icon {
             width: 9.38rem;
             height: 9.38rem;

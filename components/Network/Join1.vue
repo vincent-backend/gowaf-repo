@@ -114,6 +114,7 @@ const i18ntext = computed(() => {
       align-items: center;
       font-size: 16px;
       color: #4e4e4e;
+      z-index: 1;
 
       .s0 {
       }
@@ -146,7 +147,6 @@ const i18ntext = computed(() => {
 
     > .comment {
       width: 100%;
-      // margin-top: 100px;
       position: relative;
       background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 24px;
@@ -158,7 +158,7 @@ const i18ntext = computed(() => {
         height: 300px;
         position: absolute;
         right: 48px;
-        top: -189px;
+        top: -191px;
       }
 
       .decoration-1 {
