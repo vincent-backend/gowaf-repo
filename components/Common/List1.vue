@@ -44,7 +44,6 @@ defineProps<{
 
   .title1 {
     margin-top: 120px;
-
     font-weight: 500;
     font-size: 30px;
     line-height: 42px;
@@ -61,26 +60,24 @@ defineProps<{
 
   .list1 {
     margin-top: 80px;
-    width: 1090px;
+    // width: 1090px;
 
     > .list {
       margin-top: 80px;
-
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 50px;
       &::after {
         content: '';
         flex: auto;
       }
       .item {
-        width: 330px;
+        width: 100%;
         height: 380px;
         background: url(/images/network/Network_DDoS_card_bg.png)
             no-repeat top,
           #ffffff;
-        background-size: 330px 200px !important;
+        background-size: 100% 200px !important;
         box-shadow: 0px 4px 10px 0px #f1f1f1;
         border-radius: 14px;
         border: 1px solid #e6e6e6;
@@ -105,7 +102,6 @@ defineProps<{
 
         .content {
           margin-top: 10px;
-
           font-size: 16px;
           color: #4e4e4e;
         }
@@ -114,12 +110,18 @@ defineProps<{
   }
 }
 
+// For tablet devices
+@media (min-width: 768px) and (max-width: 991px)  {
+  .list1-container .list1 > .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .list1-container {
     .title1 {
       margin-top: 1.25rem;
-
       font-size: 2.5rem;
       line-height: 3.5rem;
       text-align: left;
@@ -128,7 +130,6 @@ defineProps<{
     .title2 {
       margin: 0;
       margin-top: 1rem;
-
       width: 100%;
       font-size: 1.75rem;
       line-height: 2.38rem;
@@ -142,11 +143,11 @@ defineProps<{
       > .list {
         margin-top: 3.13rem;
         gap: 1.25rem 1rem;
+        grid-template-columns: 1fr 1fr;
 
         .item {
           width: 20.94rem;
           height: auto;
-
           background-size: 20.94rem 18.5rem !important;
           padding: 0.63rem 1.25rem 2rem;
 
@@ -157,14 +158,12 @@ defineProps<{
 
           .title {
             margin-top: 1.87rem;
-
             font-size: 2.13rem;
             line-height: 3.13rem;
           }
 
           .content {
             margin-top: 1.25rem;
-
             font-size: 1.5rem;
             line-height: 2.13rem;
           }

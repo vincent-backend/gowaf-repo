@@ -125,8 +125,7 @@ watch(curTab, (newCurTab) => {
       }
 
       .right {
-        margin-left: 112px;
-
+        margin-left: auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -158,8 +157,7 @@ watch(curTab, (newCurTab) => {
 
         .content {
           margin-top: 20px;
-
-          width: 530px;
+          max-width: 530px;
           display: flex;
           flex-direction: column;
           gap: 10px;

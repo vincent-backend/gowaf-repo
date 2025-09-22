@@ -90,7 +90,6 @@ const i18ntext = computed<any>(() => {
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
@@ -98,10 +97,8 @@ const i18ntext = computed<any>(() => {
     > .sub-title {
       margin: 18px auto 0;
       width: 630px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
