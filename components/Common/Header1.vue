@@ -252,19 +252,22 @@ onUnmounted(() => {
       margin-top: 140px;
       .pic {
         background-size: contain;
+        width: 100%;
+        height: auto;
       }
     }
   }
 
   .bottom {
-    width: 1232px;
+    width: 100%;
+    max-width: 1200px;
     height: 132px;
     background: url(/images/home/home_banner_bot_bg.png);
+    background-size: 100% 100% !important;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    left: 50%;
-    margin-left: -616px;
+    margin: 0 calc((100% - 1200px) / 2);
     bottom: 0;
 
     .left {
@@ -333,6 +336,30 @@ onUnmounted(() => {
     .bottom {
       display: none;
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1280px) {
+  .home-banner-container  .bottom {
+    width: 90%;
+    max-width: unset;
+    left: 5%;
+    margin: 0 auto;
+  }
+  .home-banner-container .home-banner > .left {
+    width: 55%;
+    .title {
+      width: 100%;
+      font-size: 40px;
+      line-height: 56px;
+    }
+    .content {
+      width: 100%;
+    }
+  }
+  .home-banner-container .home-banner > .right {
+    width: 45%;
   }
 }
 

@@ -44,7 +44,6 @@ const i18ntext = computed(() => {
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
       text-align: center;
@@ -52,11 +51,11 @@ const i18ntext = computed(() => {
 
     > .pic {
       margin: 80px auto 0;
-
-      width: 1102px;
+      width: 100%;
       height: 368px;
       background: url(/images/network/ddos/Network_DDoS_flow.png)
         no-repeat;
+      background-size: contain !important;
     }
 
     > .features {

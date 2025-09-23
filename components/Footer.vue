@@ -147,7 +147,7 @@ const i18ntext = computed(() => {
   <footer
     class="footer-1-container"
     v-if="isShowBanner"
-    :style="{ marginTop: type && type.page == 'about' ? 0 : '10px' }"
+    :style="{ marginTop: type && type.page == 'about' ? 0 : '40px' }"
   >
     <div class="page-container footer-1">
       <div class="left">
