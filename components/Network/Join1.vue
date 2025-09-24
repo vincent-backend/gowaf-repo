@@ -210,7 +210,7 @@ const i18ntext = computed(() => {
       justify-content: space-between;
 
       .rank {
-        width: 282px;
+        width: 24%;
         height: 230px;
         background: #ffffff;
         border-radius: 24px;

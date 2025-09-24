@@ -45,11 +45,11 @@
       src: '/images/pricing/overview/Pricing_Overview_banner_graph@2x.png',
       w: '450px',
       h: '366px',
-
       msrc: '/mobile-images/pricing/overview/Pricing_Overview_banner_graph@2x.png',
       mw: '28.13rem',
       mh: '22.88rem'
     }"
+    class="mb-4"
   />
 
   <PricingPricing1 />
@@ -150,3 +150,8 @@ const i18ntext = computed<any>(() => {
   };
 });
 </script>
+<style lang="less" scoped>
+.mb-4 {
+  margin-bottom: 4rem;
+}
+</style>

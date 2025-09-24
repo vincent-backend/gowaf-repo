@@ -137,8 +137,7 @@ defineProps<{
 
         > .content {
           margin-top: 20px;
-
-          width: 540px;
+          max-width: 540px;
           font-size: 16px;
           color: #4e4e4e;
         }
@@ -199,6 +198,8 @@ defineProps<{
           width: 400px;
           height: 270px;
           background: url(/images/network/smart-edge/SmartEdge™_graph_1.png);
+          background-size: contain !important;
+          background-repeat: no-repeat;
         }
       }
     }
@@ -217,7 +218,7 @@ defineProps<{
       }
 
       > .right {
-        margin-left: 190px;
+        margin-left: auto;
 
         .title {
           width: 287px;
@@ -228,13 +229,19 @@ defineProps<{
 
         .content {
           margin-top: 20px;
-
-          width: 540px;
+          max-width: 540px;
           font-size: 16px;
           color: #4e4e4e;
         }
       }
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1024px) {
+  .your-needs-container .your-needs > .max-performance > .right > .pic {
+    width: 320px;
   }
 }
 

@@ -85,7 +85,7 @@ defineProps<{
     > .content-item {
       background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 14px;
-      padding: 26px 30px 26px 50px;
+      padding: 26px 30px 26px 26px;
 
       &:first-child {
         border-radius: 0 0 14px 14px;
@@ -141,7 +141,7 @@ defineProps<{
         }
 
         .right {
-          margin-left: 106px;
+          margin-left: 80px;
           width: 554px;
 
           .list {
@@ -206,6 +206,20 @@ defineProps<{
         }
       }
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1060px) {
+  .pricing-table > .content > .content-item > .content-item-top .right {
+    margin-left: 50px;
+  }
+  .pricing-table > .content > .content-item > .content-item-top .right .list .item {
+    width: 47%;
+  }
+
+  .pricing-table > .content > .content-item > .content-item-top .right .list .item .text {
+    font-size: 25px;
   }
 }
 
