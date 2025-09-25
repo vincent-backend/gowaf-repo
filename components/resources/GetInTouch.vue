@@ -104,9 +104,11 @@
       }
 
       > .pic {
-        width: 555px;
+        max-width: 555px;
         height: 518px;
         background: url(/images/pricing/cdn/Pricing_CDN_connection_graph.png);
+        background-size: contain !important;
+        background-repeat: no-repeat;
       }
     }
 
@@ -124,7 +126,6 @@
 
         .btn-submit {
           box-sizing: border-box;
-
           width: 100%;
           height: 50px;
           background: #ffffff;

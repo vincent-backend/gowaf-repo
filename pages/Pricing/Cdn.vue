@@ -50,6 +50,7 @@
       mw: '24.25rem',
       mh: '20.75rem'
     }"
+    class="mb-60"
   />
 
   <div class="price-1-container">
@@ -171,7 +172,8 @@ const i18ntext = computed<any>(() => {
 
 <style lang="less" scoped>
 .price-1-container {
-  width: 1200px;
+  width: calc(100% - 60px);
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
   top: -60px;
@@ -181,6 +183,10 @@ const i18ntext = computed<any>(() => {
   border-radius: 24px;
   box-sizing: border-box;
   padding: 20px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 // For mobile devices

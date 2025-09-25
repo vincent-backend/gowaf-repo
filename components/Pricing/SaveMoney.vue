@@ -235,6 +235,15 @@ const localizedDefaults: any = computed(() => {
 }
 
 // For mobile devices
+@media (min-width: 767px) and (max-width: 1060px) {
+  .save-money-container .save-money > .list > .item > .header > .title,
+  .save-money-container .save-money > .list > .item > .header > .sub-title {
+    height: 56.01px;
+  }
+
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .save-money-container {
     margin-top: 6.25rem;
