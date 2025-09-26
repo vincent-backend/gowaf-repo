@@ -242,6 +242,17 @@ const i18ntext = computed(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1024px) {
+  .calculator-1-container .calculator-1 > .content {
+    flex-direction: column;
+
+    > .left .pic {
+      margin-bottom: 40px;
+    }
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .calculator-1-container {

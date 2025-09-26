@@ -30,6 +30,10 @@ withDefaults(
 .pricing-map-container {
   margin-top: 120px;
 
+  &.mt-60 {
+    margin-top: 60px;
+  }
+
   .pricing-map {
     > .title {
       font-weight: 500;
@@ -48,8 +52,9 @@ withDefaults(
 
     > .map-container {
       margin-top: 40px;
-
-      width: 1200px;
+      margin-bottom: 40px;
+      width: 100%;
+      max-width: 1200px;
       height: 589px;
       background: #ffffff;
       box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
@@ -79,6 +84,13 @@ withDefaults(
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1024px) {
+  .pricing-map-container {
+    margin-top: 60px;
+  }
+} 
 
 // For mobile devices
 @media (max-width: 767px) {

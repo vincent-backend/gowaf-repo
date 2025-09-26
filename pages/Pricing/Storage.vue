@@ -61,6 +61,7 @@
       title: $t('pricing.storage.map.title'),
       subTitle: $t('pricing.storage.map.subTitle')
     }"
+    class="mt-60"
   />
 
   <CommonList1 v-bind="i18ntext.list1" />
@@ -182,7 +183,8 @@ const i18ntext = computed<any>(() => {
 
 <style lang="less" scoped>
 .price-1-container {
-  width: 1200px;
+  width: calc(100% - 6rem);
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
   top: -60px;

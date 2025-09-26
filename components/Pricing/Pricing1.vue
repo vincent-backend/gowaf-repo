@@ -260,7 +260,6 @@ const i18ntext = computed<any>(() => {
 
   .pricing1 {
     z-index: 2;
-
     background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
     border-radius: 24px;

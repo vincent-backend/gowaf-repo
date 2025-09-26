@@ -193,6 +193,15 @@
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1024px) {
+  .get-in-touch-container .get-in-touch > .left > .pic {
+    width: 350px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .get-in-touch-container {
