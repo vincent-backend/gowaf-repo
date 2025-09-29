@@ -376,6 +376,7 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
     a {
       color: #4e4e4e;
       line-height: 18px;
+      cursor: pointer;
     }
 
     .icon {

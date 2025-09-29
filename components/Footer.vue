@@ -455,6 +455,7 @@ const i18ntext = computed(() => {
                   width: 24px;
                   height: 24px;
                   margin-right: 10px;
+                  background-size: contain !important;
 
                   &.icon-email {
                     background: url('/images/home/bot_ic_email@2x.png') no-repeat;
@@ -523,6 +524,18 @@ const i18ntext = computed(() => {
           line-height: 28px;
         }
       }
+    }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1060px) {
+  .footer-2-container .footer-2 > .content > .right .section-1 > .content .contacts {
+    gap: 10px;
+
+    .contact {
+      width: 50%;
+      font-size: 15px;
     }
   }
 }

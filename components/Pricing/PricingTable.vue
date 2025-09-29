@@ -213,11 +213,11 @@ defineProps<{
 @media (min-width: 767px) and (max-width: 1060px) {
   .pricing-table > .content > .content-item > .content-item-top .right {
     margin-left: 50px;
+    width: 420px;
   }
   .pricing-table > .content > .content-item > .content-item-top .right .list .item {
     width: 47%;
   }
-
   .pricing-table > .content > .content-item > .content-item-top .right .list .item .text {
     font-size: 25px;
   }

@@ -249,9 +249,9 @@ onUnmounted(() => {
     }
 
     > .right {
-      margin-top: 140px;
+      margin-top: 90px;
       .pic {
-        background-size: contain;
+        background-size: contain !important;
         width: 100%;
         height: auto;
       }
