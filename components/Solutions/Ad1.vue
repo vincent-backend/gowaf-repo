@@ -44,7 +44,8 @@ defineProps<
   background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
 
   .ad1 {
-    width: 1090px;
+    width: calc(100% - 6rem);
+    max-width: 1090px;
     height: 100%;
     display: flex;
     align-items: center;

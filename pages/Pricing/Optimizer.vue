@@ -141,6 +141,7 @@ const i18ntext = computed<any>(() => {
 <style lang="less" scoped>
 .price-1-container {
   width: calc(100% - 40px);
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
   top: -60px;

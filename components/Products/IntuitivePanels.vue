@@ -12,9 +12,7 @@
       <template v-for="(tab, index) in i18ntext">
         <div class="tab-content" v-if="index === curTab">
           <div class="content">{{ tab.content }}</div>
-          <div
-            
-          >
+          <div class="pic-pane">
             <img class="pic" v-if="isMobile()" :src="tab.pic" width="100%"/>
             <img class="pic" v-if="!isMobile()" :src="tab.pic" :width="tab.picWidth"  :height="tab.picHeight"/>
         </div>
@@ -87,20 +85,16 @@ const i18ntext = computed<any>(() => {
   .intuitive-panels {
     > .title {
       margin-top: 30px;
-
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
@@ -110,12 +104,15 @@ const i18ntext = computed<any>(() => {
       > .content {
         font-size: 16px;
         color: #4e4e4e;
-
         text-align: center;
       }
 
-      > .pic {
-        margin: 50px auto 0;
+      .pic-pane {
+        > .pic {
+          width: 100%;
+          height: auto;
+          margin: 50px auto 0;
+        }
       }
     }
   }

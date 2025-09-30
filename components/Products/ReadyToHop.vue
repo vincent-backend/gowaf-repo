@@ -65,7 +65,8 @@ const i18ntext = computed<any>(() => {
 
     > .step-container {
       margin: 80px auto 0;
-      width: 1000px;
+      width: 100%;
+      max-width: 1000px;
       display: flex;
       justify-content: space-between;
 

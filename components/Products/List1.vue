@@ -85,7 +85,7 @@ const i18ntext = computed<any>(() => {
   margin-top: 120px;
 
   .products-list1 {
-    width: 1100px;
+    max-width: 1100px;
 
     > .title {
       font-weight: 500;
@@ -202,6 +202,20 @@ const i18ntext = computed<any>(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1440px){
+  .products-list1-container .products-list1 > .list {
+    flex-direction: column;
+    align-items: center;
+
+    .item {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .products-list1-container {
     margin: 6.25rem auto 0;

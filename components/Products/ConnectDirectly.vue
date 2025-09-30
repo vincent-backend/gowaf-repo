@@ -168,6 +168,20 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1440px){
+  .connect-directly-container .connect-directly > .content > .left .pic {
+    width: 350px;
+    height: 400px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+  }
+  .connect-directly-container .connect-directly > .content > .right {
+    margin-left: 80px;
+  }
+}
+
 @media (max-width: 767px) {
   .connect-directly-container {
     padding: 6.25rem 0;

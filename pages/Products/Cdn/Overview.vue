@@ -299,12 +299,9 @@ const intuitivePanelsList = computed<any>(() => {
 
   > .sub-title {
     margin: 20px auto 0;
-
-    width: 912px;
-
+    width: 100%;
     font-size: 16px;
     color: #4e4e4e;
-
     text-align: center;
   }
 

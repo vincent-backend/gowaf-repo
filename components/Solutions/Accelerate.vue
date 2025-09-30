@@ -258,6 +258,13 @@ const hovered = ref(-1);
     }
   }
 }
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1440px){
+  .accelerate-container .accelerate {
+    flex-direction: column;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .accelerate-container {
