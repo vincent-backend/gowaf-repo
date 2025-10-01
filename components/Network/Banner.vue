@@ -1023,7 +1023,6 @@ const i18ntext = computed(() => {
 <style lang="less" scoped>
 .banner-container {
   height: 840px;
-  // min-width: 1200px;
   background: url(/images/network/Network_Overview_map.png) no-repeat
     center;
   background-size: 1920px 840px;
@@ -1134,7 +1133,7 @@ const i18ntext = computed(() => {
 
     > .legend-container {
       position: absolute;
-      left: 0;
+      left: 3rem;
       bottom: 20px;
       box-sizing: border-box;
       padding: 20px;

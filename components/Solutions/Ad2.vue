@@ -186,6 +186,17 @@ const props = defineProps({
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .ad2-container .ad2 {
+    width: calc(100% - 6rem);
+    flex-direction: column;
+  }
+  .ad2-container .ad2.reverse {
+    flex-direction: column;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .ad2-container {
