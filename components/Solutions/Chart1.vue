@@ -41,9 +41,11 @@ const props = defineProps({
       text-align: center;
     }
 
-    > .pic {
+    .pic {
       margin-top: 80px;
-      width: 1200px;
+      width: 100%;
+      height: auto;
+      max-width: 1200px;
       box-shadow: 0px 10px 30px 0px rgba(173, 173, 173, 0.14);
       border-radius: 14px;
     }

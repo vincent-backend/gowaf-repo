@@ -65,7 +65,6 @@ defineProps<{
   margin-top: 120px;
   margin-bottom: 20px;
   .never-hit {
-    width: 1200px;
 
     > .title {
       font-weight: 500;
@@ -89,8 +88,7 @@ defineProps<{
       flex-wrap: wrap;
 
       > .item {
-        padding-right: 70px;
-        width: 400px;
+        width: 33.33%;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -136,6 +134,9 @@ defineProps<{
             font-size: 16px;
             color: #000000;
           }
+        }
+        &:nth-child(2) {
+          padding: 0 70px;
         }
       }
 
