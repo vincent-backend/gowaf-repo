@@ -262,6 +262,16 @@ const i18ntext = computed(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1040px){
+  .join1-container .join1 > .comment .avatar {
+    width: 300px;
+    height: fit-content;
+    right: 0;
+    top: -97px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .join1-container {

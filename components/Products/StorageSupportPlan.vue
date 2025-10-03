@@ -144,9 +144,10 @@ const i18ntext = computed<any>(() => {
       padding-bottom: 31px;
 
       > .line {
-        width: 1200px;
+        max-width: 1200px;
         height: 8px;
         background: url(/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        background-size: 100% 100% !important;
       }
 
       > .main {

@@ -76,7 +76,7 @@ defineProps<{
   width: 100%;
   background: #fff;
   .drm-customer-content-container {
-    width: 1380px;
+    max-width: 1380px;
     margin: 0 auto;
     position: relative;
     .isHiddenSubTitle {
@@ -161,7 +161,7 @@ defineProps<{
       position: relative;
       box-sizing: border-box;
       padding: 30px;
-      width: 1200px;
+      max-width: 1200px;
       min-height: 190px;
       background: linear-gradient(312deg, #e9f8fc 0%, #fffbf0 100%);
       border-radius: 24px;
@@ -178,7 +178,7 @@ defineProps<{
         padding-right: 80px;
       }
       > div {
-        width: 1140px;
+        max-width: 1140px;
         margin: 0px auto 30px auto;
         border-bottom: 1px solid #e6e6e6;
         position: relative;
@@ -218,10 +218,10 @@ defineProps<{
     > ul {
       display: flex;
       justify-content: space-between;
-      width: 1200px;
+      max-width: 1200px;
       margin: 50px auto 0px auto;
       li {
-        width: 282px;
+        width: 24%;
         height: 230px;
         box-sizing: border-box;
         border-radius: 24px;

@@ -39,11 +39,9 @@ defineProps<{
           v-for="item in neverHit.items"
           :style="{ alignItems: `${item.alignType}` }"
         >
-          <div
-            
-          >
+          <div>
             <img class="icon" :src="item.icon" :width="item.width" :height="item.height" />
-        </div>
+          </div>
           <div class="title">{{ item.title }}</div>
           <div class="content" :style="{ textAlign: `${item.contentAlign}` }">
             {{ item.content }}

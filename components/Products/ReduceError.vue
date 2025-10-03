@@ -31,7 +31,7 @@
   margin-top: 120px;
 
   .reduce-error {
-    width: 874px;
+    max-width: 874px;
 
     > .title {
       font-weight: 500;
@@ -104,6 +104,25 @@
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .reduce-error-container .reduce-error > .content > .label-1,
+  .reduce-error-container .reduce-error > .content > .label-2 {
+    width: 70px;
+    left: 630px;
+  }
+  .reduce-error-container .reduce-error > .content > .label-1 .title,
+  .reduce-error-container .reduce-error > .content > .label-2 .title {
+    font-size: 16px;
+  }
+  .reduce-error-container .reduce-error > .content > .label-1 .sub-title,
+  .reduce-error-container .reduce-error > .content > .label-2 .sub-title {
+    font-size: 15px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .reduce-error-container {
     margin-top: 5.5rem;

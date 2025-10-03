@@ -103,7 +103,9 @@ const localizedDefaults: any = computed(() => {
       }
     }
     img {
+      width: 100%;
       max-width: 1200px;
+      object-fit: contain;
       height: 840px;
       margin: 0 auto;
       display: block;
@@ -126,7 +128,7 @@ const localizedDefaults: any = computed(() => {
     }
   }
   .never-hit {
-    width: 980px;
+    max-width: 980px;
 
     > .title {
       font-family: PingFangSC, PingFang SC;

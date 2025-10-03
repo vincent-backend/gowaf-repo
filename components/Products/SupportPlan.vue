@@ -84,23 +84,19 @@ const i18ntext = computed<any>(() => {
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
     > .content {
       margin-top: 80px;
-
       background: #ffffff;
       box-shadow: 0px 4px 10px 0px #f1f1f1;
       border-radius: 14px;
@@ -109,9 +105,10 @@ const i18ntext = computed<any>(() => {
       padding-bottom: 55px;
 
       > .line {
-        width: 1200px;
+        max-width: 1200px;
         height: 8px;
         background: url(/images/pricing/cdn/Pricing_CDN_card_top_line.png);
+        background-size: 100% 100% !important;
       }
 
       > .main {
@@ -133,17 +130,14 @@ const i18ntext = computed<any>(() => {
 
           > .content {
             margin-top: 20px;
-
             font-size: 16px;
             color: #4e4e4e;
           }
 
           > .title2 {
             margin-top: 30px;
-
             font-weight: 500;
             font-size: 24px;
-
             line-height: 33px;
           }
 
@@ -178,10 +172,8 @@ const i18ntext = computed<any>(() => {
 
               .text {
                 margin-left: 10px;
-
                 font-weight: 500;
                 font-size: 16px;
-
                 line-height: 22px;
               }
             }
@@ -207,6 +199,8 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For mobile devices
 @media (max-width: 767px) {
   .support-plan-container {
     margin: 6.25rem auto 0;
@@ -269,7 +263,6 @@ const i18ntext = computed<any>(() => {
           margin-top: 1.88rem;
           display: flex;
           flex-direction: column;
-          // justify-content: space-between;
 
           > .left {
             width: 100%;
