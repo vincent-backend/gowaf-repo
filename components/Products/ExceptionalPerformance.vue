@@ -77,6 +77,7 @@ const localizedDefaults: any = computed(() => {
         position: absolute;
         left: 100px;
         top: 100px;
+        z-index: 1;
         .circle {
           position: relative;
           width: 20px;
@@ -143,7 +144,6 @@ const localizedDefaults: any = computed(() => {
 
     > .sub-title {
       margin-top: 20px;
-
       font-family: PingFangSC, PingFang SC;
       font-weight: 400;
       font-size: 16px;

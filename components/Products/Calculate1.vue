@@ -207,7 +207,6 @@ const i18ntext = computed<any>(() => {
 
       > .right {
         padding-right: 80px;
-        width: calc(100% - 406px);
 
         .replication-points-container {
           width: 560px;
@@ -443,19 +442,25 @@ const i18ntext = computed<any>(() => {
 }
 
 // For tablet devices
-@media (min-width: 767px) and (max-width: 1160px){
+@media (min-width: 767px) and (max-width: 1160px) {
+  .calculator-1-container .calculator-1 > .content > .left .pic {
+    width: 300px;
+    height: 168px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+  }
   .calculator-1-container .calculator-1 > .content > .right {
     padding-right: 0;
   }
   .calculator-1-container .calculator-1 > .content > .right .list {
-    width: 100%;
+    width: 410px;
 
     > .item {
-      width: 500px !important;
+      // width: 500px !important;
     }
   }
   .calculator-1-container .calculator-1 > .content > .right .list2 > .item {
-    width: 48%;
+    width: 200px;
   }
 }
 

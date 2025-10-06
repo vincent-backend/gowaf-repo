@@ -86,7 +86,7 @@ defineProps<{
       flex-wrap: wrap;
 
       > .item {
-        width: 33.33%;
+        width: calc(33.33% - 47px);
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -134,7 +134,7 @@ defineProps<{
           }
         }
         &:nth-child(2) {
-          padding: 0 70px;
+          margin: 0 70px;
         }
       }
 
