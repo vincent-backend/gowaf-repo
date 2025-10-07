@@ -112,28 +112,28 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/storage/europe/SmartEdge™_ic_engine_2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('FOPJ1aRqjYy9kYkHltacY'),
           content: t('95KNp_8IoUrtC89t7OYkD'),
-          contentAlign: 'left'
+          contentAlign: 'center'
         },
         {
           icon: '/images/products/storage/europe/SmartEdge™_ic_Monitoring_2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('hwhw48dVM8CgDfWOy1Nlg'),
           content: t('Fu_FQ_Wlh942RX3FuGIfx'),
-          contentAlign: 'left'
+          contentAlign: 'center'
         },
         {
           icon: '/images/products/storage/europe/home_list_ic_network_2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('e6ehWsWT_Gfg_VJdwAzFy'),
           content: t('3K7ipdtN9nVg1YXpg69m7'),
-          contentAlign: 'left'
+          contentAlign: 'center'
         }
       ]
     },

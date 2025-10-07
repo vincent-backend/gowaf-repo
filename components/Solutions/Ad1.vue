@@ -39,7 +39,6 @@ defineProps<
 <style lang="less" scoped>
 .ad1-container {
   margin-top: 120px;
-
   height: 330px;
   background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
 
@@ -102,7 +101,6 @@ defineProps<
 
         .sub-title {
           margin-top: 1rem;
-
           font-size: 1.63rem;
           line-height: 2.38rem;
         }

@@ -257,6 +257,20 @@ defineProps<{
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .drm-customer-container .drm-customer-content-container > h3 {
+    padding-left: 30px;
+  }
+  .drm-customer-container .drm-customer-content-container > p {
+    padding-left: 30px;
+  }
+  .drm-customer-container .drm-customer-content-container .header-list .face-img {
+    width: 350px;
+    height: auto;
+  }
+}
+
 @media (max-width: 767px) {
   .drm-customer-container {
     margin: 0 auto;

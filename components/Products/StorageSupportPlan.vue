@@ -119,23 +119,19 @@ const i18ntext = computed<any>(() => {
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
     > .content {
       margin-top: 80px;
-
       background: #ffffff;
       box-shadow: 0px 4px 10px 0px #f1f1f1;
       border-radius: 14px;
@@ -191,17 +187,14 @@ const i18ntext = computed<any>(() => {
 
           > .content {
             margin-top: 20px;
-
             font-size: 16px;
             color: #4e4e4e;
           }
 
           > .title2 {
             margin-top: 30px;
-
             font-weight: 500;
             font-size: 24px;
-
             line-height: 33px;
           }
 
@@ -236,10 +229,8 @@ const i18ntext = computed<any>(() => {
 
               .text {
                 margin-left: 10px;
-
                 font-weight: 500;
                 font-size: 16px;
-
                 line-height: 22px;
               }
             }
@@ -282,6 +273,19 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .support-plan-container .support-plan > .content > .main > .right {
+    margin-right: 30px;
+  }
+  .support-plan-container .support-plan > .content > .main > .right .pic {
+    width: 300px;
+    height: auto;
+    background-size: 300px !important;
+  }
+}
+
 @media (max-width: 767px) {
   .support-plan-container {
     margin-top: 6.25rem;

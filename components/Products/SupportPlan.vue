@@ -200,6 +200,18 @@ const i18ntext = computed<any>(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .support-plan-container .support-plan > .content > .main > .right {
+    margin-right: 30px;
+  }
+  .support-plan-container .support-plan > .content > .main > .right .pic {
+    width: 300px;
+    height: 233px;
+    background-size: 300px !important;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .support-plan-container {
