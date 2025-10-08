@@ -36,7 +36,7 @@ const localizedDefaults: any = computed(() => {
                   top: item * Math.floor(Math.random() * 11) + 'px'
                 }
               : {
-                  left: item * (Math.floor(Math.random() * 4) + 20) + 'px',
+                  left: item * (Math.floor(Math.random() * 4) + 15) + 'px',
                   top: item * (Math.floor(Math.random() * 11) + 2) + 'px'
                 }
           "

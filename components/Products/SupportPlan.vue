@@ -115,6 +115,7 @@ const i18ntext = computed<any>(() => {
         margin-top: 22px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         > .left {
           width: 600px;

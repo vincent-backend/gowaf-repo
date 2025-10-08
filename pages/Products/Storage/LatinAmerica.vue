@@ -58,9 +58,7 @@
     :title2="$t('products.storage.LatinAmerica.list1.subTitle')"
     :items="i18ntext.items"
   />
-  <ProductsSupportPlan
-    :title="$t('products.storage.LatinAmerica.supportPlan.content.title')"
-  />
+  <ProductsSupportPlan />
   <ProductsCalculate1
     :isShowTitle="false"
     :isShowReplicationPoints="false"
@@ -114,28 +112,28 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/storage/europe/SmartEdge™_ic_engine_2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('FOPJ1aRqjYy9kYkHltacY'),
           content: t('lQ6K7zqY2lDJtyoJsDrFC'),
-          contentAlign: 'left'
+          contentAlign: 'center'
         },
         {
           icon: '/images/products/storage/europe/SmartEdge™_ic_Monitoring_2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('hwhw48dVM8CgDfWOy1Nlg'),
           content: t('Fu_FQ_Wlh942RX3FuGIfx'),
-          contentAlign: 'left'
+          contentAlign: 'center'
         },
         {
           icon: '/images/products/storage/europe/home_list_ic_network_2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('e6ehWsWT_Gfg_VJdwAzFy'),
           content: t('3K7ipdtN9nVg1YXpg69m7'),
-          contentAlign: 'left'
+          contentAlign: 'center'
         }
       ]
     },
