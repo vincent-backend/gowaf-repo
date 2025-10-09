@@ -101,7 +101,8 @@ const imgclick = (index: number) => {
       gap: 12px;
 
       > .item {
-        width: 190px;
+        width: 23.5%;
+        max-width: 190px;
         height: 84px;
         background: #ffffff;
         border-radius: 8px;

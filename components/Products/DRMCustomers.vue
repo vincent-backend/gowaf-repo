@@ -269,6 +269,12 @@ defineProps<{
     width: 350px;
     height: auto;
   }
+  .drm-customer-container .drm-customer-content-container > ul {
+    margin: 50px 3rem;
+  }
+  .drm-customer-container .drm-customer-content-container > ul li {
+    height: 180px;
+  }
 }
 
 @media (max-width: 767px) {
