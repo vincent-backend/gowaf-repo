@@ -42,6 +42,10 @@ defineProps<
   height: 330px;
   background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);
 
+  &.mt-0 {
+    margin-top: 0;
+  }
+
   .ad1 {
     width: calc(100% - 6rem);
     max-width: 1090px;

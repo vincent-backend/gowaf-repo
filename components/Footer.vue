@@ -544,7 +544,6 @@ const i18ntext = computed(() => {
 @media (max-width: 767px) {
   .footer-1-container {
     margin-top: 6.25rem;
-
     height: 26rem;
 
     .footer-1 {

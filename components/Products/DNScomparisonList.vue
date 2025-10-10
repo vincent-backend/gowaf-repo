@@ -229,10 +229,13 @@ const selflist = computed(() => {
     }
   }
 }
-@media (max-width: 767px) {
+
+// For mobile devices
+@media (max-width: 1260px) {
   .content-container {
     margin: 0;
     width: 100%;
+    padding: 0;
   }
   .DNScomparisonList {
     position: relative;

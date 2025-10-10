@@ -92,8 +92,9 @@
     m-pic="/images/products/cdn/overview/Network_Overview_banner_graph@2x.png"
     m-pic-width="18.75rem"
     m-pic-height="18.72rem"
+    class="mt-0"
   />
-  <Footer />
+  <Footer class="mb-0"/>
 </template>
 
 <script setup lang="ts">

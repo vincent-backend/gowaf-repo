@@ -95,6 +95,16 @@ defineProps<{
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1024px){
+  .always-safe-container .always-safe > .content-container > .row .content-item {
+    width: 230px;
+  }
+  .always-safe-container .always-safe > .content-container {
+    height: 600px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .always-safe-container {

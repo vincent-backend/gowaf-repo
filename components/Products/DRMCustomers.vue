@@ -277,6 +277,7 @@ defineProps<{
   }
 }
 
+// For mobile devices
 @media (max-width: 767px) {
   .drm-customer-container {
     margin: 0 auto;
