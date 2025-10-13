@@ -264,6 +264,7 @@ defineProps<{
   }
   .drm-customer-container .drm-customer-content-container > p {
     padding-left: 30px;
+    max-width: 335px;
   }
   .drm-customer-container .drm-customer-content-container .header-list .face-img {
     width: 350px;

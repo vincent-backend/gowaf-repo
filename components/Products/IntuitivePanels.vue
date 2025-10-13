@@ -118,6 +118,14 @@ const i18ntext = computed<any>(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1280px) {
+  .intuitive-panels-container {
+    height: unset;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .intuitive-panels-container {
     height: fit-content;

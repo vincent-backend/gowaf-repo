@@ -362,6 +362,10 @@ loadApis();
 </script>
 
 <style lang="scss" scoped>
+.api-docs .api-list .el-collapse .el-collapse-item.is-active .el-collapse-item__content {
+  padding-bottom: 0 !important;
+}
+
 .api-docs {
   min-height: 100vh;
   background: #f5f7fa;

@@ -94,7 +94,7 @@
     m-pic-height="18.72rem"
     class="mt-0"
   />
-  <Footer class="mb-0"/>
+  <Footer class="mb-0" />
 </template>
 
 <script setup lang="ts">

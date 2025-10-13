@@ -230,7 +230,7 @@ const selflist = computed(() => {
   }
 }
 
-// For mobile devices
+// For tablet & mobile devices
 @media (max-width: 1260px) {
   .content-container {
     margin: 0;
