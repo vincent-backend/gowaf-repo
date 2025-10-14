@@ -452,6 +452,7 @@ const i18ntext = computed<any>(() => {
   .calculator-1-container .calculator-1 > .content > .right {
     padding-right: 0;
   }
+  
   .calculator-1-container .calculator-1 > .content > .right .list {
     width: 410px;
 
@@ -461,6 +462,16 @@ const i18ntext = computed<any>(() => {
   }
   .calculator-1-container .calculator-1 > .content > .right .list2 > .item {
     width: 200px;
+  }
+
+  .calculator-1-container .calculator-1 > .content > .right .replication-points-container, 
+  .calculator-1-container .calculator-1 > .content > .right .replication-points-container ul::before {
+    width: 100%;
+  }
+
+  .calculator-1-container .calculator-1 > .content > .right .list > .item {
+    min-width: 190px;
+    width: 195px !important;
   }
 }
 

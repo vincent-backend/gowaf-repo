@@ -276,6 +276,17 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1420px){
+  .how-stream-works-container .how-stream-works > .bg {
+    margin-left: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .how-stream-works-container {
     margin: 6.63rem 0;

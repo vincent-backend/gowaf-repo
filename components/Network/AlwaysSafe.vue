@@ -37,13 +37,14 @@ defineProps<{
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
+      text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
+      text-align: center;
     }
 
     > .content-container {
