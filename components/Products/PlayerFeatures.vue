@@ -158,6 +158,17 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1730px){
+  .player-features-container .player-features > .bg {
+    margin-left: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .player-features-container {
     margin-top: 6.25rem;

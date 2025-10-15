@@ -174,7 +174,8 @@ const i18ntext = computed(() => {
 
   > .pic {
     margin: 40px auto 0;
-    width: 782px;
+    width: 100%;
+    max-width: 782px;
     // height: 440px;
     // background: url(/images/products/stream/player/player-1@2x.png);
   }

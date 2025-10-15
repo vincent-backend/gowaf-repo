@@ -63,14 +63,16 @@ const i18ntext = computed<any>(() => {
 
   .packed-features {
     > .title {
+      text-align: center;
       font-weight: 500;
       font-size: 30px;
       line-height: 42px;
     }
 
     > .sub-title {
+      text-align: center;
       margin: 20px auto 0;
-      width: 560px;
+      width: 650px;
       font-size: 16px;
       color: #4e4e4e;
     }
