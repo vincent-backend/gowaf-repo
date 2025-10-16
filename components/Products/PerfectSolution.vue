@@ -92,34 +92,31 @@ withDefaults(
 
     > .left {
       > .title {
-        width: 249px;
-
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
       }
 
       > .content {
         margin-top: 18px;
-
         width: 569px;
-
         font-size: 16px;
         color: #4e4e4e;
       }
 
       > .list {
         margin-top: 50px;
-
         display: flex;
         flex-direction: column;
         gap: 52px;
 
         > .item {
           display: flex;
+          align-items: center;
 
           > .icon-container {
+            display: flex;
+
             > .icon {
               width: 120px;
               height: 120px;
@@ -154,6 +151,16 @@ withDefaults(
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .perfect-solution-container .perfect-solution {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .perfect-solution-container {
     margin-top: 6.25rem;

@@ -41,7 +41,6 @@
 
   <ProductsPerfectSolution
     :title="$t('products.stream.mediaCage.perfectSolution.title')"
-    :titleWidth="'249px'"
     :content="$t('products.stream.mediaCage.perfectSolution.content')"
     :items="[
       {

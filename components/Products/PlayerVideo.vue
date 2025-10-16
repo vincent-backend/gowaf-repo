@@ -73,7 +73,7 @@ const localizedDefaults: any = computed(() => {
 
   > .pic {
     margin: 40px auto 0;
-    width: 782px;
+    max-width: 782px;
     // height: 440px;
     // background: url(/images/products/stream/player/player-1@2x.png);
   }
