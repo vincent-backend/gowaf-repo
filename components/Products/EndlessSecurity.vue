@@ -99,11 +99,9 @@
 
       .tag {
         position: absolute;
-
         color: #4e4e4e;
         line-height: 20px;
         text-align: center;
-
         width: 600px;
         margin-left: -300px;
 
@@ -158,6 +156,17 @@
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px){
+  .endless-security-container .endless-security > .content .tag,
+  .endless-security-container .endless-security > .content .tag.tag-1,
+  .endless-security-container .endless-security > .content .tag.tag-2 {
+    width: 150px
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .endless-security-container {
     margin-top: 6.25rem;

@@ -156,6 +156,15 @@
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px){
+  .email-form-container {
+    width: 100%;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .email-form-container {
     width: 100%;

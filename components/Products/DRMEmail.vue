@@ -46,8 +46,10 @@ const i18ntext = computed<any>(() => {
   padding: 70px 0;
   width: 100%;
   background: #fafafa;
+
   .drm-email-content-container {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -106,6 +108,16 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px){
+  .drm-email-container {
+    width: calc(100% - 6rem);
+    padding: 70px 3rem;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .drm-email-container {
     margin: 0 auto;

@@ -52,7 +52,7 @@ const i18ntext = computed<any>(() => {
   margin-top: 120px;
 
   .protect-your-videos {
-    width: 1000px;
+    max-width: 1000px;
 
     > .title {
       font-weight: 500;

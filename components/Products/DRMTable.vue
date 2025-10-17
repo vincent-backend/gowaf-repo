@@ -74,7 +74,8 @@ const i18ntext = computed<any>(() => {
   margin-top: 120px;
 
   .drm-table {
-    width: 1000px;
+    width: calc(100% - 60px);
+    max-width: 1000px;
     padding: 10px 30px 40px;
     background: #ffffff;
     box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
