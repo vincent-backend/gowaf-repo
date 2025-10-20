@@ -187,7 +187,7 @@ const props = defineProps({
 }
 
 // For tablet devices
-@media (min-width: 767px) and (max-width: 1160px){
+@media (min-width: 767px) and (max-width: 1160px) {
   .ad2-container {
     // margin-top: 100px !important;
   }

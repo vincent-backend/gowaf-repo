@@ -390,6 +390,30 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .drm-pricing-container {
+    margin-bottom: 60px;
+  }
+  .drm-pricing-container .drm-pricing > .content > .section-1 {
+    align-items: center;
+  }
+  .drm-pricing-container .drm-pricing > .content > .section-1 > .right .pic {
+    width: 300px;
+    height: 300px;
+  }
+  .drm-pricing-container .drm-pricing > .content > .section-2 {
+    margin-top: 60px;
+    align-items: center;
+  }
+  .drm-pricing-container .drm-pricing > .content > .section-2 .left .pic {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .drm-pricing-container {
     margin: 6.25rem auto;
