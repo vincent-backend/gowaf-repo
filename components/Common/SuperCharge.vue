@@ -248,6 +248,13 @@ watch(curTab, (newCurTab) => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1280px) {
+  .super-charge-container {
+    margin-top: 120px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .super-charge-container {

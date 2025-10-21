@@ -347,6 +347,9 @@ onUnmounted(() => {
     left: 5%;
     margin: 0 auto;
   }
+  .home-banner-container .home-banner {
+    align-items: center;
+  }
   .home-banner-container .home-banner > .left {
     width: 55%;
     .title {

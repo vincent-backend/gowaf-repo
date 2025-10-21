@@ -349,6 +349,14 @@ const i18ntext = computed(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .Planlist .included .Checklist {
+    width: 300px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .Planlist {
   > .row-item {

@@ -78,17 +78,14 @@ const localizedDefaults: any = computed(() => {
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 18px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
@@ -133,11 +130,9 @@ const localizedDefaults: any = computed(() => {
             position: absolute;
             right: -26px;
             top: -33px;
-
             font-family: Mont, Mont;
             font-weight: bold;
             font-size: 50px;
-
             line-height: 64px;
 
             background: linear-gradient(
@@ -158,27 +153,31 @@ const localizedDefaults: any = computed(() => {
 
         > .title {
           margin-top: 22px;
-
           font-family: Mont, Mont;
           font-weight: bold;
           font-size: 26px;
-
           line-height: 35px;
         }
 
         > .content {
           margin-top: 8px;
-
           width: 220px;
-
           color: #4e4e4e;
-
           text-align: center;
         }
       }
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .easy-powerful-container .easy-powerful > .content > .item > .title {
+    font-size: 19px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .easy-powerful-container {
     margin: 6.25rem auto 3rem;

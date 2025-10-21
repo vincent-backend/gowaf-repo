@@ -150,6 +150,18 @@ defineProps<{
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1280px) {
+  .never-hit-container .never-hit > .content > .item .title {
+    font-size: 19px;
+  }
+  .never-hit-container .never-hit > .content > .item .content {
+    text-align: center;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .never-hit-container {
     margin-top: 10.56rem;
