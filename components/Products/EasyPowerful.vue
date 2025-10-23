@@ -175,6 +175,11 @@ const localizedDefaults: any = computed(() => {
   .easy-powerful-container .easy-powerful > .content > .item > .title {
     font-size: 19px;
   }
+
+  .easy-powerful-container .easy-powerful > .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 // For mobile devices

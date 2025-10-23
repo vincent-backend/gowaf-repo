@@ -102,14 +102,12 @@ const i18ntext = computed(() => {
     > .title1 {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .title2 {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
       text-align: center;
@@ -117,7 +115,6 @@ const i18ntext = computed(() => {
 
     > .content {
       margin-top: 70px;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -164,7 +161,6 @@ const i18ntext = computed(() => {
 
               .value {
                 margin-top: 10px;
-
                 font-family: Mont, Mont;
                 font-weight: 600;
                 font-size: 20px;
@@ -212,7 +208,6 @@ const i18ntext = computed(() => {
 
               .icon {
                 margin-left: 8px;
-
                 width: 24px;
                 height: 24px;
                 background: url(/images/pricing/cdn/common_price_right_wihte_ic.png);
@@ -233,13 +228,16 @@ const i18ntext = computed(() => {
 
         .btn-container {
           margin-top: 30px;
-
           display: flex;
           justify-content: center;
         }
       }
     }
   }
+}
+
+.calculator-1-container.mb-60 {
+  margin-bottom: 60px !important;
 }
 
 // For tablet devices
@@ -267,7 +265,6 @@ const i18ntext = computed(() => {
 
       > .title2 {
         margin-top: 0.94rem;
-
         font-size: 1.75rem;
         line-height: 2.38rem;
         text-align: left;

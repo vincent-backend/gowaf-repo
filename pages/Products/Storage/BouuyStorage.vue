@@ -82,7 +82,7 @@
     </div>
     <PricingTable :content="i18ntext.pricingTable" />
   </div>
-  <ProductsCalculate1 :items="i18ntext.list" :subs="i18ntext.subs" />
+  <ProductsCalculate1 :items="i18ntext.list" :subs="i18ntext.subs" class="mb-60"/>
   <CommonList1 v-bind="i18ntext.list1" />
   <PricingSaveMoney
     :title="$t('products.storage.BouuyStorage.SaveMoney.title')"
@@ -407,15 +407,16 @@ const i18ntext = computed(() => {
 <style lang="scss" scoped>
 .price-1-container {
   margin-top: 120px;
-  width: 1200px;
-  height: 845px;
+  max-width: 1200px;
+  min-height: 845px;
   background: #ffffff;
   box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);
   border-radius: 24px;
   padding: 20px;
   box-sizing: border-box;
   .title-box {
-    width: 1160px;
+    width: 100%;
+    max-width: 1160px;
     height: 116px;
     background: linear-gradient(316deg, #3475f5 0%, #12e599 100%);
     border-radius: 14px 14px 0px 0px;
@@ -444,6 +445,7 @@ const i18ntext = computed(() => {
       text-align: left;
       font-style: normal;
       text-transform: none;
+      padding: 0 2rem;
     }
   }
   :deep(.pricing-table) {

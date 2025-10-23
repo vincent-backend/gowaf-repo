@@ -164,6 +164,10 @@ const i18ntext = computed<any>(() => {
 .calculator-1-container {
   margin-top: 120px;
 
+  &.mb-60 {
+    margin-bottom: 60px;
+  }
+
   .calculator-1 {
     > .title1 {
       font-family: PingFangSC, PingFang SC;

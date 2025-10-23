@@ -241,6 +241,9 @@ const localizedDefaults: any = computed(() => {
     height: 56.01px;
   }
 
+  .save-money-container .save-money > .list > .item > .list > .item .label {
+    font-size: 14px;
+  }
 }
 
 // For mobile devices
