@@ -341,6 +341,9 @@ onUnmounted(() => {
 
 // For tablet devices
 @media (min-width: 767px) and (max-width: 1280px) {
+  .home-banner-container {
+    height: 700px;
+  }
   .home-banner-container  .bottom {
     width: 90%;
     max-width: unset;
@@ -363,6 +366,9 @@ onUnmounted(() => {
   }
   .home-banner-container .home-banner > .right {
     width: 45%;
+  }
+  .home-banner-container .home-banner > .left {
+    margin-top: 100px;
   }
 }
 

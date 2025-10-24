@@ -377,7 +377,7 @@ const i18ntext = computed(() => {
     }
   }
   .img-bg {
-    width: 1200px;
+    max-width: 1200px;
     .img {
       width: 100%;
     }
