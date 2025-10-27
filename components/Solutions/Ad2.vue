@@ -100,6 +100,7 @@ const props = defineProps({
     justify-content: space-between;
 
     > .left {
+      margin-bottom: 30px;
 
       > .btn-container {
         display: none;
@@ -112,13 +113,11 @@ const props = defineProps({
       > .title {
         font-weight: 500;
         font-size: 30px;
-
         line-height: 42px;
       }
 
       > .content {
         margin-top: 20px;
-
         font-size: 16px;
         color: #4e4e4e;
       }
@@ -148,10 +147,8 @@ const props = defineProps({
 
           .title {
             margin-left: 8px;
-
             font-weight: 500;
             font-size: 16px;
-
             line-height: 22px;
           }
         }
@@ -257,7 +254,6 @@ const props = defineProps({
 
         > .content {
           margin-top: 1.75rem;
-
           font-size: 1.75rem;
           color: #4e4e4e;
         }
@@ -291,10 +287,8 @@ const props = defineProps({
 
             .title {
               margin-left: 0.75rem;
-
               font-weight: 500;
               font-size: 1.5rem;
-
               line-height: 1.4;
             }
           }
@@ -306,7 +300,6 @@ const props = defineProps({
       }
 
       &.reverse {
-        // flex-direction: row-reverse;
         flex-direction: column-reverse;
       }
     }

@@ -355,10 +355,14 @@ onUnmounted(() => {
   }
   .home-banner-container .home-banner > .left {
     width: 55%;
+
+    .pre-title {
+      font-size: 28px;
+    }
     .title {
       width: 100%;
-      font-size: 40px;
-      line-height: 56px;
+      font-size: 38px;
+      line-height: 45px;
     }
     .content {
       width: 100%;

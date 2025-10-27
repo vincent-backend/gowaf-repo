@@ -155,6 +155,8 @@ defineProps<{
 @media (min-width: 767px) and (max-width: 1280px) {
   .never-hit-container .never-hit > .content > .item .title {
     font-size: 19px;
+    white-space: normal;
+    line-height: 25px;
   }
   .never-hit-container .never-hit > .content > .item .content {
     text-align: center;

@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { menuItem } from '~/types/headerMenuItem';
 const { t } = useI18n();
-import { ref, unref } from 'vue';
+import { ref } from 'vue';
 const ProductsRef = ref();
 const solutionsRef = ref();
 const ProductsPopoverRef = ref();
