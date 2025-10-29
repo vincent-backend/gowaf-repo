@@ -157,6 +157,7 @@ defineProps<{
     font-size: 19px;
     white-space: normal;
     line-height: 25px;
+    text-align: center;
   }
   .never-hit-container .never-hit > .content > .item .content {
     text-align: center;

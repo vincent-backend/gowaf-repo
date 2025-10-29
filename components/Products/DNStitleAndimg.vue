@@ -118,6 +118,19 @@ defineProps<{
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1300px) {
+  .DNStitleAndimg .content-container .left .tick-list {
+    width: fit-content;
+  }
+  .DNStitleAndimg .content-container .right img {
+    max-width: 300px;
+    height: fit-content !important;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .DNStitleAndimg {
     margin: 6.25rem 0;

@@ -233,6 +233,16 @@ const { pause, resume, isActive } = useIntervalFn(updateIndex, 2000, {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1240px) {
+  .verticalCarousel-container .verticalCarousel > .content .right img {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .verticalCarousel-container {
     margin-top: 6.25rem;

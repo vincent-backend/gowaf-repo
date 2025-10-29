@@ -95,7 +95,7 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_1@2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('1CVuVjmUdquGG22hYgaum'),
           content: t('5TC1fx7C4DmF0CPhY2xPC')
         },
@@ -103,7 +103,7 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_2@2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('XHnKKeCyYPYFCVAgSO6_9'),
           content: t('PvAjfdCLqkDq9UiVREY70')
         },
@@ -111,7 +111,7 @@ const i18ntext = computed<any>(() => {
           icon: '/images/products/cdn/perma-cache/media_simple_ic_3@2x.png',
           width: '100px',
           height: '100px',
-          alignType: 'flex-start',
+          alignType: 'center',
           title: t('sFUQCUTWE-506BF7mhHcs'),
           content: t('y-hSUbi0MvnOjTNTr-NKv')
         }
@@ -264,6 +264,15 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1300px) {
+  .topimg-container .directly .img {
+    width: 100%;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .BouuyDNS-ProductsDRMCustomers {
     :deep(.isHiddenSubTitle) {

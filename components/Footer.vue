@@ -485,7 +485,6 @@ const i18ntext = computed(() => {
           .content {
             .sub-title {
               margin-top: 14px;
-
               color: #4e4e4e;
               line-height: 20px;
             }
@@ -518,7 +517,6 @@ const i18ntext = computed(() => {
 
         .section-3 {
           margin-top: 30px;
-
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
@@ -537,6 +535,9 @@ const i18ntext = computed(() => {
       width: 50%;
       font-size: 15px;
     }
+  }
+  .footer-2-container .footer-2 > .content > .right {
+    padding-left: 3rem;
   }
 }
 

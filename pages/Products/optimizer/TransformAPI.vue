@@ -301,6 +301,15 @@ const i18ntext = computed<any>(() => {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1240px) {
+  .Minimize {
+    margin-bottom: 80px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .Minimize {
     margin-bottom: 6.25rem;
