@@ -67,6 +67,7 @@ defineProps<{
         border: 1px solid #e6e6e6;
         box-sizing: border-box;
         padding: 20px;
+        text-align: center;
 
         .icon {
           width: 80px;

@@ -580,6 +580,15 @@ const i18ntext = computed<Record<string, menuItem>>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .menu-solutions {
+    min-width: 700px;
+    width: 730px;
+    padding: 3rem 1rem;
+  }
+}
 </style>
 <style lang="scss">
 .popper-menu {

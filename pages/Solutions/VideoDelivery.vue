@@ -300,6 +300,14 @@ const i18ntext = computed(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1300px) {
+  .map-container > .sub-title {
+    width: calc(100% - 6rem);
+    padding: 0 3rem;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .map-container {

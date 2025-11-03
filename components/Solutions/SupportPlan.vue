@@ -180,6 +180,18 @@ const i18ntext = computed<any>(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .support-plan-container .support-plan > .main {
+    padding-right: 30px;
+  }
+  .support-plan-container .support-plan > .main > .content > .right .pic {
+    width: 300px;
+    height: 233px;
+    background-size: 300px !important;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .support-plan-container {

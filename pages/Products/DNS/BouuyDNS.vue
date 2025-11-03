@@ -30,7 +30,6 @@
       src: '/images/products/DNS/stream_transcribe_banner_graph@2x.png',
       w: '346px',
       h: '361px',
-
       msrc: '/images/products/DNS/stream_transcribe_banner_graph@2x.png',
       mw: '31rem',
       mh: '30.56rem'

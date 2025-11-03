@@ -40,15 +40,28 @@ const props = defineProps({
           font-weight: 500;
           font-size: 20px;
           line-height: 28px;
+          text-align: center;
         }
 
         .content {
           margin-top: 10px;
           font-size: 16px;
           color: #4e4e4e;
+          text-align: center;
+        }
+
+        .img-pane {
+          text-align: center;
         }
       }
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1300px) {
+  .feature-list-container .feature-list .list {
+    gap: 20px;
   }
 }
 
