@@ -263,6 +263,15 @@ const hovered = ref(-1);
   .accelerate-container .accelerate {
     flex-direction: column;
   }
+  .accelerate-container .accelerate > .left > .content {
+    width: 100%;
+  }
+  .accelerate-container .accelerate > .right .list {
+    justify-content: space-between;
+  }
+  .accelerate-container .accelerate > .right .list .item {
+    width: 48%;
+  }
 }
 
 // For mobile devices

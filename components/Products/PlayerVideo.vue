@@ -53,6 +53,8 @@ const localizedDefaults: any = computed(() => {
 
 <style lang="less" scoped>
 .player2-container {
+  width: calc(100% - 6rem);
+  padding: 0 3rem;
   margin-top: 120px;
   margin-bottom: 120px;
 

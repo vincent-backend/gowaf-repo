@@ -158,6 +158,9 @@ withDefaults(
     flex-direction: column;
     align-items: center;
   }
+  .perfect-solution-container .perfect-solution > .left > .content {
+    width: 100%;
+  }
 }
 
 // For mobile devices
