@@ -51,6 +51,14 @@ const props = defineProps({
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .chart1-container {
+    margin-top: 60px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .chart1-container {

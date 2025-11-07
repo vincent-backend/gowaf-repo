@@ -259,7 +259,10 @@ const hovered = ref(-1);
   }
 }
 // For tablet devices
-@media (min-width: 767px) and (max-width: 1440px){
+@media (min-width: 767px) and (max-width: 1440px) {
+  .accelerate-container {
+    margin-top: 60px;
+  }
   .accelerate-container .accelerate {
     flex-direction: column;
   }
