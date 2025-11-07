@@ -219,6 +219,14 @@ const i18ntext = computed(() => {
     margin-top: 40px;
   }
 }
+
+// For tablet devices
+@media (min-width: 768px) and (max-width: 991px)  {
+   .map-container > .sub-title {
+    width: calc(100% - 6rem);
+   }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .map-container {

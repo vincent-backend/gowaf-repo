@@ -199,6 +199,9 @@ const props = defineProps({
   .ad2-container .ad2.reverse {
     flex-direction: column;
   }
+  .ad2-container.pb-md-6 {
+    padding-bottom: 60px;
+  }
 }
 
 // For mobile devices

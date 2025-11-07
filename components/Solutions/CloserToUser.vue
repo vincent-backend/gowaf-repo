@@ -216,6 +216,14 @@ const i18ntext = computed<any>(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px){
+  .closer-to-user-container .closer-to-user > .list {
+    flex-direction: column;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .closer-to-user-container {

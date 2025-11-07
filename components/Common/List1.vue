@@ -115,6 +115,10 @@ defineProps<{
   .list1-container .list1 > .list {
     grid-template-columns: 1fr 1fr;
   }
+  .list1-container .list1,
+  .list1-container .title1 {
+    margin-top: 60px;
+  }
 }
 
 // For mobile devices

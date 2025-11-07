@@ -83,6 +83,13 @@ defineProps<
   }
 }
 
+// For tablet devices
+@media (min-width: 768px) and (max-width: 991px)  {
+  .ad1-container {
+    margin-top: 60px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .ad1-container {
