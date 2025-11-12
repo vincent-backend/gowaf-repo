@@ -66,7 +66,6 @@ const curTab = ref(0);
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
       text-align: center;
@@ -74,7 +73,6 @@ const curTab = ref(0);
 
     > .tabs-content {
       margin: 45px auto 0;
-
       width: 974px;
       display: flex;
       justify-content: space-between;
@@ -92,7 +90,6 @@ const curTab = ref(0);
 
       .right {
         margin-left: 112px;
-
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -107,7 +104,6 @@ const curTab = ref(0);
 
           .title-tip {
             margin-left: 10px;
-
             width: 138px;
             height: 28px;
             background-image: url(/images/solutions/security-cdn/home_card_tag_bg@2x.png);
@@ -124,7 +120,6 @@ const curTab = ref(0);
 
         .content {
           margin-top: 20px;
-
           width: 530px;
           display: flex;
           flex-direction: column;
@@ -144,6 +139,19 @@ const curTab = ref(0);
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .super-charge-container .super-charge > .tabs-content {
+    width: 100%;
+  }
+  .super-charge-container .super-charge > .tabs-content .right {
+    margin-left: 30px;
+  }
+  .super-charge-container .super-charge > .tabs-content .right .content {
+    width: 100%;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .super-charge-container {
@@ -158,7 +166,6 @@ const curTab = ref(0);
 
       > .sub-title {
         margin-top: 1rem;
-
         font-size: 1.75rem;
         line-height: 2.38rem;
         text-align: left;
@@ -166,7 +173,6 @@ const curTab = ref(0);
 
       > .tabs-content {
         margin-top: 4.25rem;
-
         width: auto;
         flex-direction: column;
 
@@ -190,7 +196,6 @@ const curTab = ref(0);
 
           .title {
             margin-top: 3.75rem;
-
             font-size: 2.13rem;
             line-height: 3rem;
 

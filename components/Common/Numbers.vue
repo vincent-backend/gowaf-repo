@@ -147,6 +147,13 @@ h3 {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .numbers .number .number-title h5 {
+    font-size: 40px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .numbers-container {

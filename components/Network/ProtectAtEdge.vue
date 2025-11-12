@@ -94,6 +94,13 @@ const i18ntext = computed(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .protect-at-edge-container .protect-at-edge > .features {
+    margin-top: 0;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .protect-at-edge-container {

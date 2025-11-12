@@ -305,6 +305,23 @@ const slotfull = !!useSlots().full;
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .list1-container .list1 {
+    width: calc(100% - 6rem);
+    margin-top: 60px;
+  }
+  .list1-container .list1 > .full-list .full-item {
+    width: 100%;
+  }
+  .list1-container .title1 {
+    margin-top: unset;
+  }
+  .list1-container .list1 > .full-list .full-item h4 span {
+    font-size: 22px;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .list1-container {

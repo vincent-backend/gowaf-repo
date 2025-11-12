@@ -89,6 +89,13 @@ defineProps<{
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .list1-container .list1 .list {
+    width: 100%;
+  }
+}
+
 // For mobile devices
 @media (max-width: 767px) {
   .list1-container {

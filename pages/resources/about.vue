@@ -225,6 +225,9 @@ const i18ntext = computed(() => {
 </script>
 
 <style lang="less" scoped>
+.home-banner-container {
+  height: 600px;
+}
 .footer-1-container {
   margin-top: 0 !important;
 }
