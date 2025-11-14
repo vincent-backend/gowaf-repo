@@ -252,6 +252,7 @@ const hovered = ref(-1);
           &.active {
             border: 2px solid #46cf3a;
             // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
+            cursor: pointer;
           }
         }
       }

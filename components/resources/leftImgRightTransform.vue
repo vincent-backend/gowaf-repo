@@ -140,17 +140,14 @@ const localizedDefaults: any = computed(() => {
     > .title {
       font-weight: 500;
       font-size: 30px;
-
       line-height: 42px;
       text-align: center;
     }
 
     > .sub-title {
       margin-top: 20px;
-
       font-size: 16px;
       color: #4e4e4e;
-
       text-align: center;
     }
 
@@ -175,10 +172,8 @@ const localizedDefaults: any = computed(() => {
             height: 190px;
             box-sizing: border-box;
             padding: 16px;
-
             background: #ffffff;
             border-radius: 14px;
-
             border: 2px solid #fff;
 
             .head {
@@ -261,6 +256,7 @@ const localizedDefaults: any = computed(() => {
             &.active {
               border: 2px solid #46cf3a;
               // border-image: linear-gradient(90deg, rgba(70, 207, 58, 1), rgba(54, 207, 188, 1)) 2 2;
+              cursor: pointer;
             }
           }
         }
@@ -268,6 +264,18 @@ const localizedDefaults: any = computed(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .leftImgRightTransform-container .leftImgRightTransform > .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .leftImgRightTransform-container .leftImgRightTransform > .content .right .list {
+    justify-content: center;
+  }
+}
+// For mobile devices
 @media (max-width: 767px) {
   .leftImgRightTransform-container {
     margin-top: 6.25rem;

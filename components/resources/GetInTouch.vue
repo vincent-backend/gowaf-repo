@@ -159,7 +159,7 @@
 // For tablet devices
 @media (min-width: 767px) and (max-width: 1024px) {
   .get-in-touch-container .get-in-touch > .left > .pic {
-    // height: 300px;
+    height: 300px;
   }
 }
 

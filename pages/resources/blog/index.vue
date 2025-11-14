@@ -374,6 +374,24 @@ const i18ntext = computed(() => {
     align-items: center;
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1160px) {
+  .header .header-img {
+    width: 300px;
+    height: auto;
+  }
+  .header .content-container .title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .Post-list .Post-item,
+  .Post-list .Post-item .title-list {
+    width: 340px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .header {
     position: relative;
