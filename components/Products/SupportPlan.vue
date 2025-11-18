@@ -211,6 +211,9 @@ const i18ntext = computed<any>(() => {
     height: 233px;
     background-size: 300px !important;
   }
+  .support-plan-container .support-plan > .content > .main > .left > .title {
+    font-size: 22px;
+  }
 }
 
 // For mobile devices

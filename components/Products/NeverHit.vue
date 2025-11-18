@@ -39,7 +39,7 @@ defineProps<{
           v-for="item in neverHit.items"
           :style="{ alignItems: `${item.alignType}` }"
         >
-          <div>
+          <div class="img_pane">
             <img class="icon" :src="item.icon" :width="item.width" :height="item.height" />
           </div>
           <div class="title">{{ item.title }}</div>
@@ -91,6 +91,12 @@ defineProps<{
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .img_pane {
+          width: 100%;
+          display: block;
+          text-align: center;
+        }
 
         .icon {
           width: 80px;

@@ -253,6 +253,10 @@ watch(curTab, (newCurTab) => {
   .super-charge-container {
     margin-top: 60px;
   }
+  .super-charge-container .super-charge > .tabs-content .job-items-list ul li {
+    width: 49%;
+    height: auto;
+  }
 }
 
 // For mobile devices

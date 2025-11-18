@@ -120,10 +120,10 @@ const getStyles = (item: any) => {
 </script>
 <style lang="less" scoped>
 .carousel-container {
-  width: 1200px;
   margin: 100px auto;
   .container {
-    width: 1200px;
+    width: calc(100% - 6rem);
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -222,16 +222,6 @@ const getStyles = (item: any) => {
       border: 1px #ddd solid;
     }
   }
-  // #prevBtn {
-  //   position: absolute;
-  //   left: 20px;
-  //   z-index: 2;
-  // }
-  // #nextBtn {
-  //   position: absolute;
-  //   right: 20px;
-  //   z-index: 2;
-  // }
   .controls {
     display: flex;
     justify-content: center;
@@ -259,6 +249,17 @@ const getStyles = (item: any) => {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px) {
+  .carousel-container .slide h3, 
+  .carousel-container .slide p {
+    padding-left: 50px;
+  }
+  .carousel-container .slide {
+    width: 100%;
   }
 }
 

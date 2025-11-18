@@ -65,7 +65,6 @@ const slotfull = !!useSlots().full;
 
   .title1 {
     margin-top: 120px;
-
     font-weight: 500;
     font-size: 30px;
     line-height: 42px;
@@ -74,7 +73,6 @@ const slotfull = !!useSlots().full;
 
   .title2 {
     margin: 18px auto 80px;
-
     width: 612px;
     font-size: 16px;
     color: #4e4e4e;
@@ -87,9 +85,10 @@ const slotfull = !!useSlots().full;
 
     > .list {
       margin-top: 80px;
-      width: 1200px;
+      max-width: 1200px;
       overflow: hidden;
       position: relative;
+
       &::before {
         content: '';
         position: absolute;
@@ -123,7 +122,6 @@ const slotfull = !!useSlots().full;
         border-radius: 24px;
         box-sizing: border-box;
         padding: 30px;
-        // margin-bottom: 100px;
         &:nth-of-type(2) {
           margin-top: -190px !important;
         }
@@ -306,7 +304,7 @@ const slotfull = !!useSlots().full;
 }
 
 // For tablet devices
-@media (min-width: 767px) and (max-width: 1160px) {
+@media (min-width: 767px) and (max-width: 1280px) {
   .list1-container .list1 {
     width: calc(100% - 6rem);
     margin-top: 60px;
@@ -319,6 +317,24 @@ const slotfull = !!useSlots().full;
   }
   .list1-container .list1 > .full-list .full-item h4 span {
     font-size: 22px;
+  }
+  .list1-container .list1 > .list .item {
+    width: 45%;
+
+    .title {
+      h4 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      h5 {
+        font-size: 26px;
+        line-height: 30px; 
+      }
+    }
+
+    .content p {
+      font-size: 15px;
+    }
   }
 }
 
@@ -369,7 +385,6 @@ const slotfull = !!useSlots().full;
 
           .content {
             margin-top: 1.25rem;
-
             font-size: 1.5rem;
             line-height: 2.13rem;
           }

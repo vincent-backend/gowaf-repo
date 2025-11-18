@@ -40,16 +40,14 @@ defineModel('curTab', {
     .tab {
       background: #ffffff;
       border-radius: 20px;
-
       font-weight: 500;
       font-size: 16px;
-
       line-height: 22px;
       padding: 9px 16px;
-
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
 
       &.current {
         background: #000000;
@@ -74,7 +72,6 @@ defineModel('curTab', {
         padding: 0.81rem 1.25rem;
         font-size: 1.5rem;
         line-height: 2.06rem;
-
         // word-break: keep-all;
         white-space: nowrap;
 
