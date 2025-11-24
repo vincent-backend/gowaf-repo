@@ -37,7 +37,8 @@ defineProps<{
 
 <style lang="less" scoped>
 .list-container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 50px auto;
 
   ul {
@@ -107,6 +108,25 @@ defineProps<{
         height: 250px;
       }
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1240px) {
+  .list-container ul {
+    width: calc(100% - 60px);
+    padding: 0 30px;
+  }
+  .list-container ul li {
+    width: 30%;
+  }
+  .list-container ul li img {
+    width: 100%;
+    height: auto;
+  }
+  .list-container ul li h5 {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 

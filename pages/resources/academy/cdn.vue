@@ -361,6 +361,27 @@ const i18ntext = computed(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px) {
+  .textContent .page-container {
+    flex-direction: column;
+  }
+
+  .textContent .page-container .left {
+    width: 100%;
+  }
+
+  .textContent .page-container .left .articleBlock .title {
+    font-size: 40px;
+  }
+
+  .textContent .page-container .left {
+    gap: 50px;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .bottom-header {
     width: 100%;

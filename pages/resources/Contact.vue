@@ -55,7 +55,6 @@ definePageMeta({
 <style lang="less" scoped>
 .header-container {
   height: 350px;
-  min-width: 1200px;
   background: url(/images/resources/contact/banner-bg.png) no-repeat
     center;
   background-size: 1920px 350px;
@@ -106,6 +105,7 @@ definePageMeta({
   }
 }
 
+// For mobile devices
 @media (max-width: 767px) {
   .header-container {
     width: 100%;

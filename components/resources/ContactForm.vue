@@ -113,7 +113,7 @@ const i18ntext = computed<any>(() => {
   margin-top: -70px;
   .list-container {
     margin: 0 auto 50px auto;
-    width: 1100px;
+    max-width: 1100px;
     height: 256px;
     border-bottom: 1px solid #e6e6e6;
     ul {
@@ -156,7 +156,8 @@ const i18ntext = computed<any>(() => {
     padding: 0 250px;
   }
   .my-form {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto 50px auto;
     background: #ffffff;
     box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
@@ -215,6 +216,16 @@ const i18ntext = computed<any>(() => {
   }
 }
 
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1240px) {
+  .form-container .form-contact-container {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+// For mobile devices
 @media (max-width: 767px) {
   .form-container {
     margin-top: -1.88rem;
