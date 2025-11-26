@@ -376,7 +376,7 @@ const i18ntext = computed(() => {
 }
 
 // For tablet devices
-@media (min-width: 767px) and (max-width: 1160px) {
+@media (min-width: 767px) and (max-width: 1260px) {
   .header .header-img {
     width: 300px;
     height: auto;
@@ -385,9 +385,18 @@ const i18ntext = computed(() => {
     font-size: 42px;
     line-height: 50px;
   }
-  .Post-list .Post-item,
+
+  .Post-list .Post-item {
+    width: 31%;
+    height: auto;
+  }
+  
   .Post-list .Post-item .title-list {
-    width: 340px;
+    width: 100%;
+  }
+
+  .Post-list .Post-item .img-box {
+    height: auto;
   }
 }
 
