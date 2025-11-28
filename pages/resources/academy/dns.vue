@@ -291,6 +291,7 @@
           display: flex;
           flex-direction: column;
           gap: 20px;
+          
           .advertisement {
             display: flex;
             flex-direction: column;
