@@ -65,15 +65,17 @@
           <div class="right-title">
             {{ $t('resources.WhatIsCDN.rightTitle') }}
           </div>
-          <div
-            class="advertisement"
-            v-for="(item, index) in i18ntext.advertisement"
-            :key="index"
-          >
-            <div class="ad-title">
-              {{ item.title }}
+          <div class="advertisement_pane">
+            <div
+              class="advertisement"
+              v-for="(item, index) in i18ntext.advertisement"
+              :key="index"
+            >
+              <div class="ad-title">
+                {{ item.title }}
+              </div>
+              <div class="ad-content">{{ item.content }}</div>
             </div>
-            <div class="ad-content">{{ item.content }}</div>
           </div>
           <div class="advertisement-bot">
             <div class="bot-t">
@@ -220,7 +222,8 @@
           }
         }
         .helpful {
-          width: 700px;
+          width: 100%;
+          max-width: 700px;
           height: 196px;
           background: #e6edfc;
           border-radius: 20px;
@@ -284,31 +287,37 @@
           font-style: normal;
           text-transform: none;
         }
-        .advertisement {
+
+        .advertisement_pane {
           display: flex;
           flex-direction: column;
-          background: #e6edfc;
-          border-radius: 20px;
-          padding: 30px 20px;
-          .ad-title {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 600;
-            font-size: 20px;
-            color: #000000;
-            line-height: 28px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
-          }
-          .ad-content {
-            font-family: PingFangSC, PingFang SC;
-            font-weight: 400;
-            font-size: 16px;
-            color: #4e4e4e;
-            line-height: 24px;
-            text-align: left;
-            font-style: normal;
-            text-transform: none;
+          gap: 20px;
+          .advertisement {
+            display: flex;
+            flex-direction: column;
+            background: #e6edfc;
+            border-radius: 20px;
+            padding: 30px 20px;
+            .ad-title {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 600;
+              font-size: 20px;
+              color: #000000;
+              line-height: 28px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
+            .ad-content {
+              font-family: PingFangSC, PingFang SC;
+              font-weight: 400;
+              font-size: 16px;
+              color: #4e4e4e;
+              line-height: 24px;
+              text-align: left;
+              font-style: normal;
+              text-transform: none;
+            }
           }
         }
         .advertisement-bot {
@@ -361,6 +370,47 @@
       }
     }
   }
+
+  // For tablet devices
+  @media (min-width: 767px) and (max-width: 1260px) {
+    .textContent .page-container {
+      flex-direction: column;
+    }
+
+    .textContent .page-container .left,
+    .textContent .page-container .right {
+      width: 100%;
+    }
+
+    .textContent .page-container .left .articleBlock .title {
+      font-size: 40px;
+      line-height: 55px;
+    }
+
+    .textContent .page-container .left {
+      gap: 50px;
+    }
+
+    .textContent .page-container .left .helpful {
+      max-width: unset;
+    }
+
+    .textContent .page-container .right .advertisement {
+      width: 30%;
+    }
+
+    .textContent .page-container .right .advertisement_pane {
+      flex-direction: row;
+    }
+
+    .textContent .page-container .right .advertisement-bot,
+    .textContent .page-container .right .advertisement-bot .bot-t {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  // For mobile devices
   @media (max-width: 767px) {
     .bottom-header {
       width: 100%;
