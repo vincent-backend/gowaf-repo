@@ -60,6 +60,7 @@ const props = defineProps<{
   margin-top: 80px;
 }
 h3 {
+  max-width: 1200px;
   font-weight: 500;
   font-size: 30px;
   color: #000000;
@@ -68,7 +69,6 @@ h3 {
   font-style: normal;
   text-transform: none;
   margin: 60px auto 20px;
-  width: 1200px;
 }
 .numbers {
   height: 128px;
@@ -86,7 +86,7 @@ h3 {
       height: 6px;
       background: #ececec;
       bottom: 0;
-      left: 0;
+      margin-left: calc(50% - 25px);
     }
   }
   .n-1,
@@ -99,7 +99,7 @@ h3 {
       height: 6px;
       background: #ececec;
       top: 0;
-      left: 0;
+      margin-left: calc(50% - 25px);
     }
   }
   .number {
@@ -134,6 +134,7 @@ h3 {
       font-size: 16px;
       color: #4e4e4e;
       white-space: pre-wrap;
+      text-align: center;
     }
   }
   &.aboutType {
@@ -148,9 +149,12 @@ h3 {
 }
 
 // For tablet devices
-@media (min-width: 767px) and (max-width: 1160px) {
+@media (min-width: 767px) and (max-width: 1260px) {
   .numbers .number .number-title h5 {
     font-size: 40px;
+  }
+  h3 {
+    padding-left: 3rem;
   }
 }
 
