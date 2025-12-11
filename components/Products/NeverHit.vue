@@ -91,6 +91,7 @@ defineProps<{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 3rem;
 
         .img_pane {
           width: 100%;

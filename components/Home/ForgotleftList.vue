@@ -189,4 +189,17 @@ const i18ntext = computed(() => {
     }
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px) {
+  .left-list {
+    width: auto;
+  }
+  .left-list .ForgotList .home-item {
+    width: auto;
+  }
+  .left-list .card-box .card {
+    width: 50%;
+  }
+}
 </style>

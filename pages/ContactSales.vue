@@ -169,16 +169,16 @@ const i18ntext = computed<any>(() => {
   justify-content: center;
   align-items: center;
   z-index: 11;
+  padding: 6rem 0;
   .main {
-    width: 1000px;
     height: 818px;
     background: #ffffff;
     box-shadow: 0px 10px 30px 0px rgba(166, 183, 183, 0.1);
     border-radius: 24px;
     border: 1px solid #e6e6e6;
-    margin-top: -60px;
     box-sizing: border-box;
     padding: 50px 200px;
+    margin: 3rem;
     z-index: 11;
   }
 }

@@ -1,12 +1,13 @@
 <template>
+  <Header />
   <div class="bg">
     <LgOnly>
       <div class="page-container">
-        <div class="logo-header">
+        <!-- <div class="logo-header">
           <NuxtLinkLocale :to="localePath('/')">
             <img src="/images/home/Gowaf_logo+文字.png" alt="" />
           </NuxtLinkLocale>
-        </div>
+        </div> -->
         <div class="body">
           <HomeLoginleftList />
           <div class="login-body">
@@ -49,6 +50,7 @@
       </div>
     </XsOnly>
   </div>
+  <Footer :isShowBanner="false" />
   <HomeBacktop />
 </template>
 
@@ -79,6 +81,7 @@ const showType = ref('login');
   display: flex;
   flex: 1;
   align-items: center;
+  gap: 3rem;
 }
 .login-body {
   margin-left: auto;
@@ -164,6 +167,17 @@ const showType = ref('login');
       color: #0ebf6a;
       cursor: pointer;
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px) {
+  .bg {
+    width: 100%;
+  }
+  .login-body {
+    width: auto;
+    padding: 25px;
   }
 }
 </style>

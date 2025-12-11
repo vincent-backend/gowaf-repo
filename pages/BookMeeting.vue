@@ -38,7 +38,7 @@ definePageMeta({
   height: 350px;
   min-width: 1200px;
   background: url(/images/book-meeting/banner.png) no-repeat center;
-  background-size: 1920px 350px;
+  background-size: 100% 100%;
 
   .header {
     position: relative;
@@ -46,7 +46,7 @@ definePageMeta({
 
     .logo-container {
       position: absolute;
-      left: 0;
+      left: 3rem;
       top: 14px;
 
       .logo {
@@ -161,6 +161,23 @@ definePageMeta({
       box-sizing: border-box;
       padding: 2.5rem 2.19rem;
     }
+  }
+}
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px) {
+  .header-container {
+    min-width: unset;
+  }
+
+  .form-container .form {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+  }
+
+  .form-container {
+    padding: 0 3rem;
   }
 }
 </style>

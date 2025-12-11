@@ -93,4 +93,11 @@ defineEmits(['toForgot'])
     background: #fff;
   }
 }
+
+// For tablet devices
+@media (min-width: 767px) and (max-width: 1260px) {
+  .Welcome {
+    font-size: 27px;
+  }
+}
 </style>
