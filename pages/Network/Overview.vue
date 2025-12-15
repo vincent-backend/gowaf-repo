@@ -107,7 +107,7 @@ const i18ntext = computed<any>(() => {
         {
           tab: t('nationalFlag.continentName2'),
           title: t('products.storage.Europe.header.preTitle'),
-          content: t('9FKrXHuSFfEarUf5ZU2R4'),
+          content: t('products.storage.Europe.header.content'),
           icon: '/images/network/Network_Overview_nation_Europe@2x.png',
           iconWidth: '374px',
           iconHeight: '310px',
