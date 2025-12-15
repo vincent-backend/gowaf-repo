@@ -8,8 +8,8 @@
         <div class="sub-title">
           {{ $t('network.overview.hop.subTitle') }}
         </div>
-        <div>
-          <NuxtLinkLocale href="#" class="trail-btn">
+        <div class="trail-btn">
+          <NuxtLinkLocale href="#" >
             {{ $t('network.overview.hop.btn') }}
           </NuxtLinkLocale>
         </div>
@@ -24,6 +24,7 @@
 <style lang="less" scoped>
 .hop-container {
   margin-top: 80px;
+  padding-top: 40px;
   overflow: hidden;
   height: 330px;
   background: linear-gradient(180deg, #e6edfc 0%, #ffffff 100%);

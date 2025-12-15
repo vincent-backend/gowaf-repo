@@ -82,7 +82,7 @@ defineProps<{
         border-radius: 14px;
         border: 1px solid #e6e6e6;
         box-sizing: border-box;
-        padding: 20px;
+        padding: 40px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
