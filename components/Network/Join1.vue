@@ -382,10 +382,10 @@ const i18ntext = computed(() => {
         margin-top: 2.94rem;
         flex-wrap: wrap;
 
-        gap: 0.5rem 0;
+        gap: 1rem 0;
 
         .rank {
-          width: 20.94rem;
+          width: 48%;
           height: 15.19rem;
 
           border-radius: 1.5rem;

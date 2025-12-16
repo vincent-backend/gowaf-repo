@@ -16,7 +16,7 @@
           <Line top="16px" m-top="1.25rem" />
           <div class="content">
             <div class="flag" v-for="flag in group.items">
-              <div>
+              <div class="icon-wrapper">
                 <img class="icon" :src="`/images/network/${flag.img}@2x.png`" />
               </div>
               <div class="text">{{ flag.label }}</div>
@@ -615,12 +615,16 @@ const i18ntext = computed(() => {
             width: 14%;
             display: flex;
             align-items: center;
+            .icon-wrapper {
+              display: flex;
+              align-items: center;
 
-            .icon {
+              .icon {
               width: 30px;
               height: 20px;
+              }
             }
-
+            
             .text {
               margin-left: 10px;
 
@@ -654,9 +658,9 @@ const i18ntext = computed(() => {
 
       > .flag-groups {
         margin-top: 3.13rem;
-
+        
         .flag-group {
-          padding: 1.25rem;
+          padding: 2.5rem;
           padding-bottom: 3.13rem;
           border-radius: 1.5rem;
 

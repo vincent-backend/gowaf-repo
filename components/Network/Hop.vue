@@ -71,7 +71,7 @@
     height: 28rem;
 
     .hop {
-      width: 43rem;
+      width: 90%;
 
       .left {
         .title {

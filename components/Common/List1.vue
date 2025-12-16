@@ -142,7 +142,7 @@ defineProps<{
 
     .list1 {
       margin-top: 3.13rem;
-      width: 43rem;
+      width: 90%;
 
       > .list {
         margin-top: 3.13rem;
@@ -150,10 +150,10 @@ defineProps<{
         grid-template-columns: 1fr 1fr;
 
         .item {
-          width: 20.94rem;
+          width: 100%;
           height: auto;
-          background-size: 20.94rem 18.5rem !important;
-          padding: 0.63rem 1.25rem 2rem;
+          background-size: 100% 18.5rem !important;
+          padding: 2rem;
 
           .icon {
             width: 8rem;
@@ -161,7 +161,7 @@ defineProps<{
           }
 
           .title {
-            margin-top: 1.87rem;
+            margin-top: 2.5rem;
             font-size: 2.13rem;
             line-height: 3.13rem;
           }
