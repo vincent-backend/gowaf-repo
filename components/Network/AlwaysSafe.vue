@@ -137,10 +137,12 @@ defineProps<{
         background-size: 46.88rem 33.13rem !important;
 
         > .row {
+          display: flex;
+          gap: 1.25rem;
           .content-item {
-            width: 20.94rem;
+            width: 100%;
             min-height: auto;
-            padding: 1.25rem;
+            padding: 2.5rem;
             padding-bottom: 3.44rem;
             text-align: center;
 
