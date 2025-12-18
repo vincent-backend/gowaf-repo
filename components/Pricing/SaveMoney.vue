@@ -268,7 +268,6 @@ const localizedDefaults: any = computed(() => {
 
       > .list {
         margin-top: 3.13rem;
-
         flex-direction: column;
         gap: 3.31rem;
 
@@ -291,7 +290,7 @@ const localizedDefaults: any = computed(() => {
           > .list {
             margin-top: 1.87rem;
 
-            padding: 0.63rem 1.25rem 0.19rem;
+            padding: 2rem;
 
             > .item {
               height: 5rem;

@@ -6,11 +6,9 @@
       <div class="list">
         <div class="item" v-for="item in i18ntext">
           <div class="head">
-            <div
-              
-            >
-            <img class="icon" :src="item.icon" />
-          </div>
+            <div>
+              <img class="icon" :src="item.icon" />
+            </div>
             <div class="title-container">
               <div class="title">{{ item.title }}</div>
               <div class="sub-title">{{ item.subTitle }}</div>
@@ -193,6 +191,7 @@ const i18ntext = computed(() => {
 
             .trail-btn {
               width: 100%;
+              justify-content: center;
             }
           }
         }

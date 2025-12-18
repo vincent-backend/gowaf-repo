@@ -57,7 +57,7 @@ defineProps<{
 </template>
 
 <style lang="less" scoped>
-.bread-crumbs-container {
+.bread-crumbs-container {  
   background: #ffffff;
   box-shadow: inset 0px 1px 0px 0px rgba(226, 226, 226, 0.5);
   height: 60px;
@@ -67,7 +67,7 @@ defineProps<{
     height: 100%;
     display: flex;
     align-items: center;
-
+    justify-content: space-around;
     .title {
     }
 
