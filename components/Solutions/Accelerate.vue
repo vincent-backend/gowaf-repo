@@ -413,7 +413,7 @@ const hovered = ref(-1);
             width: 48.6%;
             height: auto;
             box-sizing: border-box;
-            padding: 1rem;
+            padding: 2rem;
 
             background: #ffffff;
             border-radius: 14px;

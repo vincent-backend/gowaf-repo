@@ -51,8 +51,8 @@ defineProps<{
           </div>
         </div>
 
-        <div class="icon icon-1"></div>
-        <div class="icon icon-2"></div>
+        <!-- <div class="icon icon-1"></div>
+        <div class="icon icon-2"></div> -->
       </div>
     </div>
   </div>
@@ -200,14 +200,15 @@ defineProps<{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
+        text-align: center;
         > .item {
           padding: 0;
-          width: 50%;
+          width: 100%;
           box-sizing: border-box;
           display: flex;
           flex-direction: column;
           align-items: center;
+          margin-bottom: 2rem;
 
           .icon {
             width: 4.44rem;
@@ -218,30 +219,30 @@ defineProps<{
             margin-top: 1.2rem;
             font-family: Mont, Mont;
             font-weight: bold;
-            font-size: 1.44rem;
-            line-height: 1.94rem;
+            font-size: 2rem;
+            line-height: 3rem;
             text-align: center;
           }
 
           .content {
             margin-top: 0.44rem;
             width: 9.56rem;
-            height: 2.67rem;
+            height: 3rem;
             font-weight: 400;
-            font-size: 0.78rem;
+            font-size: 1rem;
             color: #4e4e4e;
             line-height: 1.33rem;
             margin: 0 auto;
           }
-          &:nth-child(1) {
-            padding-right: 5rem;
-          }
-          &:nth-child(2) {
-            padding-left: 5rem;
-          }
-          &:nth-child(3) {
-            margin-top: 10rem;
-          }
+          // &:nth-child(1) {
+          //   padding-right: 5rem;
+          // }
+          // &:nth-child(2) {
+          //   padding-left: 5rem;
+          // }
+          // &:nth-child(3) {
+          //   margin-top: 10rem;
+          // }
         }
 
         > .icon {
