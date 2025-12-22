@@ -67,7 +67,6 @@ defineProps<{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     .title {
     }
 
@@ -104,6 +103,7 @@ defineProps<{
     height: 5.63rem;
 
     .bread-crumbs {
+      justify-content: space-around;
       .links {
         gap: 3.13rem;
         overflow-x: scroll;

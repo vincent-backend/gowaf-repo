@@ -1023,6 +1023,7 @@ const i18ntext = computed(() => {
 <style lang="less" scoped>
 .banner-container {
   height: 840px;
+  padding-top: 20px;
   background: url(/images/network/Network_Overview_map.png) no-repeat
     center;
   background-size: 1920px 840px;
@@ -1036,7 +1037,7 @@ const i18ntext = computed(() => {
       margin-top: 30px;
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 40px;
       padding-left: 16px;
       padding-right: 16px;
 
@@ -1058,7 +1059,7 @@ const i18ntext = computed(() => {
     }
 
     > .content {
-      margin-top: 40px;
+      margin-top: 60px;
 
       .title-0 {
         font-family: Mont, Mont;
