@@ -282,10 +282,9 @@ defineProps<{
 @media (max-width: 767px) {
   .drm-customer-container {
     margin: 0 auto;
-    padding: 4rem 1.88rem;
+    padding: 4rem 3rem;
     box-sizing: border-box;
     width: 100%;
-    max-width: 43rem;
     background: #fff;
     .drm-customer-content-container {
       width: 100%;
