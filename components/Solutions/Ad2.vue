@@ -222,7 +222,7 @@ const props = defineProps({
     }
 
     .ad2 {
-      width: 43.13rem;
+      width: 90%;
       display: flex;
       flex-direction: column;
 
@@ -250,7 +250,7 @@ const props = defineProps({
       }
 
       > .right {
-        width: 43.13rem;
+        width: 100%;
 
         > .title {
           font-weight: 500;

@@ -564,6 +564,8 @@ const i18ntext = computed<any>(() => {
                 padding-right: 0;
                 width: 21.88rem;
                 height: 4.63rem;
+                align-items: center;
+                justify-content: center;
                 background: #ffffff;
                 border-radius: 2.34rem;
               }

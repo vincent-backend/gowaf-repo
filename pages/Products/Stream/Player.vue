@@ -184,7 +184,7 @@ const i18ntext = computed(() => {
   .player2-container {
     box-sizing: border-box;
     margin: 6.25rem auto;
-    width: 43rem;
+    width: 90%;
 
     > .title {
       font-weight: 500;
