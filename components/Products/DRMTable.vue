@@ -160,8 +160,8 @@ const i18ntext = computed<any>(() => {
     margin-top: 0;
 
     .drm-table {
-      width: 43rem;
-      padding: 1.63rem 0;
+      width: 90%;
+      padding: 1.63rem 0rem 1.63rem 2rem;
       box-sizing: border-box;
       background: #ffffff;
       box-shadow: 0px 0px 30px 0px rgba(173, 173, 173, 0.14);

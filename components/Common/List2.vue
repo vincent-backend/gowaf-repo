@@ -120,16 +120,16 @@ defineProps<{
 
       .list {
         margin-top: 3.13rem;
-        width: auto;
-        gap: 1.25rem 0;
-        justify-content: space-between;
+        width: 100%;
+        gap: 1.5rem 1.5rem;
+        justify-content: center;
 
         > .item {
           width: 20.9rem;
           min-height: 18.25rem;
           height: auto;
           box-sizing: border-box;
-          padding: 0.63rem 1.25rem 1.25rem 1.25rem;
+          padding: 1.5rem;
           text-align: center;
 
           .icon {
