@@ -146,7 +146,7 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <div class="bottom" v-if="page == 'resourcesAbout'">
+    <div class="bottom-resource" v-if="page == 'resourcesAbout'">
       <div class="left">
         <div class="title">
           <span>{{ $t('home.header.bottom1.title1') }}</span>
@@ -260,6 +260,78 @@ onUnmounted(() => {
   }
 
   .bottom {
+    width: 100%;
+    max-width: 1200px;
+    height: 132px;
+    background: url(/images/home/home_banner_bot_bg.png);
+    background-size: 100% 100% !important;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0 calc((100% - 1200px) / 2);
+    bottom: 0;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 54px;
+
+      .title {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+
+        .num {
+          margin: 0 10px;
+          font-family: Mont, Mont;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 40px;
+          background: linear-gradient(0deg, #46cf3a 0%, #36cfbc 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .sub-title {
+        color: #4e4e4e;
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 66px;
+
+      .title {
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      .rate {
+        margin-top: 14px;
+        display: flex;
+        gap: 8px;
+
+        .rate-item {
+          width: 28px;
+          height: 28px;
+          background: url(/images/home/home_banner_ic_star.png);
+        }
+      }
+
+      .sub-title {
+        margin-top: 10px;
+        color: #4e4e4e;
+      }
+    }
+  }
+
+  .bottom-resource {
     width: 100%;
     max-width: 1200px;
     height: 132px;
@@ -499,6 +571,72 @@ onUnmounted(() => {
         }
       }
     }
+
+    .bottom-resource {
+      margin: 5rem auto 0;
+
+      width: 43.13rem;
+      height: 26.88rem;
+      background: rgba(255, 255, 255, 0.7);
+      box-shadow: 0rem -0.12rem 0rem 0rem #ffffff;
+      border-radius: 1.5rem 1.5rem 0rem 0rem;
+      backdrop-filter: blur(5px);
+      position: absolute;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 1.94rem 3.13rem 1.25rem;
+      left: 15%;
+
+      .left {
+        padding: 0;
+
+        .title {
+          display: block;
+          font-size: 2.25rem;
+          font-weight: 500;
+          line-height: 1rem;
+
+          span {
+            line-height: 1rem;
+          }
+
+          .num {
+            font-size: 2.25rem;
+
+            margin: 0.5rem;
+          }
+        }
+
+        .sub-title {
+          margin-top: 2rem;
+          font-size: 1.5rem;
+        }
+      }
+
+      .right {
+        margin-top: 0rem;
+
+        padding: 0;
+
+        .title {
+          font-size: 1.63rem;
+        }
+
+        .rate {
+          margin-top: 0.5rem;
+
+          .rate-item {
+            width: 2.63rem;
+            height: 2.63rem;
+          }
+        }
+
+        .sub-title {
+          margin-top: 0.3rem;
+        }
+      }
+    }
+
 
     &.hide-foot {
       height: fit-content;

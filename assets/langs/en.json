@@ -1921,7 +1921,7 @@
         "DNS": "DNS",
         "apiDocs": "API Docs",
         "overview": "Overview",
-        "pricing": "pricing"
+        "pricing": "Pricing"
       },
       "multiDRM": {
         "header": {
@@ -2566,22 +2566,22 @@
       "accelerate": {
         "content": "You never have to worry about anything! Our Super Bunnies are here 24 hours a day, every day of the week, including weekends and holidays. Working on a bigger project? Check out all our premium support features!",
         "title": "No need to panic - if anything goes wrong. We’ve got your paws.",
-        "list" : {
-          "available" : {
-            "title" : "Super Available",
-            "content" : "Reach out to us with any problems you might have. We are here for you. Always!"
+        "list": {
+          "available": {
+            "title": "Super Available",
+            "content": "Reach out to us with any problems you might have. We are here for you. Always!"
           },
-          "knowledgeable" : {
-            "title" : "Super Knowledgeable",
-            "content" : "Hate being moved from one person to another? We directly connect you with our specialist!"
+          "knowledgeable": {
+            "title": "Super Knowledgeable",
+            "content": "Hate being moved from one person to another? We directly connect you with our specialist!"
           },
-          "responsive" : {
+          "responsive": {
             "title": "Super Responsive",
             "content": "Need help with a quick question or a minor problem? Use our Live-Chat and get a reply within 5 minutes!"
           },
-          "effective" : {
-            "title" : "Super Effective",
-            "content" : "Tired of waiting for bugs and issues to be fixed? Our average ticket solve time is under 3 hours."
+          "effective": {
+            "title": "Super Effective",
+            "content": "Tired of waiting for bugs and issues to be fixed? Our average ticket solve time is under 3 hours."
           }
         }
       },
