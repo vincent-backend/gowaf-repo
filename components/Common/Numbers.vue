@@ -11,7 +11,7 @@ const props = defineProps<{
 
 <template>
   <div class="numbers-container">
-    <h3 v-if="numbersTitle">{{ numbersTitle }}</h3>
+    <h3 v-if="numbersTitle" style="display: flex; justify-content: center;">{{ numbersTitle }}</h3>
     <LgOnly>
       <template v-if="!isRow || !isMobile()">
         <div

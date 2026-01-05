@@ -98,9 +98,6 @@ onUnmounted(() => {
             :to="href"
             class="trail-btn"
             v-if="btn"
-            :style="
-              btn2BorderColor ? { border: `2px solid ${btn2BorderColor}` } : ''
-            "
           >
             {{ btn }}
           </NuxtLinkLocale>
