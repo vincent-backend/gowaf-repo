@@ -488,7 +488,7 @@
             }
           }
           .helpful {
-            width: 43.75rem;
+            width: 100%;
             height: 16.69rem;
             background: #e6edfc;
             border-radius: 1.25rem;

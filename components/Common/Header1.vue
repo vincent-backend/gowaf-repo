@@ -85,7 +85,7 @@ onUnmounted(() => {
             {{ btn }}
           </NuxtLinkLocale>
         </div>
-        <div v-else>
+        <div v-else style="display: flex;">
           <NuxtLinkLocale
             :to="href"
             class="trail-btn"
