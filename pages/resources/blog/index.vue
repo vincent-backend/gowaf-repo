@@ -415,6 +415,7 @@ const i18ntext = computed(() => {
       display: flex;
       flex-direction: column;
       gap: 0.63rem;
+      margin-bottom: 2rem;
       .pre-title {
         font-family: Mont, Mont;
         font-weight: bold;
@@ -449,8 +450,8 @@ const i18ntext = computed(() => {
       }
     }
     .header-img {
-      width: 43.13rem;
-      height: 24.31rem;
+      width: 100%;
+      height: auto;
       flex-shrink: 0;
     }
   }
