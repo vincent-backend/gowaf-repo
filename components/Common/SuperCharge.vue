@@ -355,7 +355,7 @@ watch(curTab, (newCurTab) => {
             justify-content: space-between;
             flex-wrap: wrap;
             li {
-              width: 43.13rem;
+              width: 100%;
               height: 19.5rem;
               background: #ffffff;
               border-radius: 0.75rem;

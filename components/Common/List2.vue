@@ -125,7 +125,7 @@ defineProps<{
         justify-content: center;
 
         > .item {
-          width: 20.9rem;
+          width: 25rem;
           min-height: 18.25rem;
           height: auto;
           box-sizing: border-box;
