@@ -216,7 +216,7 @@ const i18ntext = computed<any>(() => {
 @media (max-width: 767px) {
   .tops-ad2-container {
     :deep(.ad2) {
-      width: 100%;
+      width: 90%;
     }
   }
   .content-container {

@@ -233,8 +233,8 @@ const i18ntext = computed<any>(() => {
     }
   }
   .whiteBoard {
-    width: 43.13rem;
-    margin-top: -3.13px;
+    width: 90%;
+    margin-top: 20px;
     z-index: 9;
     position: relative;
     height: fit-content;
